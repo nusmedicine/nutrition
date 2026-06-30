@@ -1,0 +1,38 @@
+# Macronutrients and energy
+
+> *Starter chapter — expand or replace. It exists here to demonstrate how chapters
+> join the table of contents.*
+
+## Energy density
+
+The macronutrients differ in the energy they yield per gram:
+
+| Macronutrient | Energy (kcal/g) |
+|---|---|
+| Carbohydrate | ~4 |
+| Protein | ~4 |
+| Fat | ~9 |
+| Alcohol | ~7 |
+
+Fat is the most energy-dense, which is why fat-rich foods raise total intake quickly.
+
+## Carbohydrate
+
+Carbohydrate is the body's primary fuel. Quality matters as much as quantity — wholegrains
+and legumes behave very differently from refined sugars.
+
+## Protein
+
+Protein supports tissue maintenance and has the highest thermic effect of the macronutrients,
+contributing modestly to energy expenditure.
+
+## Fat
+
+Dietary fat is essential but energy-dense; the *type* of fat (unsaturated vs saturated) is a
+key target in cardiometabolic counselling.
+
+::: {.callout-note}
+## Linking back
+These ideas feed directly into the [energy balance](energy-balance.qmd) chapter, where we turn
+intake and expenditure into a concrete plan.
+:::

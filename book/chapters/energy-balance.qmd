@@ -1,0 +1,64 @@
+# Energy balance and metabolism
+
+## Overview
+
+**Energy balance** is the relationship between energy taken in as food and energy
+expended. A sustained imbalance drives changes in body weight and metabolic health.
+Total energy expenditure (TEE) has three components:
+
+$$ \text{TEE} = \text{BMR} + \text{TEF} + \text{PA} $$
+
+- **BMR** — basal metabolic rate, the energy to keep the body running at rest
+  (typically **60–70%** of TEE).
+- **TEF** — thermic effect of food, the cost of digesting and processing meals (~10%).
+- **PA** — physical activity, the **most variable** component between individuals.
+
+::: {.callout-note}
+## Clinical pearl
+A daily surplus of just ~100 kcal — roughly one sweetened drink — can translate into
+clinically meaningful weight gain over a year. Small, *sustainable* changes are the
+lever in nutritional counselling.
+:::
+
+## Basal metabolic rate
+
+BMR is the largest slice of TEE, driven mainly by **fat-free (lean) mass**. It falls
+with age, is lower when thyroid hormone is reduced, and differs by sex (largely via
+body composition).
+
+### Estimating BMR: Mifflin–St Jeor
+
+A widely used estimate uses weight ($W$, kg), height ($H$, cm), age ($A$, years) and sex:
+
+$$ \text{BMR}_{\text{women}} = 10W + 6.25H - 5A - 161 $$
+$$ \text{BMR}_{\text{men}} = 10W + 6.25H - 5A + 5 $$
+
+Total needs then scale BMR by a **physical-activity level (PAL)** factor — roughly
+**1.4** sedentary, **1.6** moderate, **1.8+** very active:
+
+$$ \text{TEE} \approx \text{BMR} \times \text{PAL} $$
+
+::: {.callout-tip}
+## Worked example
+A sedentary woman, 52 y, 68 kg, 157 cm:
+$\text{BMR} = 10(68) + 6.25(157) - 5(52) - 161 \approx \mathbf{1240}$ kcal/day;
+total needs $\approx 1240 \times 1.4 \approx \mathbf{1740}$ kcal/day.
+:::
+
+## Check your understanding
+
+A quick self-test on the concepts above before you apply them — your answers are saved
+locally in your browser.
+
+<div data-island="quiz" data-src="/quizzes/energy-balance.quiz.yml"></div>
+
+## Practise: estimating a patient's energy needs
+
+Now put it together. Mdm Tan is back to review her diet — work out her energy needs and
+turn the estimate into realistic advice. Your choices branch the case.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/bmr-estimation.case.yml"></div>

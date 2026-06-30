@@ -1,0 +1,15 @@
+# Dependencies
+components/node_modules/
+
+# Quarto render output / cache
+book/_book/
+book/.quarto/
+/.quarto/
+
+# Built component bundle (generated from components/src by Vite — rebuild with `npm --prefix components run build`)
+book/assets/components.js
+book/assets/components.css
+
+# OS / editor
+.DS_Store
+Thumbs.db

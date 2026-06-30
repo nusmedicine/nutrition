@@ -1,0 +1,122 @@
+id: prediabetes-counseling
+title: "Counselling Mdm Tan: newly detected pre-diabetes"
+objectives:
+  - "Take a focused diet history before advising."
+  - "Translate guidelines into one realistic, patient-centred change."
+  - "Use motivational, non-judgemental language."
+difficulty: intro
+estimatedMinutes: 12
+tags: [nutrition, metabolism, diabetes, counselling]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 52
+  sex: female
+  occupation: "primary-school teacher"
+  presentation: "Screening fasting glucose 6.4 mmol/L; BMI 27.5; asymptomatic."
+  voice: "Polite, mildly anxious, time-pressed; enjoys kopi and char kway teow."
+
+nodes:
+  - id: intro
+    type: info
+    title: "The encounter begins"
+    body: |
+      Mdm Tan's fasting glucose is **6.4 mmol/L** (impaired fasting glucose).
+      She is asymptomatic and worried. *"Doctor, is it very serious?"*
+    next: q-first-step
+
+  - id: q-first-step
+    type: mcq
+    stem: "What is the best **first** step?"
+    options:
+      - id: a
+        text: "Take a focused diet history."
+        correct: true
+        feedback: "Assess before you advise — and it builds rapport."
+        effects: { quality: 1 }
+        goto: reveal-history
+      - id: b
+        text: "Tell her to cut out all rice and noodles."
+        correct: false
+        feedback: "Prescriptive, premature, and hard to sustain."
+        goto: reveal-history
+
+  - id: reveal-history
+    type: info
+    body: |
+      Her typical day: kopi with condensed milk ×3, char kway teow for lunch,
+      rice with dinner, sweet drinks with meals. Little physical activity.
+    next: q-change
+
+  - id: q-change
+    type: mcq
+    stem: "Which single change is the most realistic, high-yield first goal?"
+    options:
+      - id: a
+        text: "Replace 2 of 3 sweetened kopi with kopi-o kosong."
+        correct: true
+        feedback: "Specific, achievable, meaningful sugar reduction."
+        effects: { quality: 1 }
+        goto: route
+      - id: b
+        text: "Switch to a strict low-carb diet this week."
+        correct: false
+        feedback: "Large, abrupt change — low adherence, risks rapport."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 2"
+        goto: talk-to-mdm-tan
+    else: remedial
+
+  - id: talk-to-mdm-tan
+    type: patient-chat
+    scenarioId: prediabetes-mdm-tan
+    objective: "Agree one realistic dietary swap and check her confidence."
+    turnLimit: 8
+    exitWhen: "patient agrees to a specific, safe change"
+    goto: standard-counselling
+    fallbackGoto: standard-counselling
+
+  - id: standard-counselling
+    type: info
+    body: |
+      You summarise, agree one change, and arrange a 3-month review.
+    next: end-good
+
+  - id: remedial
+    type: info
+    title: "A chance to reflect"
+    body: |
+      The advice was a little prescriptive. Remember: assess first, then agree
+      one realistic, patient-centred change.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Patient-centred and realistic"
+    body: |
+      You assessed before advising and agreed one sustainable change.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Assess intake before prescribing."
+        - "One specific, achievable change beats a forbidden-foods list."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "On the right track"
+    body: |
+      You reached a plan, but a more patient-centred approach would land better.
+      Try replaying with different choices.
+    debrief:
+      objectivesMet: [2]
+      keyPoints:
+        - "Lead with assessment, not prescription."
+        - "Co-create one realistic change rather than a list of bans."

@@ -1,0 +1,157 @@
+id: bmr-estimation
+title: "Estimating Mdm Tan's energy needs"
+objectives:
+  - "Identify the inputs needed to estimate BMR."
+  - "Apply the Mifflin–St Jeor equation."
+  - "Use BMR and activity level to set realistic energy advice."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, metabolism, energy-balance, BMR]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 52
+  sex: female
+  occupation: "primary-school teacher"
+  presentation: "Reviewing her diet after a high screening glucose. Weight 68 kg, height 157 cm (BMI 27.6); largely sedentary."
+  voice: "Polite, mildly anxious, time-pressed; enjoys kopi and char kway teow."
+
+nodes:
+  - id: intro
+    type: info
+    title: "Setting a realistic plan"
+    body: |
+      To advise Mdm Tan on her diet, you first want to estimate her **daily energy
+      needs** — a sensible target is hard to set without knowing roughly how much
+      energy she expends.
+    next: q-inputs
+
+  - id: q-inputs
+    type: mcq
+    stem: "Which details do you need to estimate her **BMR** using Mifflin–St Jeor?"
+    options:
+      - id: a
+        text: "Age, sex, weight, and height"
+        correct: true
+        feedback: "Right — these four inputs drive the estimate."
+        effects: { quality: 1 }
+        goto: reveal
+      - id: b
+        text: "Weight only"
+        correct: false
+        feedback: "Weight alone is insufficient — height, age and sex all matter."
+        goto: reveal
+      - id: c
+        text: "Fasting glucose and blood pressure"
+        correct: false
+        feedback: "Important clinically, but not inputs to BMR estimation."
+        goto: reveal
+
+  - id: reveal
+    type: info
+    body: |
+      You confirm: **52 years**, **female**, **68 kg**, **157 cm**.
+
+      Mifflin–St Jeor (women): **BMR = 10·W + 6.25·H − 5·A − 161**
+    next: q-bmr
+
+  - id: q-bmr
+    type: mcq
+    stem: "Applying the equation, her BMR is approximately…?"
+    options:
+      - id: a
+        text: "~1240 kcal/day"
+        correct: true
+        feedback: "Correct: 10·68 + 6.25·157 − 5·52 − 161 ≈ **1240 kcal/day**."
+        effects: { quality: 1 }
+        goto: q-tee
+      - id: b
+        text: "~1405 kcal/day"
+        correct: false
+        feedback: "That uses the **men's** constant (+5) instead of −161 for women."
+        goto: q-tee
+      - id: c
+        text: "~1700 kcal/day"
+        correct: false
+        feedback: "That is closer to her *total* needs once activity is added, not BMR itself."
+        goto: q-tee
+
+  - id: q-tee
+    type: mcq
+    stem: "She is largely sedentary. To estimate **total** daily energy needs, multiply BMR by an activity factor of about…?"
+    options:
+      - id: a
+        text: "≈ 1.4"
+        correct: true
+        feedback: "Right — ~1.4 × 1240 ≈ **1740 kcal/day** total."
+        effects: { quality: 1 }
+        goto: route
+      - id: b
+        text: "≈ 1.0"
+        correct: false
+        feedback: "1.0 would ignore all activity and the thermic effect of food."
+        goto: route
+      - id: c
+        text: "≈ 2.2"
+        correct: false
+        feedback: "~2.2 is for very active people — not a sedentary teacher."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 2"
+        goto: talk-to-mdm-tan
+    else: remedial
+
+  - id: talk-to-mdm-tan
+    type: patient-chat
+    scenarioId: bmr-mdm-tan
+    objective: "Agree a realistic daily energy target and one concrete dietary change."
+    turnLimit: 8
+    exitWhen: "patient agrees a specific, safe change"
+    goto: counselling
+    fallbackGoto: counselling
+
+  - id: counselling
+    type: info
+    body: |
+      With needs ≈ **1740 kcal/day**, a modest **300–500 kcal/day** deficit supports
+      gradual weight loss. You agree one realistic change — swapping two sweetened
+      kopi for kopi-o kosong — and arrange review.
+    next: end-good
+
+  - id: remedial
+    type: info
+    title: "Let's revisit the estimate"
+    body: |
+      A shaky energy estimate makes for shaky advice. Recall the steps: identify the
+      inputs → apply Mifflin–St Jeor → scale by activity → set a modest deficit.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "From estimate to advice"
+    body: |
+      You estimated her needs and translated them into a realistic, modest deficit.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "BMR needs weight, height, age, and sex (Mifflin–St Jeor)."
+        - "Total needs ≈ BMR × activity factor."
+        - "A 300–500 kcal/day deficit supports gradual, sustainable loss."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a plan, but firm up the energy estimate so the advice is well grounded.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Identify the right inputs before calculating."
+        - "Scale BMR by an activity factor to get total needs."

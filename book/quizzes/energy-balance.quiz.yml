@@ -1,0 +1,54 @@
+id: energy-balance-basics
+title: "Quick check: energy balance & BMR"
+questions:
+  - id: q1
+    stem: "Basal metabolic rate (BMR) typically accounts for what share of total energy expenditure?"
+    options:
+      - text: "About 10%"
+        correct: false
+        feedback: "~10% is the **thermic effect of food (TEF)**, not BMR."
+      - text: "60–70%"
+        correct: true
+        feedback: "Correct — BMR is the largest component of TEE for most people."
+      - text: "Over 90%"
+        correct: false
+        feedback: "Too high — physical activity and TEF together make up a meaningful share."
+
+  - id: q2
+    stem: "Which component of total energy expenditure varies **most** between individuals?"
+    options:
+      - text: "Basal metabolic rate"
+        correct: false
+        feedback: "BMR varies, but it is relatively stable for a given body composition."
+      - text: "Physical activity"
+        correct: true
+        feedback: "Correct — physical activity is the most variable component."
+      - text: "Thermic effect of food"
+        correct: false
+        feedback: "TEF is fairly constant at ~10% of intake."
+
+  - id: q3
+    stem: "Which change would tend to **increase** BMR?"
+    options:
+      - text: "Greater fat-free (lean) mass"
+        correct: true
+        feedback: "Correct — metabolically active lean mass is the main driver of BMR."
+      - text: "Increasing age"
+        correct: false
+        feedback: "BMR tends to fall with age."
+      - text: "Lower thyroid hormone"
+        correct: false
+        feedback: "Reduced thyroid hormone lowers BMR."
+
+  - id: q4
+    stem: "The Mifflin–St Jeor equation estimates BMR from which inputs?"
+    options:
+      - text: "Weight, height, age, and sex"
+        correct: true
+        feedback: "Correct — these four inputs drive the estimate."
+      - text: "Weight and blood pressure"
+        correct: false
+        feedback: "Blood pressure is not an input to BMR estimation."
+      - text: "Fasting glucose and BMI"
+        correct: false
+        feedback: "These do not determine BMR in the equation."

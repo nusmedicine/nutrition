@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<!--
+  Health in Medicine — Case Player PROTOTYPE (throwaway, zero-install)
+  ------------------------------------------------------------------
+  Purpose: validate the CASE-FORMAT.md DSL + interaction model in tight loops.
+  - No build step, no dependencies, works offline. Just open this file in a browser.
+  - The case below is the worked example from CASE-FORMAT.md, expressed as a JS object
+    (1:1 with the YAML). The real build will load YAML and render via Svelte.
+  - Engine logic (CaseEngine, ExprEval) is framework-agnostic and ports to Svelte unchanged.
+  Decisions reflected: single `quality` dimension; formative qualitative debrief (no score);
+  optional patient-chat degrades gracefully; WCAG 2.2 AA-minded UI.
+-->
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Case Player — prototype</title>
+<style>
+  :root{
+    --bg:#f6f7f9; --surface:#ffffff; --ink:#1a2027; --muted:#5b6670;
+    --line:#d8dee5; --brand:#0b6b5b; --brand-ink:#08503f;
+    --good-bg:#e7f5ee; --good-line:#1f9d6b; --good-ink:#0d5e3f;
+    --warn-bg:#fdf1e3; --warn-line:#d08a2c; --warn-ink:#8a5410;
+    --focus:#1664c0; --radius:10px;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font:16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  main{max-width:720px; margin:0 auto; padding:24px 18px 64px}
+  .card{background:var(--surface); border:1px solid var(--line); border-radius:var(--radius);
+    padding:20px 22px; box-shadow:0 1px 2px rgba(16,24,40,.04)}
+  h1{font-size:1.35rem; margin:.1em 0 .2em}
+  h2{font-size:1.12rem; margin:0 0 .5em}
+  .persona{color:var(--muted); font-size:.92rem; margin:.2em 0 18px}
+  .persona b{color:var(--ink)}
+  .topbar{display:flex; flex-wrap:wrap; gap:8px; align-items:center; justify-content:space-between;
+    margin-bottom:14px}
+  .endings{font-size:.85rem; color:var(--muted)}
+  .endings .tick{color:var(--good-ink); font-weight:600}
+  button{font:inherit; cursor:pointer}
+  .btn{background:var(--brand); color:#fff; border:1px solid var(--brand-ink);
+    border-radius:8px; padding:11px 16px; min-height:44px; font-weight:600}
+  .btn:hover{background:var(--brand-ink)}
+  .btn.secondary{background:transparent; color:var(--brand-ink); border-color:var(--line)}
+  .btn.secondary:hover{background:#eef2f1}
+  .opts{display:flex; flex-direction:column; gap:10px; margin:14px 0 4px}
+  .opt{display:block; width:100%; text-align:left; background:#fff; color:var(--ink);
+    border:1px solid var(--line); border-radius:10px; padding:13px 15px; min-height:44px}
+  .opt:hover:not(:disabled){border-color:var(--brand); background:#f3f8f7}
+  .opt:disabled{opacity:1; cursor:default}
+  .opt.chosen{border-width:2px; padding:12px 14px}
+  .opt.chosen.correct{border-color:var(--good-line); background:var(--good-bg)}
+  .opt.chosen.incorrect{border-color:var(--warn-line); background:var(--warn-bg)}
+  .opt .tag{display:inline-block; font-size:.72rem; font-weight:700; letter-spacing:.03em;
+    text-transform:uppercase; margin-left:8px; padding:1px 7px; border-radius:99px}
+  .opt.correct .tag{background:var(--good-line); color:#fff}
+  .opt.incorrect .tag{background:var(--warn-line); color:#fff}
+  .feedback{margin:14px 0; padding:13px 15px; border-radius:10px; border:1px solid var(--line);
+    background:#f7f9fb}
+  .feedback h3{margin:0 0 4px; font-size:.8rem; text-transform:uppercase; letter-spacing:.04em;
+    color:var(--muted)}
+  .stem{font-weight:600}
+  .note{font-size:.9rem; color:var(--muted); background:#f1f4f7; border:1px dashed var(--line);
+    border-radius:10px; padding:12px 14px; margin:12px 0}
+  .actions{margin-top:18px; display:flex; gap:10px; flex-wrap:wrap}
+  .outcome{display:inline-block; font-size:.8rem; font-weight:700; text-transform:uppercase;
+    letter-spacing:.04em; padding:3px 10px; border-radius:99px; margin-bottom:8px}
+  .outcome.success{background:var(--good-bg); color:var(--good-ink); border:1px solid var(--good-line)}
+  .outcome.partial{background:var(--warn-bg); color:var(--warn-ink); border:1px solid var(--warn-line)}
+  .outcome.poor{background:#fde8e8; color:#9b1c1c; border:1px solid #e06666}
+  ul.keypoints{margin:.4em 0 0; padding-left:1.2em}
+  ul.keypoints li{margin:.25em 0}
+  .debrief h3{font-size:.95rem; margin:16px 0 4px}
+  details.debug{margin-top:22px; font-size:.86rem; color:var(--muted)}
+  details.debug summary{cursor:pointer; user-select:none}
+  details.debug code{background:#eef2f5; padding:1px 5px; border-radius:5px}
+  .path{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.82rem;
+    word-break:break-word}
+  :focus-visible{outline:3px solid var(--focus); outline-offset:2px; border-radius:6px}
+  h2[tabindex]:focus-visible{outline-offset:4px}
+  @media (prefers-reduced-motion: reduce){*{transition:none !important}}
+</style>
+</head>
+<body>
+<main>
+  <div class="topbar">
+    <strong style="color:var(--brand-ink)">Health in Medicine · Case Player <span style="font-weight:400;color:var(--muted)">(prototype)</span></strong>
+    <span class="endings" id="endings" aria-live="polite"></span>
+  </div>
+  <div class="card" id="app" aria-live="off"><!-- rendered by JS --></div>
+  <div class="actions">
+    <button class="btn secondary" type="button" id="restart">↻ Restart case</button>
+    <button class="btn secondary" type="button" id="reset">Reset all progress</button>
+  </div>
+  <details class="debug" id="debug">
+    <summary>Author view (debug) — variables &amp; path</summary>
+    <div id="debugBody" style="margin-top:8px"></div>
+  </details>
+</main>
+
+<script>
+"use strict";
+
+/* ============================================================
+   THE CASE  (1:1 with the YAML worked example in CASE-FORMAT.md)
+   ============================================================ */
+const CASE = {
+  id: "prediabetes-counseling",
+  title: "Counselling Mdm Tan: newly detected pre-diabetes",
+  objectives: [
+    "Take a focused diet history before advising.",
+    "Translate guidelines into one realistic, patient-centred change.",
+    "Use motivational, non-judgemental language."
+  ],
+  persona: {
+    name: "Mdm Tan", age: 52, sex: "female", occupation: "primary-school teacher",
+    presentation: "Screening fasting glucose 6.4 mmol/L; BMI 27.5; asymptomatic."
+  },
+  estimatedMinutes: 12,
+  start: "intro",
+  variables: { quality: 0 },
+  nodes: [
+    { id:"intro", type:"info", title:"The encounter begins",
+      body:"Mdm Tan's fasting glucose is **6.4 mmol/L** (impaired fasting glucose). She is asymptomatic and worried. *\"Doctor, is it very serious?\"*",
+      next:"q-first-step" },
+
+    { id:"q-first-step", type:"mcq", stem:"What is the best **first** step?",
+      options:[
+        { id:"a", text:"Take a focused diet history.", correct:true,
+          feedback:"Assess before you advise — and it builds rapport.",
+          effects:{ quality:1 }, goto:"reveal-history" },
+        { id:"b", text:"Tell her to cut out all rice and noodles.", correct:false,
+          feedback:"Prescriptive, premature, and hard to sustain.",
+          goto:"reveal-history" }
+      ] },
+
+    { id:"reveal-history", type:"info",
+      body:"Her typical day: kopi with condensed milk ×3, char kway teow for lunch, rice with dinner, sweet drinks with meals. Little physical activity.",
+      next:"q-change" },
+
+    { id:"q-change", type:"mcq", stem:"Which single change is the most realistic, high-yield first goal?",
+      options:[
+        { id:"a", text:"Replace 2 of 3 sweetened kopi with kopi-o kosong.", correct:true,
+          feedback:"Specific, achievable, meaningful sugar reduction.",
+          effects:{ quality:1 }, goto:"route" },
+        { id:"b", text:"Switch to a strict low-carb diet this week.", correct:false,
+          feedback:"Large, abrupt change — low adherence, risks rapport.",
+          goto:"route" }
+      ] },
+
+    { id:"route", type:"branch",
+      rules:[ { if:"quality >= 2", goto:"talk-to-mdm-tan" } ],
+      else:"remedial" },
+
+    { id:"talk-to-mdm-tan", type:"patient-chat",
+      scenarioId:"prediabetes-mdm-tan",
+      objective:"Agree one realistic dietary swap and check her confidence.",
+      turnLimit:8, exitWhen:"patient agrees to a specific, safe change",
+      goto:"standard-counselling", fallbackGoto:"standard-counselling" },
+
+    { id:"standard-counselling", type:"info",
+      body:"You summarise, agree one change, and arrange a 3-month review.",
+      next:"end-good" },
+
+    { id:"remedial", type:"info", title:"A chance to reflect",
+      body:"The advice was a little prescriptive. Remember: assess first, then agree one realistic, patient-centred change.",
+      next:"end-partial" },
+
+    { id:"end-good", type:"end", outcome:"success", title:"Patient-centred and realistic",
+      body:"You assessed before advising and agreed one sustainable change.",
+      debrief:{ objectivesMet:[1,2,3], keyPoints:[
+        "Assess intake before prescribing.",
+        "One specific, achievable change beats a forbidden-foods list." ] } },
+
+    { id:"end-partial", type:"end", outcome:"partial", title:"On the right track",
+      body:"You reached a plan, but a more patient-centred approach would land better. Try replaying with different choices.",
+      debrief:{ objectivesMet:[2], keyPoints:[
+        "Lead with assessment, not prescription.",
+        "Co-create one realistic change rather than a list of bans." ] } }
+  ]
+};
+
+/* ============================================================
+   Tiny markdown (inline bold/italic/code + paragraphs). Safe: escapes first.
+   ============================================================ */
+function esc(s){ return String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c])); }
+function mdInline(s){
+  return esc(s)
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g,'<em>$1</em>')
+    .replace(/`([^`]+)`/g,'<code>$1</code>');
+}
+function md(s){
+  return String(s).split(/\n\s*\n/)
+    .map(p => '<p>'+mdInline(p.trim().replace(/\s*\n\s*/g,' '))+'</p>').join('');
+}
+
+/* ============================================================
+   ExprEval — restricted, sandboxed evaluator for branch conditions.
+   Grammar: || , && , comparisons (>= > <= < == !=), parens, numbers,
+   true/false, and declared variable identifiers. NO arbitrary JS.
+   ============================================================ */
+const ExprEval = (() => {
+  function tokenize(src){
+    const re = /\s*(>=|<=|==|!=|&&|\|\||[<>()]|[A-Za-z_]\w*|\d+(?:\.\d+)?)/y;
+    const toks = []; let m; re.lastIndex = 0;
+    while (re.lastIndex < src.length){
+      m = re.exec(src);
+      if (!m) throw new Error("Bad token in expression: " + src);
+      toks.push(m[1]);
+    }
+    return toks;
+  }
+  function parse(toks, vars){
+    let i = 0;
+    const peek = () => toks[i];
+    const eat = t => { if (t && toks[i] !== t) throw new Error("Expected "+t); return toks[i++]; };
+    function primary(){
+      const t = peek();
+      if (t === "("){ eat("("); const v = orExpr(); eat(")"); return v; }
+      if (t === "true"){ i++; return true; }
+      if (t === "false"){ i++; return false; }
+      if (/^\d/.test(t)){ i++; return parseFloat(t); }
+      if (/^[A-Za-z_]/.test(t)){ i++; return (vars[t] ?? 0); }
+      throw new Error("Unexpected token: " + t);
+    }
+    function compare(){
+      let l = primary();
+      while (["<",">","<=",">=","==","!="].includes(peek())){
+        const op = toks[i++]; const r = primary();
+        l = op==="<"?l<r : op===">"?l>r : op==="<="?l<=r : op===">="?l>=r :
+            op==="=="?l===r : l!==r;
+      }
+      return l;
+    }
+    function andExpr(){ let l = compare(); while (peek()==="&&"){ i++; const r = compare(); l = (!!l)&&(!!r);} return l; }
+    function orExpr(){ let l = andExpr(); while (peek()==="||"){ i++; const r = andExpr(); l = (!!l)||(!!r);} return l; }
+    const v = orExpr();
+    if (i < toks.length) throw new Error("Trailing tokens in expression");
+    return v;
+  }
+  return { eval(expr, vars){ return !!parse(tokenize(expr), vars || {}); } };
+})();
+
+/* ============================================================
+   Store — resilient localStorage (falls back to memory if unavailable,
+   e.g. inside a sandboxed iframe). Real build uses IndexedDB.
+   ============================================================ */
+const Store = (() => {
+  const KEY = "caseproto:" + CASE.id;
+  let mem = null, ok = true;
+  try { localStorage.setItem("__t","1"); localStorage.removeItem("__t"); } catch(e){ ok = false; }
+  return {
+    load(){ try { return ok ? JSON.parse(localStorage.getItem(KEY) || "null") : mem; } catch(e){ return null; } },
+    save(v){ try { ok ? localStorage.setItem(KEY, JSON.stringify(v)) : (mem = v); } catch(e){ mem = v; } },
+    clear(){ try { ok ? localStorage.removeItem(KEY) : (mem = null); } catch(e){ mem = null; } }
+  };
+})();
+
+/* ============================================================
+   CaseEngine — framework-agnostic state machine (ports to Svelte unchanged)
+   ============================================================ */
+function CaseEngine(def){
+  const byId = Object.fromEntries(def.nodes.map(n => [n.id, n]));
+  const totalEndings = def.nodes.filter(n => n.type === "end").length;
+
+  function newGame(found){
+    return { currentId:null, vars:{...def.variables}, path:[], pending:null,
+             completedEndings: found ? found.slice() : [], status:"playing" };
+  }
+  let state = Store.load() || newGame([]);
+
+  function save(){ Store.save(state); }
+  function node(){ return byId[state.currentId]; }
+
+  function applyEffects(eff){
+    if (!eff) return;
+    for (const k in eff){
+      const v = eff[k];
+      if (typeof v === "number") state.vars[k] = (state.vars[k] || 0) + v;
+      else state.vars[k] = v;
+    }
+  }
+  function evalBranch(n){
+    for (const r of (n.rules || [])){ if (ExprEval.eval(r.if, state.vars)) return r.goto; }
+    return n.else;
+  }
+
+  // Move to a node, transparently resolving silent `branch` hops.
+  function enter(id){
+    let n = byId[id];
+    while (n && n.type === "branch"){
+      state.path.push(n.id);
+      n = byId[evalBranch(n)];
+    }
+    state.currentId = n.id;
+    state.path.push(n.id);
+    state.pending = null;
+    if (n.type === "end"){
+      state.status = "ended";
+      if (!state.completedEndings.some(e => e.id === n.id))
+        state.completedEndings.push({ id:n.id, outcome:n.outcome, title:n.title });
+    }
+    save();
+  }
+
+  return {
+    def, byId, totalEndings,
+    get state(){ return state; },
+    node,
+    start(){ state = newGame([]); enter(def.start); },
+    resumeOrStart(){ if (!state.currentId) enter(def.start); },
+    restart(){ state = newGame(state.completedEndings); enter(def.start); },
+    reset(){ Store.clear(); state = newGame([]); enter(def.start); },
+    choose(optId){ const n = node(); applyEffects((n.options.find(o=>o.id===optId)||{}).effects); state.pending = optId; save(); },
+    continueMcq(){ const n = node(); const opt = n.options.find(o=>o.id===state.pending); enter(opt.goto); },
+    continueInfo(){ enter(node().next); },
+    continuePatientChat(){ enter(node().fallbackGoto); }, // prototype: LLM off → fallback
+  };
+}
+
+/* ============================================================
+   Render
+   ============================================================ */
+const engine = CaseEngine(CASE);
+const app = document.getElementById("app");
+const endingsEl = document.getElementById("endings");
+
+function personaLine(){
+  const p = CASE.persona;
+  return `<p class="persona"><b>${esc(p.name)}</b>, ${p.age}, ${esc(p.occupation)} — ${esc(p.presentation)}</p>`;
+}
+function updateEndings(){
+  const n = engine.state.completedEndings.length, t = engine.totalEndings;
+  const done = engine.state.completedEndings.map(e => esc(e.title)).join(", ");
+  endingsEl.innerHTML = `Endings discovered: <span class="tick">${n}</span> of ${t}` +
+    (n ? ` — <span>${done}</span>` : ` <span>(explore different choices)</span>`);
+}
+function updateDebug(){
+  const s = engine.state;
+  document.getElementById("debugBody").innerHTML =
+    `Variables: <code>${esc(JSON.stringify(s.vars))}</code><br>` +
+    `<span class="path">Path: ${s.path.map(esc).join(" → ")}</span>`;
+}
+
+function setFocus(sel){
+  const el = app.querySelector(sel);
+  if (el){ el.focus(); }
+}
+
+function render(focus){
+  const n = engine.node();
+  let html = "";
+
+  if (n.type === "info"){
+    html += n.title ? `<h2 tabindex="-1" id="nt">${esc(n.title)}</h2>` : `<h2 tabindex="-1" id="nt" class="visually-hidden" style="position:absolute;left:-9999px">Information</h2>`;
+    html += md(n.body);
+    html += `<div class="actions"><button class="btn" type="button" data-act="info">Continue →</button></div>`;
+  }
+
+  else if (n.type === "mcq"){
+    html += `<h2 tabindex="-1" id="nt" class="stem">${mdInline(n.stem)}</h2>`;
+    const pend = engine.state.pending;
+    html += `<div class="opts" role="group" aria-labelledby="nt">`;
+    for (const o of n.options){
+      if (!pend){
+        html += `<button class="opt" type="button" data-opt="${o.id}">${esc(o.text)}</button>`;
+      } else {
+        const chosen = o.id === pend;
+        const cls = chosen ? "chosen " + (o.correct ? "correct" : "incorrect")
+                           : (o.correct ? "correct" : "");
+        const tag = (chosen || o.correct)
+          ? `<span class="tag">${o.correct ? "Correct" : "Reconsider"}</span>` : "";
+        html += `<button class="opt ${cls}" type="button" disabled>${esc(o.text)}${tag}</button>`;
+      }
+    }
+    html += `</div>`;
+    if (pend){
+      const opt = n.options.find(o=>o.id===pend);
+      html += `<div class="feedback" role="status"><h3>Feedback</h3>${md(opt.feedback || "")}</div>`;
+      html += `<div class="actions"><button class="btn" type="button" data-act="mcq" id="cont">Continue →</button></div>`;
+    }
+  }
+
+  else if (n.type === "patient-chat"){
+    html += `<h2 tabindex="-1" id="nt">Optional: talk to the patient</h2>`;
+    html += `<div class="note"><strong>AI patient roleplay</strong> — this is where the student would
+      converse freely with a guardrailed AI playing ${esc(CASE.persona.name)}.
+      <br>Objective: <em>${esc(n.objective)}</em>.
+      <br>It's disabled in this offline prototype, so the case continues seamlessly
+      (demonstrating graceful <code>fallbackGoto</code>).</div>`;
+    html += `<div class="actions"><button class="btn" type="button" data-act="chat">Continue →</button></div>`;
+  }
+
+  else if (n.type === "end"){
+    html += `<span class="outcome ${esc(n.outcome)}">Outcome: ${esc(n.outcome)}</span>`;
+    html += `<h2 tabindex="-1" id="nt">${esc(n.title)}</h2>`;
+    html += md(n.body);
+    if (n.debrief){
+      html += `<div class="debrief">`;
+      const met = (n.debrief.objectivesMet || []).map(i => CASE.objectives[i-1]).filter(Boolean);
+      if (met.length){
+        html += `<h3>Objectives met</h3><ul class="keypoints">` +
+          met.map(o=>`<li>${esc(o)}</li>`).join("") + `</ul>`;
+      }
+      if (n.debrief.keyPoints && n.debrief.keyPoints.length){
+        html += `<h3>Key points</h3><ul class="keypoints">` +
+          n.debrief.keyPoints.map(k=>`<li>${esc(k)}</li>`).join("") + `</ul>`;
+      }
+      html += `</div>`;
+    }
+    html += `<div class="actions"><button class="btn" type="button" data-act="restart">↻ Play again</button></div>`;
+  }
+
+  app.innerHTML = personaLine() + html;
+  updateEndings(); updateDebug();
+  setFocus(focus || "#nt");
+}
+
+/* events (delegated) */
+app.addEventListener("click", (e) => {
+  const opt = e.target.closest("[data-opt]");
+  if (opt){ engine.choose(opt.getAttribute("data-opt")); render("#cont"); return; }
+  const act = e.target.closest("[data-act]");
+  if (!act) return;
+  switch (act.getAttribute("data-act")){
+    case "info": engine.continueInfo(); render("#nt"); break;
+    case "mcq": engine.continueMcq(); render("#nt"); break;
+    case "chat": engine.continuePatientChat(); render("#nt"); break;
+    case "restart": engine.restart(); render("#nt"); break;
+  }
+});
+document.getElementById("restart").addEventListener("click", () => { engine.restart(); render("#nt"); });
+document.getElementById("reset").addEventListener("click", () => { engine.reset(); render("#nt"); });
+
+/* boot */
+engine.resumeOrStart();
+render("#nt");
+</script>
+</body>
+</html>
