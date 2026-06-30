@@ -13,6 +13,7 @@
     "vite": "^6.0.0"
   },
   "dependencies": {
+    "3dmol": "^2.5.5",
     "js-yaml": "^4.1.0"
   }
 }

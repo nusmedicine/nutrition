@@ -126,6 +126,16 @@ of genuine ongoing scientific debate; the first-year message stays simple: repla
 unsaturated and whole foods.)*
 :::
 
+### Seeing the difference: *cis* vs *trans*
+
+Oleic acid (the main fat in olive oil) and elaidic acid (the classic industrial *trans*
+fat) contain the **same atoms** — they differ only in the geometry around a single double
+bond. Rotate them below and switch the representation: the **cis** bond puts a kink in the
+chain, while the **trans** bond leaves it almost straight, so it packs tightly and behaves
+like a saturated fat. The geometry *is* the explanation.
+
+<div data-island="molecule" data-src="/structures/dietary-fats.mol.yml"></div>
+
 ## Protein: adequacy and quality
 
 Protein supplies amino acids for structure, enzymes, immune molecules and transport. Of the
