@@ -1,0 +1,160 @@
+# Why nutrition matters
+
+> *The motivational gateway to the course. It answers one question — why should a
+> first-year medical student take nutrition seriously? — and frames the answer through
+> the six pillars of health, with nutrition as the integrating hub.*
+
+## The shape of modern disease
+
+For most of medicine's history, the doctor's enemy was the acute and the infectious:
+pneumonia, sepsis, trauma. That enemy has not gone away — but it has been overtaken.
+Today, **non-communicable diseases (NCDs)** — cardiovascular disease, type 2 diabetes,
+cancers, chronic respiratory disease — cause around **three-quarters of all deaths
+worldwide** [@who2020diet]. These are, in large part, **slow diseases of daily living**, driven by a
+handful of *modifiable* behaviours: what we eat, how much we move, whether we sleep,
+smoke, or drink.
+
+Diet sits near the top of that list. The Global Burden of Disease study attributes around
+**11 million deaths a year** to dietary risks — too much sodium, too few whole grains, too
+little fruit — making diet one of the single largest *modifiable* contributors to early
+death [@gbd2019diet].
+
+::: {.callout-note}
+## Read the headline carefully
+The "11 million deaths" figure is a *modelled* estimate from observational data, and its
+large weighting on sodium is methodologically debated. The honest claim is *"diet is among
+the leading modifiable risks"* — not a precise body count. We will practise this kind of
+careful reading throughout the book.
+:::
+
+This reframes the job. A clinician who can only treat the acute crisis arrives, by
+definition, *late*. The larger opportunity — and the harder skill — is to **prevent and
+slow** chronic disease. Nutrition is where that work begins.
+
+## The six pillars of health
+
+Protecting health is not a vague instruction to "live better." It rests on a small set of
+evidence-based behaviours that prevent, treat, and sometimes reverse chronic disease
+[@aclm2022comp; @lianov2010] — used **alongside** drugs and surgery, never instead of them.
+There are **six pillars**:
+
+1. **Nutrition** — a predominantly whole-food, plant-rich eating pattern.
+2. **Physical activity** — regular movement across the week.
+3. **Restorative sleep** — adequate quantity and quality.
+4. **Stress management** — recognising and regulating chronic stress.
+5. **Positive social connection** — relationships and community.
+6. **Avoidance of risky substances** — tobacco, excess alcohol.
+
+::: {.callout-tip}
+## Prevention, the Singapore way
+In Singapore, this preventive, behaviour-first approach is increasingly the *organising
+frame* of primary care — most visibly through **Healthier SG**, the national shift from
+reactive hospital care toward proactive, relationship-based prevention [@mohHealthierSG].
+The conviction behind **Health in Medicine** is simple: helping people live well is core
+clinical work, not an optional extra.
+:::
+
+## Nutrition as the hub
+
+Of the six pillars, nutrition is special — not because it matters *more* in every case,
+but because it **connects to all the others**, in both directions. It is the natural spine
+of this course because pulling on it tends to move the whole web.
+
+- **Nutrition ↔ physical activity.** Diet and movement act together on weight and glucose;
+  neither alone is as effective as both.
+- **Nutrition ↔ sleep.** Short sleep lowers insulin sensitivity and raises appetite and
+  intake of energy-dense food, while late, heavy meals worsen sleep — a self-reinforcing
+  loop [@sleepRestriction].
+- **Nutrition ↔ stress.** Acute and chronic stress (the cortisol pathway) drive "comfort
+  eating" of palatable, energy-dense food [@dallman2003].
+- **Nutrition ↔ risky substances.** Alcohol is itself dietary — empty energy that also
+  disinhibits food choice.
+- **Nutrition ↔ social connection.** Eating is profoundly social: family meals, communal
+  hawker eating, festive food. Social context can entrench *or* transform a diet.
+
+The teaching consequence is simple and recurs all year: **start with nutrition, but plan
+across the pillars.** Fixing the diet often means touching sleep and stress too.
+
+## Patterns over nutrients
+
+A persistent trap — for patients *and* doctors — is **single-nutrient reductionism**: the
+search for the one villain (carbs, fat, gluten) or the one "superfood." The evidence does
+not support it. What predicts health is the **overall dietary pattern**, not isolated
+nutrients [@aha2021diet]. Two of the most-studied patterns illustrate the point:
+
+- The **Mediterranean** pattern (olive oil, nuts, legumes, fish, vegetables) was associated
+  with about a **30% lower risk** on a composite cardiovascular endpoint in the PREDIMED
+  trial [@estruch2018predimed].
+- The **DASH** pattern (rich in fruit, vegetables, low-fat dairy) lowered blood pressure
+  meaningfully, even without weight loss or salt restriction [@appel1997dash].
+
+::: {.callout-warning}
+## Landmark trials come with caveats — always
+We name these trials as *teasers*; you will meet their limits in the clinical chapters. In
+brief: PREDIMED's headline comes from a **2018 re-analysis** after the original was
+withdrawn for randomisation problems, it was partly **cluster-randomised**, and the
+composite endpoint was **stroke-dominated**. DASH was a short-term **controlled-feeding**
+study with a **surrogate** outcome (blood pressure). Impressive — but not the same as
+"prevents heart attacks." Quoting a trial *without* its caveat is a habit to unlearn now.
+:::
+
+## Why this is Singapore's fight
+
+Diet-related disease is a declared national priority. The **War on Diabetes** (launched
+2016) treats diabetes as a population-scale problem [@mohWarOnDiabetes]: roughly **1 in 3**
+Singaporeans has a lifetime risk of diabetes, with higher risk among Malay and Indian
+residents.
+
+The **National Nutrition Survey 2022** shows why the thresholds matter — the population
+diet is some distance from the guidelines [@mohNNS2022]:
+
+| Finding (NNS 2022) | What it means |
+|---|---|
+| Only **~4%** of staples eaten are wholegrain | A *quality* gap (refined rice and noodles dominate) |
+| **~9 in 10** residents exceed the WHO sodium limit | Most sodium hides in sauces, broths, and food eaten out |
+
+Singapore translates guidelines into tools you will use as counselling anchors all year:
+
+- **My Healthy Plate** — the "**quarter, quarter, half**": ¼ wholegrains, ¼ protein,
+  ½ fruit and vegetables [@hpbHealthyPlate].
+- **Nutri-Grade** — the A–D front-of-pack grade on drinks, by sugar and saturated fat;
+  the *teh tarik* and bubble-tea labels you already recognise [@hpbNutriGrade].
+
+These let advice stay concrete and local: a *cai png* (economy rice) plate becomes "two
+veg, one protein, less gravy"; a Grade-D drink becomes *kopi-o kosong* or plain water.
+
+## A learnable, examinable clinical skill
+
+If nutrition matters this much, why is it so often neglected in the clinic? Largely because
+doctors are **under-trained** in it: graduates across many countries report feeling
+under-prepared to give dietary advice [@crowley2019]. That gap is precisely why this course
+exists. Nutrition counselling is a **core, examinable, learnable** competency — and a
+*behaviour* you can assess and help change [@frost2018mi], not a fixed biological given or a
+test of the patient's willpower.
+
+::: {.callout-important}
+## What this year will, and won't, do
+**Will:** build your nutritional literacy — the science, the Singapore context, and the
+skill of advising real patients well. **Won't (yet):** turn you into a dietitian or hand
+you prescribing protocols. Detailed medical nutrition therapy, drug choices, and disease
+management come later — and you will learn *when to refer*. First-year nutrition is about
+**motivation, concepts, and the clinical conversation**, taught with humility about what
+the evidence does and does not show.
+:::
+
+## Check your understanding
+
+A quick self-test on the framing above — your answers are saved locally in your browser.
+
+<div data-island="quiz" data-src="/quizzes/why-nutrition-matters.quiz.yml"></div>
+
+## Practise: mapping the pillars
+
+Concepts become useful at the bedside. Meet **Mr Tan**, who feels "basically fine" — and
+practise seeing the whole picture, not just the plate. Your choices branch the case.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/pillar-mapping-mr-tan.case.yml"></div>

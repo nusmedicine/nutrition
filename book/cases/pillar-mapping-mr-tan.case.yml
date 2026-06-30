@@ -1,0 +1,206 @@
+id: pillar-mapping-mr-tan
+title: "Mr Tan feels 'basically fine'"
+objectives:
+  - "Map a patient's risk across all six pillars of health, not diet alone."
+  - "Choose dietary advice that fits the patient's real food environment."
+  - "Explain why a single-pillar plan often underperforms a multi-pillar one — honestly, with its evidence caveats."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, pillars, prevention]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mr Tan"
+  age: 38
+  sex: male
+  occupation: "software engineer (CBD)"
+  presentation: "Pre-employment health screen. BMI 27 (obese by Asian cut-offs); feels well. Eats at the food court most days, teh tarik mid-afternoon, supper after late shifts. Sleeps ~5.5 h, sedentary, 'stressed' by deadlines, 3–4 beers at weekends, eats alone on workdays."
+  voice: "Friendly, busy, a bit sceptical that anything is wrong; speaks in Singlish-flavoured English; proud of being 'low-maintenance'."
+
+nodes:
+  - id: intro
+    type: info
+    title: "A well man, on paper"
+    body: |
+      Mr Tan, 38, comes in for a routine pre-employment screen. He has **no symptoms**
+      and feels "basically fine." His BMI is **27** — in the obese range by Asian
+      cut-offs. As he chats, a picture emerges: food-court meals most days, an
+      afternoon *teh tarik*, supper after late shifts, about **5.5 hours** of sleep, a
+      desk job, weekend beers, and most meals eaten alone at his screen.
+    next: q-pillars
+
+  - id: q-pillars
+    type: mcq
+    stem: "Which pillars of health are in play for Mr Tan?"
+    options:
+      - id: a
+        text: "Only nutrition — his diet is the issue."
+        correct: false
+        feedback: "Too narrow. His sleep, stress, activity, alcohol and social context are all involved — and they feed back onto his eating."
+        goto: reveal-profile
+      - id: b
+        text: "Nutrition, physical activity, sleep, stress, alcohol — and (weakly) social connection."
+        correct: true
+        feedback: "Right — all six pillars appear, and nutrition is the hub that connects them."
+        effects: { quality: +1 }
+        goto: reveal-profile
+      - id: c
+        text: "None — he's asymptomatic, so there's nothing to address."
+        correct: false
+        feedback: "Asymptomatic is not low-risk. This is exactly the prevention window — before disease declares itself."
+        goto: reveal-profile
+
+  - id: reveal-profile
+    type: info
+    body: |
+      You note his **pillar profile**: short sleep (~5.5 h), high work stress, sedentary
+      days, weekend alcohol, and eating alone — wrapped around an energy-dense,
+      refined-carbohydrate, high-sodium food-court diet. Nutrition is the obvious entry
+      point, but it does not sit alone.
+    next: q-leverage
+
+  - id: q-leverage
+    type: mcq
+    stem: "Where is the realistic **diet leverage** in Mr Tan's actual environment?"
+    options:
+      - id: a
+        text: "Tell him to 'eat clean' and go on a diet."
+        correct: false
+        feedback: "Vague and non-behavioural — it gives him nothing concrete to do, and rarely sticks."
+        goto: q-underperform
+      - id: b
+        text: "Map concrete swaps: a My-Healthy-Plate cai png (2 veg + 1 protein, less gravy), plain tea or kopi-o kosong over a Grade-D teh tarik, a smaller rice portion."
+        correct: true
+        feedback: "Specific, local, and achievable — advice he can act on at the same food court tomorrow."
+        effects: { quality: +1 }
+        goto: q-underperform
+      - id: c
+        text: "Refer him straight to medication."
+        correct: false
+        feedback: "Premature and out of first-year scope. Lifestyle first — there is plenty of modifiable ground here."
+        goto: q-underperform
+
+  - id: q-underperform
+    type: mcq
+    stem: "Why might addressing **only** his diet underperform?"
+    options:
+      - id: a
+        text: "Because his 5.5 h sleep and work stress keep driving appetite and comfort eating."
+        correct: true
+        feedback: "Exactly — the pillars interact. Diet advice fights an uphill battle while sleep and stress keep pushing intake up."
+        effects: { quality: +1 }
+        goto: setup-plans
+      - id: b
+        text: "Because diet doesn't really matter without medication."
+        correct: false
+        feedback: "Not so — diet is among the largest modifiable levers. The point is that it works *better* when the other pillars are addressed too."
+        goto: setup-plans
+
+  - id: setup-plans
+    type: info
+    title: "Two plans for the same man"
+    body: |
+      You sketch two plans for Mr Tan:
+
+      - **Plan 1 (single-pillar):** the food-court swaps only.
+      - **Plan 2 (multi-pillar):** the same swaps **plus** a wind-down to nudge sleep
+        toward 7 h, a short daily stress micro-break, cutting weekend alcohol, and one
+        shared meal a week.
+    next: q-plan
+
+  - id: q-plan
+    type: mcq
+    stem: "Which plan is likely to produce the greater, more durable improvement — and why?"
+    options:
+      - id: a
+        text: "Plan 1 — focusing on one thing is simpler."
+        correct: false
+        feedback: "Simplicity helps him *start*, but a diet-only plan is fragile here because sleep and stress keep undermining it."
+        goto: route
+      - id: b
+        text: "Plan 2 — the pillars reinforce each other: better sleep lowers appetite, less stress reduces comfort eating, shared meals sustain the change."
+        correct: true
+        feedback: "Yes — but hold this claim to its evidence (next screen)."
+        effects: { quality: +1 }
+        goto: route
+      - id: c
+        text: "Either — they're equivalent."
+        correct: false
+        feedback: "Combined-behaviour evidence favours the multi-pillar plan for larger risk reduction."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: talk-to-mr-tan
+    else: remedial
+
+  - id: talk-to-mr-tan
+    type: patient-chat
+    scenarioId: pillar-mapping-mr-tan
+    objective: "Agree one concrete, realistic change Mr Tan will actually try this week."
+    turnLimit: 8
+    exitWhen: "patient agrees a specific, achievable change"
+    goto: caveat-slide
+    fallbackGoto: caveat-slide
+
+  - id: remedial
+    type: info
+    title: "Step back and re-map"
+    body: |
+      You reached a plan, but the reasoning was a little narrow. Recall the move:
+      **map all six pillars → choose an environment-realistic swap → plan across the
+      pillars, not just the plate.**
+    next: caveat-slide
+
+  - id: caveat-slide
+    type: info
+    title: "Stay honest about the evidence"
+    body: |
+      One non-negotiable caveat before you close. The "pillars reinforce each other"
+      claim rests largely on **observational** combined-lifestyle data (people with the
+      healthiest profiles have roughly **halved** mortality risk versus the least
+      healthy) plus small mechanistic studies. Residual confounding and reverse
+      causation mean the honest phrasing is *"combined behaviours are **associated with**
+      larger benefit and **plausibly** reinforce each other,"* **not** "synergy is
+      proven." Start with nutrition, plan across the pillars — and say what the evidence
+      can and cannot support.
+    next: end-route
+
+  - id: end-route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "You saw the whole patient"
+    body: |
+      You mapped Mr Tan across all six pillars, chose advice that fits his real food
+      environment, and argued for a multi-pillar plan — while staying honest about the
+      strength of the evidence.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Asymptomatic is the prevention window, not the all-clear."
+        - "Nutrition is the entry point; a durable plan touches sleep, stress and social context."
+        - "Multi-pillar plans are *associated with* larger benefit — state it as association, not proven synergy."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "On the right track"
+    body: |
+      You reached a plan, but a fuller pillar map and a more environment-specific swap
+      would land better. Replay to explore the other paths.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Map all six pillars before deciding where to push."
+        - "Make diet advice concrete and local — a swap he can make at the same food court."
+        - "Keep the evidence claims honest: association, not proven synergy."

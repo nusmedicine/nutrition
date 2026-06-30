@@ -1,11 +1,13 @@
 import { mount } from 'svelte';
 import CasePlayer from './CasePlayer.svelte';
 import Quiz from './Quiz.svelte';
+import GlucoScale from './GlucoScale.svelte';
 
 // Island registry: data-island="<key>" -> Svelte component.
 const REGISTRY = {
   case: CasePlayer,
   quiz: Quiz,
+  gi: GlucoScale,
   // future: flashcards, diagram, …
 };
 

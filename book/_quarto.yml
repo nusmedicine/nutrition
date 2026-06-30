@@ -5,16 +5,21 @@ project:
     - assets/**
     - cases/**
     - quizzes/**
+    - diagrams/**
 
 book:
   title: "Health in Medicine"
-  subtitle: "Nutrition & Metabolism — an interactive companion"
-  author: "Department of ___, NUS"
+  subtitle: "Nutrition — an interactive companion for first-year medicine"
+  author: "Yong Loo Lin School of Medicine, NUS"
   search: true
   chapters:
     - index.qmd
-    - chapters/macronutrients.qmd
-    - chapters/energy-balance.qmd
+    - part: "I · The metabolic & physiological basis"
+      chapters:
+        - chapters/01-why-nutrition-matters.qmd
+        - chapters/energy-balance.qmd
+        - chapters/macronutrients.qmd
+        - chapters/04-micronutrients-hydration.qmd
 
 bibliography: references.bib
 

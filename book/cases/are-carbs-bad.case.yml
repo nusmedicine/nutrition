@@ -1,0 +1,157 @@
+id: are-carbs-bad
+title: "\"Doctor, are carbs bad? I cut out all rice.\""
+objectives:
+  - "Reframe 'are carbs bad?' as a question about carbohydrate quality and food source."
+  - "Distinguish free sugars and refined starch from whole grains and fibre."
+  - "Give quality-based advice and know when to refer to a dietitian."
+difficulty: intro
+estimatedMinutes: 9
+tags: [nutrition, macronutrients, carbohydrate, counselling]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Raj"
+  age: 34
+  sex: male
+  occupation: "office worker"
+  presentation: "Following an online low-carb trend. Eats mostly meat and eggs; skips rice and bread entirely. Otherwise well. Asks whether carbohydrates are harmful."
+  voice: "Enthusiastic, reads fitness influencers, wants a clear yes/no answer; means well."
+
+nodes:
+  - id: intro
+    type: info
+    title: "A popular question"
+    body: |
+      Raj, 34, has cut out **all** rice and bread after reading that "carbs are bad."
+      He now eats mostly meat and eggs and feels he is "doing the healthy thing."
+      *"Doctor, carbs are bad, right? I stopped them completely."*
+    next: q-framing
+
+  - id: q-framing
+    type: mcq
+    stem: "How do you best respond to *'are carbs bad?'*"
+    options:
+      - id: a
+        text: "\"Yes — cutting all carbs is the healthiest choice.\""
+        correct: false
+        feedback: "This throws out whole grains, legumes, fruit and fibre along with the sugar — losing the protective end of the spectrum."
+        goto: reveal-spectrum
+      - id: b
+        text: "\"No, carbs are fine — eat as much white rice and bread as you like.\""
+        correct: false
+        feedback: "Too far the other way — a flood of refined starch and free sugars is exactly what guidelines warn against."
+        goto: reveal-spectrum
+      - id: c
+        text: "\"It depends on the *type*. Some carbohydrates protect health; others are best limited.\""
+        correct: true
+        feedback: "Right — the question is malformed. Quality and food source, not a blanket ban, decide the answer."
+        effects: { quality: +1 }
+        goto: reveal-spectrum
+
+  - id: reveal-spectrum
+    type: info
+    title: "The carbohydrate spectrum"
+    body: |
+      You explain the spectrum, from **free sugars and refined starches** (best limited)
+      to **intact whole grains and fibre** (protective). Higher fibre and whole-grain
+      intake is *associated with* lower mortality and lower rates of heart disease,
+      stroke, type 2 diabetes and colorectal cancer — though this comes mostly from
+      observational data, so it's an association, not proof.
+    next: q-classify
+
+  - id: q-classify
+    type: mcq
+    stem: "Raj wants one concrete swap that improves carbohydrate **quality**. Which do you suggest?"
+    options:
+      - id: a
+        text: "Switch his white rice for brown or red rice, and add vegetables."
+        correct: true
+        feedback: "A practical quality upgrade — more fibre and intact grain, available at most hawker stalls."
+        effects: { quality: +1 }
+        goto: q-action
+      - id: b
+        text: "Replace rice with a sweetened protein shake."
+        correct: false
+        feedback: "That adds free sugars — moving the wrong way on the spectrum."
+        goto: q-action
+      - id: c
+        text: "Keep cutting all carbohydrate, including fruit and legumes."
+        correct: false
+        feedback: "This also removes fibre-rich, protective foods — the opposite of a quality improvement."
+        goto: q-action
+
+  - id: q-action
+    type: mcq
+    stem: "Raj also mentions he wants to try a very strict ketogenic diet for months. What is the best **first-year** action?"
+    options:
+      - id: a
+        text: "Give quality guidance (wholegrains, fewer free sugars), anchor to My Healthy Plate, and refer to a dietitian for the restrictive plan."
+        correct: true
+        feedback: "Exactly — advise on quality, use the local tool, and refer when a restrictive or therapeutic diet is involved."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Prescribe him an exact daily gram target for carbohydrate, fat and protein."
+        correct: false
+        feedback: "Prescribing grams is beyond first-year scope — and guidelines reject a single 'ideal' split anyway."
+        goto: route
+      - id: c
+        text: "Tell him keto is definitely dangerous and forbid it."
+        correct: false
+        feedback: "Too absolute. Acknowledge the interest, advise on quality, and refer for individualised, safe guidance."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 2"
+        goto: talk-to-raj
+    else: remedial
+
+  - id: talk-to-raj
+    type: patient-chat
+    scenarioId: are-carbs-bad-raj
+    objective: "Help Raj replace 'cut all carbs' with one realistic quality swap he'll keep."
+    turnLimit: 8
+    exitWhen: "patient agrees a specific, safe change"
+    goto: end-good
+    fallbackGoto: end-good
+
+  - id: remedial
+    type: info
+    title: "Re-centre on quality"
+    body: |
+      The advice drifted toward an all-or-nothing answer. Recall the move: reframe the
+      question around **quality and food source**, offer one concrete swap, and **refer**
+      when a patient wants a restrictive diet.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "From slogan to distinction"
+    body: |
+      You replaced "carbs are bad" with a usable distinction, gave Raj a concrete
+      brown-rice swap anchored to My Healthy Plate, and referred him for his restrictive
+      plan rather than rubber-stamping or forbidding it.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "'Are carbs bad?' is a quality question — free sugars and refined starch vs whole grains and fibre."
+        - "Offer one concrete, local swap rather than a blanket ban."
+        - "Refer to a dietitian for restrictive or therapeutic diets; don't prescribe grams."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You engaged Raj, but the message leaned toward all-or-nothing. Replay and try
+      reframing around quality and a single realistic swap.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Lead with quality and food source, not 'good vs bad carbs'."
+        - "Anchor advice to a tool the patient can use (My Healthy Plate)."
+        - "Know the referral boundary for restrictive diets."

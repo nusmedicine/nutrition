@@ -1,0 +1,74 @@
+id: glycemic-index-load
+title: "Glycaemic index vs glycaemic load"
+ref_serving_note: >
+  Servings are typical single portions; "carbs" is available carbohydrate (the
+  quantity that drives the glucose response). GL is computed as GI × carbs ÷ 100.
+  GI/GL values are representative teaching figures from international GI tables
+  (Atkinson et al. 2008/2021) and vary by variety, ripeness, processing and cooking —
+  they are a concept for understanding carbohydrate quality and portion, not a precise
+  clinical tool.
+
+# Order matters: the first food is shown by default. Watermelon is the headline
+# high-GI / low-GL case; boiled potato is the compare anchor (near-identical peak,
+# far larger area). GL is derived in the component, so it is not stored here.
+foods:
+  - id: watermelon
+    name: "Watermelon"
+    gi: 76
+    serving: "1 slice, 120 g"
+    carbs: 6
+  - id: boiled-potato
+    name: "Boiled potato"
+    gi: 78
+    serving: "1 medium, 150 g"
+    carbs: 27
+  - id: glucose
+    name: "Glucose (test dose)"
+    gi: 100
+    serving: "50 g in water"
+    carbs: 50
+  - id: white-rice
+    name: "White rice (jasmine)"
+    gi: 73
+    serving: "1 bowl, 150 g cooked"
+    carbs: 36
+  - id: brown-rice
+    name: "Brown rice"
+    gi: 65
+    serving: "1 bowl, 150 g cooked"
+    carbs: 33
+  - id: white-bread
+    name: "White bread"
+    gi: 75
+    serving: "1 slice, 30 g"
+    carbs: 14
+  - id: bee-hoon
+    name: "Rice vermicelli (bee hoon)"
+    gi: 53
+    serving: "1 plate, 180 g cooked"
+    carbs: 39
+  - id: sweet-potato
+    name: "Sweet potato (boiled)"
+    gi: 63
+    serving: "1 piece, 150 g"
+    carbs: 25
+  - id: banana
+    name: "Banana"
+    gi: 47
+    serving: "1 medium, 120 g"
+    carbs: 24
+  - id: apple
+    name: "Apple"
+    gi: 36
+    serving: "1 medium, 120 g"
+    carbs: 15
+  - id: lentils
+    name: "Lentils / dhal (boiled)"
+    gi: 32
+    serving: "150 g cooked"
+    carbs: 18
+  - id: soft-drink
+    name: "Sweetened soft drink (cola)"
+    gi: 63
+    serving: "1 can, 250 ml"
+    carbs: 26

@@ -1,0 +1,157 @@
+id: iron-deficiency-aisha
+title: "\"Tired all the time\""
+objectives:
+  - "Recognise the classic pattern of iron-deficiency anaemia."
+  - "Identify the at-risk group and the likely underlying cause."
+  - "Choose a first-year-appropriate action: food-first advice plus recognise-and-refer."
+difficulty: intro
+estimatedMinutes: 8
+tags: [nutrition, micronutrients, iron, anaemia, recognition]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Aisha"
+  age: 24
+  sex: female
+  occupation: "polytechnic graduate, new office job"
+  presentation: "Three months of fatigue and breathlessness climbing stairs. On gentle questioning: heavy periods ('I change protection very often') and a mostly noodle-and-bread diet with little red meat."
+  voice: "Plays down her symptoms, busy, assumes she is 'just stressed and not sleeping enough'."
+
+nodes:
+  - id: intro
+    type: info
+    title: "More than just tired"
+    body: |
+      Aisha, 24, has felt **tired for three months** and gets **breathless climbing
+      stairs**. She looks a little pale. On gentle questioning, she mentions **heavy
+      periods** — *"I change protection very often"* — and a diet built around **noodles
+      and bread**, with little red meat.
+    next: q-notice
+
+  - id: q-notice
+    type: mcq
+    stem: "What do you notice first?"
+    options:
+      - id: a
+        text: "Pallor plus heavy menstrual bleeding — a pattern that should make you think of iron deficiency."
+        correct: true
+        feedback: "Right — fatigue, pallor, exertional breathlessness and heavy periods are the classic iron-deficiency picture."
+        effects: { quality: +1 }
+        goto: reveal-group
+      - id: b
+        text: "Probably just stress and overwork — reassure her."
+        correct: false
+        feedback: "Plausible on the surface, but it ignores a classic, recognisable pattern with a treatable cause."
+        goto: reveal-group
+      - id: c
+        text: "She needs an urgent blood transfusion now."
+        correct: false
+        feedback: "Over-escalation — and not a first-year call. Recognise the pattern and take the appropriate next step."
+        goto: reveal-group
+
+  - id: reveal-group
+    type: info
+    title: "The at-risk group"
+    body: |
+      Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
+      nearly **one in three** women aged 15–49 are anaemic, with iron deficiency the
+      leading cause — and **heavy menstrual bleeding** is a major driver. The *cause*
+      matters as much as the iron itself.
+    next: q-absorption
+
+  - id: q-absorption
+    type: mcq
+    stem: "Alongside more iron-rich foods, which simple dietary tip helps her **absorb** iron?"
+    options:
+      - id: a
+        text: "Pair iron-rich foods with a source of vitamin C (e.g. fruit or vegetables)."
+        correct: true
+        feedback: "Correct — vitamin C enhances absorption of non-haem (plant) iron."
+        effects: { quality: +1 }
+        goto: q-action
+      - id: b
+        text: "Take the iron-rich meal with strong tea or coffee."
+        correct: false
+        feedback: "The opposite — tannins in tea/coffee *reduce* iron absorption; better taken between meals."
+        goto: q-action
+      - id: c
+        text: "Avoid all vegetables, as they block iron."
+        correct: false
+        feedback: "Not so — vegetables (and their vitamin C) help, and provide some iron themselves."
+        goto: q-action
+
+  - id: q-action
+    type: mcq
+    stem: "What is the best **first-year-appropriate** action?"
+    options:
+      - id: a
+        text: "Recognise the pattern, give food-first advice (iron-rich foods + vitamin C), and arrange appropriate testing / refer."
+        correct: true
+        feedback: "Exactly — recognition → at-risk group → food-first advice + refer for the menstrual cause and confirmatory testing."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Start her on high-dose intravenous iron yourself."
+        correct: false
+        feedback: "Dosing and treatment are beyond first-year scope — signpost to clinical years and refer."
+        goto: route
+      - id: c
+        text: "Tell her to take any multivitamin and come back in a year."
+        correct: false
+        feedback: "Under-management — it misses the menstrual cause and delays appropriate assessment."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 2"
+        goto: talk-to-aisha
+    else: remedial
+
+  - id: talk-to-aisha
+    type: patient-chat
+    scenarioId: iron-deficiency-aisha
+    objective: "Explain your concern plainly and agree a food-first step plus the plan to investigate the cause."
+    turnLimit: 8
+    exitWhen: "patient understands the plan and agrees a concrete step"
+    goto: end-good
+    fallbackGoto: end-good
+
+  - id: remedial
+    type: info
+    title: "Back to the pattern"
+    body: |
+      The reasoning missed the mark. Recall the first-year move for a recognisable
+      deficiency: **recognise the pattern → name the at-risk group → food-first advice and
+      refer** — not full work-up, not over-escalation, not under-management.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Recognise and refer"
+    body: |
+      You recognised iron-deficiency anaemia, placed Aisha in the classic at-risk group,
+      gave practical food-first advice, and arranged appropriate testing and referral for
+      the underlying cause.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Fatigue + pallor + breathlessness + heavy periods → think iron deficiency."
+        - "Menstruating women are the classic at-risk group; address the cause, not just the iron."
+        - "First-year scope is recognise → food-first advice → refer, not investigate or treat."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Nearly there"
+    body: |
+      You engaged with the case but the action wasn't quite first-year-appropriate.
+      Replay and aim for recognise → at-risk group → food-first advice and referral.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Match the pattern to the likely deficiency before acting."
+        - "Food-first advice (iron + vitamin C) is within scope; dosing is not."
+        - "Recognise and refer — don't over- or under-treat."

@@ -1,0 +1,80 @@
+id: macronutrients-quality
+title: "Quick check: macronutrients & quality"
+questions:
+  - id: q1
+    stem: "Match the energy yields. Which row is correct (kcal per gram)?"
+    options:
+      - text: "Carbohydrate ~4, protein ~4, fat ~9, fibre ~2"
+        correct: true
+        feedback: "Correct — fat is the most energy-dense; fibre yields little because it is largely fermented, not digested for fuel."
+      - text: "Carbohydrate ~9, protein ~4, fat ~4, fibre ~7"
+        correct: false
+        feedback: "Fat (~9), not carbohydrate, is the most energy-dense; ~7 kcal/g is alcohol."
+      - text: "All macronutrients yield ~4 kcal/g"
+        correct: false
+        feedback: "Fat yields ~9 kcal/g — roughly double carbohydrate or protein."
+
+  - id: q2
+    stem: "WHO defines **free sugars** as the carbohydrate to limit. Which of these counts as a free sugar?"
+    options:
+      - text: "The sugar naturally present inside a whole apple"
+        correct: false
+        feedback: "Intrinsic sugar in whole fruit is *not* a free sugar and is not the target."
+      - text: "Sugar added to a drink, plus the sugar in fruit juice"
+        correct: true
+        feedback: "Correct — free sugars are added sugars plus those in syrups and juices; WHO caps them at <10% of energy."
+      - text: "The starch in brown rice"
+        correct: false
+        feedback: "Starch is not a sugar; whole-grain starch sits at the protective end of the carbohydrate spectrum."
+
+  - id: q3
+    stem: "Rank these fats from **most** to **least** harmful for cardiovascular risk."
+    options:
+      - text: "Trans → saturated → monounsaturated → polyunsaturated"
+        correct: true
+        feedback: "Correct — trans fat is the clearest harm (cap <1% energy); favour unsaturated fats."
+      - text: "Polyunsaturated → monounsaturated → saturated → trans"
+        correct: false
+        feedback: "That's reversed — polyunsaturated fats are the ones to favour, not avoid."
+      - text: "Saturated → trans → polyunsaturated → monounsaturated"
+        correct: false
+        feedback: "Trans fat, not saturated, carries the clearest harm signal."
+
+  - id: q4
+    stem: "The Reynolds 2019 meta-analyses found higher fibre and whole-grain intake is associated with better outcomes. What is the correct way to state this?"
+    options:
+      - text: "It proves fibre causes lower mortality"
+        correct: false
+        feedback: "Overstated — the data are largely observational (moderate certainty at best); these are associations."
+      - text: "It shows an association with lower mortality and disease, strengthening up to ~25–29 g fibre/day — but mostly from cohort data"
+        correct: true
+        feedback: "Correct — report the benefit *with* its evidence caveat."
+      - text: "It found fibre makes no difference to health"
+        correct: false
+        feedback: "It found a consistent protective association; the caveat is about causation, not direction."
+
+  - id: q5
+    stem: "A patient wants to know 'the one ideal macronutrient ratio.' What does current guidance say?"
+    options:
+      - text: "There is no single ideal split; individualise, emphasise food quality and patterns"
+        correct: true
+        feedback: "Correct — guidelines deliberately avoid one ratio and refer to a dietitian for individualised needs."
+      - text: "Exactly 50% carbohydrate, 30% fat, 20% protein for everyone"
+        correct: false
+        feedback: "No such universal ratio exists; food source and pattern matter more than a fixed split."
+      - text: "As little carbohydrate as possible, always"
+        correct: false
+        feedback: "This is the 'carbs are bad' trap — quality and source, not blanket restriction, determine the answer."
+
+  - id: q6
+    stem: "On My Healthy Plate ('quarter, quarter, half'), what fills the half?"
+    options:
+      - text: "Fruit and vegetables"
+        correct: true
+        feedback: "Correct — ½ fruit & vegetables, ¼ wholegrains, ¼ protein."
+      - text: "Wholegrains"
+        correct: false
+        feedback: "Wholegrains are a quarter, not the half."
+      - text: "Protein"
+        correct: false
+        feedback: "Protein is a quarter; the half is fruit & vegetables."

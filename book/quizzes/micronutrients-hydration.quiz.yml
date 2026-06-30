@@ -1,0 +1,80 @@
+id: micronutrients-hydration
+title: "Quick check: micronutrients, hydration & electrolytes"
+questions:
+  - id: q1
+    stem: "Why can fat-soluble vitamins (A, D, E, K) cause toxicity more readily than water-soluble ones?"
+    options:
+      - text: "Because they are stored in the body rather than readily excreted"
+        correct: true
+        feedback: "Correct — fat-soluble vitamins accumulate, so megadoses can reach toxic levels; water-soluble excess is largely excreted."
+      - text: "Because they contain more energy"
+        correct: false
+        feedback: "Vitamins supply negligible energy; storage, not energy content, explains the toxicity risk."
+      - text: "Because the body cannot absorb them at all"
+        correct: false
+        feedback: "They are absorbed (with dietary fat) and then stored — which is exactly why excess can accumulate."
+
+  - id: q2
+    stem: "A 24-year-old woman is tired, pale, and breathless climbing stairs, with heavy periods. Which deficiency fits best?"
+    options:
+      - text: "Iron-deficiency anaemia"
+        correct: true
+        feedback: "Correct — the classic pattern in a menstruating woman; heavy menstrual bleeding is a leading cause."
+      - text: "Vitamin D deficiency"
+        correct: false
+        feedback: "Vitamin D deficiency doesn't classically cause this pallor-plus-breathlessness picture."
+      - text: "Vitamin B12 from long-term metformin"
+        correct: false
+        feedback: "B12 deficiency is a real cause of anaemia, but the heavy-periods history points to iron first; she isn't described as on metformin."
+
+  - id: q3
+    stem: "Which group is at notably higher risk of vitamin B12 deficiency?"
+    options:
+      - text: "People on long-term metformin, strict vegans, and older adults"
+        correct: true
+        feedback: "Correct — all three are recognised at-risk groups for B12 deficiency."
+      - text: "Young men who eat plenty of red meat"
+        correct: false
+        feedback: "Regular animal-product intake makes B12 deficiency unlikely in this group."
+      - text: "People who spend a lot of time outdoors"
+        correct: false
+        feedback: "Sun exposure relates to vitamin D, not B12."
+
+  - id: q4
+    stem: "For blood pressure, how do sodium and potassium act?"
+    options:
+      - text: "High sodium raises BP; adequate potassium helps lower it"
+        correct: true
+        feedback: "Correct — they pull in opposite directions; WHO targets <2,000 mg sodium and ≥3,510 mg potassium per day."
+      - text: "Both raise blood pressure equally"
+        correct: false
+        feedback: "Potassium tends to *lower* blood pressure — the opposite of sodium."
+      - text: "Neither has any effect on blood pressure"
+        correct: false
+        feedback: "Both matter; the sodium–potassium balance is central to blood-pressure risk."
+
+  - id: q5
+    stem: "In the National Nutrition Survey 2022, where does most of Singaporeans' dietary sodium come from?"
+    options:
+      - text: "Sauces, broths and food eaten out — not mainly the table salt-shaker"
+        correct: true
+        feedback: "Correct — most sodium is already *in* prepared and hawker foods, which is why population strategies target the food supply."
+      - text: "Mostly salt added at the dining table"
+        correct: false
+        feedback: "A common misconception — the bulk is in cooking sauces, broths and eating out."
+      - text: "Mostly from fresh fruit"
+        correct: false
+        feedback: "Fruit is low in sodium and a good potassium source."
+
+  - id: q6
+    stem: "How should the SSaSS salt-substitute trial be summarised to a patient with kidney disease?"
+    options:
+      - text: "Potassium-based salt substitutes may be unsafe for them (hyperkalaemia risk) — not blanket advice"
+        correct: true
+        feedback: "Correct — SSaSS benefit was in a specific high-risk group, much of the BP effect came from added potassium, and substitutes are risky in CKD or on certain BP drugs."
+      - text: "Everyone should switch to a potassium salt substitute immediately"
+        correct: false
+        feedback: "Unsafe to generalise — hyperkalaemia risk makes substitutes inappropriate in kidney disease and on some medications."
+      - text: "The trial proves salt has no effect on health"
+        correct: false
+        feedback: "It showed real benefit; the nuance is about *who* it applies to and *which* electrolyte drove it."

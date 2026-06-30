@@ -1,38 +1,190 @@
-# Macronutrients and energy
+# Macronutrients: carbohydrate, protein, fat and fibre
 
-> *Starter chapter — expand or replace. It exists here to demonstrate how chapters
-> join the table of contents.*
+> *The energy-yielding nutrients — but the recurring lesson is that **quality**, not just
+> quantity, drives health. Same kilocalories can mean very different physiology.*
 
-## Energy density
+## The three macronutrients (and fibre)
 
-The macronutrients differ in the energy they yield per gram:
+Macronutrients are the nutrients we need in **gram quantities** and the ones that supply
+**energy**. There are three — carbohydrate, protein and fat — plus **dietary fibre**, a
+carbohydrate we mostly *don't* digest but which earns its own place. Their energy yields:
 
-| Macronutrient | Energy (kcal/g) |
-|---|---|
-| Carbohydrate | ~4 |
-| Protein | ~4 |
-| Fat | ~9 |
-| Alcohol | ~7 |
+| Macronutrient | Energy (kcal/g) | Headline role |
+|---|---|---|
+| Carbohydrate | ~4 | Primary, glucose-yielding fuel |
+| Protein | ~4 | Structure, enzymes, immune & transport functions |
+| Fat | ~9 | Energy store, cell membranes, essential fatty acids |
+| Fibre | ~2 | Fermented by gut microbes; not a fuel in the usual sense |
+| *(Alcohol)* | *~7* | *Not a nutrient — empty energy, shown for contrast* |
 
-Fat is the most energy-dense, which is why fat-rich foods raise total intake quickly.
+Fat is the most energy-dense, which is why fat-rich foods raise total intake quickly. But
+energy density is only part of the story. The question that matters clinically is almost
+never *"how many grams?"* — it is *"what kind, from what food?"*
 
-## Carbohydrate
+::: {.callout-important}
+## The one idea to carry out of this chapter
+"Are carbs bad? Is fat bad?" are **malformed questions**. The health effect of a
+macronutrient depends on its **form and food source**, not a single good/bad label. Hold
+this thought — we will return to it at the end.
+:::
 
-Carbohydrate is the body's primary fuel. Quality matters as much as quantity — wholegrains
-and legumes behave very differently from refined sugars.
+## Carbohydrate: a spectrum, not a single thing
 
-## Protein
+Carbohydrates run a wide spectrum, and where a food sits on it matters far more than the
+word "carb":
 
-Protein supports tissue maintenance and has the highest thermic effect of the macronutrients,
-contributing modestly to energy expenditure.
+> **free sugars / refined starches  →  intact whole grains + fibre**
 
-## Fat
+- **Free sugars** — added sugars plus those in syrups and fruit juices — are the
+  carbohydrate to *limit*. The WHO caps them at **<10% of energy**, with further benefit
+  below 5% [@who2020diet]. (Note: the natural sugar inside *whole* fruit is **not** a free
+  sugar and is not the target.)
+- **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
+- **Whole grains and fibre** sit at the protective end. In a major series of meta-analyses,
+  higher fibre and whole-grain intake was associated with roughly **15–30% lower**
+  all-cause and cardiovascular mortality and lower rates of coronary disease, stroke, type
+  2 diabetes and colorectal cancer — with benefit strengthening up to about **25–29 g of
+  fibre a day** [@reynolds2019carb].
 
-Dietary fat is essential but energy-dense; the *type* of fat (unsaturated vs saturated) is a
-key target in cardiometabolic counselling.
+::: {.callout-warning}
+## How strong is the fibre evidence?
+Mostly **prospective cohort** studies plus some trials — so the certainty is *moderate at
+best* for fibre, and lower for whole grains and for glycaemic index/load. These are
+**associations**, not proof of cause. Teach the benefit; keep the caveat attached.
+:::
+
+## Glycaemic index and glycaemic load
+
+Not all carbohydrate raises blood glucose at the same speed. The **glycaemic index (GI)**
+ranks a food by how much a portion containing **50 g of available carbohydrate** raises
+blood glucose over about two hours, relative to pure glucose (set at **100**)
+[@atkinson2021gitables]. Lower-GI foods give a gentler, slower rise:
+
+- **Low GI:** ≤55 — most legumes, intact whole grains, most whole fruit, milk
+- **Medium GI:** 56–69 — basmati rice, sweet potato
+- **High GI:** ≥70 — white rice, white bread, glucose (= 100)
+
+But GI has a blind spot: it fixes the carbohydrate at 50 g — a portion you may never
+actually eat. **Glycaemic load (GL)** corrects for this by scaling GI to the *real* serving:
+
+$$ \text{GL} = \frac{\text{GI} \times \text{available carbohydrate (g) per serving}}{100} $$
+
+graded **low ≤10, medium 11–19, high ≥20** per serving. GL therefore captures *both* the
+**quality** of the carbohydrate (its GI) and the **quantity** actually eaten.
+
+::: {.callout-tip}
+## The watermelon trick
+Watermelon has a **high GI (~76)** — yet a normal slice holds only ~6 g of carbohydrate, so
+its **GL is ~5 (low)**. A small portion of a high-GI food can be a low-load choice. The
+reverse also holds: a *low*-GI noodle like *bee hoon* becomes a **high**-GL plate at hawker
+portions. So "high GI = avoid" is the wrong shortcut — **both quality and portion matter.**
+:::
+
+Explore the relationship below. Pick a food — its GI sets the **height** of the glucose
+curve — then drag the portion, which grows the **shaded area** (the glycaemic load). Switch
+on **Compare** to see the watermelon-versus-potato paradox: near-identical peaks, very
+different areas.
+
+<div data-island="gi" data-src="/diagrams/glycemic-index-load.yml"></div>
+
+A few honest caveats keep GI in proportion:
+
+- GI is **not** a measure of healthiness — chocolate and ice cream are low-GI because of
+  their fat, while watermelon and potato are high-GI. It describes only the glucose curve.
+- A food has **no single fixed GI**: ripeness (a ripe banana raises glucose more than an
+  unripe one), processing, cooking, and what it is eaten *with* (fat, protein, fibre and
+  acidity all blunt the rise) all shift it. Table values are population averages.
+- It is a **concept, not a bedside tool** at this stage — and the evidence linking GI/GL to
+  hard health outcomes is the *weakest* strand of carbohydrate-quality research, rated
+  **low to very low certainty** in the Reynolds meta-analyses, well below the evidence for
+  fibre and whole grains [@reynolds2019carb].
+
+For most patients the practical message is not a GI number but the familiar one: favour
+**whole, intact, fibre-rich** carbohydrates in **sensible portions** — exactly what My
+Healthy Plate's wholegrain quarter encodes [@hpbHealthyPlate].
+
+## Fat: type matters more than total
+
+For decades the advice was "eat less fat." The better message is "eat **better** fat." Rank
+fats by their relationship to cardiovascular risk:
+
+> **trans fat  →  saturated  →  monounsaturated  →  polyunsaturated (incl. omega-3)**
+
+- ***Trans* fat** is the clearest harm. WHO recommends **<1% of energy** and elimination of
+  industrial sources [@who2020diet].
+- **Saturated fat** raises LDL cholesterol; the practical move is to **replace it with
+  unsaturated fat** — not with refined carbohydrate.
+- **Mono- and polyunsaturated fats** (olive oil, nuts, fish) are the ones to favour;
+  omega-3 and omega-6 are *essential* fatty acids the body cannot make.
 
 ::: {.callout-note}
-## Linking back
-These ideas feed directly into the [energy balance](energy-balance.qmd) chapter, where we turn
-intake and expenditure into a concrete plan.
+## "Low fat" can backfire
+Chasing "low fat" often means swapping fat for refined starch or sugar — frequently a
+*worse* trade. The target is fat **quality**, and the replacement nutrient matters.
+*(Where saturated fat sits within a whole food — dairy versus processed meat — is an area
+of genuine ongoing scientific debate; the first-year message stays simple: replace with
+unsaturated and whole foods.)*
 :::
+
+## Protein: adequacy and quality
+
+Protein supplies amino acids for structure, enzymes, immune molecules and transport. Of the
+~20 amino acids, several are **essential** (must come from the diet). A useful population
+reference is about **0.8 g/kg/day** — adequate for most healthy adults, though needs rise in
+older age, illness and athletic training.
+
+**Quality** reflects how well a protein matches human amino-acid needs. Animal proteins are
+typically "complete"; most single plant proteins are lower in one or more essential amino
+acids but are easily complemented across a day — and plant proteins arrive as a **package
+deal** with fibre and unsaturated fat. Protein also has the highest **thermic effect** of
+the macronutrients, contributing modestly to energy expenditure and to satiety.
+
+## From nutrients to patterns
+
+Modern guidelines have moved decisively from "hit this macronutrient ratio" to **"eat these
+foods, in this pattern"** [@aha2021diet]. There is **no single ideal macronutrient split**;
+guidelines deliberately avoid prescribing one and advise individualising — and referring to
+a dietitian where needed [@ada2024care]. The consistent themes are: favour whole grains,
+plants and unsaturated fats; minimise added sugar, *trans* fat, sodium and ultra-processed
+foods.
+
+## The Singapore picture
+
+Singapore turns these thresholds into everyday tools:
+
+- **My Healthy Plate** — "**quarter, quarter, half**": ¼ wholegrains, ¼ protein, ½ fruit
+  and vegetables. A whole-grain quarter is the practical way to act on carbohydrate quality
+  [@hpbHealthyPlate].
+- **Nutri-Grade** — grades beverages **A–D** by sugar and saturated fat. A live translation
+  of the free-sugar cap into a label you can read on a *teh tarik* or bubble tea
+  [@hpbNutriGrade].
+
+The reality gap is real. The National Nutrition Survey 2022 found only about **4% of
+staples** eaten are wholegrain (against a ~30% recommendation), saturated fat makes up a
+large share of fat intake, and most residents exceed the sodium target [@mohNNS2022]. These
+numbers are exactly why the thresholds matter — and where a brown-rice or wholemeal swap
+earns its keep.
+
+## So — are carbs bad?
+
+Put it together. The question dissolves once you ask *which carbohydrate, from what food?*
+A bowl of sugary drink and white rice, and a bowl of brown rice with vegetables and fish,
+are both "carbs" — and they are not remotely the same for health. Your first-year job is to
+give **quality** guidance ("more wholegrains, fewer free sugars, better fat"), anchor it to
+My Healthy Plate, and **refer to a dietitian** when a patient wants a restrictive or
+therapeutic diet [@ada2024care]. Resist prescribing grams; that comes later [@crowley2019].
+
+## Check your understanding
+
+<div data-island="quiz" data-src="/quizzes/macronutrients.quiz.yml"></div>
+
+## Practise: "Doctor, are carbs bad?"
+
+A patient has cut out all rice and bread. Help them replace a slogan with a useful
+distinction. Your choices branch the case.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/are-carbs-bad.case.yml"></div>

@@ -1,10 +1,80 @@
 # Preface {.unnumbered}
 
-*Health in Medicine* is an interactive companion to the first-year **nutrition and
-metabolism** teaching. It pairs concise didactic material with live diagrams,
-self-assessment, and branching **clinical cases** in which you rehearse advising
-patients on diet and health.
+Medicine has always had two jobs: to **treat disease**, and to **protect health**. The
+second is easy to neglect — it is quieter, slower, and rarely an emergency — yet it is
+where most of today's gains in length and quality of life are won. *Health in Medicine* is
+about that second job: the everyday clinical work of helping people stay well. And no
+single lever matters more to it than **nutrition**.
 
-This pilot demonstrates the integrated study loop — **read → explore → self-test →
-rehearse clinical reasoning** — with all progress saved locally in your browser, no
-account required.
+In Singapore, the commitment to keeping people well — not just treating them once they are
+sick — now has a national plan. **Healthier SG**, launched on 5 July 2023 after its 2022
+White Paper to Parliament, set out to re-orient the health system *"from reactively caring
+for those who are already sick, to proactively preventing individuals from falling ill"*
+[@mohHealthierSG]. Every resident is invited to enrol with a family doctor and build a
+personalised health plan around diet, activity, screening and sleep. This book teaches the
+part of that plan that sits at the centre of all the rest: **what, and how, people eat.**
+
+## Why a whole book on nutrition
+
+Because the numbers demand it. Non-communicable diseases — heart disease, diabetes,
+cancers, chronic lung disease — now cause around **three-quarters of all deaths worldwide**
+[@who2020diet]. They are, in large part, diseases of how we live, and **diet is among the
+single largest modifiable drivers** [@gbd2019diet]. Close to home, **one in three
+Singaporeans** has a lifetime risk of diabetes [@mohWarOnDiabetes] — yet the National
+Nutrition Survey 2022 found only about **4% of the staples we eat are wholegrain**, **nine
+in ten** of us exceed the sodium target, and saturated fat makes up a large share of our
+fat intake [@mohNNS2022].
+
+Here is the paradox this book exists to fix. Diet is one of the most powerful levers a
+doctor has — and one of the **least taught** subjects in medical training. A 2019 review
+across five world regions concluded bluntly that *"nutrition is insufficiently incorporated
+into medical education, regardless of country, setting, or year of medical education"*
+[@crowley2019]. Singapore is taking the opposite bet: from **2026**, NUS Medicine is
+expanding graduate training in **nutrition and preventive health**, built around Asia's
+ageing population and rising chronic disease. You are learning this at exactly the moment
+the field is being built around you.
+
+## What this book is
+
+*Health in Medicine* is an **interactive companion** to your first-year nutrition and
+metabolism teaching. It is **Singapore-first** — anchored in the tools you already live
+with: **My Healthy Plate** ("quarter, quarter, half"), **Nutri-Grade** on your *kopi* and
+bubble tea, the **War on Diabetes** — before generalising to the international evidence.
+
+It is built for an integrated study loop:
+
+> **read → explore → self-test → rehearse**
+
+Each chapter pairs concise text with live diagrams, **self-assessment quizzes** that give
+instant feedback, and **branching clinical cases** in which you practise advising real
+patients — a *cai png* lunch, a high screening glucose, a tired young woman with heavy
+periods. All progress is saved **locally in your browser**; there is no account and no
+login.
+
+## How to read it
+
+- The chapters build on each other. **Part I** lays a firm metabolic and physiological
+  foundation; later parts apply it to advising well people, then to common conditions, then
+  to integrated practice.
+- Treat the **quizzes and cases as the point**, not the garnish. Counselling is a skill,
+  and skills are built by doing.
+- Notice the **honesty about evidence**. Throughout, landmark trials appear *with* their
+  caveats — a relative risk on a composite endpoint is not the same as "prevents heart
+  attacks." Learning to read a claim carefully is itself a clinical competency.
+
+## What it will, and won't, do
+
+This year is about **motivation, concepts, and the clinical conversation**. It will build
+your nutritional literacy and your confidence to advise. It will **not** turn you into a
+dietitian or hand you prescribing protocols — detailed medical nutrition therapy and
+disease management come later, and you will learn *when to refer*.
+
+A doctor who can help a patient eat well is practising medicine at its most preventive and
+most human. That work starts here.
+
+::: {.callout-note}
+## A note for this pilot
+This is an early build demonstrating the format with a sample of Part I chapters. Content,
+cases and citations are under active development and review; figures are quoted with their
+sources so they can be checked.
+:::

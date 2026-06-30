@@ -1,0 +1,80 @@
+id: why-nutrition-matters
+title: "Quick check: why nutrition matters"
+questions:
+  - id: q1
+    stem: "Non-communicable diseases (NCDs) account for roughly what share of deaths worldwide?"
+    options:
+      - text: "About 25%"
+        correct: false
+        feedback: "Too low — NCDs are now the dominant cause of death globally."
+      - text: "About 75%"
+        correct: true
+        feedback: "Correct — NCDs cause roughly **74%** of deaths worldwide, and most are driven by modifiable behaviours."
+      - text: "About 95%"
+        correct: false
+        feedback: "Too high — infectious disease, injury and maternal/neonatal causes still account for a substantial share."
+
+  - id: q2
+    stem: "Why is nutrition described as the **integrating hub** of the six pillars of health?"
+    options:
+      - text: "Because diet is the only pillar that affects health"
+        correct: false
+        feedback: "No — all six pillars matter. Nutrition is the *hub* because it connects to the others, not because it replaces them."
+      - text: "Because it interacts bidirectionally with sleep, stress, activity, alcohol and social connection"
+        correct: true
+        feedback: "Correct — pulling on the nutrition lever tends to move the whole web (e.g. short sleep raises appetite; stress drives comfort eating)."
+      - text: "Because nutrition is unrelated to the other pillars and can be treated in isolation"
+        correct: false
+        feedback: "The opposite — its *connectedness* is exactly why it's the hub."
+
+  - id: q3
+    stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
+    options:
+      - text: "Whole dietary **patterns** matter more than any single nutrient or food"
+        correct: true
+        feedback: "Correct — patterns (e.g. Mediterranean, DASH) outperform single-nutrient or 'superfood' thinking."
+      - text: "Find the one magic nutrient and maximise it"
+        correct: false
+        feedback: "This is the single-nutrient reductionist trap the chapter warns against."
+      - text: "Diet has no measurable effect on disease risk"
+        correct: false
+        feedback: "Diet is among the largest *modifiable* contributors to NCD burden."
+
+  - id: q4
+    stem: "A colleague says: 'PREDIMED proves the Mediterranean diet prevents heart attacks.' What is the most accurate response?"
+    options:
+      - text: "Yes — it's a definitive randomised trial with no important caveats"
+        correct: false
+        feedback: "Overstated. Every landmark trial carries caveats worth knowing."
+      - text: "It showed a ~30% **relative** reduction on a **composite** endpoint, from a 2018 re-analysis — promising, but caveated"
+        correct: true
+        feedback: "Correct — relative risk on a stroke-dominated composite, partly cluster-randomised, from a re-analysis after the original was withdrawn."
+      - text: "PREDIMED found no effect at all"
+        correct: false
+        feedback: "It did find a benefit — but the claim must be stated precisely, with its limits."
+
+  - id: q5
+    stem: "According to the National Nutrition Survey 2022, roughly what proportion of Singapore residents exceed the recommended sodium limit?"
+    options:
+      - text: "About 1 in 10"
+        correct: false
+        feedback: "It's the reverse — only about 1 in 10 stay *within* the limit."
+      - text: "About 9 in 10"
+        correct: true
+        feedback: "Correct — ~9 in 10 exceed the WHO sodium limit, with most sodium coming from sauces, broths and food eaten out."
+      - text: "About 1 in 2"
+        correct: false
+        feedback: "Higher than that — roughly 9 in 10 exceed the limit."
+
+  - id: q6
+    stem: "Which statement best captures the **Health in Medicine** approach to protecting health?"
+    options:
+      - text: "Using behaviour change instead of medication — an alternative to mainstream medicine"
+        correct: false
+        feedback: "A common misconception. It is evidence-based and guideline-aligned — behaviour change *alongside* drugs, not rejecting them."
+      - text: "Evidence-based use of the six pillars (nutrition, activity, sleep, stress, connection, avoiding risky substances) to prevent, treat and sometimes reverse chronic disease — alongside usual care"
+        correct: true
+        feedback: "Correct — it works *with* pharmacotherapy and surgery, not against them."
+      - text: "Only telling patients to 'eat better and exercise more'"
+        correct: false
+        feedback: "Too vague. It is a structured, examinable clinical skill across six pillars."

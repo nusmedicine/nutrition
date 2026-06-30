@@ -5,6 +5,11 @@ components/node_modules/
 book/_book/
 book/.quarto/
 /.quarto/
+# Stray site libraries written to the project root by an interrupted in-place render
+book/site_libs/
+
+# Atomic-write temp files (e.g. from editing .claude/launch.json)
+.claude/*.tmp.*
 
 # Built component bundle (generated from components/src by Vite — rebuild with `npm --prefix components run build`)
 book/assets/components.js
