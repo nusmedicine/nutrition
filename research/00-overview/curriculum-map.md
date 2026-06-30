@@ -1,157 +1,126 @@
 # Curriculum map — first-year nutrition (lifestyle-medicine framed)
 
-> **Status: 🟢 CONFIRMED spine (2026-06-30).** Derived by the research pass (web-grounded, 5 streams)
-> + adversarial verification, then revised per the agreed fixes.
-> **Scope:** nutrition-led, capturing lifestyle-medicine pillar intersections.
-> **Anchoring:** Singapore-first (HPB / MOH), complemented by international (WHO / ACLM / ADA / AHA).
-> Design logic → [`frameworks.md`](frameworks.md). Evidence → [`../evidence/guidelines.md`](../evidence/guidelines.md),
-> [`../evidence/key-studies.md`](../evidence/key-studies.md). Status legend: 🔴 not started · 🟡 researching · 🟢 ready to write · ✅ drafted in book.
+> **Status: 🟢 RESTRUCTURED spine (2026-06-30, branch `curriculum-restructure`).**
+> Four parts around a firm physiological foundation, leading with *advising well people*, then
+> common conditions, then integration. **Part I sequencing is research-backed** (see §"Part I"
+> below — surveyed 6 nutrition + 4 physiology/biochem texts, then verified).
+> Singapore-first (HPB/MOH) + international. Design logic → [`frameworks.md`](frameworks.md).
+> Legend: 🔴 not started · 🟡 researching · 🟢 dossier ready · ✅ in book.
 
-**Fixes applied to the synthesised draft:** split foundations into separate **Energy Balance** and
-**Macronutrients** chapters (book already has both); added **hydration & electrolytes** to the
-micronutrients chapter; **moved life-cycle & undernutrition earlier** (before overnutrition);
-**split** the dense cardiometabolic chapter into **CVD/hypertension** and **type 2 diabetes**;
-**threaded counselling earlier** (introduced in the assessment chapter) and added a
-**disordered-eating do-no-harm** thread; folded in missing topics (gut microbiome, culinary
-medicine, GLP-1/CKM context, gestational diabetes, fibre/whole-grain & sodium-trial evidence);
-flagged aging guideline dates. → 14 chapters.
+## Design philosophy
+1. **A firm metabolic & physiological basis first**, sequenced on one principle: *substrate defined
+   before its fate; absorbed before metabolised; pathways before integration; system before its regulation.*
+2. **Lead with health, then disease** — Part II advises people in a *state of health*; Part III applies it to conditions.
+3. **Cases in three tiers** — embedded per-chapter (deterministic), a case bank, and a **capstone**
+   integrative-cases chapter (home of the optional **LLM patient**; planned now, built later).
 
-## Chapters
+## Chapters (v1 — 21)
 
-| # | Chapter | Focus | Key anchors | Book chapter | Dossier |
-|---|---|---|---|---|---|
-| 1 | Why Nutrition Matters: Diet, Disease & the LM Frame | conceptual | ACLM 2022, WHO, War on Diabetes | — | 🟢 |
-| 2 | Energy Balance & Metabolism | nutrition science | WHO, SG Dietary Guidelines | `energy-balance.qmd` ✅ | 🟢 |
-| 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | nutrition science | WHO, SG NNS 2022, AHA | `macronutrients.qmd` 🟡 | 🟢 |
-| 4 | Micronutrients, Hydration & Electrolytes | nutrition science | WHO, SG NNS 2022, AfN | — | 🟢 |
-| 5 | Dietary Guidelines & Healthy Dietary Patterns | patterns / literacy | My Healthy Plate, WHO, AHA, DGA | — | 🟢 |
-| 6 | Dietary Assessment, Food Labels & Talking to Patients | clinical skill | Nutri-Grade, AfN, ACLM | — | 🟢 |
-| 7 | Evidence Literacy: Diets, Fads & Supplements | appraisal | ACLM, ADA | — | 🟢 |
-| 8 | Nutrition Across the Life Cycle & Undernutrition | applied | SG (seniors), AfN, ACLM | — | 🟢 |
-| 9 | Overnutrition: Overweight, Obesity & Metabolic Syndrome | applied | Asian BMI cut-offs, Obesity CPG | — | 🟢 |
-| 10 | Nutrition in Cardiovascular Disease & Hypertension | applied | DASH, ACE Lipid, AHA | — | 🟢 |
-| 11 | Nutrition in Type 2 Diabetes: Prevention, Management & Remission | applied | ACE T2DM, ADA, War on Diabetes | — | 🟢 |
-| 12 | Public-Health Nutrition & the Food Environment | population | Nutri-Grade, Healthier Dining, Healthier SG | — | 🟢 |
-| 13 | Behaviour-Change Counselling for Dietary Change | counselling skill | ACLM, Lianov & Johnson | — | 🟢 |
-| 14 | Interprofessional Practice, Referral & Practitioner Self-Care | professional | AND 2017, ACLM, ADA, AfN | — | 🟢 |
+| # | Chapter | Source dossier | Dossier |
+|---|---|---|---|
+| **I** | **— The metabolic & physiological basis —** | | |
+| 1 | Why Nutrition Matters & the Lifestyle-Medicine Frame | `01-why-nutrition-matters` | 🟢 |
+| 2 | Energy Balance & Body Composition | `02-energy-balance` (book ✅) | 🟢 |
+| 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | `03-macronutrients` (book 🟡) | 🟢 |
+| 4 | Micronutrients, Hydration & Electrolytes | `04-micronutrients-hydration` | 🟢 |
+| 5 | **Digestion & Absorption** ✨ | NEW (split) | 🔴 |
+| 6 | **The Gut Microbiome** ✨ | NEW (split; + old public-health microbiome) | 🔴 |
+| 7 | **Integrative Metabolism (Fed / Fasted)** ✨ | NEW | 🔴 |
+| 8 | **Appetite & Weight Regulation** ✨ | NEW (+ sleep/stress from old overnutrition) | 🔴 |
+| **II** | **— Advising people in a state of health —** | | |
+| 9 | What a Healthy Diet Looks Like (patterns & guidelines) | `05-dietary-guidelines-patterns` (+ food environment) | 🟢 |
+| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` (life-cycle part) | 🟢 |
+| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | 🟢 |
+| 12 | Behaviour-Change Counselling | `13-counselling` | 🟢 |
+| 13 | Evidence vs Hype & Everyday Questions (incl. food & acne) | `07-evidence-literacy` (+ NEW everyday) | 🟡 |
+| **III** | **— Nutrition in common conditions (core + a few) —** | | |
+| 14 | Obesity & Metabolic Syndrome | `09-overnutrition` | 🟢 |
+| 15 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
+| 16 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
+| 17 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
+| 18 | **Menopause & Midlife Health** ✨ | NEW | 🔴 |
+| 19 | Undernutrition & Malnutrition | `08-life-cycle-undernutrition` (undernutrition part) | 🟡 |
+| **IV** | **— Integration & practice —** | | |
+| 20 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
+| 21 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
 
-*Sequence: foundations (1–4) → literacy & assessment (5–7) → applications (8–11) → population, counselling & professional practice (12–14). Counselling is **introduced in Ch.6** and **consolidated in Ch.13**.*
-
-## Chapters in detail
-
-### 1 · Why Nutrition Matters: Diet, Disease & the LM Frame
-- **Focus/level:** conceptual & motivational; build the integrating mental model. No clinical management.
-- **Objectives:** define the six LM pillars & why nutrition is the hub; describe the global + Singaporean burden of diet-related NCDs; explain bidirectional pillar interactions (multi-pillar > single-behaviour); outline course scope/expectations.
-- **Core topics:** ACLM six pillars & 2022 domains; nutrition as a behavioural target; diet–disease overview; SG chronic-disease burden / War on Diabetes; synergistic vs additive effects.
-- **Pillar intersections:** nutrition as hub linking activity, sleep, stress, alcohol, social connection.
-- **Case ideas:** office worker with a hawker-food lifestyle — map the pillars; single- vs multi-pillar contrast.
-- **Key studies:** DPP; Crowley 2019.
-
-### 2 · Energy Balance & Metabolism *(book: `energy-balance.qmd` ✅)*
-- **Focus/level:** core science; roles & estimation, not detailed pathways.
-- **Objectives:** describe energy balance & determinants of requirements; estimate energy needs (BMR via Mifflin–St Jeor × activity); relate surplus/deficit to weight; introduce TEF & metabolism basics.
-- **Core topics:** TEE = BMR + TEF + PA; BMR drivers; Mifflin–St Jeor; activity factors; energy density.
-- **Pillar intersections:** nutrition×physical activity (fuelling & expenditure).
-- **Case ideas:** **BMR estimation — *Mdm Tan* (built)**; "100 kcal/day surplus over a year".
-- **Key studies:** (foundational; see macronutrient/pattern chapters for trials).
-
-### 3 · Macronutrients: Carbohydrate, Protein, Fat & Fibre *(book: `macronutrients.qmd` 🟡)*
-- **Focus/level:** roles & thresholds, not therapeutic prescriptions.
-- **Objectives:** classify macronutrients & roles; distinguish fat types (sat/trans/unsaturated); explain fibre & whole-grain benefits with evidence; relate WHO thresholds to risk.
-- **Core topics:** CHO/protein/fat/fibre physiology; free sugars; whole grains; WHO thresholds (sat fat <10%, free sugars <10%, trans <1%, total fat <30%); NNS 2022 (~4% wholegrain staples).
-- **Added (fix):** distinct **fibre / whole-grain evidence** (e.g. Reynolds 2019) with a real citation.
-- **Pillar intersections:** CHO quality → glycaemic/metabolic health (preview of diabetes).
-- **Case ideas:** "are carbs bad?"; interpret the NNS wholegrain finding.
-
-### 4 · Micronutrients, Hydration & Electrolytes
-- **Focus/level:** recognition only; not biochemical mechanisms or dosing.
-- **Objectives:** classify key vitamins/minerals/trace elements & functions; recognise common deficiencies & at-risk groups; explain fluid & electrolyte balance and hydration needs; sodium as a SG population risk.
-- **Core topics:** fat-/water-soluble vitamins; minerals/trace elements; common deficiencies (iron/anaemia, vit D, B12); **hydration & fluid balance (added)**; sodium/potassium; SG sodium over-consumption (~9 in 10 exceed).
-- **Added (fix):** **hydration** (AfN topic G); **sodium-reduction trial** evidence (SSaSS).
-- **Case ideas:** young woman with fatigue + heavy menses → iron deficiency; estimate sodium load of a hawker meal.
-
-### 5 · Dietary Guidelines & Healthy Dietary Patterns
-- **Focus/level:** pattern recognition & guideline literacy, not prescriptive meal planning.
-- **Objectives:** interpret My Healthy Plate (QQH); compare SG vs WHO/AHA/DGA & find shared messages; describe Mediterranean & DASH + evidence; explain why patterns > single nutrients.
-- **Core topics:** My Healthy Plate; WHO/AHA 2021/DGA; Mediterranean & DASH; commonalities; pattern thinking vs nutrient reductionism.
-- **Pillar intersections:** whole-food plant-predominant patterns; cultural/household adaptability.
-- **Case ideas:** translate My Healthy Plate into Indian/Malay/Chinese menus; compare a diet to Mediterranean/DASH.
-- **Key studies:** PREDIMED, DASH, Mediterranean umbrella review *(teach with caveats; forward-reference Ch.7 appraisal)*.
-
-### 6 · Dietary Assessment, Food Labels & Talking to Patients
-- **Focus/level:** competent basic diet history, label interpretation, and a safe first conversation.
-- **Objectives:** take a basic diet history / rapid screen; interpret food labels & Nutri-Grade; identify nutrients of deficit/excess; **introduce a respectful brief-conversation opener (Ask/Advise) and screen for disordered eating / avoid harm**.
-- **Core topics:** diet-history methods & screeners; food labels; Nutri-Grade A–D; anthropometry & malnutrition-screening concept; **counselling primer (threaded)**; **disordered-eating awareness (added)**.
-- **Pillar intersections:** assessment is the shared entry point for all pillars; include an alcohol history.
-- **Case ideas:** OSCE diet-history station (weight gain + bubble tea); grade SG drinks & counsel a swap.
-
-### 7 · Evidence Literacy: Appraising Diets, Fads & Supplements
-- **Focus/level:** introductory critical appraisal — ask the right questions, spot red flags. *(A top under-prepared area — pitch with genuine appraisal practice, not just "spot red flags".)*
-- **Objectives:** apply intro appraisal principles; distinguish evidence-based guidance from fads/supplements; explain why pattern evidence is graded differently; recognise hype vs effect (TRE).
-- **Core topics:** hierarchy of nutrition evidence; fad/supplement claims; mechanism-plausible vs proven (chrononutrition/TRE); conflicts of interest; when supplements are/aren't indicated.
-- **Pillar intersections:** nutrition×circadian (TRE as a calibration case).
-- **Case ideas:** respond to a "detox"/keto-supplement question; critically discuss TRE.
-
-### 8 · Nutrition Across the Life Cycle & Undernutrition *(moved earlier)*
-- **Focus/level:** awareness/recognition; detailed therapeutic feeding is future learning.
-- **Objectives:** describe changing needs across pregnancy/infancy/childhood/adolescence/older age; recognise undernutrition/malnutrition & at-risk groups; outline nutrition support & the MDT; identify special diets & referral triggers.
-- **Core topics:** life-cycle nutrition; SG seniors' guidelines; **gestational diabetes (added)**; under-nutrition/malnutrition recognition; nutrition-support concept & MDT; special diets & referral.
-- **Pillar intersections:** nutrition×social connection (feeding contexts; isolation in older adults).
-- **Case ideas:** older SG adult living alone with weight loss → malnutrition risk + referral; pregnant woman + GDM screening.
-
-### 9 · Overnutrition: Overweight, Obesity & Metabolic Syndrome
-- **Focus/level:** recognise/classify/explain + lifestyle-first; drug & bariatric management signposted.
-- **Objectives:** apply Asian-specific BMI cut-offs & why stricter than WHO; describe metabolic syndrome clustering; explain lifestyle-first weight management; outline stress/sleep links to central adiposity.
-- **Core topics:** Asian BMI action points (≥23 / ≥27.5); metabolic syndrome; energy balance applied; lifestyle-first (pharmacotherapy signposted); central adiposity & stress/sleep.
-- **Pillar intersections:** nutrition×sleep; nutrition×stress (cortisol/comfort food); nutrition×physical activity.
-- **Case ideas:** SG man, BMI 28, central obesity — classify by Asian cut-offs + multi-pillar contributors; shift worker with poor sleep & stress snacking.
-- **Key studies:** Look AHEAD; sleep-restriction crossover; comfort-food PNAS *(exploratory caveat)*.
-
-### 10 · Nutrition in Cardiovascular Disease & Hypertension *(split)*
-- **Focus/level:** diet–disease evidence + lifestyle-first; lipid targets/algorithms signposted, not threshold recall.
-- **Objectives:** summarise dietary evidence for CVD & hypertension; explain how DASH/Mediterranean lower BP & CV risk; describe the role of dietary fat & sodium; recognise where dietitian referral fits.
-- **Core topics:** DASH & Mediterranean for BP/CVD; dietary fat & sodium; SG-modified Framingham vs US pooled-cohort *(teaching contrast)*; ACE Lipid guidance (signposted).
-- **Pillar intersections:** nutrition×alcohol (dyslipidaemia/HTN); nutrition×physical activity.
-- **Case ideas:** raised BP + LDL — DASH + heart-healthy pattern + when to refer.
-- **Key studies:** DASH, PREDIMED, Mediterranean umbrella review.
-
-### 11 · Nutrition in Type 2 Diabetes: Prevention, Management & Remission *(split)*
-- **Focus/level:** lifestyle-first + "know the screening pathway exists"; pharmacology (incl. GLP-1) signposted.
-- **Objectives:** summarise dietary evidence for T2DM prevention & management; explain lifestyle-first and that early T2DM can be improved/remitted with dietary weight management; describe Singapore's screening pathway at awareness level; outline GLP-1/CKM context.
-- **Core topics:** DPP & DiRECT *(with caveats)*; dietary weight management & remission; screening pathway (FPG/OGTT/HbA1c — awareness, not thresholds); **GLP-1 RAs / CKM-syndrome context (added, signposted)**; ethnic-specific risk.
-- **Pillar intersections:** nutrition×physical activity (DPP); nutrition×social (adherence).
-- **Case ideas:** prediabetes-range HbA1c — counsel diet+activity (DPP); early T2DM — discuss remission realistically.
-- **Key studies:** DPP, DiRECT, Look AHEAD *(all with caveats)*.
-
-### 12 · Public-Health Nutrition & the Food Environment
-- **Focus/level:** population literacy; not formal intervention design.
-- **Objectives:** explain how the food environment & policy shape behaviour; describe SG interventions & rationale; relate population risk to inequalities & ethnic-specific risk; discuss culinary medicine & processing.
-- **Core topics:** Nutri-Grade; Healthier Dining; **Healthier Choice Symbol (explained — added)**; NNS 2022; hawker environment & swaps; ultra-processed foods; **culinary medicine (added)**; **Healthier SG (added)**; inequalities & ethnic-specific risk; **gut microbiome (cross-cutting, added)**.
-- **Case ideas:** hawker-centre healthier-swap guide; why Indian/Malay residents face higher diabetes risk + tailored strategies.
-- **Key studies:** NNS 2022; War on Diabetes analysis; social-support meta-analysis.
-
-### 13 · Behaviour-Change Counselling for Dietary Change *(consolidates the Ch.6 thread)*
-- **Focus/level:** foundational counselling skills; a structured, empathic brief consult.
-- **Objectives:** apply the 5A's; demonstrate introductory MI to elicit change talk; convert intentions into SMART goals; use Stages-of-Change with awareness of its limits; **counsel safely (disordered-eating do-no-harm)**.
-- **Core topics:** 5A's; MI basics & change talk; SMART goals; Transtheoretical model (with humility); cultural tailoring; **disordered-eating safety (reinforced)**.
-- **Pillar intersections:** nutrition×social connection (enlist household/peers; anticipate sabotage); skills transfer across all pillars.
-- **Case ideas:** MI consult to cut sugary kopi/teh via a SMART goal; 5A's for ambivalence about hawker portions.
-- **Key studies:** MI review-of-reviews; TTM Cochrane review; social-support meta-analysis.
-
-### 14 · Interprofessional Practice, Referral & Practitioner Self-Care
-- **Focus/level:** professional identity & boundaries — recognise limits and refer appropriately.
-- **Objectives:** recognise the limits of the first-year role; demonstrate when/how to refer to a dietitian; describe team-based nutrition care; reflect on the practitioner's own diet/lifestyle.
-- **Core topics:** scope & referral triggers; medical nutrition therapy & the dietitian's role; interprofessional care (AND); **Healthier SG pathways**; self-care & professionalism.
-- **Pillar intersections:** practitioner personal-health pillar; cross-pillar collaboration.
-- **Case ideas:** decide who to refer & write a concise referral; reflect on own diet/sleep/activity & counselling credibility.
-- **Key studies:** Crowley 2019.
+**Net-new research:** Ch.5 Digestion & Absorption, Ch.6 Gut Microbiome, Ch.7 Integrative Metabolism,
+Ch.8 Appetite & Weight Regulation, Ch.17 Osteoporosis, Ch.18 Menopause; plus **expand** Ch.13
+(everyday questions inc. acne) and **split out** Ch.19 (undernutrition). **Deferred to Phase 2:**
+Joints & Inflammation, full Skin & Nutrition, GI conditions, standalone Public-Health chapter.
 
 ---
 
-## Cross-cutting topics (→ `../topics/`)
-- **Gut microbiome** — diet↔sleep↔stress↔metabolism mechanism (touches Ch.3/9/11/12).
-- **Dietary patterns** (Mediterranean, DASH, plant-based) — shared by Ch.5/10/11.
-- **Behaviour-change counselling** — introduced Ch.6, consolidated Ch.13.
+## Part I — sequencing, contents & overlap ownership *(research-backed)*
 
-## Remaining currency checks (apply during dossier writing)
-- Date **My Healthy Plate (2014)** and **HPB-MOH Obesity CPG (2016)** honestly; mark **Nutri-Grade ~2027 extension** provisional; verify the **ADA Standards of Care 2025/2026** edition.
+**Order rationale:** *substrate must be defined before its fate; molecules absorbed before metabolised;
+individual pathways before their integration; the integrated system before its regulation.* The
+"energy-first" opening (vs the canonical North-American digestion-first spine) is a deliberate
+UK/Nutrition-Society + lifestyle-medicine choice — it eases students in with the least biochem-heavy
+content while the **parallel core-biochemistry course** builds the pathway machinery that Ch.7 integrates.
+> ⚠ **Scheduling constraint (verifier):** Ch.7 Integrative Metabolism assumes individual pathways
+> (glycolysis, gluconeogenesis, β-oxidation…) are taught in a *synchronised* biochem course. If absent,
+> Ch.7 must carry a brief pathways primer or move later. Time Ch.7 to the biochem "fed/fasted" sessions.
+
+### Part I authoring principles (decided 2026-06-30)
+- **Nutrient chapters are function-led, not laundry lists.** Macros (Ch.3) & Micros (Ch.4) stay
+  *process-organized* but taught by **function & clinical relevance**, with a high-level functional
+  preview (e.g. "carbs → glucose → fuel; *quality* matters") and a recurring **"follow the nutrient"
+  through-line** that Digestion (Ch.5) and Integrative Metabolism (Ch.7) pick up. *(Not the
+  nutrient-vertical / Gropper model.)*
+- **Dietary reference intakes:** teach the **concept once** (EAR/RDA/AI/UL/AMDR + limits) in the
+  nutrient foundations; **embed specific values** per nutrient; provide a **reference appendix/table**.
+  Not a standalone chapter.
+- **Diet history** is a **Part II clinical skill** (Ch.11), with an **early "audit your own diet"
+  taster** in Part I so students practise as they learn.
+- **Appetite & Weight Regulation (Ch.8) stays the Part I capstone**, explicitly **bookended with
+  Energy Balance (Ch.2)** — *frame ↔ regulation*, closing the loop. (Not merged into Energy Balance;
+  not folded into Obesity.)
+
+### Chapter contents (the didactic spine of each)
+- **2 · Energy Balance & Body Composition** — energy-balance equation, units/Atwater; TEE components (BMR, TEF, EAT+NEAT); measuring expenditure (calorimetry, DLW, RQ*); body-composition models & assessment (BMI, BIA, DXA, waist); +/- energy balance; BMR determinants. *(*RQ = forward-referenced to Ch.7.)*
+- **3 · Macronutrients** — CHO classification, GI/GL; fibre types (structure only); lipids (FA classes, TG, phospholipids, cholesterol, EFAs) + **name** lipoprotein classes*; protein (AAs, quality PDCAAS/DIAAS), N balance; functions/sources/yields; DRIs/AMDR. *(*lipoprotein assembly→Ch.5, interconversion→Ch.7.)*
+- **4 · Micronutrients, Hydration & Electrolytes** — fat- & water-soluble vitamins; major & trace minerals; body water (ICF/ECF), fluid balance, osmolality, Na/K, acid–base; hydration assessment; DRIs/bioavailability/UL.
+- **5 · Digestion & Absorption** ✨ — GI anatomy & accessory organs; motility; chemical digestion (salivary→brush-border); **GI hormones as secretory/motility regulators only** (gastrin, secretin, CCK, GIP, motilin); absorptive mechanisms & enterocyte/villus; nutrient-specific absorption; **bile/micelles/enterohepatic circulation (owner)**; brief colonic-fermentation mention.
+- **6 · The Gut Microbiome** ✨ — microbiota composition/development; **fibre→SCFA fermentation (owner)**; microbial vitamin synthesis; prebiotics/probiotics/fermented foods; diet as modulator. *Trim systemic content (energy-harvest/obesity, endotoxemia/immune, gut–brain axis) to bracketed callbacks in Ch.7/8 — they lack prerequisites this early.*
+- **7 · Integrative Metabolism (Fed/Fasted)** ✨ — fed state (insulin: glycogenesis/lipogenesis/storage); fasted state (glucagon/epinephrine: glycogenolysis/lipolysis); gluconeogenesis & ketogenesis **integration** (not pathway mechanics); starvation adaptations; hormonal regulation; inter-organ fuel exchange (Cori/glucose-alanine); exercise.
+- **8 · Appetite & Weight Regulation** ✨ — hunger/satiety/satiation; hypothalamic control (arcuate NPY/AgRP vs POMC/CART); **adiposity signals leptin/insulin**; **gut peptides' satiety role** (ghrelin, CCK, GLP-1, PYY, amylin — reused from Ch.5); set-point & defence of weight; hedonic/reward eating; adaptive thermogenesis after weight loss. *Closes the loop back to Ch.2.*
+
+### Overlap ownership (define once, cross-reference) — the key to non-redundancy
+| Topic | Owner (defines it) | Reuses / cross-refs |
+|---|---|---|
+| Gut hormones (CCK, GLP-1, PYY, GIP, ghrelin…) | **Ch.5** (secretory/motility role) | Ch.8 (satiety/appetite role) |
+| SCFAs / colonic fermentation | **Ch.6** (full mechanism) | Ch.3 (fibre structure), Ch.5 (anatomical mention) |
+| Bile / enterohepatic circulation | **Ch.5** | Ch.3/4 (lipid & fat-soluble-vitamin absorption) |
+| Gluconeogenesis / ketogenesis | Macros + core biochem (mechanics) | **Ch.7** (whole-body integration) |
+| Leptin / insulin signalling | Ch.2 (energy-store *teaser*) → **Ch.7** (metabolic) → **Ch.8** (appetite) | layer once each; keep leptin's substantive home in Ch.8 |
+| Respiratory quotient | **Ch.7** (substrate-oxidation interpretation) | Ch.2 (preview definition only) |
+| Lipoprotein transport | Ch.3 (classes) · **Ch.5** (chylomicron assembly) · **Ch.7** (interconversion/clearance) | 3-way thread |
+| Gut–brain axis | **Ch.6** (microbial mechanism) | Ch.8 (brief forward link) |
+
+> **Precedent note (verifier):** no surveyed textbook gives Appetite or the Microbiome a *standalone
+> foundational chapter* — both live inside metabolism/obesity or digestion/fibre sections. Treat these
+> two standalone chapters as **deliberate lifestyle-medicine design choices**, flagged for reviewers.
+
+---
+
+## Part III — new-chapter scope seeds
+- **17 · Bone Health & Osteoporosis** — calcium, vitamin D, protein & bone; peak bone mass & age-related loss; dietary risk/protective factors; SG context (vit-D, fracture risk); when to refer. *First-year: recognise the nutritional levers, not manage osteoporosis.*
+- **18 · Menopause & Midlife Health** — nutrition around menopause (bone, cardiometabolic shift, weight redistribution, phytoestrogens evidence vs hype); practical, evidence-based counselling. *First-year: midlife literacy & myth-busting, not HRT management.*
+- **21 · Capstone: Integrative Cases (LLM patient)** — cross-chapter scenarios; home of the optional guardrailed LLM patient. Design the case format + scenario set now; build the LLM backend once content chapters exist.
+
+## Case tiers (Q4)
+1. **Embedded per-chapter cases** (deterministic branching, e.g. the BMR case).
+2. **Case bank** → [`../cases/case-bank.md`](../cases/case-bank.md).
+3. **Capstone integrative cases** (Ch.21) — deterministic + optional LLM patient.
+
+## What moved from the previous map
+- **Split** the old "Digestion, the Gut & Microbiome" into **Ch.5 Digestion & Absorption** + **Ch.6 The Gut Microbiome** (research-backed: absorption is a hard prerequisite for metabolism; the microbiome is a distinct, diet-modifiable system).
+- **Added** Integrative Metabolism (Ch.7) and Appetite & Weight Regulation (Ch.8) as dedicated foundation chapters.
+- **Reordered** Part I per the prerequisite chain above; reordered overall into health-first then conditions.
+- **Added** Osteoporosis (17) and Menopause (18) to Part III.
+- **Redistributed** the old Public-Health chapter: microbiome → Ch.6; food environment / Nutri-Grade / Healthier Choice → Ch.9 & Ch.11; culinary medicine → Ch.12.
+- **Split** old "Life Cycle & Undernutrition" into Ch.10 (life cycle) and Ch.19 (undernutrition).
+
+> **Dossier reconciliation:** existing dossiers keep their current filenames/`chapter:` numbers until
+> authored into the book, then renumber to the table above. New dossiers created for the ✨ chapters.
