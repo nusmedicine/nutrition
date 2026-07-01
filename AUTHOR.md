@@ -325,3 +325,78 @@ components/src/                island components + engine (developer territory)
 | Math not rendering | Use `$…$` / `$$…$$`; confirm `html-math-method: katex` in `_quarto.yml`. |
 | Quarto build error mentioning a `.bib` key | The `@key` citation isn't in `book/references.bib`. |
 | Changes not appearing in preview | Component/YAML changes need a rebuild/render + browser refresh (preview auto-reloads `.qmd` only). |
+
+---
+
+## 11. Chapter template & house style
+
+To keep chapters consistent (and reviewable), we follow one shape. **`book/chapters/macronutrients.qmd`
+is the worked reference** — copy its structure. Two ideas drive it: give every *topic* the
+same **anatomy**, and end each with the same **science → plate** lens.
+
+### 11a. The five-beat anatomy (per nutrient / condition / topic)
+
+Tell each main topic in the same order, using **bold lead-ins** (not headings, to keep the
+page TOC clean) — promote a beat to a `###` heading only when it is large or carries an
+island (e.g. *Glycaemic index and load*):
+
+1. **What it is** — forms / classification + the quality spectrum.
+2. **What it does** — core physiological role(s), briefly.
+3. **From plate to cell** — digestion → absorption → metabolism **in outline**. Keep this to
+   *one short paragraph* and **forward-reference the owner chapter** — the mechanisms live in
+   *Digestion & Absorption* (Ch.5), *The Gut Microbiome* (Ch.6) and *Integrative Metabolism*
+   (Ch.7). Do **not** duplicate them here (see the overlap-ownership table in
+   [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)).
+4. **Quality & thresholds** — which forms are better, the evidence (with its honest caveat),
+   and the guideline numbers.
+5. **From science to plate** — the three house blocks below.
+
+### 11b. The "science → plate" house blocks (recurring callouts)
+
+Three standard callouts, **always in this order**, one per topic — the book's signature
+translation of science into practice:
+
+```markdown
+::: {.callout-note}
+## 🔬 Food science: <hook>
+The chemistry/biology of what happens to the food or nutrient. 2–4 sentences, with a citation.
+:::
+
+::: {.callout-tip}
+## 🍜 Eating out
+The best real-world choices in Singapore's food environment (hawker picks, Nutri-Grade,
+My-Healthy-Plate portions). 2–4 sentences.
+:::
+
+::: {.callout-tip}
+## 🍳 Healthy kitchen
+How to prepare it well at home (the cooking science, made practical). 2–4 sentences.
+:::
+```
+
+### 11c. Standard chapter skeleton
+
+```
+# Chapter title
+> one-line framing blockquote
+## <Topic> at a glance          — orientation + a "how we'll take each one" signpost
+## <Topic A>  ┐ each = the five-beat anatomy (incl. the 🔬🍜🍳 triad)
+## <Topic B>  ┘ + its interactive/figure where it earns a place
+## From nutrients to patterns   — synthesis
+## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out")
+## <Chapter-question close>      — e.g. "So — are carbs bad?"
+## Check your understanding      — <div data-island="quiz" …>
+## Practise: <case title>        — <div data-island="case" …>
+```
+
+### 11d. House rules (apply everywhere)
+
+- **Depth:** first-year level. Blocks stay **2–4 sentences**; the "plate to cell" beat is one
+  paragraph + a forward-ref. Structure is for *scanning*, not length.
+- **Evidence honesty:** state the benefit *and* its caveat; name a landmark trial only *with*
+  its limits (relative vs absolute, surrogate endpoint, certainty grade).
+- **Singapore-first:** anchor to HPB/MOH tools and hawker/home realities before generalising.
+- **Cite everything** with a `@key` that exists in `book/references.bib`; log any figure/photo
+  in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
+- **Interactives earn their place** — a diagram/molecule island where it teaches something a
+  paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.

@@ -3,7 +3,7 @@
 > *The energy-yielding nutrients — but the recurring lesson is that **quality**, not just
 > quantity, drives health. Same kilocalories can mean very different physiology.*
 
-## The three macronutrients (and fibre)
+## The macronutrients at a glance
 
 Macronutrients are the nutrients we need in **gram quantities** and the ones that supply
 **energy**. There are three — carbohydrate, protein and fat — plus **dietary fibre**, a
@@ -28,25 +28,46 @@ macronutrient depends on its **form and food source**, not a single good/bad lab
 this thought — we will return to it at the end.
 :::
 
-## Carbohydrate: a spectrum, not a single thing
+**How we'll take each one.** For carbohydrate, fat and protein we ask the same four
+questions — *what is it, what does it do, what happens to it in the body,* and *how do we
+choose and cook it well?* Watch for three recurring boxes that turn the science into
+practice: 🔬 **Food science** (the chemistry), 🍜 **Eating out** (choices in Singapore's
+food environment), and 🍳 **Healthy kitchen** (cooking at home).
 
-Carbohydrates run a wide spectrum, and where a food sits on it matters far more than the
-word "carb":
+## Carbohydrate
+
+**What it is.** Carbohydrates run a wide spectrum, and where a food sits on it matters far
+more than the word "carb":
 
 > **free sugars / refined starches  →  intact whole grains + fibre**
 
 - **Free sugars** — added sugars plus those in syrups and fruit juices — are the
   carbohydrate to *limit*. The WHO caps them at **<10% of energy**, with further benefit
-  below 5% [@who2020diet]. (Note: the natural sugar inside *whole* fruit is **not** a free
-  sugar and is not the target.)
+  below 5% [@who2020diet]. (The natural sugar inside *whole* fruit is **not** a free sugar
+  and is not the target.)
 - **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
-- **Whole grains and fibre** sit at the protective end. In a major series of meta-analyses,
-  higher fibre and whole-grain intake was associated with roughly **15–30% lower**
-  all-cause and cardiovascular mortality and lower rates of coronary disease, stroke, type
-  2 diabetes and colorectal cancer — with benefit strengthening up to about **25–29 g of
-  fibre a day** [@reynolds2019carb].
+- **Whole grains and fibre** sit at the protective end.
 
 ![Whatever their source, digestible carbohydrates are broken down to simple sugars — chiefly **glucose**, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
+
+**What it does.** Carbohydrate is the body's main everyday fuel. Glucose powers the brain
+(which normally depends on it almost exclusively) and fuels working muscle; the surplus is
+stored as **glycogen** in liver and muscle, and adequate carbohydrate "spares" protein from
+being burned for energy.
+
+**From plate to cell.** Starch digestion begins in the mouth (salivary amylase) and resumes
+in the small intestine (pancreatic amylase), where **brush-border** enzymes (maltase,
+sucrase, lactase) finish the job into single sugars. Glucose and galactose are absorbed
+through the gut lining via the **SGLT1** co-transporter (fructose via GLUT5) and travel to
+the liver in the portal blood, where **insulin** drives their uptake and storage. *(Digestion
+in detail → the Digestion & Absorption chapter; the fed/fasted handling of glucose → the
+Integrative Metabolism chapter.)*
+
+**Quality: not all carbohydrate is equal.** In a major series of meta-analyses, higher fibre
+and whole-grain intake was associated with roughly **15–30% lower** all-cause and
+cardiovascular mortality and lower rates of coronary disease, stroke, type 2 diabetes and
+colorectal cancer — with benefit strengthening up to about **25–29 g of fibre a day**
+[@reynolds2019carb].
 
 ::: {.callout-warning}
 ## How strong is the fibre evidence?
@@ -55,7 +76,7 @@ best* for fibre, and lower for whole grains and for glycaemic index/load. These 
 **associations**, not proof of cause. Teach the benefit; keep the caveat attached.
 :::
 
-## Glycaemic index and glycaemic load
+### Glycaemic index and glycaemic load
 
 Not all carbohydrate raises blood glucose at the same speed. The **glycaemic index (GI)**
 ranks a food by how much a portion containing **50 g of available carbohydrate** raises
@@ -89,36 +110,46 @@ different areas.
 
 <div data-island="gi" data-src="/diagrams/glycemic-index-load.yml"></div>
 
-A few honest caveats keep GI in proportion:
+A few honest caveats keep GI in proportion: it is **not** a measure of healthiness
+(chocolate is low-GI); a food has **no single fixed GI** (ripeness, processing, cooking and
+the rest of the meal all shift it); and the evidence linking GI/GL to hard outcomes is the
+*weakest* strand of carbohydrate-quality research — **low to very low certainty**, well
+below fibre and whole grains [@reynolds2019carb]. For most patients the practical message
+is not a GI number but the familiar one: favour **whole, intact, fibre-rich** carbohydrates
+in **sensible portions** — the wholegrain quarter of My Healthy Plate [@hpbHealthyPlate].
 
-- GI is **not** a measure of healthiness — chocolate and ice cream are low-GI because of
-  their fat, while watermelon and potato are high-GI. It describes only the glucose curve.
-- A food has **no single fixed GI**: ripeness (a ripe banana raises glucose more than an
-  unripe one), processing, cooking, and what it is eaten *with* (fat, protein, fibre and
-  acidity all blunt the rise) all shift it. Table values are population averages.
-- It is a **concept, not a bedside tool** at this stage — and the evidence linking GI/GL to
-  hard health outcomes is the *weakest* strand of carbohydrate-quality research, rated
-  **low to very low certainty** in the Reynolds meta-analyses, well below the evidence for
-  fibre and whole grains [@reynolds2019carb].
+![Brown rice keeps its bran and germ — more fibre and a gentler glucose rise than white rice. Photo: Ceeseven, CC BY-SA 4.0.](/figures/food/brown-rice.jpg){#fig-brown-rice fig-alt="A bowl of cooked brown rice." width="320" .lightbox}
 
-For most patients the practical message is not a GI number but the familiar one: favour
-**whole, intact, fibre-rich** carbohydrates in **sensible portions** — exactly what My
-Healthy Plate's wholegrain quarter encodes [@hpbHealthyPlate].
+### From science to plate
 
-::: {.callout-tip}
-## Healthy kitchen: cooking changes carbohydrate
-Cooking **gelatinises** starch, making it digest faster — so *al dente* pasta and firmer,
-less-processed grains raise glucose less than the same food overcooked [@cai2021starchstructure].
-Cook a starchy food and then **chill it**, and some starch *retrogrades* into **resistant
-starch**, which acts partly like fibre: cooling cooked white rice for a day cut its
-glycaemic response by ~18% in one small trial [@sonia2015rice]. Real, but modest — a
-refinement of "quality over quantity," not a way to make white rice "low-carb."
+::: {.callout-note}
+## 🔬 Food science: what cooking does to starch
+Cooking **gelatinises** starch — granules swell and become easier to digest, so more-cooked,
+finely-milled starch raises glucose faster [@cai2021starchstructure]. Cook a starchy food
+and then **chill it**, and some starch *retrogrades* into **resistant starch**, which
+escapes digestion and behaves partly like fibre. Real, but modest — a refinement of "quality
+over quantity," not a way to make white rice "low-carb."
 :::
 
-## Fat: type matters more than total
+::: {.callout-tip}
+## 🍜 Eating out
+Choose the **brown-rice or wholemeal** option where offered; ask for **less rice, more
+vegetables**; a *cai png* plate works as "**2 vegetables + 1 protein, less gravy**"; and pick
+a **Nutri-Grade A/B** drink or plain water over a Grade-C/D one [@hpbHealthyPlate;
+@hpbNutriGrade].
+:::
 
-For decades the advice was "eat less fat." The better message is "eat **better** fat." Rank
-fats by their relationship to cardiovascular risk:
+::: {.callout-tip}
+## 🍳 Healthy kitchen
+Cook pasta and noodles **al dente**; try the **cook–cool–(reheat)** trick for rice and
+potato to raise resistant starch [@sonia2015rice]; and choose **intact whole grains**
+(brown/red rice, rolled oats) over products made from finely-milled flour.
+:::
+
+## Fat
+
+**What it is.** For decades the advice was "eat less fat." The better message is "eat
+**better** fat." Rank fats by their relationship to cardiovascular risk:
 
 > **trans fat  →  saturated  →  monounsaturated  →  polyunsaturated (incl. omega-3)**
 
@@ -131,13 +162,27 @@ fats by their relationship to cardiovascular risk:
 
 ![Nuts are a whole-food source of mono- and polyunsaturated fats. Photo: HaJunkiyada, CC BY-SA 4.0.](/figures/food/mixed-nuts.jpg){#fig-nuts fig-alt="An assortment of mixed nuts." width="320" .lightbox}
 
+**What it does.** Fat is the body's most concentrated energy store, a structural component of
+every **cell membrane**, the carrier for the **fat-soluble vitamins** (A, D, E, K), and the
+source of the **essential fatty acids** (omega-3, omega-6) the body cannot make.
+
+**From plate to cell.** Fat has to be coaxed into mixing with water: **bile salts** from the
+liver emulsify it into tiny droplets, and pancreatic **lipase** frees fatty acids and
+monoglycerides that ferry across the gut lining in **micelles**. Inside the intestinal cells
+they are re-assembled into triglycerides and packaged into **chylomicrons**, which enter the
+**lymphatics** (not the portal vein) before reaching the blood. *(Bile and micelle handling
+→ the Digestion & Absorption chapter; lipoprotein transport and fat metabolism → the
+Integrative Metabolism chapter.)*
+
+**Quality: type matters more than total.**
+
 ::: {.callout-note}
 ## "Low fat" can backfire
 Chasing "low fat" often means swapping fat for refined starch or sugar — frequently a
-*worse* trade. The target is fat **quality**, and the replacement nutrient matters.
-*(Where saturated fat sits within a whole food — dairy versus processed meat — is an area
-of genuine ongoing scientific debate; the first-year message stays simple: replace with
-unsaturated and whole foods.)*
+*worse* trade. The target is fat **quality**, and the replacement nutrient matters. *(Where
+saturated fat sits within a whole food — dairy versus processed meat — is an area of genuine
+ongoing scientific debate; the first-year message stays simple: replace with unsaturated and
+whole foods.)*
 :::
 
 ### Seeing the difference: *cis*, *trans* and saturated
@@ -146,51 +191,110 @@ Oleic acid (olive oil) and elaidic acid (the classic industrial *trans* fat) con
 **same atoms** — they differ only in the geometry of one double bond. Start with the **2D
 formula**, then rotate the **3D** model, and add **stearic acid** (a saturated fat) for
 comparison. A single **cis** bond kinks the chain, keeping unsaturated fats liquid; the
-**trans** bond leaves the chain almost straight, so — like fully saturated stearic acid —
-it packs tightly and behaves like a solid fat. The bend from one cis bond is modest;
+**trans** bond leaves the chain almost straight, so — like fully saturated stearic acid — it
+packs tightly and behaves like a solid fat. The bend from one cis bond is modest;
 polyunsaturated fats, with several cis bonds, are far more kinked. The shape *is* the
 explanation.
 
 <div data-island="molecule" data-src="/structures/dietary-fats.mol.yml"></div>
 
-::: {.callout-tip}
-## Healthy kitchen: oils and frying
-Deep-frying draws oil *into* food as water boils out, so a fried version carries much more
-fat and energy — and frequent fried-food intake tracks with higher type 2 diabetes and
-heart-failure risk in cohort studies [@gadiraju2015fried]. Overheating oil past its smoke
-point, or **reusing frying oil** repeatedly, oxidises it into polar compounds and aldehydes;
-Singapore's Food Agency advises discarding oil once it darkens, smokes or smells off
-[@sfaReusingOils]. (Smoke point alone is a poor guide to how well an oil resists heat.)
-Steaming, boiling, or stir-frying with less oil is the supported swap.
+### From science to plate
+
+::: {.callout-note}
+## 🔬 Food science: geometry and oxidation
+The *cis* kink you just rotated is why olive oil is liquid and *trans*/saturated fats are
+more solid — and why *trans* fat behaves like saturated fat in the body. Heat matters too:
+overheating oil past its smoke point, or **reusing frying oil** repeatedly, oxidises it into
+polar compounds and aldehydes — and the more polyunsaturated the oil, the faster it happens.
 :::
 
-## Protein: adequacy and quality
+::: {.callout-tip}
+## 🍜 Eating out
+Prefer **steamed, grilled or stir-fried** over deep-fried; ask for **less oil**; **skip the
+chicken skin**; and choose **fish** as a protein when you can. Be aware that some stalls
+**reuse frying oil**, which Singapore's Food Agency flags as a quality problem
+[@sfaReusingOils].
+:::
 
-Protein supplies amino acids for structure, enzymes, immune molecules and transport. Of the
-~20 amino acids, several are **essential** (must come from the diet). A useful population
-reference is about **0.8 g/kg/day** — adequate for most healthy adults, though needs rise in
-older age, illness and athletic training.
+::: {.callout-tip}
+## 🍳 Healthy kitchen
+Cook with **unsaturated oils** and don't heat them until they smoke; **don't reuse frying
+oil** again and again; and reach for **steaming, boiling or a light stir-fry** over
+deep-frying — fried foods draw in oil and energy, and frequent intake tracks with higher
+type 2 diabetes and heart-failure risk [@gadiraju2015fried].
+:::
+
+## Protein
+
+**What it is.** Protein is built from ~20 **amino acids**, several of which are **essential**
+(they must come from the diet). A protein's **quality** reflects how well its amino acids
+match human needs: animal proteins are typically "complete," while most single plant
+proteins are lower in one or more essential amino acids — easily fixed by combining plant
+foods across the day.
 
 ![L-alanine, a representative amino acid: an amino group (–NH₂), a carboxyl group (–COOH), and a variable side chain (here a methyl) that distinguishes one amino acid from another.](/figures/structures/l-alanine.svg){#fig-alanine fig-alt="Skeletal structure of the amino acid L-alanine." width="230"}
 
-**Quality** reflects how well a protein matches human amino-acid needs. Animal proteins are
-typically "complete"; most single plant proteins are lower in one or more essential amino
-acids but are easily complemented across a day — and plant proteins arrive as a **package
-deal** with fibre and unsaturated fat. Protein also has the highest **thermic effect** of
-the macronutrients, contributing modestly to energy expenditure and to satiety.
+**What it does.** Protein is the body's building and working material — **structure** (muscle,
+collagen, skin), **enzymes**, antibodies, and transport and signalling molecules. Unlike
+carbohydrate and fat, it is not primarily an energy store: the body keeps only a small
+circulating **amino-acid pool** and turns its proteins over continuously.
+
+**From plate to cell.** Protein digestion starts in the **stomach**, where acid unfolds it
+and **pepsin** begins cleaving it; pancreatic proteases (trypsin, chymotrypsin) and
+brush-border peptidases then break it down to **amino acids** and short peptides, absorbed
+into the portal blood. Cells use these to build their own proteins; surplus amino acids are
+**deaminated** (the nitrogen leaving as urea) and their carbon skeletons burned for energy or
+turned into glucose. *(Digestion in detail → the Digestion & Absorption chapter; amino-acid
+metabolism and nitrogen balance → the Integrative Metabolism chapter.)*
+
+**Quality: adequacy and completeness.** A useful population reference is about **0.8 g/kg/day**
+— adequate for most healthy adults, though needs rise in older age, illness and athletic
+training. Plant proteins arrive as a **package deal** with fibre and unsaturated fat, and
+protein has the highest **thermic effect** of the macronutrients, contributing modestly to
+energy expenditure and satiety.
 
 ![Tofu — a plant protein that also brings unsaturated fat, with no cholesterol. Photo: yearofeats, CC BY 2.0.](/figures/food/tofu.jpg){#fig-tofu fig-alt="Cubes of fresh tofu." width="320" .lightbox}
 
+### From science to plate
+
 ::: {.callout-note}
-## Food science: heat, browning and protein
+## 🔬 Food science: heat, browning and protein
 Heat **denatures** protein — unfolding it so enzymes can reach it — which usually makes it
 *easier* to digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%)
 [@evenepoel1998egg]. But the high-heat **Maillard** browning that adds flavour has a
 downside: in starchy foods it forms **acrylamide**, a genotoxic carcinogen of concern
-[@efsa2015acrylamide], so aim for **golden, not brown** when frying or roasting
-[@fsaGoForGold]. Charring meat forms other mutagens, though the human cancer evidence is
-inconclusive [@nciCookedMeats] — the practical rule is simply *don't blacken food*.
+[@efsa2015acrylamide]; in charred meat it forms other mutagens, though the human cancer
+evidence is inconclusive [@nciCookedMeats].
 :::
+
+::: {.callout-tip}
+## 🍜 Eating out
+Favour **lean or plant proteins** — fish, *tofu*/*tau kwa*, *dhal*, eggs, skinless chicken —
+over fatty or **processed meats**, and go easy on heavily **charred** satay or barbecue.
+:::
+
+::: {.callout-tip}
+## 🍳 Healthy kitchen
+Aim for **golden, not brown** when frying or roasting, and **don't blacken** food
+[@fsaGoForGold]; gentle methods (poaching, steaming, braising) cook protein well without the
+high-heat by-products.
+:::
+
+## Fibre
+
+**What it is.** Dietary fibre is carbohydrate the small intestine cannot digest —
+**soluble** (viscous; oats, legumes, some fruit) and **insoluble** (bulking; wholegrain
+bran, vegetable skins), much of it **fermentable** by gut bacteria.
+
+**What it does.** Fibre slows digestion and the glucose rise, adds bulk and aids
+regularity, and — the fermentable part — feeds gut microbes that make **short-chain fatty
+acids**. Higher fibre intake is among the best-supported dietary associations with lower
+disease risk (the Carbohydrate evidence above) [@reynolds2019carb]. *(How microbes ferment
+fibre into short-chain fatty acids → the Gut Microbiome chapter.)*
+
+**From science to plate.** The practical message is one line: **choose whole, intact plant
+foods** — wholegrains, legumes, fruit and vegetables — which bring their fibre with them,
+rather than refined foods with the fibre stripped out.
 
 ## From nutrients to patterns
 
@@ -203,22 +307,14 @@ foods.
 
 ## The Singapore picture
 
-Singapore turns these thresholds into everyday tools:
-
-- **My Healthy Plate** — "**quarter, quarter, half**": ¼ wholegrains, ¼ protein, ½ fruit
-  and vegetables. A whole-grain quarter is the practical way to act on carbohydrate quality
-  [@hpbHealthyPlate].
-- **Nutri-Grade** — grades beverages **A–D** by sugar and saturated fat. A live translation
-  of the free-sugar cap into a label you can read on a *teh tarik* or bubble tea
-  [@hpbNutriGrade].
-
-The reality gap is real. The National Nutrition Survey 2022 found only about **4% of
-staples** eaten are wholegrain (against a ~30% recommendation), saturated fat makes up a
-large share of fat intake, and most residents exceed the sodium target [@mohNNS2022]. These
-numbers are exactly why the thresholds matter — and where a brown-rice or wholemeal swap
-earns its keep.
-
-![Brown rice keeps its bran and germ — more fibre and a gentler glucose rise than white rice. Photo: Ceeseven, CC BY-SA 4.0.](/figures/food/brown-rice.jpg){#fig-brown-rice fig-alt="A bowl of cooked brown rice." width="320" .lightbox}
+You have met Singapore's everyday tools per nutrient — **My Healthy Plate** ("quarter,
+quarter, half": ¼ wholegrains, ¼ protein, ½ fruit and vegetables) [@hpbHealthyPlate] and
+**Nutri-Grade** A–D drink labels [@hpbNutriGrade]. The population picture shows why they
+matter: the National Nutrition Survey 2022 found only about **4% of staples** eaten are
+wholegrain (against a ~30% recommendation), saturated fat makes up a large share of fat
+intake, and most residents exceed the sodium target [@mohNNS2022]. The gap between what the
+science recommends and what a nation actually eats is exactly where a brown-rice swap, a
+less-oily order, and a plainer drink earn their keep.
 
 ## So — are carbs bad?
 
