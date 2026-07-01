@@ -11,8 +11,8 @@ project:
 
 book:
   title: "Health in Medicine"
-  subtitle: "Nutrition — an interactive companion for first-year medicine"
-  author: "Yong Loo Lin School of Medicine, NUS"
+  subtitle: "Nutrition — an interactive companion for first-year medical students"
+  author: "Dept of Biochemistry, NUS Medicine"
   search: true
   chapters:
     - index.qmd
