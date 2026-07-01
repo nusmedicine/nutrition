@@ -1,27 +1,31 @@
 id: dietary-fats
 title: "The shape of dietary fats"
 intro: >
-  Rotate each molecule and switch the view. Watch what the double bond does to the
-  chain: the cis bond in oleic acid bends it, while the trans bond in elaidic acid
-  keeps it straight — the same geometry that makes trans fats behave like saturated fats.
+  See the shape behind fat quality. Start with the 2D formula, then rotate the 3D model.
+  A cis double bond bends the chain; a trans bond — and a fully saturated chain — stay
+  straight, so they pack tightly like solid fats.
 molecules:
   - id: oleic
     name: "Oleic acid (cis-unsaturated)"
     sdf: /structures/oleic-acid.sdf
+    svg: /structures/oleic-acid.svg
     note: >
-      A single cis double bond at carbon 9 puts a kink in the chain — the hallmark of
-      most healthy unsaturated fats (it is the main fat in olive oil). The bend stops the
-      molecules packing tightly, so these fats are liquid at room temperature.
+      One cis double bond at carbon 9 kinks the chain — the hallmark of most healthy
+      unsaturated fats (the main fat in olive oil). The bend stops the molecules packing
+      tightly, so these fats are liquid at room temperature.
   - id: elaidic
     name: "Elaidic acid (trans-unsaturated)"
     sdf: /structures/elaidic-acid.sdf
+    svg: /structures/elaidic-acid.svg
     note: >
       Same atoms as oleic acid, but the trans double bond leaves the chain almost
       straight — so it packs tightly and behaves like a saturated fat. This is the
       industrial trans fat with the clearest dietary harm signal.
-  - id: glucose
-    name: "Glucose (ring form)"
-    sdf: /structures/glucose.sdf
+  - id: stearic
+    name: "Stearic acid (saturated)"
+    sdf: /structures/stearic-acid.sdf
+    svg: /structures/stearic-acid.svg
     note: >
-      The body's primary fuel sugar, shown here as its six-membered ring. Compare its
-      compact shape with the long fatty-acid chains.
+      No double bonds at all — a fully saturated, straight chain that packs tightly and is
+      solid at room temperature (common in animal fats). Notice how similar its straight
+      shape is to the trans fat: that is why trans fats behave like saturated ones.

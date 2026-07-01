@@ -46,6 +46,8 @@ word "carb":
   2 diabetes and colorectal cancer — with benefit strengthening up to about **25–29 g of
   fibre a day** [@reynolds2019carb].
 
+![Whatever their source, digestible carbohydrates are broken down to simple sugars — chiefly **glucose**, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
+
 ::: {.callout-warning}
 ## How strong is the fibre evidence?
 Mostly **prospective cohort** studies plus some trials — so the certainty is *moderate at
@@ -103,6 +105,16 @@ For most patients the practical message is not a GI number but the familiar one:
 **whole, intact, fibre-rich** carbohydrates in **sensible portions** — exactly what My
 Healthy Plate's wholegrain quarter encodes [@hpbHealthyPlate].
 
+::: {.callout-tip}
+## Healthy kitchen: cooking changes carbohydrate
+Cooking **gelatinises** starch, making it digest faster — so *al dente* pasta and firmer,
+less-processed grains raise glucose less than the same food overcooked [@cai2021starchstructure].
+Cook a starchy food and then **chill it**, and some starch *retrogrades* into **resistant
+starch**, which acts partly like fibre: cooling cooked white rice for a day cut its
+glycaemic response by ~18% in one small trial [@sonia2015rice]. Real, but modest — a
+refinement of "quality over quantity," not a way to make white rice "low-carb."
+:::
+
 ## Fat: type matters more than total
 
 For decades the advice was "eat less fat." The better message is "eat **better** fat." Rank
@@ -117,6 +129,8 @@ fats by their relationship to cardiovascular risk:
 - **Mono- and polyunsaturated fats** (olive oil, nuts, fish) are the ones to favour;
   omega-3 and omega-6 are *essential* fatty acids the body cannot make.
 
+![Nuts are a whole-food source of mono- and polyunsaturated fats. Photo: HaJunkiyada, CC BY-SA 4.0.](/figures/food/mixed-nuts.jpg){#fig-nuts fig-alt="An assortment of mixed nuts." width="320" .lightbox}
+
 ::: {.callout-note}
 ## "Low fat" can backfire
 Chasing "low fat" often means swapping fat for refined starch or sugar — frequently a
@@ -126,15 +140,29 @@ of genuine ongoing scientific debate; the first-year message stays simple: repla
 unsaturated and whole foods.)*
 :::
 
-### Seeing the difference: *cis* vs *trans*
+### Seeing the difference: *cis*, *trans* and saturated
 
-Oleic acid (the main fat in olive oil) and elaidic acid (the classic industrial *trans*
-fat) contain the **same atoms** — they differ only in the geometry around a single double
-bond. Rotate them below and switch the representation: the **cis** bond puts a kink in the
-chain, while the **trans** bond leaves it almost straight, so it packs tightly and behaves
-like a saturated fat. The geometry *is* the explanation.
+Oleic acid (olive oil) and elaidic acid (the classic industrial *trans* fat) contain the
+**same atoms** — they differ only in the geometry of one double bond. Start with the **2D
+formula**, then rotate the **3D** model, and add **stearic acid** (a saturated fat) for
+comparison. A single **cis** bond kinks the chain, keeping unsaturated fats liquid; the
+**trans** bond leaves the chain almost straight, so — like fully saturated stearic acid —
+it packs tightly and behaves like a solid fat. The bend from one cis bond is modest;
+polyunsaturated fats, with several cis bonds, are far more kinked. The shape *is* the
+explanation.
 
 <div data-island="molecule" data-src="/structures/dietary-fats.mol.yml"></div>
+
+::: {.callout-tip}
+## Healthy kitchen: oils and frying
+Deep-frying draws oil *into* food as water boils out, so a fried version carries much more
+fat and energy — and frequent fried-food intake tracks with higher type 2 diabetes and
+heart-failure risk in cohort studies [@gadiraju2015fried]. Overheating oil past its smoke
+point, or **reusing frying oil** repeatedly, oxidises it into polar compounds and aldehydes;
+Singapore's Food Agency advises discarding oil once it darkens, smokes or smells off
+[@sfaReusingOils]. (Smoke point alone is a poor guide to how well an oil resists heat.)
+Steaming, boiling, or stir-frying with less oil is the supported swap.
+:::
 
 ## Protein: adequacy and quality
 
@@ -143,11 +171,26 @@ Protein supplies amino acids for structure, enzymes, immune molecules and transp
 reference is about **0.8 g/kg/day** — adequate for most healthy adults, though needs rise in
 older age, illness and athletic training.
 
+![L-alanine, a representative amino acid: an amino group (–NH₂), a carboxyl group (–COOH), and a variable side chain (here a methyl) that distinguishes one amino acid from another.](/figures/structures/l-alanine.svg){#fig-alanine fig-alt="Skeletal structure of the amino acid L-alanine." width="230"}
+
 **Quality** reflects how well a protein matches human amino-acid needs. Animal proteins are
 typically "complete"; most single plant proteins are lower in one or more essential amino
 acids but are easily complemented across a day — and plant proteins arrive as a **package
 deal** with fibre and unsaturated fat. Protein also has the highest **thermic effect** of
 the macronutrients, contributing modestly to energy expenditure and to satiety.
+
+![Tofu — a plant protein that also brings unsaturated fat, with no cholesterol. Photo: yearofeats, CC BY 2.0.](/figures/food/tofu.jpg){#fig-tofu fig-alt="Cubes of fresh tofu." width="320" .lightbox}
+
+::: {.callout-note}
+## Food science: heat, browning and protein
+Heat **denatures** protein — unfolding it so enzymes can reach it — which usually makes it
+*easier* to digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%)
+[@evenepoel1998egg]. But the high-heat **Maillard** browning that adds flavour has a
+downside: in starchy foods it forms **acrylamide**, a genotoxic carcinogen of concern
+[@efsa2015acrylamide], so aim for **golden, not brown** when frying or roasting
+[@fsaGoForGold]. Charring meat forms other mutagens, though the human cancer evidence is
+inconclusive [@nciCookedMeats] — the practical rule is simply *don't blacken food*.
+:::
 
 ## From nutrients to patterns
 
@@ -174,6 +217,8 @@ staples** eaten are wholegrain (against a ~30% recommendation), saturated fat ma
 large share of fat intake, and most residents exceed the sodium target [@mohNNS2022]. These
 numbers are exactly why the thresholds matter — and where a brown-rice or wholemeal swap
 earns its keep.
+
+![Brown rice keeps its bran and germ — more fibre and a gentler glucose rise than white rice. Photo: Ceeseven, CC BY-SA 4.0.](/figures/food/brown-rice.jpg){#fig-brown-rice fig-alt="A bowl of cooked brown rice." width="320" .lightbox}
 
 ## So — are carbs bad?
 

@@ -7,6 +7,7 @@ project:
     - quizzes/**
     - diagrams/**
     - structures/**
+    - figures/**
 
 book:
   title: "Health in Medicine"
@@ -30,6 +31,7 @@ format:
     toc: true
     number-sections: true
     html-math-method: katex
+    lightbox: true
     # Components bundle (built by /components via Vite into book/assets/).
     # Loaded site-wide so interactive islands hydrate on every page.
     include-in-header:

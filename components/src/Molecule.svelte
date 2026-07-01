@@ -1,71 +1,104 @@
 <script>
-  // Molecule — an interactive 3D structure island (3Dmol.js).
-  // Loads a YAML manifest of molecules (each pointing at a precomputed 3D SDF),
-  // renders one in a WebGL viewer, and lets the student rotate and switch
-  // representations (ball-and-stick / space-filling / stick).
+  // Molecule — a 2D + 3D structure island.
+  // Default view is the 2D skeletal formula (clearest for e.g. cis vs trans). The 3D
+  // views (ball-and-stick / space-filling / stick) use 3Dmol.js, which is loaded lazily
+  // only when a 3D view is first selected. 2D SVG and 3D SDF are generated from the same
+  // SMILES (RDKit) so the two representations always agree.
   import { onMount, onDestroy, tick } from 'svelte';
   import yaml from 'js-yaml';
   import { load, save } from './lib/store.js';
 
-  // 3Dmol is large (~280 KB gzip); load it lazily so only pages with a molecule
-  // island pay for it, not every page in the book.
-  let Mol3D = null;
+  let Mol3D = null; // 3Dmol, lazy-loaded
 
   let { src } = $props();
-
   let data = $state(null);
   let error = $state(null);
   let selectedId = $state(null);
-  let view = $state('ballstick'); // ballstick | spacefill | stick
+  let view = $state('2d'); // 2d | ballstick | spacefill | stick
   let spinning = $state(false);
   let glReady = $state(true);
+  let svgMarkup = $state('');
+  let stageId = $state('mol-viewer');
 
-  let stageId = $state('mol-viewer'); // id of the container the viewer attaches to
-  let viewer = null;   // 3Dmol GLViewer
-  let ro = null;       // ResizeObserver for the stage
+  let viewer = null;
+  let ro = null;
   const sdfCache = new Map();
+  const svgCache = new Map();
 
   let molecules = $derived(data ? data.molecules : []);
   let molecule = $derived(molecules.find((m) => m.id === selectedId) || molecules[0] || null);
+  let is3D = $derived(view !== '2d');
 
-  const VIEWS = {
+  const STYLES = {
     ballstick: { stick: { radius: 0.14 }, sphere: { scale: 0.27 } },
     spacefill: { sphere: {} },
     stick: { stick: { radius: 0.16 } },
   };
-  const VIEW_LABEL = { ballstick: 'Ball-and-stick', spacefill: 'Space-filling', stick: 'Stick' };
+  const ALL_VIEWS = ['2d', 'ballstick', 'spacefill', 'stick'];
+  const VIEW_LABEL = { '2d': '2D formula', ballstick: 'Ball & stick', spacefill: 'Space-filling', stick: 'Stick' };
 
-  async function fetchSdf(mol) {
-    if (!mol) return '';
-    if (sdfCache.has(mol.id)) return sdfCache.get(mol.id);
-    const res = await fetch(mol.sdf);
-    if (!res.ok) throw new Error('Could not load structure (' + res.status + ')');
-    const txt = await res.text();
-    sdfCache.set(mol.id, txt);
-    return txt;
+  async function fetchText(url, cache) {
+    if (cache.has(url)) return cache.get(url);
+    const res = await fetch(url);
+    if (!res.ok) throw new Error('load failed (' + res.status + ')');
+    const t = await res.text();
+    cache.set(url, t);
+    return t;
   }
 
-  function applyStyle() {
-    if (!viewer) return;
-    viewer.setStyle({}, VIEWS[view]);
-    viewer.render();
+  async function loadSvg() {
+    if (!molecule || !molecule.svg) { svgMarkup = ''; return; }
+    try { svgMarkup = await fetchText(molecule.svg, svgCache); }
+    catch (e) { svgMarkup = ''; }
   }
+
+  function applyStyle() { if (viewer && is3D) { viewer.setStyle({}, STYLES[view]); viewer.render(); } }
 
   async function showMolecule() {
     if (!viewer || !molecule) return;
     try {
-      const sdf = await fetchSdf(molecule);
+      const sdf = await fetchText(molecule.sdf, sdfCache);
       viewer.removeAllModels();
       viewer.addModel(sdf, 'sdf');
       applyStyle();
       viewer.zoomTo();
       viewer.render();
-    } catch (e) {
-      error = String((e && e.message) || e);
-    }
+    } catch (e) { /* keep prior frame */ }
   }
 
   function onResize() { if (viewer) { viewer.resize(); viewer.render(); } }
+
+  // Create the 3Dmol viewer on demand (first time a 3D view is chosen).
+  async function ensureViewer() {
+    if (viewer) return true;
+    await tick(); // the stage div is visible (not display:none) now that a 3D view is active
+    try {
+      const ns = await import('3dmol'); // lazy chunk
+      Mol3D = (ns && ns.createViewer) ? ns : (ns.default ?? ns); // CJS/ESM interop
+      viewer = Mol3D.createViewer(stageId, { backgroundColor: 'white' });
+      if (!viewer) throw new Error('viewer null');
+    } catch (e) {
+      glReady = false;
+      console.warn('[molecule] 3D init failed:', e);
+      return false;
+    }
+    window.addEventListener('resize', onResize);
+    if ('ResizeObserver' in window) {
+      ro = new ResizeObserver(() => { if (viewer) { viewer.resize(); viewer.render(); } });
+      const el = document.getElementById(stageId);
+      if (el) ro.observe(el);
+    }
+    // timeout-guarded rAF: rAF is throttled when the page isn't painting
+    await new Promise((r) => {
+      let done = false;
+      const fin = () => { if (!done) { done = true; r(); } };
+      requestAnimationFrame(() => requestAnimationFrame(fin));
+      setTimeout(fin, 300);
+    });
+    viewer.resize();
+    await showMolecule();
+    return true;
+  }
 
   onMount(async () => {
     try {
@@ -78,41 +111,14 @@
       return;
     }
     selectedId = data.molecules[0].id;
+    stageId = 'mol-viewer-' + data.id + '-' + Math.random().toString(36).slice(2, 7);
     const saved = load('mol:' + data.id);
     if (saved) {
       if (saved.selectedId && data.molecules.some((m) => m.id === saved.selectedId)) selectedId = saved.selectedId;
-      if (saved.view && VIEWS[saved.view]) view = saved.view;
+      if (saved.view && (saved.view === '2d' || STYLES[saved.view])) view = saved.view;
     }
-    // The stage div is conditionally rendered, so wait for it to exist before
-    // 3Dmol attaches its WebGL canvas.
-    stageId = 'mol-viewer-' + data.id + '-' + Math.random().toString(36).slice(2, 7);
-    await tick();
-    try {
-      const ns = await import('3dmol'); // lazy chunk
-      Mol3D = (ns && ns.createViewer) ? ns : (ns.default ?? ns); // CJS/ESM interop
-      viewer = Mol3D.createViewer(stageId, { backgroundColor: 'white' });
-      if (!viewer) throw new Error('viewer null');
-    } catch (e) {
-      glReady = false;
-      console.warn('[molecule] viewer init failed:', e);
-      return;
-    }
-    window.addEventListener('resize', onResize);
-    if ('ResizeObserver' in window) {
-      ro = new ResizeObserver(() => { if (viewer) { viewer.resize(); viewer.render(); } });
-      const el = document.getElementById(stageId);
-      if (el) ro.observe(el);
-    }
-    // let the browser compute the real container width before 3Dmol sizes the canvas
-    // (timeout-guarded: rAF can be throttled when the page isn't painting)
-    await new Promise((r) => {
-      let done = false;
-      const fin = () => { if (!done) { done = true; r(); } };
-      requestAnimationFrame(() => requestAnimationFrame(fin));
-      setTimeout(fin, 300);
-    });
-    viewer.resize();
-    await showMolecule();
+    await loadSvg();
+    if (is3D) await ensureViewer(); // restored into a 3D view
   });
 
   onDestroy(() => {
@@ -123,28 +129,33 @@
 
   function persist() { if (data) save('mol:' + data.id, { selectedId, view }); }
 
-  function pickMolecule(e) { selectedId = e.target.value; persist(); showMolecule(); }
-  function setView(v) {
+  async function pickMolecule(e) {
+    selectedId = e.target.value; persist();
+    await loadSvg();
+    if (is3D && viewer) await showMolecule();
+  }
+  async function setView(v) {
     view = v; persist();
-    applyStyle();
+    if (v === '2d') return; // SVG renders reactively
+    const ok = await ensureViewer();
+    if (ok) { applyStyle(); await tick(); viewer.resize(); viewer.render(); }
   }
-  function toggleSpin() {
-    spinning = !spinning;
-    if (viewer) { viewer.spin(spinning ? 'y' : false); }
-  }
-  function resetView() {
-    if (viewer) { viewer.zoomTo(); viewer.render(); }
-  }
+  function toggleSpin() { spinning = !spinning; if (viewer) viewer.spin(spinning ? 'y' : false); }
+  function resetView() { if (viewer) { viewer.zoomTo(); viewer.render(); } }
 
   let ariaLabel = $derived(
-    molecule ? `3D structure of ${molecule.name}, ${VIEW_LABEL[view]} representation. Drag to rotate.` : ''
+    molecule
+      ? (is3D
+          ? `3D structure of ${molecule.name}, ${VIEW_LABEL[view]} view. Drag to rotate.`
+          : `2D skeletal structure of ${molecule.name}.`)
+      : ''
   );
 </script>
 
 <figure class="mol card">
   <figcaption class="head">
     <strong>{data?.title || 'Molecular structure'}</strong>
-    <span class="hint">Drag to rotate · scroll to zoom</span>
+    <span class="hint">{is3D ? 'Drag to rotate · scroll to zoom' : '2D skeletal formula'}</span>
   </figcaption>
 
   {#if error && !data}
@@ -161,22 +172,29 @@
       </select>
     </div>
 
-    <div class="stage" id={stageId} role="img" aria-label={ariaLabel}></div>
+    <!-- 2D skeletal (default) -->
+    <div class="stage svg2d" class:hidden={is3D} role="img" aria-label={is3D ? '' : ariaLabel}>
+      {@html svgMarkup}
+    </div>
+    <!-- 3D viewer (created lazily on first 3D view) -->
+    <div class="stage gl3d" id={stageId} class:hidden={!is3D} role="img" aria-label={is3D ? ariaLabel : ''}></div>
 
-    {#if !glReady}
-      <p class="fallback">3D view needs WebGL, which isn't available here. The molecule is described in the caption below.</p>
+    {#if is3D && !glReady}
+      <p class="fallback">3D view needs WebGL, which isn't available here. Use the 2D formula, or see the caption below.</p>
     {/if}
 
     <div class="controls">
       <div class="views" role="group" aria-label="Representation">
-        {#each Object.keys(VIEWS) as v}
+        {#each ALL_VIEWS as v}
           <button type="button" class:active={view === v} aria-pressed={view === v} onclick={() => setView(v)}>{VIEW_LABEL[v]}</button>
         {/each}
       </div>
-      <div class="actions">
-        <label class="chk"><input type="checkbox" checked={spinning} onchange={toggleSpin} /> Spin</label>
-        <button type="button" class="btn secondary" onclick={resetView}>Recentre</button>
-      </div>
+      {#if is3D}
+        <div class="actions">
+          <label class="chk"><input type="checkbox" checked={spinning} onchange={toggleSpin} /> Spin</label>
+          <button type="button" class="btn secondary" onclick={resetView}>Recentre</button>
+        </div>
+      {/if}
     </div>
 
     {#if molecule?.note}<p class="note" aria-live="polite">{molecule.note}</p>{/if}
@@ -201,7 +219,11 @@
   .mol .row label { font-weight:600; }
   .mol select { border:1px solid var(--line); border-radius:8px; padding:8px 10px; min-height:40px; background:#fff; color:var(--ink); }
 
-  .mol .stage { position:relative; width:100%; height:320px; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:#fff; }
+  .mol .stage { position:relative; width:100%; border:1px solid var(--line); border-radius:9px; overflow:hidden; background:#fff; }
+  .mol .stage.hidden { display:none; }
+  .mol .gl3d { height:320px; }
+  .mol .svg2d { min-height:220px; display:flex; align-items:center; justify-content:center; padding:10px; }
+  .mol .svg2d :global(svg) { max-width:100%; height:auto; max-height:260px; }
   .mol .fallback { font-size:.9rem; color:var(--muted); margin:8px 0 0; }
 
   .mol .controls { display:flex; flex-wrap:wrap; gap:10px 16px; align-items:center; justify-content:space-between; margin-top:10px; }
