@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" width="520" role="img" aria-labelledby="cc-title cc-desc" font-family="system-ui,-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif">
+  <title id="cc-title">Carbohydrate structure and digestion speed</title>
+  <desc id="cc-desc">The same sugar unit links into mono-, di- and polysaccharides. A straight amylose chain has few ends and digests slowly for a gentle glucose rise; a branched amylopectin chain has many ends and digests fast for a higher spike; beta-linked cellulose fibre has no human enzyme and passes through undigested.</desc>
+  <defs>
+    <marker id="cc-arr" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="#9aa5ad"/></marker>
+  </defs>
+  <style>
+    .cap{font-size:12px;fill:#5b6670;}
+    .ttl{font-size:14px;font-weight:600;fill:#1a2027;}
+    .sub{font-size:12px;fill:#5b6670;}
+    .bead{fill:#d7dee4;stroke:#9aa5ad;stroke-width:1;}
+  </style>
+
+  <text class="cap" x="20" y="26">Size — one sugar unit builds into many</text>
+  <line x1="132" y1="58" x2="156" y2="58" stroke="#9aa5ad" stroke-width="3"/>
+  <line x1="224" y1="58" x2="334" y2="58" stroke="#9aa5ad" stroke-width="3"/>
+  <line x1="82" y1="58" x2="112" y2="58" stroke="#9aa5ad" stroke-width="1.5" marker-end="url(#cc-arr)"/>
+  <line x1="174" y1="58" x2="204" y2="58" stroke="#9aa5ad" stroke-width="1.5" marker-end="url(#cc-arr)"/>
+  <circle class="bead" cx="66" cy="58" r="10"/>
+  <circle class="bead" cx="132" cy="58" r="10"/><circle class="bead" cx="156" cy="58" r="10"/>
+  <circle class="bead" cx="224" cy="58" r="10"/><circle class="bead" cx="246" cy="58" r="10"/><circle class="bead" cx="268" cy="58" r="10"/><circle class="bead" cx="290" cy="58" r="10"/><circle class="bead" cx="312" cy="58" r="10"/><circle class="bead" cx="334" cy="58" r="10"/>
+  <text class="sub" x="66" y="86" text-anchor="middle">monosaccharide</text>
+  <text class="sub" x="144" y="86" text-anchor="middle">disaccharide</text>
+  <text class="sub" x="279" y="86" text-anchor="middle">polysaccharide</text>
+
+  <text class="cap" x="20" y="120">Shape of the chain sets how fast it becomes blood glucose</text>
+
+  <line x1="36" y1="152" x2="146" y2="152" stroke="#1f9d6b" stroke-width="3"/>
+  <circle class="bead" cx="36" cy="152" r="10"/><circle class="bead" cx="58" cy="152" r="10"/><circle class="bead" cx="80" cy="152" r="10"/><circle class="bead" cx="102" cy="152" r="10"/><circle class="bead" cx="124" cy="152" r="10"/><circle class="bead" cx="146" cy="152" r="10"/>
+  <text class="ttl" x="196" y="148">Amylose — straight chain</text>
+  <text class="sub" x="196" y="166">few ends, digested slowly → gentle rise</text>
+
+  <line x1="36" y1="208" x2="124" y2="208" stroke="#c0392b" stroke-width="3"/>
+  <line x1="80" y1="208" x2="80" y2="232" stroke="#c0392b" stroke-width="3"/>
+  <line x1="80" y1="232" x2="102" y2="232" stroke="#c0392b" stroke-width="3"/>
+  <circle class="bead" cx="36" cy="208" r="10"/><circle class="bead" cx="58" cy="208" r="10"/><circle class="bead" cx="80" cy="208" r="10"/><circle class="bead" cx="102" cy="208" r="10"/><circle class="bead" cx="124" cy="208" r="10"/>
+  <circle class="bead" cx="80" cy="232" r="10"/><circle class="bead" cx="102" cy="232" r="10"/>
+  <text class="ttl" x="196" y="204">Amylopectin — branched</text>
+  <text class="sub" x="196" y="222">many ends, digested fast → higher spike</text>
+
+  <line x1="36" y1="268" x2="146" y2="268" stroke="#8a93a0" stroke-width="3"/>
+  <circle class="bead" cx="36" cy="268" r="10"/><circle class="bead" cx="58" cy="268" r="10"/><circle class="bead" cx="80" cy="268" r="10"/><circle class="bead" cx="102" cy="268" r="10"/><circle class="bead" cx="124" cy="268" r="10"/><circle class="bead" cx="146" cy="268" r="10"/>
+  <text class="ttl" x="196" y="264">Cellulose (fibre) — β-links</text>
+  <text class="sub" x="196" y="282">no human enzyme → passes through</text>
+</svg>

@@ -3,6 +3,7 @@ import CasePlayer from './CasePlayer.svelte';
 import Quiz from './Quiz.svelte';
 import GlucoScale from './GlucoScale.svelte';
 import Molecule from './Molecule.svelte';
+import Protein from './Protein.svelte';
 
 // Island registry: data-island="<key>" -> Svelte component.
 const REGISTRY = {
@@ -10,6 +11,7 @@ const REGISTRY = {
   quiz: Quiz,
   gi: GlucoScale,
   molecule: Molecule,
+  protein: Protein,
   // future: flashcards, diagram, …
 };
 

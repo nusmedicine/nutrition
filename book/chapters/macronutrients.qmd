@@ -1,4 +1,4 @@
-# Macronutrients: carbohydrate, protein, fat and fibre
+# Macronutrients: carbohydrate, fat, protein and fibre
 
 > *The energy-yielding nutrients — but the recurring lesson is that **quality**, not just
 > quantity, drives health. Same kilocalories can mean very different physiology.*
@@ -6,14 +6,15 @@
 ## The macronutrients at a glance
 
 Macronutrients are the nutrients we need in **gram quantities** and the ones that supply
-**energy**. There are three — carbohydrate, protein and fat — plus **dietary fibre**, a
-carbohydrate we mostly *don't* digest but which earns its own place. Their energy yields:
+**energy**. There are three — carbohydrate, fat and protein — plus **dietary fibre**, a
+carbohydrate we mostly *don't* digest, which we'll meet alongside the carbohydrates it
+travels with. Their energy yields:
 
 | Macronutrient | Energy (kcal/g) | Headline role |
 |---|---|---|
 | Carbohydrate | ~4 | Primary, glucose-yielding fuel |
-| Protein | ~4 | Structure, enzymes, immune & transport functions |
 | Fat | ~9 | Energy store, cell membranes, essential fatty acids |
+| Protein | ~4 | Structure, enzymes, immune & transport functions |
 | Fibre | ~2 | Fermented by gut microbes; not a fuel in the usual sense |
 | *(Alcohol)* | *~7* | *Not a nutrient — empty energy, shown for contrast* |
 
@@ -51,26 +52,20 @@ more than the word "carb":
 ![Whatever their source, digestible carbohydrates are broken down to simple sugars — chiefly **glucose**, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
 
 **The molecules underneath.** Every digestible carbohydrate is a chain of simple sugars, and
-the *length and shape* of that chain decides how fast it becomes blood glucose. The single
-units are **monosaccharides** — **glucose** (the body's fuel), **fructose** (fruit sugar,
-handled mainly by the liver) and **galactose** (from milk). Two joined make a
-**disaccharide**: **sucrose** (glucose + fructose), **lactose** (glucose + galactose — the
-bond many adults can no longer split, hence lactose intolerance) and **maltose** (glucose +
-glucose). Hundreds joined make a **polysaccharide**.
+the *length and shape* of that chain decide how fast it becomes blood glucose.
 
-**Starch** — the bulk of rice, bread and potato — comes in two forms that behave very
-differently. **Amylose** is long and largely *linear* (α-1,4 bonds); its tight, coiled chains
-give enzymes few footholds, so it digests **slowly**, gives a **lower** glucose rise, and
-readily forms **resistant starch** on cooling. **Amylopectin** shares that backbone but adds
-frequent **α-1,6 branch points**, so its many exposed ends let amylase attack all at once —
-**fast** digestion and a **higher** spike. **Glycogen**, the animal store in liver and
-muscle, is like amylopectin but even more branched, for rapid mobilisation. **Fibre** is the
-opposite: **cellulose** joins glucose with **β-1,4** bonds, and because we make **no
-cellulase** to break them, it passes through undigested — the molecular reason fibre yields
-little energy. This is why the *same* grain can differ: glutinous ("sticky") rice is almost
-pure amylopectin and spikes glucose sharply, while high-amylose **basmati** sits lower — and
-ordinary white rice is high-GI too (~70+), so the amylose advantage is real but relative
-[@atkinson2021gitables; @cai2021starchstructure].
+![The same sugar unit, linked differently. Short chains give mono- and disaccharides, long chains give polysaccharides — and among the polysaccharides, a *straight* **amylose** chain (few ends) digests slowly for a gentler glucose rise, while a *branched* **amylopectin** chain (many ends) digests fast for a higher spike. **Cellulose** — dietary fibre — is held together by β-links no human enzyme can cut, so it passes through. Shape, not just size, sets the response.](/figures/structures/carbohydrate-chains.svg){#fig-carb-chains fig-alt="Schematic of sugar units drawn as beads: one bead is a monosaccharide, two a disaccharide, many a polysaccharide; then a straight amylose chain, a branched amylopectin chain, and a beta-linked cellulose chain." width="520"}
+
+The single units — **monosaccharides** — are **glucose** (the body's fuel), **fructose**
+(fruit sugar, handled mainly by the liver) and **galactose** (from milk); two joined make a
+**disaccharide** (**sucrose**; **lactose**, whose bond many adults can no longer split — hence
+lactose intolerance; and **maltose**). What matters most is how the *polysaccharides* are
+shaped: rice, bread and potato are mostly **starch**, part slow-digesting **amylose** and part
+fast-digesting **amylopectin** (**glycogen**, the animal store, is amylopectin taken further),
+while **cellulose** is the indigestible fibre. This is why the *same* grain can differ:
+glutinous ("sticky") rice is almost pure amylopectin and spikes glucose sharply, while
+high-amylose **basmati** sits lower — though ordinary white rice is high-GI too (~70+), so the
+amylose advantage is real but relative [@atkinson2021gitables; @cai2021starchstructure].
 
 **What it does.** Carbohydrate is the body's main everyday fuel. Glucose powers the brain
 (which normally depends on it almost exclusively) and fuels working muscle; the surplus is
@@ -168,6 +163,40 @@ potato to raise resistant starch [@sonia2015rice]; and choose **intact whole gra
 (brown/red rice, rolled oats) over products made from finely-milled flour.
 :::
 
+### Fibre: the carbohydrate we don't digest
+
+**What it is.** Dietary fibre is carbohydrate the small intestine cannot digest —
+**soluble** (viscous; oats, legumes, some fruit) and **insoluble** (bulking; wholegrain
+bran, vegetable skins), much of it **fermentable** by gut bacteria.
+
+**What it does.** Soluble fibre slows digestion and gentles the glucose rise; insoluble
+fibre adds bulk and aids regularity; and the fermentable part feeds gut microbes that make
+**short-chain fatty acids**. Higher fibre intake is among the best-supported dietary
+associations with lower disease risk (the evidence above) [@reynolds2019carb]. *(How microbes
+ferment fibre into short-chain fatty acids → the Gut Microbiome chapter.)*
+
+::: {.callout-note}
+## 🔬 Food science: the food matrix — why whole beats juiced
+Fibre isn't just *in* a food; it is part of the food's **structure**. Juicing or finely
+blending fruit tears open the plant cell walls that caged the sugars, so the *same* fruit
+raises glucose faster as juice than eaten whole — and a glass of juice carries several fruits'
+worth of sugar with little of the fibre. Intact cell walls slow sugar release; milling grain
+into fine flour destroys them, part of why wholegrains beat refined starch.
+:::
+
+::: {.callout-tip}
+## 🍜 Eating out
+Order **whole fruit** rather than bottled or freshly-pressed **juice**, and add a **vegetable
+or bean side** — a scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur* — to lift the
+fibre of an otherwise refined-starch plate.
+:::
+
+::: {.callout-tip}
+## 🍳 Healthy kitchen
+Keep edible **skins on** (potato, apple, cucumber); eat fruit **whole** instead of juicing it;
+and stir **beans, lentils or rolled oats** into everyday dishes for an easy fibre lift.
+:::
+
 ## Fat
 
 **What it is.** For decades the advice was "eat less fat." The better message is "eat
@@ -177,8 +206,8 @@ potato to raise resistant starch [@sonia2015rice]; and choose **intact whole gra
 
 - ***Trans* fat** is the clearest harm. WHO recommends **<1% of energy** and elimination of
   industrial sources [@who2020diet].
-- **Saturated fat** raises LDL cholesterol; the practical move is to **replace it with
-  unsaturated fat** — not with refined carbohydrate.
+- **Saturated fat** raises LDL cholesterol (the "bad" cholesterol); the practical move is to
+  **replace it with unsaturated fat** — not with refined carbohydrate.
 - **Mono- and polyunsaturated fats** (olive oil, nuts, fish) are the ones to favour;
   omega-3 and omega-6 are *essential* fatty acids the body cannot make.
 
@@ -204,6 +233,8 @@ cholesterol *in food* is a weaker lever on blood cholesterol than saturated and 
 are [@carson2020cholesterol].) Because fats don't dissolve in blood, they ride inside
 **lipoproteins** — chylomicrons, VLDL, **LDL** (delivers cholesterol; drives atherosclerosis
 when it builds up) and **HDL** — whose handling we defer to the metabolism chapter.
+
+![The major dietary lipids, as conventionally drawn. All are built from fatty acids: a **fatty acid** is a hydrocarbon chain with a carboxyl head (the kink here is a *cis* double bond); three of them esterified onto a glycerol backbone make a **triglyceride** (the storage and dietary fat); swapping one for a phosphate–choline head gives an amphipathic **phospholipid** (the membrane builder); and **cholesterol** is a rigid four-ring **sterol**. Different structures, different jobs.](/figures/structures/lipid-classes.svg){#fig-lipid-classes fig-alt="Skeletal structures of four lipids, each labelled: cholesterol (four fused rings), a free fatty acid (a chain with a cis kink and a carboxyl group), a triglyceride (three fatty-acid chains on a glycerol backbone), and a phospholipid (two chains plus a phosphate–choline head)." width="430"}
 
 **What it does.** Fat is the body's most concentrated energy store, a structural component of
 every **cell membrane**, the carrier for the **fat-soluble vitamins** (A, D, E, K), and the
@@ -279,6 +310,12 @@ fold at **four levels**: the **primary** sequence → local **secondary** patter
 (haemoglobin is four). *Sequence sets shape, and shape sets function* — a single amino-acid
 change in haemoglobin's sequence causes sickle-cell disease.
 
+Rotate the real structures below to see two of these levels in actual proteins: **myoglobin**
+folds a single chain (**tertiary**), and **haemoglobin** assembles four such chains
+(**quaternary**). Colour by chain to pick out the subunits.
+
+<div data-island="protein" data-src="/structures/proteins.protein.yml"></div>
+
 A protein's **quality** reflects how well its amino acids match human needs and how digestible
 it is — captured by the metrics **PDCAAS** and its FAO-preferred successor **DIAAS**
 [@fao2013protein]. Animal proteins are typically "**complete**"; most single plant proteins
@@ -288,9 +325,12 @@ are lower in one essential amino acid (cereals in lysine, legumes in methionine)
 ![L-alanine, a representative amino acid: an amino group (–NH₂), a carboxyl group (–COOH), and a variable side chain (here a methyl) that distinguishes one amino acid from another.](/figures/structures/l-alanine.svg){#fig-alanine fig-alt="Skeletal structure of the amino acid L-alanine." width="230"}
 
 **What it does.** Protein is the body's building and working material — **structure** (muscle,
-collagen, skin), **enzymes**, antibodies, and transport and signalling molecules. Unlike
-carbohydrate and fat, it is not primarily an energy store: the body keeps only a small
-circulating **amino-acid pool** and turns its proteins over continuously.
+collagen, skin), **enzymes**, antibodies, and transport and signalling molecules. Individual
+amino acids are also the **precursors** for other essential nitrogen-containing molecules —
+several **neurotransmitters** (e.g. serotonin, dopamine) and **hormones** (adrenaline, thyroid
+hormone) among them. Unlike carbohydrate and fat, it is not primarily an energy store: the
+body keeps only a small circulating **amino-acid pool** and turns its proteins over
+continuously.
 
 **From plate to cell.** Protein digestion starts in the **stomach**, where acid unfolds it
 and **pepsin** begins cleaving it; pancreatic proteases (trypsin, chymotrypsin) and
@@ -333,22 +373,6 @@ Aim for **golden, not brown** when frying or roasting, and **don't blacken** foo
 high-heat by-products.
 :::
 
-## Fibre
-
-**What it is.** Dietary fibre is carbohydrate the small intestine cannot digest —
-**soluble** (viscous; oats, legumes, some fruit) and **insoluble** (bulking; wholegrain
-bran, vegetable skins), much of it **fermentable** by gut bacteria.
-
-**What it does.** Fibre slows digestion and the glucose rise, adds bulk and aids
-regularity, and — the fermentable part — feeds gut microbes that make **short-chain fatty
-acids**. Higher fibre intake is among the best-supported dietary associations with lower
-disease risk (the Carbohydrate evidence above) [@reynolds2019carb]. *(How microbes ferment
-fibre into short-chain fatty acids → the Gut Microbiome chapter.)*
-
-**From science to plate.** The practical message is one line: **choose whole, intact plant
-foods** — wholegrains, legumes, fruit and vegetables — which bring their fibre with them,
-rather than refined foods with the fibre stripped out.
-
 ## From nutrients to patterns
 
 Modern guidelines have moved decisively from "hit this macronutrient ratio" to **"eat these
@@ -384,9 +408,9 @@ therapeutic diet [@ada2024care]. Resist prescribing grams; that comes later [@cr
 
 ## Practise: common questions in one clinic
 
-Mr Lim arrives with three everyday questions — one about carbs, one about oils, one about
-protein. Answer each on quality-over-quantity terms, correct the myths honestly, and know
-when to refer. Your choices branch the case.
+Mr Lim arrives with a handful of everyday questions — about rice, cooking oils, eggs and his
+son's protein powder. Answer each on quality-over-quantity terms, correct the myths honestly,
+and know when to refer. Your choices branch the case.
 
 ::: {.callout-tip}
 Progress is saved locally — replay to explore the other paths.

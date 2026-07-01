@@ -351,6 +351,13 @@ island (e.g. *Glycaemic index and load*):
    and the guideline numbers.
 5. **From science to plate** — the three house blocks below.
 
+**Not every topic is a peer.** A sub-topic that isn't a true peer of the others — e.g.
+**fibre**, which is really a *non-digestible carbohydrate* — lives as a `###` **under its
+parent topic**, not as a top-level `##`, and is **template-light**: give it *What it is* and
+*What it does*, plus a **lean 🔬🍜🍳 triad only where it has genuinely distinct practical
+content** (fibre's food-matrix / whole-fruit-vs-juice), never a forced full five-beat that
+would just echo the parent.
+
 ### 11b. The "science → plate" house blocks (recurring callouts)
 
 Three standard callouts, **always in this order**, one per topic — the book's signature
@@ -400,3 +407,21 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
   in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a
   paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.
+
+### 11e. Per-chapter cases (shape & altitude)
+
+The embedded case is **question-driven**, not a lecture: *intro → choice → (thin bridge only
+if needed) → choice → …*, covering several decisions germane to the chapter. Turn teaching
+points into **choices**, not passive `info` "reveal" dumps between questions; let connective
+facts ride in an option's **feedback** or a one-line bridge. Keep to ~4–5 MCQs for an *intro*
+case (the Macronutrients "Mr Lim" case is the worked example).
+
+- **Stay at the chapter's altitude — don't test a skill the curriculum hasn't taught yet.**
+  *When to advise vs refer*, diet history and counselling are **Part II/IV** skills (Ch.11
+  *Assessing Diet & Talking to Patients*, Ch.12 *Behaviour-Change Counselling*, Ch.20
+  *Interprofessional Practice & Referral*). In a Part I case, keep referral a **light,
+  in-character cue** in the resolution and **forward-reference** those chapters — never a
+  graded decision.
+- **Plain language in patient dialogue.** A doctor speaking to a patient says "cholesterol",
+  not "LDL", and never codes like "IARC Group 1". Reserve named lipoprotein classes and the
+  like for the chapter prose (glossed on first use), not the case.

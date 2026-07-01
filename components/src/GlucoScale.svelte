@@ -176,13 +176,18 @@
         <text x="4" y="20" class="axlab" transform="rotate(0)">glucose</text>
       </g>
 
+      <!-- fills first (comparison beneath; main above but alpha'd when comparing, so the
+           comparison area stays visible through the overlap), then both outlines/peaks on
+           top so each curve reads crisply regardless of overlap -->
       {#if cmp}
-        <path d={cmpFill} fill="url(#h-cmp)" opacity="0.85" />
+        <path d={cmpFill} fill="url(#h-cmp)" opacity="0.75" />
+      {/if}
+      <path d={mainFill} fill="url(#h-{giCat(food.gi)})" opacity={cmp ? 0.6 : 1} />
+
+      {#if cmp}
         <path d={cmpStroke} class="cmp-line" />
         <circle cx={peakX} cy={cmpPeakY} r="3" class="peak cmp" />
       {/if}
-
-      <path d={mainFill} fill="url(#h-{giCat(food.gi)})" />
       <path d={mainStroke} class="main-line {giCat(food.gi)}" />
       <circle cx={peakX} cy={mainPeakY} r="3.2" class="peak {giCat(food.gi)}" />
     </svg>
