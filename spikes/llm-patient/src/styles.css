@@ -1,0 +1,106 @@
+:root {
+  --bg: #0f1420;
+  --panel: #161d2e;
+  --panel2: #1d2740;
+  --ink: #e7ecf5;
+  --muted: #93a0b8;
+  --line: #2a3550;
+  --accent: #5b8cff;
+  --warn: #e0913b;
+  --ok: #46c68a;
+  --no: #e06b6b;
+  --student: #23406b;
+  --patient: #2d2440;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+
+#app { max-width: 1200px; margin: 0 auto; padding: 16px 20px 40px; }
+
+.topbar {
+  display: flex; align-items: flex-start; justify-content: space-between;
+  gap: 16px; flex-wrap: wrap;
+}
+.title h1 { margin: 0; font-size: 20px; }
+.title .sub { margin: 2px 0 0; color: var(--muted); }
+.controls { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.chk { color: var(--muted); font-size: 13px; user-select: none; }
+
+.btn {
+  background: var(--accent); color: #fff; border: 0; border-radius: 8px;
+  padding: 7px 12px; font-size: 14px; cursor: pointer;
+}
+.btn:disabled { opacity: .45; cursor: not-allowed; }
+.btn.ghost { background: transparent; border: 1px solid var(--line); color: var(--ink); }
+.btn.warn { background: var(--warn); }
+
+.objective { color: var(--ink); background: var(--panel); border: 1px solid var(--line);
+  border-radius: 10px; padding: 10px 14px; margin: 14px 0; }
+.badge, .obj {
+  display: inline-block; font-size: 12px; padding: 2px 8px; border-radius: 999px;
+  border: 1px solid var(--line); color: var(--muted); margin-left: 8px;
+}
+.obj.ok { color: var(--ok); border-color: var(--ok); }
+.obj.no { color: var(--no); border-color: var(--no); }
+
+.grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+@media (max-width: 820px) { .grid { grid-template-columns: 1fr; } }
+
+.panel {
+  background: var(--panel); border: 1px solid var(--line); border-radius: 12px;
+  padding: 12px; display: flex; flex-direction: column; min-height: 420px;
+}
+.phead { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.plabel { font-weight: 600; }
+.pstatus { color: var(--muted); font-size: 12px; text-align: right; }
+
+.pconfig { display: flex; gap: 8px; margin: 10px 0; }
+.pconfig select {
+  flex: 1; background: var(--panel2); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px; padding: 6px 8px; font-size: 13px;
+}
+
+.log {
+  flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 8px;
+  padding: 8px 4px; min-height: 200px;
+}
+.msg { padding: 8px 11px; border-radius: 10px; max-width: 88%; position: relative; }
+.msg .who { display: block; font-size: 11px; color: var(--muted); margin-bottom: 2px; }
+.msg .text { white-space: pre-wrap; }
+.msg.patient { background: var(--patient); align-self: flex-start; border: 1px solid var(--line); }
+.msg.student { background: var(--student); align-self: flex-end; }
+.msg.sys { align-self: center; color: var(--muted); font-size: 12px; font-style: italic; }
+.msg.err { align-self: center; color: var(--no); font-size: 13px; }
+.lat { display: block; margin-top: 4px; font-size: 10px; color: var(--muted); }
+
+.turns { color: var(--muted); font-size: 12px; text-align: right; margin: 4px 2px; }
+
+.inputrow { display: flex; gap: 8px; }
+.inputrow textarea {
+  flex: 1; resize: vertical; background: var(--panel2); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 8px; padding: 8px; font: inherit;
+}
+.endrow { margin-top: 8px; }
+
+.feedback { margin-top: 10px; border-top: 1px solid var(--line); padding-top: 10px; }
+.fhead { font-weight: 600; margin-bottom: 8px; }
+.fhead.err { color: var(--no); }
+.scores { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+.scores td { padding: 4px 6px; border-bottom: 1px solid var(--line); font-size: 13px; }
+.scores td.s { text-align: center; width: 40px; font-weight: 700; }
+.s0 { color: var(--no); } .s1 { color: var(--warn); } .s2 { color: var(--ok); }
+.fcol h4 { margin: 8px 0 4px; font-size: 13px; color: var(--muted); }
+.fcol ul { margin: 0; padding-left: 18px; }
+.overall { margin-top: 8px; font-style: italic; }
+.muted { color: var(--muted); }
+.raw { background: var(--panel2); padding: 8px; border-radius: 8px; overflow-x: auto;
+  font-size: 12px; white-space: pre-wrap; }
+
+.foot { color: var(--muted); font-size: 12px; margin-top: 20px; line-height: 1.5; }

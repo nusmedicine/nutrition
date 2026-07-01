@@ -12,6 +12,18 @@
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8780", "--directory", "book/_book"],
       "port": 8780
+    },
+    {
+      "name": "spike",
+      "runtimeExecutable": "C:/Users/Admin/AppData/Local/node/current/node.exe",
+      "runtimeArgs": [
+        "spikes/llm-patient/node_modules/vite/bin/vite.js",
+        "--config",
+        "spikes/llm-patient/vite.config.js",
+        "--port",
+        "5188"
+      ],
+      "port": 5188
     }
   ]
 }
