@@ -16,8 +16,9 @@
 #   .\scripts\preview.ps1 -Live
 #   .\scripts\preview.ps1 -SkipBuild -Port 9000
 #
-# The script sets the portable node/quarto PATH itself, so it works even from a terminal
-# whose environment predates the toolchain install (e.g. spawned by an older app process).
+# The script LOCATES node/quarto itself (searching the portable-toolchain locations, incl.
+# the Claude packaged-app cache) and invokes them by full path, so it works even from a
+# terminal whose environment or %LOCALAPPDATA% redirection hides them from PATH.
 
 param(
   [switch]$Live,
@@ -28,23 +29,49 @@ param(
 $ErrorActionPreference = 'Stop'
 $repo = Split-Path -Parent $PSScriptRoot   # scripts\ lives under the repo root
 
-# Portable toolchain: set PATH ourselves so this works regardless of the terminal env.
-$env:PATH = "$env:LOCALAPPDATA\node\current;$env:LOCALAPPDATA\quarto\current\bin;" + $env:PATH
-
-if (-not (Get-Command quarto -ErrorAction SilentlyContinue)) {
-  throw "quarto not found. Expected at $env:LOCALAPPDATA\quarto\current\bin (check the portable install)."
+function Resolve-ToolDir([string[]]$patterns, [string]$exe) {
+  foreach ($pat in $patterns) {
+    foreach ($hit in @(Get-Item -Path $pat -ErrorAction SilentlyContinue)) {
+      if (Test-Path (Join-Path $hit.FullName $exe)) { return $hit.FullName }
+    }
+  }
+  return $null
 }
+
+$local = Join-Path $env:USERPROFILE 'AppData\Local'   # real user LocalAppData (not redirected)
+
+$nodeDir = Resolve-ToolDir @(
+  (Join-Path $local 'node\current'),
+  (Join-Path $local 'Packages\Claude_*\LocalCache\Local\node\current'),
+  "$env:LOCALAPPDATA\node\current"
+) 'npm.cmd'
+
+$quartoDir = Resolve-ToolDir @(
+  (Join-Path $local 'quarto\current\bin'),
+  (Join-Path $local 'Programs\Quarto\bin'),
+  (Join-Path $local 'Packages\Claude_*\LocalCache\Local\quarto\current\bin'),
+  "$env:LOCALAPPDATA\quarto\current\bin"
+) 'quarto.exe'
+
+if (-not $nodeDir)   { throw "Could not find node/npm (looked under $local\node\current and the Claude package cache)." }
+if (-not $quartoDir) { throw "Could not find quarto (looked under $local\quarto\current\bin and Programs\Quarto\bin)." }
+
+$env:PATH = "$nodeDir;$quartoDir;" + $env:PATH
+$npm    = Join-Path $nodeDir 'npm.cmd'
+$quarto = Join-Path $quartoDir 'quarto.exe'
+Write-Host "node/npm: $nodeDir" -ForegroundColor DarkGray
+Write-Host "quarto:   $quartoDir" -ForegroundColor DarkGray
 
 if (-not $SkipBuild) {
   Write-Host '==> Building interactive components bundle...' -ForegroundColor Cyan
-  npm --prefix "$repo\components" run build
+  & $npm --prefix "$repo\components" run build
 }
 
 if ($Live) {
   Write-Host '==> Live preview (in place). Ctrl+C to stop.' -ForegroundColor Cyan
   Write-Host "    If this hits 'os error 32', exclude the repo from Defender real-time scan (see HANDOVER)." -ForegroundColor DarkYellow
   Push-Location $repo
-  try { quarto preview book } finally { Pop-Location }
+  try { & $quarto preview book } finally { Pop-Location }
   return
 }
 
@@ -56,7 +83,7 @@ robocopy "$repo\book" $work /E /XD '.quarto' '_book' /NFL /NDL /NJH /NJS /NC /NS
 
 Write-Host '==> Rendering...' -ForegroundColor Cyan
 Push-Location $work
-try { quarto render . } finally { Pop-Location }
+try { & $quarto render . } finally { Pop-Location }
 
 $site = Join-Path $work '_book'
 $url = "http://localhost:$Port/"
@@ -65,4 +92,18 @@ Write-Host "==> Serving $site" -ForegroundColor Green
 Write-Host "    $url  (Ctrl+C to stop)" -ForegroundColor Green
 Write-Host ''
 Start-Process $url
-python -m http.server $Port --directory $site
+
+# Prefer Python's static server; fall back to a tiny Node one if Python is absent.
+$py = Get-Command python -ErrorAction SilentlyContinue
+if (-not $py) { $py = Get-Command py -ErrorAction SilentlyContinue }
+if ($py) {
+  & $py.Source -m http.server $Port --directory $site
+} else {
+  Write-Host 'python not found; serving with Node instead.' -ForegroundColor DarkYellow
+  $node = Join-Path $nodeDir 'node.exe'
+  $server = "const http=require('http'),fs=require('fs'),p=require('path'),root=process.argv[1],port=+process.argv[2];" +
+    "const T={'.html':'text/html','.js':'text/javascript','.css':'text/css','.json':'application/json','.yml':'text/yaml','.svg':'image/svg+xml','.png':'image/png','.jpg':'image/jpeg','.sdf':'text/plain','.woff2':'font/woff2'};" +
+    "http.createServer((q,s)=>{let f=p.join(root,decodeURIComponent(q.url.split('?')[0]));if(f.endsWith(p.sep))f=p.join(f,'index.html');try{if(fs.statSync(f).isDirectory())f=p.join(f,'index.html')}catch(e){}" +
+    "fs.readFile(f,(e,d)=>{if(e){s.writeHead(404);s.end('not found')}else{s.writeHead(200,{'Content-Type':T[p.extname(f).toLowerCase()]||'application/octet-stream'});s.end(d)}})}).listen(port,()=>console.log('serving on '+port));"
+  & $node -e $server $site $Port
+}
