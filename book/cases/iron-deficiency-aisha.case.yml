@@ -15,12 +15,14 @@ persona:
   age: 24
   sex: female
   occupation: "polytechnic graduate, new office job"
+  sprite: /figures/personas/aisha
   presentation: "Three months of fatigue and breathlessness climbing stairs. On gentle questioning: heavy periods ('I change protection very often') and a mostly noodle-and-bread diet with little red meat."
   voice: "Plays down her symptoms, busy, assumes she is 'just stressed and not sleeping enough'."
 
 nodes:
   - id: intro
     type: info
+    emotion: concerned
     title: "More than just tired"
     body: |
       Aisha, 24, has felt **tired for three months** and gets **breathless climbing
@@ -52,6 +54,7 @@ nodes:
 
   - id: reveal-group
     type: info
+    emotion: concerned
     title: "The at-risk group"
     body: |
       Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
@@ -120,6 +123,7 @@ nodes:
 
   - id: remedial
     type: info
+    emotion: concerned
     title: "Back to the pattern"
     body: |
       The reasoning missed the mark. Recall the first-year move for a recognisable

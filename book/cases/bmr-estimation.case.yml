@@ -15,12 +15,14 @@ persona:
   age: 52
   sex: female
   occupation: "primary-school teacher"
+  sprite: /figures/personas/mdm-tan
   presentation: "Reviewing her diet after a high screening glucose. Weight 68 kg, height 157 cm (BMI 27.6); largely sedentary."
   voice: "Polite, mildly anxious, time-pressed; enjoys kopi and char kway teow."
 
 nodes:
   - id: intro
     type: info
+    emotion: concerned
     title: "Setting a realistic plan"
     body: |
       To advise Mdm Tan on her diet, you first want to estimate her **daily energy
@@ -117,6 +119,7 @@ nodes:
 
   - id: counselling
     type: info
+    emotion: relieved
     body: |
       With needs ≈ **1740 kcal/day**, a modest **300–500 kcal/day** deficit supports
       gradual weight loss. You agree one realistic change — swapping two sweetened
@@ -125,6 +128,7 @@ nodes:
 
   - id: remedial
     type: info
+    emotion: concerned
     title: "Let's revisit the estimate"
     body: |
       A shaky energy estimate makes for shaky advice. Recall the steps: identify the

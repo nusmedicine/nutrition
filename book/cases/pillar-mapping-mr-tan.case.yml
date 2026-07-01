@@ -15,12 +15,14 @@ persona:
   age: 38
   sex: male
   occupation: "software engineer (CBD)"
+  sprite: /figures/personas/mr-tan
   presentation: "Pre-employment health screen. BMI 27 (obese by Asian cut-offs); feels well. Eats at the food court most days, teh tarik mid-afternoon, supper after late shifts. Sleeps ~5.5 h, sedentary, 'stressed' by deadlines, 3–4 beers at weekends, eats alone on workdays."
   voice: "Friendly, busy, a bit sceptical that anything is wrong; speaks in Singlish-flavoured English; proud of being 'low-maintenance'."
 
 nodes:
   - id: intro
     type: info
+    emotion: skeptical
     title: "A well man, on paper"
     body: |
       Mr Tan, 38, comes in for a routine pre-employment screen. He has **no symptoms**
@@ -32,6 +34,7 @@ nodes:
 
   - id: q-pillars
     type: mcq
+    emotion: skeptical
     stem: "Which pillars of health are in play for Mr Tan?"
     options:
       - id: a
@@ -53,6 +56,7 @@ nodes:
 
   - id: reveal-profile
     type: info
+    emotion: concerned
     body: |
       You note his **pillar profile**: short sleep (~5.5 h), high work stress, sedentary
       days, weekend alcohol, and eating alone — wrapped around an energy-dense,
@@ -148,6 +152,7 @@ nodes:
 
   - id: remedial
     type: info
+    emotion: concerned
     title: "Step back and re-map"
     body: |
       You reached a plan, but the reasoning was a little narrow. Recall the move:
