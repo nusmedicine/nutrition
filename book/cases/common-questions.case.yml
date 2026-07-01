@@ -15,12 +15,14 @@ persona:
   age: 41
   sex: male
   occupation: "taxi driver"
+  sprite: /figures/personas/mr-lim
   presentation: "Health screen showed a borderline fasting glucose and mildly high cholesterol. Feels well; eats mostly at hawker centres and coffee shops. Has picked up a lot of advice online and from friends."
   voice: "Chatty and well-meaning; trusts influencers and 'my friend also say'; wants clear yes/no answers; time-pressed."
 
 nodes:
   - id: intro
     type: info
+    emotion: neutral
     title: "\"Doctor, I got a few questions ah\""
     body: |
       Mr Lim's fasting glucose is borderline and his cholesterol is mildly up. He feels well
@@ -32,6 +34,7 @@ nodes:
 
   - id: q-carb
     type: mcq
+    emotion: concerned
     stem: "*\"Is white rice the problem? Should I just cut all carbs — my friend went keto?\"*"
     options:
       - id: a
@@ -44,6 +47,7 @@ nodes:
         correct: true
         feedback: "Right — a hawker-available quality upgrade anchored to My Healthy Plate, not a ban. And reassure him: **whole fruit is fine** despite its sugar; it's the *sweet drinks* (bubble tea, sweetened kopi, even juice) that behave like added sugar."
         effects: { quality: +1 }
+        reaction: relieved
         goto: q-eggs
       - id: c
         text: "\"Rice is fine — eat as much white rice as you like.\""
@@ -53,6 +57,7 @@ nodes:
 
   - id: q-eggs
     type: mcq
+    emotion: concerned
     stem: "*\"So no more eggs for me? I heard eggs are full of cholesterol, and mine is already high.\"*"
     options:
       - id: a
@@ -65,6 +70,7 @@ nodes:
         correct: true
         feedback: "Exactly — correct the myth without banning, and individualise. It's saturated and trans fat that move blood cholesterol most, not the cholesterol in the egg itself."
         effects: { quality: +1 }
+        reaction: surprised
         goto: q-fat
       - id: c
         text: "\"Cholesterol in food doesn't matter at all — eat as many as you like.\""
@@ -74,6 +80,7 @@ nodes:
 
   - id: q-fat
     type: mcq
+    emotion: skeptical
     stem: "*\"My friend says coconut oil is a superfood and butter is natural — I switched to those. Better for me, right?\"*"
     options:
       - id: a
@@ -91,10 +98,12 @@ nodes:
         correct: true
         feedback: "Exactly — type over total. Correct the hype without banning: it's the *default* cooking fat that matters."
         effects: { quality: +1 }
+        reaction: relieved
         goto: q-protein
 
   - id: q-protein
     type: mcq
+    emotion: neutral
     stem: "*\"Last one, doctor. My son takes protein powder and eats chicken breast all day to build muscle. Does more protein mean more muscle? Should I take some for energy?\"*"
     options:
       - id: a
@@ -107,6 +116,7 @@ nodes:
         correct: true
         feedback: "Right — adequacy + training, whole foods first, powder as convenience not necessity, and the processed-meat point lands the quality theme once more."
         effects: { quality: +1 }
+        reaction: relieved
         goto: route
       - id: c
         text: "\"Protein powder gives energy — take a few scoops a day to feel more energetic.\""
@@ -123,6 +133,7 @@ nodes:
 
   - id: talk-to-mr-lim
     type: patient-chat
+    emotion: relieved
     scenarioId: common-questions-mr-lim
     objective: "Agree one realistic change per theme, and — because he is keen on a strict low-carb plan on top of borderline glucose and cholesterol — flag that this is beyond simple diet advice and you would bring in a dietitian."
     turnLimit: 8
@@ -132,6 +143,7 @@ nodes:
 
   - id: remedial
     type: info
+    emotion: concerned
     title: "Re-centre on quality"
     body: |
       The thread across all four questions is the same: **type and food source**, not

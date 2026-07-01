@@ -17,6 +17,23 @@
   let n = $derived(state && def ? byId[state.currentId] : null);
   let total = $derived(def ? E.countEndings(def) : 0);
 
+  // --- Visual-novel patient portrait: the sprite's expression tracks the situation. ---
+  const EMOTIONS = ['neutral', 'concerned', 'relieved', 'skeptical', 'surprised'];
+  const emo = (e) => (EMOTIONS.includes(e) ? e : 'neutral');
+  let hasSprite = $derived(!!(def && def.persona && def.persona.sprite));
+  let emotion = $derived.by(() => {
+    if (!n) return 'neutral';
+    // while an answer's feedback is showing, the patient reacts to that choice
+    if (n.type === 'mcq' && state && state.pending) {
+      const opt = n.options.find((o) => o.id === state.pending);
+      if (opt) return emo(opt.reaction || (opt.correct ? 'relieved' : 'concerned'));
+    }
+    if (n.type === 'end') return n.outcome === 'success' ? 'relieved' : 'concerned';
+    return emo(n.emotion);
+  });
+  let spriteUrl = $derived(hasSprite ? `${def.persona.sprite}/${emotion}.svg` : '');
+  let spriteAlt = $derived(def && def.persona ? `${def.persona.name}, looking ${emotion}.` : '');
+
   onMount(async () => {
     try {
       const res = await fetch(src);
@@ -64,7 +81,19 @@
     </div>
 
     <div class="card">
-      <p class="persona"><b>{def.persona.name}</b>, {def.persona.age}, {def.persona.occupation} — {def.persona.presentation}</p>
+      <div class="cast" class:withportrait={hasSprite}>
+        {#if hasSprite}
+          <figure class="portrait">
+            <img class="sprite" src={spriteUrl} alt={spriteAlt} width="140" height="140" />
+            <figcaption>
+              <b>{def.persona.name}</b>
+              <span class="who">{def.persona.age} · {def.persona.occupation}</span>
+              <span class="mood" aria-hidden="true">{emotion}</span>
+            </figcaption>
+          </figure>
+        {/if}
+        <div class="content">
+      <p class="persona">{#if !hasSprite}<b>{def.persona.name}</b>, {def.persona.age}, {def.persona.occupation} — {/if}{def.persona.presentation}</p>
 
       {#if n.type === 'info'}
         <h3 class="nt" tabindex="-1" bind:this={titleEl}>{n.title || 'Information'}</h3>
@@ -118,6 +147,8 @@
         {/if}
         <div class="actions"><button type="button" class="btn" onclick={restart}>↻ Play again</button></div>
       {/if}
+        </div>
+      </div>
     </div>
 
     <div class="actions">
@@ -151,6 +182,15 @@
   .cp .stem { font-weight:600; }
   .cp .persona { color:var(--muted); font-size:.9rem; margin:0 0 14px; }
   .cp .persona b { color:var(--ink); }
+  .cp .cast.withportrait { display:flex; gap:16px; align-items:flex-start; }
+  .cp .portrait { flex:0 0 140px; margin:0; text-align:center; }
+  .cp .portrait .sprite { width:140px; height:140px; border-radius:12px; border:1px solid var(--line); background:#eef5f2; display:block; transition:opacity .2s ease; }
+  .cp .portrait figcaption { margin-top:7px; line-height:1.35; }
+  .cp .portrait figcaption b { font-size:.92rem; color:var(--ink); display:block; }
+  .cp .portrait .who { font-size:.76rem; color:var(--muted); display:block; }
+  .cp .portrait .mood { margin-top:3px; font-size:.74rem; font-weight:600; color:var(--brand-ink); text-transform:capitalize; display:inline-block; padding:1px 9px; border-radius:99px; background:#eef5f2; border:1px solid var(--line); }
+  .cp .content { flex:1 1 auto; min-width:0; }
+  @media (max-width:520px) { .cp .cast.withportrait { flex-direction:column; align-items:center; } .cp .content { width:100%; } }
   .cp .prose :global(p) { margin:.5em 0; }
   .cp button { font:inherit; cursor:pointer; }
   .cp .btn { background:var(--brand); color:#fff; border:1px solid var(--brand-ink); border-radius:8px; padding:11px 16px; min-height:44px; font-weight:600; }

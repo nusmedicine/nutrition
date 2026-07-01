@@ -49,7 +49,8 @@ persona:
   sex: female
   occupation: "primary-school teacher"
   presentation: "Routine health screening; fasting glucose 6.4 mmol/L."
-  avatar: figures/personas/mdm-tan.png   # optional
+  avatar: figures/personas/mdm-tan.png   # optional single portrait
+  sprite: /figures/personas/mdm-tan      # optional visual-novel sprite set (see §4a)
   # 'voice' is used only by the optional LLM patient-chat node (§4.5)
   voice: "Polite, a little anxious, time-pressed, fond of kopi and char kway teow."
 ```
@@ -57,7 +58,26 @@ persona:
 ---
 
 ## 4. Node types
-Every node has `id` (unique) and `type`. Common optional fields: `title`, `media` (§5).
+Every node has `id` (unique) and `type`. Common optional fields: `title`, `media` (§5),
+`emotion` (§4a).
+
+### 4a. Patient portrait (visual-novel mode)
+If `persona.sprite` is set (a site-root base path like `/figures/personas/mr-lim`), the player
+shows a **patient portrait beside the dialogue whose expression tracks the situation**. Each
+sprite is an image at `<sprite>/<emotion>.svg`. The standard emotion set is **`neutral`,
+`concerned`, `relieved`, `skeptical`, `surprised`** (unknown values fall back to `neutral`; if
+`sprite` is omitted the portrait pane simply doesn't render — cases stay fully playable).
+
+- **`emotion:` on any node** sets the resting mood while that node is shown (e.g. a `concerned`
+  look on a question about the patient's own results).
+- **`reaction:` on an mcq option** sets the mood shown *while that option's feedback is up* — the
+  patient reacts to the student's answer. If omitted, a correct answer defaults to `relieved`
+  and an incorrect one to `concerned`.
+- **`end` nodes** use `relieved` for a `success` outcome and `concerned` otherwise.
+
+Sprites are standardized (one emotion set, reused per patient). The pilot set is **Avataaars**
+(CC BY 4.0, Pablo Stanley) rendered via DiceBear; the engine is asset-agnostic, so the art can
+be swapped without touching any case file.
 
 ### 4.1 `info` — narrative / reveal
 Presents content, then advances. This is the primary "reveal information as the case progresses" tool.
@@ -96,6 +116,7 @@ advances via that option's `goto`.
 ```
 - `correct` is optional (omit for pure-branch choices with no right answer).
 - `effects` adds to `variables` (numbers add; booleans set). Pilot cases adjust the single `quality`.
+- `reaction` (optional) sets the patient's portrait mood while this option's feedback shows (§4a).
 - `goto` is required and must resolve to a node `id`.
 
 ### 4.3 `branch` — conditional routing (no question shown)
