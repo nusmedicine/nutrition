@@ -18,3 +18,27 @@ A 52-year-old teacher whose screening blood test came back with a raised fasting
 Take a brief diet history, agree **one** realistic change with her, and check her confidence.
 
 <div data-island="case" data-src="/cases/sim-prediabetes-mdm-tan.case.yml"></div>
+
+## Mr Lim — "Doctor, I got a few questions"
+
+A 41-year-old taxi driver whose screen flagged a borderline sugar and mildly high cholesterol.
+He feels well but has a string of nutrition questions picked up from friends and online. Answer
+them on quality-not-bans terms — and notice when a plan needs a dietitian.
+
+<div data-island="case" data-src="/cases/sim-common-questions-mr-lim.case.yml"></div>
+
+## Aisha — "tired all the time"
+
+A 24-year-old office worker who has been tired for months and puts it down to stress. Draw out
+what is really going on — she will not volunteer much — explain your concern plainly, and agree a
+sensible next step.
+
+<div data-island="case" data-src="/cases/sim-iron-deficiency-aisha.case.yml"></div>
+
+## Mr Tan — feels "basically fine"
+
+A 38-year-old software engineer in for a pre-employment screen. He is asymptomatic and sceptical
+anything is wrong. Engage him without lecturing, look beyond his diet, and see if you can agree
+one realistic change.
+
+<div data-island="case" data-src="/cases/sim-pillar-mr-tan.case.yml"></div>

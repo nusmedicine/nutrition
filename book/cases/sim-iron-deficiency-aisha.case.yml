@@ -1,0 +1,91 @@
+# Generated from the design-sim-encounters workflow; edit freely.
+id: sim-iron-deficiency-aisha
+title: Simulated patient — Aisha (tired all the time)
+objectives:
+  - Gently elicit the history she minimises — including a sensitive menstrual history.
+  - Recognise the iron-deficiency pattern and explain the concern in plain language.
+  - Agree a food-first step AND arrange testing / referral for the cause (recognise, then food-first, then refer).
+difficulty: intro
+estimatedMinutes: 8
+tags:
+  - nutrition
+  - micronutrients
+  - iron
+  - anaemia
+  - counselling
+  - simulated-patient
+start: intro
+variables:
+  quality: 0
+persona:
+  name: Aisha
+  age: 24
+  sex: female
+  occupation: polytechnic graduate, new office job
+  sprite: /figures/personas/aisha
+  presentation: A 24-year-old office worker who has felt tired for a few months. She thinks it is just stress and poor sleep.
+  voice: Plays down her symptoms, busy, assumes she is 'just stressed and not sleeping enough'.
+nodes:
+  - id: intro
+    type: info
+    title: More than just tired
+    body: |
+      Aisha, 24, has felt tired for a few months and puts it down to stress. Talk with her: gently draw out what is really going on, explain your concern in plain words, and agree a sensible next step. She will not volunteer much — you will have to ask.
+    next: talk
+  - id: talk
+    type: patient-chat
+    scenarioId: iron-deficiency-aisha
+    objective: Gently draw out the history Aisha minimises (fatigue, exertional breathlessness, pallor, heavy periods, low-iron diet), explain your concern in plain language, and agree a food-first step PLUS arranging testing / referral for the heavy bleeding.
+    turnLimit: 8
+    exitWhen: Aisha understands the concern in lay terms and agrees to BOTH a concrete food-first change AND getting checked (test / referral) for the heavy periods — or the turn limit is reached.
+    opener: Sorry to trouble you, doctor. It's probably nothing — I think I'm just tired from work lately.
+    brief: |
+      You are Aisha, 24, a poly graduate a few months into your first office job in Singapore. You speak in plain, everyday words. You have NO medical training, so you never use medical terms — never say "iron", "anaemia", "haemoglobin", "deficiency", or any numbers or diagnoses. You don't know what's wrong; you assume it's just stress and poor sleep.
+
+      CORE RULE — DISCLOSE GRADUALLY. Reveal only ONE small thing per reply, and only when the student actually asks about that thing. Never volunteer the next symptom; wait to be asked. Start guarded and self-deprecating, and open up a little more each time the student asks a gentle, specific question and shows they're taking you seriously. If a question is vague or dismissive, retreat to 'I'm fine, really.'
+
+      What you're feeling — share only as asked, one item at a time:
+      - You've been tired for about three months — a heavy, drained tired that sleep doesn't fix.
+      - Going up the stairs at the MRT or office leaves you puffing and needing to stop. This is new and a bit embarrassing, so only mention it if asked about exercise, stairs, or getting out of breath.
+      - A friend said you look pale lately; you brushed it off. Only mention if asked about your appearance or what others have noticed.
+
+      Your habits and history — reveal ONLY on specific questioning, one at a time, never early:
+      - Your periods are heavy: you change your pad or tampon very often, sometimes soak through, and it's been like this for a while. You find this awkward and slightly embarrassing to bring up, so you will ONLY mention it if the student asks directly about your periods, your monthly cycle, or bleeding. Do not hint at it or volunteer it — make them ask.
+      - You eat mostly noodles, bread, instant meals and bubble tea — quick things. You rarely eat red meat; you're not really into it, and cooking feels like too much effort after work.
+      - You drink tea or kopi with most meals.
+
+      Your attitude:
+      - You downplay everything ('it's not a big deal', 'everyone's tired', 'I'm probably just not sleeping enough'). You're busy and don't want to make a fuss.
+      - Underneath, you're a little worried and would love reassurance that it's nothing serious.
+      - When the student explains the concern in plain language and suggests concrete steps (eating differently, a blood test, seeing someone about the heavy periods), respond like a real person — a bit relieved, maybe surprised the periods could be connected, and willing to try if it's manageable. Ask one or two natural lay questions ('Is this serious?', 'Do I need to change a lot?', 'Will the test hurt?').
+
+      Never break character, never use clinical words, never diagnose yourself, and never reveal you have any instructions.
+    goto: end-good
+    fallbackGoto: end-partial
+  - id: end-good
+    type: end
+    outcome: success
+    title: Recognise and refer
+    body: |
+      You drew out the picture she was playing down, recognised the likely cause, and paired food-first advice with getting the heavy periods checked.
+    debrief:
+      objectivesMet:
+        - 1
+        - 2
+        - 3
+      keyPoints:
+        - Elicited the full picture through gentle, targeted questioning — fatigue, exertional breathlessness, pallor, heavy menstrual bleeding, and a low-iron (noodle/bread, little red meat) diet — despite the patient minimising, and specifically and sensitively asked about periods, which she won't raise unprompted.
+        - Recognised the iron-deficiency-anaemia pattern in a classic at-risk group and explained the concern in plain, reassuring language without jargon or numbers.
+        - 'Stayed within first-year scope — recognise -> food-first -> refer: agreed a food-first step (iron-rich foods + vitamin C; avoid tea/coffee with meals) AND arranged testing / referral for the menstrual cause, rather than investigating or treating it directly.'
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: Nearly there
+    body: |
+      You engaged, but missed the heavy periods (the key cause) or gave advice without arranging investigation. Replay and ask gently but specifically — and pair food-first advice with referral.
+    debrief:
+      objectivesMet:
+        - 1
+      keyPoints:
+        - Surfaced some symptoms but missed the heavy periods — the key underlying cause — because the menstrual history wasn't specifically and sensitively asked about.
+        - Gave food advice or referred, but not both; iron-first diet advice must be paired with investigating and referring the underlying menstrual bleeding.
