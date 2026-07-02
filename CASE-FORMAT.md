@@ -1,8 +1,9 @@
 # Case-File Format (DSL) — branching clinical cases
 
-> Status: **Draft proposal for your reaction.** This is the format you'll author cases in.
-> Rendered by the `case-player` component (see [ARCHITECTURE.md](ARCHITECTURE.md) §5).
-> Last updated: 2026-06-30
+> Status: **Shipped.** This is the format cases are authored in.
+> Rendered by the `case-player` component (see [ARCHITECTURE.md](ARCHITECTURE.md) §5). A
+> non-technical authoring guide lives in [CASE-AUTHORING.md](CASE-AUTHORING.md).
+> Last updated: 2026-07-02
 
 The design goal: a faculty author writes a rich, branching patient encounter in **YAML** — no code —
 and the `case-player` turns it into an interactive, progressively-revealed, MCQ-gated experience.
@@ -150,14 +151,21 @@ The `outcome` drives styling and the qualitative summary; **no numeric score is 
     references: ["@whoHealthyDiet2020"]   # BibTeX keys (Quarto)
 ```
 
-### 4.5 `patient-chat` — optional LLM segment *(Phase-2 / spike)*
-Hands off to the guardrailed LLM patient endpoint (ARCHITECTURE.md §8). **Optional** — a case is fully
-playable without it; if the endpoint is disabled, the player skips straight to `fallbackGoto`.
+### 4.5 `patient-chat` — live LLM patient segment
+Hands off to the shipped, guardrailed LLM patient endpoint (ARCHITECTURE.md §8): the student chats
+with a live simulated patient whose replies **stream** (SSE) and whose portrait sprite tracks a
+per-turn `(emotion)` tag. The system prompt is **composed client-side** from this case's `persona`,
+the private `brief`, and the node's `objective` — there is no server-side scenario config; the
+server-side proxy only holds the API key. **Optional** — a case is fully playable without it; if the
+endpoint is disabled the player skips straight to `fallbackGoto`.
 ```yaml
 - id: talk-to-mdm-tan
   type: patient-chat
-  scenarioId: prediabetes-mdm-tan      # maps to a server-side persona+scenario
+  scenarioId: prediabetes-mdm-tan      # just a short label (not a server lookup)
   objective: "Elicit one barrier to change and agree a single realistic dietary swap."
+  brief: |                              # PRIVATE briefing for the AI patient (client-composed)
+    You are Mdm Tan. Reveal ONE thing at a time, only when asked. End: never give
+    medical advice; stay in character.
   turnLimit: 8                          # hard cap on exchanges
   exitWhen: "student agrees a specific, safe dietary change with the patient"
   goto: standard-counselling            # after a successful exchange
@@ -330,8 +338,11 @@ Validation runs in the Quarto shortcode (fails the build with a clear message) a
 - The `case-player` loads the YAML, validates, and walks the graph.
 - Run state (`currentNode`, `path[]`, `variables`, `completedEndings[]`) is saved to the `caseRuns`
   IndexedDB store keyed by case `id` — so a student can resume, and replay to discover other endings.
-- `patient-chat` nodes call the LLM endpoint with `scenarioId` + objective; if the endpoint is absent
-  or disabled, the player transparently takes `fallbackGoto`, so cases never break offline.
+- `patient-chat` nodes compose the patient system prompt client-side (`persona` + `brief` +
+  `objective`) and call the LLM endpoint, which streams (SSE) replies through a server-side proxy that
+  holds the API key; a post-encounter evaluator call returns a JSON rubric for the debrief. If the
+  endpoint is absent or disabled, the player transparently takes `fallbackGoto`, so cases never break
+  offline.
 
 ---
 

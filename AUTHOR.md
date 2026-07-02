@@ -160,8 +160,8 @@ YAML data file and (b) dropping a placeholder `<div>` in your chapter.
 <div data-island="<type>" data-src="<absolute-path-to-yaml>"></div>
 ```
 - `data-island` — which prebuilt element (`quiz` or `case`).
-- `data-src` — a **site-root-absolute** path to the YAML (starts with `/`). See §8 for the
-  deployment caveat about this path.
+- `data-src` — a **site-root-absolute** path to the YAML (starts with `/`). These resolve at
+  any deployment depth via `resolveAsset()` — see §8.
 
 ### Quiz
 1. Write `book/quizzes/my-topic.quiz.yml`:
@@ -188,7 +188,11 @@ locally. (This format is small enough to live here; we can split a `QUIZ-FORMAT.
 
 ### Case (branching clinical encounter)
 1. Write `book/cases/my-case.case.yml` following **[CASE-FORMAT.md](CASE-FORMAT.md)** (nodes,
-   MCQs, branches, debrief, optional patient-chat).
+   MCQs, branches, debrief). A `case` supports two forms: **choice-based (MCQ)** encounters,
+   which live in their chapter, and **chat-forward simulated-patient** encounters (a live
+   guardrailed AI patient via a `patient-chat` node), which are collected in the *Integrated
+   cases* chapter (`book/chapters/cases.qmd`). See **[CASE-AUTHORING.md](CASE-AUTHORING.md)**
+   for authoring the simulated-patient brief.
 2. Drop it in:
    ```html
    <div data-island="case" data-src="/cases/my-case.case.yml"></div>
@@ -273,15 +277,18 @@ that's how `CasePlayer` is structured.
 `quarto render book` produces **`book/_book/`** — a self-contained static site (HTML, your
 bundle, the YAML data, Quarto's libs). **That folder is the entire deployment.** Push/copy it
 to any static host: GitHub Pages, Netlify, Quarto Pub, or an NUS web server. No server, no
-database (the only future server piece is the optional LLM patient endpoint).
+database for the book itself. The simulated-patient feature adds one small server piece — a
+zero-dep proxy (`patient-proxy/`) that holds the API key and forwards to the hosted model; the
+book degrades gracefully to a placeholder when no patient endpoint is configured. A GitHub
+Pages CI workflow (`.github/workflows/publish.yml`) builds the islands, renders Quarto, and
+deploys `book/_book/` on push.
 
-> **Subpath caveat (important for GitHub Pages *project* sites).** Island `data-src` paths are
-> site-root-absolute (`/cases/…`). These resolve correctly when the site is served at a domain
-> root (local preview, Netlify, a *user/org* Pages site, or a custom domain). If you deploy to
-> `username.github.io/book-health/` (a subpath), `/cases/…` would resolve to the wrong place.
-> Fixes we can apply at deploy time: serve at a domain root, set Quarto's `site-url`/base and
-> have the loader prepend it, or switch `data-src` to a path computed from the page. Flag this
-> when we set up deployment and we'll wire the chosen option once.
+> **Subpath deploys (GitHub Pages *project* sites) just work.** Island `data-src` paths are
+> site-root-absolute (`/cases/…`), and `components/src/lib/base.js` (`resolveAsset()`) rewrites
+> them at runtime: it derives the site root from the bundle's own URL, so islands load correctly
+> whether the site is served at a domain root (local preview, Netlify, a *user/org* Pages site,
+> or a custom domain) **or** at a project subpath like `username.github.io/book-health/`. This
+> is verified live at a simulated subpath — no per-deploy configuration needed.
 
 ---
 

@@ -2,9 +2,9 @@
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-02.**
 > Branch: **`curriculum-restructure`** (base: `main`). All work is committed; **nothing pushed** (see §10).
-> **The LLM simulated-patient is now BUILT, verified, and documented (§3).** The one remaining
-> step is **deployment**: stand up the `patient-proxy` Docker sidecar on the NUS box, then flip
-> the book's `patient-llm` meta to production (§4).
+> **The LLM simulated-patient is now BUILT, verified, documented, and DEPLOYED (§3).** The
+> `patient-proxy` Docker sidecar runs next to llama.cpp, exposed via FRP at
+> `patient-api.phm.nusmed.space`, and the book's `patient-llm` meta is flipped to production (§4).
 > Read order: this file → [`patient-proxy/README.md`](patient-proxy/README.md) (deploy) →
 > [`CASE-AUTHORING.md`](CASE-AUTHORING.md) (authoring) → [`ARCHITECTURE.md`](ARCHITECTURE.md) §8 →
 > [`CASE-FORMAT.md`](CASE-FORMAT.md) §4.5 (patient-chat node).
@@ -23,13 +23,13 @@ Part I (4 chapters) is authored and verified in-browser, plus:
   micronutrients & hydration. Each chapter has a quiz + a **choice-based** clinical case.
 - **NEW — Integrated cases chapter** ([`chapters/cases.qmd`](book/chapters/cases.qmd)): four
   **simulated-patient (LLM chat)** encounters (§5).
-- **NEW — the LLM simulated-patient feature is fully built & verified** (§3): live guardrailed
-  AI patient in the CasePlayer, streaming, reactive portraits, post-chat rubric feedback.
+- **NEW — the LLM simulated-patient feature is fully built, verified & deployed** (§3): live
+  guardrailed AI patient in the CasePlayer, streaming, reactive portraits, post-chat rubric feedback.
 
 **Interactive islands** (Svelte 5, `components/src/`, registered in `main.js`):
 `quiz`, `case` (**CasePlayer — now with live patient-chat**), `gi`, `molecule`, `protein`.
 
-## 3. The LLM simulated-patient — BUILT (this was the prior "next focus")
+## 3. The LLM simulated-patient — BUILT & DEPLOYED (this was the prior "next focus")
 The `patient-chat` case node now hands off to a **real, guardrailed AI patient** the student
 talks to in their own words. As shipped:
 - **Client-composed prompt** (decision "fork A"): the CasePlayer builds the patient system prompt
@@ -51,15 +51,15 @@ talks to in their own words. As shipped:
   [`components/src/CasePlayer.svelte`](components/src/CasePlayer.svelte) (chat UI),
   `lib/engine.js` (`finishPatientChat`). Verified E2E in-browser multiple times.
 
-## 4. Deploy the proxy (the ONE remaining step)
+## 4. The proxy — DEPLOYED
 `patient-proxy/` is a **zero-dependency Node proxy** that holds the key, **pins the model**,
 injects `enable_thinking:false`, and adds **CORS allow-list + per-IP rate limit + token/size caps
-+ optional cohort access token**. Verified working against the live endpoint.
-- **Path 1 (recommended, matches your infra):** run it as a **Docker sidecar** next to llama.cpp,
-  exposed via **FRP** as `patient-api.phm.nusmed.space`; make llama.cpp **internal-only** so the
-  guardrailed proxy is the only public door. See [`patient-proxy/README.md`](patient-proxy/README.md),
++ optional cohort access token**. It is deployed and serving the live book.
+- **As deployed:** it runs as a **Docker sidecar** next to llama.cpp, exposed via **FRP** at
+  `patient-api.phm.nusmed.space`, with llama.cpp **internal-only** so the guardrailed proxy is the
+  only public door. See [`patient-proxy/README.md`](patient-proxy/README.md),
   `docker-compose.example.yml`, `frpc.example.toml`.
-- **Then flip the book to production:** in [`book/_quarto.yml`](book/_quarto.yml) set the
+- **Book is live in production:** [`book/_quarto.yml`](book/_quarto.yml) already sets the
   `patient-llm` meta to `{"endpoint":"https://patient-api.phm.nusmed.space","enabled":true}`.
 - **Endpoint reality** (memory [[qwen-llm-endpoint]]): it's a **llama.cpp router**; OpenAI route is
   **`/v1`** (not `/api`); **Qwen3.6 needs `enable_thinking:false`** or `content` is empty; model
@@ -144,7 +144,7 @@ book/
   figures/personas/<id>/<emotion>.svg   sprite sets (mr-lim, mr-tan, aisha, mdm-tan)
   assets/                          GENERATED island bundle (gitignored)
 components/src/                    main.js(REGISTRY), CasePlayer(+chat), Quiz, GlucoScale, Molecule, Protein,
-                                   lib/{engine,expr,md,store, patient, config}.js
+                                   lib/{engine,expr,md,store, patient, config, base}.js  (base.js=resolveAsset, subpath-safe)
 spikes/llm-patient/                throwaway bake-off + eval/ (battery.json, run-hosted.mjs, FINDINGS-hosted.md)
 research/                          evidence repo (curriculum-map.md spine, chapter dossiers)
 ```
@@ -157,9 +157,11 @@ research/                          evidence repo (curriculum-map.md spine, chapt
   bake-off spike. Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
 
 ## 11. Open items / risks
-- **Deploy the proxy** (Docker sidecar) + **flip the `patient-llm` meta** — the main remaining step (§4).
-- **Deployment base-path** for island `data-src` (subpath GitHub Pages) still unresolved
-  ([`ARCHITECTURE.md`](ARCHITECTURE.md) §9; [`AUTHOR.md`](AUTHOR.md) §8).
+- **~~Deploy the proxy + flip the `patient-llm` meta~~ — DONE:** proxy is live at
+  `patient-api.phm.nusmed.space` and the book meta is flipped to production (§4).
+- **~~Deployment base-path~~ — RESOLVED:** `components/src/lib/base.js` (`resolveAsset()`) derives
+  the site root from the bundle URL and rewrites root-absolute paths, so islands work at a domain
+  root or a GitHub project subpath (verified live at a simulated `/repo/`).
 - **Server-side guardrail hardening** is Phase-2 (currently client-composed prompt).
 - **Battery gaps** flagged by the design critic: multi-turn compounding attacks, turn-limit
   pressure, non-English/obfuscated input, a positive-control encounter.
@@ -167,6 +169,8 @@ research/                          evidence repo (curriculum-map.md spine, chapt
   the Cases chapter.
 - **Ch.1/2/4 predate the §11 template** — retro-fit when convenient.
 - **Net-new ✨ chapters need research dossiers first** (`research/00-overview/curriculum-map.md`).
+- **GitHub Pages CI** (`.github/workflows/publish.yml`) builds islands + renders Quarto + deploys
+  `book/_book` to Pages on push.
 - **Future polish (deferred):** more encounters, per-turn emotion tuning, streaming for the evaluator.
 
 ## 12. Memory (auto-loaded each session — see `memory/MEMORY.md`)

@@ -4,7 +4,7 @@
 > Last updated: 2026-06-30
 > This is the living planning doc (vision, scope, decisions). Detail lives in companion docs:
 > - **[REQUIREMENTS.md](REQUIREMENTS.md)** — pilot functional/non-functional spec + acceptance criteria.
-> - **[ARCHITECTURE.md](ARCHITECTURE.md)** — technical design, repo layout, components, persistence, LLM spike.
+> - **[ARCHITECTURE.md](ARCHITECTURE.md)** — technical design, repo layout, components, persistence, the simulated-patient LLM system.
 > - **[CASE-FORMAT.md](CASE-FORMAT.md)** — the branching-case authoring DSL with a worked example.
 
 ---
@@ -39,9 +39,12 @@ reasoning — that is meaningfully better than a PDF or static site.
 ## 5. Clinical Cases — Model
 - **Hybrid:** an **authored branching backbone** (deterministic decision tree: MCQ → reveal →
   branch) is the pedagogical core — predictable, assessable, free, offline-capable.
-- **Optional LLM "talk to the patient"** free-text mode layered inside a case for realism —
-  gated and guardrailed. De-risked via an early throwaway spike (see Roadmap); not required for
-  the book to ship.
+- **LLM "talk to the patient"** free-text mode layered inside a case for realism —
+  gated and guardrailed. **Built, verified, and deployed**: a new *Integrated cases* chapter
+  ([`book/chapters/cases.qmd`](book/chapters/cases.qmd)) hosts chat-forward simulated-patient
+  encounters, while choice-based (MCQ) cases stay in the chapters (the two-versions model).
+  Guardrails held on a 32/32 adversarial probe battery. Graceful degradation is preserved (no
+  endpoint → placeholder + fallback).
 
 ## 6. Interactive Components & Authoring Principle
 **Principle: author in data, render with components.** All interactivity is declarative —
@@ -72,9 +75,12 @@ branching encounters authorable without code.
 - **Interactivity:** Observable JS (native) + custom JS web components / Quarto shortcodes,
   bundled as static assets (esbuild/Vite).
 - **Hosting (book):** public static host — GitHub Pages / Netlify / Quarto Pub.
-- **LLM spike (separate):** serverless function (Vercel / Cloudflare / Netlify) holding the API
-  key + system prompt + guardrails; default provider **Claude (Anthropic)**. Throwaway, not
-  yet integrated into the case format.
+- **Simulated-patient LLM (shipped):** a zero-dep Node **proxy** (`patient-proxy/`) holds the API
+  key and streams replies (SSE); deployed as a Docker sidecar next to llama.cpp and exposed via
+  FRP at `patient-api.phm.nusmed.space`. Provider is **Qwen3.6-35B-A3B via a llama.cpp router**
+  (OpenAI `/v1` route, `enable_thinking:false`) — not Claude. The patient system prompt is
+  **client-composed from the case YAML** (persona + private `brief` + objective); the key never
+  reaches the browser.
 
 ## 9. Roadmap
 - **Phase 0 — Foundations:** Quarto project + theme, deploy pipeline, repo structure, one
@@ -84,9 +90,11 @@ branching encounters authorable without code.
 - **Phase 2 — Case player:** design the case DSL, build the branching case player, author 1–2
   full cases.
 - **Phase 3 — Content build-out:** author the real chapters and cases (the long pole; solo).
-- **LLM spike (parallel, early):** throwaway guardrailed Claude patient chat as a
-  **feasibility & feel demo** (you + a few testers). Optimise for realism and safety; cost and
-  rate-limits are deliberately deferred. Validates the idea before any production integration.
+- **Simulated-patient LLM (shipped):** guardrailed live patient chat inside the CasePlayer,
+  backed by hosted Qwen behind the `patient-proxy/`. Streaming replies drive a per-turn
+  `(emotion)` portrait sprite; a post-encounter evaluator returns a JSON rubric for feedback.
+  Four encounters exist (Mdm Tan, Mr Lim, Aisha, Mr Tan). Guardrails validated 32/32 on an
+  adversarial battery.
 
 ## 10. Team & Constraints
 - **Builder/author:** solo (you) for now; faculty collaborators possible later → favour
@@ -114,12 +122,16 @@ branching encounters authorable without code.
 | 2026-06-30 | Single focused book first, on reusable components (platform-capable later) | User |
 | 2026-06-30 | Core interactivity: dynamic d3 diagrams + scenario-based clinical cases | User |
 | 2026-06-30 | Cases = hybrid (authored branching backbone + optional guardrailed LLM chat) | User |
-| 2026-06-30 | LLM = early throwaway spike to de-risk; book ships without it | User |
+| 2026-07-02 | Two-versions model: MCQ cases stay in chapters; chat-forward simulated-patient encounters live in a new *Integrated cases* chapter (`book/chapters/cases.qmd`) | Shipped |
+| 2026-07-02 | Simulated-patient LLM **built, verified & deployed**; client-composed prompt from case YAML, server-side `patient-proxy/` holds key, streams SSE, per-turn emotion + evaluator rubric | Shipped |
+| 2026-07-02 | LLM provider = **Qwen3.6-35B-A3B via llama.cpp router** (not Claude); guardrails held 32/32 on adversarial battery | Shipped |
 | 2026-06-30 | Authoring in Quarto; "author in data, render with components" principle | User + design |
 | 2026-06-30 | No accounts/backend; local-only IndexedDB progress | Reconciles "no tracking" with stateful SR/quiz/case features |
-| 2026-06-30 | Public static hosting for the book; serverless only for LLM spike | User |
+| 2026-06-30 | Public static hosting for the book; server-side proxy holds the LLM key | User |
+| 2026-07-02 | Deployment base-path **resolved**: `components/src/lib/base.js` `resolveAsset()` derives the site root at runtime, so islands work at a domain root or a GitHub project subpath | Shipped |
+| 2026-07-02 | GitHub Pages CI added (`.github/workflows/publish.yml`): builds islands + renders Quarto + deploys `book/_book` on push | Shipped |
 | 2026-06-30 | v1 = pilot: 1–2 chapters + 1 case (full vertical slice) | User |
-| 2026-06-30 | LLM spike = feasibility & feel demo for a few users; cost/scale deferred | User |
+| 2026-07-02 | Simulated-patient LLM shipped to students (live guardrailed AI patient in CasePlayer); non-technical `CASE-AUTHORING.md` guide + private `patient-chat.brief` authoring field added | Shipped |
 | 2026-06-30 | Component framework = **Svelte 5** (div-mounted islands, Vite-bundled) | High-impact decision |
 | 2026-06-30 | Accessibility target = **WCAG 2.2 AA** | High-impact decision |
 | 2026-06-30 | Cases = **formative**, qualitative debrief (no numeric score shown) | High-impact decision |
@@ -127,3 +139,4 @@ branching encounters authorable without code.
 | 2026-06-30 | Zero-install case-player prototype built & verified (branching, both endings, persistence/resume, graceful LLM fallback) | `prototype/case-player.html` |
 | 2026-06-30 | Real stack stood up & verified: Quarto book + Svelte 5 case-player island mounted in-page, both endings, KaTeX math | Portable Node/Quarto installs; `npm install` required firewall unblock for `node.exe` |
 | 2026-06-30 | Energy-balance chapter built & verified: didactic → **quiz island** → **BMR-synced case** (BMR via MCQ-computed options) | New `quiz` island; `book/quizzes/`, `book/cases/bmr-estimation.case.yml` |
+| 2026-07-02 | BMR case deliberately **not** ported to a simulated-patient encounter (a clinician calculation, not patient-facing) | Design |

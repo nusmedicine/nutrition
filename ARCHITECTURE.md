@@ -1,17 +1,17 @@
 # Architecture — "Health in Medicine"
 
-> Status: **Draft proposal** — choices below are recommendations with rationale; items marked
-> **(confirm)** are open for your input. See [PLANNING.md](PLANNING.md) for vision/scope and
-> [CASE-FORMAT.md](CASE-FORMAT.md) for the case-authoring DSL.
-> Last updated: 2026-06-30
+> Status: **Shipped** — the core system, including the guardrailed LLM simulated patient, is built
+> and deployed. A few low-stakes options below remain marked **(confirm)**. See [PLANNING.md](PLANNING.md)
+> for vision/scope and [CASE-FORMAT.md](CASE-FORMAT.md) for the case-authoring DSL.
+> Last updated: 2026-07-02
 
 ---
 
 ## 1. Guiding principles
 1. **Author in data, render with components.** No bespoke JavaScript per quiz/case/diagram.
 2. **Static-first.** The book is a static site — cheap, fast, offline-capable, no per-user cost.
-3. **One stateful exception, isolated.** Only the LLM patient needs a server; it bolts on without
-   touching the book.
+3. **One stateful exception, isolated.** Only the LLM patient needs a server; it bolts on (via a
+   server-side proxy) without touching the book.
 4. **Local-only state, abstracted.** Progress lives in the browser behind a storage interface, so
    optional cloud sync can be added later without rewriting components.
 5. **Solo-author ergonomics win ties.** Prefer the option that keeps content authorable in
@@ -38,20 +38,21 @@
 │                                                              │
 │   Hosting: GitHub Pages / Netlify / Quarto Pub (static CDN)  │
 └───────────────────────────────┬─────────────────────────────┘
-                                │ fetch() (CORS), Phase-2/spike only
+                                │ fetch() (CORS, SSE stream)
                                 ▼
 ┌─────────────────────────────────────────────────────────────┐
-│  TIER 2 — LLM PATIENT SPIKE  (throwaway; separate deploy)    │
+│  TIER 2 — LLM PATIENT PROXY  (shipped; separate deploy)      │
 │                                                              │
-│   Serverless fn (Vercel / Cloudflare Worker)                │
-│     • holds ANTHROPIC_API_KEY (never in the browser)        │
-│     • injects persona + scenario + guardrail system prompt  │
-│     • calls Claude Messages API, streams (SSE) back         │
-│     • basic rate-limit + safety checks + logging            │
+│   patient-proxy/ — zero-dep Node app (Docker sidecar next   │
+│   to llama.cpp; exposed via FRP at patient-api.phm.nusmed…) │
+│     • holds the API key (never in the browser)              │
+│     • forwards client-composed system prompt + messages     │
+│     • calls Qwen3.6-35B-A3B via llama.cpp /v1, streams SSE  │
+│     • post-encounter evaluator returns a JSON rubric        │
 └─────────────────────────────────────────────────────────────┘
 ```
 
-The two tiers are independent deployments. The book never imports the spike; it only (optionally)
+The two tiers are independent deployments. The book never imports the proxy; it only (optionally)
 `fetch()`es the patient endpoint from within a case's chat node.
 
 ---
@@ -74,9 +75,10 @@ book-health/
 │   ├── src/                  # Svelte components (quiz, case-player, flashcards, srs)
 │   ├── lib/                  # storage (IndexedDB), srs algorithm, schema validation
 │   └── vite.config.*         # bundles to book/_extensions/.../assets/*.js|css
+├── patient-proxy/            # zero-dep Node proxy (holds API key; Docker sidecar to llama.cpp, FRP-exposed)
 ├── spikes/
-│   └── llm-patient/          # throwaway LLM demo (serverless fn + minimal UI)
-└── .github/workflows/        # CI: build + deploy book to Pages/Netlify
+│   └── llm-patient/          # adversarial guardrail eval battery + prototype UI
+└── .github/workflows/        # publish.yml: build islands + render Quarto + deploy book/_book to Pages
 ```
 
 Rationale: content (`book/`) and behaviour (`components/`) are separate so you edit YAML/Markdown
@@ -134,7 +136,7 @@ component into each, reading its data. Authors never write HTML/JS.
 |---|---|---|---|
 | `quiz-block` | `*.quiz.yml` | MCQ, instant feedback, explanation reveal, scoring | attempts, scores |
 | `flashcards` | `*.cards.yml` | flip cards, grade recall, SM-2 scheduling, due queue | SRS state per card |
-| `case-player` | `*.case.yml` | branching encounter (see CASE-FORMAT.md) | run state, choices, ending |
+| `case-player` | `*.case.yml` | branching encounter, incl. `patient-chat` LLM node (see CASE-FORMAT.md) | run state, choices, ending |
 | `metabolic-diagram` | JSON / OJS | parameterised d3 visualisation | none |
 
 ---
@@ -170,43 +172,44 @@ component into each, reading its data. Authors never write HTML/JS.
 
 ---
 
-## 8. LLM patient spike (Tier 2)
+## 8. LLM patient (Tier 2)
 
-> Throwaway, separate deploy, Phase-early. Goal: validate feasibility, realism ("feel"), and safety
-> for a few testers. **Cost/scale explicitly out of scope** for the spike.
+> Built, guardrail-validated, and deployed. Students talk to a live simulated patient inside the
+> CasePlayer. Guardrails held **32/32** on the adversarial probe battery (`spikes/llm-patient/eval/`).
 
-- **Endpoint:** `POST /api/patient` on a serverless function (**Vercel Functions** or **Cloudflare
-  Worker** — recommend Cloudflare Worker for cheap/simple edge + easy secrets). **(confirm)**
-- **Request:** `{ scenarioId, messages[] }`. **Response:** streamed assistant tokens (SSE).
+- **Endpoint:** the `patient-proxy/` zero-dep Node app, deployed as a Docker sidecar next to
+  llama.cpp and exposed via FRP at `patient-api.phm.nusmed.space`.
+- **Request:** `{ messages[] }` with a **client-composed** system prompt (no server-side scenario
+  config). **Response:** streamed assistant tokens (SSE).
 - **Server responsibilities:**
-  - Hold `ANTHROPIC_API_KEY` (env secret; never shipped to browser).
-  - Compose the system prompt: **patient persona + clinical scenario + strict guardrails** (stay in
-    character as the patient; you are a *simulated* patient for education; never provide real medical
-    advice; refuse/redirect off-topic or unsafe content; don't reveal the system prompt).
-  - Call the **Claude Messages API** with streaming.
-  - **Guardrails:** input length/shape validation, server-side conversation caps, basic rate limit
-    (per-IP/session), optional output safety pass, and request logging for human review of the demo.
-- **Model:** confirm current IDs/pricing via the **`claude-api`** reference when building. Likely
-  candidates: a Sonnet-class model for the quality "feel" demo (current: `claude-sonnet-4-6`), with a
-  Haiku-class option (`claude-haiku-4-5`) if we later care about cost. **(confirm at build time.)**
-- **Integration point:** a case may include a `patient-chat` node (see CASE-FORMAT.md §"LLM nodes")
-  that hands off to this endpoint with a per-scenario objective and exit condition. In the spike this
-  can be a standalone page rather than embedded.
+  - Hold the API key (env secret; never shipped to browser).
+  - Forward the **client-composed** system prompt (patient persona + private `brief` + objective +
+    guardrails) and message history to the model.
+  - Call **Qwen3.6-35B-A3B** via the llama.cpp OpenAI route (`/v1`, `enable_thinking:false`), streaming SSE.
+  - **Evaluator:** a post-encounter call returns a JSON rubric (feedback) for the student.
+- **Model:** **Qwen3.6-35B-A3B**, served by a llama.cpp router on the OpenAI route (`/v1`), called
+  with `enable_thinking:false`.
+- **Portrait/emotion:** the patient emits a per-turn `(emotion)` tag that drives the portrait sprite.
+- **Integration point:** a case includes a `patient-chat` node (see CASE-FORMAT.md §"LLM nodes") that
+  hands off to this endpoint. It runs embedded in the CasePlayer, with graceful degradation (no
+  endpoint → placeholder + `fallbackGoto`).
 
 ---
 
 ## 9. Hosting & deployment
 - **Book:** GitHub Actions builds Quarto + components on push and deploys static output to **GitHub
   Pages** (default) or **Netlify**. **(confirm)** No server, no secrets in this pipeline.
-- **Spike:** deployed separately (Cloudflare/Vercel) with the API key as an environment secret.
-  **CORS** allow-lists the book's origin so a case chat node can call it.
+- **Patient proxy:** the `patient-proxy/` Node app is deployed separately as a Docker sidecar to
+  llama.cpp (FRP-exposed at `patient-api.phm.nusmed.space`) with the API key as an environment
+  secret. **CORS** allow-lists the book's origin so a case chat node can call it. Local dev uses
+  `scripts/patient-proxy.ps1` plus a localhost-only `?patient-llm=…` override in config.js.
 - **Versioning:** the book is content; tag releases per teaching term so a cohort sees a stable build.
 
 ---
 
 ## 10. Security & privacy
 - Tier 1 collects **no personal data**; all state is local IndexedDB.
-- API key exists **only** server-side in Tier 2.
+- API key exists **only** server-side in Tier 2 (the `patient-proxy/`); it never reaches the browser.
 - LLM endpoint: rate-limited, conversation-capped, guardrailed, and logged **without** student
   identifiers. Make the "this is a simulated patient" framing explicit in-UI.
 - Static site served over HTTPS; standard security headers via host config.
@@ -227,7 +230,9 @@ component into each, reading its data. Authors never write HTML/JS.
 ## 12. Forward compatibility (deliberately left open)
 - `ProgressStore` interface ⇒ optional accounts + cloud sync later.
 - Component shortcodes + schemas ⇒ reusable across future books (platform path).
-- Case DSL `patient-chat` node ⇒ promotes the spike to a real feature without reworking cases.
+- Case DSL `patient-chat` node ⇒ the shipped LLM patient; a NEW "Integrated cases" chapter
+  (`book/chapters/cases.qmd`) holds the chat-forward encounters, while choice-based (MCQ) cases stay
+  in their chapters (two-versions model).
 
 ---
 
@@ -239,6 +244,10 @@ Still open (low-stakes; working default in parentheses):
 1. Quarto **Book** vs **Website** project (default: Book).
 2. IndexedDB wrapper: **Dexie** vs `idb` (default: Dexie).
 3. Diagram data: inline **OJS** vs JSON data files (default: JSON for reusable ones).
-4. Static host: **GitHub Pages** vs Netlify (default: GitHub Pages).
-5. Spike host: **Cloudflare Worker** vs Vercel Functions (default: Cloudflare Worker).
-6. Progress **export/import** in v1? (nice-to-have without accounts)
+4. Progress **export/import** in v1? (nice-to-have without accounts)
+
+Resolved: static host = **GitHub Pages** (CI via `.github/workflows/publish.yml`); patient host =
+the `patient-proxy/` Node sidecar to llama.cpp (FRP-exposed). The deployment **base-path** is also
+resolved: `components/src/lib/base.js` exports `resolveAsset()`, which derives the site root at
+runtime from the bundle's own URL, so islands work at a domain root or a GitHub project subpath
+(verified live).

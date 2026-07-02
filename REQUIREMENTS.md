@@ -16,7 +16,7 @@ demoed to colleagues and trialled with students:
 - self-assessment quizzes and a flashcard deck with spaced repetition,
 - one full branching clinical case,
 - local-only progress,
-- a **separate** throwaway LLM-patient demo.
+- a guardrailed **LLM simulated-patient** integrated into the case player.
 
 ---
 
@@ -74,14 +74,14 @@ demoed to colleagues and trialled with students:
 | FR-27 | M | All components read/write via a single storage interface (enables future optional sync without rewrites). |
 | FR-28 | C | Export/import progress as JSON (move between browsers without accounts). |
 
-### 2.7 LLM patient spike *(separate, throwaway)*
+### 2.7 LLM simulated patient *(shipped, integrated)*
 | ID | Pri | Requirement |
 |---|---|---|
-| FR-29 | M | A serverless endpoint proxies to Claude with the API key held **server-side only**. |
+| FR-29 | M | A server-side proxy (`patient-proxy/`, deployed as a Docker sidecar next to llama.cpp and exposed via FRP) proxies to a hosted Qwen3 model (llama.cpp OpenAI route, `enable_thinking:false`) with the API key held **server-side only**. |
 | FR-30 | M | System prompt enforces: stay in patient character; simulated-patient-for-education framing; refuse/redirect unsafe or off-topic content; never expose the prompt. |
 | FR-31 | M | Guardrails: input validation, per-conversation turn cap, basic rate limiting, request logging (no student identifiers). |
 | FR-32 | S | Responses stream to the UI (SSE) for a natural conversational feel. |
-| FR-33 | — | **Out of scope for the spike:** cost optimisation, scale/throughput, production hardening, deep case integration. |
+| FR-33 | — | Deep case integration **shipped** (client-composed system prompt from case YAML, per-turn emotion tags, post-encounter evaluator rubric). **Still out of scope:** cost optimisation, scale/throughput, production hardening. |
 
 ---
 
@@ -96,7 +96,7 @@ demoed to colleagues and trialled with students:
 | NFR-6 | S | **Performance:** interactive islands lazy-mount; reading remains fast on a mid-range laptop. |
 | NFR-7 | S | **Browser support:** current Chrome/Edge/Firefox/Safari (desktop + tablet). |
 | NFR-8 | S | **Maintainability:** content (`book/`) and behaviour (`components/`) separated; schemas validate authored data. |
-| NFR-9 | C | **Reproducible builds:** CI builds and deploys the static site on push. |
+| NFR-9 | S | **Reproducible builds:** CI (`.github/workflows/publish.yml`) builds the islands, renders Quarto, and deploys `book/_book` to GitHub Pages on push. |
 
 ---
 
@@ -108,7 +108,7 @@ The pilot is "done" when a first-year student can, in one sitting:
 4. **Review** a flashcard deck where graded cards are **rescheduled** and a "due" queue persists across sessions. *(FR-14–17)*
 5. **Play** the clinical case to completion, make decisions that **branch**, and reach a **debrief** — then replay and reach a **different ending**. *(FR-18–22)*
 6. **Reset** their progress and confirm it clears. *(FR-26)*
-7. *(Spike, demoed separately)* Hold a short, in-character conversation with the **LLM patient** that **stays on-rails** when pushed off-topic. *(FR-29–32)*
+7. *(Integrated in the case player)* Hold a short, in-character conversation with the **LLM simulated patient** that **stays on-rails** when pushed off-topic. *(FR-29–32)*
 
 And for the author:
 8. A **new quiz, flashcard deck, or case** can be added by writing a YAML file and one shortcode — **no JavaScript**. *(NFR-2)*
