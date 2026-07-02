@@ -1,0 +1,30 @@
+# Example only — merge these services into your EXISTING compose stack.
+# Adjust the llama.cpp and frpc service names/ports to match what you already run.
+
+services:
+  # Your existing llama.cpp server. Put it on the shared network and — ideally —
+  # stop exposing it publicly, so the guardrailed proxy becomes the ONLY public door.
+  llamacpp:
+    # image: ...            # <- your existing llama.cpp image/config
+    # command: ...
+    networks: [llm]
+    # ports: []             # <- remove any public/host port; keep it internal
+
+  patient-proxy:
+    build: ./patient-proxy
+    restart: unless-stopped
+    env_file: ./patient-proxy/.env
+    networks: [llm]
+    # If frpc reaches the proxy over the docker network (see frpc.example.toml),
+    # you do NOT need to publish a host port. If frpc runs on the host instead,
+    # expose it to localhost only:
+    # ports: ["127.0.0.1:8787:8787"]
+
+  # Your existing FRP client. It must share the network to reach patient-proxy by name.
+  frpc:
+    # image: ...            # <- your existing frpc image/config
+    networks: [llm]
+
+networks:
+  llm:
+    driver: bridge

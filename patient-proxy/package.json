@@ -1,0 +1,14 @@
+{
+  "name": "patient-proxy",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Guardrailed key-holding proxy for the simulated-patient chat (llama.cpp / Qwen upstream). Zero deps.",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

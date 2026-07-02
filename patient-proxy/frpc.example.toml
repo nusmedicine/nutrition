@@ -1,0 +1,18 @@
+# Add ONE route for the proxy, mirroring however your existing llama.cpp route is set up.
+# TLS/HTTPS is terminated by frps exactly as it already is for llama.phm.nusmed.space.
+
+[[proxies]]
+name = "patient-api"
+type = "http"
+# If frpc shares the docker network with the proxy, use the service name.
+# If frpc runs on the host and the proxy publishes 127.0.0.1:8787, use 127.0.0.1.
+localIP = "patient-proxy"
+localPort = 8787
+customDomains = ["patient-api.phm.nusmed.space"]
+
+# --- Legacy frpc.ini equivalent (older FRP versions) ---
+# [patient-api]
+# type = http
+# local_ip = patient-proxy
+# local_port = 8787
+# custom_domains = patient-api.phm.nusmed.space

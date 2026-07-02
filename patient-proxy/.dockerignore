@@ -1,0 +1,6 @@
+.env
+node_modules
+*.log
+README.md
+docker-compose.example.yml
+frpc.example.toml
