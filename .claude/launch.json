@@ -14,6 +14,12 @@
       "port": 8780
     },
     {
+      "name": "book-src",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8790", "--directory", "book"],
+      "port": 8790
+    },
+    {
       "name": "spike",
       "runtimeExecutable": "C:/Users/Admin/AppData/Local/node/current/node.exe",
       "runtimeArgs": [

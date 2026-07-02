@@ -79,6 +79,19 @@ nodes:
     objective: "Agree one realistic dietary swap and check her confidence."
     turnLimit: 8
     exitWhen: "patient agrees to a specific, safe change"
+    # Patient's opening line (she speaks first).
+    opener: "Doctor, is it very serious?"
+    # Private in-character briefing for the AI patient — revealed only when asked.
+    brief: |
+      You feel completely well and have no symptoms, but a routine screening blood
+      test found your fasting sugar is a bit high; the nurse mentioned the word
+      "pre-diabetes" and you are worried but not sure what it means.
+      Your daily habits (share these gradually, only when the student asks — never
+      all at once): kopi with condensed milk about three times a day; char kway teow
+      bought from the hawker for lunch (you don't cook it yourself); rice with dinner;
+      sweet drinks with meals; and very little exercise because you are busy with
+      school. You love your sweet kopi and find kopi-o kosong too bitter, so cutting
+      it out feels hard.
     goto: standard-counselling
     fallbackGoto: standard-counselling
 

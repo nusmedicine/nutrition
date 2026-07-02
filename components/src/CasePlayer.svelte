@@ -4,6 +4,8 @@
   import * as E from './lib/engine.js';
   import { md, mdInline } from './lib/md.js';
   import { load, save, clear } from './lib/store.js';
+  import { patientConfig } from './lib/config.js';
+  import { patientSystemPrompt, evaluatorMessages, callPatient, callEvaluator } from './lib/patient.js';
 
   let { src } = $props();
 
@@ -14,6 +16,13 @@
   let titleEl = $state(null);
   let lastId;
 
+  // Simulated-patient LLM: null when the book has no endpoint configured, in
+  // which case patient-chat degrades to the placeholder + fallbackGoto.
+  const llm = patientConfig();
+  // Ephemeral chat state (NOT persisted): { msgs, turns, phase, feedback, busy, input, error }
+  let chat = $state(null);
+  let chatNodeId; // guards one-time init per patient-chat node
+
   let n = $derived(state && def ? byId[state.currentId] : null);
   let total = $derived(def ? E.countEndings(def) : 0);
 
@@ -23,6 +32,11 @@
   let hasSprite = $derived(!!(def && def.persona && def.persona.sprite));
   let emotion = $derived.by(() => {
     if (!n) return 'neutral';
+    // during a live chat: anxious while talking, resolves on the outcome
+    if (n.type === 'patient-chat' && chat) {
+      if (chat.phase === 'feedback') return chat.feedback && chat.feedback.objectiveMet ? 'relieved' : 'concerned';
+      return 'concerned';
+    }
     // while an answer's feedback is showing, the patient reacts to that choice
     if (n.type === 'mcq' && state && state.pending) {
       const opt = n.options.find((o) => o.id === state.pending);
@@ -65,6 +79,76 @@
   function contChat() { E.continuePatientChat(state, def, byId); persist(); }
   function restart() { E.restart(state, def, byId); persist(); }
   function reset() { E.reset(state, def, byId); persist(); }
+
+  // --- Live patient-chat (only when an LLM endpoint is configured) ---
+  // Init/tear down the ephemeral chat as we enter/leave a patient-chat node.
+  $effect(() => {
+    const id = state && state.currentId;
+    const node = id ? byId[id] : null;
+    if (node && node.type === 'patient-chat' && llm) {
+      if (chatNodeId !== id) { chatNodeId = id; startChat(node); }
+    } else if (chatNodeId != null) {
+      chatNodeId = null;
+      chat = null;
+    }
+  });
+
+  function startChat(node) {
+    chat = { msgs: [], turns: 0, phase: 'chat', feedback: null, busy: false, input: '', error: null };
+    if (node.opener) chat.msgs.push({ role: 'assistant', content: node.opener });
+  }
+
+  function chatKey(e) {
+    if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); chatSend(); }
+  }
+
+  async function chatSend() {
+    if (!chat || chat.busy || chat.phase !== 'chat') return;
+    const text = chat.input.trim();
+    if (!text) return;
+    const node = n;
+    const limit = node.turnLimit || 8;
+    chat.input = '';
+    chat.error = null;
+    chat.msgs.push({ role: 'user', content: text });
+    chat.turns += 1;
+    chat.busy = true;
+    try {
+      const messages = [
+        { role: 'system', content: patientSystemPrompt(def.persona, node) },
+        ...chat.msgs.map(({ role, content }) => ({ role, content })),
+      ];
+      const reply = await callPatient(llm, messages);
+      chat.msgs.push({ role: 'assistant', content: reply });
+    } catch (e) {
+      chat.error = String((e && e.message) || e);
+    } finally {
+      chat.busy = false;
+      if (chat.turns >= limit && chat.phase === 'chat') chatEnd();
+    }
+  }
+
+  async function chatEnd() {
+    if (!chat || chat.phase !== 'chat') return;
+    chat.phase = 'evaluating';
+    chat.busy = true;
+    chat.error = null;
+    try {
+      chat.feedback = await callEvaluator(llm, evaluatorMessages(def, n, chat.msgs));
+    } catch (e) {
+      chat.error = String((e && e.message) || e);
+      chat.feedback = null;
+    } finally {
+      chat.busy = false;
+      chat.phase = 'feedback';
+    }
+  }
+
+  function chatContinue() {
+    const met = !!(chat && chat.feedback && chat.feedback.objectiveMet);
+    E.finishPatientChat(state, def, byId, met);
+    persist();
+  }
 </script>
 
 {#if error}
@@ -121,13 +205,65 @@
         {/if}
 
       {:else if n.type === 'patient-chat'}
-        <h3 class="nt" tabindex="-1" bind:this={titleEl}>Optional: talk to the patient</h3>
-        <div class="note">
-          <strong>AI patient roleplay</strong> — here the student would converse with a guardrailed AI
-          playing {def.persona.name}. Objective: <em>{n.objective}</em>.
-          <br>Disabled in this build, so the case continues seamlessly (graceful <code>fallbackGoto</code>).
-        </div>
-        <div class="actions"><button type="button" class="btn" onclick={contChat}>Continue →</button></div>
+        {#if !llm}
+          <h3 class="nt" tabindex="-1" bind:this={titleEl}>Optional: talk to the patient</h3>
+          <div class="note">
+            <strong>AI patient roleplay</strong> — here you would converse with a guardrailed AI
+            playing {def.persona.name}. Objective: <em>{n.objective}</em>.
+            <br>Not enabled in this build, so the case continues seamlessly (graceful <code>fallbackGoto</code>).
+          </div>
+          <div class="actions"><button type="button" class="btn" onclick={contChat}>Continue →</button></div>
+        {:else if chat}
+          <h3 class="nt" tabindex="-1" bind:this={titleEl}>Talk with {def.persona.name}</h3>
+          <p class="chat-obj"><strong>Your goal:</strong> {n.objective}
+            <span class="framing">· simulated patient, not medical advice</span></p>
+
+          <div class="chatlog" role="log" aria-live="polite" aria-label="Conversation with the patient">
+            {#each chat.msgs as m}
+              <div class="cmsg {m.role === 'assistant' ? 'from-patient' : 'from-student'}">
+                <span class="cwho">{m.role === 'assistant' ? def.persona.name : 'You'}</span>
+                <span class="ctext">{m.content}</span>
+              </div>
+            {/each}
+            {#if chat.busy && chat.phase === 'chat'}<div class="cmsg from-patient typing" aria-hidden="true">…</div>{/if}
+            {#if chat.error}<div class="cmsg cerr">⚠ {chat.error}</div>{/if}
+          </div>
+
+          {#if chat.phase === 'chat'}
+            <div class="chatinput">
+              <textarea rows="2" bind:value={chat.input} disabled={chat.busy}
+                onkeydown={chatKey} aria-label="Your message to {def.persona.name}"
+                placeholder="What do you say to {def.persona.name}?"></textarea>
+              <button type="button" class="btn" onclick={chatSend} disabled={chat.busy || !chat.input.trim()}>Send</button>
+            </div>
+            <div class="chatmeta">
+              <span class="turns">Turn {chat.turns} / {n.turnLimit || 8}</span>
+              <button type="button" class="btn secondary" onclick={chatEnd}
+                disabled={chat.busy || chat.msgs.length < 2}>End conversation →</button>
+            </div>
+          {:else if chat.phase === 'evaluating'}
+            <div class="note" role="status">Reviewing your conversation…</div>
+          {:else if chat.phase === 'feedback'}
+            <div class="debrief chat-feedback">
+              {#if chat.feedback}
+                <span class="outcome {chat.feedback.objectiveMet ? 'success' : 'partial'}">
+                  {chat.feedback.objectiveMet ? 'Objective met' : 'Objective not fully met'}</span>
+                {#if chat.feedback.wentWell && chat.feedback.wentWell.length}
+                  <h4>What went well</h4>
+                  <ul class="keypoints">{#each chat.feedback.wentWell as x}<li>{x}</li>{/each}</ul>
+                {/if}
+                {#if chat.feedback.toImprove && chat.feedback.toImprove.length}
+                  <h4>To improve</h4>
+                  <ul class="keypoints">{#each chat.feedback.toImprove as x}<li>{x}</li>{/each}</ul>
+                {/if}
+                {#if chat.feedback.overall}<p class="overall">{chat.feedback.overall}</p>{/if}
+              {:else}
+                <p class="muted">The conversation is complete (structured feedback was unavailable).</p>
+              {/if}
+            </div>
+            <div class="actions"><button type="button" class="btn" onclick={chatContinue}>Continue →</button></div>
+          {/if}
+        {/if}
 
       {:else if n.type === 'end'}
         <span class="outcome {n.outcome}">Outcome: {n.outcome}</span>
@@ -222,5 +358,25 @@
   .cp .path { font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace; font-size:.8rem; word-break:break-word; }
   .cp :focus-visible { outline:3px solid var(--focus); outline-offset:2px; border-radius:6px; }
   .cp .err { color:#9b1c1c; }
+
+  /* --- live patient chat --- */
+  .cp .chat-obj { font-size:.9rem; color:var(--muted); margin:0 0 10px; }
+  .cp .chat-obj .framing { font-style:italic; }
+  .cp .chatlog { display:flex; flex-direction:column; gap:8px; max-height:340px; overflow-y:auto; padding:6px 2px; margin-bottom:10px; }
+  .cp .cmsg { max-width:85%; padding:9px 12px; border-radius:12px; }
+  .cp .cmsg .cwho { display:block; font-size:.7rem; color:var(--muted); margin-bottom:2px; }
+  .cp .cmsg .ctext { white-space:pre-wrap; }
+  .cp .cmsg.from-patient { align-self:flex-start; background:#eef5f2; border:1px solid var(--line); }
+  .cp .cmsg.from-student { align-self:flex-end; background:var(--brand); color:#fff; border:1px solid var(--brand-ink); }
+  .cp .cmsg.from-student .cwho { color:#dbeee8; }
+  .cp .cmsg.typing { color:var(--muted); letter-spacing:2px; }
+  .cp .cmsg.cerr { align-self:center; background:var(--warn-bg); color:var(--warn-ink); border:1px solid var(--warn-line); font-size:.85rem; }
+  .cp .chatinput { display:flex; gap:8px; align-items:flex-end; }
+  .cp .chatinput textarea { flex:1; resize:vertical; min-height:44px; font:inherit; padding:9px 11px; border:1px solid var(--line); border-radius:10px; color:var(--ink); background:#fff; }
+  .cp .chatmeta { display:flex; align-items:center; justify-content:space-between; gap:10px; margin-top:10px; }
+  .cp .chatmeta .turns { font-size:.82rem; color:var(--muted); }
+  .cp .chat-feedback { margin-top:6px; }
+  .cp .chat-feedback .overall { margin-top:10px; font-style:italic; }
+  .cp .muted { color:var(--muted); }
   @media (prefers-reduced-motion: reduce) { .cp * { transition:none !important; } }
 </style>

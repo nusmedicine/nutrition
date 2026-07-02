@@ -73,9 +73,16 @@ export function continueInfo(state, def, byId) {
   enter(state, def, byId, byId[state.currentId].next);
 }
 
-// Prototype/no-LLM build: patient-chat degrades straight to fallbackGoto.
+// No-LLM (or disabled) build: patient-chat degrades straight to fallbackGoto.
 export function continuePatientChat(state, def, byId) {
   enter(state, def, byId, byId[state.currentId].fallbackGoto);
+}
+
+// After a live LLM encounter: route by whether the objective was met.
+// Falls back to fallbackGoto when not met (or when goto is absent).
+export function finishPatientChat(state, def, byId, objectiveMet) {
+  const n = byId[state.currentId];
+  enter(state, def, byId, objectiveMet ? (n.goto || n.fallbackGoto) : n.fallbackGoto);
 }
 
 export function restart(state, def, byId) {
