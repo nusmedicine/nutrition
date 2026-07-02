@@ -1,0 +1,20 @@
+# Integrated cases {#sec-cases}
+
+These are **simulated-patient encounters**. Unlike the choice-based cases in the earlier
+chapters — which drill one idea at a time through set choices — here you **talk with the
+patient in your own words**, then get feedback on your counselling. They pull together the
+nutrition science, communication, and clinical reasoning built up across the book.
+
+::: {.callout-note appearance="simple"}
+The patient is an **AI simulation for practice — not a real person, and not medical
+advice**. Treat it as a natural consultation: ask, listen, and agree a realistic plan.
+If the simulated patient is not enabled in your build, the encounter simply notes this and
+continues.
+:::
+
+## Mdm Tan — newly detected pre-diabetes
+
+A 52-year-old teacher whose screening blood test came back with a raised fasting sugar.
+Take a brief diet history, agree **one** realistic change with her, and check her confidence.
+
+<div data-island="case" data-src="/cases/sim-prediabetes-mdm-tan.case.yml"></div>

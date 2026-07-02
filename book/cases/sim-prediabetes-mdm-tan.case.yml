@@ -1,0 +1,80 @@
+id: sim-prediabetes-mdm-tan
+title: "Simulated patient — Mdm Tan (pre-diabetes)"
+# Chat-forward "LLM version" of the pre-diabetes scenario for the Integrated cases
+# chapter. The choice-based version lives in prediabetes-counseling.case.yml.
+objectives:
+  - "Take a focused diet history before advising."
+  - "Agree one realistic, patient-centred dietary change."
+  - "Use motivational, non-judgemental language and check her confidence."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, metabolism, diabetes, counselling, simulated-patient]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 52
+  sex: female
+  occupation: "primary-school teacher"
+  presentation: "A screening test found her fasting glucose is a bit high (pre-diabetes); she feels well but is worried."
+  voice: "Polite, mildly anxious, time-pressed; enjoys kopi and char kway teow."
+
+nodes:
+  - id: intro
+    type: info
+    title: "Meet Mdm Tan"
+    body: |
+      Mdm Tan, 52, comes in after a screening test showed a **raised fasting sugar**
+      (pre-diabetes). She feels well but is worried. In this encounter you **talk with her
+      directly**: take a brief history, agree one realistic change, and check her confidence.
+      Speak to her as you would a real patient — ask, listen, then agree a plan together.
+    next: talk-to-mdm-tan
+
+  - id: talk-to-mdm-tan
+    type: patient-chat
+    scenarioId: prediabetes-mdm-tan
+    objective: "Take a brief diet history, agree one realistic dietary swap, and check her confidence."
+    turnLimit: 8
+    exitWhen: "patient agrees to a specific, safe change"
+    opener: "Doctor, is it very serious?"
+    # Private in-character briefing for the AI patient — revealed only when asked.
+    brief: |
+      You feel completely well and have no symptoms, but a routine screening blood
+      test found your fasting sugar is a bit high; the nurse mentioned the word
+      "pre-diabetes" and you are worried but not sure what it means.
+      Your daily habits — mention just one or two at a time, only as the student asks,
+      never the whole list at once: kopi with condensed milk about three times a day;
+      char kway teow bought from the hawker for lunch (you don't cook it yourself);
+      rice with dinner; sweet drinks with meals; and little exercise because you are
+      busy with school. You love your sweet kopi and find kopi-o kosong too bitter,
+      so cutting it out feels hard.
+    goto: end-good          # objective met (per the feedback)
+    fallbackGoto: end-partial   # objective not met, or LLM disabled
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Patient-centred and realistic"
+    body: |
+      You took a brief history before advising and agreed one sustainable change with
+      Mdm Tan — and checked how confident she felt to do it.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Assess intake before prescribing."
+        - "One specific, achievable change beats a forbidden-foods list."
+        - "Check confidence — readiness predicts follow-through."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "A reasonable start"
+    body: |
+      You reached the end of the conversation. Look back at the feedback above, then try
+      replaying to take a fuller history or to agree a more concrete, realistic change.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Lead with a brief history before advising."
+        - "Co-create one realistic change, then check her confidence."

@@ -78,6 +78,22 @@ The book reads one config value and posts to `…/api/patient` and `…/api/eval
 ```
 No config (or `enabled:false`) → the CasePlayer keeps today's placeholder and takes `fallbackGoto`.
 
+### Local dev loop (test the book against a local proxy)
+The book ships with the meta **disabled**. To test the chat locally without editing
+config or deploying anything — while the server Docker is still being set up:
+1. Run this proxy locally, pointed at your endpoint:
+   ```bash
+   cd patient-proxy
+   QWEN_BASE_URL=https://llama.phm.nusmed.space/v1 QWEN_API_KEY=sk-... \
+     QWEN_MODEL=Qwen3.6-35B-A3B-BF16 PORT=8787 node server.mjs
+   ```
+2. Build islands + serve/render the book (e.g. `npm --prefix components run build`, then
+   `.\scripts\preview.ps1`).
+3. Open any Cases page with the **localhost dev override** appended:
+   `…/cases.html?patient-llm=http://localhost:8787`
+   The CasePlayer honours `?patient-llm=` (and `localStorage['patient-llm-dev']`) **only for
+   localhost URLs**, so a deployed book can never be repointed at another endpoint this way.
+
 ## Notes
 - **Non-streaming** for now (matches the spike; latency ~0.5–0.8s). SSE streaming is a later add.
 - In-memory rate limiter is per-process — fine for one container/pilot; use Redis if you scale out.

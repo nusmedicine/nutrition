@@ -22,6 +22,9 @@ book:
         - chapters/energy-balance.qmd
         - chapters/macronutrients.qmd
         - chapters/04-micronutrients-hydration.qmd
+    - part: "Integrated cases"
+      chapters:
+        - chapters/cases.qmd
 
 bibliography: references.bib
 
@@ -37,6 +40,11 @@ format:
     include-in-header:
       text: |
         <link rel="stylesheet" href="/assets/components.css">
+        <!-- Simulated-patient endpoint. Disabled by default (patient-chat degrades to
+             a placeholder + fallbackGoto). For production, set endpoint to the proxy
+             (e.g. https://patient-api.phm.nusmed.space) and enabled:true. For local dev,
+             append ?patient-llm=http://localhost:8787 to any page (localhost-only). -->
+        <meta name="patient-llm" content='{"enabled":false}'>
     include-after-body:
       text: |
         <script type="module" src="/assets/components.js"></script>
