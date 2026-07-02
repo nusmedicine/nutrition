@@ -7,6 +7,7 @@
   import { onMount, onDestroy, tick } from 'svelte';
   import yaml from 'js-yaml';
   import { load, save } from './lib/store.js';
+  import { resolveAsset } from './lib/base.js';
 
   let Mol3D = null; // 3Dmol, lazy-loaded
 
@@ -48,7 +49,7 @@
 
   async function loadSvg() {
     if (!molecule || !molecule.svg) { svgMarkup = ''; return; }
-    try { svgMarkup = await fetchText(molecule.svg, svgCache); }
+    try { svgMarkup = await fetchText(resolveAsset(molecule.svg), svgCache); }
     catch (e) { svgMarkup = ''; }
   }
 
@@ -57,7 +58,7 @@
   async function showMolecule() {
     if (!viewer || !molecule) return;
     try {
-      const sdf = await fetchText(molecule.sdf, sdfCache);
+      const sdf = await fetchText(resolveAsset(molecule.sdf), sdfCache);
       viewer.removeAllModels();
       viewer.addModel(sdf, 'sdf');
       applyStyle();

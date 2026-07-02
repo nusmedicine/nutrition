@@ -44,7 +44,7 @@ format:
              a placeholder + fallbackGoto). For production, set endpoint to the proxy
              (e.g. https://patient-api.phm.nusmed.space) and enabled:true. For local dev,
              append ?patient-llm=http://localhost:8787 to any page (localhost-only). -->
-        <meta name="patient-llm" content='{"enabled":false}'>
+        <meta name="patient-llm" content='{"endpoint":"https://patient-api.phm.nusmed.space","enabled":true}'>
     include-after-body:
       text: |
         <script type="module" src="/assets/components.js"></script>

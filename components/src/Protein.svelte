@@ -5,6 +5,7 @@
   import { onMount, onDestroy, tick } from 'svelte';
   import yaml from 'js-yaml';
   import { load, save } from './lib/store.js';
+  import { resolveAsset } from './lib/base.js';
 
   let Mol3D = null; // 3Dmol, lazy-loaded
 
@@ -57,7 +58,7 @@
   async function showProtein() {
     if (!viewer || !protein) return;
     try {
-      const pdb = await fetchText(protein.pdb, pdbCache);
+      const pdb = await fetchText(resolveAsset(protein.pdb), pdbCache);
       viewer.removeAllModels();
       viewer.addModel(pdb, 'pdb');
       applyColor();

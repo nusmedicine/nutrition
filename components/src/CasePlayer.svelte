@@ -6,6 +6,7 @@
   import { load, save, clear } from './lib/store.js';
   import { patientConfig } from './lib/config.js';
   import { patientSystemPrompt, evaluatorMessages, callPatient, callEvaluator, parsePatientReply } from './lib/patient.js';
+  import { resolveAsset } from './lib/base.js';
 
   let { src } = $props();
 
@@ -45,7 +46,7 @@
     if (n.type === 'end') return n.outcome === 'success' ? 'relieved' : 'concerned';
     return emo(n.emotion);
   });
-  let spriteUrl = $derived(hasSprite ? `${def.persona.sprite}/${emotion}.svg` : '');
+  let spriteUrl = $derived(hasSprite ? resolveAsset(`${def.persona.sprite}/${emotion}.svg`) : '');
   let spriteAlt = $derived(def && def.persona ? `${def.persona.name}, looking ${emotion}.` : '');
 
   onMount(async () => {
