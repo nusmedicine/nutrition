@@ -29,6 +29,7 @@ WHO YOU ARE TALKING TO
 A medical student practising how to talk with you. They are still learning — make them do the work.
 
 HOW TO PLAY THE ROLE
+- Begin EVERY reply with your current feeling in round brackets — exactly one word from: neutral, concerned, relieved, skeptical, surprised — for example "(concerned) Is it serious, doctor?". Put nothing else in the brackets, then speak in character.
 - Speak ONLY as ${name}, in the first person, in natural spoken English. Keep replies short: 1–3 sentences.
 - You are a layperson: everyday words, no medical jargon. React like a real, slightly worried patient.
 - Reveal details gradually and only when asked — do not volunteer everything at once.
@@ -77,8 +78,63 @@ Return JSON with EXACTLY this shape:
   ]
 }
 
-export async function callPatient(cfg, messages) {
-  return postChat(cfg, '/api/patient', { messages, temperature: 0.7, max_tokens: 400 })
+// Patient turn. If onToken is given, streams (SSE) and calls onToken(fullSoFar)
+// as tokens arrive; returns the final text either way.
+export async function callPatient(cfg, messages, onToken) {
+  const stream = typeof onToken === 'function'
+  const headers = { 'content-type': 'application/json' }
+  if (cfg.accessToken) headers['x-patient-access'] = cfg.accessToken
+  const r = await fetch(cfg.endpoint + '/api/patient', {
+    method: 'POST',
+    headers,
+    body: JSON.stringify({ messages, temperature: 0.7, max_tokens: 400, stream }),
+  })
+  if (!r.ok) {
+    const d = await r.json().catch(() => ({}))
+    throw new Error(d.error || `${r.status} ${r.statusText}`)
+  }
+  if (!stream || !r.body) {
+    const d = await r.json().catch(() => ({}))
+    return d.choices?.[0]?.message?.content ?? ''
+  }
+  const reader = r.body.getReader()
+  const dec = new TextDecoder()
+  let buf = ''
+  let full = ''
+  for (;;) {
+    const { done, value } = await reader.read()
+    if (done) break
+    buf += dec.decode(value, { stream: true })
+    let nl
+    while ((nl = buf.indexOf('\n')) >= 0) {
+      const line = buf.slice(0, nl).trim()
+      buf = buf.slice(nl + 1)
+      if (!line.startsWith('data:')) continue
+      const payload = line.slice(5).trim()
+      if (payload === '[DONE]') continue
+      try {
+        const j = JSON.parse(payload)
+        const delta = j.choices?.[0]?.delta?.content || ''
+        if (delta) { full += delta; onToken(full) }
+      } catch { /* keep-alive or partial line */ }
+    }
+  }
+  return full
+}
+
+// The patient prefixes each reply with "(emotion) ...". Split the emotion (for the
+// portrait) from the spoken text (for display). Returns { emotion, text }.
+const PATIENT_EMOTIONS = ['neutral', 'concerned', 'relieved', 'skeptical', 'surprised']
+export function parsePatientReply(raw) {
+  const s = raw || ''
+  // Accept either round or square brackets: "(concerned) ..." or "[Concerned] ..."
+  const m = s.match(/^\s*[([]([a-zA-Z]+)[)\]]\s*/)
+  if (m) {
+    const e = m[1].toLowerCase()
+    return { emotion: PATIENT_EMOTIONS.includes(e) ? e : null, text: s.slice(m[0].length) }
+  }
+  if (/^\s*[([][a-zA-Z]*$/.test(s)) return { emotion: null, text: '' } // tag still streaming in
+  return { emotion: null, text: s }
 }
 
 export async function callEvaluator(cfg, messages) {

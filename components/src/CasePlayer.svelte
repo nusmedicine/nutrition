@@ -5,7 +5,7 @@
   import { md, mdInline } from './lib/md.js';
   import { load, save, clear } from './lib/store.js';
   import { patientConfig } from './lib/config.js';
-  import { patientSystemPrompt, evaluatorMessages, callPatient, callEvaluator } from './lib/patient.js';
+  import { patientSystemPrompt, evaluatorMessages, callPatient, callEvaluator, parsePatientReply } from './lib/patient.js';
 
   let { src } = $props();
 
@@ -35,7 +35,7 @@
     // during a live chat: anxious while talking, resolves on the outcome
     if (n.type === 'patient-chat' && chat) {
       if (chat.phase === 'feedback') return chat.feedback && chat.feedback.objectiveMet ? 'relieved' : 'concerned';
-      return 'concerned';
+      return emo(chat.emotion);
     }
     // while an answer's feedback is showing, the patient reacts to that choice
     if (n.type === 'mcq' && state && state.pending) {
@@ -94,7 +94,7 @@
   });
 
   function startChat(node) {
-    chat = { msgs: [], turns: 0, phase: 'chat', feedback: null, busy: false, input: '', error: null };
+    chat = { msgs: [], turns: 0, phase: 'chat', feedback: null, busy: false, input: '', error: null, emotion: 'concerned' };
     if (node.opener) chat.msgs.push({ role: 'assistant', content: node.opener });
   }
 
@@ -113,13 +113,23 @@
     chat.msgs.push({ role: 'user', content: text });
     chat.turns += 1;
     chat.busy = true;
+    const messages = [
+      { role: 'system', content: patientSystemPrompt(def.persona, node) },
+      ...chat.msgs.map(({ role, content }) => ({ role, content })),
+    ];
+    let aiIdx = -1;
     try {
-      const messages = [
-        { role: 'system', content: patientSystemPrompt(def.persona, node) },
-        ...chat.msgs.map(({ role, content }) => ({ role, content })),
-      ];
-      const reply = await callPatient(llm, messages);
-      chat.msgs.push({ role: 'assistant', content: reply });
+      const full = await callPatient(llm, messages, (partial) => {
+        const parsed = parsePatientReply(partial);
+        if (parsed.emotion) chat.emotion = parsed.emotion;
+        if (aiIdx < 0) { aiIdx = chat.msgs.length; chat.msgs.push({ role: 'assistant', content: parsed.text }); }
+        else chat.msgs[aiIdx].content = parsed.text;
+      });
+      if (aiIdx < 0) { // non-streaming fallback (endpoint didn't stream)
+        const parsed = parsePatientReply(full);
+        if (parsed.emotion) chat.emotion = parsed.emotion;
+        chat.msgs.push({ role: 'assistant', content: parsed.text });
+      }
     } catch (e) {
       chat.error = String((e && e.message) || e);
     } finally {
@@ -225,7 +235,7 @@
                 <span class="ctext">{m.content}</span>
               </div>
             {/each}
-            {#if chat.busy && chat.phase === 'chat'}<div class="cmsg from-patient typing" aria-hidden="true">…</div>{/if}
+            {#if chat.busy && chat.phase === 'chat' && chat.msgs[chat.msgs.length - 1]?.role === 'user'}<div class="cmsg from-patient typing" aria-hidden="true">…</div>{/if}
             {#if chat.error}<div class="cmsg cerr">⚠ {chat.error}</div>{/if}
           </div>
 

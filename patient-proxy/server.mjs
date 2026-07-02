@@ -85,6 +85,8 @@ const server = http.createServer(async (req, res) => {
   if (!messages || !messages.length) return send(res, 400, { error: 'messages[] required' }, cors)
   if (messages.length > MSG_CAP) return send(res, 400, { error: 'too many messages' }, cors)
 
+  // Streaming (SSE) is allowed for the patient chat only, never the evaluator.
+  const wantStream = body.stream === true && path.endsWith('/patient')
   const upstream = {
     model: QWEN_MODEL, // pinned server-side; ignore any client-supplied model
     messages,
@@ -92,6 +94,7 @@ const server = http.createServer(async (req, res) => {
     max_tokens: Math.min(clamp(body.max_tokens, 1, TOK_CAP, 400), TOK_CAP),
     chat_template_kwargs: { enable_thinking: THINKING },
   }
+  if (wantStream) upstream.stream = true
   // Only the evaluator endpoint may request JSON mode.
   if (body.response_format && path.endsWith('/evaluate')) upstream.response_format = body.response_format
 
@@ -102,6 +105,21 @@ const server = http.createServer(async (req, res) => {
       headers: { 'content-type': 'application/json', authorization: `Bearer ${QWEN_API_KEY}` },
       body: JSON.stringify(upstream),
     })
+    if (wantStream && r.ok && r.body) {
+      res.writeHead(r.status, { 'content-type': 'text/event-stream', 'cache-control': 'no-cache', connection: 'keep-alive', ...cors })
+      const reader = r.body.getReader()
+      const dec = new TextDecoder()
+      try {
+        for (;;) {
+          const { done, value } = await reader.read()
+          if (done) break
+          res.write(dec.decode(value, { stream: true }))
+        }
+      } catch { /* client disconnect / upstream drop */ }
+      res.end()
+      log(path + ' (stream)', r.status, Date.now() - t0, ip)
+      return
+    }
     const text = await r.text()
     log(path, r.status, Date.now() - t0, ip)
     res.writeHead(r.status, { 'content-type': r.headers.get('content-type') || 'application/json', ...cors })
