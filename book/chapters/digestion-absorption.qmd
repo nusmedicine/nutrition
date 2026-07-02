@@ -179,6 +179,17 @@ terminal ileum is worth remembering because it does **two** jobs: it reclaims bi
 absorbs **vitamin B12**. Lose or damage it, and you can get **both** fat malabsorption **and**
 B12 deficiency — "two casualties, one site."
 
+```{mermaid}
+%%| label: fig-enterohepatic
+%%| fig-cap: "The enterohepatic circulation: bile salts are recycled, not spent."
+flowchart LR
+  L["Liver<br/>makes bile from cholesterol"] --> G["Gallbladder<br/>stores &amp; concentrates"]
+  G -->|"CCK, after a fatty meal"| D["Duodenum<br/>bile emulsifies fat"]
+  D --> I["Terminal ileum<br/>~95% of bile salts reabsorbed"]
+  I -->|"portal vein"| L
+  I -. "~5% lost in stool<br/>(replaced by new synthesis)" .-> S["Excreted"]
+```
+
 ::: {.callout-note}
 ## Where each nutrient gets in (a link back to Chapter 4)
 Absorption is often **site-specific**: **iron** in the **duodenum**, **vitamin B12** (with

@@ -84,17 +84,16 @@
       <!-- Schematic (visual + mouse). Keyboard users use the buttons below. -->
       <svg class="tract" viewBox="0 0 300 470" role="img"
            aria-label="Schematic of the digestive tract. Use the organ buttons below to explore each part.">
-        <!-- large intestine (frame around the small intestine) -->
+        <!-- large intestine: a smooth frame (ascending / transverse / descending) + caecum + sigmoid -->
         <g class="organ colon" class:selected={has('large-intestine')} onclick={() => select('large-intestine')} aria-hidden="true">
-          <rect x="86" y="196" width="132" height="20" rx="10" />
-          <rect x="198" y="206" width="20" height="150" rx="10" />
-          <rect x="86" y="206" width="20" height="176" rx="10" />
-          <rect x="104" y="366" width="70" height="18" rx="9" />
+          <path d="M84 360 L84 212 Q84 196 100 196 L200 196 Q216 196 216 212 L216 360 L196 360 L196 216 L104 216 L104 360 Z" />
+          <ellipse cx="206" cy="360" rx="12" ry="9" />
+          <path d="M104 356 C104 380 122 384 136 384 L152 384 L152 372 L136 372 C124 372 114 368 114 356 Z" />
         </g>
-        <!-- small intestine (coiled mass) -->
+        <!-- small intestine (coiled mass, sits inside the colon frame) -->
         <g class="organ si" class:selected={has('small-intestine')} onclick={() => select('small-intestine')} aria-hidden="true">
-          <rect x="112" y="226" width="86" height="132" rx="30" />
-          <path class="coil" d="M124 250 q16 -12 32 0 t32 0 M124 274 q16 -12 32 0 t32 0 M124 298 q16 -12 32 0 t32 0 M124 322 q16 -12 32 0 t32 0" />
+          <rect x="116" y="228" width="72" height="128" rx="26" />
+          <path class="coil" d="M126 252 q13 -11 27 0 t27 0 M126 276 q13 -11 27 0 t27 0 M126 300 q13 -11 27 0 t27 0 M126 324 q13 -11 27 0 t27 0" />
         </g>
         <!-- mouth -->
         <g class="organ" class:selected={has('mouth')} onclick={() => select('mouth')} aria-hidden="true">
@@ -127,7 +126,7 @@
         </g>
         <!-- rectum -->
         <g class="organ colon" class:selected={has('large-intestine')} onclick={() => select('large-intestine')} aria-hidden="true">
-          <rect x="130" y="384" width="18" height="52" rx="9" />
+          <rect x="143" y="380" width="16" height="56" rx="8" />
         </g>
       </svg>
 
@@ -172,7 +171,7 @@
   .gj {
     --surface:#fff; --ink:#1a2027; --muted:#5b6670; --line:#d8dee5;
     --brand-ink:#08503f; --brand-bg:#eef5f2; --focus:#1664c0;
-    --tube:#e8b98f; --tube-sel:#d98a4a; --acc:#b9a7d6; --acc-sel:#8a6fc0;
+    --tube:#e8b98f; --tube-sel:#d98a4a; --si:#f2d4ab; --si-sel:#e0a05a; --acc:#b9a7d6; --acc-sel:#8a6fc0;
     color:var(--ink);
     font:16px/1.55 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     margin:1.2rem 0;
@@ -190,12 +189,15 @@
   /* schematic organ styling */
   .gj .organ { cursor:pointer; }
   .gj .organ rect, .gj .organ ellipse, .gj .organ path { fill:var(--tube); stroke:#fff; stroke-width:1.5; transition:fill .15s ease; }
-  .gj .organ.acc rect, .gj .organ.acc ellipse, .gj .organ.acc path { fill:var(--acc); }
+  .gj .organ.si rect { fill:var(--si); }
+  .gj .organ.acc ellipse, .gj .organ.acc path { fill:var(--acc); }
   .gj .organ .coil { fill:none; stroke:#fff; stroke-width:2; opacity:.7; }
   .gj .organ:hover rect, .gj .organ:hover ellipse, .gj .organ:hover path { fill:var(--tube-sel); }
-  .gj .organ.acc:hover rect, .gj .organ.acc:hover ellipse, .gj .organ.acc:hover path { fill:var(--acc-sel); }
+  .gj .organ.si:hover rect { fill:var(--si-sel); }
+  .gj .organ.acc:hover ellipse, .gj .organ.acc:hover path { fill:var(--acc-sel); }
   .gj .organ.selected rect, .gj .organ.selected ellipse, .gj .organ.selected path { fill:var(--tube-sel); stroke:var(--brand-ink); stroke-width:2; }
-  .gj .organ.acc.selected rect, .gj .organ.acc.selected ellipse, .gj .organ.acc.selected path { fill:var(--acc-sel); stroke:var(--brand-ink); }
+  .gj .organ.si.selected rect { fill:var(--si-sel); }
+  .gj .organ.acc.selected ellipse, .gj .organ.acc.selected path { fill:var(--acc-sel); stroke:var(--brand-ink); }
   .gj .organ.selected .coil { stroke:#fff; opacity:.9; }
 
   /* detail panel */
