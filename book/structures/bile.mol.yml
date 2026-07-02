@@ -1,0 +1,18 @@
+id: bile-salt
+title: "Bile: a molecule with two faces"
+intro: >
+  Bile salts work as detergents because of their shape. Rotate the 3D model of
+  cholic acid: the hydroxyl (–OH) groups all sit on one face, making that side
+  water-loving, while the steroid back is fat-loving. A molecule with a
+  water-loving face and a fat-loving face (amphipathic) can sit at the oil–water
+  boundary — which is exactly how bile emulsifies fat into tiny droplets.
+molecules:
+  - id: cholic-acid
+    name: "Cholic acid (a bile salt)"
+    sdf: /structures/cholic-acid.sdf
+    svg: /structures/cholic-acid.svg
+    note: >
+      The main bile acid made by the liver from cholesterol. Its three –OH groups
+      cluster on one face (water-loving) while the ring back is fat-loving — so it
+      coats fat droplets, breaking them up and forming the mixed micelles that
+      ferry fat to the gut wall for absorption.

@@ -22,6 +22,7 @@ book:
         - chapters/energy-balance.qmd
         - chapters/macronutrients.qmd
         - chapters/04-micronutrients-hydration.qmd
+        - chapters/digestion-absorption.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

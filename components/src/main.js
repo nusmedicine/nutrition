@@ -4,6 +4,7 @@ import Quiz from './Quiz.svelte';
 import GlucoScale from './GlucoScale.svelte';
 import Molecule from './Molecule.svelte';
 import Protein from './Protein.svelte';
+import GutJourney from './GutJourney.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -13,6 +14,7 @@ const REGISTRY = {
   gi: GlucoScale,
   molecule: Molecule,
   protein: Protein,
+  gut: GutJourney,
   // future: flashcards, diagram, …
 };
 

@@ -23,7 +23,7 @@
 | 2 | Energy Balance & Body Composition | `02-energy-balance` (book ✅) | 🟢 |
 | 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | `03-macronutrients` (book 🟡) | 🟢 |
 | 4 | Micronutrients, Hydration & Electrolytes | `04-micronutrients-hydration` | 🟢 |
-| 5 | **Digestion & Absorption** ✨ | NEW (split) | 🔴 |
+| 5 | **Digestion & Absorption** ✨ | `digestion-absorption` (book ✅) | ✅ |
 | 6 | **The Gut Microbiome** ✨ | NEW (split; + old public-health microbiome) | 🔴 |
 | 7 | **Integrative Metabolism (Fed / Fasted)** ✨ | NEW | 🔴 |
 | 8 | **Appetite & Weight Regulation** ✨ | NEW (+ sleep/stress from old overnutrition) | 🔴 |
