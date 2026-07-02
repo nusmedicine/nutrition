@@ -1,8 +1,11 @@
 # Health in Medicine
 
+**Live:** <https://nusmedicine.github.io/nutrition/> (deployed from `main` via GitHub Pages CI)
+
 An interactive web e-textbook (**Quarto + Svelte 5**) on **nutrition & metabolism** for
 first-year medical students. Concise didactic material plus live diagrams, self-assessment,
-and branching **clinical cases** for rehearsing patient counselling.
+and branching **clinical cases** for rehearsing patient counselling — including a live,
+guardrailed **simulated-patient AI chat**.
 
 **Docs:** [AUTHOR.md](AUTHOR.md) (how to write content & add interactive elements) ·
 [PLANNING.md](PLANNING.md) · [REQUIREMENTS.md](REQUIREMENTS.md) ·

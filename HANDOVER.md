@@ -1,11 +1,14 @@
 # HANDOVER — continue in a new session
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-02.**
-> Branch: **`curriculum-restructure`** (base: `main`). All work is committed; **nothing pushed** (see §10).
-> **The LLM simulated-patient is now BUILT, verified, documented, and DEPLOYED (§3).** The
-> `patient-proxy` Docker sidecar runs next to llama.cpp, exposed via FRP at
-> `patient-api.phm.nusmed.space`, and the book's `patient-llm` meta is flipped to production (§4).
-> Read order: this file → [`patient-proxy/README.md`](patient-proxy/README.md) (deploy) →
+> **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
+> (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push. The simulated-patient
+> chat works in production.
+> **The LLM simulated-patient is BUILT, verified, documented, and DEPLOYED (§3–§4)** — Qwen behind
+> the `patient-proxy` sidecar; the book's `patient-llm` meta points at `patient-api.phm.nusmed.space`.
+> **Next session:** the feature is complete and live — pick from the open items (§11): decide the
+> access-control posture, add encounters, or retro-fit Ch.1/2/4 to the §11 chapter template.
+> Read order: this file → [`patient-proxy/README.md`](patient-proxy/README.md) (proxy/deploy) →
 > [`CASE-AUTHORING.md`](CASE-AUTHORING.md) (authoring) → [`ARCHITECTURE.md`](ARCHITECTURE.md) §8 →
 > [`CASE-FORMAT.md`](CASE-FORMAT.md) §4.5 (patient-chat node).
 
@@ -61,6 +64,16 @@ injects `enable_thinking:false`, and adds **CORS allow-list + per-IP rate limit 
   `docker-compose.example.yml`, `frpc.example.toml`.
 - **Book is live in production:** [`book/_quarto.yml`](book/_quarto.yml) already sets the
   `patient-llm` meta to `{"endpoint":"https://patient-api.phm.nusmed.space","enabled":true}`.
+- **Published to GitHub Pages:** [`.github/workflows/publish.yml`](.github/workflows/publish.yml)
+  builds the islands, renders Quarto, and deploys `book/_book` on every push to **`main`** →
+  <https://nusmedicine.github.io/nutrition/> (Pages **Source = GitHub Actions**). The runtime
+  base-path fix ([`lib/base.js`](components/src/lib/base.js) `resolveAsset`) makes the islands work
+  at that `/nutrition/` subpath.
+- **CORS / access posture:** `ALLOW_ORIGIN` is currently **blank**, so the proxy allows **all**
+  origins (`Access-Control-Allow-Origin: *`) — works everywhere but is open. Browser CORS is not a
+  server-side gate (curl ignores it); the real controls are the **rate limit + caps + guardrails**.
+  To gate access, set an `ACCESS_TOKEN` (per-cohort) and/or `ALLOW_ORIGIN=https://nusmedicine.github.io`.
+  See §11.
 - **Endpoint reality** (memory [[qwen-llm-endpoint]]): it's a **llama.cpp router**; OpenAI route is
   **`/v1`** (not `/api`); **Qwen3.6 needs `enable_thinking:false`** or `content` is empty; model
   `Qwen3.6-35B-A3B-BF16`. TLS is Let's Encrypt (has expired before — check the cert first if the
@@ -150,27 +163,29 @@ research/                          evidence repo (curriculum-map.md spine, chapt
 ```
 
 ## 10. Git state
-- Branch **`curriculum-restructure`**; base `main`. **Nothing pushed to a remote.**
-- The LLM-patient arc (newest first): `b0b5a18` educator guide · `a1eb438` streaming+emotions ·
-  `55d6261` Mdm Tan polish · `8c6de1b` +3 encounters · `7aa480b` proxy launcher · `b92c30f`
-  Cases chapter + dev override · `e3064c7` CasePlayer chat · `a460f46` patient-proxy · `18c693f`
-  bake-off spike. Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
+- **Deploy branch `main`** (also on `curriculum-restructure`, identical tip) — **pushed** to
+  `github.com/nusmedicine/nutrition`; the Pages CI deploys `main` → <https://nusmedicine.github.io/nutrition/>.
+  (Old `master` = pre-session baseline; ignore it.)
+- Arc (newest first): `420c5f3` docs sync · `1676648` base-path fix + Pages CI · `b0b5a18` educator
+  guide · `a1eb438` streaming+emotions · `55d6261` Mdm Tan polish · `8c6de1b` +3 encounters ·
+  `7aa480b` proxy launcher · `b92c30f` Cases chapter + dev override · `e3064c7` CasePlayer chat ·
+  `a460f46` patient-proxy · `18c693f` bake-off spike. Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
 
 ## 11. Open items / risks
-- **~~Deploy the proxy + flip the `patient-llm` meta~~ — DONE:** proxy is live at
-  `patient-api.phm.nusmed.space` and the book meta is flipped to production (§4).
-- **~~Deployment base-path~~ — RESOLVED:** `components/src/lib/base.js` (`resolveAsset()`) derives
-  the site root from the bundle URL and rewrites root-absolute paths, so islands work at a domain
-  root or a GitHub project subpath (verified live at a simulated `/repo/`).
-- **Server-side guardrail hardening** is Phase-2 (currently client-composed prompt).
-- **Battery gaps** flagged by the design critic: multi-turn compounding attacks, turn-limit
-  pressure, non-English/obfuscated input, a positive-control encounter.
-- **`prediabetes-counseling`** (choice version) is unused/not embedded; the LLM version lives in
-  the Cases chapter.
+**Shipped & live this session** (no longer open): proxy deployed; book published to GitHub Pages
+via `publish.yml`; deployment base-path resolved (`lib/base.js` `resolveAsset`, verified at a subpath).
+
+Open decisions / next work:
+- **Access-control posture (the main decision):** `ALLOW_ORIGIN` is blank → the proxy is open to all
+  origins. Fine for a pilot (rate-limited + guardrailed + your own GPU). To gate it, set an
+  `ACCESS_TOKEN` (per-cohort, book sends it as a header) and/or `ALLOW_ORIGIN=https://nusmedicine.github.io`.
+  Remember: CORS only affects browsers — the rate limit + token are the real controls.
+- **Server-side guardrail hardening** is Phase-2 (client-composed prompt today → guardrails are inspectable).
+- **Battery gaps** flagged by the design critic: multi-turn compounding attacks, turn-limit pressure,
+  non-English/obfuscated input, a positive-control encounter.
+- **`prediabetes-counseling`** (choice version) is unused/not embedded; the LLM version lives in the Cases chapter.
 - **Ch.1/2/4 predate the §11 template** — retro-fit when convenient.
 - **Net-new ✨ chapters need research dossiers first** (`research/00-overview/curriculum-map.md`).
-- **GitHub Pages CI** (`.github/workflows/publish.yml`) builds islands + renders Quarto + deploys
-  `book/_book` to Pages on push.
 - **Future polish (deferred):** more encounters, per-turn emotion tuning, streaming for the evaluator.
 
 ## 12. Memory (auto-loaded each session — see `memory/MEMORY.md`)
