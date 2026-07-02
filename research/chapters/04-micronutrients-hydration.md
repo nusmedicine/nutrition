@@ -1,10 +1,10 @@
 ---
 chapter: 4
 title: "Micronutrients, Hydration and Electrolytes"
-status: 🟢 ready to write
-book_chapter: ../../book/chapters/04-micronutrients-hydration-electrolytes.qmd
+status: ✅ drafted (selective beef-up, 2026-07-02)
+book_chapter: ../../book/chapters/04-micronutrients-hydration.qmd
 pillars: [nutrition]
-last_updated: 2026-06-30
+last_updated: 2026-07-02
 ---
 
 # Micronutrients, Hydration and Electrolytes — research dossier
@@ -157,3 +157,25 @@ Refined from the supplied set (first-year, recognition-level, action verbs align
 - **PREDIMED/DPP/DiRECT:** not cited in this chapter's body (they live only in the shared library), so no in-text claim needed correction; left untouched.
 - **Required special topics:** both present — AfN Topic G hydration (§2.3, §4.6–7, §8 micro-case C, §10 diagram) and SSaSS salt-substitute evidence (§4.10, §5, §8 Node 4, §11).
 - **Status raised to 🟢 ready to write**; residual gaps (SSaSS generalisability, hawker-figure provenance, local micronutrient prevalence, currency check) recorded in §11.
+
+---
+
+## Revision log — 2026-07-02 (selective beef-up, drafted into the book)
+
+Author decision: a **selective** expansion — add recognition-level *breadth* + memorable disease hooks, trim *depth*, keep the chapter **self-contained** (minimal dependence on the forthcoming metabolism chapters). Research done via four verified streams (fat-soluble vits, water-soluble vits, minerals, images/widgets) + a calcium deep-verify.
+
+**Content added to `04-micronutrients-hydration.qmd`:** fat-soluble A/D/E/K (A night-blindness + teratogen; D deepened — rickets/osteomalacia + "hormone" concept + toxicity-from-supplements; K newborn VKDB; E one line); water-soluble disease hooks as a summary table + callout boxes (beriberi/Wernicke + polished-rice story, pellagra "3 Ds", folate→NTD + fortification, **B12 neuro + the folate-masking trap**, scurvy + the iron link); minerals — iron **bioavailability** (haem/non-haem, enhancers/inhibitors table, tea timing, koilonychia/pica), calcium **bone-bank** + non-dairy Asian sources (tofu/kai-lan vs oxalate-bound spinach) + "not everyone needs a supplement", iodine (goitre/cretinism + salt-iodisation + gourmet-salt risk), zinc/Mg/Se brief. Kept hydration + Na/K + SSaSS intact. Fixed the "not stored" table with the **B12 liver-storage exception**.
+
+**Visuals:** new **molecule gallery** island (`book/structures/micronutrients.mol.yml` → ascorbic acid, retinol, cholecalciferol; RDKit 2D SVG + 3D SDF, PD; themed fat- vs water-soluble) and **5 food photos** (citrus PD · red meat CC BY-SA 4.0 · salmon CC0 · iodised salt CC BY-SA 3.0 · kai-lan CC BY-SA 4.0), all in `figures/CREDITS.csv`. Widgets **deferred**. Standalone heme dropped (haemoglobin `protein` island already shows heme).
+
+**New bib keys** in `book/references.bib`: whoVitADef, cochraneVitA, aapVitK, odsVitE, statpearlsThiamine, statpearlsNiacin, whoFolate, scdB12, dermnetScurvy, cochraneVitC, odsIron, hurrell1999tea, odsIodine, weaverVegCalcium1999, nofPeakBoneMass2016, ye2023calciumSG, uspstfCalcium2018, odsZinc, odsSelenium. **Render verified** (quarto exit 0; 30 citations resolved, none broken).
+
+### ⚠ Open verification items before lock
+- **Singapore iodine status** — no verified local figure; chapter keeps iodine claims general. Get a local source (SMJ/KKH/NUH) before asserting SG sufficiency.
+- **Do NOT cite PMID 26596695** ("mandatory salt iodisation" pregnancy study) as Singapore — it is **Turkey**.
+- **SG folate fortification = voluntary**, **NTD ~1.2/10,000** — chapter states fortification generally (not SG-specific); re-confirm vs current SFA regs before adding local specifics.
+- **Calcium:** cite `ye2023calciumSG` (no clean NNS calcium stat); "**among the highest in Asia**", not "the highest" (done in draft).
+- **Golden Rice** AJCN 2012 retracted — not cited; if added, use IRRI data.
+- **Structure SMILES** RDKit-generated + spot-checked as 2D PNG; re-verify stereochemistry at lock per [[chemical-structure-and-image-rendering]].
+- **Quiz** `micronutrients-hydration.quiz.yml` still tests only the *old* content — expand to cover the new vitamins/minerals.
+- Deferred **widgets** (if revisited): "sodium day" stacked bar; iron enhancers/inhibitors interactive.

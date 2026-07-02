@@ -15,6 +15,71 @@ questions:
         feedback: "They are absorbed (with dietary fat) and then stored — which is exactly why excess can accumulate."
 
   - id: q2
+    stem: "A man with chronic heavy alcohol use arrives confused, with an unsteady gait and abnormal eye movements. Which vitamin deficiency must be treated urgently?"
+    options:
+      - text: "Thiamine (vitamin B1)"
+        correct: true
+        feedback: "Correct — this is Wernicke's encephalopathy (confusion + ataxia + eye-movement problems); thiamine is given urgently in at-risk drinkers to prevent permanent damage."
+      - text: "Vitamin C"
+        correct: false
+        feedback: "Vitamin C deficiency causes scurvy (bleeding gums, poor healing), not this acute neurological triad."
+      - text: "Vitamin D"
+        correct: false
+        feedback: "Vitamin D deficiency affects bone (rickets/osteomalacia), not this acute confusional state."
+
+  - id: q3
+    stem: "Why is folic acid recommended *before* conception rather than once pregnancy is confirmed?"
+    options:
+      - text: "The neural tube closes about four weeks after conception — often before pregnancy is known"
+        correct: true
+        feedback: "Correct — by the time a pregnancy test is positive it is usually too late to prevent neural-tube defects such as spina bifida, so folate must be adequate periconceptionally."
+      - text: "Folic acid is destroyed by pregnancy hormones"
+        correct: false
+        feedback: "No — the reason is timing: the neural tube has usually already closed by the time pregnancy is confirmed."
+      - text: "Folate only works if taken together with iron"
+        correct: false
+        feedback: "No — the periconceptional timing is the key point, independent of iron."
+
+  - id: q4
+    stem: "An older adult living alone, eating mostly 'tea and toast', has bleeding, spongy gums, easy bruising and slow-healing wounds. Which deficiency fits best?"
+    options:
+      - text: "Vitamin C (scurvy)"
+        correct: true
+        feedback: "Correct — vitamin C is needed to build collagen, so deficiency shows as bleeding gums, easy bruising and poor wound healing; the restricted diet is the clue."
+      - text: "Vitamin K"
+        correct: false
+        feedback: "Vitamin K deficiency also causes bleeding, but not the spongy-gums-plus-poor-healing (collagen) picture; the tea-and-toast diet points to vitamin C."
+      - text: "Vitamin A"
+        correct: false
+        feedback: "Vitamin A deficiency causes night blindness and dry eyes, not this bleeding-gums picture."
+
+  - id: q5
+    stem: "Which group is at notably higher risk of vitamin B12 deficiency?"
+    options:
+      - text: "People on long-term metformin, strict vegans, and older adults"
+        correct: true
+        feedback: "Correct — all three are recognised at-risk groups. Note also that giving folate alone can mask the anaemia while B12 nerve damage silently progresses."
+      - text: "Young men who eat plenty of red meat"
+        correct: false
+        feedback: "Regular animal-product intake makes B12 deficiency unlikely in this group."
+      - text: "People who spend a lot of time outdoors"
+        correct: false
+        feedback: "Sun exposure relates to vitamin D, not B12."
+
+  - id: q6
+    stem: "A vegetarian patient wants to absorb more iron from a lentil (dhal) meal. What is the best first-year advice?"
+    options:
+      - text: "Add a vitamin-C-rich food, and keep tea/coffee for between meals"
+        correct: true
+        feedback: "Correct — vitamin C boosts absorption of plant (non-haem) iron, while the tannins in tea and coffee taken with a meal cut it substantially."
+      - text: "Drink a cup of strong tea with the meal to aid digestion"
+        correct: false
+        feedback: "The opposite — tannins in tea markedly reduce non-haem iron absorption; keep tea between meals."
+      - text: "Take a calcium supplement with the meal"
+        correct: false
+        feedback: "Calcium can inhibit iron absorption in the same meal — it won't help and may hinder."
+
+  - id: q7
     stem: "A 24-year-old woman is tired, pale, and breathless climbing stairs, with heavy periods. Which deficiency fits best?"
     options:
       - text: "Iron-deficiency anaemia"
@@ -27,20 +92,33 @@ questions:
         correct: false
         feedback: "B12 deficiency is a real cause of anaemia, but the heavy-periods history points to iron first; she isn't described as on metformin."
 
-  - id: q3
-    stem: "Which group is at notably higher risk of vitamin B12 deficiency?"
+  - id: q8
+    stem: "Which of these is a *poor* source of absorbable calcium, despite being 'high in calcium'?"
     options:
-      - text: "People on long-term metformin, strict vegans, and older adults"
+      - text: "Spinach"
         correct: true
-        feedback: "Correct — all three are recognised at-risk groups for B12 deficiency."
-      - text: "Young men who eat plenty of red meat"
+        feedback: "Correct — spinach's oxalate binds its calcium, so little is absorbed. Low-oxalate greens (kai-lan, bok choy) and calcium-set tofu are far better non-dairy sources."
+      - text: "Calcium-set tofu"
         correct: false
-        feedback: "Regular animal-product intake makes B12 deficiency unlikely in this group."
-      - text: "People who spend a lot of time outdoors"
+        feedback: "Actually a good source — tofu set with a calcium coagulant is absorbed about as well as milk."
+      - text: "Kai-lan (Chinese broccoli)"
         correct: false
-        feedback: "Sun exposure relates to vitamin D, not B12."
+        feedback: "A good source — low-oxalate greens provide well-absorbed calcium."
 
-  - id: q4
+  - id: q9
+    stem: "A health-conscious family switches entirely from iodised table salt to 'natural' sea salt and pink Himalayan salt. What is the hidden nutritional risk?"
+    options:
+      - text: "Most gourmet salts aren't iodised, risking iodine deficiency — which matters most in pregnancy"
+        correct: true
+        feedback: "Correct — iodised salt is a key iodine source; iodine builds thyroid hormone and is vital for fetal brain development, so losing it is riskiest in pregnancy."
+      - text: "Sea salt contains dangerously high levels of iodine"
+        correct: false
+        feedback: "The opposite — most sea and gourmet salts contain little or no iodine."
+      - text: "Gourmet salts have far more sodium, raising blood pressure"
+        correct: false
+        feedback: "Sodium content is essentially the same; the real difference is the missing iodine."
+
+  - id: q10
     stem: "For blood pressure, how do sodium and potassium act?"
     options:
       - text: "High sodium raises BP; adequate potassium helps lower it"
@@ -53,7 +131,7 @@ questions:
         correct: false
         feedback: "Both matter; the sodium–potassium balance is central to blood-pressure risk."
 
-  - id: q5
+  - id: q11
     stem: "In the National Nutrition Survey 2022, where does most of Singaporeans' dietary sodium come from?"
     options:
       - text: "Sauces, broths and food eaten out — not mainly the table salt-shaker"
@@ -66,7 +144,7 @@ questions:
         correct: false
         feedback: "Fruit is low in sodium and a good potassium source."
 
-  - id: q6
+  - id: q12
     stem: "How should the SSaSS salt-substitute trial be summarised to a patient with kidney disease?"
     options:
       - text: "Potassium-based salt substitutes may be unsafe for them (hyperkalaemia risk) — not blanket advice"

@@ -1,0 +1,36 @@
+id: micronutrients
+title: "Fat-soluble or water-soluble? Look at the structure"
+intro: >
+  A vitamin's chemistry decides how it behaves in the body. Start with the 2D formula,
+  then rotate the 3D model. Vitamin C is studded with –OH groups, so it dissolves in
+  water and isn't stored (you need it regularly). Vitamin A and vitamin D are mostly
+  oily hydrocarbon, so they dissolve in fat, are stored in the body — and can build up
+  to toxic levels if over-supplemented.
+molecules:
+  - id: ascorbic-acid
+    name: "Vitamin C — ascorbic acid (water-soluble)"
+    sdf: /structures/ascorbic-acid.sdf
+    svg: /structures/ascorbic-acid.svg
+    note: >
+      A small molecule covered in hydroxyl (–OH) groups — that is why it dissolves in
+      water, isn't stored, and needs topping up from food. The double-bonded –OH pair
+      (the enediol) is the reactive part that makes vitamin C an antioxidant and lets it
+      keep dietary iron in its more absorbable form.
+  - id: retinol
+    name: "Vitamin A — retinol (fat-soluble)"
+    sdf: /structures/retinol.sdf
+    svg: /structures/retinol.svg
+    note: >
+      A long chain of carbon with a single –OH at the end: mostly greasy hydrocarbon, so
+      it dissolves in fat and is stored in the liver. Storage cuts both ways — deficiency
+      develops slowly, but high-dose supplements can accumulate to harmful (and, in early
+      pregnancy, teratogenic) levels.
+  - id: cholecalciferol
+    name: "Vitamin D — cholecalciferol (fat-soluble)"
+    sdf: /structures/cholecalciferol.sdf
+    svg: /structures/cholecalciferol.svg
+    note: >
+      Built on a modified cholesterol skeleton — again mostly hydrocarbon, so it is
+      fat-soluble and stored. The body makes it in skin from a cholesterol precursor
+      using UVB, then activates it in the liver and kidney. Like vitamin A, it can reach
+      toxic levels from mis-dosed supplements (but not from sunlight).

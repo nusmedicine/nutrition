@@ -1,9 +1,10 @@
 # Micronutrients, hydration and electrolytes
 
 > *Needed in tiny amounts, but non-negotiable. The first-year goal is **recognition** — name
-> the major micronutrients and their broad roles, spot the common deficiencies and who is at
-> risk, and understand fluid and electrolyte balance well enough to advise. Not biochemistry,
-> not dosing.*
+> the major vitamins and minerals and their broad roles, spot the classic deficiency
+> patterns and who is at risk, and understand fluid and electrolyte balance well enough to
+> advise. Not biochemistry, not dosing. We meet each nutrient once, at the level of "what it
+> does, what happens when it's missing, and where to find it."*
 
 ## Micronutrients enable; they don't fuel
 
@@ -19,6 +20,16 @@ The vitamins split into two classes that **behave differently**:
 | **Fat-soluble** | A, D, E, K | **Stored** in fat/liver → deficiency develops slowly, but **toxicity is possible** with megadoses |
 | **Water-soluble** | B-complex, C | Largely **not stored** → need regular intake; excess is mostly excreted |
 
+*(One honest exception: **vitamin B12** is water-soluble but the liver holds years' worth —
+which is why B12 deficiency creeps up slowly rather than appearing within weeks.)*
+
+You can often **see this behaviour in the structure itself**. Switch between the three
+vitamins below: vitamin C is studded with hydroxyl (–OH) groups, so it dissolves in water
+and washes out; vitamins A and D are mostly oily hydrocarbon, so they dissolve in fat and
+are stored — the reason they can build up to harmful levels if over-supplemented.
+
+<div data-island="molecule" data-src="/structures/micronutrients.mol.yml"></div>
+
 ::: {.callout-warning}
 ## "More vitamins = healthier" is false
 Fat-soluble vitamins (notably A and D) can **accumulate to toxic levels**. Even
@@ -30,27 +41,195 @@ Minerals and trace elements carry **signature roles** worth recognising: **calci
 **iron** (oxygen transport), **iodine** (thyroid hormone), **zinc** (immunity and healing),
 and **sodium and potassium** (fluid balance, nerve and muscle function).
 
-## Three deficiencies to recognise
+## Fat-soluble vitamins: A, D, E, K
 
-You are not expected to investigate or treat these yet — but you should **recognise the
-pattern and the at-risk group**, and refer.
+Because they are stored, these four run out slowly — but the flip side is that supplements
+can build up and harm. Two of them (A and D) are the ones that matter most in practice.
 
-- **Iron-deficiency anaemia.** The classic picture is *tired, pale, breathless on exertion*.
-  The classic at-risk group is **menstruating women** — globally, nearly **1 in 3** women
-  aged 15–49 are anaemic, with iron deficiency the leading cause [@whoAnaemia], and **heavy
-  menstrual bleeding** is a major driver [@hmbIron2020]. Iron-rich foods plus vitamin C aid
-  absorption; the *cause* (e.g. heavy periods) must be addressed, so **recognise and refer**.
-- **Vitamin D deficiency.** Common even in sunny Singapore — one healthy-adult sample found
-  about **42% at risk**, higher in women, older adults, and those who work indoors or cover
-  up [@sgVitDeficiency]. *(That sample was small; treat the figure as indicative.)*
-- **Vitamin B12 deficiency.** Watch **vegans and strict vegetarians**, **older adults**, and
-  people on **long-term metformin**, which is associated with B12 deficiency [@metforminB12].
+**Vitamin A** is needed for **vision** and for healthy skin, lining tissues and immunity.
+Its deficiency is the world's leading preventable cause of childhood blindness: the earliest
+sign is **night blindness**, progressing through dry eyes (xerophthalmia) to corneal damage
+[@whoVitADef]. It comes ready-made in **liver, egg yolk and dairy**, and as **β-carotene** in
+orange and dark-green produce (carrot, sweet potato, pumpkin, spinach, kangkong) that the
+body converts as needed. The "more isn't better" warning is sharpest here: high-dose
+**preformed** vitamin A is **teratogenic** (the reason acne drugs like isotretinoin demand
+strict pregnancy prevention), whereas β-carotene *from food* is safe because conversion is
+self-limiting.
+
+**Vitamin D** behaves more like a **hormone** than a vitamin: the body makes it in skin from
+a cholesterol precursor using UVB, then activates it in the **liver and kidney**. Its job is
+to help absorb **calcium** for bone. Deficiency causes **rickets** in children (bowed legs,
+knock-knees) and **osteomalacia** (soft, aching bones) in adults. It is common even in sunny
+Singapore — one healthy-adult sample found about **42% at risk**, higher in women, older
+adults, and those who work indoors or cover up [@sgVitDeficiency]. Few foods carry it (oily
+fish, egg yolk, fortified milk), so skin synthesis and fortification matter. Toxicity is a
+**supplement** problem, not a sun problem: mis-dosed products can push blood calcium
+dangerously high.
+
+![Oily fish such as salmon are one of the few natural food sources of vitamin D. Photo: DanaTentis, CC0.](/figures/food/grilled-salmon.jpg){#fig-salmon fig-alt="A grilled salmon fillet on a plate." width="320" .lightbox}
 
 ::: {.callout-note}
 ## The sunny-country paradox
 "Singapore is sunny, so nobody is short of vitamin D" is a myth. Indoor work, sun avoidance,
-covering up and ageing all lower synthesis — deficiency is common despite the climate.
+covering up and ageing all lower skin synthesis — deficiency is common despite the climate.
 :::
+
+**Vitamin K** is needed for **blood clotting**. Its memorable deficiency is in **newborns**,
+who are born with low stores and whose gut and breast-milk supply little — which is why a
+**vitamin K injection at birth** is routine, preventing rare but catastrophic bleeding
+[@aapVitK]. Adults get it from **leafy greens** and fermented foods. **Vitamin E** is a
+membrane **antioxidant** from nuts, seeds and vegetable oils; dietary deficiency is rare and
+mostly seen with fat-malabsorption [@odsVitE]. Neither is a common toxicity concern, a useful
+reminder that not every fat-soluble vitamin is equally risky in excess.
+
+## Water-soluble vitamins: the B-complex and C
+
+These are not stored (bar B12), so they need **regular topping-up** — and their classic
+deficiency diseases are some of the most recognisable syndromes in medicine. You are not
+expected to investigate or treat these; **recognise the pattern and the at-risk group**.
+
+| Vitamin | Broad role | Classic deficiency | Watch in… |
+|---|---|---|---|
+| **B1** thiamine | Turning carbs into energy | **Beriberi**; Wernicke–Korsakoff | Heavy alcohol use; polished-rice diets |
+| **B2** riboflavin | Energy metabolism | Cracked mouth corners, sore tongue | Poor diet; little dairy |
+| **B3** niacin | Energy metabolism | **Pellagra** ("3 Ds") | Maize-dependent diets; alcohol |
+| **B6** pyridoxine | Amino-acid metabolism | Neuropathy, dermatitis | Isoniazid (TB) therapy; alcohol |
+| **B9** folate | DNA / cell division | **Neural-tube defects**; anaemia | Pregnancy; alcohol |
+| **B12** cobalamin | DNA + nerve myelin | Anaemia + **nerve damage** | Vegans; older adults; metformin |
+| **C** ascorbic acid | Collagen; iron absorption | **Scurvy** | Very restricted diets; the isolated elderly |
+
+::: {.callout-note}
+## Two classic diseases of "missing" B-vitamins
+**Beriberi (B1)** appears where the staple is heavily refined — historically, the switch to
+**polished white rice** triggered epidemics across Asia, because milling strips the
+thiamine-rich bran. It shows up as heart failure and oedema ("wet") or nerve damage ("dry"),
+and in heavy drinkers as **Wernicke's encephalopathy** (confusion, unsteadiness, eye-movement
+problems) — a give-thiamine-first emergency [@statpearlsThiamine]. **Pellagra (B3)** is
+remembered as the **"3 Ds": dermatitis** (a sun-exposed rash), **diarrhoea** and **dementia**
+[@statpearlsNiacin]. Both are stories about *how food is processed* changing what disease a
+population gets.
+:::
+
+::: {.callout-note}
+## Folate before pregnancy — a public-health win
+The neural tube closes about **four weeks** after conception — often *before* a woman knows
+she is pregnant. Too little **folate** at that moment risks **spina bifida** and other
+neural-tube defects, so the advice is to have enough **before** conception, not after: women
+who could become pregnant are advised to take **folic acid** periconceptionally
+[@whoFolate]. Many countries now **fortify flour** with folic acid and have seen neural-tube
+defects fall — the same "change the food supply" logic as salt reduction. Food sources live
+up to the name (Latin *folium*, leaf): **dark leafy greens**, beans and legumes.
+:::
+
+::: {.callout-warning}
+## Why B12 deficiency is dangerous to miss
+Vitamin **B12** does two jobs — making blood cells *and* maintaining the **myelin** around
+nerves. Deficiency therefore causes not only anaemia but **nerve damage** (numbness, pins and
+needles, an unsteady gait) that can become **permanent** [@scdB12]. The trap: giving **folate**
+can fix the anaemia while the nerve damage silently continues — so the two must be thought of
+together. Watch **vegans and strict vegetarians** (B12 is essentially absent from plant
+foods), **older adults**, and people on **long-term metformin** [@metforminB12]. Reliable
+plant-based intake needs **fortified foods or a supplement** — spirulina and algae do *not*
+count (they contain an inactive look-alike).
+:::
+
+**Vitamin C** builds **collagen** — the body's "glue" — so its deficiency, **scurvy**, is a
+disease of things falling apart: **bleeding, spongy gums**, easy bruising, poor wound healing
+and corkscrew-shaped hairs [@dermnetScurvy]. It was the classic disease of sailors, and the
+first-ever controlled dietary trial (Lind's citrus, 1747) is why British sailors became
+"limeys." Its second job is important here: vitamin C **greatly boosts absorption of
+plant (non-haem) iron** — a squeeze of lime or a vitamin-C-rich fruit with an iron-rich meal
+genuinely helps (see iron, below).
+
+![Citrus and other fruit are rich in vitamin C, which also helps the gut absorb plant iron. Photo: Scott Bauer, USDA (public domain).](/figures/food/citrus-fruits.jpg){#fig-citrus fig-alt="Sliced oranges, lemons and other citrus fruit." width="320" .lightbox}
+
+::: {.callout-note}
+## Does vitamin C prevent colds?
+Mostly no. Routine vitamin C **does not stop you catching colds** in the general population;
+it only slightly shortens how long they last [@cochraneVitC]. And "water-soluble" doesn't
+mean "harmless in any dose" — very high intakes of B6 (nerve damage) or vitamin C (kidney
+stones) can cause harm. The point is *regular intake*, not *megadoses*.
+:::
+
+## Minerals and trace elements
+
+### Iron — and why *where it comes from* matters
+
+Iron is the oxygen-carrying core of **haemoglobin**. Its deficiency — tiredness, pallor,
+breathlessness — is covered in the case below; here the key first-year idea is
+**bioavailability**: not all dietary iron is absorbed equally.
+
+- **Haem iron** (from meat, fish, poultry) is **well absorbed** and little affected by the
+  rest of the meal.
+- **Non-haem iron** (from plants, eggs, fortified foods — the *only* source for vegetarians)
+  is **poorly and variably absorbed**, and swings with what else is on the plate
+  [@odsIron].
+
+That makes **the company iron keeps** matter:
+
+| Helps non-haem iron in | Blocks non-haem iron |
+|---|---|
+| **Vitamin C** (fruit, vegetables, a squeeze of lime) | **Tea and coffee** (tannins) — with a meal they can cut absorption by more than half [@hurrell1999tea] |
+| A little **meat/fish** in the same meal | **Phytates** in wholegrains, legumes, nuts |
+| Soaking, sprouting or **fermenting** (idli, dosa, sourdough) | **Calcium** (e.g. a big glass of milk with the meal) |
+
+The practical, food-first advice: **pair plant iron with a vitamin-C food, and drink tea or
+coffee between meals rather than with them.** Because plant iron is absorbed less well,
+vegetarians and vegans need roughly **1.8× as much** iron and deserve a closer look. Signs
+worth recognising beyond fatigue include **spoon-shaped nails (koilonychia)** and **pica**
+(craving non-foods, classically ice).
+
+![Red meat is the richest source of well-absorbed haem iron; plant iron needs more help to absorb. Photo: Hannahdownes, CC BY-SA 4.0.](/figures/food/red-meat.jpg){#fig-redmeat fig-alt="A cooked portion of red meat on a plate." width="300" .lightbox}
+
+### Calcium and bone
+
+Over **99%** of the body's calcium is in **bone**, which acts as a "bank": you make deposits
+early in life (about **90% of peak bone mass is laid down by age ~18–20**, the account closing
+around age 30) and draw on it later [@nofPeakBoneMass2016]. Adequate calcium, **vitamin D**
+(needed to absorb it) and weight-bearing activity in youth build the reserve that protects
+against fractures decades later — and hip-fracture rates in Singapore are **among the highest
+in Asia**. Diet matters locally: in one Singapore cohort about **half of older adults** fell
+short of the calcium recommendation [@ye2023calciumSG].
+
+You do **not** need dairy to meet it. **Calcium-set tofu** and **low-oxalate greens** (kai-lan,
+bok choy, broccoli) are absorbed *as well as or better than* milk; small fish eaten with their
+bones (ikan bilis, sardines) add more. The exception is **spinach** — rich in calcium but
+locked up by oxalate, so poorly absorbed [@weaverVegCalcium1999].
+
+![Kai-lan and other low-oxalate leafy greens are good non-dairy sources of calcium, folate and plant iron. Photo: Nthaci, CC BY-SA 4.0.](/figures/food/kai-lan.jpg){#fig-kailan fig-alt="Fresh kai-lan (Chinese broccoli) on a plate." width="300" .lightbox}
+
+::: {.callout-note}
+## Does everyone need a calcium supplement? No.
+For healthy adults, routine calcium (± vitamin D) supplements have **limited fracture-
+prevention benefit**, and some analyses have raised cardiovascular questions
+[@uspstfCalcium2018]. The first-year message is **food-first**: build the bone bank from diet
+and activity; reserve supplements for people with genuine shortfall or osteoporosis, under
+guidance.
+:::
+
+### Iodine — a public-health success worth knowing
+
+Iodine's single job is to build **thyroid hormone**, which sets metabolic rate and — critically
+— drives **fetal brain development**. Deficiency causes a swollen thyroid (**goitre**) and, in
+pregnancy, **irreversible** intellectual disability in the child; it is a leading *preventable*
+cause of brain injury worldwide [@odsIodine]. The fix is one of nutrition's great wins:
+**iodising salt**, which has pushed iodine deficiency out of most of the world. The modern
+twist to teach is that trendy **non-iodised "gourmet" salts** (sea salt, pink Himalayan) plus
+rising plant-based eating (dairy, seafood and eggs are the main sources) can let deficiency
+**quietly return** — so keep **iodised salt** as the kitchen default.
+
+![Iodised salt — a cheap population-wide fix for iodine deficiency; most "gourmet" salts are not iodised. Photo: Drtony999, CC BY-SA 3.0.](/figures/food/iodised-salt.jpg){#fig-iodisedsalt fig-alt="A small pile of fine iodised salt on a dark dish." width="300" .lightbox}
+
+### Zinc, magnesium and selenium
+
+**Zinc** supports **immunity, wound healing and growth**; deficiency shows as poor healing, a
+rash around the mouth and hands, hair loss and blunted taste — watch vegetarians (the same
+phytate story as iron), pregnancy and older adults [@odsZinc]. **Magnesium** is a workhorse
+cofactor for nerve, muscle and energy metabolism, drawn from **greens, wholegrains, nuts and
+legumes**; low levels track with heavy alcohol use, poorly-controlled diabetes and some
+medicines. **Selenium** feeds antioxidant enzymes and thyroid metabolism; deficiency (a heart
+muscle disease, *Keshan disease*) depends on **soil** levels, and — a neat "more isn't better"
+example — **excess is toxic**, so a couple of Brazil nuts is plenty [@odsSelenium].
 
 ## Water is a nutrient
 
@@ -87,7 +266,8 @@ by stall [@shfSaltiestDishes].)*
 The population response is policy, not willpower alone. HPB's **"Less Salt, More Taste"**
 movement and its work to make **lower-sodium salt, sauces and seasonings** affordable aim to
 change the food supply itself [@hpbLessSalt] — the same label-led logic as Nutri-Grade for
-sugary drinks [@hpbNutriGrade].
+sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: **fix the food supply,
+not just the individual.**
 
 ::: {.callout-warning}
 ## Salt substitutes work — but read the trial carefully
