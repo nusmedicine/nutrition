@@ -203,10 +203,14 @@ research/                          evidence repo (curriculum-map.md spine, chapt
 - **Deploy branch `main`** (also on `curriculum-restructure`, identical tip) — **pushed** to
   `github.com/nusmedicine/nutrition`; the Pages CI deploys `main` → <https://nusmedicine.github.io/nutrition/>.
   (Old `master` = pre-session baseline; ignore it.)
-- Arc (newest first) — **this session** (all pushed & live): `c10b895` Ch.5 "Same food, different
-  speed" section · `ec0202b` auto path-safety (loadManifest + `check-assets` CI gate + AUTHOR docs) ·
-  `9753bef` Ch.5 Servier illustrated tract · `16251a3` Ch.5 cleaner schematic + Mermaid loop ·
-  `b44e89a` Ch.5 Digestion & Absorption chapter · `c0283ca` Ch.4 micronutrients expanded.
+- **⚠ NOT YET PUSHED:** the newest two commits — `c10b895` Ch.5 "Same food, different speed" section
+  and this HANDOVER update — are **local only**. `git push origin main` to deploy them (CI: build →
+  render → asset-check → Pages). The section is reviewed-good; it just isn't live yet.
+- Arc (newest first) — **this session**: `c10b895` Ch.5 "Same food, different speed" section *(local)* ·
+  `ec0202b` auto path-safety (loadManifest + `check-assets` CI gate + AUTHOR docs) · `9753bef` Ch.5
+  Servier illustrated tract · `16251a3` Ch.5 cleaner schematic + Mermaid loop · `b44e89a` Ch.5
+  Digestion & Absorption chapter · `c0283ca` Ch.4 micronutrients expanded *(these six through
+  `ec0202b` are pushed & live)*.
   Earlier: `05362ba`/`420c5f3` docs+base-path+Pages CI · the LLM-patient arc (`1676648` … `18c693f`).
   Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
 
