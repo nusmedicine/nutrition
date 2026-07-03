@@ -16,10 +16,8 @@ Doing this takes the **tube** itself (mouth → oesophagus → stomach → small
 intestine) plus four **accessory organs** that pour in juices along the way — the **salivary
 glands**, the **liver**, the **gallbladder**, and the **pancreas**.
 
-![The digestive tract and its accessory organs. Diagram: Mariana Ruiz (LadyofHats) & Jmarchn, public domain.](/figures/anatomy/digestive-system.svg){#fig-gi-tract fig-alt="Labelled diagram of the human digestive system: mouth, salivary glands, oesophagus, stomach, liver, gallbladder, pancreas, small intestine, large intestine, rectum." width="300" .lightbox}
-
-Rather than read the whole trip as a list, explore it: click each organ below to see what
-happens to your meal there.
+Rather than read the whole trip as a list, explore it: click each organ in the illustration
+below to see what happens to your meal there.
 
 <div data-island="gut" data-src="/diagrams/gut-journey.yml"></div>
 
