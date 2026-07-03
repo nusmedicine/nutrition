@@ -5,9 +5,8 @@
   // to a meal there — how it is moved, what juices/enzymes act, which hormone signals,
   // and what is absorbed. Content is data-driven from a YAML manifest.
   import { onMount } from 'svelte';
-  import yaml from 'js-yaml';
   import { load, save } from './lib/store.js';
-  import { resolveAsset } from './lib/base.js';
+  import { loadManifest } from './lib/manifest.js';
 
   let { src } = $props();
 
@@ -32,9 +31,7 @@
   onMount(async () => {
     try {
       if (!src) throw new Error('no src');
-      const res = await fetch(src);
-      if (!res.ok) throw new Error('Could not load gut data (' + res.status + ')');
-      const parsed = yaml.load(await res.text());
+      const parsed = await loadManifest(src); // asset paths (e.g. data.image) auto-resolved
       if (!parsed || !Array.isArray(parsed.organs) || !parsed.organs.length) throw new Error('empty dataset');
       data = parsed;
     } catch (e) {
@@ -52,7 +49,7 @@
   let tubeOrgans = $derived(TUBE.map((id) => byId.get(id)).filter(Boolean));
   let accessoryOrgans = $derived(ACCESSORY.map((id) => byId.get(id)).filter(Boolean));
   let hotspots = $derived(organs.filter((o) => o.hx != null && o.hy != null));
-  let imgUrl = $derived(data && data.image ? resolveAsset(data.image) : '');
+  let imgUrl = $derived(data && data.image ? data.image : ''); // already resolved by loadManifest
   let viewBox = $derived(data && data.imageBox ? data.imageBox : '0 0 665 2499');
 
   function select(id) {

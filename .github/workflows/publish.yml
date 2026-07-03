@@ -45,6 +45,9 @@ jobs:
       - name: Render book
         run: quarto render book
 
+      - name: Verify asset paths
+        run: node scripts/check-assets.mjs book/_book   # fail the deploy if any referenced asset is missing
+
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:

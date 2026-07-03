@@ -414,6 +414,14 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
   in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a
   paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.
+- **Asset paths — write root-absolute, they're auto-handled.** Use `/figures/…`, `/structures/…`,
+  `/diagrams/…` everywhere. Markdown figures (`![](/figures/x.png)`), the CSS/JS bundle, and island
+  `data-src` are all made deploy-safe automatically: Quarto rewrites tracked resources to relative,
+  and `main.js` + `resolveAsset` fix island paths for the GitHub Pages `/<repo>/` subpath. **A new
+  island that reads asset paths from *its manifest* must load it via `loadManifest()`** (`lib/manifest.js`),
+  which auto-resolves them — see `GutJourney.svelte`/`Molecule.svelte`; then use the paths as-is, no
+  `resolveAsset` calls. CI runs `scripts/check-assets.mjs` (also runnable locally against `book/_book`)
+  and **fails the build if any referenced asset is missing** — so path/filename mistakes never deploy.
 
 ### 11e. Per-chapter cases (shape & altitude)
 
