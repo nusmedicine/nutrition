@@ -3,7 +3,7 @@ title: "\"Tired all the time\""
 objectives:
   - "Recognise the classic pattern of iron-deficiency anaemia."
   - "Identify the at-risk group and the likely underlying cause."
-  - "Choose a first-year-appropriate action: food-first advice plus recognise-and-refer."
+  - "Choose an appropriate action: food-first advice plus recognise-and-refer."
 difficulty: intro
 estimatedMinutes: 8
 tags: [nutrition, micronutrients, iron, anaemia, recognition]
@@ -49,7 +49,7 @@ nodes:
       - id: c
         text: "She needs an urgent blood transfusion now."
         correct: false
-        feedback: "Over-escalation — and not a first-year call. Recognise the pattern and take the appropriate next step."
+        feedback: "Over-escalation — and not the call to make here. Recognise the pattern and take the appropriate next step."
         goto: reveal-group
 
   - id: reveal-group
@@ -86,7 +86,7 @@ nodes:
 
   - id: q-action
     type: mcq
-    stem: "What is the best **first-year-appropriate** action?"
+    stem: "What is the most **appropriate** action here?"
     options:
       - id: a
         text: "Recognise the pattern, give food-first advice (iron-rich foods + vitamin C), and arrange appropriate testing / refer."
@@ -97,7 +97,7 @@ nodes:
       - id: b
         text: "Start her on high-dose intravenous iron yourself."
         correct: false
-        feedback: "Dosing and treatment are beyond first-year scope — signpost to clinical years and refer."
+        feedback: "Dosing and treatment are beyond the scope here — signpost to clinical years and refer."
         goto: route
       - id: c
         text: "Tell her to take any multivitamin and come back in a year."
@@ -126,7 +126,7 @@ nodes:
     emotion: concerned
     title: "Back to the pattern"
     body: |
-      The reasoning missed the mark. Recall the first-year move for a recognisable
+      The reasoning missed the mark. Recall the move for a recognisable
       deficiency: **recognise the pattern → name the at-risk group → food-first advice and
       refer** — not full work-up, not over-escalation, not under-management.
     next: end-partial
@@ -144,14 +144,14 @@ nodes:
       keyPoints:
         - "Fatigue + pallor + breathlessness + heavy periods → think iron deficiency."
         - "Menstruating women are the classic at-risk group; address the cause, not just the iron."
-        - "First-year scope is recognise → food-first advice → refer, not investigate or treat."
+        - "The scope here is recognise → food-first advice → refer, not investigate or treat."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Nearly there"
     body: |
-      You engaged with the case but the action wasn't quite first-year-appropriate.
+      You engaged with the case but the action wasn't quite right for this stage.
       Replay and aim for recognise → at-risk group → food-first advice and referral.
     debrief:
       objectivesMet: [1]

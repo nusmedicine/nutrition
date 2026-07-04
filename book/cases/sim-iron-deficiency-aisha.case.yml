@@ -76,7 +76,7 @@ nodes:
       keyPoints:
         - Elicited the full picture through gentle, targeted questioning — fatigue, exertional breathlessness, pallor, heavy menstrual bleeding, and a low-iron (noodle/bread, little red meat) diet — despite the patient minimising, and specifically and sensitively asked about periods, which she won't raise unprompted.
         - Recognised the iron-deficiency-anaemia pattern in a classic at-risk group and explained the concern in plain, reassuring language without jargon or numbers.
-        - 'Stayed within first-year scope — recognise -> food-first -> refer: agreed a food-first step (iron-rich foods + vitamin C; avoid tea/coffee with meals) AND arranged testing / referral for the menstrual cause, rather than investigating or treating it directly.'
+        - 'Stayed within scope — recognise -> food-first -> refer: agreed a food-first step (iron-rich foods + vitamin C; avoid tea/coffee with meals) AND arranged testing / referral for the menstrual cause, rather than investigating or treating it directly.'
   - id: end-partial
     type: end
     outcome: partial

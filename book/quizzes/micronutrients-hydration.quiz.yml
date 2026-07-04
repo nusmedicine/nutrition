@@ -67,7 +67,7 @@ questions:
         feedback: "Sun exposure relates to vitamin D, not B12."
 
   - id: q6
-    stem: "A vegetarian patient wants to absorb more iron from a lentil (dhal) meal. What is the best first-year advice?"
+    stem: "A vegetarian patient wants to absorb more iron from a lentil (dhal) meal. What is the best advice?"
     options:
       - text: "Add a vitamin-C-rich food, and keep tea/coffee for between meals"
         correct: true

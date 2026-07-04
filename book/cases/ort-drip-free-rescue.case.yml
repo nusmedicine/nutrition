@@ -3,7 +3,7 @@ title: "The drip-free rescue"
 objectives:
   - "Explain why oral rehydration can work even when the gut is losing fluid (SGLT1 keeps absorbing)."
   - "Explain why oral rehydration salts need both glucose and sodium (cotransport; water follows)."
-  - "Give first-year-appropriate advice: ORS plus keep feeding, with a safety-net for severe dehydration."
+  - "Give appropriate advice: ORS plus keep feeding, with a safety-net for severe dehydration."
 difficulty: intro
 estimatedMinutes: 7
 tags: [nutrition, digestion, absorption, ORT, SGLT1, recognition]
@@ -74,7 +74,7 @@ nodes:
 
   - id: q-advice
     type: mcq
-    stem: "What is the best **first-year-appropriate** advice to Mrs Lim?"
+    stem: "What is the best advice to Mrs Lim?"
     options:
       - id: a
         text: "Give ORS in small, frequent sips, keep feeding her normally, and watch for warning signs (won't drink, very drowsy, no wet nappies) — seek care / a drip if she worsens."

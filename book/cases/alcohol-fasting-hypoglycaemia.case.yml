@@ -94,12 +94,12 @@ nodes:
 
   - id: q-manage
     type: mcq
-    stem: "What's the right immediate step, at a first-year level?"
+    stem: "What's the right immediate step?"
     options:
       - id: a
         text: "Give glucose (by mouth if he can swallow safely, otherwise it's an emergency for the team to treat), then, once he's well, advise eating when drinking and not drinking on an empty stomach."
         correct: true
-        feedback: "Correct. Correct the glucose now; the lasting lesson is the safety advice. Recurrent or unexplained hypoglycaemia would be something to refer on — but that's beyond first-year management."
+        feedback: "Correct. Correct the glucose now; the lasting lesson is the safety advice. Recurrent or unexplained hypoglycaemia would be something to refer on — but that's beyond what's needed here."
         effects: { quality: +1 }
         goto: route
       - id: b

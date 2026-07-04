@@ -82,7 +82,7 @@ nodes:
       - id: c
         text: "Refer him straight to medication."
         correct: false
-        feedback: "Premature and out of first-year scope. Lifestyle first — there is plenty of modifiable ground here."
+        feedback: "Premature and out of scope here. Lifestyle first — there is plenty of modifiable ground here."
         goto: q-underperform
 
   - id: q-underperform
