@@ -250,19 +250,19 @@ research/                          evidence repo — curriculum-map.md spine; ch
 ```
 
 ## 10. Git state
-- **No commits this session** — research + planning only. **All changes are in the working tree,
-  uncommitted;** review + commit when ready. Changed files:
-  - `research/chapters/gut-microbiome.md` **(new)** · `research/chapters/integrative-metabolism.md` **(new)**
-  - `research/00-overview/curriculum-map.md` (Part I resequence 6↔7; Ch.6 → two-layer; statuses → 🟢;
-    scheduling-constraint resolved; overlap-table edits)
-  - `research/chapters/digestion-absorption.md` (Ch.5-dossier cross-ref renumbering from the resequence)
-  - `book/diagrams/gut-journey.yml` **(⚠ LIVE / deployed asset)** — chapter-number fixes from the resequence
-  - `AUTHOR.md` (chapter-number references) · `HANDOVER.md` (this file)
-  - session scratch + verification-workflow scripts (throwaway; ignore).
-- **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. `git status` at session
-  start showed tip **`ecc5531`** ("flag unpushed commits") over `9b0cb95` / `c10b895` (Ch.5). **Reconcile the
-  push state** before/after committing — the prior HANDOVER flagged `c10b895` as local-only; check with
-  `git log origin/main..main`.
+- **Two commits this session (NOT pushed — user chose "commit, don't push"):**
+  - **`1e9fcf8`** *Research: Ch.6 + Ch.7 dossiers (verified) + Part I resequence* — committed the prior
+    session's working tree (the two new dossiers + the resequence ripple edits across curriculum-map,
+    the Ch.5 dossier cross-refs, `gut-journey.yml` **(⚠ LIVE asset)** chapter-refs, `AUTHOR.md`, `HANDOVER`).
+  - **`0b5046a`** *Ch.6: draft Integrative Metabolism (two-layer) + two flagship islands* — the full Ch.6
+    deliverable (qmd, `MetabolicMap`/`MetabolicSwitch` islands + manifests, ketone RDKit gallery, quiz, case,
+    32 bib keys, `_quarto.yml`/`main.js`/`CREDITS.csv`/`launch.json` wiring).
+- **`origin/main..main` = 5 unpushed commits** (`0b5046a`, `1e9fcf8`, `ecc5531`, `9b0cb95`, `c10b895`).
+  Nothing has been pushed; a push triggers the Pages CI redeploy → <https://nusmedicine.github.io/nutrition/>.
+- **Untracked / left alone:** `Update Health in Medicine 2026 v2.pptx` (user file); throwaway scratch
+  (`…/scratchpad/render.mjs`, `ch6-refs.bib`, `gen_ketones.py`) under the session temp dir.
+- **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. When ready to publish,
+  `git push` (all 5 commits go at once). `book/_book/` is gitignored (built by CI).
 - ⚠ **`gut-journey.yml` is a deployed asset:** committing + pushing its chapter-ref fix changes the live
   Ch.5 island's forward-references (harmless — they point at not-yet-published chapters, now numbered right).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
