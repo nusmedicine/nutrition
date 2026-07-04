@@ -25,6 +25,7 @@ book:
         - chapters/digestion-absorption.qmd
         - chapters/integrative-metabolism.qmd
         - chapters/gut-microbiome.qmd
+        - chapters/appetite-weight-regulation.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

@@ -1,0 +1,335 @@
+# Appetite and weight regulation
+
+> *The capstone of Part I. Chapter 2 asked whether energy balance was a simple sum; this chapter
+> answers it — appetite is a **regulated system** and body weight is **biologically defended**. The
+> goal is **recognition**: know the signals that turn hunger up and down, understand why weight is so
+> hard to change, and learn to talk about it without blame. Not prescribing, not neuroanatomy — the
+> logic of a defended system, and why "just eat less, move more" is *insufficient*, not wrong.*
+
+## The question Part I has been building toward {#sec-overview}
+
+Chapter 2 introduced energy balance as if it were arithmetic: calories in minus calories out. Every
+chapter since has complicated that picture, and this one closes it. **Appetite is not a free choice
+laid on top of a passive body — it is a controlled variable**, defended by an integrated system of
+hormones and brain circuits, in the same way blood glucose and body temperature are defended.
+
+The system runs on **two clocks**. A **slow clock** — the hormone **leptin**, released by fat in
+proportion to how much you carry — tells the brain how full the fuel tanks are over days and weeks. A
+**fast clock** — gut peptides that rise and fall across a single meal — answers "should I start now?"
+and "have I had enough?" Both feed a **thermostat** in the brain that sets hunger. On top of this sits
+the brain's **reward system**, which can override fullness when food is pleasurable and everywhere. And
+underneath it all is the hardest idea in the chapter: **the body defends its weight**, fighting weight
+*loss* far harder than weight *gain* — which is why diets are so often regained, and why weight is a
+matter of biology, not willpower.
+
+We build these in order, and close by turning the physiology on real problems: the obesity epidemic,
+the new **GLP-1 medicines** (which work by amplifying the very signals this chapter teaches), and
+Singapore's food environment.
+
+## The appetite thermostat {#sec-thermostat}
+
+Deep in the brain, in the **hypothalamus**, sits a cluster of neurons that works like a thermostat for
+energy. The sensing hub is the **arcuate nucleus**, positioned right next to a gap in the blood–brain
+barrier so it can "taste" the blood for hunger and fullness hormones. It contains two opposing
+populations of neurons — an accelerator and a brake:
+
+- **AgRP/NPY neurons — the accelerator** (they *drive* eating). Fire them in a well-fed mouse and it
+  eats voraciously within minutes [@aponte2011agrp].
+- **POMC/CART neurons — the brake** (they *suppress* eating). POMC is cut into a small signal,
+  **α-MSH**, that says "stop."
+
+The two are wired as a see-saw — the accelerator directly inhibits the brake — and they converge on a
+single switch: **α-MSH activates the melanocortin-4 receptor (MC4R)** to reduce eating, while the
+accelerator's own signal (AgRP) **blocks that same receptor** to increase it. MC4R is the volume knob
+where the two opposing drives are summed [@andermann2017wiring]. The peripheral hormones you will meet
+next — leptin, insulin, ghrelin, PYY — all act by nudging this see-saw one way or the other.
+
+Explore the thermostat below: step it through fasted, fed, and (later in the chapter) post-weight-loss
+and on-medication states, and watch the accelerator and brake re-weight.
+
+<div data-island="appetite-thermostat" data-src="/diagrams/appetite-thermostat.yml"></div>
+
+::: {.callout-important}
+## The human proof: MC4R deficiency
+This is not just a mouse story. **MC4R mutations are the commonest single-gene cause of severe
+obesity** — found in about **6%** of people with severe childhood-onset obesity, and the more the
+mutation damages the receptor, the hungrier and heavier the person [@farooqi2003mc4r]. Break the brake
+at the receptor, and appetite runs relentlessly high. Hunger, in other words, is *hardware* — which is
+the foundation of this chapter's non-stigmatising stance.
+:::
+
+## The slow clock: leptin, the fat-mass fuel gauge {#sec-leptin}
+
+For decades, physiologists suspected fat tissue sent a "how much is stored" signal to the brain. In
+**1994** it was found: cloning the gene mutated in a grossly obese mouse revealed **leptin**, a hormone
+made by fat *in proportion to fat mass* (from the Greek *leptos*, "thin") [@zhang1994leptin]. More fat
+→ more leptin → (normally) less hunger. Leptin acts right on the arcuate thermostat: it presses the
+**brake** (POMC) and eases off the **accelerator** (AgRP). This is leptin's true home — Chapter 2 only
+hinted at it and Chapter 6 covered its metabolic role; here it is the brain's long-term fuel gauge.
+
+The human proof is rare but decisive: children born unable to make leptin have **extreme, early-onset
+obesity with relentless hunger** — and **leptin injections rescue them completely**, melting away the
+appetite and the fat [@montague1997congenital; @farooqi1999leptintherapy]. Leptin is *necessary* for
+normal human appetite.
+
+::: {.callout-important}
+## The twist: leptin resistance — why "just take leptin" fails
+If leptin makes you thin, why isn't everyone with obesity thin? Because they already have **high**
+leptin (more fat makes more of it) — and the brain has stopped responding. This is **leptin
+resistance.** When recombinant leptin was given to people with common obesity, it produced only
+**modest, highly variable** weight loss — nothing like the transformation in the leptin-*deficient*
+children [@heymsfield1999recombinant]. So leptin therapy works for a rare deficiency and **not** for
+common obesity. The modern reading is that leptin is less an "anti-fat hormone" than a **starvation
+alarm**: a *fall* in leptin screams "danger, refeed"; a *rise* is quietly ignored — an asymmetry that
+becomes the key to weight regain later in this chapter [@flier2024leptin30]. (Insulin acts as a second,
+weaker fuel-gauge signal to the same neurons; its main home is Chapter 6.)
+:::
+
+## The fast clock: the gut's meal-by-meal signals {#sec-gut-peptides}
+
+While leptin tracks fat over weeks, the gut narrates each *meal* to the brain in real time. You met
+these peptides in Chapter 5 for what they do to the **gut** (squeezing the gallbladder, triggering
+insulin); here is what they say to the **brain**.
+
+**Ghrelin is the one hormone that says "eat."** Made by the stomach, it is the only gut hormone that
+*drives* hunger. Its signature: **it rises before meals and falls after eating** — which is why it's
+called the hunger hormone [@kojima1999ghrelin; @cummings2001preprandial]. Much of the pre-meal rise is
+*learned* — entrained to your habitual meal times — so hunger partly follows the clock (and the smell
+of the hawker centre), not just an empty stomach. Protein suppresses ghrelin most durably, part of why
+protein "keeps you full."
+
+**The satiety peptides are released as food arrives**, roughly in proportion to the calories eaten:
+
+- **CCK** — from the duodenum, triggered by fat and protein; the *first* satiety hormone ever
+  identified, and a short, meal-ending signal [@gibbs1973cck].
+- **GLP-1 and PYY** — from cells lower down the small intestine; PYY at normal post-meal levels cuts
+  food intake by about a **third** [@batterham2002pyy]. GLP-1 is the one the new weight-loss drugs
+  mimic (below).
+- **Amylin** — released *with* insulin from the pancreas at each meal; it reduces meal size and slows
+  the stomach. (Amylin is defined here, not in Chapter 5.)
+
+How do these reach the brain? Mostly along the **vagus nerve** to a relay in the brainstem (the NTS)
+and up to the hypothalamus — a hard-wired "fullness" line. A second, purely mechanical signal matters
+too: **stretch of the stomach wall** produces fullness that depends on *volume, not calories* — which
+is exactly why a big bowl of soup or salad feels filling for very few calories.
+
+::: {.callout-note}
+## The ileal brake — and a link back to the microbiome
+When food reaches the *far* end of the small intestine, the GLP-1/PYY cells there both **slow the
+stomach** and **signal fullness** — a feedback loop called the *ileal brake* that paces digestion and
+appetite together. This is also where Chapter 7 hands off: the **short-chain fatty acids** your gut
+bacteria make from fibre stimulate these same GLP-1/PYY cells — one more way that fibre, fermented in
+the colon, quietly turns up satiety.
+:::
+
+## Hunger, satiation, satiety — and what actually fills you up {#sec-satiety}
+
+Three everyday words that mean different things, and confusing them is the commonest slip here:
+
+- **Hunger** — the drive that *starts* a meal.
+- **Satiation** — the fullness that builds *during* a meal and *ends* it (it sets **meal size**).
+- **Satiety** — the fullness *after* a meal that *delays the next one* (it sets **how long until you're
+  hungry again**).
+
+A one-line version: **hunger starts a meal, satiation ends it, satiety keeps the next one away**
+[@benelam2009satiation]. These signals unfold over time in a **satiety cascade** — first the *sensory*
+pleasure of the food, then the *cognitive* sense of how much you've eaten, then the *gut* signals
+(stretch, CCK, then GLP-1/PYY), and finally the *absorbed nutrients* — a useful lens for seeing *when*
+each signal matters [@blundell2010appetite].
+
+The practical payoff is that **what and how you eat changes fullness for the same calories**:
+
+| Lever | Why it works | Practical version |
+|---|---|---|
+| **Protein** | Most satiating macronutrient; suppresses ghrelin, raises GLP-1/PYY | Build meals around a protein source |
+| **Energy density** | We eat a fairly constant *volume*; water and fibre *in* the food lower calories per bite | Bulk meals with vegetables |
+| **Viscous fibre** | Gels, slows stomach emptying, feeds the ileal brake | Oats, legumes, wholegrains |
+| **Solid > liquid** | Liquid calories give weak fullness and little compensation | Eat fruit, don't drink it |
+| **Eating rate** | Fullness signals lag; fast eating "outruns" them | Slow down |
+
+The strongest single demonstration: when volunteers' protein was raised from 15% to 30% of energy,
+they *spontaneously* ate about **440 kcal/day less** and lost ~4.9 kg over 12 weeks — with no
+instruction to eat less [@weigle2005highprotein]. And "you don't drink your fullness": 450 kcal/day as
+jelly beans was fully compensated for (no weight gain), but the *same* 450 kcal as soft drink was not,
+and caused weight gain [@dimeglio2000liquidsolid].
+
+::: {.callout-tip}
+## 🍜 Eating for fullness in Singapore
+A hawker plate of *char kway teow* or *chicken rice* is energy-dense, low in fibre, and often washed
+down with a sweet drink — a combination that empties the stomach fast and leaves you hungry again
+soon. The fuller-for-longer swaps use the levers above: add a **protein** (fish, tofu, egg, tau
+kwa), ask for **more vegetables**, choose **brown or mixed rice**, take the drink **kosong** (or plain
+water), and **slow down**. Same setting, very different satiety.
+:::
+
+::: {.callout-tip}
+## 🍳 Healthy kitchen: cook for volume, eat for time
+At home the same physics applies: **bulk meals with vegetables** to cut energy density without cutting
+volume, keep **protein and fibre** in every meal, and serve food that takes **chewing and time** over
+soft, fast-to-eat food. Because fullness signals lag the meal by many minutes, *slowing down* is one of
+the few free, evidence-backed ways to eat less without feeling deprived [@robinson2014eatingrate].
+:::
+
+## Eating for pleasure: the reward system {#sec-hedonic}
+
+We don't only eat when energy is low. A second system — the brain's **reward system** — makes us eat
+because food is *pleasurable and available*, and in a modern food environment it can **override**
+fullness entirely. The single most important idea here, and the one most often gotten wrong:
+
+::: {.callout-important}
+## Wanting is not liking
+The brain separates **wanting** a food (the motivational *pull* — driven by **dopamine**) from
+**liking** it (the actual *pleasure* — driven by separate opioid "hotspots") [@berridge2009dissecting].
+They can come apart: you can intensely *crave* a food you no longer much *enjoy*. So "dopamine is the
+pleasure chemical" is wrong — dopamine drives the **pursuit**, not the pleasure. This reframes craving
+as a normal feature of a motivation system, not a weakness.
+:::
+
+Two everyday phenomena follow. **"Hedonic hunger"** is wanting food for pleasure with no energy need —
+the full-but-still-eating experience [@lowe2007hedonic]. And **"always room for dessert"** is
+**sensory-specific satiety**: the pleasantness of a food falls *as you eat it*, but a *different* food
+(sweet, after a savoury meal) stays appealing [@rolls1981sensory] — which is also why buffets and
+variety make us eat more.
+
+The reward system is triggered not only by eating but by **cues** — the sight, smell and advertising of
+food — which can spark seeking even when you're full [@volkow2017dopamine]. And modern
+**ultra-processed foods** are engineered to combine sugar, fat and salt at maximally rewarding levels
+[@fazzino2019hyperpalatable]. The cleanest evidence they drive overeating is the tightly controlled
+trial you met in Chapter 5: with meals **matched for calories, sugar, fat, salt and fibre**, people
+still ate about **500 kcal/day more** on the ultra-processed diet [@hall2019upf]. The
+honest, non-stigmatising frame: overeating here is a **normal reward system responding to an abnormal
+environment**, not a character flaw [@berthoud2017blaming].
+
+## Why the body fights to keep its weight {#sec-defended}
+
+Here is the idea that changes how you think about weight. Body weight is not a free-floating tally —
+the body **actively defends** it, and the defence is **asymmetric**: it fights weight *loss* hard and
+weight *gain* weakly. (Debate the models honestly — there is no single "set-point" that has ever been
+located; the modern view is a defended *range* with a strong lower brake against starvation and a leaky
+upper one [@speakman2018lipostatic]. But the *defence of weight loss* is not in doubt.)
+
+When someone loses meaningful weight, **three systems shift together, all pushing to regain it**:
+
+1. **Leptin falls** — and falls *disproportionately* low, so the brain reads a normal-weight body as
+   *starving*.
+2. **Hunger hormones shift** — ghrelin rises, the satiety peptides fall, and measured hunger goes up —
+   and these changes still **persist a full year** after the weight loss [@sumithran2011hormonal].
+3. **Energy expenditure drops more than the smaller body should need** — the "extra" fall is called
+   **adaptive thermogenesis**. This is precisely the expenditure side of **Chapter 2's** energy-balance
+   equation *pushing back*: a weight-reduced person burns fewer calories than someone who was never
+   heavier at the same weight, so the arithmetic quietly turns against them.
+
+::: {.callout-warning}
+## The Biggest Loser — the honest version
+Contestants who lost ~58 kg were found, 6 years later, to have resting metabolic rates about
+**500 kcal/day below** what their body size predicts — and it *persisted*, spawning the viral claim
+that "dieting permanently wrecks your metabolism" [@fothergill2016biggestloser]. But the study's own
+senior author revisited the data: the contestants who kept the weight off were also those who
+**sustained huge increases in physical activity**, and under an energy-compensation model that ongoing
+effort is what trims resting metabolism — not permanent damage [@hall2022biggestloser]. The honest
+bottom line: metabolic adaptation is **real but modest and largely reversible** in ordinary dieters
+(this is exactly what Chapter 6 flagged), and the Biggest Loser is an extreme outlier. Adaptation makes
+weight *maintenance* hard; it does not make weight loss impossible or your metabolism "broken."
+:::
+
+The take-home reframes a common experience: **weight regain is not a willpower failure — it is the
+predicted output of a defended system.**
+
+## Two neglected levers: sleep and stress {#sec-sleep-stress}
+
+Appetite isn't only about what's on the plate — it's also about how you slept and how stressed you are,
+two modifiable levers that "eat less, move more" ignores. Both bias the *same* system toward hunger.
+
+**Short sleep tilts appetite toward hunger.** In a controlled experiment, two nights of 4-hour sleep
+lowered leptin ~18%, raised ghrelin ~28%, and raised hunger ~24% — especially for calorie-dense foods
+[@spiegel2004sleep]. Pooling the trials, partial sleep loss adds on average about **385 kcal/day** of
+intake with *no* rise in energy expenditure — a clear tilt toward positive energy balance
+[@alkhatib2017partialsleep]. Sleep loss also weakens the brain's "cortical brake" and amplifies reward
+responses to food [@greer2013sleepdeprivation]. (*When* you eat matters too: eating late, against your
+body clock, raises hunger and lowers energy expenditure even at identical calories
+[@vujovic2022lateeating] — one reason shift work and late suppers are metabolically taxing.)
+
+**Chronic stress nudges us toward "comfort food."** The proposed loop is that sustained **cortisol**
+drives a preference for energy-dense, sugary-fatty food and favours **visceral (belly) fat**
+[@dallman2003comfortfood]. Be honest about the evidence here: much of this comes from animal models and
+human *associations* (people with higher long-term cortisol do tend to carry more central fat
+[@jackson2017haircortisol]), so teach it as a **plausible, partly-supported** loop rather than a proven
+mechanism.
+
+## When the switch is stuck: obesity, honestly {#sec-obesity}
+
+Everything so far reframes obesity. It is not a failure of discipline; it is the **same defended system,
+now defending an elevated weight.** The person is fighting a homeostatic set of signals — high but
+ineffective leptin, a hunger drive that rises the moment they lose weight, an energy budget that
+adapts — that treats the higher weight as the level to protect. Obesity is increasingly understood as a
+disease of a **dysregulated system**, not a lifestyle choice [@rubino2025clinicalobesity]. (Its
+classification, staging and management are Part III; here the point is the concept.)
+
+The most vivid proof of the physiology is the new medicine. The **GLP-1 receptor agonists**
+(semaglutide, and the dual-agonist tirzepatide) are engineered, long-acting versions of the gut satiety
+hormone GLP-1 you met above. They work by **amplifying the body's own satiety signalling** — tipping the
+arcuate thermostat toward the brake and slowing the stomach — so hunger falls and meals end sooner. In
+other words, the drug plugs into the *exact circuit this chapter drew.* They are strikingly effective
+(mean weight loss around **15%** with semaglutide, and **~21%** with tirzepatide at the top dose) — and,
+tellingly, **when the drug stops, the weight comes back**, because the defended set-point was never
+removed, only opposed [@wilding2021step1; @jastreboff2022surmount1; @wilding2022step1extension]. That is
+the cleanest possible demonstration that obesity is a **chronic, regulated condition** — and that "just
+try harder" misreads the biology. *(Who should take these, dosing, side-effects and surgery are Part
+III — here we teach only the mechanism.)*
+
+## The Singapore picture {#sec-singapore}
+
+Singapore is a near-perfect illustration of an **obesogenic food environment** colliding with
+**defended biology** — which is why the national "eat less, move more" message, while not *wrong*, is
+**insufficient**. Adult obesity has kept rising despite sustained public-health effort, exactly what a
+defended, environment-driven system predicts.
+
+- **A food environment engineered for "wanting."** Hawker centres, food courts and 24-hour options make
+  palatable, energy-dense food cheap, abundant and always in view; most residents eat out most days
+  [@tan2020whereweeat]. Large refined-carbohydrate portions and sweet drinks are the easy default — the
+  lived version of the reward-and-cue physiology above.
+- **Nutri-Grade — changing the environment, not blaming the eater.** Sugary drinks are Singapore's
+  biggest source of dietary sugar; the **Nutri-Grade** scheme (A–D grades plus an advertising ban on the
+  worst) is a concrete *environmental* lever, and it worked — the median sugar of pre-packed graded
+  drinks fell from **7.1% to 4.6%** as manufacturers reformulated [@hpbNutriGrade].
+- **A sleep-deprived, high-pressure society.** Short sleep and exam/shift-work stress are the norm, and
+  in a large multi-ethnic local cohort, shorter and poorer sleep tracked with greater adiposity
+  [@helios2024sleepadiposity] — the Spiegel/Al Khatib physiology, lived.
+- **Why the framing matters clinically.** Weight bias is common among Singapore's own healthcare
+  professionals [@goff2023weightbiassg], so understanding weight as a defended, environmentally-cued
+  system is not just physiology — it is the basis for treating patients without blame.
+
+::: {.callout-tip}
+## 🍜 The honest state of "eat less, move more"
+The advice isn't wrong — a sustained energy deficit is still how weight is lost. It is *insufficient*,
+because it treats appetite and expenditure as freely-chosen dials when this chapter has shown they are
+**biologically defended and environmentally cued**. The useful reframe for a patient: change the
+**environment and the habits** (what's in the house, portion defaults, sleep, protein and fibre, slowing
+down) rather than relying on willpower against your own physiology — and know that for some, the biology
+is defended strongly enough that medication or specialist help is appropriate, not a moral failing.
+:::
+
+## So — is it really just willpower? {#sec-close}
+
+No — and that is the single most important thing this chapter teaches. Appetite is a **signalled
+biological drive**, integrated by a thermostat that defends a range of body weight, tuned by how you
+sleep and how stressed you are, and pushed on by a food environment engineered to be irresistible. The
+person who regains weight after a diet, or who can't stop snacking on night shift, or who feels hungrier
+the more they diet, is not weak — they are experiencing exactly what the physiology predicts. That
+understanding is where good, non-stigmatising medicine starts. And it closes the loop Part I opened in
+Chapter 2: **energy balance is real, but it is not free — it is defended.**
+
+## Check your understanding {#sec-quiz}
+
+<div data-island="quiz" data-src="/quizzes/appetite-weight-regulation.quiz.yml"></div>
+
+## Practise: "why did it come back?" {#sec-case}
+
+A patient loses weight on a strict diet, then regains most of it within a year despite "doing everything
+right." Work through why — and how to explain it without blame.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/appetite-defended-weight.case.yml"></div>
