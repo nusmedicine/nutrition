@@ -429,9 +429,12 @@ metabolism mapping (`afn2021curriculum`) at write-time.
   self-monitor (Zainudin et al. 2017). Recognition-level: recognise the risk, advise breaking the fast
   for a hypo, refer for pre-Ramadan medication adjustment (management → Ch.15). → `salti2004epidiar`,
   `lum2020fast`, `zainudin2017knowledge`
-- **A genuine SG research anchor:** the integrative insulin/glucagon review the chapter can lean on
-  (Röder et al. 2016) is **authored at A\*STAR Singapore** — "this integrative work came out of A\*STAR
-  next door." The physiology is universal; surface it for local relevance. → `roder2016pancreatic`
+- **⛔ DO NOT USE Röder et al. 2016 as a "local anchor" (superseded by editor guidance 2026-07-04).** The
+  original idea was to surface this A\*STAR-authored insulin/glucagon review "for local relevance." **Editor
+  principle:** local research is only appropriate when it studies the **socio-cultural** side of diet OR
+  **supports evidence-based clinical practice** — *not* basic/mechanistic metabolism cited merely because it
+  is Singaporean. Röder is a basic-physiology review, so it was **deliberately omitted** from the drafted
+  chapter. Keep it out. (`roder2016pancreatic` stays in `references.bib` but unused.)
 - **The "War on Diabetes" as motivator.** MOH declared it in 2016; roughly **1 in 12 residents** live
   with diabetes and **~1 in 8 among Malays**. Use as a recognition-level "why understanding the fed/
   fasted switch matters" hook; forward-ref Ch.15. → `mohWarOnDiabetes`
