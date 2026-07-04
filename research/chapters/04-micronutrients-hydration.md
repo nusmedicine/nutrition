@@ -170,12 +170,12 @@ Author decision: a **selective** expansion — add recognition-level *breadth* +
 
 **New bib keys** in `book/references.bib`: whoVitADef, cochraneVitA, aapVitK, odsVitE, statpearlsThiamine, statpearlsNiacin, whoFolate, scdB12, dermnetScurvy, cochraneVitC, odsIron, hurrell1999tea, odsIodine, weaverVegCalcium1999, nofPeakBoneMass2016, ye2023calciumSG, uspstfCalcium2018, odsZinc, odsSelenium. **Render verified** (quarto exit 0; 30 citations resolved, none broken).
 
-### ⚠ Open verification items before lock
-- **Singapore iodine status** — no verified local figure; chapter keeps iodine claims general. Get a local source (SMJ/KKH/NUH) before asserting SG sufficiency.
-- **Do NOT cite PMID 26596695** ("mandatory salt iodisation" pregnancy study) as Singapore — it is **Turkey**.
-- **SG folate fortification = voluntary**, **NTD ~1.2/10,000** — chapter states fortification generally (not SG-specific); re-confirm vs current SFA regs before adding local specifics.
+### ⚠ Open verification items before lock  — ✅ RESOLVED 2026-07-05 (web-verified; see chapter + HANDOVER §11)
+- **Singapore iodine status** — ✅ web-verified: SG salt iodisation is **voluntary, not mandatory** (Codling et al. 2017, *Public Health Nutr*, `codling2017iodine`) and **no national iodine-status survey exists**. Chapter now states this and keeps the status claim general.
+- **Do NOT cite PMID 26596695** ("mandatory salt iodisation" pregnancy study) as Singapore — it is **Turkey** (*Br J Nutr*). ✅ Confirmed and NOT cited anywhere.
+- **SG folate fortification = voluntary** — ✅ confirmed (Food Fortification Initiative, `ffiFortification`); chapter now notes SG does not mandate fortification. (The ~1.2/10,000 NTD figure traces only to older 1994–98 data via a review — left out.)
 - **Calcium:** cite `ye2023calciumSG` (no clean NNS calcium stat); "**among the highest in Asia**", not "the highest" (done in draft).
 - **Golden Rice** AJCN 2012 retracted — not cited; if added, use IRRI data.
 - **Structure SMILES** RDKit-generated + spot-checked as 2D PNG; re-verify stereochemistry at lock per [[chemical-structure-and-image-rendering]].
-- **Quiz** `micronutrients-hydration.quiz.yml` still tests only the *old* content — expand to cover the new vitamins/minerals.
-- Deferred **widgets** (if revisited): "sodium day" stacked bar; iron enhancers/inhibitors interactive.
+- **Quiz** `micronutrients-hydration.quiz.yml` — ✅ already expanded to 12 Q covering the new vitamins/minerals (verified in the Part I quiz review).
+- Deferred **widgets** (genuinely optional, not built): "sodium day" stacked bar; iron enhancers/inhibitors interactive — the static table conveys the enhancer/inhibitor content adequately.

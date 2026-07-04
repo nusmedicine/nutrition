@@ -231,11 +231,12 @@ By the end of the chapter a first-year student can:
 
 **Quiz topics.** (1) order the organs / drag-the-tube; (2) match organ → primary job; (3) match accessory organ → secretion → site of entry; (4) peristalsis vs segmentation; (5) name-the-sphincter; (6) rank/estimate transit times (coarse); (7) match enzyme → site → substrate → product; (8) spot-the-safety-lock / which step needs bicarbonate; (9) match hormone → cell → trigger → job; "acid or antacid?" (gastrin vs secretin); "fed or fasting?" (motilin/MMC vs CCK/secretin); (10) match nutrient → transporter/route (glucose→SGLT1; fructose→GLUT5; fat→lymph); (11) why ORT needs glucose *and* salt; (12) bile: made where / stored where / recycled where; (13) true/false myth-busters (tennis court, stomach-does-most, portal vs lymphatic, "deficient vs intolerant vs allergic"); (14) *why* does oral glucose raise insulin more than IV? (incretin concept, no numbers).
 
-## 11. Evidence gaps / open questions / to-research
+## 11. Evidence gaps / open questions / to-research   — key flags ✅ RESOLVED 2026-07-05 (see HANDOVER §11)
 
-- **Singapore diarrhoea/ORT epidemiology** — no local incidence/ORS-usage figure verified; teach ORT generally; seek an HPB/MOH or KKH paediatric source before asserting SG numbers. (The *mechanism* and the *lactase* SG figure are solid.)
-- **SG lactase data recency** — `yap1989` (n=77, Chinese-specific) is 37 years old and remains the best population-level SG source; a more recent SG cohort is a genuine gap. Keep and label ("still the best SG population data"), don't replace — no better SG source surfaced.
-- **NNS 2022 "~4% wholegrain" figure** — reused from `mohNNS2022`; confirm the exact figure at write-time.
+- **Singapore diarrhoea/ORT epidemiology** — ✅ still no verified local incidence figure exists; chapter teaches ORT **generally** (correct call). (Mechanism + the SG lactase figure are solid.)
+- **SG lactase data recency** — ✅ addressed: `yap1989` kept and labelled as the best (aged) SG data, and a more recent regional confirmation added — **`goh2018lactase`** (Malaysia multiracial, JGH Open 2018, PMID 30619942). Chapter now cites both.
+- **NNS 2022 "~4% wholegrain" figure** — ✅ web-verified correct: source is HPB **National Nutrition Survey 2022** (`mohNNS2022`), "4% of staples… vs 30% recommended". Already cited correctly.
+- **`ucscLactase` persistence percentages** — moot: `ucscLactase` is **not cited** in the chapter (no attribution error was made).
 - **Textbook page-anchors** (Sherwood, Guyton, Marieb, OpenStax, Gropper) — fill at draft time; primary-source PMIDs above cover the load-bearing/contestable numeric claims.
 - **`chinSGlactase` vs `yap1989`** — these are the same study (Yap et al. 1989, *Dig Dis Sci* 34(7):1085–8, PMID **2743848**, doi 10.1007/BF01536379); consolidate to **`yap1989`** (full 7-author list: Yap I, Berris B, Kang JY, Math M, Chu M, Miller D, Pollard A). Chinese-specific — do not generalise to all Singaporeans.
 - **Lactose single-dose tolerance** — attribute the **~12 g / ~1 cup** figure to **NIH Consensus 2010** (`nihConsensus2010`), NOT `nutrLactoseMgmt`/PMC7318541 (which gives the more conservative universally-tolerated 5 g / ~100 mL).

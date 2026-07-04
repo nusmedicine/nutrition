@@ -1,7 +1,7 @@
 ---
 chapter: 6
 title: "Integrative Metabolism (Fed / Fasted)"
-status: ✍️ DRAFTED (2026-07-04)   # book/chapters/integrative-metabolism.qmd written, rendered clean & browser-verified. Two-layer; both layers adversarially verified. Residual lock-time flags (§11): krebs alcohol PMID unpinned (used 1969 Biochem J), StatPearls bookshelf IDs, Servier-composite N/A (islands drawn bespoke in-SVG).
+status: ✍️ DRAFTED (2026-07-04)   # book/chapters/integrative-metabolism.qmd written, rendered clean & browser-verified. Two-layer; both layers adversarially verified. Residual lock-time flags (§11) ✅ RESOLVED 2026-07-05: `krebs1969alcohol` PMID pinned (5774487, web-verified); StatPearls bookshelf NBK IDs confirmed present; Servier-composite N/A (islands drawn bespoke in-SVG).
 book_chapter: ../../book/chapters/integrative-metabolism.qmd
 pillars: [nutrition]
 last_updated: 2026-07-04

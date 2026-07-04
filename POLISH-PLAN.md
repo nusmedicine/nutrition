@@ -198,9 +198,21 @@ Ch.6 dividers render as unnumbered banners with section numbering intact).
   (Hill 2003 = the ~100 kcal/day energy-gap source; TEF ~10%, BMR 60–70% of TEE). No corrections needed.
 - **Not yet committed/pushed** — pushing redeploys the live site, so it awaits the author's review.
 
-## Also worth folding in (pre-existing HANDOVER §11 flags, adjacent to this pass)
-- Ch.4 dossier: SG iodine status unverified; folate-fortification specifics; quiz/widget follow-ups.
-- Ch.5 dossier: SG diarrhoea/ORT epidemiology unverified; `yap1989` lactase anchor is old (1989, n=77);
-  confirm the NNS "~4% wholegrain" figure; pin placeholder citations.
-- Ch.5 gut-island hotspots slightly off (`gut-journey.yml` hx/hy/hr recalibration).
-- Ch.6 residual lock flags: krebs alcohol PMID unpinned (DOI-only); StatPearls bookshelf IDs.
+## Pre-existing HANDOVER §11 follow-ups — ✅ ALL DONE 2026-07-05 (second session pass)
+- **Ch.4 dossier** — SG iodine + folate web-verified **voluntary** (cited `codling2017iodine`,
+  `ffiFortification`); Turkey-PMID trap confirmed excluded; quiz already at 12 Q. *(Optional "sodium day"
+  / iron-interactive widgets left un-built — the static tables cover them.)*
+- **Ch.5 dossier** — `yap1989` kept + newer `goh2018lactase` added (recency gap); NNS ~4% wholegrain
+  confirmed vs `mohNNS2022`; SG ORT epidemiology kept general (no verified local figure exists).
+- **Ch.5 gut-island hotspots** — all 9 recalibrated against a coordinate grid + click-tested
+  (gallbladder/pancreas/liver/stomach/mouth now on the right anatomy; large-intestine → descending colon);
+  the manifest's numeric chapter-refs also converted to names.
+- **Ch.6 residual** — `krebs1969alcohol` PMID pinned (5774487); StatPearls bookshelf IDs already present.
+- **Ch.1 six-pillars hub island** — built (`pillars-hub`), wired into Ch.1, browser-verified (supersedes
+  the "deferred" note above).
+- **Docs refreshed** — HANDOVER (status + §7 tooling reference + §9 map + §11/§12), AUTHOR (cross-ref-by-
+  name + MCQ-only cases), all three dossier flag sections. New reusable scripts: `scripts/render.mjs`,
+  `scripts/validate-cases.mjs`.
+
+*(First-pass status note above — "not yet committed" — is superseded: the Part I polish shipped as commit
+`ae8f3d3`; this follow-up pass is a second commit.)*

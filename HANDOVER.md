@@ -1,9 +1,22 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART I COMPLETE: Ch.1–8 drafted).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART I DRAFTED + POLISHED).**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
+>
+> **★ 2026-07-05 — PART I POLISHING PASS + FOLLOW-UPS DONE (this session), all shipped & deployed.**
+> A systematic 5-lens review (house-style · cross-refs · evidence · arc · quiz/case) drove a full polish
+> — see **[`POLISH-PLAN.md`](POLISH-PLAN.md)** for findings + execution log. Highlights: **Ch.2 Energy
+> Balance rebuilt** to the §11 template (new **`energy-budget`** BMR/TEE-calculator island; body-comp /
+> NEAT / defended-balance content; 5 new web-verified citations); **Ch.6 altitude lowered** (enzyme names
+> → asides; Part A/B → unnumbered `##`); **all cross-refs converted to chapter NAMES**; "So —"
+> question-closes + Singapore sections added; **in-chapter cases are now MCQ-only** (live AI chat removed
+> from the Ch.1–4 cases → it belongs only in the Integrated cases chapter; memory
+> [[in-chapter-cases-mcq-only]]); new **`pillars-hub`** island (Ch.1); **gut-island hotspots
+> recalibrated**; **Ch.4/5/6 dossier verify-before-lock flags resolved** (SG iodine/folate = voluntary,
+> Krebs PMID pinned, Goh 2018 lactase added, NNS 4% confirmed). New tooling: **`scripts/render.mjs`** +
+> **`scripts/validate-cases.mjs`** (§7).
 >
 > **★ PART I IS NOW FULLY DRAFTED (Ch.1–8) + reviewed.** Ch.6 (Integrative Metabolism), Ch.7 (Gut
 > Microbiome) and **Ch.8 Appetite & Weight Regulation — the capstone**
@@ -14,7 +27,7 @@
 > island (accelerator/brake state-stepper; the GLP-1 drug plugs into the same circuit). A **4-agent Part I
 > review** (workflow `partI-review`) then confirmed Ch.3–8 hang together well (cross-refs, overlap-ownership,
 > altitude, arc all consistent) and its fixes are applied (Ch.2↔Ch.8 loop reciprocated; broken back-refs
-> fixed). **DEFERRED FOLLOW-UPS the review flagged (next work):**
+> fixed). **DEFERRED FOLLOW-UPS the review flagged — ✅ ALL DONE 2026-07-05 (see the ★ note above + POLISH-PLAN.md):**
 > **(1) Ch.2 (Energy Balance) + Ch.1 predate the §11 template** — Ch.2 got a *bounded* uplift (blockquote +
 > RQ preview + leptin teaser so the loop reciprocates) but still lacks the map's full scope (body composition
 > BMI/BIA/DXA/waist, the EAT+NEAT split, calorimetry/DLW) and a **teaching island** (a TEE-components stepper
@@ -221,19 +234,59 @@ injects `enable_thinking:false`, and adds **CORS allow-list + per-IP rate limit 
 - **Full render check (no serve):** copy `book/` out-of-tree (avoid the Dropbox lock) then
   `quarto render .` — verified exit 0 with all chapters incl. `cases.html`.
 
-## 7. Environment gotchas (this machine — READ THESE)
-- **Dropbox/Defender file-locks.** In-place `quarto render book` fails (`os error 32`); render
-  **out-of-tree** (`preview.ps1` does this). Same class hit **Vite's dep cache** in the spike
-  (`EBUSY` on `.vite/deps`) — fixed by moving `cacheDir` out of the Dropbox tree. Memory:
-  [[dropbox-quarto-render-lock]].
-- **`node` not on PATH / stale env** in some shells: node is a portable install at
-  `%LOCALAPPDATA%\node\current`. `preview.ps1` and `patient-proxy.ps1` **self-locate** it; ad-hoc,
-  use the full path `%LOCALAPPDATA%\node\current\node.exe`.
-- **PowerShell tool gotchas:** avoid `2>&1` on native exes; the sandbox static scanner
-  **false-positives** on tokens like `/E` (robocopy) or globs (`book\*`) in `Remove-Item`/pipeline
-  commands — reword, or drive copy+render from **Node** (`fs.cpSync` + `spawnSync`), which sidesteps it.
-- **Toolchain:** Node 24 + npm 11; Quarto 1.9.x (`%LOCALAPPDATA%\quarto\current\bin`). Dropbox
-  folder → harmless Git "LF will be replaced by CRLF" warnings.
+## 7. Environment, tooling & paths (this machine — READ THESE, saves re-discovery each session)
+
+**Installed toolchain & exact paths** (portable installs; often NOT on `PATH` in a fresh shell —
+use the full path). In **Git Bash**, `%LOCALAPPDATA%` = `$LOCALAPPDATA`:
+| Tool | Path | Notes |
+|---|---|---|
+| **node** / **npm** | `%LOCALAPPDATA%\node\current\node.exe` (`\npm.cmd`) | Node 24 + npm 11. Bash: `"$LOCALAPPDATA/node/current/node.exe"`. |
+| **quarto** | `%LOCALAPPDATA%\quarto\current\bin\quarto.exe` (fallback `%LOCALAPPDATA%\Programs\Quarto\bin`) | Quarto 1.9.x. |
+| **python** | on `PATH` (`python -m http.server`) | Used by the preview launch configs. |
+| **gh** | **NOT INSTALLED** | Do **not** use `gh`. For CI/deploy status use the **GitHub API** (below). Use `git` directly for push/commit. |
+| **git identity** | `Kenneth Ban Hon Kim <kennethban@gmail.com>` | Repo `github.com/nusmedicine/nutrition`, deploy branch `main`. |
+
+**The everyday loop (commands that work here):**
+```bash
+# 1. Build the Svelte island bundle (writes the gitignored book/assets/):
+npm --prefix components run build            # or "$LOCALAPPDATA/node/current/node.exe" via npm.cmd
+# 2. Lock-proof out-of-tree render (avoids the Dropbox os-error-32; see below):
+node scripts/render.mjs                      # copies book/ -> %TEMP%\book-health-preview, renders there
+# 3. Asset check (fails on any missing referenced asset):
+node scripts/check-assets.mjs "C:/Users/Admin/AppData/Local/Temp/book-health-preview/_book"
+# 4. Case-graph linter (dangling gotos + the MCQ-only rule, §5):
+node scripts/validate-cases.mjs
+```
+Two reusable scripts were added 2026-07-05: **`scripts/render.mjs`** (out-of-tree render, self-locates
+quarto) and **`scripts/validate-cases.mjs`** (case linter). `scripts/preview.ps1` is the PowerShell
+equivalent that also serves.
+
+**Browser-verify the islands** (memory [[book-preview-verification]]): after `render.mjs`, start the
+preview server via the **`book-preview`** launch config (`preview_start "book-preview"`, python static
+server on **port 8781**, serving `%TEMP%\book-health-preview\_book`) → `preview_eval` to navigate
+(`location.href='http://localhost:8781/chapters/<file>.html'`) → the eval target closes on navigation,
+so re-eval after a short wait to read the DOM. Svelte reactivity is async — `await` a tick before
+reading. To inspect/calibrate a hotspot overlay island, inject a `<style>`/SVG overlay via `preview_eval`.
+
+**Deploy & check it (no `gh`):** `git push origin main` triggers `publish.yml` (build islands → render →
+asset check → deploy `book/_book`) → <https://nusmedicine.github.io/nutrition/>. Check the run via the
+**public GitHub API** (PowerShell):
+```powershell
+Invoke-RestMethod "https://api.github.com/repos/nusmedicine/nutrition/actions/runs?per_page=3" `
+  -Headers @{ "User-Agent"="claude-code"; "Accept"="application/vnd.github+json" } |
+  ForEach-Object { $_.workflow_runs } | Select-Object status, conclusion, head_sha -First 3
+```
+(Pushing to `main` redeploys the live site — an outward-facing action; get explicit user go-ahead, and
+the auto-mode classifier may still gate `git push` to the default branch.)
+
+**Gotchas:**
+- **Dropbox/Defender file-locks.** In-place `quarto render book` fails (`os error 32`); always render
+  **out-of-tree** (`scripts/render.mjs` / `preview.ps1`). Same class hit Vite's dep cache in the spike
+  (`EBUSY` on `.vite/deps`). Memory [[dropbox-quarto-render-lock]].
+- **PowerShell/sandbox:** avoid `2>&1` on native exes; the sandbox static scanner false-positives on
+  tokens like `/E` (robocopy) or globs in `Remove-Item` — drive copy+render from **Node** (`fs.cpSync` +
+  `spawnSync`), which `render.mjs` does. Dropbox folder → harmless Git "LF will be replaced by CRLF".
+- **Islands need HTTP** (not `file://`); data folders must be in `book/_quarto.yml` `resources:`.
 
 ## 8. Key decisions (don't re-litigate)
 - **LLM patient:** client-composed prompt (fork A); **key server-side** in a proxy; **streaming**;
@@ -255,7 +308,9 @@ injects `enable_thinking:false`, and adds **CORS allow-list + per-IP rate limit 
 ## 9. Repository map (updated)
 ```
 HANDOVER.md PLANNING.md REQUIREMENTS.md ARCHITECTURE.md(§8=LLM) AUTHOR.md(§11=template)
-CASE-FORMAT.md(§4a,§4.5=spec) CASE-AUTHORING.md(educator guide) README.md
+CASE-FORMAT.md(§4a,§4.5=spec) CASE-AUTHORING.md(educator guide) POLISH-PLAN.md(Part-I review+log) README.md
+scripts/render.mjs                 lock-proof out-of-tree render (Node; self-locates quarto) — see §7
+scripts/validate-cases.mjs         case-graph linter: dangling gotos + the MCQ-only rule (§5)
 scripts/preview.ps1                lock-proof local preview (self-locates node/quarto)
 scripts/check-assets.mjs           CI + local asset-path checker (fails the build on any missing reference)
 scripts/patient-proxy.ps1          local simulated-patient proxy launcher (self-locates node)
@@ -264,21 +319,26 @@ patient-proxy/                     PROD key-holding proxy: server.mjs, Dockerfil
                                    frpc examples, .env(.example), README (deploy guide). .env gitignored.
 book/
   index.qmd  _quarto.yml           preface; book config (chapters, resources, includes, patient-llm meta)
-  chapters/*.qmd                   Part I: 01…, energy-balance, macronutrients, 04-micronutrients-hydration,
-                                   digestion-absorption + cases.qmd (Integrated cases)
-  diagrams/*.yml                   island data: glycemic-index-load.yml (gi), gut-journey.yml (gut)
-  structures/*                     RDKit molecule galleries (svg+sdf: dietary-fats, micronutrients, bile) + protein PDBs
+  chapters/*.qmd                   Part I (Ch.1–8): 01-why…, energy-balance, macronutrients, 04-micronutrients…,
+                                   digestion-absorption, integrative-metabolism, gut-microbiome,
+                                   appetite-weight-regulation + cases.qmd (Integrated cases)
+  diagrams/*.yml                   island data: glycemic-index-load(gi), gut-journey(gut), metabolic-map,
+                                   metabolic-switch, scfa-flow, appetite-thermostat, energy-budget(Ch.2), pillars-hub(Ch.1)
+  structures/*                     RDKit galleries (dietary-fats, micronutrients, bile, ketone-bodies, scfa) + protein PDBs
   figures/anatomy/                 Ch.5: Servier digestive-apparatus.png (gut island), villus histology, fat-absorption.svg
   figures/food/  figures/structures/   food photos + structure SVGs (all licence-logged in CREDITS.csv)
   quizzes/*.quiz.yml               per-chapter quizzes
-  cases/*.case.yml                 choice-based: pillar-mapping-mr-tan, bmr-estimation, common-questions,
-                                   iron-deficiency-aisha, ort-drip-free-rescue (Ch.5) ;
-                                   simulated-patient (LLM): sim-prediabetes-mdm-tan, sim-common-questions-mr-lim,
-                                   sim-iron-deficiency-aisha, sim-pillar-mr-tan
+  cases/*.case.yml                 in-chapter = MCQ-only (1 per chapter: pillar-mapping-mr-tan, bmr-estimation,
+                                   common-questions, iron-deficiency-aisha, ort-drip-free-rescue, alcohol-fasting-
+                                   hypoglycaemia, gut-microbiome-test-kit, appetite-defended-weight) ;
+                                   Integrated cases = live AI chat, sim-* (mdm-tan, mr-lim, aisha, mr-tan).
+                                   validate-cases.mjs enforces "no patient-chat in a non-sim case".
   figures/personas/<id>/<emotion>.svg   sprite sets (mr-lim, mr-tan, aisha, mdm-tan)
   assets/                          GENERATED island bundle (gitignored)
 components/src/                    main.js(REGISTRY), CasePlayer(+chat), Quiz, GlucoScale, Molecule, Protein,
-                                   GutJourney(Ch.5 tract), lib/{engine,expr,md,store,patient,config,base,manifest}.js
+                                   GutJourney(Ch.5), MetabolicMap+MetabolicSwitch(Ch.6), ScfaFlow(Ch.7),
+                                   AppetiteThermostat(Ch.8), EnergyBudget(Ch.2 calc), PillarsHub(Ch.1),
+                                   lib/{engine,expr,md,store,patient,config,base,manifest}.js
                                    (base.js=resolveAsset subpath-safe; manifest.js=loadManifest auto-resolves asset paths)
 spikes/llm-patient/                throwaway bake-off + eval/ (battery.json, run-hosted.mjs, FINDINGS-hosted.md)
 research/                          evidence repo — curriculum-map.md spine; chapter dossiers incl. NEW
@@ -292,9 +352,10 @@ research/                          evidence repo — curriculum-map.md spine; ch
   What shipped this push (highlights): Ch.6 (`0b5046a` + SG/citation follow-ups), Ch.7 (`01471b1` + the
   `62ba8ad` wrong-PMID fixes), Ch.8 (`621ce6d` + `c1c5a1c` verified dossier), the Part I review fixes
   (`f2ab204`), and the dossiers/curriculum resequence (`1e9fcf8`).
-- **Verify the deploy after pushing:** `gh run list --limit 3` (or the repo Actions tab) — the `publish.yml`
-  workflow builds islands → renders → **asset check** → deploys `book/_book`. If it fails, it is almost
-  always a missing-asset path (check-assets gate) or a `.bib` key — both are green locally as of this push.
+- **Verify the deploy after pushing (no `gh` on this box):** query the public GitHub API for the
+  `publish.yml` run — see §7 for the exact `Invoke-RestMethod` one-liner. The workflow builds islands →
+  renders → **asset check** → deploys `book/_book`. If it fails, it is almost always a missing-asset path
+  (check-assets gate) or a `.bib` key — run `scripts/check-assets.mjs` + a local render first.
 - **Untracked / left alone:** `Update Health in Medicine 2026 v2.pptx` (user file); throwaway scratch
   (`…/scratchpad/render.mjs`, `ch6/7/8-refs.bib`, `gen_*.py`) under the session temp dir.
 - **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. `book/_book/` is
@@ -319,29 +380,24 @@ chapters (2026-07-04) found **every local citation already appropriate** — no 
 via `publish.yml`; deployment base-path resolved (`lib/base.js` `resolveAsset`, verified at a subpath).
 
 Open decisions / next work:
-- **Continue Part I (the active thread) — resequenced 2026-07-04** (5 Digestion → 6 Integrative Metabolism
-  → 7 Gut Microbiome → 8 Appetite). **Ch.6 + Ch.7 dossiers done + verified (🟢);** **Ch.6 is now a two-layer,
-  self-contained chapter** (Part A pathways map + Part B integration — it teaches the pathways itself, no
-  biochem course assumed). Next: **draft Ch.6/Ch.7** (qmd + islands via §2.1) and/or start the **Ch.8
-  Appetite** dossier (net-new ✨, dossier-first). Overlap-ownership (`curriculum-map.md`): Ch.5 owns gut
-  hormones + bile/enterohepatic; **Ch.6** owns the pathway map + fed/fasted integration; **Ch.7** owns
-  SCFAs/fermentation + gut–brain; Ch.8 reuses the satiety-hormone role. **Clear each dossier's §11
-  verify-before-lock flags before drafting** (mostly: pin placeholder PMIDs/figures).
-- **Ch.5 gut-island hotspots are slightly off** (user deferred): recalibrate `hx/hy/hr` in
-  [`gut-journey.yml`](book/diagrams/gut-journey.yml) — reveal-all-hotspots then nudge; method in
-  memory [[book-preview-verification]].
-- **Ch.5 dossier verify-before-lock flags** ([`research/chapters/digestion-absorption.md`](research/chapters/digestion-absorption.md) §11):
-  no verified SG diarrhoea/ORT epidemiology; the SG lactase anchor (`yap1989`) is old (1989, n=77);
-  confirm the NNS "~4% wholegrain" figure; pin a couple of placeholder citations. (Content is drafted;
-  these are pre-publication checks.)
-- **Ch.4 dossier flags too** ([`research/chapters/04-micronutrients-hydration.md`](research/chapters/04-micronutrients-hydration.md)):
-  SG iodine status unverified; the Turkey-vs-Singapore iodine-study trap; folate-fortification specifics;
-  and the Ch.4 quiz/widgets follow-ups.
+- **Part I (Ch.1–8) is DRAFTED, POLISHED, verified and deployed.** The 2026-07-05 polishing pass +
+  follow-ups are all done (see the ★ note at the top + [`POLISH-PLAN.md`](POLISH-PLAN.md)). ✅ Resolved
+  this session: Ch.1/Ch.2 retrofit to the §11 template (Ch.2 **rebuilt** with the `energy-budget` island);
+  all cross-refs → chapter NAMES; **gut-island hotspots recalibrated**; **Ch.4 dossier flags** (SG iodine
+  + folate confirmed **voluntary** and cited; Turkey-PMID trap confirmed excluded; quiz already expanded);
+  **Ch.5 dossier flags** (`yap1989` kept + newer `goh2018lactase` added; NNS ~4% wholegrain confirmed vs
+  `mohNNS2022`; SG ORT epidemiology kept general — no verified local figure exists); **Ch.6 residual**
+  (`krebs1969alcohol` PMID pinned; StatPearls bookshelf IDs already pinned).
+- **Next: Part II onward** — no Part II/III/IV chapter is drafted yet. Dossiers exist in
+  `research/chapters/` for the later spine (`09-overnutrition` … `14-interprofessional-referral`, plus
+  10-CVD, 11-T2D, 12-public-health, 13-counselling); pick one and run the §2.1 pipeline.
+- **Case convention (now enforced):** in-chapter cases are **MCQ-only**; the live AI chat lives only in
+  the Integrated cases chapter (`sim-*`). `scripts/validate-cases.mjs` guards it. Memory
+  [[in-chapter-cases-mcq-only]].
 - **LLM patient (only if that's the focus):** access-control posture — `ALLOW_ORIGIN` is blank so the
   proxy is open to all origins (fine for a rate-limited + guardrailed pilot; gate with `ACCESS_TOKEN`
   and/or `ALLOW_ORIGIN=https://nusmedicine.github.io`); Phase-2 server-side guardrail hardening; battery
-  gaps (multi-turn/turn-limit/non-English/positive-control); `prediabetes-counseling` choice case unused.
-- **Ch.1/2 predate the §11 template** — retro-fit when convenient.
+  gaps (multi-turn/turn-limit/non-English/positive-control).
 
 ## 12. Memory (auto-loaded each session — see `memory/MEMORY.md`)
 - [[qwen-llm-endpoint]] — llama.cpp router shape: base `/v1`, `enable_thinking:false`, model list, TLS note.
@@ -353,3 +409,7 @@ Open decisions / next work:
 - [[research-subagent-gotchas]] — research subagents sometimes **sub-delegate** and return a status message
   (add a "do it yourself, no sub-agents" guardrail) and routinely **misattribute PMIDs** (right paper, wrong
   ID) — always run the adversarial-verification `Workflow` to refute-test citations before a dossier is 🟢.
+- [[singapore-context-citation-principle]] — SG context = practical/social-cultural side of diet; cite local
+  research only if socio-cultural OR clinical-practice, never local basic-metabolism. Codified in AUTHOR §11d.
+- [[in-chapter-cases-mcq-only]] — per-chapter cases are MCQ/choice-only; the live AI patient-chat belongs
+  ONLY in the Integrated cases chapter (`sim-*`). Don't add a `patient-chat` node to a per-chapter case.

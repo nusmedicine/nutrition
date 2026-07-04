@@ -1,0 +1,34 @@
+# Data for the PillarsHub island (Chapter 1, Why nutrition matters).
+# A radial hub-and-spoke: nutrition at the centre, the five other pillars around it, each
+# joined by a two-way link. Click a pillar to reveal how it and nutrition act on each other.
+# No asset paths — pure content.
+id: pillars-hub
+title: "The six pillars — nutrition at the hub"
+hub:
+  label: Nutrition
+  note: >-
+    Nutrition connects to every other pillar, in both directions — which is why pulling on it
+    tends to move the whole web. Click a pillar to see the two-way link.
+pillars:
+  - id: activity
+    label: Activity
+    full: Physical activity
+    link: "Diet and movement act together on weight and glucose — neither alone is as effective as both."
+  - id: sleep
+    label: Sleep
+    full: Restorative sleep
+    link: "Short sleep lowers insulin sensitivity and raises appetite and intake of energy-dense food, while late, heavy meals worsen sleep — a self-reinforcing loop."
+  - id: stress
+    label: Stress
+    full: Stress management
+    link: "Acute and chronic stress (the cortisol pathway) are thought to drive comfort-eating of palatable, energy-dense food."
+  - id: social
+    label: Social
+    full: Positive social connection
+    link: "Eating is profoundly social — family meals, communal hawker eating, festive food — so social context can entrench or transform a diet."
+  - id: substances
+    label: Substances
+    full: Avoiding risky substances
+    link: "Alcohol is itself dietary — empty energy that also disinhibits food choice."
+footer: "Start with nutrition, but plan across the pillars — fixing the diet often means touching sleep and stress too."
+credit: "The six pillars of health, after ACLM / lifestyle-medicine frameworks."

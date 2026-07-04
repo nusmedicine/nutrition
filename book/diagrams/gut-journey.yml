@@ -10,14 +10,14 @@ intro: >
   add their juices along the way.
 footnote: >
   Recognition-level overview. Absorption sites for specific nutrients (iron, B12,
-  calcium) are detailed in Chapter 4; what the liver does with absorbed nutrients
-  is Chapter 6; the gut microbiome is Chapter 7.
+  calcium) are detailed in the Micronutrients chapter; what the liver does with absorbed
+  nutrients is the Integrative Metabolism chapter; the gut microbiome is the Gut Microbiome chapter.
 organs:
   - id: mouth
     name: "Mouth"
     kind: tube
-    hx: 215
-    hy: 370
+    hx: 200
+    hy: 495
     hr: 100
     what: "Teeth grind food and the tongue mixes it with saliva into a soft bolus you can swallow."
     secretes: "Salivary amylase begins digesting starch; a little lingual lipase starts on fat."
@@ -25,24 +25,24 @@ organs:
   - id: salivary-glands
     name: "Salivary glands"
     kind: accessory
-    hx: 300
-    hy: 495
+    hx: 285
+    hy: 545
     hr: 50
     what: "Three pairs (parotid, submandibular, sublingual) release about 1–1.5 litres of saliva a day into the mouth."
     secretes: "Salivary amylase (starch), lingual lipase (fat), and mucus to lubricate the bolus."
   - id: oesophagus
     name: "Oesophagus"
     kind: tube
-    hx: 345
-    hy: 760
-    hr: 70
+    hx: 288
+    hy: 850
+    hr: 75
     what: "A muscular conduit — no digestion here. Peristalsis (travelling waves of muscle) pushes the bolus down to the stomach."
     note: "The lower oesophageal sphincter guards the entrance to the stomach; when it leaks, stomach acid rises and causes heartburn (reflux)."
   - id: stomach
     name: "Stomach"
     kind: tube
-    hx: 455
-    hy: 1285
+    hx: 385
+    hy: 1465
     hr: 112
     what: "Stores, churns, and starts protein digestion. It empties over a few hours — a fatty or large meal empties more slowly."
     secretes: "Parietal cells make hydrochloric acid (very acidic, pH ~1.5–3.5) plus intrinsic factor; chief cells make pepsin, which cuts protein into peptides."
@@ -51,16 +51,16 @@ organs:
   - id: liver
     name: "Liver"
     kind: accessory
-    hx: 245
-    hy: 1150
+    hx: 178
+    hy: 1360
     hr: 120
     what: "Continuously makes bile, and receives all the nutrient-rich blood draining from the gut through the portal vein."
-    secretes: "Bile — a detergent that emulsifies fat into tiny droplets so enzymes can reach it. (What the liver does with absorbed nutrients is Chapter 6.)"
+    secretes: "Bile — a detergent that emulsifies fat into tiny droplets so enzymes can reach it. (What the liver does with absorbed nutrients is the Integrative Metabolism chapter.)"
   - id: gallbladder
     name: "Gallbladder"
     kind: accessory
-    hx: 300
-    hy: 1320
+    hx: 125
+    hy: 1455
     hr: 46
     what: "Stores and concentrates bile between meals, then squeezes it into the duodenum when a fatty meal arrives."
     hormone: "CCK (released by the duodenum when fat and protein arrive) is the signal that makes it contract."
@@ -68,8 +68,8 @@ organs:
   - id: pancreas
     name: "Pancreas"
     kind: accessory
-    hx: 330
-    hy: 1470
+    hx: 215
+    hy: 1635
     hr: 60
     what: "The digestive workhorse: it pours about 1.5 litres a day of enzyme- and bicarbonate-rich juice into the duodenum."
     secretes: "Amylase, lipase (+colipase), and protein-cutting enzymes made in an inactive form; bicarbonate neutralises the acid arriving from the stomach."
@@ -78,8 +78,8 @@ organs:
   - id: small-intestine
     name: "Small intestine"
     kind: tube
-    hx: 345
-    hy: 1945
+    hx: 300
+    hy: 2080
     hr: 150
     what: "The main event (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes make the final cut, and nutrients are absorbed across a huge folded surface."
     secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides) — the last snip before absorption."
@@ -88,8 +88,8 @@ organs:
   - id: large-intestine
     name: "Large intestine"
     kind: tube
-    hx: 500
-    hy: 1840
-    hr: 92
+    hx: 100
+    hy: 1980
+    hr: 82
     what: "Reabsorbs water and electrolytes from what's left, compacts it into stool, and stores it until defecation."
-    note: "Resident bacteria ferment leftover fibre (and any undigested lactose, producing gas) — that story belongs to Chapter 7."
+    note: "Resident bacteria ferment leftover fibre (and any undigested lactose, producing gas) — that story belongs to the Gut Microbiome chapter."

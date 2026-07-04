@@ -426,6 +426,11 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
   insulin/glucagon physiology review cited "for local relevance" does not.)*
 - **Cite everything** with a `@key` that exists in `book/references.bib`; log any figure/photo
   in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
+- **Cross-reference chapters by NAME, not number.** Write "the *Integrative Metabolism* chapter",
+  never "Chapter 6" — names survive re-ordering (Part I was resequenced once already). Use the form
+  Ch.2/Ch.3 model: **"the *X* chapter"** in title case, keeping `&` in compound titles ("the
+  *Digestion & Absorption* chapter"). This applies in **island data** (`diagrams/*.yml`) as well as
+  prose. Forward-references to not-yet-written chapters use a generic name ("the diabetes chapter").
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a
   paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.
 - **Asset paths — write root-absolute, they're auto-handled.** Use `/figures/…`, `/structures/…`,
@@ -444,6 +449,13 @@ if needed) → choice → …*, covering several decisions germane to the chapte
 points into **choices**, not passive `info` "reveal" dumps between questions; let connective
 facts ride in an option's **feedback** or a one-line bridge. Keep to ~4–5 MCQs for an *intro*
 case (the Macronutrients "Mr Lim" case is the worked example).
+
+- **In-chapter cases are MCQ/choice-only — NO live AI `patient-chat` node.** The guardrailed AI
+  patient belongs **only** in the Integrated cases chapter (the `sim-*.case.yml` files). A per-chapter
+  case ends after its MCQs (route → an `info`/`end` node). This keeps the **two-versions model** clean:
+  deterministic choice-drills in the chapters, conversational AI in the Integrated cases.
+  `scripts/validate-cases.mjs` enforces it (build/lint fails if a non-`sim-` case contains a
+  `patient-chat` node) — run it after touching any case.
 
 - **Stay at the chapter's altitude — don't test a skill the curriculum hasn't taught yet.**
   *When to advise vs refer*, diet history and counselling are **Part II/IV** skills (Ch.11
