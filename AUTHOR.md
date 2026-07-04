@@ -409,7 +409,18 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
   paragraph + a forward-ref. Structure is for *scanning*, not length.
 - **Evidence honesty:** state the benefit *and* its caveat; name a landmark trial only *with*
   its limits (relative vs absolute, surrogate endpoint, certainty grade).
-- **Singapore-first:** anchor to HPB/MOH tools and hawker/home realities before generalising.
+- **Singapore-first:** anchor to HPB/MOH tools and hawker/home realities before generalising. The
+  Singapore context is about **practical issues and the social/cultural side of eating** (food culture,
+  festivals, religious fasting, the local food environment, national policy), *not* local research for
+  its own sake.
+- **Local-research citations — the postcode is not a reason.** Cite a Singapore/local study only when it
+  (a) examines the **socio-cultural** side of diet (dietary patterns, eating behaviour, cultural food
+  practice, food environment, population nutrition status, national policy/surveys) **or** (b) supports
+  **evidence-based clinical practice** (a local trial/clinical study guiding risk, prevention or
+  management). Do **not** cite local **basic/mechanistic** research (biochemistry, physiology,
+  cell/animal metabolism) merely because it is Singaporean — use the best international source instead.
+  *(Example: the Ramadan/diabetes FAST RCT and the SGH hypoglycaemia survey belong; an A\*STAR
+  insulin/glucagon physiology review cited "for local relevance" does not.)*
 - **Cite everything** with a `@key` that exists in `book/references.bib`; log any figure/photo
   in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a

@@ -268,6 +268,14 @@ research/                          evidence repo — curriculum-map.md spine; ch
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
 
 ## 11. Open items / risks
+**New editorial rule (2026-07-04, now in [`AUTHOR.md`](AUTHOR.md) §11d + memory
+[[singapore-context-citation-principle]]):** the Singapore context is the **practical + social/cultural**
+side of diet (food culture, festivals, Ramadan, hawker/supper culture, national policy) — **not** a
+showcase for local research. Cite a Singapore study only if it is **socio-cultural** or supports
+**evidence-based clinical practice**; never local basic-metabolism "for local relevance" (e.g. the A\*STAR
+`roder2016pancreatic` review — flagged do-not-use in the Ch.6 dossier). A `Workflow` audit of all Part I
+chapters (2026-07-04) found **every local citation already appropriate** — no cuts needed.
+
 **Shipped & live this session** (no longer open): proxy deployed; book published to GitHub Pages
 via `publish.yml`; deployment base-path resolved (`lib/base.js` `resolveAsset`, verified at a subpath).
 
