@@ -1,16 +1,31 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-03.**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-04.**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
-> **ACTIVE THREAD = authoring Part I.** This session: **expanded Ch.4 Micronutrients** and **authored
-> Ch.5 Digestion & Absorption end-to-end** (research dossier → draft → illustrated interactive), and
-> made asset paths **deploy-safe automatically** (§2.1). All pushed & live.
-> **Next session (most likely):** continue Part I with the proven research→draft pipeline (§2.1) —
-> **Ch.6 Gut Microbiome**, **Ch.7 Integrative Metabolism**, **Ch.8 Appetite** (all net-new ✨, need a
-> dossier first); plus two small Ch.5 to-dos: **recalibrate the gut-island hotspots** (targeting is
-> slightly off — user deferred) and **clear the Ch.5 dossier's verify-before-lock flags** (§11).
+> **ACTIVE THREAD = authoring Part I (research-dossier phase).** **This session was research + planning
+> only — no chapters drafted, no git commits** (all working-tree; see §10). It produced two net-new
+> adversarially-verified dossiers and resequenced Part I:
+> **① Part I RESEQUENCED (Option X, evidence-backed):** Integrative Metabolism and Gut Microbiome
+> **swapped** → **5 Digestion → 6 Integrative Metabolism → 7 Gut Microbiome → 8 Appetite**. Rationale (in
+> `curriculum-map.md`): a rich integrative microbiome chapter belongs *after* its metabolism prerequisite;
+> appetite stays the Part I capstone. Ripple-fixed everywhere (dossier cross-refs, the **live**
+> `gut-journey.yml`, `AUTHOR.md`).
+> **② Ch.7 Gut Microbiome dossier — DONE + verified** ([`research/chapters/gut-microbiome.md`](research/chapters/gut-microbiome.md), 🟢).
+> **③ Ch.6 Integrative Metabolism dossier — DONE + verified, then EXPANDED (user steer) into a
+> self-contained two-layer chapter** ([`research/chapters/integrative-metabolism.md`](research/chapters/integrative-metabolism.md), 🟢):
+> **Part A = the metabolic map** (the core pathways + how they interconnect, taught from scratch at
+> *interconnection-map* depth — **no biochem course assumed**) → **Part B = the dynamic integration**
+> (fed/fasted/starvation/exercise inter-organ flow). Decision: the pathways are a hard prerequisite for the
+> integration, so Ch.6 carries them itself; the old "assume a parallel biochem course" scheduling
+> constraint is now **resolved**.
+> **Next session (most likely):** **draft Ch.6 and/or Ch.7** (qmd + islands via §2.1 — for Ch.6 the
+> *build-the-map* stepper (Part A) + *metabolic-switch* fed→fasted→starved island (Part B) on a **shared
+> node manifest**; for Ch.7 the *SCFA-fermentation flow* island), and/or start the **Ch.8 Appetite**
+> dossier (net-new ✨). **Before drafting any of Ch.5/6/7, clear each dossier's §11 verify-before-lock
+> flags** (mostly: pin placeholder PMIDs + figures). Two small Ch.5 to-dos also remain (recalibrate the
+> gut-island hotspots; clear the Ch.5 dossier flags).
 > **The LLM simulated-patient feature is BUILT, verified & DEPLOYED (§3–§4)** — complete; only touch
 > it if that becomes the focus (open decisions in §11).
 > Read order: this file → [`AUTHOR.md`](AUTHOR.md) §11 (chapter template + **§11d asset-path rules**) →
@@ -25,28 +40,47 @@ self-test quizzes + branching **clinical cases** (visual-novel patient portraits
 (`research/`). Branding: **"Health in Medicine"**, *not* "lifestyle medicine".
 
 ## 2. Where we are
-**Part I now has 5 authored chapters** (all rendered clean + browser-verified + live):
-- **Preface** ([`index.qmd`](book/index.qmd)); **Ch.1** six pillars; **Ch.2** energy balance;
-  **Ch.3 Macronutrients** = THE template reference ([`AUTHOR.md`](AUTHOR.md) §11); **Ch.4
-  Micronutrients & hydration** — *expanded this session* (fat- & water-soluble vitamins built on
-  classic-deficiency-disease hooks, minerals, a **molecule gallery** [vitamin C / retinol / D3],
-  licence-verified food photos, quiz 6→12); **Ch.5 Digestion & Absorption** — *new this session*, a
-  "follow the food" chapter with an illustrated interactive tract, a Mermaid enterohepatic loop, an
-  ORT case, and a "Same food, different speed" section (eating / preparation / food interactions).
-- **Integrated cases chapter** ([`chapters/cases.qmd`](book/chapters/cases.qmd)): four
-  **simulated-patient (LLM chat)** encounters (§5).
-- Each chapter has a quiz + a case; research dossiers live in `research/chapters/`.
+**Part I = 5 authored + live chapters, PLUS 2 net-new adversarially-verified dossiers ready to write.**
+
+**Authored & live** (rendered clean + browser-verified): **Preface** ([`index.qmd`](book/index.qmd));
+**Ch.1** six pillars; **Ch.2** energy balance; **Ch.3 Macronutrients** = THE template reference
+([`AUTHOR.md`](AUTHOR.md) §11); **Ch.4 Micronutrients & hydration**; **Ch.5 Digestion & Absorption** (a
+"follow the food" chapter with an illustrated tract island, a Mermaid enterohepatic loop, an ORT case).
+*(Ch.4 expand + Ch.5 authoring were the **prior** session.)*
+
+**Dossiers ready to write** (🟢, both verified this session — drafting is the next step):
+- **Ch.6 Integrative Metabolism** ([`integrative-metabolism.md`](research/chapters/integrative-metabolism.md)) —
+  **two-layer, self-contained**: Part A = the metabolic map (pathways + interconnection at *map depth*),
+  Part B = fed/fasted/starvation/exercise inter-organ flow. Islands: *build-the-map* stepper (A) +
+  *metabolic-switch* island (B), on a **shared node manifest**.
+- **Ch.7 The Gut Microbiome** ([`gut-microbiome.md`](research/chapters/gut-microbiome.md)) — composition,
+  **fibre→SCFA fermentation (owned)**, microbial vitamins, pre/pro/synbiotics + fermented foods, diet as
+  modulator, gut–brain *microbial* mechanism. Island: *SCFA-fermentation flow*.
+
+**Integrated cases chapter** ([`chapters/cases.qmd`](book/chapters/cases.qmd)): four **simulated-patient
+(LLM chat)** encounters (§5). Each authored chapter has a quiz + a case; dossiers live in `research/chapters/`.
 
 **Interactive islands** (Svelte 5, `components/src/`, registered in `main.js`):
-`quiz`, `case` (CasePlayer + live patient-chat), `gi`, `molecule`, `protein`, **`gut`** (new — Ch.5
-clickable digestive tract: a Servier illustration + a hotspot overlay + a detail panel).
+`quiz`, `case` (CasePlayer + live patient-chat), `gi`, `molecule`, `protein`, **`gut`** (Ch.5 clickable
+digestive tract: Servier illustration + hotspot overlay + detail panel). **Planned (dossier-specced, not
+built):** `metabolic-switch` + `build-the-map` (Ch.6 — share one node manifest so Layer B "comes alive"
+from Layer A) and an SCFA-fermentation island (Ch.7). All follow the `GutJourney` illustrated-interactive
+pattern; Ch.6/Ch.7 also add RDKit molecule galleries (SCFAs; ketone bodies).
 
 ## 2.1 The research → draft pipeline (how Ch.4/Ch.5 were built — reuse this)
 For a net-new or expanded chapter:
-1. **Research** — fan out parallel agents (or a `Workflow` under ultracode) over the chapter's
-   sub-domains, web-grounded + **adversarially verified** (they've caught a *retracted* paper and a
-   textbook "tennis-court" myth). Output → a dossier `research/chapters/<topic>.md` at the
-   `_template.md` standard, honouring the overlap-ownership table in the curriculum map.
+1. **Research** — fan out parallel agents over the chapter's sub-domains, web-grounded. Output → a dossier
+   `research/chapters/<topic>.md` at the `_template.md` standard, honouring the overlap-ownership table in
+   the curriculum map. **Two hard-won agent gotchas (2026-07-04, see memory [[research-subagent-gotchas]]):**
+   (a) give each research subagent an explicit *"do the research YOURSELF; do NOT spawn sub-agents"* rule —
+   some general-purpose agents sub-delegate and return a status message instead of content (re-run them
+   cleanly with the guardrail); (b) subagents routinely **misattribute PMIDs** (right paper, wrong numeric
+   ID — caught **3×** this session: Roediger, Unger, Rizza), so citations MUST be refute-tested (step 1b).
+1b. **Adversarially verify — before marking a dossier 🟢.** Run a dedicated **`Workflow`** that refute-tests
+   the load-bearing claims (independent agents told to *disprove* each) + a **completeness/consistency
+   critic** reading the assembled dossier (contradictions, citation-key collisions, altitude/boundary creep,
+   scope gaps vs the curriculum map). This pass has caught the wrong-PMID class **every** time plus a
+   *retracted* paper and a textbook "tennis-court" myth. Fold corrections back in; log residual checks in §11.
 2. **Sourcing** — figures/structures/widgets, licence-verified (**CC0/PD/CC-BY/CC-BY-SA only**):
    **RDKit** for molecules; **Servier Medical Art on Wikimedia Commons** (search `Smart-Servier`,
    CC-BY) for illustrated anatomy; **Quarto Mermaid** for flow/loop diagrams (no drawing).
@@ -196,33 +230,41 @@ components/src/                    main.js(REGISTRY), CasePlayer(+chat), Quiz, G
                                    GutJourney(Ch.5 tract), lib/{engine,expr,md,store,patient,config,base,manifest}.js
                                    (base.js=resolveAsset subpath-safe; manifest.js=loadManifest auto-resolves asset paths)
 spikes/llm-patient/                throwaway bake-off + eval/ (battery.json, run-hosted.mjs, FINDINGS-hosted.md)
-research/                          evidence repo (curriculum-map.md spine, chapter dossiers)
+research/                          evidence repo — curriculum-map.md spine; chapter dossiers incl. NEW
+                                   gut-microbiome.md + integrative-metabolism.md (both 🟢, verified 2026-07-04)
 ```
 
 ## 10. Git state
-- **Deploy branch `main`** (also on `curriculum-restructure`, identical tip) — **pushed** to
-  `github.com/nusmedicine/nutrition`; the Pages CI deploys `main` → <https://nusmedicine.github.io/nutrition/>.
-  (Old `master` = pre-session baseline; ignore it.)
-- **⚠ NOT YET PUSHED:** the newest two commits — `c10b895` Ch.5 "Same food, different speed" section
-  and this HANDOVER update — are **local only**. `git push origin main` to deploy them (CI: build →
-  render → asset-check → Pages). The section is reviewed-good; it just isn't live yet.
-- Arc (newest first) — **this session**: `c10b895` Ch.5 "Same food, different speed" section *(local)* ·
-  `ec0202b` auto path-safety (loadManifest + `check-assets` CI gate + AUTHOR docs) · `9753bef` Ch.5
-  Servier illustrated tract · `16251a3` Ch.5 cleaner schematic + Mermaid loop · `b44e89a` Ch.5
-  Digestion & Absorption chapter · `c0283ca` Ch.4 micronutrients expanded *(these six through
-  `ec0202b` are pushed & live)*.
-  Earlier: `05362ba`/`420c5f3` docs+base-path+Pages CI · the LLM-patient arc (`1676648` … `18c693f`).
-  Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
+- **No commits this session** — research + planning only. **All changes are in the working tree,
+  uncommitted;** review + commit when ready. Changed files:
+  - `research/chapters/gut-microbiome.md` **(new)** · `research/chapters/integrative-metabolism.md` **(new)**
+  - `research/00-overview/curriculum-map.md` (Part I resequence 6↔7; Ch.6 → two-layer; statuses → 🟢;
+    scheduling-constraint resolved; overlap-table edits)
+  - `research/chapters/digestion-absorption.md` (Ch.5-dossier cross-ref renumbering from the resequence)
+  - `book/diagrams/gut-journey.yml` **(⚠ LIVE / deployed asset)** — chapter-number fixes from the resequence
+  - `AUTHOR.md` (chapter-number references) · `HANDOVER.md` (this file)
+  - session scratch + verification-workflow scripts (throwaway; ignore).
+- **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. `git status` at session
+  start showed tip **`ecc5531`** ("flag unpushed commits") over `9b0cb95` / `c10b895` (Ch.5). **Reconcile the
+  push state** before/after committing — the prior HANDOVER flagged `c10b895` as local-only; check with
+  `git log origin/main..main`.
+- ⚠ **`gut-journey.yml` is a deployed asset:** committing + pushing its chapter-ref fix changes the live
+  Ch.5 island's forward-references (harmless — they point at not-yet-published chapters, now numbered right).
+- Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
 
 ## 11. Open items / risks
 **Shipped & live this session** (no longer open): proxy deployed; book published to GitHub Pages
 via `publish.yml`; deployment base-path resolved (`lib/base.js` `resolveAsset`, verified at a subpath).
 
 Open decisions / next work:
-- **Continue Part I (the active thread):** author **Ch.6 Gut Microbiome**, **Ch.7 Integrative
-  Metabolism**, **Ch.8 Appetite** — all net-new ✨, so **dossier first** via the §2.1 pipeline. Mind
-  the overlap-ownership table (Ch.5 already *owns* gut hormones + bile/enterohepatic; Ch.6 owns
-  SCFAs/fermentation; Ch.8 reuses the satiety-hormone role). See `curriculum-map.md`.
+- **Continue Part I (the active thread) — resequenced 2026-07-04** (5 Digestion → 6 Integrative Metabolism
+  → 7 Gut Microbiome → 8 Appetite). **Ch.6 + Ch.7 dossiers done + verified (🟢);** **Ch.6 is now a two-layer,
+  self-contained chapter** (Part A pathways map + Part B integration — it teaches the pathways itself, no
+  biochem course assumed). Next: **draft Ch.6/Ch.7** (qmd + islands via §2.1) and/or start the **Ch.8
+  Appetite** dossier (net-new ✨, dossier-first). Overlap-ownership (`curriculum-map.md`): Ch.5 owns gut
+  hormones + bile/enterohepatic; **Ch.6** owns the pathway map + fed/fasted integration; **Ch.7** owns
+  SCFAs/fermentation + gut–brain; Ch.8 reuses the satiety-hormone role. **Clear each dossier's §11
+  verify-before-lock flags before drafting** (mostly: pin placeholder PMIDs/figures).
 - **Ch.5 gut-island hotspots are slightly off** (user deferred): recalibrate `hx/hy/hr` in
   [`gut-journey.yml`](book/diagrams/gut-journey.yml) — reveal-all-hotspots then nudge; method in
   memory [[book-preview-verification]].
@@ -246,3 +288,6 @@ Open decisions / next work:
   **Servier Medical Art (CC-BY) for illustrated diagrams; BioRender can't be traced; hotspot-overlay pattern.**
 - [[book-preview-verification]] — browser-verify islands: render out-of-tree → copy `_book` in-tree →
   `preview_start "book"` (port 8780) → `preview_eval` navigate; Svelte reactivity is async (await before reading DOM).
+- [[research-subagent-gotchas]] — research subagents sometimes **sub-delegate** and return a status message
+  (add a "do it yourself, no sub-agents" guardrail) and routinely **misattribute PMIDs** (right paper, wrong
+  ID) — always run the adversarial-verification `Workflow` to refute-test citations before a dossier is 🟢.

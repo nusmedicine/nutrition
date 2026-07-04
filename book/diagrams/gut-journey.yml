@@ -11,7 +11,7 @@ intro: >
 footnote: >
   Recognition-level overview. Absorption sites for specific nutrients (iron, B12,
   calcium) are detailed in Chapter 4; what the liver does with absorbed nutrients
-  is Chapter 7; the gut microbiome is Chapter 6.
+  is Chapter 6; the gut microbiome is Chapter 7.
 organs:
   - id: mouth
     name: "Mouth"
@@ -55,7 +55,7 @@ organs:
     hy: 1150
     hr: 120
     what: "Continuously makes bile, and receives all the nutrient-rich blood draining from the gut through the portal vein."
-    secretes: "Bile — a detergent that emulsifies fat into tiny droplets so enzymes can reach it. (What the liver does with absorbed nutrients is Chapter 7.)"
+    secretes: "Bile — a detergent that emulsifies fat into tiny droplets so enzymes can reach it. (What the liver does with absorbed nutrients is Chapter 6.)"
   - id: gallbladder
     name: "Gallbladder"
     kind: accessory
@@ -92,4 +92,4 @@ organs:
     hy: 1840
     hr: 92
     what: "Reabsorbs water and electrolytes from what's left, compacts it into stool, and stores it until defecation."
-    note: "Resident bacteria ferment leftover fibre (and any undigested lactose, producing gas) — that story belongs to Chapter 6."
+    note: "Resident bacteria ferment leftover fibre (and any undigested lactose, producing gas) — that story belongs to Chapter 7."

@@ -351,7 +351,7 @@ island (e.g. *Glycaemic index and load*):
 2. **What it does** — core physiological role(s), briefly.
 3. **From plate to cell** — digestion → absorption → metabolism **in outline**. Keep this to
    *one short paragraph* and **forward-reference the owner chapter** — the mechanisms live in
-   *Digestion & Absorption* (Ch.5), *The Gut Microbiome* (Ch.6) and *Integrative Metabolism*
+   *Digestion & Absorption* (Ch.5), *Integrative Metabolism* (Ch.6) and *The Gut Microbiome*
    (Ch.7). Do **not** duplicate them here (see the overlap-ownership table in
    [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)).
 4. **Quality & thresholds** — which forms are better, the evidence (with its honest caveat),
