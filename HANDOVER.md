@@ -286,17 +286,19 @@ research/                          evidence repo — curriculum-map.md spine; ch
 ```
 
 ## 10. Git state
-- **Many commits across recent sessions, NONE pushed (user chose "commit, don't push").** Highlights:
-  - **`1e9fcf8`** Ch.6+Ch.7 dossiers (verified) + Part I resequence; **`0b5046a`** Ch.6 draft + islands;
-    Ch.6 follow-ups (SG-context reframe, restored Ramadan clinical cites, citation-principle codified).
-  - **`01471b1`** Ch.7 draft + `scfa-flow` island; **`995a202`** Ch.6/Ch.7 unwritten-chapter refs → by name;
-    **`62ba8ad`** Ch.7 fix 2 wrong-PMID citations (adversarial verify: chaudhary→29497795, yeo→khine2021multiethnic).
-- **`git log origin/main..main`** = the full unpushed stack (13+ commits back through `c10b895`).
-  Nothing has been pushed; a push triggers the Pages CI redeploy → <https://nusmedicine.github.io/nutrition/>.
+- **✅ PUSHED to `origin/main` 2026-07-05** — the whole Ch.6/Ch.7/Ch.8 stack (Part I complete + review +
+  first-year cleanup + citation-principle) is now on the remote and **deploying via the Pages CI** →
+  <https://nusmedicine.github.io/nutrition/>. Working tree clean; `git log origin/main..main` should be empty.
+  What shipped this push (highlights): Ch.6 (`0b5046a` + SG/citation follow-ups), Ch.7 (`01471b1` + the
+  `62ba8ad` wrong-PMID fixes), Ch.8 (`621ce6d` + `c1c5a1c` verified dossier), the Part I review fixes
+  (`f2ab204`), and the dossiers/curriculum resequence (`1e9fcf8`).
+- **Verify the deploy after pushing:** `gh run list --limit 3` (or the repo Actions tab) — the `publish.yml`
+  workflow builds islands → renders → **asset check** → deploys `book/_book`. If it fails, it is almost
+  always a missing-asset path (check-assets gate) or a `.bib` key — both are green locally as of this push.
 - **Untracked / left alone:** `Update Health in Medicine 2026 v2.pptx` (user file); throwaway scratch
-  (`…/scratchpad/render.mjs`, `ch6-refs.bib`, `ch7-refs.bib`, `gen_*.py`) under the session temp dir.
-- **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. When ready to publish,
-  `git push` sends the whole stack at once. `book/_book/` is gitignored (built by CI).
+  (`…/scratchpad/render.mjs`, `ch6/7/8-refs.bib`, `gen_*.py`) under the session temp dir.
+- **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. `book/_book/` is
+  gitignored (built by CI). Future work: commit on `main`, push when ready — each push redeploys.
 - **Local preview:** `.claude/launch.json` has a **`book-preview`** config (serves the out-of-tree render at
   `%TEMP%\book-health-preview\_book`, port 8781) — used because the in-tree `book/_book` copy intermittently
   hits the Dropbox lock. Render via the Node script (`fs.cpSync` out-of-tree + `quarto render` + copy back).
