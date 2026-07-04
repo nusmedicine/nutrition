@@ -14,6 +14,12 @@
       "port": 8780
     },
     {
+      "name": "book-preview",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["-m", "http.server", "8781", "--directory", "C:/Users/Admin/AppData/Local/Temp/book-health-preview/_book"],
+      "port": 8781
+    },
+    {
       "name": "book-src",
       "runtimeExecutable": "python",
       "runtimeArgs": ["-m", "http.server", "8790", "--directory", "book"],

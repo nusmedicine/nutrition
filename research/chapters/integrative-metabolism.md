@@ -1,7 +1,7 @@
 ---
 chapter: 6
 title: "Integrative Metabolism (Fed / Fasted)"
-status: 🟢 ready to write   # two-layer (Part A pathways map + Part B integration); BOTH layers adversarially verified; pre-write flags in §11
+status: ✍️ DRAFTED (2026-07-04)   # book/chapters/integrative-metabolism.qmd written, rendered clean & browser-verified. Two-layer; both layers adversarially verified. Residual lock-time flags (§11): krebs alcohol PMID unpinned (used 1969 Biochem J), StatPearls bookshelf IDs, Servier-composite N/A (islands drawn bespoke in-SVG).
 book_chapter: ../../book/chapters/integrative-metabolism.qmd
 pillars: [nutrition]
 last_updated: 2026-07-04

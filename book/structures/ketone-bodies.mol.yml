@@ -1,0 +1,31 @@
+id: ketone-bodies
+title: "The ketone bodies"
+intro: >
+  In a prolonged fast the liver converts surplus acetyl-CoA from fat breakdown into these three
+  small, water-soluble molecules and exports them for the brain and other organs to burn. Note
+  that "ketone bodies" is a loose label — β-hydroxybutyrate is chemically a hydroxy-acid, not a
+  true ketone. Acetone is the volatile one you can smell on the breath in deep ketosis or
+  ketoacidosis. Rotate each to see how simple they are.
+molecules:
+  - id: beta-hydroxybutyrate
+    name: "β-Hydroxybutyrate"
+    sdf: /structures/beta-hydroxybutyrate.sdf
+    svg: /structures/beta-hydroxybutyrate.svg
+    note: >
+      The most abundant "ketone body" in the blood during fasting — and, strictly, a hydroxy-acid
+      rather than a ketone. It is the main ketone fuel the brain switches to over days of fasting.
+  - id: acetoacetate
+    name: "Acetoacetate"
+    sdf: /structures/acetoacetate.sdf
+    svg: /structures/acetoacetate.svg
+    note: >
+      A true ketone and the direct product of hepatic ketogenesis. It interconverts with
+      β-hydroxybutyrate and can spontaneously lose CO₂ to form acetone.
+  - id: acetone
+    name: "Acetone"
+    sdf: /structures/acetone.sdf
+    svg: /structures/acetone.svg
+    note: >
+      Volatile and exhaled — the "fruity" or nail-polish smell on the breath in deep ketosis or
+      diabetic ketoacidosis. It is a minor fuel but a useful clinical clue.
+credit: "Structures: generated with RDKit (CC0)."

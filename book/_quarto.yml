@@ -23,6 +23,7 @@ book:
         - chapters/macronutrients.qmd
         - chapters/04-micronutrients-hydration.qmd
         - chapters/digestion-absorption.qmd
+        - chapters/integrative-metabolism.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

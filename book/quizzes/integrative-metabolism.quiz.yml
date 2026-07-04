@@ -1,0 +1,108 @@
+id: integrative-metabolism-basics
+title: "Quick check: the fed and fasted body"
+questions:
+  - id: q-fat-to-glucose
+    stem: "Can the body turn fat into glucose?"
+    options:
+      - text: "No net conversion — only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot."
+        correct: true
+        feedback: "Correct — and this is the keystone fact of the chapter. Fatty acids become acetyl-CoA, and pyruvate → acetyl-CoA (PDH) is a one-way door, so fatty-acid carbon cannot go back to glucose. Only glycerol can."
+      - text: "Yes — fat is readily converted to glucose whenever blood sugar is low."
+        correct: false
+        feedback: "No. This is the most important misconception to unlearn. The one-way PDH step means fatty-acid carbon cannot become glucose — which is exactly why the body must defend and remake glucose in a fast."
+      - text: "No — no part of fat can ever contribute to glucose."
+        correct: false
+        feedback: "Almost — but the glycerol backbone of a triglyceride IS glucogenic. It's the fatty-acid carbons that cannot become glucose."
+  - id: q-muscle-glycogen
+    stem: "Your muscles hold most of the body's glycogen. Why can't that glycogen raise your blood sugar during a fast?"
+    options:
+      - text: "Muscle lacks glucose-6-phosphatase, so it cannot release free glucose — only the liver and kidney can."
+        correct: true
+        feedback: "Correct. Muscle glycogen is trapped for local use. Muscle helps blood glucose only indirectly, by sending lactate (Cori cycle) or alanine to the liver."
+      - text: "Muscle glycogen is used up before a fast even begins."
+        correct: false
+        feedback: "No — muscle keeps plenty of glycogen. The issue is that it lacks the enzyme (glucose-6-phosphatase) to release free glucose to the blood."
+      - text: "Muscle can raise blood sugar, just more slowly than the liver."
+        correct: false
+        feedback: "No. Muscle cannot release any free glucose to the blood at all — it has no glucose-6-phosphatase. Only the liver and kidney can."
+  - id: q-insulin-anabolic
+    stem: "Which statement about insulin is most accurate?"
+    options:
+      - text: "It is the master anabolic hormone — it stores glucose AND fat AND builds protein."
+        correct: true
+        feedback: "Correct. 'Insulin = the sugar hormone' undersells it. It is the store-and-build conductor across all three macronutrients."
+      - text: "Its only job is to lower blood glucose."
+        correct: false
+        feedback: "Too narrow. Lowering glucose is one effect; insulin also stores fat (and blocks its breakdown) and builds protein."
+      - text: "It raises blood glucose in the fasted state."
+        correct: false
+        feedback: "No — that's glucagon's job. Insulin and glucagon are reciprocal: insulin is the fed/storage signal."
+  - id: q-glut
+    stem: "After a meal, why does glucose uptake surge in muscle and fat but not in the liver?"
+    options:
+      - text: "Muscle and fat use GLUT4, which insulin brings to the cell surface; the liver uses GLUT2, which works without insulin."
+        correct: true
+        feedback: "Correct. GLUT4 is insulin-dependent, so a meal switches on muscle/fat uptake. GLUT2 (liver) just admits glucose in proportion to concentration; insulin acts on the liver's enzymes, not its glucose door."
+      - text: "The liver has no way to take up glucose."
+        correct: false
+        feedback: "No — the liver takes up glucose readily through GLUT2. The difference is that its door doesn't need insulin, so uptake doesn't 'surge' the way GLUT4-dependent muscle and fat do."
+      - text: "The liver only takes up glucose during fasting."
+        correct: false
+        feedback: "No. The liver takes up glucose after a meal (via GLUT2) and releases it during fasting. GLUT2 is insulin-independent."
+  - id: q-scot
+    stem: "In a prolonged fast the liver makes large amounts of ketone bodies. Why does it export them rather than burn them itself?"
+    options:
+      - text: "The liver lacks the enzyme (SCOT) needed to use ketones, so it is a ketone factory that ships its whole output to other organs."
+        correct: true
+        feedback: "Correct. The liver makes ketones for the brain, muscle and heart but cannot use its own — a neat piece of metabolic division of labour."
+      - text: "The liver has no use for energy during a fast."
+        correct: false
+        feedback: "No — the liver is very active in a fast (making glucose and ketones). It simply lacks SCOT, the enzyme to burn ketones, so it exports them."
+      - text: "Ketones are toxic to the liver."
+        correct: false
+        feedback: "No. The liver exports ketones because it lacks the enzyme (SCOT) to use them, not because they harm it."
+  - id: q-ketosis-dka
+    stem: "What actually distinguishes dangerous diabetic ketoacidosis (DKA) from the harmless ketosis of a keto diet or a fast?"
+    options:
+      - text: "The acidosis. DKA is defined by an acidic blood pH from uncontrolled insulin deficiency — the ketone levels can even overlap."
+        correct: true
+        feedback: "Correct. It's a common trap to think 'DKA = just very high ketones.' The discriminator is the acidosis (and the near-total lack of insulin behind it), not the ketone number alone."
+      - text: "Only the ketone concentration — DKA always has far higher ketones with no overlap."
+        correct: false
+        feedback: "Not quite. Deep nutritional ketosis and mild DKA ketone ranges can overlap. What defines DKA is the acidosis driven by uncontrolled insulin deficiency."
+      - text: "Nothing — they are the same process at different sizes."
+        correct: false
+        feedback: "No. Same molecules, but very different regulatory context: nutritional ketosis is restrained by residual insulin at normal pH; DKA is unrestrained insulin deficiency with acidosis. A healthy person on keto does not get DKA."
+  - id: q-rq
+    stem: "A person's respiratory quotient (RQ = CO₂ produced ÷ O₂ consumed) is measured at about 0.7. Which fuel are they mainly burning?"
+    options:
+      - text: "Mostly fat."
+        correct: true
+        feedback: "Correct. RQ ≈ 0.7 means mostly fat; RQ ≈ 1.0 means mostly carbohydrate. An RQ of 0.7 fits someone well into a fast."
+      - text: "Mostly carbohydrate."
+        correct: false
+        feedback: "That would be an RQ near 1.0. An RQ of 0.7 points to fat oxidation."
+      - text: "Mostly protein."
+        correct: false
+        feedback: "Protein sits around 0.8. An RQ of 0.7 indicates mostly fat."
+  - id: q-alcohol
+    stem: "Someone drinks heavily on an empty stomach after skipping meals and becomes confused and sweaty. What's the most likely metabolic problem?"
+    options:
+      - text: "Hypoglycaemia — alcohol blocks gluconeogenesis, and with glycogen already low the liver can make glucose by neither route."
+        correct: true
+        feedback: "Correct. Metabolising ethanol floods the liver with NADH, which blocks gluconeogenesis. With glycogen spent from skipped meals, both glucose sources are offline — a real, dangerous hypoglycaemia, not just 'being drunk.'"
+      - text: "Hyperglycaemia — alcohol is full of sugar and raises blood glucose."
+        correct: false
+        feedback: "No — this is the trap. Alcohol blocks glucose production; on an empty stomach it causes LOW blood sugar, not high."
+      - text: "Nothing metabolic — the symptoms are purely intoxication."
+        correct: false
+        feedback: "No. Tremor, sweating and confusion after drinking without eating should raise alcohol-induced hypoglycaemia — treat with glucose."
+  - id: q-glycolysis-o2
+    stem: "Does glycolysis (splitting glucose to pyruvate) need oxygen?"
+    options:
+      - text: "No — it runs in the cytosol without oxygen; oxygen is used later, at oxidative phosphorylation."
+        correct: true
+        feedback: "Correct. This is why red cells (no mitochondria) and sprinting muscle can still make ATP. When oxygen is short, pyruvate becomes lactate to keep glycolysis going."
+      - text: "Yes — glycolysis is the step where oxygen is consumed."
+        correct: false
+        feedback: "No — a very common misconception. Oxygen is used at oxidative phosphorylation, not in glycolysis. Glycolysis is oxygen-independent."

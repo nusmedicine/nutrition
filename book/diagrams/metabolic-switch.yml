@@ -1,0 +1,114 @@
+id: metabolic-switch
+title: "The metabolic switch: fed → fasted → starved"
+intro: >
+  The same pathways, now thrown by hormones. Step from just after a meal through to a prolonged
+  fast and watch the whole body change job: what each organ stores, burns, exports or makes, how
+  fuel flows between them, and where the insulin-to-glucagon balance and the respiratory quotient
+  sit. Click any organ for detail. This is Part A's map coming alive.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+viewBox: "0 0 720 440"
+
+organs:
+  - { id: brain,   name: "Brain",   x: 360, y: 58,  r: 46 }
+  - { id: liver,   name: "Liver",   x: 235, y: 200, r: 50 }
+  - { id: muscle,  name: "Muscle",  x: 505, y: 205, r: 48 }
+  - { id: adipose, name: "Fat",     x: 360, y: 330, r: 46 }
+  - { id: rbc,     name: "Red cell", x: 130, y: 320, r: 40 }
+  - { id: kidney,  name: "Kidney",  x: 575, y: 345, r: 40 }
+  - { id: gut,     name: "Gut (meal)", x: 120, y: 120, r: 40 }
+
+# Cargo colours for the flux arrows (keyed by kind).
+cargo:
+  glucose: "glucose"
+  fat: "fatty acids"
+  ketone: "ketones"
+  carbon: "lactate / alanine"
+  amino: "amino acids"
+
+states:
+  - id: fed
+    label: "Just ate"
+    when: "0–2 h · fed"
+    insulin: 85
+    glucagon: 15
+    rq: 0.95
+    summary: >
+      Insulin is high, glucagon low — the switch says STORE. The gut delivers the meal, and the
+      liver, muscle and fat all soak it up. Fat release is switched off.
+    organs:
+      brain:   { role: "runs on glucose", tone: burn,  detail: "Runs on glucose, as always — plenty to spare right now." }
+      liver:   { role: "storing", tone: store, detail: "Takes up glucose through GLUT2 (no insulin needed), refills glycogen, and packages the excess as fat shipped out in VLDL." }
+      muscle:  { role: "storing", tone: store, detail: "Insulin brings GLUT4 to the surface: glucose pours in to rebuild glycogen, and amino acids are taken up to build protein." }
+      adipose: { role: "storing", tone: store, detail: "GLUT4 uptake; lipoprotein lipase strips triglyceride from circulating lipoproteins to stock the fat cell. Insulin blocks fat release." }
+      rbc:     { role: "runs on glucose", tone: burn, detail: "Always glucose → lactate; it has no mitochondria." }
+      kidney:  { role: "quiet", tone: quiet, detail: "Little glucose-making needed while the meal is being absorbed." }
+    fluxes:
+      - { from: gut, to: liver,   kind: glucose, mag: 3, label: "glucose + amino acids" }
+      - { from: gut, to: muscle,  kind: glucose, mag: 2, label: "glucose" }
+      - { from: gut, to: adipose, kind: fat,     mag: 2, label: "dietary fat" }
+
+  - id: overnight
+    label: "Overnight fast"
+    when: "~12 h · post-absorptive"
+    insulin: 30
+    glucagon: 60
+    rq: 0.85
+    summary: >
+      Insulin has fallen, glucagon risen — the switch says MOBILISE. Liver glycogen is broken down
+      to hold blood glucose steady for the brain, while everything else starts to burn fat.
+    organs:
+      brain:   { role: "runs on glucose", tone: burn, detail: "Still almost entirely on glucose — which is exactly what the liver is defending." }
+      liver:   { role: "releasing glucose", tone: release, detail: "Glycogenolysis: breaks down its glycogen store and releases free glucose to the blood (it has the glucose-6-phosphatase to do so)." }
+      muscle:  { role: "burning fat", tone: burn, detail: "Switches toward burning fatty acids to spare glucose. Its own glycogen stays locked up for local use only." }
+      adipose: { role: "releasing fat", tone: release, detail: "Lipolysis begins: releases fatty acids (fuel for other tissues) and glycerol." }
+      rbc:     { role: "runs on glucose", tone: burn, detail: "Still glucose → lactate — one of the two reasons the liver must keep glucose up." }
+      kidney:  { role: "quiet", tone: quiet, detail: "Not yet a major glucose producer." }
+    fluxes:
+      - { from: liver,   to: brain,  kind: glucose, mag: 3, label: "glucose" }
+      - { from: adipose, to: muscle, kind: fat,     mag: 2, label: "fatty acids" }
+
+  - id: day
+    label: "A day without food"
+    when: "~1 day · gluconeogenic"
+    insulin: 18
+    glucagon: 75
+    rq: 0.80
+    summary: >
+      Liver glycogen is nearly spent. The liver now MAKES new glucose from lactate, glycerol and
+      amino acids, while fat fuels nearly everything else. Muscle sends carbon to the liver but
+      cannot release glucose itself.
+    organs:
+      brain:   { role: "mostly glucose", tone: burn, detail: "Still mostly glucose; ketones are only just beginning to rise." }
+      liver:   { role: "making glucose", tone: make, detail: "Gluconeogenesis: builds glucose from lactate (Cori cycle), glycerol, and amino acids arriving as alanine." }
+      muscle:  { role: "supplying carbon", tone: release, detail: "Burns fatty acids, and exports lactate and alanine to the liver as raw material for new glucose — it cannot make blood glucose itself (no glucose-6-phosphatase)." }
+      adipose: { role: "releasing fat", tone: release, detail: "Lipolysis in full flow: fatty acids fuel most tissues; glycerol feeds the liver's gluconeogenesis." }
+      rbc:     { role: "runs on glucose", tone: burn, detail: "Glucose → lactate, which returns to the liver (the Cori cycle)." }
+      kidney:  { role: "starting to help", tone: make, detail: "Beginning to contribute a little glucose of its own." }
+    fluxes:
+      - { from: muscle,  to: liver, kind: carbon,  mag: 3, label: "lactate + alanine" }
+      - { from: adipose, to: liver, kind: fat,     mag: 2, label: "glycerol" }
+      - { from: adipose, to: muscle, kind: fat,    mag: 3, label: "fatty acids" }
+      - { from: liver,   to: brain, kind: glucose, mag: 3, label: "glucose" }
+
+  - id: prolonged
+    label: "Prolonged fast"
+    when: "days–weeks · ketotic, protein-sparing"
+    insulin: 10
+    glucagon: 80
+    rq: 0.72
+    summary: >
+      The liver floods with fat-derived acetyl-CoA and exports KETONE bodies. The brain switches
+      mostly to ketones and demands far less glucose — so the body breaks down far less muscle
+      protein. This is the adaptation that stretches survival from weeks toward months.
+    organs:
+      brain:   { role: "on ketones", tone: ketone, detail: "Now draws the majority of its energy from ketone bodies; its glucose demand falls sharply — sparing protein." }
+      liver:   { role: "ketone factory", tone: ketone, detail: "Converts the surplus acetyl-CoA from fat into ketone bodies and exports them (it lacks the enzyme to burn its own). Still makes some glucose." }
+      muscle:  { role: "spared", tone: burn, detail: "Burns fatty acids and ketones; protein breakdown eases now that the brain needs less glucose." }
+      adipose: { role: "the main fuel", tone: release, detail: "The dominant fuel source: fatty acids for tissues and the feedstock for the liver's ketones." }
+      rbc:     { role: "runs on glucose", tone: burn, detail: "Still glucose-only — the glucose floor that never fully disappears, so a little gluconeogenesis always continues." }
+      kidney:  { role: "making glucose", tone: make, detail: "Now a second gluconeogenic organ — up to roughly 40–50% of glucose production in a prolonged fast." }
+    fluxes:
+      - { from: adipose, to: liver,  kind: fat,     mag: 3, label: "fatty acids → ketones" }
+      - { from: liver,   to: brain,  kind: ketone,  mag: 3, label: "ketones" }
+      - { from: adipose, to: muscle, kind: fat,     mag: 2, label: "fatty acids" }
+      - { from: kidney,  to: rbc,    kind: glucose, mag: 1, label: "glucose" }

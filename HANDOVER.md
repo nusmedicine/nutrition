@@ -1,12 +1,19 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-04.**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-04 (Ch.6 DRAFTED).**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
-> **ACTIVE THREAD = authoring Part I (research-dossier phase).** **This session was research + planning
-> only — no chapters drafted, no git commits** (all working-tree; see §10). It produced two net-new
-> adversarially-verified dossiers and resequenced Part I:
+> **ACTIVE THREAD = authoring Part I.** **Ch.6 Integrative Metabolism is now DRAFTED, rendered clean &
+> browser-verified** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd)) — the
+> two-layer chapter (Part A pathways map + Part B fed/fasted integration) with **two net-new Svelte islands**
+> (`metabolic-map` build-the-map stepper + `metabolic-switch` fed→fasted→starved inter-organ scene, both
+> bespoke inline-SVG, registered in `main.js`), a **ketone-bodies RDKit molecule gallery** (acetoacetate /
+> β-hydroxybutyrate / acetone, generated via `python -c` RDKit → `book/structures/`), 2 Mermaid diagrams
+> (Cori/alanine, lipoprotein interconversion), a **9-question quiz**, an **alcohol-fasting-hypoglycaemia
+> case**, and **32 new `references.bib` keys**. **Next: Ch.7 Gut Microbiome** (dossier 🟢, same pipeline) or
+> the **Ch.8 Appetite** dossier. A **prior** session produced the two dossiers + Part-I resequence
+> (now committed, see §10):
 > **① Part I RESEQUENCED (Option X, evidence-backed):** Integrative Metabolism and Gut Microbiome
 > **swapped** → **5 Digestion → 6 Integrative Metabolism → 7 Gut Microbiome → 8 Appetite**. Rationale (in
 > `curriculum-map.md`): a rich integrative microbiome chapter belongs *after* its metabolism prerequisite;
@@ -20,12 +27,17 @@
 > (fed/fasted/starvation/exercise inter-organ flow). Decision: the pathways are a hard prerequisite for the
 > integration, so Ch.6 carries them itself; the old "assume a parallel biochem course" scheduling
 > constraint is now **resolved**.
-> **Next session (most likely):** **draft Ch.6 and/or Ch.7** (qmd + islands via §2.1 — for Ch.6 the
-> *build-the-map* stepper (Part A) + *metabolic-switch* fed→fasted→starved island (Part B) on a **shared
-> node manifest**; for Ch.7 the *SCFA-fermentation flow* island), and/or start the **Ch.8 Appetite**
-> dossier (net-new ✨). **Before drafting any of Ch.5/6/7, clear each dossier's §11 verify-before-lock
-> flags** (mostly: pin placeholder PMIDs + figures). Two small Ch.5 to-dos also remain (recalibrate the
-> gut-island hotspots; clear the Ch.5 dossier flags).
+> **Next session (most likely):** **draft Ch.7 Gut Microbiome** (qmd + *SCFA-fermentation flow* island via
+> §2.1), and/or start the **Ch.8 Appetite** dossier (net-new ✨). **Ch.6 design note:** the two islands
+> ended up as **two distinct diagrams sharing a colour language** (Part A = pathway crossroads map; Part B =
+> inter-organ flux scene), *not* one literal shared node manifest — the inter-organ scene is a different
+> altitude from the pathway map, so a shared colour key (catabolic=orange, anabolic=blue, one-way=red;
+> insulin=teal/glucagon=amber; cargo colours) reads better than forcing identical geometry. Both are drawn
+> **bespoke inline-SVG in-component** (no external figures → the Servier-composite plan in the dossier was
+> unneeded). **Ch.6 residual lock-time flags** (§11): krebs alcohol PMID left unpinned (used the 1969
+> *Biochem J* "Inhibition of hepatic gluconeogenesis by ethanol", DOI only); StatPearls bookshelf IDs carried
+> from the dossier. Two small Ch.5 to-dos also remain (recalibrate the gut-island hotspots; clear the Ch.5
+> dossier flags).
 > **The LLM simulated-patient feature is BUILT, verified & DEPLOYED (§3–§4)** — complete; only touch
 > it if that becomes the focus (open decisions in §11).
 > Read order: this file → [`AUTHOR.md`](AUTHOR.md) §11 (chapter template + **§11d asset-path rules**) →
@@ -40,19 +52,18 @@ self-test quizzes + branching **clinical cases** (visual-novel patient portraits
 (`research/`). Branding: **"Health in Medicine"**, *not* "lifestyle medicine".
 
 ## 2. Where we are
-**Part I = 5 authored + live chapters, PLUS 2 net-new adversarially-verified dossiers ready to write.**
+**Part I = 6 chapters (5 live + Ch.6 drafted), PLUS 1 net-new adversarially-verified dossier ready to write.**
 
-**Authored & live** (rendered clean + browser-verified): **Preface** ([`index.qmd`](book/index.qmd));
+**Authored** (rendered clean + browser-verified): **Preface** ([`index.qmd`](book/index.qmd));
 **Ch.1** six pillars; **Ch.2** energy balance; **Ch.3 Macronutrients** = THE template reference
 ([`AUTHOR.md`](AUTHOR.md) §11); **Ch.4 Micronutrients & hydration**; **Ch.5 Digestion & Absorption** (a
-"follow the food" chapter with an illustrated tract island, a Mermaid enterohepatic loop, an ORT case).
-*(Ch.4 expand + Ch.5 authoring were the **prior** session.)*
+"follow the food" chapter with an illustrated tract island, a Mermaid enterohepatic loop, an ORT case);
+**Ch.6 Integrative Metabolism** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd),
+**drafted this session**) — two-layer (Part A pathways map + Part B fed/fasted integration), 2 flagship
+Svelte islands + ketone RDKit gallery + 2 Mermaid diagrams + 9-Q quiz + alcohol-hypoglycaemia case.
+*(Ch.5 = prior session; Ch.6 = this session. Registered last in `_quarto.yml` under Part I.)*
 
-**Dossiers ready to write** (🟢, both verified this session — drafting is the next step):
-- **Ch.6 Integrative Metabolism** ([`integrative-metabolism.md`](research/chapters/integrative-metabolism.md)) —
-  **two-layer, self-contained**: Part A = the metabolic map (pathways + interconnection at *map depth*),
-  Part B = fed/fasted/starvation/exercise inter-organ flow. Islands: *build-the-map* stepper (A) +
-  *metabolic-switch* island (B), on a **shared node manifest**.
+**Dossier ready to write** (🟢, verified — drafting is the next step):
 - **Ch.7 The Gut Microbiome** ([`gut-microbiome.md`](research/chapters/gut-microbiome.md)) — composition,
   **fibre→SCFA fermentation (owned)**, microbial vitamins, pre/pro/synbiotics + fermented foods, diet as
   modulator, gut–brain *microbial* mechanism. Island: *SCFA-fermentation flow*.
@@ -62,10 +73,14 @@ self-test quizzes + branching **clinical cases** (visual-novel patient portraits
 
 **Interactive islands** (Svelte 5, `components/src/`, registered in `main.js`):
 `quiz`, `case` (CasePlayer + live patient-chat), `gi`, `molecule`, `protein`, **`gut`** (Ch.5 clickable
-digestive tract: Servier illustration + hotspot overlay + detail panel). **Planned (dossier-specced, not
-built):** `metabolic-switch` + `build-the-map` (Ch.6 — share one node manifest so Layer B "comes alive"
-from Layer A) and an SCFA-fermentation island (Ch.7). All follow the `GutJourney` illustrated-interactive
-pattern; Ch.6/Ch.7 also add RDKit molecule galleries (SCFAs; ketone bodies).
+digestive tract), and **NEW this session:** **`metabolic-map`** ([`MetabolicMap.svelte`](components/src/MetabolicMap.svelte),
+Ch.6 Part A build-the-map stepper — data [`metabolic-map.yml`](book/diagrams/metabolic-map.yml)) and
+**`metabolic-switch`** ([`MetabolicSwitch.svelte`](components/src/MetabolicSwitch.svelte), Ch.6 Part B
+fed→fasted→starved inter-organ scene — data [`metabolic-switch.yml`](book/diagrams/metabolic-switch.yml)).
+Both are **bespoke inline-SVG, data-driven** (loadManifest + `store.js` persistence, GutJourney conventions),
+sharing a colour language (catabolic=orange, anabolic=blue, one-way valve=red; insulin=teal/glucagon=amber).
+Ch.6 also ships a **ketone-bodies RDKit gallery** ([`ketone-bodies.mol.yml`](book/structures/ketone-bodies.mol.yml)).
+**Still planned:** an SCFA-fermentation island + SCFA molecule gallery (Ch.7).
 
 ## 2.1 The research → draft pipeline (how Ch.4/Ch.5 were built — reuse this)
 For a net-new or expanded chapter:
