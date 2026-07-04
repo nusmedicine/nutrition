@@ -318,7 +318,7 @@ By the end of the chapter a first-year student can:
 | DTC microbiome tests: usefulness "scarce"; discourage w/o indication | Porcari, Mullish et al. 2025, *Lancet Gastroenterol Hepatol* (10.1016/S2468-1253(24)00311-X) | International consensus | `porcari2024microbiometest` |
 | Gut–brain axis routes; psychobiotic efficacy not yet convincingly shown in humans | Cryan et al. 2019, *Physiol Rev* (PMID 31460832) | Review | `cryan2019microbiota` |
 | ~90–95% serotonin made by gut EC cells; peripheral 5-HT doesn't cross BBB | gut-serotonin/EC-cell review (PMC8234057 states both) | Established physiology | `serotoninGutReview` |
-| SG multi-ethnic cohort → no single predominant microbiota | Yeo et al. 2021, *Microorganisms* (PMC8065435) | Primary (SG) | `yeo2021sgmultiethnic` |
+| SG multi-ethnic cohort → no single predominant microbiota | **Khine et al. 2021**, *Microorganisms* 9(4):702 (PMID 33805276) | Primary (SG) | `khine2021multiethnic` |
 | SG octogenarians; age-associated richness reduction | Narayanan et al. 2024, *Nat Commun* | Primary (SG) | `narayanan2024sgocto` |
 | HELIOS cohort resource (n=10,004 SG Chinese/Indian/Malay) | HELIOS Study 2025, *Nat Commun* (10.1038/s41467-025-65774-0) | Cohort resource | `helios2025cohort` |
 | SG ethnic microbiome signatures parallel diet (n=861) | HELIOS microbiome analysis 2026, *medRxiv* **(preprint)** | Cross-sectional (preprint) | `helios2026microbiome` |
@@ -359,13 +359,14 @@ the AfN UK medical-nutrition curriculum mapping for microbiome competencies at w
   immune/health claims. Use it to teach *marketed benefit ≠ authorised/proven benefit*. → `katokataoka2016lcs`,
   `efsa2010lcs`
 - **Genuine SG cohort data exist — use them for variability + ageing.** The **HELIOS** study (a
-  peer-reviewed multi-ethnic SG cohort, n=10,004) and the Yeo 2021 multi-ethnic cohort show **no single
-  "Singaporean" microbiome** — Chinese, Malay and Indian residents carry distinct, diet-linked
-  signatures — a strong local illustration of inter-individual/ethnic variability and the
-  enterotype-as-continuum idea. A SG octogenarian metagenomics study anchors the older-age
-  diversity-decline point. *(The ethnic-signature microbiome analysis is currently a 2026 preprint —
-  cite the peer-reviewed cohort paper as the anchor and flag the preprint; see §11.)* → `helios2025cohort`,
-  `yeo2021sgmultiethnic`, `narayanan2024sgocto`, `helios2026microbiome`
+  peer-reviewed multi-ethnic SG cohort, n=10,004) and the **Khine 2021** multi-ethnic cohort show **no
+  single "Singaporean" microbiome** — the community had **no predominant microbiota** — a strong local
+  illustration of inter-individual variability. A SG octogenarian metagenomics study anchors the
+  older-age diversity-decline point. *(As authored, Ch.7 uses ONLY `khine2021multiethnic` for the
+  socio-cultural "no single Singaporean microbiome" point — per the editor citation principle it avoids
+  HELIOS/narayanan/preprints, which are local basic-metagenomics not tied to a socio-cultural or
+  clinical claim; see §11 + AUTHOR §11d.)* → `khine2021multiethnic` *(others: `helios2025cohort`,
+  `narayanan2024sgocto` — available but intentionally unused in the chapter)*
 - **Vegetarian dietary patterns raise the B12 stakes locally.** Significant vegetarian/vegan practice
   in parts of SG's Indian and Buddhist communities makes the "you can't rely on gut bacteria for B12"
   point clinically salient (deficiency management → Ch.4). → `degnan2014b12`
@@ -658,7 +659,7 @@ unless flagged in §11.)*
 - `leakyGutMechanisms` **[LIB]** — Camilleri M. *Gut* 2019 (leaky gut). PMID 31076401. *(Already in `book/references.bib`; cross-ref Ch.5.)*
 
 **Singapore context**
-- `yeo2021sgmultiethnic` **[NEW]** — Yeo LF et al. *Microorganisms* 2021 (SG multi-ethnic microbiome). PMC8065435.
+- `khine2021multiethnic` **[NEW]** — Khine WWT et al. (incl. Y.K. Lee, NUS). *Microorganisms* 2021, 9(4):702, "Gut Microbiome of a Multiethnic Community Possessed No Predominant Microbiota". PMID 33805276, DOI 10.3390/microorganisms9040702. **[corrected 2026-07-05: the dossier draft mis-attributed this to "Yeo et al." — the Yeo LF cohort is a *Malaysia* Orang Asli study, not this SG paper. Verified by the ch7-citation-verify Workflow.]**
 - `narayanan2024sgocto` **[NEW]** — Narayanan R et al. *Nat Commun* 2024 (SG octogenarian metagenomes). 10.1038/s41467-024-52097-9.
 - `helios2025cohort` **[NEW]** — HELIOS Study. *Nat Commun* 2025 (SG multi-ethnic cohort resource, n=10,004). 10.1038/s41467-025-65774-0.
 - `helios2026microbiome` **[NEW, PREPRINT]** — HELIOS microbiome analysis, *medRxiv* 2026.02.06.26345736 (ethnic microbiome signatures). *(Preprint — cite the cohort paper as anchor; §11.)*
