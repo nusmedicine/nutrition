@@ -1,9 +1,28 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (Ch.6 + Ch.7 DRAFTED).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART I COMPLETE: Ch.1–8 drafted).**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
+>
+> **★ PART I IS NOW FULLY DRAFTED (Ch.1–8) + reviewed.** Ch.6 (Integrative Metabolism), Ch.7 (Gut
+> Microbiome) and **Ch.8 Appetite & Weight Regulation — the capstone**
+> ([`appetite-weight-regulation.qmd`](book/chapters/appetite-weight-regulation.qmd)) are all drafted,
+> browser-verified and committed. Ch.8 went through the **full net-new pipeline**: 8-agent research fan-out
+> → dossier ([`appetite-weight-regulation.md`](research/chapters/appetite-weight-regulation.md), 🟢) →
+> adversarial verification (every claim confirmed, 3 wrong-PMIDs fixed) → draft + `appetite-thermostat`
+> island (accelerator/brake state-stepper; the GLP-1 drug plugs into the same circuit). A **4-agent Part I
+> review** (workflow `partI-review`) then confirmed Ch.3–8 hang together well (cross-refs, overlap-ownership,
+> altitude, arc all consistent) and its fixes are applied (Ch.2↔Ch.8 loop reciprocated; broken back-refs
+> fixed). **DEFERRED FOLLOW-UPS the review flagged (next work):**
+> **(1) Ch.2 (Energy Balance) + Ch.1 predate the §11 template** — Ch.2 got a *bounded* uplift (blockquote +
+> RQ preview + leptin teaser so the loop reciprocates) but still lacks the map's full scope (body composition
+> BMI/BIA/DXA/waist, the EAT+NEAT split, calorimetry/DLW) and a **teaching island** (a TEE-components stepper
+> that Ch.8's adaptive-thermogenesis section could call back to). Retrofit Ch.1/Ch.2 to house style.
+> **(2) Cross-reference STYLE split** — Ch.3/Ch.5 refer to chapters by NAME, Ch.6–8 by NUMBER; pick one
+> convention book-wide (names survive re-ordering). **(3)** update `curriculum-map.md` Ch.8 line (amylin is
+> *introduced* in Ch.8, not "reused from Ch.5"). **Otherwise: start Part II/III, or the Ch.9+ dossiers.**
+>
 > **ACTIVE THREAD = authoring Part I. Ch.7 The Gut Microbiome is now DRAFTED, verified & committed**
 > ([`gut-microbiome.qmd`](book/chapters/gut-microbiome.qmd)) — composition/scale (1:1 correction) →
 > development → **fibre→SCFA fermentation (owned centrepiece)** → microbial vitamins/B12 paradox → diet +
