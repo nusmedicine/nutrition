@@ -1,7 +1,7 @@
 ---
 chapter: 8
 title: "Appetite & Weight Regulation"
-status: 🟡 dossier drafted — pending adversarial verification (see §11)
+status: 🟢 ready to write — adversarially verified 2026-07-05 (all load-bearing claims confirmed; 3 wrong-PMIDs fixed; critic guidance folded into §11)
 book_chapter: ../../book/chapters/appetite-weight-regulation.qmd
 pillars: [nutrition]
 last_updated: 2026-07-05
@@ -9,11 +9,11 @@ last_updated: 2026-07-05
 
 # Appetite & Weight Regulation — research dossier
 
-> Built from an 8-agent web-grounded research fan-out (workflow `ch8-appetite-research`, 2026-07-05).
-> Citations were web-checked by the research agents; a dedicated adversarial-verification pass is still
-> **pending** before this dossier is 🟢 (§11). This is the **Part I capstone** — it closes the loop back
-> to Ch.2 (energy balance) and hands the *appetite* home for signals teased in Ch.2 and treated
-> metabolically in Ch.6.
+> Built from an 8-agent web-grounded research fan-out (workflow `ch8-appetite-research`, 2026-07-05) and
+> **adversarially verified** (workflow `ch8-dossier-verify`, 2026-07-05): every load-bearing claim confirmed,
+> 3 wrong-PMIDs fixed, completeness critic folded into §11 → **🟢**. This is the **Part I capstone** — it
+> closes the loop back to Ch.2 (energy balance) and hands the *appetite* home for signals teased in Ch.2 and
+> treated metabolically in Ch.6.
 
 ## 1. Scope (one paragraph)
 
@@ -237,9 +237,9 @@ By the end of the chapter a student can:
 | Adiposity-signal → arcuate framework | Schwartz et al. 2000, *Nature* (PMID 10766253) ✅ | Landmark review | `schwartz2000cns` |
 | Leptin (*ob* gene) positional cloning | Zhang et al. 1994, *Nature* (PMID 7984236) ✅ | Landmark primary (mouse) | `zhang1994leptin` |
 | Congenital human leptin deficiency | Montague et al. 1997, *Nature* (PMID 9202122) ✅ | Landmark primary (human) | `montague1997congenital` |
-| Leptin therapy rescues deficiency | Farooqi et al. 1999, *NEJM* (PMID 10486419 ⚠ — two PMIDs seen, confirm) | Human case | `farooqi1999leptintherapy` |
+| Leptin therapy rescues deficiency | Farooqi et al. 1999, *NEJM* (PMID 10486419 ✅) | Human case | `farooqi1999leptintherapy` |
 | Leptin therapy modest/variable in COMMON obesity | Heymsfield et al. 1999, *JAMA* (PMID 10546697) ✅ | RCT | `heymsfield1999recombinant` |
-| Leptin as starvation/threshold signal (30-yr synthesis) | Flier & Ahima 2024, *JCI* (PMID 39352393) ⚠ | Review | `flier2024leptin30` |
+| Leptin as starvation/threshold signal (30-yr synthesis) | Flier & Ahima 2024, *JCI* 134(1):e174595 (PMID 38165042 ✅ — corrected from 39352393) | Review | `flier2024leptin30` |
 | Ghrelin discovery (stomach) | Kojima et al. 1999, *Nature* (PMID 10604470) ✅ | Landmark primary | `kojima1999ghrelin` |
 | Ghrelin rises pre-meal / meal initiation | Cummings et al. 2001, *Diabetes* (PMID 11473029) ✅ | Human primary | `cummings2001preprandial` |
 | Ghrelin rises after diet-induced weight loss | Cummings et al. 2002, *NEJM* (PMID 12023994) ✅ | Human primary | `cummings2002weightloss` |
@@ -253,7 +253,7 @@ By the end of the chapter a student can:
 | Solid > liquid calories (no compensation for soda) | DiMeglio & Mattes 2000, *Int J Obes* (PMID 10878689) ✅ | Small crossover | `dimeglio2000liquidsolid` |
 | Slower eating → lower intake | Robinson et al. 2014, *AJCN* (PMID 24847856) ✅ | Systematic review/MA | `robinson2014eatingrate` |
 | Protein leverage (partial support) | Gosby et al. 2011, *PLoS One* (PMID 22022472) ✅ | Small RCT crossover | `gosby2011proteinleverage` |
-| Energy density / texture and satiety | Stribiţcaia et al. 2020, *Sci Rep* (DOI 10.1038/s41598-020-69504-y) ⚠ | Systematic review/MA | `stribitcaia2020energydensity` |
+| Energy density / texture and satiety | Stribiţcaia et al. 2020, *Sci Rep* (DOI 10.1038/s41598-020-69504-y ✅) | Systematic review/MA | `stribitcaia2020energydensity` |
 | Wanting vs liking (reward components) | Berridge, Robinson & Aldridge 2009 (PMID 19162544); Berridge 2007 (PMID 17072591) ✅ | Authoritative reviews | `berridge2009dissecting`, `berridge2007dopamine` |
 | Hedonic hunger + Power-of-Food Scale | Lowe & Butryn 2007 (PMID 17531274); Espel-Huynh et al. 2018 (PMID 29951214) ✅ | Conceptual/narrative review | `lowe2007hedonic`, `espelhuynh2018pfs` |
 | Sensory-specific satiety | Rolls et al. 1981, *Physiol Behav* (PMID 7267792) ✅ | Landmark human experiment | `rolls1981sensory` |
@@ -285,7 +285,7 @@ By the end of the chapter a student can:
 | **SG:** weight bias in healthcare (non-stigmatising) | Goff, Lee & Tham 2023, *Singapore Med J* (PMID 36876621) ✅ | SG narrative review | `goff2023weightbiassg` |
 | **SG:** sleep ↔ adiposity in multi-ethnic cohort | Low et al. 2025 (HELIOS), *Int J Obes* (PMID 39562689) ✅ | SG cross-sectional | `helios2024sleepadiposity` |
 | **SG:** obesity prevalence trend; Nutri-Grade; War on Diabetes | MOH/HPB National Population Health Survey 2024; Nutri-Grade policy 2022–23 | National survey/policy | `mohnphs2024`, `mohnutrigrade2022`, `mohWarOnDiabetes` *(LIB)* |
-| **SG:** energy content of common local meals | *Nutrients* 2021 (PMID 34371853) ⚠ | SG dietary survey | `tan2021sgmeals` |
+| **SG:** energy content of common local meals | Yeo et al. 2021, *Foods* 10(7):1659 (PMID 34359529 ✅ — corrected from `tan2021sgmeals`/34371853) | SG dietary survey | `yeo2021sgmeals` |
 
 ## 6. Singapore context
 
@@ -410,17 +410,33 @@ GLP-1 drugs work + what happens when you stop; sleep→appetite direction; why E
 
 ## 11. Evidence gaps / open questions / to-research (verify-before-lock)
 
-> **⚠ ADVERSARIAL VERIFICATION STILL PENDING.** The research agents web-checked most PMIDs, but the
-> dedicated refute-test + completeness/consistency critic pass (as run for Ch.7) has NOT yet run. Do it
-> before marking 🟢 (memory [[research-subagent-gotchas]]). Priorities:
+> **✅ ADVERSARIAL VERIFICATION DONE (2026-07-05, workflow `ch8-dossier-verify`).** All load-bearing
+> quantitative claims were refute-tested and **confirmed** (MC4R ~5.8%; leptin-therapy modest; sleep
+> +385 kcal/day; Spiegel −18/+28/+24%; Weigle −441 kcal/−4.9 kg; STEP-1 14.9% / SURMOUNT-1 20.9–22.5%;
+> Fothergill −499 kcal/n=14 + Hall reinterpretation; Sumithran persists ≥1 y; PYY3-36 −33%; Nutri-Grade
+> 7.1%→4.6%). **Citation fixes applied:** Farooqi 1999 = **PMID 10486419** (10490427 was an unrelated paper);
+> `flier2024leptin30` **39352393 → 38165042** (JCI 134(1):e174595); `tan2021sgmeals` was wrong → **`yeo2021sgmeals`,
+> Yeo et al. 2021 *Foods* 10(7):1659, PMID 34359529**; `stribitcaia2020energydensity` confirmed;
+> `melson2025glp1mechanism` **DROPPED** (misattributed to "Melson"; real authors Moiz et al.; unneeded — GLP-1
+> is taught from Holst 2024 + the primary trials). The critic rated the dossier "strong, well-scoped."
+> **Draft-time fixes it flagged (do these when writing the chapter):**
 
-- **Farooqi 1999 leptin therapy — TWO different PMIDs appeared** across sub-domains: **10486419** (adiposity
-  agent) vs **10490427** (clinical agent). Resolve which is correct for "Effects of recombinant leptin
-  therapy in a child with congenital leptin deficiency," *NEJM* 1999;341(12):879-884 before lock.
-- **Four citations the agents self-flagged UNVERIFIED:** `flier2024leptin30` (PMID 39352393),
-  `melson2025glp1mechanism` (DOI 10.1016/j.amjmed.2025.01.021, no PMID — a 2025 review, may not be needed),
-  `tan2021sgmeals` (PMID 34371853), `stribitcaia2020energydensity` (DOI 10.1038/s41598-020-69504-y). Verify
-  or drop each.
+- **Trim GLP-1 to MECHANISM-only (map discipline).** Keep ONE headline efficacy number per drug + the
+  stop→regain proof (to make "appetite is a dial" and "weight is defended"); **bracket STEP-1/SURMOUNT-1/
+  STEP-4/extension as Part III**, don't teach them at full trial weight. Give the Rubino 2025 Lancet
+  clinical/preclinical *criteria* the same one-line-signpost treatment (teach the *concept*, not the criteria).
+- **Standardise numbers across §1/§4/cases/quiz:** semaglutide **14.9%**; tirzepatide **20.9–22.5%
+  (dose-dependent)**; Fothergill **~500 kcal/day, n=14**; Spiegel **−18/+28/+24%** — one figure each.
+- **Build the two headline INTEGRATION promises, don't just assert them:** (a) add an explicit **Ch.2
+  loop-closure** in Part 6 mapping adaptive thermogenesis onto Ch.2's energy-balance / TEE terms (defended
+  weight = the expenditure side pushing back); (b) add a one-line **Ch.7 microbiome→satiety receiving link**
+  (SCFA→GLP-1/PYY forwarded from Ch.7) so the hand-off lands.
+- **Meal-timing/circadian (Vujović/Scheer) is NOT in the map's Ch.8 spine** — fold it briefly *under* the
+  sleep/stress pillar as an extension, or cut; don't give it a standalone movement.
+- **Amylin:** the map lists it under Ch.8 but NOT under Ch.5's owned gut hormones — **define amylin here**
+  (co-secreted with insulin, meal-triggered satiety), don't cross-ref Ch.5 for it.
+- **Stress pillar needs a hook** parallel to sleep's HELIOS/SG anchor (billing is currently asymmetric —
+  sleep is strong, stress honestly-caveated but thinner).
 - **Dedupe near-duplicate keys** before writing the bib: `zhang1994positional`=`zhang1994leptin` (7984236);
   `sumithran2011hormonal`=`sumithran2011persistence` (22029981); `spiegel2004sleepcurtailment`=`spiegel2004sleep`
   (15583226); `taheri2004` ×2 (15602591); `fothergill2016biggestloser` ×2; `montague1997congenital` ×2;
@@ -455,9 +471,9 @@ New unless marked [LIB].)*
 (Cowley 2003, *Neuron*, PMID 12597862); `schwartz2000cns` (Schwartz 2000, *Nature*, PMID 10766253).
 
 **Adiposity signals (leptin).** `zhang1994leptin` (Zhang 1994, *Nature*, PMID 7984236); `montague1997congenital`
-(Montague 1997, *Nature*, PMID 9202122); `farooqi1999leptintherapy` (Farooqi 1999, *NEJM*, PMID 10486419 ⚠);
+(Montague 1997, *Nature*, PMID 9202122); `farooqi1999leptintherapy` (Farooqi 1999, *NEJM* 341(12):879-884, PMID 10486419);
 `heymsfield1999recombinant` (Heymsfield 1999, *JAMA*, PMID 10546697); `flier2024leptin30` (Flier & Ahima 2024,
-*JCI*, PMID 39352393 ⚠).
+*JCI* 134(1):e174595, PMID 38165042).
 
 **Gut peptides.** `kojima1999ghrelin` (Kojima 1999, *Nature*, PMID 10604470); `cummings2001preprandial`
 (Cummings 2001, *Diabetes*, PMID 11473029); `cummings2002weightloss` (Cummings 2002, *NEJM*, PMID 12023994);
@@ -470,7 +486,7 @@ PMID 31277416).
 (Weigle 2005, *AJCN*, PMID 16002798); `holt1995satietyindex` (Holt 1995, *EJCN*, PMID 7498104);
 `dimeglio2000liquidsolid` (DiMeglio & Mattes 2000, PMID 10878689); `robinson2014eatingrate` (Robinson 2014,
 *AJCN*, PMID 24847856); `gosby2011proteinleverage` (Gosby 2011, *PLoS One*, PMID 22022472);
-`stribitcaia2020energydensity` (Stribiţcaia 2020, *Sci Rep*, DOI 10.1038/s41598-020-69504-y ⚠).
+`stribitcaia2020energydensity` (Stribiţcaia 2020, *Sci Rep*, DOI 10.1038/s41598-020-69504-y).
 
 **Hedonic / reward.** `berridge2009dissecting` (PMID 19162544); `berridge2007dopamine` (PMID 17072591);
 `lowe2007hedonic` (PMID 17531274); `espelhuynh2018pfs` (PMID 29951214); `rolls1981sensory` (PMID 7267792);
@@ -491,4 +507,5 @@ PMID 31277416).
 `wilding2021step1` (PMID 33567185); `jastreboff2022surmount1` (PMID 35658024); `rubino2021step4` (PMID 33755728);
 `wilding2022step1extension` (PMID 35441470); `fogel2017gusto` (GUSTO, PMID 28462734); `tan2020whereweeat`
 (PMID 33081793); `goff2023weightbiassg` (PMID 36876621); `helios2024sleepadiposity` (HELIOS, PMID 39562689);
-`tan2021sgmeals` (PMID 34371853 ⚠); `mohnphs2024`, `mohnutrigrade2022`; `mohWarOnDiabetes` **[LIB]**.
+`yeo2021sgmeals` (Yeo et al. 2021, *Foods* 10(7):1659, PMID 34359529); `mohnphs2024`, `mohnutrigrade2022`;
+`mohWarOnDiabetes` **[LIB]**.
