@@ -115,6 +115,30 @@ content. *(Note, 2026-07-04: **Ch.6 is now self-contained** — it teaches the c
 
 ---
 
+## Part II — overlap ownership & decisions *(2026-07-05 pre-flight; full plan → [`../../PART2-ROADMAP.md`](../../PART2-ROADMAP.md))*
+
+| Topic | Owner (defines it) | Reuses / cross-refs |
+|---|---|---|
+| Dietary patterns & guidelines (Med / DASH / QQH) | **Ch.9** | Ch.1 (teasers), Part III (therapeutic use) |
+| Food environment & policy *framing* (Nutri-Grade / HCS) | **Ch.9** | Ch.11 (the label-reading **skill**) |
+| Diet-history methods & malnutrition screening | **Ch.11** | Ch.12 (the change conversation), Ch.20 (referral) |
+| The 5 A's + MI + SMART goals | **Ch.12** | Ch.11 (opening moves only), Ch.21 (live-chat capstone) |
+| Evidence-literacy toolkit | **Ch.13** | all of Part I (its trials/myths → practice material) |
+| GDM (recognition + universal screening) | **Ch.10** | Ch.15 T2DM (management) |
+| Bone nutrients across life stages | **Ch.10** (life-stage need) | Ch.17 osteoporosis, Ch.18 menopause |
+
+**Settled decisions (apply at draft time):**
+- **(A) Nutri-Grade / food labels:** Ch.9 owns the *food-environment framing*; **Ch.11 owns the
+  label-reading skill**. Retitle Ch.11 → "Assessing Diet & Talking to Patients".
+- **(B) The "5 A's":** use ONE wording — **Assess–Advise–Agree–Assist–Arrange** — in both Ch.11 and
+  Ch.12; fold "ask permission" in as an MI micro-skill.
+- **(C) Ch.10 / Ch.19 boundary:** Ch.10 = anticipating normal shifting needs *in health*; Ch.19 = the
+  *pathological* state. See the SPLIT DIRECTIVE atop `research/chapters/08-life-cycle-undernutrition.md`.
+- **(D) Ch.13 vs Part I:** **demote** Part I's landmark trials/myths (PREDIMED, DASH, detox, keto…) from
+  "content to teach" to *worked examples the student runs the toolkit on* — do not re-teach them.
+
+---
+
 ## Part III — new-chapter scope seeds
 - **17 · Bone Health & Osteoporosis** — calcium, vitamin D, protein & bone; peak bone mass & age-related loss; dietary risk/protective factors; SG context (vit-D, fracture risk); when to refer. *First-year: recognise the nutritional levers, not manage osteoporosis.*
 - **18 · Menopause & Midlife Health** — nutrition around menopause (bone, cardiometabolic shift, weight redistribution, phytoestrogens evidence vs hype); practical, evidence-based counselling. *First-year: midlife literacy & myth-busting, not HRT management.*

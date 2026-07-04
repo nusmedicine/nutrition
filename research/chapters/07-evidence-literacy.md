@@ -1,13 +1,69 @@
 ---
-chapter: 7
-title: "Evidence Literacy: Appraising Diets, Fads and Supplements"
-status: 🟢 ready to write
-book_chapter: ../../book/chapters/07-evidence-literacy.qmd
+chapter: 13
+title: "Evidence vs Hype & Everyday Questions (incl. food & acne)"
+status: 🟢 toolkit ready + scope additions folded 2026-07-05 (2 citations to pin — see below)
+book_chapter: ../../book/chapters/ (Ch.13)
 pillars: [nutrition]
-last_updated: 2026-06-30
+last_updated: 2026-07-05
 ---
 
-# Evidence Literacy: Appraising Diets, Fads and Supplements — research dossier
+# Evidence vs Hype & Everyday Questions — research dossier (was "Evidence Literacy")
+
+## ★ NEW SCOPE ADDITIONS (2026-07-05) — Ch.13's expanded remit
+
+Under the restructured spine this is **Ch.13**, and the remit grew: the evidence-literacy **toolkit** +
+fad/supplement appraisal (original dossier below) **PLUS** (a) a **food-&-acne** worked example and (b) a
+light **everyday-questions bank**. **Decision D (2026-07-05):** *demote* Part I's landmark trials/myths
+(PREDIMED, DASH, detox, keto, fat-burning-zone, leaky-gut, gut-test-kits…) from "content to teach" to
+**worked examples the student runs the toolkit on** — Part I already teaches them *with* caveats, so Ch.13
+re-appraises, it does not re-teach. Keep TRE + PREDIMED as the cleanest calibration anchors.
+
+### (a) Food & acne — the flagship "weak-but-real association" worked example
+Diet–acne evidence is **overwhelmingly observational** (only RCTs are on glycaemic load; **zero RCTs on
+dairy**) — a live *correlation ≠ causation* case: real, reproducible associations on a weak design pyramid.
+- **Dairy** — modest positive association, and (counter-intuitively) **skim ≥ whole**; **milk-yes /
+  cheese-&-yogurt-no** → a hormonal (IGF-1/insulin) mechanism, not fat. `juhl2018dairyacne` (n=78,529;
+  any-milk OR ~1.28, skim ~1.32) · `aghasi2019dairyacne` (skim OR ~1.82).
+- **High glycaemic index / load** — the **strongest arm and the only one with RCTs** ("modest yet
+  significant proacnegenic effect"). `meixiong2022dietacne` (systematic review) + Smith 2007 low-GL RCT.
+- **Whey protein** — mechanistically plausible but **anecdote-grade** (case series only).
+- **Chocolate** — mostly evaporates once sugar/GL is controlled; AAD: evidence **insufficient**.
+- **Guideline anchor:** AAD acne guidelines **2016** (`aad2016acne`, PMID 26897386) and **2024**
+  (`aad2024acne`, PMID 38300170) **both** found *insufficient evidence to recommend dietary change* as acne
+  treatment — the stance is unchanged, which *is* the teaching point.
+- **Clinician line to a teenager:** no food is *proven* to cause acne; don't chase elimination diets
+  (nutrition/ED risk for little payoff); a lower-sugar diet is reasonable to trial ~2 months; proven
+  treatment is medication (benzoyl peroxide, retinoids…) — diet is a minor adjunct at most.
+
+### (b) Everyday-questions bank (toolkit DEMOS — run the tools, don't lit-review)
+- **Coffee — good or bad?** (reverse-causation / healthy-user demo) — `poole2017coffee` (BMJ umbrella
+  review; 3–4 cups/day lowest all-cause & CV mortality) — but observational; "protective ≠ take it up".
+- **Is sugar toxic/addictive? Hyperactivity?** — the definitive **blinded RCT** `wolraich1994sugar` (NEJM)
+  found **no** behavioural effect (belief = expectancy/observer bias); `farsadnaeimi2020adhd` shows only a
+  weak confounded *association*. Excess added sugar is genuinely unhealthy; "toxic/addictive" overstates it.
+- **Gluten-free without coeliac disease** — no experimental evidence of benefit; can worsen diet quality &
+  cost; separate the real indication (coeliac) from the fad; nocebo/healthy-user effects. ⚠ **VERIFY**
+  anchor (gluten-free non-coeliac review, PMC5866307) — pin author/PMID before citing.
+- **Superfood pick — apple cider vinegar** — small real glycaemic/weight effects dwarfed by standard care;
+  and a widely-cited **2024 ACV weight-loss RCT was RETRACTED** (a perfect "does the headline still stand?"
+  lesson). ⚠ **VERIFY** anchors PMC11821484 (glycaemic), PMC12472926 (body-comp) — pin author/PMID first.
+
+### Ch.13 new citations to add to `book/references.bib` (all 8 PubMed-verified 2026-07-05)
+`juhl2018dairyacne` (Nutrients 2018;10(8):1049, PMID 30096883) · `aghasi2019dairyacne` (Clin Nutr
+2019;38(3):1067-75, PMID 29778512) · `meixiong2022dietacne` (JAAD Int 2022;7:95-112, PMID 35373155) ·
+`aad2016acne` (JAAD 2016;74(5):945-73.e33, PMID 26897386) · `aad2024acne` (JAAD 2024;90(5):1006.e1-30,
+PMID 38300170) · `poole2017coffee` (BMJ 2017;359:j5024, PMID 29167102) · `wolraich1994sugar` (NEJM
+1994;330(5):301-7, PMID 8277950) · `farsadnaeimi2020adhd` (Complement Ther Med 2020;53:102512, PMID
+33066852). The **gluten-free + ACV** anchors still need author/PMID pinned before they're citable.
+
+*(Everything below is the original evidence-literacy dossier — the toolkit spine, fad/supplement appraisal
+and SG context — unchanged. Inherit its §11 citation-hygiene flags: `vital2019` cite the two 2019 NEJM
+primaries not the 2020 meta; `caret1996` primary not the 2019 re-analysis; `tobias2019ebnutrition` lead
+author is Johnston; re-verify HPB/HSA URLs; confirm `ada2024care` edition.)*
+
+---
+
+# Evidence Literacy: Appraising Diets, Fads and Supplements — research dossier (original)
 
 ## 1. Scope (one paragraph)
 This chapter equips first-year students to *appraise* nutrition claims rather than merely react to them. Surveys consistently show graduates feel under-prepared in clinical and evidence-based nutrition (`crowley2019`), and critical appraisal is among the weakest entry-level skills — so the chapter pitches **genuine, guided appraisal practice**, not a checklist of "red flags." Students learn why the evidence hierarchy is applied *differently* in nutrition (whole-diet patterns vs single nutrients; the limits of RCTs and the role of cohorts), how to read a claim from headline back to its primary study, how to distinguish a *mechanism-plausible* idea from a *clinically-proven* one (using chrononutrition / time-restricted eating as the worked calibration case), how conflicts of interest and weak designs distort the literature, and when supplements genuinely are and are not indicated. The applied spine is Singapore-first (HPB My Healthy Plate, HealthHub messaging, HSA supplement regulation) before international guidelines (ADA, AHA, ACLM). The goal is calibrated humility: most fad claims are *over*-stated, a few "fads" contain a real-but-modest signal, and the student's job is to tell which is which using transparent reasoning.

@@ -1,13 +1,45 @@
 ---
-chapter: 8
-title: "Nutrition Across the Life Cycle and Undernutrition"
-status: 🟢 ready to write
-book_chapter: ../../book/chapters/08-lifecycle-undernutrition.qmd
+chapter: "10 (life-cycle) + 19 (undernutrition) — SPLIT SOURCE"
+title: "Nutrition Across the Life Cycle (Ch.10) + Undernutrition (Ch.19)"
+status: 🟡 SPLIT REQUIRED before drafting — see the SPLIT DIRECTIVE below
+book_chapter: "../../book/chapters/ (Ch.10 life-cycle) + (Ch.19 undernutrition)"
 pillars: [nutrition]
-last_updated: 2026-06-30
+last_updated: 2026-07-05
 ---
 
-# Nutrition Across the Life Cycle and Undernutrition — research dossier
+# Nutrition Across the Life Cycle + Undernutrition — research dossier (SPLIT SOURCE)
+
+## ⚠ SPLIT DIRECTIVE (2026-07-05) — carve this dossier into two chapters before drafting
+
+Under the restructured spine this merged dossier feeds **TWO** chapters:
+**Ch.10 "Nutrition Across the Life Cycle" (Part II)** and **Ch.19 "Undernutrition & Malnutrition"
+(Part III)**. The boundary is *interleaved*, not sequential — apply this section-by-section map when
+drafting (from the 2026-07-05 pre-flight review). Conceptual seam: **Ch.10 = anticipating normal
+shifting needs *in health*; Ch.19 = recognising the *pathological* state.**
+
+| Source section | → **Ch.10 (life-cycle, Part II)** | → **Ch.19 (undernutrition, Part III)** |
+|---|---|---|
+| §1 Scope | the life-cycle sentence | the malnutrition/recognition sentence |
+| §2 LOs | LO1, LO5 | LO2, LO3, LO4 |
+| §3 "In scope" | bullets 1–2 + GDM | MUST / MDT / special-diets bullets |
+| §4 Spine | points 1–6 (dynamic needs, pregnancy/lactation, GDM, infancy, childhood/adolescence, older age) | points 7–12 (defining malnutrition, at-risk groups, MUST screening, MDT, special diets, "under-taught") |
+| §5 Evidence table | rows 1–7 | rows 8–10 (malnutrition prevalence, MUST, crowley) |
+| §6 Singapore | all four sub-blocks (older adults, GDM, infant feeding, hawker) | post-discharge malnutrition |
+| §8 Cases | **Case B (Mrs Devi, GDM)** | **Case A (Mdm Tan, MUST/malnutrition)** |
+| §9 Misconceptions | 1, 2, 5, 6 | 3, 4, 7, 8 |
+| §10 Islands/quizzes | life-cycle timeline + GDM/breastfeeding quizzes | MUST mini-calculator + MDT-spokes diagram + "refer to dietitian" quiz |
+
+**Ch.10 residual verify-before-lock (minor):** confirm exact HPB Older-Adults protein target
+(~1.0–1.2 g/kg/day messaging); confirm ACE GDM edition (2018→2022+); confirm WHO antenatal citation
+(`whoAntenatal2016`); GDM ~18.9% is GUSTO/1999-WHO — teach as "roughly 1 in 5", not IADPSG-derived;
+EBF "~6 months" taught *with* the allergy/iron-window caveat. **Boundary with Ch.15 (T2DM):** keep GDM
+here at "why SG screens universally + implications"; management/insulin → Ch.15. **Boundary with
+Ch.17/18 (bone/menopause):** teach bone nutrients as life-stage needs, forward-ref the condition chapters.
+
+*(Everything below is the original merged dossier, unchanged — split per the table above at draft time.)*
+
+---
+
 
 ## 1. Scope (one paragraph)
 
