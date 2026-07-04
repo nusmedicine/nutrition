@@ -1,10 +1,16 @@
-# Energy balance and metabolism
+# Energy balance
+
+> *How much we take in versus how much we burn — the balance that sets body weight. The goal is
+> **recognition**: name the parts of energy expenditure and estimate a person's needs. But hold one
+> question as you read — is body weight really just "calories in minus calories out"? Keep it in mind;
+> the **Appetite & Weight Regulation** chapter that closes Part I comes back to answer it.*
 
 ## Overview
 
 **Energy balance** is the relationship between energy taken in as food and energy
-expended. A sustained imbalance drives changes in body weight and metabolic health.
-Total energy expenditure (TEE) has three components:
+expended. A sustained imbalance drives changes in body weight and metabolic health — though, as the
+end of Part I will show, the body does not treat that balance as a passive sum. Total energy
+expenditure (TEE) has three components:
 
 $$ \text{TEE} = \text{BMR} + \text{TEF} + \text{PA} $$
 
@@ -44,6 +50,23 @@ A sedentary woman, 52 y, 68 kg, 157 cm:
 $\text{BMR} = 10(68) + 6.25(157) - 5(52) - 161 \approx \mathbf{1240}$ kcal/day;
 total needs $\approx 1240 \times 1.4 \approx \mathbf{1740}$ kcal/day.
 :::
+
+## Two previews for later in Part I
+
+Energy balance is not the whole story, and two ideas introduced here are developed later in Part I.
+
+**Which fuel is burning — the respiratory quotient.** You can tell whether the body is running mostly
+on carbohydrate or mostly on fat from the gases it exchanges. The **respiratory quotient (RQ)** is the
+ratio of carbon dioxide produced to oxygen consumed: it is about **1.0 when burning carbohydrate** and
+about **0.7 when burning fat** (a mixed diet sits around 0.85). Here it is enough to know the
+definition; *reading* RQ as the body switches between the fed and fasted states is the job of the
+**Integrative Metabolism** chapter.
+
+**The body knows how much it has stored.** Body fat is not a passive store. It releases a hormone,
+**leptin**, in rough proportion to how much fat you carry — a long-term "fuel gauge" the brain reads to
+regulate appetite and defend body weight over months and years. That is the first hint that the tidy
+equation above is **defended, not free** — the idea the **Appetite & Weight Regulation** chapter, the
+capstone of Part I, returns to in full.
 
 ## Check your understanding
 

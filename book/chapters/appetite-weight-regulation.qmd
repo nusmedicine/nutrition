@@ -3,7 +3,7 @@
 > *The capstone of Part I. Chapter 2 asked whether energy balance was a simple sum; this chapter
 > answers it — appetite is a **regulated system** and body weight is **biologically defended**. The
 > goal is **recognition**: know the signals that turn hunger up and down, understand why weight is so
-> hard to change, and learn to talk about it without blame. Not prescribing, not neuroanatomy — the
+> hard to change, and learn to talk about it without blame. Not prescribing, not the full neuroanatomy — the
 > logic of a defended system, and why "just eat less, move more" is *insufficient*, not wrong.*
 
 ## The question Part I has been building toward {#sec-overview}
@@ -88,8 +88,9 @@ weaker fuel-gauge signal to the same neurons; its main home is Chapter 6.)
 ## The fast clock: the gut's meal-by-meal signals {#sec-gut-peptides}
 
 While leptin tracks fat over weeks, the gut narrates each *meal* to the brain in real time. You met
-these peptides in Chapter 5 for what they do to the **gut** (squeezing the gallbladder, triggering
-insulin); here is what they say to the **brain**.
+some of these in Chapter 5 for what they do to the **gut** — CCK squeezing the gallbladder, the
+incretin GLP-1 helping trigger insulin; **ghrelin, PYY and amylin are introduced here**. What matters
+now is what they all say to the **brain**.
 
 **Ghrelin is the one hormone that says "eat."** Made by the stomach, it is the only gut hormone that
 *drives* hunger. Its signature: **it rises before meals and falls after eating** — which is why it's
@@ -195,7 +196,7 @@ The reward system is triggered not only by eating but by **cues** — the sight,
 food — which can spark seeking even when you're full [@volkow2017dopamine]. And modern
 **ultra-processed foods** are engineered to combine sugar, fat and salt at maximally rewarding levels
 [@fazzino2019hyperpalatable]. The cleanest evidence they drive overeating is the tightly controlled
-trial you met in Chapter 5: with meals **matched for calories, sugar, fat, salt and fibre**, people
+trial you met in Chapter 5: with meals **matched for calories, macronutrients, sugar, fat, salt and fibre**, people
 still ate about **500 kcal/day more** on the ultra-processed diet [@hall2019upf]. The
 honest, non-stigmatising frame: overeating here is a **normal reward system responding to an abnormal
 environment**, not a character flaw [@berthoud2017blaming].
@@ -228,7 +229,7 @@ senior author revisited the data: the contestants who kept the weight off were a
 **sustained huge increases in physical activity**, and under an energy-compensation model that ongoing
 effort is what trims resting metabolism — not permanent damage [@hall2022biggestloser]. The honest
 bottom line: metabolic adaptation is **real but modest and largely reversible** in ordinary dieters
-(this is exactly what Chapter 6 flagged), and the Biggest Loser is an extreme outlier. Adaptation makes
+— not the permanent damage the headlines claim — and the Biggest Loser is an extreme outlier. Adaptation makes
 weight *maintenance* hard; it does not make weight loss impossible or your metabolism "broken."
 :::
 
@@ -251,7 +252,7 @@ body clock, raises hunger and lowers energy expenditure even at identical calori
 
 **Chronic stress nudges us toward "comfort food."** The proposed loop is that sustained **cortisol**
 drives a preference for energy-dense, sugary-fatty food and favours **visceral (belly) fat**
-[@dallman2003comfortfood]. Be honest about the evidence here: much of this comes from animal models and
+[@dallman2003]. Be honest about the evidence here: much of this comes from animal models and
 human *associations* (people with higher long-term cortisol do tend to carry more central fat
 [@jackson2017haircortisol]), so teach it as a **plausible, partly-supported** loop rather than a proven
 mechanism.

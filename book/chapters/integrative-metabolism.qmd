@@ -246,7 +246,9 @@ pathways:
 - **Adipose tissue** — the fat depot. It takes up glucose and stores fat; the enzyme
   **lipoprotein lipase** on its capillaries strips triglyceride out of circulating lipoproteins to
   stock the fat cell [@wang2009lpl]. And insulin is powerfully **anti-lipolytic** — it clamps the
-  brakes on fat release.
+  brakes on fat release. (Adipose also releases **leptin** in proportion to its fat stores — a
+  long-term signal the brain reads to regulate appetite and defend body weight; that story is the
+  appetite chapter's.)
 
 ::: {.callout-note}
 ## The clean integration point: GLUT4 versus GLUT2
