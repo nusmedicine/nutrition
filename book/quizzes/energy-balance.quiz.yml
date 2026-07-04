@@ -52,3 +52,42 @@ questions:
       - text: "Fasting glucose and BMI"
         correct: false
         feedback: "These do not determine BMR in the equation."
+
+  - id: q5
+    stem: "Two colleagues do the same 30-minute gym class. One also fidgets, takes the stairs and walks at lunch; the other sits the rest of the day. What best explains the first person's larger daily expenditure?"
+    options:
+      - text: "Non-exercise activity thermogenesis (NEAT)"
+        correct: true
+        feedback: "Correct — everyday, non-exercise movement (NEAT) varies enormously between people and can outweigh a single formal workout over a day."
+      - text: "A higher thermic effect of food"
+        correct: false
+        feedback: "TEF tracks what you eat, not incidental movement; it's roughly 10% of TEE and fairly fixed."
+      - text: "A higher BMR caused by the gym class"
+        correct: false
+        feedback: "One class doesn't meaningfully raise *resting* metabolism; the difference here is incidental daily movement (NEAT)."
+
+  - id: q6
+    stem: "A patient loses 10 kg on a diet, then finds the weight creeps back despite eating carefully. Which idea best explains why 'just eat less' so often fails?"
+    options:
+      - text: "After weight loss, expenditure falls by more than the smaller body needs, and the body defends against loss"
+        correct: true
+        feedback: "Correct — the 'out' side drops disproportionately (adaptive thermogenesis) and hunger signals rise. Energy balance is defended, not free — the Appetite & Weight Regulation chapter develops this."
+      - text: "Fat cannot be lost once it has been stored"
+        correct: false
+        feedback: "Fat is readily mobilised; the problem is a system that resists *staying* lower, not irreversibility."
+      - text: "The Mifflin–St Jeor equation is simply inaccurate at lower weights"
+        correct: false
+        feedback: "Estimation error isn't the point — the body actively lowers expenditure and raises appetite after weight loss."
+
+  - id: q7
+    stem: "Why is BMI treated as a screening flag rather than a measure of body fat?"
+    options:
+      - text: "It uses only weight and height, so it cannot tell muscle from fat"
+        correct: true
+        feedback: "Correct — a muscular person can have a high BMI with low fat, and waist circumference adds the central-fat information BMI misses. (Asian overweight cut-offs are set lower.)"
+      - text: "It can only be calculated from a DXA scan"
+        correct: false
+        feedback: "BMI is just weight ÷ height²; DXA is the accurate body-fat *reference*, not part of BMI."
+      - text: "It measures visceral (central) fat directly"
+        correct: false
+        feedback: "Waist circumference, not BMI, is what captures central fat."

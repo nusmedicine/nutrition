@@ -9,6 +9,7 @@ import MetabolicMap from './MetabolicMap.svelte';
 import MetabolicSwitch from './MetabolicSwitch.svelte';
 import ScfaFlow from './ScfaFlow.svelte';
 import AppetiteThermostat from './AppetiteThermostat.svelte';
+import EnergyBudget from './EnergyBudget.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -23,6 +24,7 @@ const REGISTRY = {
   'metabolic-switch': MetabolicSwitch,
   'scfa-flow': ScfaFlow,
   'appetite-thermostat': AppetiteThermostat,
+  'energy-budget': EnergyBudget,
   // future: flashcards, diagram, …
 };
 

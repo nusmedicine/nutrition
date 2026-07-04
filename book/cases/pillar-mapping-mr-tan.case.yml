@@ -138,17 +138,8 @@ nodes:
     type: branch
     rules:
       - if: "quality >= 3"
-        goto: talk-to-mr-tan
+        goto: caveat-slide
     else: remedial
-
-  - id: talk-to-mr-tan
-    type: patient-chat
-    scenarioId: pillar-mapping-mr-tan
-    objective: "Agree one concrete, realistic change Mr Tan will actually try this week."
-    turnLimit: 8
-    exitWhen: "patient agrees a specific, achievable change"
-    goto: caveat-slide
-    fallbackGoto: caveat-slide
 
   - id: remedial
     type: info

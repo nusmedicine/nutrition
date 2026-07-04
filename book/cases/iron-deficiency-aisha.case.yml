@@ -61,7 +61,28 @@ nodes:
       nearly **one in three** women aged 15–49 are anaemic, with iron deficiency the
       leading cause — and **heavy menstrual bleeding** is a major driver. The *cause*
       matters as much as the iron itself.
-    next: q-absorption
+    next: q-diet
+
+  - id: q-diet
+    type: mcq
+    stem: "Her diet is mostly **noodles and bread** with little meat. Why does that matter for her iron?"
+    options:
+      - id: a
+        text: "Plant (non-haem) iron is absorbed less well and more variably than the haem iron in meat and fish, so a meat-light diet is a genuine risk factor."
+        correct: true
+        feedback: "Right — non-haem iron is poorly and variably absorbed. Pairing it with a vitamin-C food (and keeping tea/coffee away from meals) helps."
+        effects: { quality: +1 }
+        goto: q-absorption
+      - id: b
+        text: "Plant foods contain no iron at all, so she is getting none."
+        correct: false
+        feedback: "Plants do contain iron (non-haem) — the issue is that it's absorbed less efficiently, not that it's absent."
+        goto: q-absorption
+      - id: c
+        text: "Refined bread and noodles are actually rich in well-absorbed iron."
+        correct: false
+        feedback: "Refined staples are low in bioavailable iron; the well-absorbed *haem* form comes from meat and fish, which she eats little of."
+        goto: q-absorption
 
   - id: q-absorption
     type: mcq
@@ -108,18 +129,9 @@ nodes:
   - id: route
     type: branch
     rules:
-      - if: "quality >= 2"
-        goto: talk-to-aisha
+      - if: "quality >= 3"
+        goto: end-good
     else: remedial
-
-  - id: talk-to-aisha
-    type: patient-chat
-    scenarioId: iron-deficiency-aisha
-    objective: "Explain your concern plainly and agree a food-first step plus the plan to investigate the cause."
-    turnLimit: 8
-    exitWhen: "patient understands the plan and agrees a concrete step"
-    goto: end-good
-    fallbackGoto: end-good
 
   - id: remedial
     type: info

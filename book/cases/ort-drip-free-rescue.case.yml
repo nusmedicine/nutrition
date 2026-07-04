@@ -60,16 +60,37 @@ nodes:
         correct: true
         feedback: "Exactly — the glucose is a transport handle for sodium, and water follows the salt. That coupling is why ORS rehydrates and plain water alone does less well."
         effects: { quality: +1 }
-        goto: q-advice
+        goto: q-drinks
       - id: b
         text: "The glucose is mainly there to give the child energy and calories."
         correct: false
         feedback: "Its main job here is as a co-transport handle for sodium, not as fuel."
-        goto: q-advice
+        goto: q-drinks
       - id: c
         text: "The salt is only added to improve the taste so she drinks more."
         correct: false
         feedback: "No — the sodium is co-absorbed with glucose through SGLT1; it is mechanism, not flavouring."
+        goto: q-drinks
+
+  - id: q-drinks
+    type: mcq
+    stem: "Mrs Lim has isotonic **sports drink** and **cola** at home. Are those a good stand-in for ORS?"
+    options:
+      - id: a
+        text: "No — they carry far too much sugar and too little sodium; the wrong glucose-to-salt balance can even pull water *into* the gut and worsen diarrhoea. Use proper ORS."
+        correct: true
+        feedback: "Right — ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
+        effects: { quality: +1 }
+        goto: q-advice
+      - id: b
+        text: "Yes — any sugary drink supplies the glucose and water she needs."
+        correct: false
+        feedback: "The glucose-to-sodium *ratio* is what matters; too much sugar draws water into the gut (osmotic effect) and can make diarrhoea worse."
+        goto: q-advice
+      - id: c
+        text: "Yes, as long as she adds a pinch of salt to the cola."
+        correct: false
+        feedback: "Improvised mixes are unreliable — reach for commercial ORS (or a correctly measured home recipe) to get the right low-strength balance."
         goto: q-advice
 
   - id: q-advice
@@ -96,7 +117,7 @@ nodes:
   - id: route
     type: branch
     rules:
-      - if: "quality >= 2"
+      - if: "quality >= 3"
         goto: end-good
     else: remedial
 

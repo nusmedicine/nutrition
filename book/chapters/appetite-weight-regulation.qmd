@@ -1,14 +1,15 @@
 # Appetite and weight regulation
 
-> *The capstone of Part I. Chapter 2 asked whether energy balance was a simple sum; this chapter
-> answers it — appetite is a **regulated system** and body weight is **biologically defended**. The
+> *The capstone of Part I. The Energy Balance chapter asked whether energy balance was a simple sum;
+> this chapter answers it — appetite is a **regulated system** and body weight is **biologically
+> defended**. The
 > goal is **recognition**: know the signals that turn hunger up and down, understand why weight is so
 > hard to change, and learn to talk about it without blame. Not prescribing, not the full neuroanatomy — the
 > logic of a defended system, and why "just eat less, move more" is *insufficient*, not wrong.*
 
 ## The question Part I has been building toward {#sec-overview}
 
-Chapter 2 introduced energy balance as if it were arithmetic: calories in minus calories out. Every
+The Energy Balance chapter introduced energy balance as if it were arithmetic: calories in minus calories out. Every
 chapter since has complicated that picture, and this one closes it. **Appetite is not a free choice
 laid on top of a passive body — it is a controlled variable**, defended by an integrated system of
 hormones and brain circuits, in the same way blood glucose and body temperature are defended.
@@ -64,8 +65,9 @@ For decades, physiologists suspected fat tissue sent a "how much is stored" sign
 **1994** it was found: cloning the gene mutated in a grossly obese mouse revealed **leptin**, a hormone
 made by fat *in proportion to fat mass* (from the Greek *leptos*, "thin") [@zhang1994leptin]. More fat
 → more leptin → (normally) less hunger. Leptin acts right on the arcuate thermostat: it presses the
-**brake** (POMC) and eases off the **accelerator** (AgRP). This is leptin's true home — Chapter 2 only
-hinted at it and Chapter 6 covered its metabolic role; here it is the brain's long-term fuel gauge.
+**brake** (POMC) and eases off the **accelerator** (AgRP). This is leptin's true home — the Energy
+Balance chapter only hinted at it and the Integrative Metabolism chapter noted its release from fat;
+here it is the brain's long-term fuel gauge.
 
 The human proof is rare but decisive: children born unable to make leptin have **extreme, early-onset
 obesity with relentless hunger** — and **leptin injections rescue them completely**, melting away the
@@ -82,13 +84,13 @@ children [@heymsfield1999recombinant]. So leptin therapy works for a rare defici
 common obesity. The modern reading is that leptin is less an "anti-fat hormone" than a **starvation
 alarm**: a *fall* in leptin screams "danger, refeed"; a *rise* is quietly ignored — an asymmetry that
 becomes the key to weight regain later in this chapter [@flier2024leptin30]. (Insulin acts as a second,
-weaker fuel-gauge signal to the same neurons; its main home is Chapter 6.)
+weaker fuel-gauge signal to the same neurons; its main home is the Integrative Metabolism chapter.)
 :::
 
 ## The fast clock: the gut's meal-by-meal signals {#sec-gut-peptides}
 
 While leptin tracks fat over weeks, the gut narrates each *meal* to the brain in real time. You met
-some of these in Chapter 5 for what they do to the **gut** — CCK squeezing the gallbladder, the
+some of these in the Digestion & Absorption chapter for what they do to the **gut** — CCK squeezing the gallbladder, the
 incretin GLP-1 helping trigger insulin; **ghrelin, PYY and amylin are introduced here**. What matters
 now is what they all say to the **brain**.
 
@@ -107,7 +109,7 @@ protein "keeps you full."
   food intake by about a **third** [@batterham2002pyy]. GLP-1 is the one the new weight-loss drugs
   mimic (below).
 - **Amylin** — released *with* insulin from the pancreas at each meal; it reduces meal size and slows
-  the stomach. (Amylin is defined here, not in Chapter 5.)
+  the stomach. (Amylin is defined here, not in the Digestion & Absorption chapter.)
 
 How do these reach the brain? Mostly along the **vagus nerve** to a relay in the brainstem (the NTS)
 and up to the hypothalamus — a hard-wired "fullness" line. A second, purely mechanical signal matters
@@ -118,7 +120,7 @@ is exactly why a big bowl of soup or salad feels filling for very few calories.
 ## The ileal brake — and a link back to the microbiome
 When food reaches the *far* end of the small intestine, the GLP-1/PYY cells there both **slow the
 stomach** and **signal fullness** — a feedback loop called the *ileal brake* that paces digestion and
-appetite together. This is also where Chapter 7 hands off: the **short-chain fatty acids** your gut
+appetite together. This is also where the Gut Microbiome chapter hands off: the **short-chain fatty acids** your gut
 bacteria make from fibre stimulate these same GLP-1/PYY cells — one more way that fibre, fermented in
 the colon, quietly turns up satiety.
 :::
@@ -196,7 +198,7 @@ The reward system is triggered not only by eating but by **cues** — the sight,
 food — which can spark seeking even when you're full [@volkow2017dopamine]. And modern
 **ultra-processed foods** are engineered to combine sugar, fat and salt at maximally rewarding levels
 [@fazzino2019hyperpalatable]. The cleanest evidence they drive overeating is the tightly controlled
-trial you met in Chapter 5: with meals **matched for calories, macronutrients, sugar, fat, salt and fibre**, people
+trial you met in the Digestion & Absorption chapter: with meals **matched for calories, macronutrients, sugar, fat, salt and fibre**, people
 still ate about **500 kcal/day more** on the ultra-processed diet [@hall2019upf]. The
 honest, non-stigmatising frame: overeating here is a **normal reward system responding to an abnormal
 environment**, not a character flaw [@berthoud2017blaming].
@@ -216,7 +218,7 @@ When someone loses meaningful weight, **three systems shift together, all pushin
 2. **Hunger hormones shift** — ghrelin rises, the satiety peptides fall, and measured hunger goes up —
    and these changes still **persist a full year** after the weight loss [@sumithran2011hormonal].
 3. **Energy expenditure drops more than the smaller body should need** — the "extra" fall is called
-   **adaptive thermogenesis**. This is precisely the expenditure side of **Chapter 2's** energy-balance
+   **adaptive thermogenesis**. This is precisely the expenditure side of the **Energy Balance chapter's** energy-balance
    equation *pushing back*: a weight-reduced person burns fewer calories than someone who was never
    heavier at the same weight, so the arithmetic quietly turns against them.
 
@@ -250,12 +252,11 @@ responses to food [@greer2013sleepdeprivation]. (*When* you eat matters too: eat
 body clock, raises hunger and lowers energy expenditure even at identical calories
 [@vujovic2022lateeating] — one reason shift work and late suppers are metabolically taxing.)
 
-**Chronic stress nudges us toward "comfort food."** The proposed loop is that sustained **cortisol**
-drives a preference for energy-dense, sugary-fatty food and favours **visceral (belly) fat**
-[@dallman2003]. Be honest about the evidence here: much of this comes from animal models and
-human *associations* (people with higher long-term cortisol do tend to carry more central fat
-[@jackson2017haircortisol]), so teach it as a **plausible, partly-supported** loop rather than a proven
-mechanism.
+**Chronic stress nudges us toward "comfort food."** Sustained **cortisol** is thought to drive a
+preference for energy-dense, sugary-fatty food and to favour **visceral (belly) fat** [@dallman2003].
+The evidence is largely animal models and human *associations* — people with higher long-term cortisol
+do tend to carry more central fat [@jackson2017haircortisol] — so hold it as a **plausible, not proven**
+loop.
 
 ## When the switch is stuck: obesity, honestly {#sec-obesity}
 
@@ -318,7 +319,7 @@ sleep and how stressed you are, and pushed on by a food environment engineered t
 person who regains weight after a diet, or who can't stop snacking on night shift, or who feels hungrier
 the more they diet, is not weak — they are experiencing exactly what the physiology predicts. That
 understanding is where good, non-stigmatising medicine starts. And it closes the loop Part I opened in
-Chapter 2: **energy balance is real, but it is not free — it is defended.**
+the Energy Balance chapter: **energy balance is real, but it is not free — it is defended.**
 
 ## Check your understanding {#sec-quiz}
 

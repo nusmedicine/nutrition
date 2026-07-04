@@ -8,8 +8,8 @@
 
 ## The body as one system: what this chapter does {#sec-overview}
 
-Chapter 3 sorted food into macronutrients; Chapter 5 followed a meal from the plate into the
-blood. This chapter answers the question those two raise: **once the nutrients are in, what
+The Macronutrients chapter sorted food into macronutrients; the Digestion & Absorption chapter
+followed a meal from the plate into the blood. This chapter answers the question those two raise: **once the nutrients are in, what
 does the body do with them — and how does it survive the hours and days between meals?**
 
 The answer comes in **two layers**, and we build them in order.
@@ -30,7 +30,7 @@ memorise — it is one network with a logic.** Learn the logic and most of the d
 
 ---
 
-# Part A — reading the metabolic map {#sec-partA}
+## Part A — reading the metabolic map {#sec-partA .unnumbered}
 
 ## Five crossroads and four one-way streets {#sec-map}
 
@@ -53,7 +53,7 @@ in a pointless "futile cycle." Making glucose and burning glucose, building fat 
 
 Finally, the map has **direction**, and the direction comes from **four one-way streets** —
 irreversible steps that carbon can pass through but never come back. One of them, as we will
-see, is the single most important fact in the whole chapter. Everything else is reversible
+see, carries the whole logic of Part B. Everything else is reversible
 give-and-take; these four valves are why metabolism flows the way it does.
 
 Build the map yourself below — one pathway at a time onto the fixed backbone of the five
@@ -76,8 +76,8 @@ by four exits, and learning just this node makes the carbohydrate map fall into 
   take this exit**; most cells cannot. Remember this — it is the hinge of Part B.
 
 **Glycolysis** — splitting glucose into two **pyruvate** — happens in the cell's **cytosol** and,
-importantly, **does not need oxygen**. Its committed control step is the enzyme
-**phosphofructokinase-1 (PFK-1)**. It yields a little ATP directly. When oxygen is scarce (a
+importantly, **does not need oxygen**. It runs through a single committed, regulated step (the
+enzyme *phosphofructokinase-1*) and yields a little ATP directly. When oxygen is scarce (a
 sprinting muscle, or a red blood cell that has no mitochondria at all), pyruvate is converted to
 **lactate**, and this reaction regenerates the molecule glycolysis needs to keep running — so a
 cell can make ATP with no oxygen at all. Oxygen is used later, and elsewhere (§@sec-furnace) —
@@ -99,9 +99,10 @@ walk increasingly by fat — a distinction we return to under exercise (§@sec-e
 pool); *back up* toward glucose via **oxaloacetate** (the first step of making new glucose); or
 — the fateful one — forward into **acetyl-CoA**.
 
-That last step, **pyruvate → acetyl-CoA**, is catalysed by **pyruvate dehydrogenase (PDH)**, and
-it is **irreversible. There is no way back.** This is the first and most important of the map's
-four one-way streets, and it carries a consequence out of all proportion to its size:
+That last step, **pyruvate → acetyl-CoA**, is **irreversible. There is no way back.** (The enzyme
+is *pyruvate dehydrogenase* — but it is the irreversibility, not the name, that matters.) This is
+the first and most important of the map's four one-way streets, and it carries a consequence out of
+all proportion to its size:
 
 ::: {.callout-important}
 ## The one fact to carry out of Part A
@@ -136,22 +137,29 @@ enzyme steps belong to biochemistry proper.
 Fat is the body's **energy-dense** fuel — about **9 kcal/g against roughly 4** for carbohydrate
 or protein — which is exactly why it is the form the body uses for long-term storage.
 
-**Burning fat.** A fatty acid is carried into the mitochondrion by a shuttle whose gate,
-**CPT1**, is the committed control step; inside, **β-oxidation** chops it into **many molecules
-of acetyl-CoA** (plus the electron-carriers that feed energy production). Many acetyl-CoA per
-fatty acid is why fat yields so much energy.
+**Burning fat.** A fatty acid is carried into the mitochondrion through a single committed gate;
+inside, **β-oxidation** chops it into **many molecules of acetyl-CoA** (plus the electron-carriers
+that feed energy production). Many acetyl-CoA per fatty acid is why fat yields so much energy.
 
-**Storing fat.** In the other direction, the enzyme **acetyl-CoA carboxylase (ACC)** commits
-acetyl-CoA to building fatty acids (a process that consumes the **NADPH** made back at the
-pentose phosphate pathway). The switch between the two is beautifully simple, and a textbook case
-of reciprocal regulation: **ACC's immediate product blocks CPT1.** So when the cell is building
-fat, it has automatically shut the door on burning it. You do not build and burn fat at the same
-time.
+**Storing fat.** In the other direction, a committed enzyme step sends acetyl-CoA into building
+fatty acids (a process that consumes the **NADPH** made back at the pentose phosphate pathway). The
+switch between the two is beautifully simple, and a textbook case of reciprocal regulation: **the
+very signal that commits the cell to building fat also blocks the gate for burning it.** So when the
+cell is building fat, it has automatically shut the door on burning it. You do not build and burn fat
+at the same time.
+
+::: {.callout-note}
+## For reference: the two switch enzymes
+The gate into the mitochondrion is **CPT1**; the committed enzyme for *building* fat is
+**acetyl-CoA carboxylase (ACC)**, whose immediate product is exactly what blocks CPT1. You do not
+need these names — what matters is the **logic**: one reciprocal switch, so burning and building
+never run at once.
+:::
 
 **Ketone bodies.** There is a third fate for acetyl-CoA, and it becomes vital in Part B. When fat
 breakdown floods the fasting **liver** with more acetyl-CoA than it can burn, the liver converts
 the surplus into **ketone bodies** and exports them for other organs to use. The liver makes them
-but — lacking the enzyme (**SCOT**) to use them — **cannot burn its own product.** It is a ketone
+but — lacking the one enzyme needed to use them — **cannot burn its own product.** It is a ketone
 factory that ships its entire output. Keep that oddity in mind; it is the key to how the body
 survives a long fast.
 
@@ -199,9 +207,9 @@ skeleton then joins the map as one of two types:
 - **Glucogenic** — enters as pyruvate or a TCA intermediate, and *can* become glucose. Most amino
   acids are at least partly glucogenic.
 - **Ketogenic** — enters as acetyl-CoA, and (by the one-way-street rule) *cannot* become glucose,
-  only ketones. **Leucine and lysine are the only two purely ketogenic amino acids** — the two
-  worth remembering; several others are both, and the exact bookkeeping varies between textbooks
-  and is not worth memorising here.
+  only ketones. A **few** amino acids are purely ketogenic; most are glucogenic, or both. The exact
+  per-amino-acid bookkeeping varies between textbooks and is not worth memorising — the *rule*
+  (which entry point sets the fate) is the point.
 
 **Step back and see the logic.** The whole map is five crossroads, wired together by reversible
 give-and-take, given its direction by four one-way streets. That is all Part A is. Everything in
@@ -209,7 +217,7 @@ Part B is this same map — with hormones deciding, meal by meal, which way the 
 
 ---
 
-# Part B — the map, alive: fed, fasted, starved {#sec-partB}
+## Part B — the map, alive: fed, fasted, starved {#sec-partB .unnumbered}
 
 The pathways of Part A are always present in every cell. What *changes*, hour to hour, is which
 of them are switched on — and that is set almost entirely by two hormones from the pancreas. The
@@ -248,7 +256,7 @@ pathways:
   stock the fat cell [@wang2009lpl]. And insulin is powerfully **anti-lipolytic** — it clamps the
   brakes on fat release. (Adipose also releases **leptin** in proportion to its fat stores — a
   long-term signal the brain reads to regulate appetite and defend body weight; that story is the
-  appetite chapter's.)
+  Appetite & Weight Regulation chapter's.)
 
 ::: {.callout-note}
 ## The clean integration point: GLUT4 versus GLUT2
@@ -394,7 +402,7 @@ and monitored — the management is clinical-years work [@statpearlsRefeeding; @
 You can tell which fuel someone is burning from the gases they exchange. The **respiratory
 quotient (RQ)** — CO₂ produced ÷ O₂ consumed — is about **1.0 when burning pure carbohydrate** and
 about **0.7 when burning pure fat** (protein and a mixed diet sit in between, around 0.8–0.85).
-Chapter 2 *defined* RQ; here we simply *read* it. After a carbohydrate meal, RQ climbs toward
+The Energy Balance chapter *defined* RQ; here we simply *read* it. After a carbohydrate meal, RQ climbs toward
 1.0; deep into a fast it drifts toward 0.7 as the body switches to fat [@rqValuesStd]. The
 metabolic-switch interactive above shows this drift as you step from fed to fasted — it is the map
 telling you, in one number, which way the traffic is running.
@@ -432,8 +440,8 @@ runner does not.
 ## Lipoproteins, interconverted {#sec-lipoproteins}
 
 The last piece of integration is how fat travels in the blood — and it ties three chapters
-together. Chapter 3 named the lipoprotein *classes*; Chapter 5 assembled the chylomicron in the
-gut. Here they are simply a **pathway that interconverts.** Dietary fat leaves the gut as
+together. The Macronutrients chapter named the lipoprotein *classes*; the Digestion & Absorption
+chapter assembled the chylomicron in the gut. Here they are simply a **pathway that interconverts.** Dietary fat leaves the gut as
 **chylomicrons**; lipoprotein lipase strips their triglyceride, leaving **remnants** the liver
 clears. The liver exports its own fat as **VLDL**, which sheds triglyceride to become **IDL** and
 then **LDL** (the main cholesterol-delivery particle). And **HDL** runs the opposite errand —

@@ -3,7 +3,7 @@ title: "Everyday questions in one clinic: carbs, fat and protein"
 objectives:
   - "Answer common lay questions on carbohydrate, fat and protein on quality-over-quantity terms."
   - "Correct popular myths honestly — coconut oil, dietary cholesterol, 'more protein = more muscle'."
-  - "Give quality guidance, anchor to My Healthy Plate, and know when to refer."
+  - "Give quality guidance, anchor to My Healthy Plate, and recognise the boundary where a plan belongs with a dietitian (a skill later chapters teach)."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, macronutrients, counselling, myths]
@@ -128,18 +128,8 @@ nodes:
     type: branch
     rules:
       - if: "quality >= 3"
-        goto: talk-to-mr-lim
+        goto: end-good
     else: remedial
-
-  - id: talk-to-mr-lim
-    type: patient-chat
-    emotion: relieved
-    scenarioId: common-questions-mr-lim
-    objective: "Agree one realistic change per theme, and — because he is keen on a strict low-carb plan on top of borderline glucose and cholesterol — flag that this is beyond simple diet advice and you would bring in a dietitian."
-    turnLimit: 8
-    exitWhen: "patient agrees specific, safe changes and understands the referral"
-    goto: end-good
-    fallbackGoto: end-good
 
   - id: remedial
     type: info
@@ -155,7 +145,7 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Quality over quantity — and knowing when to refer"
+    title: "Quality over quantity — and where referral begins"
     body: |
       You answered a carbohydrate, a cholesterol, a fat and a protein question on
       quality-not-quantity terms, corrected the coconut-oil, egg and 'more-protein' myths

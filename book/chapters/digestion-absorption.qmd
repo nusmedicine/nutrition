@@ -39,8 +39,8 @@ bacteria onward roughly every 1–2 hours, triggered by the hormone **motilin** 
 ::: {.callout-note}
 Transit times are **coarse ranges, not fixed numbers**: hours in the stomach, hours in the
 small intestine, and up to a day or more in the colon — around **1–3 days** end to end,
-varying with diet, fibre, fluid and activity. (How fibre speeds transit belongs to the gut
-microbiome chapter.)
+varying with diet, fibre, fluid and activity. (How fibre speeds transit belongs to the Gut
+Microbiome chapter.)
 :::
 
 ## Chemical digestion: enzymes are scissors
@@ -88,7 +88,7 @@ confuse — and worth separating:
 - **Milk-allergic** — an entirely different, immune reaction to milk *protein*.
 
 When undigested lactose reaches the colon, resident bacteria ferment it and produce gas —
-*that* mechanism belongs to the gut microbiome chapter. The practical message is food-first and
+*that* mechanism belongs to the Gut Microbiome chapter. The practical message is food-first and
 culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources
 (calcium-set tofu, fortified soy milk, leafy greens, small fish with bones) all work — "just
 drink three glasses of milk" does not.
@@ -100,7 +100,7 @@ scattered singly through its lining. Their shared logic is simple — food arriv
 segment releases a hormone that **prepares the next** stage or **puts the brakes** on the
 previous one [@statpearlsGIhormones]. Five are worth recognising, each as *where it's made →
 what triggers it → its one job* (regulating **secretion and motility** — the role in appetite
-comes later, in Chapter 8, Appetite and Weight Regulation):
+comes later, in the Appetite & Weight Regulation chapter):
 
 | Hormone | Made by | Trigger | Job |
 |---|---|---|---|
@@ -189,11 +189,11 @@ flowchart LR
 ```
 
 ::: {.callout-note}
-## Where each nutrient gets in (a link back to Chapter 4)
+## Where each nutrient gets in (a link back to the Micronutrients chapter)
 Absorption is often **site-specific**: **iron** in the **duodenum**, **vitamin B12** (with
 intrinsic factor) at the **terminal ileum**, and the **fat-soluble vitamins (A, D, E, K)**
 alongside fat and bile — so a fat or bile problem can quietly cause *their* deficiency too. The
-nutrients themselves are covered in Chapter 4; here we're mapping *where* they get in.
+nutrients themselves are covered in the Micronutrients chapter; here we're mapping *where* they get in.
 :::
 
 ## Same food, different speed: how eating and preparation change digestion
@@ -234,11 +234,11 @@ The effect is small and variable, and is not a licence for larger portions.
 **Order and company.** With meal composition fixed, eating **vegetables and protein before the
 carbohydrate** measurably lowers the post-meal glucose and insulin rise: in people with
 prediabetes, a vegetable-and-protein-first order reduced the glucose peak by roughly 45% and the
-incremental area under the curve by nearly 40% relative to carbohydrate first [@shukla2019order].
-The mechanism belongs to this chapter — the pre-load slows gastric emptying of the carbohydrate
-and stimulates the CCK and incretin responses described earlier. The evidence is consistent but
-comes largely from small, short-term studies in prediabetes or type 2 diabetes, with weaker data
-on long-term control; it is nonetheless a cost-free habit that suits a mixed-rice (*cai png*)
+incremental area under the curve by nearly 40% relative to carbohydrate first — though these
+figures come from small, short-term studies in prediabetes or type 2 diabetes, with weaker data
+on long-term control [@shukla2019order]. The mechanism belongs to this chapter — the pre-load
+slows gastric emptying of the carbohydrate and stimulates the CCK and incretin responses described
+earlier. It is nonetheless a cost-free habit that suits a mixed-rice (*cai png*)
 meal — the vegetables and fish or tofu first, the rice last. Adding **fat, protein, viscous
 fibre or acid** to a carbohydrate meal has a similar effect through the same brake on gastric
 emptying; vinegar is the best-studied acid, modestly lowering post-meal glucose and insulin in a
@@ -276,7 +276,7 @@ carotenoids travel the same bile-and-micelle route as dietary fat, so a nearly f
 leaves much of them unabsorbed — carotenoid uptake from a salad was negligible with a fat-free
 dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, a reason
 to dress vegetables with some oil rather than eat them fat-free (the vitamins themselves are
-covered in Chapter 4).
+covered in the Micronutrients chapter).
 
 ::: {.callout-warning}
 ## Food is not inert around medicines
@@ -294,7 +294,7 @@ Food can alter how a drug is absorbed by two broad mechanisms; at this stage the
 
 Alcohol is relevant here too: it injures the gastric lining and impairs absorption of several
 nutrients, notably blocking the active transport of thiamine — part of the mechanism behind the
-deficiency discussed in Chapter 4 [@subramanya2010alcohol]. The priority here is the
+deficiency discussed in the Micronutrients chapter [@subramanya2010alcohol]. The priority here is the
 habit rather than the list: with any new medicine, check the label and ask a pharmacist about
 food, grapefruit, dairy, iron and timing.
 :::
@@ -340,6 +340,27 @@ evidence literacy:
 - **"Fat-free is the healthiest way to eat vegetables."** For the fat-soluble vitamins and
   carotenoids, a nearly fat-free meal leaves much unabsorbed; a little fat improves their uptake
   [@brown2004carotenoid].
+
+## The Singapore picture
+
+Three threads from this chapter land close to home. **Lactose non-persistence is the local norm**,
+not a disease: about 95% of Singapore-born Chinese adults are lactase-deficient, yet most tolerate
+the lactose in about a cup of milk [@yap1989] — so the food-first options (hard cheese, yoghurt,
+lactose-free milk, calcium-set tofu, fortified soy milk) matter far more here than "just drink more
+milk." **You can nudge a meal's digestion at the hawker stall:** at a mixed-rice (*cai png*) stall,
+taking the vegetables and protein first and the rice last flattens the glucose rise for free
+[@shukla2019order]. And **oral rehydration salts are that physiology in a sachet** — a pharmacy
+staple that turns SGLT1 into a drip-free rescue for the gastroenteritis every family meets.
+
+## So — what happens to a meal?
+
+Follow one plate to the end and the whole tube resolves into two jobs done in order: **break food
+into absorbable pieces, then absorb them.** Enzymes are the scissors, gut hormones the control panel
+that readies each next stage, bile the detergent that makes fat absorbable, and a vast folded surface
+the place it all crosses — most nutrients heading first to the liver by the portal vein, fat taking
+the lymphatic back door. Hold that map — which organ, which enzyme, which hormone, and where each
+nutrient gets in — and the clinical patterns fall out of it: lactose intolerance, B12 loss when the
+terminal ileum is damaged, and a dehydrated child rescued by mouth.
 
 ## Check your understanding
 

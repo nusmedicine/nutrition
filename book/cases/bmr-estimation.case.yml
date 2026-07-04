@@ -89,33 +89,45 @@ nodes:
         correct: true
         feedback: "Right — ~1.4 × 1240 ≈ **1740 kcal/day** total."
         effects: { quality: 1 }
-        goto: route
+        goto: q-advice
       - id: b
         text: "≈ 1.0"
         correct: false
         feedback: "1.0 would ignore all activity and the thermic effect of food."
-        goto: route
+        goto: q-advice
       - id: c
         text: "≈ 2.2"
         correct: false
         feedback: "~2.2 is for very active people — not a sedentary teacher."
+        goto: q-advice
+
+  - id: q-advice
+    type: mcq
+    stem: "Her needs are ≈ **1740 kcal/day** and she wants to lose weight. What target should you set?"
+    options:
+      - id: a
+        text: "A modest deficit of ~300–500 kcal/day, via sustainable swaps"
+        correct: true
+        feedback: "Right — a modest deficit supports gradual loss (~0.25–0.5 kg/week) and is far easier to sustain. Drastic cuts provoke the body's defence of weight — stronger hunger and a fall in expenditure."
+        effects: { quality: 1 }
+        goto: route
+      - id: b
+        text: "A large deficit of ~1000+ kcal/day for faster results"
+        correct: false
+        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a drop in expenditure — the 'defended, not free' problem. Slow and steady wins."
+        goto: route
+      - id: c
+        text: "No change to intake — just tell her to exercise it off"
+        correct: false
+        feedback: "Out-exercising a dietary surplus is hard; pairing a modest dietary deficit with more everyday movement (NEAT) is more realistic."
         goto: route
 
   - id: route
     type: branch
     rules:
-      - if: "quality >= 2"
-        goto: talk-to-mdm-tan
+      - if: "quality >= 3"
+        goto: counselling
     else: remedial
-
-  - id: talk-to-mdm-tan
-    type: patient-chat
-    scenarioId: bmr-mdm-tan
-    objective: "Agree a realistic daily energy target and one concrete dietary change."
-    turnLimit: 8
-    exitWhen: "patient agrees a specific, safe change"
-    goto: counselling
-    fallbackGoto: counselling
 
   - id: counselling
     type: info

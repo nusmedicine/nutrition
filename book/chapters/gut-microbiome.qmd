@@ -1,6 +1,6 @@
 # The gut microbiome
 
-> *Meet the trillions of microbes living in your gut. The goal is **recognition**:
+> *Meet the trillions of microbes living in your gut. This chapter is about **recognition**:
 > know who is in there and how many, understand the one job they do that you cannot — turning
 > fibre into fuel — and learn to tell the real, diet-modifiable science from the hype, which on
 > this topic is thick. Not species lists, not prescribing — the ecosystem and its evidence.*
@@ -30,8 +30,8 @@ collapse the moment you ask "by what mechanism?"
 (mostly bacteria-infecting phages) that are minor players at this level [@matijasic2020beyond]. And
 it lives **mostly in the colon.** Microbial density climbs steeply along the tract — sparse in the
 acidic stomach and brisk small intestine, then densest by orders of magnitude in the **colon**,
-whose slow transit, near-neutral pH and minimal absorption (the anatomy is Chapter 5's) make it the
-body's **fermentation chamber** [@donaldson2016gutbiogeography].
+whose slow transit, near-neutral pH and minimal absorption (the anatomy is the Digestion &
+Absorption chapter's) make it the body's **fermentation chamber** [@donaldson2016gutbiogeography].
 
 ::: {.callout-warning}
 ## The 10:1 myth — and the 1–2 kg myth
@@ -88,7 +88,8 @@ evidence-based fix and is advised against outside research, partly for infection
 ## The main event: fibre becomes fuel {#sec-scfa}
 
 This is the chapter's centrepiece and the microbiome's single most important job for you. Recall
-from Chapter 5 that your own enzymes cannot break down **dietary fibre** and **resistant starch** —
+from the Digestion & Absorption chapter that your own enzymes cannot break down **dietary fibre**
+and **resistant starch** —
 so they travel, undigested, all the way to the colon. There, the anaerobic bacteria do what your
 enzymes could not: they **ferment** it. The distinction is everything — *digestion* is your enzymes
 hydrolysing food in the small intestine; **fermentation** is bacterial metabolism, without oxygen,
@@ -107,7 +108,8 @@ approximate ratio of **60:20:20** (it varies with diet, substrate and site — t
 - **Acetate** (the most abundant) is poorly extracted by the liver and travels **systemically** to
   peripheral tissues and other bacteria.
 - **Propionate** is taken up by the **liver** through the portal vein, where it is a
-  **gluconeogenic substrate** — one of the raw materials for making glucose you met in Chapter 6.
+  **gluconeogenic substrate** — one of the raw materials for making glucose you met in the
+  Integrative Metabolism chapter.
 - **Butyrate** (the *least* abundant) is the star locally: it is the **preferred fuel of the
   colonocytes**, supplying the bulk of the colon lining's energy [@roediger1982colonocyte;
   @donohoe2011butyrate].
@@ -126,10 +128,11 @@ fuel is a carbon or two of chain length.
 
 <div data-island="molecule" data-src="/structures/scfa.mol.yml"></div>
 
-**Fermentation also makes gas — and this is the bloating you met in Chapter 5.** Alongside the
-SCFAs, fermentation releases **hydrogen (H₂), carbon dioxide (CO₂)** and, in some people,
-**methane (CH₄)**. When a lot of fermentable substrate arrives at once — undigested lactose (the
-Chapter 5 hand-off), beans, onions, or certain FODMAPs — more gas is made, and the distension is
+**Fermentation also makes gas — and this is the bloating you met in the Digestion & Absorption
+chapter.** Alongside the SCFAs, fermentation releases **hydrogen (H₂), carbon dioxide (CO₂)** and,
+in some people, **methane (CH₄)**. When a lot of fermentable substrate arrives at once — undigested
+lactose (the Digestion & Absorption hand-off), beans, onions, or certain FODMAPs — more gas is made,
+and the distension is
 felt as bloating and wind. Some people carry **methanogenic archaea** (such as *Methanobrevibacter
 smithii*) that consume H₂ to make CH₄, keeping hydrogen low so fermentation can keep running
 [@chaudhary2018methanogens]. Gas is usually a sign the system is *working*, not failing.
@@ -160,7 +163,7 @@ SCFAs and a healthier gut lining.**
 
 ::: {.callout-note}
 ## 🔬 Food science: not all fibre ferments the same way
-Fibre is the *substrate* here (its chemistry is Chapter 3's); what matters for the microbiome is how
+Fibre is the *substrate* here (its chemistry is the Macronutrients chapter's); what matters for the microbiome is how
 *fermentable* it is. Rapidly fermented soluble fibres — inulin (onion, garlic), pectin (fruit),
 β-glucan (oats) — give a prompt burst of SCFAs and gas. **Resistant starch** — in cooked-and-cooled
 rice or pasta, slightly-green bananas, legumes — ferments more slowly, further along the colon, and
@@ -179,10 +182,11 @@ happens in the **colon**, *downstream* of where those vitamins are absorbed.
 
 The cleanest example is **vitamin B12**. Most gut microbes actually *consume* B12, and the little
 they make is produced past the terminal ileum — the exact site where B12 (with intrinsic factor) is
-absorbed (Chapter 5). So **colonic microbial B12 is essentially unavailable to you**, and dietary,
-animal-source B12 remains the functional supply [@degnan2014b12]. Bacterial **K2** is likewise poorly
-available, and diet stays the principal source of vitamin K [@lai2022vitk]. The vitamins themselves
-are Chapter 4's; here the lesson is simply: *"made in the gut" does not mean "available to you."*
+absorbed (the Digestion & Absorption chapter). So **colonic microbial B12 is essentially unavailable
+to you**, and dietary, animal-source B12 remains the functional supply [@degnan2014b12]. Bacterial
+**K2** is likewise poorly available, and diet stays the principal source of vitamin K [@lai2022vitk].
+The vitamins themselves are the Micronutrients chapter's; here the lesson is simply: *"made in the
+gut" does not mean "available to you."*
 
 ---
 
@@ -302,7 +306,7 @@ via **SCFAs**, via the immune system, and via microbial neuroactive metabolites 
 But the eye-catching results — where transplanting microbes changes behaviour — are largely **mouse**
 studies, and "psychobiotic" benefits for mood in *humans* are mostly small or preclinical and not yet
 convincingly shown. Hold the channel as real and the mood claims as unproven; the appetite and
-behaviour payoff is developed in Chapter 8 (Appetite and Weight Regulation).
+behaviour payoff is developed in the Appetite & Weight Regulation chapter.
 :::
 
 ## The Singapore picture {#sec-singapore}
@@ -349,7 +353,7 @@ inter-individual variation is the rule, and that *diet and lifestyle*, not natio
 community [@khine2021multiethnic]. And because significant
 **vegetarian and vegan** eating is part of several local communities, the "you cannot rely on your
 gut bacteria for B12" point is not abstract here — it is a real, common reason to plan a dietary or
-supplemental B12 source (Chapter 4).
+supplemental B12 source (the Micronutrients chapter).
 
 ## So how do I actually eat for my gut? {#sec-close}
 
