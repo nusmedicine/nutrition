@@ -416,6 +416,17 @@ fat over weeks, what counts is the total energy deficit, not which zone a sessio
 "a higher percentage of fat" is not the same as burning more fat.
 :::
 
+::: {.callout-tip}
+## 🍳 From physiology to the plate: fuelling everyday exercise
+What and when to eat around exercise follows straight from the map. Because muscle glycogen is a
+*limited* store, topping it up matters — but only when you actually run it low. For everyday activity
+(a run, a gym session, a social game), your existing glycogen is ample and **water is usually all you
+need** — the sports drinks and gels are marketing, not physiology. Carbohydrate loading before, and
+fuelling during, genuinely help only for **prolonged, hard** efforts lasting well beyond an hour,
+where they delay "the wall" — the reason a marathoner carbo-loads and takes gels while a Sunday 5 km
+runner does not.
+:::
+
 ## Lipoproteins, interconverted {#sec-lipoproteins}
 
 The last piece of integration is how fat travels in the blood — and it ties three chapters
@@ -466,42 +477,56 @@ the thresholds sit shifts with context (something Chapter 15 develops).
 
 ## The Singapore picture {#sec-singapore}
 
-**Ramadan is the fed–fasted switch lived, daily.** Each year a large part of Singapore's community
-fasts from dawn to dusk — roughly 13–14 hours — eating before sunrise (*suhoor*) and breaking the
-fast at sunset (*buka puasa*). Physiologically this is glycogenolysis giving way to
-gluconeogenesis and rising fat oxidation, then refeeding, every day for a month. It is worth being
-**honest about the depth**, though: a daytime fast of this length produces a measurable **shift
-toward burning fat**, but **not** dramatic afternoon ketosis, and studies find fasting blood
-glucose stays **within the normal range** across the month [@lessan2019ramadan;
-@madkour2023metabolomics]. Deep ketosis is a feature of *multi-day* starvation, not a single
-day's fast.
+Metabolism is universal, but **when, what and how much we eat is cultural** — and Singapore's food
+environment writes the fed/fasted switch in a particular way. This is where the chapter's physiology
+becomes most practical.
 
-For **people with diabetes**, however, Ramadan is a genuine clinical issue — one you should
-recognise and refer, not manage. Fasting while on insulin or sulfonylureas markedly raises the
-risk of **hypoglycaemia**; a large regional survey (EPIDIAR) estimated the risk of severe hypos
-rose several-fold in fasting patients with type 2 diabetes [@salti2004epidiar]. Singapore has both
-its own data — nearly **half** of Muslim patients with type 2 diabetes at one hospital reported a
-hypoglycaemic episode around Ramadan, yet many continued fasting without self-monitoring
-[@zainudin2017knowledge] — and a locally developed risk-management tool, the **FAST algorithm**,
-tested in a Singapore trial [@lum2020fast]. The recognition-level message: know the risk, advise
-breaking the fast for a hypo, and refer for pre-Ramadan medication adjustment (Chapter 15).
+**A culture of abundance keeps the switch storing.** Hawker centres open from breakfast to supper,
+a strong snacking and late-night eating habit, sweet drinks by default, and a year-round calendar of
+festivals mean many people spend a large share of the day in the **fed (storing) state**. The festive
+peaks make it vivid: Chinese New Year, Hari Raya, Deepavali and Christmas each bring days of feasting
+— reunion dinners, *bak kwa* and pineapple tarts, *ketupat* and *rendang*, log cakes and soft drinks
+— a cultural over-supply that the fed-state machinery dutifully stores as glycogen and fat. Nothing is
+metabolically "wrong"; the switch is doing exactly its job. But holiday weight gain is real, modest
+per season, and — the part that matters — **not fully reversed afterwards, so it accumulates across
+the years** [@yanovski2000holiday]. A food culture of frequent abundance simply keeps the storage side
+of the switch busy.
+
+**Ramadan — the fed/fasted switch, lived.** For a large part of the community the fed→fasted→refed
+cycle is enacted daily for a month: no food or drink from dawn to dusk (~13–14 hours), with a
+pre-dawn meal (*suhoor*) and breaking the fast at sunset (*buka puasa*). Physiologically each day runs
+glycogenolysis giving way to gluconeogenesis with a **shift toward fat oxidation** — but, to be
+honest about the depth, **not** dramatic afternoon ketosis; fasting blood glucose stays within the
+normal range across the month [@lessan2019ramadan; @madkour2023metabolomics]. The food-first,
+practical points fall straight out of the chapter: a *suhoor* built on **slower-digesting foods**
+(wholegrains, protein, some fat) sustains the fast better than a sugary one, and the commonest pitfall
+is the **rebound** — breaking a day's fast with a huge, sweet, fast-digesting spread. Eating to a
+normal-sized meal at *buka puasa* and rehydrating overnight keeps the day's swing gentle. *(For
+someone with diabetes on glucose-lowering medication, a long daily fast genuinely raises the risk of a
+hypoglycaemic episode — a recognise-and-refer situation: encourage a pre-Ramadan medication review and
+never pushing through a hypo to keep fasting; management is Chapter 15.)*
+
+**Supper and drinking culture.** The local habit of late-night drinking, often after a light dinner or
+on an empty stomach, is exactly the setting for the **alcohol-and-fasting hypoglycaemia** met above —
+which is why the plain advice *eat when you drink* is worth giving, and why a friend found confused
+after a night out deserves a glucose check, not the assumption that they are "just drunk."
 
 ::: {.callout-tip}
 ## 🍜 The honest state of intermittent fasting and keto
-Both are popular in Singapore, and both work — but through less exotic mechanisms than the hype
-claims. **Time-restricted eating** produces weight loss mostly by **cutting total calories**, and
-in a careful trial was **not superior** to plain daily calorie restriction [@liu2022tre;
-@decabo2019fasting]. The **ketogenic diet** likewise works largely through appetite and calorie
-control — and, to close the loop, its nutritional ketosis is **not** the dangerous ketoacidosis a
-patient may fear. The physiology is real; the magic is not. (Chapter 13 develops how to weigh
-claims like these.)
+Both are popular here, and both work — but through less exotic mechanisms than the hype claims.
+**Time-restricted eating** ("16:8" and the like) produces weight loss mostly by **cutting total
+calories**, and in a careful trial was **not superior** to plain daily calorie restriction
+[@liu2022tre; @decabo2019fasting]. The **ketogenic diet** likewise works largely through appetite and
+calorie control — and, to close the loop, its nutritional ketosis is **not** the dangerous
+ketoacidosis a patient may fear. The physiology is real; the magic is not. (Chapter 13 develops how to
+weigh claims like these.)
 :::
 
-**Why this chapter matters here.** Singapore declared a **"War on Diabetes"** in 2016; roughly one
-resident in twelve lives with diabetes — and closer to one in eight among the Malay community
-[@mohWarOnDiabetes]. Understanding the fed–fasted switch, and how it breaks, is the physiological
-foundation under that public-health effort — and under the counselling and management skills that
-come in later chapters.
+**Why this chapter matters here.** Singapore's **"War on Diabetes"** (declared 2016) sits on top of
+all of this — roughly one resident in twelve lives with diabetes, and more in some communities
+[@mohWarOnDiabetes]. A food culture that keeps the fed side of the switch busy, together with the
+switch's own failure modes, is the physiology underneath that public-health effort and the
+counselling and management skills of the later chapters.
 
 ## So — is fasting good or bad for you? {#sec-close}
 
