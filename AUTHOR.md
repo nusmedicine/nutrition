@@ -406,7 +406,10 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
 ### 11d. House rules (apply everywhere)
 
 - **Depth:** first-year level. Blocks stay **2–4 sentences**; the "plate to cell" beat is one
-  paragraph + a forward-ref. Structure is for *scanning*, not length.
+  paragraph + a forward-ref. Structure is for *scanning*, not length. **Don't *say* "first-year" in
+  the prose** — the whole book is pitched there, so labelling goals/tasks/scope as "first-year" is
+  redundant. Write the level implicitly ("the goal is recognition", "the task here", "at this stage",
+  "recognise, don't manage"). The only place to name the audience is the front-matter (subtitle/preface).
 - **Evidence honesty:** state the benefit *and* its caveat; name a landmark trial only *with*
   its limits (relative vs absolute, surrogate endpoint, certainty grade).
 - **Singapore-first:** anchor to HPB/MOH tools and hawker/home realities before generalising. The
