@@ -1,0 +1,123 @@
+id: gut-microbiome-basics
+title: "Quick check: the gut microbiome"
+questions:
+  - id: q-ratio
+    stem: "Roughly how do gut bacteria compare in number to your own body cells?"
+    options:
+      - text: "About 1:1 — roughly equal numbers."
+        correct: true
+        feedback: "Correct. The careful 2016 recount put it near 1:1 (about 38 trillion bacteria to 30 trillion human cells, most of which are red blood cells). Total bacterial mass is only about 0.2 kg."
+      - text: "About 10:1 — ten bacteria for every human cell."
+        correct: false
+        feedback: "This is the famous myth. The 10:1 figure was a 1970s back-of-envelope estimate; the real ratio is roughly 1:1."
+      - text: "About 100:1 — bacteria vastly outnumber us."
+        correct: false
+        feedback: "No — the ratio is roughly 1:1. Even the old (wrong) figure was only 10:1."
+  - id: q-densest
+    stem: "Where does the microbiome live in greatest density, and why there?"
+    options:
+      - text: "The colon — slow transit, near-neutral pH and little absorption make it the ideal fermentation chamber."
+        correct: true
+        feedback: "Correct. Density climbs along the tract and peaks in the colon, which is why that's where fibre fermentation happens."
+      - text: "The stomach — the acid helps bacteria grow."
+        correct: false
+        feedback: "The opposite — stomach acid keeps microbial numbers low. The colon is the dense site."
+      - text: "The small intestine — where most digestion happens."
+        correct: false
+        feedback: "The small intestine is relatively sparse (brisk transit, digestive juices). The colon is far denser."
+  - id: q-ferment
+    stem: "What is the key difference between digestion and fermentation?"
+    options:
+      - text: "Digestion is your own enzymes breaking food down in the small intestine; fermentation is bacteria breaking down (without oxygen) what your enzymes could not, in the colon."
+        correct: true
+        feedback: "Correct. Fibre escapes your enzymes and is fermented by colonic bacteria — bacterial metabolism, not host digestion."
+      - text: "They are two words for the same process."
+        correct: false
+        feedback: "No — digestion is your enzymes; fermentation is bacterial metabolism of what you couldn't digest."
+      - text: "Fermentation happens in the stomach using acid."
+        correct: false
+        feedback: "No — fermentation is anaerobic bacterial metabolism in the colon, not acid digestion in the stomach."
+  - id: q-butyrate
+    stem: "Which short-chain fatty acid is the preferred fuel of the cells lining the colon?"
+    options:
+      - text: "Butyrate — even though it's the least abundant of the three."
+        correct: true
+        feedback: "Correct, and note the trap: butyrate is the LEAST abundant SCFA but the most important locally. Abundance is not importance."
+      - text: "Acetate — because it's the most abundant."
+        correct: false
+        feedback: "Acetate is the most abundant, but it travels systemically. The colonocyte's fuel is butyrate."
+      - text: "Propionate — because it goes to the liver."
+        correct: false
+        feedback: "Propionate goes to the liver (gluconeogenesis). The colonocyte fuel is butyrate."
+  - id: q-gas
+    stem: "Why do beans, onions or too much milk give some people wind?"
+    options:
+      - text: "Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄) — usually a sign the system is working."
+        correct: true
+        feedback: "Correct. Gas is a normal by-product of fermentation; undigested lactose (Chapter 5) reaching the colon is a classic example."
+      - text: "The stomach can't handle these foods, so acid escapes as gas."
+        correct: false
+        feedback: "No — the gas comes from bacterial fermentation in the colon, not the stomach."
+      - text: "It always means something is wrong with the microbiome."
+        correct: false
+        feedback: "No — normal fermentation makes gas. It's usually a sign the system is working, not failing."
+  - id: q-diversity
+    stem: "Why does eating a *variety* of plants matter for the microbiome, not just eating fibre?"
+    options:
+      - text: "Microbes cross-feed — one species breaks fibre into products another uses — so diverse fibres feed a diverse, resilient community."
+        correct: true
+        feedback: "Correct. Many butyrate producers can't break fibre down themselves; they live on what primary degraders release. Variety feeds variety."
+      - text: "Different plants each contain a different vitamin the microbiome needs."
+        correct: false
+        feedback: "The mechanism is cross-feeding among microbes, not plant vitamins. Diverse fibre substrates support a diverse microbial community."
+      - text: "It doesn't — total fibre is all that matters."
+        correct: false
+        feedback: "Variety matters: diverse fibres support diverse microbes through cross-feeding, which makes the community more resilient."
+  - id: q-b12
+    stem: "Can you rely on your gut bacteria to supply your vitamin B12?"
+    options:
+      - text: "No — most microbial synthesis is in the colon, downstream of where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the functional supply."
+        correct: true
+        feedback: "Correct — the site/absorption mismatch is the key. 'Made in the gut' does not mean 'available to you.'"
+      - text: "Yes — gut bacteria make all the B12 you need."
+        correct: false
+        feedback: "No. Colonic synthesis sits past the absorption site (terminal ileum), and microbes mostly consume B12. Diet is the functional source."
+      - text: "Yes, but only if you take a probiotic."
+        correct: false
+        feedback: "No — the problem is anatomical (synthesis downstream of absorption), which a probiotic doesn't fix. Dietary B12 is the answer."
+  - id: q-fermented
+    stem: "Is a fermented food the same as a probiotic?"
+    options:
+      - text: "No — a fermented food is defined by its process; many are cooked or pasteurised. A probiotic must be live, defined, dosed microbes shown to benefit health."
+        correct: true
+        feedback: "Correct. Fermented ≠ probiotic. Tempeh and boiled miso are fermented but carry few or no live microbes; they're still good foods."
+      - text: "Yes — all fermented foods are probiotics."
+        correct: false
+        feedback: "No — many fermented foods (tempeh, bread, cooked miso) have few/no live microbes. Only defined, dosed, live products meet the probiotic bar."
+      - text: "Yes, as long as the food is plant-based."
+        correct: false
+        feedback: "Being plant-based is irrelevant. What matters is whether it delivers live, defined, dosed microbes — most fermented foods don't."
+  - id: q-fmt
+    stem: "Faecal microbiota transplant (FMT) is a proven, approved treatment for which single condition?"
+    options:
+      - text: "Recurrent Clostridioides difficile infection."
+        correct: true
+        feedback: "Correct. FMT cures the large majority of recurrent C. difficile cases and has FDA-approved products — but only for that indication."
+      - text: "Obesity and weight loss."
+        correct: false
+        feedback: "No — FMT is not proven for obesity. Its one proven indication is recurrent C. difficile infection."
+      - text: "General wellness and 'resetting' the gut."
+        correct: false
+        feedback: "No — FMT is a medical therapy for recurrent C. difficile, not a wellness reset, and it carries a real transmission risk."
+  - id: q-serotonin
+    stem: "Your gut makes ~90–95% of your body's serotonin. Does that mean gut serotonin controls your mood?"
+    options:
+      - text: "No — that serotonin runs digestion, and peripheral serotonin does not cross the blood–brain barrier."
+        correct: true
+        feedback: "Correct. The claim collapses on mechanism: gut serotonin can't reach the brain directly. A real gut–brain axis exists, but 'gut serotonin = happiness' is a metaphor, not a mechanism."
+      - text: "Yes — the gut serotonin travels to the brain and lifts your mood."
+        correct: false
+        feedback: "No — peripheral serotonin doesn't cross the blood–brain barrier. Gut serotonin drives gut motility, not brain mood directly."
+      - text: "Yes — that's why probiotics are proven antidepressants."
+        correct: false
+        feedback: "No — 'psychobiotic' mood benefits in humans are mostly unproven, and gut serotonin doesn't cross into the brain anyway."

@@ -7,6 +7,7 @@ import Protein from './Protein.svelte';
 import GutJourney from './GutJourney.svelte';
 import MetabolicMap from './MetabolicMap.svelte';
 import MetabolicSwitch from './MetabolicSwitch.svelte';
+import ScfaFlow from './ScfaFlow.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -19,6 +20,7 @@ const REGISTRY = {
   gut: GutJourney,
   'metabolic-map': MetabolicMap,
   'metabolic-switch': MetabolicSwitch,
+  'scfa-flow': ScfaFlow,
   // future: flashcards, diagram, …
 };
 

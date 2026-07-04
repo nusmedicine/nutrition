@@ -1,0 +1,30 @@
+id: scfa
+title: "The three short-chain fatty acids"
+intro: >
+  These are the products your gut bacteria make from fibre — small (2, 3 and 4 carbons), volatile,
+  and easily absorbed. Rotate each. Note how simple they are: the difference between the systemic
+  fuel (acetate), the liver's gluconeogenic substrate (propionate) and the colonocyte's own fuel
+  (butyrate) is just one or two carbons of chain length.
+molecules:
+  - id: acetic-acid
+    name: "Acetate (acetic acid, C2)"
+    sdf: /structures/acetic-acid.sdf
+    svg: /structures/acetic-acid.svg
+    note: >
+      The most abundant SCFA (~60%). Two carbons; poorly extracted by the liver, so it travels
+      systemically to peripheral tissues.
+  - id: propionic-acid
+    name: "Propionate (propionic acid, C3)"
+    sdf: /structures/propionic-acid.sdf
+    svg: /structures/propionic-acid.svg
+    note: >
+      Three carbons. Taken up by the liver via the portal vein, where it is a gluconeogenic
+      substrate — a raw material for making glucose (Chapter 6).
+  - id: butyric-acid
+    name: "Butyrate (butyric acid, C4)"
+    sdf: /structures/butyric-acid.sdf
+    svg: /structures/butyric-acid.svg
+    note: >
+      Four carbons. The least abundant SCFA yet the most important locally — the preferred fuel of
+      the colonocytes that line the colon.
+credit: "Structures: generated with RDKit (CC0)."

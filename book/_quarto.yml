@@ -24,6 +24,7 @@ book:
         - chapters/04-micronutrients-hydration.qmd
         - chapters/digestion-absorption.qmd
         - chapters/integrative-metabolism.qmd
+        - chapters/gut-microbiome.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

@@ -1,0 +1,377 @@
+# The gut microbiome
+
+> *Meet the trillions of microbes living in your gut. The first-year goal is **recognition**:
+> know who is in there and how many, understand the one job they do that you cannot — turning
+> fibre into fuel — and learn to tell the real, diet-modifiable science from the hype, which on
+> this topic is thick. Not species lists, not prescribing — the ecosystem and its evidence.*
+
+## Meet your microbiome {#sec-overview}
+
+Your last chapters followed food into the body and tracked what your own cells do with it. But
+your own cells are not the only ones eating. The large intestine houses a dense **community of
+microbes** — mostly bacteria, plus some archaea, fungi and viruses — that lives on what your small
+intestine could not digest and, in return, does chemistry your body cannot. This chapter answers
+four linked questions: **who is in there, what do they do for you, what feeds them, and what does
+it mean for a patient?**
+
+Two habits of mind run through it. The first is **ecosystem thinking**: this is a community, shaped
+by what you feed it, best understood the way an ecologist understands a habitat — not a single
+organ to fix with a pill. The second is **honesty about hype.** The microbiome is a genuine,
+diet-modifiable system *and* the single most over-marketed topic in consumer nutrition. Half of what
+follows is learning the real mechanism; the other half is learning to watch the marketing claims
+collapse the moment you ask "by what mechanism?"
+
+---
+
+## Who lives there, and how many {#sec-composition}
+
+**It is a community, and bacteria carry the story.** The gut holds trillions of microbes:
+**bacteria** dominate by mass and function, alongside archaea, fungi (the "mycobiome") and viruses
+(mostly bacteria-infecting phages) that are minor players at this level [@matijasic2020beyond]. And
+it lives **mostly in the colon.** Microbial density climbs steeply along the tract — sparse in the
+acidic stomach and brisk small intestine, then densest by orders of magnitude in the **colon**,
+whose slow transit, near-neutral pH and minimal absorption (the anatomy is Chapter 5's) make it the
+body's **fermentation chamber** [@donaldson2016gutbiogeography].
+
+::: {.callout-warning}
+## The 10:1 myth — and the 1–2 kg myth
+You will still read that microbes outnumber your own cells **10 to 1**. They do not. A careful 2016
+recount put the ratio at roughly **1:1** — about 38 trillion bacteria to 30 trillion human cells
+(most of which are small red blood cells, ~84% of the total, which the old estimate ignored)
+[@sender2016revised]. The same recount puts the total bacterial mass at about **0.2 kg**, not the
+"1–2 kg" often quoted (that figure conflates bacteria with the whole weight of colon contents).
+Carry the *ratio* and the *mass*; the exact counts are trivia.
+:::
+
+**The real "wow" is genes, not numbers.** The collective microbial gene catalogue — the
+**metagenome** — is on the order of **150 times** the ~20,000 genes in your own genome
+[@qin2010catalogue]. That vast "second genome" is what lets these microbes extract energy and make
+compounds your own cells cannot — the theme of this whole chapter.
+
+**Who is there — with current names.** Two bacterial phyla dominate the healthy adult gut:
+**Bacillota** (you may see the old name *Firmicutes*) and **Bacteroidota** (formerly
+*Bacteroidetes*), with smaller contributions from **Actinomycetota** (which includes
+*Bifidobacterium*) and others [@oren2021valid]. You do not need the genus lists; you need the idea
+that a few big groups dominate and the names were formally updated in 2021.
+
+**Different people, similar jobs.** Here is the surprise that shapes everything: two perfectly
+healthy people can carry very **different species** yet perform the same **functions** — fibre
+fermentation, vitamin synthesis, SCFA production are each done by many different microbes. We share
+a **functional core, not a taxonomic core** — a property called **functional redundancy**
+[@moya2016functional]. (An older idea that everyone belongs to one of "three enterotypes" is now
+read as a **continuous gradient**, not fixed categories [@knights2014rethinking].) This is also why
+**diversity** is only a *loose* health marker: broadly, a richer community tends to be a more
+resilient one, but there are clear exceptions, so treat diversity as **one context-dependent signal
+— not a number to maximise or buy in a bottle** [@mcburney2019healthy].
+
+## How your microbiome grows up {#sec-development}
+
+Your microbiome is not fixed at birth; it **assembles over the first years of life** and keeps
+shifting after. A newborn's gut is sparsely and erratically colonised; the community is shaped first
+by **delivery mode** and then, more durably, by **feeding** — breast milk carries special sugars
+(**human milk oligosaccharides**, HMOs) that the baby cannot digest but that selectively feed
+*Bifidobacterium*. Weaning onto solids diversifies it, and it becomes **adult-like by about age
+three** (a gradual approach, not a switch). Late in life, in frailty and especially
+institutional care, **diversity tends to decline** [@backhed2015dynamics; @claesson2012elderly].
+
+::: {.callout-note}
+## A C-section does not "permanently damage" the microbiome
+Babies born by caesarean start with a *different* early community, but the difference is largely
+**transient** — feeding mode is the stronger, more durable driver, and the microbiome converges over
+the first years. "Vaginal seeding" (swabbing a C-section baby with vaginal fluid) is **not** an
+evidence-based fix and is advised against outside research, partly for infection risk
+[@acog2017vaginalseeding]. A useful antidote to the guilt this topic often provokes.
+:::
+
+---
+
+## The main event: fibre becomes fuel {#sec-scfa}
+
+This is the chapter's centrepiece and the microbiome's single most important job for you. Recall
+from Chapter 5 that your own enzymes cannot break down **dietary fibre** and **resistant starch** —
+so they travel, undigested, all the way to the colon. There, the anaerobic bacteria do what your
+enzymes could not: they **ferment** it. The distinction is everything — *digestion* is your enzymes
+hydrolysing food in the small intestine; **fermentation** is bacterial metabolism, without oxygen,
+in the colon [@koh2016scfa].
+
+The pay-off is a family of small molecules — the **short-chain fatty acids (SCFAs)** — that fuel
+your gut and signal to your body. Step through how it works below: what arrives, who ferments it,
+what comes out, and where each product goes.
+
+<div data-island="scfa-flow" data-src="/diagrams/scfa-flow.yml"></div>
+
+**Three short-chain fatty acids, each with a job.** Fermentation produces mainly three SCFAs, in an
+approximate ratio of **60:20:20** (it varies with diet, substrate and site — treat it as "roughly
+60:20:20") [@cummings1987scfa]:
+
+- **Acetate** (the most abundant) is poorly extracted by the liver and travels **systemically** to
+  peripheral tissues and other bacteria.
+- **Propionate** is taken up by the **liver** through the portal vein, where it is a
+  **gluconeogenic substrate** — one of the raw materials for making glucose you met in Chapter 6.
+- **Butyrate** (the *least* abundant) is the star locally: it is the **preferred fuel of the
+  colonocytes**, supplying the bulk of the colon lining's energy [@roediger1982colonocyte;
+  @donohoe2011butyrate].
+
+::: {.callout-important}
+## Abundance is not importance
+It is tempting to assume butyrate must be the most abundant SCFA because it is the most talked-about.
+The opposite is true — butyrate is the *least* abundant of the three, yet it is the one the colon
+lining runs on. (And note: oral **butyrate supplements** are poorly absorbed and mostly reach the
+bloodstream, not the colon — so most "butyrate pills cure X" claims are marketing ahead of evidence.)
+:::
+
+The three are strikingly simple molecules — chains of just two, three and four carbons. Rotate them
+below; the only difference between the systemic fuel, the liver's substrate and the colonocyte's own
+fuel is a carbon or two of chain length.
+
+<div data-island="molecule" data-src="/structures/scfa.mol.yml"></div>
+
+**Fermentation also makes gas — and this is the bloating you met in Chapter 5.** Alongside the
+SCFAs, fermentation releases **hydrogen (H₂), carbon dioxide (CO₂)** and, in some people,
+**methane (CH₄)**. When a lot of fermentable substrate arrives at once — undigested lactose (the
+Chapter 5 hand-off), beans, onions, or certain FODMAPs — more gas is made, and the distension is
+felt as bloating and wind. Some people carry **methanogenic archaea** (such as *Methanobrevibacter
+smithii*) that consume H₂ to make CH₄, keeping hydrogen low so fermentation can keep running
+[@chaudhary2018methanogens]. Gas is usually a sign the system is *working*, not failing.
+
+**Why diversity matters — microbes feed each other.** A diverse microbiome is a resilient one
+because microbes **cross-feed**: many butyrate producers cannot break fibre down themselves. Primary
+degraders (like *Bifidobacterium*) ferment fibre into intermediates — lactate and acetate — which
+butyrate producers (*Faecalibacterium prausnitzii*, *Roseburia*) then convert to butyrate. **One
+microbe's waste is another's food**, so a *diverse* menu of fibres feeds a *diverse* community
+[@riviere2016crossfeeding].
+
+```{mermaid}
+%%| label: fig-crossfeeding
+%%| fig-cap: "Cross-feeding: many butyrate producers can't break fibre down themselves — they live on what the primary degraders release. Diversity of fibre feeds diversity of microbes."
+flowchart LR
+  F["Dietary fibre +<br/>resistant starch"] --> PD["Primary degraders<br/>(e.g. Bifidobacterium)"]
+  PD --> INT["Lactate + acetate"]
+  INT --> BP["Butyrate producers<br/>(F. prausnitzii, Roseburia)"]
+  BP --> BUT["Butyrate<br/>→ fuels the colon lining"]
+```
+
+**And it protects the gut wall.** The SCFAs lower colonic pH, which discourages acid-sensitive
+pathogens, and butyrate fuels the epithelium and supports the protective **mucus barrier**. The flip
+side is a real concern: when **fibre runs short**, the microbiota can start eroding that mucus layer
+for nutrients instead — thinning the gut's defences (shown clearly in gnotobiotic mice)
+[@desai2016fibre]. The one-line version: **feed your bugs fibre, and they pay you back in
+SCFAs and a healthier gut lining.**
+
+::: {.callout-note}
+## 🔬 Food science: not all fibre ferments the same way
+Fibre is the *substrate* here (its chemistry is Chapter 3's); what matters for the microbiome is how
+*fermentable* it is. Rapidly fermented soluble fibres — inulin (onion, garlic), pectin (fruit),
+β-glucan (oats) — give a prompt burst of SCFAs and gas. **Resistant starch** — in cooked-and-cooled
+rice or pasta, slightly-green bananas, legumes — ferments more slowly, further along the colon, and
+is relatively **butyrogenic** (good news, since butyrate is the colonocyte fuel) [@topping2001rs].
+Variety of fibre, not just quantity, is the point.
+:::
+
+---
+
+## Vitamins made in the gut — and why you can't rely on them {#sec-vitamins}
+
+Your gut microbes **do** synthesise vitamins — **vitamin K2** (menaquinones) and several **B
+vitamins** (biotin, folate, riboflavin, even B12). It is tempting to conclude you can rely on your
+bugs for these. You mostly cannot, and the reason is **anatomy**: nearly all of this synthesis
+happens in the **colon**, *downstream* of where those vitamins are absorbed.
+
+The cleanest example is **vitamin B12**. Most gut microbes actually *consume* B12, and the little
+they make is produced past the terminal ileum — the exact site where B12 (with intrinsic factor) is
+absorbed (Chapter 5). So **colonic microbial B12 is essentially unavailable to you**, and dietary,
+animal-source B12 remains the functional supply [@degnan2014b12]. Bacterial **K2** is likewise poorly
+available, and diet stays the principal source of vitamin K [@lai2022vitk]. The vitamins themselves
+are Chapter 4's; here the lesson is simply: *"made in the gut" does not mean "available to you."*
+
+---
+
+## Feeding and shaping your microbiome {#sec-feeding}
+
+**Diet is the dominant, fast-acting, *reversible* lever.** Switch a person between an animal-based
+and a plant-based diet and their microbial community shifts within a **single day** — but it
+**reverts within days** of returning to their usual eating, and their individual "fingerprint"
+largely persists [@david2014diet]. So diet is a powerful *ongoing* influence, **not** a one-time
+reprogramming — you feed your microbiome at every meal, not once.
+
+**The lever is fibre *diversity*, not one superfood.** People who eat the widest **variety of
+plants** tend to have the most diverse microbiomes; the memorable (if unproven) heuristic from
+citizen science is **"about 30 different plant types a week"** — a target for *variety*, counting
+wholegrains, legumes, nuts, seeds, fruit and vegetables [@mcdonald2018american]. The opposite — a
+chronically **low-fibre "Western" diet** — starves the fibre-fermenters and lowers diversity (the
+most dramatic, *irreversible-over-generations* version of this is a mouse finding, so hold the
+strength of claim, but the direction is real) [@sonnenburg2016diet]. Whole healthy **patterns** such
+as the Mediterranean diet associate with more SCFA-producers and less frailty and inflammation
+(dietary patterns themselves are Chapter 9's) [@ghosh2020mediterranean].
+
+::: {.callout-tip}
+## 🍜 Eating for your gut in Singapore
+The lever is *fibre variety*, and Singapore's food gives you easy wins. Swap white rice for
+**brown, red or mixed rice** some of the time; choose **wholemeal** over white; add **legumes and
+dhal**, **thunder-tea rice** (*lei cha*), tofu, and more vegetables; keep the **skins** on fruit and
+potatoes. The point is not one "gut superfood" — it is many different plants across the week. (Local
+context: only about **4% of the staples Singaporeans eat are wholegrain**, so for most of us this is
+the biggest single lever available — more on that below.)
+:::
+
+::: {.callout-tip}
+## 🍳 Healthy kitchen: go gradual, and keep the fluids
+A sudden jump in fibre gives your microbes more than they can handle at once — the result is gas and
+bloating (harmless, but unpleasant). **Increase fibre gradually** over a couple of weeks and **drink
+enough water** so the extra fibre works with you. Cooking then **cooling** starchy foods (rice,
+potatoes, pasta) forms **resistant starch**, a slow, butyrogenic fibre — a small, free bonus in
+things like cold rice or potato salad.
+:::
+
+### The "-biotics" family — learn the definitions {#sec-biotics}
+
+This is a field thick with loose marketing language, so the precise consensus definitions (from the
+International Scientific Association for Probiotics and Prebiotics, ISAPP) matter:
+
+| Term | Definition (ISAPP) | In plain terms |
+|---|---|---|
+| **Probiotic** | "Live microorganisms that, when administered in adequate amounts, confer a health benefit" [@hill2014probiotic] | Live, defined, dosed microbes shown to do something |
+| **Prebiotic** | "A substrate selectively used by host microorganisms conferring a health benefit" [@gibson2017prebiotic] | Food for your good microbes (mostly fibres) |
+| **Synbiotic** | A probiotic + prebiotic combination [@swanson2020synbiotic] | The microbes and their food together |
+| **Postbiotic** | A preparation of inanimate microbes and/or their components [@salminen2021postbiotic] | The beneficial *products*, no live bugs |
+
+::: {.callout-important}
+## A fermented food is not automatically a probiotic
+A **fermented food** is defined by its *process* — "made through desired microbial growth and
+enzymatic conversions" — **not** by containing live, defined, dosed microbes at the point you eat it
+[@marco2021fermented]. Many fermented foods are **cooked or pasteurised** before eating (tempeh,
+bread, most miso once boiled), so they carry few or no live microbes. They are still good foods, and
+a small, short Stanford trial even found a high-fermented-food diet raised microbial diversity and
+lowered inflammatory markers where a high-fibre diet did not — a hypothesis, not a prescription
+[@wastyk2021diet]. But **fermented ≠ probiotic**: only a defined, dosed, live product meets that bar.
+:::
+
+---
+
+## When things go wrong: antibiotics, *C. difficile* and FMT {#sec-clinical}
+
+**Antibiotics disturb the ecosystem.** Broad-spectrum antibiotics do not target only the pathogen —
+they flatten the wider community, causing **dysbiosis** and often **antibiotic-associated diarrhoea
+(AAD)**. Recovery can be incomplete, with some species still missing months later
+[@palleja2018recovery]. The dangerous extreme is **_Clostridioides difficile_ infection**, where a
+depleted microbiome lets this toxin-producer bloom and cause severe colitis.
+
+**Do probiotics help here? Modestly, and specifically.** Co-administered probiotics give a *modest*,
+strain-dependent reduction in AAD and *C. difficile* risk in **higher-risk** settings — but the
+evidence is strain- and situation-specific, not a blanket "take probiotics with every antibiotic,"
+and there is a real counter-signal that probiotics can even **delay** the native microbiome's
+recovery afterwards [@goldenberg2017cdi; @suez2018probiotic]. (Guideline note: the AGA addresses
+probiotics for *C. difficile* prevention while on antibiotics; the AAD benefit comes from a Cochrane
+review — related but distinct [@agaProbiotics2020].) First-year task: recognise, don't prescribe.
+
+::: {.callout-note}
+## FMT — restoring a whole ecosystem
+The most striking proof that this really is an *ecosystem* comes from **faecal microbiota transplant
+(FMT)**: transferring stool from a healthy donor to restore a depleted community. For **recurrent
+_C. difficile_**, it works dramatically — a landmark trial was stopped early because FMT cured about
+**81% after one infusion (~94% with a repeat)** against roughly **31%** for the antibiotic alone
+[@vannood2013fmt]. There are now two FDA-approved microbiota products (Rebyota, 2022; Vowst, the
+first oral one, 2023) [@fda2022rebyota; @fda2023vowst]. **But** FMT is proven only for recurrent
+*C. difficile* — **not** for obesity, IBS, autism or "wellness" — and it carries a real transmission
+risk (a 2019 safety alert followed a fatal transmission) [@fmt2019safety]. Recognise it and refer;
+this is a medical therapy with one narrow indication, not a wellness reset.
+:::
+
+## Hype versus evidence {#sec-hype}
+
+The microbiome is where good science and pure marketing sit closest together, so a few myth-busts
+are essential clinical hygiene:
+
+- **"A microbiome test kit tells you how healthy your gut is."** For a well person, no. There is no
+  agreed "healthy" reference microbiome, the reproducibility is poor (the same stool can give
+  different results from different companies), and there is no proven clinical action to take from
+  the result. International consensus discourages them without a medical indication — the money is
+  better spent on more plants [@porcari2024microbiometest].
+- **"A detox or cleanse resets your microbiome."** There is no toxin backlog to flush, and a
+  low-fibre juice cleanse actually **under-feeds** your microbes. The only genuine "ecosystem reset"
+  in medicine is FMT, for that one narrow indication.
+- **"The gut is your second brain — gut serotonin controls your mood."** A metaphor doing the work
+  of a mechanism. It is true that the gut makes about **90–95% of the body's serotonin** — but that
+  serotonin runs **digestion** (gut motility), and peripheral serotonin **does not cross the
+  blood–brain barrier** [@serotoninGutReview]. The claim collapses on mechanism.
+
+::: {.callout-warning}
+## The gut–brain axis: real channel, cautious claims
+There *is* a genuine gut–brain axis — the microbiome can signal to the brain via the **vagus nerve**,
+via **SCFAs**, via the immune system, and via microbial neuroactive metabolites [@cryan2019microbiota].
+But the eye-catching results — where transplanting microbes changes behaviour — are largely **mouse**
+studies, and "psychobiotic" benefits for mood in *humans* are mostly small or preclinical and not yet
+convincingly shown. Hold the channel as real and the mood claims as unproven; the appetite and
+behaviour payoff is developed in Chapter 8.
+:::
+
+## The Singapore picture {#sec-singapore}
+
+**We are under-feeding our microbiomes.** The clearest local hook is the **fibre gap**: only about
+**4% of the staples eaten in Singapore are wholegrain**, against a ~30% target, and average fibre
+intake sits below the Health Promotion Board's recommendation (around **20 g/day for women, 26 g/day
+for men**) [@mohNNS2022]. In the language of this chapter, most of us are **starving our
+fibre-fermenters** — which is exactly why the food-first swaps above are the highest-value change
+available.
+
+**Fermented foods are woven through our food cultures — and they teach the live-vs-cooked lesson
+perfectly.** Singapore's kitchens are full of ferments, and they split neatly along the line that
+matters: those eaten with **live cultures** versus those **cooked first**.
+
+| Still has live cultures (eaten raw/unheated) | Cooked → few or no live microbes (still good foods) |
+|---|---|
+| Kimchi, unpasteurised *achar*, **Yakult / cultured-milk drinks**, kombucha | **Tempeh**, *taucheo* (fermented soybean paste), *belacan*, fish sauce, **miso once boiled** |
+
+The organisms behind them are a nice aside: tempeh uses a mould (*Rhizopus*); *natto* uses
+*Bacillus subtilis* and is a notable source of vitamin **K2** (tying back to the vitamin section);
+miso and *taucheo* use *koji* mould (*Aspergillus oryzae*); kimchi uses lactic-acid bacteria. One
+worth flagging: **_tapai_ (fermented rice/tapioca) contains a few per-cent alcohol** — relevant in a
+Muslim-majority region. And to correct a common slip: **_yong tau foo_ is not a fermented food.**
+
+::: {.callout-tip}
+## 🍳 Keep the cultures alive
+If you want the live cultures, add them **off the heat**: stir **miso** into soup after it stops
+boiling, eat *achar* and kimchi unheated, and treat cultured-milk drinks as the live option. If a
+ferment is cooked (tempeh, most *taucheo*), enjoy it as the nutritious food it is — just don't count
+on it delivering live microbes.
+:::
+
+**Yakult is the "modest, not magic" teaching moment.** A cultured-milk drink is a daily habit for
+many Singaporean families. Its bacterium (*Lactobacillus casei* Shirota) genuinely survives the trip
+through the gut and has some small-trial signals — but European regulators (EFSA) rejected its broad
+health claims for want of convincing evidence [@efsa2010lcs; @katokataoka2016lcs]. It is a fine
+drink (watch the sugar); it is not a cure. **Marketed benefit is not the same as proven benefit** —
+the habit of mind this whole chapter is trying to build.
+
+**There is no single "Singaporean" microbiome.** Large local multi-ethnic studies find that Chinese,
+Malay and Indian residents carry **distinct, diet-linked microbial signatures** — a vivid,
+close-to-home illustration that *diet and culture*, not nationality, shape the community, and that
+inter-individual variation is the rule [@yeo2021sgmultiethnic]. And because significant
+**vegetarian and vegan** eating is part of several local communities, the "you cannot rely on your
+gut bacteria for B12" point is not abstract here — it is a real, common reason to plan a dietary or
+supplemental B12 source (Chapter 4).
+
+## So how do I actually eat for my gut? {#sec-close}
+
+After all the marketing noise, the honest answer is refreshingly simple, and it is not a product.
+**Eat a wide variety of plants** — many different wholegrains, legumes, vegetables, fruits, nuts and
+seeds across the week — because *diversity of fibre feeds a diverse, resilient microbiome that pays
+you back in SCFAs.* Add fermented foods if you enjoy them (and eat some with live cultures). Increase
+fibre **gradually, with fluids**. Skip the test kits, the cleanses and the miracle supplements. Your
+microbiome is a garden, not a machine: you do not fix it with a part, you feed it, patiently, every
+day.
+
+## Check your understanding {#sec-quiz}
+
+<div data-island="quiz" data-src="/quizzes/gut-microbiome.quiz.yml"></div>
+
+## Practise: "I bought a gut-microbiome test kit" {#sec-case}
+
+A well young adult brings in a colourful microbiome-test report and a list of supplements it
+recommends. Work through what the result can and cannot tell her — and what actually helps.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/gut-microbiome-test-kit.case.yml"></div>
