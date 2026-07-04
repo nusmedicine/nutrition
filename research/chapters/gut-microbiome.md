@@ -1,7 +1,7 @@
 ---
 chapter: 7
 title: "The Gut Microbiome"
-status: 🟢 ready to write   # dossier complete + adversarially verified; pre-write verification flags in §11
+status: ✍️ DRAFTED (2026-07-05)   # book/chapters/gut-microbiome.qmd written, rendered clean & browser-verified. scfa-flow island + SCFA gallery + 10-Q quiz + test-kit case + 44 refs (adversarially web-verified: 42 clean, 2 wrong-PMIDs fixed — chaudhary→29497795, yeo→khine2021multiethnic). SG context = food-culture-first per citation principle (no HELIOS/narayanan/preprint basic-metagenomics).
 book_chapter: ../../book/chapters/gut-microbiome.qmd
 pillars: [nutrition]
 last_updated: 2026-07-03

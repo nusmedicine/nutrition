@@ -1,11 +1,23 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-04 (Ch.6 DRAFTED).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (Ch.6 + Ch.7 DRAFTED).**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
-> **ACTIVE THREAD = authoring Part I.** **Ch.6 Integrative Metabolism is now DRAFTED, rendered clean &
-> browser-verified** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd)) — the
+> **ACTIVE THREAD = authoring Part I. Ch.7 The Gut Microbiome is now DRAFTED, verified & committed**
+> ([`gut-microbiome.qmd`](book/chapters/gut-microbiome.qmd)) — composition/scale (1:1 correction) →
+> development → **fibre→SCFA fermentation (owned centrepiece)** → microbial vitamins/B12 paradox → diet +
+> the "-biotics"/fermented foods (science-to-plate triad fits naturally here) → applied
+> (antibiotics/*C.diff*/FMT + test-kit/detox/gut-brain myth-busts). New **`scfa-flow`** island
+> ([`ScfaFlow.svelte`](components/src/ScfaFlow.svelte)) + SCFA RDKit gallery + cross-feeding Mermaid +
+> 10-Q quiz + microbiome-test-kit case + 44 refs. **SG context = food-culture-first** (fibre gap, fermented
+> foods live-vs-cooked, Yakult, "no predominant microbiota" Khine 2021) per the citation principle.
+> **An adversarial `Workflow` web-verified all 44 new citations → 42 clean, 2 wrong-PMIDs caught & fixed**
+> (chaudhary 29470620→29497795; the "Yeo" SG paper was a mis-attribution → **Khine et al. 2021**). Also this
+> session: **full-book preview** — all 7 chapters + preface + cases fit together (sidebar, flow, cross-refs);
+> fixed Ch.6/Ch.7 to reference **unwritten chapters by name, not number** (matches the Ch.5 convention).
+> **Next: Ch.8 Appetite** dossier (net-new ✨) or another Part I chapter. **Prior context:**
+> **Ch.6 Integrative Metabolism DRAFTED** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd)) — the
 > two-layer chapter (Part A pathways map + Part B fed/fasted integration) with **two net-new Svelte islands**
 > (`metabolic-map` build-the-map stepper + `metabolic-switch` fed→fasted→starved inter-organ scene, both
 > bespoke inline-SVG, registered in `main.js`), a **ketone-bodies RDKit molecule gallery** (acetoacetate /
@@ -52,21 +64,22 @@ self-test quizzes + branching **clinical cases** (visual-novel patient portraits
 (`research/`). Branding: **"Health in Medicine"**, *not* "lifestyle medicine".
 
 ## 2. Where we are
-**Part I = 6 chapters (5 live + Ch.6 drafted), PLUS 1 net-new adversarially-verified dossier ready to write.**
+**Part I = 7 chapters authored (Ch.1–7). No dossier is now "ready to write" — Ch.8 Appetite is dossier-first (net-new).**
 
 **Authored** (rendered clean + browser-verified): **Preface** ([`index.qmd`](book/index.qmd));
 **Ch.1** six pillars; **Ch.2** energy balance; **Ch.3 Macronutrients** = THE template reference
 ([`AUTHOR.md`](AUTHOR.md) §11); **Ch.4 Micronutrients & hydration**; **Ch.5 Digestion & Absorption** (a
 "follow the food" chapter with an illustrated tract island, a Mermaid enterohepatic loop, an ORT case);
-**Ch.6 Integrative Metabolism** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd),
-**drafted this session**) — two-layer (Part A pathways map + Part B fed/fasted integration), 2 flagship
-Svelte islands + ketone RDKit gallery + 2 Mermaid diagrams + 9-Q quiz + alcohol-hypoglycaemia case.
-*(Ch.5 = prior session; Ch.6 = this session. Registered last in `_quarto.yml` under Part I.)*
+**Ch.6 Integrative Metabolism** ([`integrative-metabolism.qmd`](book/chapters/integrative-metabolism.qmd))
+— two-layer (Part A pathways map + Part B fed/fasted integration), 2 flagship islands + ketone gallery +
+2 Mermaid + 9-Q quiz + alcohol-hypoglycaemia case; **Ch.7 The Gut Microbiome**
+([`gut-microbiome.qmd`](book/chapters/gut-microbiome.qmd), **drafted 2026-07-05**) — fibre→SCFA
+fermentation centrepiece, `scfa-flow` island + SCFA gallery + cross-feeding Mermaid + 10-Q quiz +
+test-kit case. *(Ch.5 = earlier; Ch.6/Ch.7 = recent sessions. Both registered in `_quarto.yml` under Part I.)*
 
-**Dossier ready to write** (🟢, verified — drafting is the next step):
-- **Ch.7 The Gut Microbiome** ([`gut-microbiome.md`](research/chapters/gut-microbiome.md)) — composition,
-  **fibre→SCFA fermentation (owned)**, microbial vitamins, pre/pro/synbiotics + fermented foods, diet as
-  modulator, gut–brain *microbial* mechanism. Island: *SCFA-fermentation flow*.
+**Next dossier to write (net-new ✨):** **Ch.8 Appetite & Weight Regulation** — dossier-first via §2.1
+(fan out → adversarial-verify → 🟢), then draft. Overlap-ownership (`curriculum-map.md`): Ch.8 owns
+satiety hormones/leptin/adiposity signalling + the SCFA→GLP-1/PYY appetite payoff that Ch.6/Ch.7 hand to it.
 
 **Integrated cases chapter** ([`chapters/cases.qmd`](book/chapters/cases.qmd)): four **simulated-patient
 (LLM chat)** encounters (§5). Each authored chapter has a quiz + a case; dossiers live in `research/chapters/`.
@@ -80,7 +93,11 @@ fed→fasted→starved inter-organ scene — data [`metabolic-switch.yml`](book/
 Both are **bespoke inline-SVG, data-driven** (loadManifest + `store.js` persistence, GutJourney conventions),
 sharing a colour language (catabolic=orange, anabolic=blue, one-way valve=red; insulin=teal/glucagon=amber).
 Ch.6 also ships a **ketone-bodies RDKit gallery** ([`ketone-bodies.mol.yml`](book/structures/ketone-bodies.mol.yml)).
-**Still planned:** an SCFA-fermentation island + SCFA molecule gallery (Ch.7).
+Ch.7 adds **`scfa-flow`** ([`ScfaFlow.svelte`](components/src/ScfaFlow.svelte) — stepped fibre→ferment→3
+SCFAs+gas→3 fates, data [`scfa-flow.yml`](book/diagrams/scfa-flow.yml)) + an **SCFA RDKit gallery**
+([`scfa.mol.yml`](book/structures/scfa.mol.yml)). All bespoke inline-SVG, same design language.
+**Pattern for the next island (Ch.8):** copy `ScfaFlow.svelte`/`MetabolicMap.svelte` — data-driven nodes +
+edges + stepper + clickable detail panel, `loadManifest` + `store.js`, no external figures.
 
 ## 2.1 The research → draft pipeline (how Ch.4/Ch.5 were built — reuse this)
 For a net-new or expanded chapter:
@@ -250,19 +267,20 @@ research/                          evidence repo — curriculum-map.md spine; ch
 ```
 
 ## 10. Git state
-- **Two commits this session (NOT pushed — user chose "commit, don't push"):**
-  - **`1e9fcf8`** *Research: Ch.6 + Ch.7 dossiers (verified) + Part I resequence* — committed the prior
-    session's working tree (the two new dossiers + the resequence ripple edits across curriculum-map,
-    the Ch.5 dossier cross-refs, `gut-journey.yml` **(⚠ LIVE asset)** chapter-refs, `AUTHOR.md`, `HANDOVER`).
-  - **`0b5046a`** *Ch.6: draft Integrative Metabolism (two-layer) + two flagship islands* — the full Ch.6
-    deliverable (qmd, `MetabolicMap`/`MetabolicSwitch` islands + manifests, ketone RDKit gallery, quiz, case,
-    32 bib keys, `_quarto.yml`/`main.js`/`CREDITS.csv`/`launch.json` wiring).
-- **`origin/main..main` = 5 unpushed commits** (`0b5046a`, `1e9fcf8`, `ecc5531`, `9b0cb95`, `c10b895`).
+- **Many commits across recent sessions, NONE pushed (user chose "commit, don't push").** Highlights:
+  - **`1e9fcf8`** Ch.6+Ch.7 dossiers (verified) + Part I resequence; **`0b5046a`** Ch.6 draft + islands;
+    Ch.6 follow-ups (SG-context reframe, restored Ramadan clinical cites, citation-principle codified).
+  - **`01471b1`** Ch.7 draft + `scfa-flow` island; **`995a202`** Ch.6/Ch.7 unwritten-chapter refs → by name;
+    **`62ba8ad`** Ch.7 fix 2 wrong-PMID citations (adversarial verify: chaudhary→29497795, yeo→khine2021multiethnic).
+- **`git log origin/main..main`** = the full unpushed stack (13+ commits back through `c10b895`).
   Nothing has been pushed; a push triggers the Pages CI redeploy → <https://nusmedicine.github.io/nutrition/>.
 - **Untracked / left alone:** `Update Health in Medicine 2026 v2.pptx` (user file); throwaway scratch
-  (`…/scratchpad/render.mjs`, `ch6-refs.bib`, `gen_ketones.py`) under the session temp dir.
+  (`…/scratchpad/render.mjs`, `ch6-refs.bib`, `ch7-refs.bib`, `gen_*.py`) under the session temp dir.
 - **Deploy branch `main`** → Pages CI → <https://nusmedicine.github.io/nutrition/>. When ready to publish,
-  `git push` (all 5 commits go at once). `book/_book/` is gitignored (built by CI).
+  `git push` sends the whole stack at once. `book/_book/` is gitignored (built by CI).
+- **Local preview:** `.claude/launch.json` has a **`book-preview`** config (serves the out-of-tree render at
+  `%TEMP%\book-health-preview\_book`, port 8781) — used because the in-tree `book/_book` copy intermittently
+  hits the Dropbox lock. Render via the Node script (`fs.cpSync` out-of-tree + `quarto render` + copy back).
 - ⚠ **`gut-journey.yml` is a deployed asset:** committing + pushing its chapter-ref fix changes the live
   Ch.5 island's forward-references (harmless — they point at not-yet-published chapters, now numbered right).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`.
