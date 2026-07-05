@@ -64,12 +64,17 @@
     }
   });
 
-  // Move focus to the new node's heading for screen-reader context.
+  // Move focus to the new node's heading for screen-reader context. Skip the
+  // initial mount (adopt the node silently) so loading a chapter never yanks the
+  // viewport down to the case; and use preventScroll on genuine transitions so
+  // focus moves for assistive tech without hijacking the reader's scroll position.
   $effect(() => {
     const id = state && state.currentId;
-    if (id && id !== lastId) {
+    if (!id) return;
+    if (lastId === undefined) { lastId = id; return; }
+    if (id !== lastId) {
       lastId = id;
-      tick().then(() => titleEl && titleEl.focus());
+      tick().then(() => titleEl && titleEl.focus({ preventScroll: true }));
     }
   });
 
