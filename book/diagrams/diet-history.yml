@@ -1,0 +1,76 @@
+id: diet-history
+title: "Take a diet history"
+intro: >
+  A diet history is a structured conversation, not an interrogation. Below is a patient and the
+  probes that make up the skeleton of a good history. Click the questions you would ask — each
+  reveals what the patient discloses, and the picture of their intake builds up as you go. Watch
+  which single question uncovers the most: the highest-yield probe is often the one people forget
+  to ask.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+
+patient:
+  name: "Wei, 24"
+  line: >
+    Office worker, BMI 26 (overweight by the Asian cut-off), gained about 5 kg in a year. Says
+    she \"eats quite normally\" and wants \"a diet\" to lose the weight. Friendly, a little
+    embarrassed. She will tell you what you ask about — and only what you ask about.
+
+# probes = the diet-history skeleton. `yield` is how much of the intake picture the probe
+# uncovers (intake probes sum to 100). `safety: true` marks the do-no-harm probe (not scored
+# for nutritional yield, but the check that must happen).
+probes:
+  - id: typical-day
+    label: "Walk me through a typical day"
+    yield: 15
+    reveal: "\"I skip breakfast, grab economy rice or noodles for lunch near the office, and dinner is whatever's easy — hawker or something quick at home.\""
+    picture: ["Skips breakfast", "Economy rice / noodles lunch", "Convenience dinners"]
+    note: "The backbone question — it anchors everything else. But one recalled day is not necessarily a habitual day (the 24-hour recall's main bias); ask whether it was typical."
+  - id: meals
+    label: "How many meals, and when?"
+    yield: 8
+    reveal: "\"Usually two — a late lunch and a late dinner. I'm often too rushed in the morning to eat.\""
+    picture: ["2 main meals, both late"]
+    note: "Meal timing and skipping shape appetite and later over-eating — worth a line, briefly."
+  - id: drinks
+    label: "What do you drink through the day?"
+    yield: 30
+    hinge: true
+    reveal: "\"Oh… I have bubble tea most days — sometimes twice — and kopi with condensed milk in the morning. I didn't think of drinks as food.\""
+    picture: ["~2 bubble teas/day (high sugar)", "Sweet kopi"]
+    note: "The highest-yield local question — and the one most often skipped. Sugary drinks are the single biggest hidden source of energy and free sugar in many Singaporean diets. The drinks probe folds in a routine alcohol question too."
+  - id: snacks
+    label: "Anything between meals?"
+    yield: 12
+    reveal: "\"Biscuits or a snack at my desk in the afternoon, and cake when a colleague brings some.\""
+    picture: ["Desk snacks", "Occasional cake"]
+    note: "Grazing and 'invisible' snacks add up and are easy to under-report — ask specifically."
+  - id: eating-out
+    label: "How often do you eat out or tapau?"
+    yield: 15
+    reveal: "\"Lunch is always bought — hawker or food court. Dinner maybe half the time.\""
+    picture: ["Eats out ~10+ meals/week"]
+    note: "Eating out shifts portions, oil, salt and sugar upward and control downward — a high-yield pattern probe locally."
+  - id: portions
+    label: "Roughly how big are your portions?"
+    yield: 12
+    reveal: "\"Big, honestly. I always ask for extra rice — it's the same price.\""
+    picture: ["Large rice portions"]
+    note: "Portion cues are rough but useful; people under-estimate their own portions, so use everyday anchors (bowls, palms)."
+  - id: who-cooks
+    label: "Who shops and cooks at home?"
+    yield: 5
+    reveal: "\"I live alone and barely cook — it's just easier to buy something.\""
+    picture: ["Lives alone, rarely cooks"]
+    note: "The social/practical context — who buys and cooks, and eating alone — decides what change is even feasible."
+  - id: supplements
+    label: "Any supplements or health products?"
+    yield: 3
+    reveal: "\"No, nothing regular.\""
+    picture: ["No supplements"]
+    note: "Quick to ask, occasionally important (mega-doses, interactions) — don't assume."
+  - id: red-flags
+    label: "How do you feel about your eating and weight?"
+    safety: true
+    reveal: "\"Sometimes I skip meals to 'make up' for a big day, and I feel guilty after eating. But it's not a big deal… right?\""
+    picture: ["Skips meals to compensate", "Guilt after eating — a gentle flag"]
+    note: "The do-no-harm check. A gentle open question surfaces possible disordered eating BEFORE you suggest any restriction. If it flags, switch from 'cut down' to a supportive screen (SCOFF) and consider referral — never prescribe restriction into a possible eating disorder."

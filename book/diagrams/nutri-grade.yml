@@ -1,0 +1,28 @@
+id: nutri-grade
+title: "Grade the drink, pick a swap"
+intro: >
+  Nutri-Grade grades every drink A to D. The grade is set by sugar per 100 ml, then pulled down if
+  saturated fat is high — so a sweet, creamy drink can never score well on low sugar alone. Grades
+  C and D must show the mark; grade D cannot be advertised. Tap a drink to see where it lands and
+  the swap that moves it down the ladder. (Sugar values are approximate — the real grade depends on
+  the exact product and how sweet you order it.)
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Thresholds: HPB Nutri-Grade (Food Regulations)."
+
+# grade bands by sugar per 100 ml (upper bound inclusive). Saturated fat can only downgrade.
+bands:
+  - { grade: "A", min: -1, max: 1,   range: "≤ 1 g", color: "#2f8f5b", note: "Lowest sugar — the everyday default." }
+  - { grade: "B", min: 1,  max: 5,   range: "> 1–5 g", color: "#8bb84e", note: "A little sugar; still a reasonable choice." }
+  - { grade: "C", min: 5,  max: 10,  range: "> 5–10 g", color: "#e0a13a", note: "Must display the mark. A drink to have less often." }
+  - { grade: "D", min: 10, max: 999, range: "> 10 g", color: "#cf5b4e", note: "Must display the mark and cannot be advertised. The one to swap." }
+
+# sugar = grams per 100 ml (approx). Grade is derived from the bands above.
+drinks:
+  - { id: water,    label: "Plain water",             sugar: 0,    swap: "Already the best choice — nothing to swap." }
+  - { id: kopio,    label: "Kopi-o kosong",           sugar: 0,    swap: "Already grade A — black coffee, no sugar." }
+  - { id: kopic,    label: "Kopi-c siu dai",          sugar: 4.5,  satfat: true, swap: "Order it kosong (no sugar) and the sugar drops toward grade A." }
+  - { id: isotonic, label: "Isotonic sports drink",   sugar: 6,    swap: "Plain water does the same job unless you've done prolonged, hard exercise." }
+  - { id: milo,     label: "Milo (with sugar)",       sugar: 7.5,  satfat: true, swap: "Ask for less sugar, or Milo kosong, to move it down the ladder." }
+  - { id: packettea,label: "Packet chrysanthemum tea",sugar: 8,    swap: "Choose an unsweetened tea — most of the grade is the added sugar." }
+  - { id: oj,       label: "Fresh-pressed orange juice", sugar: 9, swap: "Eat a whole orange instead — you get the fibre and less of a sugar hit." }
+  - { id: cola,     label: "Canned soft drink",       sugar: 10.6, swap: "Swap for water or a grade A/B drink — this is essentially a cup of free sugar." }
+  - { id: bbt,      label: "Bubble milk tea",         sugar: 11,   satfat: true, swap: "Ask for 25–50% sugar and skip the creamer and pearls — or go for teh-o kosong (grade A)." }

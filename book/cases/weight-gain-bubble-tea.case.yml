@@ -1,0 +1,175 @@
+id: weight-gain-bubble-tea
+title: "Weight gain and bubble tea: a diet-history station"
+objectives:
+  - "Choose a fit-for-purpose assessment method and take a structured diet history, naming its bias."
+  - "Ask the highest-yield question (drinks) and open the conversation with permission, in plain language."
+  - "Recognise a disordered-eating red flag and respond safely — screen and refer, never prescribe restriction into possible harm."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, assessment, counselling, singapore, safety]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Wei"
+  age: 24
+  sex: female
+  occupation: "office worker"
+  presentation: "BMI 26 — overweight by the Asian cut-off — and has gained about 5 kg over the past year. Feels well, a little self-conscious, and asks you for 'a diet' to lose the weight. Eats out most days. She'll tell you what you ask about, and only that."
+  voice: "Friendly and slightly embarrassed; wants a quick fix; won't volunteer her drinks or her eating worries unless you ask directly."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: neutral
+    title: "\"I just want a diet, doctor\""
+    body: |
+      Wei is 24, works at a desk, and has put on about 5 kg in a year. She feels well but wants
+      "a diet" to lose weight. You have ten minutes. Before you advise anything, you need to find
+      out what she actually eats — and open the conversation without putting her on the defensive.
+    next: q-method
+
+  - id: q-method
+    type: mcq
+    emotion: neutral
+    stem: "How do you start the assessment?"
+    options:
+      - id: a
+        text: "\"Walk me through a typical day, from waking up — and tell me if that's usual for you.\""
+        correct: true
+        feedback: "Good — a structured history widened to habitual intake. It's the fit-for-purpose method here, and asking 'is that typical?' guards against the single-day trap."
+        effects: { quality: +1 }
+        reaction: neutral
+        goto: q-drinks
+      - id: b
+        text: "\"What exactly did you eat yesterday?\" — and take that as her diet."
+        correct: false
+        feedback: "A single 24-hour recall is quick, but one day is not necessarily a usual day. Use it — but ask whether yesterday was typical, or you'll build advice on an unrepresentative day."
+        goto: q-drinks
+      - id: c
+        text: "Skip the history — she's overweight, so just tell her to eat less rice."
+        correct: false
+        feedback: "You can't counsel a diet you haven't assessed. Advising before asking misses what's actually driving her intake — and it's about to."
+        goto: q-drinks
+
+  - id: q-drinks
+    type: mcq
+    emotion: neutral
+    stem: "She describes skipping breakfast, an economy-rice lunch near the office, and a quick dinner. What do you make sure to ask about?"
+    options:
+      - id: a
+        text: "\"What do you drink through the day?\""
+        correct: true
+        feedback: "The highest-yield question locally — and here it pays off: \"Oh… I have bubble tea most days, sometimes twice, and kopi with condensed milk. I never thought of drinks as food.\" Sugary drinks are the biggest hidden source."
+        effects: { quality: +1 }
+        reaction: surprised
+        goto: q-opener
+      - id: b
+        text: "Nothing more — you have enough; move to advising less rice."
+        correct: false
+        feedback: "You've missed the biggest contributor. Only on direct questioning does Wei mention two bubble teas a day plus sweet kopi — the drinks are the question people forget to ask."
+        goto: q-opener
+      - id: c
+        text: "\"Roughly how big are your portions?\""
+        correct: false
+        feedback: "Worth asking — but it isn't the highest-yield probe here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger lever by far."
+        goto: q-opener
+
+  - id: q-opener
+    type: mcq
+    emotion: concerned
+    stem: "You now know Wei has about two bubble teas a day and sweet kopi. How do you open the advice?"
+    options:
+      - id: a
+        text: "\"Would it be alright if I shared one idea about your drinks?\" — then suggest one realistic swap in plain language."
+        correct: true
+        feedback: "Right — assess, then advise with permission. Asking first turns advice into a conversation, and one concrete swap (less sugar, or teh-o kosong) beats a list she'll ignore."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-safety
+      - id: b
+        text: "\"You need to stop the bubble tea — it's full of free sugars exceeding the recommended limit.\""
+        correct: false
+        feedback: "Unasked-for and jargon-laden — it puts her on the defensive. Ask permission first, and say 'sugary drinks', not 'free sugars exceeding the limit'."
+        goto: q-safety
+      - id: c
+        text: "Say nothing about the drinks — you don't want to make her uncomfortable."
+        correct: false
+        feedback: "Avoiding the highest-yield issue helps no one. You can raise it kindly — with permission and without judgement — rather than not at all."
+        goto: q-safety
+
+  - id: q-safety
+    type: mcq
+    emotion: concerned
+    stem: "As you talk, Wei adds: *\"Honestly, some days I skip meals completely to make up for a big day — and I feel really guilty after I eat. That's normal for losing weight, right?\"* What now?"
+    options:
+      - id: a
+        text: "Gently shift to a few supportive screening questions (SCOFF-style), and hold off on any restriction plan — consider referral."
+        correct: true
+        feedback: "Correct — do no harm. Skipping to compensate and guilt after eating are red flags; a weight-loss plan could worsen an eating disorder. Screen gently, be supportive, and consider referral. A negative screen wouldn't fully reassure you either."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Good — skipping meals and eating less will help you lose faster. Here's a strict low-calorie plan.\""
+        correct: false
+        feedback: "This is exactly the harm to avoid — prescribing restriction into a possible eating disorder. The guilt and compensatory skipping are warning signs, not habits to reinforce. Missing the safety fork means this can't be 'first contact done safely', however well the rest went."
+        goto: remedial
+      - id: c
+        text: "\"That's completely normal, don't worry about it.\" Then carry on with diet advice."
+        correct: false
+        feedback: "Dismissing the flag misses a chance to help safely. Compensatory meal-skipping and guilt warrant a gentle screen and referral consideration — not reassurance and a diet."
+        goto: remedial
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Assess, ask permission, do no harm"
+    body: |
+      The station rewards the same three habits: **assess before advising** (a structured history,
+      and always ask about drinks), **advise with permission** in plain language, and **do no harm**
+      — recognise a disordered-eating red flag and switch from 'cut down' to screen-and-refer. Replay
+      and try the safe path through each fork.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "First contact, done safely"
+    body: |
+      You took a structured history rather than assuming, asked the highest-yield question and
+      uncovered the bubble tea, opened the advice with permission and one realistic swap, and — when
+      Wei revealed compensatory meal-skipping and guilt — recognised the red flag and switched to a
+      gentle screen and referral instead of a restriction plan. That is competent, safe first
+      contact. *(Carrying the change conversation further — motivational interviewing, goal-setting,
+      the full 5 A's — is the Behaviour-Change Counselling chapter.)*
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Assess before you advise: take a structured history and widen a single day to 'is that typical?'."
+        - "Ask about drinks — the highest-yield, most-often-skipped question in a local diet history."
+        - "Advise with permission, in plain language, one realistic swap at a time."
+        - "Do no harm: skipping to compensate and guilt after eating are red flags — screen (SCOFF), be supportive, and refer; never prescribe restriction into possible harm."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You worked through the station but slipped on at least one fork — advising before assessing,
+      missing the drinks, lecturing without permission, or not catching the safety flag. Replay and
+      run the safe path: assess, ask about drinks, advise with permission, and screen-and-refer when
+      a red flag shows.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "You cannot counsel a diet you have not assessed — history first."
+        - "Drinks are the highest-yield probe; ask with permission before advising."
+        - "Compensatory meal-skipping and guilt are eating-disorder red flags — screen and refer, do not prescribe restriction."

@@ -29,6 +29,7 @@ book:
     - part: "II · Advising people in a state of health"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd
+        - chapters/06-dietary-assessment.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

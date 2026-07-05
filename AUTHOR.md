@@ -388,6 +388,13 @@ How to prepare it well at home (the cooking science, made practical). 2–4 sent
 :::
 ```
 
+**Skills-chapter exemption (Part II onward).** The full 🔬🍜🍳 triad is for chapters built around
+*nutrients/foods* (Part I), which have a per-topic food-science/kitchen anatomy to hang it on. A
+**skills chapter** (assessing diet, counselling, evidence appraisal — Ch.11–13) has no per-nutrient
+anatomy, so it carries the triad **only where a topic genuinely has food-science or kitchen
+content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap that lands" in
+*Assessing Diet & Talking to Patients*). Do **not** force a 🔬/🍳 pair where it would be artificial.
+
 ### 11c. Standard chapter skeleton
 
 ```

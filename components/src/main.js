@@ -12,6 +12,8 @@ import AppetiteThermostat from './AppetiteThermostat.svelte';
 import EnergyBudget from './EnergyBudget.svelte';
 import PillarsHub from './PillarsHub.svelte';
 import HealthyPlate from './HealthyPlate.svelte';
+import DietHistory from './DietHistory.svelte';
+import NutriGrade from './NutriGrade.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -29,6 +31,8 @@ const REGISTRY = {
   'energy-budget': EnergyBudget,
   'pillars-hub': PillarsHub,
   'healthy-plate': HealthyPlate,
+  'diet-history': DietHistory,
+  'nutri-grade': NutriGrade,
   // future: flashcards, diagram, …
 };
 

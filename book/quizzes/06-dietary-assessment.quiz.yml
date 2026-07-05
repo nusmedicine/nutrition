@@ -1,0 +1,106 @@
+id: dietary-assessment
+title: "Quick check: assessing diet & talking to patients"
+questions:
+  - id: q1
+    stem: "You take a single 24-hour recall. What is its main limitation?"
+    options:
+      - text: "One day is not necessarily a usual day — day-to-day intake varies a lot, so it estimates that day well but habitual intake poorly"
+        correct: true
+        feedback: "Correct — that's why several non-consecutive recalls estimate habitual intake far better. It also relies on memory (recall bias)."
+      - text: "It takes too long and burdens the patient more than any other method"
+        correct: false
+        feedback: "The opposite — a 24-hour recall is quick and low-burden for the patient. The food diary is the high-burden method."
+      - text: "It changes what the patient eats while they record it"
+        correct: false
+        feedback: "That's 'reactivity' — the signature bias of a prospective food diary, not a retrospective recall."
+
+  - id: q2
+    stem: "A packaged drink lists **8 g of sugar per 100 ml**. Under Nutri-Grade, what grade is that (on sugar)?"
+    options:
+      - text: "Grade C"
+        correct: true
+        feedback: "Correct — A ≤1, B >1–5, C >5–10, D >10 g/100 ml, so 8 g falls in C. And if its saturated fat were high, it could be pulled down further."
+      - text: "Grade A"
+        correct: false
+        feedback: "Grade A is ≤1 g sugar per 100 ml — 8 g is well above that."
+      - text: "Grade D"
+        correct: false
+        feedback: "Grade D is >10 g/100 ml; 8 g falls in the C band (>5–10 g). Sat fat could still downgrade it."
+
+  - id: q3
+    stem: "A bottled drink says \"11 g sugar per serving\" and \"2.5 servings per bottle.\" What should you check?"
+    options:
+      - text: "The per-100 ml column — and remember most people drink the whole bottle, so the real intake is ~2.5× the per-serving figure"
+        correct: true
+        feedback: "Correct — the serving-size trap. Always read per-100 ml (or per-100 g) to compare fairly and to see what a realistic portion delivers."
+      - text: "Nothing — the per-serving sugar is the number that matters"
+        correct: false
+        feedback: "Per-serving can hide the real intake when the 'serving' is unrealistically small. Check per-100 ml and the whole-pack amount."
+      - text: "Only the Nutri-Grade letter, ignoring the panel"
+        correct: false
+        feedback: "The grade is a useful glance, but reading the panel per-100 ml is the skill — the grade won't tell you the per-serving trap."
+
+  - id: q4
+    stem: "You've spotted that a patient drinks two bubble teas a day. What is the best opening move?"
+    options:
+      - text: "\"Would it be alright if I shared one idea about your drinks?\" — ask permission, then advise one concrete swap in plain language"
+        correct: true
+        feedback: "Correct — the 'Assess then Advise, with permission' opening of the 5 A's. Permission turns advice into a conversation."
+      - text: "\"You need to stop drinking bubble tea — it's full of free sugars exceeding the recommended limit.\""
+        correct: false
+        feedback: "Unasked-for and jargon-laden — this puts people on the defensive. Ask permission and use plain language ('sugary drinks')."
+      - text: "Say nothing about it to avoid making them uncomfortable"
+        correct: false
+        feedback: "Avoiding the highest-yield issue helps no one. Raise it — but with permission and without judgement."
+
+  - id: q5
+    stem: "During the history a young patient mentions skipping meals to \"make up\" for eating, and feeling guilty after meals. What is the safe next step?"
+    options:
+      - text: "Gently screen for disordered eating (e.g. SCOFF) and consider referral — do not prescribe restriction"
+        correct: true
+        feedback: "Correct — do no harm. These are red flags; weight- or restriction-focused advice could worsen an eating disorder. Screen, be supportive, refer."
+      - text: "Give them a strict low-calorie plan to help them lose weight faster"
+        correct: false
+        feedback: "This is exactly the harm to avoid — prescribing restriction into a possible eating disorder. Recognise the red flags first."
+      - text: "Reassure them it's normal and move on"
+        correct: false
+        feedback: "Dismissing the flag misses a chance to help safely. A brief screen and referral consideration is the do-no-harm move."
+
+  - id: q6
+    stem: "An 80-year-old has unintentionally lost weight and appetite over three months. Which way should your assessment go?"
+    options:
+      - text: "Toward **under**-nutrition — recognise this as a malnutrition-risk signal (a MUST-type screen) and refer, not a 'cut down' conversation"
+        correct: true
+        feedback: "Correct — always consider both tails. Unplanned weight loss + poor intake flags malnutrition risk; MUST captures exactly this. Recognise and refer."
+      - text: "Toward weight loss advice, since losing weight is generally healthy"
+        correct: false
+        feedback: "Unintentional weight loss in an older adult is a warning sign, not a success — the wrong tail entirely."
+      - text: "No action — weight loss never needs assessment"
+        correct: false
+        feedback: "Unplanned weight loss with poor appetite is a red flag that warrants screening and referral."
+
+  - id: q8
+    stem: "You want to capture a patient's **habitual** eating pattern over months and rank them against others. Which method fits, and what's its limitation?"
+    options:
+      - text: "A food-frequency questionnaire — good for ranking high vs low intake, but poor at measuring exact quantities"
+        correct: true
+        feedback: "Correct — the FFQ captures the long-run pattern with low burden, but it's best for ranking people rather than pinning down absolute amounts."
+      - text: "A single 24-hour recall — it measures habitual intake precisely"
+        correct: false
+        feedback: "A single recall captures one day, not the habitual pattern, and doesn't rank long-term intake well."
+      - text: "A one-day weighed food diary — the least burdensome option"
+        correct: false
+        feedback: "A weighed diary is the most burdensome method, and one day still doesn't capture months of habitual eating."
+
+  - id: q7
+    stem: "Which BMI cut-offs does Singapore use to flag overweight and obesity?"
+    options:
+      - text: "Overweight at BMI ≥23 and obese at ≥27.5 kg/m² (Asian cut-offs)"
+        correct: true
+        feedback: "Correct — Singapore adopted lower Asian cut-offs because cardiometabolic risk rises at a lower BMI than the international ≥25/≥30. BMI still misses body composition."
+      - text: "Overweight at ≥25 and obese at ≥30 kg/m² (the international cut-offs)"
+        correct: false
+        feedback: "Those are the international thresholds; Singapore uses the lower Asian cut-offs (≥23 / ≥27.5)."
+      - text: "There are no BMI cut-offs for Asian populations"
+        correct: false
+        feedback: "There are — the Asian action points ≥23 (overweight) and ≥27.5 (obese), used locally."
