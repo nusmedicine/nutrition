@@ -1,13 +1,16 @@
 # Part II roadmap — "Advising people in a state of health" (Ch.9–13)
 
-> **★ UPDATE 2026-07-05 (restructure + progress).** Ch.9 (`e895bf5`) and Ch.11 (`31cdbbc`) are **DRAFTED,
-> reviewed & committed**; Ch.10 is **in progress**. The old single Part II is now **split into two parts**
-> — **Part II "Healthy eating across life"** (knowledge: Ch.9–10) and **Part III "Advising patients about
-> food"** (clinical skills: Ch.11–13); conditions → Part IV, integration → Part V (decision **E** in
-> `curriculum-map.md`). New decision **F**: **popular diets** (keto/low-carb/IF/paleo) get a *map* in Ch.9
-> and *appraisal* in Ch.13 (therapeutic low-carb → Part IV). Draft order now: **Ch.10 → Ch.12 → Ch.13**,
-> plus a popular-diets section to add to the already-drafted Ch.9. The scorecard/capsules below predate the
-> split (they still say one part) — the per-chapter spine/island/case picks remain valid.
+> **★ UPDATE 2026-07-05 (RE-AXIS + progress).** Three chapters are **DRAFTED, reviewed & committed** —
+> life cycle, what-a-healthy-diet, and assessing diet. **The spine has been re-organised by the PATIENT**
+> (decision **G** in `curriculum-map.md`, superseding the earlier knowledge/skills split): **Part II "Across
+> the life stages"** → **Part III "Advising the healthy"** (what-a-healthy-diet + types of diets → evaluate
+> evidence → assess → counsel) → **Part IV "Advising the chronically ill"** (over- & under-nutrition paired,
+> then cardiometabolic-renal, then bone) → **Part V** integration. Menopause moved to Part II; CKD added;
+> acne stays a Ch.12 evidence example. **New numbering** (22 chapters): life cycle = **Ch.9**, menopause =
+> Ch.10, what-a-healthy-diet = **Ch.11**, evidence = Ch.12, assessing = **Ch.13**, counselling = Ch.14.
+> Draft order next: **popular-diets section into Ch.11 → Ch.12 (evidence) → Ch.14 (counselling) → Ch.10
+> (menopause)**. The scorecard/capsules below predate the re-axis (old numbers) — the per-chapter
+> spine/island/case content picks remain valid; only the part grouping and numbers changed.
 
 > Full roadmap from a 5-dossier pre-flight (one reviewer per chapter, 2026-07-05). Part II turns Part I's
 > science into **practice**: what a good diet is, how it shifts across a life, how to assess someone's
