@@ -44,10 +44,10 @@ book:
     - part: "IV · Advising the chronically ill"
       chapters:
         - chapters/obesity-metabolic-syndrome.qmd
-        - chapters/undernutrition-malnutrition.qmd
         - chapters/type-2-diabetes.qmd
         - chapters/cardiovascular-disease-hypertension.qmd
         - chapters/chronic-kidney-disease.qmd
+        - chapters/undernutrition-malnutrition.qmd
         - chapters/bone-health-osteoporosis.qmd
     - part: "Integrated cases"
       chapters:

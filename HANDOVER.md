@@ -1,14 +1,18 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PARTS I–III COMPLETE & DEPLOYED ·
-> WHOLE-BOOK REVIEW DONE · PART IV STUBBED · NEXT = DRAFT PART IV CONDITIONS CHAPTERS).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (PARTS I–III COMPLETE & DEPLOYED ·
+> WHOLE-BOOK REVIEW DONE · PART IV STUBBED · ALL 6 PART IV DOSSIERS RESEARCHED, VERIFIED & 🟢 · PART IV
+> REORDERED CASCADE-FIRST · NEXT = DRAFT PART IV CONDITIONS CHAPTERS).**
 >
 > **★★ NEXT ACTION: DRAFT PART IV (the conditions chapters).** Six "Advising the chronically ill" chapters
-> exist as **stubs** ("in preparation" placeholders) so cross-refs resolve. Replace them with full content,
-> reusing the exact per-chapter pipeline (§2). Suggested order = where dossiers are ripest: **Obesity &
-> Metabolic Syndrome → Type 2 Diabetes → Cardiovascular Disease & Hypertension** (all have 🟢 dossiers) →
-> **Undernutrition & Malnutrition** (the `08` SPLIT undernutrition half) → **Chronic Kidney Disease** &
-> **Bone Health & Osteoporosis** (net-new). See §4.
+> exist as **stubs** ("in preparation" placeholders) so cross-refs resolve. **Their research dossiers are now
+> all done** — researched, adversarially citation-verified & 🟢 in `research/chapters/` (descriptive names:
+> `obesity-metabolic-syndrome`, `type-2-diabetes`, `cardiovascular-disease-hypertension`,
+> `chronic-kidney-disease`, `undernutrition-malnutrition`, `bone-health-osteoporosis`). Replace the stubs with
+> full content, reusing the exact per-chapter pipeline (§2). **Draft in the new cascade order (decision J):
+> Obesity & Metabolic Syndrome → Type 2 Diabetes → Cardiovascular Disease & Hypertension → Chronic Kidney
+> Disease → Undernutrition & Malnutrition → Bone Health & Osteoporosis.** Each dossier's §11/§12 lists the new
+> `.bib` keys to add (~247 total) + residual "verify exact figure before printing" notes. See §4.
 >
 > **★ THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages CI
 > (`publish.yml`) on every push. Parts I, II and III are fully drafted, reviewed and deployed.
@@ -44,7 +48,7 @@ Legend: ✅ drafted & deployed · 🟢 dossier ready · 🟡 split-source ready 
 | **I** · The metabolic & physiological basis | 1–8 (why-nutrition, energy-balance, macronutrients, micronutrients, digestion-absorption, integrative-metabolism, gut-microbiome, appetite) | ✅ deployed |
 | **II** · Across the life stages | 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing (+ `part2-intro.qmd`) | ✅ **complete & deployed** |
 | **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed |
-| **IV** · Advising the chronically ill | 19 Obesity & Metabolic Syndrome · 20 Undernutrition & Malnutrition · 21 Type 2 Diabetes · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Bone Health & Osteoporosis | 🔴 **STUBS — next to draft** |
+| **IV** · Advising the chronically ill | 19 Obesity & Metabolic Syndrome · 20 Type 2 Diabetes · 21 CVD & Hypertension · 22 Chronic Kidney Disease · 23 Undernutrition & Malnutrition · 24 Bone Health & Osteoporosis (cascade order — decision J) | 🟢 **dossiers verified · stubs in book — next to draft** |
 | **V** · Integration & practice | 25 Interprofessional Practice & Referral (🟢 dossier, no stub) · 26 Capstone: Integrated Cases (= `cases.qmd`, exists) | partial |
 
 **Cross-refs are by NAME**, so the numbering is safe. Part IV chapter files: `obesity-metabolic-syndrome`,
@@ -92,23 +96,34 @@ nutritional levers and refer, not prescribe the full regimen (see each chapter's
 
 ## 4. Remaining work — draft Part IV, then finish Part V
 
-Suggested order (ripest dossiers first). Each is a **management** chapter but at recognise-the-levers-and-refer
-altitude for an early student.
+**All six Part IV research dossiers are now built, adversarially citation-verified & 🟢** (2026-07-06 Workflow).
+Draft in the **cascade order (decision J)** below — each is a **management** chapter but at
+recognise-the-levers-and-refer altitude. Each dossier's §5 evidence table + §11/§12 list the **new `.bib` keys
+to add** (~247 across the six) and the residual "verify exact figure/wording before printing" items; add keys
+per chapter at draft time (do **not** bulk-add up front).
 
-1. **Ch.19 Obesity & Metabolic Syndrome** — dossier `research/chapters/09-overnutrition.md` 🟢. Over-nutrition
-   (paired with undernutrition as the two tails of malnutrition).
-2. **Ch.21 Type 2 Diabetes** — dossier `research/chapters/11-type-2-diabetes.md` 🟢. Includes remission (DiRECT
-   / VLCD / low-carb). GDM management is disclaimed here (obstetric/diabetes team; the Pregnancy chapter owns
-   "why SG screens universally").
-3. **Ch.22 Cardiovascular Disease & Hypertension** — dossier `research/chapters/10-cvd-hypertension.md` 🟢.
-   Therapeutic DASH, sodium, lipids.
-4. **Ch.20 Undernutrition & Malnutrition** — dossier `research/chapters/08-life-cycle-undernutrition.md`
-   (**the undernutrition half** of the SPLIT source; the life-cycle half already seeded Part II) 🟡. MUST, the
-   MDT, ONS, refeeding — the pathological tail (boundary C).
-5. **Ch.23 Chronic Kidney Disease** 🔴 net-new — needs a fresh research+verify dossier. Protein/Na/K/phosphate
-   at recognition level; the dietitian-led renal diet; when to refer.
-6. **Ch.24 Bone Health & Osteoporosis** 🔴 net-new — Ca/vit-D/protein & bone; peak bone mass & age-related
-   loss; SG vit-D/fracture context; when to refer. (Part II Childhood/Menopause/Healthy-Ageing forward-ref it.)
+1. **Ch.19 Obesity & Metabolic Syndrome** — `research/chapters/obesity-metabolic-syndrome.md` 🟢. Cascade opener;
+   Asian BMI action points, MetS clustering, lifestyle-first, sleep/stress axis, weight-inclusive framing.
+2. **Ch.20 Type 2 Diabetes** — `research/chapters/type-2-diabetes.md` 🟢. Carb quality/GL, patterns, weight-centred
+   remission (DiRECT/TDR/low-carb, with eligibility caveats), DPP prevention, Ramadan, SG War on Diabetes. GDM
+   management disclaimed here (the Pregnancy chapter owns "why SG screens universally").
+3. **Ch.21 Cardiovascular Disease & Hypertension** — `research/chapters/cardiovascular-disease-hypertension.md` 🟢.
+   DASH, sodium (+K), fat/lipid quality, Mediterranean/PREDIMED (honest caveats), alcohol, hawker sodium.
+4. **Ch.22 Chronic Kidney Disease** — `research/chapters/chronic-kidney-disease.md` 🟢 (net-new, now built).
+   Protein adequacy-vs-restriction + PEW, Na/K/phosphate (hidden/additive), fluid; dietitian-led renal diet; refer.
+5. **Ch.23 Undernutrition & Malnutrition** — `research/chapters/undernutrition-malnutrition.md` 🟢 (carved from the
+   `08` SPLIT source). MUST, the MDT, ONS/food-first, refeeding *awareness*, IDDSI — the pathological under-tail
+   (boundary C).
+6. **Ch.24 Bone Health & Osteoporosis** — `research/chapters/bone-health-osteoporosis.md` 🟢 (net-new, now built).
+   Ca/vit-D/protein & bone, peak bone mass & loss, SG vit-D paradox, non-dairy Ca sources; recognise & refer.
+   (Part II Childhood/Menopause/Healthy-Ageing forward-ref it.)
+
+**Cross-chapter drafting flags from the verification pass:** (a) **PREDIMED** is owned by the *CVD & Hypertension*
+chapter — the Obesity & T2D chapters may cite it only for generic pattern-quality (no CVD-endpoint numbers).
+(b) The stale **`ada2024care`** key in `references.bib` must be re-pinned book-wide to **`ada2026care`** (ADA
+Standards of Care 2026, DOI 10.2337/dc26-S005) when adding T2D/CVD keys. (c) The legacy numbered source dossiers
+(`09-overnutrition`, `10-cvd-hypertension`, `11-type-2-diabetes`, `08-life-cycle-undernutrition`) are now
+**superseded** by the descriptive-named verified dossiers — safe to retire at cleanup.
 
 **Then Part V:** Ch.25 Interprofessional Practice & Referral (dossier `14-interprofessional-referral` 🟢 —
 needs a stub + drafting); Ch.26 Capstone = the existing `cases.qmd` (Integrated cases, home of the live LLM

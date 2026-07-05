@@ -1,11 +1,14 @@
 # Curriculum map — first-year nutrition (lifestyle-medicine framed)
 
-> **Status (2026-07-05): PARTS I, II & III ✅ COMPLETE, REVIEWED & DEPLOYED (Ch.1–18).** Part II (the 6
-> life-stage chapters, 9–14) was completed this session; a whole-book editorial+pedagogical review followed
+> **Status (2026-07-06): PARTS I, II & III ✅ COMPLETE, REVIEWED & DEPLOYED (Ch.1–18).** Part II (the 6
+> life-stage chapters, 9–14) was completed 2026-07-05; a whole-book editorial+pedagogical review followed
 > (MCQ options de-biased, "honest" tic removed, just-in-time glosses added, Part II intro primer). **Part IV
-> (Ch.19–24, "Advising the chronically ill") now exists as STUBS** ("in preparation" pages so cross-refs
-> resolve) — **NEXT = draft Part IV** (see `HANDOVER.md` §4; dossiers ready for Obesity/T2D/CVD/HTN 🟢,
-> Undernutrition 🟡, CKD/Bone net-new). Part V: Referral (🟢 dossier) + Capstone (= the Integrated-cases page).
+> (Ch.19–24, "Advising the chronically ill") exists as STUBS** ("in preparation" pages so cross-refs resolve).
+> **All six Part IV research dossiers are now researched, adversarially verified & 🟢 ready** (2026-07-06 —
+> ~160-agent Workflow; every citation refute-checked; ~247 new `.bib` keys queued for the drafting step).
+> **Part IV was REORDERED to cascade-first (decision J):** Obesity/MetS → T2D → CVD/HTN → CKD → Undernutrition
+> → Bone (the "two tails" become a part-opening frame + bookend, not adjacency). **NEXT = draft Part IV**
+> (see `HANDOVER.md` §4). Part V: Referral (🟢 dossier) + Capstone (= the Integrated-cases page).
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -59,13 +62,13 @@
 | 16 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
 | 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
-| **IV** | **— Advising the chronically ill —** (maintain health *with* disease) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); dossier status below | | |
-| 19 | Obesity & Metabolic Syndrome (over-nutrition) | `09-overnutrition` | 🟢 dossier · stub in book |
-| 20 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 dossier · stub in book |
-| 21 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 dossier · stub in book |
-| 22 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 dossier · stub in book |
-| 23 | **Chronic Kidney Disease** ✨ (new) | NEW (net-new dossier needed) | 🔴 dossier · stub in book |
-| 24 | **Bone Health & Osteoporosis** ✨ | NEW (net-new dossier needed) | 🔴 dossier · stub in book |
+| **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); all 6 dossiers now 🟢 verified | | |
+| 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | 🟢 verified · stub in book |
+| 20 | Type 2 Diabetes | `type-2-diabetes` | 🟢 verified · stub in book |
+| 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | 🟢 verified · stub in book |
+| 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | 🟢 verified · stub in book |
+| 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | 🟢 verified · stub in book |
+| 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | 🟢 verified · stub in book |
 | **V** | **— Integration & practice —** | | |
 | 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
@@ -73,9 +76,12 @@
 > **Acne note:** food & acne (dairy / high-glycaemic-load) is taught as the flagship **evidence-appraisal
 > worked example in Ch.16** (Advising the healthy), not as a disease chapter. A dedicated skin-conditions
 > chapter is deliberately **not** included (the acne evidence is modest, the eczema–diet evidence weak).
-> **Two-tails note:** over-nutrition (Ch.19) and under-nutrition (Ch.20) are adjacent so malnutrition is
-> taught as one topic with two ends — the through-line seeded in Ch.14 (healthy ageing / older adults) and
-> Ch.17 (do-no-harm). **All cross-refs are by NAME in the book, so the renumber ripple is safe.**
+> **Two-tails note (revised by decision J):** over-nutrition (Ch.19, cascade opener) and under-nutrition
+> (Ch.23) are no longer adjacent — malnutrition is still taught as one topic with two ends, but as a
+> **part-opening frame + narrative bookend** (the Part opens with over-nutrition + its cardiometabolic-renal
+> cascade and closes with under-nutrition + frailty/bone), which keeps metabolic syndrome adjacent to
+> diabetes. The through-line is seeded in Ch.14 (healthy ageing / older adults) and Ch.17 (do-no-harm).
+> **All cross-refs are by NAME in the book, so the renumber ripple is safe.**
 
 **Net-new / split work:** **Part II = 6 chronological chapters (decisions H+I).** ✅ done & committed:
 **Ch.12 Pregnancy & Lactation** and **Ch.13 Menopause & Midlife**. **Split & deepen** (from `life-cycle-nutrition.qmd`
@@ -212,6 +218,16 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   cycle" overview chapter is **retired** (unpublished now; deleted once Ch.9/10/14 are drafted). Book → **26
   chapters**; already-drafted Pregnancy (was 9→12) and Menopause (was 12→13) just change number — content unchanged
   (cross-refs by *name*).
+- **(J) Part IV reordered to the cardiometabolic-renal cascade (2026-07-06) — refines (G).** Part IV now runs
+  **Obesity & Metabolic Syndrome → Type 2 Diabetes → Cardiovascular Disease & Hypertension → Chronic Kidney
+  Disease → Undernutrition & Malnutrition → Bone Health & Osteoporosis**. Rationale: metabolic syndrome is the
+  insulin-resistance substrate for T2D, which drives the macrovascular (CVD/HTN) and microvascular (CKD)
+  complications — one contiguous disease story; interposing undernutrition (a different hospital/geriatric
+  workflow) between MetS and diabetes broke the tightest conceptual link. The **"two tails of malnutrition"**
+  survives as a **part-opening frame + narrative bookend** (over-nutrition + cascade → under-nutrition +
+  frailty/bone), not adjacency; Undernutrition (23) + Bone (24) form a coherent deficiency/frailty closing block
+  where *Healthy Ageing* already hands off. Cross-refs are by *name*, so the renumber is safe; applied to
+  `book/_quarto.yml`. Supersedes the "over- & under-nutrition paired adjacently" reading of (G).
 
 ---
 
