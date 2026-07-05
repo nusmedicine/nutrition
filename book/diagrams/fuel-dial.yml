@@ -1,0 +1,41 @@
+# Data for the FuelDial island (Adulthood: working life & activity chapter).
+# Schematic/qualitative: teaches that everyday active adults need ordinary food + water, not sports
+# nutrition — you have to reach genuine endurance-athlete volume before special fuelling is earned.
+id: fuel-dial
+title: "Fuel to fit your training — usually less than you think"
+intro: >-
+  Set a realistic training week. Watch how rarely the answer is anything more than ordinary food and water.
+proteinPerKg:
+  active: [1.2, 1.6]   # g/kg/day illustrative range (Morton 2018 plateau ~1.6)
+intensities:
+  - { key: easy, label: "Easy", w: 0.5 }
+  - { key: moderate, label: "Moderate", w: 1.0 }
+  - { key: hard, label: "Hard", w: 1.5 }
+# load = sessions x minutes x intensity weight; a session-week is placed in the first tier it fits.
+tiers:
+  - key: minimal
+    max: 100
+    label: "Barely active"
+    fuel: "Ordinary healthy plate. No sports nutrition needed — this is most adults."
+    drink: "Water."
+    protein: "No extra protein beyond normal meals — a usual plate meets your needs."
+  - key: active
+    max: 600
+    label: "Regularly active (the everyday exerciser)"
+    fuel: "Eat enough carbohydrate around training — normal meals cover it. Still no sports drink or powder."
+    drink: "Water — even for a sweaty gym or park session."
+    protein: "range"
+  - key: endurance
+    max: 1000000000
+    label: "Endurance-athlete volume (the minority)"
+    fuel: "Now the athlete guidance starts to apply: more carbohydrate, and fuelling during long sessions."
+    drink: "Water for most sessions; on your longest sessions, carbohydrate + a planned fluid strategy begin to matter."
+    protein: "range"
+athleteNote: >-
+  Athlete guidance (probably not you): high day-to-day carbohydrate scaled to hours of training,
+  carbohydrate during long sessions, and a planned hydration/electrolyte strategy. It is calibrated for
+  serious endurance training — applying it to a few weekly sessions is the classic over-fuelling mistake.
+tropicalNote: >-
+  In Singapore's heat you sweat more — drink to thirst and aim to lose under ~2% of body weight over a long
+  session. Salt only matters for long or very sweaty efforts.
+credit: "Schematic — teaches direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling framing from Thomas 2016; hydration from Sawka 2007."
