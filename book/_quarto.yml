@@ -26,6 +26,9 @@ book:
         - chapters/integrative-metabolism.qmd
         - chapters/gut-microbiome.qmd
         - chapters/appetite-weight-regulation.qmd
+    - part: "II · Advising people in a state of health"
+      chapters:
+        - chapters/dietary-guidelines-patterns.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

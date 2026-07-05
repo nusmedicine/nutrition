@@ -1,0 +1,76 @@
+id: healthy-plate
+title: "Build a healthy plate"
+intro: >
+  My Healthy Plate is one target — half the plate fruit & vegetables, a quarter wholegrains,
+  a quarter protein, with water to drink — reached three ways. Pick a cuisine, then build a
+  balanced dinner from its own dishes. Each household starts on its habitual plate; swap the
+  slots until all four are on target. The lesson: you adapt the plate to the food, not the
+  family to a foreign diet.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0. My Healthy Plate: Health Promotion Board."
+viewBox: "0 0 760 360"
+
+# fixed My-Healthy-Plate structure (the target every cuisine aims at)
+slots:
+  - { id: veg,     label: "½ Fruit & vegetables", short: "Vegetables", frac: 0.50, color: "#2f8f5b" }
+  - { id: grain,   label: "¼ Wholegrains",        short: "Grain",      frac: 0.25, color: "#c98a2b" }
+  - { id: protein, label: "¼ Protein",            short: "Protein",    frac: 0.25, color: "#b1566a" }
+  - { id: drink,   label: "Drink",                short: "Drink",      side: true,  color: "#3a6ea5" }
+
+cuisines:
+  - id: chinese
+    label: "Chinese"
+    options:
+      veg:
+        - { label: "A little garnish", quality: poor, start: true, note: "Barely any vegetable — the half-plate is the single biggest gap in most local dinners." }
+        - { label: "Side of stir-fried greens", quality: ok, note: "A start, but the greens should fill half the plate, not sit at the edge." }
+        - { label: "Half a plate of kai lan / xiao bai cai", quality: good, note: "The veg half done properly — leafy greens make up the largest section." }
+      grain:
+        - { label: "Big bowl of white rice", quality: poor, start: true, note: "Refined, fast-digesting and an oversized portion. Only ~4% of staples eaten in Singapore are wholegrain." }
+        - { label: "White rice, smaller scoop", quality: ok, note: "Portion fixed, but still refined — a wholegrain swap is the bigger win." }
+        - { label: "Brown or mixed rice, one scoop", quality: good, note: "Intact wholegrain with its fibre — a gentler glucose rise, and the quarter the plate asks for." }
+      protein:
+        - { label: "Sweet-and-sour pork (battered, fried)", quality: poor, start: true, note: "Fatty cut, deep-fried and sugar-glazed — the protein quarter carrying a lot of extra energy." }
+        - { label: "Steamed chicken, skin off", quality: ok, note: "Lean once the skin is off — a reasonable protein quarter." }
+        - { label: "Steamed fish / sliced-fish soup", quality: good, note: "Lean protein, minimal added oil — the model protein quarter." }
+      drink:
+        - { label: "Canned soft drink", quality: poor, start: true, note: "A Nutri-Grade C/D drink is essentially a cup of free sugar — the second real local gap after wholegrains." }
+        - { label: "Unsweetened tea", quality: ok, note: "Fine — no free sugar. Water is still the everyday default." }
+        - { label: "Plain water / kopi-o kosong", quality: good, note: "Water (or unsweetened kopi) over any sweetened drink — the simplest high-yield swap." }
+  - id: malay
+    label: "Malay"
+    options:
+      veg:
+        - { label: "Mostly rice, little veg", quality: poor, start: true, note: "A nasi padang tray easily becomes rice-and-gravy with the vegetables crowded out." }
+        - { label: "One vegetable dish on the side", quality: ok, note: "Better — now push the vegetables toward half the tray." }
+        - { label: "Sayur lodeh + ulam (raw veg)", quality: good, note: "Cooked and raw vegetables together fill the half — ulam is an easy local way to bulk up greens." }
+      grain:
+        - { label: "Heaped rice, gravy soaked in", quality: poor, start: true, note: "A large refined-rice portion swimming in coconut gravy — energy-dense before the protein even arrives." }
+        - { label: "Regular rice scoop", quality: ok, note: "A normal portion; brown rice is rarely offered, so portion is the main lever here." }
+        - { label: "Modest rice scoop, less gravy", quality: good, note: "A sensible portion with the coconut gravy kept light — the realistic wholegrain-quarter equivalent at nasi padang." }
+      protein:
+        - { label: "Fried chicken (ayam goreng)", quality: poor, start: true, note: "Deep-fried and often skin-on — a fatty take on the protein quarter." }
+        - { label: "Beef rendang, small portion", quality: ok, note: "Rich in coconut and fat — fine as a small serving, not the whole quarter." }
+        - { label: "Grilled fish (ikan bakar)", quality: good, note: "Grilled, not fried — lean protein with little added oil." }
+      drink:
+        - { label: "Bandung (rose syrup + milk)", quality: poor, start: true, note: "A sweet syrup drink is free sugar in a glass — a Grade-C/D choice." }
+        - { label: "Unsweetened barley", quality: ok, note: "No added sugar if you ask for it kosong; water is still the default." }
+        - { label: "Plain water / teh-o kosong", quality: good, note: "Water or an unsweetened tea beats any sweetened drink." }
+  - id: indian
+    label: "Indian"
+    options:
+      veg:
+        - { label: "Small vegetable subji", quality: poor, start: true, note: "A token vegetable dish — the greens need to reach half the plate." }
+        - { label: "Vegetable subji + a little salad", quality: ok, note: "Closer — keep building the vegetable half." }
+        - { label: "Generous subji + salad, half the plate", quality: good, note: "Vegetables as the largest section, exactly as the plate intends." }
+      grain:
+        - { label: "Large naan / plenty of white rice", quality: poor, start: true, note: "Naan and white rice are refined; a big portion pushes out the vegetable and protein quarters." }
+        - { label: "White rice, smaller portion", quality: ok, note: "Portion sorted, but still refined." }
+        - { label: "Chapati (wholemeal) or brown rice", quality: good, note: "A wholemeal staple — the wholegrain quarter, with fibre intact." }
+      protein:
+        - { label: "\"Vegetarian, so skip the protein\"", quality: poor, start: true, note: "A common myth. Vegetarian does not mean protein-free — the quarter still needs filling." }
+        - { label: "Paneer curry", quality: ok, note: "Real protein, but watch the ghee and oil it is cooked in." }
+        - { label: "Dhal / chana (legumes)", quality: good, note: "Legumes are the protein quarter for a vegetarian plate — and they bring fibre too." }
+      drink:
+        - { label: "Sweet masala chai / mango lassi", quality: poor, start: true, note: "Sweetened milk drinks carry a lot of free sugar." }
+        - { label: "Unsweetened chai", quality: ok, note: "No added sugar if you order it that way; water is still best." }
+        - { label: "Plain water / unsweetened buttermilk", quality: good, note: "Water or a plain buttermilk (chaas) over any sweetened drink." }
