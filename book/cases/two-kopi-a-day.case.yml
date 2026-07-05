@@ -1,0 +1,175 @@
+id: two-kopi-a-day
+title: "The two kopi gao a day"
+objectives:
+  - "Open a change conversation with permission and reflective listening, resisting the righting reflex."
+  - "Evoke and reinforce change talk, then co-write one small, owned SMART goal with an if-then plan."
+  - "Recognise a disordered-eating red flag and respond safely — pause the goal, screen, refer — never reinforce restriction."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, counselling, motivational-interviewing, singapore, safety]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mr Tan"
+  age: 52
+  sex: male
+  occupation: "taxi driver"
+  presentation: "Borderline HbA1c on a health screen. Drinks two or three sweet kopi gao a day plus a packet drink, mostly to get through long shifts. Feels well and isn't asking to change anything. Friendly but a bit defensive about his one daily pleasure."
+  voice: "Warm, tired, proud of his independence; bristles at being told what to do; opens up when listened to."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: neutral
+    title: "\"I feel fine, doctor\""
+    body: |
+      Mr Tan's screening HbA1c is borderline. He drinks two or three sweet kopi gao a day and a packet
+      drink, and he isn't asking to change — the kopi is what gets him through twelve-hour shifts. You
+      have a few minutes. Start a change he'll actually own, and stay alert for the point where pushing
+      would do harm.
+    next: q-open
+
+  - id: q-open
+    type: mcq
+    emotion: skeptical
+    stem: "*\"Honestly, the kopi is my only pleasure driving all day.\"* How do you open?"
+    options:
+      - id: a
+        text: "\"The kopi keeps you going through the long shifts — and it sounds like the sugar's a bit on your mind too. Would it be OK to talk about it?\""
+        correct: true
+        feedback: "Right — a reflection that names both sides, plus asking permission. You resist the urge to fix, and he stays engaged instead of defending himself."
+        effects: { quality: +1 }
+        reaction: neutral
+        goto: q-changetalk
+      - id: b
+        text: "\"You really need to stop the sugar — it's what's pushing your blood sugar up.\""
+        correct: false
+        feedback: "The righting reflex. It's true, but jumping to fix makes him defensive ('everyone says that') and he digs in. Reflect and ask permission first."
+        goto: q-changetalk
+      - id: c
+        text: "\"Let me tell you everything that can go wrong with diabetes.\""
+        correct: false
+        feedback: "A lecture is the righting reflex in its purest form — it provokes resistance and shuts down the conversation before it starts."
+        goto: q-changetalk
+
+  - id: q-changetalk
+    type: mcq
+    emotion: concerned
+    stem: "He softens: *\"My father had diabetes. Lost his foot in the end. I don't want that — but the kopi's such a habit.\"* What do you say?"
+    options:
+      - id: a
+        text: "\"It took something to say that — and it shows how much you want to stay well for your family. Watching your dad makes this feel real.\""
+        correct: true
+        feedback: "An affirmation plus a reflection — you catch his change talk and strengthen it. He offers even more ('my daughter's getting married next year'). This is MI working."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-goal
+      - id: b
+        text: "\"Exactly — so you must cut it out now, before it's too late.\""
+        correct: false
+        feedback: "He just handed you real motivation and the righting reflex buries it. Rushing to instruct flips him from 'I want to' back to 'don't push me'."
+        goto: q-goal
+      - id: c
+        text: "\"Do you know your latest HbA1c number?\""
+        correct: false
+        feedback: "Not wrong, but it yanks the conversation back to data at the moment he's opening up emotionally. Reflect or affirm first; the number can wait."
+        goto: q-goal
+
+  - id: q-goal
+    type: mcq
+    emotion: neutral
+    stem: "*\"Maybe I could cut down a bit. But I don't know if I can — it's just what I do.\"* How do you help him set a goal?"
+    options:
+      - id: a
+        text: "\"What's one small change you think you could actually stick to?\" — then help him shape it: kopi siu dai on workday mornings, and if the auntie forgets, he'll remind her."
+        correct: true
+        feedback: "Exactly — you let him choose the change, then made it a small, specific, owned SMART goal with an if-then plan for the obstacle. That's what sticks."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-safety
+      - id: b
+        text: "\"Good — from tomorrow, no more kopi, switch to plain water all day.\""
+        correct: false
+        feedback: "Too big and imposed by you, not chosen by him — he'll abandon it within a week. Aim for one small change he owns, not a total ban."
+        goto: q-safety
+      - id: c
+        text: "\"Don't worry about it — just try your best.\""
+        correct: false
+        feedback: "Vague reassurance lets the moment slip. He was ready to plan something concrete — this is the point to co-write one small, specific goal and arrange follow-up."
+        goto: q-safety
+
+  - id: q-safety
+    type: mcq
+    emotion: concerned
+    stem: "As you finish, he adds: *\"Some days I just skip meals completely to make up for the kopi and snacks — and I feel bad about eating.\"* What now?"
+    options:
+      - id: a
+        text: "Gently step back from the kopi goal, ask a few supportive questions about the meal-skipping and the guilt, and consider referral rather than pressing on."
+        correct: true
+        feedback: "Correct — do no harm. Skipping meals to 'make up' and guilt around eating are red flags; on average weight advice is safe, but for this patient another restriction could harm. Screen gently and refer, don't push the goal."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"That's good discipline — skipping meals will help you cut down even faster.\""
+        correct: false
+        feedback: "This reinforces restriction in someone showing disordered-eating red flags — the exact harm to avoid. Recognise the signal and switch to support and referral."
+        goto: remedial
+      - id: c
+        text: "Brush past it and confirm the kopi goal — one thing at a time.\n"
+        correct: false
+        feedback: "Letting this pass is a do-no-harm failure. Compensatory meal-skipping and guilt outrank the kopi goal — pause and address them."
+        goto: remedial
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Start the change — and do no harm"
+    body: |
+      The through-line: **resist the righting reflex** (reflect and ask, don't fix), **evoke and
+      affirm his own reasons**, help him choose **one small, owned goal** with an if-then plan — and,
+      the moment food talk turns to compensatory skipping and guilt, **stop pressing and refer**.
+      Replay and take the path that starts a change without causing harm.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "One small change he owns"
+    body: |
+      You opened with a reflection and permission instead of a lecture, caught and strengthened his
+      change talk, and helped him choose one small SMART goal — kopi siu dai on workday mornings, with
+      an if-then plan — rather than imposing a ban. And when he revealed compensatory meal-skipping and
+      guilt, you recognised the red flag and shifted to support and referral instead of reinforcing
+      restriction. That's how a brief consult starts a change, safely. *(Carrying the whole
+      conversation live with a simulated patient is the capstone chapter.)*
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Resist the righting reflex: reflect, affirm and ask permission — let the patient voice their own reasons to change."
+        - "Co-write one small, owned SMART goal with an if-then plan; small and chosen beats big and imposed."
+        - "Do no harm: compensatory meal-skipping and guilt are eating-disorder red flags — pause the goal, screen, and refer; never reinforce restriction."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You worked with Mr Tan but slipped on at least one turn — lecturing instead of listening,
+      imposing a goal instead of evoking one, or missing the red flag. Replay and run the safe path:
+      reflect and ask, affirm his change talk, co-set one small owned goal, and step back to refer when
+      restriction and guilt appear.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Reflect and ask permission — don't fix or lecture."
+        - "Evoke change talk, then co-set one small, owned goal with an if-then plan."
+        - "Compensatory meal-skipping and guilt are red flags — screen and refer, don't reinforce restriction."

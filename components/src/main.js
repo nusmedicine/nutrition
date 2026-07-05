@@ -16,6 +16,7 @@ import DietHistory from './DietHistory.svelte';
 import NutriGrade from './NutriGrade.svelte';
 import LifeStages from './LifeStages.svelte';
 import ClaimAnalyzer from './ClaimAnalyzer.svelte';
+import ResponseChooser from './ResponseChooser.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -37,6 +38,7 @@ const REGISTRY = {
   'nutri-grade': NutriGrade,
   'life-stages': LifeStages,
   'claim-analyzer': ClaimAnalyzer,
+  'response-chooser': ResponseChooser,
   // future: flashcards, diagram, …
 };
 

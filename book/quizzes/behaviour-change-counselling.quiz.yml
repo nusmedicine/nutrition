@@ -1,0 +1,93 @@
+id: behaviour-change-counselling
+title: "Quick check: behaviour-change counselling"
+questions:
+  - id: q1
+    stem: "A patient says, \"The kopi is my only pleasure driving all day.\" What's the motivational-interviewing move?"
+    options:
+      - text: "Reflect both sides — \"the kopi keeps you going, and it sounds like the sugar worries you a bit\" — and let him voice his own reasons"
+        correct: true
+        feedback: "Correct — reflective listening resists the 'righting reflex' and invites change talk. He argues himself toward change instead of resisting you."
+      - text: "Tell him firmly he must stop the sugar because it's dangerous"
+        correct: false
+        feedback: "That's the righting reflex — the urge to fix/warn. It's accurate but provokes resistance; he digs in ('don't tell me what to do')."
+      - text: "Say nothing about it to avoid conflict"
+        correct: false
+        feedback: "Avoidance isn't the move either — you can raise it, with permission and reflection, rather than either lecturing or ignoring."
+
+  - id: q2
+    stem: "Which of these patient statements is **change talk** (the patient's own motivation to change)?"
+    options:
+      - text: "\"My father had diabetes and lost his foot — I don't want to end up like that.\""
+        correct: true
+        feedback: "Correct — that's change talk (his own reason to change). Reinforce it with a reflection or affirmation, don't bury it under a lecture."
+      - text: "\"The food is just too good, I can't help it.\""
+        correct: false
+        feedback: "That's sustain talk (arguments for staying the same). Acknowledge it, but don't amplify it — evoke the change talk instead."
+      - text: "\"Everyone tells me to eat better, it's annoying.\""
+        correct: false
+        feedback: "That's resistance/sustain talk, often a sign someone has been pushed too hard. Reflect it and ease off the righting reflex."
+
+  - id: q3
+    stem: "In the 5 A's (Assess, Advise, Agree, Assist, Arrange), what should come **before** you give advice?"
+    options:
+      - text: "Ask permission — \"would it be OK if I shared one idea?\" — which keeps you partners rather than adversaries"
+        correct: true
+        feedback: "Correct — advising with permission is the hinge. Unasked-for advice, however good, tends to bounce off."
+      - text: "Nothing — good advice should be delivered immediately and firmly"
+        correct: false
+        feedback: "Advice without permission or listening undermines partnership and provokes resistance. Assess and ask first."
+      - text: "A full lecture on the complications of diabetes"
+        correct: false
+        feedback: "That's the righting reflex. Assess what they eat and are ready for, then advise briefly, with permission."
+
+  - id: q4
+    stem: "A patient wants to \"cut down on sugar.\" Which is the strongest **SMART** goal?"
+    options:
+      - text: "\"Order my morning kopi siu dai instead of kopi gao, every workday, starting Monday\""
+        correct: true
+        feedback: "Correct — Specific, Measurable, Achievable, Relevant, Time-bound, and it's his own choice. Small and owned beats big and imposed."
+      - text: "\"Be healthier and cut out sugar\""
+        correct: false
+        feedback: "Too vague — not specific, measurable or time-bound. A wish, not a goal you can check."
+      - text: "\"Never drink kopi again, starting today\""
+        correct: false
+        feedback: "Not achievable (and not his choice) — an over-big goal he'll abandon within a week. Aim for one small, sustainable change."
+
+  - id: q5
+    stem: "You've agreed a small goal. What add-on genuinely improves the odds it actually happens?"
+    options:
+      - text: "An if-then plan — \"if the stall auntie forgets, then I'll remind her siu dai\" — deciding the when and where in advance"
+        correct: true
+        feedback: "Correct — an implementation intention has a medium-to-large effect on goal attainment. Planning for the obstacle is what makes it stick."
+      - text: "Setting five more goals at the same time"
+        correct: false
+        feedback: "Too many goals dilute the effort — one small, well-planned change beats five aspirational ones."
+      - text: "Telling him it's very important and he must try hard"
+        correct: false
+        feedback: "Exhortation doesn't change behaviour. A concrete if-then plan does far more than 'try harder'."
+
+  - id: q6
+    stem: "You use the stages-of-change model to tailor your approach. What's the honest caveat to hold?"
+    options:
+      - text: "It's a useful heuristic for choosing *how* to talk, but it's low-certainty evidence and doesn't reliably predict who will sustain weight loss"
+        correct: true
+        feedback: "Correct — use it to meet a patient where they are, not to label them or forecast success. Present it as a tool, not a proven fact."
+      - text: "It reliably predicts which patients will succeed, so you can focus only on the 'ready' ones"
+        correct: false
+        feedback: "Overstated — the Cochrane evidence is low-certainty and it doesn't predict sustained weight loss. It tailors your style, nothing more."
+      - text: "It's proven superior to every other counselling approach"
+        correct: false
+        feedback: "No — it's an organising heuristic taught with humility, not a validated predictor or a proven-best method."
+
+  - id: q7
+    stem: "Mid-consult, a patient reveals she skips meals to \"make up\" for eating and feels guilty afterwards. What now?"
+    options:
+      - text: "Pause the weight and portion goals, gently screen, and consider referral — reinforcing more restriction could do harm"
+        correct: true
+        feedback: "Correct — do no harm. Compensatory meal-skipping and guilt are eating-disorder red flags; on average weight management is safe, but this patient needs support and referral, not another restriction."
+      - text: "Praise her discipline and encourage her to keep cutting things out"
+        correct: false
+        feedback: "This reinforces restriction in someone showing red flags — the harm to avoid. Recognise the signal and switch to support and referral."
+      - text: "Ignore it and press on with the diet plan"
+        correct: false
+        feedback: "Missing this is a do-no-harm failure. The red flags outrank the diet goal; screen gently and refer."

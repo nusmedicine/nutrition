@@ -34,6 +34,7 @@ book:
         - chapters/dietary-guidelines-patterns.qmd
         - chapters/evidence-vs-hype.qmd
         - chapters/06-dietary-assessment.qmd
+        - chapters/behaviour-change-counselling.qmd
     - part: "Integrated cases"
       chapters:
         - chapters/cases.qmd

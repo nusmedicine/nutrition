@@ -1,0 +1,89 @@
+id: response-chooser
+title: "Choose your response"
+intro: >
+  You can't script a conversation — but you can practise the moves. Mr Tan, a taxi driver, drinks
+  two or three sweet kopi gao a day and isn't asking to change. At each turn, pick what you'd say and
+  see how he responds. Watch the pattern: the urge to fix (the "righting reflex") shuts him down,
+  while listening and asking open him up. Try more than one at each step.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+
+patient: "Mr Tan, 52 — taxi driver, borderline HbA1c, two to three sweet kopi gao a day."
+
+# response types (badge colour)
+types:
+  reflect:   { label: "Reflective listening", color: "#2f8f5b" }
+  open:      { label: "Open question / permission", color: "#3a6ea5" }
+  affirm:    { label: "Affirmation", color: "#1d9e75" }
+  closed:    { label: "Closed question", color: "#c98a2b" }
+  righting:  { label: "Righting reflex", color: "#cf5b4e" }
+
+turns:
+  - id: t1
+    patient: "\"Honestly, doctor, it's my only pleasure driving all day — a couple of kopi gao keep me going.\""
+    options:
+      - type: righting
+        tier: poor
+        text: "\"You need to stop the sugar — it's what's pushing your blood sugar up.\""
+        reaction: "(folds his arms) \"I know, I know. Everyone says that. But I can't just stop, my job is stressful.\""
+        feedback: "The righting reflex — jumping straight to fixing. It's accurate, but it provokes resistance and he digs in. Resisting this urge is the whole point of the style."
+      - type: reflect
+        tier: good
+        text: "\"The kopi keeps you going through the long shifts — and it sounds like the sugar worries you a little too.\""
+        reaction: "\"Yeah… my father had diabetes, actually. Lost his foot in the end. So it's at the back of my mind.\""
+        feedback: "Reflective listening — you named both sides of his feeling without pushing. That's what invites him to voice his own reasons to change (\"change talk\")."
+      - type: open
+        tier: good
+        text: "\"Would it be alright if we talked about your drinks for a moment?\""
+        reaction: "\"Sure, doctor, go ahead — I know they're not great for me.\""
+        feedback: "Asking permission keeps you partners rather than adversaries. A safe, respectful opener that almost always gets a yes."
+      - type: closed
+        tier: ok
+        text: "\"How many sugars do you take in each cup?\""
+        reaction: "\"Two, sometimes three. And condensed milk.\""
+        feedback: "A closed question is fine for gathering a fact, but it doesn't open up his motivation. Useful later; not the move that gets the conversation going."
+  - id: t2
+    patient: "\"My father had diabetes. I don't want to end up like him — but the kopi is such a habit.\""
+    options:
+      - type: righting
+        tier: poor
+        text: "\"Right, so you must cut it out now, before it's too late — let me list the complications.\""
+        reaction: "(sighs) \"Here we go… I came for my back, not a lecture.\""
+        feedback: "He just gave you real motivation — and the lecture buries it. Rushing to warn and instruct is the righting reflex again; it flips him from 'I want to' back to 'don't push me'."
+      - type: affirm
+        tier: good
+        text: "\"It took something to say that — and it shows how much you want to stay well for your family.\""
+        reaction: "\"…yeah. My daughter's getting married next year. I'd like to be around and healthy for that.\""
+        feedback: "An affirmation — genuine, specific recognition of his values. It strengthens his own motivation and he offers even more change talk."
+      - type: reflect
+        tier: good
+        text: "\"So watching what happened to your dad makes this feel real for you.\""
+        reaction: "\"Exactly. It's not just numbers on a report — I've seen where it goes.\""
+        feedback: "A reflection that gently amplifies his change talk. You're helping him hear his own reasons, not supplying yours."
+      - type: closed
+        tier: ok
+        text: "\"Do you know your latest HbA1c number?\""
+        reaction: "\"Not really… the nurse said it was 'borderline'.\""
+        feedback: "Not wrong, but it pulls the conversation back to data at the exact moment he was opening up emotionally. Reflect or affirm first; the number can wait."
+  - id: t3
+    patient: "\"Maybe I could cut down a bit. But honestly I don't know if I can — it's just what I do.\""
+    options:
+      - type: righting
+        tier: poor
+        text: "\"Good. From tomorrow, no more kopi gao — switch to plain water.\""
+        reaction: "\"Aiyoh, no. Plain water the whole day? That won't last a week.\""
+        feedback: "Too big, and imposed by you, not chosen by him — so he disengages. A goal has to be his, and achievable, or it won't stick."
+      - type: open
+        tier: good
+        text: "\"What's one small change you think you could actually stick to?\""
+        reaction: "\"Maybe… order it *siu dai* — less sweet — for my morning cup? I could try that.\""
+        feedback: "An open, evoking question — you let him choose the change. A small, owned goal (kopi siu dai on workday mornings) is exactly what to build a SMART goal around."
+      - type: open
+        tier: good
+        text: "\"On a scale of 0 to 10, how confident are you that you could cut down — and what makes it that number and not lower?\""
+        reaction: "\"Maybe a 4… I mean, I could ask for less sugar, that part's easy. It's the packet drink in the afternoon that's harder.\""
+        feedback: "The confidence ruler — an evoking open question. It surfaces what he *can* do (siu dai) versus what's harder (the packet drink), so you build the goal on the achievable part."
+      - type: closed
+        tier: poor
+        text: "\"Don't worry about it — just try your best, okay?\""
+        reaction: "\"…okay.\" (you can tell nothing will change)"
+        feedback: "Vague reassurance lets the moment slip. He was ready to plan something concrete — this is the point to help him co-write one small, specific goal, then arrange to follow it up."
