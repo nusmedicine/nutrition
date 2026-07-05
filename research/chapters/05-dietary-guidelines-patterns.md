@@ -1,7 +1,7 @@
 ---
-chapter: 5
-title: "Dietary Guidelines and Healthy Dietary Patterns"
-status: 🟢 ready to write
+chapter: 9
+title: "What a Healthy Diet Looks Like"
+status: 🟢 ready to write (renumbered Ch.5→9 · +food-environment remit · hold dga2025 uncited; see PART2-ROADMAP.md)
 book_chapter: ../../book/chapters/dietary-guidelines-patterns.qmd
 pillars: [nutrition]
 last_updated: 2026-06-30

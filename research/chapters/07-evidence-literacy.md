@@ -1,7 +1,7 @@
 ---
 chapter: 13
 title: "Evidence vs Hype & Everyday Questions (incl. food & acne)"
-status: 🟢 toolkit ready + scope additions folded 2026-07-05 (2 citations to pin — see below)
+status: 🟢 ready to write (renumbered Ch.7→13 · acne+everyday folded & ALL citations pinned 2026-07-05 · demote Part I trials = decision D)
 book_chapter: ../../book/chapters/ (Ch.13)
 pillars: [nutrition]
 last_updated: 2026-07-05
@@ -42,11 +42,13 @@ dairy**) — a live *correlation ≠ causation* case: real, reproducible associa
   found **no** behavioural effect (belief = expectancy/observer bias); `farsadnaeimi2020adhd` shows only a
   weak confounded *association*. Excess added sugar is genuinely unhealthy; "toxic/addictive" overstates it.
 - **Gluten-free without coeliac disease** — no experimental evidence of benefit; can worsen diet quality &
-  cost; separate the real indication (coeliac) from the fad; nocebo/healthy-user effects. ⚠ **VERIFY**
-  anchor (gluten-free non-coeliac review, PMC5866307) — pin author/PMID before citing.
-- **Superfood pick — apple cider vinegar** — small real glycaemic/weight effects dwarfed by standard care;
-  and a widely-cited **2024 ACV weight-loss RCT was RETRACTED** (a perfect "does the headline still stand?"
-  lesson). ⚠ **VERIFY** anchors PMC11821484 (glycaemic), PMC12472926 (body-comp) — pin author/PMID first.
+  cost; separate the real indication (coeliac) from the fad; nocebo/healthy-user effects. ✅ `glutenFreeNonCeliac`
+  (Niland & Cash, *Gastroenterol Hepatol* 2018, PMID 29606920).
+- **Superfood pick — apple cider vinegar** — small real glycaemic/weight effects dwarfed by standard care:
+  ✅ `acvGlycaemia` (Arjmandfard, *Front Nutr* 2025, PMID 39949546) + `acvBodyComp` (Castagna, *Nutrients*
+  2025, PMID 41010525). **The flagship lesson:** the widely-cited **2024 ACV weight-loss RCT**
+  (`acvRetracted2024`, *BMJ Nutr Prev Health* 2024, PMID 38966098) was **RETRACTED in 2025** (analyses not
+  replicable; no trial registration) — a perfect "did the headline study survive?" demo.
 
 ### Ch.13 new citations to add to `book/references.bib` (all 8 PubMed-verified 2026-07-05)
 `juhl2018dairyacne` (Nutrients 2018;10(8):1049, PMID 30096883) · `aghasi2019dairyacne` (Clin Nutr
@@ -54,7 +56,8 @@ dairy**) — a live *correlation ≠ causation* case: real, reproducible associa
 `aad2016acne` (JAAD 2016;74(5):945-73.e33, PMID 26897386) · `aad2024acne` (JAAD 2024;90(5):1006.e1-30,
 PMID 38300170) · `poole2017coffee` (BMJ 2017;359:j5024, PMID 29167102) · `wolraich1994sugar` (NEJM
 1994;330(5):301-7, PMID 8277950) · `farsadnaeimi2020adhd` (Complement Ther Med 2020;53:102512, PMID
-33066852). The **gluten-free + ACV** anchors still need author/PMID pinned before they're citable.
+33066852). The **gluten-free + ACV** anchors are now **pinned** and in `book/references.bib`:
+`glutenFreeNonCeliac`, `acvGlycaemia`, `acvBodyComp`, `acvRetracted2024`. **All Ch.13 new citations verified.**
 
 *(Everything below is the original evidence-literacy dossier — the toolkit spine, fad/supplement appraisal
 and SG context — unchanged. Inherit its §11 citation-hygiene flags: `vital2019` cite the two 2019 NEJM

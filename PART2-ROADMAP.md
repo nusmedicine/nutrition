@@ -7,16 +7,22 @@
 
 ## Readiness scorecard
 
-| Ch | Chapter | Dossier | State | Blocking pre-work before drafting |
-|----|---------|---------|-------|-----------------------------------|
-| 9 | What a Healthy Diet Looks Like | `05-dietary-guidelines-patterns` | 🟢 ready | 2 BibTeX entries; build out food-environment strand; re-point old cross-refs |
-| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` | 🟢 research, ⚠ **merged** | **Split the dossier** (undernutrition → Ch.19) before drafting |
-| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | 🟢 ready | 6 BibTeX entries; verify Nutri-Grade sat-fat figure; decide label-ownership split; retitle |
-| 12 | Behaviour-Change Counselling | `13-counselling` | 🟢 content (🟡 bib) | 3 citation confirms; **reconcile "5 A's" with Ch.11** |
-| 13 | Evidence vs Hype & Everyday Questions | `07-evidence-literacy` | 🟡 **incomplete** | **Research pass**: food-&-acne (deep) + everyday-questions bank; re-scope vs Part I |
+> ✅ **PREP SWEEP COMPLETE (2026-07-05).** 30 Part II citations staged & verified in `book/references.bib`
+> (Ch.9 · 4, Ch.11 · 7, Ch.12 · 7, Ch.13 · 12 incl. the acne/everyday set + the retracted-ACV example);
+> Ch.13 research folded in; Ch.10 split directive written; decisions A–D settled; dossier frontmatter
+> renumbered to the new spine. **All five chapters are now draft-ready.**
 
-**Bottom line:** three chapters (9, 11, 12) are draft-ready after light chores; **two need real pre-work** —
-Ch.10 a dossier *split*, Ch.13 a focused *research pass* (acne is the one deep sub-task).
+| Ch | Chapter | Dossier | Ready? | Apply-at-draft notes |
+|----|---------|---------|:---:|----------------------|
+| 9 | What a Healthy Diet Looks Like | `05-dietary-guidelines-patterns` | ✅ | build out the food-environment strand; re-point cross-refs; hold `dga2025` uncited |
+| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` | ✅ | apply the **SPLIT directive** (undernutrition → Ch.19) |
+| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ | retitled; label split (A) + 5 A's (B) settled; **Nutri-Grade grade-A sat-fat = ≤0.7 g/100 ml** (the "1.2" was the grade-B ceiling) |
+| 12 | Behaviour-Change Counselling | `13-counselling` | ✅ | 5 A's aligned with Ch.11 (B) |
+| 13 | Evidence vs Hype & Everyday Questions | `07-evidence-literacy` | ✅ | acne + everyday folded; demote Part I trials (D) |
+
+**Bottom line:** all five Part II chapters are **draft-ready**; recommended first draft = **Ch.9** (the anchor).
+*(The "structural blockers" and "pre-draft chores" sections below are the original pre-flight analysis — all
+now resolved per the banner above; kept for the record.)*
 
 ## Two structural blockers (the only things that gate drafting)
 

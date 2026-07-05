@@ -1,6 +1,8 @@
 # Curriculum map — first-year nutrition (lifestyle-medicine framed)
 
-> **Status: 🟢 RESTRUCTURED spine (2026-06-30, branch `curriculum-restructure`).**
+> **Status (2026-07-05): Part I (Ch.1–8) ✅ DRAFTED, POLISHED & DEPLOYED. Part II (Ch.9–13) 🟢 PLANNED
+> + PREPPED — see [`PART2-ROADMAP.md`](../../PART2-ROADMAP.md) (5-dossier pre-flight, staged citations,
+> decisions A–D below). Next: draft Ch.9. Part III/IV not started.** (Spine restructured 2026-06-30.)
 > Four parts around a firm physiological foundation, leading with *advising well people*, then
 > common conditions, then integration. **Part I sequencing is research-backed** (see §"Part I"
 > below — surveyed 6 nutrition + 4 physiology/biochem texts, then verified).
@@ -19,27 +21,27 @@
 | # | Chapter | Source dossier | Dossier |
 |---|---|---|---|
 | **I** | **— The metabolic & physiological basis —** | | |
-| 1 | Why Nutrition Matters & the Lifestyle-Medicine Frame | `01-why-nutrition-matters` | 🟢 |
-| 2 | Energy Balance & Body Composition | `02-energy-balance` (book ✅) | 🟢 |
-| 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | `03-macronutrients` (book 🟡) | 🟢 |
-| 4 | Micronutrients, Hydration & Electrolytes | `04-micronutrients-hydration` | 🟢 |
-| 5 | **Digestion & Absorption** ✨ | `digestion-absorption` (book ✅) | ✅ |
-| 6 | **Integrative Metabolism (Fed / Fasted)** ✨ | `integrative-metabolism` (dossier ✅ 2026-07-03) | 🟢 |
-| 7 | **The Gut Microbiome** ✨ | `gut-microbiome` (dossier ✅ 2026-07-03) | 🟢 |
-| 8 | **Appetite & Weight Regulation** ✨ | NEW (+ sleep/stress from old overnutrition) | 🔴 |
-| **II** | **— Advising people in a state of health —** | | |
-| 9 | What a Healthy Diet Looks Like (patterns & guidelines) | `05-dietary-guidelines-patterns` (+ food environment) | 🟢 |
-| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` (life-cycle part) | 🟢 |
-| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | 🟢 |
-| 12 | Behaviour-Change Counselling | `13-counselling` | 🟢 |
-| 13 | Evidence vs Hype & Everyday Questions (incl. food & acne) | `07-evidence-literacy` (+ NEW everyday) | 🟡 |
+| 1 | Why Nutrition Matters | `01-why-nutrition-matters` | ✅ book |
+| 2 | Energy Balance & Body Composition | `energy-balance` (rebuilt 2026-07-05) | ✅ book |
+| 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | `macronutrients` | ✅ book |
+| 4 | Micronutrients, Hydration & Electrolytes | `04-micronutrients-hydration` | ✅ book |
+| 5 | **Digestion & Absorption** ✨ | `digestion-absorption` | ✅ book |
+| 6 | **Integrative Metabolism (Fed / Fasted)** ✨ | `integrative-metabolism` | ✅ book |
+| 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
+| 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
+| **II** | **— Advising people in a state of health — PLANNED + PREPPED 2026-07-05 ([roadmap](../../PART2-ROADMAP.md))** | | |
+| 9 | What a Healthy Diet Looks Like (patterns & guidelines) | `05-dietary-guidelines-patterns` (+ food environment) | 🟢 prepped |
+| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` (life-cycle part — **SPLIT source**) | 🟢 prepped |
+| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | 🟢 prepped |
+| 12 | Behaviour-Change Counselling | `13-counselling` | 🟢 prepped |
+| 13 | Evidence vs Hype & Everyday Questions (incl. food & acne) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | 🟢 prepped |
 | **III** | **— Nutrition in common conditions (core + a few) —** | | |
 | 14 | Obesity & Metabolic Syndrome | `09-overnutrition` | 🟢 |
 | 15 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
 | 16 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
 | 17 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
 | 18 | **Menopause & Midlife Health** ✨ | NEW | 🔴 |
-| 19 | Undernutrition & Malnutrition | `08-life-cycle-undernutrition` (undernutrition part) | 🟡 |
+| 19 | Undernutrition & Malnutrition | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 |
 | **IV** | **— Integration & practice —** | | |
 | 20 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 21 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |

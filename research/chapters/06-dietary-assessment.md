@@ -1,7 +1,7 @@
 ---
-chapter: 6
-title: "Dietary Assessment, Food Labels and Talking to Patients"
-status: 🟢 ready to write
+chapter: 11
+title: "Assessing Diet & Talking to Patients"
+status: 🟢 ready to write (renumbered Ch.6→11 · retitled · label-ownership split with Ch.9 = decision A · use 5 A's Assess-Advise-Agree-Assist-Arrange = decision B · Nutri-Grade grade-A sat-fat = ≤0.7 g/100 ml)
 book_chapter: ../../book/chapters/06-dietary-assessment.qmd
 pillars: [nutrition]
 last_updated: 2026-06-30

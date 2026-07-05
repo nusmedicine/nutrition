@@ -1,11 +1,28 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART I DRAFTED + POLISHED).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART I DEPLOYED · PART II PLANNED + PREPPED).**
 > **THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from branch **`main`**
 > (repo `github.com/nusmedicine/nutrition`) by the Pages CI on every push (build islands → render →
 > **asset check** → deploy).
 >
-> **★ 2026-07-05 — PART I POLISHING PASS + FOLLOW-UPS DONE (this session), all shipped & deployed.**
+> **★★ NEXT ACTION: DRAFT PART II — start with Ch.9 (fully prepped). 2026-07-05.**
+> Part I (Ch.1–8) is ✅ drafted, polished & deployed. **Part II (Ch.9–13, "Advising people in a state of
+> health") is now fully PLANNED + PREPPED.** A 5-dossier pre-flight produced **[`PART2-ROADMAP.md`](PART2-ROADMAP.md)**
+> (per-chapter spine, island & case picks, overlap-ownership, sequencing — READ IT FIRST for Part II). Prep
+> sweep DONE: **30 citations staged & verified** in `book/references.bib`; the **Ch.13** acne / everyday-
+> questions research is folded into [`07-evidence-literacy.md`](research/chapters/07-evidence-literacy.md);
+> the **Ch.10** merged dossier carries a **SPLIT directive** (life-cycle → Ch.10, undernutrition → Ch.19);
+> and four cross-chapter **decisions A–D** are settled (in [`curriculum-map.md`](research/00-overview/curriculum-map.md)
+> + roadmap): **(A)** Ch.9 owns food-environment *framing*, Ch.11 owns the label-reading *skill*; **(B)** one
+> "5 A's" = **Assess-Advise-Agree-Assist-Arrange** across Ch.11/12; **(C)** Ch.10/19 boundary = healthy
+> shifting-needs vs pathological state; **(D)** Ch.13 *re-appraises* Part I's trials/myths, does not re-teach.
+> **→ Draft Ch.9 "What a Healthy Diet Looks Like"** via §2.1: island = a **"Build a Healthy Plate"** QQH
+> plate-builder (Chinese/Malay/Indian cuisine toggle), case = "Three households, one plate". Part II
+> islands/cases are **skills-style** (plate builders, diet-history sims, MI response-choosers), *not* molecular
+> diagrams; in-chapter cases stay **MCQ-only** [[in-chapter-cases-mcq-only]]. **At draft time,** re-point each
+> dossier's cross-refs to the new spine (dossiers keep old filenames; their frontmatter is already renumbered).
+>
+> **★ 2026-07-05 — PART I POLISHING PASS + FOLLOW-UPS DONE (earlier this session), all shipped & deployed.**
 > A systematic 5-lens review (house-style · cross-refs · evidence · arc · quiz/case) drove a full polish
 > — see **[`POLISH-PLAN.md`](POLISH-PLAN.md)** for findings + execution log. Highlights: **Ch.2 Energy
 > Balance rebuilt** to the §11 template (new **`energy-budget`** BMR/TEE-calculator island; body-comp /
@@ -308,7 +325,8 @@ the auto-mode classifier may still gate `git push` to the default branch.)
 ## 9. Repository map (updated)
 ```
 HANDOVER.md PLANNING.md REQUIREMENTS.md ARCHITECTURE.md(§8=LLM) AUTHOR.md(§11=template)
-CASE-FORMAT.md(§4a,§4.5=spec) CASE-AUTHORING.md(educator guide) POLISH-PLAN.md(Part-I review+log) README.md
+CASE-FORMAT.md(§4a,§4.5=spec) CASE-AUTHORING.md(educator guide) README.md
+POLISH-PLAN.md(Part-I review+log) PART2-ROADMAP.md(Part-II plan: pre-flight, per-ch spine/island/case, decisions)
 scripts/render.mjs                 lock-proof out-of-tree render (Node; self-locates quarto) — see §7
 scripts/validate-cases.mjs         case-graph linter: dangling gotos + the MCQ-only rule (§5)
 scripts/preview.ps1                lock-proof local preview (self-locates node/quarto)
@@ -388,9 +406,13 @@ Open decisions / next work:
   **Ch.5 dossier flags** (`yap1989` kept + newer `goh2018lactase` added; NNS ~4% wholegrain confirmed vs
   `mohNNS2022`; SG ORT epidemiology kept general — no verified local figure exists); **Ch.6 residual**
   (`krebs1969alcohol` PMID pinned; StatPearls bookshelf IDs already pinned).
-- **Next: Part II onward** — no Part II/III/IV chapter is drafted yet. Dossiers exist in
-  `research/chapters/` for the later spine (`09-overnutrition` … `14-interprofessional-referral`, plus
-  10-CVD, 11-T2D, 12-public-health, 13-counselling); pick one and run the §2.1 pipeline.
+- **★ NEXT: DRAFT PART II (Ch.9–13) — planned + prepped, see the ★★ note at the top + [`PART2-ROADMAP.md`](PART2-ROADMAP.md).**
+  All five dossiers are draft-ready (citations staged & verified; Ch.10 split directive written; Ch.13 acne/
+  everyday research folded; decisions A–D settled; frontmatter renumbered). **Start with Ch.9**, then
+  9→11→12→10→13 (readiness order; cross-refs are by name so out-of-spine drafting is safe). Run each via the
+  §2.1 pipeline (clear the dossier's apply-at-draft notes → draft qmd + skills-style island(s) → MCQ quiz +
+  case → render/verify/browser-test → ship). **Part III/IV** are not started (dossiers exist for `09-overnutrition`
+  … `14-interprofessional-referral`, 10-CVD, 11-T2D; Ch.17 osteoporosis / Ch.18 menopause / Ch.21 capstone are net-new).
 - **Case convention (now enforced):** in-chapter cases are **MCQ-only**; the live AI chat lives only in
   the Integrated cases chapter (`sim-*`). `scripts/validate-cases.mjs` guards it. Memory
   [[in-chapter-cases-mcq-only]].

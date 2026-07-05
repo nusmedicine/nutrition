@@ -1,7 +1,7 @@
 ---
-chapter: 13
-title: "Behaviour-Change Counselling for Dietary Change"
-status: 🟢 ready to write
+chapter: 12
+title: "Behaviour-Change Counselling"
+status: 🟢 ready to write (renumbered Ch.13→12 · citations verified 2026-07-05 · use 5 A's Assess-Advise-Agree-Assist-Arrange = decision B, aligned with Ch.11)
 book_chapter: ../../book/chapters/behaviour-change-counselling.qmd
 pillars: [nutrition]
 last_updated: 2026-06-30
