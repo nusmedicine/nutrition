@@ -1,0 +1,77 @@
+<svg viewBox="0 0 720 636" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="op-title op-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="op-title">How obesity becomes the metabolic syndrome</title>
+  <desc id="op-desc">A chronic energy surplus enlarges fat cells, especially visceral and ectopic fat, producing dysfunctional inflamed adipose tissue. This raises free fatty acids and inflammatory adipokines while lowering adiponectin, and blunts leptin signalling — driving insulin resistance and weaker satiety. Central adiposity plus insulin resistance forms the shared hub that generates the metabolic-syndrome cluster.</desc>
+  <defs>
+    <marker id="op-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .box  { fill:#eef3f8; stroke:#47607a; stroke-width:1.5; }
+    .lbl  { fill:#17324d; font-size:14px; }
+    .sub  { fill:#5b6b7b; font-size:11px; }
+    .hub  { fill:#0f766e; stroke:#0b5b54; stroke-width:1.5; }
+    .hlbl { fill:#ffffff; font-size:14px; font-weight:600; }
+    .out  { fill:#fdf0e6; stroke:#c2410c; stroke-width:1.5; }
+    .olbl { fill:#7c2d12; font-size:13.5px; }
+    .flow { stroke:#64748b; stroke-width:2; fill:none; }
+  </style>
+
+  <!-- 1. Energy surplus -->
+  <rect class="box" x="270" y="16" width="180" height="40" rx="8"/>
+  <text class="lbl" x="360" y="41" text-anchor="middle">Chronic energy surplus</text>
+  <line class="flow" x1="360" y1="56" x2="360" y2="80" marker-end="url(#op-ah)"/>
+
+  <!-- 2. Adipocyte hypertrophy -->
+  <rect class="box" x="250" y="84" width="220" height="52" rx="8"/>
+  <text class="lbl" x="360" y="106" text-anchor="middle">Adipocyte hypertrophy —</text>
+  <text class="lbl" x="360" y="124" text-anchor="middle">visceral &amp; ectopic fat</text>
+  <line class="flow" x1="360" y1="136" x2="360" y2="162" marker-end="url(#op-ah)"/>
+
+  <!-- 3. Inflamed adipose -->
+  <rect class="box" x="248" y="166" width="224" height="64" rx="8"/>
+  <text class="lbl" x="360" y="188" text-anchor="middle">Dysfunctional, inflamed</text>
+  <text class="lbl" x="360" y="206" text-anchor="middle">adipose tissue</text>
+  <text class="sub" x="360" y="223" text-anchor="middle">(macrophage infiltration · hypoxia)</text>
+
+  <!-- branch arrows -->
+  <line class="flow" x1="325" y1="230" x2="200" y2="282" marker-end="url(#op-ah)"/>
+  <line class="flow" x1="395" y1="230" x2="520" y2="282" marker-end="url(#op-ah)"/>
+
+  <!-- 4L. adipokines / FFA -->
+  <rect class="box" x="60" y="286" width="260" height="56" rx="8"/>
+  <text class="lbl" x="190" y="310" text-anchor="middle">↑ Free fatty acids, ↑ TNF-α /</text>
+  <text class="lbl" x="190" y="328" text-anchor="middle">IL-6;  ↓ adiponectin</text>
+  <line class="flow" x1="190" y1="342" x2="190" y2="370" marker-end="url(#op-ah)"/>
+
+  <!-- 4R. leptin -->
+  <rect class="box" x="400" y="286" width="260" height="56" rx="8"/>
+  <text class="lbl" x="530" y="310" text-anchor="middle">Leptin high, but central</text>
+  <text class="lbl" x="530" y="328" text-anchor="middle">signalling blunted</text>
+  <line class="flow" x1="530" y1="342" x2="530" y2="370" marker-end="url(#op-ah)"/>
+
+  <!-- 5L. insulin resistance -->
+  <rect class="box" x="90" y="374" width="200" height="52" rx="8"/>
+  <text class="lbl" x="190" y="396" text-anchor="middle">Insulin resistance</text>
+  <text class="lbl" x="190" y="414" text-anchor="middle">(liver &amp; muscle)</text>
+
+  <!-- 5R. leptin resistance -->
+  <rect class="box" x="430" y="374" width="200" height="52" rx="8"/>
+  <text class="lbl" x="530" y="396" text-anchor="middle">Leptin resistance —</text>
+  <text class="lbl" x="530" y="414" text-anchor="middle">weaker satiety</text>
+
+  <!-- converge -->
+  <line class="flow" x1="190" y1="426" x2="305" y2="482" marker-end="url(#op-ah)"/>
+  <line class="flow" x1="530" y1="426" x2="415" y2="482" marker-end="url(#op-ah)"/>
+
+  <!-- 6. hub -->
+  <rect class="hub" x="195" y="486" width="330" height="56" rx="10"/>
+  <text class="hlbl" x="360" y="509" text-anchor="middle">Central adiposity + insulin resistance</text>
+  <text class="hlbl" x="360" y="527" text-anchor="middle">= the shared hub</text>
+  <line class="flow" x1="360" y1="542" x2="360" y2="568" marker-end="url(#op-ah)"/>
+
+  <!-- 7. cluster -->
+  <rect class="out" x="140" y="572" width="440" height="48" rx="8"/>
+  <text class="olbl" x="360" y="592" text-anchor="middle">Metabolic syndrome cluster:</text>
+  <text class="olbl" x="360" y="610" text-anchor="middle">↑ glucose · ↑ blood pressure · ↑ triglycerides · ↓ HDL</text>
+</svg>

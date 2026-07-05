@@ -1,0 +1,114 @@
+id: obesity-metabolic-syndrome
+title: "Quick check: obesity & metabolic syndrome"
+questions:
+  - id: q1
+    stem: "A Chinese man has a BMI of **24 kg/m²** and a waist of **94 cm**. His BMI looks reassuring. How should you classify him?"
+    options:
+      - text: "Increased-risk on the Singapore line, with central obesity by the Asian waist cut-off"
+        correct: true
+        feedback: "Correct. On the Singapore number-line ≥23 already triggers intervention, and a waist ≥90 cm (men) is over the Asian cut-off — so BMI 24 is not reassuring here. BMI and waist are read together, never BMI alone, because Asians carry more central fat at a given BMI."
+      - text: "Normal weight, because the BMI is well under the 25 overweight threshold set globally"
+        correct: false
+        feedback: "That applies the WHO global line. Singapore acts earlier — ≥23 for increased risk — and the waist of 94 cm is already over the Asian cut-off, so this reading misses real risk."
+      - text: "Normal weight, because the BMI is well under the 30 obese threshold"
+        correct: false
+        feedback: "The 30 figure is the WHO obese threshold and the population surveillance number, not the clinical action point. Singapore intervenes at ≥23, and the waist here signals central obesity."
+      - text: "Cannot be classified without a body-fat scan, since BMI is too unreliable to act on here"
+        correct: false
+        feedback: "BMI is a proxy, not useless — paired with waist circumference it classifies risk fine at the bedside. A DXA scan is not needed to act on a raised waist."
+
+  - id: q2
+    stem: "A woman has a waist of **86 cm**, blood pressure **132/88 mmHg**, and takes a statin for **low HDL**. Her triglycerides and fasting glucose are normal. Does she meet metabolic-syndrome criteria?"
+    options:
+      - text: "Yes — three of five components are met, counting the treated one"
+        correct: true
+        feedback: "Correct. Central obesity (waist ≥80 cm), raised blood pressure (≥130/85), and low HDL all count — and being on treatment for a component counts the same as an abnormal reading. Three of five with no obligatory component defines the syndrome as a risk marker."
+      - text: "No — the low HDL is treated, so it no longer counts as a component"
+        correct: false
+        feedback: "Treatment does not remove the component — 'on treatment for this' counts the same as an untreated abnormal value. With that included she has three of five and meets criteria."
+      - text: "No — central obesity is obligatory and her waist is under the cut-off"
+        correct: false
+        feedback: "There is no obligatory component in the harmonised definition, and her waist of 86 cm is over the ≥80 cm cut-off for women. She meets three of five."
+      - text: "Yes — and it is a single disease best treated with one targeted drug"
+        correct: false
+        feedback: "She does meet criteria, but the syndrome is a risk marker for diabetes and cardiovascular disease, not one disease with one drug. The label prompts you to look at the whole cluster and its shared root."
+
+  - id: q3
+    stem: "A newspaper reports that **12.7%** of Singapore adults are obese, yet your clinic guideline flags patients from a **lower** BMI. Why the mismatch?"
+    options:
+      - text: "The 12.7% is population surveillance at BMI ≥30; clinical action starts at ≥27.5 and ≥23"
+        correct: true
+        feedback: "Correct. Singapore reports population obesity at the WHO ≥30 threshold for international comparability, but clinical action begins far earlier — high-risk at ≥27.5, intervene at ≥23. Surveillance threshold and clinical action point are deliberately different numbers."
+      - text: "The newspaper figure is simply an error; ≥30 is not used in Singapore"
+        correct: false
+        feedback: "It is not an error — ≥30 is the correct surveillance and international-comparison threshold. The clinic just acts earlier, at ≥27.5 and ≥23."
+      - text: "The clinic flags patients from ≥25 because that is the WHO overweight line used everywhere"
+        correct: false
+        feedback: "Singapore's action points are ≥23 and ≥27.5, shifted down from the WHO ≥25/≥30 line, not set at 25. The rationale is higher body fat at a given BMI in Asians."
+      - text: "The two numbers describe entirely different things, so neither one is really comparable"
+        correct: false
+        feedback: "They are comparable and consistent — one is for population reporting (≥30), the other for clinical action (≥27.5/≥23). Teaching the dissociation is the point, not dismissing it."
+
+  - id: q4
+    stem: "A rotating-shift nurse sleeps poorly and stress-snacks on nights. Which statement about the **sleep, stress and weight** link is most defensible?"
+    options:
+      - text: "Poor sleep reliably raises intake, though the appetite-hormone mechanism is contested"
+        correct: true
+        feedback: "Correct. The reproducible, teachable signal is increased intake with no matching rise in expenditure. The classic leptin-down, ghrelin-up story is echoed observationally, but a 2025 trial meta-analysis found no reliable hormone shift — so teach it directionally, not as proven mechanism."
+      - text: "Short sleep proves weight gain by lowering leptin and raising ghrelin"
+        correct: false
+        feedback: "That overstates it. The hormone account is directional and contested — a 2025 meta-analysis of trials found no reliable shift. The robust signal is the increase in intake, not the mediator."
+      - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
+        correct: false
+        feedback: "The intake signal is robust: poor sleep measurably raises energy intake, and stress biases eating toward energy-dense comfort food and channels fat to the abdomen. Both are genuine modifiable levers."
+      - text: "The fix is simply more willpower, since the underlying cause is a personal failure of discipline"
+        correct: false
+        feedback: "This misframes an upstream driver as a character flaw. Stabilising sleep and planning shift meals addresses the cause; willpower messaging ignores the mechanism and can be stigmatising."
+
+  - id: q5
+    stem: "Your patient at BMI 28 has tried diet changes with limited success and asks about weight-loss drugs and surgery. What is the right response at this stage?"
+    options:
+      - text: "Reinforce lifestyle as first-line; medication and surgery are specialist referrals"
+        correct: true
+        feedback: "Correct. Lifestyle change is the cornerstone, aiming for a 5–10% loss. Anti-obesity medication and metabolic-bariatric surgery are real tiers above it, but the job here is to recognise they exist and refer — not to prescribe or select them."
+      - text: "Start a GLP-1 receptor agonist yourself now, on the grounds that lifestyle has already failed"
+        correct: false
+        feedback: "Prescribing sits outside this stage — pharmacotherapy is a specialist tier, and lifestyle remains the cornerstone underneath any added treatment. The role here is recognise and refer."
+      - text: "Refer for bariatric surgery immediately as the most effective option"
+        correct: false
+        feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision, not a first-line move. Recognise the tier exists and refer appropriately."
+      - text: "Tell him drugs and surgery always fail, so only willpower works"
+        correct: false
+        feedback: "This is both untrue and stigmatising. The specialist tiers work for selected patients; the point is that referral, not prescribing, is the correct route."
+
+  - id: q6
+    stem: "A patient wants a **kopitiam drink** but is watching added sugar. Using **Nutri-Grade** as a decision aid, which choice is best?"
+    options:
+      - text: "Kopi-o kosong or plain water, both around the grade A end of the scale"
+        correct: true
+        feedback: "Correct. Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water sit at the low-sugar A end. Reading the grade turns 'watch your sugar' into a concrete choice."
+      - text: "A diet soft drink, since swapping to a non-sugar sweetener solves the habit"
+        correct: false
+        feedback: "The WHO advises against relying on non-sugar sweeteners for weight control — a diet version is not the fix the label implies. Water or an unsweetened drink plus habit change is the answer."
+      - text: "Condensed-milk kopi-c, since milk makes it more nutritious overall"
+        correct: false
+        feedback: "Condensed-milk drinks are high in sugar and saturated fat and grade toward the C/D end. The added milk does not offset the sugar load here."
+      - text: "Bubble tea, as long as it carries a Nutri-Grade label somewhere"
+        correct: false
+        feedback: "Carrying a label is not the same as being a good choice — bubble tea typically grades C/D for high sugar. The grade is there to steer you toward A/B, not to endorse any labelled drink."
+
+  - id: q7
+    stem: "You are about to raise weight with a patient who has felt judged by clinicians before. Which opening is **weight-inclusive** and best supported?"
+    options:
+      - text: "Ask permission to discuss weight, use person-first language, set behaviour goals"
+        correct: true
+        feedback: "Correct. Asking permission, saying 'a person with obesity' rather than 'an obese patient', and targeting behaviours and metabolic markers is the evidence-based frame. Stigma degrades care and drives avoidance, so the framing is part of the treatment."
+      - text: "State plainly that he is obese and needs to lose weight before anything else"
+        correct: false
+        feedback: "Leading with a label and a demand is the weight-normative approach that patients experience as stigma — it degrades care and drives avoidance. Ask permission and frame around behaviours instead."
+      - text: "Comment that he looks heavier than last visit to motivate him to act"
+        correct: false
+        feedback: "Comments on appearance are stigmatising and backfire — shaming raises cortisol and comfort-eating and can promote weight gain, the COBWEBS loop. Person-first, permission-based framing is the standard."
+      - text: "Avoid the topic of weight entirely so as not to risk offending him during this visit"
+        correct: false
+        feedback: "Silence is not the goal — weight-inclusive care still holds the ~5–10% target and raises the topic, just with permission and person-first language rather than blame."

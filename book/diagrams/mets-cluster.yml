@@ -1,0 +1,64 @@
+# Data for the MetsCluster island (Obesity & Metabolic Syndrome chapter).
+# A clustering wheel: insulin resistance + central adiposity sit at the hub, and the five
+# harmonised metabolic-syndrome components orbit it. The learner toggles each component
+# present/absent; ≥3 of 5 meets criteria. Sleep loss and stress/cortisol feed the hub as
+# modifiable levers. Pure content — no asset paths.
+id: mets-cluster
+title: "Metabolic syndrome — a cluster, not a single disease"
+intro: >-
+  Metabolic syndrome is a CLUSTER of risk markers that tend to travel together because they
+  share a common root. Toggle each component on or off — any three of the five meet the
+  harmonised criteria. There is no single obligatory component.
+hub:
+  label: "Insulin resistance"
+  sub: "+ central adiposity"
+  note: >-
+    Insulin resistance together with central (visceral) adiposity is the shared root that pulls
+    the whole cluster together — which is why the components tend to appear as a group rather than
+    one at a time.
+# The five harmonised (IDF/AHA/NHLBI) components. threshold = the harmonised cut-point;
+# note = a one-line teaching gloss. Waist and HDL thresholds are sex-specific.
+components:
+  - id: waist
+    label: "Central obesity"
+    threshold: "Waist ≥90 cm (men) / ≥80 cm (women)"
+    note: "Asian cut-points — visceral fat, not overall weight, is the driver."
+  - id: triglycerides
+    label: "Raised triglycerides"
+    threshold: "≥1.7 mmol/L"
+    note: "A marker of the fat the liver is over-producing under insulin resistance (or on treatment)."
+  - id: hdl
+    label: "Low HDL cholesterol"
+    threshold: "<1.0 mmol/L (men) / <1.3 mmol/L (women)"
+    note: "The 'protective' cholesterol falls as the cluster forms (or on treatment)."
+  - id: bp
+    label: "Raised blood pressure"
+    threshold: "≥130/85 mmHg"
+    note: "Below the threshold for hypertension on its own, but it still counts here (or on treatment)."
+  - id: glucose
+    label: "Raised fasting glucose"
+    threshold: "≥5.6 mmol/L"
+    note: "Impaired fasting glucose — an early signal, well before the Type 2 Diabetes chapter's diagnostic cut-off."
+# How many of the five must be present to meet the harmonised criteria.
+threshold_count: 3
+verdicts:
+  meets: "Metabolic syndrome — meets criteria (≥3 of 5)"
+  # {n} is replaced with the running count of toggled-on components.
+  notyet: "{n} of 5 — not yet"
+# Modifiable levers that feed the hub. Rendered as badges with arrows pointing at the centre.
+levers:
+  caption: "Modifiable levers that feed the hub"
+  items:
+    - id: sleep
+      label: "Sleep loss"
+      note: "Short or poor sleep measurably raises energy intake and tracks with more central fat."
+    - id: stress
+      label: "Stress / cortisol"
+      note: "Chronic stress raises cortisol, which biases eating toward energy-dense comfort food and channels fat to the abdomen."
+# A short standing caption: this is a risk marker, not a disease in itself.
+caption: >-
+  Metabolic syndrome is a RISK MARKER, not a disease — it flags a shared root (insulin
+  resistance and central adiposity) that raises the risk of type 2 diabetes and cardiovascular
+  disease. Treat the cluster by acting on the root and its modifiable levers, not by chasing one
+  number.
+credit: "Harmonised criteria after IDF / AHA / NHLBI (Alberti 2009); Asian waist cut-points per IDF."

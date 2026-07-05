@@ -473,3 +473,29 @@ case (the Macronutrients "Mr Lim" case is the worked example).
 - **Plain language in patient dialogue.** A doctor speaking to a patient says "cholesterol",
   not "LDL", and never codes like "IARC Group 1". Reserve named lipoprotein classes and the
   like for the chapter prose (glossed on first use), not the case.
+
+### 11f. Teach the science basis, and show it (2026-07-06)
+
+Three cross-cutting depth rules, so students get the *medical-science basis* — not just the practical advice:
+
+- **Part IV (conditions) chapters carry a basic *pathophysiology* beat.** Explain the **disease mechanism**
+  so the student understands *why* the nutrition matters — pitched at recognition level and **building on the
+  Part I owner chapters BY NAME**, never re-deriving them. Give the causal chain from disordered biology to the
+  clinical picture; do not merely assert the risk. *Worked example (Obesity & Metabolic Syndrome):* chronic
+  energy surplus → adipocyte hypertrophy and **visceral / ectopic fat** → dysfunctional adipose tissue with
+  **low-grade inflammation** and an **adipokine shift** (↑ pro-inflammatory signals, ↓ adiponectin) → **insulin
+  resistance** (the *Integrative Metabolism* chapter's mechanism) and **leptin/appetite dysregulation** (the
+  *Appetite & Weight Regulation* chapter) → the metabolic-syndrome cluster. Keep it first-year mechanism depth,
+  **cite the mechanism** (verify any new citation), and forward deep pathway detail to Part I / later years.
+- **Part III (advising the healthy) chapters carry the relevant *physiology / biochemistry* background.**
+  Where a topic needs a physiological or biochemical basis to make sense, give a **short, relevant** grounding
+  (again anchored to the Part I owner chapters by name) rather than assuming the reader carries it — e.g. the
+  food–acne worked example → sebum / androgens / IGF-1 and glycaemic load; "detox" myths → hepatic & renal
+  clearance; satiety & behaviour → reward pathways. Enough to make the nutrition material land, no more.
+- **Use figures/photos where they teach.** Prefer a figure wherever it does something a paragraph can't — a
+  **labelled mechanism schematic**, a My-Healthy-Plate / portion visual, a representative hawker dish, an
+  anatomy/histology image. Syntax is in §4 (`![Caption](/figures/name.png){#fig-id}`); rules are in §11d
+  (root-absolute paths, log every image in `book/figures/CREDITS.csv`, **CC0 / PD / CC-BY / CC-BY-SA only**;
+  `check-assets.mjs` fails the build on a missing image). Aim for **at least one substantive teaching figure per
+  chapter** beyond the interactive island and the case persona. Source food/clinical photos from Wikimedia
+  Commons / Pexels / Unsplash (see the memory on image rendering).

@@ -36,6 +36,12 @@
    **integration** (V). Over- and under-nutrition are taught together as the two tails of malnutrition.
 3. **Cases in three tiers** — embedded per-chapter (deterministic), a case bank, and a **capstone**
    integrative-cases chapter (home of the optional **LLM patient**; planned now, built later).
+4. **Teach the science basis, and show it (2026-07-06 directive).** Part IV (conditions) chapters carry a
+   **basic pathophysiology** beat (the disease mechanism, building on the Part I owners by name — e.g. obesity →
+   visceral/ectopic fat → adipose inflammation & adipokine shift → insulin resistance + leptin/appetite
+   dysregulation → the MetS cluster); Part III (advising the healthy) chapters carry the **relevant
+   physiology/biochemistry background** needed to understand the nutrition material; and every chapter uses
+   **figures/photos where they teach**. Codified in **AUTHOR §11f**.
 
 ## Chapters (v4 — 26; Part II = 6 chronological life-stage chapters incl. new Adulthood — decisions H+I, 2026-07-05)
 
@@ -63,8 +69,8 @@
 | 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
 | **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); all 6 dossiers now 🟢 verified | | |
-| 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | 🟢 verified · stub in book |
-| 20 | Type 2 Diabetes | `type-2-diabetes` | 🟢 verified · stub in book |
+| 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
+| 20 | Type 2 Diabetes | `type-2-diabetes` | 🟢 verified · **drafting next** |
 | 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | 🟢 verified · stub in book |
 | 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | 🟢 verified · stub in book |
 | 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | 🟢 verified · stub in book |

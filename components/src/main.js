@@ -23,6 +23,7 @@ import FoodFormSorter from './FoodFormSorter.svelte';
 import BoneWindow from './BoneWindow.svelte';
 import FuelDial from './FuelDial.svelte';
 import SamePlate from './SamePlate.svelte';
+import MetsCluster from './MetsCluster.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -51,6 +52,7 @@ const REGISTRY = {
   'bone-window': BoneWindow,
   'fuel-dial': FuelDial,
   'same-plate': SamePlate,
+  'mets-cluster': MetsCluster,
   // future: flashcards, diagram, …
 };
 
