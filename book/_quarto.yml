@@ -33,6 +33,7 @@ book:
         - chapters/adulthood-working-life.qmd
         - chapters/pregnancy-lactation.qmd
         - chapters/menopause-midlife.qmd
+        - chapters/healthy-ageing.qmd
     - part: "III · Advising the healthy"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd

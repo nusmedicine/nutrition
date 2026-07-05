@@ -1,0 +1,25 @@
+# Data for the SamePlate island (Healthy Ageing chapter).
+# Schematic/qualitative: teaches "energy down, density up" via a fortify-the-familiar porridge builder.
+# Values are illustrative — they teach the shape and direction, not exact nutrition.
+id: same-plate
+title: "Fortify the familiar: energy down, density up"
+intro: >-
+  Start with a frail senior's thin bowl of porridge, then add familiar foods. Watch a small, inadequate
+  meal become nutrient-dense — without much more volume.
+proteinTargetMeal: 25
+base: { label: "Plain rice porridge (1 bowl)", kcal: 120, protein: 2 }
+components:
+  - { key: egg, label: "Egg", kcal: 70, protein: 6 }
+  - { key: fish, label: "Fish slices (a palm)", kcal: 110, protein: 20 }
+  - { key: tofu, label: "Silken/firm tofu", kcal: 80, protein: 8, calcium: true }
+  - { key: meat, label: "Minced meat", kcal: 90, protein: 14 }
+  - { key: ikanbilis, label: "Ikan bilis", kcal: 40, protein: 5, calcium: true, restrictedOut: true }
+  - { key: milkpowder, label: "Milk / soy powder", kcal: 60, protein: 5, calcium: true }
+  - { key: greens, label: "Kai-lan / greens", kcal: 20, protein: 2, micronutrient: true }
+  - { key: oil, label: "A little oil", kcal: 45, protein: 0, restrictedOut: true }
+restrict:
+  label: 'Make it "low-fat & low-salt"'
+  why: >-
+    She is losing weight — stripping fat, salt and flavour cuts intake and can tip a frail elder into
+    malnutrition. The rule here is density UP, restriction OFF.
+credit: "Schematic — teaches the shape (energy down, density up), not exact nutrition. Grounded in HPB Dietary Guidelines for Older Adults; PROT-AGE; ESPEN geriatrics."
