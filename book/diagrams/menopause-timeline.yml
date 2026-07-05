@@ -1,0 +1,70 @@
+id: menopause-timeline
+title: "Menopause on one timeline"
+intro: >
+  Everything is drawn relative to a woman's pre-menopause baseline (100%), on a timeline centred
+  on the final menstrual period (FMP = year 0). Switch the layer to see the three things that
+  actually change — and the one big thing (the scale) that mostly doesn't. The curves are
+  schematic: they teach the shape and timing, not exact numbers.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Schematic, after the SWAN cohort."
+
+xAxis:
+  min: -5
+  max: 10
+  fmp: 0
+  label: "Years from final menstrual period (FMP)"
+
+layers:
+  - id: composition
+    label: "Weight & shape"
+    caption: >
+      Myth: menopause makes you gain weight. Evidence: total weight rises steadily with age, with no
+      jump at the FMP — what IS menopause-specific is fat redistributing to the abdomen and muscle
+      falling. The waistline, not the scale, is the tell.
+    source: "SWAN body composition (Greendale 2019)"
+    curves:
+      - name: "Body weight"
+        color: "#5b6670"
+        note: "creeps up with age — no jump at the FMP"
+        points: [[-5, 100], [0, 103], [5, 106], [10, 108]]
+      - name: "Fat mass"
+        color: "#b06a1d"
+        note: "gain accelerates around the FMP, then flattens"
+        points: [[-5, 100], [-2, 103], [0, 108], [2, 114], [5, 119], [10, 122]]
+      - name: "Lean (muscle) mass"
+        color: "#08503f"
+        note: "falls across the transition — the modifiable part"
+        points: [[-5, 100], [-2, 100], [0, 97], [2, 93], [5, 92], [10, 91]]
+
+  - id: bone
+    label: "Bone density"
+    caption: >
+      Bone loss, gradual for most of adult life, accelerates sharply in a narrow window from about a
+      year before the FMP to two or three years after — reaching roughly 2% a year, steeper at the
+      spine. This is the window to have acted in.
+    source: "SWAN bone (Greendale 2012)"
+    curves:
+      - name: "Spine bone density"
+        color: "#b0471d"
+        note: "fast loss −1 to +2 years, then slower (~7% lost)"
+        points: [[-5, 100], [-1, 100], [0, 98], [2, 93], [5, 90], [10, 87]]
+      - name: "Hip bone density"
+        color: "#c98a2a"
+        note: "same window, a little less steep"
+        points: [[-5, 100], [-1, 100], [0, 99], [2, 95], [5, 92], [10, 89]]
+
+  - id: lipids
+    label: "Cholesterol & blood pressure"
+    caption: >
+      Be precise: LDL-cholesterol steps up right around the FMP — that part IS menopause-linked —
+      whereas blood pressure just drifts up with age. Avoid both over-attribution ("it's all
+      menopause") and under-attribution ("nothing changed").
+    source: "SWAN lipids (Matthews 2009)"
+    curves:
+      - name: "LDL-cholesterol"
+        color: "#b0471d"
+        note: "a step up in the ~1-year window around the FMP"
+        points: [[-5, 100], [-1, 100.5], [0, 104], [1, 108], [5, 109], [10, 110]]
+      - name: "Blood pressure"
+        color: "#5b6670"
+        note: "drifts up with age, not timed to the FMP"
+        points: [[-5, 100], [0, 102], [5, 104], [10, 106]]

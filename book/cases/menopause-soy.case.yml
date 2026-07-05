@@ -1,0 +1,188 @@
+id: menopause-soy
+title: "Mdm Tan: \"can soy replace my hormones?\""
+objectives:
+  - "Counsel accurately on soy for hot flushes — a modest, inconsistent effect, not a substitute for hormone therapy."
+  - "Correct the 'soy causes breast cancer' myth: dietary soy is safe and, at Asian intakes, linked to lower risk — including for survivors."
+  - "Respond to midlife weight concern weight-inclusively — recognise disordered-eating red flags and never endorse harmful restriction."
+  - "Match the nutrition lever to the problem, and recognise when to refer (e.g. genitourinary symptoms)."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, menopause, midlife, soy, singapore, do-no-harm]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 51
+  sex: female
+  occupation: "secondary-school teacher"
+  presentation: "Twelve months since her last period, with moderate hot flushes and disturbed sleep. Chinese Singaporean, generally well. She's read a lot online and comes in with a plan of her own — and a worry her sister planted."
+  voice: "Practical and a little anxious; wants a natural solution and is scared of hormones and of cancer."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: concerned
+    title: "\"I'd rather fix this naturally\""
+    body: |
+      Mdm Tan is 51 and a year past her last period, with moderate hot flushes and broken sleep.
+      She's wary of hormone therapy and has a plan: *"If I switch to soy milk and eat more tofu,
+      can it replace hormones for my flushes? And my sister says soy causes breast cancer — should
+      I stop?"* Help her with what the evidence actually supports.
+    next: q-efficacy
+
+  - id: q-efficacy
+    type: mcq
+    emotion: concerned
+    stem: "*\"Can soy replace hormones for these flushes, doctor?\"*"
+    options:
+      - id: a
+        text: "\"Soy foods are a healthy part of your diet and fine to try — but the evidence says they help hot flushes only a little, and more slowly and weakly than hormone therapy, so I wouldn't count on them as a cure. Let's also talk about the options that do work.\""
+        correct: true
+        feedback: "Right — the honest two-part answer. Isoflavone effects on flushes are modest and inconsistent, and menopause societies don't recommend soy as a treatment. You offer it as a safe option, not a guaranteed remedy."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-safety
+      - id: b
+        text: "\"Yes — soy is a natural hormone replacement. Two servings a day should sort the flushes out.\""
+        correct: false
+        feedback: "Over-promising. Isoflavone supplements cut flushes only modestly and don't work in everyone (partly down to whether her gut makes 'equol'). Offer soy as a safe food to try, not as equal to hormone therapy."
+        reaction: skeptical
+        goto: q-safety
+      - id: c
+        text: "\"Soy is useless and possibly dangerous — just avoid it and tough the flushes out.\""
+        correct: false
+        feedback: "Two errors: soy foods are safe (and at local intakes linked to lower breast-cancer risk), and dismissing her shuts the conversation down. Correct the myth, take her symptom seriously, and offer real options."
+        reaction: concerned
+        goto: q-safety
+
+  - id: q-safety
+    type: mcq
+    emotion: concerned
+    stem: "*\"But my sister says soy causes breast cancer, and I'm scared. Should I stop eating it?\"*"
+    options:
+      - id: a
+        text: "\"That fear comes from old animal studies that don't apply to people. In humans — especially at the amounts common in Asian diets — soy foods are safe and are actually linked to a *lower* risk of breast cancer, even for women who've had it. You don't need to stop.\""
+        correct: true
+        feedback: "Correct, and reassuring. Population and survivor data (including oestrogen-receptor-positive disease and women on tamoxifen) show soy *foods* are safe and if anything protective — the rodent-oestrogen story doesn't translate to humans."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-weight
+      - id: b
+        text: "\"To be safe, yes — cut out all soy from now on.\""
+        correct: false
+        feedback: "Unwarranted. Dietary soy doesn't raise breast-cancer risk in humans and is linked to lower risk at local intakes; telling her to stop trades a real, healthy food for a myth."
+        reaction: concerned
+        goto: q-weight
+      - id: c
+        text: "\"Stop the tofu and soy milk, and take a high-dose isoflavone supplement instead — same benefit, more controlled.\""
+        correct: false
+        feedback: "This gets the food-vs-supplement distinction backwards. The safety and benefit evidence is for whole soy *foods*; high-dose isoflavone *supplements* are a different, less-tested product — not a safer swap."
+        reaction: skeptical
+        goto: q-weight
+
+  - id: q-weight
+    type: mcq
+    emotion: concerned
+    stem: "She adds: *\"I've also been skipping meals and doing a very strict low-calorie diet to lose this menopause weight — I weigh myself every morning and feel terrible if it's up.\"* What do you do?"
+    options:
+      - id: a
+        text: "Gently explore the eating pattern and how she feels about her body, explain that under-eating actually speeds the loss of muscle and bone at this stage, and steer her toward enough protein, resistance exercise and a sensible pattern rather than restriction — checking she's safe before any talk of weight loss."
+        correct: true
+        feedback: "Right. Restrictive dieting and disordered eating are real in midlife women; the daily weigh-ins and guilt are warning signs. You respond weight-inclusively and with consent, and protect muscle and bone rather than pushing a deficit."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-lever
+      - id: b
+        text: "Encourage the strict low-calorie plan — losing the weight fast is the priority at menopause, and the daily weigh-ins will keep her honest."
+        correct: false
+        feedback: "This is unsafe. She's showing warning signs of disordered eating (meal-skipping, daily weigh-ins, guilt), and aggressive restriction accelerates the very muscle and bone loss this stage threatens. Endorsing it does harm — regardless of how well the rest of the consultation went."
+        reaction: concerned
+        goto: remedial
+      - id: c
+        text: "Tell her to stop worrying about weight entirely — it doesn't matter at all at her age."
+        correct: false
+        feedback: "Too dismissive, and it ignores the red flags in *how* she's dieting. The move isn't to wave the concern away but to redirect it safely — screen, reassure, and shift to protein, activity and pattern."
+        reaction: skeptical
+        goto: q-lever
+
+  - id: q-lever
+    type: mcq
+    emotion: neutral
+    stem: "*\"So is there one menopause diet that fixes everything — the flushes, the dryness, my bones and my heart?\"*"
+    options:
+      - id: a
+        text: "\"There isn't a single 'menopause diet'. Eating well and staying active genuinely protect your bones and heart, help your flushes only a little, and don't help vaginal dryness at all — that one has a simple, effective treatment I can refer you for.\""
+        correct: true
+        feedback: "Correct — match the lever to the problem. Diet does a lot for bone and heart, little for flushes, and nothing for genitourinary symptoms, which need recognition and referral (moisturisers, topical oestrogen) rather than a supplement."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Yes — this menopause diet will fix all four if you stick to it.\""
+        correct: false
+        feedback: "There's no such diet. Overpromising sets her up to fail and, worse, implies a dietary fix for dryness — a symptom diet can't touch, and one that invites 'natural remedy' marketing."
+        reaction: skeptical
+        goto: route
+      - id: c
+        text: "\"Since food can't cure the flushes, diet won't really help you at all here.\""
+        correct: false
+        feedback: "Too nihilistic — a good pattern strongly protects bone and heart, which is much of the midlife win. The skill is matching the lever to each problem, not writing diet off."
+        reaction: concerned
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Safe, honest midlife counselling"
+    body: |
+      The through-line: soy foods are **safe and healthy** but only a **modest, unreliable** help for
+      flushes (not hormone therapy); the "soy causes cancer" fear is a **myth** from animal studies —
+      at local intakes soy is if anything **protective**, including for survivors. Never endorse
+      **crash dieting** in a midlife woman — restriction speeds muscle and bone loss and the warning
+      signs of disordered eating are real; counsel weight-inclusively and screen. And match the
+      **lever to the problem**: diet protects bone and heart, does little for flushes, and **nothing**
+      for vaginal dryness — which needs **referral**, not a supplement. Replay and try the safe path.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Honest, safe, and useful"
+    body: |
+      You gave Mdm Tan the truthful two-part message on soy (safe and healthy, but not a flush cure),
+      dismantled the breast-cancer myth without dismissing her fear, spotted the disordered-eating red
+      flags and steered her away from harmful restriction, and matched each midlife problem to the
+      right lever — including knowing when to refer rather than reach for a diet. That's midlife
+      literacy at its most useful.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Soy foods are safe and healthy but only a modest, inconsistent help for hot flushes — not a substitute for hormone therapy, and not endorsed by menopause societies as a treatment."
+        - "Dietary soy does not cause breast cancer; at Asian intakes it's linked to lower risk, and it's safe for survivors, including ER-positive disease and women on tamoxifen. The food-vs-supplement distinction matters."
+        - "Never endorse crash dieting at midlife: restriction speeds muscle and bone loss, and meal-skipping with daily weigh-ins and guilt are disordered-eating red flags — counsel weight-inclusively and with consent."
+        - "Match the lever to the problem: diet protects bone and heart, helps flushes a little, and does nothing for genitourinary symptoms — which need referral for effective treatment."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You helped Mdm Tan but slipped on at least one point — over- or under-selling soy, the
+      breast-cancer myth, the weight/eating red flags, or matching the lever to the problem. Replay
+      and run the safe path: soy is safe food but not a cure; correct the cancer myth; protect muscle
+      and bone rather than push restriction; and refer for what diet can't fix.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Soy: safe and healthy, but only a modest and unreliable help for flushes — not hormone therapy."
+        - "The 'soy causes breast cancer' fear is a myth; dietary soy is safe and, at Asian intakes, protective."
+        - "Don't endorse crash dieting — recognise disordered-eating red flags and counsel weight-inclusively."
+        - "Match the lever to the problem, and refer for symptoms diet can't help (e.g. vaginal dryness)."

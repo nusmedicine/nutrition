@@ -29,6 +29,7 @@ book:
     - part: "II · Across the life stages"
       chapters:
         - chapters/life-cycle-nutrition.qmd
+        - chapters/menopause-midlife.qmd
     - part: "III · Advising the healthy"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd
