@@ -29,7 +29,6 @@ book:
     - part: "II · Across the life stages"
       chapters:
         - chapters/pregnancy-lactation.qmd
-        - chapters/life-cycle-nutrition.qmd
         - chapters/menopause-midlife.qmd
     - part: "III · Advising the healthy"
       chapters:

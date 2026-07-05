@@ -1,8 +1,8 @@
 ---
-chapter: 9
+chapter: 12
 title: "Pregnancy & Lactation"
-status: 🟢 ready to write (split-and-deepen; 24/31 PMIDs adversarially verified + 7 flagged→fixed 2026-07-05; ADDED topics — NVP/hyperemesis, constipation, iron-counselling, pre-conception — need their citations verified in the draft's citation-pass, see §11)
-book_chapter: ../../book/chapters/pregnancy-lactation.qmd (Ch.9, Part II — not yet drafted)
+status: ✅ DRAFTED & committed 2026-07-05 (f930886); renumbered Ch.9→12 by the Part II re-sequence (decision I). All citations adversarially verified (incl. the 5 added-topic sources — ACOG NVP, RCOG hyperemesis, Cochrane constipation, Stoffel alt-day iron, CDC preconception).
+book_chapter: ../../book/chapters/pregnancy-lactation.qmd (Ch.12, Part II)
 pillars: [nutrition, physical-activity]
 last_updated: 2026-07-05
 ---

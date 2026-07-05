@@ -52,12 +52,12 @@
         <div class="opts" role="group" aria-label={'Question ' + (qi + 1) + ' options'}>
           {#each q.options as o, oi}
             {#if answers[q.id] == null}
-              <button type="button" class="opt" onclick={() => pick(q.id, oi)}>{o.text}</button>
+              <button type="button" class="opt" onclick={() => pick(q.id, oi)}>{@html mdInline(o.text)}</button>
             {:else}
               {@const chosen = answers[q.id] === oi}
               <button type="button" disabled
                 class="opt {chosen ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')}">
-                {o.text}{#if chosen || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
+                {@html mdInline(o.text)}{#if chosen || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
               </button>
             {/if}
           {/each}

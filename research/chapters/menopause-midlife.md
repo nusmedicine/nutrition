@@ -1,8 +1,8 @@
 ---
-chapter: 12
+chapter: 13
 title: "Menopause & Midlife Health"
-status: 🟢 ready to write (net-new dossier; all citations adversarially verified 2026-07-05; renumbered Ch.10→12 by the Part II per-stage split, decision H; see Drafting Directives + §11)
-book_chapter: ../../book/chapters/menopause-midlife.qmd (Ch.12, Part II — not yet drafted)
+status: ✅ DRAFTED & committed 2026-07-05 (774048d); all citations adversarially verified; renumbered Ch.10→12→13 (Part II split then re-sequence, decisions H+I); see Drafting Directives + §11.
+book_chapter: ../../book/chapters/menopause-midlife.qmd (Ch.13, Part II)
 pillars: [nutrition, physical-activity]
 last_updated: 2026-07-05
 ---
@@ -10,8 +10,8 @@ last_updated: 2026-07-05
 # Menopause & Midlife Health — research dossier
 
 > **★ DRAFTING DIRECTIVES (read before writing the qmd).**
-> 1. **Cross-ref every other chapter BY NAME, never by number** (numbers shift — this is now **Ch.12 of 25**
->    after the Part II per-stage split, decision H — and the **CVD & Bone chapters don't exist yet**, so
+> 1. **Cross-ref every other chapter BY NAME, never by number** (numbers shift — this is now **Ch.13 of 26**
+>    after the Part II re-sequence, decisions H+I — and the **CVD & Bone chapters don't exist yet**, so
 >    numeric refs would dangle at render). Route this chapter's cross-refs to: nutrient *basics* → Part I
 >    *Macronutrients* / *Micronutrients*; the adolescent peak-bone-mass angle → *Childhood & Adolescence*;
 >    the older-adult protein/sarcopenia angle → *Healthy Ageing (Older Adults)*; evidence-appraisal method →

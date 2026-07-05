@@ -200,11 +200,11 @@
         <div class="opts" role="group" aria-label="Answer options">
           {#each n.options as o}
             {#if !state.pending}
-              <button type="button" class="opt" onclick={() => choose(o.id)}>{o.text}</button>
+              <button type="button" class="opt" onclick={() => choose(o.id)}>{@html mdInline(o.text)}</button>
             {:else}
               <button type="button" disabled
                 class="opt {o.id === state.pending ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')}">
-                {o.text}{#if o.id === state.pending || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
+                {@html mdInline(o.text)}{#if o.id === state.pending || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
               </button>
             {/if}
           {/each}

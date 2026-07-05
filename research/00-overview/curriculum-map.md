@@ -9,12 +9,14 @@
 > health *with* disease; over- & under-nutrition paired as the two tails) → **V** integration. This
 > **supersedes** the earlier knowledge/skills split (decision E). Menopause moved to Part II (a life stage);
 > "What a Healthy Diet Looks Like" now opens Part III; CKD added; acne stays a Part III evidence example
-> (no separate skin chapter). **★ PART II SPLIT 2026-07-05 (decision H):** "Across the life stages" is now
-> **5 per-stage chapters** — Pregnancy & Lactation, Infancy & Early Childhood, Childhood & Adolescence,
-> Menopause & Midlife, Healthy Ageing — each on a shared internal↔external driver template. Now **25
-> chapters**; Parts III–V shift +3. Cross-refs are by *name*, so the numbering ripple is safe.
+> (no separate skin chapter). **★ PART II RE-SEQUENCED 2026-07-05 (decisions H+I):** "Across the life stages"
+> is now **6 chapters in chronological life-course order** — Infancy & Early Childhood, Childhood &
+> Adolescence, **Adulthood: working life & activity (new)**, Pregnancy & Lactation, Menopause & Midlife,
+> Healthy Ageing — each on the internal↔external template; the old single "Nutrition across the life cycle"
+> overview is **retired** (its infancy/childhood/older-age prose seeds Ch.9/10/14). Now **26 chapters**;
+> cross-refs are by *name*, so the numbering ripple is safe.
 > **Part I sequencing is research-backed** (see §"Part I" below). (Spine restructured 2026-06-30; parts
-> re-split 2026-07-05; re-axed to patient-state 2026-07-05; Part II split per-stage 2026-07-05.)
+> re-split 2026-07-05; re-axed to patient-state 2026-07-05; Part II split per-stage then re-sequenced 2026-07-05.)
 > Singapore-first (HPB/MOH) + international. Design logic → [`frameworks.md`](frameworks.md).
 > Legend: 🔴 not started · 🟡 researching · 🟢 dossier ready · ✅ in book.
 
@@ -28,7 +30,7 @@
 3. **Cases in three tiers** — embedded per-chapter (deterministic), a case bank, and a **capstone**
    integrative-cases chapter (home of the optional **LLM patient**; planned now, built later).
 
-## Chapters (v3 — 25, patient-state axis; Part II split into 5 per-stage chapters — decision H, 2026-07-05)
+## Chapters (v4 — 26; Part II = 6 chronological life-stage chapters incl. new Adulthood — decisions H+I, 2026-07-05)
 
 | # | Chapter | Source dossier | Dossier |
 |---|---|---|---|
@@ -41,40 +43,44 @@
 | 6 | **Integrative Metabolism (Fed / Fasted)** ✨ | `integrative-metabolism` | ✅ book |
 | 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
 | 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
-| **II** | **— Across the life stages —** (needs vary by stage; each chapter on the **internal↔external driver template** — decision H) | | |
-| 9 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` (deepened from `08-life-cycle-undernutrition` SPLIT + prose) | 🟢 (2026-07-05; added-topic cites pending draft-verify) |
-| 10 | **Infancy & Early Childhood** ✨ | `08-life-cycle-undernutrition` (infancy — **SPLIT source**) + prose | 🟡 split & deepen |
-| 11 | **Childhood & Adolescence** ✨ | `08-life-cycle-undernutrition` (childhood/adolescence — **SPLIT source**) + prose | 🟡 split & deepen |
-| 12 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | 🟢 (2026-07-05) |
-| 13 | **Healthy Ageing (Older Adults)** ✨ | `08-life-cycle-undernutrition` (older-age — **SPLIT source**) + prose | 🟡 split & deepen |
+| **II** | **— Across the life stages —** (chronological life course; each on the internal↔external template — decisions H, I) | | |
+| 9 | **Infancy & Early Childhood** ✨ | `08-life-cycle-undernutrition` (infancy — **SPLIT source**) + `life-cycle-nutrition.qmd` prose | 🟡 split & deepen |
+| 10 | **Childhood & Adolescence** ✨ | `08-life-cycle-undernutrition` (childhood/adolescence — **SPLIT source**) + prose | 🟡 split & deepen |
+| 11 | **Adulthood: working life & activity** ✨ | NEW (exercise/sports nutrition + working-life food environment + midlife weight-creep) | 🔴 net-new |
+| 12 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` | ✅ book (2026-07-05) |
+| 13 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | ✅ book (2026-07-05) |
+| 14 | **Healthy Ageing (Older Adults)** ✨ | `08-life-cycle-undernutrition` (older-age — **SPLIT source**) + prose | 🟡 split & deepen |
 | **III** | **— Advising the healthy —** (toolkit + skills; prevention) | | |
-| 14 | What a Healthy Diet Looks Like (patterns, guidelines & **types of diets**) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
-| 15 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
-| 16 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
-| 17 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
+| 15 | What a Healthy Diet Looks Like (patterns, guidelines & **types of diets**) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
+| 16 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
+| 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
+| 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
 | **IV** | **— Advising the chronically ill —** (maintain health *with* disease) | | |
-| 18 | Obesity & Metabolic Syndrome (over-nutrition) | `09-overnutrition` | 🟢 |
-| 19 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 |
-| 20 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
-| 21 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
-| 22 | **Chronic Kidney Disease** ✨ (new) | NEW | 🔴 |
-| 23 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
+| 19 | Obesity & Metabolic Syndrome (over-nutrition) | `09-overnutrition` | 🟢 |
+| 20 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 |
+| 21 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
+| 22 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
+| 23 | **Chronic Kidney Disease** ✨ (new) | NEW | 🔴 |
+| 24 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
 | **V** | **— Integration & practice —** | | |
-| 24 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
-| 25 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
+| 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
+| 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
 
 > **Acne note:** food & acne (dairy / high-glycaemic-load) is taught as the flagship **evidence-appraisal
-> worked example in Ch.15** (Advising the healthy), not as a disease chapter. A dedicated skin-conditions
+> worked example in Ch.16** (Advising the healthy), not as a disease chapter. A dedicated skin-conditions
 > chapter is deliberately **not** included (the acne evidence is modest, the eczema–diet evidence weak).
-> **Two-tails note:** over-nutrition (Ch.18) and under-nutrition (Ch.19) are adjacent so malnutrition is
-> taught as one topic with two ends — the through-line seeded in Ch.13 (healthy ageing / older adults) and
-> Ch.16 (do-no-harm). **All cross-refs are by NAME in the book, so the +3 renumber from the Part II split is safe.**
+> **Two-tails note:** over-nutrition (Ch.19) and under-nutrition (Ch.20) are adjacent so malnutrition is
+> taught as one topic with two ends — the through-line seeded in Ch.14 (healthy ageing / older adults) and
+> Ch.17 (do-no-harm). **All cross-refs are by NAME in the book, so the renumber ripple is safe.**
 
-**Net-new / split work:** **Part II now = 5 per-stage chapters (decision H)** — Ch.9 Pregnancy & Lactation,
-Ch.10 Infancy & Early Childhood, Ch.11 Childhood & Adolescence, Ch.13 Healthy Ageing are **split & deepened**
-from the existing `life-cycle-nutrition.qmd` draft + the `08-life-cycle-undernutrition` SPLIT dossier; Ch.12
-Menopause is 🟢. Still net-new later: Ch.22 CKD, Ch.23 Bone & Osteoporosis, Ch.25 Capstone. **Deferred to
-Phase 2:** Joints & Inflammation, full Skin & Nutrition, GI conditions, standalone Public-Health chapter.
+**Net-new / split work:** **Part II = 6 chronological chapters (decisions H+I).** ✅ done & committed:
+**Ch.12 Pregnancy & Lactation** and **Ch.13 Menopause & Midlife**. **Split & deepen** (from `life-cycle-nutrition.qmd`
+prose + the `08-life-cycle-undernutrition` SPLIT dossier): **Ch.9 Infancy & Early Childhood, Ch.10 Childhood &
+Adolescence, Ch.14 Healthy Ageing**. **Net-new dossier needed: Ch.11 Adulthood: working life & activity** (decision
+I — exercise/sports nutrition + working-life food environment + midlife weight-creep; scope-seed below). The old
+single "Nutrition across the life cycle" chapter is **retired** once Ch.9/10/14 are drafted. Still net-new later:
+Ch.23 CKD, Ch.24 Bone & Osteoporosis, Ch.26 Capstone. **Deferred to Phase 2:** Joints & Inflammation, full Skin &
+Nutrition, GI conditions, standalone Public-Health chapter.
 
 ---
 
@@ -191,27 +197,44 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   Undernutrition (Part IV, the *pathological* tail) is unchanged and the older-age↔malnutrition boundary of
   (C) holds (Healthy Ageing = ageing *in health*; Undernutrition = the disease state). Book → 25 chapters;
   Parts III–V shift **+3**; cross-refs are by *name*, so the ripple is safe.
+- **(I) Part II re-sequenced chronologically + Adulthood added (2026-07-05) — refines (H).** Part II now follows
+  the reader's own life course rather than opening with pregnancy (which was jarring): **Infancy & Early
+  Childhood (9) → Childhood & Adolescence (10) → Adulthood: working life & activity (11, NEW) → Pregnancy &
+  Lactation (12) → Menopause & Midlife (13) → Healthy Ageing (14)**. Pregnancy and menopause sit together as the
+  female reproductive/hormonal *adult* stages, after the general Adulthood chapter. The new **Adulthood** chapter
+  is anchored on the under-covered **exercise / sports-nutrition** angle plus the **working-life food environment**
+  (shift work, daily hawker meals, stress, alcohol) and **midlife weight-creep prevention** — scoped carefully
+  against Part I (Energy Balance) and Part III (advising the healthy). The old single "Nutrition across the life
+  cycle" overview chapter is **retired** (unpublished now; deleted once Ch.9/10/14 are drafted). Book → **26
+  chapters**; already-drafted Pregnancy (was 9→12) and Menopause (was 12→13) just change number — content unchanged
+  (cross-refs by *name*).
 
 ---
 
-> **Part II (Ch.9–13) is split-and-deepen, not net-new** (decision H). Ch.9 Pregnancy & Lactation, Ch.10
-> Infancy & Early Childhood, Ch.11 Childhood & Adolescence and Ch.13 Healthy Ageing are carved from the
-> existing `life-cycle-nutrition.qmd` draft + the `08-life-cycle-undernutrition` dossier and deepened on the
-> internal↔external template — each still runs the full pipeline (adversarially re-verify citations → draft →
-> island → quiz → MCQ case → review). Ch.12 Menopause & Midlife is 🟢 (dossier done 2026-07-05).
+> **Part II status (decisions H+I).** ✅ **committed:** Ch.12 Pregnancy & Lactation, Ch.13 Menopause & Midlife.
+> **Split-and-deepen** (from `life-cycle-nutrition.qmd` prose + the `08-life-cycle-undernutrition` dossier, each
+> running the full pipeline — adversarially re-verify citations → draft → island → quiz → MCQ case → review):
+> **Ch.9 Infancy & Early Childhood, Ch.10 Childhood & Adolescence, Ch.14 Healthy Ageing**. **Net-new dossier:**
+> **Ch.11 Adulthood** (seed below). Suggested next draft order = chronological: Ch.9 → Ch.10 → Ch.11 → Ch.14.
 
 ## New-chapter scope seeds (net-new dossiers to research)
-- **Ch.12 · Menopause & Midlife Health** *(Part II — a life stage)* — ✅ **dossier done (🟢 2026-07-05):**
-  `research/chapters/menopause-midlife.md`. Nutrition around menopause (bone, cardiometabolic shift, weight
-  redistribution, phytoestrogens evidence vs hype); practical counselling. *Depth: midlife literacy &
-  myth-busting, not HRT management.*
-- **Ch.22 · Chronic Kidney Disease** *(Part IV — new)* — nutrition in CKD (protein, sodium, potassium,
+- **Ch.11 · Adulthood: working life & activity** *(Part II — new, decision I)* — the healthy working-age adult:
+  **fuelling activity/exercise** (energy for training, protein for active adults, hydration, recovery — the
+  under-covered sports-nutrition angle), the **working-life food environment** (shift work, daily hawker/eating-out,
+  stress eating, alcohol), and **preventing midlife weight creep**. *Depth: practical maintenance + activity
+  nutrition; scope carefully AGAINST Part I* Energy Balance *(physiology) and Part III* Advising the Healthy
+  *(the advising toolkit) — the distinctive content is exercise/sports nutrition + the working-life environment.*
+- **Ch.13 · Menopause & Midlife Health** — ✅ **drafted & committed:** `research/chapters/menopause-midlife.md`.
+  Nutrition around menopause (bone, cardiometabolic shift, weight redistribution, phytoestrogens evidence vs hype);
+  practical counselling. *Depth: midlife literacy & myth-busting, not HRT management.*
+- **Ch.12 · Pregnancy & Lactation** — ✅ **drafted & committed:** `research/chapters/pregnancy-lactation.md`.
+- **Ch.23 · Chronic Kidney Disease** *(Part IV — new)* — nutrition in CKD (protein, sodium, potassium,
   phosphate at a recognition level; the dietitian-led renal diet); why nutrition is central; when to refer.
   *Depth: recognise the nutritional levers and refer, not prescribe the renal diet.*
-- **Ch.23 · Bone Health & Osteoporosis** *(Part IV)* — calcium, vitamin D, protein & bone; peak bone mass
+- **Ch.24 · Bone Health & Osteoporosis** *(Part IV)* — calcium, vitamin D, protein & bone; peak bone mass
   & age-related loss; dietary risk/protective factors; SG context (vit-D, fracture risk); when to refer.
   *Depth: recognise the nutritional levers, not manage osteoporosis.*
-- **Ch.25 · Capstone: Integrative Cases (LLM patient)** — cross-chapter scenarios; home of the optional
+- **Ch.26 · Capstone: Integrative Cases (LLM patient)** — cross-chapter scenarios; home of the optional
   guardrailed LLM patient. Design the case format + scenario set now; build the backend once content exists.
 
 ## Case tiers (Q4)
