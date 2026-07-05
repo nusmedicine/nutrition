@@ -1,0 +1,106 @@
+id: childhood-adolescence
+title: "Quick check: childhood & adolescence"
+questions:
+  - id: q1
+    stem: "A 12-year-old girl and a 12-year-old boy attend the same clinic. Who is more likely to be **at or near peak nutritional demand** right now, and why?"
+    options:
+      - text: "**The girl** — peak height velocity comes *early* in girls (before menarche), while a boy's biggest spurt comes later, so at the same age she is often further into her spurt"
+        correct: true
+        feedback: "Correct — demand tracks pubertal **stage, not birthday**, and the spurt runs early in girls and late in boys. A girl in early puberty can be at peak demand while still looking like a child."
+      - text: "The boy — boys always grow faster and need more at every age"
+        correct: false
+        feedback: "Boys do reach a higher *total* energy need eventually, but their spurt comes *later*. At 12, a girl is typically further into her spurt than a same-age boy."
+      - text: "Neither — nutritional needs depend only on age, so they are identical at 12"
+        correct: false
+        feedback: "Needs track pubertal stage, not chronological age — and puberty is timed differently in girls and boys, so two 12-year-olds can be at very different points."
+
+  - id: q2
+    stem: "A father asks whether his 15-year-old son needs **protein powder** to \"fuel his growth spurt.\" What's the best reply?"
+    options:
+      - text: "Usually not — protein needs *per kilogram* actually **fall** through adolescence toward the adult level; total grams rise only because he's bigger, and an ordinary diet that meets his energy needs almost always meets his protein needs"
+        correct: true
+        feedback: "Correct. Both energy and protein needs fall *per kg* across childhood even as total daily amounts rise. The 'teens need supplements' idea doesn't hold for a normally-eating adolescent."
+      - text: "Yes — the growth spurt roughly doubles protein requirements, which food alone can't meet"
+        correct: false
+        feedback: "Overstated. Per-kg protein needs drift *down*, not up; total intake from ordinary food is almost always sufficient. Supplements aren't needed for normal growth."
+      - text: "Yes — the energy cost of building new tissue is the main reason teenagers are so hungry"
+        correct: false
+        feedback: "Actually the direct energy cost of laying down tissue is tiny (~1–2% of the day's energy). A big appetite mostly reflects a bigger body and more movement, tracking growth velocity."
+
+  - id: q3
+    stem: "Which adolescent is at **highest risk of iron deficiency**, and what's the recognise-level point?"
+    options:
+      - text: "A **menstruating girl on a meat-light diet** — iron need jumps at menarche as monthly loss stacks on growth; suspect deficiency (tired, poor concentration, heavy periods) and check iron studies **before** anaemia appears"
+        correct: true
+        feedback: "Correct — the menstruating adolescent girl is the classic at-risk group, and deficiency bites before haemoglobin falls, so ferritin/iron studies (not haemoglobin alone) catch it earlier."
+      - text: "A boy in his growth spurt — boys have the highest iron needs of any adolescent group"
+        correct: false
+        feedback: "Boys' iron need does rise transiently with the spurt, but girls' need jumps *higher* at menarche because of monthly menstrual loss — girls are the classic at-risk group."
+      - text: "Only a teen who is already anaemic — a normal haemoglobin rules iron deficiency out"
+        correct: false
+        feedback: "Not so — iron can be depleted with a still-normal haemoglobin, leaving a teen tired and under-performing. That's why you suspect it early rather than wait for anaemia."
+
+  - id: q4
+    stem: "The WHO advises keeping **free sugars** under 10% of energy. What is that threshold anchored on, and how strong is the sugary-drink-to-weight evidence?"
+    options:
+      - text: "It's anchored first on **dental caries**; on weight, drink-swap trials show a **real but modest** effect that works mainly through *displaced calories* — recognise sugary drinks as a red flag, don't treat sugar as uniquely toxic"
+        correct: true
+        feedback: "Correct — the primary rationale is caries. The weight effect is genuine but modest and largely about excess calories, not a special toxicity of sugar."
+      - text: "It's anchored on obesity, and trials prove sugary drinks are the single main cause of childhood obesity"
+        correct: false
+        feedback: "The threshold is anchored on *caries*, and the weight evidence, while real, is modest and multi-factorial — sugary drinks are one lever among many, not the sole cause."
+      - text: "It's arbitrary — there's no evidence behind it"
+        correct: false
+        feedback: "There is evidence — chiefly on dental caries, plus drink-swap trials showing a modest weight effect. The number reflects that evidence, not guesswork."
+
+  - id: q5
+    stem: "A mother asks you to tell her overweight-looking 14-year-old to **\"go on a diet.\"** Why is this the wrong move?"
+    options:
+      - text: "Because **dieting in adolescence prospectively predicts *both* new eating disorders *and* more weight gain** — the safe posture is healthy habits, family meals, and no weight-talk, which prevents both problems"
+        correct: true
+        feedback: "Correct — this single finding unites both tails. Prescribing a diet raises the risk of an eating disorder *and* tends to backfire on weight. Focus on habits, not weight."
+      - text: "Because 14-year-olds never have weight problems, so the concern is misplaced"
+        correct: false
+        feedback: "Weight problems are real at this age — but the answer is never a diet. Dieting predicts both eating disorders and *more* weight gain; healthy-habit framing is what's safe."
+      - text: "Because you should put her on a stricter, supervised diet instead"
+        correct: false
+        feedback: "Any dieting framing carries the same risks. The safe approach avoids weight-talk altogether and builds healthy habits and family meals."
+
+  - id: q6
+    stem: "A 15-year-old competitive runner has **stopped having periods** and had a **stress fracture** last season. She trains hard and eats little. What's happening, and what do you do?"
+    options:
+      - text: "This is **low energy availability** (too little fuel for her training load) driving the female-athlete triad — periods stop and bone suffers; the move is **recognise and refer**, and *fuel, don't restrict* — never a stricter diet"
+        correct: true
+        feedback: "Correct — amenorrhoea + stress fracture + restriction + heavy training is the pattern to recognise. Energy availability is intake minus the fuel burned in training; when it's too low the body down-shifts. Refer."
+      - text: "She's simply overtraining — tell her to push through and add a calcium tablet"
+        correct: false
+        feedback: "A calcium tablet won't fix the underlying problem (too little energy dropping her hormones), and 'pushing through' is harmful. This needs recognition and referral, and more fuel — not more restriction."
+      - text: "Amenorrhoea in an athlete is normal and healthy — reassure and do nothing"
+        correct: false
+        feedback: "Absent periods in an athlete are a red flag, not a benign sign of fitness — they signal low energy availability threatening bone. Recognise and refer."
+
+  - id: q7
+    stem: "Which statement about **recognising eating disorders** in adolescents is correct?"
+    options:
+      - text: "They occur **across the whole weight spectrum** — a formerly heavier teen who loses weight fast can be seriously ill, so a normal or high BMI does not rule an eating disorder out (and praising weight loss can mask one)"
+        correct: true
+        feedback: "Correct — eating disorders are not confined to visibly underweight teens. Rapid weight loss, faltering growth, absent periods, a stress fracture, or purging warrant referral whatever the current weight."
+      - text: "You can safely exclude an eating disorder if the teen's weight is normal or high"
+        correct: false
+        feedback: "This is a dangerous misconception — a large share of presentations are at normal or high weight. Recognise the behaviours and red flags, not just the number on the scale."
+      - text: "'Picky eating' and eating disorders are the same thing and need the same referral"
+        correct: false
+        feedback: "Most picky eating is normal, but when avoidance is driven by sensory aversion or fear *without* weight/shape concern it can be ARFID — a clinical pattern distinct from anorexia. Recognise which is which."
+
+  - id: q8
+    stem: "What best captures how to protect an adolescent's **peak bone mass**?"
+    options:
+      - text: "**Food-first calcium plus weight-bearing activity, and find-and-treat any deficiency** — most bone is banked in the ~4 years around the spurt, and supplements help mainly the child who is genuinely short, not the already-replete"
+        correct: true
+        feedback: "Correct — the window is brief and largely closes by the early twenties. Activity and adequate calcium build the most bone; blanket supplements add little to a replete child. Genetics still sets most of the ceiling."
+      - text: "Give every child calcium and vitamin-D supplements — more is always better for bone"
+        correct: false
+        feedback: "In a replete child, calcium supplements add only a small, fading benefit and vitamin-D supplements add essentially nothing. Benefit is confined to those who were deficient — so food-first and treat deficiency."
+      - text: "Bone can be built up at any age, so adolescence isn't special"
+        correct: false
+        feedback: "Adolescence *is* special — roughly two-fifths of adult bone mineral is laid down in the few years around the spurt, and the window largely closes by the early twenties."

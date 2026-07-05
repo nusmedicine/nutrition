@@ -29,6 +29,7 @@ book:
     - part: "II · Across the life stages"
       chapters:
         - chapters/infancy-early-childhood.qmd
+        - chapters/childhood-adolescence.qmd
         - chapters/pregnancy-lactation.qmd
         - chapters/menopause-midlife.qmd
     - part: "III · Advising the healthy"

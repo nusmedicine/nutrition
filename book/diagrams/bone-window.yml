@@ -1,0 +1,56 @@
+# Data for the BoneWindow island (Childhood & Adolescence chapter).
+# Schematic: teaches the SHAPE of bone accrual and the modifiable-vs-genetic split, not exact values.
+id: bone-window
+title: "The bone bank: a window that closes"
+intro: >-
+  Most of the bone you carry as an adult is banked in the few years around the pubertal growth spurt.
+  Scrub the age, then toggle the levers — watch the bank fill, then plateau for life.
+ageMin: 8
+ageMax: 25
+windowFrom: 11
+windowTo: 16
+# The lowest attainable peak (as % of the genetic ceiling) with no lifestyle support — i.e. lifestyle
+# moves the balance across the band from here up to 100. Reflects the ~20-40% lifestyle-modifiable share.
+modifiableFloor: 70
+# Cumulative fraction of the ATTAINED peak reached by each age (interpolated). Steepest across the window.
+accrual:
+  - { age: 8,  f: 0.35 }
+  - { age: 10, f: 0.45 }
+  - { age: 12, f: 0.56 }
+  - { age: 13, f: 0.64 }
+  - { age: 14, f: 0.73 }
+  - { age: 15, f: 0.81 }
+  - { age: 16, f: 0.88 }
+  - { age: 17, f: 0.93 }
+  - { age: 18, f: 0.96 }
+  - { age: 19, f: 0.98 }
+  - { age: 20, f: 0.99 }
+  - { age: 25, f: 1.00 }
+levers:
+  - key: activity
+    label: "Weight-bearing activity"
+    weight: 0.40
+    grade: "A"
+    why: "The strongest lever, and most powerful in early puberty — high-impact loading builds bone directly."
+  - key: calcium
+    label: "Adequate calcium"
+    weight: 0.35
+    grade: "A"
+    why: "Grade-A for accrual — but food-first. A supplement helps a teen who is short of calcium, little if they already have enough."
+  - key: vitd
+    label: "Vitamin D sufficient"
+    weight: 0.25
+    grade: "B"
+    why: "Supports accrual, but supplements build bone only in the deficient — not in the already-replete."
+threat:
+  key: lowEA
+  label: "Low energy availability / periods stopped"
+  # Retained-fraction penalty: low energy availability shaves (1 - cap) off the attainable peak, so the
+  # permanent deficit shows whatever the lever state (even with no builders active).
+  cap: 0.82
+  why: "Under-fuelling (dieting or over-training) drops oestrogen and stalls accrual — it shaves the ceiling for life, whatever else you do. Recognise and refer."
+note: >-
+  Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded
+  band, and the levers show the payoff of reaching adequacy — a child already getting enough gains little
+  from more. The window largely closes by the early twenties.
+credit: "Schematic — teaches the shape of accrual, not exact values. Grounded in Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."

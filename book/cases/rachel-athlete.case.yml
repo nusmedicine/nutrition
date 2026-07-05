@@ -1,0 +1,180 @@
+id: rachel-athlete
+title: "Rachel, 14: the netball player who \"should go on a diet\""
+objectives:
+  - "Apply the do-no-harm rule: never prescribe a diet or dismiss red flags in an adolescent — address weight through healthy habits, not restriction."
+  - "Recognise low energy availability / the female-athlete triad (amenorrhoea + stress fracture + restriction + heavy training load) as a bone-health red flag."
+  - "Recognise that a normal weight does not exclude a problem, and that the safe action at this stage is to refer, not to work it up."
+  - "Frame the message as fuel-don't-restrict, and know the limits of the role."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, adolescence, do-no-harm, female-athlete-triad, eating-disorder, singapore]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Rachel (with mother Mrs Tan)"
+  age: 14
+  sex: female
+  occupation: "Secondary-3 student; competitive netball player"
+  presentation: "A fit-looking 14-year-old brought by her mother, who is worried Rachel has 'put on weight' and 'should slim down for netball'. Rachel trains most days; her periods stopped a few months ago. Her weight is in the normal range."
+  voice: "Quiet, a little defensive; keen on her sport and used to being told she should be leaner."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: neutral
+    title: "\"Can you tell her to go on a diet?\""
+    body: |
+      Rachel is 14 and plays competitive netball, training most days. Her mother has brought her in, worried
+      she has "put on weight" and "should slim down." In passing, her mother mentions Rachel's periods
+      "stopped a few months ago." Rachel looks fit and her weight is in the normal range. Notice that the
+      *obvious, requested* answer here is the harmful one.
+    next: q-first-move
+
+  - id: q-first-move
+    type: mcq
+    emotion: concerned
+    stem: "*Mrs Tan:* \"She's got heavier this year — can you just put her on a diet to tone up for netball?\" **What is your first move?**"
+    options:
+      - id: a
+        text: "Take a focused history first — training load, what she actually eats, and the stopped periods — before saying anything about weight."
+        correct: true
+        feedback: "Right. The presenting request (\"put her on a diet\") is a trap: dieting in adolescence predicts both eating disorders *and* weight gain. Understand the whole picture — especially those absent periods — before advising anything."
+        effects: { quality: +1 }
+        reaction: neutral
+        goto: q-pattern
+      - id: b
+        text: "Agree, and give Rachel a calorie-restricted meal plan to \"tone up.\""
+        correct: false
+        feedback: "This is the do-harm move. Prescribing a diet to an adolescent — especially one already training hard with absent periods — raises the risk of an eating disorder *and* tends to backfire on weight. Never prescribe a diet here."
+        reaction: concerned
+        goto: remedial
+      - id: c
+        text: "Reassure them both that periods often stop in athletes — it's a sign of fitness — and send them home."
+        correct: false
+        feedback: "Unsafe. Amenorrhoea in an athlete is a red flag, not a badge of fitness — it can signal under-fuelling that is quietly harming her bones. Dismissing it misses a slow-motion emergency."
+        reaction: concerned
+        goto: remedial
+
+  - id: q-pattern
+    type: mcq
+    emotion: concerned
+    stem: "History: Rachel has been \"eating clean,\" cutting out rice and most snacks \"to stay lean for netball,\" trains five to six times a week, and had a **foot stress fracture** last season. Her periods stopped around then. **What does this pattern suggest?**"
+    options:
+      - id: a
+        text: "Under-fuelling — her intake isn't matching her training, and that low energy is likely why her periods stopped and why she fractured. This threatens her bones."
+        correct: true
+        feedback: "Correct — this is the recognisable pattern of **low energy availability** (energy left over after training is too low): restriction + heavy load + amenorrhoea + a stress fracture. It puts her peak-bone-mass window at risk."
+        effects: { quality: +1 }
+        reaction: neutral
+        goto: q-refer
+      - id: b
+        text: "Nothing concerning — cutting rice and snacks is just sensible healthy eating for an athlete."
+        correct: false
+        feedback: "Not here. In the context of amenorrhoea, a stress fracture and a heavy training load, this level of restriction is a warning sign of under-fuelling, not healthy eating."
+        reaction: concerned
+        goto: q-refer
+      - id: c
+        text: "Probably just low iron from her periods — start an iron supplement and review."
+        correct: false
+        feedback: "Iron is worth checking, but it doesn't explain the stopped periods or the stress fracture. The bigger picture is under-fuelling (low energy availability) — don't let an iron tablet distract from it."
+        reaction: concerned
+        goto: q-refer
+
+  - id: q-refer
+    type: mcq
+    emotion: concerned
+    stem: "You recognise under-fuelling threatening her bones and periods. **What is the appropriate action at your level?**"
+    options:
+      - id: a
+        text: "Refer her for proper assessment — and reassure her the goal is to *fuel* her training, not restrict it further. Don't attempt the work-up or a diagnosis yourself."
+        correct: true
+        feedback: "Correct — recognise and refer. The message is *fuel, don't restrict*. Detailed assessment, bone-health work-up and management belong to the specialist team, not to you now."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-message
+      - id: b
+        text: "Start a calcium and vitamin-D supplement and review her in six months."
+        correct: false
+        feedback: "A supplement doesn't fix the underlying problem (too little energy dropping her hormones), and six months is far too long to watch a bone-health red flag. She needs referral now."
+        reaction: concerned
+        goto: q-message
+      - id: c
+        text: "Tell her to \"just eat a bit more and it'll sort itself out,\" and leave it there."
+        correct: false
+        feedback: "Under-fuelling with amenorrhoea and a stress fracture is beyond a one-line reassurance. She needs a proper assessment — recognise the limits of what to handle alone and refer."
+        reaction: concerned
+        goto: q-message
+
+  - id: q-message
+    type: mcq
+    emotion: neutral
+    stem: "*Mrs Tan, still anxious:* \"So should she be eating *less* to get her weight down?\" **How do you frame it?**"
+    options:
+      - id: a
+        text: "\"Actually the opposite — right now Rachel needs to eat *enough* to match her training. This is about her health and her bones, not her weight, and the team will help her get the balance right.\""
+        correct: true
+        feedback: "Correct — reframe from weight to fuelling and health, and keep it blame-free. This protects Rachel from the diet-talk that drives disordered eating, and gets the mother on side."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Yes, a bit less wouldn't hurt while we look into it.\""
+        correct: false
+        feedback: "No — endorsing *any* restriction here compounds the under-fuelling and the diet-talk that's part of the problem. The message is to eat enough to match her training."
+        reaction: concerned
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "The safe line: recognise, don't restrict, refer"
+    body: |
+      The through-line for this visit: a mother's request to "put her on a diet" is the tempting wrong
+      answer — dieting in adolescence predicts **both** eating disorders and weight gain, and a **normal
+      weight does not mean safe**. Absent periods plus a stress fracture in a hard-training teen is
+      **low energy availability** threatening her bones — a red flag to **recognise and refer**, with the
+      message *fuel, don't restrict*, never a stricter diet or a "wait and see." Replay and run the safe path.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Recognised, reframed, referred"
+    body: |
+      You resisted the request to prescribe a diet, took a history that surfaced the real problem, recognised
+      under-fuelling threatening Rachel's bones and periods, referred appropriately, and reframed the whole
+      conversation from weight to *fuelling for health*. That is exactly the job at this stage — recognise the
+      pattern, protect the teenager from harmful diet-talk, and hand the detailed work to the team.
+      *(Assessment and management of the female-athlete triad, and of eating disorders, belong to the
+      specialist and the Assessing Diet & Talking to Patients chapter.)*
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Never prescribe a diet to an adolescent — dieting predicts both eating disorders and weight gain; a normal weight does not exclude a problem."
+        - "Amenorrhoea + a stress fracture + restriction + heavy training = low energy availability threatening the peak-bone-mass window — a red flag."
+        - "The safe action is recognise-and-refer; the message is fuel, don't restrict — never 'eat less' or 'wait and see'."
+        - "Detailed assessment and management belong to the specialist team, not the first encounter."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You helped Rachel but slipped on at least one point — the do-no-harm fork (no diet, don't dismiss the
+      amenorrhoea), recognising the under-fuelling pattern, referring rather than supplementing or waiting, or
+      reframing from weight to fuelling. Replay and run the safe path: take a history, recognise low energy
+      availability threatening her bones, refer, and tell her to *fuel, not restrict*.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "The requested 'put her on a diet' is the harmful answer — address weight through healthy habits, never restriction."
+        - "Absent periods and a stress fracture in a hard-training teen point to low energy availability threatening bone."
+        - "Recognise and refer; the message is fuel, don't restrict."
