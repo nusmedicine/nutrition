@@ -1,0 +1,59 @@
+id: requirement-dial
+title: "The requirement dial"
+intro: >
+  Pregnancy doesn't raise every need the same way. Pick a nutrient and watch its requirement move
+  across the stages — and notice the ones that break the pattern: energy barely rises until it jumps
+  for milk, calcium stays flat, and vitamin A is a ceiling, not a target. Values are schematic — they
+  teach the shape, not exact numbers.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Schematic — relative to a non-pregnant baseline."
+
+stages: ["Not pregnant", "1st trimester", "2nd trimester", "3rd trimester", "Lactation"]
+
+nutrients:
+  - name: "Energy"
+    kind: rising
+    unit: "extra kcal/day above baseline"
+    values: [0, 0, 340, 452, 500]
+    why: "Modest and back-loaded in pregnancy — then it genuinely jumps for milk. 'Eating for two' only nearly fits lactation."
+
+  - name: "Iron"
+    kind: rising
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 105, 130, 150, 95]
+    why: "Expanding blood volume and the fetus's own stores push the need up, peaking late — then it falls again in lactation."
+
+  - name: "Folate"
+    kind: rising
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 170, 160, 150, 130]
+    why: "Highest around conception and early pregnancy, to build the neural tube — which is why it must be running before you are pregnant."
+
+  - name: "Iodine"
+    kind: rising
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 145, 150, 160, 190]
+    why: "Rises for the fetal thyroid hormone that builds the brain, and is highest in lactation as it passes into the milk."
+
+  - name: "Calcium"
+    kind: flat
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 100, 100, 100, 100]
+    why: "The surprise: the requirement barely rises, because the gut roughly doubles how much calcium it absorbs. Ensure a good baseline — no special allowance needed."
+
+  - name: "Vitamin A"
+    kind: ceiling
+    unit: "floor flat — but with an upper limit"
+    values: [100, 100, 100, 100, 100]
+    why: "The floor barely moves — but high-dose preformed retinol (supplements, liver) is teratogenic. This is a CEILING to respect, not a target to chase; plant beta-carotene is safe."
+
+  - name: "DHA (omega-3)"
+    kind: rising
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 115, 130, 145, 150]
+    why: "Builds the fetal brain and eye and modestly lowers preterm birth, then carries on into the milk. Two to three low-mercury fish meals a week covers it."
+
+  - name: "Choline"
+    kind: rising
+    unit: "% of non-pregnant need (schematic)"
+    values: [100, 110, 120, 130, 150]
+    why: "One of the under-taught pair — most pregnant women fall short. It supports fetal brain development, and the need rises further in lactation."

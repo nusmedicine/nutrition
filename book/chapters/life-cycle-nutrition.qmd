@@ -19,63 +19,11 @@ see the shape of it, then we walk each stage in turn.
 
 <div data-island="life-stages" data-src="/diagrams/life-stages.yml"></div>
 
-## Pregnancy and lactation
-
-**Quality far more than quantity.** The oldest myth here is "eating for two." In fact energy needs
-rise only **modestly** and mainly in the later trimesters — on the order of an extra small meal a
-day, not a doubling [@whoAntenatal2016]. What matters far more is a handful of specific
-**micronutrients**:
-
-- **Folate** — periconceptional **folic acid** (around 400 µg/day, ideally started *before*
-  conception) sharply reduces the risk of **neural tube defects** such as spina bifida. Because the
-  neural tube closes in the first weeks — often before a pregnancy is confirmed — the timing is the
-  whole point [@whoAntenatal2016].
-- **Iron** — requirements rise substantially as maternal blood volume expands and the fetus builds
-  its own stores; iron-deficiency anaemia is common in pregnancy.
-- **Iodine** — needed for the thyroid hormone that drives **fetal brain development**; the early
-  fetus depends entirely on the mother's supply.
-- **Calcium and vitamin D** — important for the developing fetal skeleton. (Interestingly, the
-  *requirement* doesn't rise much, because the gut simply absorbs dietary calcium far more
-  efficiently in pregnancy — but adequate intake still matters.)
-
-**Food safety** joins the picture: avoid **alcohol** entirely (no known safe amount), **limit
-high-mercury fish** (shark, swordfish, marlin), and avoid **unpasteurised dairy and other
-high-listeria foods**, which can cause miscarriage or stillbirth [@whoAntenatal2016]. Detailed
-supplementation regimens are covered where the *Micronutrients, Hydration & Electrolytes* chapter
-left off.
-
-**Lactation flips the energy message.** Making milk is the one life stage where energy needs
-genuinely *do* climb — on the order of an extra **450–500 kcal a day**, with higher fluid needs too.
-So a breastfeeding mother really is, near enough, eating for two — the one time that phrase earns its
-keep.
-
-### Gestational diabetes: why Singapore screens everyone
-
-Singapore's defining antenatal nutrition issue is **gestational diabetes mellitus (GDM)** — glucose
-intolerance first recognised in pregnancy. It is strikingly common locally: the **GUSTO** birth
-cohort found GDM in roughly **one in five** pregnancies [@gusto_gdm]. (Treat that "~18.9%" as
-cohort- and criteria-dependent — it came from one Singapore cohort using older 1999 WHO
-diagnostic criteria — not as a fixed national rate.)
-
-The load-bearing lesson is *how* we screen. GUSTO showed that if Singapore had tested only
-**high-risk** women — the older, heavier, family-history approach used in some countries —
-it would have **missed about half** of all GDM cases, because risk factors predict GDM poorly in
-Asian populations [@gusto_gdm]. So Singapore screens **universally**: every pregnancy is offered a
-**75 g oral glucose tolerance test at 24–28 weeks**, whatever the risk profile [@aceGDM2018].
-
 ::: {.callout-note}
-## The numbers, for recognition (not recall)
-A positive test is any one of: fasting glucose **≥ 5.1**, 1-hour **≥ 10.0**, or 2-hour **≥ 8.5
-mmol/L** (the IADPSG thresholds) [@aceGDM2018]. You don't memorise these numbers — the point
-to carry is the *pathway*: **screen everyone at 24–28 weeks**, and know that a woman with GDM needs
-a **postpartum glucose test** and lifelong higher vigilance, because GDM strongly predicts future
-**type 2 diabetes**. That link is exactly why GDM sits inside Singapore's *War on Diabetes*
-[@mohWarOnDiabetes].
+Pregnancy and lactation now have their own chapter — *Pregnancy & Lactation* — which covers the
+physiology, the micronutrients, gestational diabetes and confinement in depth. This chapter picks up
+the arc from infancy onward.
 :::
-
-First-line management is dietary — lower-glycaemic local swaps and spreading carbohydrate through
-the day — delivered by a **team** (obstetrician, dietitian, diabetes nurse). Insulin and glucose
-targets are the diabetes chapter's territory, not this one.
 
 ## Infancy
 
@@ -168,15 +116,7 @@ than everyday guidance [@crowley2019].
 
 <div data-island="quiz" data-src="/quizzes/life-cycle-nutrition.quiz.yml"></div>
 
-## Practise: Mrs Devi, 26 weeks pregnant
+## Practise: the life stages
 
-Mrs Devi attends a routine antenatal visit. She has a raised BMI and a family history of diabetes,
-and wonders whether she needs "to eat for two" and whether the glucose test her friend mentioned
-really applies to her. Work through her nutritional needs and Singapore's screening pathway — and
-notice where your role ends and the team's begins. Your choices branch the case.
-
-::: {.callout-tip}
-Progress is saved locally — replay to explore the other paths.
-:::
-
-<div data-island="case" data-src="/cases/mrs-devi-gdm.case.yml"></div>
+The branching cases for each stage live in their own chapters — the *Pregnancy & Lactation* chapter's
+Mrs Devi (pregnancy and gestational diabetes) is the worked example for this part of the arc.

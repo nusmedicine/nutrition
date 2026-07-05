@@ -1,0 +1,204 @@
+id: pregnancy-gdm
+title: "Mrs Devi, 26 weeks: the test she'd rather skip"
+objectives:
+  - "Justify Singapore's universal GDM screening — and recognise that withholding the test from a well-feeling woman is the error."
+  - "Distinguish physiological haemodilution from true iron-deficiency anaemia."
+  - "Respond to a GDM diagnosis with dietary first-line plus team referral, without over-reaching into insulin."
+  - "Explain the fetal-hyperinsulinaemia chain and arrange postpartum follow-up for future type 2 diabetes risk."
+difficulty: intro
+estimatedMinutes: 12
+tags: [nutrition, pregnancy, gdm, singapore, do-no-harm]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mrs Devi"
+  age: 31
+  sex: female
+  occupation: "primary-school teacher"
+  presentation: "First pregnancy, 26 weeks. BMI 27, and her mother has type 2 diabetes. She feels completely well and is a little reluctant about 'yet another test'."
+  voice: "Warm and busy; wants to do right by the baby but would rather skip anything that feels unnecessary."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: neutral
+    title: "\"Do I really need that glucose test?\""
+    body: |
+      Mrs Devi is 26 weeks into her first pregnancy and feels well. Her BMI is 27 and her mother has
+      type 2 diabetes. A friend mentioned a glucose test, but Mrs Devi feels fine and would rather not
+      fast for it. Work through her care — and notice where your role ends and the team's begins.
+    next: q-screen
+
+  - id: q-screen
+    type: mcq
+    emotion: neutral
+    stem: "*\"I feel perfectly well, doctor — do I really need the glucose test?\"*"
+    options:
+      - id: a
+        text: "\"Yes — in Singapore we offer it to every pregnancy at around 24 to 28 weeks, whatever your risk. Gestational diabetes is common here and usually causes no symptoms, so feeling well doesn't rule it out.\""
+        correct: true
+        feedback: "Correct — universal screening. Local evidence (GUSTO) showed testing only 'high-risk' women would have missed about half of cases, because risk factors predict GDM poorly in Asian women."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-haemo
+      - id: b
+        text: "\"You feel well and you're young, so let's not bother with the fasting test — we'll only test you if symptoms appear.\""
+        correct: false
+        feedback: "This is the harmful choice. GDM is usually symptomless and common (~1 in 5 locally); waiting for symptoms means missing it. Withholding universal screening from a well-feeling woman is exactly the error the case is about."
+        reaction: concerned
+        goto: remedial
+      - id: c
+        text: "\"Given your BMI and family history you're high-risk, so yes — we'll test you for that reason.\""
+        correct: false
+        feedback: "This endorses risk-based screening, which Singapore deliberately doesn't rely on — it would miss about half of cases. Every pregnancy is offered the test, regardless of risk profile."
+        reaction: skeptical
+        goto: q-haemo
+
+  - id: q-haemo
+    type: mcq
+    emotion: concerned
+    stem: "Her blood count shows haemoglobin has fallen from 12.5 to 10.8 g/dL since booking. She has no symptoms. What's the right first read?"
+    options:
+      - id: a
+        text: "Probably physiological — plasma volume expands faster than red cells, so haemoglobin falls by dilution — but check ferritin and use pregnancy-specific cut-offs before deciding on iron."
+        correct: true
+        feedback: "Right. A mid-pregnancy haemoglobin almost always falls by dilution; confirm true iron deficiency with ferritin rather than treating the number — while remembering real deficiency is genuinely common here."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-result
+      - id: b
+        text: "Clear iron-deficiency anaemia — start high-dose iron straight away."
+        correct: false
+        feedback: "Too quick. The dilutional fall is expected; check ferritin first. If she is truly deficient, counsel iron with a vitamin-C source, away from tea/calcium, and consider alternate-day dosing for tolerability."
+        goto: q-result
+      - id: c
+        text: "A dangerous drop — arrange an urgent transfusion."
+        correct: false
+        feedback: "An over-reaction — a fall to ~10.8 in mid-pregnancy is common and usually dilutional, not an emergency."
+        goto: q-result
+
+  - id: q-result
+    type: mcq
+    emotion: concerned
+    stem: "Her glucose test comes back **positive** for gestational diabetes, and she's anxious. What's the right first move?"
+    options:
+      - id: a
+        text: "Reassure her, start realistic dietary changes within her usual meals (brown rice or wholegrain bee hoon for white rice, water or a Nutri-Grade A/B drink for the sweet one), and bring in the antenatal team — obstetrician, dietitian, diabetes nurse."
+        correct: true
+        feedback: "Exactly — first-line is dietary, delivered with the team, and it works best within familiar food (a local seafood-and-noodle pattern was actually protective). You reassure, guide swaps, and refer."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-chain
+      - id: b
+        text: "Start her on insulin now and set her daily glucose targets yourself."
+        correct: false
+        feedback: "That over-reaches. Insulin and glucose targets are decided by the obstetric/diabetes team by referral when diet isn't enough — start with dietary first-line, don't titrate insulin at a first consult."
+        goto: q-chain
+      - id: c
+        text: "Tell her it's mild and nothing to worry about, and carry on as normal."
+        correct: false
+        feedback: "GDM does need action — untreated it raises the risk of a large baby and delivery complications. Dietary first-line plus team referral is the move, not dismissal."
+        goto: q-chain
+
+  - id: q-chain
+    type: mcq
+    emotion: neutral
+    stem: "*\"Why would my baby have low blood sugar right after birth if it's my sugar that's high?\"*"
+    options:
+      - id: a
+        text: "\"In the womb your higher sugar crosses to the baby, whose own body makes extra insulin. After birth your sugar supply stops, but the baby's insulin is still high for a while — so its sugar can dip.\""
+        correct: true
+        feedback: "Correct — macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, fetal insulin out, overgrowth, then a dip once the supply is cut. Plain language, no jargon."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-postpartum
+      - id: b
+        text: "\"The baby has inherited diabetes from you.\""
+        correct: false
+        feedback: "Not inherited diabetes — it's transient: the baby's own insulin, raised in response to your glucose, stays high briefly after delivery and drops the sugar."
+        goto: q-postpartum
+      - id: c
+        text: "\"Because the baby is small and underfed.\""
+        correct: false
+        feedback: "These babies are usually large, not small — the hypoglycaemia comes from their own high insulin after the maternal glucose supply is cut."
+        goto: q-postpartum
+
+  - id: q-postpartum
+    type: mcq
+    emotion: neutral
+    stem: "*\"So once the baby is born, this all just goes away, right?\"*"
+    options:
+      - id: a
+        text: "\"The high sugar usually settles after delivery — but you'll need a glucose test about 6 to 12 weeks later and regular checks after that, because gestational diabetes means a higher chance of type 2 diabetes down the line.\""
+        correct: true
+        feedback: "Correct — it usually resolves, but GDM signals a roughly seven-fold future type 2 diabetes risk, so postpartum testing and ongoing screening matter. This is the direct tie to the War on Diabetes."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Yes — once the baby's out it's completely gone, no follow-up needed.\""
+        correct: false
+        feedback: "Not quite. The high sugar usually settles, but GDM predicts future type 2 diabetes — she needs a postpartum glucose test and ongoing screening. Skipping follow-up misses a key prevention window."
+        goto: route
+      - id: c
+        text: "\"No — you have diabetes for life now and will need medication from here on.\""
+        correct: false
+        feedback: "Overstated and frightening — GDM usually resolves after delivery. The correct message is future *risk*, managed with follow-up testing and lifestyle, not lifelong medication starting now."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 5"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Screen everyone, read the blood right, refer, follow up"
+    body: |
+      The through-line: **offer the test to every pregnancy** — feeling well doesn't rule GDM out, and
+      risk-based screening misses about half of local cases; read a mid-pregnancy haemoglobin as likely
+      **dilution** but confirm with ferritin; meet a positive result with **dietary first-line plus the
+      team**, not insulin you titrate yourself; explain the baby's transient low sugar as **fetal
+      insulin**, not inherited diabetes; and arrange **postpartum follow-up** for future type 2 diabetes
+      risk. Replay and run the safe path.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Anticipate, screen, recognise, refer"
+    body: |
+      You offered the test that feeling-well would have talked you out of, read the falling haemoglobin
+      correctly, met the diagnosis with dietary first-line plus the team rather than reaching for insulin,
+      explained the baby's low sugar in plain language, and flagged the postpartum follow-up that links
+      gestational diabetes to future type 2 diabetes. That is exactly the role here — anticipate, screen,
+      recognise, refer. *(Insulin, glucose targets and detailed management sit with the obstetric/diabetes
+      team.)*
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Singapore screens every pregnancy for GDM at 24–28 weeks — risk-based screening would miss about half of local cases, and feeling well doesn't rule it out."
+        - "A mid-pregnancy haemoglobin fall is usually dilutional; confirm true iron deficiency with ferritin before treating, and counsel iron for tolerability (vitamin C, away from tea/calcium, alternate-day)."
+        - "A GDM diagnosis: reassure, dietary first-line within familiar food, refer to the team, and don't over-reach into insulin."
+        - "Explain the fetal-hyperinsulinaemia chain (macrosomia → neonatal hypoglycaemia), and arrange postpartum glucose testing for the ~7-fold future type 2 diabetes risk."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You helped Mrs Devi but slipped on at least one point — offering universal screening, reading the
+      haemoglobin, the first move after diagnosis, the baby's low sugar, or the postpartum follow-up.
+      Replay and run the safe path: screen everyone, confirm anaemia before treating, dietary first-line
+      plus refer, and postpartum testing.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Offer GDM screening to every pregnancy — feeling well doesn't rule it out."
+        - "Read a mid-pregnancy haemoglobin fall as likely dilution; confirm with ferritin."
+        - "GDM: dietary first-line + team referral; don't titrate insulin yourself."
+        - "Explain the baby's transient low sugar (fetal insulin) and arrange postpartum follow-up."

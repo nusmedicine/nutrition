@@ -18,6 +18,7 @@ import LifeStages from './LifeStages.svelte';
 import ClaimAnalyzer from './ClaimAnalyzer.svelte';
 import ResponseChooser from './ResponseChooser.svelte';
 import MenopauseTimeline from './MenopauseTimeline.svelte';
+import RequirementDial from './RequirementDial.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -41,6 +42,7 @@ const REGISTRY = {
   'claim-analyzer': ClaimAnalyzer,
   'response-chooser': ResponseChooser,
   'menopause-timeline': MenopauseTimeline,
+  'requirement-dial': RequirementDial,
   // future: flashcards, diagram, …
 };
 

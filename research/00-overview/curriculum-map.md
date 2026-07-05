@@ -42,7 +42,7 @@
 | 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
 | 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
 | **II** | **— Across the life stages —** (needs vary by stage; each chapter on the **internal↔external driver template** — decision H) | | |
-| 9 | **Pregnancy & Lactation** ✨ | `08-life-cycle-undernutrition` (pregnancy/lactation — **SPLIT source**) + `life-cycle-nutrition.qmd` prose | 🟡 split & deepen |
+| 9 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` (deepened from `08-life-cycle-undernutrition` SPLIT + prose) | 🟢 (2026-07-05; added-topic cites pending draft-verify) |
 | 10 | **Infancy & Early Childhood** ✨ | `08-life-cycle-undernutrition` (infancy — **SPLIT source**) + prose | 🟡 split & deepen |
 | 11 | **Childhood & Adolescence** ✨ | `08-life-cycle-undernutrition` (childhood/adolescence — **SPLIT source**) + prose | 🟡 split & deepen |
 | 12 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | 🟢 (2026-07-05) |
