@@ -28,6 +28,7 @@ book:
         - chapters/appetite-weight-regulation.qmd
     - part: "II · Across the life stages"
       chapters:
+        - chapters/part2-intro.qmd
         - chapters/infancy-early-childhood.qmd
         - chapters/childhood-adolescence.qmd
         - chapters/adulthood-working-life.qmd
