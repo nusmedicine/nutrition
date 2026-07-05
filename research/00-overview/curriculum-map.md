@@ -1,7 +1,11 @@
 # Curriculum map — first-year nutrition (lifestyle-medicine framed)
 
-> **Status (2026-07-05): Part I (Ch.1–8) ✅ DRAFTED, POLISHED & DEPLOYED.** Three Part II/III chapters
-> ✅ DRAFTED (life cycle, what-a-healthy-diet, assessing diet). See [`PART2-ROADMAP.md`](../../PART2-ROADMAP.md).
+> **Status (2026-07-05): PARTS I, II & III ✅ COMPLETE, REVIEWED & DEPLOYED (Ch.1–18).** Part II (the 6
+> life-stage chapters, 9–14) was completed this session; a whole-book editorial+pedagogical review followed
+> (MCQ options de-biased, "honest" tic removed, just-in-time glosses added, Part II intro primer). **Part IV
+> (Ch.19–24, "Advising the chronically ill") now exists as STUBS** ("in preparation" pages so cross-refs
+> resolve) — **NEXT = draft Part IV** (see `HANDOVER.md` §4; dossiers ready for Obesity/T2D/CVD/HTN 🟢,
+> Undernutrition 🟡, CKD/Bone net-new). Part V: Referral (🟢 dossier) + Capstone (= the Integrated-cases page).
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -44,24 +48,24 @@
 | 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
 | 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
 | **II** | **— Across the life stages —** (chronological life course; each on the internal↔external template — decisions H, I) | | |
-| 9 | **Infancy & Early Childhood** ✨ | `08-life-cycle-undernutrition` (infancy — **SPLIT source**) + `life-cycle-nutrition.qmd` prose | 🟡 split & deepen |
-| 10 | **Childhood & Adolescence** ✨ | `08-life-cycle-undernutrition` (childhood/adolescence — **SPLIT source**) + prose | 🟡 split & deepen |
-| 11 | **Adulthood: working life & activity** ✨ | NEW (exercise/sports nutrition + working-life food environment + midlife weight-creep) | 🔴 net-new |
+| 9 | **Infancy & Early Childhood** ✨ | `infancy-early-childhood` | ✅ book |
+| 10 | **Childhood & Adolescence** ✨ | `childhood-adolescence` | ✅ book |
+| 11 | **Adulthood: working life & activity** ✨ | `adulthood-working-life` | ✅ book |
 | 12 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` | ✅ book (2026-07-05) |
 | 13 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | ✅ book (2026-07-05) |
-| 14 | **Healthy Ageing (Older Adults)** ✨ | `08-life-cycle-undernutrition` (older-age — **SPLIT source**) + prose | 🟡 split & deepen |
+| 14 | **Healthy Ageing (Older Adults)** ✨ | `healthy-ageing` | ✅ book |
 | **III** | **— Advising the healthy —** (toolkit + skills; prevention) | | |
 | 15 | What a Healthy Diet Looks Like (patterns, guidelines & **types of diets**) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
 | 16 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
 | 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
-| **IV** | **— Advising the chronically ill —** (maintain health *with* disease) | | |
-| 19 | Obesity & Metabolic Syndrome (over-nutrition) | `09-overnutrition` | 🟢 |
-| 20 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 |
-| 21 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
-| 22 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
-| 23 | **Chronic Kidney Disease** ✨ (new) | NEW | 🔴 |
-| 24 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
+| **IV** | **— Advising the chronically ill —** (maintain health *with* disease) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); dossier status below | | |
+| 19 | Obesity & Metabolic Syndrome (over-nutrition) | `09-overnutrition` | 🟢 dossier · stub in book |
+| 20 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 dossier · stub in book |
+| 21 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 dossier · stub in book |
+| 22 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 dossier · stub in book |
+| 23 | **Chronic Kidney Disease** ✨ (new) | NEW (net-new dossier needed) | 🔴 dossier · stub in book |
+| 24 | **Bone Health & Osteoporosis** ✨ | NEW (net-new dossier needed) | 🔴 dossier · stub in book |
 | **V** | **— Integration & practice —** | | |
 | 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
