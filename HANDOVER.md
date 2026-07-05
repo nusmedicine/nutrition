@@ -1,15 +1,16 @@
 # HANDOVER — continue in a new session
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-05 (PART III COMPLETE ·
-> SPINE RE-AXED TO 22 CHAPTERS · 6 LOCAL COMMITS AWAITING REVIEW/PUSH).**
+> SPINE RE-AXED TO 22 CHAPTERS · PART II/III PUSHED & DEPLOYING).**
 >
 > **★★ NEXT ACTION: DRAFT Ch.10 "Menopause & Midlife Health"** — the one remaining front-half chapter
 > (net-new dossier needed). Then Part IV (conditions) and Part V (integration). See "Remaining work".
 >
-> **★ THE BOOK IS LIVE (Part I only):** <https://nusmedicine.github.io/nutrition/> — deployed from
-> `main` by the Pages CI on push. **The Part II/III work below is committed locally but NOT pushed**
-> (the user is reviewing first). `git rev-list --count origin/main..main` = **6**. Pushing `main`
-> redeploys the live site — get explicit go-ahead.
+> **★ THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages
+> CI on every push. **Part II/III (the front half of the advising arc) was pushed 2026-07-05 and is
+> deploying now** — verify the `publish.yml` run (§6). Live after this deploy: Part I (Ch.1–8) + the
+> life-cycle, what-a-healthy-diet, evidence-vs-hype, assessing-diet and counselling chapters. (Ch.10
+> Menopause still to come — until then the rendered numbers compact; see the numbering caveat below.)
 
 ## 0. What happened this session (2026-07-05)
 
@@ -191,9 +192,11 @@ research/
 
 ## 8. Git state
 
-- **`main` is 6 commits ahead of `origin/main`** (list above, `e895bf5`…`d791ac0`). **Working tree clean**
-  except the untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it). `git fsck` clean.
-- **NOT pushed** — the user is reviewing locally. Push redeploys the live site (Part II/III) → confirm first.
+- **PUSHED to `origin/main` 2026-07-05** — the whole Part II/III re-axis + chapter stack (`e895bf5`…the
+  handover commit) is on the remote and **deploying via the Pages CI** (`publish.yml` → build islands →
+  render → asset check → deploy `book/_book`). Verify the run (§6); `origin/main..main` should be empty.
+- **Working tree clean** except the untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it).
+  `git fsck` clean. Future work: commit on `main`, push when ready — each push redeploys the live site.
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. Deploy branch `main` → Pages CI →
   <https://nusmedicine.github.io/nutrition/>. `book/_book/` is gitignored (built by CI).
 
