@@ -26,9 +26,12 @@ book:
         - chapters/integrative-metabolism.qmd
         - chapters/gut-microbiome.qmd
         - chapters/appetite-weight-regulation.qmd
-    - part: "II · Advising people in a state of health"
+    - part: "II · Healthy eating across life"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd
+        - chapters/life-cycle-nutrition.qmd
+    - part: "III · Advising patients about food"
+      chapters:
         - chapters/06-dietary-assessment.qmd
     - part: "Integrated cases"
       chapters:

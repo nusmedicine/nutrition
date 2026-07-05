@@ -1,0 +1,175 @@
+id: mrs-devi-gdm
+title: "Mrs Devi, 26 weeks pregnant: needs and screening"
+objectives:
+  - "Identify the key nutritional needs of pregnancy and correct the 'eat for two' myth."
+  - "Explain why Singapore screens every pregnancy for gestational diabetes, not just high-risk women."
+  - "Recognise the implications of a GDM diagnosis and your role — dietary first-line + refer to the team — without over-reaching into insulin management."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, pregnancy, gdm, singapore, life-cycle]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mrs Devi"
+  age: 31
+  sex: female
+  occupation: "primary-school teacher"
+  presentation: "First pregnancy, 26 weeks along. BMI 27, and her mother has type 2 diabetes. Attends a routine antenatal visit feeling well. She's health-conscious and a little anxious about 'doing it right' — she's heard she should 'eat for two', and a friend mentioned a glucose test she's not sure applies to her."
+  voice: "Cheerful and eager to do the right thing; asks practical questions; slightly anxious about the baby."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: neutral
+    title: "\"I just want to do right by the baby\""
+    body: |
+      Mrs Devi is 26 weeks into her first pregnancy, feels well, and has a bag of questions. Her BMI
+      is 27 and her mother has type 2 diabetes. Help her with what actually matters nutritionally,
+      explain Singapore's screening, and know where your role ends and the team's begins.
+    next: q-needs
+
+  - id: q-needs
+    type: mcq
+    emotion: concerned
+    stem: "*\"Should I be eating for two now, doctor? I want the baby to get enough.\"*"
+    options:
+      - id: a
+        text: "\"Energy needs only go up a little, mostly later on — so it's really about quality, not quantity. Make sure you're getting enough folate, iron and iodine, and stay off alcohol and unpasteurised foods.\""
+        correct: true
+        feedback: "Right — 'eating for two' is a myth; it's roughly one extra small meal a day later in pregnancy. The quality nutrients (folate for the baby's spine and brain, iron, iodine) matter far more, and the food-safety points are worth a mention."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-screen
+      - id: b
+        text: "\"Yes — you're eating for two now, so double your portions to be safe.\""
+        correct: false
+        feedback: "This is the myth. Doubling intake mostly adds excess weight (and raises GDM risk); energy needs rise only modestly. Lead with quality — folate, iron, iodine — not quantity."
+        goto: q-screen
+      - id: c
+        text: "\"Actually, with your BMI you should eat less to avoid diabetes in pregnancy.\""
+        correct: false
+        feedback: "Under-eating isn't the answer either — the baby needs adequate nutrition. It's about *quality* and the right screening, not restriction."
+        goto: q-screen
+
+  - id: q-screen
+    type: mcq
+    emotion: neutral
+    stem: "*\"My friend did a glucose test, but I feel completely fine. Do I really need it?\"*"
+    options:
+      - id: a
+        text: "\"Yes — in Singapore every pregnancy is offered the glucose test at around 24 to 28 weeks, whatever your risk. Gestational diabetes usually causes no symptoms, and testing only the 'high-risk' women would miss about half the cases.\""
+        correct: true
+        feedback: "Correct — universal screening. Local evidence (the GUSTO cohort) showed risk-based selection would have missed roughly half of GDM cases in Asian women, which is exactly why everyone is screened at 24–28 weeks."
+        effects: { quality: +1 }
+        reaction: surprised
+        goto: q-result
+      - id: b
+        text: "\"Only high-risk women need it — but since your BMI and family history make you high-risk, yes, you should do it.\""
+        correct: false
+        feedback: "This endorses risk-based screening, which is precisely what Singapore *doesn't* rely on — it would miss about half the cases. Everyone is screened, regardless of risk profile."
+        goto: q-result
+      - id: c
+        text: "\"No — if you feel fine, there's no need to test.\""
+        correct: false
+        feedback: "Gestational diabetes is usually symptomless, so 'feeling fine' tells you nothing. That's the whole reason for routine universal screening."
+        goto: q-result
+
+  - id: q-result
+    type: mcq
+    emotion: concerned
+    stem: "Her glucose test comes back **positive** for gestational diabetes. She's worried. What's the right first move?"
+    options:
+      - id: a
+        text: "Explain it simply and reassure her, start with realistic dietary changes (lower-GI local staples, spreading out carbohydrate, cutting sugary drinks), and bring in the antenatal team — dietitian, obstetrician, diabetes nurse."
+        correct: true
+        feedback: "Exactly — first-line is dietary, delivered with the team. You reassure, give practical food guidance, and refer; you don't manage it single-handed."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-followup
+      - id: b
+        text: "Start her on insulin straight away and set her daily glucose targets yourself."
+        correct: false
+        feedback: "That over-reaches your role here. Insulin and glucose targets are decided by the team when diet isn't enough — start with dietary first-line and refer, don't titrate insulin yourself."
+        goto: q-followup
+      - id: c
+        text: "Tell her it's mild and nothing to worry about, and carry on as normal."
+        correct: false
+        feedback: "GDM does need action — untreated it raises the risk of a larger baby and delivery complications. Dietary first-line plus team referral is the move, not dismissal."
+        goto: q-followup
+
+  - id: q-followup
+    type: mcq
+    emotion: neutral
+    stem: "*\"So once the baby's born, this all just goes away, right?\"*"
+    options:
+      - id: a
+        text: "\"The high sugar usually settles after delivery — but you'll need a glucose test around 6 to 12 weeks postpartum and regular checks after, because gestational diabetes means a higher chance of type 2 diabetes later in life.\""
+        correct: true
+        feedback: "Correct — GDM usually resolves after birth, but it's a strong signal of future type 2 diabetes risk, so postpartum testing and ongoing vigilance matter. This is the direct link to the War on Diabetes."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Yes — once the baby's out it's completely gone, no need for any follow-up.\""
+        correct: false
+        feedback: "Not quite. The high sugar usually settles, but GDM predicts future type 2 diabetes — she needs a postpartum glucose test and ongoing screening. Skipping follow-up misses a key prevention window."
+        goto: route
+      - id: c
+        text: "\"No — you have diabetes for life now and will need medication from here on.\""
+        correct: false
+        feedback: "Overstated and alarming — GDM usually resolves after delivery. The correct message is future *risk*, managed with follow-up testing and lifestyle, not lifelong medication starting now."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Anticipate, screen, recognise, refer"
+    body: |
+      The through-line: lead with **quality** not "eating for two"; know that Singapore screens
+      **every** pregnancy at 24–28 weeks (risk-based screening misses about half of local cases);
+      and when GDM is found, start **dietary first-line with the team** and arrange **postpartum
+      follow-up** — without over-reaching into insulin management. Replay and try the safe path.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Life-stage needs, handled well"
+    body: |
+      You corrected the "eating for two" myth and led with the nutrients that matter, explained why
+      Singapore screens every pregnancy (not just high-risk women), responded to a positive result
+      with dietary first-line plus team referral rather than reaching for insulin, and flagged the
+      postpartum follow-up that links gestational diabetes to future type 2 diabetes. That is exactly
+      the role at this stage — anticipate, screen, recognise, refer. *(Insulin, glucose targets and the
+      detailed management of diabetes are the diabetes chapter's territory.)*
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Pregnancy is quality over quantity: folate (ideally pre-conception), iron and iodine matter far more than 'eating for two'."
+        - "Singapore screens every pregnancy for GDM at 24–28 weeks — risk-based screening would miss about half of local cases."
+        - "A GDM diagnosis: reassure, dietary first-line, refer to the team, and arrange postpartum glucose testing (future type 2 diabetes risk)."
+        - "Don't over-reach: insulin and glucose targets are team decisions, not yours to set."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You helped Mrs Devi but slipped on at least one point — the "eating for two" myth, the reason
+      for universal screening, over-reaching into insulin, or the postpartum follow-up. Replay and run
+      the safe path: quality over quantity, universal screening, dietary first-line + refer, and
+      postpartum testing.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Lead with nutrient quality, not eating for two."
+        - "Singapore screens every pregnancy for GDM at 24–28 weeks."
+        - "GDM: dietary first-line + team referral + postpartum follow-up; don't manage insulin yourself."

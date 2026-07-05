@@ -1,0 +1,71 @@
+id: life-stages
+title: "Life-stage needs explorer"
+intro: >
+  A healthy plate is a baseline, not a fixed prescription — needs shift predictably across a life.
+  Step along the arc and pick a stage to see what defines its nutrition: the one big principle, the
+  nutrients that matter most and why, and the Singapore guideline that anchors it.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+
+stages:
+  - id: pregnancy
+    label: "Pregnancy & lactation"
+    emoji: "🤰"
+    principle: "Quality over quantity. Energy needs rise only modestly (mainly the later trimesters) — a few specific micronutrients matter far more than \"eating for two\"."
+    needs:
+      - { nutrient: "Folate", why: "periconceptional folic acid sharply reduces the risk of neural tube defects — needed from before conception." }
+      - { nutrient: "Iron", why: "maternal blood volume expands and the fetus builds its own stores." }
+      - { nutrient: "Iodine", why: "essential for fetal brain and nervous-system development." }
+      - { nutrient: "Calcium & vitamin D", why: "important for the developing fetal skeleton (the requirement barely rises — the gut simply absorbs calcium more efficiently in pregnancy)." }
+      - { nutrient: "Extra energy & fluids (while breastfeeding)", why: "lactation is the one stage where energy needs genuinely climb — roughly 450–500 kcal/day more, plus higher fluid needs." }
+    watch: "No alcohol; limit high-mercury fish; avoid unpasteurised / high-listeria foods. In Singapore every pregnancy is offered a 75 g glucose test at 24–28 weeks — universal screening for gestational diabetes."
+    guideline: "WHO antenatal care; HPB"
+  - id: infancy
+    label: "Infancy (0–2 y)"
+    emoji: "👶"
+    principle: "Exclusive breastfeeding for about the first 6 months, then complementary foods from around 6 months, with breastfeeding continued to 2 years."
+    needs:
+      - { nutrient: "Breast milk", why: "ideal nutrition plus immune protection and bonding; the recommended sole food to ~6 months." }
+      - { nutrient: "Iron (from ~6 months)", why: "infant iron stores run low around 6 months, so complementary foods should be iron-rich." }
+      - { nutrient: "No added salt or sugar", why: "infant kidneys and developing tastes don't need them." }
+    watch: "Don't start solids before 4 months or delay much past 6. The \"~6 months exclusive\" window is the standing recommendation, but carries a genuine allergy / iron-timing debate — teach it with that caveat."
+    guideline: "WHO / HPB; SMJ feeding consensus"
+  - id: childhood
+    label: "Childhood (2–12 y)"
+    emoji: "🧒"
+    principle: "Steady growth and habit-building — adequate energy and nutrient density, plenty of variety, and family meals that model good choices."
+    needs:
+      - { nutrient: "Calcium & vitamin D", why: "bone is being laid down throughout childhood." }
+      - { nutrient: "Adequate energy & protein", why: "to fuel continuous growth." }
+      - { nutrient: "Limit free sugars", why: "for dental health and to set lifelong habits early." }
+    watch: "Use child-sized My Healthy Plate portions; sweet drinks are an easy, high-yield thing to cut."
+    guideline: "HPB My Healthy Plate"
+  - id: adolescence
+    label: "Adolescence (13–18 y)"
+    emoji: "🧑"
+    principle: "The growth spurt and peak bone accrual make demands high — and it's a window for both nutrient deficiency and emerging diet-related problems."
+    needs:
+      - { nutrient: "Calcium & vitamin D", why: "most of peak bone mass is built by early adulthood — this is the window." }
+      - { nutrient: "Iron", why: "needs rise with growth, and menstruating girls lose iron each cycle — a common deficiency group." }
+      - { nutrient: "Energy & protein", why: "to support the rapid growth spurt." }
+    watch: "Be alert to restrictive dieting and body-image pressures; this is a common age for disordered eating to start."
+    guideline: "HPB"
+  - id: adulthood
+    label: "Adulthood"
+    emoji: "🧑‍🦱"
+    principle: "Maintenance and prevention — the standard My Healthy Plate is the default, aimed at keeping risk low over the long run."
+    needs:
+      - { nutrient: "A balanced plate", why: "½ fruit & vegetables, ¼ wholegrains, ¼ protein, water to drink — the baseline the whole book builds on." }
+      - { nutrient: "Folate & iron (women of reproductive age)", why: "worth keeping in mind before any pregnancy — needs are highest before folate is usually started." }
+    watch: "This is where most prevention happens; the earlier chapters (patterns, assessment, counselling) all live here."
+    guideline: "HPB My Healthy Plate"
+  - id: older
+    label: "Older age (65+)"
+    emoji: "🧓"
+    principle: "Energy needs fall, but nutrient density must rise — and protein per kilogram goes UP, not down, to defend muscle against sarcopenia and frailty."
+    needs:
+      - { nutrient: "More protein (~1.0–1.2 g/kg/day)", why: "higher than a younger adult's ~0.8, to counter age-related muscle loss." }
+      - { nutrient: "Calcium & vitamin D", why: "to slow age-related bone loss." }
+      - { nutrient: "Vitamin B12", why: "absorption falls with age, so deficiency is common." }
+      - { nutrient: "Fluids & fibre", why: "to counter the common problem of constipation." }
+    watch: "Appetite, dentition, swallowing, and eating alone all cut intake — social isolation is a red flag. Unintentional weight loss signals undernutrition risk (the Undernutrition & Malnutrition chapter)."
+    guideline: "HPB Dietary Guidelines for Older Adults"

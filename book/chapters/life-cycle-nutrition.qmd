@@ -1,0 +1,181 @@
+# Nutrition across the life cycle
+
+> *The healthy plate is a **baseline**, not a fixed prescription. What a body needs shifts
+> predictably from the womb to old age — and anticipating those shifts is a large part of giving
+> nutrition advice that actually fits the person in front of you.*
+
+## Nutrition is dynamic
+
+The *What a Healthy Diet Looks Like* chapter gave you a reference model — My Healthy Plate, the
+patterns, the shared messages. This chapter adds the missing dimension: **time**. A pregnant woman,
+a six-month-old infant, a growing teenager and a frail 80-year-old are not eating wrong versions of
+one diet; they have genuinely different needs, and "one plate fits all" quietly fails each of them.
+
+The task here is **anticipation and recognition** — to know which nutrients or feeding principles
+define each stage, and to spot when a life-stage need has become a clinical problem — not to write
+the detailed therapeutic plan (that is dietitian and later-year work). Step along the arc below to
+see the shape of it, then we walk each stage in turn.
+
+<div data-island="life-stages" data-src="/diagrams/life-stages.yml"></div>
+
+## Pregnancy and lactation
+
+**Quality far more than quantity.** The oldest myth here is "eating for two." In fact energy needs
+rise only **modestly** and mainly in the later trimesters — on the order of an extra small meal a
+day, not a doubling [@whoAntenatal2016]. What matters far more is a handful of specific
+**micronutrients**:
+
+- **Folate** — periconceptional **folic acid** (around 400 µg/day, ideally started *before*
+  conception) sharply reduces the risk of **neural tube defects** such as spina bifida. Because the
+  neural tube closes in the first weeks — often before a pregnancy is confirmed — the timing is the
+  whole point [@whoAntenatal2016].
+- **Iron** — requirements rise substantially as maternal blood volume expands and the fetus builds
+  its own stores; iron-deficiency anaemia is common in pregnancy.
+- **Iodine** — needed for the thyroid hormone that drives **fetal brain development**; the early
+  fetus depends entirely on the mother's supply.
+- **Calcium and vitamin D** — important for the developing fetal skeleton. (Interestingly, the
+  *requirement* doesn't rise much, because the gut simply absorbs dietary calcium far more
+  efficiently in pregnancy — but adequate intake still matters.)
+
+**Food safety** joins the picture: avoid **alcohol** entirely (no known safe amount), **limit
+high-mercury fish** (shark, swordfish, marlin), and avoid **unpasteurised dairy and other
+high-listeria foods**, which can cause miscarriage or stillbirth [@whoAntenatal2016]. Detailed
+supplementation regimens are covered where the *Micronutrients, Hydration & Electrolytes* chapter
+left off.
+
+**Lactation flips the energy message.** Making milk is the one life stage where energy needs
+genuinely *do* climb — on the order of an extra **450–500 kcal a day**, with higher fluid needs too.
+So a breastfeeding mother really is, near enough, eating for two — the one time that phrase earns its
+keep.
+
+### Gestational diabetes: why Singapore screens everyone
+
+Singapore's defining antenatal nutrition issue is **gestational diabetes mellitus (GDM)** — glucose
+intolerance first recognised in pregnancy. It is strikingly common locally: the **GUSTO** birth
+cohort found GDM in roughly **one in five** pregnancies [@gusto_gdm]. (Treat that "~18.9%" as
+cohort- and criteria-dependent — it came from one Singapore cohort using older 1999 WHO
+diagnostic criteria — not as a fixed national rate.)
+
+The load-bearing lesson is *how* we screen. GUSTO showed that if Singapore had tested only
+**high-risk** women — the older, heavier, family-history approach used in some countries —
+it would have **missed about half** of all GDM cases, because risk factors predict GDM poorly in
+Asian populations [@gusto_gdm]. So Singapore screens **universally**: every pregnancy is offered a
+**75 g oral glucose tolerance test at 24–28 weeks**, whatever the risk profile [@aceGDM2018].
+
+::: {.callout-note}
+## The numbers, for recognition (not recall)
+A positive test is any one of: fasting glucose **≥ 5.1**, 1-hour **≥ 10.0**, or 2-hour **≥ 8.5
+mmol/L** (the IADPSG thresholds) [@aceGDM2018]. You don't memorise these numbers — the point
+to carry is the *pathway*: **screen everyone at 24–28 weeks**, and know that a woman with GDM needs
+a **postpartum glucose test** and lifelong higher vigilance, because GDM strongly predicts future
+**type 2 diabetes**. That link is exactly why GDM sits inside Singapore's *War on Diabetes*
+[@mohWarOnDiabetes].
+:::
+
+First-line management is dietary — lower-glycaemic local swaps and spreading carbohydrate through
+the day — delivered by a **team** (obstetrician, dietitian, diabetes nurse). Insulin and glucose
+targets are the diabetes chapter's territory, not this one.
+
+## Infancy
+
+**Start with breast milk.** WHO and HPB recommend **exclusive breastfeeding for about the first six
+months** — breast milk alone, no water or other foods — for its ideal nutrition, immune protection
+and bonding, then **complementary foods from around six months** (not before four, not delayed much
+past six), with breastfeeding continued to two years [@whoBreastfeeding; @smjFeeding2023]. Around
+six months, an infant's own **iron** stores run low, so the first solid foods should be
+**iron-rich**, and there is no need for added salt or sugar.
+
+::: {.callout-warning}
+## "~6 months" is the recommendation — with an honest caveat
+Exclusive breastfeeding to six months is the standing guideline, but it is genuinely debated: some
+evidence suggests introducing allergenic foods and iron-rich solids in the **4–6 month** window may
+help prevent allergy and iron deficiency. Teach the recommendation, and hold the nuance — this is a
+live area, not settled dogma [@smjFeeding2023].
+:::
+
+## Childhood and adolescence
+
+Through childhood, steady growth calls for **adequate energy and nutrient density**, plenty of
+**variety**, and — because habits set early — a genuine effort to **limit free sugars** (for teeth
+and for the long run). Family meals that model good choices do more than any rule.
+
+**Adolescence raises the stakes.** The growth spurt and — critically — the **peak-bone-mass window**
+push several needs to their lifetime highest:
+
+- **Calcium and vitamin D** — most of the skeleton you carry for life is laid down by the late
+  teens, so **adolescence has the highest calcium needs of any age**. Miss this window and it
+  cannot be fully recovered later (a thread the bone-health and menopause chapters pick up).
+- **Iron** — needs rise with growth, and **menstruating girls** lose iron every cycle, making them
+  a classic deficiency group.
+- **Energy and protein** — to fuel the spurt.
+
+Adolescence is also a **window of vulnerability**: for micronutrient deficiency, for emerging
+diet-related disease, and for **disordered eating** — restrictive dieting and body-image pressure
+commonly begin here, a do-no-harm flag the *Assessing Diet & Talking to Patients* chapter takes
+further.
+
+## Older age
+
+Old age flips the usual intuition. Energy needs **fall** (less activity, less muscle), but the need
+for **nutrients does not** — so food has to become **more nutrient-dense per calorie**, not less.
+The single most counter-intuitive point:
+
+- **Protein needs go *up*, not down.** To defend muscle against **sarcopenia** and frailty, healthy
+  older adults are advised roughly **1.0–1.2 g/kg/day** — above the ~0.8 g/kg of a younger adult
+  [@protAge2013]. Under-eating protein is one of the commonest, most correctable drivers of decline.
+- **Calcium and vitamin D** to slow bone loss; **vitamin B12**, because its absorption falls with
+  age; and enough **fluid and fibre** to counter constipation.
+
+But the deeper problem in older age is often not *what* to eat but *whether* they eat at all.
+**Appetite fades, teeth and swallowing fail, and — powerfully — people eat less when they eat
+alone.** Social isolation is a genuine red flag. When an older person is losing weight without
+trying, that is no longer a life-stage need but a sign of **undernutrition** — recognised, screened
+and managed as its own topic in the *Undernutrition & Malnutrition* chapter.
+
+::: {.callout-tip}
+## 🍜 Eating out & 🍳 healthy kitchen: feed the person you have
+For a frail senior, the win is almost never a "diet food" — it is **fortifying the familiar**. Add
+an egg, some fish, minced meat or *tau kwa* to the porridge or *mee sua*; choose the **yong tau foo**
+with more protein pieces; offer small, frequent meals and softer textures for tired teeth. For a
+mum-to-be with GDM, keep the meals she loves but shift the staple lower-GI (brown rice, wholegrain
+*bee hoon*) and swap the sweet drink for water or a Nutri-Grade A/B choice. Small, respectful
+adjustments to real food beat an unfamiliar regimen every time.
+:::
+
+## The Singapore picture
+
+Each stage has a local anchor. HPB publishes **Dietary Guidelines for Older Adults** — Singapore's
+first seniors' guidelines — leading with nutrient density, more protein, calcium-rich foods, softer
+textures and more fluids [@hpbSeniors]. Infant feeding follows WHO, reinforced by the local
+**consensus statements** on feeding infants and young children [@smjFeeding2023]. And GDM ties
+life-cycle nutrition directly to national policy: universal screening exists precisely because the
+local evidence showed selective screening fails Asian women [@gusto_gdm; @aceGDM2018]. Layered on
+top are the population gaps the National Nutrition Survey keeps flagging — too little wholegrain,
+too much sodium — which bite hardest exactly where reserves are thinnest, in pregnancy and old age
+[@mohNNS2022].
+
+## So — is there one plate for everyone?
+
+No — and that is the point. My Healthy Plate is the **baseline**, and life stage is the dial that
+turns it: more folate and iron and a glucose test in pregnancy; breast milk then iron-rich solids in
+infancy; calcium and iron through the bone-building teens; more protein and more density, eaten in
+company, in old age. Your job now is to **anticipate** the stage-defining need and **recognise** when
+a normal shift has tipped into a clinical problem — then advise simply, and refer when it runs deeper
+than everyday guidance [@crowley2019].
+
+## Check your understanding
+
+<div data-island="quiz" data-src="/quizzes/life-cycle-nutrition.quiz.yml"></div>
+
+## Practise: Mrs Devi, 26 weeks pregnant
+
+Mrs Devi attends a routine antenatal visit. She has a raised BMI and a family history of diabetes,
+and wonders whether she needs "to eat for two" and whether the glucose test her friend mentioned
+really applies to her. Work through her nutritional needs and Singapore's screening pathway — and
+notice where your role ends and the team's begins. Your choices branch the case.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/mrs-devi-gdm.case.yml"></div>

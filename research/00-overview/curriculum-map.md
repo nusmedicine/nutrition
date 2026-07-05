@@ -1,18 +1,21 @@
 # Curriculum map — first-year nutrition (lifestyle-medicine framed)
 
-> **Status (2026-07-05): Part I (Ch.1–8) ✅ DRAFTED, POLISHED & DEPLOYED. Part II (Ch.9–13) 🟢 PLANNED
-> + PREPPED — see [`PART2-ROADMAP.md`](../../PART2-ROADMAP.md) (5-dossier pre-flight, staged citations,
-> decisions A–D below). Next: draft Ch.9. Part III/IV not started.** (Spine restructured 2026-06-30.)
-> Four parts around a firm physiological foundation, leading with *advising well people*, then
-> common conditions, then integration. **Part I sequencing is research-backed** (see §"Part I"
-> below — surveyed 6 nutrition + 4 physiology/biochem texts, then verified).
+> **Status (2026-07-05): Part I (Ch.1–8) ✅ DRAFTED, POLISHED & DEPLOYED. Ch.9 & Ch.11 ✅ DRAFTED;
+> Ch.10 🟡 drafting; Ch.12–13 🟢 prepped — see [`PART2-ROADMAP.md`](../../PART2-ROADMAP.md).**
+> **RESTRUCTURED 2026-07-05:** the old single Part II ("Advising people in a state of health") is now
+> **split into two parts** — **Part II "Healthy eating across life"** (Ch.9–10, the *knowledge* of
+> healthy nutrition, general then life-stage) and **Part III "Advising patients about food"** (Ch.11–13,
+> the transferable *clinical skills*: assess, counsel, appraise). Conditions → **Part IV**, integration
+> → **Part V**. Rationale: a clean know-it→do-it arc, and the skills are reused by the disease chapters.
+> **Part I sequencing is research-backed** (see §"Part I" below — surveyed 6 nutrition + 4
+> physiology/biochem texts, then verified). (Spine restructured 2026-06-30; parts re-split 2026-07-05.)
 > Singapore-first (HPB/MOH) + international. Design logic → [`frameworks.md`](frameworks.md).
 > Legend: 🔴 not started · 🟡 researching · 🟢 dossier ready · ✅ in book.
 
 ## Design philosophy
 1. **A firm metabolic & physiological basis first**, sequenced on one principle: *substrate defined
    before its fate; absorbed before metabolised; pathways before integration; system before its regulation.*
-2. **Lead with health, then disease** — Part II advises people in a *state of health*; Part III applies it to conditions.
+2. **Lead with health, then disease** — Parts II–III cover people in a *state of health* (II = what healthy eating is, across the life cycle; III = the clinical skills to advise them); Part IV applies nutrition to conditions; Part V integrates.
 3. **Cases in three tiers** — embedded per-chapter (deterministic), a case bank, and a **capstone**
    integrative-cases chapter (home of the optional **LLM patient**; planned now, built later).
 
@@ -29,20 +32,21 @@
 | 6 | **Integrative Metabolism (Fed / Fasted)** ✨ | `integrative-metabolism` | ✅ book |
 | 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
 | 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
-| **II** | **— Advising people in a state of health — PLANNED + PREPPED 2026-07-05 ([roadmap](../../PART2-ROADMAP.md))** | | |
-| 9 | What a Healthy Diet Looks Like (patterns & guidelines) | `05-dietary-guidelines-patterns` (+ food environment) | 🟢 prepped |
-| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` (life-cycle part — **SPLIT source**) | 🟢 prepped |
-| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | 🟢 prepped |
+| **II** | **— Healthy eating across life — (knowledge)** ([roadmap](../../PART2-ROADMAP.md)) | | |
+| 9 | What a Healthy Diet Looks Like (patterns, guidelines & popular diets) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
+| 10 | Nutrition Across the Life Cycle | `08-life-cycle-undernutrition` (life-cycle part — **SPLIT source**) | 🟡 drafting |
+| **III** | **— Advising patients about food — (clinical skills)** | | |
+| 11 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 12 | Behaviour-Change Counselling | `13-counselling` | 🟢 prepped |
-| 13 | Evidence vs Hype & Everyday Questions (incl. food & acne) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | 🟢 prepped |
-| **III** | **— Nutrition in common conditions (core + a few) —** | | |
+| 13 | Evidence vs Hype & Everyday Questions (incl. food & acne + popular-diet appraisal) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | 🟢 prepped |
+| **IV** | **— Nutrition in common conditions (core + a few) —** | | |
 | 14 | Obesity & Metabolic Syndrome | `09-overnutrition` | 🟢 |
 | 15 | Type 2 Diabetes | `11-type-2-diabetes` | 🟢 |
 | 16 | Cardiovascular Disease & Hypertension | `10-cvd-hypertension` | 🟢 |
 | 17 | **Bone Health & Osteoporosis** ✨ | NEW | 🔴 |
 | 18 | **Menopause & Midlife Health** ✨ | NEW | 🔴 |
 | 19 | Undernutrition & Malnutrition | `08-life-cycle-undernutrition` (undernutrition part — **SPLIT source**) | 🟡 |
-| **IV** | **— Integration & practice —** | | |
+| **V** | **— Integration & practice —** | | |
 | 20 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 21 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
 
@@ -121,8 +125,9 @@ content. *(Note, 2026-07-04: **Ch.6 is now self-contained** — it teaches the c
 
 | Topic | Owner (defines it) | Reuses / cross-refs |
 |---|---|---|
-| Dietary patterns & guidelines (Med / DASH / QQH) | **Ch.9** | Ch.1 (teasers), Part III (therapeutic use) |
+| Dietary patterns & guidelines (Med / DASH / QQH) | **Ch.9** | Ch.1 (teasers), Part IV (therapeutic use) |
 | Food environment & policy *framing* (Nutri-Grade / HCS) | **Ch.9** | Ch.11 (the label-reading **skill**) |
+| Popular-diet *map* (keto / low-carb / IF / paleo) | **Ch.9** (what they are + a pattern-thinking verdict) | Ch.13 (run the appraisal toolkit on the claims), Part IV (therapeutic low-carb → T2D remission) |
 | Diet-history methods & malnutrition screening | **Ch.11** | Ch.12 (the change conversation), Ch.20 (referral) |
 | The 5 A's + MI + SMART goals | **Ch.12** | Ch.11 (opening moves only), Ch.21 (live-chat capstone) |
 | Evidence-literacy toolkit | **Ch.13** | all of Part I (its trials/myths → practice material) |
@@ -138,6 +143,15 @@ content. *(Note, 2026-07-04: **Ch.6 is now self-contained** — it teaches the c
   *pathological* state. See the SPLIT DIRECTIVE atop `research/chapters/08-life-cycle-undernutrition.md`.
 - **(D) Ch.13 vs Part I:** **demote** Part I's landmark trials/myths (PREDIMED, DASH, detox, keto…) from
   "content to teach" to *worked examples the student runs the toolkit on* — do not re-teach them.
+- **(E) Part split (2026-07-05):** the old single Part II is split — **Part II "Healthy eating across
+  life"** (knowledge: Ch.9–10) and **Part III "Advising patients about food"** (clinical skills:
+  Ch.11–13). Conditions → Part IV, integration → Part V. Cross-refs are by *name*, so numbering ripple
+  is safe.
+- **(F) Popular diets (2026-07-05):** **Ch.9 owns the map** (what keto / low-carb / intermittent fasting /
+  paleo are + a pattern-thinking verdict + how to counsel), **Ch.13 owns the appraisal** (run the toolkit
+  on one or two, per decision D). Therapeutic low-carb / VLCD for T2D *remission* (DiRECT) → Part IV
+  (diabetes), not here. Rationale: students must talk sensibly about diets patients ask about, even the
+  non-recommended ones.
 
 ---
 

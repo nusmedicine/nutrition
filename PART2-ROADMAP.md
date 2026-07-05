@@ -1,5 +1,14 @@
 # Part II roadmap — "Advising people in a state of health" (Ch.9–13)
 
+> **★ UPDATE 2026-07-05 (restructure + progress).** Ch.9 (`e895bf5`) and Ch.11 (`31cdbbc`) are **DRAFTED,
+> reviewed & committed**; Ch.10 is **in progress**. The old single Part II is now **split into two parts**
+> — **Part II "Healthy eating across life"** (knowledge: Ch.9–10) and **Part III "Advising patients about
+> food"** (clinical skills: Ch.11–13); conditions → Part IV, integration → Part V (decision **E** in
+> `curriculum-map.md`). New decision **F**: **popular diets** (keto/low-carb/IF/paleo) get a *map* in Ch.9
+> and *appraisal* in Ch.13 (therapeutic low-carb → Part IV). Draft order now: **Ch.10 → Ch.12 → Ch.13**,
+> plus a popular-diets section to add to the already-drafted Ch.9. The scorecard/capsules below predate the
+> split (they still say one part) — the per-chapter spine/island/case picks remain valid.
+
 > Full roadmap from a 5-dossier pre-flight (one reviewer per chapter, 2026-07-05). Part II turns Part I's
 > science into **practice**: what a good diet is, how it shifts across a life, how to assess someone's
 > eating, how to help them change it, and how to sort evidence from hype. Chapters **11 & 12 are the
