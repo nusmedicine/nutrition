@@ -17,9 +17,9 @@ questions:
   - id: q2
     stem: "A patient asks which national dietary guideline is \"right\" — WHO, the American Heart Association, or the US guidelines. What is the best answer?"
     options:
-      - text: "They broadly **converge** on the same short list of messages; the differences are mostly wording and emphasis"
+      - text: "They broadly converge on the same core messages"
         correct: true
-        feedback: "Correct — a review of 90 national guidelines found near-universal agreement: variety, plenty of fruit & veg, whole grains, legumes, and limits on sugar, salt and certain fats. Convergence is the reassuring point."
+        feedback: "Correct — the differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit & veg, whole grains, legumes, and limits on sugar, salt and certain fats. Convergence is the reassuring point."
       - text: "The US guidelines are the most scientific, so follow those"
         correct: false
         feedback: "No guideline is the single authority — and they agree far more than they differ. The shared core is what matters, not picking one."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "Why do modern guidelines increasingly emphasise **dietary patterns** rather than single nutrients?"
     options:
-      - text: "Because foods act in combination — a whole pattern can predict health better than any nutrient in isolation (\"food synergy\")"
+      - text: "Because foods act in combination (\"food synergy\")"
         correct: true
-        feedback: "Correct — we eat food, not nutrients. This is a *framework* for reading evidence, though, not a precise effect size to quote."
+        feedback: "Correct — we eat food, not nutrients, so a whole pattern can predict health better than any nutrient in isolation. This is a *framework* for reading evidence, though, not a precise effect size to quote."
       - text: "Because single nutrients have no effect on health"
         correct: false
         feedback: "Overstated — individual nutrients matter, but their effects are best understood within the whole pattern of food they arrive in."
@@ -43,12 +43,12 @@ questions:
   - id: q4
     stem: "A relative says: *\"PREDIMED proves the Mediterranean diet prevents heart attacks — guaranteed.\"* What is the single most important correction?"
     options:
-      - text: "The ~30% reduction was a **relative** effect on a **stroke-dominated composite** (heart attack and cardiac death weren't individually significant), and the trial was retracted and re-published — it can't promise any individual outcome"
+      - text: "It was a relative effect on a composite endpoint, so it can't promise any individual outcome"
         correct: true
-        feedback: "Correct — benefit *with* caveats. It's a strong pattern, but a relative reduction on a composite endpoint, from a trial that was corrected, is not a personal guarantee."
+        feedback: "Correct — benefit *with* caveats. The ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiac death weren't individually significant), and the trial was retracted and re-published. A strong pattern, but not a personal guarantee."
       - text: "PREDIMED found no benefit at all"
         correct: false
-        feedback: "It did find a benefit on the composite endpoint — the issue is how to state it honestly, not to deny it."
+        feedback: "It did find a benefit on the composite endpoint — the issue is how to state it accurately, not to deny it."
       - text: "Nothing — the diet is guaranteed to prevent his heart attack"
         correct: false
         feedback: "This conflates relative with absolute risk and a composite with a hard endpoint — exactly the overclaim to avoid."
@@ -56,9 +56,9 @@ questions:
   - id: q5
     stem: "The DASH trial lowered blood pressure by about 5.5/3.0 mmHg. Which caveat matters most when citing it?"
     options:
-      - text: "Weight and sodium were held **constant** and the endpoint was **blood pressure — a surrogate** — over only ~8 weeks; it shows a pattern moves a risk factor, not that it prevents events"
+      - text: "Blood pressure is a surrogate endpoint, measured over only ~8 weeks"
         correct: true
-        feedback: "Correct — the fall came from the pattern itself (not weight loss or salt cutting), but BP is a surrogate and the trial was short. A clean mechanism demonstration, not proof of long-term event reduction."
+        feedback: "Correct — weight and sodium were held constant, so the fall came from the pattern itself (not weight loss or salt cutting), but BP is a surrogate and the trial was short. It shows a pattern moves a risk factor, not that it prevents events — a clean mechanism demonstration, not proof of long-term event reduction."
       - text: "DASH is simply a low-salt diet"
         correct: false
         feedback: "A common myth — sodium was held *constant* in the trial, so the effect came from the whole pattern. Cutting salt on top adds further benefit."
@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "A vegetarian Indian family is told their diet lacks protein because they eat no meat. Using My Healthy Plate, what's the right response?"
     options:
-      - text: "**Dhal and other legumes** fill the protein quarter — vegetarian does not mean protein-free; build the plate around them plus a wholemeal chapati and a generous vegetable half"
+      - text: "Dhal and other legumes fill the protein quarter"
         correct: true
-        feedback: "Correct — adapt the plate to the cuisine. Legumes are the protein quarter, and the fix is to rebuild their own food to QQH, not to prescribe a foreign diet."
+        feedback: "Correct — vegetarian does not mean protein-free. Build the plate around legumes plus a wholemeal chapati and a generous vegetable half. Adapt the plate to the cuisine: the fix is to rebuild their own food to QQH, not to prescribe a foreign diet."
       - text: "They should switch to a Mediterranean diet to get enough protein"
         correct: false
         feedback: "Imposing an unfamiliar pattern misses the point — and their own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "Singapore's National Nutrition Survey points to two of the biggest real gaps in the local diet. Which pair?"
     options:
-      - text: "Too few **wholegrains** (only ~4% of staples) and too much **sodium** (most residents exceed the limit)"
+      - text: "Too few wholegrains and too much sodium"
         correct: true
-        feedback: "Correct — which is why the brown-rice swap and cutting salt/sugary drinks are the two highest-yield moves, not small print."
+        feedback: "Correct — wholegrains are only ~4% of staples and most residents exceed the sodium limit, which is why the brown-rice swap and cutting salt/sugary drinks are the two highest-yield moves, not small print."
       - text: "Too little protein and too little fat"
         correct: false
         feedback: "Neither is the main local gap — the survey highlights the wholegrain shortfall and excess sodium."

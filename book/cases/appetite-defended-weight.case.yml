@@ -3,7 +3,7 @@ title: "Why did it come back?"
 objectives:
   - "Recognise weight regain as the predicted output of a biologically defended system, not a willpower failure."
   - "Name the three arms of the regain response: falling leptin, rising hunger hormones, adaptive thermogenesis."
-  - "Explain it to a patient without blame, and answer the 'is my metabolism damaged?' question honestly."
+  - "Explain it to a patient without blame, and answer the 'is my metabolism damaged?' question accurately."
 difficulty: intro
 estimatedMinutes: 7
 tags: [nutrition, appetite, weight-regulation, defended-weight, non-stigmatising, recognition]
@@ -34,9 +34,9 @@ nodes:
     stem: "What is the best explanation for his regain?"
     options:
       - id: a
-        text: "His body defended its previous weight: after losing fat, biological signals push to regain it — this is the predicted output of a regulated system, not a willpower failure."
+        text: "His body defended its previous weight, pushing to regain the lost fat."
         correct: true
-        feedback: "Correct. Body weight is actively defended, and the defence fights weight loss hard. Regain is biology reasserting itself, not a moral failing."
+        feedback: "Correct. Body weight is actively defended, and the defence fights weight loss hard. Regain is the predicted output of a regulated system — biology reasserting itself, not a moral failing."
         effects: { quality: +1 }
         goto: q-arms
       - id: b
@@ -55,9 +55,9 @@ nodes:
     stem: "Which set of changes drives the regain after weight loss?"
     options:
       - id: a
-        text: "Leptin falls (the brain reads 'starving'), hunger hormones rise and stay raised for a year, and energy expenditure drops more than the smaller body predicts (adaptive thermogenesis)."
+        text: "Leptin falls, hunger hormones rise, and energy expenditure drops (adaptive thermogenesis)."
         correct: true
-        feedback: "Exactly — three coordinated arms, all pushing to reclaim the lost fat. The hunger-hormone shifts persist for a year or more after the diet ends."
+        feedback: "Exactly — three coordinated arms, all pushing to reclaim the lost fat. Falling leptin makes the brain read 'starving', hunger-hormone shifts persist for a year or more, and expenditure drops more than the smaller body predicts."
         effects: { quality: +1 }
         goto: q-damaged
       - id: b
@@ -73,12 +73,12 @@ nodes:
 
   - id: q-damaged
     type: mcq
-    stem: "Mr Chua asks, \"So dieting permanently wrecked my metabolism?\" Your honest answer?"
+    stem: "Mr Chua asks, \"So dieting permanently wrecked my metabolism?\" Your best answer?"
     options:
       - id: a
-        text: "No — metabolic adaptation is real but modest and largely reversible; it makes maintenance harder, but it doesn't make weight loss impossible or your metabolism 'broken'."
+        text: "No — metabolic adaptation is real but modest and largely reversible."
         correct: true
-        feedback: "Right — the honest, hype-aware answer. The dramatic 'permanent damage' story comes from an extreme outlier study and is better explained by sustained activity, not damage."
+        feedback: "Right — the accurate, hype-aware answer. It makes maintenance harder, but it doesn't make weight loss impossible or your metabolism 'broken'. The dramatic 'permanent damage' story comes from an extreme outlier study and is better explained by sustained activity, not damage."
         effects: { quality: +1 }
         goto: q-say
       - id: b
@@ -97,9 +97,9 @@ nodes:
     stem: "How should you frame this for Mr Chua?"
     options:
       - id: a
-        text: "Reassure him the regain reflects biology, not weakness; shift the focus from willpower to the environment and habits (protein, fibre, sleep, portion defaults), and note that for a strongly defended weight, specialist help or medication is legitimate — not a moral failing."
+        text: "Reassure him the regain reflects biology, not weakness, and shift the focus to environment and habits."
         correct: true
-        feedback: "Right — non-stigmatising, practical, and honest. This is where good weight medicine starts: understanding the biology and changing the environment rather than blaming the patient."
+        feedback: "Right — non-stigmatising, practical, and grounded. Shift from willpower to the environment and habits (protein, fibre, sleep, portion defaults), and note that for a strongly defended weight, specialist help or medication is legitimate — not a moral failing. This is where good weight medicine starts."
         effects: { quality: +1 }
         goto: route
       - id: b
@@ -139,7 +139,7 @@ nodes:
     body: |
       You reframed Mr Chua's regain as a **defended system** doing exactly what it evolved to do —
       falling leptin, rising hunger hormones, and adaptive thermogenesis all pushing to reclaim lost
-      fat — rather than a personal failure. You answered the "damaged metabolism" question honestly
+      fat — rather than a personal failure. You answered the "damaged metabolism" question accurately
       (real but modest and reversible), and shifted the plan from willpower to environment, habits,
       and, where the biology is strongly defended, legitimate medical support. That understanding is
       where non-stigmatising weight care begins.

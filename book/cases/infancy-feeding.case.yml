@@ -37,9 +37,9 @@ nodes:
     stem: "*\"When should I start solids — and with what? I read I should wait for exactly 6 months.\"*"
     options:
       - id: a
-        text: "\"You can start in the next few weeks once he's ready — sitting with support, good head control, reaching for food. Begin with **iron-rich** foods (iron-fortified cereal, minced meat, egg), and keep breastfeeding.\""
+        text: "\"You can start in a few weeks once he's ready, beginning with iron-rich foods — and keep breastfeeding.\""
         correct: true
-        feedback: "Right — 'about 6 months' has a 4-month floor for the ready baby, and the first foods should be iron-rich because his iron stores are running low. Watch the baby, not the calendar."
+        feedback: "Right — 'about 6 months' has a 4-month floor for the ready baby (readiness cues: sitting with support, good head control, reaching for food). First foods should be iron-rich (iron-fortified cereal, minced meat, egg) because his iron stores are running low. Watch the baby, not the calendar."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-allergen
@@ -60,9 +60,9 @@ nodes:
     stem: "*\"But if I give peanut or egg early, won't that cause allergies? I was going to wait until he's 1.\"*"
     options:
       - id: a
-        text: "\"It's actually the opposite — introducing them **early**, once solids start, lowers the risk. Give smooth peanut butter and well-cooked egg (never whole peanuts). If a baby has severe eczema or egg allergy, we'd refer for guided peanut introduction.\""
+        text: "\"It's actually the opposite — introducing them early, once solids start, lowers the risk. Give smooth peanut butter and well-cooked egg, never whole peanuts.\""
         correct: true
-        feedback: "Correct — the LEAP/EAT reversal. Early oral exposure induces tolerance; delaying now *increases* risk. The ~80% figure is from high-risk infants, who get specialist-guided introduction."
+        feedback: "Correct — the LEAP/EAT reversal. Early oral exposure induces tolerance; delaying now *increases* risk. If a baby has severe eczema or egg allergy, refer for specialist-guided peanut introduction; the ~80% risk-reduction figure is from these high-risk infants."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-honey
@@ -83,9 +83,9 @@ nodes:
     stem: "*\"My mother-in-law wants to stir a little honey into his porridge — for energy and taste. That's harmless, right?\"*"
     options:
       - id: a
-        text: "\"Please hold off on honey until he's 12 months. A baby's gut can't yet stop botulism spores in honey from taking hold and making a toxin — after his first birthday it's fine.\""
+        text: "\"Please hold off on honey until he's 12 months — after his first birthday it's fine.\""
         correct: true
-        feedback: "Correct — infant botulism. Explaining the 'why' kindly helps the grandmother come along: the immature gut lacks the protective flora that would stop the spores colonising."
+        feedback: "Correct — infant botulism. A baby's gut can't yet stop the spores in honey from taking hold and making a toxin; the immature gut lacks the protective flora that would stop them colonising. Explaining the 'why' kindly helps the grandmother come along."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-milk
@@ -108,9 +108,9 @@ nodes:
     stem: "*\"And should I switch him to fresh cow's milk, or the premium formula my neighbour uses — for extra nutrients?\"*"
     options:
       - id: a
-        text: "\"Keep breast milk (or ordinary formula) as his main drink until about 12 months — cow's milk before then is iron-poor and can cause gut blood loss. And every formula sold here meets the same standard, so a premium one isn't better — save your money.\""
+        text: "\"Keep breast milk or ordinary formula as his main drink until about 12 months, and skip the premium one — save your money.\""
         correct: true
-        feedback: "Correct on both counts: cow's milk as the *main drink* waits to ~12 months (yogurt/cheese as foods are fine now), and premium/'toddler' milks are marketing, not nutrition — a cheaper standard formula is equivalent."
+        feedback: "Correct on both counts: cow's milk before ~12 months is iron-poor and can cause gut blood loss, so it waits as the *main drink* (yogurt/cheese as foods are fine now); and every formula sold here meets the same standard, so premium/'toddler' milks are marketing, not nutrition — a cheaper standard formula is equivalent."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-supplement
@@ -131,9 +131,9 @@ nodes:
     stem: "*\"Is there any supplement he actually needs?\"*"
     options:
       - id: a
-        text: "\"Yes — **vitamin D, 400 units a day**, because breast milk is low in it. (He also had his vitamin-K injection at birth, and he'll get iron from those iron-rich first foods.)\""
+        text: "\"Yes — vitamin D, 400 units a day, because breast milk is low in it.\""
         correct: true
-        feedback: "Correct — vitamin D is the one routine daily supplement for a breastfed baby. It matters here despite the sunshine, because we rightly keep infants out of direct sun."
+        feedback: "Correct — vitamin D is the one routine daily supplement for a breastfed baby. (He also had his vitamin-K injection at birth, and he'll get iron from those iron-rich first foods.) It matters here despite the sunshine, because we rightly keep infants out of direct sun."
         effects: { quality: +1 }
         reaction: relieved
         goto: route

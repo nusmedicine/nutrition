@@ -34,9 +34,9 @@ nodes:
     stem: "What is the single most useful thing to check straight away?"
     options:
       - id: a
-        text: "A finger-prick blood glucose — the sweating, tremor and confusion could be a low blood sugar, which is quickly reversible if caught."
+        text: "A finger-prick blood glucose."
         correct: true
-        feedback: "Correct. Adrenergic signs (sweating, tremor) plus confusion should always prompt a glucose check — hypoglycaemia is dangerous but rapidly treatable. His reads low."
+        feedback: "Correct. Adrenergic signs (sweating, tremor) plus confusion should always prompt a glucose check — a low blood sugar is dangerous but quickly reversible if caught. His reads low."
         effects: { quality: +1 }
         goto: q-why
       - id: b
@@ -55,7 +55,7 @@ nodes:
     stem: "His glucose is low. Normally the liver would rescue a falling blood sugar. Why can't it here?"
     options:
       - id: a
-        text: "Two failures stacked: he skipped meals, so his liver glycogen is already spent — and alcohol blocks the liver from making new glucose (gluconeogenesis). Both glucose sources are offline."
+        text: "Skipped meals spent his glycogen, and alcohol blocks gluconeogenesis — both glucose sources are offline."
         correct: true
         feedback: "Exactly. Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis; and with glycogen already gone from skipped meals, there is no glucose left to release. That is why alcohol + fasting is so dangerous."
         effects: { quality: +1 }
@@ -76,9 +76,9 @@ nodes:
     stem: "His flatmate says, \"But alcohol is full of sugar — shouldn't his blood sugar be high?\" Your answer?"
     options:
       - id: a
-        text: "No — alcohol actually blocks glucose production, so on an empty stomach it pushes blood sugar down, not up. This is a low, not a high."
+        text: "No — on an empty stomach alcohol pushes blood sugar down, not up. This is a low, not a high."
         correct: true
-        feedback: "Right. It's a common trap. Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis — so fasting + alcohol causes hypoglycaemia."
+        feedback: "Right. It's a common trap. Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis — so on an empty stomach it pushes blood sugar down, and fasting + alcohol causes hypoglycaemia."
         effects: { quality: +1 }
         goto: q-manage
       - id: b
@@ -97,9 +97,9 @@ nodes:
     stem: "What's the right immediate step?"
     options:
       - id: a
-        text: "Give glucose (by mouth if he can swallow safely, otherwise it's an emergency for the team to treat), then, once he's well, advise eating when drinking and not drinking on an empty stomach."
+        text: "Give glucose now, then advise eating when drinking."
         correct: true
-        feedback: "Correct. Correct the glucose now; the lasting lesson is the safety advice. Recurrent or unexplained hypoglycaemia would be something to refer on — but that's beyond what's needed here."
+        feedback: "Correct. Give glucose by mouth if he can swallow safely, otherwise it's an emergency for the team to treat. Correct the glucose now; the lasting lesson is the safety advice — eat when drinking, not on an empty stomach. Recurrent or unexplained hypoglycaemia would be something to refer on, but that's beyond what's needed here."
         effects: { quality: +1 }
         goto: route
       - id: b

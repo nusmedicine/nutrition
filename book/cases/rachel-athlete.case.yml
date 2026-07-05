@@ -62,9 +62,9 @@ nodes:
     stem: "History: Rachel has been \"eating clean,\" cutting out rice and most snacks \"to stay lean for netball,\" trains five to six times a week, and had a **foot stress fracture** last season. Her periods stopped around then. **What does this pattern suggest?**"
     options:
       - id: a
-        text: "Under-fuelling — her intake isn't matching her training, and that low energy is likely why her periods stopped and why she fractured. This threatens her bones."
+        text: "Under-fuelling — intake isn't matching her training, which threatens her bones."
         correct: true
-        feedback: "Correct — this is the recognisable pattern of **low energy availability** (energy left over after training is too low): restriction + heavy load + amenorrhoea + a stress fracture. It puts her peak-bone-mass window at risk."
+        feedback: "Correct — this is the recognisable pattern of **low energy availability** (energy left over after training is too low): restriction + heavy load + amenorrhoea + a stress fracture. The low energy is likely why her periods stopped and why she fractured, and it puts her peak-bone-mass window at risk."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-refer
@@ -87,9 +87,9 @@ nodes:
     stem: "You recognise under-fuelling threatening her bones and periods. **What is the appropriate action at your level?**"
     options:
       - id: a
-        text: "Refer her for proper assessment — and reassure her the goal is to *fuel* her training, not restrict it further. Don't attempt the work-up or a diagnosis yourself."
+        text: "Refer her for proper assessment, reassuring her the goal is to fuel her training."
         correct: true
-        feedback: "Correct — recognise and refer. The message is *fuel, don't restrict*. Detailed assessment, bone-health work-up and management belong to the specialist team, not to you now."
+        feedback: "Correct — recognise and refer, and don't attempt the work-up or a diagnosis yourself. The message is *fuel, don't restrict*. Detailed assessment, bone-health work-up and management belong to the specialist team, not to you now."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-message
@@ -112,9 +112,9 @@ nodes:
     stem: "*Mrs Tan, still anxious:* \"So should she be eating *less* to get her weight down?\" **How do you frame it?**"
     options:
       - id: a
-        text: "\"Actually the opposite — right now Rachel needs to eat *enough* to match her training. This is about her health and her bones, not her weight, and the team will help her get the balance right.\""
+        text: "\"Actually the opposite — right now Rachel needs to eat enough to match her training.\""
         correct: true
-        feedback: "Correct — reframe from weight to fuelling and health, and keep it blame-free. This protects Rachel from the diet-talk that drives disordered eating, and gets the mother on side."
+        feedback: "Correct — reframe from weight to fuelling and health, and keep it blame-free: this is about her health and her bones, not her weight, and the team will help her get the balance right. It protects Rachel from the diet-talk that drives disordered eating, and gets the mother on side."
         effects: { quality: +1 }
         reaction: relieved
         goto: route

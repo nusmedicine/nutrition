@@ -39,7 +39,7 @@ nodes:
     stem: "*\"For my weekend runs, should I carb-load the night before and use a sports drink during?\"*"
     options:
       - id: a
-        text: "\"For a run of that length you really just need normal meals and **water** — carb-loading and sports drinks are for much longer endurance events. Save your money.\""
+        text: "\"For a run of that length you really just need normal meals and water — carb-loading and sports drinks are for much longer events.\""
         correct: true
         feedback: "Right — the inoculation against over-fuelling. A ~1-hour recreational run is covered by ordinary food and water; the athlete guidance is calibrated for hours of endurance training, not this."
         effects: { quality: +1 }
@@ -62,9 +62,9 @@ nodes:
     stem: "*\"How much protein should I get — and will lots of protein wreck my kidneys? Someone said 3 grams per kilo.\"*"
     options:
       - id: a
-        text: "\"Around 1.2–1.6 g per kilo a day, easily from food, is plenty — more than that doesn't build extra muscle. And with your normal kidneys, higher protein is safe; that worry is really about existing kidney disease.\""
+        text: "\"About 1.2–1.6 g per kilo a day from food is plenty, and with your normal kidneys that's safe.\""
         correct: true
-        feedback: "Correct on both counts: the benefit plateaus near 1.6 g/kg (so 3 g/kg is pointless), it comes from food, and higher protein is safe for healthy kidneys — the exception is established kidney disease."
+        feedback: "Correct on both counts. The benefit plateaus near 1.6 g/kg — so 3 g/kg is pointless and builds no extra muscle — and it comes from ordinary food. Higher protein is safe for healthy kidneys; the exception is established kidney disease, which is where that worry really belongs."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-shift
@@ -85,9 +85,9 @@ nodes:
     stem: "*\"On night shifts I end up eating a big meal around 3 a.m. Is that okay?\"*"
     options:
       - id: a
-        text: "\"Try to shift your main meals into the **daytime** and keep the small-hours eating light — bodies handle food less well overnight, and daytime-weighted eating is the better pattern for shift workers.\""
+        text: "\"Try to shift your main meals into the daytime and keep the small-hours eating light.\""
         correct: true
-        feedback: "Correct — shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical tweak."
+        feedback: "Correct — bodies handle food less well overnight, so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical tweak."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight
@@ -108,7 +108,7 @@ nodes:
     stem: "*\"And the 4 kg — should I go on a crash diet to get it off fast?\"*"
     options:
       - id: a
-        text: "\"Better to make a couple of **small, steady changes** you can keep — the after-work drinks are a big one — rather than a crash diet. Slow and sustainable beats sawtooth.\""
+        text: "\"Better to make a couple of small, steady changes you can keep — the after-work drinks are a big one — than a crash diet.\""
         correct: true
         feedback: "Correct — creep is a small chronic surplus, best undone by durable small changes (and self-weighing), not restriction cycles. And Asian BMI thresholds mean a few kg matters, so it's worth addressing."
         effects: { quality: +1 }
@@ -131,9 +131,9 @@ nodes:
     stem: "*\"Last thing — I drink most evenings to unwind, but I read a daily drink is good for the heart. And yeah, I go red after one beer, but that's normal for me. All fine?\"*"
     options:
       - id: a
-        text: "\"Two things to flag, gently. The 'good for the heart' idea doesn't hold up any more — I wouldn't drink for that. And the **flushing** actually matters: it raises your risk of throat cancer if you keep drinking, so I'd cut down. Can I ask a few quick questions about your drinking?\""
+        text: "\"Two things, gently: the 'good for the heart' idea doesn't hold up any more, and the flushing actually matters — can I ask a few quick questions about your drinking?\""
         correct: true
-        feedback: "Correct — the modern alcohol message plus acting on the ALDH2 flush. Screen briefly, advise cutting down (raised oesophageal-cancer risk), and refer if drinking is hazardous. This is the one real red flag in the visit."
+        feedback: "Correct — the modern alcohol message plus acting on the ALDH2 flush. The flush raises oesophageal-cancer risk if he keeps drinking, so advise cutting down. Screen briefly and refer if drinking is hazardous. This is the one real red flag in the visit."
         effects: { quality: +1 }
         reaction: relieved
         goto: route

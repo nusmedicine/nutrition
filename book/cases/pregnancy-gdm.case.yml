@@ -36,9 +36,9 @@ nodes:
     stem: "*\"I feel perfectly well, doctor — do I really need the glucose test?\"*"
     options:
       - id: a
-        text: "\"Yes — in Singapore we offer it to every pregnancy at around 24 to 28 weeks, whatever your risk. Gestational diabetes is common here and usually causes no symptoms, so feeling well doesn't rule it out.\""
+        text: "\"Yes — we offer it to every pregnancy at 24 to 28 weeks. GDM is common and usually symptomless, so feeling well doesn't rule it out.\""
         correct: true
-        feedback: "Correct — universal screening. Local evidence (GUSTO) showed testing only 'high-risk' women would have missed about half of cases, because risk factors predict GDM poorly in Asian women."
+        feedback: "Correct — universal screening. GDM is common here and usually causes no symptoms, so feeling well doesn't rule it out. Local evidence (GUSTO) showed testing only 'high-risk' women would have missed about half of cases, because risk factors predict GDM poorly in Asian women."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-haemo
@@ -61,9 +61,9 @@ nodes:
     stem: "Her blood count shows haemoglobin has fallen from 12.5 to 10.8 g/dL since booking. She has no symptoms. What's the right first read?"
     options:
       - id: a
-        text: "Probably physiological — plasma volume expands faster than red cells, so haemoglobin falls by dilution — but check ferritin and use pregnancy-specific cut-offs before deciding on iron."
+        text: "Probably physiological dilution — but check ferritin before deciding on iron."
         correct: true
-        feedback: "Right. A mid-pregnancy haemoglobin almost always falls by dilution; confirm true iron deficiency with ferritin rather than treating the number — while remembering real deficiency is genuinely common here."
+        feedback: "Right. Plasma volume expands faster than red cells, so a mid-pregnancy haemoglobin almost always falls by dilution; confirm true iron deficiency with ferritin and pregnancy-specific cut-offs rather than treating the number — while remembering real deficiency is genuinely common here."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-result
@@ -84,9 +84,9 @@ nodes:
     stem: "Her glucose test comes back **positive** for gestational diabetes, and she's anxious. What's the right first move?"
     options:
       - id: a
-        text: "Reassure her, start realistic dietary changes within her usual meals (brown rice or wholegrain bee hoon for white rice, water or a Nutri-Grade A/B drink for the sweet one), and bring in the antenatal team — obstetrician, dietitian, diabetes nurse."
+        text: "Reassure her, start dietary changes within her usual meals, and bring in the antenatal team."
         correct: true
-        feedback: "Exactly — first-line is dietary, delivered with the team, and it works best within familiar food (a local seafood-and-noodle pattern was actually protective). You reassure, guide swaps, and refer."
+        feedback: "Exactly — first-line is dietary, delivered with the team (obstetrician, dietitian, diabetes nurse), and it works best within familiar food: brown rice or wholegrain bee hoon for white rice, water or a Nutri-Grade A/B drink for the sweet one — a local seafood-and-noodle pattern was actually protective. You reassure, guide swaps, and refer."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-chain
@@ -107,7 +107,7 @@ nodes:
     stem: "*\"Why would my baby have low blood sugar right after birth if it's my sugar that's high?\"*"
     options:
       - id: a
-        text: "\"In the womb your higher sugar crosses to the baby, whose own body makes extra insulin. After birth your sugar supply stops, but the baby's insulin is still high for a while — so its sugar can dip.\""
+        text: "\"Your sugar crosses to the baby, whose body makes extra insulin. After birth your sugar stops but that insulin lingers, so the baby's sugar dips.\""
         correct: true
         feedback: "Correct — macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, fetal insulin out, overgrowth, then a dip once the supply is cut. Plain language, no jargon."
         effects: { quality: +1 }
@@ -130,9 +130,9 @@ nodes:
     stem: "*\"So once the baby is born, this all just goes away, right?\"*"
     options:
       - id: a
-        text: "\"The high sugar usually settles after delivery — but you'll need a glucose test about 6 to 12 weeks later and regular checks after that, because gestational diabetes means a higher chance of type 2 diabetes down the line.\""
+        text: "\"It usually settles after delivery — but you'll need a glucose test in 6 to 12 weeks and regular checks after, as GDM raises your later diabetes risk.\""
         correct: true
-        feedback: "Correct — it usually resolves, but GDM signals a roughly seven-fold future type 2 diabetes risk, so postpartum testing and ongoing screening matter. This is the direct tie to the War on Diabetes."
+        feedback: "Correct — it usually resolves, but GDM signals a roughly seven-fold future type 2 diabetes risk, so postpartum testing at 6 to 12 weeks and ongoing screening matter. This is the direct tie to the War on Diabetes."
         effects: { quality: +1 }
         reaction: relieved
         goto: route

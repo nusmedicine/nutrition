@@ -1,7 +1,7 @@
 id: dairy-acne-tiktok
 title: "\"Cutting out milk cleared her skin\" — a TikTok claim"
 objectives:
-  - "Trace a viral diet claim to its actual evidence and state it honestly (weak, observational, no RCTs)."
+  - "Trace a viral diet claim to its actual evidence and state it plainly (weak, observational, no RCTs)."
   - "Advise proportionately — a lower-sugar trial and proven treatment, not a strict elimination diet in a teenager."
   - "Recognise when appraisal becomes a do-no-harm conversation — spot disordered-eating red flags, don't reinforce restriction, refer."
 difficulty: intro
@@ -36,9 +36,9 @@ nodes:
     stem: "*\"My friend stopped milk and her skin cleared up — so dairy causes acne, right?\"* How do you handle the claim?"
     options:
       - id: a
-        text: "\"Her skin might have improved for lots of reasons. The real evidence is a *weak* link from observational studies — and there are no proper trials on dairy and acne. Dermatology guidelines don't recommend cutting out any food to treat it.\""
+        text: "\"Her skin might have improved for lots of reasons. The evidence linking dairy to acne is weak, and guidelines don't recommend cutting out any food.\""
         correct: true
-        feedback: "Right — one friend's story is an anecdote (skin waxes and wanes for many reasons). The honest evidence is a weak, observational-only association (skim milk strongest); the stronger dietary link is actually high-sugar/high-glycaemic foods, and guidelines find insufficient evidence to recommend cutting any food."
+        feedback: "Right — one friend's story is an anecdote (skin waxes and wanes for many reasons). The actual evidence is a weak, observational-only association (skim milk strongest, no trials); the stronger dietary link is actually high-sugar/high-glycaemic foods, and guidelines find insufficient evidence to recommend cutting any food."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-advise
@@ -50,7 +50,7 @@ nodes:
       - id: c
         text: "\"No — food has nothing to do with acne. Ignore it.\""
         correct: false
-        feedback: "Over-corrected. There *is* a weak association (and a stronger high-glycaemic-load signal). Dismissing it entirely is as inaccurate as endorsing it — the honest answer is 'weak, not a reason to eliminate a food group'."
+        feedback: "Over-corrected. There *is* a weak association (and a stronger high-glycaemic-load signal). Dismissing it entirely is as inaccurate as endorsing it — the accurate answer is 'weak, not a reason to eliminate a food group'."
         goto: q-advise
 
   - id: q-advise
@@ -59,7 +59,7 @@ nodes:
     stem: "Chloe still wants to *do* something about her skin. What do you advise?"
     options:
       - id: a
-        text: "\"If you want to trial a change, cutting back on sugary drinks and high-sugar snacks has better evidence than cutting dairy — and it won't cost you calcium. But the proven treatments are skin ones, so let's get you seen for those too.\""
+        text: "\"If you want to trial a change, cutting back on sugary snacks has better evidence than cutting dairy — and let's get you seen for proper skin treatment too.\""
         correct: true
         feedback: "Exactly — proportionate. A lower-sugar trial is reasonable and low-risk; a growing teenager doesn't need to lose a whole dairy food group (and its calcium) for a weak, unproven link. Proven acne treatment is medication (benzoyl peroxide, retinoids) — diet is a minor adjunct at most."
         effects: { quality: +1 }
@@ -82,7 +82,7 @@ nodes:
     stem: "As you talk, Chloe adds: *\"I've already cut out bread, rice and snacks. I track everything I eat and feel really guilty if I go over. I've lost a bit of weight too.\"* Her mum looks worried. What now?"
     options:
       - id: a
-        text: "Gently shift focus: acknowledge the restriction and guilt as things worth exploring, ask a few supportive questions about her eating and feelings, hold off on any new food rules, and arrange follow-up/referral."
+        text: "Gently shift focus: acknowledge the restriction and guilt, hold off on any new food rules, and arrange follow-up/referral."
         correct: true
         feedback: "Correct — this stopped being about acne. Cutting out multiple food groups, tracking, guilt and weight loss are eating-disorder red flags in a teenager. Adding *another* restriction would do harm; the safe move is a supportive screen and referral, not a diet plan."
         effects: { quality: +1 }
@@ -109,7 +109,7 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Appraise honestly — then do no harm"
+    title: "Appraise plainly — then do no harm"
     body: |
       Two habits carry this case: appraise the claim **proportionately** (a weak, observational-only
       link is not a reason to eliminate a food group), and stay alert for the moment it **stops being
@@ -148,6 +148,6 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "State a claim's evidence honestly and proportionately — neither endorse nor dismiss."
+        - "State a claim's evidence accurately and proportionately — neither endorse nor dismiss."
         - "Don't prescribe restrictive elimination diets in adolescents for weak, unproven links."
         - "Multiple cut-out foods, tracking, guilt and weight loss are red flags — screen and refer."

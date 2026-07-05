@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "A patient loses 10 kg on a diet, then finds the weight creeps back despite eating carefully. Which idea best explains why 'just eat less' so often fails?"
     options:
-      - text: "After weight loss, expenditure falls by more than the smaller body needs, and the body defends against loss"
+      - text: "Expenditure falls and appetite rises after weight loss"
         correct: true
-        feedback: "Correct — the 'out' side drops disproportionately (adaptive thermogenesis) and hunger signals rise. Energy balance is defended, not free — the Appetite & Weight Regulation chapter develops this."
+        feedback: "Correct — the 'out' side drops disproportionately (adaptive thermogenesis) by more than the smaller body needs, while hunger signals rise, so the body defends against loss. Energy balance is defended, not free — the Appetite & Weight Regulation chapter develops this."
       - text: "Fat cannot be lost once it has been stored"
         correct: false
         feedback: "Fat is readily mobilised; the problem is a system that resists *staying* lower, not irreversibility."
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "Why is BMI treated as a screening flag rather than a measure of body fat?"
     options:
-      - text: "It uses only weight and height, so it cannot tell muscle from fat"
+      - text: "It uses only weight and height, not body composition"
         correct: true
-        feedback: "Correct — a muscular person can have a high BMI with low fat, and waist circumference adds the central-fat information BMI misses. (Asian overweight cut-offs are set lower.)"
+        feedback: "Correct — using only weight and height, BMI cannot tell muscle from fat, so a muscular person can have a high BMI with low fat; waist circumference adds the central-fat information BMI misses. (Asian overweight cut-offs are set lower.)"
       - text: "It can only be calculated from a DXA scan"
         correct: false
         feedback: "BMI is just weight ÷ height²; DXA is the accurate body-fat *reference*, not part of BMI."

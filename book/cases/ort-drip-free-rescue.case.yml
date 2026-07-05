@@ -35,9 +35,9 @@ nodes:
     stem: "Why can a child losing fluid to diarrhoea often be rehydrated **by mouth**?"
     options:
       - id: a
-        text: "Even in diarrhoea, the gut's sodium–glucose transporter (SGLT1) keeps absorbing — so a glucose-and-salt drink still gets fluid in. A drip is kept for severe dehydration or a child who can't drink."
+        text: "The gut's SGLT1 transporter keeps absorbing, so a glucose-and-salt drink still gets fluid in."
         correct: true
-        feedback: "Correct — secretory diarrhoea dumps fluid, but SGLT1 keeps working; that is exactly what oral rehydration exploits."
+        feedback: "Correct — secretory diarrhoea dumps fluid, but SGLT1 keeps working; that is exactly what oral rehydration exploits. A drip is kept for severe dehydration or a child who can't drink."
         effects: { quality: +1 }
         goto: q-both
       - id: b
@@ -56,9 +56,9 @@ nodes:
     stem: "Why must the drink contain **both glucose and salt**, not just water?"
     options:
       - id: a
-        text: "Glucose is the 'handle' that sodium rides in on through SGLT1; water then follows the sodium by osmosis. Plain water lacks both."
+        text: "Glucose is the handle that sodium rides in on through SGLT1; water then follows."
         correct: true
-        feedback: "Exactly — the glucose is a transport handle for sodium, and water follows the salt. That coupling is why ORS rehydrates and plain water alone does less well."
+        feedback: "Exactly — the glucose is a transport handle for sodium, and water follows the salt. Plain water lacks both, which is why ORS rehydrates and plain water alone does less well."
         effects: { quality: +1 }
         goto: q-drinks
       - id: b
@@ -77,9 +77,9 @@ nodes:
     stem: "Mrs Lim has isotonic **sports drink** and **cola** at home. Are those a good stand-in for ORS?"
     options:
       - id: a
-        text: "No — they carry far too much sugar and too little sodium; the wrong glucose-to-salt balance can even pull water *into* the gut and worsen diarrhoea. Use proper ORS."
+        text: "No — they carry too much sugar and too little sodium; use proper ORS."
         correct: true
-        feedback: "Right — ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
+        feedback: "Right — the wrong glucose-to-salt balance can even pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
         effects: { quality: +1 }
         goto: q-advice
       - id: b
@@ -98,9 +98,9 @@ nodes:
     stem: "What is the best advice to Mrs Lim?"
     options:
       - id: a
-        text: "Give ORS in small, frequent sips, keep feeding her normally, and watch for warning signs (won't drink, very drowsy, no wet nappies) — seek care / a drip if she worsens."
+        text: "Give ORS in small, frequent sips, keep feeding her, and seek care if she worsens."
         correct: true
-        feedback: "Right — ORS + continued feeding is first-line, with a clear safety-net for severe dehydration."
+        feedback: "Right — ORS + continued feeding is first-line, with a clear safety-net for severe dehydration: watch for warning signs (won't drink, very drowsy, no wet nappies) and seek care or a drip if she worsens."
         effects: { quality: +1 }
         goto: route
       - id: b

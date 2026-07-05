@@ -82,9 +82,9 @@ nodes:
     stem: "*\"Maybe I could cut down a bit. But I don't know if I can — it's just what I do.\"* How do you help him set a goal?"
     options:
       - id: a
-        text: "\"What's one small change you think you could actually stick to?\" — then help him shape it: kopi siu dai on workday mornings, and if the auntie forgets, he'll remind her."
+        text: "\"What's one small change you think you could actually stick to?\""
         correct: true
-        feedback: "Exactly — you let him choose the change, then made it a small, specific, owned SMART goal with an if-then plan for the obstacle. That's what sticks."
+        feedback: "Exactly — you let him choose the change, then shaped it into a small, owned SMART goal with an if-then plan for the obstacle (kopi siu dai on workday mornings; if the auntie forgets, he'll remind her). That's what sticks."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-safety
@@ -105,7 +105,7 @@ nodes:
     stem: "As you finish, he adds: *\"Some days I just skip meals completely to make up for the kopi and snacks — and I feel bad about eating.\"* What now?"
     options:
       - id: a
-        text: "Gently step back from the kopi goal, ask a few supportive questions about the meal-skipping and the guilt, and consider referral rather than pressing on."
+        text: "Step back from the kopi goal, ask gently about the meal-skipping and guilt, and consider referral."
         correct: true
         feedback: "Correct — do no harm. Skipping meals to 'make up' and guilt around eating are red flags; on average weight advice is safe, but for this patient another restriction could harm. Screen gently and refer, don't push the goal."
         effects: { quality: +1 }

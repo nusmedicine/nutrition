@@ -3,7 +3,7 @@ title: "Mr Tan feels 'basically fine'"
 objectives:
   - "Map a patient's risk across all six pillars of health, not diet alone."
   - "Choose dietary advice that fits the patient's real food environment."
-  - "Explain why a single-pillar plan often underperforms a multi-pillar one — honestly, with its evidence caveats."
+  - "Explain why a single-pillar plan often underperforms a multi-pillar one — with its evidence caveats intact."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, pillars, prevention]
@@ -74,9 +74,9 @@ nodes:
         feedback: "Vague and non-behavioural — it gives him nothing concrete to do, and rarely sticks."
         goto: q-underperform
       - id: b
-        text: "Map concrete swaps: a My-Healthy-Plate cai png (2 veg + 1 protein, less gravy), plain tea or kopi-o kosong over a Grade-D teh tarik, a smaller rice portion."
+        text: "Map concrete food-court swaps he can make tomorrow."
         correct: true
-        feedback: "Specific, local, and achievable — advice he can act on at the same food court tomorrow."
+        feedback: "Specific, local, and achievable: a My-Healthy-Plate cai png (2 veg + 1 protein, less gravy), plain tea or kopi-o kosong over a Grade-D teh tarik, a smaller rice portion — advice he can act on at the same food court tomorrow."
         effects: { quality: +1 }
         goto: q-underperform
       - id: c
@@ -123,9 +123,9 @@ nodes:
         feedback: "Simplicity helps him *start*, but a diet-only plan is fragile here because sleep and stress keep undermining it."
         goto: route
       - id: b
-        text: "Plan 2 — the pillars reinforce each other: better sleep lowers appetite, less stress reduces comfort eating, shared meals sustain the change."
+        text: "Plan 2 — the pillars reinforce each other."
         correct: true
-        feedback: "Yes — but hold this claim to its evidence (next screen)."
+        feedback: "Yes — better sleep lowers appetite, less stress reduces comfort eating, and shared meals sustain the change. But hold this claim to its evidence (next screen)."
         effects: { quality: +1 }
         goto: route
       - id: c
@@ -153,13 +153,13 @@ nodes:
 
   - id: caveat-slide
     type: info
-    title: "Stay honest about the evidence"
+    title: "Stay accurate about the evidence"
     body: |
       One non-negotiable caveat before you close. The "pillars reinforce each other"
       claim rests largely on **observational** combined-lifestyle data (people with the
       healthiest profiles have roughly **halved** mortality risk versus the least
       healthy) plus small mechanistic studies. Residual confounding and reverse
-      causation mean the honest phrasing is *"combined behaviours are **associated with**
+      causation mean the accurate phrasing is *"combined behaviours are **associated with**
       larger benefit and **plausibly** reinforce each other,"* **not** "synergy is
       proven." Start with nutrition, plan across the pillars — and say what the evidence
       can and cannot support.
@@ -178,7 +178,7 @@ nodes:
     title: "You saw the whole patient"
     body: |
       You mapped Mr Tan across all six pillars, chose advice that fits his real food
-      environment, and argued for a multi-pillar plan — while staying honest about the
+      environment, and argued for a multi-pillar plan — while staying candid about the
       strength of the evidence.
     debrief:
       objectivesMet: [1, 2, 3]
@@ -199,4 +199,4 @@ nodes:
       keyPoints:
         - "Map all six pillars before deciding where to push."
         - "Make diet advice concrete and local — a swap he can make at the same food court."
-        - "Keep the evidence claims honest: association, not proven synergy."
+        - "Keep the evidence claims precise: association, not proven synergy."

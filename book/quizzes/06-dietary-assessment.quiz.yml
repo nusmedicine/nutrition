@@ -4,9 +4,9 @@ questions:
   - id: q1
     stem: "You take a single 24-hour recall. What is its main limitation?"
     options:
-      - text: "One day is not necessarily a usual day — day-to-day intake varies a lot, so it estimates that day well but habitual intake poorly"
+      - text: "One day may not reflect habitual intake"
         correct: true
-        feedback: "Correct — that's why several non-consecutive recalls estimate habitual intake far better. It also relies on memory (recall bias)."
+        feedback: "Correct — day-to-day intake varies a lot, so a single recall estimates that day well but habitual intake poorly. That's why several non-consecutive recalls estimate habitual intake far better. It also relies on memory (recall bias)."
       - text: "It takes too long and burdens the patient more than any other method"
         correct: false
         feedback: "The opposite — a 24-hour recall is quick and low-burden for the patient. The food diary is the high-burden method."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "A bottled drink says \"11 g sugar per serving\" and \"2.5 servings per bottle.\" What should you check?"
     options:
-      - text: "The per-100 ml column — and remember most people drink the whole bottle, so the real intake is ~2.5× the per-serving figure"
+      - text: "The per-100 ml figure and the whole-bottle amount"
         correct: true
-        feedback: "Correct — the serving-size trap. Always read per-100 ml (or per-100 g) to compare fairly and to see what a realistic portion delivers."
+        feedback: "Correct — the serving-size trap. Most people drink the whole bottle, so the real intake is ~2.5× the per-serving figure. Always read per-100 ml (or per-100 g) to compare fairly and to see what a realistic portion delivers."
       - text: "Nothing — the per-serving sugar is the number that matters"
         correct: false
         feedback: "Per-serving can hide the real intake when the 'serving' is unrealistically small. Check per-100 ml and the whole-pack amount."
@@ -43,9 +43,9 @@ questions:
   - id: q4
     stem: "You've spotted that a patient drinks two bubble teas a day. What is the best opening move?"
     options:
-      - text: "\"Would it be alright if I shared one idea about your drinks?\" — ask permission, then advise one concrete swap in plain language"
+      - text: "Ask permission, then suggest one concrete swap in plain language"
         correct: true
-        feedback: "Correct — the 'Assess then Advise, with permission' opening of the 5 A's. Permission turns advice into a conversation."
+        feedback: "Correct — the 'Assess then Advise, with permission' opening of the 5 A's, e.g. \"Would it be alright if I shared one idea about your drinks?\" Permission turns advice into a conversation."
       - text: "\"You need to stop drinking bubble tea — it's full of free sugars exceeding the recommended limit.\""
         correct: false
         feedback: "Unasked-for and jargon-laden — this puts people on the defensive. Ask permission and use plain language ('sugary drinks')."
@@ -56,9 +56,9 @@ questions:
   - id: q5
     stem: "During the history a young patient mentions skipping meals to \"make up\" for eating, and feeling guilty after meals. What is the safe next step?"
     options:
-      - text: "Gently screen for disordered eating (e.g. SCOFF) and consider referral — do not prescribe restriction"
+      - text: "Gently screen for disordered eating and consider referral"
         correct: true
-        feedback: "Correct — do no harm. These are red flags; weight- or restriction-focused advice could worsen an eating disorder. Screen, be supportive, refer."
+        feedback: "Correct — do no harm. These are red flags; a brief screen (e.g. SCOFF) is appropriate, and weight- or restriction-focused advice could worsen an eating disorder. Screen, be supportive, refer."
       - text: "Give them a strict low-calorie plan to help them lose weight faster"
         correct: false
         feedback: "This is exactly the harm to avoid — prescribing restriction into a possible eating disorder. Recognise the red flags first."
@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "An 80-year-old has unintentionally lost weight and appetite over three months. Which way should your assessment go?"
     options:
-      - text: "Toward **under**-nutrition — recognise this as a malnutrition-risk signal (a MUST-type screen) and refer, not a 'cut down' conversation"
+      - text: "Toward under-nutrition — recognise malnutrition risk and refer"
         correct: true
-        feedback: "Correct — always consider both tails. Unplanned weight loss + poor intake flags malnutrition risk; MUST captures exactly this. Recognise and refer."
+        feedback: "Correct — always consider both tails, not a 'cut down' conversation. Unplanned weight loss + poor intake flags malnutrition risk; a MUST-type screen captures exactly this. Recognise and refer."
       - text: "Toward weight loss advice, since losing weight is generally healthy"
         correct: false
         feedback: "Unintentional weight loss in an older adult is a warning sign, not a success — the wrong tail entirely."
@@ -82,9 +82,9 @@ questions:
   - id: q8
     stem: "You want to capture a patient's **habitual** eating pattern over months and rank them against others. Which method fits, and what's its limitation?"
     options:
-      - text: "A food-frequency questionnaire — good for ranking high vs low intake, but poor at measuring exact quantities"
+      - text: "A food-frequency questionnaire — but poor at measuring exact quantities"
         correct: true
-        feedback: "Correct — the FFQ captures the long-run pattern with low burden, but it's best for ranking people rather than pinning down absolute amounts."
+        feedback: "Correct — the FFQ captures the long-run pattern with low burden and is good for ranking high vs low intake, but it's best for ranking people rather than pinning down absolute amounts."
       - text: "A single 24-hour recall — it measures habitual intake precisely"
         correct: false
         feedback: "A single recall captures one day, not the habitual pattern, and doesn't rank long-term intake well."

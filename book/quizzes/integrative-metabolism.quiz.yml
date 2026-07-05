@@ -4,9 +4,9 @@ questions:
   - id: q-fat-to-glucose
     stem: "Can the body turn fat into glucose?"
     options:
-      - text: "No net conversion — only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot."
+      - text: "Only the glycerol backbone, not the fatty-acid carbons."
         correct: true
-        feedback: "Correct — and this is the keystone fact of the chapter. Fatty acids become acetyl-CoA, and pyruvate → acetyl-CoA (PDH) is a one-way door, so fatty-acid carbon cannot go back to glucose. Only glycerol can."
+        feedback: "Correct — and this is the keystone fact of the chapter. Only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot. Fatty acids become acetyl-CoA, and pyruvate → acetyl-CoA (PDH) is a one-way door, so fatty-acid carbon cannot go back to glucose."
       - text: "Yes — fat is readily converted to glucose whenever blood sugar is low."
         correct: false
         feedback: "No. This is the most important misconception to unlearn. The one-way PDH step means fatty-acid carbon cannot become glucose — which is exactly why the body must defend and remake glucose in a fast."
@@ -16,9 +16,9 @@ questions:
   - id: q-muscle-glycogen
     stem: "Your muscles hold most of the body's glycogen. Why can't that glycogen raise your blood sugar during a fast?"
     options:
-      - text: "Muscle lacks glucose-6-phosphatase, so it cannot release free glucose — only the liver and kidney can."
+      - text: "Muscle lacks glucose-6-phosphatase, so it cannot release free glucose."
         correct: true
-        feedback: "Correct. Muscle glycogen is trapped for local use. Muscle helps blood glucose only indirectly, by sending lactate (Cori cycle) or alanine to the liver."
+        feedback: "Correct. Only the liver and kidney have glucose-6-phosphatase. Muscle glycogen is trapped for local use; muscle helps blood glucose only indirectly, by sending lactate (Cori cycle) or alanine to the liver."
       - text: "Muscle glycogen is used up before a fast even begins."
         correct: false
         feedback: "No — muscle keeps plenty of glycogen. The issue is that it lacks the enzyme (glucose-6-phosphatase) to release free glucose to the blood."
@@ -28,9 +28,9 @@ questions:
   - id: q-insulin-anabolic
     stem: "Which statement about insulin is most accurate?"
     options:
-      - text: "It is the master anabolic hormone — it stores glucose AND fat AND builds protein."
+      - text: "It is the master anabolic hormone across all three macronutrients."
         correct: true
-        feedback: "Correct. 'Insulin = the sugar hormone' undersells it. It is the store-and-build conductor across all three macronutrients."
+        feedback: "Correct. 'Insulin = the sugar hormone' undersells it. It stores glucose and fat and builds protein — the store-and-build conductor across all three macronutrients."
       - text: "Its only job is to lower blood glucose."
         correct: false
         feedback: "Too narrow. Lowering glucose is one effect; insulin also stores fat (and blocks its breakdown) and builds protein."
@@ -40,9 +40,9 @@ questions:
   - id: q-glut
     stem: "After a meal, why does glucose uptake surge in muscle and fat but not in the liver?"
     options:
-      - text: "Muscle and fat use GLUT4, which insulin brings to the cell surface; the liver uses GLUT2, which works without insulin."
+      - text: "Muscle and fat use insulin-dependent GLUT4; the liver uses GLUT2."
         correct: true
-        feedback: "Correct. GLUT4 is insulin-dependent, so a meal switches on muscle/fat uptake. GLUT2 (liver) just admits glucose in proportion to concentration; insulin acts on the liver's enzymes, not its glucose door."
+        feedback: "Correct. Insulin brings GLUT4 to the cell surface, so a meal switches on muscle/fat uptake. GLUT2 (liver) is insulin-independent and just admits glucose in proportion to concentration; insulin acts on the liver's enzymes, not its glucose door."
       - text: "The liver has no way to take up glucose."
         correct: false
         feedback: "No — the liver takes up glucose readily through GLUT2. The difference is that its door doesn't need insulin, so uptake doesn't 'surge' the way GLUT4-dependent muscle and fat do."
@@ -52,9 +52,9 @@ questions:
   - id: q-scot
     stem: "In a prolonged fast the liver makes large amounts of ketone bodies. Why does it export them rather than burn them itself?"
     options:
-      - text: "The liver lacks the enzyme (SCOT) needed to use ketones, so it is a ketone factory that ships its whole output to other organs."
+      - text: "The liver lacks the enzyme (SCOT) needed to use ketones."
         correct: true
-        feedback: "Correct. The liver makes ketones for the brain, muscle and heart but cannot use its own — a neat piece of metabolic division of labour."
+        feedback: "Correct. Without SCOT the liver is a ketone factory that ships its whole output to other organs. It makes ketones for the brain, muscle and heart but cannot use its own — a neat piece of metabolic division of labour."
       - text: "The liver has no use for energy during a fast."
         correct: false
         feedback: "No — the liver is very active in a fast (making glucose and ketones). It simply lacks SCOT, the enzyme to burn ketones, so it exports them."
@@ -64,9 +64,9 @@ questions:
   - id: q-ketosis-dka
     stem: "What actually distinguishes dangerous diabetic ketoacidosis (DKA) from the harmless ketosis of a keto diet or a fast?"
     options:
-      - text: "The acidosis. DKA is defined by an acidic blood pH from uncontrolled insulin deficiency — the ketone levels can even overlap."
+      - text: "The acidosis — an acidic blood pH from uncontrolled insulin deficiency."
         correct: true
-        feedback: "Correct. It's a common trap to think 'DKA = just very high ketones.' The discriminator is the acidosis (and the near-total lack of insulin behind it), not the ketone number alone."
+        feedback: "Correct. It's a common trap to think 'DKA = just very high ketones' — but the ketone levels can even overlap with nutritional ketosis. The discriminator is the acidosis (and the near-total lack of insulin behind it), not the ketone number alone."
       - text: "Only the ketone concentration — DKA always has far higher ketones with no overlap."
         correct: false
         feedback: "Not quite. Deep nutritional ketosis and mild DKA ketone ranges can overlap. What defines DKA is the acidosis driven by uncontrolled insulin deficiency."
@@ -88,7 +88,7 @@ questions:
   - id: q-alcohol
     stem: "Someone drinks heavily on an empty stomach after skipping meals and becomes confused and sweaty. What's the most likely metabolic problem?"
     options:
-      - text: "Hypoglycaemia — alcohol blocks gluconeogenesis, and with glycogen already low the liver can make glucose by neither route."
+      - text: "Hypoglycaemia — alcohol blocks gluconeogenesis and glycogen is already low."
         correct: true
         feedback: "Correct. Metabolising ethanol floods the liver with NADH, which blocks gluconeogenesis. With glycogen spent from skipped meals, both glucose sources are offline — a real, dangerous hypoglycaemia, not just 'being drunk.'"
       - text: "Hyperglycaemia — alcohol is full of sugar and raises blood glucose."
@@ -100,9 +100,9 @@ questions:
   - id: q-glycolysis-o2
     stem: "Does glycolysis (splitting glucose to pyruvate) need oxygen?"
     options:
-      - text: "No — it runs in the cytosol without oxygen; oxygen is used later, at oxidative phosphorylation."
+      - text: "No — it runs in the cytosol without oxygen."
         correct: true
-        feedback: "Correct. This is why red cells (no mitochondria) and sprinting muscle can still make ATP. When oxygen is short, pyruvate becomes lactate to keep glycolysis going."
+        feedback: "Correct. Oxygen is used later, at oxidative phosphorylation, not in glycolysis. This is why red cells (no mitochondria) and sprinting muscle can still make ATP; when oxygen is short, pyruvate becomes lactate to keep glycolysis going."
       - text: "Yes — glycolysis is the step where oxygen is consumed."
         correct: false
         feedback: "No — a very common misconception. Oxygen is used at oxidative phosphorylation, not in glycolysis. Glycolysis is oxygen-independent."

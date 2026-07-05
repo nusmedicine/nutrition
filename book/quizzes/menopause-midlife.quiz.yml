@@ -4,9 +4,9 @@ questions:
   - id: q1
     stem: "A 52-year-old woman says menopause has made her gain weight. What does the evidence actually show?"
     options:
-      - text: "Total weight rises mainly with **age and lifestyle** (no jump timed to menopause); what *is* menopause-specific is fat **redistributing to the abdomen** and muscle falling — so the waistline, not the scale, is the tell"
+      - text: "Total weight tracks age and lifestyle; fat redistributes to the abdomen"
         correct: true
-        feedback: "Correct. In cohort data the scale climbs steadily through the transition with no menopause-timed jump; the menopause-specific change is body *composition* — visceral fat up, lean mass down."
+        feedback: "Correct. In cohort data the scale climbs steadily through the transition with no menopause-timed jump; the menopause-specific change is body *composition* — visceral fat up, lean mass down. The waistline, not the scale, is the tell."
       - text: "Menopause directly causes a sharp jump in total body weight at the final period"
         correct: false
         feedback: "No — total weight tracks ageing/energy balance with no jump at the final period. The menopause-specific change is *where* fat sits, not how much the scale reads."
@@ -17,9 +17,9 @@ questions:
   - id: q2
     stem: "\"My metabolism has crashed at menopause.\" Is that right?"
     options:
-      - text: "No — energy expenditure (adjusted for fat-free mass) is stable from about age 20 to 60, declining only after ~60; any real drop in what she burns comes mostly from **losing muscle**, which is modifiable"
+      - text: "No — adjusted expenditure is stable to age 60; any real drop is from losing muscle"
         correct: true
-        feedback: "Correct. There's no metabolic cliff at menopause. Defending muscle with protein and resistance exercise is what protects her burn."
+        feedback: "Correct. There's no metabolic cliff at menopause; fat-free-mass-adjusted expenditure is stable 20–60, declining only after ~60. Muscle loss is the modifiable driver, so defending muscle with protein and resistance exercise is what protects her burn."
       - text: "Yes — metabolic rate falls off a cliff at the menopause transition"
         correct: false
         feedback: "There's no menopause-specific breakpoint. Fat-free-mass-adjusted expenditure is stable 20–60; the modifiable driver of any fall is muscle loss."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "Which statement about **bone at menopause** is correct?"
     options:
-      - text: "Loss **accelerates** in a narrow window around the final period (roughly 2%/year, steeper at the spine); calcium and vitamin D are *permissive* but routine supplements don't stop it — food-first plus **loading exercise** is the strongest lever"
+      - text: "Loss accelerates in a window around the final period; loading exercise is the strongest lever"
         correct: true
-        feedback: "Correct. Oestrogen normally brakes resorption; when it falls, loss accelerates in the transmenopause window. Routine low-dose calcium+vitamin D shows no net fracture benefit; progressive resistance/impact loading is the strongest modifiable lever."
+        feedback: "Correct. Oestrogen normally brakes resorption; when it falls, loss accelerates in the transmenopause window (roughly 2%/year, steeper at the spine). Calcium and vitamin D are permissive but routine low-dose supplements show no net fracture benefit; food-first plus progressive resistance/impact loading is the strongest modifiable lever."
       - text: "Calcium and vitamin D supplements will stop or reverse the menopausal bone loss"
         correct: false
         feedback: "They're permissive raw materials, not a cure — routine low-dose supplementation gives no net fracture-prevention benefit and slightly raises kidney-stone risk. Loading is the strong lever."
@@ -43,9 +43,9 @@ questions:
   - id: q4
     stem: "A 48-year-old asks whether her newly borderline **blood pressure** is \"because of menopause.\" What's the precise answer?"
     options:
-      - text: "Be precise: **LDL-cholesterol** steps up right around the final period (menopause-linked), but **blood pressure and glucose drift up with age**, not with menopause — so avoid both over- and under-attribution"
+      - text: "LDL-cholesterol steps up at menopause, but blood pressure and glucose drift up with age"
         correct: true
-        feedback: "Correct. The menopause-linked change is the lipid step (LDL-C/apoB); blood pressure and glucose follow the ageing pattern. Naming which is which avoids blaming everything — or nothing — on menopause."
+        feedback: "Correct. The menopause-linked change is the lipid step (LDL-C/apoB) around the final period; blood pressure and glucose follow the ageing pattern. Naming which is which avoids both over- and under-attribution — blaming everything, or nothing, on menopause."
       - text: "Yes — every cardiometabolic change at midlife is caused by menopause"
         correct: false
         feedback: "Over-attribution. LDL-C is menopause-linked, but blood pressure and glucose track age — not the final period."
@@ -56,9 +56,9 @@ questions:
   - id: q5
     stem: "How should you counsel a woman about **soy** for menopause?"
     options:
-      - text: "Soy **foods are safe and healthy** (and at Asian intakes linked to *lower* breast-cancer risk, including for survivors), but their effect on hot flushes is **modest and inconsistent** — enjoy soy as food, don't rely on it as a flush cure or take high-dose isoflavone supplements expecting hormone-like relief"
+      - text: "Soy foods are safe and healthy, but their effect on hot flushes is modest and inconsistent"
         correct: true
-        feedback: "Correct — the two-part message. Efficacy for flushes is modest/unreliable (societies don't recommend it as treatment); safety is reassuring, and the old 'soy causes breast cancer' fear came from rodent data that don't translate to humans."
+        feedback: "Correct — the two-part message. At Asian intakes soy is linked to *lower* breast-cancer risk, including for survivors, so safety is reassuring; the old 'soy causes breast cancer' fear came from rodent data that don't translate to humans. Efficacy for flushes is modest/unreliable, so enjoy soy as food but don't rely on high-dose isoflavone supplements as a flush cure — societies don't recommend it as treatment."
       - text: "Tell her to avoid soy — it acts like oestrogen and raises breast-cancer risk"
         correct: false
         feedback: "This is the myth to correct. In humans, and especially at Asian intakes, soy foods are safe and associated with *lower* breast-cancer risk — including in survivors on tamoxifen."
@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "A 55-year-old, three years past menopause, is tired and asks about taking **iron** \"because women need iron.\" Best response?"
     options:
-      - text: "Iron needs **fall** after periods stop, so routine iron isn't needed — and *new* iron-deficiency anaemia now is a **red flag for gastrointestinal blood loss** to investigate, not a supplement to start"
+      - text: "Iron needs fall after periods stop; new deficiency is a red flag to investigate"
         correct: true
-        feedback: "Correct. Post-menopause, iron requirements drop to about a man's; unexplained iron deficiency should be worked up (commonly GI blood loss), not reflexively topped up."
+        feedback: "Correct. Post-menopause, iron requirements drop to about a man's, so routine iron isn't needed; unexplained new iron deficiency is a red flag for gastrointestinal blood loss and should be worked up, not reflexively topped up with a supplement."
       - text: "Start iron tablets and recheck her bloods in three months"
         correct: false
         feedback: "Reflexive supplementation misses the point — new deficiency after menopause needs investigation for a source of blood loss, not an empirical top-up."
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "A patient wants a \"menopause diet\" to fix hot flushes, **vaginal dryness**, bone and heart. Which framing is right?"
     options:
-      - text: "Match the lever to the problem: diet meaningfully helps **bone and heart**, does only a **little** for hot flushes, and does **nothing** for vaginal dryness (genitourinary syndrome) — which needs recognition and **referral** for effective treatment"
+      - text: "Diet helps bone and heart, does little for flushes, nothing for vaginal dryness"
         correct: true
-        feedback: "Correct — the honest map. There's no single symptom-curing 'menopause diet'; some problems (GSM) have no dietary lever at all, so recognising when to refer beats selling a supplement."
+        feedback: "Correct — the realistic map. There's no single symptom-curing 'menopause diet'; match the lever to the problem. Vaginal dryness (genitourinary syndrome) has no dietary lever at all and needs recognition and referral for effective treatment, so knowing when to refer beats selling a supplement."
       - text: "A special anti-menopause diet can fix all four if she's disciplined enough"
         correct: false
         feedback: "There's no such diet. Overpromising here sets her up to fail and invites 'natural remedy' marketing — especially for symptoms diet can't touch."

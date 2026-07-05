@@ -16,9 +16,9 @@ questions:
   - id: q-densest
     stem: "Where does the microbiome live in greatest density, and why there?"
     options:
-      - text: "The colon — slow transit, near-neutral pH and little absorption make it the ideal fermentation chamber."
+      - text: "The colon — slow transit and near-neutral pH."
         correct: true
-        feedback: "Correct. Density climbs along the tract and peaks in the colon, which is why that's where fibre fermentation happens."
+        feedback: "Correct. Slow transit, near-neutral pH and little absorption make the colon the ideal fermentation chamber. Density climbs along the tract and peaks there, which is why that's where fibre fermentation happens."
       - text: "The stomach — the acid helps bacteria grow."
         correct: false
         feedback: "The opposite — stomach acid keeps microbial numbers low. The colon is the dense site."
@@ -28,9 +28,9 @@ questions:
   - id: q-ferment
     stem: "What is the key difference between digestion and fermentation?"
     options:
-      - text: "Digestion is your own enzymes breaking food down in the small intestine; fermentation is bacteria breaking down (without oxygen) what your enzymes could not, in the colon."
+      - text: "Digestion is your own enzymes; fermentation is bacterial breakdown in the colon."
         correct: true
-        feedback: "Correct. Fibre escapes your enzymes and is fermented by colonic bacteria — bacterial metabolism, not host digestion."
+        feedback: "Correct. Digestion is your own enzymes breaking food down in the small intestine; fermentation is bacteria breaking down (without oxygen), in the colon, what your enzymes could not. Fibre escapes your enzymes and is fermented by colonic bacteria — bacterial metabolism, not host digestion."
       - text: "They are two words for the same process."
         correct: false
         feedback: "No — digestion is your enzymes; fermentation is bacterial metabolism of what you couldn't digest."
@@ -40,9 +40,9 @@ questions:
   - id: q-butyrate
     stem: "Which short-chain fatty acid is the preferred fuel of the cells lining the colon?"
     options:
-      - text: "Butyrate — even though it's the least abundant of the three."
+      - text: "Butyrate — because it fuels the colonocytes."
         correct: true
-        feedback: "Correct, and note the trap: butyrate is the LEAST abundant SCFA but the most important locally. Abundance is not importance."
+        feedback: "Correct, and note the trap: butyrate is the LEAST abundant of the three SCFAs but the most important locally. Abundance is not importance."
       - text: "Acetate — because it's the most abundant."
         correct: false
         feedback: "Acetate is the most abundant, but it travels systemically. The colonocyte's fuel is butyrate."
@@ -52,9 +52,9 @@ questions:
   - id: q-gas
     stem: "Why do beans, onions or too much milk give some people wind?"
     options:
-      - text: "Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄) — usually a sign the system is working."
+      - text: "Colonic bacteria ferment the carbohydrate, producing gas."
         correct: true
-        feedback: "Correct. Gas is a normal by-product of fermentation; undigested lactose (Chapter 5) reaching the colon is a classic example."
+        feedback: "Correct. Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄) — usually a sign the system is working. Undigested lactose (Chapter 5) reaching the colon is a classic example."
       - text: "The stomach can't handle these foods, so acid escapes as gas."
         correct: false
         feedback: "No — the gas comes from bacterial fermentation in the colon, not the stomach."
@@ -64,9 +64,9 @@ questions:
   - id: q-diversity
     stem: "Why does eating a *variety* of plants matter for the microbiome, not just eating fibre?"
     options:
-      - text: "Microbes cross-feed — one species breaks fibre into products another uses — so diverse fibres feed a diverse, resilient community."
+      - text: "Microbes cross-feed, so diverse fibres feed a diverse community."
         correct: true
-        feedback: "Correct. Many butyrate producers can't break fibre down themselves; they live on what primary degraders release. Variety feeds variety."
+        feedback: "Correct. Microbes cross-feed — one species breaks fibre into products another uses — so diverse fibres feed a diverse, resilient community. Many butyrate producers can't break fibre down themselves; they live on what primary degraders release. Variety feeds variety."
       - text: "Different plants each contain a different vitamin the microbiome needs."
         correct: false
         feedback: "The mechanism is cross-feeding among microbes, not plant vitamins. Diverse fibre substrates support a diverse microbial community."
@@ -76,9 +76,9 @@ questions:
   - id: q-b12
     stem: "Can you rely on your gut bacteria to supply your vitamin B12?"
     options:
-      - text: "No — most microbial synthesis is in the colon, downstream of where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the functional supply."
+      - text: "No — microbial synthesis is downstream of where B12 is absorbed."
         correct: true
-        feedback: "Correct — the site/absorption mismatch is the key. 'Made in the gut' does not mean 'available to you.'"
+        feedback: "Correct — the site/absorption mismatch is the key. Most microbial synthesis is in the colon, downstream of absorption, and gut microbes are net consumers of B12; dietary (animal-source) B12 is the functional supply. 'Made in the gut' does not mean 'available to you.'"
       - text: "Yes — gut bacteria make all the B12 you need."
         correct: false
         feedback: "No. Colonic synthesis sits past the absorption site (terminal ileum), and microbes mostly consume B12. Diet is the functional source."
@@ -88,9 +88,9 @@ questions:
   - id: q-fermented
     stem: "Is a fermented food the same as a probiotic?"
     options:
-      - text: "No — a fermented food is defined by its process; many are cooked or pasteurised. A probiotic must be live, defined, dosed microbes shown to benefit health."
+      - text: "No — a probiotic must be live, defined, dosed microbes."
         correct: true
-        feedback: "Correct. Fermented ≠ probiotic. Tempeh and boiled miso are fermented but carry few or no live microbes; they're still good foods."
+        feedback: "Correct. Fermented ≠ probiotic. A fermented food is defined by its process, and many are cooked or pasteurised; a probiotic must be live, defined, dosed microbes shown to benefit health. Tempeh and boiled miso are fermented but carry few or no live microbes; they're still good foods."
       - text: "Yes — all fermented foods are probiotics."
         correct: false
         feedback: "No — many fermented foods (tempeh, bread, cooked miso) have few/no live microbes. Only defined, dosed, live products meet the probiotic bar."
@@ -112,9 +112,9 @@ questions:
   - id: q-serotonin
     stem: "Your gut makes ~90–95% of your body's serotonin. Does that mean gut serotonin controls your mood?"
     options:
-      - text: "No — that serotonin runs digestion, and peripheral serotonin does not cross the blood–brain barrier."
+      - text: "No — peripheral serotonin does not cross the blood–brain barrier."
         correct: true
-        feedback: "Correct. The claim collapses on mechanism: gut serotonin can't reach the brain directly. A real gut–brain axis exists, but 'gut serotonin = happiness' is a metaphor, not a mechanism."
+        feedback: "Correct. That serotonin runs digestion, and the claim collapses on mechanism: gut serotonin can't reach the brain directly. A real gut–brain axis exists, but 'gut serotonin = happiness' is a metaphor, not a mechanism."
       - text: "Yes — the gut serotonin travels to the brain and lifts your mood."
         correct: false
         feedback: "No — peripheral serotonin doesn't cross the blood–brain barrier. Gut serotonin drives gut motility, not brain mood directly."

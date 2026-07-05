@@ -36,9 +36,9 @@ nodes:
     stem: "What do you notice first?"
     options:
       - id: a
-        text: "Pallor plus heavy menstrual bleeding — a pattern that should make you think of iron deficiency."
+        text: "Pallor plus heavy menstrual bleeding."
         correct: true
-        feedback: "Right — fatigue, pallor, exertional breathlessness and heavy periods are the classic iron-deficiency picture."
+        feedback: "Right — this pattern should make you think of iron deficiency: fatigue, pallor, exertional breathlessness and heavy periods are the classic picture."
         effects: { quality: +1 }
         goto: reveal-group
       - id: b
@@ -68,9 +68,9 @@ nodes:
     stem: "Her diet is mostly **noodles and bread** with little meat. Why does that matter for her iron?"
     options:
       - id: a
-        text: "Plant (non-haem) iron is absorbed less well and more variably than the haem iron in meat and fish, so a meat-light diet is a genuine risk factor."
+        text: "Plant (non-haem) iron is absorbed less well than the haem iron in meat and fish."
         correct: true
-        feedback: "Right — non-haem iron is poorly and variably absorbed. Pairing it with a vitamin-C food (and keeping tea/coffee away from meals) helps."
+        feedback: "Right — non-haem iron is poorly and variably absorbed, so a meat-light diet is a genuine risk factor. Pairing it with a vitamin-C food (and keeping tea/coffee away from meals) helps."
         effects: { quality: +1 }
         goto: q-absorption
       - id: b
@@ -110,9 +110,9 @@ nodes:
     stem: "What is the most **appropriate** action here?"
     options:
       - id: a
-        text: "Recognise the pattern, give food-first advice (iron-rich foods + vitamin C), and arrange appropriate testing / refer."
+        text: "Give food-first advice, then arrange testing and refer."
         correct: true
-        feedback: "Exactly — recognition → at-risk group → food-first advice + refer for the menstrual cause and confirmatory testing."
+        feedback: "Exactly — recognition → at-risk group → food-first advice (iron-rich foods + vitamin C) + refer for the menstrual cause and confirmatory testing."
         effects: { quality: +1 }
         goto: route
       - id: b

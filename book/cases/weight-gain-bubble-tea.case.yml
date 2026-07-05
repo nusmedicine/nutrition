@@ -81,7 +81,7 @@ nodes:
     stem: "You now know Wei has about two bubble teas a day and sweet kopi. How do you open the advice?"
     options:
       - id: a
-        text: "\"Would it be alright if I shared one idea about your drinks?\" — then suggest one realistic swap in plain language."
+        text: "\"Would it be alright if I shared one idea about your drinks?\""
         correct: true
         feedback: "Right — assess, then advise with permission. Asking first turns advice into a conversation, and one concrete swap (less sugar, or teh-o kosong) beats a list she'll ignore."
         effects: { quality: +1 }
@@ -104,7 +104,7 @@ nodes:
     stem: "As you talk, Wei adds: *\"Honestly, some days I skip meals completely to make up for a big day — and I feel really guilty after I eat. That's normal for losing weight, right?\"* What now?"
     options:
       - id: a
-        text: "Gently shift to a few supportive screening questions (SCOFF-style), and hold off on any restriction plan — consider referral."
+        text: "Gently shift to a few supportive screening questions (SCOFF-style), and hold off on any restriction plan."
         correct: true
         feedback: "Correct — do no harm. Skipping to compensate and guilt after eating are red flags; a weight-loss plan could worsen an eating disorder. Screen gently, be supportive, and consider referral. A negative screen wouldn't fully reassure you either."
         effects: { quality: +1 }

@@ -106,9 +106,9 @@ nodes:
     stem: "Her needs are ≈ **1740 kcal/day** and she wants to lose weight. What target should you set?"
     options:
       - id: a
-        text: "A modest deficit of ~300–500 kcal/day, via sustainable swaps"
+        text: "A modest deficit of ~300–500 kcal/day"
         correct: true
-        feedback: "Right — a modest deficit supports gradual loss (~0.25–0.5 kg/week) and is far easier to sustain. Drastic cuts provoke the body's defence of weight — stronger hunger and a fall in expenditure."
+        feedback: "Right — a modest deficit supports gradual loss (~0.25–0.5 kg/week) via sustainable swaps, and is far easier to sustain. Drastic cuts provoke the body's defence of weight — stronger hunger and a fall in expenditure."
         effects: { quality: 1 }
         goto: route
       - id: b

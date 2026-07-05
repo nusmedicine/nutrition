@@ -43,9 +43,9 @@ questions:
   - id: q4
     stem: "The pancreas secretes its protein-digesting enzymes in an **inactive** form. Why?"
     options:
-      - text: "So the enzymes don't digest the pancreas itself — they're only switched on once in the gut"
+      - text: "So the enzymes don't digest the pancreas itself"
         correct: true
-        feedback: "Correct — a biological safety-lock: the proteases are activated only after they reach the intestine."
+        feedback: "Correct — a biological safety-lock: the proteases are switched on only after they reach the intestine."
       - text: "Because inactive enzymes are cheaper for the body to make"
         correct: false
         feedback: "The reason is safety, not economy — active proteases in the pancreas would damage it."
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "About 95% of Singapore-born Chinese adults are lactase-deficient. What does that mean in practice?"
     options:
-      - text: "Being lactase-deficient isn't the same as being intolerant — most still tolerate about a cup of milk, and it's different again from milk allergy"
+      - text: "Deficient is not the same as intolerant, and different again from allergic"
         correct: true
-        feedback: "Correct — deficient (low lactase) ≠ intolerant (symptoms from a given dose) ≠ allergic (an immune reaction to milk protein)."
+        feedback: "Correct — deficient (low lactase) ≠ intolerant (symptoms from a given dose) ≠ allergic (an immune reaction to milk protein). Most still tolerate about a cup of milk."
       - text: "Almost all of them will be violently ill after any dairy"
         correct: false
         feedback: "No — only about a third get symptoms on ordinary amounts, and most tolerate roughly a cup of milk."
@@ -108,9 +108,9 @@ questions:
   - id: q9
     stem: "How is **glucose** absorbed across the gut lining?"
     options:
-      - text: "By secondary active transport — SGLT1 pulls glucose in alongside sodium"
+      - text: "By secondary active transport, via SGLT1"
         correct: true
-        feedback: "Correct — a sodium gradient (kept up by a pump) powers SGLT1, which drags glucose in with sodium. Fructose, by contrast, is facilitated (GLUT5)."
+        feedback: "Correct — a sodium gradient (kept up by a pump) powers SGLT1, which drags glucose in alongside sodium. Fructose, by contrast, is facilitated (GLUT5)."
       - text: "By simple passive diffusion, like water"
         correct: false
         feedback: "Glucose is moved by SGLT1 (sodium-coupled), not passive diffusion — that coupling is what oral rehydration relies on."
@@ -121,9 +121,9 @@ questions:
   - id: q10
     stem: "After absorption, how does most **dietary fat** reach the bloodstream?"
     options:
-      - text: "Packaged into chylomicrons that enter the lymph (lacteals), bypassing the liver's first pass"
+      - text: "Packaged into chylomicrons that enter the lymph"
         correct: true
-        feedback: "Correct — long-chain fat is re-esterified, packed into chylomicrons, and takes the lymphatic route. (Short- and medium-chain fats are the small exception, entering blood directly.)"
+        feedback: "Correct — long-chain fat is re-esterified, packed into chylomicrons, and takes the lymphatic route (via the lacteals), bypassing the liver's first pass. Short- and medium-chain fats are the small exception, entering blood directly."
       - text: "Dissolved directly in the blood plasma like glucose"
         correct: false
         feedback: "Fat doesn't dissolve in water — it travels as chylomicrons in lymph, then blood."
@@ -134,9 +134,9 @@ questions:
   - id: q11
     stem: "Bile — where is it made, and what happens to it after a meal?"
     options:
-      - text: "Made by the liver; about 95% is reabsorbed at the terminal ileum and recycled (enterohepatic circulation)"
+      - text: "Made by the liver; most is reabsorbed and recycled"
         correct: true
-        feedback: "Correct — the liver makes bile, the gallbladder stores it, and most bile salts are reclaimed at the terminal ileum and reused."
+        feedback: "Correct — the liver makes bile, the gallbladder stores it, and about 95% of bile salts are reclaimed at the terminal ileum and reused (enterohepatic circulation)."
       - text: "Made by the gallbladder and used up completely with each meal"
         correct: false
         feedback: "The gallbladder only stores and concentrates bile; the liver makes it, and ~95% is recycled, not used up."
@@ -147,9 +147,9 @@ questions:
   - id: q12
     stem: "Oral rehydration salts contain glucose **and** sodium. Why not just water?"
     options:
-      - text: "Glucose is the 'handle' sodium rides in on through SGLT1; water then follows the sodium — plain water lacks both"
+      - text: "Glucose carries sodium in through SGLT1, and water follows"
         correct: true
-        feedback: "Correct — the glucose–sodium coupling drives absorption and water follows osmotically, which is why ORS works and plain water alone does less well."
+        feedback: "Correct — glucose is the 'handle' sodium rides in on through SGLT1, and water follows the sodium osmotically. Plain water lacks both, which is why ORS works better."
       - text: "The glucose is mainly there for calories and energy"
         correct: false
         feedback: "Here the glucose is a transport handle for sodium, not primarily a fuel."

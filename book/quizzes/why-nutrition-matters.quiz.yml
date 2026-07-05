@@ -20,9 +20,9 @@ questions:
       - text: "Because diet is the only pillar that affects health"
         correct: false
         feedback: "No — all six pillars matter. Nutrition is the *hub* because it connects to the others, not because it replaces them."
-      - text: "Because it interacts bidirectionally with sleep, stress, activity, alcohol and social connection"
+      - text: "Because it interacts with the other five pillars in both directions"
         correct: true
-        feedback: "Correct — pulling on the nutrition lever tends to move the whole web (e.g. short sleep raises appetite; stress drives comfort eating)."
+        feedback: "Correct — nutrition connects bidirectionally to sleep, stress, activity, alcohol and social connection, so pulling on it tends to move the whole web (e.g. short sleep raises appetite; stress drives comfort eating)."
       - text: "Because nutrition is unrelated to the other pillars and can be treated in isolation"
         correct: false
         feedback: "The opposite — its *connectedness* is exactly why it's the hub."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
     options:
-      - text: "Whole dietary **patterns** matter more than any single nutrient or food"
+      - text: "Whole dietary patterns matter more than any single food"
         correct: true
-        feedback: "Correct — patterns (e.g. Mediterranean, DASH) outperform single-nutrient or 'superfood' thinking."
+        feedback: "Correct — whole dietary patterns (e.g. Mediterranean, DASH) outperform single-nutrient or 'superfood' thinking."
       - text: "Find the one magic nutrient and maximise it"
         correct: false
         feedback: "This is the single-nutrient reductionist trap the chapter warns against."
@@ -46,9 +46,9 @@ questions:
       - text: "Yes — it's a definitive randomised trial with no important caveats"
         correct: false
         feedback: "Overstated. Every landmark trial carries caveats worth knowing."
-      - text: "It showed a ~30% **relative** reduction on a **composite** endpoint, from a 2018 re-analysis — promising, but caveated"
+      - text: "It showed a benefit, but the claim needs important caveats"
         correct: true
-        feedback: "Correct — relative risk on a stroke-dominated composite, partly cluster-randomised, from a re-analysis after the original was withdrawn."
+        feedback: "Correct — a ~30% relative reduction on a stroke-dominated composite endpoint, partly cluster-randomised, from a 2018 re-analysis after the original was withdrawn."
       - text: "PREDIMED found no effect at all"
         correct: false
         feedback: "It did find a benefit — but the claim must be stated precisely, with its limits."
@@ -72,9 +72,9 @@ questions:
       - text: "Using behaviour change instead of medication — an alternative to mainstream medicine"
         correct: false
         feedback: "A common misconception. It is evidence-based and guideline-aligned — behaviour change *alongside* drugs, not rejecting them."
-      - text: "Evidence-based use of the six pillars (nutrition, activity, sleep, stress, connection, avoiding risky substances) to prevent, treat and sometimes reverse chronic disease — alongside usual care"
+      - text: "Evidence-based use of the six pillars alongside usual care"
         correct: true
-        feedback: "Correct — it works *with* pharmacotherapy and surgery, not against them."
+        feedback: "Correct — the six pillars (nutrition, activity, sleep, stress, connection, avoiding risky substances) are used to prevent, treat and sometimes reverse chronic disease, working *with* pharmacotherapy and surgery, not against them."
       - text: "Only telling patients to 'eat better and exercise more'"
         correct: false
         feedback: "Too vague. It is a structured, examinable clinical skill across six pillars."

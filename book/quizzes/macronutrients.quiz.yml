@@ -46,9 +46,9 @@ questions:
       - text: "It proves fibre causes lower mortality"
         correct: false
         feedback: "Overstated — the data are largely observational (moderate certainty at best); these are associations."
-      - text: "It shows an association with lower mortality and disease, strengthening up to ~25–29 g fibre/day — but mostly from cohort data"
+      - text: "It shows an association with lower mortality, mostly from cohort data"
         correct: true
-        feedback: "Correct — report the benefit *with* its evidence caveat."
+        feedback: "Correct — report the benefit *with* its evidence caveat. The protective association strengthens up to ~25–29 g fibre/day, but the data are largely observational."
       - text: "It found fibre makes no difference to health"
         correct: false
         feedback: "It found a consistent protective association; the caveat is about causation, not direction."
@@ -56,9 +56,9 @@ questions:
   - id: q5
     stem: "A patient wants to know 'the one ideal macronutrient ratio.' What does current guidance say?"
     options:
-      - text: "There is no single ideal split; individualise, emphasise food quality and patterns"
+      - text: "There is no single ideal split; individualise"
         correct: true
-        feedback: "Correct — guidelines deliberately avoid one ratio and refer to a dietitian for individualised needs."
+        feedback: "Correct — guidelines deliberately avoid one ratio, emphasise food quality and patterns, and refer to a dietitian for individualised needs."
       - text: "Exactly 50% carbohydrate, 30% fat, 20% protein for everyone"
         correct: false
         feedback: "No such universal ratio exists; food source and pattern matter more than a fixed split."

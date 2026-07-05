@@ -4,9 +4,9 @@ questions:
   - id: q1
     stem: "Why can fat-soluble vitamins (A, D, E, K) cause toxicity more readily than water-soluble ones?"
     options:
-      - text: "Because they are stored in the body rather than readily excreted"
+      - text: "Because they are stored in the body"
         correct: true
-        feedback: "Correct — fat-soluble vitamins accumulate, so megadoses can reach toxic levels; water-soluble excess is largely excreted."
+        feedback: "Correct — fat-soluble vitamins are stored rather than readily excreted, so they accumulate and megadoses can reach toxic levels; water-soluble excess is largely excreted."
       - text: "Because they contain more energy"
         correct: false
         feedback: "Vitamins supply negligible energy; storage, not energy content, explains the toxicity risk."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "Why is folic acid recommended *before* conception rather than once pregnancy is confirmed?"
     options:
-      - text: "The neural tube closes about four weeks after conception — often before pregnancy is known"
+      - text: "The neural tube closes very early in pregnancy"
         correct: true
-        feedback: "Correct — by the time a pregnancy test is positive it is usually too late to prevent neural-tube defects such as spina bifida, so folate must be adequate periconceptionally."
+        feedback: "Correct — the neural tube closes about four weeks after conception, often before pregnancy is known, so by the time a test is positive it is usually too late to prevent defects such as spina bifida; folate must be adequate periconceptionally."
       - text: "Folic acid is destroyed by pregnancy hormones"
         correct: false
         feedback: "No — the reason is timing: the neural tube has usually already closed by the time pregnancy is confirmed."
@@ -108,9 +108,9 @@ questions:
   - id: q9
     stem: "A health-conscious family switches entirely from iodised table salt to 'natural' sea salt and pink Himalayan salt. What is the hidden nutritional risk?"
     options:
-      - text: "Most gourmet salts aren't iodised, risking iodine deficiency — which matters most in pregnancy"
+      - text: "Most gourmet salts aren't iodised, risking iodine deficiency"
         correct: true
-        feedback: "Correct — iodised salt is a key iodine source; iodine builds thyroid hormone and is vital for fetal brain development, so losing it is riskiest in pregnancy."
+        feedback: "Correct — iodised salt is a key iodine source, so switching away risks deficiency; iodine builds thyroid hormone and is vital for fetal brain development, making this riskiest in pregnancy."
       - text: "Sea salt contains dangerously high levels of iodine"
         correct: false
         feedback: "The opposite — most sea and gourmet salts contain little or no iodine."
@@ -134,9 +134,9 @@ questions:
   - id: q11
     stem: "In the National Nutrition Survey 2022, where does most of Singaporeans' dietary sodium come from?"
     options:
-      - text: "Sauces, broths and food eaten out — not mainly the table salt-shaker"
+      - text: "Sauces, broths and food eaten out"
         correct: true
-        feedback: "Correct — most sodium is already *in* prepared and hawker foods, which is why population strategies target the food supply."
+        feedback: "Correct — most sodium is already *in* prepared and hawker foods rather than the table salt-shaker, which is why population strategies target the food supply."
       - text: "Mostly salt added at the dining table"
         correct: false
         feedback: "A common misconception — the bulk is in cooking sauces, broths and eating out."
@@ -147,9 +147,9 @@ questions:
   - id: q12
     stem: "How should the SSaSS salt-substitute trial be summarised to a patient with kidney disease?"
     options:
-      - text: "Potassium-based salt substitutes may be unsafe for them (hyperkalaemia risk) — not blanket advice"
+      - text: "Potassium-based salt substitutes may be unsafe for them"
         correct: true
-        feedback: "Correct — SSaSS benefit was in a specific high-risk group, much of the BP effect came from added potassium, and substitutes are risky in CKD or on certain BP drugs."
+        feedback: "Correct — this is not blanket advice: SSaSS benefit was in a specific high-risk group, much of the BP effect came from added potassium, and substitutes carry a hyperkalaemia risk in CKD or on certain BP drugs."
       - text: "Everyone should switch to a potassium salt substitute immediately"
         correct: false
         feedback: "Unsafe to generalise — hyperkalaemia risk makes substitutes inappropriate in kidney disease and on some medications."

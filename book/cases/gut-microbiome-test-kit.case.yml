@@ -33,9 +33,9 @@ nodes:
     stem: "What can this 'low Bifidobacterium' result actually tell Rachel about her gut health?"
     options:
       - id: a
-        text: "Very little on its own — there's no agreed 'healthy' reference microbiome, results are poorly reproducible between companies, and there's no proven action to take from it in a well person."
+        text: "Very little on its own — it isn't a validated measure of gut health in a well person."
         correct: true
-        feedback: "Correct. International consensus is that these kits aren't clinically actionable for well people — the same stool can give different results from different companies."
+        feedback: "Correct. There's no agreed 'healthy' reference microbiome and results are poorly reproducible between companies — international consensus is that these kits aren't clinically actionable for well people, and the same stool can give different results from different companies."
         effects: { quality: +1 }
         goto: q-supplements
       - id: b
@@ -54,9 +54,9 @@ nodes:
     stem: "Should she buy the supplement bundle the report recommends?"
     options:
       - id: a
-        text: "No — that's an upsell built into the product. There's no evidence a well person benefits from these, and the money is better spent on more varied plants."
+        text: "No — that's an upsell built into the product, not a treatment need."
         correct: true
-        feedback: "Exactly. The test-and-supplement loop is a business model, not a treatment. Food-first beats a bottle here."
+        feedback: "Exactly. The test-and-supplement loop is a business model, not a treatment — there's no evidence a well person benefits, and the money is better spent on more varied plants. Food-first beats a bottle here."
         effects: { quality: +1 }
         goto: q-help
       - id: b
@@ -75,9 +75,9 @@ nodes:
     stem: "What actually helps her 'gut health'?"
     options:
       - id: a
-        text: "Eating a wide variety of plants — many different wholegrains, legumes, vegetables, fruit, nuts — because diverse fibre feeds a diverse, resilient microbiome. No single superfood or test needed."
+        text: "Eating a wide variety of plants across the week — no single superfood or test needed."
         correct: true
-        feedback: "Right — fibre diversity is the real, evidence-based lever (and most of us fall short: only ~4% of Singapore's staples are wholegrain). Variety beats any product."
+        feedback: "Right — diverse fibre from many different wholegrains, legumes, vegetables, fruit and nuts feeds a diverse, resilient microbiome. Fibre diversity is the real, evidence-based lever (and most of us fall short: only ~4% of Singapore's staples are wholegrain). Variety beats any product."
         effects: { quality: +1 }
         goto: q-symptoms
       - id: b
@@ -96,9 +96,9 @@ nodes:
     stem: "Rachel mentions that lately she's also had some persistent change in her bowel habit and occasional blood. What now?"
     options:
       - id: a
-        text: "That changes things — persistent symptoms or bleeding need proper medical assessment, not a home kit. Recognise the red flag and refer for evaluation."
+        text: "That changes things — these symptoms need proper medical assessment, not a home kit."
         correct: true
-        feedback: "Correct. Real symptoms — especially bleeding or a persistent change in bowel habit — warrant proper assessment, which a consumer kit can't provide. Recognise and refer."
+        feedback: "Correct. Real symptoms — especially bleeding or a persistent change in bowel habit — are a red flag that warrants proper assessment, which a consumer kit can't provide. Recognise and refer."
         effects: { quality: +1 }
         goto: route
       - id: b

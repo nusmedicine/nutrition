@@ -37,7 +37,7 @@ nodes:
     stem: "*Serene:* \"She's just getting old, right? Should we just let her be?\" **What is the most important red flag here?**"
     options:
       - id: a
-        text: "The **unintentional weight loss** — loose clothes in the months after being widowed — which needs evaluation and referral, not reassurance."
+        text: "The unintentional weight loss — loose clothes since she was widowed — which needs evaluation, not reassurance."
         correct: true
         feedback: "Right. Unintentional weight loss of around 5% or more is never 'just ageing' — and the widowhood window is a classic trigger. It's the signal that healthy ageing has tipped into something to act on."
         effects: { quality: +1 }
@@ -60,7 +60,7 @@ nodes:
     stem: "*Serene:* \"Should I put her on a low-fat, low-salt healthy diet to be safe?\" **What's the best first nutrition advice?**"
     options:
       - id: a
-        text: "\"Actually the opposite — she needs her food to be *richer*, not stricter. Add egg, fish or tofu to her porridge, keep the flavour, and try to get her eating with others. We'll sort out the rest.\""
+        text: "\"Actually the opposite — make her food richer, not stricter, and get her eating with others.\""
         correct: true
         feedback: "Correct — 'density up, restriction off.' Fortify familiar foods so a small appetite still delivers protein and energy, and tackle the eating-alone driver by reconnecting her to a shared meal."
         effects: { quality: +1 }
@@ -84,7 +84,7 @@ nodes:
     stem: "*You review her medicines.* Given long-term **metformin and a PPI** plus poor intake, what's appropriate?"
     options:
       - id: a
-        text: "Consider checking her **vitamin B12** (or refer to do so) — her medicines and low intake put her at risk of B12 deficiency from poor absorption."
+        text: "Consider checking her vitamin B12 (or refer to do so), given her medicines and poor intake."
         correct: true
         feedback: "Correct — watch the at-risk. Low stomach acid (worsened by the PPI) and long-term metformin impair B12 absorption, so she fits the profile to test, rather than blanket-supplementing everything."
         effects: { quality: +1 }
@@ -107,7 +107,7 @@ nodes:
     stem: "**What's the appropriate overall plan at your level?**"
     options:
       - id: a
-        text: "Refer her on — to the GP/polyclinic and a dietitian — and connect her to an **Active Ageing Centre** for communal meals and befriending; support her intake meanwhile, but don't try to manage the malnutrition workup yourself."
+        text: "Refer her on (GP/polyclinic and dietitian) and connect her to an Active Ageing Centre for communal meals."
         correct: true
         feedback: "Correct — recognise and refer, and act on the social driver. The full malnutrition assessment and management belong to the specialist and the undernutrition chapter; connecting her to a shared meal is the intervention you *can* start now."
         effects: { quality: +1 }

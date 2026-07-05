@@ -4,9 +4,9 @@ questions:
   - id: q1
     stem: "A 45-year-old says he's gaining weight because \"my metabolism has slowed down with age.\" What's the most accurate response?"
     options:
-      - text: "Energy expenditure is actually **broadly steady from about 20 to 60** — midlife weight creep is usually a **small chronic surplus** plus falling activity and muscle, not a slowing metabolism"
+      - text: "Energy expenditure is broadly steady from about 20 to 60, so the creep is a small chronic surplus, not a slowing metabolism"
         correct: true
-        feedback: "Correct. Doubly-labelled-water data show stable expenditure through these decades. That reframes the fix: keep moving and keep muscle, rather than crash-dieting against an imaginary decline."
+        feedback: "Correct. Doubly-labelled-water data show stable expenditure through these decades, with midlife weight creep driven by a small chronic surplus plus falling activity and muscle. That reframes the fix: keep moving and keep muscle, rather than crash-dieting against an imaginary decline."
       - text: "Yes — basal metabolic rate falls steadily from the thirties, so weight gain is inevitable without eating far less"
         correct: false
         feedback: "This is the common myth. Adjusted energy expenditure is stable ~20–60 and only falls later in life; the creep comes from a small surplus and declining activity/muscle."
@@ -17,9 +17,9 @@ questions:
   - id: q2
     stem: "A healthy adult does three 45-minute moderate gym sessions a week and asks what to eat and drink around them. Best advice?"
     options:
-      - text: "An **ordinary healthy plate and water** — at this (very common) level no sports drink, gel or protein powder is needed; the high-carbohydrate/during-exercise advice is for serious endurance athletes"
+      - text: "An ordinary healthy plate and water — no sports drink, gel or protein powder is needed"
         correct: true
-        feedback: "Correct — the inoculation against over-fuelling. Most active adults need nothing special beyond normal food and water. Sports nutrition is earned by genuine endurance volume, not a few weekly sessions."
+        feedback: "Correct — the inoculation against over-fuelling. At this common level of activity, the high-carbohydrate and during-exercise advice is for serious endurance athletes; most active adults need nothing special beyond normal food and water. Sports nutrition is earned by genuine endurance volume, not a few weekly sessions."
       - text: "Carbohydrate-load the day before and drink a sports drink during each session"
         correct: false
         feedback: "That's athlete guidance mis-applied — carb-loading and during-exercise sports drinks are for long endurance efforts, not a 45-minute gym session. Water is right here."
@@ -30,9 +30,9 @@ questions:
   - id: q3
     stem: "An active adult wants to build a bit of muscle and asks about protein. Which is the calibrated advice?"
     options:
-      - text: "Around **1.2–1.6 g per kg per day, spread across meals and easily reached from food** — benefit plateaus near there, so more isn't better, and it only works paired with **resistance exercise**"
+      - text: "Around 1.2–1.6 g per kg per day, paired with resistance exercise"
         correct: true
-        feedback: "Correct. The RDA (~0.8 g/kg) is a floor; ~1.2–1.6 g/kg suffices for muscle and plateaus. Protein without a loading stimulus does little — resistance work two-plus times a week is the necessary partner."
+        feedback: "Correct. The RDA (~0.8 g/kg) is a floor; ~1.2–1.6 g/kg is spread across meals, easily reached from food, and suffices for muscle before benefit plateaus, so more isn't better. Protein without a loading stimulus does little — resistance work two-plus times a week is the necessary partner."
       - text: "As much protein as possible — 3 g/kg or more, since extra protein always builds more muscle"
         correct: false
         feedback: "Benefit plateaus around 1.6 g/kg — mega-dosing isn't better for muscle. A moderate range from food is enough."
@@ -43,9 +43,9 @@ questions:
   - id: q4
     stem: "A healthy 38-year-old with normal kidneys is worried that a higher-protein diet will \"damage her kidneys.\" What do you tell her?"
     options:
-      - text: "Higher protein does **not** harm kidney function in people with **normal** kidneys — the real exception is **pre-existing kidney disease**"
+      - text: "Higher protein does not harm kidney function in people with normal kidneys"
         correct: true
-        feedback: "Correct — the evidence shows no harm to healthy kidneys at higher intakes. The caveat is established chronic kidney disease, which is managed separately."
+        feedback: "Correct — the evidence shows no harm to healthy kidneys at higher intakes. The real exception is pre-existing kidney disease, which is managed separately."
       - text: "Yes — any protein above the RDA damages the kidneys of healthy adults"
         correct: false
         feedback: "Not supported. Healthy kidneys tolerate higher protein; the concern applies specifically to those who already have kidney disease."
@@ -54,11 +54,11 @@ questions:
         feedback: "The healthy-kidney reassurance isn't source-specific, and for muscle, plant and animal protein are roughly equivalent when the total is adequate."
 
   - id: q5
-    stem: "A patient mentions he drinks \"a glass of red wine most nights, for my heart.\" What's the current, honest message?"
+    stem: "A patient mentions he drinks \"a glass of red wine most nights, for my heart.\" What's the current, evidence-based message?"
     options:
-      - text: "The heart-protection claim **doesn't hold up** — it came from biased comparisons, and bias-free (genetic) studies find no protection; there's **no safe level** for cancer risk, so **don't advise anyone to drink for their heart**"
+      - text: "The heart-protection claim doesn't hold up, and there's no safe level for cancer risk"
         correct: true
-        feedback: "Correct — the advice has genuinely reversed. The 'abstainer' comparison groups included ex-drinkers who quit due to illness; Mendelian-randomisation studies find no cardioprotection and harm even at low intake. Alcohol is a Group 1 carcinogen."
+        feedback: "Correct — the advice has genuinely reversed. The claim came from biased comparisons: the 'abstainer' groups included ex-drinkers who quit due to illness, while bias-free Mendelian-randomisation studies find no cardioprotection and harm even at low intake. Alcohol is a Group 1 carcinogen, so don't advise anyone to drink for their heart."
       - text: "Correct — a daily glass of red wine meaningfully protects the heart, so he should continue"
         correct: false
         feedback: "This is the outdated view. The apparent benefit was confounding/abstainer bias; unbiased evidence shows no protection. Never recommend drinking for cardiovascular benefit."
@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "A patient tells you he \"goes bright red\" after one beer but drinks regularly. Why does this matter?"
     options:
-      - text: "The **flush** signals a build-up of **acetaldehyde** (a carcinogen); people who flush and keep drinking have a raised risk of **oesophageal cancer** — so ask about it and advise cutting down"
+      - text: "The flush signals a build-up of acetaldehyde and a raised risk of oesophageal cancer"
         correct: true
-        feedback: "Correct — the ALDH2 variant is common in East Asians and is a genuine clinical cue. Flushing plus continued drinking is the high-risk combination; the flush is a red flag, not a party trick."
+        feedback: "Correct — acetaldehyde is a carcinogen, and the underlying ALDH2 variant is common in East Asians and a genuine clinical cue. People who flush and keep drinking are the high-risk combination, so ask about it and advise cutting down; the flush is a red flag, not a party trick."
       - text: "It just means he can't hold his drink — reassure him it's harmless"
         correct: false
         feedback: "Not harmless — the flush marks acetaldehyde accumulation and a raised oesophageal-cancer risk with continued drinking. It's a reason to advise cutting down."
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "A rotating-shift nurse asks how to eat better on nights. Which single change has the best evidence?"
     options:
-      - text: "Keep the **main meals in the daytime** and avoid heavy eating in the small hours — daytime-weighted eating prevented the glucose problems of simulated night work"
+      - text: "Keep the main meals in the daytime and avoid heavy eating in the small hours"
         correct: true
-        feedback: "Correct. Shift work is associated with higher diabetes risk through circadian misalignment, and shifting intake toward the day is the most evidence-aligned practical tweak."
+        feedback: "Correct. Daytime-weighted eating prevented the glucose problems of simulated night work. Shift work is associated with higher diabetes risk through circadian misalignment, and shifting intake toward the day is the most evidence-aligned practical tweak."
       - text: "Eat the largest meal at 3 a.m. to keep energy up through the shift"
         correct: false
         feedback: "The opposite — heavy eating in the small hours worsens the metabolic picture. Weight meals toward the daytime."
