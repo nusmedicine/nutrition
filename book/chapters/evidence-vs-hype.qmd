@@ -1,0 +1,139 @@
+# Evidence vs hype, and everyday questions
+
+> *Every week a patient brings you a headline — a superfood, a detox, a diet that "resets your
+> metabolism." The skill isn't a list of red-flag words. It's a **habit**: trace the claim back to
+> its evidence and reach a verdict you can defend — including "modest but real."*
+
+## A claim is not evidence
+
+Advising the healthy means fielding a steady stream of claims, most of them **over**stated, a few
+containing a real signal. Graduates say this is where they feel least equipped [@crowley2019] — so
+this chapter builds the one transferable skill: not reacting to a claim, but **appraising** it.
+
+The trap is to swing between two failures — swallowing whatever is trending, or turning reflexively
+cynical and dismissing everything new. Neither is appraisal. Appraisal is **calibration**: run the
+claim through a fixed routine and land a proportionate verdict.
+
+## The appraisal funnel
+
+Every claim gets the same four questions:
+
+1. **Find the study.** What actual evidence sits behind the headline? (Often: none, or a mouse.)
+2. **Judge the design.** Where does it sit — a case report, a survey, a cohort, a randomised trial, a
+   review? Higher isn't automatically better (see below), but you must know where you are.
+3. **Read the outcome.** What did it *measure* — a hard outcome (heart attacks) or a **surrogate**
+   (a blood marker)? A **relative** change ("30% lower") or an **absolute** one? And did it *survive*
+   — replication, retraction?
+4. **Check it applies.** Who was studied, and are they like your patient?
+
+Then commit to a **verdict**: proven, plausible-but-unproven, weak association, disproven, retracted,
+or harmful. Run a few real claims through the funnel below and watch how differently they land — the
+same routine, very different destinations.
+
+<div data-island="claim-analyzer" data-src="/diagrams/claim-analyzer.yml"></div>
+
+## Why nutrition bends the hierarchy
+
+In drug research the randomised controlled trial sits at the top and observational studies are
+treated with suspicion. Nutrition **bends** that ranking, and you should know why: you often
+**can't blind** a diet, there is **no true placebo** (everyone eats *something*), and effects come
+from **whole patterns** eaten over decades, which no trial can run. So well-conducted **prospective
+cohorts** legitimately carry more weight here than they would for a pill [@johnston2019ebnutrition].
+Over-applying drug-trial standards throws away good dietary evidence — which is why "there's no RCT,
+so it's worthless" is usually the wrong reflex in nutrition.
+
+## The traps that turn data into hype
+
+Most bad nutrition claims fail at one of a few predictable joints:
+
+- **Correlation ≠ causation.** Coffee drinkers live longer *in the data* — but they also differ in a
+  hundred ways (healthy-user bias), and the sick cut back (reverse causation). An association is a
+  question, not an answer.
+- **Relative vs absolute risk.** "30% lower risk" sounds huge; if the baseline risk was small, the
+  *absolute* benefit can be tiny. Always ask "30% of what?".
+- **Surrogate vs hard endpoints.** A diet that lowers a blood marker hasn't been shown to prevent a
+  heart attack until it's measured against heart attacks.
+- **Mechanism-plausible ≠ clinically-proven.** A beautiful biological story only raises a
+  *hypothesis*. **Time-restricted eating** is the cleanest example: the circadian rationale is real,
+  yet randomised trials show its weight effect is **no better than ordinary calorie restriction**
+  [@lowe2020treat; @lin2023tre]. Being sceptical of the *hype* is not the same as dismissing the
+  *mechanism*.
+
+::: {.callout-note}
+## Re-appraising the landmarks you already met
+The *What a Healthy Diet Looks Like* chapter met **PREDIMED** and **DASH** with their caveats; run the
+funnel on them and you recover exactly those caveats. PREDIMED's "~30%" is a *relative* reduction on a *stroke-dominated composite*,
+from a trial *retracted and republished in 2018* [@estruch2018predimed]. DASH's ~5.5/3.0 mmHg came
+from a *controlled-feeding* study measuring a *surrogate* (blood pressure), with weight and salt held
+constant [@appel1997dash]. Real results, correctly bounded — which is the whole skill.
+:::
+
+## Everyday questions
+
+The funnel turns "is X good or bad?" into something answerable. A few that come up constantly:
+
+- **"Cutting out dairy clears acne."** The evidence is **observational only** — there are *no*
+  randomised trials on dairy and acne — showing a **weak** association (skim milk strongest), with a
+  plausible hormonal mechanism [@juhl2018dairyacne]. The stronger acne signal, and the only one with
+  trials, is **high glycaemic load** [@meixiong2022dietacne]. Both editions of the dermatology
+  guidelines conclude there is **insufficient evidence to recommend cutting any food** to treat acne
+  [@aad2016acne; @aad2024acne]. Verdict: real-but-weak; a lower-sugar trial is reasonable, a strict
+  elimination diet is not.
+- **"Coffee protects your heart."** A large umbrella review links 3–4 cups a day with the lowest
+  mortality [@poole2017coffee] — but it's observational. Reassuring for drinkers; not a reason to
+  start.
+- **"Sugar makes kids hyperactive."** Directly tested in blinded trials, and **disproven** — the
+  "sugar high" is parental expectancy [@wolraich1994sugar]. (Excess sugar is still unhealthy, just not
+  a behaviour switch.)
+- **"Go gluten-free to feel better."** Without coeliac disease, there's no evidence of benefit, and it
+  can worsen diet quality and cost [@glutenFreeNonCeliac]. Separate the real indication from the fad.
+- **"Apple cider vinegar melts fat."** The headline 2024 trial was **retracted in 2025** when its
+  analyses couldn't be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside
+  ordinary care [@acvGlycaemia; @acvBodyComp]. The perfect "did the study survive?" case.
+
+## Supplements: indicated, not indicated, or harmful
+
+The default question is not "which supplement?" but "**is one needed at all?**" Supplements are
+indicated for a **documented deficiency** or a **life-stage need** (folate in pregnancy, B12 for
+vegans, iron for deficiency) — not to replace a balanced diet, to "detox," or for blanket prevention
+in a well-nourished person. And they are not free of downside: **beta-carotene supplements increased
+lung cancer in smokers** [@caret1996], and the large VITAL trial found **vitamin D and fish oil did
+not** reduce cancer or cardiovascular events [@vital2019]. "Detox" products have no evidence of
+removing toxins — they act by water or bowel loss.
+
+## The Singapore picture
+
+Singapore hands you an authoritative counter-voice. **HealthHub** states plainly that supplements
+"cannot and should not replace a balanced diet" and that detox claims are unevidenced; and the
+**Health Sciences Authority** *notifies* supplements rather than approving them for efficacy, and
+regularly finds illegally **adulterated** products containing undeclared or banned drugs
+[@hpbHealthSupplements]. So "sold in a pharmacy" and "natural" mean neither *proven* nor *safe* — a
+locally concrete version of the whole chapter's lesson. Point patients back to My Healthy Plate and a
+sustainable pattern, not a product [@hpbHealthyPlate].
+
+## So — how do you sort signal from hype?
+
+Not with a list of banned words, but with a **habit**: find the study, judge its design, read what it
+really measured, check who it applies to — then say a proportionate verdict out loud, *including*
+"modest but real" when that's the honest answer. Most fads are overstated; a few carry a genuine
+signal; your job is to tell which, transparently, and to keep a patient from swapping a balanced diet
+for a product or a restriction. Where a claim shades into a restrictive diet or a possible eating
+disorder, that becomes a do-no-harm conversation — the work of the *Assessing Diet & Talking to
+Patients* chapter.
+
+## Check your understanding
+
+<div data-island="quiz" data-src="/quizzes/evidence-vs-hype.quiz.yml"></div>
+
+## Practise: "cutting out milk cleared her skin"
+
+A 16-year-old and her mother have seen a TikTok claiming dairy causes acne, and a friend's skin
+"cleared up" after she quit milk. They want to cut out all dairy. Trace the claim, weigh what the
+evidence actually supports, advise safely — and notice the moment this stops being about acne. Your
+choices branch the case.
+
+::: {.callout-tip}
+Progress is saved locally — replay to explore the other paths.
+:::
+
+<div data-island="case" data-src="/cases/dairy-acne-tiktok.case.yml"></div>

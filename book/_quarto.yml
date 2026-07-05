@@ -32,6 +32,7 @@ book:
     - part: "III · Advising the healthy"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd
+        - chapters/evidence-vs-hype.qmd
         - chapters/06-dietary-assessment.qmd
     - part: "Integrated cases"
       chapters:

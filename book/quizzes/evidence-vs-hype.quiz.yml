@@ -1,0 +1,93 @@
+id: evidence-vs-hype
+title: "Quick check: evidence vs hype"
+questions:
+  - id: q1
+    stem: "A patient shows you a headline: \"New study: turmeric cures arthritis.\" What's your first move as an appraiser?"
+    options:
+      - text: "Find the actual study behind the headline and judge its design — you can't appraise a claim you haven't traced to its evidence"
+        correct: true
+        feedback: "Correct — a claim is not evidence. Trace headline → study → design → outcome → applicability, then reach a verdict."
+      - text: "Dismiss it — turmeric is a fad"
+        correct: false
+        feedback: "Reflex cynicism isn't appraisal either. Trace it to the evidence first; the verdict might be 'weak' or 'modest but real', not just 'nonsense'."
+      - text: "Accept it — it was a study, after all"
+        correct: false
+        feedback: "\"A study\" could be a mouse experiment or an uncontrolled series. You have to find and judge it before believing it."
+
+  - id: q2
+    stem: "Why do well-conducted **cohort studies** carry more weight in nutrition than they would for a new drug?"
+    options:
+      - text: "You often can't blind a diet, there's no true 'no-food' placebo, and effects come from whole patterns over decades — so RCTs can't answer many dietary questions"
+        correct: true
+        feedback: "Correct — nutrition bends the hierarchy. 'No RCT, so it's worthless' is usually the wrong reflex here."
+      - text: "Because cohort studies are always more reliable than randomised trials"
+        correct: false
+        feedback: "Not in general — for a drug, the RCT is superior. Nutrition is the special case, for the reasons above."
+      - text: "Because nutrition doesn't need good evidence"
+        correct: false
+        feedback: "It does — the point is that the *best feasible* design in nutrition is often a cohort, not that standards are lower."
+
+  - id: q3
+    stem: "A supplement ad says it \"cuts your risk of a heart attack by 40%.\" What's the key question?"
+    options:
+      - text: "40% of what? — a large relative reduction can be a tiny absolute one if the baseline risk was low"
+        correct: true
+        feedback: "Correct — always convert relative to absolute. 40% off a 1-in-1000 risk is a very different thing from 40% off a 1-in-10 risk."
+      - text: "Nothing — a 40% reduction is always clinically important"
+        correct: false
+        feedback: "Not necessarily — without the baseline (absolute) risk, a relative figure can massively overstate the real benefit."
+      - text: "Whether the ad is well designed"
+        correct: false
+        feedback: "The ad's polish is irrelevant; the relative-vs-absolute distinction is what determines whether the claim matters."
+
+  - id: q4
+    stem: "Time-restricted eating (16:8 fasting) has a genuine circadian rationale. What do the randomised trials show?"
+    options:
+      - text: "Its weight effect is modest and **not better than ordinary calorie restriction** — a plausible mechanism, but no metabolic 'reset'"
+        correct: true
+        feedback: "Correct — mechanism-plausible is not clinically-proven. TRE can be a useful eating structure for some, judged by adherence, not by the clock."
+      - text: "It resets the metabolism and beats every other diet"
+        correct: false
+        feedback: "That's the hype the trials don't support — its benefit is largely from eating less, no better than calorie restriction."
+      - text: "It has no rationale and should be dismissed outright"
+        correct: false
+        feedback: "Over-correction — the circadian mechanism is real. Being sceptical of the hype isn't the same as dismissing the mechanism."
+
+  - id: q5
+    stem: "For which person is a supplement genuinely **indicated**?"
+    options:
+      - text: "A vegan with no reliable dietary source of vitamin B12"
+        correct: true
+        feedback: "Correct — a documented life-stage/dietary need is a real indication (as is deficiency, or folate in pregnancy)."
+      - text: "A well-nourished adult who wants a multivitamin 'for general prevention'"
+        correct: false
+        feedback: "Not indicated — supplements don't replace a balanced diet, and blanket prevention in the well-nourished isn't supported."
+      - text: "A smoker who wants beta-carotene 'antioxidants' to prevent cancer"
+        correct: false
+        feedback: "Actively harmful — beta-carotene supplements *increased* lung cancer in smokers. 'Natural' does not mean safe."
+
+  - id: q6
+    stem: "A widely-shared 2024 trial reported that apple cider vinegar causes weight loss. What's the most important thing to check?"
+    options:
+      - text: "Whether the study survived — that trial was **retracted in 2025** when its analyses couldn't be reproduced, so it can't support the claim"
+        correct: true
+        feedback: "Correct — 'did the study survive?' is part of appraisal. A retracted study is no evidence at all, however viral the headline was."
+      - text: "Nothing — it was a randomised trial, so it's reliable"
+        correct: false
+        feedback: "Design alone isn't enough — a randomised trial that was retracted for irreproducible analyses provides no support."
+      - text: "Whether apple cider vinegar tastes acceptable"
+        correct: false
+        feedback: "Beside the point — the evidence itself was withdrawn; any real glycaemic effect is tiny beside ordinary diet and activity."
+
+  - id: q7
+    stem: "A teenager asks whether cutting out dairy will clear her acne. What's the honest, evidence-based answer?"
+    options:
+      - text: "There's a weak, observational-only association (no randomised trials on dairy), and dermatology guidelines find insufficient evidence to recommend cutting any food — a lower-sugar trial is more reasonable than strict dairy elimination"
+        correct: true
+        feedback: "Correct — real-but-weak signal, honestly stated. The stronger dietary link is high glycaemic load, and proven treatment is medication; a strict elimination diet isn't worth the cost, especially in a teen."
+      - text: "Yes — dairy definitely causes acne, so cut out all of it"
+        correct: false
+        feedback: "Overstated — the evidence is a weak association from observational studies only; no trial proves dairy causes acne, and guidelines don't recommend cutting it."
+      - text: "No — diet has absolutely nothing to do with acne"
+        correct: false
+        feedback: "Over-corrected — there is a weak association (and a stronger high-glycaemic-load signal). The honest answer is 'weak, not a reason for a strict elimination diet'."

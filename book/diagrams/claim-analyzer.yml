@@ -1,0 +1,74 @@
+id: claim-analyzer
+title: "Run the appraisal funnel"
+intro: >
+  Appraising a claim isn't flagging a red word — it's tracing the headline back to its evidence and
+  reaching a proportionate verdict. Pick a claim you've heard, then step it down the funnel: find the
+  study, judge its design, read the outcome, check who it applies to — and land a verdict. Notice how
+  differently each one falls out.
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+
+# the fixed appraisal funnel (same four questions for every claim)
+steps:
+  - { id: study,  label: "Find the study",   q: "What actual evidence sits behind the headline?" }
+  - { id: design, label: "Judge the design", q: "Where does it sit on the evidence hierarchy?" }
+  - { id: outcome,label: "Read the outcome",  q: "What did it really measure — and did it hold up?" }
+  - { id: apply,  label: "Check it applies",  q: "Who was studied, and does it fit your patient?" }
+
+# verdict tiers (colour + label)
+verdicts:
+  proven:     { label: "Proven",              color: "#2f8f5b" }
+  plausible:  { label: "Plausible, unproven", color: "#3a6ea5" }
+  weak:       { label: "Weak — association",  color: "#e0a13a" }
+  disproven:  { label: "Disproven",           color: "#7a8791" }
+  retracted:  { label: "Retracted",           color: "#cf5b4e" }
+  harmful:    { label: "Harmful",             color: "#a32d2d" }
+
+claims:
+  - id: acv
+    label: "\"Apple cider vinegar melts fat\""
+    study: "The claim leans on a 2024 randomised trial that reported weight loss from a daily dose of apple cider vinegar."
+    design: "A randomised trial — normally high on the hierarchy — but small, short, and not registered in advance."
+    outcome: "The reported effect was modest — and, decisively, the study was RETRACTED in 2025 when its analyses could not be reproduced."
+    apply: "With the headline study withdrawn, there's little solid human evidence left; any real glycaemic effect is tiny beside ordinary diet and activity."
+    verdict: retracted
+    verdictText: "The flagship study was retracted — the claim rests on nothing solid. A cheap condiment is not a weight-loss treatment."
+  - id: coffee
+    label: "\"Coffee protects your heart\""
+    study: "Backed by a large 2017 umbrella review that pooled many observational studies of coffee and health."
+    design: "Cohort / observational evidence — broad and consistent, but no randomisation."
+    outcome: "Around 3–4 cups a day tracked with the lowest all-cause and cardiovascular mortality — an association, not a demonstrated cause."
+    apply: "Coffee drinkers differ from non-drinkers (healthy-user bias), and unwell people cut back (reverse causation). 'Protective in the data' isn't 'start drinking it to protect your heart'."
+    verdict: weak
+    verdictText: "Reassuring for people who already drink it; not a reason a non-drinker should start. Moderate coffee is fine — not medicine."
+  - id: acne
+    label: "\"Cutting out dairy clears acne\""
+    study: "Rests on observational studies linking milk to acne, plus a plausible mechanism (milk nudges IGF-1 and insulin up)."
+    design: "Observational only — there are NO randomised trials on dairy and acne (the RCTs are on high-glycaemic-load diets)."
+    outcome: "A modest, reproducible association (skim milk strongest) — but association on a weak design can't prove milk causes spots."
+    apply: "Dermatology guidelines (AAD, 2016 and 2024) both conclude there's insufficient evidence to recommend cutting any food to treat acne; proven treatment is medication."
+    verdict: weak
+    verdictText: "A real-but-weak signal. Trialling a lower-sugar diet is reasonable; a strict dairy-elimination diet isn't worth the nutritional cost — least of all in a teenager."
+  - id: tre
+    label: "\"16:8 fasting resets your metabolism\""
+    study: "Built on genuine circadian biology, then tested directly in randomised trials of time-restricted eating."
+    design: "Randomised trials — the strong part — testing the claim head-on."
+    outcome: "Weight loss was modest and NOT significantly better than ordinary calorie restriction; the benefit comes from eating less, not a metabolic 'reset'."
+    apply: "It can be a useful eating structure for someone it helps eat less and who can sustain it — no magic, but not useless."
+    verdict: plausible
+    verdictText: "Mechanism real, hype overstated. A reasonable optional tool; success is adherence and the overall pattern, not the clock."
+  - id: sugar
+    label: "\"Sugar makes children hyperactive\""
+    study: "A near-universal belief — and one tested directly in blinded randomised trials decades ago."
+    design: "Blinded RCT — the strongest design, and perfectly feasible here."
+    outcome: "Children given sugar behaved no differently from those given a sugar-free substitute; the 'sugar high' is largely parental expectancy (observer bias)."
+    apply: "Applies broadly. (Excess added sugar is still unhealthy — for teeth and weight — just not a behaviour switch.)"
+    verdict: disproven
+    verdictText: "Disproven as a behaviour effect. Cut added sugar for the real reasons, not for hyperactivity."
+  - id: betacarotene
+    label: "\"Beta-carotene supplements prevent cancer\""
+    study: "Tested directly in large randomised prevention trials — including beta-carotene given to smokers."
+    design: "Large RCTs — high-quality evidence, well suited to the question."
+    outcome: "Beta-carotene supplements INCREASED lung cancer in smokers; other big supplement trials (vitamin D, fish oil) found no benefit on their main endpoints either."
+    apply: "Studied in smokers, where beta-carotene actively harmed — and elsewhere the benefit is simply absent. 'Natural' and 'sold in a pharmacy' don't mean safe or proven."
+    verdict: harmful
+    verdictText: "Not merely unproven — harmful in the wrong group. Supplements are for documented needs, not blanket prevention."
