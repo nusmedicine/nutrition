@@ -28,6 +28,7 @@ book:
         - chapters/appetite-weight-regulation.qmd
     - part: "II · Across the life stages"
       chapters:
+        - chapters/infancy-early-childhood.qmd
         - chapters/pregnancy-lactation.qmd
         - chapters/menopause-midlife.qmd
     - part: "III · Advising the healthy"

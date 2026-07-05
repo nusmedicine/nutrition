@@ -19,6 +19,7 @@ import ClaimAnalyzer from './ClaimAnalyzer.svelte';
 import ResponseChooser from './ResponseChooser.svelte';
 import MenopauseTimeline from './MenopauseTimeline.svelte';
 import RequirementDial from './RequirementDial.svelte';
+import FoodFormSorter from './FoodFormSorter.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -43,6 +44,7 @@ const REGISTRY = {
   'response-chooser': ResponseChooser,
   'menopause-timeline': MenopauseTimeline,
   'requirement-dial': RequirementDial,
+  'food-form-sorter': FoodFormSorter,
   // future: flashcards, diagram, …
 };
 

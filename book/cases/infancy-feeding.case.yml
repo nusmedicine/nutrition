@@ -1,0 +1,204 @@
+id: infancy-feeding
+title: "Baby Aidan: a new-parent feeding clinic"
+objectives:
+  - "Advise on starting solids around 6 months (readiness cues, iron-rich first foods) and correct over-rigid readings of the guideline."
+  - "Counsel early — not delayed — allergen introduction, and refer high-risk infants."
+  - "Apply the infant food-safety do-no-harm rules: no honey before 12 months; cow's milk as a main drink only from ~12 months."
+  - "Reassure non-judgmentally on formula (premium/toddler milks are unnecessary) and name the one routine supplement (vitamin D)."
+difficulty: intro
+estimatedMinutes: 12
+tags: [nutrition, infancy, weaning, allergy, singapore, do-no-harm]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Baby Aidan (mother Wei Ling)"
+  age: 0
+  sex: male
+  occupation: "5-month-old; mother is a first-time parent"
+  presentation: "A thriving, exclusively breastfed 5-month-old at a routine visit. His mother has read online that starting solids and peanut early cause allergies; his grandmother wants to add honey to his porridge; a neighbour suggests switching to fresh cow's milk and a premium formula 'for extra nutrients'."
+  voice: "Anxious first-time mother, trying to do everything right, pulled between online advice and family tradition."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: concerned
+    title: "\"I just want to get it right\""
+    body: |
+      Aidan is 5 months old, breastfed, and growing well. His mother Wei Ling has a list of worries from
+      the internet and from family: when to start solids, whether to delay allergens, her mother-in-law's
+      honey, and a neighbour's advice to switch to cow's milk and a premium formula. Help her sort the
+      evidence from the tradition — kindly.
+    next: q-solids
+
+  - id: q-solids
+    type: mcq
+    emotion: concerned
+    stem: "*\"When should I start solids — and with what? I read I should wait for exactly 6 months.\"*"
+    options:
+      - id: a
+        text: "\"You can start in the next few weeks once he's ready — sitting with support, good head control, reaching for food. Begin with **iron-rich** foods (iron-fortified cereal, minced meat, egg), and keep breastfeeding.\""
+        correct: true
+        feedback: "Right — 'about 6 months' has a 4-month floor for the ready baby, and the first foods should be iron-rich because his iron stores are running low. Watch the baby, not the calendar."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-allergen
+      - id: b
+        text: "\"Wait strictly until he's exactly 6 months, and don't give anything before then whatever happens.\""
+        correct: false
+        feedback: "Over-rigid. 'About 6 months' is a range with a 4-month floor — solids (including allergens) can begin from 4 months in a developmentally ready infant. Watching readiness cues matters more than a fixed date."
+        goto: q-allergen
+      - id: c
+        text: "\"Start with fruit purée — babies like sweet tastes, and it's gentle.\""
+        correct: false
+        feedback: "This misses the point of starting: his **iron** stores are depleting, so first foods should be iron-rich — not fruit purée, which also nudges a sweet preference."
+        goto: q-allergen
+
+  - id: q-allergen
+    type: mcq
+    emotion: concerned
+    stem: "*\"But if I give peanut or egg early, won't that cause allergies? I was going to wait until he's 1.\"*"
+    options:
+      - id: a
+        text: "\"It's actually the opposite — introducing them **early**, once solids start, lowers the risk. Give smooth peanut butter and well-cooked egg (never whole peanuts). If a baby has severe eczema or egg allergy, we'd refer for guided peanut introduction.\""
+        correct: true
+        feedback: "Correct — the LEAP/EAT reversal. Early oral exposure induces tolerance; delaying now *increases* risk. The ~80% figure is from high-risk infants, who get specialist-guided introduction."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-honey
+      - id: b
+        text: "\"Yes, best to be safe — avoid all peanut and egg until he's at least 12 months.\""
+        correct: false
+        feedback: "This is the outdated advice that's now reversed: delaying allergens *increases* allergy risk. Early introduction (once solids start) is protective."
+        goto: q-honey
+      - id: c
+        text: "\"Give him whole peanuts and a boiled egg daily starting now.\""
+        correct: false
+        feedback: "Right timing, wrong form — **whole peanuts are a choking hazard**. Use smooth peanut butter; give well-cooked egg. Early, yes; whole nuts, no."
+        goto: q-honey
+
+  - id: q-honey
+    type: mcq
+    emotion: concerned
+    stem: "*\"My mother-in-law wants to stir a little honey into his porridge — for energy and taste. That's harmless, right?\"*"
+    options:
+      - id: a
+        text: "\"Please hold off on honey until he's 12 months. A baby's gut can't yet stop botulism spores in honey from taking hold and making a toxin — after his first birthday it's fine.\""
+        correct: true
+        feedback: "Correct — infant botulism. Explaining the 'why' kindly helps the grandmother come along: the immature gut lacks the protective flora that would stop the spores colonising."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-milk
+      - id: b
+        text: "\"A small amount of honey is fine — it's natural, and just for taste and energy.\""
+        correct: false
+        feedback: "This is unsafe. Even small amounts of honey can cause infant botulism before 12 months — a serious, avoidable harm. This is a firm no-honey-under-1 rule, however well-meant the tradition."
+        reaction: concerned
+        goto: remedial
+      - id: c
+        text: "\"Only manuka honey is risky — ordinary honey is fine.\""
+        correct: false
+        feedback: "All honey can carry the spores — the rule is no honey of *any* kind before 12 months, not just manuka. Endorsing any honey for an infant is a do-harm error."
+        reaction: concerned
+        goto: remedial
+
+  - id: q-milk
+    type: mcq
+    emotion: neutral
+    stem: "*\"And should I switch him to fresh cow's milk, or the premium formula my neighbour uses — for extra nutrients?\"*"
+    options:
+      - id: a
+        text: "\"Keep breast milk (or ordinary formula) as his main drink until about 12 months — cow's milk before then is iron-poor and can cause gut blood loss. And every formula sold here meets the same standard, so a premium one isn't better — save your money.\""
+        correct: true
+        feedback: "Correct on both counts: cow's milk as the *main drink* waits to ~12 months (yogurt/cheese as foods are fine now), and premium/'toddler' milks are marketing, not nutrition — a cheaper standard formula is equivalent."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-supplement
+      - id: b
+        text: "\"Fresh cow's milk is fine now as his main drink — it's healthy and full of calcium.\""
+        correct: false
+        feedback: "Too early as the *main drink*: cow's milk is iron-poor and causes occult gut blood loss in infancy, risking iron deficiency. Keep breast milk/formula as the drink until ~12 months (dairy foods are fine)."
+        goto: q-supplement
+      - id: c
+        text: "\"Yes, switch to the premium formula — the extra ingredients are worth it.\""
+        correct: false
+        feedback: "All infant formula sold in Singapore meets identical standards; 'premium' reflects marketing and price, not better nutrition. Reassure her a standard brand is equivalent."
+        goto: q-supplement
+
+  - id: q-supplement
+    type: mcq
+    emotion: neutral
+    stem: "*\"Is there any supplement he actually needs?\"*"
+    options:
+      - id: a
+        text: "\"Yes — **vitamin D, 400 units a day**, because breast milk is low in it. (He also had his vitamin-K injection at birth, and he'll get iron from those iron-rich first foods.)\""
+        correct: true
+        feedback: "Correct — vitamin D is the one routine daily supplement for a breastfed baby. It matters here despite the sunshine, because we rightly keep infants out of direct sun."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "\"Iron drops every day from birth.\""
+        correct: false
+        feedback: "Not from birth — his stores last ~6 months, and iron then comes from iron-rich solids, not drops. The routine daily supplement is vitamin D."
+        goto: route
+      - id: c
+        text: "\"None — it's sunny in Singapore, so he'll make plenty of vitamin D.\""
+        correct: false
+        feedback: "We keep infants out of direct sun (rightly), and breast milk is low in vitamin D — so a breastfed baby needs 400 IU/day regardless of the climate."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 5"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Evidence over tradition — kindly"
+    body: |
+      The through-line: solids around 6 months (readiness cues, 4-month floor), **iron-rich** first foods;
+      introduce **allergens early**, not late (refer the high-risk infant); **no honey before 12 months**
+      (infant botulism — never endorse it, however well-meant); keep breast milk/formula as the main drink
+      until ~12 months and reassure that **premium and toddler milks are unnecessary**; and the one routine
+      supplement is **vitamin D 400 IU/day**. And always: recognise a baby whose growth is faltering and
+      **refer**. Replay and run the safe path.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Evidence sorted from tradition"
+    body: |
+      You started Aidan on solids at the right time with the right (iron-rich) foods, turned the
+      allergen worry around, held the line on honey without alienating the grandmother, kept cow's milk
+      and premium formula in their place, and named the one supplement that matters. That is the whole
+      job here — anticipate the real needs, correct the tempting traditions kindly, and know when to
+      refer. *(Growth faltering and its management belong to the Undernutrition & Malnutrition chapter.)*
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Start solids ~6 months (readiness cues; 4-month floor) with iron-rich first foods — the iron clock, not the calendar, drives the timing."
+        - "Introduce allergens (smooth peanut, well-cooked egg) EARLY once solids begin; delaying increases risk. Refer high-risk infants for guided peanut introduction."
+        - "Do-no-harm rules: no honey before 12 months (botulism); cow's milk as a main drink only from ~12 months; no added salt/sugar; mind food form for choking."
+        - "Formula is safe — premium and toddler milks are unnecessary; the one routine supplement is vitamin D 400 IU/day. Recognise faltering growth and refer."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You helped Wei Ling but slipped on at least one point — when/what to start, the allergen reversal,
+      the honey rule, the cow's-milk/formula question, or the vitamin-D supplement. Replay and run the safe
+      path: iron-rich solids ~6 months, allergens early, no honey under 1, breast milk/formula as the main
+      drink to ~12 months, and vitamin D 400 IU/day.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Solids ~6 months, iron-rich first foods; watch readiness, not just the date."
+        - "Introduce allergens early, not late; refer the high-risk infant."
+        - "No honey before 12 months; cow's milk as main drink only from ~12 months."
+        - "Premium/toddler milks are unnecessary; vitamin D 400 IU/day is the routine supplement."

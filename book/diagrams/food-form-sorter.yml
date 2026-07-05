@@ -1,0 +1,51 @@
+id: food-form-sorter
+title: "Is it safe yet? A weaning-food sorter"
+intro: >
+  Around six months, iron-rich solids begin. Tap each food to check whether it's a safe first food, a
+  good food in the wrong form, or one to wait on. Watch the pairs — the same peanut or grape can be a
+  hazard in one form and a healthy first food in another. (Teaching categories, for the healthy term infant.)
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
+
+foods:
+  - name: "Iron-fortified cereal"
+    verdict: safe
+    why: "Iron leads: stores run low at ~6 months, so first foods should be iron-rich. A classic starter."
+  - name: "Minced meat / fish / egg yolk"
+    verdict: safe
+    why: "Iron- and zinc-rich first foods — exactly what the six-month iron clock calls for."
+  - name: "Smooth peanut butter"
+    verdict: safe
+    why: "Introduce allergens EARLY once solids start — early peanut protects against peanut allergy (LEAP)."
+  - name: "Whole peanuts"
+    verdict: modify
+    why: "The SAME food, hazardous whole (choking) but protective as smooth butter. Hazard is about FORM, not the food."
+  - name: "Well-cooked egg"
+    verdict: safe
+    why: "Another early allergen to introduce, not delay — early egg lowers egg-allergy risk."
+  - name: "Whole grapes"
+    verdict: modify
+    why: "A leading choking shape. Quarter them lengthwise and they're fine — again, it's the form."
+  - name: "Grapes, quartered lengthwise"
+    verdict: safe
+    why: "The SAME grape, made safe by changing the shape — the pair to whole grapes. Hazard is the form, not the food."
+  - name: "Hot dog (round chunks)"
+    verdict: modify
+    why: "A classic choking shape when sliced into rounds — cut it lengthwise and small instead."
+  - name: "Yogurt / cheese"
+    verdict: safe
+    why: "Dairy FOODS in small amounts are fine from ~6 months — different from cow's milk as the main drink."
+  - name: "Cow's milk (as the main drink)"
+    verdict: wait12
+    why: "Iron-poor AND causes occult gut blood loss in infancy → iron deficiency. Keep breast milk/formula as the main drink until ~12 months."
+  - name: "Honey"
+    verdict: wait12
+    why: "Infant botulism: the immature gut lets Clostridium botulinum spores colonise and make toxin. No honey before 12 months."
+  - name: "Fruit juice / sweet drinks"
+    verdict: wait12
+    why: "No juice before 12 months and little after; no added sugar. Early sweetness sets a lasting preference."
+  - name: "Plain rice-water porridge"
+    verdict: modify
+    why: "Not a choking risk — the issue is nutrition: empty calories on its own. Make the congee iron-rich with minced meat, egg and soft greens."
+  - name: "Added salt"
+    verdict: wait12
+    why: "The infant kidney is immature and tastes are being set — no added salt (or sugar) in the first year."
