@@ -74,7 +74,7 @@ The funnel turns "is X good or bad?" into something answerable. A few that come 
 
 - **"Cutting out dairy clears acne."** The evidence is **observational only** — there are *no*
   randomised trials on dairy and acne — showing a **weak** association (skim milk strongest), with a
-  plausible hormonal mechanism [@juhl2018dairyacne]. The stronger acne signal, and the only one with
+  plausible hormonal mechanism the box below traces [@juhl2018dairyacne]. The stronger acne signal, and the only one with
   trials, is **high glycaemic load** [@meixiong2022dietacne]. Both editions of the dermatology
   guidelines conclude there is **insufficient evidence to recommend cutting any food** to treat acne
   [@aad2016acne; @aad2024acne]. Verdict: real-but-weak; a lower-sugar trial is reasonable, a strict
@@ -91,6 +91,20 @@ The funnel turns "is X good or bad?" into something answerable. A few that come 
   analyses couldn't be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside
   ordinary care [@acvGlycaemia; @acvBodyComp]. The perfect "did the study survive?" case.
 
+::: {.callout-note}
+## 🔬 The pathway under the acne signal
+Why would diet touch the skin at all? Both suspects run through **one shared pathway**. A high
+**glycaemic load** — the concept from the *Macronutrients* chapter — drives a sharp surge of insulin
+after a meal; dairy, separately, raises **IGF-1** (insulin-like growth factor 1, a growth-signalling
+cousin of insulin), through both its amino acids and its own insulin-raising effect. Insulin and IGF-1 together **raise androgen
+activity** (androgens — the sex hormones, such as testosterone) and switch on the growth-sensing **mTORC1** pathway in the skin, which makes the
+**sebaceous glands produce more sebum** and the follicle lining over-keratinise — the two changes
+that seed a blocked pore [@melnik2015acne]. Because refined-carbohydrate and dairy foods converge on
+the *same* insulin/IGF-1/androgen axis, it is no surprise they share a signal — and it is why the
+broad **glycaemic-load** lever the trials actually tested is more useful advice than singling out
+milk.
+:::
+
 ## Supplements: indicated, not indicated, or harmful
 
 The default question is not "which supplement?" but "**is one needed at all?**" Supplements are
@@ -98,8 +112,15 @@ indicated for a **documented deficiency** or a **life-stage need** (folate in pr
 vegans, iron for deficiency) — not to replace a balanced diet, to "detox," or for blanket prevention
 in a well-nourished person. And they are not free of downside: **beta-carotene supplements increased
 lung cancer in smokers** [@caret1996], and the large VITAL trial found **vitamin D and fish oil did
-not** reduce cancer or cardiovascular events [@vital2019]. "Detox" products have no evidence of
-removing toxins — they act by water or bowel loss.
+not** reduce cancer or cardiovascular events [@vital2019].
+
+"Detox" products are a telling case of a claim that misreads the body — as the *Digestion &
+Absorption* chapter noted, you already run a continuous detoxification system. The **liver** chemically transforms drugs, hormones and metabolic waste into water-soluble
+forms (its Phase I and Phase II biotransformation) and the **kidneys** filter those products from the
+blood and excrete them in urine — every hour of every day. A juice cleanse or detox tea adds nothing
+to that machinery: a critical review found **no clinical trials and no evidence** that commercial
+detox diets remove any toxin, and what visible effect they have comes from water and bowel loss
+[@klein2015detox].
 
 ## The Singapore picture
 
