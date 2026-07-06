@@ -29,6 +29,18 @@
 
 ## 0. What happened — most recent first (2026-07-06)
 
+- **★ GLOBAL REVIEW: tone/style pass + part renames (`00d3519`).** (1) **Part renames (decision L):** I "Foundations
+  of Nutrition Science" · II "Nutrition across Life Stages" · III "Assessing and Advising Patients" · IV "Nutrition
+  in Disease" · V "Integrative Cases" — a clinical-function axis (user found "Advising the healthy/chronically ill"
+  mislabelled/over-claimed). `book/_quarto.yml` + the one stale in-prose ref (`part2-intro`). (2) **Book-wide tone
+  pass:** revised **all 26 chapters** to remove AI-writing tells — em-dashes ~1,500 → a few dozen; cut the "it's not
+  X, it's Y" antithesis tic, teacherly meta-commentary, and "So —" headers; softened curse-of-knowledge jargon;
+  kept the warmth + Singapore flavour + all content. **Method:** per-chapter audit `Workflow` → guardrailed rewrite
+  `Workflow` (exemplar = `01-why-nutrition-matters.qmd`, hand-done first) → **mechanical preservation gate** (0
+  citations/islands/callouts/figures dropped across 27 chapters, diffed vs a captured baseline — this gate is
+  essential, a full-file rewrite by subagents can silently drop a citation) → render exit 0 (28 pages) + asset gate
+  + case linter + tic scan clean. Codified the 5 rules in **AUTHOR §11g** + [[authoring-style-rules]]. ⚠ Bone chapter
+  kept 30 em-dashes (from 92) — the highest residual; fine, but could trim further if wanted.
 - **★ Part restructure (decision K) + Ch.19 Interprofessional Practice, Referral & Self-Care DRAFTED (`f2fce0d`).**
   User decision: Referral is a clinical **skill** beside assessment/counselling, not "integration" — so it moved
   from the trailing part into **Part III "Advising the healthy"** as its closing chapter (the arc: healthy diet →
@@ -123,10 +135,10 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 
 | Part | Chapters | Status |
 |---|---|---|
-| **I** · The metabolic & physiological basis | 1–8 | ✅ deployed |
-| **II** · Across the life stages | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
-| **III** · Advising the healthy (toolkit + **refer**; decision K) | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · **19 Interprofessional Practice, Referral & Self-Care ✅** (`f2fce0d`) | ✅ deployed (Ch.15–18); §11f retrofit DONE `2be9f8f`; Ch.19 drafted, push pending |
-| **IV** · Advising the chronically ill (cascade order — decision J) | **20 Obesity · 21 T2D · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health** (renumbered +1 by decision K) | **✅ COMPLETE (6/6), deployed** |
+| **I** · Foundations of Nutrition Science *(renamed, decision L)* | 1–8 | ✅ deployed |
+| **II** · Nutrition across Life Stages *(renamed L)* | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
+| **III** · Assessing and Advising Patients *(renamed L; + refer, decision K)* | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · **19 Interprofessional Practice, Referral & Self-Care ✅** (`f2fce0d`) | ✅ deployed (Ch.15–18); §11f retrofit `2be9f8f`; Ch.19 + style pass push pending |
+| **IV** · Nutrition in Disease *(renamed L; cascade order — decision J)* | **20 Obesity · 21 T2D · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health** (renumbered +1 by decision K) | **✅ COMPLETE (6/6), deployed** |
 | **V** · Integrative Cases (decision K) | 26 Capstone: Integrative Cases (= `cases.qmd`, home of the live LLM patient — largely built, §5) | ✅ in book (polish pending) |
 
 **Cross-refs are by NAME**, so numbering is safe. **All six Part IV files** (`obesity-metabolic-syndrome`,
@@ -275,12 +287,13 @@ research/
 
 ## 8. Git state
 
-- **This session — two features on `main`:** (1) Part III §11f retrofit `2be9f8f` (**pushed**; its Pages *deploy*
-  step hit a TRANSIENT failure — build passed — so it is **not yet live**; re-run the deploy or let the next push
-  carry it). (2) Ch.19 Referral chapter `f2fce0d` (**committed, NOT pushed**) + this HANDOVER/curriculum-map
-  wrap-up. **Pushing re-triggers CI and deploys BOTH** — then verify the run (§6). Push is user-gated.
-  ⚠ Disk C: was ~100% full (3.6 GB free); a commit failed once ("unable to write new index file") and succeeded
-  on retry — retry commits if this recurs, and consider freeing disk space.
+- **This session — committed on `main`, mostly NOT pushed:** (1) Part III §11f retrofit `2be9f8f` (**pushed**; its
+  Pages *deploy* step hit a TRANSIENT failure — build passed — so **not yet live**). (2) Ch.19 Referral `f2fce0d`
+  + wrap-up `dc7a88d`. (3) **Global tone/style pass + part renames `00d3519`** (29 files) + this wrap-up.
+  **All of (2)+(3) are committed but NOT pushed.** **One push re-triggers CI and deploys everything** (retrofit +
+  Referral + style pass + renames) and clears the failed deploy — then verify the run (§6). Push is user-gated.
+  ⚠ Disk C: was ~100% full (3.6 GB free); a commit failed once ("unable to write new index file") and succeeded on
+  retry — retry commits if this recurs, and free disk space.
 - **All prior work is pushed & DEPLOYED live** (`origin/main` was `bbac6f7` at session start): Part IV Ch.19–24
   (now renumbered 20–25) including the Ch.24→25 "Bone & Joint Health" joint reframe (`bbac6f7`); Ch.24 Bone
   `04a1e22`; research `a0118f4`; Obesity `1897ccf` · T2D `186cf4a` · CVD `660fef5` · CKD `2504903` · Undernutrition `6f814ee`.

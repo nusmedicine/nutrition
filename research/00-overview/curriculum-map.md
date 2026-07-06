@@ -55,7 +55,7 @@
 
 | # | Chapter | Source dossier | Dossier |
 |---|---|---|---|
-| **I** | **— The metabolic & physiological basis —** | | |
+| **I** | **— Foundations of Nutrition Science —** (the metabolic & physiological basis; **decision L**) | | |
 | 1 | Why Nutrition Matters | `01-why-nutrition-matters` | ✅ book |
 | 2 | Energy Balance & Body Composition | `energy-balance` (rebuilt 2026-07-05) | ✅ book |
 | 3 | Macronutrients: Carbohydrate, Protein, Fat & Fibre | `macronutrients` | ✅ book |
@@ -64,20 +64,20 @@
 | 6 | **Integrative Metabolism (Fed / Fasted)** ✨ | `integrative-metabolism` | ✅ book |
 | 7 | **The Gut Microbiome** ✨ | `gut-microbiome` | ✅ book |
 | 8 | **Appetite & Weight Regulation** ✨ | `appetite-weight-regulation` | ✅ book |
-| **II** | **— Across the life stages —** (chronological life course; each on the internal↔external template — decisions H, I) | | |
+| **II** | **— Nutrition across Life Stages —** (chronological life course; each on the internal↔external template — decisions H, I, L) | | |
 | 9 | **Infancy & Early Childhood** ✨ | `infancy-early-childhood` | ✅ book |
 | 10 | **Childhood & Adolescence** ✨ | `childhood-adolescence` | ✅ book |
 | 11 | **Adulthood: working life & activity** ✨ | `adulthood-working-life` | ✅ book |
 | 12 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` | ✅ book (2026-07-05) |
 | 13 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | ✅ book (2026-07-05) |
 | 14 | **Healthy Ageing (Older Adults)** ✨ | `healthy-ageing` | ✅ book |
-| **III** | **— Advising the healthy —** (the general-practice toolkit: healthy diet → appraise → assess → counsel → **refer**; **decision K**) | | |
+| **III** | **— Assessing and Advising Patients —** (the general-practice toolkit: healthy diet → appraise → assess → counsel → **refer**; **decisions K, L**) | | |
 | 15 | What a Healthy Diet Looks Like (patterns, guidelines & **types of diets**) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
 | 16 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
 | 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
 | 19 | **Interprofessional Practice, Referral & Self-Care** ✨ (moved from Part V — **decision K**) | `14-interprofessional-referral` | ✅ **drafted** (island `advise-refer`, quiz, case `refer-or-advise` w/ do-no-harm hard route, HSG-ecosystem figure) |
-| **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — all 6 ✅ drafted, reviewed & deployed | | |
+| **IV** | **— Nutrition in Disease —** (maintain health *with* disease; **cascade order — decision J**; renamed **decision L**) — all 6 ✅ drafted, reviewed & deployed | | |
 | 20 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
 | 21 | Type 2 Diabetes | `type-2-diabetes` | ✅ **drafted** (island `carb-safety-check`, quiz, case, pathophysiology + figures) |
 | 22 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
@@ -255,6 +255,17 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   all cross-refs are by *name*; applied to `book/_quarto.yml`. The chapter keeps all three dossier strands
   (interprofessional practice, referral, practitioner self-care) and is drafted Part-III-appropriately (general
   skill first; disease examples are forward-references).
+- **(L) Part titles renamed to a clinical-function axis (2026-07-06).** The parts are retitled **I · Foundations of
+  Nutrition Science** (was "The metabolic & physiological basis"), **II · Nutrition across Life Stages** (was
+  "Across the life stages"), **III · Assessing and Advising Patients** (was "Advising the healthy"), **IV · Nutrition
+  in Disease** (was "Advising the chronically ill"), **V · Integrative Cases** (unchanged). Rationale (user):
+  "Advising the healthy" mislabelled a part that is really the assess/advise/refer toolkit, and "Advising the
+  chronically ill" over-claimed (undernutrition can be acute, obesity/MetS is a risk *state*). The new titles run on
+  a *clinical-function* axis (foundations → life stages → how to assess/advise → the conditions you advise on →
+  integration), which reads more honestly post-decision-K; "Nutrition in Disease" also parallels "Nutrition across
+  Life Stages". Applied to `book/_quarto.yml`; the one stale in-prose part reference (`part2-intro`) was fixed;
+  cross-refs are by *chapter* name so nothing else broke. Done alongside a book-wide tone/style pass (AI-tells
+  removed; see AUTHOR §11g / [[authoring-style-rules]]).
 
 ---
 
