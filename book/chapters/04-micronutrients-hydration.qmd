@@ -253,7 +253,7 @@ the target. Recognise both ends:
 
 For blood pressure, these two electrolytes pull opposite ways: **too much sodium and too
 little potassium raise** blood pressure and cardiovascular risk. WHO targets are **<2,000 mg
-sodium/day** [@who2020diet] and **≥3,510 mg potassium/day** [@whoPotassium2012]. Fruit and
+sodium/day** [@who2020diet] and **≥3,510 mg potassium/day** [@who2012potassium]. Fruit and
 vegetables, the half-plate of My Healthy Plate, are the natural potassium source
 [@hpbHealthyPlate].
 
@@ -271,7 +271,7 @@ by stall [@shfSaltiestDishes].)*
 
 The population response is policy, not willpower alone. HPB's **"Less Salt, More Taste"**
 movement and its work to make **lower-sodium salt, sauces and seasonings** affordable aim to
-change the food supply itself [@hpbLessSalt], the same label-led logic as Nutri-Grade for
+change the food supply itself [@hpb2023sodium], the same label-led logic as Nutri-Grade for
 sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: **fix the food supply,
 not just the individual.**
 
@@ -279,7 +279,7 @@ not just the individual.**
 ## Salt substitutes work, but read the trial carefully
 The SSaSS trial replaced regular salt with a **75% sodium / 25% potassium** substitute and
 cut stroke (~14%), major cardiovascular events (~13%) and death (~12%) over ~5 years
-[@ssass2021]. But it was **open-label** and **cluster-randomised**, in a **specific
+[@neal2021ssass]. But it was **open-label** and **cluster-randomised**, in a **specific
 high-risk population** (prior stroke, or older adults with hypertension) in rural China; a
 2024 secondary analysis attributes **most** of the blood-pressure fall to the **added
 potassium**, not the sodium reduction [@ssassPotassiumBP2024]; and potassium-based
