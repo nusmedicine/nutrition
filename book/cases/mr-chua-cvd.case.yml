@@ -1,0 +1,218 @@
+id: mr-chua-cvd
+title: "Mr Chua, 52: \"Do I need medication for my blood pressure, doctor?\""
+objectives:
+  - "Lead with the right first move: confirm the blood pressure over repeated readings, take a diet/activity/alcohol history, start lifestyle-first counselling, and arrange formal cardiovascular-risk assessment — rather than reaching for a drug immediately or dismissing it for a year."
+  - "Give pattern-based dietary advice: a DASH-aligned plate (My Healthy Plate) plus sodium reduction — recognising that it is fat quality and replacement, not blanket fat avoidance, and that most sodium is hidden in soups, sauces and eaten-out food, not the salt shaker."
+  - "Apply do-no-harm to a potassium salt substitute: reasonable for most people, but only after checking there is no kidney disease and no ACE inhibitor / ARB / potassium-sparing diuretic — if unsure, don't, and involve his doctor."
+  - "Recognise where the student's job ends: refer to a dietitian for structured change and arrange risk-tiered assessment and re-check — blood-pressure and cholesterol targets are looked up, not memorised — and never advise a daily drink 'for the heart'."
+difficulty: core
+estimatedMinutes: 12
+tags: [nutrition, cardiovascular-disease, hypertension, dash, sodium, do-no-harm, singapore, recognise-and-refer]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mr Chua"
+  age: 52
+  sex: male
+  occupation: "office worker; eats most meals at the hawker centre"
+  presentation: "Repeat clinic blood pressure 148/92 then 146/90; raised LDL cholesterol. No previous heart disease, non-smoker, not diabetic. BMI ~27. Kopi-C twice a day, fishball noodle soup most days, fewer than 5,000 steps a day."
+  voice: "Practical and a little worried; wants a straight answer about whether he needs pills, and keen on quick fixes he has read about online."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Do I need medication for my blood pressure, doctor?\""
+    body: |
+      Mr Chua is **52** and eats most meals at the hawker centre. His clinic blood pressure was **148/92**,
+      and **146/90** when repeated; his **LDL cholesterol is raised**. He has **no previous heart disease**,
+      does **not smoke**, and is **not diabetic**; his **BMI is about 27**. A typical day: **kopi-C twice**,
+      **fishball noodle soup** most lunches, and **fewer than 5,000 steps**.
+
+      *"Doctor, do I need to start medication? My friend is on blood-pressure and cholesterol pills — should I
+      just start too?"*
+
+      Work through the visit. Decide the right first move, translate heart-healthy eating to his hawker plate,
+      handle a salt-substitute question safely, and notice where memorising a target — or reaching for a drug
+      first — would be the wrong reflex. Your choices branch the case.
+    next: q-first-move
+
+  - id: q-first-move
+    type: mcq
+    title: "The first move"
+    stem: |
+      Mr Chua's readings are **148/92** then **146/90**, with a raised LDL. He asks whether to start
+      medication. What is the **best first move**?
+    options:
+      - id: a
+        text: "Confirm the blood pressure over repeated readings, take a diet, activity and alcohol history, start lifestyle-first counselling, and arrange a formal cardiovascular-risk assessment."
+        correct: true
+        feedback: "Right. At this stage the frame is **lifestyle-first, and estimate risk before treating**. You confirm the blood pressure isn't a one-off (repeat readings, and often out-of-clinic checks), take a focused **diet, activity and alcohol history** so advice is grounded in what he actually does, begin lifestyle counselling, and arrange a **formal cardiovascular-risk assessment**. Whether he eventually needs a tablet is a **risk-tiered** decision a clinician makes with a proper risk estimate and the national guidance — not something you settle in the first minute."
+        effects: { quality: +1 }
+        goto: reveal-first-move
+      - id: b
+        text: "Start a statin and a blood-pressure tablet immediately — the numbers are up, so treat them now."
+        correct: false
+        feedback: "Too fast. A single raised reading isn't confirmed hypertension, and whether he needs drugs is a **risk-tiered** decision made *after* his overall cardiovascular risk is estimated — it isn't read off two blood-pressure numbers. The evidence-based sequence is **lifestyle-first plus risk assessment before treatment**; the drug thresholds are looked up in the national guidance by a clinician, not started reflexively. Confirm, assess, counsel, and estimate risk first."
+        goto: reveal-first-move
+      - id: c
+        text: "Reassure him it's nothing to worry about and review in a year."
+        correct: false
+        feedback: "That misses a real, modifiable window. Blood pressure around 148/92 with a raised LDL in a hawker-lunch regular who barely walks is exactly the high-prevalence, high-yield situation where lifestyle-first counselling and a proper risk assessment change the trajectory. Hypertension is silent — 'come back in a year' lets a modifiable risk run untouched. Confirm the readings, take a history, counsel, and arrange risk assessment now."
+        goto: reveal-first-move
+
+  - id: reveal-first-move
+    type: info
+    body: |
+      You repeat the readings and take a history. A typical day: **kopi-C ×2** (with condensed/evaporated milk
+      and sugar), **fishball noodle soup** for lunch most days, sauces and extra soy at the table, sweet drinks,
+      and **under 5,000 steps**. No alcohol most days. This is a picture you can *work with* — several dietary
+      levers, all modifiable. Next: what dietary advice actually lowers his blood pressure and cholesterol?
+    next: q-diet
+
+  - id: q-diet
+    type: mcq
+    title: "Which dietary advice?"
+    stem: |
+      You're ready to give Mr Chua his first dietary steer. Which advice is **best**?
+    options:
+      - id: a
+        text: "A heart-healthy pattern built on My Healthy Plate — half the plate vegetables and fruit, a quarter wholegrains, a quarter lean protein — plus cutting down on salt/sodium."
+        correct: true
+        feedback: "This is the right frame: **whole pattern plus sodium reduction**, not a single banned food. A **DASH-aligned** plate — the local form is **My Healthy Plate** (half vegetables and fruit, a quarter wholegrains, a quarter lean protein) — lowers blood pressure in its own right, and it **stacks** with cutting salt. For Mr Chua that's brown rice or more vegetables with his noodles, less soup and gravy, and more potassium-rich fruit and vegetables. Two levers, pull both."
+        effects: { quality: +1 }
+        goto: reveal-diet
+      - id: b
+        text: "Tell him to cut out all fat — fat is what clogs the arteries."
+        correct: false
+        feedback: "This misses how dietary fat actually works. It's about **quality and replacement**, not blanket avoidance: swapping **saturated and trans fat for unsaturated** fat (the oil at home, less deep-frying) lowers LDL and cuts events — but 'cut all fat' often just pushes people toward refined starch and sugar, which doesn't help. The useful question for every swap is **'replaced with what?'** — unsaturated oil, yes; white bread, no. Frame it as fat *quality*, alongside the pattern and sodium."
+        goto: reveal-diet
+      - id: c
+        text: "Tell him to just stop adding table salt — that fixes the sodium."
+        correct: false
+        feedback: "Necessary but nowhere near enough. In Singapore most sodium is **hidden in soup bases, sauces, seasonings and eaten-out food**, not the shaker — a bowl of fishball noodle *soup* alone can carry most of a day's sodium. So the table-salt tip barely moves Mr Chua, who eats out daily. The real levers are behavioural at the stall: **leave most of the soup**, sauce/gravy on the side, ask for 'less salt', skip extra soy and chilli — set inside the whole heart-healthy pattern."
+        goto: reveal-diet
+
+  - id: reveal-diet
+    type: info
+    body: |
+      You agree a few concrete, hawker-realistic swaps with him: **leave most of the soup**, sauce and gravy
+      **on the side**, ask for **"less salt"**, choose steamed over deep-fried, add vegetables and fruit, and
+      swap one or two **kopi-C** for **kopi-o kosong** or water. Encouraged, Mr Chua pulls out his phone: he's
+      read about a **potassium salt substitute** online and wants to know if he should buy it.
+    next: q-salt-substitute
+
+  - id: q-salt-substitute
+    type: mcq
+    title: "\"Should I use this potassium salt substitute?\""
+    stem: |
+      Mr Chua shows you a **potassium-based salt substitute** he saw online: *"It says it's the heart-healthy
+      salt — should I just switch to it?"* What's the **best** response?
+    options:
+      - id: a
+        text: "For most people it's a reasonable way to cut sodium — but first let me check you have no kidney problems and aren't on certain blood-pressure medicines; if we're unsure, we hold off and I check with your doctor."
+        correct: true
+        feedback: "Exactly the do-no-harm answer. A potassium-enriched salt substitute is a reasonable sodium-cutting lever for **most** people — but the trial that showed it prevents strokes and deaths **excluded people with serious kidney disease and those on potassium-raising drugs** (ACE inhibitors, ARBs, potassium-sparing diuretics), in whom extra potassium can cause dangerous **high blood potassium (hyperkalaemia)**. So you **check for kidney disease and those medicines first**, and **if unsure, don't** — involve his doctor. (The renal potassium story is owned by the **Chronic Kidney Disease chapter**.)"
+        effects: { quality: +1 }
+        goto: q-refer
+      - id: b
+        text: "Sure — potassium salt is the healthy kind, so use it freely. More potassium is always good for blood pressure."
+        correct: false
+        feedback: "This is the trap, and it can cause real harm. 'Potassium is good for blood pressure' is true for *most* people — but recommending a potassium salt substitute **without first checking his kidneys and medications** is unsafe: in people with kidney disease or on an ACE inhibitor / ARB / potassium-sparing diuretic, the extra potassium can build up to a **dangerous level (hyperkalaemia)**. The trial that proved these substitutes work **deliberately excluded** exactly those people. You must run the safety check first — a good performance elsewhere can't make blanket 'use it freely' advice safe."
+        goto: remedial-salt-substitute
+
+  - id: remedial-salt-substitute
+    type: info
+    title: "One safety check before that advice"
+    body: |
+      Pause before Mr Chua walks out and buys it.
+
+      **A potassium salt substitute is helpful for most people — but not without a check.** The large trial that
+      showed it cuts strokes and deaths **excluded people with serious kidney disease and those on
+      potassium-raising drugs** (ACE inhibitors, ARBs, potassium-sparing diuretics). In those people, loading
+      extra potassium can push blood potassium to a **dangerous level (hyperkalaemia)**, which can affect the
+      heart rhythm. Healthy kidneys clear the extra potassium; impaired ones may not.
+
+      So the safe message is: *"It's reasonable for most people, but first let me check you have no kidney
+      disease and aren't on those medicines — and if we're unsure, we hold off and I check with your doctor."*
+      The renal potassium story belongs to the **Chronic Kidney Disease chapter**. Recommending it **freely,
+      without any kidney or medication check, is a genuine do-no-harm error** — and no amount of good advice
+      elsewhere buys it back.
+    next: q-refer
+
+  - id: q-refer
+    type: mcq
+    title: "Targets, referral, and one last question"
+    stem: |
+      You're wrapping up. Mr Chua asks two things: *"So what's my target number — what should my blood pressure
+      and cholesterol be?"* and *"And is a beer a day good for my heart?"* What's the **best** way to close?
+    options:
+      - id: a
+        text: "Refer him to a dietitian for structured change and arrange a risk assessment and re-check; explain that his exact targets are risk-tiered and looked up, not a number to memorise; and note that alcohol isn't taken up 'for the heart'."
+        correct: true
+        feedback: "This is the whole job at this level. You **refer to a dietitian** (in Singapore, via EatWise SG) for the structured pattern change, and arrange a **formal cardiovascular-risk assessment** and a re-check of his blood pressure and lipids. On his target question: blood-pressure and cholesterol targets are **risk-tiered and looked up** by a clinician using his risk estimate — **not a number you recite from memory**. And on the beer: current evidence finds **no safe level**, and the old 'protective' story is confounding — cutting down lowers blood pressure, but you **never advise a daily drink 'for the heart'**."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Give him the LDL and blood-pressure numbers he should hit from memory, and tell him a daily beer is fine — even good — for his heart."
+        correct: false
+        feedback: "Two errors here. First, you don't **memorise** LDL or blood-pressure targets — they're **risk-tiered and looked up** using his cardiovascular-risk estimate; reciting a single threshold is exactly what this level asks you *not* to do. Second, the 'a beer a day is good for your heart' line hasn't held up: the apparent benefit is **confounding**, health bodies now say there's **no safe level**, and you never advise a non-drinker (or anyone) to drink *for* their heart. Refer, arrange risk assessment, and keep the target as 'looked up, not recited'."
+        goto: route
+      - id: c
+        text: "Skip the dietitian and just add a second blood-pressure tablet now — it's simpler than all this diet and referral effort."
+        correct: false
+        feedback: "Wrong instinct here. Mr Chua is a **lifestyle-first** case who hasn't yet had a proper risk assessment or a structured dietary attempt — reaching for another tablet skips the whole lever in front of you, and drug decisions are a **risk-tiered clinician call** made with a risk estimate, not a shortcut around diet. Your job is to deliver the lifestyle levers, **refer to a dietitian**, and arrange the risk assessment and re-check — not to escalate medication."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Lifestyle-first, safely counselled, and referred"
+    body: |
+      You handled Mr Chua well. You led with the right first move — **confirm the readings, take a history,
+      counsel lifestyle-first, and arrange risk assessment** rather than reflexively prescribing or dismissing
+      it. You gave **pattern-based** dietary advice (My Healthy Plate plus sodium reduction), recognising it's
+      fat *quality* not blanket avoidance, and that his sodium hides in **soups and sauces**, not the shaker.
+      Crucially, you applied **do-no-harm** to the potassium salt substitute — checking for kidney disease and
+      potassium-raising medicines before recommending it. And you closed correctly: **refer to a dietitian**,
+      arrange risk assessment and re-check, treat targets as **risk-tiered and looked up** (not memorised), and
+      **never** advise a daily drink for the heart. That's exactly the altitude for this chapter: recognise the
+      levers, refer for the plan, and do no harm.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "First move is lifestyle-first plus risk assessment: confirm the blood pressure over repeated readings, take a diet/activity/alcohol history, counsel, and arrange a formal cardiovascular-risk assessment — don't prescribe reflexively or defer for a year."
+        - "Dietary advice is pattern-based (a DASH-aligned My Healthy Plate) plus sodium reduction; it's fat quality and replacement ('replaced with what?'), not 'cut all fat', and most sodium hides in soups, sauces and eaten-out food, not the shaker."
+        - "Do no harm with a potassium salt substitute: reasonable for most people, but only after checking there's no kidney disease and no ACE inhibitor / ARB / potassium-sparing diuretic — if unsure, don't, and involve the doctor (the renal potassium story is the Chronic Kidney Disease chapter's)."
+        - "Refer to a dietitian and arrange risk-tiered assessment and re-check; blood-pressure and cholesterol targets are looked up, not memorised; and alcohol is never advised 'for the heart'."
+      references: ["@hpbHealthyPlate", "@who2020diet", "@mohAlcoholLimits2018"]
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a plan for Mr Chua, but slipped on at least one key point — the **lifestyle-first-plus-risk-
+      assessment** first move, the **pattern-plus-sodium** dietary framing, treating targets as **looked up
+      rather than memorised**, or (the one that matters most for safety) recommending the **potassium salt
+      substitute without first checking his kidneys and medications**. That last one is a genuine do-no-harm
+      error: in people with kidney disease or on an ACE inhibitor / ARB / potassium-sparing diuretic, extra
+      potassium can cause dangerous **hyperkalaemia**, and the trial behind these substitutes **excluded**
+      exactly those people — so a strong performance elsewhere can't make blanket 'use it freely' advice safe.
+      Replay the safe path: confirm and assess before treating; advise the **pattern plus sodium reduction**;
+      **check kidneys and medicines** before any potassium salt substitute; refer to a dietitian; keep targets
+      as looked-up, not recited; and never advise a drink for the heart.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Lead lifestyle-first and estimate risk before treating — confirm the readings, take a history, counsel, and arrange a cardiovascular-risk assessment."
+        - "Advise a whole heart-healthy pattern (My Healthy Plate) plus sodium reduction; sodium hides in soups and sauces, and fat is about quality, not blanket avoidance."
+        - "Never recommend a potassium salt substitute without first checking for kidney disease and potassium-raising drugs (ACE inhibitor / ARB / potassium-sparing diuretic) — if unsure, don't."
+        - "Refer for the structured plan; targets are risk-tiered and looked up, not memorised; and alcohol is never advised for the heart."

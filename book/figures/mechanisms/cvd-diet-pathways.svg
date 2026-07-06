@@ -1,0 +1,62 @@
+<svg viewBox="0 0 760 430" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="cv-title cv-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="cv-title">How diet reaches the artery and the blood pressure</title>
+  <desc id="cv-desc">Two dietary pathways converge on the artery. On the left, saturated and trans fat raise LDL cholesterol, which builds atherosclerotic plaque in the artery wall. On the right, dietary sodium raises blood volume and vascular tone, raising blood pressure (potassium counter-regulates). Both damage the artery and drive cardiovascular events such as heart attack and stroke. Upstream insulin resistance and dyslipidaemia from the Obesity and Type 2 Diabetes chapters feed both pathways.</desc>
+  <defs>
+    <marker id="cv-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .box  { fill:#eef3f8; stroke:#47607a; stroke-width:1.4; }
+    .lbl  { fill:#17324d; font-size:13.5px; }
+    .hdr  { fill:#28425e; font-size:13px; font-weight:600; }
+    .hub  { fill:#0f766e; stroke:#0b5b54; stroke-width:1.5; }
+    .hlbl { fill:#ffffff; font-size:13.5px; font-weight:600; }
+    .out  { fill:#fdecec; stroke:#c2410c; stroke-width:1.5; }
+    .olbl { fill:#7c2d12; font-size:13.5px; font-weight:600; }
+    .flow { stroke:#64748b; stroke-width:2; fill:none; }
+    .note { fill:#5b6b7b; font-size:11px; }
+  </style>
+
+  <text class="hdr" x="180" y="26" text-anchor="middle">The artery — atherosclerosis</text>
+  <text class="hdr" x="580" y="26" text-anchor="middle">The pressure — hypertension</text>
+
+  <!-- left pathway: fat -> LDL -> plaque -->
+  <rect class="box" x="55"  y="40" width="250" height="40" rx="7"/>
+  <text class="lbl" x="180" y="65" text-anchor="middle">Saturated &amp; trans fat</text>
+  <line class="flow" x1="180" y1="80" x2="180" y2="102" marker-end="url(#cv-ah)"/>
+  <rect class="box" x="55"  y="104" width="250" height="40" rx="7"/>
+  <text class="lbl" x="180" y="129" text-anchor="middle">↑ LDL cholesterol</text>
+  <line class="flow" x1="180" y1="144" x2="180" y2="166" marker-end="url(#cv-ah)"/>
+  <rect class="box" x="55"  y="168" width="250" height="52" rx="7"/>
+  <text class="lbl" x="180" y="190" text-anchor="middle">LDL builds plaque</text>
+  <text class="lbl" x="180" y="208" text-anchor="middle">in the artery wall</text>
+
+  <!-- right pathway: sodium -> volume/tone -> BP -->
+  <rect class="box" x="455" y="40" width="250" height="40" rx="7"/>
+  <text class="lbl" x="580" y="65" text-anchor="middle">Dietary sodium (salt)</text>
+  <line class="flow" x1="580" y1="80" x2="580" y2="102" marker-end="url(#cv-ah)"/>
+  <rect class="box" x="455" y="104" width="250" height="52" rx="7"/>
+  <text class="lbl" x="580" y="126" text-anchor="middle">↑ blood volume &amp;</text>
+  <text class="lbl" x="580" y="144" text-anchor="middle">vascular tone</text>
+  <line class="flow" x1="580" y1="156" x2="580" y2="178" marker-end="url(#cv-ah)"/>
+  <rect class="box" x="455" y="180" width="250" height="40" rx="7"/>
+  <text class="lbl" x="580" y="205" text-anchor="middle">↑ blood pressure</text>
+  <text class="note" x="580" y="238" text-anchor="middle">(dietary potassium counter-regulates)</text>
+
+  <!-- converge to the artery hub -->
+  <line class="flow" x1="180" y1="220" x2="305" y2="288" marker-end="url(#cv-ah)"/>
+  <line class="flow" x1="580" y1="248" x2="455" y2="288" marker-end="url(#cv-ah)"/>
+  <rect class="hub" x="290" y="290" width="180" height="50" rx="9"/>
+  <text class="hlbl" x="380" y="312" text-anchor="middle">The artery wall</text>
+  <text class="hlbl" x="380" y="330" text-anchor="middle">under attack</text>
+  <line class="flow" x1="380" y1="340" x2="380" y2="362" marker-end="url(#cv-ah)"/>
+
+  <!-- outcome -->
+  <rect class="out" x="245" y="364" width="270" height="46" rx="8"/>
+  <text class="olbl" x="380" y="385" text-anchor="middle">Cardiovascular events —</text>
+  <text class="olbl" x="380" y="403" text-anchor="middle">heart attack &amp; stroke</text>
+
+  <!-- upstream note -->
+  <text class="note" x="380" y="264" text-anchor="middle">Upstream insulin resistance &amp; dyslipidaemia feed both (Obesity &amp; Metabolic Syndrome; Type 2 Diabetes chapters)</text>
+</svg>
