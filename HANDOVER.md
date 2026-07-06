@@ -29,6 +29,16 @@
 
 All on `main`. Full detail lives in the curriculum-map decision log + git history.
 
+- **Case/quiz island UX fixes** (`components/src/CasePlayer.svelte`, `Quiz.svelte`) — (1) **MCQ page-jump fixed**: the
+  option list used to swap `{#if !pending}<button>{:else}<button disabled>{/if}`, which *destroyed and recreated*
+  each button on answer, throwing focus to the page chrome and jumping the scroll. Now a **single persistent
+  `<button>` per option**, disabled + restyled in place (same DOM element; browser-verified `scrollDelta 0`). (2)
+  **Chat autoscroll fixed**: the patient log now pins to the newest message as it streams (`bind:this` + `onscroll`
+  + a `$effect` that *reads message deps before any guard* — the original early-return never registered the message
+  dependency), with a stick-to-bottom guard so a reader who scrolls up is not yanked. Bundle is gitignored (CI
+  rebuilds from `components/src`); rebuild locally with `npm --prefix components run build`. Known minor pre-existing
+  a11y gap (not a regression): keyboard focus lands on `<body>` after answering an MCQ — feedback is still announced
+  via `role="status"`.
 - **AI-disclosure front-matter + colophon** — added an **AI-use disclosure** callout to the Preface (`index.qmd`)
   and a new unnumbered end page **`chapters/colophon.qmd` ("How this book was made")** covering the technical build
   (Quarto/KaTeX/BibTeX · Svelte+Vite islands · GitHub Actions deploy), the self-hosted **Qwen** simulated-patient

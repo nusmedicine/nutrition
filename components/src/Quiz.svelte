@@ -51,15 +51,12 @@
         <p class="stem">{qi + 1}. {@html mdInline(q.stem)}</p>
         <div class="opts" role="group" aria-label={'Question ' + (qi + 1) + ' options'}>
           {#each q.options as o, oi}
-            {#if answers[q.id] == null}
-              <button type="button" class="opt" onclick={() => pick(q.id, oi)}>{@html mdInline(o.text)}</button>
-            {:else}
-              {@const chosen = answers[q.id] === oi}
-              <button type="button" disabled
-                class="opt {chosen ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')}">
-                {@html mdInline(o.text)}{#if chosen || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
-              </button>
-            {/if}
+            {@const answered = answers[q.id] != null}
+            {@const chosen = answers[q.id] === oi}
+            <button type="button" onclick={() => pick(q.id, oi)} disabled={answered}
+              class="opt {answered ? (chosen ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')) : ''}">
+              {@html mdInline(o.text)}{#if answered && (chosen || o.correct)}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
+            </button>
           {/each}
         </div>
         {#if answers[q.id] != null}

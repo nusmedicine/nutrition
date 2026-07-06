@@ -79,6 +79,9 @@
   });
 
   function persist() { if (def && state) save(def.id, state); }
+  // Answering keeps the SAME option buttons (they are disabled and restyled in place,
+  // not destroyed and recreated), so focus is not thrown to the page chrome and the
+  // viewport does not jump.
   function choose(id) { E.choose(state, byId, id); persist(); }
   function contMcq() { E.continueMcq(state, def, byId); persist(); }
   function contInfo() { E.continueInfo(state, def, byId); persist(); }
@@ -101,6 +104,7 @@
 
   function startChat(node) {
     chat = { msgs: [], turns: 0, phase: 'chat', feedback: null, busy: false, input: '', error: null, emotion: 'concerned' };
+    stickToBottom = true;
     if (node.opener) chat.msgs.push({ role: 'assistant', content: node.opener });
   }
 
@@ -117,6 +121,7 @@
     chat.input = '';
     chat.error = null;
     chat.msgs.push({ role: 'user', content: text });
+    stickToBottom = true; // sending is an explicit action: follow the conversation down
     chat.turns += 1;
     chat.busy = true;
     const messages = [
@@ -165,6 +170,26 @@
     E.finishPatientChat(state, def, byId, met);
     persist();
   }
+
+  // Keep the chat log pinned to the newest message so the patient's reply is visible
+  // as it streams in, unless the reader has scrolled up to re-read earlier turns.
+  let chatlogEl = $state(null);
+  let stickToBottom = true;
+  function onChatScroll() {
+    if (chatlogEl) stickToBottom = chatlogEl.scrollHeight - chatlogEl.scrollTop - chatlogEl.clientHeight < 48;
+  }
+  $effect(() => {
+    // Read the reactive deps FIRST (before any guard) so this effect re-runs on every
+    // new message, streamed token, and typing-indicator toggle — even on runs where the
+    // log element is not yet bound.
+    const len = chat ? chat.msgs.length : 0;
+    const last = len ? chat.msgs[len - 1] : null;
+    void (last && last.content);
+    void (chat && chat.busy);
+    if (chatlogEl && stickToBottom) {
+      tick().then(() => { if (chatlogEl && stickToBottom) chatlogEl.scrollTop = chatlogEl.scrollHeight; });
+    }
+  });
 </script>
 
 {#if error}
@@ -204,14 +229,10 @@
         <h3 class="nt stem" tabindex="-1" bind:this={titleEl}>{@html mdInline(n.stem)}</h3>
         <div class="opts" role="group" aria-label="Answer options">
           {#each n.options as o}
-            {#if !state.pending}
-              <button type="button" class="opt" onclick={() => choose(o.id)}>{@html mdInline(o.text)}</button>
-            {:else}
-              <button type="button" disabled
-                class="opt {o.id === state.pending ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')}">
-                {@html mdInline(o.text)}{#if o.id === state.pending || o.correct}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
-              </button>
-            {/if}
+            <button type="button" onclick={() => choose(o.id)} disabled={!!state.pending}
+              class="opt {state.pending ? (o.id === state.pending ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')) : ''}">
+              {@html mdInline(o.text)}{#if state.pending && (o.id === state.pending || o.correct)}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
+            </button>
           {/each}
         </div>
         {#if state.pending}
@@ -234,7 +255,7 @@
           <p class="chat-obj"><strong>Your goal:</strong> {n.objective}
             <span class="framing">· simulated patient, not medical advice</span></p>
 
-          <div class="chatlog" role="log" aria-live="polite" aria-label="Conversation with the patient">
+          <div class="chatlog" role="log" aria-live="polite" aria-label="Conversation with the patient" bind:this={chatlogEl} onscroll={onChatScroll}>
             {#each chat.msgs as m}
               <div class="cmsg {m.role === 'assistant' ? 'from-patient' : 'from-student'}">
                 <span class="cwho">{m.role === 'assistant' ? def.persona.name : 'You'}</span>
