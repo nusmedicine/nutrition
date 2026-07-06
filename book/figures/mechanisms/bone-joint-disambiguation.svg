@@ -1,0 +1,69 @@
+<svg viewBox="0 0 800 292" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dz-title dz-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="dz-title">Three conditions people confuse — and their different diet stories</title>
+  <desc id="dz-desc">A comparison of three musculoskeletal conditions. Osteoporosis is a bone-density problem, silent until a fragility fracture, whose real levers are calcium, vitamin D and protein — not glucosamine and not blanket pills. Osteoarthritis is worn joint cartilage, painful, whose one real dietary lever is weight loss plus activity — glucosamine does not rebuild cartilage. Gout is a urate-crystal metabolic disease whose main treatment is a urate-lowering drug to target with diet as a modest adjunct — not simply cutting all seafood. The trap is treating them alike.</desc>
+  <style>
+    .rl   { fill:#5b6670; font-size:11.5px; font-weight:700; }
+    .hd   { fill:#ffffff; font-size:14px; font-weight:700; }
+    .hsub { fill:#ffffff; font-size:10.5px; }
+    .cell { fill:#17324d; font-size:11.5px; }
+    .op   { fill:#0b5b54; }
+    .oa   { fill:#b0471d; }
+    .go   { fill:#a01212; }
+    .opbg { fill:#eef5f2; }
+    .oabg { fill:#fdf2ec; }
+    .gobg { fill:#fbeaea; }
+    .line { stroke:#e2e8ee; stroke-width:1; }
+  </style>
+
+  <!-- column headers -->
+  <rect class="op" x="134" y="12" width="214" height="46" rx="7"/>
+  <text class="hd" x="241" y="34" text-anchor="middle">Osteoporosis</text>
+  <text class="hsub" x="241" y="50" text-anchor="middle">BONE — low density</text>
+  <rect class="oa" x="356" y="12" width="214" height="46" rx="7"/>
+  <text class="hd" x="463" y="34" text-anchor="middle">Osteoarthritis</text>
+  <text class="hsub" x="463" y="50" text-anchor="middle">JOINT — worn cartilage</text>
+  <rect class="go" x="578" y="12" width="214" height="46" rx="7"/>
+  <text class="hd" x="685" y="34" text-anchor="middle">Gout</text>
+  <text class="hsub" x="685" y="50" text-anchor="middle">JOINT — urate crystals</text>
+
+  <!-- Row 1: What it is / how it shows -->
+  <text class="rl" x="10" y="90">What it is</text>
+  <text class="rl" x="10" y="105">&amp; how it shows</text>
+  <rect class="opbg" x="134" y="66" width="214" height="56" rx="6"/>
+  <text class="cell" x="145" y="88">Thinning bone —</text>
+  <text class="cell" x="145" y="106"><tspan font-weight="700">silent</tspan> until a fracture</text>
+  <rect class="oabg" x="356" y="66" width="214" height="56" rx="6"/>
+  <text class="cell" x="367" y="88">Worn cartilage —</text>
+  <text class="cell" x="367" y="106">a <tspan font-weight="700">painful</tspan> knee/hip</text>
+  <rect class="gobg" x="578" y="66" width="214" height="56" rx="6"/>
+  <text class="cell" x="589" y="88">Urate crystals —</text>
+  <text class="cell" x="589" y="106">sudden <tspan font-weight="700">hot, red</tspan> joint</text>
+
+  <!-- Row 2: Real diet lever -->
+  <text class="rl" x="10" y="152">The real</text>
+  <text class="rl" x="10" y="167">diet lever</text>
+  <rect class="opbg" x="134" y="128" width="214" height="56" rx="6"/>
+  <text class="cell op" x="145" y="150" font-weight="700">Calcium · vitamin D</text>
+  <text class="cell op" x="145" y="168" font-weight="700">· protein</text>
+  <rect class="oabg" x="356" y="128" width="214" height="56" rx="6"/>
+  <text class="cell oa" x="367" y="150" font-weight="700">Weight loss</text>
+  <text class="cell oa" x="367" y="168" font-weight="700">+ activity</text>
+  <rect class="gobg" x="578" y="128" width="214" height="56" rx="6"/>
+  <text class="cell go" x="589" y="150" font-weight="700">Urate-lowering drug</text>
+  <text class="cell go" x="589" y="168" font-weight="700">to target (diet adjunct)</text>
+
+  <!-- Row 3: The trap -->
+  <text class="rl" x="10" y="214">The trap</text>
+  <text class="rl" x="10" y="229">(what it's NOT)</text>
+  <rect class="opbg" x="134" y="190" width="214" height="56" rx="6"/>
+  <text class="cell" x="145" y="212">not glucosamine;</text>
+  <text class="cell" x="145" y="230">not blanket pills</text>
+  <rect class="oabg" x="356" y="190" width="214" height="56" rx="6"/>
+  <text class="cell" x="367" y="212">glucosamine doesn't</text>
+  <text class="cell" x="367" y="230">rebuild cartilage</text>
+  <rect class="gobg" x="578" y="190" width="214" height="56" rx="6"/>
+  <text class="cell" x="589" y="212">not "just cut all</text>
+  <text class="cell" x="589" y="230">seafood"; not your fault</text>
+
+  <text class="rl" x="10" y="278" font-weight="400" fill="#7c2d12">Treating them alike is the error: calcium won't help arthritis, glucosamine won't help osteoporosis, and gout is neither wear nor thinning.</text>
+</svg>

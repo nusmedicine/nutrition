@@ -1,5 +1,5 @@
 id: bone-health-osteoporosis
-title: "Quick check: bone health & osteoporosis"
+title: "Quick check: bone & joint health"
 questions:
   - id: q1
     stem: "A patient asks how much of their bone strength is in their own hands. What's the accurate reply?"
@@ -124,7 +124,71 @@ questions:
         feedback: "Prescribing and titrating osteoporosis drugs is specialist territory. The generalist's job is food-first advice, correcting deficiency, and referral."
       - text: "Prescribe the hormone therapy she clearly needs now"
         correct: false
-        feedback: "Menopausal hormone therapy is a specialist decision, owned by the Menopause & Midlife chapter and the specialist services — not a generalist reflex here."
+        feedback: "Menopausal hormone therapy is a specialist decision, owned by the Menopause & Midlife Health chapter and the specialist services — not a generalist reflex here."
       - text: "Reassure her that fractures at her age are normal"
         correct: false
         feedback: "A fragility fracture is a red flag, not a normal event — it defines osteoporosis and warrants referral, not reassurance."
+
+  - id: q9
+    stem: "A patient with knee **osteoarthritis** asks about **glucosamine**. What's the evidence-based answer?"
+    options:
+      - text: "No real benefit — guidelines advise against it"
+        correct: true
+        feedback: "Correct. Glucosamine and chondroitin are no better than placebo for knee-OA pain or joint structure in the landmark trials (GAIT, Wandel), and ACR, OARSI, NICE and Singapore's ACE all advise against them. It doesn't rebuild cartilage — the levers that work are weight loss and exercise."
+      - text: "It rebuilds cartilage and reverses the arthritis"
+        correct: false
+        feedback: "It does neither. Glucosamine doesn't rebuild cartilage or reverse OA, and it's no better than placebo for pain or structure — which is why the guidelines advise against it."
+      - text: "It works about as well as a knee replacement"
+        correct: false
+        feedback: "There's no comparison — glucosamine gives no meaningful benefit at all, whereas surgery is for end-stage disease. The evidence-based levers here are weight loss and activity."
+      - text: "It's proven better than weight loss for the pain"
+        correct: false
+        feedback: "The opposite is true: weight loss (with exercise) is the strongest lever for knee OA, while glucosamine gives no meaningful benefit."
+
+  - id: q10
+    stem: "What is the single **most effective lever** for knee osteoarthritis?"
+    options:
+      - text: "Losing ~10% of body weight, with exercise"
+        correct: true
+        feedback: "Correct. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function — working through both reduced mechanical load on the joint and lower inflammation — with more loss giving more benefit. Weight and activity beat any supplement."
+      - text: "Taking a daily cartilage supplement"
+        correct: false
+        feedback: "Supplements don't rebuild cartilage or meaningfully relieve OA. The effective lever is weight loss with exercise."
+      - text: "Resting the joint and avoiding all activity"
+        correct: false
+        feedback: "Rest and de-conditioning worsen knee OA. Appropriate activity and strengthening — alongside weight loss — are what help."
+      - text: "Switching to a high-dose vitamin D pill"
+        correct: false
+        feedback: "Vitamin D showed no benefit for OA pain or cartilage in a 2-year trial. The lever is weight loss with exercise, not a supplement."
+
+  - id: q11
+    stem: "A patient with **gout** asks what to eat. Which advice is most accurate?"
+    options:
+      - text: "Cut beer and sugary drinks; medication is the main lever"
+        correct: true
+        feedback: "Correct. Diet nudges urate only modestly — beer and fructose/sugary drinks raise it, low-fat dairy and coffee associate with lower risk, but purine-rich vegetables and total protein aren't the problem. The strong lever is a urate-lowering drug (allopurinol) to target; diet is a helpful adjunct, not the cure — and it's not the patient's 'fault'."
+      - text: "Cut out all seafood, all protein and all vegetables to be cured"
+        correct: false
+        feedback: "That's over-restriction. Purine-rich vegetables and total protein aren't associated with gout, and diet alone rarely reaches target — the real lever is urate-lowering medication. Don't starve the patient of protein and vegetables."
+      - text: "Diet alone is enough; you don't need any medication"
+        correct: false
+        feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug — diet is an adjunct, not a substitute."
+      - text: "It's your own fault for eating too much — just eat less"
+        correct: false
+        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet over-restricts patients while missing the real lever — urate-lowering therapy to target."
+
+  - id: q12
+    stem: "Which pairing correctly matches the condition to its **main dietary lever**?"
+    options:
+      - text: "Osteoarthritis → weight loss; osteoporosis → calcium"
+        correct: true
+        feedback: "Correct. The two 'osteo' conditions have opposite diet stories: osteoarthritis (worn cartilage) responds to weight loss and activity, while osteoporosis (low bone density) responds to calcium, vitamin D and protein. Mixing them up — calcium for arthritis, glucosamine for osteoporosis — is the classic error."
+      - text: "Osteoarthritis → calcium; osteoporosis → glucosamine"
+        correct: false
+        feedback: "This swaps them. Calcium is for bone (osteoporosis), and glucosamine is for neither — the OA lever is weight loss."
+      - text: "Gout → glucosamine; osteoarthritis → urate drugs"
+        correct: false
+        feedback: "Both are wrong: glucosamine helps nothing, urate-lowering drugs are for gout (not OA), and the OA lever is weight loss."
+      - text: "Osteoporosis → weight loss; gout → high-dose vitamin D"
+        correct: false
+        feedback: "Weight loss is the OA lever (not osteoporosis, which needs calcium/vitamin D/protein), and vitamin D doesn't treat gout — a urate-lowering drug does."

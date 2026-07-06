@@ -1,0 +1,205 @@
+id: mr-tan-joint
+title: "Mr Tan, 62: \"Should I take glucosamine for my knees?\""
+objectives:
+  - "Give the evidence-based answer that glucosamine and chondroitin do not provide clinically meaningful benefit for knee osteoarthritis (GAIT, Wandel; ACR/OARSI/NICE/Singapore ACE all advise against) — don't endorse it or claim it rebuilds cartilage."
+  - "Handle the professional-vs-consumer messaging gap: retail and even a government consumer portal can frame glucosamine positively, but the professional guidance says it adds cost without established benefit."
+  - "Steer to the real lever: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation — the strongest thing that actually helps."
+  - "Frame do-no-harm correctly: the harm is not toxicity but cost, false reassurance and spending on an ineffective pill instead of the effective lever."
+difficulty: core
+estimatedMinutes: 10
+tags: [nutrition, osteoarthritis, glucosamine, evidence-vs-hype, weight, do-no-harm, singapore, recognise-and-refer]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mr Tan"
+  age: 62
+  sex: male
+  occupation: "office worker; overweight (BMI 29)"
+  presentation: "Aching knees going up stairs for months; no locking, giving way, swelling or red flags. BMI 29, walks little. Has seen glucosamine advertised and a health website that sounded positive, and is keen to buy it."
+  voice: "Practical and proactive; wants a concrete 'take this' answer and half-expects to be told to start a supplement he's read good things about."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Will glucosamine rebuild my cartilage?\""
+    body: |
+      Mr Tan is **62** and overweight (**BMI 29**). His **knees ache going up stairs**, and have for months — but
+      there's **no locking, giving way or swelling**, and no red flags. He walks little. He's seen glucosamine
+      advertised and a health website that sounded positive.
+
+      *"Should I take glucosamine, doctor? Will it rebuild my cartilage?"*
+
+      Work through the visit. Give the evidence-based answer on the supplement, handle the mixed messages he's
+      seen, steer him to the lever that actually works, and frame the do-no-harm point correctly. Your choices
+      branch the case.
+    next: q-supplement
+
+  - id: q-supplement
+    type: mcq
+    title: "\"Should I take glucosamine?\""
+    stem: |
+      What is the **best evidence-based answer** to Mr Tan's question about glucosamine?
+    options:
+      - id: a
+        text: "No meaningful benefit; the real levers are weight and activity."
+        correct: true
+        feedback: "Right. Glucosamine and chondroitin are **no better than placebo** for knee-OA pain or joint structure in the landmark trials (GAIT; Wandel's meta-analysis), and **every major guideline** — ACR, OARSI, NICE and Singapore's ACE — advises against them. So it won't rebuild his cartilage, and the things that actually help are **weight loss and exercise**."
+        effects: { quality: +1 }
+        goto: reveal-supplement
+      - id: b
+        text: "Yes — start glucosamine daily; it rebuilds cartilage and is proven to work."
+        correct: false
+        feedback: "This is the trap. Glucosamine does **not** rebuild cartilage, and it's **no better than placebo** for pain or structure — GAIT and Wandel's meta-analysis found no meaningful benefit, and ACR, OARSI, NICE and Singapore's ACE all advise against it. Endorsing it sends him spending on an ineffective pill instead of the lever that works. Lead with the evidence, then steer him to weight and activity."
+        goto: remedial-supplement
+
+  - id: remedial-supplement
+    type: info
+    title: "What the evidence actually says"
+    body: |
+      Pause before Mr Tan walks out to buy glucosamine on your say-so.
+
+      **Glucosamine and chondroitin don't work for knee osteoarthritis.** In the landmark GAIT trial they were
+      no better than placebo for pain, and a network meta-analysis (Wandel) found no clinically meaningful effect
+      on pain or joint structure — the benefit shrank the more independent the trial. That's why **ACR, OARSI,
+      NICE and Singapore's ACE guidance all advise against them**, and why glucosamine does **not** "rebuild
+      cartilage."
+
+      The evidence-based message is: *the supplement won't help, and the things that do are weight loss and
+      staying active.* Endorsing an ineffective pill isn't harmless — it costs him money and delays the lever
+      that actually works. That's the do-no-harm error to avoid here.
+    next: reveal-supplement
+
+  - id: reveal-supplement
+    type: info
+    body: |
+      You explain that the evidence doesn't support glucosamine. Mr Tan looks doubtful: *"But the pharmacy sells
+      it and a health website said it can help — so surely there's something to it?"*
+    next: q-messaging
+
+  - id: q-messaging
+    type: mcq
+    title: "\"But the pharmacy and a website recommend it\""
+    stem: |
+      Mr Tan points out that glucosamine is **sold everywhere** and a **health website** framed it positively.
+      What's the **best** response?
+    options:
+      - id: a
+        text: "Consumer messaging can outrun the evidence; trust the guidance."
+        correct: true
+        feedback: "Exactly. Being sold, advertised, or described positively on a consumer page isn't the same as working. Singapore's **professional** guidance (ACE) states glucosamine \"may add cost without established clinical benefit\" for knee OA — yet the government **consumer** portal still frames it positively. It's a real example of consumer messaging outrunning the evidence; trust the clinical guidance."
+        effects: { quality: +1 }
+        goto: reveal-messaging
+      - id: b
+        text: "If it's on sale and on a health website, it must have been proven to work."
+        correct: false
+        feedback: "Availability and positive consumer messaging aren't evidence of benefit. Supplements are sold with a lower bar than medicines, and here the **professional** guidance (ACE) says glucosamine adds cost without established benefit — even though the consumer portal sounds encouraging. The clinical evidence, not the shelf or the website, is what to go on."
+        goto: reveal-messaging
+
+  - id: reveal-messaging
+    type: info
+    body: |
+      Mr Tan takes the point. *"Okay — so if not a supplement, what should I actually do for my knees?"*
+    next: q-lever
+
+  - id: q-lever
+    type: mcq
+    title: "The lever that works"
+    stem: |
+      What is Mr Tan's **single biggest lever** for his knee osteoarthritis?
+    options:
+      - id: a
+        text: "Lose around 10% of his weight, with diet and exercise."
+        correct: true
+        feedback: "Right. Weight is the strongest modifiable lever in knee OA. In the IDEA trial, a diet-plus-exercise programme losing about **10% of body weight** improved pain and function — working through **both** less mechanical load on the knee **and** lower inflammation — and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the high-yield plan, not a supplement."
+        effects: { quality: +1 }
+        goto: reveal-lever
+      - id: b
+        text: "A daily cartilage supplement, which is gentler on the knees than exercise."
+        correct: false
+        feedback: "Supplements don't rebuild cartilage or relieve OA meaningfully, and avoiding activity is the wrong instinct. The evidence-based lever is **weight loss (~10%) plus exercise** — which unloads the joint and lowers inflammation — even though it's more effort than a pill."
+        goto: reveal-lever
+      - id: c
+        text: "Complete rest — stop using the stairs and avoid loading the joint."
+        correct: false
+        feedback: "Rest and de-conditioning make knee OA worse, not better. The lever is **weight loss with activity/exercise** — appropriate loading and strengthening help; the goal is a lighter, stronger, more active knee, guided by a physiotherapist if needed."
+        goto: reveal-lever
+
+  - id: reveal-lever
+    type: info
+    body: |
+      You agree a realistic first step — a modest calorie reduction and a walking-plus-strengthening routine,
+      with a physiotherapy referral. Mr Tan, still a little attached to the idea, asks one last thing: *"Is
+      glucosamine at least harmless if I want to try it anyway?"*
+    next: q-harm
+
+  - id: q-harm
+    type: mcq
+    title: "\"Is it at least harmless?\""
+    stem: |
+      Mr Tan asks whether glucosamine is **harmless** if he tries it anyway. What's the **best** framing?
+    options:
+      - id: a
+        text: "It's fairly safe physically — the harm is cost and false reassurance."
+        correct: true
+        feedback: "That's the do-no-harm point, framed correctly. Glucosamine is **physically fairly safe** for most people, so the harm isn't toxicity — it's the **cost, the false reassurance, and spending on an ineffective pill instead of losing weight and staying active**. If he wants to try it he can, but he should know it's unlikely to help and it's not a substitute for the lever that does."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "No — it's a toxic, dangerous supplement he must never take."
+        correct: false
+        feedback: "That overstates the physical risk. Glucosamine is fairly safe for most people; the do-no-harm point is about **cost, false reassurance and opportunity cost** — money and hope spent on an ineffective pill instead of the weight-and-activity lever that works — not toxicity."
+        goto: route
+      - id: c
+        text: "Yes, completely harmless — so he may as well take it long-term for peace of mind."
+        correct: false
+        feedback: "Physically it's low-harm, but \"harmless, take it for peace of mind\" glosses over the real cost: ongoing spending and false reassurance that can delay the effective lever. Tell him plainly — it's unlikely to help — while steering him to weight loss and activity."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Evidence-based, and steered to what works"
+    body: |
+      You handled Mr Tan well. You gave the **evidence-based** answer — glucosamine doesn't meaningfully help knee
+      OA and won't rebuild cartilage, and every major guideline advises against it. You handled the **mixed
+      messages** (sold everywhere and framed positively online, yet the professional guidance says no established
+      benefit). You steered him to the **real lever** — around 10% weight loss with activity, which unloads the
+      joint and lowers inflammation. And you framed **do-no-harm** correctly: the harm isn't toxicity but cost,
+      false reassurance and delaying what works. That's exactly this chapter's altitude for joints: recognise the
+      real lever, deflate the hype, and refer.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Glucosamine and chondroitin give no clinically meaningful benefit for knee OA (GAIT, Wandel); ACR, OARSI, NICE and Singapore's ACE all advise against — it doesn't rebuild cartilage."
+        - "Being sold and framed positively for consumers isn't evidence; the professional guidance (ACE) says it adds cost without established benefit — trust the clinical evidence."
+        - "The real lever is ~10% weight loss with activity (IDEA), unloading the joint and lowering inflammation — not a supplement, and not rest."
+        - "Do-no-harm here is about cost, false reassurance and opportunity cost, not toxicity — steer the money and effort to what works."
+      references: ["@wandel2010nma", "@kolasinski2020acr", "@messier2013idea", "@aceKneeOA2026", "@healthhubGlucosamine"]
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a reasonable plan, but slipped on at least one key point — the most important being the first:
+      **endorsing glucosamine (or letting "it rebuilds cartilage" stand) is the do-no-harm error here.** It gives
+      no clinically meaningful benefit for knee OA — GAIT and Wandel's meta-analysis found no real effect, and
+      ACR, OARSI, NICE and Singapore's ACE all advise against it — so recommending it sends Mr Tan spending on an
+      ineffective pill instead of the lever that works. Replay the safe path: give the evidence-based answer;
+      recognise that consumer messaging can outrun the evidence; steer him to ~10% weight loss with activity; and
+      frame the harm as cost and false reassurance, not toxicity.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Don't endorse glucosamine — no meaningful benefit for knee OA, and it doesn't rebuild cartilage (guidelines advise against)."
+        - "Availability and positive consumer messaging aren't evidence; the professional guidance says no established benefit."
+        - "Steer to the real lever: ~10% weight loss with activity."
+        - "Frame do-no-harm as cost, false reassurance and opportunity cost — not toxicity."

@@ -1,26 +1,45 @@
-# Bone health & osteoporosis
+# Bone & joint health
 
-> Part IV ends where the skeleton does its slow accounting. Bone is a living bank: you pay into it through
-> childhood and youth, the balance peaks in your late twenties, and you draw it down for the rest of your life —
-> faster in women around menopause. Osteoporosis is that account run low, and it stays silent until a fragility
-> fracture announces it. The task here is to **recognise the dietary levers — calcium, vitamin D, protein and
-> enough energy — build the bank early, defend the balance lifelong, and refer** — not to prescribe the
-> osteoporosis drugs, which are specialist.
+> Part IV ends with the ageing musculoskeleton — the bones and joints that ache, weaken and prompt some of the
+> most common questions a doctor hears: *what should I eat, and should I take a supplement?* Two systems get
+> confused here. **Bone** is a living bank: built to a peak in youth, drawn down for life, and run low as
+> osteoporosis — and its diet levers are real and correctable (calcium, vitamin D, protein). The **joints** are
+> a different story — worn cartilage (osteoarthritis) and urate crystals (gout) — where the diet stories are
+> almost the mirror image: one true lever (weight) and a best-selling supplement that doesn't work. The task is
+> to **recognise the real levers, deflate the hype, and refer** — not to prescribe the osteoporosis drugs, the
+> urate-lowering therapy, or the arthritis medicines, which are specialist.
 
-## Bone health & osteoporosis at a glance
+## Bone & joint health at a glance
 
-This chapter closes Part IV as the other half of the deficiency-and-frailty pair it opened with the
-*Undernutrition & Malnutrition* chapter — the frail, undernourished, sarcopenic patient and the fracturing
-skeleton are two faces of the same late-life vulnerability. Osteoporosis is common, **silent until it breaks**,
-and costly: Singapore historically had among the highest hip-fracture rates in Asia, and while the
-age-standardised *rate* is now falling, the absolute *number* of fractures keeps rising as the population ages —
-a distinction worth holding onto [@koh2001hipfracSG; @yong2019hipfracSG; @chandran2019burdenSG].
+This chapter closes Part IV as the other half of the deficiency-and-frailty pair the *Undernutrition &
+Malnutrition* chapter opened — and it does double duty, because the two most common musculoskeletal questions a
+generalist fields, *"what should I take for my bones?"* and *"should I take glucosamine for my joints?"*, are
+really about different systems. So it does **bone first** — the strong, correctable calcium/vitamin D/protein
+story — then turns to the **joints**, where the answer is usually *lose weight, skip the supplement, and
+refer*. Osteoporosis is common, **silent until it breaks**, and costly (Singapore's hip-fracture *rate* is
+falling but the *count* keeps rising with ageing); knee osteoarthritis and gout are common too, and heavily
+supplement-marketed [@koh2001hipfracSG; @chandran2019burdenSG; @leung2018sgkoa].
 
-Three habits of mind run through it:
+Four habits of mind run through it:
 
 - **Build the bank in youth, then defend the balance.** Peak bone mass is essentially set by the late twenties, and only about **20–40% of it is modifiable** by lifestyle — real, but bounded, leverage [@nofPeakBoneMass2016].
 - **Bioavailability beats content, and dairy is optional.** How much calcium is *absorbed* — not the number on the label — is the lever, and a multi-ethnic, partly lactose-intolerant population can meet its needs without milk [@weaverVegCalcium1999; @healthhubCalciumSG].
 - **Correct real deficiency; don't supplement everyone.** Calcium and vitamin D help people who are genuinely short, but blanket pills for already-replete community adults do not prevent fractures [@zhao2017cavitdNoBenefit].
+- **For joints, the loudest supplement is the weakest.** The best-marketed joint product (glucosamine) is the one the guidelines advise against — the real levers are **weight** for osteoarthritis and a **urate-lowering drug** for gout [@wandel2010nma; @kolasinski2020acr].
+
+## Three conditions people confuse
+
+Before any diet advice, disentangle the three musculoskeletal conditions patients — and busy clinics — mix up,
+because they need different nutrition and getting them backwards is a common error.
+
+![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a fragility fracture, with real nutrient levers (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one real dietary lever is weight loss — supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug. The trap is treating them alike.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
+
+- **Osteoporosis** is a *bone* problem — low bone **density**, **silent until a fragility fracture** — and its levers are the nutrient ones this chapter builds first: calcium, vitamin D, protein.
+- **Osteoarthritis** is a *joint cartilage* problem — the worn, painful knee or hip — and its one real dietary lever is **weight loss**; supplements do not rebuild cartilage.
+- **Gout** is a *crystal* problem — urate crystals in the joint — a **metabolic** disease where diet nudges the urate only modestly and the real treatment is a **urate-lowering drug**.
+
+The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
+osteoporosis, and gout is neither wear nor thinning. We take the bone story first, then the joints.
 
 ## The science underneath: bone is a living bank
 
@@ -185,26 +204,86 @@ osteoporosis [@koh2001osta; @fraxSingapore; @aceOsteoporosis2018]. The drug trea
 decisions are **specialist**, guided by the national **ACE** guidance and the **2025 Singapore consensus** —
 signposted, not run from here [@aceOsteoporosis2025; @gani2025osteoconsensusSG].
 
-::: {.callout-important}
-## You recognise the levers and refer — you don't prescribe the osteoporosis drugs
-There is no drug regimen to memorise here. The generalist **recognises the dietary levers** (calcium, vitamin
-D, protein, adequate energy), delivers the **food-first** message and the loading message, **corrects genuine
-deficiency** rather than blanket-supplementing, spots the **red flags** (a fragility fracture, low body weight,
-a covered indoor patient, the frail faller), and **refers** — using OSTA/FRAX/DXA to decide who needs
-assessment. The bone-density scans, the fracture-risk thresholds, the bisphosphonates and the hormone therapy
-are specialist territory [@aceOsteoporosis2018; @gani2025osteoconsensusSG].
+## Osteoarthritis: the lever is weight, not a supplement
+
+Now the joints. **Osteoarthritis** — worn, painful joint cartilage, the commonest arthritis and a very high
+local burden — is where the most-asked supplement question lands, and the answer has two halves. First,
+the **real lever is weight**. Obesity is the leading modifiable risk, acting through *both* the mechanical load
+on the joint *and* the low-grade inflammation of adipose tissue, and in the landmark IDEA trial a
+diet-plus-exercise programme that lost about **10% of body weight** improved pain and function while measurably
+lowering both knee load and inflammation — with more loss giving more benefit [@shumnalieva2023obesityoa;
+@messier2013idea; @messier2018morebetter]. Second, the **supplements don't work**: glucosamine and chondroitin,
+the best-selling joint supplements, are no better than placebo for pain or joint structure in the landmark
+trials, and the major guidelines — ACR, OARSI, NICE, and Singapore's ACE — all advise against them
+[@clegg2006gait; @wandel2010nma; @kolasinski2020acr; @bannuru2019oarsi; @nice2022ng226; @aceKneeOA2026]. (The one
+dissenting voice, the European ESCEO group — a musculoskeletal-disease society — makes a case for a specific
+patented formulation, an industry-linked minority position that independent panels reviewed and did not accept
+[@bruyere2018esceo].) The other popular pills —
+vitamin D, collagen, curcumin — fare no better, with negative or very-low-quality OA evidence
+[@mcalindon2013vitd; @lin2023collagenoa]. So the message is the mirror image of the bone one: **for a worn
+joint, the lever is weight and activity, not a supplement.**
+
+::: {.callout-warning}
+## The joint supplement the guidelines reject — and the mixed messages patients get
+Glucosamine is a neat lesson in how consumer messaging can outrun the evidence. Singapore's **professional**
+guidance (ACE) states plainly that glucosamine and chondroitin "may add cost without established clinical
+benefit" for knee osteoarthritis — yet the government **consumer** portal (HealthHub) still frames glucosamine
+positively, as something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. The do-no-harm
+point is subtle: these supplements are physically fairly safe, so the harm is not toxicity but **cost, false
+reassurance, and spending on an ineffective pill instead of the lever that works** — losing weight and staying
+active. When a patient asks "should I take glucosamine?", the money is better spent on the effective levers.
 :::
 
-## So — how do you keep a skeleton strong?
+## Gout: a metabolic disease, not a moral failing
 
-You build the bank while it is still being built — calcium, vitamin D, protein and activity through childhood
-and youth — and then you defend the balance for the rest of life: a reliable, well-absorbed calcium source
-(dairy optional), enough vitamin D (corrected where genuinely short, not blanket-dosed), enough protein and
-enough energy, weight-bearing exercise, and less alcohol and tobacco. You recognise the frail, underweight or
-covered patient at risk, you correct real deficiency without medicalising the whole population, and you refer
-for the scan and the specialist decisions. With that, Part IV is complete — from the diseases of *too much*
-through the cardiometabolic-renal cascade to the deficiency-and-frailty pair of *too little* — and the through
-line holds: across the whole life course, what and how a person eats shapes whether they stay well.
+**Gout** is the one joint condition where diet genuinely matters — and it is misunderstood at both ends.
+Patients are often told it is "their fault for eating too much seafood," and respond by cutting food drastically;
+both the blame and the over-restriction are wrong. Gout is a **metabolic disease of urate handling** (urate is
+uric acid, whose crystals inflame the joint), and while diet does nudge the urate — **raised** by red and organ
+meat and some seafood (both rich in **purines**, which the body breaks down into urate), by **alcohol
+(especially beer)** and **fructose / sugary drinks**, and **lowered** by low-fat dairy and coffee — the effect
+is **modest**, and
+purine-rich *vegetables* and total protein are not the problem at all [@choi2004purine; @choi2004alcohol;
+@choi2008fructose; @choi2007coffee]. The rheumatology guideline grades those dietary limits as only *conditional*
+on low-quality evidence, and the popular remedies fare no better — cherries are linked to fewer flares only in
+observational data, and vitamin C does not meaningfully lower urate [@fitzgerald2020goutacr; @zhang2012cherry;
+@stamp2013vitc]. The **strong** lever is a **urate-lowering drug (allopurinol) titrated to a target** blood
+urate level — and Singapore's own data show the real problem is *under-treatment*: most local gout patients
+never reach that target [@fitzgerald2020goutacr; @lee2023sggout; @oka2023goutcontrol]. So the counselling is: it
+is not your fault, don't starve yourself of protein and vegetables, cut the beer and sugary drinks if you like —
+and take the medication to target. The metabolic drivers (obesity, insulin resistance) and the kidney's role in
+urate belong to the *Obesity & Metabolic Syndrome* and *Chronic Kidney Disease* chapters.
+
+## Rheumatoid arthritis, in one line
+
+**Rheumatoid arthritis** is a different beast again — an autoimmune joint disease managed with
+disease-modifying drugs, where nutrition is only a **modest adjunct**: omega-3 fish oil can ease symptoms and
+spare some anti-inflammatory medication, and a Mediterranean pattern may help a little, but neither substitutes
+for the drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
+
+::: {.callout-important}
+## You recognise the levers and refer — for bones and joints alike
+There is no drug regimen to memorise here, for either system. For **bone**, recognise the nutrient levers
+(calcium, vitamin D, protein, energy), correct genuine deficiency rather than blanket-supplementing, and refer
+using OSTA/FRAX/DXA. For **joints**, recognise that the real levers are **weight and activity** for
+osteoarthritis and a **urate-lowering drug to target** for gout — and that the best-selling joint supplement
+does not work. The osteoporosis drugs and hormone therapy, the allopurinol titration, and the arthritis
+disease-modifying drugs are all **specialist** — named and referred, never prescribed from here
+[@aceOsteoporosis2018; @kolasinski2020acr; @fitzgerald2020goutacr].
+:::
+
+## So — bones and joints: what actually helps?
+
+The two systems this chapter covers give almost opposite answers, and holding the difference is the whole point.
+For **bone**, the levers are real and correctable: build the bank young, then defend the balance with a
+well-absorbed calcium source (dairy optional), enough vitamin D, protein and energy, and weight-bearing
+exercise; correct genuine deficiency without medicalising everyone; refer for the scan. For the **joints**, the
+answer is usually less about a pill: lose weight and stay active for a worn knee, treat gout to target
+and stop blaming the seafood, and recognise that the glucosamine on the shelf is the supplement the guidelines
+advise against. Recognise the real levers, deflate the hype, and refer. With that, Part IV is complete — from
+the diseases of *too much* through the cardiometabolic-renal cascade to the deficiency-and-frailty pair and the
+ageing musculoskeleton of *too little* — and the through line holds: across the whole life course, what and how
+a person eats shapes whether they stay well.
 
 ## Check your understanding
 
@@ -221,3 +300,14 @@ traps, weigh her low body weight, and decide the right next step — recognising
 than screening and referring, would be the wrong reflex. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/madam-lim-bone.case.yml"></div>
+
+## Practise: Mr Tan and the glucosamine question
+
+Mr Tan is 62, overweight (BMI 29), and his knees ache going up stairs — no locking, no giving way, no red flags.
+He has seen glucosamine advertised and a health website that sounded positive, and he's ready to buy it: *"Should
+I take glucosamine, doctor? Will it rebuild my cartilage?"* Work through the visit: give the evidence-based
+answer on the supplement, handle the mixed messages he's seen, steer him to the lever that actually works, and
+frame the do-no-harm point correctly — noticing that the harm here is not toxicity but spending on a pill instead
+of the thing that helps. Your choices branch the case.
+
+<div data-island="case" data-src="/cases/mr-tan-joint.case.yml"></div>
