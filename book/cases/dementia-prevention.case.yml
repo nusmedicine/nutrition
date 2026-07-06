@@ -1,0 +1,152 @@
+id: dementia-prevention
+title: "\"What should I eat so I don't get dementia?\""
+objectives:
+  - "Lead worried-well dementia counselling with vascular/metabolic risk, the best-supported lever."
+  - "Frame the MIND-diet evidence truthfully: an observational association, with a null prevention trial; a low-regret pattern, not a proven cure."
+  - "Do no harm: discourage unproven brain supplements rather than prescribe one that wastes money or can harm."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, dementia, prevention, evidence-vs-hype, singapore, safety]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Madam Ong"
+  age: 52
+  sex: female
+  occupation: "secondary-school teacher"
+  presentation: "Her mother was recently diagnosed with dementia and she is frightened she will get it too. Her blood pressure is up (148/92) and her fasting glucose is in the prediabetes range. She has read online that the MIND diet halves Alzheimer's risk and wants to know which supplement to buy."
+  voice: "Anxious, motivated, wants a concrete plan; primed by online claims and ready to spend on supplements."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: concerned
+    title: "\"I don't want to end up like my mother\""
+    body: |
+      Madam Ong's mother has just been diagnosed with dementia. She is scared, and she wants to know
+      what to eat to prevent it. Her blood pressure is raised and her fasting glucose is in the
+      prediabetes range. She has read that the MIND diet "cuts Alzheimer's by 50%" and asks which
+      brain supplement she should take. Counsel her truthfully, and lead with what actually works.
+    next: q-priority
+
+  - id: q-priority
+    type: mcq
+    emotion: concerned
+    stem: "What is the most useful thing to lead with?"
+    options:
+      - id: a
+        text: "Treat her raised blood pressure and glucose, the levers with the best evidence."
+        correct: true
+        feedback: "Right — the vascular contribution is the modifiable pathway, and her BP and glucose are exactly the levers with the best evidence. This is the same prevention as the cardiovascular and diabetes chapters."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-diet
+      - id: b
+        text: "Tell her the MIND diet will halve her risk, so diet is all she needs."
+        correct: false
+        feedback: "Overstated, and it buries the strongest lever. The MIND pattern is reasonable, but the prevention trial was negative, and her vascular risk is the priority."
+        goto: q-diet
+      - id: c
+        text: "Reassure her that nothing really works, so she should not worry about it."
+        correct: false
+        feedback: "Too dismissive — vascular risk management genuinely helps. Fatalism misses the real, actionable levers."
+        goto: q-diet
+    next: q-diet
+
+  - id: q-diet
+    type: mcq
+    emotion: neutral
+    stem: "She asks, \"So does the MIND diet really halve my risk?\" How do you frame it?"
+    options:
+      - id: a
+        text: "A sensible, low-regret pattern; the trial did not prove it prevents dementia."
+        correct: true
+        feedback: "Correct — the 'halved risk' is an observational association; the randomised trial found no cognitive benefit. Recommend the pattern as sensible eating, not a proven shield."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-supplement
+      - id: b
+        text: "Yes — it is proven to halve Alzheimer's risk, so follow it strictly."
+        correct: false
+        feedback: "That repeats the headline as fact. The cohort signal did not survive the prevention trial; promising a 50% cut is false hope."
+        goto: q-supplement
+      - id: c
+        text: "No — there is no point, diet has nothing to do with the brain."
+        correct: false
+        feedback: "Also wrong — a Mediterranean/MIND pattern is cardioprotective and works partly through the vessels. It is worth recommending, just not as a cure."
+        goto: q-supplement
+
+  - id: q-supplement
+    type: mcq
+    emotion: neutral
+    stem: "\"Just tell me which supplement to buy — ginkgo? High-dose vitamin E?\" What do you do?"
+    options:
+      - id: a
+        text: "Advise against them: none is proven, and a few can harm."
+        correct: true
+        feedback: "Right — ginkgo was null, omega-3 capsules are null, and high-dose vitamin E carries a small mortality signal. Discourage them kindly, and redirect the money toward her blood pressure, diet and activity."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "Start her on high-dose vitamin E — it is natural and worth a try."
+        correct: false
+        feedback: "This is a do-no-harm error: high-dose vitamin E does not prevent dementia and has been linked to increased death. Do not prescribe it."
+        goto: remedial
+      - id: c
+        text: "Recommend daily ginkgo, since it is marketed for memory."
+        correct: false
+        feedback: "A large trial found ginkgo did not reduce dementia, and it can raise bleeding risk. Recommending it spends her money for no benefit and some risk."
+        goto: remedial
+    next: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Counsel truthfully, and do no harm"
+    body: |
+      The through-line: **lead with vascular risk** (her BP and glucose are the best-evidenced lever),
+      **frame the diet truthfully** (a low-regret pattern, not a proven cure — the prevention trial was
+      negative), and **steer her away from supplements** rather than prescribe one that wastes money or,
+      in the case of high-dose vitamin E, can harm. Replay and take the path that helps without selling
+      false hope.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Real help, no false hope"
+    body: |
+      You led with her blood pressure and glucose, the levers with the best evidence, and framed the
+      MIND diet as a sensible low-regret pattern rather than a proven cure. When she pushed for
+      a supplement, you discouraged it and redirected her money and energy to what actually works. That
+      is truthful, safe dementia-prevention counselling.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Lead with vascular/metabolic risk: what protects the heart protects the brain."
+        - "The MIND diet is a low-regret pattern with a null prevention trial — recommend it, don't oversell it."
+        - "Do no harm: discourage unproven brain supplements; high-dose vitamin E can harm."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You helped Madam Ong on some turns but slipped on at least one — burying the vascular lever,
+      repeating the '50%' headline as fact, or recommending a supplement. Replay and run the safe path:
+      lead with BP and glucose, frame the diet truthfully, and steer her away from the supplements.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Vascular risk first; diet as a low-regret pattern, not a proven cure."
+        - "The cohort '50%' did not survive the prevention trial — don't promise it."
+        - "Discourage unproven supplements; some, like high-dose vitamin E, can harm."

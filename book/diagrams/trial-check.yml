@@ -1,0 +1,20 @@
+id: trial-check
+title: "Did the trial confirm the claim?"
+intro: "Each of these sounds convincing. For each one, predict whether a randomised trial confirmed a benefit or found none, then check. Notice which kind of claim holds up."
+credit: "Trial results are summarised for teaching; see the chapter citations for the primary sources."
+claims:
+  - claim: "Cohort studies linked the MIND diet to about half the risk of Alzheimer’s. Did the prevention trial confirm a benefit?"
+    verdict: "null"
+    why: "The 3-year MIND randomised trial found no cognitive benefit over a control group also nudged toward better eating. The impressive cohort number did not survive the trial."
+  - claim: "Intensively lowering blood pressure — did the trial reduce cognitive impairment?"
+    verdict: confirmed
+    why: "SPRINT MIND: intensive blood-pressure control reduced mild cognitive impairment and the mild-impairment-or-dementia measure. The vascular lever is the one that holds up in a trial."
+  - claim: "Ginkgo biloba, the classic “brain tonic” — did the large trial reduce dementia?"
+    verdict: "null"
+    why: "The GEM trial found ginkgo did not reduce dementia at all over about 6 years, and it can raise bleeding risk. A definitive null."
+  - claim: "High-dose vitamin E for prevention — did trials show a benefit?"
+    verdict: "null"
+    why: "No benefit for preventing dementia or slowing mild impairment, and at high doses vitamin E has been linked to a small increase in death. A null with a harm signal."
+  - claim: "Fish-oil (omega-3) capsules — did trials improve cognition?"
+    verdict: "null"
+    why: "Randomised trials of omega-3 capsules show no cognitive benefit. Eat fish as part of a good pattern; the capsule is not the food."

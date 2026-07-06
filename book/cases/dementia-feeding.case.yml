@@ -1,0 +1,152 @@
+id: dementia-feeding
+title: "The feeding-tube request"
+objectives:
+  - "Recognise weight loss and difficulty eating as an expected feature of advanced dementia, not a reversible deficit."
+  - "State the evidence: in advanced dementia, tube feeding does not prolong survival, prevent aspiration, heal pressure sores or improve comfort, and can harm."
+  - "Do no harm: hold the comfort-feeding position kindly under family pressure, and refer for a goals-of-care conversation rather than insert a tube."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, dementia, undernutrition, do-no-harm, palliative, singapore]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mrs Koh"
+  age: 58
+  sex: female
+  occupation: "daughter and main caregiver of the patient"
+  presentation: "Her mother, 84, has advanced dementia — bed-bound, barely speaking — and over recent weeks has been eating less and losing weight. Mrs Koh is distressed and feels she is watching her mother 'starve'. She asks the team to put in a feeding tube."
+  voice: "Loving, exhausted, guilty; wants to feel she is doing everything, and hears 'no tube' as giving up."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: concerned
+    title: "\"Please don't let her starve\""
+    body: |
+      Mrs Koh's mother, 84, has advanced dementia. She is bed-bound, says almost nothing, and over the
+      past weeks has been eating less and losing weight. Mrs Koh, distressed, asks the team to insert a
+      feeding tube so her mother "doesn't starve". The ward reflex is to refer for a PEG. Decide what the
+      evidence supports, and how to hold this conversation.
+    next: q-recommend
+
+  - id: q-recommend
+    type: mcq
+    emotion: concerned
+    stem: "What is the best evidence-based recommendation?"
+    options:
+      - id: a
+        text: "Careful hand feeding for comfort, explain a tube would not help, and refer for a goals-of-care talk."
+        correct: true
+        feedback: "Right — in advanced dementia, tube feeding does not prolong survival, prevent aspiration or improve comfort, and can harm. Comfort feeding is preferred; recognise the stage and refer."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-frame
+      - id: b
+        text: "Insert a feeding tube (PEG) to prolong survival and prevent aspiration pneumonia."
+        correct: false
+        feedback: "The evidence shows it does neither in advanced dementia, and PEG is associated with more pressure ulcers. This is the do-no-harm trap."
+        goto: q-frame
+      - id: c
+        text: "Pass a nasogastric tube to top up her calories until she recovers her appetite."
+        correct: false
+        feedback: "Late-stage appetite loss is not a phase she will recover from; NG feeding brings burden and harm without the hoped-for benefit."
+        goto: q-frame
+    next: q-frame
+
+  - id: q-frame
+    type: mcq
+    emotion: concerned
+    stem: "Mrs Koh asks why her mother is losing weight. How do you frame it?"
+    options:
+      - id: a
+        text: "It is an expected part of advanced dementia itself, not a sign she is being underfed."
+        correct: true
+        feedback: "Correct — weight loss and difficulty eating are a late feature of the disease. Naming this plainly and kindly relieves guilt and steers away from futile tube feeding."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-decision
+      - id: b
+        text: "It means she is not being fed enough and needs the calories forced in."
+        correct: false
+        feedback: "This frames a disease feature as neglect. It adds guilt and pushes toward a tube that will not help."
+        goto: q-decision
+      - id: c
+        text: "It is easily reversible with high-calorie supplement drinks."
+        correct: false
+        feedback: "Late-stage weight loss is not a simple deficit to top up; supplements do not reverse the trajectory of advanced dementia."
+        goto: q-decision
+
+  - id: q-decision
+    type: mcq
+    emotion: sad
+    stem: "Mrs Koh, in tears, says: \"I can't just watch her starve — please, put in the tube.\" What now?"
+    options:
+      - id: a
+        text: "Explain gently that a tube would not help, keep offering comfort, and refer for goals of care."
+        correct: true
+        feedback: "Right — you hold the evidence-based position with compassion, reframe 'doing everything' as comfort rather than a tube, and refer for a proper conversation. That is doing no harm under pressure."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "Agree to insert the PEG so she feels the team is doing everything possible."
+        correct: false
+        feedback: "Appeasing with a harmful, non-beneficial procedure is a do-no-harm failure. The kind path is to hold the position and support her, not to insert a tube."
+        goto: remedial
+      - id: c
+        text: "Pass a nasogastric tube as a temporary compromise for now."
+        correct: false
+        feedback: "A tube 'as a compromise' still carries burden and harm without benefit. Comfort feeding plus a goals-of-care conversation is the right response."
+        goto: remedial
+    next: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Comfort, not a tube — held with compassion"
+    body: |
+      The through-line: **recognise** that weight loss is part of advanced dementia, **explain** plainly
+      that a feeding tube does not prolong survival, prevent aspiration or improve comfort and can harm,
+      **keep offering food for comfort**, and **refer for a goals-of-care conversation** — even when a
+      loving family pushes hard for the tube. Replay and take the path that supports the family without
+      causing harm.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Comfort feeding, held with compassion"
+    body: |
+      You recognised the weight loss as part of advanced dementia, explained gently that a feeding tube
+      would not help and could harm, kept offering food for comfort, and referred for a goals-of-care
+      conversation — even when Mrs Koh pushed hard for the tube. You reframed "doing everything" as
+      comfort and presence rather than a procedure. That is the humane, evidence-based answer.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Weight loss in advanced dementia is a disease feature, not a reversible feeding gap."
+        - "Tube feeding does not prolong survival, prevent aspiration, heal sores or improve comfort, and can harm."
+        - "Do no harm under pressure: comfort feeding plus a goals-of-care referral, not a tube to appease."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You handled part of this well but slipped on at least one turn — reaching for a tube, framing the
+      weight loss as neglect, or agreeing to the tube under pressure. Replay and run the safe path:
+      recognise the stage, explain the evidence kindly, offer comfort feeding, and refer for goals of care.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Recognise late-stage weight loss as part of the disease."
+        - "Tube feeding does not help and can harm in advanced dementia."
+        - "Hold the comfort-feeding position with compassion; refer for goals of care."

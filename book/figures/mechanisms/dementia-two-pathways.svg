@@ -1,0 +1,55 @@
+<svg viewBox="0 0 780 466" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="dp-title dp-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="dp-title">Two pathways to dementia, and the modifiable one</title>
+  <desc id="dp-desc">Dementia usually comes from two kinds of brain injury that add together: neurodegeneration (amyloid plaques and tau tangles), which we cannot yet change with diet, and cerebral small-vessel disease driven by high blood pressure and diabetes, which is modifiable. Two columns show the same amount of neurodegeneration. In the first, added vascular injury pushes the total above a clinical dementia threshold, producing dementia. In the second, the vascular load is reduced, so the total stays below the threshold for longer. Reducing blood pressure, glucose and weight lowers the vascular part and keeps a person below the line.</desc>
+  <style>
+    .hdr   { fill:#0b5b54; font-size:13px; font-weight:600; }
+    .lbl   { fill:#17324d; font-size:12.5px; }
+    .note  { fill:#5b6b7b; font-size:11.5px; }
+    .neuro { fill:#5b7799; stroke:#3d5877; stroke-width:1.2; }
+    .vasc  { fill:#d9772f; stroke:#b0471d; stroke-width:1.2; }
+    .vasc2 { fill:#eab588; stroke:#b0471d; stroke-width:1.2; }
+    .thresh{ stroke:#7c2d12; stroke-width:1.6; stroke-dasharray:7 5; }
+    .tlbl  { fill:#7c2d12; font-size:12px; font-weight:600; }
+    .base  { stroke:#94a3b2; stroke-width:1.4; }
+    .clbl  { fill:#28425e; font-size:12.5px; font-weight:600; }
+    .out   { font-size:12.5px; font-weight:600; }
+    .leg   { fill:#5b6b7b; font-size:11.5px; }
+  </style>
+
+  <text class="hdr" x="390" y="24" text-anchor="middle">The two injuries add up — one of them is modifiable</text>
+
+  <!-- legend -->
+  <rect class="neuro" x="150" y="40" width="14" height="14" rx="2"/>
+  <text class="leg" x="170" y="51">Neurodegeneration (amyloid + tau) — not yet changed by diet</text>
+  <rect class="vasc" x="150" y="60" width="14" height="14" rx="2"/>
+  <text class="leg" x="170" y="71">Small-vessel disease (BP, diabetes) — MODIFIABLE, the diet lever</text>
+
+  <!-- baseline -->
+  <line class="base" x1="90" y1="392" x2="690" y2="392"/>
+
+  <!-- threshold line -->
+  <line class="thresh" x1="110" y1="150" x2="660" y2="150"/>
+  <text class="tlbl" x="662" y="146" text-anchor="start">clinical</text>
+  <text class="tlbl" x="662" y="161" text-anchor="start">dementia</text>
+  <text class="tlbl" x="662" y="176" text-anchor="start">threshold</text>
+
+  <!-- Column A: with vascular injury -->
+  <!-- neuro 240->392 (h152); vasc 118->240 (h122); top 118 above threshold 150 -->
+  <rect class="neuro" x="175" y="240" width="130" height="152"/>
+  <rect class="vasc"  x="175" y="118" width="130" height="122"/>
+  <text class="clbl" x="240" y="108" text-anchor="middle">With vascular injury</text>
+  <text class="out"  x="240" y="414" text-anchor="middle" fill="#b0471d">crosses the line → dementia</text>
+
+  <!-- Column B: vascular load reduced -->
+  <!-- neuro 240->392 (h152); vasc small 205->240 (h35); top 205 below threshold 150 -->
+  <rect class="neuro" x="475" y="240" width="130" height="152"/>
+  <rect class="vasc2" x="475" y="205" width="130" height="35"/>
+  <text class="clbl" x="540" y="195" text-anchor="middle">Vascular load reduced</text>
+  <text class="out"  x="540" y="414" text-anchor="middle" fill="#0b5b54">stays below → not yet</text>
+
+  <!-- takeaway -->
+  <text class="note" text-anchor="middle">
+    <tspan x="390" y="440">We cannot yet clear plaques and tangles. But lowering blood pressure, glucose and</tspan>
+    <tspan x="390" y="456">weight shrinks the vascular part and buys time below the line.</tspan>
+  </text>
+</svg>

@@ -30,6 +30,7 @@ import RenalFlip from './RenalFlip.svelte';
 import MustScreen from './MustScreen.svelte';
 import BoneBank from './BoneBank.svelte';
 import AdviseRefer from './AdviseRefer.svelte';
+import TrialCheck from './TrialCheck.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -65,6 +66,7 @@ const REGISTRY = {
   'must-screen': MustScreen,
   'bone-bank': BoneBank,
   'advise-refer': AdviseRefer,
+  'trial-check': TrialCheck,
   // future: flashcards, diagram, …
 };
 

@@ -50,6 +50,7 @@ book:
         - chapters/chronic-kidney-disease.qmd
         - chapters/undernutrition-malnutrition.qmd
         - chapters/bone-health-osteoporosis.qmd
+        - chapters/brain-health-dementia.qmd
     - part: "V · Integrative Cases"
       chapters:
         - chapters/cases.qmd
