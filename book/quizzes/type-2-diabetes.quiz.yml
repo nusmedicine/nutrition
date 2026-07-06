@@ -1,0 +1,130 @@
+id: type-2-diabetes
+title: "Quick check: type 2 diabetes"
+questions:
+  - id: q1
+    stem: "A patient with **prediabetes** asks what will lower their chance of progressing to diabetes. In the Diabetes Prevention Program, which approach cut progression the most?"
+    options:
+      - text: "An intensive, structured lifestyle programme with follow-up"
+        correct: true
+        feedback: "Correct. Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. The active ingredient was the structure — a multi-session curriculum with follow-up aiming at ~5–7% weight loss and ≥150 min/week activity — not a single 'you should lose weight' conversation."
+      - text: "A one-off conversation advising the patient to lose some weight and exercise"
+        correct: false
+        feedback: "Brief advice is not what produced the DPP result. The benefit came from an intensive, multi-session programme with follow-up — a single conversation does not reproduce it, which is why guidelines say to refer to a structured programme."
+      - text: "Metformin started early, since a drug outperforms any lifestyle change here"
+        correct: false
+        feedback: "Metformin did reduce progression (about 31%), but structured lifestyle change beat it (58%). Lifestyle, delivered through a structured programme, is the stronger first move."
+      - text: "Placebo with reassurance, because most prediabetes reverts on its own anyway"
+        correct: false
+        feedback: "Some prediabetes does revert, but a substantial share progresses without action. Placebo was the comparator the structured programme clearly outperformed."
+
+  - id: q2
+    stem: "Four patients ask whether they could put their diabetes into **remission**. Based on the DiRECT eligibility criteria, who is the best candidate for that conversation?"
+    options:
+      - text: "Diagnosed 2 years ago, on metformin only, within the studied BMI range"
+        correct: true
+        feedback: "Correct. DiRECT enrolled people diagnosed within about 6 years, not on insulin, within a defined (ethnicity-adjusted) BMI range. Early, non-insulin-treated disease is where a supervised weight-centred programme has the best chance — so this patient is the one to refer."
+      - text: "Diagnosed 12 years ago, still on metformin, with a normal body weight"
+        correct: false
+        feedback: "Long-standing disease (well beyond ~6 years) falls outside the studied window, and remission tracks with substantial weight loss from a weight-centred programme. This patient is a poorer candidate."
+      - text: "Diagnosed last year but already on insulin for glucose control"
+        correct: false
+        feedback: "Insulin-treated diabetes was an exclusion in DiRECT and behaves differently. Being recently diagnosed is not enough on its own — insulin use moves this patient outside the eligibility band."
+      - text: "Diagnosed 8 years ago, on a sulfonylurea, with prior severe hypoglycaemia"
+        correct: false
+        feedback: "This patient is both beyond the diagnosis window and on a hypoglycaemia-risk drug — the priority here is safe medication review, not a remission attempt."
+
+  - id: q3
+    stem: "**True or false:** achieving diabetes remission means the patient is permanently cured."
+    options:
+      - text: "False — remission is not permanent and monitoring continues"
+        correct: true
+        feedback: "Correct. Remission means an HbA1c below the diabetes range sustained off glucose-lowering drugs — deliberately called remission, not cure. It fades with weight regained (about 36% at two years and ~13% at five in DiRECT) and can relapse, so follow-up continues."
+      - text: "True — once HbA1c is normal off drugs, the diabetes is gone for good"
+        correct: false
+        feedback: "A normal HbA1c off drugs defines remission, not a cure. It fades over time (~13% still in remission at five years) and can relapse, so the patient stays under review."
+      - text: "True — remission and cure are the same thing, just different words"
+        correct: false
+        feedback: "The words are chosen precisely to differ. Cure implies permanence; remission is a durable-but-reversible state that tracks with keeping weight off and requires ongoing monitoring."
+      - text: "False — remission is impossible in type 2 diabetes under any circumstances"
+        correct: false
+        feedback: "Remission of early disease is real and well documented (DiRECT). The nuance is that it is remission rather than cure — achievable, but not permanent."
+
+  - id: q4
+    stem: "Before you endorse a low-carbohydrate diet, you check the patient's medications. Which drug class carries a **hypoglycaemia** risk that means you should refer for a medication review first?"
+    options:
+      - text: "A sulfonylurea, which can drive glucose dangerously low"
+        correct: true
+        feedback: "Correct. Insulin, sulfonylureas and meglitinides can cause hypoglycaemia — so cutting carbohydrate on any of these needs the diabetes team to review medication first. The other classes (metformin, DPP-4, SGLT2, GLP-1) do not cause hypos used alone."
+      - text: "Metformin, which reliably causes low glucose whenever carbohydrate is reduced"
+        correct: false
+        feedback: "Metformin used alone does not cause hypoglycaemia. On metformin only, a sensible carbohydrate-quality change is reasonable — still refer to a dietitian, but a medication review for hypo risk is not the priority."
+      - text: "An SGLT2 inhibitor, which behaves like insulin for hypoglycaemia risk"
+        correct: false
+        feedback: "SGLT2 inhibitors carry low hypoglycaemia risk used alone. The hypo-risk classes are insulin, sulfonylureas and meglitinides — that is the list to screen for before endorsing carbohydrate restriction."
+      - text: "A GLP-1 receptor agonist, which needs the same caution as a sulfonylurea"
+        correct: false
+        feedback: "GLP-1 receptor agonists do not cause hypoglycaemia used alone. It is the sulfonylureas (with insulin and meglitinides) that carry the risk requiring a medication review first."
+
+  - id: q5
+    stem: "A conscious patient on insulin has a **hypo** (low blood glucose) at the clinic. What is the correct first-line treatment?"
+    options:
+      - text: "About 15 g of fast-acting glucose, then recheck in 15 minutes"
+        correct: true
+        feedback: "Correct — the '15-15' approach: about 15 g of fast-acting glucose (such as glucose tablets or a sugary drink), recheck at 15 minutes, and repeat if still low. Fast-acting carbohydrate raises glucose quickly, which is what a hypo needs."
+      - text: "A chocolate bar, because its high sugar content works fastest here"
+        correct: false
+        feedback: "Chocolate is a poor first choice — its fat slows sugar absorption, so glucose rises too slowly for an acute hypo. Use fast-acting glucose instead, then recheck at 15 minutes."
+      - text: "A handful of nuts, since protein steadies blood glucose quickly"
+        correct: false
+        feedback: "Nuts are fat and protein, which raise glucose slowly — the opposite of what an acute hypo needs. Give about 15 g of fast-acting glucose and recheck at 15 minutes."
+      - text: "Nothing yet — wait to see whether the glucose recovers on its own"
+        correct: false
+        feedback: "A hypo needs prompt treatment, not watchful waiting. Give about 15 g of fast-acting glucose and recheck in 15 minutes, repeating if it is still low."
+
+  - id: q6
+    stem: "A patient with diabetes orders at a *cai png* (mixed-rice) stall and wants the best-quality plate. Which choice best fits the guidance?"
+    options:
+      - text: "Brown rice, two vegetables, one lean protein, less gravy"
+        correct: true
+        feedback: "Correct. This shifts the plate toward wholegrains, plants and lean protein — the My Healthy Plate 'quarter, quarter, half' idea in hawker terms. It is a substitution toward quality, not a ban on rice: locally, rice intake itself was not linked to diabetes, but swapping toward wholegrain lowers risk."
+      - text: "White rice with extra gravy and two fried meat dishes for flavour"
+        correct: false
+        feedback: "This is the higher refined-carbohydrate, higher-fat option. The better move is to shift toward wholegrains and vegetables with a lean protein and less gravy."
+      - text: "No rice at all, since rice is the main cause of diabetes locally"
+        correct: false
+        feedback: "Cutting rice entirely misreads the evidence — the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The win is substitution toward wholegrain and more vegetables, not banning a staple."
+      - text: "A larger scoop of white rice to feel full and eat less later"
+        correct: false
+        feedback: "More refined carbohydrate is the wrong direction for glucose. Choose brown rice, add vegetables and a lean protein, and go easy on the gravy instead."
+
+  - id: q7
+    stem: "At the drinks stall a patient with diabetes wants a **kopitiam drink** but is watching sugar. Using **Nutri-Grade** as a decision aid, which is the best choice?"
+    options:
+      - text: "Kopi-o kosong or plain water, both toward the grade A end of the scale"
+        correct: true
+        feedback: "Correct. Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water sit at the low-sugar A end. Sugary drinks supply about half of dietary sugar locally, so reading the grade turns 'watch your sugar' into a concrete swap."
+      - text: "A sweet bubble tea, as long as it carries a Nutri-Grade label somewhere"
+        correct: false
+        feedback: "Carrying a label is not the same as being a good choice — bubble tea typically grades C/D for high sugar. The grade is there to steer you toward the A/B end, not to endorse any labelled drink."
+      - text: "Condensed-milk kopi-c, because the milk makes it more nutritious"
+        correct: false
+        feedback: "Condensed-milk drinks are high in sugar and saturated fat and grade toward the C/D end. The added milk does not offset the sugar load here."
+      - text: "A regular sugary teh, since one drink a day is harmless anyway"
+        correct: false
+        feedback: "Each daily sugary drink is associated with a meaningfully higher diabetes risk, only partly explained by weight. An unsweetened order or water is the better everyday choice."
+
+  - id: q8
+    stem: "A patient with diabetes plans to fast for **Ramadan** and says, \"I won't check my glucose, because testing breaks my fast.\" What is the best response?"
+    options:
+      - text: "A finger-prick test does not break the fast; the unfit are exempt"
+        correct: true
+        feedback: "Correct. Finger-prick glucose testing does not break the fast, and Islam exempts the medically unfit. Many patients wrongly believe otherwise and come to harm — so correct the misconception and arrange a pre-Ramadan review to risk-stratify and adjust medication."
+      - text: "Fasting on insulin is fine and needs no special preparation beforehand"
+        correct: false
+        feedback: "Fasting on insulin or a sulfonylurea raises severe-hypo risk several-fold, so it is not preparation-free. The safe approach is a pre-Ramadan review, weeks ahead, to risk-stratify and adjust medication."
+      - text: "Testing does break the fast, so the patient should avoid checking glucose"
+        correct: false
+        feedback: "This repeats the misconception. A finger-prick test does not break the fast — monitoring is religiously permissible and, on hypo-risk medications, important for safety."
+      - text: "The patient must not fast at all, because diabetes always forbids fasting"
+        correct: false
+        feedback: "Diabetes does not automatically forbid fasting. The medically unfit are exempt, but many can fast safely after a pre-Ramadan review to risk-stratify and adjust medication — a recognise-and-refer task, not a blanket ban."

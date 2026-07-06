@@ -24,6 +24,7 @@ import BoneWindow from './BoneWindow.svelte';
 import FuelDial from './FuelDial.svelte';
 import SamePlate from './SamePlate.svelte';
 import MetsCluster from './MetsCluster.svelte';
+import CarbSafetyCheck from './CarbSafetyCheck.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -53,6 +54,7 @@ const REGISTRY = {
   'fuel-dial': FuelDial,
   'same-plate': SamePlate,
   'mets-cluster': MetsCluster,
+  'carb-safety-check': CarbSafetyCheck,
   // future: flashcards, diagram, …
 };
 

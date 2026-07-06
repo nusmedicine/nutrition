@@ -1,0 +1,194 @@
+id: early-t2d-remission
+title: "Mr Raj, 50: \"Can I reverse my diabetes?\""
+objectives:
+  - "Recognise who is a realistic candidate for a diabetes-remission conversation — early disease, not on insulin, in the studied weight range — and refer to a supervised weight-management programme rather than promising (or dismissing) reversal."
+  - "Get the remission-not-cure message right: it can fade over time, it depends on keeping the weight off, and monitoring continues."
+  - "Apply do-no-harm: a total diet replacement is clinician-supervised and glucose-lowering tablets are adjusted on day one, so self-starting a shake diet and stopping medication is unsafe."
+  - "Turn it into a safe, realistic plan — refer to a structured programme and a dietitian, offer interim quality swaps and the plate method, and keep monitoring."
+difficulty: core
+estimatedMinutes: 12
+tags: [nutrition, type-2-diabetes, remission, do-no-harm, singapore, recognise-and-refer]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mr Raj"
+  age: 50
+  sex: male
+  occupation: "logistics supervisor; shift work, eats on the go"
+  presentation: "Type 2 diabetes diagnosed 2 years ago, on metformin only (not on insulin). BMI 31 kg/m². Feels well. Has read online that diabetes can be \"reversed\" and wants to try a very-low-calorie shake diet and stop his tablets himself."
+  voice: "Motivated and hopeful, a little impatient; wants a clear yes-or-no and is ready to start something drastic today."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"Doctor, I read I can reverse my diabetes — is that true for me?\""
+    body: |
+      Mr Raj is 50 and was diagnosed with **type 2 diabetes two years ago**. He takes **metformin only** — he
+      is **not on insulin** — and his **BMI is 31**. He feels well and comes in full of hope: he has read online
+      that diabetes can be *"reversed."*
+
+      *"I saw people do a shake diet, lose weight, and come off their medicine completely. I want to buy those
+      meal-replacement shakes and stop my tablets — can I just start?"*
+
+      Work through the visit. Decide whether remission is a realistic goal for him, get the language right, and
+      notice the moment where doing it unsupervised would be genuinely unsafe. Your choices branch the case.
+    next: q-eligibility
+
+  - id: q-eligibility
+    type: mcq
+    title: "Is remission realistic for him?"
+    stem: |
+      Mr Raj asks whether reversing his diabetes is realistic **for him**. What is the best response?
+    options:
+      - id: a
+        text: "\"For someone diagnosed fairly recently, not on insulin, and carrying extra weight, remission is a realistic goal — through a supervised weight-management programme. Let me refer you.\""
+        correct: true
+        feedback: "Right. He fits the profile the remission trials studied — diagnosed within the last few years (well under about six), **not on insulin**, and in a weight range where substantial loss can empty fat out of the liver and pancreas and let the blood sugar settle. The safe move is to name it as a realistic goal *and* route him to a **supervised** weight-management programme rather than promising an outcome or hand-waving it. (Long-standing or insulin-treated diabetes behaves differently, so the eligibility check matters.)"
+        effects: { quality: +1 }
+        goto: reveal-eligibility
+      - id: b
+        text: "\"Yes — you'll definitely reverse it. Start losing weight and you'll be off medication for good.\""
+        correct: false
+        feedback: "Too much, too certain. Even in the people who fit the profile, not everyone reaches remission and it is not guaranteed or permanent — over-promising sets him up for disappointment and erodes trust. Name it as a *realistic goal* for the right candidate, check eligibility, and refer to a supervised programme — don't promise the result."
+        goto: reveal-eligibility
+      - id: c
+        text: "\"No — once you have diabetes it's permanent. Reversal is just internet hype; nothing to discuss.\""
+        correct: false
+        feedback: "That's out of date and dismissive. **Early** type 2 diabetes genuinely can go into remission with substantial, sustained weight loss — the landmark programme reached remission in nearly half of participants at one year. Mr Raj actually fits the candidate profile (recent diagnosis, not on insulin, extra weight to lose). Shutting the conversation down misses a real opportunity — recognise the candidate and refer."
+        goto: reveal-eligibility
+
+  - id: reveal-eligibility
+    type: info
+    body: |
+      **Who the remission story is for.** The evidence for putting type 2 diabetes into remission comes from
+      *early* disease — people diagnosed within about **six years**, **not on insulin**, with enough weight to
+      lose [@lean2018direct]. Mr Raj fits. Because people of Asian descent reach their personal fat threshold at
+      a lower weight, entry criteria are best **ethnicity-adjusted** rather than borrowed unchanged from Western
+      trials. The next thing to get right is the *language* — what "reversal" actually means.
+    next: q-remission-not-cure
+
+  - id: q-remission-not-cure
+    type: mcq
+    title: "\"So I'll be cured?\""
+    stem: |
+      Mr Raj leans in: *"So if I do this, I'll be cured — done with diabetes for good?"* How should you frame it?
+    options:
+      - id: a
+        text: "\"We call it remission, not cure. Your sugar can come back to normal off tablets, but it can fade — it depends on keeping the weight off, and we keep monitoring you.\""
+        correct: true
+        feedback: "Exactly the right words. The agreed term is **remission, not cure**: blood sugar back in the normal range *off* glucose-lowering tablets. It is real but it can **fade** — in the landmark programme about half were in remission at one year, but only around one in eight by five years — and it tracks closely with whether the weight stays off. So monitoring continues even if he does brilliantly. Framing it this way protects him from feeling like a failure if the sugar creeps back."
+        effects: { quality: +1 }
+        goto: q-do-no-harm
+      - id: b
+        text: "\"Yes — it's a permanent cure. Once your sugar is normal you can forget about diabetes and stop coming in.\""
+        correct: false
+        feedback: "This is the misconception to avoid. Remission is **not** a permanent cure: it can relapse, especially if weight is regained, and it fades over time (about half in remission at one year in the landmark programme, roughly one in eight by five years). Telling him he's cured and can stop follow-up is unsafe — monitoring must continue. Use the word **remission**, and be clear that it can fade."
+        goto: q-do-no-harm
+
+  - id: q-do-no-harm
+    type: mcq
+    title: "\"Can I just buy the shakes and stop my tablets?\""
+    stem: |
+      Encouraged, Mr Raj says: *"Great — I'll order the meal-replacement shakes online today and stop my
+      metformin myself, then come back when my sugar's normal."* What do you do?
+    options:
+      - id: a
+        text: "\"Not on your own — a full shake diet like this is done under supervision, and your tablets are adjusted on the first day because your sugar and blood pressure can drop fast. Let me refer you so it's done safely.\""
+        correct: true
+        feedback: "This is the do-no-harm answer. A **total diet replacement** (the low-calorie shake phase) is a **clinician-supervised** programme, not a self-directed crash diet — and the **medication is adjusted on day one**, because glucose and blood pressure fall quickly once intake drops. Someone who slashes their intake while self-managing their tablets can get into trouble. Recognise the candidate, keep him safe, and **refer** to a structured programme."
+        effects: { quality: +1 }
+        goto: q-plan
+      - id: b
+        text: "\"Sure — the shakes are just food, and stopping metformin is fine since the goal is to be off it anyway. Go ahead and start today.\""
+        correct: false
+        feedback: "This is unsafe, and it's the trap in this case. A very-low-calorie shake diet is a **supervised** total diet replacement, not something to self-start from an online order — and glucose-lowering medication is **adjusted by the clinician on day one**, because sugar and blood pressure drop fast once intake falls. Self-stopping tablets and crash-dieting unsupervised can cause harm. \"Being off medication\" is the *goal* of remission, not the starting move — and a good performance elsewhere in this visit cannot buy back endorsing this."
+        goto: remedial-do-no-harm
+
+  - id: remedial-do-no-harm
+    type: info
+    title: "One thing to reset before we plan"
+    body: |
+      Pause and reset before Mr Raj walks out and orders shakes.
+
+      **Total diet replacement is a supervised programme, not a solo project.** The low-calorie shake phase works
+      — but it is delivered with clinical oversight, and crucially the **glucose-lowering medication is adjusted
+      on the very first day**, because blood sugar and blood pressure fall fast when intake drops [@lean2018direct].
+      Someone who crash-diets while self-managing (or abruptly stopping) their tablets can be harmed. Coming *off*
+      medication is the **goal** of remission — reached under supervision — not the way you begin.
+
+      So the safe message is: *"Don't start this on your own or stop your metformin yourself — let me refer you to a
+      programme that does it properly and adjusts your tablets safely."* A strong performance earlier in the visit
+      can't buy back endorsing the unsupervised version. Now let's give him a real plan.
+    next: q-plan
+
+  - id: q-plan
+    type: mcq
+    title: "The safe, realistic plan"
+    stem: |
+      Mr Raj is on board with doing it properly. What's the best plan to offer him now?
+    options:
+      - id: a
+        text: "Refer to a structured, supervised weight-management programme and a dietitian; meanwhile offer realistic quality swaps and the plate method, and keep monitoring his sugar."
+        correct: true
+        feedback: "This is the whole job at this altitude. **Refer** him to a structured, supervised programme (where any total diet replacement and his medication are managed safely) and to a **dietitian** for the individualised plan. In the meantime, give him something concrete and hawker-realistic — **My Healthy Plate** (a quarter wholegrains, a quarter protein, half vegetables), brown rice or a smaller scoop with more vegetables, **kopi/teh-o kosong** or water over sweet drinks — and **keep monitoring**. Recognise the levers, refer for the detailed plan, and let Healthier SG carry the follow-up."
+        effects: { quality: +1 }
+        goto: route
+      - id: b
+        text: "Tell him to just \"eat less and lose weight fast\" on his own and come back in three months when his sugar is normal."
+        correct: false
+        feedback: "Too vague, and it recreates the unsupervised risk. \"Eat less, lose weight fast\" alone gives him no real plan, no safety net for his medication, and no support — and sending him away until he's \"fixed it\" invites failure. The evidence-based route is a **structured, supervised programme** plus a **dietitian**, with realistic interim swaps and continued monitoring — not solo crash-dieting."
+        goto: route
+      - id: c
+        text: "Skip the programme and just add a second diabetes medication now — that's simpler than all this diet effort."
+        correct: false
+        feedback: "That's the wrong instinct here. Mr Raj is a genuine **remission candidate** who wants to reduce medication, not add to it — reaching for another drug bypasses the weight-centred opportunity in front of you. Medication decisions belong to the **diabetes team** anyway; your job is to recognise the lever and **refer** him to a supervised weight-management programme and a dietitian."
+        goto: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Recognised the candidate, kept him safe, and referred"
+    body: |
+      You handled Mr Raj well. You recognised him as a **realistic remission candidate** (recent diagnosis, not
+      on insulin, weight to lose) and offered a **referral** rather than a promise or a brush-off; you got the
+      language right — **remission, not cure**, it can fade, monitoring continues; and — the crucial bit — you
+      kept him safe by **not** endorsing a self-started shake diet with self-stopped tablets, because a total diet
+      replacement is supervised and medication is adjusted on day one. Then you gave him a real plan: refer to a
+      structured programme and a dietitian, offer interim quality swaps and the plate method, and keep monitoring.
+      That's exactly the altitude for this chapter: recognise, refer, and do no harm.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Remission is for early type 2 diabetes — diagnosed within about six years, not on insulin, with weight to lose; recognise the candidate and refer to a supervised programme rather than promising or dismissing reversal."
+        - "It's remission, not cure: it can fade (about half in remission at one year, roughly one in eight by five years), depends on keeping weight off, and monitoring continues."
+        - "Do no harm: a total diet replacement is clinician-supervised and glucose-lowering tablets are adjusted on day one, so self-starting shakes and self-stopping medication is unsafe."
+        - "Offer a safe plan: refer to a structured programme and a dietitian, give interim quality swaps and the plate method, and keep monitoring."
+      references: ["@lean2018direct", "@hpbHealthyPlate", "@mohHealthierSG", "@mohWarOnDiabetes"]
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a plan for Mr Raj, but slipped on at least one key point — whether he's a realistic remission
+      candidate, the **remission-not-cure** framing, or (the one that matters most for safety) letting him
+      self-start a very-low-calorie shake diet and stop his metformin himself. That last one is a genuine
+      do-no-harm error: a total diet replacement is **supervised**, and medication is adjusted on **day one**
+      because sugar and blood pressure fall fast — so a strong performance elsewhere can't make it safe. Replay
+      the safe path: recognise the early-disease candidate and **refer**; say **remission, not cure** and keep
+      monitoring; never endorse an unsupervised crash diet or self-stopped tablets; and hand him a real plan with
+      a dietitian and interim quality swaps.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Recognise the early-diabetes remission candidate (recent diagnosis, not on insulin, weight to lose) and refer to a supervised programme — don't promise or dismiss."
+        - "Remission, not cure: it can fade and monitoring continues."
+        - "Never endorse a self-started total diet replacement with self-stopped medication — it's supervised, and tablets are adjusted on day one."

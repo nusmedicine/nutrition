@@ -70,8 +70,8 @@
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
 | **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); all 6 dossiers now 🟢 verified | | |
 | 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
-| 20 | Type 2 Diabetes | `type-2-diabetes` | 🟢 verified · **drafting next** |
-| 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | 🟢 verified · stub in book |
+| 20 | Type 2 Diabetes | `type-2-diabetes` | ✅ **drafted** (island `carb-safety-check`, quiz, case, pathophysiology + figures) |
+| 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | 🟢 verified · **drafting next** |
 | 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | 🟢 verified · stub in book |
 | 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | 🟢 verified · stub in book |
 | 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | 🟢 verified · stub in book |

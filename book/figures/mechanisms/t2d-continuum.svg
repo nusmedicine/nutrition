@@ -1,0 +1,64 @@
+<svg viewBox="0 0 760 322" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="tc-title tc-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="tc-title">The type 2 diabetes continuum and where nutrition acts</title>
+  <desc id="tc-desc">Blood glucose rises across five stages: at risk (insulin resistance), prediabetes, early type 2 diabetes, established type 2 diabetes, and complications. Structured lifestyle change prevents progression in the early stages; a supervised weight-centred programme opens a remission window over early disease; dietary quality manages early-to-established disease; medication is a specialist decision layered over established disease and complications, which hand forward to the Cardiovascular Disease and Hypertension and Chronic Kidney Disease chapters.</desc>
+  <defs>
+    <marker id="tc-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .stage { stroke:#94a3b8; stroke-width:1.4; }
+    .slbl  { fill:#1f2d3d; font-size:13px; }
+    .band  { fill:#eef3f8; stroke:#64748b; stroke-width:1.3; }
+    .blbl  { fill:#28425e; font-size:12px; }
+    .rem   { fill:#0f766e; stroke:#0b5b54; stroke-width:1.4; }
+    .rlbl  { fill:#ffffff; font-size:12px; font-weight:600; }
+    .sig   { fill:#f6f7f9; stroke:#64748b; stroke-width:1.3; stroke-dasharray:5 3; }
+    .note  { fill:#5b6b7b; font-size:11px; }
+    .axis  { fill:#7c2d12; font-size:11px; font-weight:600; }
+  </style>
+
+  <!-- stage boxes: colour warms left to right = rising glucose -->
+  <rect class="stage" x="15"  y="40" width="130" height="56" rx="7" fill="#e7f4ea"/>
+  <text class="slbl" x="80"  y="63" text-anchor="middle">At risk</text>
+  <text class="slbl" x="80"  y="80" text-anchor="middle" font-size="11" fill="#5b6b7b">insulin resistance</text>
+
+  <rect class="stage" x="165" y="40" width="130" height="56" rx="7" fill="#fbf3d9"/>
+  <text class="slbl" x="230" y="72" text-anchor="middle">Prediabetes</text>
+
+  <rect class="stage" x="315" y="40" width="130" height="56" rx="7" fill="#fbe6c2"/>
+  <text class="slbl" x="380" y="63" text-anchor="middle">Early type 2</text>
+  <text class="slbl" x="380" y="80" text-anchor="middle">diabetes (&lt;~6 y)</text>
+
+  <rect class="stage" x="465" y="40" width="130" height="56" rx="7" fill="#f9d9c2"/>
+  <text class="slbl" x="530" y="63" text-anchor="middle">Established</text>
+  <text class="slbl" x="530" y="80" text-anchor="middle">type 2 diabetes</text>
+
+  <rect class="stage" x="615" y="40" width="130" height="56" rx="7" fill="#f7cfcf"/>
+  <text class="slbl" x="680" y="72" text-anchor="middle">Complications</text>
+
+  <!-- rising-glucose axis arrow -->
+  <line x1="18" y1="20" x2="742" y2="20" stroke="#c2410c" stroke-width="2" marker-end="url(#tc-ah)"/>
+  <text class="axis" x="18" y="14" text-anchor="start">blood glucose rises</text>
+
+  <!-- intervention bands -->
+  <rect class="band" x="15"  y="120" width="280" height="28" rx="6"/>
+  <text class="blbl" x="155" y="138" text-anchor="middle">Prevention — structured lifestyle (DPP · Pre-DICTED)</text>
+
+  <rect class="rem"  x="315" y="156" width="130" height="28" rx="6"/>
+  <text class="rlbl" x="380" y="174" text-anchor="middle">Remission window</text>
+
+  <rect class="band" x="315" y="192" width="280" height="28" rx="6"/>
+  <text class="blbl" x="455" y="210" text-anchor="middle">Dietary management — quality pattern, plate method</text>
+
+  <rect class="sig"  x="465" y="228" width="280" height="28" rx="6"/>
+  <text class="blbl" x="605" y="246" text-anchor="middle">Medication — specialist decision (signposted)</text>
+
+  <!-- remission window pointer to early-disease stage -->
+  <line x1="380" y1="120" x2="380" y2="98" stroke="#0f766e" stroke-width="1.4" marker-end="url(#tc-ah)"/>
+
+  <!-- handoff note -->
+  <line x1="680" y1="98" x2="680" y2="284" stroke="#94a3b8" stroke-width="1.2" stroke-dasharray="4 3"/>
+  <text class="note" x="680" y="300" text-anchor="middle">Complications hand forward to the</text>
+  <text class="note" x="680" y="314" text-anchor="middle">CVD &amp; Hypertension and Chronic Kidney Disease chapters</text>
+</svg>

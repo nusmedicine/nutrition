@@ -1,0 +1,69 @@
+# Data for the CarbSafetyCheck island (Type 2 Diabetes chapter).
+# A "Is it safe to endorse a low-carb diet?" decision widget. The learner selects the
+# glucose-lowering drugs a patient is on; the verdict is DRUG-CLASS-FIRST: if ANY high-risk
+# (hypoglycaemia-causing) drug is on board, refer to the diabetes team to review medication
+# BEFORE cutting carbohydrate; if only low-risk drugs (or none) are selected, a sensible
+# lower-carbohydrate change is reasonable — still refer to a dietitian. Pure content — no asset paths.
+id: carb-safety-check
+title: "Is it safe to endorse a lower-carbohydrate diet?"
+intro: >-
+  Cutting or skipping carbohydrate is only safe once you know the patient's medication. Select the
+  glucose-lowering drugs this patient is on. The reflex is drug-class-first: some classes can cause
+  dangerous hypoglycaemia when carbohydrate suddenly drops.
+# Each drug: label = the class; example = a representative agent (or a plain gloss); risk = high|low.
+# HIGH-RISK = can cause hypoglycaemia on their own; LOW-RISK = do not cause hypoglycaemia used alone.
+drugs:
+  - id: insulin
+    label: "Insulin"
+    example: "any insulin"
+    risk: high
+    note: "The dose is set for the patient's usual carbohydrate intake — cut the carbohydrate and the same dose can drive glucose dangerously low. On a fixed dose, counsel carbohydrate consistency, not restriction."
+  - id: sulfonylurea
+    label: "Sulfonylurea"
+    example: "gliclazide, glipizide"
+    risk: high
+    note: "Drives insulin release regardless of glucose, so it can cause hypoglycaemia — especially in older people — when carbohydrate is cut."
+  - id: meglitinide
+    label: "Meglitinide"
+    example: "repaglinide"
+    risk: high
+    note: "A short-acting insulin secretagogue taken with meals — skipping the carbohydrate but taking the dose risks a hypo."
+  - id: metformin
+    label: "Metformin"
+    example: "first-line"
+    risk: low
+    note: "Does not cause hypoglycaemia on its own — safe alongside a sensible carbohydrate change."
+  - id: dpp4
+    label: "DPP-4 inhibitor"
+    example: "sitagliptin, linagliptin"
+    risk: low
+    note: "Glucose-dependent action — no hypoglycaemia used alone."
+  - id: sglt2
+    label: "SGLT2 inhibitor"
+    example: "empagliflozin, dapagliflozin"
+    risk: low
+    note: "Does not cause hypoglycaemia used alone (mind fluid/ketone advice separately)."
+  - id: glp1
+    label: "GLP-1 receptor agonist"
+    example: "semaglutide, liraglutide"
+    risk: low
+    note: "Glucose-dependent — no hypoglycaemia used alone."
+# The two verdict strings. `refer` fires when ANY high-risk drug is selected; `safe` otherwise.
+verdicts:
+  refer:
+    label: "Refer to the diabetes team first"
+    text: >-
+      Refer to the diabetes team to review medication FIRST — cutting carbohydrate here risks
+      hypoglycaemia. Recognise the risk and refer before the diet changes, not after.
+  safe:
+    label: "Reasonable to endorse a sensible change"
+    text: >-
+      Reasonable to endorse a sensible lower-carbohydrate change — still refer to a dietitian for the
+      individualised plan.
+# Prompt shown before any drug is selected.
+prompt: "Select the patient's glucose-lowering medications to see the verdict."
+caption: >-
+  Drug class first, every time. Insulin, sulfonylureas and meglitinides can cause hypoglycaemia when
+  carbohydrate is cut — those patients need a medication review by the diabetes team before any low-carb
+  plan or fast. The rest are reasonable used alone, but still refer to a dietitian for the individualised plan.
+credit: "Drug-class hypoglycaemia risk after ADA Standards of Care 2026 and ACE/AACE guidance."
