@@ -1,15 +1,17 @@
 # Integrated cases {#sec-cases}
 
-These are **simulated-patient encounters**. Unlike the choice-based cases in the earlier
-chapters — which drill one idea at a time through set choices — here you **talk with the
-patient in your own words**, then get feedback on your counselling. They pull together the
-nutrition science, communication, and clinical reasoning built up across the book.
+> *You have spent a year learning what to say. Now sit across from a patient and say it, in
+> your own words, and see what comes back.*
+
+These are **simulated-patient encounters**. In the choice-based cases of the earlier chapters
+you drilled one idea at a time through set choices. Here you **talk with the patient in your own
+words**, then get feedback on your counselling. They draw together the nutrition science,
+communication, and clinical reasoning built up across the book.
 
 ::: {.callout-note appearance="simple"}
-The patient is an **AI simulation for practice — not a real person, and not medical
-advice**. Treat it as a natural consultation: ask, listen, and agree a realistic plan.
-If the simulated patient is not enabled in your build, the encounter simply notes this and
-continues.
+The patient is an **AI simulation for practice, not a real person, and not medical advice**.
+Treat it as a natural consultation: ask, listen, and agree a realistic plan. If the simulated
+patient is not enabled in your build, the encounter simply notes this and continues.
 :::
 
 ## Mdm Tan — newly detected pre-diabetes
@@ -23,15 +25,15 @@ Take a brief diet history, agree **one** realistic change with her, and check he
 
 A 41-year-old taxi driver whose screen flagged a borderline sugar and mildly high cholesterol.
 He feels well but has a string of nutrition questions picked up from friends and online. Answer
-them on quality-not-bans terms — and notice when a plan needs a dietitian.
+them on quality-not-bans terms, and notice when a plan needs a dietitian.
 
 <div data-island="case" data-src="/cases/sim-common-questions-mr-lim.case.yml"></div>
 
 ## Aisha — "tired all the time"
 
-A 24-year-old office worker who has been tired for months and puts it down to stress. Draw out
-what is really going on — she will not volunteer much — explain your concern plainly, and agree a
-sensible next step.
+A 24-year-old office worker who has been tired for months and puts it down to stress. She will
+not volunteer much, so draw out what is really going on, explain your concern plainly, and agree
+a sensible next step.
 
 <div data-island="case" data-src="/cases/sim-iron-deficiency-aisha.case.yml"></div>
 

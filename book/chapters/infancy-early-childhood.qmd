@@ -2,49 +2,49 @@
 
 > An infant grows faster than at any other time of life, on a diet that starts as a single fluid.
 > The clinician's job is small but sharp: fill the few nutrients that milk genuinely lacks, get the
-> timing of solids and allergens right, and — often — gently correct a well-meant tradition.
+> timing of solids and allergens right, and, often, gently correct a well-meant tradition.
 
 ## The infant at a glance: two drivers
 
-This chapter follows the reader's own life from its start — the healthy, term infant and young child
+This chapter follows the reader's own life from its start: the healthy, term infant and young child
 to about the pre-school years. From around **four to five**, a child eats essentially family foods and
 school-age nutrition begins, picked up in the *Childhood & Adolescence* chapter. As everywhere in this
 part of the book, the story runs on two drivers.
 
-- **What's changing inside** — the *internal* drivers: the **fastest growth of life**, an **immature
+- **What's changing inside**, the *internal* drivers: the **fastest growth of life**, an **immature
   gut, kidney and immune system**, iron stores that **run low around six months**, a developing
   **microbiome**, a brief **window to accept allergens**, and an innate wariness of new foods.
-- **What's changing outside** — the *external* levers: breast milk or formula, when and how solids
+- **What's changing outside**, the *external* levers: breast milk or formula, when and how solids
   arrive, which foods are introduced when, food safety, and the family environment the child eats in.
 
 Almost every recommendation below is one driver answering another. The interactive sorts the common
-weaning foods by what is safe when — tap one, and see why.
+weaning foods by what is safe when: tap one, and see why.
 
 <div data-island="food-form-sorter" data-src="/diagrams/food-form-sorter.yml"></div>
 
-## Breast milk: a living food — with specific gaps
+## Breast milk: a living food with specific gaps
 
-Breast milk is not a static fluid. It **matures** — from the low-volume, antibody-dense **colostrum**
-of the first days (a "first vaccine," not "not enough milk yet") to mature milk — and it changes
+Breast milk is not a static fluid. It **matures**, from the low-volume, antibody-dense **colostrum**
+of the first days (a "first vaccine," often mistaken for "not enough milk yet") to mature milk, and it changes
 *within* a feed, the watery foremilk giving way to fat-rich hindmilk [@ballard2013milk]. Two of its
 ingredients do work no formula fully copies: **secretory IgA** coats the infant's gut and blocks
-pathogens while its own immunity matures, and **human milk oligosaccharides** — indigestible by the
-baby — selectively feed *Bifidobacterium*, seeding the microbiome and, through short-chain fatty
+pathogens while its own immunity matures, and **human milk oligosaccharides** (indigestible by the
+baby) selectively feed *Bifidobacterium*, seeding the microbiome and, through short-chain fatty
 acids, supporting the gut barrier [@ballard2013milk; @dinleyici2023hmo].
 
-**But "breast is best" deserves a clear-eyed reading of the evidence, not a halo.** The cleanest data come from **PROBIT**,
-a large cluster-randomised trial of breastfeeding support: it found **real reductions** in
-gastrointestinal infection and eczema — and a **genuine null** on respiratory infection
+"Breast is best" deserves a clear-eyed reading of the evidence. The cleanest data come from **PROBIT**,
+a large cluster-randomised trial of breastfeeding support. It found **real reductions** in
+gastrointestinal infection and eczema, and a **genuine null** on respiratory infection
 [@kramer2001probit]. Its cognitive benefit was modest, mostly verbal, and had largely **faded by
 adolescence** [@kramer2008cognition]; the observational IQ association is small and shrinks once you
 adjust for mothers' own IQ [@horta2015iq].
 
-Breastfeeding is associated with **modestly** lower later obesity — about 15% lower odds in the
-least-biased studies, an association, **not proof** [@horta2023obesity]. The takeaway is not that breast milk doesn't matter; it is that its benefits are
-**specific and real**, and worth stating without overselling.
+Breastfeeding is associated with **modestly** lower later obesity, about 15% lower odds in the
+least-biased studies. This is an association, **not proof** [@horta2023obesity]. Its benefits are
+**specific and real**, worth stating without overselling.
 
-The flip side of "living food" is that milk has **three teachable gaps** the clinician must fill (the
-underlying nutrient science is the *Micronutrients, Hydration & Electrolytes* chapter's — here it is
+Milk also has **three gaps** the clinician must fill (the
+underlying nutrient science belongs to the *Micronutrients, Hydration & Electrolytes* chapter; here it is
 the infant-specific need):
 
 - **Vitamin D** — breast milk is low in it, so **every breastfed or partially breastfed infant needs
@@ -52,22 +52,22 @@ the infant-specific need):
   is owned here; the *mother's* high-dose alternative lives in the *Pregnancy & Lactation* chapter.
 - **Vitamin K** — also low in milk, which is why a **single injection at birth** prevents the
   bleeding disease of the newborn; breastfed infants are most at risk [@hand2022vitk].
-- **Iron** — endowed stores last about **six months**, then deplete — the physiological clock that
+- **Iron** — endowed stores last about **six months**, then deplete. This is the physiological clock that
   sets the timing of solids (below).
 
 The recommendation built on all this is **exclusive breastfeeding for about six months**, then
 complementary foods with continued breastfeeding into the second year, supported by the
-Baby-Friendly Hospital Initiative [@whoBreastfeeding] — taught *with* the iron/allergen
+Baby-Friendly Hospital Initiative [@whoBreastfeeding], taught *with* the iron and allergen
 caveat that follows, not as dogma [@kramer2012cochrane].
 
-## Formula and mixed feeding — without judgment
+## Formula and mixed feeding, without judgment
 
 Most infants will meet formula, and the counselling posture is **support, not shame**. Modern infant
-formula is safe and nutritionally adequate; the clinical value-add is **safe preparation** — powdered
+formula is safe and nutritionally adequate; the clinical value-add is **safe preparation**. Powdered
 formula is *not sterile*, so it is reconstituted with water at **≥70 °C** to kill *Cronobacter*, then
-cooled, with made-up feeds discarded after two hours [@faoWhoPif2007]. And **mixed feeding is the
+cooled, with made-up feeds discarded after two hours [@faoWhoPif2007]. **Mixed feeding is the
 norm, not a failure**: locally only about **3% of infants are exclusively breastfed at six months**
-while most still get *some* breast milk, so breast-plus-formula is the modal reality — support it
+while most still get *some* breast milk, so breast-plus-formula is the modal reality. Support it
 practically, and remember the vitamin-D dose still applies to any partially breastfed baby
 [@sgBreastfeeding2024].
 
@@ -75,25 +75,25 @@ practically, and remember the vitamin-D dose still applies to any partially brea
 ## 🍜 Feeding well in Singapore: the wallet and the caregiving unit
 Two local, practical points. First, **premium and "toddler" milks are a marketing story, not a
 nutrition one**: every infant formula sold here meets the same standard, prices have more than doubled
-without added benefit, and after 12 months plain full-fat cow's milk does the job — "growing-up"
+without added benefit, and after 12 months plain full-fat cow's milk does the job. "Growing-up"
 milks are unnecessary and often sugar-sweetened [@cccsFormula2017; @fuchs2023toddlermilk]. Second,
 feeding here is a **family** activity: grandparents and confinement caregivers often lead it, and
-carry beliefs worth gently addressing — that fruit can stand in for vegetables, or that a child should
+carry beliefs worth gently addressing, such as that fruit can stand in for vegetables, or that a child should
 always finish the plate [@tanGrandparents2019]. Counsel the whole household, not just the mother.
 :::
 
 ## Starting solids: when, and why iron leads
 
-The question parents ask most — *when do we start?* — has a physiological answer. Solids begin around
+The question parents ask most, *when do we start?*, has a physiological answer. Solids begin around
 six months because **iron stores are running out**, and the first foods must therefore be
 **iron-rich** (fortified cereal, minced meat or fish, egg, legumes, tofu), with **zinc** the other
-nutrient most likely to fall short — and **no added salt or sugar** (the kidney is immature and tastes
+nutrient most likely to fall short, and **no added salt or sugar** (the kidney is immature and tastes
 are being set) [@baker2010iron; @whoComplementaryFeeding2023]. Watch the **baby, not the calendar**:
 readiness means sitting with support, steady head control, loss of the tongue-thrust reflex, and
-reaching for food — usually near six months, and **not before four**.
+reaching for food, usually near six months, and **not before four**.
 
 That four-month floor is the key to a genuine tension. **WHO holds the "about six months" line;
-allergy and gastroenterology societies argue for starting — including allergens — in the four-to-six
+allergy and gastroenterology societies argue for starting, including allergens, in the four-to-six
 month window** [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. Both are right at different
 framings: "about six months" is the population default, with a four-month floor for the individual
 child who is ready. Singapore's guidelines land exactly there.
@@ -102,31 +102,31 @@ Three more things follow from the iron clock:
 
 - **Cow's milk waits until ~12 months as the *main drink*.** It is iron-poor *and* causes occult
   gut blood loss in infancy, a direct route to iron deficiency [@ziegler1990cowmilk;
-  @ziegler2011review] — though small amounts of **yogurt or cheese** as complementary foods from six
+  @ziegler2011review], though small amounts of **yogurt or cheese** as complementary foods from six
   months are fine. Distinguish "main drink" from "dairy food."
 - **Prevent iron deficiency; don't plan to treat it.** Deficiency in the six-to-twenty-four-month
   brain-growth window can leave **neurocognitive marks that persist into adulthood despite later
-  iron** — the strongest argument for getting the first foods right [@lukowski2010iron].
+  iron**, the strongest argument for getting the first foods right [@lukowski2010iron].
 - **Move textures on.** Getting stuck on smooth purée matters: introducing **lumps later than about
   nine to ten months** is linked to more feeding difficulty years on, so progress purée → mashed →
-  soft finger foods on schedule — and learn to tell normal, protective **gagging** from true choking
+  soft finger foods on schedule, and learn to tell normal, protective **gagging** from true choking
   [@coulthard2009texture].
 
-(The **preterm or low-birth-weight** infant is a different case — earlier iron depletion,
-corrected-age timing — and should be individualised and referred, not held to these term-infant rules.)
+The **preterm or low-birth-weight** infant is a different case, with earlier iron depletion and
+corrected-age timing, and should be individualised and referred, not held to these term-infant rules.
 
 ## The allergen reversal
 
 For years the advice was to **delay** peanut and egg "to be safe." The evidence turned that on its
-head, and it is worth understanding *why*. A baby is **sensitised** to a food through inflamed,
-eczematous **skin**, but develops **tolerance** by meeting it **in the mouth** first — the
+head, and the mechanism explains why. A baby is **sensitised** to a food through inflamed,
+eczematous **skin**, but develops **tolerance** by meeting it **in the mouth** first: the
 dual-allergen hypothesis [@lack2008dual]. So *early oral* introduction protects. The landmark **LEAP**
 trial gave high-risk infants peanut early and cut peanut allergy by around **80%** [@dutoit2015leap];
 the **EAT** trial showed the same direction, with adherence the practical limiter, and a meta-analysis
 confirmed the effect for peanut and egg [@perkin2016eat; @ierodiakonou2016].
 
 The practical message: once solids begin, **introduce smooth peanut butter and well-cooked egg**
-early rather than avoiding them. Two cautions keep it safe — **don't over-read LEAP's number** (it
+early rather than avoiding them. Two cautions keep it safe. **Don't over-read LEAP's number** (it
 studied *high-risk* infants with severe eczema or egg allergy), and **refer those high-risk infants**
 for specialist-guided peanut introduction rather than improvising. Singapore's feeding guidance
 mirrors this.
@@ -136,13 +136,13 @@ mirrors this.
 How a child is fed matters as much as what. The organising idea is the **division of responsibility**:
 the **parent decides what, when and where**; the **child decides whether and how much**
 [@satterDoR]. Two normal developmental facts make this work. Toddlers go through a **neophobic**
-phase — new foods are refused on sight — that is usually **transient** (most picky eating resolves
+phase, where new foods are refused on sight, that is usually **transient** (most picky eating resolves
 within a couple of years) and yields to **repeated, low-pressure offering**, on the order of eight to
 fifteen tries [@spill2019exposure; @mascola2010picky]. And **pressure backfires**: "finish your plate"
-is associated with *more* fussiness, not less — although a fussy child also draws more pressure from
+is associated with *more* fussiness, not less, although a fussy child also draws more pressure from
 parents, so the arrow runs both ways [@jansen2017pressure]. As for **baby-led weaning** versus spoon
 feeding: done with an iron-rich food at each meal, it is a reasonable parent choice, no better and no
-worse on iron — and choking is a matter of **food form**, not method (a third of *all* infants gag or
+worse on iron, and choking is a matter of **food form**, not method (a third of *all* infants gag or
 choke a little while learning, whichever way they are fed) [@daniels2018bliss; @fangupo2016choking].
 
 ## Do no harm: the hazards to name
@@ -150,7 +150,7 @@ choke a little while learning, whichever way they are fed) [@daniels2018bliss; @
 A short list of rules prevents real harm:
 
 - **No honey before 12 months.** The immature gut lets *Clostridium botulinum* spores from honey
-  colonise and make toxin — infant botulism [@rao2021botulism].
+  colonise and make toxin, causing infant botulism [@rao2021botulism].
 - **Mind the food form** to prevent choking: no whole nuts, whole grapes, hard raw veg or chunks of
   hot dog before about four years; quarter grapes lengthwise and cut food small [@aap2010choking].
 - **No added sugar or salt, no sugary drinks, and no fruit juice before 12 months** (and little
@@ -159,27 +159,27 @@ A short list of rules prevents real harm:
 ## The Singapore picture
 
 Singapore now has its own **national guidelines for feeding infants and young children** (0–2 years),
-built around variety, autonomy, an unhurried screen-free setting, and sensible timing — vegetables
+built around variety, autonomy, an unhurried screen-free setting, and sensible timing: vegetables
 first, responsive feeding from birth, complementary foods at four-to-six months, specialist-guided
 early peanut for high-risk infants, and cow's milk as a drink only after 12 months
 [@smjFeeding2023]. Against that, the local reality is a striking **initiation-versus-duration gap**:
 nearly every mother starts breastfeeding, but exclusive breastfeeding collapses to about **3% by six
-months** — so the sensible posture is realistic support plus non-judgmental formula guidance
-[@sgBreastfeeding2024]. First foods are usually **rice-based** — fine *if* the congee is made
+months**, so the sensible posture is realistic support plus non-judgmental formula guidance
+[@sgBreastfeeding2024]. First foods are usually **rice-based**, fine *if* the congee is made
 iron-rich with minced meat, egg and soft greens rather than served as plain rice-water
-[@tohFeeding2016]. And because caregiving is shared, the common patterns to counsel — pushing a child
-to finish, feeding to screens, prolonged night bottles — reach **grandparents and helpers**, not just
+[@tohFeeding2016]. And because caregiving is shared, the common patterns to counsel, such as pushing a child
+to finish, feeding to screens and prolonged night bottles, reach **grandparents and helpers**, not just
 parents [@quahFeeding2025]. Formula marketing to the under-ones is restricted by a local ethics code
 [@sifecsCode]; and the vitamin-D dose matters here precisely *because* infant sun exposure is (rightly)
 kept low.
 
-## So — is "breast is best" the whole story?
+## Is "breast is best" the whole story?
 
-Not quite — and saying it plainly serves families better. Breast milk is a wonderful start with a few
+Not quite, and saying so plainly serves families better. Breast milk is a strong start with a few
 **specific gaps** to fill (vitamin D, vitamin K, iron); formula and mixed feeding are **safe and fine**;
-and the real wins are surprisingly concrete — **iron-rich first foods around six months, early
-allergens, the honey/cow's-milk/choking rules, and feeding responsively**. A large part of the job, in
-Singapore especially, is not adding a supplement but **gently retiring a tradition** — and knowing the
+and the real wins are surprisingly concrete: **iron-rich first foods around six months, early
+allergens, the honey, cow's-milk and choking rules, and feeding responsively**. A large part of the job, in
+Singapore especially, is not adding a supplement but **gently retiring a tradition**, and knowing the
 one baby whose slow growth means it is time to **refer**, since faltering growth is worked up and
 managed in the *Undernutrition & Malnutrition* chapter.
 
@@ -191,8 +191,8 @@ managed in the *Undernutrition & Malnutrition* chapter.
 
 Baby Aidan is a thriving, breastfed five-month-old. His mother has read that "starting solids and
 peanut early cause allergies"; his grandmother wants to add "a little honey" to his porridge; a
-neighbour suggests switching to fresh cow's milk and a premium formula. Work through the visit —
-notice that the *tempting, traditional* choices are the wrong ones, and that your job is to correct
+neighbour suggests switching to fresh cow's milk and a premium formula. Work through the visit,
+noticing that the *tempting, traditional* choices are the wrong ones, and that your job is to correct
 them kindly and know when to refer. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/infancy-feeding.case.yml"></div>

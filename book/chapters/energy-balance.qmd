@@ -1,37 +1,36 @@
 # Energy balance
 
-> *How much we take in versus how much we burn — the balance that sets body weight. The goal is
-> **recognition**: name the parts of energy expenditure, estimate a person's needs, and know how the
-> body is measured. But hold one question as you read — is body weight really just "calories in minus
-> calories out"? Keep it in mind; the **Appetite & Weight Regulation** chapter that closes Part I
-> comes back to answer it in full.*
+> *How much we take in versus how much we burn: the balance that sets body weight. But hold one
+> question as you read. Is body weight really just "calories in minus calories out"? Keep it in
+> mind; the **Appetite & Weight Regulation** chapter that closes Part I comes back to answer it in
+> full.*
 
-## Energy in, energy out — and why it isn't a simple sum {#sec-overview}
+## Energy in, energy out {#sec-overview}
 
 **Energy balance** is the relationship between the energy taken in as food and drink and the energy
 the body spends. Take in more than you spend and the surplus is stored, mostly as fat; spend more
 than you take in and the body draws on its stores. Sustained in either direction, this shifts body
 weight and metabolic health.
 
-Written as an equation it looks reassuringly simple —
+Written as an equation it looks reassuringly simple:
 
 $$ \text{energy stored} = \text{energy in} - \text{energy out} $$
 
-— and the "out" side has three parts, together the **total energy expenditure (TEE)**:
+The "out" side has three parts, together the **total energy expenditure (TEE)**:
 
 $$ \text{TEE} = \text{BMR} + \text{TEF} + \text{PA} $$
 
-Learning to name and estimate these is the work of this chapter. But hold a caution from the start:
-the two sides of that first equation are **not independent**. Eat less for long enough and the "out"
-side quietly falls to meet it; the body behaves less like a bank balance and more like a thermostat
-defending a set temperature. Why that is — and why it matters so much for weight — is the thread this
-chapter opens and the capstone of Part I closes.
+Naming and estimating these is straightforward. But hold a caution from the start: the two sides of
+that first equation are **not independent**. Eat less for long enough and the "out" side quietly
+falls to meet it; the body behaves less like a bank balance and more like a thermostat defending a
+set temperature. Why that is, and why it matters so much for weight, is the thread this chapter
+opens and the capstone of Part I closes.
 
 ::: {.callout-note}
 ## Small numbers, long time
-A daily surplus of just **~100 kcal** — roughly one sweetened drink, or a couple of biscuits — is
+A daily surplus of just **~100 kcal**, roughly one sweetened drink or a couple of biscuits, is
 enough to add meaningful weight over a year if nothing else changes [@hill2003energygap]. The same
-smallness is the good news: **small, sustainable changes** are the practical lever in counselling,
+smallness is the good news. **Small, sustainable changes** are the practical lever in counselling,
 precisely because energy balance plays out over months, not meals.
 :::
 
@@ -39,18 +38,18 @@ precisely because energy balance plays out over months, not meals.
 
 Most of the energy you spend is spent doing nothing you would notice.
 
-**Basal metabolic rate (BMR)** is the energy to keep the body running at complete rest — heartbeat,
+**Basal metabolic rate (BMR)** is the energy to keep the body running at complete rest: heartbeat,
 breathing, kidneys, the constant turnover of cells. It is the **largest** component, typically
-**60–70% of TEE**, and it is driven mainly by **fat-free (lean) mass**: muscle and organs are
-metabolically busy, stored fat much less so. BMR falls with age (partly as lean mass is lost), is
-lower when thyroid hormone is low, and differs between the sexes largely because body composition
-does [@westerterp2017dlw].
+**60–70% of TEE**, and it is driven mainly by **fat-free (lean) mass**, since muscle and organs are
+metabolically busy while stored fat is much less so. BMR falls with age (partly as lean mass is
+lost), is lower when thyroid hormone is low, and differs between the sexes largely because body
+composition does [@westerterp2017dlw].
 
-**The thermic effect of food (TEF)** is the energy cost of digesting, absorbing and processing a meal
-— about **10% of TEE**. Protein is the most "expensive" to process, one reason protein-rich meals
+**The thermic effect of food (TEF)** is the energy cost of digesting, absorbing and processing a
+meal, about **10% of TEE**. Protein is the most expensive to process, one reason protein-rich meals
 feel more satisfying (a thread the appetite chapter picks up).
 
-**Physical activity (PA)** is the **most variable** component — the one that differs most between two
+**Physical activity (PA)** is the **most variable** component, the one that differs most between two
 otherwise similar people, and the one most under a person's control. It has two halves worth
 separating:
 
@@ -67,13 +66,13 @@ used equation uses weight ($W$, kg), height ($H$, cm), age ($A$, years) and sex 
 $$ \text{BMR}_{\text{women}} = 10W + 6.25H - 5A - 161 $$
 $$ \text{BMR}_{\text{men}} = 10W + 6.25H - 5A + 5 $$
 
-Total daily needs then scale BMR by a **physical-activity level (PAL)** factor — roughly **1.4**
-sedentary, **1.6** lightly active, **1.75** moderately active, **2.0** very active:
+Total daily needs then scale BMR by a **physical-activity level (PAL)** factor: roughly **1.4**
+sedentary, **1.6** lightly active, **1.75** moderately active, **2.0** very active.
 
 $$ \text{TEE} \approx \text{BMR} \times \text{PAL} $$
 
-Try it below: enter a person's details and activity level, and watch how the daily total splits into
-BMR, TEF and activity — and how much the activity factor moves it.
+Try it below. Enter a person's details and activity level, and watch how the daily total splits into
+BMR, TEF and activity, and how much the activity factor moves it.
 
 <div data-island="energy-budget" data-src="/diagrams/energy-budget.yml"></div>
 
@@ -82,16 +81,16 @@ BMR, TEF and activity — and how much the activity factor moves it.
 A sedentary woman, 52 y, 68 kg, 157 cm:
 $\text{BMR} = 10(68) + 6.25(157) - 5(52) - 161 \approx \mathbf{1240}$ kcal/day;
 total needs $\approx 1240 \times 1.4 \approx \mathbf{1740}$ kcal/day. Treat these equations as
-**population estimates**, not a measurement of one person — good for setting a starting point, not
+**population estimates**, not a measurement of one person: good for setting a starting point, not
 for precision.
 :::
 
 ## Measuring the body and its budget {#sec-measuring}
 
-Energy needs track body *composition*, so it helps to know how each is measured — and how rough the
+Energy needs track body *composition*, so it helps to know how each is measured, and how rough the
 everyday tools are.
 
-**Body composition — what the weight is made of.** Two people of the same weight can differ
+**Body composition, what the weight is made of.** Two people of the same weight can differ
 completely in how much of it is muscle versus fat, and that changes both their BMR and their health
 risk.
 
@@ -100,67 +99,67 @@ risk.
   miss excess fat in the slim; **Asian cut-offs** for overweight are set *lower* than the
   international ones for this reason. Use it as a flag, not a verdict.
 - **Waist circumference** captures **central (visceral) fat**, which carries more metabolic risk than
-  fat on the hips and thighs — so it adds exactly what BMI misses [@whoWaist2011].
+  fat on the hips and thighs, so it adds what BMI misses [@whoWaist2011].
 - **Bioelectrical impedance (BIA)** — the "body-fat" bathroom scales — passes a tiny current to
   estimate fat versus lean; convenient but easily thrown off by hydration. **DXA** (a low-dose X-ray
   scan) is the accurate clinical and research reference.
 
-**Measuring the budget itself.** BMR is measured by **calorimetry** — directly from heat produced,
-or indirectly from oxygen consumed and carbon dioxide produced. Total expenditure in free-living
+**Measuring the budget itself.** BMR is measured by **calorimetry**, directly from heat produced or
+indirectly from oxygen consumed and carbon dioxide produced. Total expenditure in free-living
 people is measured with **doubly labelled water**, a harmless isotope tracer followed over one to two
-weeks — the gold standard behind the numbers above [@westerterp2017dlw]. (These are research tools;
-in the clinic, the estimating equations do the everyday work.)
+weeks, and it is the gold standard behind the numbers above [@westerterp2017dlw]. These are research
+tools; in the clinic, the estimating equations do the everyday work.
 
 ## The balance is defended, not free {#sec-defended}
 
 Here the tidy equation starts to bend, and two ideas planted now are developed later in Part I.
 
 **Expenditure fights back.** When someone loses weight, "energy out" falls by **more** than their
-smaller body should require — an extra drop called **adaptive thermogenesis** that makes lost weight
+smaller body should require, an extra drop called **adaptive thermogenesis** that makes lost weight
 easy to regain. The body defends its weight actively, and it defends *against loss* far harder than
 against gain. This is the single biggest reason "just eat less" so often fails, and the **Appetite &
-Weight Regulation** chapter — the capstone of Part I — is built around it [@hall2022biggestloser].
+Weight Regulation** chapter, the capstone of Part I, is built around it [@hall2022biggestloser].
 
 **The body knows how much it has stored.** Body fat is not a passive store. It releases a hormone,
-**leptin**, in rough proportion to how much fat is carried — a long-term "fuel gauge" the brain reads
+**leptin**, in rough proportion to how much fat is carried, a long-term "fuel gauge" the brain reads
 to regulate appetite and defend body weight over months and years. That is the first hint that the
-equation above is **defended, not free** — again, the appetite chapter's territory. (Simply giving
+equation above is **defended, not free**, again the appetite chapter's territory. (Simply giving
 leptin does *not* melt away common obesity, a twist that chapter takes up [@heymsfield1999recombinant].)
 
-**Which fuel is burning — the respiratory quotient.** You can tell whether the body is running mostly
+**Which fuel is burning: the respiratory quotient.** You can tell whether the body is running mostly
 on carbohydrate or mostly on fat from the gases it exchanges. The **respiratory quotient (RQ)** is
 the ratio of carbon dioxide produced to oxygen consumed: about **1.0 when burning carbohydrate** and
-about **0.7 when burning fat** (a mixed diet sits around 0.85). Here it is enough to know the
-definition; *reading* RQ as the body switches between the fed and fasted states is the job of the
-**Integrative Metabolism** chapter.
+about **0.7 when burning fat** (a mixed diet sits around 0.85). For now the definition is enough;
+*reading* RQ as the body switches between the fed and fasted states comes in the **Integrative
+Metabolism** chapter.
 
 ## The Singapore picture {#sec-singapore}
 
 Singapore's food environment tilts the balance toward the "in" side, quietly and by default. Eating
-out is the norm — most residents do it most days — and hawker and food-court favourites are
+out is the norm, most residents do it most days, and hawker and food-court favourites are
 **energy-dense**: a plate of *char kway teow* or *nasi lemak*, washed down with a sweet drink, can
 carry a large share of a day's energy in one sitting, with the drink alone adding a couple of hundred
 easily-missed calories. Portions have grown, and a largely **sedentary, air-conditioned,
-car-and-MRT** lifestyle keeps the activity side low — the NEAT a more walking-dependent city would
-bank.
+car-and-MRT** lifestyle keeps the activity side low, banking little of the NEAT a more
+walking-dependent city would.
 
-The festive calendar makes the arithmetic vivid: Chinese New Year, Hari Raya, Deepavali and Christmas
+The festive calendar makes the arithmetic vivid. Chinese New Year, Hari Raya, Deepavali and Christmas
 each bring days of feasting, and the modest weight gained across a year of such occasions is **not
 fully lost afterwards**, so it accumulates across the years [@yanovski2000holiday]. None of this is a
-moral failing — it is an environment that keeps "energy in" easy and "energy out" low.
+moral failing; it is an environment that keeps "energy in" easy and "energy out" low.
 
-The practical, Singapore-first tools turn the balance back without calorie-counting: **My Healthy
+The practical, Singapore-first tools turn the balance back without calorie-counting. **My Healthy
 Plate** (¼ wholegrains, ¼ protein, ½ fruit and vegetables) lowers a meal's energy density
 [@hpbHealthyPlate]; **Nutri-Grade** flags the sugary drinks that are the easiest surplus to cut; and
 building **everyday movement** (stairs over the escalator, a walk after dinner, alighting a stop
 early) rebuilds the NEAT the city removes. The National Nutrition Survey confirms the gap between the
 guidelines and the plate that these tools are trying to close [@mohNNS2022].
 
-## So — is body weight just calories in minus out? {#sec-close}
+## Is body weight just calories in minus out? {#sec-close}
 
-Yes and no — and the "no" is the interesting half. The equation is real: you cannot store energy you
+Yes and no, and the "no" is the interesting half. The equation is real: you cannot store energy you
 never ate, and a sustained deficit does lower weight. But the two sides are **linked**, not
-independent — eat less and the body spends less; carry more fat and a hormone tells the brain to
+independent. Eat less and the body spends less; carry more fat and a hormone tells the brain to
 defend it. So "calories in minus calories out" is the right *bookkeeping* and a poor *strategy*,
 because the body keeps quietly editing the "out" column. Hold that tension: it is the question Part I
 has been circling, and the **Appetite & Weight Regulation** chapter that closes this Part answers it
@@ -168,14 +167,14 @@ in full.
 
 ## Check your understanding {#sec-quiz}
 
-A quick self-test on the concepts above before you apply them — your answers are saved locally in
+A quick self-test on the concepts above before you apply them. Your answers are saved locally in
 your browser.
 
 <div data-island="quiz" data-src="/quizzes/energy-balance.quiz.yml"></div>
 
 ## Practise: estimating a patient's energy needs {#sec-case}
 
-Now put it together. Mdm Tan is back to review her diet — work out her energy needs and turn the
+Now put it together. Mdm Tan is back to review her diet: work out her energy needs and turn the
 estimate into realistic advice. Your choices branch the case.
 
 ::: {.callout-tip}

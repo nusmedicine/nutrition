@@ -1,88 +1,88 @@
 # Chronic kidney disease
 
 > The cascade reaches its final organ. The same insulin-resistant, high-pressure biology that ran through
-> obesity, diabetes and the arteries now scars the kidney — and in Singapore this is overwhelmingly the
-> downstream damage of diabetes. Here the diet changes character: instead of *preventing* disease, it must
-> stand in for a failing organ, doing some of the work the kidney can no longer do. The task is to
-> **recognise the five nutritional levers — protein, sodium, potassium, phosphate and fluid — and refer**,
-> never to prescribe the renal diet, which is individualised, specialist work.
+> obesity, diabetes and the arteries now scars the kidney, and in Singapore this is overwhelmingly the
+> downstream damage of diabetes. Here the diet changes character. Instead of *preventing* disease, it must
+> stand in for a failing organ, doing some of the work the kidney can no longer do. The five nutritional
+> levers are protein, sodium, potassium, phosphate and fluid; the generalist recognises them and refers,
+> and never prescribes the renal diet, which is individualised, specialist work.
 
 ## Chronic kidney disease at a glance
 
 This chapter closes the cardiometabolic-renal cascade that the *Obesity & Metabolic Syndrome*, *Type 2
-Diabetes* and *Cardiovascular Disease & Hypertension* chapters opened: chronic kidney disease (CKD) is the
-shared downstream organ damage of the same drivers. It is common, largely **silent** — detected by blood and
-urine tests, not symptoms — and progressive [@kdigo2024ckd]. In Singapore its story is a diabetes story:
+Diabetes* and *Cardiovascular Disease & Hypertension* chapters opened. Chronic kidney disease (CKD) is the
+shared downstream organ damage of the same drivers. It is common, largely **silent** (detected by blood and
+urine tests, not symptoms) and progressive [@kdigo2024ckd]. In Singapore its story is a diabetes story:
 about **6 people a day** begin treatment for kidney failure, more than **9,000** are on dialysis, and roughly
 **2 in 3** new cases are driven by diabetes [@nkfsKeyStats; @ho2024stemmingckd]. That single fact reframes the
 whole chapter.
 
 Three habits of mind run through it:
 
-- **The most powerful "renal diet" is upstream.** Because most CKD is the organ damage of poorly controlled diabetes and hypertension, the highest-leverage nutritional intervention is glycaemic and blood-pressure control years earlier — owned by the *Type 2 Diabetes* and *Cardiovascular Disease & Hypertension* chapters, not this one [@ahaCKM2023; @ho2024stemmingckd].
-- **There is no single "renal diet."** It is individualised, dietitian-led medical nutrition therapy that changes with the stage of disease and the dialysis modality — a printout is not a prescription [@kdoqi2020nutrition; @aceCKD2023].
-- **Advice that is healthy for the public can reverse in CKD.** "Eat more potassium," a potassium salt substitute, the DASH pattern — each is good general advice that can become *dangerous* once the kidney can no longer clear a potassium load. Recognising where the population message flips is the core skill here.
+- **The most powerful "renal diet" is upstream.** Because most CKD is the organ damage of poorly controlled diabetes and hypertension, the highest-leverage nutritional intervention is glycaemic and blood-pressure control years earlier, owned by the *Type 2 Diabetes* and *Cardiovascular Disease & Hypertension* chapters, not this one [@ahaCKM2023; @ho2024stemmingckd].
+- **There is no single "renal diet."** It is individualised, dietitian-led medical nutrition therapy that changes with the stage of disease and the dialysis modality. A printout is not a prescription [@kdoqi2020nutrition; @aceCKD2023].
+- **Advice that is healthy for the public can reverse in CKD.** "Eat more potassium," a potassium salt substitute, the DASH pattern: each is good general advice that can become *dangerous* once the kidney can no longer clear a potassium load. The skill here is recognising where the population message flips.
 
 CKD is defined and staged by cause, by **eGFR** (an estimate of filtration, in categories G1–G5) and by
 **albuminuria** (protein leaking into the urine, categories A1–A3), laid out on a colour-coded risk "heat map"
 that Singapore's national guidance follows [@kdigo2024ckd; @aceCKD2023]. The goal at this stage is recognition,
-not threshold recall: **a low eGFR with heavy albuminuria means high-risk CKD** — a patient whose diet, from
+not threshold recall: a low eGFR with heavy albuminuria means high-risk CKD, a patient whose diet, from
 that point on, is a specialist matter.
 
 ## The science underneath: why a failing kidney rewrites the diet
 
 Why does kidney disease change what a person may eat, when heart disease mostly changed *how much* of certain
-foods? Because the kidney is not only a filter — it is the body's main **regulator of what stays and what
-goes**. The healthy kidney clears sodium, potassium, phosphate, acid and water, and it activates vitamin D; the
-detailed handling of these — how the body balances sodium and potassium, and water — belongs to the
-*Micronutrients, Hydration & Electrolytes* chapter, and here we follow what happens when that handling fails.
+foods? Because the kidney is not only a filter. It is the body's main **regulator of what stays and what
+goes**. The healthy kidney clears sodium, potassium, phosphate, acid and water, and it activates vitamin D. The
+detailed handling of these (how the body balances sodium, potassium and water) belongs to the
+*Micronutrients, Hydration & Electrolytes* chapter; here we follow what happens when that handling fails.
 
 ![In health (left) the kidney clears sodium, potassium, phosphate, acid and water and activates vitamin D, so the diet need not manage them. As nephrons are lost in CKD (right), these accumulate in the blood — raising blood pressure and fluid load, risking hyperkalaemia, driving bone–mineral disease and acidosis — so five dietary levers (sodium, potassium, phosphate, fluid and protein) must now do some of the work the kidney no longer can. All of it is delivered as individualised, dietitian-led therapy.](/figures/mechanisms/ckd-diet-levers.svg){#fig-ckd-levers width="92%" fig-align="center"}
 
-As functioning **nephrons** — the kidney's filtering units — are progressively lost, the substances they used
+As functioning **nephrons** (the kidney's filtering units) are progressively lost, the substances they used
 to clear begin to **accumulate** [@kdigo2024ckd]. Retained sodium and water raise blood volume and blood
 pressure, and cause oedema. Potassium can no longer be excreted freely, so a dietary load that a healthy
-kidney would shed can push blood potassium to a dangerous level — **hyperkalaemia**, which disturbs the heart's
+kidney would shed can push blood potassium to a dangerous level: **hyperkalaemia**, which disturbs the heart's
 rhythm [@hunter2019hyperkalemia]. Phosphate is retained, and the failing kidney also stops activating vitamin
 D, together driving the bone-and-vessel disorder known as **CKD–mineral and bone disease** [@kdigo2017ckdmbd].
-And the metabolic waste of protein — acid and urea — builds up too. The diet must now help manage each of
-these: that is why the levers exist. But there is a counter-force. Uraemia blunts appetite while illness
-raises the body's demands, so patients readily slide into **protein-energy wasting** — undernutrition layered
-on top of a kidney disease — which makes reflexive restriction genuinely hazardous [@fouque2008pew;
+The metabolic waste of protein, acid and urea, builds up too. The diet must now help manage each of
+these, and that is why the levers exist. But there is a counter-force. Uraemia blunts appetite while illness
+raises the body's demands, so patients readily slide into **protein-energy wasting**, undernutrition layered
+on top of a kidney disease, which makes reflexive restriction genuinely hazardous [@fouque2008pew;
 @carrero2013pewetiology]. The whole art of the renal diet is holding these two dangers in balance, which is
 exactly why it is specialist work.
 
 ## There is no single "renal diet"
 
-The first thing to unlearn is the idea of *the* kidney diet — a fixed list to hand out. Renal nutrition is
+The first thing to set aside is the idea of *the* kidney diet, a fixed list to hand out. Renal nutrition is
 **individualised medical nutrition therapy**: it depends on the stage of disease, on whether the patient is on
-dialysis and which kind, on their potassium and phosphate blood levels, and on their nutritional state — and
-international guidelines specify it should be delivered by a **renal dietitian** [@kdoqi2020nutrition;
+dialysis and which kind, on their potassium and phosphate blood levels, and on their nutritional state. International
+guidelines specify it should be delivered by a **renal dietitian** [@kdoqi2020nutrition;
 @aceCKD2023]. The same food can be encouraged in one patient and limited in another. What a generalist does is
 **recognise the five levers, reinforce the one that is safely reinforceable (sodium), avoid the do-no-harm
-traps, and refer** — which is what the rest of the chapter builds toward.
+traps, and refer**, which is what the rest of the chapter builds toward.
 
 ## Protein: the lever that flips at dialysis
 
 Protein is the most misunderstood lever, because the advice **reverses at dialysis**. Before dialysis, protein
-is modestly *restricted* to reduce the waste load on failing kidneys; once a patient starts dialysis — which
-is itself catabolic and removes protein — the target is *raised* again [@kdoqi2020nutrition;
+is modestly *restricted* to reduce the waste load on failing kidneys; once a patient starts dialysis, which
+is itself catabolic and removes protein, the target is *raised* again [@kdoqi2020nutrition;
 @lambert2022kdoqicommentary]. Same patient, opposite advice, depending on the stage. That alone is a reason to
 recognise the lever and refer rather than apply a number from memory.
 
 The benefit of restriction is also **genuinely debated**, and it makes a good lesson in reading a landmark
 trial. The famous MDRD study found only a small, statistically fragile effect on kidney-function decline in its
 **primary** analysis; the confident "protein restriction slows CKD" reading came from a later **secondary**
-analysis [@klahr1994mdrd; @levey1999mdrd]. So the fair reading is benefit *and* caveat — not a settled
+analysis [@klahr1994mdrd; @levey1999mdrd]. The fair reading is benefit *and* caveat, not a settled
 prescription.
 
 ::: {.callout-warning}
 ## The other danger is too little, not too much
 The reflex "low protein is good for kidneys" can do real harm. Push protein down without safeguarding
-calories and monitoring, and patients — especially older ones — tip into **protein-energy wasting**: a defined
+calories and monitoring, and patients, especially older ones, tip into **protein-energy wasting**: a defined
 syndrome of low body and muscle mass, poor intake and abnormal blood chemistry that is common on dialysis
 (roughly a third to a half of patients) and strongly linked to death [@fouque2008pew; @carrero2018pewprev;
-@bonanni2011pewmortality]. Adequate **energy** is what makes any protein target safe — without enough
+@bonanni2011pewmortality]. Adequate **energy** is what makes any protein target safe; without enough
 calories, the body simply breaks down its own muscle for fuel [@kdoqi2020nutrition]. So protein targets are
 modest, stage-specific and dietitian-set, and unsupervised low-protein advice is exactly the wrong instinct
 [@piccoli2023lowprotein]. This under-tail links forward to the *Undernutrition & Malnutrition* chapter.
@@ -91,23 +91,23 @@ modest, stage-specific and dietitian-set, and unsupervised low-protein advice is
 ## Sodium: the lever you *can* reinforce
 
 Sodium is the one lever a generalist can legitimately reinforce, because the advice does **not** reverse in
-CKD — cutting salt helps here for the same reasons it helps in hypertension, plus it reduces protein leak and
+CKD. Cutting salt helps here for the same reasons it helps in hypertension, and it also reduces protein leak and
 lets blood-pressure drugs work better [@kdigo2024ckd; @kdoqi2020nutrition]. Guidance suggests keeping sodium
 under about **2 g a day (roughly 5 g of salt)**, though the evidence is of low certainty and rests on surrogate
 measures like blood pressure [@kdigo2024ckd]. Singaporeans start badly placed: about **9 in 10 exceed the
 limit**, averaging **~3,600 mg a day**, most of it hidden in soups, sauces and eaten-out food [@hpb2023sodium].
 The population sodium-and-blood-pressure story is owned by the *Cardiovascular Disease & Hypertension* chapter;
-what CKD adds is a hard caution on *how* people are often told to cut salt — which the next section addresses.
+what CKD adds is a hard caution on *how* people are often told to cut salt, which the next section addresses.
 
 ## Potassium: when "eat more" reverses
 
-Here is the chapter's signature reversal. For the general public, **potassium is protective** — the WHO
-recommends eating *more* of it (fruit, vegetables, legumes) to lower blood pressure — but that same guideline
+Here is the chapter's signature reversal. For the general public, **potassium is protective**. The WHO
+recommends eating *more* of it (fruit, vegetables, legumes) to lower blood pressure, but that same guideline
 **explicitly excludes people whose kidneys cannot excrete potassium** [@who2012potassium]. In advanced CKD, a
 potassium load the healthy kidney would clear can instead accumulate to a dangerous level and disturb the heart
 rhythm [@hunter2019hyperkalemia]. The field is moving away from blanket fruit-and-vegetable bans toward
-**individualised, blood-level-guided** advice — whole-food potassium is handled differently by the body than
-the number on a label suggests, and over-restriction worsens diet quality — but that individualising is a
+**individualised, blood-level-guided** advice: whole-food potassium is handled differently by the body than
+the number on a label suggests, and over-restriction worsens diet quality. But that individualising is a
 dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
 
 Two potassium hazards deserve to be recognised on sight, because they carry more risk than an ordinary
@@ -118,36 +118,36 @@ high-potassium food:
 ::: {.callout-warning}
 ## Two potassium traps: the salt substitute and the star fruit
 **The potassium salt substitute.** "Low-sodium" or "heart-healthy" salt swaps sodium chloride for *potassium*
-chloride. For most people that is a genuine cardiovascular lever — in a large trial it cut strokes and deaths —
+chloride. For most people that is a genuine cardiovascular lever, and in a large trial it cut strokes and deaths,
 but that trial **deliberately excluded people with serious kidney disease and those on potassium-raising drugs**
 (ACE inhibitors, ARBs, potassium-sparing diuretics), so its safety data do *not* cover CKD, where the swap can
 precipitate life-threatening hyperkalaemia [@neal2021ssass; @xu2024saltsubstitutes; @doorenbos2003saltsubstitute].
-This is the do-no-harm caveat the *Cardiovascular Disease & Hypertension* chapter signposted to this one — and
+This is the do-no-harm caveat the *Cardiovascular Disease & Hypertension* chapter signposted to this one, and
 here it lands.
 
 **Star fruit and belimbing (bilimbi).** These are not merely high in potassium: they carry a **neurotoxin**
 that healthy kidneys clear but failing ones cannot, causing confusion, seizures and death
-in CKD — with mortality reported in a third of intoxicated patients with kidney failure [@chua2017starfruit;
-@caetano2017bilimbi]. For a CKD patient these are an **absolute avoid**, not a portion-controlled food — a
+in CKD, with mortality reported in a third of intoxicated patients with kidney failure [@chua2017starfruit;
+@caetano2017bilimbi]. For a CKD patient these are an **absolute avoid**, not a portion-controlled food: a
 locally important warning, since both are common in Singapore gardens and juices [@nkfsEatingRightCKD].
 :::
 
 ## Phosphate: the source matters more than the number
 
-Retained phosphate is a quiet driver of CKD–mineral and bone disease, and the teaching point is that **the form
-matters more than the milligrams** [@kdigo2017ckdmbd; @gonzalezparra2012phosphorus]. Phosphate that occurs
-naturally in whole foods (meat, dairy, legumes) is only partly absorbed — roughly **40–60%**, and less from
-plant sources — whereas the **inorganic phosphate additives** used to preserve and enhance processed foods are
+Retained phosphate is a quiet driver of CKD–mineral and bone disease, and the form
+matters more than the milligrams [@kdigo2017ckdmbd; @gonzalezparra2012phosphorus]. Phosphate that occurs
+naturally in whole foods (meat, dairy, legumes) is only partly absorbed, roughly **40–60%**, and less from
+plant sources, whereas the **inorganic phosphate additives** used to preserve and enhance processed foods are
 absorbed almost completely, up to **~90–100%** [@noori2010phosphorus; @gonzalezparra2012phosphorus].
 
 ![Not all dietary phosphate is absorbed equally. Phosphate bound in plant foods (phytate) is the least available; the phosphate naturally in animal foods is partly absorbed; but the inorganic phosphate *additives* in processed foods are almost completely absorbed — and are often invisible on the label. Preferring fresh over processed, and scanning ingredient lists for "-PHOS" additives, is the real lever.](/figures/mechanisms/phosphate-absorption.svg){#fig-phosphate width="80%" fig-align="center"}
 
-The catch is that these additives are often **not on the label**: "enhanced" meats and many processed products
+The catch is that these additives are often **not on the label**. "Enhanced" meats and many processed products
 carry a large hidden phosphate load, so reading the printed phosphorus number badly under-counts what is
 actually absorbed [@sherman2009enhancedmeat; @stjules2017phosphateadditive]. The practical lever is to prefer
 **fresh over processed** and to scan ingredient lists for additives ending in "**-PHOS**"
-[@bump2016organicphosphorus; @gutierrez2013phosphateadditives]. Whether phosphate then needs a **binder** — a
-drug taken with meals — is a specialist decision, and the bone side of CKD–mineral and bone disease (calcium,
+[@bump2016organicphosphorus; @gutierrez2013phosphateadditives]. Whether phosphate then needs a **binder** (a
+drug taken with meals) is a specialist decision, and the bone side of CKD–mineral and bone disease (calcium,
 vitamin D, PTH, fracture risk) belongs to the *Bone & Joint Health* chapter [@tsuchiya2021phosphate;
 @ketteler2025ckdmbd].
 
@@ -157,7 +157,7 @@ The renal-diet traps in Singapore's food environment are specific and local. Hig
 milk/kaya, durian, bananas, kangkong, dhal, essence of chicken, stock cubes, Milo/Horlicks-type malt drinks,
 and strong kopi or teh**. High-additive-phosphate: **luncheon and canned meat, sausages, meat patties,
 processed cheese, malt drinks and colas**. Dietitians teach a **leaching** trick for vegetables (soak cut
-pieces, then boil and discard the water) to lower potassium — but the *amounts* are individualised, so the
+pieces, then boil and discard the water) to lower potassium, but the *amounts* are individualised, so the
 generalist's job is to **flag these and refer**, not to hand out quantities [@nkfsEatingRightCKD].
 :::
 
@@ -165,7 +165,7 @@ generalist's job is to **flag these and refer**, not to hand out quantities [@nk
 
 Fluid is the lever generalists most often over-apply. Early CKD usually needs **no** fluid restriction; limits
 matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain between
-sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. There is no universal number — a
+sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. There is no universal number. A
 fluid target is individualised and set by the renal team. The generalist's job is to **recognise the signs of
 overload, tie thirst to salt intake, and refer**, not to prescribe a millilitre limit.
 
@@ -174,10 +174,10 @@ overload, tie thirst to salt intake, and refer**, not to prescribe a millilitre 
 Once CKD is confirmed, individualised nutrition *is* the treatment, and it is dietitian-led. Refer when eGFR is
 falling or in the lower stages (roughly G3b and below), when CKD coexists with diabetes, when potassium or
 phosphate blood levels are abnormal, when there is weight loss or any sign of protein-energy wasting, and at
-the start of dialysis — in short, whenever the advice needed exceeds general healthy eating [@kdoqi2020nutrition;
+the start of dialysis: in short, whenever the advice needed exceeds general healthy eating [@kdoqi2020nutrition;
 @aceCKD2023]. In Singapore the National Kidney Foundation provides most subsidised dialysis and runs the renal
-patient-education that a referral plugs into [@mohNkfDialysis2026; @nkfsEatingRightCKD]. The wider referral map
-— who does what across the multidisciplinary team — is the subject of later teaching on interprofessional
+patient-education that a referral plugs into [@mohNkfDialysis2026; @nkfsEatingRightCKD]. The wider referral map,
+who does what across the multidisciplinary team, is the subject of later teaching on interprofessional
 practice and referral.
 
 ## The Singapore picture
@@ -185,7 +185,7 @@ practice and referral.
 **The burden is a diabetes story.** Singapore has one of the highest rates of diabetes-driven kidney failure
 in the world: about **6 people a day** start treatment for kidney failure, over **9,000** are on dialysis, and
 roughly **2 in 3** new cases are due to diabetes [@nkfsKeyStats; @leo2020dialysissg]. Local CKD prevalence
-tracks the cardiometabolic drivers closely — far higher in people with diabetes or hypertension than without —
+tracks the cardiometabolic drivers closely, far higher in people with diabetes or hypertension than without,
 and is projected to rise toward **1 in 4 residents** as those conditions climb [@ho2024stemmingckd;
 @wong2018ckdprojection]. This is the population counterpart to the individual renal diet: the biggest kidney
 win is made years upstream.
@@ -194,32 +194,32 @@ win is made years upstream.
 on Diabetes** is simultaneously the country's most important CKD-prevention strategy [@mohWarOnDiabetes], and
 the international **Cardiovascular-Kidney-Metabolic** framing is the scaffold that unifies this chapter with the
 three before it [@ahaCKM2023]. National **ACE guidance** on CKD aligns to the same heat-map staging and is
-pragmatic about referral — not every patient needs a dietitian, but those with complex needs do [@aceCKD2023].
+pragmatic about referral: not every patient needs a dietitian, but those with complex needs do [@aceCKD2023].
 
 **The flavour clash is real, and it drives poor intake.** A low-salt, potassium-aware, low-additive-phosphate
-diet runs against a flavour-dense hawker palate built on soy, sambal, coconut and preserved dishes — a genuine
+diet runs against a flavour-dense hawker palate built on soy, sambal, coconut and preserved dishes: a genuine
 reason patients struggle to eat well and slide toward wasting, and another reason the plan needs a dietitian
 who can adapt it to how people actually eat [@carrero2013pewetiology].
 
 ::: {.callout-important}
-## You recognise the levers — you don't prescribe the renal diet
-There is no renal-diet prescription to memorise here, and that is the point. The five levers — protein, sodium,
-potassium, phosphate, fluid — are recognised, but the *quantities* are individualised to the patient's stage,
+## You recognise the levers, you don't prescribe the renal diet
+There is no renal-diet prescription to memorise here, and that is the point. The five levers (protein, sodium,
+potassium, phosphate, fluid) are recognised, but the *quantities* are individualised to the patient's stage,
 dialysis status and blood results by a renal dietitian [@kdoqi2020nutrition; @aceCKD2023]. The generalist's job
 is to reinforce the one safely reinforceable lever (**sodium**), avoid the **do-no-harm traps** (a potassium
-salt substitute or star fruit in the wrong patient), watch for **wasting**, and **refer** — which is exactly
+salt substitute or star fruit in the wrong patient), watch for **wasting**, and **refer**, which is exactly
 the altitude this chapter is pitched at.
 :::
 
-## So — what does a "kidney diet" actually look like?
+## What does a "kidney diet" actually look like?
 
 It looks like a *dietitian*, not a list. A person with early CKD mostly needs their diabetes and blood pressure
-controlled and their salt cut — the ordinary heart-healthy plate, done well. As the disease advances, the diet
+controlled and their salt cut: the ordinary heart-healthy plate, done well. As the disease advances, the diet
 becomes a careful, individualised balance: enough protein and energy to avoid wasting but not so much as to
 overload failing kidneys; potassium and phosphate managed to blood levels rather than banned; fluid limited
-only when overload appears — all of it tuned to the person and their stage. The generalist recognises the five
+only when overload appears, all of it tuned to the person and their stage. The generalist recognises the five
 levers, reinforces sodium, sidesteps the potassium traps, watches for wasting, and refers. With that, the
-cardiometabolic-renal cascade is complete — and the book turns from the diseases of *too much* to the other
+cardiometabolic-renal cascade is complete, and the book turns from the diseases of *too much* to the other
 tail of malnutrition: *too little*.
 
 ## Check your understanding
@@ -228,12 +228,14 @@ tail of malnutrition: *too little*.
 
 ## Practise: Uncle Lim and the "eat more banana" advice
 
-Uncle Lim is 62, has had type 2 diabetes for twelve years, and his kidney function has slipped — his eGFR is
+Uncle Lim is 62, has had type 2 diabetes for twelve years, and his kidney function has slipped. His eGFR is
 38 with heavy protein in the urine, and he is on an ACE inhibitor. He arrives with a printout from a well-meaning
 friend: *"Doctor, it says I should eat more banana for my heart, and switch to this low-sodium salt — good or
 not?"* Later he mentions he has started skipping meals because he read that "low protein saves the kidneys,"
 and asks what single change would help most. Work through the visit: classify his risk, handle the potassium
-and salt-substitute trap safely, catch the protein mistake, pick the one lever you can reinforce — and notice
+and salt-substitute trap safely, catch the protein mistake, pick the one lever you can reinforce, and notice
 where prescribing a number, rather than referring, would be the wrong reflex. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/mr-lim-ckd.case.yml"></div>
+</content>
+</invoke>

@@ -1,14 +1,15 @@
 # Macronutrients: carbohydrate, fat, protein and fibre
 
-> *The energy-yielding nutrients — but the recurring lesson is that **quality**, not just
-> quantity, drives health. Same kilocalories can mean very different physiology.*
+> *Carbohydrate, fat and protein are the nutrients that supply energy. Yet two plates with
+> the same kilocalories can mean very different physiology, because quality drives health as
+> much as quantity does.*
 
 ## The macronutrients at a glance
 
-Macronutrients are the nutrients we need in **gram quantities** and the ones that supply
-**energy**. There are three — carbohydrate, fat and protein — plus **dietary fibre**, a
-carbohydrate we mostly *don't* digest, which we'll meet alongside the carbohydrates it
-travels with. Their energy yields:
+Macronutrients are the nutrients we need in **gram quantities**, and the ones that supply
+**energy**. There are three, carbohydrate, fat and protein, plus **dietary fibre**, a
+carbohydrate we mostly *don't* digest, which we meet alongside the carbohydrates it travels
+with. Their energy yields:
 
 | Macronutrient | Energy (kcal/g) | Headline role |
 |---|---|---|
@@ -16,24 +17,23 @@ travels with. Their energy yields:
 | Fat | ~9 | Energy store, cell membranes, essential fatty acids |
 | Protein | ~4 | Structure, enzymes, immune & transport functions |
 | Fibre | ~2 | Fermented by gut microbes; not a fuel in the usual sense |
-| *(Alcohol)* | *~7* | *Not a nutrient — empty energy, shown for contrast* |
+| *(Alcohol)* | *~7* | *Not a nutrient; empty energy, shown for contrast* |
 
 Fat is the most energy-dense, which is why fat-rich foods raise total intake quickly. But
 energy density is only part of the story. The question that matters clinically is almost
-never *"how many grams?"* — it is *"what kind, from what food?"*
+never *"how many grams?"* It is *"what kind, from what food?"*
 
 ::: {.callout-important}
-## The one idea to carry out of this chapter
+## The one idea to carry forward
 "Are carbs bad? Is fat bad?" are **malformed questions**. The health effect of a
 macronutrient depends on its **form and food source**, not a single good/bad label. Hold
-this thought — we will return to it at the end.
+this thought; the closing section returns to it.
 :::
 
-**How we'll take each one.** For carbohydrate, fat and protein we ask the same four
-questions — *what is it, what does it do, what happens to it in the body,* and *how do we
-choose and cook it well?* Watch for three recurring boxes that turn the science into
-practice: 🔬 **Food science** (the chemistry), 🍜 **Eating out** (choices in Singapore's
-food environment), and 🍳 **Healthy kitchen** (cooking at home).
+For carbohydrate, fat and protein we ask the same four questions: *what is it, what does it
+do, what happens to it in the body,* and *how do we choose and cook it well?* Three recurring
+boxes turn the science into practice: 🔬 **Food science** (the chemistry), 🍜 **Eating out**
+(choices in Singapore's food environment), and 🍳 **Healthy kitchen** (cooking at home).
 
 ## Carbohydrate
 
@@ -42,29 +42,29 @@ more than the word "carb":
 
 > **free sugars / refined starches  →  intact whole grains + fibre**
 
-- **Free sugars** — added sugars plus those in syrups and fruit juices — are the
-  carbohydrate to *limit*. The WHO caps them at **<10% of energy**, with further benefit
-  below 5% [@who2020diet]. (The natural sugar inside *whole* fruit is **not** a free sugar
-  and is not the target.)
+- **Free sugars**, added sugars plus those in syrups and fruit juices, are the carbohydrate
+  to *limit*. The WHO caps them at **<10% of energy**, with further benefit below 5%
+  [@who2020diet]. (The natural sugar inside *whole* fruit is **not** a free sugar and is not
+  the target.)
 - **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
 - **Whole grains and fibre** sit at the protective end.
 
-![Whatever their source, digestible carbohydrates are broken down to simple sugars — chiefly **glucose**, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
+![Whatever their source, digestible carbohydrates are broken down to simple sugars, chiefly **glucose**, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
 
 **The molecules underneath.** Every digestible carbohydrate is a chain of simple sugars, and
 the *length and shape* of that chain decide how fast it becomes blood glucose.
 
-![The same sugar unit, linked differently. Short chains give mono- and disaccharides, long chains give polysaccharides — and among the polysaccharides, a *straight* **amylose** chain (few ends) digests slowly for a gentler glucose rise, while a *branched* **amylopectin** chain (many ends) digests fast for a higher spike. **Cellulose** — dietary fibre — is held together by β-links no human enzyme can cut, so it passes through. Shape, not just size, sets the response.](/figures/structures/carbohydrate-chains.svg){#fig-carb-chains fig-alt="Schematic of sugar units drawn as beads: one bead is a monosaccharide, two a disaccharide, many a polysaccharide; then a straight amylose chain, a branched amylopectin chain, and a beta-linked cellulose chain." width="520"}
+![The same sugar unit, linked differently. Short chains give mono- and disaccharides, long chains give polysaccharides; and among the polysaccharides, a *straight* **amylose** chain (few ends) digests slowly for a gentler glucose rise, while a *branched* **amylopectin** chain (many ends) digests fast for a higher spike. **Cellulose**, dietary fibre, is held together by β-links no human enzyme can cut, so it passes through. Shape, not just size, sets the response.](/figures/structures/carbohydrate-chains.svg){#fig-carb-chains fig-alt="Schematic of sugar units drawn as beads: one bead is a monosaccharide, two a disaccharide, many a polysaccharide; then a straight amylose chain, a branched amylopectin chain, and a beta-linked cellulose chain." width="520"}
 
-The single units — **monosaccharides** — are **glucose** (the body's fuel), **fructose**
+The single units, **monosaccharides**, are **glucose** (the body's fuel), **fructose**
 (fruit sugar, handled mainly by the liver) and **galactose** (from milk); two joined make a
-**disaccharide** (**sucrose**; **lactose**, whose bond many adults can no longer split — hence
+**disaccharide** (**sucrose**; **lactose**, whose bond many adults can no longer split, hence
 lactose intolerance; and **maltose**). What matters most is how the *polysaccharides* are
 shaped: rice, bread and potato are mostly **starch**, part slow-digesting **amylose** and part
 fast-digesting **amylopectin** (**glycogen**, the animal store, is amylopectin taken further),
 while **cellulose** is the indigestible fibre. This is why the *same* grain can differ:
 glutinous ("sticky") rice is almost pure amylopectin and spikes glucose sharply, while
-high-amylose **basmati** sits lower — though ordinary white rice is high-GI too (~70+), so the
+high-amylose **basmati** sits lower, though ordinary white rice is high-GI too (~70+), so the
 amylose advantage is real but relative [@atkinson2021gitables; @cai2021starchstructure].
 
 **What it does.** Carbohydrate is the body's main everyday fuel. Glucose powers the brain
@@ -83,14 +83,14 @@ Integrative Metabolism chapter.)*
 **Quality: not all carbohydrate is equal.** In a major series of meta-analyses, higher fibre
 and whole-grain intake was associated with roughly **15–30% lower** all-cause and
 cardiovascular mortality and lower rates of coronary disease, stroke, type 2 diabetes and
-colorectal cancer — with benefit strengthening up to about **25–29 g of fibre a day**
+colorectal cancer, with benefit strengthening up to about **25–29 g of fibre a day**
 [@reynolds2019carb].
 
 ::: {.callout-warning}
 ## How strong is the fibre evidence?
-Mostly **prospective cohort** studies plus some trials — so the certainty is *moderate at
+Mostly **prospective cohort** studies plus some trials, so the certainty is *moderate at
 best* for fibre, and lower for whole grains and for glycaemic index/load. These are
-**associations**, not proof of cause. Teach the benefit; keep the caveat attached.
+**associations**, not proof of cause. The benefit is real, but keep the caveat attached.
 :::
 
 ### Glycaemic index and glycaemic load
@@ -100,12 +100,12 @@ ranks a food by how much a portion containing **50 g of available carbohydrate**
 blood glucose over about two hours, relative to pure glucose (set at **100**)
 [@atkinson2021gitables]. Lower-GI foods give a gentler, slower rise:
 
-- **Low GI:** ≤55 — most legumes, intact whole grains, most whole fruit, milk
-- **Medium GI:** 56–69 — basmati rice, sweet potato
-- **High GI:** ≥70 — white rice, white bread, glucose (= 100)
+- **Low GI:** ≤55, most legumes, intact whole grains, most whole fruit, milk
+- **Medium GI:** 56–69, basmati rice, sweet potato
+- **High GI:** ≥70, white rice, white bread, glucose (= 100)
 
-But GI has a blind spot: it fixes the carbohydrate at 50 g — a portion you may never
-actually eat. **Glycaemic load (GL)** corrects for this by scaling GI to the *real* serving:
+GI has a blind spot: it fixes the carbohydrate at 50 g, a portion you may never actually eat.
+**Glycaemic load (GL)** corrects for this by scaling GI to the *real* serving:
 
 $$ \text{GL} = \frac{\text{GI} \times \text{available carbohydrate (g) per serving}}{100} $$
 
@@ -114,14 +114,14 @@ graded **low ≤10, medium 11–19, high ≥20** per serving. GL therefore captu
 
 ::: {.callout-tip}
 ## The watermelon trick
-Watermelon has a **high GI (~76)** — yet a normal slice holds only ~6 g of carbohydrate, so
+Watermelon has a **high GI (~76)**, yet a normal slice holds only ~6 g of carbohydrate, so
 its **GL is ~5 (low)**. A small portion of a high-GI food can be a low-load choice. The
-reverse also holds: a *low*-GI noodle like *bee hoon* becomes a **high**-GL plate at hawker
-portions. So "high GI = avoid" is the wrong shortcut — **both quality and portion matter.**
+reverse also holds: a low-GI noodle like *bee hoon* becomes a **high**-GL plate at hawker
+portions. "High GI = avoid" is the wrong shortcut, because **both quality and portion matter.**
 :::
 
-Explore the relationship below. Pick a food — its GI sets the **height** of the glucose
-curve — then drag the portion, which grows the **shaded area** (the glycaemic load). Switch
+Explore the relationship below. Pick a food, and its GI sets the **height** of the glucose
+curve; then drag the portion, which grows the **shaded area** (the glycaemic load). Switch
 on **Compare** to see the watermelon-versus-potato paradox: near-identical peaks, very
 different areas.
 
@@ -130,22 +130,22 @@ different areas.
 A few caveats keep GI in proportion: it is **not** a measure of healthiness
 (chocolate is low-GI); a food has **no single fixed GI** (ripeness, processing, cooking and
 the rest of the meal all shift it); and the evidence linking GI/GL to hard outcomes is the
-*weakest* strand of carbohydrate-quality research — **low to very low certainty**, well
+*weakest* strand of carbohydrate-quality research, **low to very low certainty**, well
 below fibre and whole grains [@reynolds2019carb]. For most patients the practical message
 is not a GI number but the familiar one: favour **whole, intact, fibre-rich** carbohydrates
-in **sensible portions** — the wholegrain quarter of My Healthy Plate [@hpbHealthyPlate].
+in **sensible portions**, the wholegrain quarter of My Healthy Plate [@hpbHealthyPlate].
 
-![Brown rice keeps its bran and germ — more fibre and a gentler glucose rise than white rice. Photo: Ceeseven, CC BY-SA 4.0.](/figures/food/brown-rice.jpg){#fig-brown-rice fig-alt="A bowl of cooked brown rice." width="320" .lightbox}
+![Brown rice keeps its bran and germ: more fibre and a gentler glucose rise than white rice. Photo: Ceeseven, CC BY-SA 4.0.](/figures/food/brown-rice.jpg){#fig-brown-rice fig-alt="A bowl of cooked brown rice." width="320" .lightbox}
 
 ### From science to plate
 
 ::: {.callout-note}
 ## 🔬 Food science: what cooking does to starch
-Cooking **gelatinises** starch — granules swell and become easier to digest, so more-cooked,
+Cooking **gelatinises** starch: granules swell and become easier to digest, so more-cooked,
 finely-milled starch raises glucose faster [@cai2021starchstructure]. Cook a starchy food
 and then **chill it**, and some starch *retrogrades* into **resistant starch**, which
-escapes digestion and behaves partly like fibre. Real, but modest — a refinement of "quality
-over quantity," not a way to make white rice "low-carb."
+escapes digestion and behaves partly like fibre. The effect is real but modest, a refinement
+of "quality over quantity," not a way to make white rice "low-carb."
 :::
 
 ::: {.callout-tip}
@@ -165,7 +165,7 @@ potato to raise resistant starch [@sonia2015rice]; and choose **intact whole gra
 
 ### Fibre: the carbohydrate we don't digest
 
-**What it is.** Dietary fibre is carbohydrate the small intestine cannot digest —
+**What it is.** Dietary fibre is carbohydrate the small intestine cannot digest:
 **soluble** (viscous; oats, legumes, some fruit) and **insoluble** (bulking; wholegrain
 bran, vegetable skins), much of it **fermentable** by gut bacteria.
 
@@ -176,10 +176,10 @@ associations with lower disease risk (the evidence above) [@reynolds2019carb]. *
 ferment fibre into short-chain fatty acids → the Gut Microbiome chapter.)*
 
 ::: {.callout-note}
-## 🔬 Food science: the food matrix — why whole beats juiced
+## 🔬 Food science: the food matrix, why whole beats juiced
 Fibre isn't just *in* a food; it is part of the food's **structure**. Juicing or finely
 blending fruit tears open the plant cell walls that caged the sugars, so the *same* fruit
-raises glucose faster as juice than eaten whole — and a glass of juice carries several fruits'
+raises glucose faster as juice than eaten whole, and a glass of juice carries several fruits'
 worth of sugar with little of the fibre. Intact cell walls slow sugar release; milling grain
 into fine flour destroys them, part of why wholegrains beat refined starch.
 :::
@@ -187,7 +187,7 @@ into fine flour destroys them, part of why wholegrains beat refined starch.
 ::: {.callout-tip}
 ## 🍜 Eating out
 Order **whole fruit** rather than bottled or freshly-pressed **juice**, and add a **vegetable
-or bean side** — a scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur* — to lift the
+or bean side**, a scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to lift the
 fibre of an otherwise refined-starch plate.
 :::
 
@@ -207,7 +207,7 @@ and stir **beans, lentils or rolled oats** into everyday dishes for an easy fibr
 - ***Trans* fat** is the clearest harm. WHO recommends **<1% of energy** and elimination of
   industrial sources [@who2020diet].
 - **Saturated fat** raises LDL cholesterol (the "bad" cholesterol); the practical move is to
-  **replace it with unsaturated fat** — not with refined carbohydrate.
+  **replace it with unsaturated fat**, rather than with refined carbohydrate.
 - **Mono- and polyunsaturated fats** (olive oil, nuts, fish) are the ones to favour;
   omega-3 and omega-6 are *essential* fatty acids the body cannot make.
 
@@ -215,24 +215,25 @@ and stir **beans, lentils or rolled oats** into everyday dishes for an easy fibr
 
 **The molecules underneath.** A **fatty acid** is a hydrocarbon chain (a water-hating tail)
 capped by a carboxyl group, –COOH (a water-loving head). Three variables generate every
-dietary fat: **chain length** (short-, medium- and long-chain — medium-chain fats are
-absorbed more directly, the point of "MCT" oils); **saturation** (**saturated** = no double
-bonds, so straight chains that pack tightly and stay solid; **mono-** and **polyunsaturated**
-= one or more double bonds); and **geometry** (a **cis** bond kinks the chain — liquid oils —
-while a **trans** bond leaves it nearly straight, so trans fat behaves like a saturated one).
-A separate **omega** count runs from the tail end: the two *essential* fatty acids the body
-cannot make are **linoleic acid** (an omega-6) and **α-linolenic acid** (an omega-3).
+dietary fat. **Chain length** runs from short- through medium- to long-chain, and medium-chain
+fats are absorbed more directly, the point of "MCT" oils. **Saturation** distinguishes
+**saturated** fats (no double bonds, so straight chains that pack tightly and stay solid) from
+**mono-** and **polyunsaturated** fats (one or more double bonds). **Geometry** matters too: a
+**cis** bond kinks the chain, giving liquid oils, while a **trans** bond leaves it nearly
+straight, so trans fat behaves like a saturated one. A separate **omega** count runs from the
+tail end: the two *essential* fatty acids the body cannot make are **linoleic acid** (an
+omega-6) and **α-linolenic acid** (an omega-3).
 
 Fatty acids rarely travel alone. Three of them esterified onto a glycerol backbone make a
-**triglyceride** — the main form of dietary and stored fat (and what the ~9 kcal/g refers
+**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers
 to). Swap one fatty acid for a phosphate head and you get an **amphipathic phospholipid**,
-which self-assembles into the **lipid bilayer** of every cell membrane — so fat is
-architecture, not just fuel. **Cholesterol** is a different, ring-shaped **sterol** that
+which self-assembles into the **lipid bilayer** of every cell membrane, so fat is
+architecture as well as fuel. **Cholesterol** is a different, ring-shaped **sterol** that
 stabilises membranes and is the precursor of steroid hormones, bile acids and vitamin D. (The
 cholesterol *in food* is a weaker lever on blood cholesterol than saturated and *trans* fat
 are [@carson2020cholesterol].) Because fats don't dissolve in blood, they ride inside
-**lipoproteins** — chylomicrons, VLDL, **LDL** (delivers cholesterol; drives atherosclerosis
-when it builds up) and **HDL** — whose handling we defer to the Integrative Metabolism chapter.
+**lipoproteins**: chylomicrons, VLDL, **LDL** (delivers cholesterol; drives atherosclerosis
+when it builds up) and **HDL**, whose handling we defer to the Integrative Metabolism chapter.
 
 ![The major dietary lipids, as conventionally drawn. All are built from fatty acids: a **fatty acid** is a hydrocarbon chain with a carboxyl head (the kink here is a *cis* double bond); three of them esterified onto a glycerol backbone make a **triglyceride** (the storage and dietary fat); swapping one for a phosphate–choline head gives an amphipathic **phospholipid** (the membrane builder); and **cholesterol** is a rigid four-ring **sterol**. Different structures, different jobs.](/figures/structures/lipid-classes.svg){#fig-lipid-classes fig-alt="Skeletal structures of four lipids, each labelled: cholesterol (four fused rings), a free fatty acid (a chain with a cis kink and a carboxyl group), a triglyceride (three fatty-acid chains on a glycerol backbone), and a phospholipid (two chains plus a phosphate–choline head)." width="430"}
 
@@ -252,9 +253,9 @@ Integrative Metabolism chapter.)*
 
 ::: {.callout-note}
 ## "Low fat" can backfire
-Chasing "low fat" often means swapping fat for refined starch or sugar — frequently a
+Chasing "low fat" often means swapping fat for refined starch or sugar, frequently a
 *worse* trade. The target is fat **quality**, and the replacement nutrient matters. *(Where
-saturated fat sits within a whole food — dairy versus processed meat — is an area of genuine
+saturated fat sits within a whole food, dairy versus processed meat, is an area of genuine
 ongoing scientific debate [@astrup2020satfat]; the message stays simple: replace
 with unsaturated and whole foods.)*
 :::
@@ -262,10 +263,10 @@ with unsaturated and whole foods.)*
 ### Seeing the difference: *cis*, *trans* and saturated
 
 Oleic acid (olive oil) and elaidic acid (the classic industrial *trans* fat) contain the
-**same atoms** — they differ only in the geometry of one double bond. Start with the **2D
+**same atoms**; they differ only in the geometry of one double bond. Start with the **2D
 formula**, then rotate the **3D** model, and add **stearic acid** (a saturated fat) for
 comparison. A single **cis** bond kinks the chain, keeping unsaturated fats liquid; the
-**trans** bond leaves the chain almost straight, so — like fully saturated stearic acid — it
+**trans** bond leaves the chain almost straight, so, like fully saturated stearic acid, it
 packs tightly and behaves like a solid fat. The bend from one cis bond is modest;
 polyunsaturated fats, with several cis bonds, are far more kinked. The shape *is* the
 explanation.
@@ -277,9 +278,9 @@ explanation.
 ::: {.callout-note}
 ## 🔬 Food science: geometry and oxidation
 The *cis* kink you just rotated is why olive oil is liquid and *trans*/saturated fats are
-more solid — and why *trans* fat behaves like saturated fat in the body. Heat matters too:
+more solid, and why *trans* fat behaves like saturated fat in the body. Heat matters too:
 overheating oil past its smoke point, or **reusing frying oil** repeatedly, oxidises it into
-polar compounds and aldehydes — and the more polyunsaturated the oil, the faster it happens.
+polar compounds and aldehydes, and the more polyunsaturated the oil, the faster it happens.
 :::
 
 ::: {.callout-tip}
@@ -294,7 +295,7 @@ chicken skin**; and choose **fish** as a protein when you can. Be aware that som
 ## 🍳 Healthy kitchen
 Cook with **unsaturated oils** and don't heat them until they smoke; **don't reuse frying
 oil** again and again; and reach for **steaming, boiling or a light stir-fry** over
-deep-frying — fried foods draw in oil and energy, and frequent intake tracks with higher
+deep-frying. Fried foods draw in oil and energy, and frequent intake tracks with higher
 type 2 diabetes and heart-failure risk [@gadiraju2015fried].
 :::
 
@@ -302,12 +303,12 @@ type 2 diabetes and heart-failure risk [@gadiraju2015fried].
 
 **What it is.** Protein is a polymer of **amino acids**, and every amino acid is built on one
 plan: a central carbon carrying an **amino group** (–NH₂), a **carboxyl group** (–COOH), a
-hydrogen, and a variable **side chain** — only the side chain differs between the ~20 amino
+hydrogen, and a variable **side chain**; only the side chain differs between the ~20 amino
 acids. About **nine are essential** (the body cannot make them, so they must come from the
 diet). Amino acids link by the **peptide bond** (a condensation reaction) into chains that
 fold at **four levels**: the **primary** sequence → local **secondary** patterns (α-helix,
 β-sheet) → the overall **tertiary** 3-D fold → **quaternary** assembly of several subunits
-(haemoglobin is four). *Sequence sets shape, and shape sets function* — a single amino-acid
+(haemoglobin is four). *Sequence sets shape, and shape sets function*: a single amino-acid
 change in haemoglobin's sequence causes sickle-cell disease.
 
 Rotate the real structures below to see two of these levels in actual proteins: **myoglobin**
@@ -317,16 +318,16 @@ folds a single chain (**tertiary**), and **haemoglobin** assembles four such cha
 <div data-island="protein" data-src="/structures/proteins.protein.yml"></div>
 
 A protein's **quality** reflects how well its amino acids match human needs and how digestible
-it is — captured by the metrics **PDCAAS** and its FAO-preferred successor **DIAAS**
+it is, captured by the metrics **PDCAAS** and its FAO-preferred successor **DIAAS**
 [@fao2013protein]. Animal proteins are typically "**complete**"; most single plant proteins
 are lower in one essential amino acid (cereals in lysine, legumes in methionine), so
 **complementary** pairings like *rice + dhal* cover each other's gaps across the day.
 
 ![L-alanine, a representative amino acid: an amino group (–NH₂), a carboxyl group (–COOH), and a variable side chain (here a methyl) that distinguishes one amino acid from another.](/figures/structures/l-alanine.svg){#fig-alanine fig-alt="Skeletal structure of the amino acid L-alanine." width="230"}
 
-**What it does.** Protein is the body's building and working material — **structure** (muscle,
+**What it does.** Protein is the body's building and working material: **structure** (muscle,
 collagen, skin), **enzymes**, antibodies, and transport and signalling molecules. Individual
-amino acids are also the **precursors** for other essential nitrogen-containing molecules —
+amino acids are also the **precursors** for other essential nitrogen-containing molecules,
 several **neurotransmitters** (e.g. serotonin, dopamine) and **hormones** (adrenaline, thyroid
 hormone) among them. Unlike carbohydrate and fat, it is not primarily an energy store: the
 body keeps only a small circulating **amino-acid pool** and turns its proteins over
@@ -340,19 +341,19 @@ into the portal blood. Cells use these to build their own proteins; surplus amin
 turned into glucose. *(Digestion in detail → the Digestion & Absorption chapter; amino-acid
 metabolism and nitrogen balance → the Integrative Metabolism chapter.)*
 
-**Quality: adequacy and completeness.** A useful population reference is about **0.8 g/kg/day**
-— adequate for most healthy adults, though needs rise in older age, illness and athletic
+**Quality: adequacy and completeness.** A useful population reference is about **0.8 g/kg/day**,
+adequate for most healthy adults, though needs rise in older age, illness and athletic
 training. Plant proteins arrive as a **package deal** with fibre and unsaturated fat, and
 protein has the highest **thermic effect** of the macronutrients, contributing modestly to
 energy expenditure and satiety.
 
-![Tofu — a plant protein that also brings unsaturated fat, with no cholesterol. Photo: yearofeats, CC BY 2.0.](/figures/food/tofu.jpg){#fig-tofu fig-alt="Cubes of fresh tofu." width="320" .lightbox}
+![Tofu, a plant protein that also brings unsaturated fat, with no cholesterol. Photo: yearofeats, CC BY 2.0.](/figures/food/tofu.jpg){#fig-tofu fig-alt="Cubes of fresh tofu." width="320" .lightbox}
 
 ### From science to plate
 
 ::: {.callout-note}
 ## 🔬 Food science: heat, browning and protein
-Heat **denatures** protein — unfolding it so enzymes can reach it — which usually makes it
+Heat **denatures** protein, unfolding it so enzymes can reach it, which usually makes it
 *easier* to digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%)
 [@evenepoel1998egg]. But the high-heat **Maillard** browning that adds flavour has a
 downside: in starchy foods it forms **acrylamide**, a genotoxic carcinogen of concern
@@ -362,7 +363,7 @@ evidence is inconclusive [@nciCookedMeats].
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-Favour **lean or plant proteins** — fish, *tofu*/*tau kwa*, *dhal*, eggs, skinless chicken —
+Favour **lean or plant proteins**, fish, *tofu*/*tau kwa*, *dhal*, eggs, skinless chicken,
 over fatty or **processed meats**, and go easy on heavily **charred** satay or barbecue.
 :::
 
@@ -377,14 +378,14 @@ high-heat by-products.
 
 Modern guidelines have moved decisively from "hit this macronutrient ratio" to **"eat these
 foods, in this pattern"** [@aha2021diet]. There is **no single ideal macronutrient split**;
-guidelines deliberately avoid prescribing one and advise individualising — and referring to
+guidelines deliberately avoid prescribing one and advise individualising, and referring to
 a dietitian where needed [@ada2024care]. The consistent themes are: favour whole grains,
 plants and unsaturated fats; minimise added sugar, *trans* fat, sodium and ultra-processed
 foods.
 
 ## The Singapore picture
 
-You have met Singapore's everyday tools per nutrient — **My Healthy Plate** ("quarter,
+You have met Singapore's everyday tools per nutrient: **My Healthy Plate** ("quarter,
 quarter, half": ¼ wholegrains, ¼ protein, ½ fruit and vegetables) [@hpbHealthyPlate] and
 **Nutri-Grade** A–D drink labels [@hpbNutriGrade]. The population picture shows why they
 matter: the National Nutrition Survey 2022 found only about **4% of staples** eaten are
@@ -393,11 +394,11 @@ intake, and most residents exceed the sodium target [@mohNNS2022]. The gap betwe
 science recommends and what a nation actually eats is exactly where a brown-rice swap, a
 less-oily order, and a plainer drink earn their keep.
 
-## So — are carbs bad?
+## Are carbs bad?
 
 Put it together. The question dissolves once you ask *which carbohydrate, from what food?*
 A bowl of sugary drink and white rice, and a bowl of brown rice with vegetables and fish,
-are both "carbs" — and they are not remotely the same for health. Your job here is to
+are both "carbs," and they are not remotely the same for health. The task here is to
 give **quality** guidance ("more wholegrains, fewer free sugars, better fat"), anchor it to
 My Healthy Plate, and **refer to a dietitian** when a patient wants a restrictive or
 therapeutic diet [@ada2024care]. Resist prescribing grams; that comes later [@crowley2019].
@@ -408,7 +409,7 @@ therapeutic diet [@ada2024care]. Resist prescribing grams; that comes later [@cr
 
 ## Practise: common questions in one clinic
 
-Mr Lim arrives with a handful of everyday questions — about rice, cooking oils, eggs and his
+Mr Lim arrives with a handful of everyday questions, about rice, cooking oils, eggs and his
 son's protein powder. Answer each on quality-over-quantity terms, correct the myths,
 and know when to refer. Your choices branch the case.
 

@@ -1,52 +1,52 @@
 # Pregnancy & lactation
 
-> Pregnancy remodels a woman's body on its own — expanding her blood, retuning her insulin,
-> doubling how much calcium she absorbs. The clinician's job is not to micromanage that machinery
-> but to know the few things that genuinely matter, counsel them well, and recognise when to refer.
+> Pregnancy remodels a woman's body on its own, expanding her blood, retuning her insulin,
+> doubling how much calcium she absorbs. The clinician's task is to know the few things that
+> genuinely matter, counsel them well, and recognise when to refer.
 
 ## Pregnancy at a glance: two drivers
 
 Almost everything in this chapter can be read through one lens. Pregnancy changes a woman's
-nutrition through **internal drivers** — the automatic physiology of placental hormones, an
-expanding blood volume, a deliberate slide into insulin resistance, a gut that suddenly absorbs
-calcium twice as well — set against **external levers** the woman and her clinician can actually
-pull: what she eats, how she moves, the screening she is offered, and the foods she avoids.
+nutrition through **internal drivers**: the automatic physiology of placental hormones, an
+expanding blood volume, a deliberate slide into insulin resistance, and a gut that suddenly absorbs
+calcium twice as well. Set against these are **external levers** the woman and her clinician can
+actually pull: what she eats, how she moves, the screening she is offered, and the foods she avoids.
 
-Hold that pairing and the counter-intuitive facts stop being surprising: calcium needs barely rise
-*because* absorption doubles; a mid-pregnancy haemoglobin falls *because* plasma outpaces red cells;
-gestational diabetes appears *because* a normal insulin-resistant adaptation outruns the pancreas.
-The dial below lets you watch the requirements move — and spot the ones that don't.
+Hold that pairing and the counter-intuitive facts stop being surprising. Calcium needs barely rise
+because absorption doubles; a mid-pregnancy haemoglobin falls because plasma outpaces red cells;
+gestational diabetes appears when a normal insulin-resistant adaptation outruns the pancreas.
+The dial below lets you watch the requirements move, and spot the ones that don't.
 
 <div data-island="requirement-dial" data-src="/diagrams/requirement-dial.yml"></div>
 
 ## Before pregnancy: the real starting line
 
 The most important nutrition window opens **before conception**. The neural tube closes by about
-**28 days** — often before a woman knows she is pregnant — so **folic acid has to be running
+**28 days**, often before a woman knows she is pregnant, so **folic acid has to be running
 already**: ~400 µg/day for most, but **4–5 mg/day** for higher-risk women (a previous
 neural-tube-defect pregnancy, diabetes, obesity, or certain anticonvulsants) [@mrc1991folate;
 @czeizel1992folate]. The same window is where weight and blood-glucose are best optimised and where
 teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception]. Much of good
 antenatal nutrition is really *pre*-natal.
 
-## Energy: "eating for two" is a myth — until lactation
+## Energy: "eating for two" is a myth until lactation
 
-The oldest myth is that pregnancy doubles a woman's food needs. In fact the energy cost is
+The oldest myth is that pregnancy doubles a woman's food needs. The energy cost is in fact
 **modest and back-loaded**: roughly **nothing extra** in the first trimester, about **+340 kcal/day**
-in the second and **+450 kcal/day** in the third — and measured expenditure often rises even less
+in the second and **+450 kcal/day** in the third, and measured expenditure often rises even less
 than that [@savard2020energy]. It is one extra snack, not a second dinner.
 
 **Lactation is the one stage where the phrase nearly earns its keep.** Making milk costs ~670 kcal a
 day; about 170 come from the fat a woman laid down in pregnancy, leaving a *net* extra requirement of
-roughly **450–500 kcal/day**, with more fluid too [@faoEnergy2004]. Pregnancy fat gain, in other
-words, is the biological down-payment for breastfeeding.
+roughly **450–500 kcal/day**, with more fluid too [@faoEnergy2004]. Pregnancy fat gain is the
+biological down-payment for breastfeeding.
 
 **Weight gain is a target, not a free-for-all.** Healthy gain depends on pre-pregnancy BMI
 (underweight ~12.5–18 kg, normal ~11.5–16, overweight ~7–11.5, obese ~5–9) [@iom2009gwg], and the
 risk is **U-shaped**: too little raises the chance of a small or preterm baby, too much of a large
-baby and a caesarean — yet only about a third of women land in range [@goldstein2017gwg]. Those
+baby and a caesarean, yet only about a third of women land in range [@goldstein2017gwg]. Those
 ranges rest on Western BMI cut-offs and may fit local women imperfectly, which Singapore data bear
-out [@ee2014gwgSG; @he2019gwgSG] — so treat them as a framework, not a verdict.
+out [@ee2014gwgSG; @he2019gwgSG], so treat them as a framework rather than a verdict.
 
 **Activity is the clean external lever.** For a woman without obstetric contraindications, about
 **150 minutes a week** of moderate activity lowers the risk of gestational diabetes, pre-eclampsia
@@ -55,12 +55,12 @@ and caesarean, and helps keep weight gain in range; a previously active woman ca
 
 ## The blood changes: dilution, not always deficiency
 
-A mid-pregnancy haemoglobin almost always falls — and it is usually **not** anaemia. Plasma volume
+A mid-pregnancy haemoglobin almost always falls, and it is usually **not** anaemia. Plasma volume
 expands by nearly **half**, outpacing the ~25% rise in red-cell mass, so the haemoglobin drops by
 **dilution** [@aguree2019plasma]. The lever is to use **pregnancy-specific cut-offs** and check
 **ferritin** before treating, rather than reflexively iron-loading every low number.
 
-That said, true **iron deficiency** is genuinely common — even here: about **three-quarters** of
+That said, true **iron deficiency** is genuinely common, even here: about **three-quarters** of
 Singaporean women are iron-deficient by the early third trimester [@loy2019ironSG]. Requirements rise
 for the expanding red-cell mass and the fetus's own stores, and daily oral iron (WHO: 30–60 mg with
 folic acid) reduces maternal anaemia and low birth weight [@penarosas2015iron]. The nutrient basics
@@ -68,52 +68,51 @@ sit in the *Micronutrients, Hydration & Electrolytes* chapter; here the practica
 **adherence**, because iron's gut side-effects are where supplementation quietly fails:
 
 - Take it with a **vitamin-C source**, and **away from tea, coffee and calcium**.
-- Consider **alternate-day dosing** — single doses every other day are absorbed *better* than daily
+- Consider **alternate-day dosing**: single doses every other day are absorbed *better* than daily
   divided ones and cause fewer gut symptoms [@stoffel2017Iron].
 - Expect **constipation** (progesterone already slows the gut, and iron compounds it); more fibre and
   fluid are first-line [@rungsiprakarn2015constipation].
 
 ## Early pregnancy: nausea, and the red flag behind it
 
-Nausea and vomiting affect most pregnancies in the first trimester — the flip side of "no extra
+Nausea and vomiting affect most pregnancies in the first trimester, the flip side of "no extra
 energy yet." Small, frequent, bland meals help, and **ginger** and **vitamin B6 (pyridoxine)** are
 reasonable first-line measures [@acog2018nvp]. Most of it is miserable but benign.
 
 ::: {.callout-warning}
 ## Do no harm: hyperemesis and the thiamine rule
-When vomiting is severe and persistent — with **weight loss, dehydration and ketosis** — it is
+When vomiting is severe and persistent, with **weight loss, dehydration and ketosis**, it is
 **hyperemesis gravidarum**, and it needs referral, not reassurance. The safety point to carry: a
 woman who has been vomiting for weeks may be **thiamine-depleted**, and giving glucose or dextrose
 *first* can precipitate **Wernicke's encephalopathy**. **Thiamine goes in before any glucose**
 [@rcogHyperemesis69].
 :::
 
-## The micronutrients that matter — and the one that harms
+## The micronutrients that matter, and the one that harms
 
 Beyond folate and iron, a short list carries most of the weight:
 
 - **Iodine** — the requirement rises to about **250 µg/day** for the fetal thyroid hormone that
   builds the brain; the early fetus depends entirely on the mother [@bath2013iodine]. Singapore's
-  salt iodisation is **voluntary**, so status can't be assumed — iodised salt is a sensible default
+  salt iodisation is **voluntary**, so status can't be assumed, and iodised salt is a sensible default
   [@codling2017iodine].
 - **Calcium** — the surprise: the requirement **doesn't really rise**, because the gut roughly
   **doubles** its absorption in pregnancy [@kovacs2016mineral]. Ensure an adequate baseline, no more.
 - **Vitamin D** — supplementation *probably* lowers pre-eclampsia and gestational diabetes, but the
   evidence was recently downgraded, so counsel it modestly; deficiency is common locally despite the
   sun [@palacios2024vitD; @sgVitDeficiency].
-- **Choline and DHA** — the under-taught pair. Most pregnant women fall short of choline; and marine
+- **Choline and DHA** — the under-taught pair. Most pregnant women fall short of choline, and marine
   **omega-3 (DHA)** modestly reduces preterm birth [@middleton2018omega3; @caudill2018choline].
 - **Vitamin A — the "excess harms" nutrient.** High-dose *preformed* retinol (supplements, liver) is
-  **teratogenic**; the **β-carotene** in plants is safe [@rothman1995vitA]. This is the one nutrient
-  where the counsel is a **ceiling**, not a floor — check that a multivitamin isn't over-dosed and
-  skip the liver.
+  **teratogenic**; the **β-carotene** in plants is safe [@rothman1995vitA]. Here the counsel is a
+  **ceiling** rather than a floor: check that a multivitamin isn't over-dosed and skip the liver.
 
 ::: {.callout-tip}
 ## 🍜 Eating out & 🍳 healthy kitchen: safety, and the fish paradox
 Pregnancy adds a food-safety layer: skip **raw and undercooked** items (sashimi, raw oysters,
-half-boiled or raw egg — including raw egg stirred into porridge), cold **deli meats** and
+half-boiled or raw egg, including raw egg stirred into porridge), cold **deli meats** and
 **unpasteurised** dairy (listeria), and limit the big predators (**shark, swordfish, marlin**,
-and tuna sashimi) for mercury. But don't over-correct into avoiding fish altogether — low seafood
+and tuna sashimi) for mercury. But don't over-correct into avoiding fish altogether: low seafood
 intake tracks with *worse* child neurodevelopment [@hibbeln2007seafood]. Eat **2–3 servings a week of
 low-mercury fish** instead. And keep the everyday drinks in view for caffeine: kopi, teh, Milo and
 bubble tea all count toward the daily cap.
@@ -124,76 +123,76 @@ bubble tea all count toward the daily cap.
 Gestational diabetes is Singapore's defining antenatal nutrition issue, and it follows straight from
 the two-driver lens. **Internally**, insulin sensitivity falls by **50–60%** (the body's cells respond less
 to insulin) in the third trimester
-of *every* pregnancy — a normal adaptation, driven by a mix of placental and maternal hormones (no
+of *every* pregnancy: a normal adaptation, driven by a mix of placental and maternal hormones (no
 single one is the culprit), that diverts glucose to the growing fetus [@kampmann2019ir]. GDM is what
-happens when the pancreas **can't compensate** for that resistance [@plows2018gdm] — which is exactly
+happens when the pancreas **can't compensate** for that resistance [@plows2018gdm], which is exactly
 why it forecasts a woman's future diabetes.
 
 **Externally**, the lever is *how* we screen. The local **GUSTO** cohort found GDM in roughly **one
-in five** pregnancies, and — load-bearingly — that screening only the "high-risk" women would have
+in five** pregnancies, and, load-bearingly, that screening only the "high-risk" women would have
 **missed about half** of cases, because risk factors predict GDM poorly in Asian women [@gusto_gdm].
 So Singapore screens **universally**: a **75 g glucose tolerance test at 24–28 weeks** for every
-pregnancy [@aceGDM2018]. And there is no natural cut-point to find — the landmark **HAPO** study
+pregnancy [@aceGDM2018]. And there is no natural cut-point to find: the landmark **HAPO** study
 showed glucose and outcomes rise on a smooth continuum, so the diagnostic thresholds are a **chosen
 line**, not a biological cliff [@hapo2008].
 
 ::: {.callout-note}
 ## The chain, not the numbers
-The thresholds (fasting ≥5.1, 1-hour ≥10.0, 2-hour ≥8.5 mmol/L) aren't for memorising — the *pathway*
-is. Maternal glucose crosses to the fetus, whose pancreas answers with its own insulin; that drives
+The thresholds (fasting ≥5.1, 1-hour ≥10.0, 2-hour ≥8.5 mmol/L) matter less than the *pathway*.
+Maternal glucose crosses to the fetus, whose pancreas answers with its own insulin; that drives
 **overgrowth (macrosomia)** before birth and, once the maternal glucose supply is cut at delivery,
 leaves the baby briefly **hypoglycaemic**. And the mother carries a roughly **seven-fold** future
-risk of type 2 diabetes [@bellamy2009] — so she needs a **postpartum glucose test at 4–12 weeks** and
+risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose test at 4–12 weeks** and
 lifelong vigilance. That link is why GDM sits inside Singapore's *War on Diabetes* [@mohWarOnDiabetes].
 :::
 
-First-line management is **dietary** — and it works best *within* a woman's usual food. A local
+First-line management is **dietary**, and it works best *within* a woman's usual food. A local
 "seafood-and-noodle" pattern was actually protective [@gustoDietGDM], which licenses **familiar
-swaps** — brown rice or wholegrain *bee hoon* for white rice, water or a Nutri-Grade A/B drink for the
-sweet one — over an unfamiliar regimen. Insulin and glucose targets, when diet isn't enough, belong to
+swaps**: brown rice or wholegrain *bee hoon* for white rice, water or a Nutri-Grade A/B drink for the
+sweet one, over an unfamiliar regimen. Insulin and glucose targets, when diet isn't enough, belong to
 the **obstetric and diabetes team by referral** (an endocrinology matter), not to a first consult.
 
 ## Lactation: the mother's side
 
-Once the baby arrives, the nutrition question splits in two. **Infant feeding itself** — latch,
-weaning, complementary foods, the infant's own vitamin D — belongs to the *Infancy & Early Childhood*
+Once the baby arrives, the nutrition question splits in two. **Infant feeding itself** (latch,
+weaning, complementary foods, the infant's own vitamin D) belongs to the *Infancy & Early Childhood*
 chapter. What stays here is the **mother**: her extra energy and fluid, and one elegant piece of
 physiology.
 
 The body **protects the milk** for some nutrients at the mother's own expense, but not for others.
-**Buffered** nutrients — iron, calcium, folate, zinc — stay steady in milk even if she runs low (she
-pays, not the baby). **Diet-dependent** nutrients — **vitamin B12, iodine, vitamin D, DHA** — fall if
-*she* is deficient (the baby pays) [@dgac2020lactation]. The danger case is the **vegan or strict
+**Buffered** nutrients (iron, calcium, folate, zinc) stay steady in milk even if she runs low; she
+pays, not the baby. **Diet-dependent** nutrients (**vitamin B12, iodine, vitamin D, DHA**) fall if
+*she* is deficient, and then the baby pays [@dgac2020lactation]. The danger case is the **vegan or strict
 vegetarian mother**: she can look perfectly well while producing B12-critically-low milk that harms
-the infant's developing brain [@kuhne1991b12] — so B12 supplementation and a dietitian referral are
+the infant's developing brain [@kuhne1991b12], so B12 supplementation and a dietitian referral are
 the move. (Milk is naturally low in vitamin D whatever the mother eats, which is why the *infant* is
-supplemented — the dose is the infancy chapter's.)
+supplemented; the dose is the infancy chapter's.)
 
-Two quick myths to retire: **alcohol** passes into milk and only *time* clears it — "pump and dump"
-relieves fullness, not alcohol — so feed before a drink or wait; and **caffeine** up to ~200–300 mg a
+Two quick myths to retire. **Alcohol** passes into milk and only *time* clears it, so "pump and dump"
+relieves fullness rather than alcohol; feed before a drink or wait. **Caffeine** up to ~200–300 mg a
 day is compatible. And the "milk-boosting" soups and herbs? The evidence that any galactagogue raises
 supply is **weak**; frequent, effective milk removal is what actually drives production
 [@foong2020galactagogue]. Support the practice warmly, but don't oversell it.
 
 ## The Singapore picture: confinement
 
-The postpartum **confinement month** is near-universal here and patterned by community — Chinese
-*zuo yue zi*, Malay *berpantang*, Indian practices — resting on a shared "heaty/cooling" food model,
-and it is a genuine, structured dietary pattern with real links to maternal mood [@fok2016confinement;
+The postpartum **confinement month** is near-universal here and patterned by community: Chinese
+*zuo yue zi*, Malay *berpantang*, Indian practices, resting on a shared "heaty/cooling" food model.
+It is a genuine, structured dietary pattern with real links to maternal mood [@fok2016confinement;
 @teo2018confinement]. The competency is **respectful negotiation, not correction**: support the large
-harmless majority, and guide only the genuinely risky edges — **alcohol** cooked into rice-wine dishes
+harmless majority, and guide only the genuinely risky edges. Those are **alcohol** cooked into rice-wine dishes
 (it reaches the milk), a heavy **sodium and fat** load, and the wholesale avoidance of "cooling"
 **fruit and vegetables** (the very source of vitamin C, fibre and folate). The same respectful lens
 covers the vegetarian mother (plan B12 and iron) and the halal family (a supplement-sourcing question,
 not a deficiency).
 
-## So — does a pregnant woman eat for two?
+## Does a pregnant woman eat for two?
 
-No — and saying so does harm. In pregnancy the win is **quality, not quantity**: folate started
+No, and saying so does harm. In pregnancy the win is **quality, not quantity**: folate started
 early, enough iron and iodine, a sensible weight-gain target, a short list of foods to avoid, and the
 one screening test that catches a common, hidden problem. It is **lactation** that finally asks for
-real extra energy. The skill this chapter builds is telling the few things that genuinely matter from
-the many that don't — and knowing, at every step, when the answer is not a diet but a **referral**.
+real extra energy. The skill here is telling the few things that genuinely matter from
+the many that don't, and knowing, at every step, when the answer is not a diet but a **referral**.
 
 ## Check your understanding
 
@@ -202,7 +201,7 @@ the many that don't — and knowing, at every step, when the answer is not a die
 ## Practise: Mrs Devi, 26 weeks pregnant
 
 Mrs Devi feels well and wonders whether she really needs "that glucose test." Work through her
-pregnancy — the myths, the blood count, the screening no one should skip, and where your role ends
+pregnancy: the myths, the blood count, the screening no one should skip, and where your role ends
 and the team's begins. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/pregnancy-gdm.case.yml"></div>

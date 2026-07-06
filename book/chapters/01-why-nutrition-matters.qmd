@@ -1,42 +1,39 @@
 # Why nutrition matters
 
-> *The motivational gateway to the course. It answers one question — why should a
-> medical student take nutrition seriously? — and frames the answer through
-> the six pillars of health, with nutrition as the integrating hub.*
+> *Why should a medical student take nutrition seriously? The answer runs through the six
+> pillars of health, with nutrition as the hub that connects them.*
 
 ## The shape of modern disease
 
 For most of medicine's history, the doctor's enemy was the acute and the infectious:
-pneumonia, sepsis, trauma. That enemy has not gone away — but it has been overtaken.
-Today, **non-communicable diseases (NCDs)** — cardiovascular disease, type 2 diabetes,
-cancers, chronic respiratory disease — cause around **three-quarters of all deaths
-worldwide** [@who2020diet]. These are, in large part, **slow diseases of daily living**, driven by a
-handful of *modifiable* behaviours: what we eat, how much we move, whether we sleep,
-smoke, or drink.
+pneumonia, sepsis, trauma. That enemy has not gone away, but it has been overtaken. Today,
+**non-communicable diseases (NCDs)** cause around **three-quarters of all deaths worldwide**
+[@who2020diet]: cardiovascular disease, type 2 diabetes, cancers, chronic respiratory disease.
+These are, in large part, **slow diseases of daily living**, driven by a handful of *modifiable*
+behaviours: what we eat, how much we move, whether we sleep, smoke or drink.
 
 Diet sits near the top of that list. The Global Burden of Disease study attributes around
-**11 million deaths a year** to dietary risks — too much sodium, too few whole grains, too
-little fruit — making diet one of the single largest *modifiable* contributors to early
-death [@gbd2019diet].
+**11 million deaths a year** to dietary risks such as too much sodium, too few whole grains and
+too little fruit, making diet one of the single largest *modifiable* contributors to early death
+[@gbd2019diet].
 
 ::: {.callout-note}
 ## Read the headline carefully
-The "11 million deaths" figure is a *modelled* estimate from observational data, and its
-large weighting on sodium is methodologically debated. The claim is *"diet is among
-the leading modifiable risks"* — not a precise body count. We will practise this kind of
-careful reading throughout the book.
+The "11 million deaths" figure is a modelled estimate from observational data, and how heavily it
+weights sodium is debated. Read it as a signal that diet is among the leading modifiable risks; it
+is not a precise body count.
 :::
 
-This reframes the job. A clinician who can only treat the acute crisis arrives, by
-definition, *late*. The larger opportunity — and the harder skill — is to **prevent and
-slow** chronic disease. Nutrition is where that work begins.
+This reframes the job. A clinician who can only treat the acute crisis arrives, by definition,
+late. The larger opportunity, and the harder skill, is to **prevent and slow** chronic disease.
+Nutrition is where that work begins.
 
 ## The six pillars of health
 
-Protecting health is not a vague instruction to "live better." It rests on a small set of
-evidence-based behaviours that prevent, treat, and sometimes reverse chronic disease
-[@aclm2022comp; @lianov2010] — used **alongside** drugs and surgery, never instead of them.
-There are **six pillars**:
+Protecting health means more than a vague instruction to "live better." It rests on a small set of
+evidence-based behaviours that prevent, treat and sometimes reverse chronic disease
+[@aclm2022comp; @lianov2010], used **alongside** drugs and surgery, never instead of them. There
+are **six pillars**:
 
 1. **Nutrition** — a predominantly whole-food, plant-rich eating pattern.
 2. **Physical activity** — regular movement across the week.
@@ -47,123 +44,119 @@ There are **six pillars**:
 
 ::: {.callout-tip}
 ## Prevention, the Singapore way
-In Singapore, this preventive, behaviour-first approach is increasingly the *organising
-frame* of primary care — most visibly through **Healthier SG**, the national shift from
-reactive hospital care toward proactive, relationship-based prevention [@mohHealthierSG].
-The conviction behind **Health in Medicine** is simple: helping people live well is core
-clinical work, not an optional extra.
+In Singapore, this preventive, behaviour-first approach is increasingly the organising frame of
+primary care, most visibly through **Healthier SG**, the national shift from reactive hospital care
+toward proactive, relationship-based prevention [@mohHealthierSG]. The conviction behind **Health in
+Medicine** is that helping people live well is core clinical work.
 :::
 
 ## Nutrition as the hub
 
-Of the six pillars, nutrition is special — not because it matters *more* in every case,
-but because it **connects to all the others**, in both directions. It is the natural spine
-of this course because pulling on it tends to move the whole web.
+Of the six pillars, nutrition holds a special place: it **connects to all the others**, in both
+directions. It is the natural spine of this course, because pulling on it tends to move the whole
+web.
 
 <div data-island="pillars-hub" data-src="/diagrams/pillars-hub.yml"></div>
 
-- **Nutrition ↔ physical activity.** Diet and movement act together on weight and glucose;
-  neither alone is as effective as both.
-- **Nutrition ↔ sleep.** Short sleep lowers insulin sensitivity and raises appetite and
-  intake of energy-dense food, while late, heavy meals worsen sleep — a self-reinforcing
-  loop [@sleepRestriction].
-- **Nutrition ↔ stress.** Acute and chronic stress (the cortisol pathway) are thought to drive
-  "comfort eating" of palatable, energy-dense food [@dallman2003].
-- **Nutrition ↔ risky substances.** Alcohol is itself dietary — empty energy that also
-  disinhibits food choice.
-- **Nutrition ↔ social connection.** Eating is profoundly social: family meals, communal
-  hawker eating, festive food. Social context can entrench *or* transform a diet.
+- **Nutrition ↔ physical activity.** Diet and movement act together on weight and glucose; neither
+  alone is as effective as both.
+- **Nutrition ↔ sleep.** Short sleep lowers insulin sensitivity (how well the body clears glucose
+  in response to insulin) and raises appetite and intake of energy-dense food, while late, heavy
+  meals worsen sleep. The result is a self-reinforcing loop [@sleepRestriction].
+- **Nutrition ↔ stress.** Acute and chronic stress, acting through cortisol (the main stress
+  hormone), are thought to drive "comfort eating" of palatable, energy-dense food [@dallman2003].
+- **Nutrition ↔ risky substances.** Alcohol is itself dietary: empty energy that also disinhibits
+  food choice.
+- **Nutrition ↔ social connection.** Eating is profoundly social, through family meals, communal
+  hawker eating and festive food. Social context can entrench or transform a diet.
 
-The teaching consequence is simple and recurs all year: **start with nutrition, but plan
-across the pillars.** Fixing the diet often means touching sleep and stress too.
+One practical rule follows: **start with nutrition, but plan across the pillars.** Fixing the diet
+often means touching sleep and stress too.
 
 ## Patterns over nutrients
 
-A persistent trap — for patients *and* doctors — is **single-nutrient reductionism**: the
-search for the one villain (carbs, fat, gluten) or the one "superfood." The evidence does
-not support it. What predicts health is the **overall dietary pattern**, not isolated
-nutrients [@aha2021diet]. Two of the most-studied patterns illustrate the point:
+A persistent trap for patients and doctors alike is **single-nutrient reductionism**: the search
+for the one villain (carbs, fat, gluten) or the one "superfood." The evidence points elsewhere.
+What predicts health is the **overall dietary pattern** rather than isolated nutrients [@aha2021diet].
+Two of the most-studied patterns illustrate the point:
 
-- The **Mediterranean** pattern (olive oil, nuts, legumes, fish, vegetables) was associated
-  with about a **30% lower risk** on a composite cardiovascular endpoint in the PREDIMED
-  trial [@estruch2018predimed].
-- The **DASH** pattern (rich in fruit, vegetables, low-fat dairy) lowered blood pressure
+- The **Mediterranean** pattern (olive oil, nuts, legumes, fish, vegetables) was associated with
+  about a **30% lower risk** on a combined measure of heart-disease events in the PREDIMED trial
+  [@estruch2018predimed].
+- The **DASH** pattern (rich in fruit, vegetables and low-fat dairy) lowered blood pressure
   meaningfully, even without weight loss or salt restriction [@appel1997dash].
 
 ::: {.callout-warning}
-## Landmark trials come with caveats — always
-We name these trials as *teasers*; you will meet their limits in the clinical chapters. In
-brief: PREDIMED's headline comes from a **2018 re-analysis** after the original was
-withdrawn for randomisation problems, it was partly **cluster-randomised**, and the
-composite endpoint was **stroke-dominated**. DASH was a short-term **controlled-feeding**
-study with a **surrogate** outcome (blood pressure). Impressive — but not the same as
-"prevents heart attacks." Quoting a trial *without* its caveat is a habit to unlearn now.
+## Landmark trials come with caveats
+Both results come with limits you will examine in the clinical chapters. PREDIMED's headline comes
+from a **2018 re-analysis** after the original had problems with how patients were assigned to
+groups, and its main result combined several heart-disease events, most of them strokes. DASH was a
+short controlled-feeding study that measured blood pressure, a marker, rather than heart attacks
+themselves. Both are real findings, correctly bounded, which is how any landmark trial should be
+read.
 :::
 
 ## Why this is Singapore's fight
 
-Diet-related disease is a declared national priority. The **War on Diabetes** (launched
-2016) treats diabetes as a population-scale problem [@mohWarOnDiabetes]: roughly **1 in 3**
-Singaporeans has a lifetime risk of diabetes, with higher risk among Malay and Indian
-residents.
+Diet-related disease is a declared national priority. The **War on Diabetes** (launched 2016) treats
+diabetes as a population-scale problem [@mohWarOnDiabetes]: roughly **1 in 3** Singaporeans has a
+lifetime risk of diabetes, with higher risk among Malay and Indian residents.
 
-The **National Nutrition Survey 2022** shows why the thresholds matter — the population
-diet is some distance from the guidelines [@mohNNS2022]:
+The **National Nutrition Survey 2022** shows why the thresholds matter. The population diet sits
+some distance from the guidelines [@mohNNS2022]:
 
 | Finding (NNS 2022) | What it means |
 |---|---|
 | Only **~4%** of staples eaten are wholegrain | A *quality* gap (refined rice and noodles dominate) |
-| **~9 in 10** residents exceed the WHO sodium limit | Most sodium hides in sauces, broths, and food eaten out |
+| **~9 in 10** residents exceed the WHO sodium limit | Most sodium hides in sauces, broths and food eaten out |
 
 Singapore translates guidelines into tools you will use as counselling anchors all year:
 
-- **My Healthy Plate** — the "**quarter, quarter, half**": ¼ wholegrains, ¼ protein,
-  ½ fruit and vegetables [@hpbHealthyPlate].
-- **Nutri-Grade** — the A–D front-of-pack grade on drinks, by sugar and saturated fat;
-  the *teh tarik* and bubble-tea labels you already recognise [@hpbNutriGrade].
+- **My Healthy Plate** — the "**quarter, quarter, half**": ¼ wholegrains, ¼ protein, ½ fruit and
+  vegetables [@hpbHealthyPlate].
+- **Nutri-Grade** — the A–D front-of-pack grade on drinks, by sugar and saturated fat; the labels
+  on *teh tarik* and bubble tea you already recognise [@hpbNutriGrade].
 
-These let advice stay concrete and local: a *cai png* (economy rice) plate becomes "two
-veg, one protein, less gravy"; a Grade-D drink becomes *kopi-o kosong* or plain water.
+These let advice stay concrete and local: a *cai png* (economy rice) plate becomes "two veg, one
+protein, less gravy"; a Grade-D drink becomes *kopi-o kosong* or plain water.
 
 ## A learnable, examinable clinical skill
 
-If nutrition matters this much, why is it so often neglected in the clinic? Largely because
-doctors are **under-trained** in it: graduates across many countries report feeling
-under-prepared to give dietary advice [@crowley2019]. That gap is precisely why this course
-exists. Nutrition counselling is a **core, examinable, learnable** competency — and a
-*behaviour* you can assess and help change [@frost2018mi], not a fixed biological given or a
-test of the patient's willpower.
+If nutrition matters this much, why is it so often neglected in the clinic? Largely because doctors
+are **under-trained** in it: graduates across many countries report feeling under-prepared to give
+dietary advice [@crowley2019]. That gap is why this course exists. Nutrition counselling is a
+**core, examinable, learnable** competency, and a behaviour you can assess and help change
+[@frost2018mi]. A patient's diet is a set of habits, shaped by environment and circumstance, that
+responds to skilled advice.
 
 ::: {.callout-important}
 ## What this year will, and won't, do
-**Will:** build your nutritional literacy — the science, the Singapore context, and the
-skill of advising real patients well. **Won't (yet):** turn you into a dietitian or hand
-you prescribing protocols. Detailed medical nutrition therapy, drug choices, and disease
-management come later — and you will learn *when to refer*. At this stage, nutrition is about
-**motivation, concepts, and the clinical conversation**, taught with humility about what
-the evidence does and does not show.
+**Will:** build your nutritional literacy — the science, the Singapore context, and the skill of
+advising real patients well. **Won't (yet):** turn you into a dietitian or hand you prescribing
+protocols. Detailed medical nutrition therapy, drug choices and disease management come later, along
+with when to refer. At this stage, nutrition is about **motivation, concepts and the clinical
+conversation**, taught with humility about what the evidence does and does not show.
 :::
 
-## So — why should a doctor care about food?
+## Why a doctor should care about food
 
-Because this is where the largest, most *modifiable* share of modern disease is decided — and
-because, unlike much of medicine, it is something you can actually help a patient change. Diet is
-among the leading modifiable risks for the diseases that now cause most death; it pulls on every
-other pillar of health, so improving it tends to move the whole web; and advising on it well is a
-**learnable, examinable clinical skill**, not a matter of the patient's willpower. Taking nutrition
-seriously is not a soft add-on to clinical work — it *is* clinical work. The rest of this book builds
-the literacy, the Singapore context, and the conversation to do it well.
+Nutrition is where the largest and most modifiable share of modern disease is decided, and unlike
+much of medicine, it is something a patient can actually change. Diet is among the leading modifiable
+risks for the diseases that now cause most death. It pulls on every other pillar of health, so
+improving it tends to move the whole web. And advising on it well is a learnable, examinable clinical
+skill. Treating nutrition as core clinical work is the starting point for everything that follows in
+this book.
 
 ## Check your understanding
 
-A quick self-test on the framing above — your answers are saved locally in your browser.
+A quick self-test on the framing above. Your answers are saved locally in your browser.
 
 <div data-island="quiz" data-src="/quizzes/why-nutrition-matters.quiz.yml"></div>
 
 ## Practise: mapping the pillars
 
-Concepts become useful at the bedside. Meet **Mr Tan**, who feels "basically fine" — and
-practise seeing the whole picture, not just the plate. Your choices branch the case.
+Concepts become useful at the bedside. Meet **Mr Tan**, who feels "basically fine." Practise seeing
+the whole picture, not only the plate. Your choices branch the case.
 
 ::: {.callout-tip}
 Progress is saved locally — replay to explore the other paths.

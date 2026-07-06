@@ -1,225 +1,242 @@
 # Type 2 diabetes
 
-> The cascade that opened with over-nutrition arrives here. When insulin-resistant, central fat outpaces
-> what the pancreas can compensate for, blood glucose starts to rise — and diabetes is the point at which it
-> stays high. Nutrition acts at *every* stage of that story: it can prevent the slide, manage established
-> disease, and even put *early* diabetes into remission. The task here is to **recognise those levers** and
-> **refer** for the detailed plan — safely, and without over-promising.
+> The cascade that opened with over-nutrition arrives here. When insulin-resistant, central fat
+> outpaces what the pancreas can compensate for, blood glucose starts to rise, and diabetes is the
+> point at which it stays high. Nutrition acts at *every* stage of that story: it can prevent the
+> slide, manage established disease, and even put *early* diabetes into remission. The clinical
+> levers are recognisable, and the individualised plan belongs to a referral, made safely and
+> without over-promising.
 
 ## Type 2 diabetes at a glance
 
-This chapter follows directly from the *Obesity & Metabolic Syndrome* chapter: the insulin resistance that
-defined that cluster is the soil type 2 diabetes grows in. It runs the length of the disease — **preventing**
-progression in people with prediabetes, **managing** established diabetes through diet, and the newer story of
-**remission** of early disease — and it hands the downstream complications forward to the *Cardiovascular
-Disease & Hypertension* and *Chronic Kidney Disease* chapters. (Gestational diabetes — and why Singapore
-screens every pregnancy — belongs to the *Pregnancy & Lactation* chapter, not here.)
+This chapter follows directly from the *Obesity & Metabolic Syndrome* chapter: the insulin
+resistance that defined that cluster is the soil type 2 diabetes grows in. Nutrition runs the length
+of the disease. It **prevents** progression in people with prediabetes, **manages** established
+diabetes through diet, and, in the newer story, achieves **remission** of early disease. The
+downstream complications hand forward to the *Cardiovascular Disease & Hypertension* and *Chronic
+Kidney Disease* chapters. (Gestational diabetes, and why Singapore screens every pregnancy, belongs
+to the *Pregnancy & Lactation* chapter, not here.)
 
 Two commitments frame everything here:
 
-- **Recognise and refer, don't prescribe.** You identify the nutritional levers — carbohydrate quality,
-  a healthy pattern, weight loss for remission, cutting sugary drinks — then route to a **dietitian** for the
-  individualised plan (medical nutrition therapy) and to the **diabetes team** for medication decisions.
-- **Safety comes before any diet advice.** Before endorsing a low-carb diet or a fast, you must know which
-  glucose-lowering drugs a patient takes — because some cause dangerous hypoglycaemia when carbohydrate is
-  cut. That check is the spine of this chapter.
+- **Recognise and refer, don't prescribe.** You identify the nutritional levers (carbohydrate
+  quality, a healthy pattern, weight loss for remission, cutting sugary drinks), then route to a
+  **dietitian** for the individualised plan (medical nutrition therapy) and to the **diabetes team**
+  for medication decisions.
+- **Safety comes before any diet advice.** Before endorsing a low-carb diet or a fast, you must know
+  which glucose-lowering drugs a patient takes, because some cause dangerous hypoglycaemia when
+  carbohydrate is cut. That check runs through the whole chapter.
 
-All of it sits inside Singapore's **War on Diabetes**, where roughly **one in three** people will develop
-diabetes in their lifetime [@mohWarOnDiabetes].
+All of it sits inside Singapore's **War on Diabetes**, where roughly **one in three** people will
+develop diabetes in their lifetime [@mohWarOnDiabetes].
 
 ## The science underneath: how insulin resistance becomes diabetes
 
-Type 2 diabetes is not a switch that flips; it is the end of a long compensation. The mechanics of insulin
-action and glucose handling belong to the *Integrative Metabolism* chapter, and the insulin resistance itself
-to the *Obesity & Metabolic Syndrome* chapter — here we follow how they tip into disease.
+Type 2 diabetes is not a switch that flips. It is the end of a long compensation. The mechanics of
+insulin action and glucose handling belong to the *Integrative Metabolism* chapter, and the insulin
+resistance itself to the *Obesity & Metabolic Syndrome* chapter; here we follow how they tip into
+disease.
 
 ![The diabetes continuum, and where nutrition acts — from at-risk, through prediabetes, to early and then established type 2 diabetes. Structured lifestyle change can prevent progression; a supervised, weight-centred programme can put *early* disease into remission; dietary quality manages established disease; medication (a specialist decision) is layered on, not a substitute.](/figures/mechanisms/t2d-continuum.svg){#fig-t2d-continuum width="92%" fig-align="center"}
 
-**Compensation, then failure.** When tissues resist insulin, the pancreatic β-cells respond by making *more*
-of it, and for years that keeps blood glucose normal. Diabetes appears when the β-cells can **no longer keep
-up** — a progressive decline in insulin secretion on top of the resistance [@ada2026standards]. This is why
-diabetes is usually preceded by a long, silent **prediabetes** phase, and why catching it early matters.
+**Compensation, then failure.** When tissues resist insulin, the pancreatic β-cells (the
+insulin-producing cells) respond by making *more* of it, and for years that keeps blood glucose
+normal. Diabetes appears when the β-cells can **no longer keep up**: a progressive decline in insulin
+secretion on top of the resistance [@ada2026standards]. This is why diabetes is usually preceded by a
+long, silent **prediabetes** phase, and why catching it early matters.
 
-**The twin cycle.** A powerful way to understand *why* is the twin-cycle model: excess **fat inside the liver**
-drives up fasting glucose, while fat inside the **pancreas** impairs the β-cells' ability to respond — each
-feeding the other [@taylor2021remission; @taylor2025twincycle]. The important, hopeful corollary is that this
-ectopic organ fat is *removable*: losing it — through substantial weight loss — can restore β-cell function
-and **reverse early disease**, which is the basis of the remission story below. And because Asians carry more
-fat at a given BMI (the *Obesity & Metabolic Syndrome* chapter's point), a person can cross their **personal
-fat threshold** into diabetes at a lower weight than the Western cut-offs assume [@taylor2023pft].
+**The twin cycle.** A powerful way to understand *why* is the twin-cycle model: excess **fat inside
+the liver** drives up fasting glucose, while fat inside the **pancreas** impairs the β-cells' ability
+to respond, each feeding the other [@taylor2021remission; @taylor2025twincycle]. The hopeful
+corollary is that this ectopic organ fat (fat stored where it doesn't belong) is *removable*: losing
+it through substantial weight loss can restore β-cell function and **reverse early disease**, which
+is the basis of the remission story below. And because Asians carry more fat at a given BMI (the
+*Obesity & Metabolic Syndrome* chapter's point), a person can cross their **personal fat threshold**
+into diabetes at a lower weight than the Western cut-offs assume [@taylor2023pft].
 
-## Carbohydrate: the main lever — quantity, but especially quality
+## Carbohydrate: the main lever, quantity but especially quality
 
-Carbohydrate is the dietary component that most directly raises blood glucose after a meal, so it is the
-natural focus. But the single most important message is a liberating one: **there is no mandated carbohydrate
-target and no one "ideal" macronutrient ratio** for diabetes [@ada2026standards; @dyson2018diabetesuk]. What
-matters is carbohydrate **quality** and **day-to-day consistency**, individualised by a dietitian — not a
-number you set at the bedside.
+Carbohydrate is the dietary component that most directly raises blood glucose after a meal, so it is
+the natural focus. The single most important message is a liberating one: **there is no mandated
+carbohydrate target and no one "ideal" macronutrient ratio** for diabetes
+[@ada2026standards; @dyson2018diabetesuk]. What matters is carbohydrate **quality** and day-to-day
+**consistency**, individualised by a dietitian, rather than a number you set at the bedside.
 
 **Quality beats quantity, and fibre is the clearest signal.** Choosing lower-glycaemic, wholegrain,
-higher-fibre carbohydrates gives a small but real improvement in blood glucose (about 0.3% off HbA1c)
-[@chiavaroli2021gigl] — modest, and best delivered as concrete swaps rather than by memorising glycaemic-index
-tables, which are measured for single foods and blunted by mixed meals [@dnsg2023easd]. The strongest,
-most consistent evidence is for **fibre and wholegrains**: higher intake lowers the risk of developing
-diabetes and, in established disease, lowers HbA1c — with an optimum around **25–29 g of fibre a day**
-[@reynolds2019carbquality; @reynolds2020fibrediabetes]. International guidelines converge on the same plate:
-carbohydrate mainly from **wholegrains, vegetables, fruit and legumes**, minimising refined grains and sugary
-drinks [@who2023carbohydrate].
+higher-fibre carbohydrates gives a small but real improvement in blood glucose (about 0.3% off
+HbA1c, the three-month average blood-sugar marker) [@chiavaroli2021gigl]. That improvement is best
+delivered as concrete swaps rather than by memorising glycaemic-index tables, which are measured for
+single foods and blunted by mixed meals [@dnsg2023easd]. The strongest, most consistent evidence is
+for **fibre and wholegrains**: higher intake lowers the risk of developing diabetes and, in
+established disease, lowers HbA1c, with an optimum around **25–29 g of fibre a day**
+[@reynolds2019carbquality; @reynolds2020fibrediabetes]. International guidelines converge on the same
+plate: carbohydrate mainly from **wholegrains, vegetables, fruit and legumes**, minimising refined
+grains and sugary drinks [@who2023carbohydrate].
 
 ![Swapping *toward* wholegrains — brown rice for white, wholemeal for white bread — is the highest-yield carbohydrate-quality move, and locally it is a swap, not a ban on rice.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
 
-**Sugar-sweetened drinks are a discrete, high-yield target.** Each daily serving is associated with roughly a
-**13–18% higher** risk of type 2 diabetes, and the effect is only partly explained by weight [@imamura2015ssb].
-This is where Singapore's **Nutri-Grade** label earns its place as a decision aid [@shin2023nutrigrade], and
-where the *kopi/teh* "**kosong**" (no sugar) or "**siu dai**" (less sweet) order is a genuine intervention.
+**Sugar-sweetened drinks are a discrete, high-yield target.** Each daily serving is associated with
+roughly a **13–18% higher** risk of type 2 diabetes, and the effect is only partly explained by
+weight [@imamura2015ssb]. This is where Singapore's **Nutri-Grade** label earns its place as a
+decision aid [@shin2023nutrigrade], and where the *kopi/teh* "**kosong**" (no sugar) or "**siu
+dai**" (less sweet) order is a genuine intervention.
 
 ::: {.callout-important}
 ## Substitution, not "rice is the enemy"
-Pooled Asian data do link white rice to diabetes risk, but the **Singapore Chinese Health Study found rice
-intake itself was *not* associated with diabetes** — while *substituting* wholemeal bread lowered risk
-[@seah2019scriphealthrice; @hu2012whiterice]. The accurate, less stigmatising message is to shift *toward*
-wholegrains (and add vegetables and protein to the plate), not to demonise a cultural staple. It matters
-locally: only about **4% of the staples Singaporeans eat are wholegrain** [@mohNNS2022].
+Pooled Asian data do link white rice to diabetes risk, but the **Singapore Chinese Health Study found
+rice intake itself was *not* associated with diabetes**, while *substituting* wholemeal bread lowered
+risk [@seah2019scriphealthrice; @hu2012whiterice]. The accurate, less stigmatising message is to
+shift *toward* wholegrains (and add vegetables and protein to the plate) rather than to demonise a
+cultural staple. It matters locally: only about **4% of the staples Singaporeans eat are wholegrain**
+[@mohNNS2022].
 :::
 
-## No single "best" diabetes diet — choose a quality pattern
+## No single "best" diabetes diet: choose a quality pattern
 
-Because quality beats the ratio, several **dietary patterns** are acceptable, and the right one is the one a
-person will actually keep [@evert2019nutrition]. The **Mediterranean** pattern has the deepest diabetes-specific
-evidence — lowering HbA1c in established disease and reducing new cases — and works well translated into local
-food rather than adopted wholesale [@esposito2015medjourney; @koloverou2014medincidence]. A **low-carbohydrate**
-pattern is a legitimate *option* with a real benefit at six months that tends to **attenuate by twelve** and
-depends heavily on adherence — and strict versions need dietitian supervision [@goldenberg2021lowcarb]. A
-**DASH-style** pattern also helps glucose, but its home — and its blood-pressure and lipid rationale — is the
+Because quality beats the ratio, several **dietary patterns** are acceptable, and the right one is
+the one a person will actually keep [@evert2019nutrition]. The **Mediterranean** pattern has the
+deepest diabetes-specific evidence, lowering HbA1c in established disease and reducing new cases, and
+it works well translated into local food rather than adopted wholesale
+[@esposito2015medjourney; @koloverou2014medincidence]. A **low-carbohydrate** pattern is a legitimate
+*option* with a real benefit at six months that tends to **attenuate by twelve** and depends heavily
+on adherence; strict versions need dietitian supervision [@goldenberg2021lowcarb]. A **DASH-style**
+pattern also helps glucose, but its home, and its blood-pressure and lipid rationale, is the
 *Cardiovascular Disease & Hypertension* chapter, so we signpost it here rather than re-teach it
 [@fang2025dash4d]. (There are still too few diabetes-specific DASH trials to rank it confidently
 [@jing2023networkma].)
 
-The practical, low-numeracy tool that makes any of these work at a *cai png* stall is the **plate method** —
-Singapore's **My Healthy Plate**: a quarter wholegrains, a quarter protein, half fruit and vegetables, with
-water over sugary drinks [@hpbHealthyPlate].
+The practical, low-numeracy tool that makes any of these work at a *cai png* stall is the **plate
+method**, Singapore's **My Healthy Plate**: a quarter wholegrains, a quarter protein, half fruit and
+vegetables, with water over sugary drinks [@hpbHealthyPlate].
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-At the mixed-rice (*cai png*) stall the advice is concrete: **less rice (or brown rice), one lean protein, two
-vegetables, go easy on the gravy**; at the drinks stall, **kopi/teh-o kosong or water** over a Nutri-Grade C/D
-sweet drink. This *is* the Mediterranean/plate-method principle — more plants and wholegrains, less refined
-carbohydrate and sugar — rendered in hawker-centre terms. (The Mediterranean pattern's *cardiovascular*
-evidence, including PREDIMED, belongs to the *Cardiovascular Disease & Hypertension* chapter — here we use the
-pattern for glucose and overall quality.)
+At the mixed-rice (*cai png*) stall the advice is concrete: **less rice (or brown rice), one lean
+protein, two vegetables, go easy on the gravy**; at the drinks stall, **kopi/teh-o kosong or water**
+over a Nutri-Grade C/D sweet drink. This *is* the Mediterranean/plate-method principle (more plants
+and wholegrains, less refined carbohydrate and sugar) rendered in hawker-centre terms. (The
+Mediterranean pattern's *cardiovascular* evidence, including PREDIMED, belongs to the *Cardiovascular
+Disease & Hypertension* chapter; here we use the pattern for glucose and overall quality.)
 :::
 
 ## Remission: reversing early diabetes
 
-One of the biggest shifts in diabetes care is that **early type 2 diabetes can be put into remission** with
-substantial, sustained weight loss. The landmark DiRECT trial achieved **46% remission at one year** with a
-structured weight-management programme, versus 4% with usual care [@lean2018direct]. Three qualifiers
-must travel with that number:
+One of the biggest shifts in diabetes care is that **early type 2 diabetes can be put into
+remission** with substantial, sustained weight loss. The landmark DiRECT trial achieved **46%
+remission at one year** with a structured weight-management programme, versus 4% with usual care
+[@lean2018direct]. Three qualifiers must travel with that number:
 
-- **It is eligibility-bound.** DiRECT enrolled people diagnosed within about **6 years**, **not on insulin**,
-  within a defined BMI range. Long-standing or insulin-treated diabetes behaves differently. Because Asians
-  reach their fat threshold at a lower BMI, entry criteria should be **ethnicity-adjusted**, not the Western
-  band applied unchanged [@taylor2023pft; @standby2022southasian].
-- **It fades.** Remission fell to about **36% at two years and ~13% at five**, tracking with weight regained —
-  the maintenance problem is not yet solved [@direct5yr2024].
-- **It is *remission*, not *cure*.** The agreed definition is an HbA1c below the diabetes range **sustained off
-  glucose-lowering drugs**, and monitoring continues because it can relapse [@riddle2021remission;
-  @diabetesUK2021remission].
+- **It is eligibility-bound.** DiRECT enrolled people diagnosed within about **6 years**, **not on
+  insulin**, within a defined BMI range. Long-standing or insulin-treated diabetes behaves
+  differently. Because Asians reach their fat threshold at a lower BMI, entry criteria should be
+  **ethnicity-adjusted** rather than the Western band applied unchanged
+  [@taylor2023pft; @standby2022southasian].
+- **It fades.** Remission fell to about **36% at two years and ~13% at five**, tracking with weight
+  regained; the maintenance problem is not yet solved [@direct5yr2024].
+- **It is *remission*, not *cure*.** The agreed definition is an HbA1c below the diabetes range
+  **sustained off glucose-lowering drugs**, and monitoring continues because it can relapse
+  [@riddle2021remission; @diabetesUK2021remission].
 
-**How it is delivered matters for safety.** Remission programmes use a **supervised total diet replacement**
-(a low-calorie formula phase with structured food reintroduction), and crucially the **medication is adjusted
-by the clinician on day one**, because glucose and blood pressure fall fast. This is emphatically **not** a
-self-directed crash diet — recognise the candidate and refer to a structured programme. Singapore has an
-expert-consensus framework for this (with ethnicity-adjusted thresholds), though no national remission
-programme yet exists [@khoo2026sgDSF].
+**How it is delivered matters for safety.** Remission programmes use a **supervised total diet
+replacement** (a low-calorie formula phase with structured food reintroduction), and crucially the
+**medication is adjusted by the clinician on day one**, because glucose and blood pressure fall fast.
+This is not a self-directed crash diet: recognise the candidate and refer to a structured programme.
+Singapore has an expert-consensus framework for this (with ethnicity-adjusted thresholds), though no
+national remission programme yet exists [@khoo2026sgDSF].
 
 ## Preventing diabetes: structure beats a single conversation
 
-Upstream of all this, prevention works — and the evidence is emphatic that **how** you deliver it decides
-whether it works. In the Diabetes Prevention Program, an **intensive, structured lifestyle programme** cut
-progression from prediabetes to diabetes by **58%**, outperforming metformin (31%) [@dpp2002], with benefit
-that persists for decades even as it attenuates [@dppos2009; @dppos2025_21yr]. The active ingredient was the
-*structure* — a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 minutes of
-activity a week — not a one-off "you should lose weight." Translated at scale it still works: the NHS
-programme and, locally, **Pre-DICTED** reproduced the benefit in real-world and multi-ethnic Asian settings
+Upstream of all this, prevention works, and the evidence is emphatic that **how** you deliver it
+decides whether it works. In the Diabetes Prevention Program, an **intensive, structured lifestyle
+programme** cut progression from prediabetes to diabetes by **58%**, outperforming metformin (31%)
+[@dpp2002], with benefit that persists for decades even as it attenuates
+[@dppos2009; @dppos2025_21yr]. The active ingredient was the *structure*: a multi-session curriculum
+with follow-up, aiming at ~5–7% weight loss and ≥150 minutes of activity a week, rather than a
+one-off "you should lose weight." Translated at scale it still works: the NHS programme and, locally,
+**Pre-DICTED** reproduced the benefit in real-world and multi-ethnic Asian settings
 [@mcmanus2022nhsDpp; @bee2025predicted].
 
-So the guideline advice for prediabetes is: aim for modest weight loss and activity, adopt a quality dietary
-pattern, and **refer to a structured programme** [@ada2026prevention]. Frame it to motivate, not to frighten —
-**not everyone with prediabetes progresses**, and some revert to normal [@hpbPreDictedInfo]. Sustaining any of
-these changes is a skill in itself — the motivational-interviewing and behaviour-change toolkit is the
-*Behaviour-Change Counselling* chapter's.
+So the guideline advice for prediabetes is: aim for modest weight loss and activity, adopt a quality
+dietary pattern, and **refer to a structured programme** [@ada2026prevention]. Frame it to motivate
+rather than to frighten, since **not everyone with prediabetes progresses**, and some revert to
+normal [@hpbPreDictedInfo]. Sustaining any of these changes is a skill in itself; the
+motivational-interviewing and behaviour-change toolkit is the *Behaviour-Change Counselling*
+chapter's.
 
 ## Safety first: hypoglycaemia and the drug-class rule
 
-Here is the do-no-harm heart of the chapter. Cutting or skipping carbohydrate — or fasting — is **only safe
-once you know the patient's medication**, because a few glucose-lowering drug classes can cause dangerous
-**hypoglycaemia**. So the first move, every time, is to identify the drug class:
+Here is the do-no-harm heart of the chapter. Cutting or skipping carbohydrate, or fasting, is **only
+safe once you know the patient's medication**, because a few glucose-lowering drug classes can cause
+dangerous **hypoglycaemia** (blood glucose falling too low). So the first move, every time, is to
+identify the drug class:
 
-- **Hypoglycaemia risk:** **insulin, sulfonylureas, meglitinides**. A patient on any of these who suddenly cuts
-  carbohydrate can go dangerously low — **refer to the diabetes team to review medication first**
-  [@ada2026glycemic; @aceT2DM2023].
-- **Low risk used alone:** **metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists**. Here a
-  sensible carbohydrate-quality change is reasonable — still refer to a dietitian.
+- **Hypoglycaemia risk:** **insulin, sulfonylureas, meglitinides**. A patient on any of these who
+  suddenly cuts carbohydrate can go dangerously low: **refer to the diabetes team to review
+  medication first** [@ada2026glycemic; @aceT2DM2023].
+- **Low risk used alone:** **metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor
+  agonists**. Here a sensible carbohydrate-quality change is reasonable; still refer to a dietitian.
 
-For someone on a **fixed insulin** dose, the counselling message is **carbohydrate consistency** (steady timing
-and amount), not aggressive restriction. And a conscious hypo is treated with the **"15-15" rule** — about 15 g
-of fast-acting glucose, recheck in 15 minutes — *not* chocolate or nuts, whose fat slows absorption
-[@diabetesukHypo]. Older people on sulfonylureas or insulin are especially vulnerable [@ling2021elderlyhypo].
+For someone on a **fixed insulin** dose, the counselling message is **carbohydrate consistency**
+(steady timing and amount), not aggressive restriction. And a conscious hypo is treated with the
+**"15-15" rule** (about 15 g of fast-acting glucose, recheck in 15 minutes), *not* chocolate or nuts,
+whose fat slows absorption [@diabetesukHypo]. Older people on sulfonylureas or insulin are especially
+vulnerable [@ling2021elderlyhypo].
 
-The interactive below drills exactly this reflex: pick a patient's medications and see whether a low-carb plan
-is safe to endorse, or whether it needs the diabetes team first.
+The interactive below drills exactly this reflex: pick a patient's medications and see whether a
+low-carb plan is safe to endorse, or whether it needs the diabetes team first.
 
 <div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
 
 ::: {.callout-warning}
 ## Check the drugs before you cut the carbs
-It is genuinely unsafe to endorse a low-carbohydrate diet or a fast to a patient on insulin or a sulfonylurea
-without a medication review — the dose set for their old intake can now drive them too low. Recognise the risk,
-and refer to the diabetes team **before** the diet changes, not after.
+It is genuinely unsafe to endorse a low-carbohydrate diet or a fast to a patient on insulin or a
+sulfonylurea without a medication review: the dose set for their old intake can now drive them too
+low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
 :::
 
 ## Fasting for Ramadan with diabetes
 
-For Singapore's Malay-Muslim community — which also carries a high diabetes burden — **Ramadan fasting** is a
-high-yield, faith-aware counselling task, not a footnote. Most people with diabetes fast, and doing so on
-insulin or a sulfonylurea raises the risk of severe hypoglycaemia several-fold [@salti2004epidiar]. Two things
-are worth knowing and saying:
+For Singapore's Malay-Muslim community, which also carries a high diabetes burden, **Ramadan
+fasting** is a high-yield, faith-aware counselling task, not a footnote. Most people with diabetes
+fast, and doing so on insulin or a sulfonylurea raises the risk of severe hypoglycaemia several-fold
+[@salti2004epidiar]. Two things are worth knowing and saying:
 
-- **A finger-prick glucose test does *not* break the fast**, and Islam **exempts the medically unfit** — so
-  monitoring and, where needed, not fasting are religiously permissible. Many patients wrongly believe
-  otherwise, and some come to harm because of it [@zainudin2017knowledge].
-- The safe approach is a **pre-Ramadan review** (ideally weeks ahead) to risk-stratify and adjust medication,
-  following international guidance — a recognise-and-refer task, not one to manage single-handed
-  [@hassanein2022ramadan]. Singapore has a locally validated fasting algorithm showing it can be done safely
-  [@lum2020fast].
+- **A finger-prick glucose test does *not* break the fast**, and Islam **exempts the medically
+  unfit**, so monitoring and, where needed, not fasting are religiously permissible. Many patients
+  wrongly believe otherwise, and some come to harm because of it [@zainudin2017knowledge].
+- The safe approach is a **pre-Ramadan review** (ideally weeks ahead) to risk-stratify and adjust
+  medication, following international guidance: a recognise-and-refer task, not one to manage
+  single-handed [@hassanein2022ramadan]. Singapore has a locally validated fasting algorithm showing
+  it can be done safely [@lum2020fast].
 
 ## The Singapore picture: the War on Diabetes
 
-Singapore declared a **War on Diabetes** in 2016, and the framing runs through this chapter. About **one in
-three** Singaporeans will develop diabetes in their lifetime; current prevalence is around **9%** of adults
-[@mohWarOnDiabetes; @mohNPHS2024]. There is a real **ethnic gradient** — Indian and Malay residents carry
-roughly twice the prevalence of Chinese residents — which should guide **screening priority**, framed as
-population-level risk and never as blame; individual counselling stays individualised [@mohNPHS2024].
+Singapore declared a **War on Diabetes** in 2016, and the framing runs through this chapter. About
+**one in three** Singaporeans will develop diabetes in their lifetime; current prevalence is around
+**9%** of adults [@mohWarOnDiabetes; @mohNPHS2024]. There is a real **ethnic gradient**: Indian and
+Malay residents carry roughly twice the prevalence of Chinese residents, which should guide
+**screening priority**, framed as population-level risk and never as blame; individual counselling
+stays individualised [@mohNPHS2024].
 
-The local food environment is where the levers live: only ~4% of staples are wholegrain, and **sugary drinks
-supply about half of dietary sugar** [@mohNNS2022]. The national tools point straight at these — **My Healthy
-Plate**, **Nutri-Grade** on beverages [@mohNutriGradeFresh2023], and **Healthier SG** with its subsidised
-screening as the delivery vehicle for early detection and lifestyle advice [@mohHealthierSG;
-@mohHealthierSGScreening]. On medication, local **ACE guidance** names the classes (metformin first-line;
-SGLT2 inhibitors or GLP-1 agonists where heart or kidney risk warrants) — which is exactly how to use it: to
-know the tiers exist and that **prescribing is the team's job** [@aceT2DM2023].
+The local food environment is where the levers live: only ~4% of staples are wholegrain, and **sugary
+drinks supply about half of dietary sugar** [@mohNNS2022]. The national tools point straight at
+these: **My Healthy Plate**, **Nutri-Grade** on beverages [@mohNutriGradeFresh2023], and **Healthier
+SG** with its subsidised screening as the delivery vehicle for early detection and lifestyle advice
+[@mohHealthierSG; @mohHealthierSGScreening]. On medication, local **ACE guidance** names the classes
+(metformin first-line; SGLT2 inhibitors or GLP-1 agonists where heart or kidney risk warrants), which
+is exactly how to use it: to know the tiers exist and that **prescribing is the team's job**
+[@aceT2DM2023].
 
-## So — can diabetes be "reversed"?
+## Can diabetes be "reversed"?
 
-Sometimes, and it is worth being precise about it. **Early** type 2 diabetes can be put into **remission** —
-not cure — with a supervised, weight-centred programme that empties the liver and pancreas of ectopic fat; the
-benefit is real but eligibility-bound and can fade. For most people, though, the everyday wins are upstream and
-alongside: **prevent** progression with structured lifestyle change, **manage** with a quality carbohydrate
-pattern and the plate method, and above all **counsel safely** — always checking the drug class before
-endorsing a low-carb diet or a fast. Recognise the levers, refer for the individualised plan, and the diabetes
-team and dietitian carry it from there. From here the cascade runs on — to the heart and blood vessels, and to
-the kidneys.
+Sometimes, and it is worth being precise about it. **Early** type 2 diabetes can be put into
+**remission** (not cure) with a supervised, weight-centred programme that empties the liver and
+pancreas of ectopic fat; the benefit is real but eligibility-bound and can fade. For most people,
+the everyday wins are upstream and alongside: **prevent** progression with structured lifestyle
+change, **manage** with a quality carbohydrate pattern and the plate method, and above all **counsel
+safely**, always checking the drug class before endorsing a low-carb diet or a fast. Recognise the
+levers, refer for the individualised plan, and the diabetes team and dietitian carry it from there.
+From here the cascade runs on, to the heart and blood vessels, and to the kidneys.
 
 ## Check your understanding
 
@@ -227,10 +244,11 @@ the kidneys.
 
 ## Practise: "Can I reverse my diabetes?"
 
-Mr Raj is 50, diagnosed with type 2 diabetes two years ago, on metformin only (not insulin), with a BMI of 31.
-He has read online that diabetes can be "reversed" and wants to know if it is true for him — and whether he
-should start a very-low-calorie shake diet and stop his tablets himself. Work through the visit: check whether
-remission is a realistic goal, get the *remission-not-cure* message right, and handle the moment where doing it
-unsupervised would be unsafe. Your choices branch the case.
+Mr Raj is 50, diagnosed with type 2 diabetes two years ago, on metformin only (not insulin), with a
+BMI of 31. He has read online that diabetes can be "reversed" and wants to know if it is true for
+him, and whether he should start a very-low-calorie shake diet and stop his tablets himself. Work
+through the visit: check whether remission is a realistic goal, get the *remission-not-cure* message
+right, and handle the moment where doing it unsupervised would be unsafe. Your choices branch the
+case.
 
 <div data-island="case" data-src="/cases/early-t2d-remission.case.yml"></div>

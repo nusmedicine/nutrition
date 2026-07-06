@@ -16,7 +16,7 @@ book:
   search: true
   chapters:
     - index.qmd
-    - part: "I · The metabolic & physiological basis"
+    - part: "I · Foundations of Nutrition Science"
       chapters:
         - chapters/01-why-nutrition-matters.qmd
         - chapters/energy-balance.qmd
@@ -26,7 +26,7 @@ book:
         - chapters/integrative-metabolism.qmd
         - chapters/gut-microbiome.qmd
         - chapters/appetite-weight-regulation.qmd
-    - part: "II · Across the life stages"
+    - part: "II · Nutrition across Life Stages"
       chapters:
         - chapters/part2-intro.qmd
         - chapters/infancy-early-childhood.qmd
@@ -35,14 +35,14 @@ book:
         - chapters/pregnancy-lactation.qmd
         - chapters/menopause-midlife.qmd
         - chapters/healthy-ageing.qmd
-    - part: "III · Advising the healthy"
+    - part: "III · Assessing and Advising Patients"
       chapters:
         - chapters/dietary-guidelines-patterns.qmd
         - chapters/evidence-vs-hype.qmd
         - chapters/06-dietary-assessment.qmd
         - chapters/behaviour-change-counselling.qmd
         - chapters/interprofessional-referral.qmd
-    - part: "IV · Advising the chronically ill"
+    - part: "IV · Nutrition in Disease"
       chapters:
         - chapters/obesity-metabolic-syndrome.qmd
         - chapters/type-2-diabetes.qmd

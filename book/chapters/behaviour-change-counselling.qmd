@@ -1,74 +1,72 @@
 # Behaviour-change counselling
 
-> *Knowing the right diet is not what changes a patient — the conversation is. This chapter is
-> about **how to help someone change**: how to structure a brief consult, elicit their own
-> motivation instead of arguing for it, turn a vague wish into one concrete goal, and do it all
-> without causing harm.*
+> *Knowing the right diet is rarely what changes a patient. The conversation is. How do you
+> help someone change: structure a brief consult, draw out their own motivation, turn a vague
+> wish into one concrete goal, and do all of it without causing harm?*
 
 ## Knowledge is not enough
 
-The *What a Healthy Diet Looks Like* and *Assessing Diet & Talking to Patients* chapters gave you
-the **what** and the **finding-out**. This one is the **how to help**. It matters because the gap
-between "I know I should eat better" and actually doing it is where most advice dies — and
-clinicians are consistently under-prepared to bridge it [@crowley2019]. In a brief consult your job
-is not to *finish* a change; it is to **start** one — to leave the patient a little more motivated,
-with one small step they chose themselves.
+The *What a Healthy Diet Looks Like* and *Assessing Diet & Talking to Patients* chapters covered the
+**what** and the **finding-out**. This one is the **how to help**. The gap between "I know I should
+eat better" and actually doing it is where most advice dies, and clinicians are consistently
+under-prepared to bridge it [@crowley2019]. In a brief consult your job is not to *finish* a change.
+It is to **start** one: to leave the patient a little more motivated, with one small step they chose
+themselves.
 
 There is a physiological reason knowledge is such a weak lever. As the *Appetite & Weight
-Regulation* chapter set out, eating is only partly a deliberate choice: the brain's **reward
-system** generates *wanting* — a dopamine-driven pull toward palatable food, triggered by **cues**
+Regulation* chapter set out, eating is only partly a deliberate choice. The brain's **reward
+system** generates *wanting*, a dopamine-driven pull toward palatable food, triggered by **cues**
 (the sight, smell or advertisement of a snack) that can override both a fullness signal and a
 considered intention [@berridge2009dissecting; @volkow2017dopamine]. Layered on top, much of what
-we eat is **habit** — automatic, context-cued behaviour that runs with little conscious thought. So
-a patient who "knows better" but eats otherwise is not weak-willed; they are a normal reward system
+we eat is **habit**: automatic, context-cued behaviour that runs with little conscious thought. So
+a patient who "knows better" but eats otherwise is not weak-willed. They are a normal reward system
 and a set of habits operating in a food environment engineered to exploit both
-[@berthoud2017blaming]. That reframes the task: you cannot out-argue a reward system, so the two
-levers that actually move behaviour are **eliciting the patient's own motivation** — the reason has
-to come from inside — and **re-shaping habits one small, repeated step at a time** (a routine
+[@berthoud2017blaming]. That reframes the task. You cannot out-argue a reward system, so the two
+levers that actually move behaviour are **eliciting the patient's own motivation** (the reason has
+to come from inside) and **re-shaping habits one small, repeated step at a time**. A routine
 repeated in a consistent context takes weeks to months to turn automatic, so small-and-sustained
-beats big-and-brief) [@lally2010habits]. The rest of this chapter is those two levers.
+beats big-and-brief [@lally2010habits]. The rest of this chapter is those two levers.
 
 ## The 5 A's: the shape of the conversation
 
-A brief lifestyle consult has a well-worn backbone — the **5 A's** [@usptfBehavioural]:
+A brief lifestyle consult has a well-worn backbone, the **5 A's** [@usptfBehavioural]:
 
 - **Assess** — what they eat, and what they're ready to change (the history from the *Assessing Diet
   & Talking to Patients* chapter).
 - **Advise** — offer clear, personalised advice, **with permission** ("would it be OK if…?"). The
-  *content* is what you already know — My Healthy Plate, one realistic swap.
+  *content* is what you already know: My Healthy Plate, one realistic swap.
 - **Agree** — set the goal *collaboratively*, not by decree.
 - **Assist** — help them problem-solve and co-write the goal.
 - **Arrange** — follow-up, or referral.
 
-Two caveats keep this in proportion. First, be careful about **dose**: the bodies that
+Two caveats keep this in proportion. First, be careful about **dose**. The bodies that
 endorse the 5 A's base their *effectiveness* evidence on **intensive, multi-contact** programmes
 (often a dozen or more sessions), not a single clinic visit [@usptfBehavioural]. A one-off consult
-realistically *initiates* change rather than delivering it — which is exactly why **Arrange**
+realistically *initiates* change rather than delivering it, which is exactly why **Arrange**
 matters, and why the more intensive, multi-session programmes that actually shift outcomes belong to
-the diabetes chapter. Second, the same scaffold works for *any* behaviour — activity, sleep, alcohol,
-smoking —
-so you are learning one transferable engine, used here on food.
+the diabetes chapter. Second, the same scaffold works for *any* behaviour, whether activity, sleep,
+alcohol or smoking, so you are learning one transferable engine, used here on food.
 
 ## Motivational interviewing: elicit, don't argue
 
-The style that fills the 5 A's is **motivational interviewing (MI)** — a collaborative way of
+The style that fills the 5 A's is **motivational interviewing (MI)**, a collaborative way of
 talking that *draws out* the patient's own reasons to change rather than supplying yours. Its
 benefits are real but modest: reviews find mostly **small, short-term** effects on health behaviours,
-and the evidence base is still developing [@frost2018mi] — so treat MI as a better *default* way to
-talk, not a guaranteed lever. Its core is deceptively simple — the **OARS** micro-skills: **O**pen
-questions, **A**ffirmations, **R**eflective listening, and **S**ummaries — used to listen for **change
+and the evidence base is still developing [@frost2018mi]. Treat MI as a better *default* way to
+talk, not a guaranteed lever. Its core is deceptively simple, the **OARS** micro-skills: **O**pen
+questions, **A**ffirmations, **R**eflective listening, and **S**ummaries, used to listen for **change
 talk** (the patient voicing their *own* motivation) and gently strengthen it.
 
-The single most important move is a *restraint*: **resist the righting reflex** — the near-irresistible
+The single most important move is a *restraint*: **resist the righting reflex**, the near-irresistible
 urge to jump in and fix, warn, or lecture. It feels helpful; it reliably provokes resistance. When a
-patient says "it's my only pleasure," the reflex says "but it's *dangerous*" — and they dig in. MI
+patient says "it's my only pleasure," the reflex says "but it's *dangerous*," and they dig in. MI
 does the opposite: it reflects, affirms, and asks, so the patient argues *themselves* toward change.
 
-One more move earns its place: the **scaling question** — "on a 0–10, how confident are you that you
+One more move earns its place: the **scaling question**, "on a 0–10, how confident are you that you
 could do it, and what makes it that number and not lower?" It surfaces what a patient *can* do versus
 what's harder, and lets you build on the confidence they already have.
 
-Practise the moves below. Mr Tan isn't asking to change — pick what you'd say at each turn and watch
+Practise the moves below. Mr Tan isn't asking to change; pick what you'd say at each turn and watch
 the difference between fixing and listening.
 
 <div data-island="response-chooser" data-src="/diagrams/response-chooser.yml"></div>
@@ -76,36 +74,36 @@ the difference between fixing and listening.
 ## From a wish to one SMART goal
 
 Once a patient voices a change, help them make it **checkable**. A **SMART** goal is Specific,
-Measurable, Achievable, Relevant and Time-bound — *"order kopi **siu dai** for my morning cup, every
+Measurable, Achievable, Relevant and Time-bound. *"Order kopi **siu dai** for my morning cup, every
 workday, starting Monday"* beats "cut down on sugar." Specific goals show some promise over vague
 advice for dietary change, though the evidence has methodological limits and the acronym is a
-scaffold, not magic [@shilts2004goalsetting]. Two rules matter more than the letters: the goal must be **the patient's**
-(an over-engineered goal they didn't choose won't stick), and it should be **small** — one
+scaffold, not magic [@shilts2004goalsetting]. Two rules matter more than the letters. The goal must be **the patient's**
+(an over-engineered goal they didn't choose won't stick), and it should be **small**: one
 achievable change beats five aspirational ones.
 
-One add-on genuinely helps: pairing the goal with an **if-then plan** (an *implementation intention*)
-— "*if* the stall auntie forgets, *then* I'll remind her *siu dai*." Deciding in advance *when and
+One add-on genuinely helps: pairing the goal with an **if-then plan** (an *implementation intention*),
+"*if* the stall auntie forgets, *then* I'll remind her *siu dai*." Deciding in advance *when and
 where* has a medium-to-large effect on whether a goal actually happens [@gollwitzer2006implementation].
 
 ## Stages of change: a tailoring heuristic, held loosely
 
-Patients arrive at different points — some haven't thought about it (**pre-contemplation**), some are
+Patients arrive at different points. Some haven't thought about it (**pre-contemplation**), some are
 weighing it up (**contemplation**), some are ready to plan (**preparation**). The **stages-of-change**
 model is a useful way to tailor *how* you talk: raise awareness for the person who isn't thinking
-about it; build confidence and co-set a goal for the person who is ready. Use it that way — to choose
+about it; build confidence and co-set a goal for the person who is ready. Use it that way, to choose
 your *style*, not to label people.
 
 ::: {.callout-warning}
-## Teach it with humility
+## Hold the model loosely
 Stages-of-change is a **heuristic, not a proven predictor**. The Cochrane evidence for it producing
 sustained weight loss is low-certainty [@mastellos2014ttm]. It helps you meet a patient where they
-are; it does not tell you whether they'll succeed — don't present it as fact.
+are; it does not tell you whether they'll succeed, so don't present it as fact.
 :::
 
 ## Make it fit the life
 
 A goal that fights the patient's real world loses. Good counselling works **within** their food
-environment, not against it — and in Singapore that means the hawker centre and the kopitiam, not a
+environment, not against it, and in Singapore that means the hawker centre and the kopitiam, not a
 prescription to stop eating out. The whole toolkit points at small, culturally-real shifts, and the
 best of them travel with the patient's social world.
 
@@ -114,13 +112,13 @@ best of them travel with the patient's social world.
 The best SMART goals ride existing rituals: **kopi/teh siu dai or kosong** instead of the sweet
 default; **share one plate** of *char kway teow* instead of one each; "**less rice, more veg**" at
 *cai png*; a **clear-soup** option some days; a **Nutri-Grade A/B** drink over a C/D one
-[@hpbNutriGrade]. And enlist the people around the food — who cooks, who orders the shared dish, who
-joins the kopi run — because a change that fits the family meal survives, and one that fights it fails.
+[@hpbNutriGrade]. And enlist the people around the food, whoever cooks, orders the shared dish, or
+joins the kopi run, because a change that fits the family meal survives, and one that fights it fails.
 :::
 
 ## Do no harm
 
-Counselling about food can hurt — the *Assessing Diet & Talking to Patients* chapter flagged these
+Counselling about food can hurt. The *Assessing Diet & Talking to Patients* chapter flagged these
 red flags at first contact; here you carry that vigilance through the change conversation. Push too
 hard, moralise, or fixate on weight, and you can tip a patient toward restriction, shame or
 disordered eating. Two habits protect against this.
@@ -132,31 +130,31 @@ and weight-stigmatising language damages both rapport and health [@canPaeds2025d
 the scale.
 
 **Watch for red flags, and refer.** The reassuring news is that, on average, structured behavioural
-weight management does **not** increase eating-disorder symptoms — most people improve slightly — but
-a **small minority develop new symptoms** [@jebeile2023edrisk]. So the stance is *reassurance plus
+weight management does **not** increase eating-disorder symptoms, and most people improve slightly,
+but a **small minority develop new symptoms** [@jebeile2023edrisk]. So the stance is *reassurance plus
 vigilance*: if a patient reveals skipping meals to "make up" for eating, guilt or secrecy around food,
 or a driven pursuit of thinness, **pause the weight and portion goals and refer**, rather than press
-on. Recognising that moment — and not reinforcing restriction — is the counselling equivalent of
+on. Recognising that moment, and not reinforcing restriction, is the counselling equivalent of
 first, do no harm.
 
 ## The Singapore picture
 
 Singapore already runs on this model. The HPB–MOH clinical practice guidelines build brief lifestyle
 counselling on the **5 A's and MI-style engagement** [@hpbMohCPG; @sgObesityBMI], so you are learning endorsed local
-practice, not an import. **Nutri-Grade** hands you a ready-made SMART-goal lever — "move my usual
+practice, not an import. **Nutri-Grade** hands you a ready-made SMART-goal lever: "move my usual
 drink from a D to an A or B" is specific, measurable and locally meaningful. And the **War on
-Diabetes** framing, with its higher risk among some ethnic groups, is a cue to *tailor* — to meet a
+Diabetes** framing, with its higher risk among some ethnic groups, is a cue to *tailor*, to meet a
 Malay, Indian or Chinese patient inside their own food culture rather than hand everyone the same
 script [@mohWarOnDiabetes].
 
-## So — how do you start a change?
+## How do you start a change?
 
 Not by knowing more, and not by trying harder to convince. You **assess**, you **ask before you
 advise**, you **listen** for the patient's own reasons and resist the urge to fix, you help them
-choose **one small, specific, owned** goal — with an if-then plan and a follow-up — and you keep the
+choose **one small, specific, owned** goal, with an if-then plan and a follow-up, and you keep the
 language kind and weight-neutral, referring the moment food talk turns harmful. One change the patient
-chose beats ten you prescribed. Carrying the whole conversation live, with a simulated patient, is the
-work of the capstone chapter.
+chose beats ten you prescribed. Carrying the whole conversation live, with a simulated patient, comes
+in the capstone chapter.
 
 ## Check your understanding
 
@@ -166,7 +164,7 @@ work of the capstone chapter.
 
 Mr Tan, a 52-year-old taxi driver with a borderline HbA1c, drinks two or three sweet *kopi gao* a
 day and isn't asking to change. Open the conversation, resist the righting reflex, help him arrive at
-one small goal he actually owns — and stay alert for the moment counselling would do more harm than
+one small goal he actually owns, and stay alert for the moment counselling would do more harm than
 good. Your choices branch the case.
 
 ::: {.callout-tip}

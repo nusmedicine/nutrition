@@ -1,44 +1,43 @@
 # Digestion and absorption
 
-> *Follow one meal from plate to bloodstream. The goal is **recognition** —
-> trace food through the tube, name the organs, enzymes and hormones and their broad jobs,
-> and understand how nutrients cross into the body. Not enzyme kinetics, not disease
-> management — the map, not every street name.*
+> *Follow one meal from plate to bloodstream: trace food through the tube, name the organs,
+> enzymes and hormones and their broad jobs, and see how nutrients cross into the body. The
+> aim is the map, not every street name.*
 
 ## From plate to bloodstream: the big picture
 
 The gut is **one continuous tube**, mouth to anus. That has a surprising consequence:
-whatever is in the tube is still, in a sense, **outside** the body — food only truly
-"enters" you when it is **absorbed** across the gut wall. So the digestive system has just
-two jobs: **break food into pieces small enough to absorb**, and then **absorb them**.
+whatever is in the tube is still, in a sense, **outside** the body. Food only truly "enters"
+you when it is **absorbed** across the gut wall. So the digestive system has just two jobs:
+**break food into pieces small enough to absorb**, and then **absorb them**.
 
 Doing this takes the **tube** itself (mouth → oesophagus → stomach → small intestine → large
-intestine) plus four **accessory organs** that pour in juices along the way — the **salivary
+intestine) plus four **accessory organs** that pour in juices along the way: the **salivary
 glands**, the **liver**, the **gallbladder**, and the **pancreas**.
 
-Rather than read the whole trip as a list, explore it: click each organ in the illustration
+Rather than read the whole trip as a list, explore it. Click each organ in the illustration
 below to see what happens to your meal there.
 
 <div data-island="gut" data-src="/diagrams/gut-journey.yml"></div>
 
 ## Moving the food: motility
 
-Muscle in the gut wall moves food along with two patterns worth telling apart:
-**peristalsis** — travelling waves that *push* the bolus forward — and **segmentation** —
-back-and-forth squeezing that *mixes* the contents with digestive juices, mainly in the small
-intestine. A useful line: *peristalsis pushes; segmentation shuffles.* Between the two sit
-**sphincters** — muscular one-way gates (the lower oesophageal, pyloric, ileocaecal and anal
+Muscle in the gut wall moves food along with two patterns worth telling apart.
+**Peristalsis** is a set of travelling waves that *push* the bolus forward; **segmentation**
+is back-and-forth squeezing that *mixes* the contents with digestive juices, mainly in the
+small intestine. A useful line: *peristalsis pushes; segmentation shuffles.* Between the two
+sit **sphincters**, muscular one-way gates (the lower oesophageal, pyloric, ileocaecal and anal
 sphincters) that stop things going backwards.
 
 **Gastric emptying is regulated, not passive.** A meal leaves the stomach over a few hours,
-and — counter-intuitively — a **fatty or large meal empties more *slowly***, held back by
-signals from the duodenum (this is partly why a greasy meal "sits heavy"). And between meals,
-a cyclical "housekeeper" wave called the **migrating motor complex** sweeps leftovers and
+and, counter-intuitively, a **fatty or large meal empties more *slowly***, held back by
+signals from the duodenum (this is partly why a greasy meal "sits heavy"). Between meals, a
+cyclical "housekeeper" wave called the **migrating motor complex** sweeps leftovers and
 bacteria onward roughly every 1–2 hours, triggered by the hormone **motilin** [@deloose2012mmc].
 
 ::: {.callout-note}
 Transit times are **coarse ranges, not fixed numbers**: hours in the stomach, hours in the
-small intestine, and up to a day or more in the colon — around **1–3 days** end to end,
+small intestine, and up to a day or more in the colon, around **1–3 days** end to end,
 varying with diet, fibre, fluid and activity. (How fibre speeds transit belongs to the Gut
 Microbiome chapter.)
 :::
@@ -54,7 +53,7 @@ at a particular place along the tube [@statpearlsDigestion]:
   microbes) and **intrinsic factor**; **chief cells** make **pepsin**, which cuts protein into
   peptides [@statpearlsStomach].
 - **Duodenum.** The **pancreas** delivers **amylase**, **lipase** (with colipase) and
-  protein-cutting enzymes, plus **bicarbonate** that neutralises stomach acid — the "antacid
+  protein-cutting enzymes, plus **bicarbonate** that neutralises stomach acid: the "antacid
   step" that gives the pancreatic enzymes the near-neutral pH they need.
 - **Brush border.** The final snip happens right on the gut lining: **disaccharidases**
   (lactase, sucrase, maltase) split sugars, and **peptidases** finish the proteins.
@@ -69,7 +68,7 @@ at a particular place along the tube [@statpearlsDigestion]:
 ::: {.callout-note}
 ## The enzyme safety-lock
 The pancreas makes its protein-digesting enzymes in an **inactive form** and only switches
-them on **once they reach the gut** — otherwise they would digest the pancreas itself. A neat
+them on **once they reach the gut**; otherwise they would digest the pancreas itself. A neat
 piece of biological safety engineering. *(The concept is what matters here, not the named
 activation cascade.)*
 :::
@@ -77,30 +76,30 @@ activation cascade.)*
 ### The everyday example: lactose intolerance
 
 The brush-border enzyme **lactase** splits **lactose** (milk sugar). Most of the world's
-adults make less lactase after childhood — and this is the norm, not a disease. In
+adults make less lactase after childhood, and this is the norm, not a disease. In
 **Singapore-born Chinese adults, about 95% are lactase-deficient**, yet only around a
 **third** report symptoms on ordinary amounts of milk [@yap1989]; a more recent multi-ethnic
 Malaysian study finds the same high prevalence across Chinese, Malay and Indian adults
-[@goh2018lactase]. Three ideas that are easy to confuse — and worth separating:
+[@goh2018lactase]. Three ideas are easy to confuse and worth separating:
 
 - **Lactase-deficient** — you make little lactase (very common in East-Asian adults).
 - **Lactose-intolerant** — you get symptoms (bloating, wind) from a given amount; most people
   tolerate the lactose in **about a cup of milk** [@nihConsensus2010].
 - **Milk-allergic** — an entirely different, immune reaction to milk *protein*.
 
-When undigested lactose reaches the colon, resident bacteria ferment it and produce gas —
-*that* mechanism belongs to the Gut Microbiome chapter. The practical message is food-first and
+When undigested lactose reaches the colon, resident bacteria ferment it and produce gas; *that*
+mechanism belongs to the Gut Microbiome chapter. The practical message is food-first and
 culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources
-(calcium-set tofu, fortified soy milk, leafy greens, small fish with bones) all work — "just
-drink three glasses of milk" does not.
+(calcium-set tofu, fortified soy milk, leafy greens, small fish with bones) all work, while
+"just drink three glasses of milk" does not.
 
 ## The control panel: gut hormones
 
 The gut is often called the body's **largest endocrine organ**: hormone-making cells are
-scattered singly through its lining. Their shared logic is simple — food arriving in one
+scattered singly through its lining. Their shared logic is simple. Food arriving in one
 segment releases a hormone that **prepares the next** stage or **puts the brakes** on the
 previous one [@statpearlsGIhormones]. Five are worth recognising, each as *where it's made →
-what triggers it → its one job* (regulating **secretion and motility** — the role in appetite
+what triggers it → its one job* (regulating **secretion and motility**; the role in appetite
 comes later, in the Appetite & Weight Regulation chapter):
 
 | Hormone | Made by | Trigger | Job |
@@ -112,46 +111,46 @@ comes later, in the Appetite & Weight Regulation chapter):
 | **Motilin** | small intestine (M cells) | **fasting** between meals | drives the housekeeper sweep |
 
 One idea to plant now: eating glucose raises insulin **more** than the same glucose given by
-drip, because the gut warns the pancreas that food is coming — the **incretin** effect, carried
-by GIP and a partner hormone (GLP-1) [@nauck2016incretin]. That everyday signal turns out to be
-the basis of major modern diabetes and weight medicines — but their full story comes in later
-chapters.
+drip, because the gut warns the pancreas that food is coming. This is the **incretin**
+effect, carried by GIP and a partner hormone (GLP-1) [@nauck2016incretin]. That everyday
+signal turns out to be the basis of major modern diabetes and weight medicines, whose full
+story comes in later chapters.
 
 ## Absorption: crossing the wall
 
 ### An enormous surface, folded away
 
 The small intestine is huge **inside**, not outside. Its lining is thrown into folds, carpeted
-with finger-like **villi**, and each cell tops itself with a fuzz of **microvilli** — stacking
+with finger-like **villi**, and each cell tops itself with a fuzz of **microvilli**, stacking
 up a surface area of roughly **30 m²**, about **half a badminton court**.
 
 ::: {.callout-warning}
 ## Not a tennis court
 Textbooks long claimed the gut's surface rivals a **tennis court** (~200–300 m²). Careful
-measurement puts it at about **30–40 m²** — big, but far less [@helander2014]. A tidy reminder
+measurement puts it at about **30–40 m²**: big, but far less [@helander2014]. A tidy reminder
 that even "textbook facts" get corrected.
 :::
 
 ![Circular folds, villi and microvilli amplify the absorptive surface. Micrograph: OpenStax College, CC BY 3.0.](/figures/anatomy/small-intestine-histology.jpg){#fig-villi fig-alt="Histology of the small intestine showing circular folds, villi and the brush border of microvilli." width="420" .lightbox}
 
-### Four ways in — and one star
+### Four ways in, and one star
 
 Each absorptive cell (**enterocyte**) is a gatekeeper with two faces: the **brush border**
 facing the gut contents and the far side facing blood and lymph. Nutrients cross by one of four
-routes — **passive diffusion** (fats, water), **facilitated diffusion** (fructose, via GLUT5),
+routes: **passive diffusion** (fats, water), **facilitated diffusion** (fructose, via GLUT5),
 a **pump** using energy directly, and **secondary active transport**, the star of the show.
 Here a **sodium pump** keeps sodium low inside the cell; that sodium gradient is a battery, and
-**SGLT1** spends it to drag **glucose** in *alongside* sodium — sugar riding in on sodium's
+**SGLT1** spends it to drag **glucose** in *alongside* sodium, sugar riding in on sodium's
 coat-tails [@roder2014]. Absorbed sugars and amino acids (and small peptides) drain into the
 **portal vein** and head first to the **liver**.
 
 ### Fat: bile, micelles and the lymphatic detour
 
-Fat needs special handling because it will not dissolve in water. **Bile salts** — detergents
-made by the liver — **emulsify** fat into tiny droplets so lipase can work; the products then
+Fat needs special handling because it will not dissolve in water. **Bile salts**, detergents
+made by the liver, **emulsify** fat into tiny droplets so lipase can work; the products then
 cluster with bile salts into **mixed micelles** that ferry them to the brush border. There the
 fat **diffuses in** and the micelle stays behind (it's a shuttle, not cargo). Inside the cell
-the fat is **re-esterified** and packaged with cholesterol and protein into a **chylomicron** —
+the fat is **re-esterified** and packaged with cholesterol and protein into a **chylomicron**,
 too big for a blood capillary, so it slips into a **lacteal** (a lymph vessel) and reaches the
 blood by the lymphatic back door, **bypassing the liver's first pass**. This is why blood drawn
 after a fatty meal can look faintly milky.
@@ -164,19 +163,18 @@ oil–water boundary and break fat apart.
 
 <div data-island="molecule" data-src="/structures/bile.mol.yml"></div>
 
-*(The dominant story is that most dietary fat is **long-chain**, so it takes the lymph route.
-The exception: **short- and medium-chain** fatty acids are small enough to enter the blood
-directly, like sugars.)*
+*(Most dietary fat is **long-chain**, so it takes the lymph route. The exception: **short- and
+medium-chain** fatty acids are small enough to enter the blood directly, like sugars.)*
 
-### Bile's thrifty recycling — and why one spot matters twice
+### Bile's thrifty recycling, and why one spot matters twice
 
 Bile is **made by the liver**, **stored and concentrated in the gallbladder**, and released
 into the duodenum when a fatty meal arrives (on the **CCK** signal). It is far too valuable to
 throw away: about **95% of bile salts are reabsorbed** at the **terminal ileum** and shuttled
-back to the liver to be used again — the **enterohepatic circulation** [@chiang2013]. The
+back to the liver to be used again, the **enterohepatic circulation** [@chiang2013]. The
 terminal ileum is worth remembering because it does **two** jobs: it reclaims bile salts **and**
 absorbs **vitamin B12**. Lose or damage it, and you can get **both** fat malabsorption **and**
-B12 deficiency — "two casualties, one site."
+B12 deficiency, "two casualties, one site."
 
 ```{mermaid}
 %%| label: fig-enterohepatic
@@ -193,7 +191,7 @@ flowchart LR
 ## Where each nutrient gets in (a link back to the Micronutrients chapter)
 Absorption is often **site-specific**: **iron** in the **duodenum**, **vitamin B12** (with
 intrinsic factor) at the **terminal ileum**, and the **fat-soluble vitamins (A, D, E, K)**
-alongside fat and bile — so a fat or bile problem can quietly cause *their* deficiency too. The
+alongside fat and bile, so a fat or bile problem can quietly cause *their* deficiency too. The
 nutrients themselves are covered in the Micronutrients chapter; here we're mapping *where* they get in.
 :::
 
@@ -202,7 +200,7 @@ nutrients themselves are covered in the Micronutrients chapter; here we're mappi
 Digestion depends not only on *what* is eaten but on *how*. Holding a food and its energy
 content constant, its **physical form**, how it is **cooked**, the **order** in which the parts
 of a meal are eaten, and what they are eaten **with** all change how quickly it is digested and
-absorbed — and therefore how fast blood glucose rises, how much satiety is generated, and, for
+absorbed, and therefore how fast blood glucose rises, how much satiety is generated, and, for
 some nutrients, how much is absorbed at all. The blood-glucose response itself (the glycaemic
 index) is covered in the Macronutrients chapter; this section explains the digestive mechanisms
 behind it.
@@ -217,13 +215,13 @@ behind it.
 **Form and the food matrix.** In an intact plant food, starch and sugars are enclosed within
 cell walls and packed into semi-crystalline granules that enzymes cannot reach until the
 structure is broken. Juicing, blending and fine milling rupture this matrix and expose far more
-surface to amylase, and liquids leave the stomach faster than solids — so digestion is quicker
+surface to amylase, and liquids leave the stomach faster than solids, so digestion is quicker
 and the glucose peak higher and earlier, with less satiety, even when the sugar content is
 unchanged. In a classic study, apples taken as juice produced a larger insulin response and a
 rebound fall in glucose, and were the least satiating, compared with the whole fruit
 [@haber1977apple]. A whole orange versus a glass of its juice makes the same point.
 
-**Cooking — and cooling.** Heat and water **gelatinise** starch, swelling the granules and
+**Cooking, and cooling.** Heat and water **gelatinise** starch, swelling the granules and
 disrupting their crystalline structure so that enzymes digest them more readily; cooking also
 denatures protein and improves its digestibility (the same principle by which gastric acid
 unfolds protein for pepsin). Cooling cooked starch partly reverses this: some **retrogrades**
@@ -235,46 +233,46 @@ The effect is small and variable, and is not a licence for larger portions.
 **Order and company.** With meal composition fixed, eating **vegetables and protein before the
 carbohydrate** measurably lowers the post-meal glucose and insulin rise: in people with
 prediabetes, a vegetable-and-protein-first order reduced the glucose peak by roughly 45% and the
-incremental area under the curve by nearly 40% relative to carbohydrate first — though these
+incremental area under the curve by nearly 40% relative to carbohydrate first, though these
 figures come from small, short-term studies in prediabetes or type 2 diabetes, with weaker data
-on long-term control [@shukla2019order]. The mechanism belongs to this chapter — the pre-load
+on long-term control [@shukla2019order]. The mechanism belongs to this chapter: the pre-load
 slows gastric emptying of the carbohydrate and stimulates the CCK and incretin responses described
-earlier. It is nonetheless a cost-free habit that suits a mixed-rice (*cai png*)
-meal — the vegetables and fish or tofu first, the rice last. Adding **fat, protein, viscous
+earlier. It is a cost-free habit that suits a mixed-rice (*cai png*)
+meal, the vegetables and fish or tofu first, the rice last. Adding **fat, protein, viscous
 fibre or acid** to a carbohydrate meal has a similar effect through the same brake on gastric
 emptying; vinegar is the best-studied acid, modestly lowering post-meal glucose and insulin in a
 meta-analysis [@shishehbor2017vinegar], probably by slowing emptying and inhibiting brush-border
 disaccharidases. These are adjuncts, not treatments.
 
 **Processing pre-digests food.** Industrial processing performs much of the gut's mechanical
-work — grinding, refining and gelatinising — before food is eaten, so ultra-processed foods are
+work (grinding, refining and gelatinising) before food is eaten, so ultra-processed foods are
 digested faster and more completely; their soft textures are also eaten more quickly and signal
 satiety less effectively, whereas eating more slowly and chewing more modestly increases satiety
 [@miquel2015chew].
 
 ::: {.callout-warning}
-## What a controlled trial showed — and its limits
+## What a controlled trial showed, and its limits
 In a tightly controlled inpatient trial, 20 adults ate about **500 kcal/day more** and gained
 weight on an ultra-processed diet than on an unprocessed one, although the diets were matched
 for calories presented, macronutrients, sugar, fat, fibre and sodium; eating rate was faster on
 the ultra-processed diet [@hall2019upf]. The trial is important but small (n = 20) and brief
 (two weeks per arm) in a metabolic-ward setting, and the mechanism is still debated (energy
 density, texture and eating rate are all candidates). Its *weight* consequences are taken up in
-later chapters; here it shows how processing changes the **rate** of eating and digestion. The
-point is not that all processing is harmful — cooking, fermentation and freezing are also
-processing — but that minimally processed foods retain the structure that slows digestion.
+later chapters; here it shows how processing changes the **rate** of eating and digestion.
+Cooking, fermentation and freezing are also processing, so the point is not that all processing
+is harmful, but that minimally processed foods retain the structure that slows digestion.
 :::
 
 **Two mechanisms worth knowing.** Two everyday effects follow directly from earlier parts of
 this chapter. First, **viscous fibre acts twice**: soluble fibres such as oat β-glucan and
 psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption,
-and they **bind bile salts** so that more are lost in stool — to replace them the liver draws
+and they **bind bile salts** so that more are lost in stool; to replace them the liver draws
 cholesterol from the blood, which is why adequate viscous fibre modestly lowers LDL cholesterol
 [@whitehead2014betaglucan]. This is the enterohepatic circulation described above, deliberately
-interrupted (fibre *fermentation* is a separate process — see the Gut Microbiome chapter).
+interrupted (fibre *fermentation* is a separate process; see the Gut Microbiome chapter).
 Second, **fat aids the absorption of fat-soluble vitamins**: vitamins A, D, E and K and the
 carotenoids travel the same bile-and-micelle route as dietary fat, so a nearly fat-free meal
-leaves much of them unabsorbed — carotenoid uptake from a salad was negligible with a fat-free
+leaves much of them unabsorbed. Carotenoid uptake from a salad was negligible with a fat-free
 dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, a reason
 to dress vegetables with some oil rather than eat them fat-free (the vitamins themselves are
 covered in the Micronutrients chapter).
@@ -286,16 +284,16 @@ Food can alter how a drug is absorbed by two broad mechanisms; at this stage the
 
 - **Altered gut metabolism or transport.** **Grapefruit** irreversibly inhibits intestinal
   CYP3A4, the enzyme that normally breaks many drugs down before they are absorbed, and so
-  *raises* their blood levels — a rare case of a healthy food causing a clinically important
+  *raises* their blood levels, a rare case of a healthy food causing a clinically important
   interaction, described for more than 85 medicines [@bailey2013grapefruit].
-- **Binding (chelation).** Calcium and iron — in dairy, supplements or antacids — can bind
+- **Binding (chelation).** Calcium and iron, in dairy, supplements or antacids, can bind
   certain drugs into an unabsorbable complex; calcium, for example, reduces levothyroxine
   absorption [@singh2000levothyroxine], with similar effects for some antibiotics and
   bisphosphonates. Separating them in time avoids the problem.
 
 Alcohol is relevant here too: it injures the gastric lining and impairs absorption of several
-nutrients, notably blocking the active transport of thiamine — part of the mechanism behind the
-deficiency discussed in the Micronutrients chapter [@subramanya2010alcohol]. The priority here is the
+nutrients, notably blocking the active transport of thiamine, part of the mechanism behind the
+deficiency discussed in the Micronutrients chapter [@subramanya2010alcohol]. The priority is the
 habit rather than the list: with any new medicine, check the label and ask a pharmacist about
 food, grapefruit, dairy, iron and timing.
 :::
@@ -303,29 +301,29 @@ food, grapefruit, dairy, iron and timing.
 ## The payoff: a spoonful of sugar (and salt) saves lives
 
 Put SGLT1 to work and you get one of the great public-health stories of the last century. In
-severe diarrhoea (cholera, rotavirus), the gut pours out fluid — but **SGLT1 keeps working**.
+severe diarrhoea (cholera, rotavirus), the gut pours out fluid, but **SGLT1 keeps working**.
 Give a drink containing **both glucose and sodium**, and SGLT1 pulls the sodium in (with the
 glucose as its handle); **water follows the sodium** by osmosis, and a dehydrated child
 rehydrates **by mouth**, no drip needed. That is exactly what **oral rehydration salts (ORS)**
 are: the modern WHO formula is a precise, low-strength mix (**75 mmol/L each of sodium and
 glucose**) [@whoORS2006]. The underlying discovery was called, in a 1978 *Lancet* editorial,
-"potentially the most important medical advance this century" [@ourworldindataORT] — and every
+"potentially the most important medical advance this century" [@ourworldindataORT], and every
 sachet of ORS in a Singapore pharmacy is that physiology in a packet.
 
 ::: {.callout-warning}
 ## Plain water is not the same
-Plain water lacks the **glucose and sodium** that drive SGLT1 — the glucose here is a
+Plain water lacks the **glucose and sodium** that drive SGLT1; the glucose here is a
 *transport handle*, not a calorie source. That coupling is why ORS works and plain water,
 alone, does not rehydrate as well.
 :::
 
 ## Myths worth busting
 
-Digestion attracts more folklore than almost any topic in nutrition — a good place to practise
+Digestion attracts more folklore than almost any topic in nutrition, a good place to practise
 evidence literacy:
 
 - **"Gluten-free is healthier for everyone."** Not without coeliac disease or wheat allergy;
-  going gluten-free can even cost you fibre and micronutrients — and crucially, if coeliac is
+  going gluten-free can even cost you fibre and micronutrients, and crucially, if coeliac is
   suspected you must **test *before* removing gluten**, or the test misleads [@glutenFreeNonceliac].
 - **"I need to detox / my 'leaky gut' is the problem."** Your liver and kidneys already
   detoxify; the gut barrier is real, but "leaky gut syndrome" as a diagnosable, supplement-fixable
@@ -346,21 +344,21 @@ evidence literacy:
 
 Three threads from this chapter land close to home. **Lactose non-persistence is the local norm**,
 not a disease: about 95% of Singapore-born Chinese adults are lactase-deficient, yet most tolerate
-the lactose in about a cup of milk [@yap1989] — so the food-first options (hard cheese, yoghurt,
+the lactose in about a cup of milk [@yap1989], so the food-first options (hard cheese, yoghurt,
 lactose-free milk, calcium-set tofu, fortified soy milk) matter far more here than "just drink more
 milk." **You can nudge a meal's digestion at the hawker stall:** at a mixed-rice (*cai png*) stall,
 taking the vegetables and protein first and the rice last flattens the glucose rise for free
-[@shukla2019order]. And **oral rehydration salts are that physiology in a sachet** — a pharmacy
+[@shukla2019order]. And **oral rehydration salts are that physiology in a sachet**, a pharmacy
 staple that turns SGLT1 into a drip-free rescue for the gastroenteritis every family meets.
 
-## So — what happens to a meal?
+## What happens to a meal?
 
 Follow one plate to the end and the whole tube resolves into two jobs done in order: **break food
 into absorbable pieces, then absorb them.** Enzymes are the scissors, gut hormones the control panel
 that readies each next stage, bile the detergent that makes fat absorbable, and a vast folded surface
-the place it all crosses — most nutrients heading first to the liver by the portal vein, fat taking
-the lymphatic back door. Hold that map — which organ, which enzyme, which hormone, and where each
-nutrient gets in — and the clinical patterns fall out of it: lactose intolerance, B12 loss when the
+the place it all crosses, with most nutrients heading first to the liver by the portal vein and fat
+taking the lymphatic back door. Hold that map (which organ, which enzyme, which hormone, and where each
+nutrient gets in) and the clinical patterns fall out of it: lactose intolerance, B12 loss when the
 terminal ileum is damaged, and a dehydrated child rescued by mouth.
 
 ## Check your understanding
@@ -370,7 +368,7 @@ terminal ileum is damaged, and a dehydrated child rescued by mouth.
 ## Practise: "the drip-free rescue"
 
 A worried parent brings in a toddler with two days of diarrhoea. Work through why this child can
-be treated **by mouth** — and what makes oral rehydration actually work.
+be treated **by mouth**, and what makes oral rehydration actually work.
 
 ::: {.callout-tip}
 Progress is saved locally — replay to explore the other paths.

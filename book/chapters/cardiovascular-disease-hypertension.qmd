@@ -1,54 +1,53 @@
 # Cardiovascular disease & hypertension
 
 > The cascade reaches the heart and the arteries. The same insulin-resistant, dyslipidaemic biology that ran
-> through obesity and diabetes now shows up as raised blood pressure and furring arteries — the leading cause
-> of death in Singapore, and much of it modifiable by diet. The task here is to **recognise the dietary
-> levers** that lower blood pressure and cardiovascular risk, and to know **when to refer or co-manage** —
-> not to prescribe the regimen, and not to memorise a single target.
+> through obesity and diabetes now shows up as raised blood pressure and furring arteries, the leading cause
+> of death in Singapore, and much of it modifiable by diet. What matters here is recognising the dietary
+> levers that lower blood pressure and cardiovascular risk, and knowing when to refer or co-manage.
 
 ## Cardiovascular disease & hypertension at a glance
 
 This chapter follows the *Type 2 Diabetes* chapter in the cardiometabolic cascade and hands the renal end
 forward to the *Chronic Kidney Disease* chapter. Two facts set the stakes: cardiovascular disease causes
-**about a third of all deaths** in Singapore, and **roughly one in three adults has hypertension — over half
-of them undiagnosed** [@shfHeartStats2024; @nphs2024]. So this is population-scale primary prevention,
+**about a third of all deaths** in Singapore, and **roughly one in three adults has hypertension, over half
+of them undiagnosed** [@shfHeartStats2024; @nphs2024]. This is population-scale primary prevention,
 delivered lifestyle-first.
 
 Three habits of mind run through the chapter:
 
-- **Think in whole dietary *patterns*, not single nutrients** — the modern framing for heart-healthy eating [@aha2021diet].
-- **Recognise the levers, refer for the plan** — a dietitian delivers the structured change, and drug decisions belong to the clinician.
-- **You do not memorise blood-pressure or cholesterol *targets*.** They are risk-tiered and *looked up*; knowing they exist and are individualised is the goal, not reciting a number.
+- **Think in whole dietary *patterns*, not single nutrients**, the modern framing for heart-healthy eating [@aha2021diet].
+- **Recognise the levers, refer for the plan.** A dietitian delivers the structured change, and drug decisions belong to the clinician.
+- **You do not memorise blood-pressure or cholesterol *targets*.** They are risk-tiered and *looked up*; knowing they exist and are individualised is enough.
 
 ## The science underneath: how diet reaches the artery and the blood pressure
 
 Why does what you eat move a blood-pressure reading and fur an artery? Two pathways do most of the work, and
-they converge on the vessel wall. The underlying biology — how fats are carried as lipoproteins, and how the
-body handles sodium and water — belongs to the *Macronutrients* and the *Micronutrients, Hydration &
+they converge on the vessel wall. The underlying biology, how fats are carried as lipoproteins and how the
+body handles sodium and water, belongs to the *Macronutrients* and the *Micronutrients, Hydration &
 Electrolytes* chapters; here we follow how diet pushes on them.
 
 ![Two dietary pathways converge on the artery: saturated and trans fat raise LDL cholesterol, which builds atherosclerotic plaque in the artery wall; dietary sodium raises blood volume and vascular tone, raising blood pressure (dietary potassium counter-regulates). Both damage the vessel and drive heart attack and stroke.](/figures/mechanisms/cvd-diet-pathways.svg){#fig-cvd-pathways width="90%" fig-align="center"}
 
-**The artery.** Dietary **saturated and *trans* fat raise LDL cholesterol** [@mensink2003]; LDL is deposited
-in, and inflames, the artery wall, building the **atherosclerotic plaque** that narrows vessels and ruptures
-to cause heart attacks and strokes. That is why improving fat *quality* — the lever below — measurably cuts
-cardiovascular events [@hooper2020; @sacks2017].
+**The artery.** Dietary **saturated and *trans* fat raise LDL cholesterol** (the "bad" cholesterol carried in
+low-density lipoproteins) [@mensink2003]. LDL is deposited in, and inflames, the artery wall, building the
+**atherosclerotic plaque** that narrows vessels and ruptures to cause heart attacks and strokes. Improving fat
+*quality*, the lever below, therefore measurably cuts cardiovascular events [@hooper2020; @sacks2017].
 
 **The pressure.** Dietary **sodium** expands blood volume and raises vascular tone, pushing blood pressure up
-in a graded, dose-dependent way [@he2013saltbp; @huang2020sodiumdose]; dietary **potassium** counter-regulates,
+in a graded, dose-dependent way [@he2013saltbp; @huang2020sodiumdose]. Dietary **potassium** counter-regulates,
 helping the kidney shed sodium and relaxing vessels [@who2012potassium]. Blood pressure and plaque then act on
-the same endothelium — and the upstream insulin resistance and dyslipidaemia carried over from the *Obesity &
-Metabolic Syndrome* and *Type 2 Diabetes* chapters feed both.
+the same endothelium — the inner lining of the vessel — and the upstream insulin resistance and dyslipidaemia
+carried over from the *Obesity & Metabolic Syndrome* and *Type 2 Diabetes* chapters feed both.
 
 ## Think patterns, not single nutrients
 
-The modern framing is deliberately *not* a list of good and bad nutrients. The American Heart Association
-organises heart-healthy eating into a set of **whole-pattern features** — plenty of fruit, vegetables,
+The modern framing is a set of whole-pattern features rather than a list of good and bad nutrients. The
+American Heart Association organises heart-healthy eating around **plenty of fruit, vegetables,
 wholegrains and legumes; fish and plant proteins; liquid plant oils over tropical or hydrogenated fats;
-minimally processed over ultra-processed; little added sugar or salt [@aha2021diet]. The WHO adds a few
-population targets — **salt under 5 g/day, saturated fat under 10% of energy, *trans* fat under 1%, free
-sugars under 10%, and at least 400 g of fruit and vegetables a day** [@who2020diet]. Everything below — DASH,
-sodium, fat quality, the Mediterranean pattern — hangs off this umbrella, and Singapore's **My Healthy Plate**
+minimally processed over ultra-processed; little added sugar or salt** [@aha2021diet]. The WHO adds a few
+population targets: **salt under 5 g/day, saturated fat under 10% of energy, *trans* fat under 1%, free
+sugars under 10%, and at least 400 g of fruit and vegetables a day** [@who2020diet]. Everything below (DASH,
+sodium, fat quality, the Mediterranean pattern) hangs off this umbrella, and Singapore's **My Healthy Plate**
 is its no-arithmetic local form [@hpbHealthyPlate].
 
 ## DASH: the blood-pressure pattern
@@ -56,45 +55,46 @@ is its no-arithmetic local form [@hpbHealthyPlate].
 The **DASH** pattern (rich in fruit, vegetables, wholegrains and low-fat dairy) was designed to lower blood
 pressure, and it does so **in its own right**: in the landmark feeding trial it cut blood pressure by about
 **5.5/3.0 mmHg overall and 11.4/5.5 mmHg in people with hypertension**, with sodium and weight held constant —
-so the *pattern itself* did the work [@appel1997dash]. Two qualifiers travel with it: that was a short controlled-feeding
+so the *pattern itself* did the work [@appel1997dash]. Two qualifiers travel with it. That was a short controlled-feeding
 study with a **surrogate (blood-pressure) endpoint**, and the free-living effect people achieve on their own
-is smaller — pooled trials land nearer **3–7/2–4 mmHg** [@filippou2020dashmeta; @appel2003premier]. Even so,
+is smaller, with pooled trials landing nearer **3–7/2–4 mmHg** [@filippou2020dashmeta; @appel2003premier]. Even so,
 a few mmHg across a population meaningfully lowers stroke and heart disease.
 
-DASH works through the **whole-food matrix** — potassium, magnesium and fibre together — which beats the
+DASH works through the **whole-food matrix** (potassium, magnesium and fibre together), which beats the
 matched supplements, so the advice is *potassium-rich produce, not pills* [@alsolaiman2010dashmechanism]. And
 it **stacks with cutting salt**: in DASH-Sodium, each lever helped on its own and the two together were best
-of all [@sacks2001dashsodium]. In Singapore, DASH *is* My Healthy Plate — half the plate fruit and vegetables,
+of all [@sacks2001dashsodium]. In Singapore, DASH *is* My Healthy Plate: half the plate fruit and vegetables,
 a quarter wholegrains, a quarter lean protein.
 
 ## Sodium down, potassium up
 
-Sodium is Singapore's headline dietary problem: about **9 in 10 residents exceed the limit**, averaging
+Sodium is Singapore's headline dietary problem. About **9 in 10 residents exceed the limit**, averaging
 **~3,600 mg a day — roughly twice the WHO ceiling** — with most of it hidden in **soup bases, sauces,
-seasonings and food eaten out**, not the salt shaker [@hpb2023sodium]. The blood-pressure benefit of cutting
+seasonings and food eaten out** rather than the salt shaker [@hpb2023sodium]. The blood-pressure benefit of cutting
 back is graded and reversible [@he2013saltbp], and the counterpart lever is eating **more potassium** (fruit,
 vegetables, legumes).
 
 One evidence-based option with **hard-outcome** support is a **potassium-enriched salt substitute**, which in
-a large trial cut strokes and deaths [@neal2021ssass] — but it carries a genuine safety caveat that makes it a
-do-no-harm teaching point.
+a large trial cut strokes and deaths [@neal2021ssass]. It carries a genuine safety caveat, which makes it a
+useful do-no-harm example.
 
 ::: {.callout-warning}
 ## Check the kidneys before a potassium salt substitute
-Potassium-based salt substitutes are helpful for *most* people — but the trial that proved they work
+Potassium-based salt substitutes are helpful for *most* people, but the trial that proved they work
 **excluded people with serious kidney disease and those on potassium-raising drugs** (ACE inhibitors, ARBs,
-potassium-sparing diuretics), in whom extra potassium can cause dangerous **hyperkalaemia**. So before
-recommending one, check for kidney disease and those medications, and if in doubt, don't — the renal potassium
-story is owned by the *Chronic Kidney Disease* chapter [@neal2021ssass].
+potassium-sparing diuretics), in whom extra potassium can cause dangerous **hyperkalaemia** (a high blood
+potassium that can disturb heart rhythm). So before recommending one, check for kidney disease and those
+medications, and if in doubt, don't. The renal potassium story is owned by the *Chronic Kidney Disease*
+chapter [@neal2021ssass].
 :::
 
 (One myth to retire: the "sodium J-curve" suggesting very low salt is harmful is largely a **measurement
-artefact**, and in any case irrelevant at Singapore's high average intake — essentially everyone here benefits
+artefact**, and in any case irrelevant at Singapore's high average intake, where essentially everyone benefits
 from cutting down [@cappuccio2022sodiummyths].)
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-The salt is in the **soup, the gravy and the sauces**, not mainly the shaker — a bowl of fishball noodle *soup*
+The salt is in the **soup, the gravy and the sauces**, not mainly the shaker: a bowl of fishball noodle *soup*
 can carry most of a day's sodium. Practical, recognise-and-advise swaps: **leave most of the soup**, ask for
 **"less salt"**, take **sauce/gravy on the side**, skip the extra soy and chilli, choose steamed over deep-fried,
 and add vegetables and fruit for potassium. Nationally, watch for the **"Lower in Sodium" Healthier Choice
@@ -102,14 +102,14 @@ Symbol**, and note that Nutri-Grade is being **extended beyond drinks to sauces,
 [@hpb2023sodium; @moh2025nutrigrade].
 :::
 
-## Fat quality, not quantity — "replaced with what?"
+## Fat quality, not quantity: "replaced with what?"
 
-The single most useful idea about dietary fat and the heart is that it is about **quality and replacement**,
-not "eat less fat." Swapping **saturated and *trans* fat for unsaturated** fat lowers LDL cholesterol and cuts
-cardiovascular events — around **17% fewer events** for reducing saturated fat, and roughly a **statin-sized
+The single most useful idea about dietary fat and the heart is that it is about **quality and replacement**
+rather than "eat less fat." Swapping **saturated and *trans* fat for unsaturated** fat lowers LDL cholesterol and cuts
+cardiovascular events: around **17% fewer events** for reducing saturated fat, and roughly a **statin-sized
 30%** when saturated fat is specifically replaced with polyunsaturated fat [@mensink2003; @hooper2020;
 @sacks2017]. The famous "saturated fat has been exonerated" headlines came from studies that **didn't say what
-the fat was replaced with** — and when the replacement is *refined carbohydrate and sugar*, there is no
+the fat was replaced with**, and when the replacement is *refined carbohydrate and sugar*, there is no
 benefit [@siritarino2010]. So the question to ask of every swap is **"replaced with what?"**: butter or palm
 oil for olive or canola oil, yes; butter for white bread, no.
 
@@ -120,21 +120,21 @@ oil for olive or canola oil, yes; butter for white bread, no.
 A common patient question is whether to buy fish-oil capsules "for the heart." The answer draws a sharp
 line between three different things:
 
-- **Oily fish is a food to recommend** — part of the pattern.
+- **Oily fish is a food to recommend**, part of the pattern.
 - **Routine omega-3 *supplements* failed** to prevent cardiovascular events in large trials [@manson2019vital; @ascend2018omega3]. Recommend the fish, not the capsule.
-- **Icosapent ethyl** — the "fish-oil trial" people cite — is a **high-dose prescription *drug*** in selected patients [@bhatt2019reduceit]; it is a specialist decision, and you cannot extrapolate from it to over-the-counter fish oil.
+- **Icosapent ethyl** — the "fish-oil trial" people cite — is a **high-dose prescription *drug*** used in selected patients [@bhatt2019reduceit]; it is a specialist decision, and you cannot extrapolate from it to over-the-counter fish oil.
 
-![Oily fish such as salmon is a food to recommend for heart health — but that is not the same as an over-the-counter fish-oil capsule.](/figures/food/grilled-salmon.jpg){#fig-oily-fish width="55%" fig-align="center"}
+![Oily fish such as salmon is a food to recommend for heart health, though that is not the same as an over-the-counter fish-oil capsule.](/figures/food/grilled-salmon.jpg){#fig-oily-fish width="55%" fig-align="center"}
 
 ## The Mediterranean pattern
 
 The **Mediterranean** pattern (olive oil, nuts, fish, vegetables, legumes, wholegrains) is the one with
 event-level trial evidence. In PREDIMED, it lowered a composite of cardiovascular events by about **30% in
-relative terms** in a high-risk Spanish population — a signal **driven mainly by stroke** [@estruch2018predimed].
-Two caveats travel with it, and they are worth teaching for what they show about reading evidence: the effect
+relative terms** in a high-risk Spanish population, a signal **driven mainly by stroke** [@estruch2018predimed].
+Two caveats travel with it, and both show something useful about reading evidence. The effect
 is a *relative* reduction on a composite endpoint in a high-risk group (not a promise of a 30% cut for
 everyone), and the original 2013 paper was **retracted and then republished in 2018** after randomisation
-irregularities, with its conclusion upheld — science self-correcting, not a diet debunked. Guidelines endorse
+irregularities, with its conclusion upheld: science self-correcting, not a diet debunked. Guidelines endorse
 the *pattern*, not a magic number [@esc2021prevention; @medUmbrella]. The everyday translation is, again, My
 Healthy Plate: plants, wholegrains, fish, and plant oils.
 
@@ -145,18 +145,18 @@ comparing drinkers with an "abstainer" group that quietly included people who ha
 ill; studies using genetics to remove that bias find **risk rising with intake and no protective threshold**
 [@biddinger2022mralcohol], and health bodies now state there is **no safe level** [@who2023nosafelevel]. What
 *is* real is that **cutting down lowers blood pressure** (dose-dependently, most in heavy drinkers) and
-triglycerides [@roerecke2017bp] — so alcohol reduction is a genuine cardiovascular lever, but **never a reason
+triglycerides [@roerecke2017bp], so alcohol reduction is a genuine cardiovascular lever, but **never a reason
 to start**. Singapore's low-risk guidance caps intake at about **two standard drinks a day for men and one for
-women** (a standard drink ≈ 10 g) — a harm-reduction ceiling, not a "safe" target [@mohAlcoholLimits2018].
+women** (a standard drink ≈ 10 g), a harm-reduction ceiling rather than a "safe" target [@mohAlcoholLimits2018].
 
 ## The Singapore picture
 
-**The burden and the silence.** Cardiovascular disease is Singapore's leading killer — about **30% of deaths**
-[@shfHeartStats2024] — and hypertension is a silent driver: measured prevalence is **~34% of adults**, but
+**The burden and the silence.** Cardiovascular disease is Singapore's leading killer, about **30% of deaths**
+[@shfHeartStats2024], and hypertension is a silent driver: measured prevalence is **~34% of adults**, but
 **about half are undiagnosed** and most known cases are not well controlled [@nphs2024]. That gap between
 self-reported and *measured* hypertension is the argument for screening a symptomless disease.
 
-**The levers, made local.** Sodium is the priority (above), tackled by national machinery — a 15%-by-2026
+**The levers, made local.** Sodium is the priority (above), tackled by national machinery: a 15%-by-2026
 reduction target, reduced-sodium ingredient subsidies, and the Nutri-Grade extension to sauces and instant
 noodles [@hpb2023sodium; @moh2025nutrigrade]. On fats, **cooking oil is the single largest source** of
 saturated fat locally, so the home lever is the *type of oil* and less deep-frying [@moh2025nutrigrade]. And
@@ -170,19 +170,19 @@ drug targets and classes **signposted, not drilled** [@aceHtn2023; @aceLipid2023
 referred through **EatWise SG** [@mohEatWiseSG].
 
 ::: {.callout-important}
-## You look the targets up — you don't memorise them
+## You look the targets up, you don't memorise them
 There is no cholesterol or blood-pressure number to recite here. Targets are **risk-tiered**: a clinician
 estimates cardiovascular risk (in Singapore, with SG-FRS-2023) and the ACE guidance generates the individual's
-target. The job at this stage is to **recognise that they exist, are individualised, and are looked up** — and
-to deliver the lifestyle levers and refer, not to apply drug thresholds from memory [@aceHtn2023; @aceLipid2023].
+target. At this stage, recognise that they exist, are individualised, and are looked up, then
+deliver the lifestyle levers and refer, rather than applying drug thresholds from memory [@aceHtn2023; @aceLipid2023].
 :::
 
-## So — what does a heart-healthy plate look like?
+## What does a heart-healthy plate look like?
 
 It is a *pattern*, not a nutrient scorecard: plenty of vegetables, fruit, wholegrains and legumes; fish and
 plant proteins; **unsaturated oils in place of saturated and trans fat** ("replaced with what?"); **salt down
 and potassium up**; the *fish*, not the capsule; and alcohol never taken up for the heart. In Singapore that
-is **My Healthy Plate** at the hawker stall — less soup and gravy, brown rice, more vegetables, a *teh-o
+is **My Healthy Plate** at the hawker stall: less soup and gravy, brown rice, more vegetables, a *teh-o
 kosong*. Recognise these levers, refer for the structured plan and the risk-tiered targets, and the cascade
 runs on to the kidneys, where the same sodium and potassium levers acquire new cautions.
 
@@ -194,10 +194,10 @@ runs on to the kidneys, where the same sodium and potassium levers acquire new c
 
 Mr Chua is 52, eats most meals at the hawker centre, and comes in with a blood pressure of 148/92 (repeated at
 146/90) and a raised LDL cholesterol. He has no previous heart disease, doesn't smoke, and isn't diabetic. His
-first question is "Do I need medication, doctor?" — and later he mentions a potassium salt substitute he saw
+first question is "Do I need medication, doctor?", and later he mentions a potassium salt substitute he saw
 online, and asks whether a daily beer is good for his heart. Work through the visit: lead with the right
 first move, translate the pattern to his hawker plate, handle the salt-substitute safety check, and notice
-where memorising a target — or reaching for a drug first — would be the wrong reflex. Your choices branch the
+where memorising a target, or reaching for a drug first, would be the wrong reflex. Your choices branch the
 case.
 
 <div data-island="case" data-src="/cases/mr-chua-cvd.case.yml"></div>

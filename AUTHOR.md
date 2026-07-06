@@ -499,3 +499,26 @@ Three cross-cutting depth rules, so students get the *medical-science basis* —
   `check-assets.mjs` fails the build on a missing image). Aim for **at least one substantive teaching figure per
   chapter** beyond the interactive island and the case persona. Source food/clinical photos from Wikimedia
   Commons / Pexels / Unsplash (see the memory on image rendering).
+
+### 11g. Prose style — avoid the AI-writing tells (2026-07-06)
+
+The book must read like a human-written textbook, not machine prose. Apply everywhere; scrub every new or
+edited chapter before review. The reference chapter for this register is `book/chapters/01-why-nutrition-matters.qmd`.
+
+- **Em-dashes, sparingly.** Reserve the em-dash for a genuine parenthetical aside or a bold list-label
+  (`**Term** — definition`). In running prose prefer commas, colons or full stops. A page should carry a
+  handful of prose em-dashes, not one per sentence.
+- **No antithesis tic.** Do not write "it's not X, it's Y", "not because… but because", or "X isn't Y; it
+  *is* Z". State the positive claim directly. (A genuine clarifying contrast — "a marker, not a hard
+  outcome" — is fine in moderation.)
+- **No teacherly meta-commentary.** Cut "this is a teaching moment", "the teaching point", "worth noting",
+  "we will practise", "the beauty of", "a habit to unlearn", "the work of this chapter". Teach the thing;
+  do not narrate that you are teaching it. Opening blockquotes are **in-world hooks**, not descriptions of
+  the chapter's pedagogical role.
+- **Professional register, kept warm.** No rhetorical "So —" section headers or chatty filler where a plain
+  statement fits. Keep the Singapore flavour and a human voice; lose the chattiness. Do not over-correct
+  into dry, robotic prose.
+- **First-year audience, no curse of knowledge.** Gloss (one short parenthetical) any term a first-year has
+  not met, or soften it. Spiral up; never assume prior knowledge.
+
+Codified after a book-wide pass (2026-07-06) that revised all 26 chapters to this register. See [[authoring-style-rules]].
