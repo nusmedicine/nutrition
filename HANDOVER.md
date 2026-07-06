@@ -1,14 +1,14 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (PARTS I–III DEPLOYED · ★ PART IV
-> COMPLETE — ALL 6 CHAPTERS DRAFTED, Ch.19–24 · Ch.24 REFRAMED to "Bone & Joint Health" (osteoarthritis/gout/RA
-> integrated) · NEXT = the PART III PHYSIOLOGY RETROFIT, then PART V).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ PARTS I–IV COMPLETE & DEPLOYED ·
+> Part IV Ch.19–24 all pushed live · Ch.24 = "Bone & Joint Health" · ★ PART III §11f PHYSIOLOGY RETROFIT DONE
+> — Ch.15–18 grounded in Part I owners, `2be9f8f` · NEXT = PART V).**
 >
-> **★★ NEXT ACTION: the Part III physiology/biochem retrofit** (AUTHOR §11f, deferred until after Part IV) —
-> add a **relevant physiology/biochem background layer** to the 4 deployed Part III chapters (e.g. the food–acne
-> worked example → sebum/androgens/IGF-1/glycaemic load; "detox" myths → hepatic & renal clearance). Then
-> **Part V:** Ch.25 Interprofessional Practice & Referral (dossier 🟢, needs a stub + drafting) and Ch.26
-> Capstone (= the existing `cases.qmd`). See §4. **Part IV needs no more drafting.**
+> **★★ NEXT ACTION: Part V.** Ch.25 **Interprofessional Practice & Referral** (dossier `14-interprofessional-referral`
+> 🟢 — needs a **stub** in `_quarto.yml`/`chapters/` + drafting through the per-chapter pipeline; then tighten the
+> Bone/CKD/Undernutrition *generic* forward-refs to by-name) and Ch.26 **Capstone = the existing `cases.qmd`**
+> (Integrated cases, home of the live LLM patient — largely built, §5). See §4. **Parts I–IV + the Part III
+> physiology retrofit need no more drafting.**
 >
 > **⚠ RECURRING HOUSE-STYLE TRAP — the "honest"/"honestly" tic.** It has been caught by the review in *three*
 > chapters now (Ch.22, Ch.24, and the Ch.24 joint reframe where it was a **BLOCKER, 8×**). It is banned prose
@@ -23,8 +23,22 @@
 > (read it first) + the auto-loaded memory ([[part4-dossiers-verified]], [[chapter-depth-and-figures]],
 > [[authoring-style-rules]]).
 
-## 0. What happened this session (2026-07-06)
+## 0. What happened — most recent first (2026-07-06)
 
+- **★ Part III §11f physiology/biochem retrofit — DONE (`2be9f8f`).** Added a short, relevant physiology layer
+  to the 4 **deployed** Part III chapters, anchored to Part I owners BY NAME (uneven by design: heavy Ch.16,
+  light Ch.17). **Ch.16 Evidence vs Hype** — new "🔬 The pathway under the acne signal" callout (glycaemic
+  load→insulin, dairy→IGF-1, → androgen + mTORC1 → sebum + follicular hyperkeratinisation, unifying the dairy &
+  GL signals under one axis) + a **detox** hepatic-Phase-I/II / renal-clearance beat anchored to *Digestion &
+  Absorption*. **Ch.18 Behaviour-Change** — a reward-system beat (wanting/dopamine + cues override intention)
+  grounding *why* knowledge/willpower are weak levers, anchored to *Appetite & Weight Regulation*. **Ch.15** —
+  the food-science box strengthened (glycaemic response, fibre→satiety, fibre→SCFA); **Ch.17** — one sentence on
+  why MUST weights unplanned weight loss (lean-mass catabolism → *Integrative Metabolism*). **3 net-new citations**
+  found + adversarially refute-checked in a small find→refute `Workflow` (`melnik2015acne`, `klein2015detox`,
+  `lally2010habits`; 0 refuted, 0 corrected — the refute pass caught a right-paper/wrong-PMID trap on Lally);
+  everything else **reused existing verified keys** (reward → Ch.8's `berridge2009dissecting`/`volkow2017dopamine`/
+  `berthoud2017blaming`). Render exit 0 (27 pages), asset gate clean, **0 unresolved citations**, 4-dim review
+  clean (0 blockers; 5 nits, all applied). Prose-only — no islands/cases touched.
 - **Researched & adversarially verified all 6 Part IV dossiers** in one ~160-agent `Workflow` (per-subtopic
   web research → refute-every-citation PMID/DOI check → synthesis → completeness critic). Caught real
   misattributions in several. Committed `a0118f4`. Memory [[part4-dossiers-verified]].
@@ -90,7 +104,7 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 |---|---|---|
 | **I** · The metabolic & physiological basis | 1–8 | ✅ deployed |
 | **II** · Across the life stages | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
-| **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed (⚠ physiology-background retrofit pending — §11f) |
+| **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed · **§11f physiology retrofit DONE** (`2be9f8f`) |
 | **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅ · 22 Chronic Kidney Disease ✅ · 23 Undernutrition & Malnutrition ✅ · 24 Bone & Joint Health ✅** (osteoporosis + OA/gout/RA; file `bone-health-osteoporosis.qmd`) | **✅ COMPLETE (6/6)** |
 | **V** · Integration & practice | 25 Interprofessional Practice & Referral (🟢 dossier `14-interprofessional-referral`, no stub yet) · 26 Capstone: Integrated Cases (= `cases.qmd`, home of the live LLM patient) | partial |
 
@@ -152,21 +166,18 @@ radiogroup without arrow-key handling.
 
 ## 4. Remaining work
 
-**★ PART IV IS COMPLETE** — all six chapters (Ch.19–24) drafted, reviewed, verified & committed this session
-(`2504903` CKD, `6f814ee` Undernutrition, `04a1e22` Bone; CKD+Undernutrition already pushed/deployed, Bone
-pending push). No Part IV drafting remains. The two remaining work streams:
+**★ PARTS I–IV COMPLETE & DEPLOYED** — all six Part IV chapters (Ch.19–24) drafted, reviewed, verified,
+committed **and pushed live** (`origin/main` == local at `bbac6f7`). **★ The Part III §11f physiology retrofit is
+also DONE** (`2be9f8f`; see §0) — no Part III/IV drafting remains. **One work stream remains:**
 
-**1. The Part III physiology retrofit (§11f decision, deferred until after Part IV — NOW DUE).** Add a **relevant
-physiology/biochem background layer** to the 4 deployed Part III chapters (What a Healthy Diet · Evidence vs Hype ·
-Assessing Diet · Behaviour-Change Counselling) — e.g. the food–acne worked example → sebum/androgens/IGF-1/
-glycaemic load; "detox" myths → hepatic & renal clearance; satiety & behaviour → reward pathways. These are
-**deployed** chapters, so this is an edit-and-re-review pass (not a from-scratch draft) — keep it *short and
-relevant*, anchored to the Part I owner chapters by name.
+**Part V.** Ch.25 **Interprofessional Practice & Referral** (dossier `14-interprofessional-referral` 🟢 — needs
+a **stub** in `_quarto.yml`/`chapters/` + drafting through the per-chapter pipeline; note the Bone/CKD/Undernutrition
+chapters currently forward-ref it *generically* since it has no page yet — once drafted, tighten those to by-name).
+Ch.26 **Capstone = the existing `cases.qmd`** (Integrated cases — home of the live LLM patient; largely built, §5).
 
-**2. Part V.** Ch.25 **Interprofessional Practice & Referral** (dossier `14-interprofessional-referral` 🟢 — needs
-a **stub** in `_quarto.yml`/`chapters/` + drafting; note the Bone/CKD/Undernutrition chapters currently
-forward-ref it *generically* since it has no page yet — once drafted, tighten those to by-name). Ch.26 **Capstone
-= the existing `cases.qmd`** (Integrated cases — home of the live LLM patient; largely built, §5).
+*(The §11f Part III retrofit — previously the "NEXT ACTION" here — was completed 2026-07-06: a short physiology
+layer on Ch.15–18 anchored to Part I owners by name; the named worked examples all landed — food–acne →
+IGF-1/androgen/mTORC1→sebum, "detox" → hepatic/renal clearance, satiety/behaviour → reward pathways. See §0.)*
 
 **Cross-chapter / maintainer flags:**
 - **Duplicate bib-key pairs (book-wide dedup pending).** The repo has TWO entries each for the same paper:
@@ -241,11 +252,12 @@ research/
 
 ## 8. Git state
 
-- **This session — Part IV completed & the Ch.24 joint reframe, committed and pushed:** Ch.24 Bone `04a1e22` +
-  Part IV wrap-up `f05fd5b` + the **Ch.24 "Bone & Joint Health" joint-integration reframe** + this wrap-up. After
-  pushing, **verify the CI run (§6)** and the live pages.
-- **Already deployed live earlier this session:** research `a0118f4` + Ch.19 `1897ccf` + Ch.20 `186cf4a` +
-  Ch.21 `660fef5` + wrap-up `ca33315` + **Ch.22 CKD `2504903`/`4d714df` + Ch.23 Undernutrition `6f814ee`/`2c79146`**.
+- **This session — Part III §11f physiology retrofit:** content commit `2be9f8f` (4 chapters + `references.bib`,
+  3 new verified bib keys) + this HANDOVER/curriculum-map wrap-up. **Committed, NOT yet pushed** (push gated on
+  user). After pushing, **verify the CI run (§6)** and the live pages.
+- **All prior work is pushed & DEPLOYED live** (`origin/main` == `bbac6f7` before this session's commits): Part IV
+  Ch.19–24 including the Ch.24 "Bone & Joint Health" joint reframe (`bbac6f7`); Ch.24 Bone `04a1e22`; research
+  `a0118f4`; Ch.19 `1897ccf` · Ch.20 `186cf4a` · Ch.21 `660fef5` · Ch.22 CKD `2504903` · Ch.23 Undernutrition `6f814ee`.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; not committed).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. `book/_book/` and `book/assets/components.js` are
@@ -256,7 +268,7 @@ research/
 - [[part4-dossiers-verified]] — all 6 Part IV dossiers verified 🟢; **Ch.19/20/21 drafted & committed** (hashes
   inside); cascade order; the ~247-key/PREDIMED/ada2026 cross-chapter flags.
 - [[chapter-depth-and-figures]] — 2026-07-06 directives: Part IV **pathophysiology beat**; Part III
-  physiology-background retrofit (**pending**); **figures where they teach**; the numbering fix.
+  physiology-background retrofit (**DONE `2be9f8f`**); **figures where they teach**; the numbering fix.
 - [[authoring-style-rules]] — MCQ options no-bold + same-length; no "honest" tic; JIT-gloss; recognise-and-refer.
 - [[research-subagent-gotchas]] — always adversarially verify citations before printing.
 - [[book-preview-verification]] · [[dropbox-quarto-render-lock]] · [[in-chapter-cases-mcq-only]] ·

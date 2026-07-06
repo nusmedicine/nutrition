@@ -9,10 +9,11 @@
 > **Part IV was REORDERED to cascade-first (decision J):** Obesity/MetS → T2D → CVD/HTN → CKD → Undernutrition
 > → Bone (the "two tails" become a part-opening frame + bookend, not adjacency). **Ch.19 Obesity, Ch.20 Type 2
 > Diabetes, Ch.21 CVD/Hypertension, Ch.22 Chronic Kidney Disease, Ch.23 Undernutrition & Ch.24 Bone Health are
-> now DRAFTED — ★ PART IV IS COMPLETE (Ch.19–24, each with a pathophysiology beat + figures per AUTHOR §11f /
-> principle 4).** **NEXT = the Part III physiology/biochem retrofit (§11f, deferred to after Part IV), then Part
-> V** (Ch.25 Referral 🟢 dossier — needs stub + drafting; Ch.26 Capstone = the Integrated-cases page). See
-> `HANDOVER.md` §4.
+> now DRAFTED & DEPLOYED — ★ PART IV IS COMPLETE (Ch.19–24, each with a pathophysiology beat + figures per AUTHOR
+> §11f / principle 4).** **★ The Part III §11f physiology/biochem retrofit is also DONE (2026-07-06, `2be9f8f`) —
+> Ch.15–18 grounded in Part I owners by name (acne→IGF-1/androgen/mTORC1→sebum; detox→hepatic/renal clearance;
+> behaviour→reward pathways). NEXT = Part V** (Ch.25 Referral 🟢 dossier — needs stub + drafting; Ch.26 Capstone =
+> the Integrated-cases page). See `HANDOVER.md` §4.
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
