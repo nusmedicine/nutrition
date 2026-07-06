@@ -1,7 +1,8 @@
 # HANDOVER — continue in a new session
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (PARTS I–III DEPLOYED · ★ PART IV
-> COMPLETE — ALL 6 CHAPTERS DRAFTED, Ch.19–24 · NEXT = the PART III PHYSIOLOGY RETROFIT, then PART V).**
+> COMPLETE — ALL 6 CHAPTERS DRAFTED, Ch.19–24 · Ch.24 REFRAMED to "Bone & Joint Health" (osteoarthritis/gout/RA
+> integrated) · NEXT = the PART III PHYSIOLOGY RETROFIT, then PART V).**
 >
 > **★★ NEXT ACTION: the Part III physiology/biochem retrofit** (AUTHOR §11f, deferred until after Part IV) —
 > add a **relevant physiology/biochem background layer** to the 4 deployed Part III chapters (e.g. the food–acne
@@ -9,9 +10,14 @@
 > **Part V:** Ch.25 Interprofessional Practice & Referral (dossier 🟢, needs a stub + drafting) and Ch.26
 > Capstone (= the existing `cases.qmd`). See §4. **Part IV needs no more drafting.**
 >
+> **⚠ RECURRING HOUSE-STYLE TRAP — the "honest"/"honestly" tic.** It has been caught by the review in *three*
+> chapters now (Ch.22, Ch.24, and the Ch.24 joint reframe where it was a **BLOCKER, 8×**). It is banned prose
+> ([[authoring-style-rules]], AUTHOR §11d). **Scrub "honest"/"honestly" at draft time** — grep every new .qmd and
+> .case.yml before review.
+>
 > **★ THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages CI
-> (`publish.yml`) on every push. Parts I–III + Part IV Ch.19–23 are drafted & DEPLOYED; **Ch.24 Bone Health is
-> committed (`04a1e22`) but NOT yet pushed this session — push + verify the deploy.**
+> (`publish.yml`) on every push. Parts I–III + Part IV Ch.19–23 are drafted & DEPLOYED; **the reframed Ch.24
+> "Bone & Joint Health" (with joint integration) + wrap-up are committed but push per §8.**
 >
 > **⚠ SOURCE OF TRUTH = [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)**
 > (read it first) + the auto-loaded memory ([[part4-dossiers-verified]], [[chapter-depth-and-figures]],
@@ -63,6 +69,18 @@
     review (0 blockers; fixes: "honest" tic removed **again** — watch this tic, Childhood/CKD reciprocal
     signposts, T-score/fragility glosses, island loss-lever rebalanced so peak dominates, figure overflow).
     Also fixed a sibling inconsistency in `healthy-ageing.qmd` ("widest gap" → dossier wording).
+- **Reframed Ch.24 → "Bone & Joint Health"** (user decision: integrate joint health, since GP patients ask about
+  OA/gout diet & supplements). Built a **verified joint mini-dossier** (`research/chapters/joint-health-nutrition.md`
+  🟢 — research + refute-every-citation Workflow; caught a **fabricated author list** + 7 metadata errors; 0
+  refuted). Added to the chapter: a **"three conditions people confuse"** disambiguation frame + figure
+  (`bone-joint-disambiguation.svg`); **osteoarthritis** (weight = the real lever via IDEA; glucosamine = the
+  evidence-vs-hype example — ACR/OARSI/NICE/SG-ACE all against, ESCEO the industry-linked dissent; the SG
+  ACE-vs-HealthHub messaging gap); **gout** (diet-adjunct-to-allopurinol, corrects the blame/over-restriction
+  myth); **RA** one line. New case `mr-tan-joint` (glucosamine do-no-harm = *opportunity cost*, not toxicity);
+  **+4 joint quiz items**; **+31 verified bib keys**; retitled the quiz; renamed 5 sibling cross-refs
+  ("*Bone Health & Osteoporosis*" → "*Bone & Joint Health*"). Passed a 5-dim review — **which caught the "honest"
+  tic as a BLOCKER (8×), now fixed** — plus `purine`/`urate` glosses + a missing citation. `bone-bank` island
+  unchanged. (File stays `bone-health-osteoporosis.qmd`; only the H1/display title changed.)
 
 ## 1. The spine — 26 chapters, 5 parts. Full table + decisions A–J in `curriculum-map.md`.
 
@@ -73,7 +91,7 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 | **I** · The metabolic & physiological basis | 1–8 | ✅ deployed |
 | **II** · Across the life stages | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
 | **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed (⚠ physiology-background retrofit pending — §11f) |
-| **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅ · 22 Chronic Kidney Disease ✅ · 23 Undernutrition & Malnutrition ✅ · 24 Bone Health & Osteoporosis ✅** | **✅ COMPLETE (6/6)** |
+| **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅ · 22 Chronic Kidney Disease ✅ · 23 Undernutrition & Malnutrition ✅ · 24 Bone & Joint Health ✅** (osteoporosis + OA/gout/RA; file `bone-health-osteoporosis.qmd`) | **✅ COMPLETE (6/6)** |
 | **V** · Integration & practice | 25 Interprofessional Practice & Referral (🟢 dossier `14-interprofessional-referral`, no stub yet) · 26 Capstone: Integrated Cases (= `cases.qmd`, home of the live LLM patient) | partial |
 
 **Cross-refs are by NAME**, so numbering is safe. **All six Part IV files** (`obesity-metabolic-syndrome`,
@@ -209,9 +227,9 @@ HANDOVER.md(this) · AUTHOR.md(§11 + §11f = template + house rules) · curricu
 scripts/ render.mjs · check-assets.mjs · validate-cases.mjs · preview.ps1 · patient-proxy.ps1
 patient-proxy/  PROD key-holding proxy (deployed; §5)
 book/
-  _quarto.yml            Parts I–IV (Part IV Ch.19–24 ALL drafted) + Integrated cases
-  references.bib         SINGLE source of truth for citations (~706 entries)
-  chapters/*.qmd         I (1–8) · II (part2-intro + 6) · III (4) · IV (19–24 all drafted) · cases.qmd
+  _quarto.yml            Parts I–IV (Part IV Ch.19–24 ALL drafted; Ch.24 = "Bone & Joint Health") + Integrated cases
+  references.bib         SINGLE source of truth for citations (~737 entries)
+  chapters/*.qmd         I (1–8) · II (part2-intro + 6) · III (4) · IV (19–24 all drafted; Ch.24 bone+joint) · cases.qmd
   figures/               food/ · structures/ · anatomy/ · personas/ · mechanisms/(own-work pathophys SVGs) · CREDITS.csv
   diagrams/*.yml         island data (incl. mets-cluster, carb-safety-check, fat-swap, renal-flip, must-screen, bone-bank, + earlier)
   quizzes/*.quiz.yml · cases/*.case.yml   (in-chapter cases MCQ-only; sim-* = live AI chat)
@@ -223,11 +241,11 @@ research/
 
 ## 8. Git state
 
-- **On `main`, committed but ⚠ NOT yet pushed this session:** Ch.24 Bone `04a1e22` + this wrap-up commit.
-  **Ask the user, then `git push origin main` and verify the CI run (§6).**
-- **Already on origin/main & DEPLOYED:** research `a0118f4` + Ch.19 `1897ccf` + Ch.20 `186cf4a` +
-  Ch.21 `660fef5` + wrap-up `ca33315` + **Ch.22 CKD `2504903`/`4d714df` + Ch.23 Undernutrition `6f814ee`/`2c79146`**
-  (all verified live this session).
+- **This session — Part IV completed & the Ch.24 joint reframe, committed and pushed:** Ch.24 Bone `04a1e22` +
+  Part IV wrap-up `f05fd5b` + the **Ch.24 "Bone & Joint Health" joint-integration reframe** + this wrap-up. After
+  pushing, **verify the CI run (§6)** and the live pages.
+- **Already deployed live earlier this session:** research `a0118f4` + Ch.19 `1897ccf` + Ch.20 `186cf4a` +
+  Ch.21 `660fef5` + wrap-up `ca33315` + **Ch.22 CKD `2504903`/`4d714df` + Ch.23 Undernutrition `6f814ee`/`2c79146`**.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; not committed).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. `book/_book/` and `book/assets/components.js` are

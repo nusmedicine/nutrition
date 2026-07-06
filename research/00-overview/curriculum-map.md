@@ -78,7 +78,7 @@
 | 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
 | 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
 | 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
-| 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | ✅ **drafted** (island `bone-bank`, quiz, case, pathophysiology + figures) |
+| 24 | **Bone & Joint Health** ✨ (reframed — osteoporosis + osteoarthritis/gout/RA) | `bone-health-osteoporosis` + `joint-health-nutrition` (🟢) | ✅ **drafted** (island `bone-bank`; cases `madam-lim-bone` + `mr-tan-joint`; quiz bone+joint; disambiguation frame + 3 figures; glucosamine evidence-vs-hype + gout diet-adjunct) |
 | **V** | **— Integration & practice —** | | |
 | 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
