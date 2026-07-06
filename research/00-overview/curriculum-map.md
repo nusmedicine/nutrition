@@ -12,8 +12,11 @@
 > now DRAFTED & DEPLOYED — ★ PART IV IS COMPLETE (Ch.19–24, each with a pathophysiology beat + figures per AUTHOR
 > §11f / principle 4).** **★ The Part III §11f physiology/biochem retrofit is also DONE (2026-07-06, `2be9f8f`) —
 > Ch.15–18 grounded in Part I owners by name (acne→IGF-1/androgen/mTORC1→sebum; detox→hepatic/renal clearance;
-> behaviour→reward pathways). NEXT = Part V** (Ch.25 Referral 🟢 dossier — needs stub + drafting; Ch.26 Capstone =
-> the Integrated-cases page). See `HANDOVER.md` §4.
+> behaviour→reward pathways). **★ The Interprofessional Practice, Referral & Self-Care chapter is now DRAFTED and,
+> per decision K, folded into Part III (Ch.19); the AI-patient capstone (`cases.qmd`) is its own final Part V ·
+> Integrative Cases (Ch.26). ALL 26 CHAPTERS NOW EXIST — the book is content-complete. NEXT = capstone polish +
+> the cleanup backlog** (duplicate bib-key dedup, `ada2024care`→`ada2026care`, retire legacy/orphaned dossiers).
+> See `HANDOVER.md` §4.
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -68,21 +71,21 @@
 | 12 | **Pregnancy & Lactation** ✨ | `pregnancy-lactation` | ✅ book (2026-07-05) |
 | 13 | **Menopause & Midlife Health** ✨ | `menopause-midlife` | ✅ book (2026-07-05) |
 | 14 | **Healthy Ageing (Older Adults)** ✨ | `healthy-ageing` | ✅ book |
-| **III** | **— Advising the healthy —** (toolkit + skills; prevention) | | |
+| **III** | **— Advising the healthy —** (the general-practice toolkit: healthy diet → appraise → assess → counsel → **refer**; **decision K**) | | |
 | 15 | What a Healthy Diet Looks Like (patterns, guidelines & **types of diets**) | `05-dietary-guidelines-patterns` (+ food environment + popular-diets map) | ✅ book |
 | 16 | Evidence vs Hype & Everyday Questions (evaluating evidence; incl. food & **acne**) | `07-evidence-literacy` (+ acne/everyday folded 2026-07-05) | ✅ book |
 | 17 | Assessing Diet & Talking to Patients | `06-dietary-assessment` | ✅ book |
 | 18 | Behaviour-Change Counselling | `13-counselling` | ✅ book |
-| **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — **all 6 are STUB pages in the book** (`chapters/*.qmd` "in preparation"); all 6 dossiers now 🟢 verified | | |
-| 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
-| 20 | Type 2 Diabetes | `type-2-diabetes` | ✅ **drafted** (island `carb-safety-check`, quiz, case, pathophysiology + figures) |
-| 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
-| 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
-| 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
-| 24 | **Bone & Joint Health** ✨ (reframed — osteoporosis + osteoarthritis/gout/RA) | `bone-health-osteoporosis` + `joint-health-nutrition` (🟢) | ✅ **drafted** (island `bone-bank`; cases `madam-lim-bone` + `mr-tan-joint`; quiz bone+joint; disambiguation frame + 3 figures; glucosamine evidence-vs-hype + gout diet-adjunct) |
-| **V** | **— Integration & practice —** | | |
-| 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
-| 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
+| 19 | **Interprofessional Practice, Referral & Self-Care** ✨ (moved from Part V — **decision K**) | `14-interprofessional-referral` | ✅ **drafted** (island `advise-refer`, quiz, case `refer-or-advise` w/ do-no-harm hard route, HSG-ecosystem figure) |
+| **IV** | **— Advising the chronically ill —** (maintain health *with* disease; **cascade order — decision J**) — all 6 ✅ drafted, reviewed & deployed | | |
+| 20 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
+| 21 | Type 2 Diabetes | `type-2-diabetes` | ✅ **drafted** (island `carb-safety-check`, quiz, case, pathophysiology + figures) |
+| 22 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
+| 23 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
+| 24 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
+| 25 | **Bone & Joint Health** ✨ (reframed — osteoporosis + osteoarthritis/gout/RA) | `bone-health-osteoporosis` + `joint-health-nutrition` (🟢) | ✅ **drafted** (island `bone-bank`; cases `madam-lim-bone` + `mr-tan-joint`; quiz bone+joint; disambiguation frame + 3 figures; glucosamine evidence-vs-hype + gout diet-adjunct) |
+| **V** | **— Integrative Cases —** (the capstone; **decision K**) | | |
+| 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | `cases.qmd` (largely built; home of the live AI patient) | ✅ book |
 
 > **Acne note:** food & acne (dairy / high-glycaemic-load) is taught as the flagship **evidence-appraisal
 > worked example in Ch.16** (Advising the healthy), not as a disease chapter. A dedicated skin-conditions
@@ -239,6 +242,19 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   frailty/bone), not adjacency; Undernutrition (23) + Bone (24) form a coherent deficiency/frailty closing block
   where *Healthy Ageing* already hands off. Cross-refs are by *name*, so the renumber is safe; applied to
   `book/_quarto.yml`. Supersedes the "over- & under-nutrition paired adjacently" reading of (G).
+- **(K) Referral folds into Part III; the integrative-cases capstone becomes its own final part (2026-07-06) — refines (G).**
+  *Interprofessional Practice & Referral* is a clinical **skill** (scope boundaries, when/how to refer, team-based
+  care, self-care/role-modelling) — a sibling of assessment and counselling, not "integration". It moves from the
+  trailing part into **Part III "Advising the healthy"** as its closing chapter (Ch.19), so Part III reads as one
+  general-practice arc: *what a healthy diet is → appraise the claims patients bring → assess what they eat →
+  counsel change → refer when it's beyond you*. The disease chapters stay together as **Part IV** (renumbered
+  20–25); the **AI-patient integrative-cases capstone (`cases.qmd`) becomes its own final part, "V · Integrative
+  Cases"** (Ch.26). Chosen over a dedicated 6-part "clinical method" split (which left a one-chapter "healthy" part
+  and put skills before the healthy-diet content) and over keeping Referral late (its general-skill nature outweighs
+  its disease-consolidation pull; it forward-references the disease chapters by name). Renumber ripple is safe —
+  all cross-refs are by *name*; applied to `book/_quarto.yml`. The chapter keeps all three dossier strands
+  (interprofessional practice, referral, practitioner self-care) and is drafted Part-III-appropriately (general
+  skill first; disease examples are forward-references).
 
 ---
 

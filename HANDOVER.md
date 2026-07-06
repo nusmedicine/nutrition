@@ -1,14 +1,15 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ PARTS I–IV COMPLETE & DEPLOYED ·
-> Part IV Ch.19–24 all pushed live · Ch.24 = "Bone & Joint Health" · ★ PART III §11f PHYSIOLOGY RETROFIT DONE
-> — Ch.15–18 grounded in Part I owners, `2be9f8f` · NEXT = PART V).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ ALL 26 CHAPTERS NOW EXIST — the book
+> is content-complete. Parts I–IV deployed; Part III §11f retrofit DONE (`2be9f8f`); ★ Ch.19 Interprofessional
+> Practice, Referral & Self-Care DRAFTED & folded into Part III (decision K, `f2fce0d`); the AI-patient capstone
+> is its own final Part V. NEXT = capstone polish + the cleanup backlog).**
 >
-> **★★ NEXT ACTION: Part V.** Ch.25 **Interprofessional Practice & Referral** (dossier `14-interprofessional-referral`
-> 🟢 — needs a **stub** in `_quarto.yml`/`chapters/` + drafting through the per-chapter pipeline; then tighten the
-> Bone/CKD/Undernutrition *generic* forward-refs to by-name) and Ch.26 **Capstone = the existing `cases.qmd`**
-> (Integrated cases, home of the live LLM patient — largely built, §5). See §4. **Parts I–IV + the Part III
-> physiology retrofit need no more drafting.**
+> **★★ NEXT ACTION: capstone polish + cleanup — no chapter drafting remains.** (1) The **Capstone = `cases.qmd`**
+> (Part V · Integrative Cases; home of the live LLM patient — largely built, §5): review/polish as the finale.
+> (2) The **cleanup backlog** (§4): duplicate bib-key dedup, `ada2024care`→`ada2026care` book-wide, retire the
+> legacy numbered + orphaned dossiers. Optional now that Referral has a page: tighten the disease chapters'
+> *generic* forward-refs to *Interprofessional Practice & Referral* to by-name.
 >
 > **⚠ RECURRING HOUSE-STYLE TRAP — the "honest"/"honestly" tic.** It has been caught by the review in *three*
 > chapters now (Ch.22, Ch.24, and the Ch.24 joint reframe where it was a **BLOCKER, 8×**). It is banned prose
@@ -16,8 +17,11 @@
 > .case.yml before review.
 >
 > **★ THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages CI
-> (`publish.yml`) on every push. Parts I–III + Part IV Ch.19–23 are drafted & DEPLOYED; **the reframed Ch.24
-> "Bone & Joint Health" (with joint integration) + wrap-up are committed but push per §8.**
+> (`publish.yml`) on every push. All of Parts I–IV are deployed. **⚠ The Part III retrofit (`2be9f8f`) was pushed
+> but its Pages *deploy* step hit a TRANSIENT failure (build passed) — it is NOT yet live. The Ch.19 Referral
+> chapter (`f2fce0d`) + this wrap-up are committed, NOT pushed. Pushing re-triggers CI and deploys BOTH; then
+> verify the run (§6). ⚠ Disk C: was ~100% full (3.6 GB free) — a commit failed once with "unable to write
+> new index file" and succeeded on retry; watch for this.**
 >
 > **⚠ SOURCE OF TRUTH = [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)**
 > (read it first) + the auto-loaded memory ([[part4-dossiers-verified]], [[chapter-depth-and-figures]],
@@ -25,6 +29,23 @@
 
 ## 0. What happened — most recent first (2026-07-06)
 
+- **★ Part restructure (decision K) + Ch.19 Interprofessional Practice, Referral & Self-Care DRAFTED (`f2fce0d`).**
+  User decision: Referral is a clinical **skill** beside assessment/counselling, not "integration" — so it moved
+  from the trailing part into **Part III "Advising the healthy"** as its closing chapter (the arc: healthy diet →
+  appraise → assess → counsel → **refer**); the disease chapters became **Part IV** (renumbered 20–25); the
+  AI-patient capstone (`cases.qmd`) became its own **Part V · Integrative Cases** (Ch.26). Applied to `_quarto.yml`;
+  cross-refs by name so the renumber is safe. **Chose the minimal 5-part option** over a 6-part "clinical method"
+  split (thin healthy part + skills-before-content) — see decision K in the curriculum-map. Drafted the chapter
+  from the `14-interprofessional-referral` dossier **Part-III-appropriately** (general skill first; disease
+  examples forward-referenced by name), keeping all 3 strands (interprofessional practice, referral, self-care).
+  Island **`advise-refer`** (pick-and-check "advise or refer?" over 7 scenarios; new `AdviseRefer.svelte`); quiz
+  (7 MCQs); MCQ case **`refer-or-advise`** (Mdm Tan T2DM+CKD, do-no-harm hard route); own-work figure
+  **`hsg-ecosystem.svg`**. Citations mostly reused + `ada2024care`→`ada2026standards` re-pin; **2 net-new keys
+  refute-checked** (`lobelo2015rolemodel` PMID 26213523; `mohChronicTier` — HSG figures verified live-current: from
+  1 Feb 2024, up to 87.5% no cap, up to \$360/yr, no dedicated dietitian subsidy line). Render exit 0 (28 pages),
+  asset gate clean, case linter OK, **browser-verified** (island pick-and-check + scoring, case player, figure),
+  5-dim review clean (0 blockers; fixes applied: MCQ length-parity, part-not-chapter cross-ref, HbA1c gloss, SVG
+  desc caveat, vestigial `next:` keys, island `aria-labelledby`). **This completes all 26 chapters.**
 - **★ Part III §11f physiology/biochem retrofit — DONE (`2be9f8f`).** Added a short, relevant physiology layer
   to the 4 **deployed** Part III chapters, anchored to Part I owners BY NAME (uneven by design: heavy Ch.16,
   light Ch.17). **Ch.16 Evidence vs Hype** — new "🔬 The pathway under the acne signal" callout (glycaemic
@@ -104,9 +125,9 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 |---|---|---|
 | **I** · The metabolic & physiological basis | 1–8 | ✅ deployed |
 | **II** · Across the life stages | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
-| **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed · **§11f physiology retrofit DONE** (`2be9f8f`) |
-| **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅ · 22 Chronic Kidney Disease ✅ · 23 Undernutrition & Malnutrition ✅ · 24 Bone & Joint Health ✅** (osteoporosis + OA/gout/RA; file `bone-health-osteoporosis.qmd`) | **✅ COMPLETE (6/6)** |
-| **V** · Integration & practice | 25 Interprofessional Practice & Referral (🟢 dossier `14-interprofessional-referral`, no stub yet) · 26 Capstone: Integrated Cases (= `cases.qmd`, home of the live LLM patient) | partial |
+| **III** · Advising the healthy (toolkit + **refer**; decision K) | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · **19 Interprofessional Practice, Referral & Self-Care ✅** (`f2fce0d`) | ✅ deployed (Ch.15–18); §11f retrofit DONE `2be9f8f`; Ch.19 drafted, push pending |
+| **IV** · Advising the chronically ill (cascade order — decision J) | **20 Obesity · 21 T2D · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health** (renumbered +1 by decision K) | **✅ COMPLETE (6/6), deployed** |
+| **V** · Integrative Cases (decision K) | 26 Capstone: Integrative Cases (= `cases.qmd`, home of the live LLM patient — largely built, §5) | ✅ in book (polish pending) |
 
 **Cross-refs are by NAME**, so numbering is safe. **All six Part IV files** (`obesity-metabolic-syndrome`,
 `type-2-diabetes`, `cardiovascular-disease-hypertension`, `chronic-kidney-disease`, `undernutrition-malnutrition`,
@@ -166,18 +187,20 @@ radiogroup without arrow-key handling.
 
 ## 4. Remaining work
 
-**★ PARTS I–IV COMPLETE & DEPLOYED** — all six Part IV chapters (Ch.19–24) drafted, reviewed, verified,
-committed **and pushed live** (`origin/main` == local at `bbac6f7`). **★ The Part III §11f physiology retrofit is
-also DONE** (`2be9f8f`; see §0) — no Part III/IV drafting remains. **One work stream remains:**
+**★ ALL 26 CHAPTERS NOW EXIST — the book is content-complete.** Parts I–IV drafted/reviewed/deployed; the Part III
+§11f retrofit is DONE (`2be9f8f`); Ch.19 Interprofessional Practice, Referral & Self-Care is DRAFTED and folded
+into Part III (decision K, `f2fce0d`); the AI-patient capstone is its own Part V. **No chapter drafting remains.**
+Two closing work streams:
 
-**Part V.** Ch.25 **Interprofessional Practice & Referral** (dossier `14-interprofessional-referral` 🟢 — needs
-a **stub** in `_quarto.yml`/`chapters/` + drafting through the per-chapter pipeline; note the Bone/CKD/Undernutrition
-chapters currently forward-ref it *generically* since it has no page yet — once drafted, tighten those to by-name).
-Ch.26 **Capstone = the existing `cases.qmd`** (Integrated cases — home of the live LLM patient; largely built, §5).
+**1. Capstone polish.** Ch.26 **= `cases.qmd`** (Part V · Integrative Cases — home of the live LLM patient; largely
+built, §5). Review/polish it as the finale; confirm the sim-* cases and the AI patient still work end-to-end.
 
-*(The §11f Part III retrofit — previously the "NEXT ACTION" here — was completed 2026-07-06: a short physiology
-layer on Ch.15–18 anchored to Part I owners by name; the named worked examples all landed — food–acne →
-IGF-1/androgen/mTORC1→sebum, "detox" → hepatic/renal clearance, satiety/behaviour → reward pathways. See §0.)*
+**2. The cleanup backlog** (below): bib-key dedup, `ada2024care`→`ada2026care` book-wide, retire legacy/orphaned
+dossiers. **Optional now that Referral has a page:** the Bone/CKD/Undernutrition chapters forward-ref referral
+*generically* — tighten those to *Interprofessional Practice & Referral* by name.
+
+*(Done this session: the §11f Part III retrofit — food–acne → IGF-1/androgen/mTORC1→sebum, "detox" → hepatic/renal
+clearance, satiety/behaviour → reward pathways — and the Ch.19 Referral chapter + decision K restructure. See §0.)*
 
 **Cross-chapter / maintainer flags:**
 - **Duplicate bib-key pairs (book-wide dedup pending).** The repo has TWO entries each for the same paper:
@@ -252,12 +275,15 @@ research/
 
 ## 8. Git state
 
-- **This session — Part III §11f physiology retrofit:** content commit `2be9f8f` (4 chapters + `references.bib`,
-  3 new verified bib keys) + this HANDOVER/curriculum-map wrap-up. **Committed, NOT yet pushed** (push gated on
-  user). After pushing, **verify the CI run (§6)** and the live pages.
-- **All prior work is pushed & DEPLOYED live** (`origin/main` == `bbac6f7` before this session's commits): Part IV
-  Ch.19–24 including the Ch.24 "Bone & Joint Health" joint reframe (`bbac6f7`); Ch.24 Bone `04a1e22`; research
-  `a0118f4`; Ch.19 `1897ccf` · Ch.20 `186cf4a` · Ch.21 `660fef5` · Ch.22 CKD `2504903` · Ch.23 Undernutrition `6f814ee`.
+- **This session — two features on `main`:** (1) Part III §11f retrofit `2be9f8f` (**pushed**; its Pages *deploy*
+  step hit a TRANSIENT failure — build passed — so it is **not yet live**; re-run the deploy or let the next push
+  carry it). (2) Ch.19 Referral chapter `f2fce0d` (**committed, NOT pushed**) + this HANDOVER/curriculum-map
+  wrap-up. **Pushing re-triggers CI and deploys BOTH** — then verify the run (§6). Push is user-gated.
+  ⚠ Disk C: was ~100% full (3.6 GB free); a commit failed once ("unable to write new index file") and succeeded
+  on retry — retry commits if this recurs, and consider freeing disk space.
+- **All prior work is pushed & DEPLOYED live** (`origin/main` was `bbac6f7` at session start): Part IV Ch.19–24
+  (now renumbered 20–25) including the Ch.24→25 "Bone & Joint Health" joint reframe (`bbac6f7`); Ch.24 Bone
+  `04a1e22`; research `a0118f4`; Obesity `1897ccf` · T2D `186cf4a` · CVD `660fef5` · CKD `2504903` · Undernutrition `6f814ee`.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; not committed).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. `book/_book/` and `book/assets/components.js` are
