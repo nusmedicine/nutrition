@@ -1,0 +1,221 @@
+id: mdm-tan-malnutrition
+title: "Mdm Tan, 82: losing weight, living alone"
+objectives:
+  - "Recognise the at-risk patient — living alone, bereaved, eating alone and losing weight — and actively screen rather than wait for a 'starved' appearance."
+  - "Apply MUST conceptually: BMI + unplanned weight loss + acute-illness effect → a risk band; a positive screen flags risk and triggers referral, and is not itself a diagnosis or a feeding plan."
+  - "Start food-first and social support (fortify familiar dishes, address the causes, involve family and communal dining) and refer to the dietitian — ONS is an add-on, not the opener, and the plan is dietitian-led."
+  - "Do no harm: don't feed a long-poor-eater up too fast — that risks refeeding syndrome; build up gradually and let the dietitian set the pace, recognising and referring."
+difficulty: core
+estimatedMinutes: 12
+tags: [nutrition, malnutrition, undernutrition, screening, must, refeeding, do-no-harm, singapore, recognise-and-refer]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 82
+  sex: female
+  occupation: "retired; widowed last year; lives alone"
+  presentation: "Brought in by her daughter, who noticed looser clothes and unfinished meals. Widowed last year, lives alone, eats alone most days, mild knee osteoarthritis. Weight down ~7% over 4 months; BMI 18.9; eating very little. Not acutely ill."
+  voice: "Gentle and uncomplaining; plays down her poor appetite and says she doesn't want to be a bother. Her daughter is worried and keen to 'build her up' quickly."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"She's not eating much, doctor\""
+    body: |
+      Mdm Tan is **82**, was **widowed last year**, and **lives alone**. Her daughter brings her in, worried:
+      her clothes are looser and she leaves meals unfinished. She has **mild knee osteoarthritis**, **eats alone
+      most days**, and has lost about **7% of her weight over 4 months**; her **BMI is 18.9** and she is eating
+      very little. She is **not acutely unwell**.
+
+      *"She says she's fine, doctor — just not so hungry these days."*
+
+      Work through the visit. Decide what raises your suspicion, screen her, choose the right first-line
+      response, and notice where "building her up quickly" would be a genuine do-no-harm mistake. Your choices
+      branch the case.
+    next: q-suspect
+
+  - id: q-suspect
+    type: mcq
+    title: "What raises your suspicion?"
+    stem: |
+      Before any test, what **most** raises your suspicion that Mdm Tan is at risk of malnutrition?
+    options:
+      - id: a
+        text: "Living alone, recent bereavement, eating alone and losing weight."
+        correct: true
+        feedback: "Right. These are exactly the social and clinical drivers that mark someone out to screen: **living alone, bereavement, eating alone and unintentional weight loss**. Living *with* family isn't the same as sharing a meal, and low mood after a loss suppresses appetite. Knowing she's in an at-risk group raises your pre-test probability and tells you to screen — rather than wait for her to look starved."
+        effects: { quality: +1 }
+        goto: reveal-suspect
+      - id: b
+        text: "Nothing stands out — her BMI of 18.9 is not underweight, so she's fine."
+        correct: false
+        feedback: "This is the classic miss. Malnutrition is often silent, and a near-normal BMI does **not** clear her — **weight loss and poor intake matter independently of BMI**. Her bereavement, living and eating alone, and weight loss are precisely the signals to screen, not to reassure."
+        goto: reveal-suspect
+      - id: c
+        text: "Only her knee osteoarthritis, which has nothing to do with nutrition."
+        correct: false
+        feedback: "The osteoarthritis matters (it can limit shopping and cooking), but the strongest signals here are the **social drivers and the weight loss** — living alone, bereavement, eating alone and eating little. Those are what should prompt you to screen."
+        goto: reveal-suspect
+
+  - id: reveal-suspect
+    type: info
+    body: |
+      So Mdm Tan sits squarely in an at-risk group — recently bereaved, living and eating alone, and losing
+      weight. That's the cue to **screen**, not to reassure. You reach for a simple screening tool.
+    next: q-screen
+
+  - id: q-screen
+    type: mcq
+    title: "Screen her"
+    stem: |
+      You screen Mdm Tan with **MUST**: BMI 18.9 (score 1) and about 7% unplanned weight loss (score 1); she
+      isn't acutely ill. What's the **result and the right action**?
+    options:
+      - id: a
+        text: "High risk — refer to the dietitian and document her intake."
+        correct: true
+        feedback: "Correct. The two scores add to **2 — high risk**. A positive screen means **document, monitor and refer** — it flags risk and triggers referral, and it is **not** the diagnosis or the feeding plan. The formal diagnosis (the GLIM logic — a phenotype of loss plus a cause) and the plan are dietitian-led, downstream of your screen."
+        effects: { quality: +1 }
+        goto: reveal-screen
+      - id: b
+        text: "Low risk — reassure the daughter and re-screen next year."
+        correct: false
+        feedback: "The score adds to **2, which is high risk**, not low. A whole year's wait lets a modifiable problem run — the right move is to document intake and **refer now**."
+        goto: reveal-screen
+      - id: c
+        text: "Medium risk — just tell her to eat more, no referral needed."
+        correct: false
+        feedback: "BMI 1 + weight-loss 1 = **2 = high risk**, not medium — and 'eat more' isn't a plan. A high-risk screen triggers **referral** and food-first support, because simply telling a low-appetite, isolated senior to eat more rarely works."
+        goto: reveal-screen
+
+  - id: reveal-screen
+    type: info
+    body: |
+      MUST puts Mdm Tan at **high risk**. You'll refer her to the dietitian — but a referral isn't instant, and
+      there's plenty you can start today. Her daughter asks: *"So what do we actually do to help her eat?"*
+    next: q-firstline
+
+  - id: q-firstline
+    type: mcq
+    title: "The first-line response"
+    stem: |
+      What is the **best** first-line response to Mdm Tan's poor intake, alongside the referral?
+    options:
+      - id: a
+        text: "Food-first and social support, then refer to the dietitian."
+        correct: true
+        feedback: "Right. The first rung is **food-first**: fix the causes (low mood, eating alone, dentition, the knee limiting cooking) and **fortify familiar dishes** — add egg, minced fish or tofu to her rice porridge, richer soup noodles, full-fat milk — so each mouthful carries more without more volume. Bring meals together (daughter, communal dining at an Active Ageing Centre) and refer. Supplement drinks are an **add-on** the dietitian may layer on later, not the opening move."
+        effects: { quality: +1 }
+        goto: reveal-firstline
+      - id: b
+        text: "Start a few supplement drinks a day and change nothing else."
+        correct: false
+        feedback: "Supplement drinks (ONS) are an **evidence-based add-on**, not the first step — and their evidence is modest (some weight and complication benefit, no clear mortality benefit). Skipping food-first misses the real causes: her low mood, eating alone, and dentition. Fix those and **fortify her familiar meals** first; the dietitian decides if ONS is added."
+        goto: reveal-firstline
+      - id: c
+        text: "Write her a detailed high-calorie feeding plan yourself and send her home."
+        correct: false
+        feedback: "Writing the feeding plan isn't the generalist's job — that's **dietitian-led**. Your part is to **screen, start food-first and social support, and refer**. Fortify familiar dishes and address the causes now; let the dietitian build the individualised plan."
+        goto: reveal-firstline
+
+  - id: reveal-firstline
+    type: info
+    body: |
+      You agree some concrete steps with them: **fortify** her rice porridge and soup noodles with egg, fish or
+      tofu; a daily glass of full-fat milk; meals **with her daughter** and a nearby Active Ageing Centre for
+      company; and a dietitian referral. Keen to help, her daughter says: *"I'll just give her lots of rich food
+      and three supplement drinks a day to build her up fast — the quicker the better, right?"*
+    next: q-refeeding
+
+  - id: q-refeeding
+    type: mcq
+    title: "\"Let's build her up fast\""
+    stem: |
+      Mdm Tan has been eating **very little for a while**. Her daughter wants to **pile on rich food and
+      supplements now to build her up quickly**. What's the **best** response?
+    options:
+      - id: a
+        text: "Build up gradually and let the dietitian set a safe pace."
+        correct: true
+        feedback: "Exactly the do-no-harm answer. In someone who has eaten little for a long time, ramping intake up too fast — especially rich, carbohydrate-heavy food — can trigger **refeeding syndrome**, where blood salts (phosphate, potassium, magnesium) shift dangerously and can affect the heart. So you **build up gradually and let the dietitian set a safe pace and monitor** — not because food is bad, but because the *speed* matters. Recognise the risk and refer; managing it is specialist."
+        effects: { quality: +1 }
+        goto: reveal-refeeding
+      - id: b
+        text: "Yes — pile on rich food and supplements to build her up fast."
+        correct: false
+        feedback: "This is the trap, and it can cause real harm. In a patient who has eaten little for a long time, **feeding up too fast can precipitate refeeding syndrome** — dangerous shifts in phosphate, potassium and magnesium that can affect the heart. The safe message is to **build up gradually and let the dietitian set the pace and monitor**. The goal is right, but the *speed* is the hazard — recognise and refer."
+        goto: remedial-refeeding
+
+  - id: remedial-refeeding
+    type: info
+    title: "One caution before building her up"
+    body: |
+      Pause before Mdm Tan is loaded with rich food and three drinks a day.
+
+      **Feeding a long-starved person up too fast is dangerous.** After a stretch of very poor intake,
+      suddenly reintroducing lots of food — especially carbohydrate — drives an insulin surge that pushes
+      **phosphate, potassium and magnesium** into cells, which can disturb the heart rhythm and the nervous
+      system: **refeeding syndrome**. The goal of building her up is right; the **speed** is the hazard.
+
+      The safe message is: *"Let's build her up **gradually**, and the dietitian will set a safe pace and keep
+      an eye on things."* Recognising the at-risk patient and referring for a cautious, monitored restart is
+      the first-year job — the electrolyte and pacing management is specialist, later learning. Piling food on
+      fast to "build her up quickly" is a genuine do-no-harm error.
+    next: route
+
+  - id: reveal-refeeding
+    type: info
+    body: |
+      You explain gently that the aim is right but the pace matters — you'll build her up **slowly**, and the
+      dietitian will guide it. Her daughter understands, relieved there's a safe plan.
+    next: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Recognised, screened, and safely referred"
+    body: |
+      You handled Mdm Tan well. You **recognised the at-risk patient** — bereaved, living and eating alone,
+      losing weight — and **screened** rather than waiting for a starved appearance, catching that a near-normal
+      BMI does not clear her. You read the MUST screen as **high risk → refer**, understanding a screen flags
+      risk rather than diagnosing. You started **food-first and social support** — fortifying familiar dishes,
+      tackling the causes, bringing meals together — with ONS left as a dietitian's add-on. And you applied
+      **do-no-harm**: not feeding a long-poor-eater up too fast, but building up gradually and letting the
+      dietitian set the pace. That's exactly this chapter's altitude: screen, recognise, refer — and do no harm.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Recognise the at-risk patient (living alone, bereavement, eating alone, weight loss) and screen — don't wait for a 'starved' look, and don't let a near-normal BMI reassure you."
+        - "MUST adds BMI + weight loss + acute illness; here that's high risk. A positive screen flags risk and triggers referral — it is not a diagnosis or a feeding plan."
+        - "Start food-first and social support (fortify familiar dishes, fix the causes, bring meals together) and refer; ONS is a dietitian's add-on, not the opener, and the plan is dietitian-led."
+        - "Do no harm: don't feed a long-poor-eater up too fast — that risks refeeding syndrome. Build up gradually and let the dietitian set the pace; recognise and refer."
+      references: ["@bapenMUST", "@espenGeriatrics2019", "@deSilva2020Refeeding", "@hpbSeniors"]
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a plan for Mdm Tan, but slipped on at least one key point — recognising her as at-risk despite
+      a near-normal BMI, reading the screen as **high risk → refer**, or starting **food-first** rather than a
+      supplement drink alone. The one that matters most for safety is the last question: agreeing to **build her
+      up fast** is a genuine do-no-harm error, because feeding a long-poor-eater up too quickly can precipitate
+      **refeeding syndrome** — dangerous shifts in phosphate, potassium and magnesium. Replay the safe path:
+      screen the at-risk senior (a normal BMI doesn't clear her); read a positive screen as refer, not reassure;
+      start food-first and social support; and **build up gradually, letting the dietitian set the pace**.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Recognise the at-risk patient and screen — a near-normal BMI does not exclude malnutrition."
+        - "A positive MUST screen (high risk here) means document, monitor and refer — not a diagnosis or a plan."
+        - "Start food-first and social support and refer; ONS is an add-on, not the opening move."
+        - "Never feed a long-poor-eater up too fast — that risks refeeding syndrome. Build up gradually and let the dietitian set the pace."

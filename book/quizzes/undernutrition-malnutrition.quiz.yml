@@ -1,0 +1,130 @@
+id: undernutrition-malnutrition
+title: "Quick check: undernutrition & malnutrition"
+questions:
+  - id: q1
+    stem: "Which statement about **malnutrition** is correct?"
+    options:
+      - text: "A disease state a normal BMI doesn't exclude"
+        correct: true
+        feedback: "Correct. Malnutrition is a diagnosable disease state — a nutrient deficit that measurably changes body composition and worsens outcomes — and it is common in hospitalised and community-dwelling older Singaporeans. Weight loss and illness harm nutrition independently of body size, so a normal or even high BMI does not rule it out."
+      - text: "It only affects people who look visibly starved"
+        correct: false
+        feedback: "Malnutrition is frequently missed precisely because people don't look 'starved'. It is defined by a deficit plus its functional consequences, not by appearance."
+      - text: "A normal-range BMI reliably rules it out"
+        correct: false
+        feedback: "It does not. Unplanned weight loss and acute illness flag risk regardless of BMI, and someone can be losing muscle at a normal or high weight."
+      - text: "Essentially confined to low-income countries"
+        correct: false
+        feedback: "Disease-related malnutrition is common in high-income settings — in wards and in the community — where it is under-recognised."
+
+  - id: q2
+    stem: "Why does **disease-related** malnutrition often fail to improve with feeding alone?"
+    options:
+      - text: "Inflammation drives catabolism, not just low intake"
+        correct: true
+        feedback: "Correct. Chronic and acute disease bring inflammation, which drives muscle breakdown and blunts appetite — so you cannot simply out-feed the illness, and the underlying disease has to be treated too. This inflammation gradient is what separates starvation-related from chronic- and acute-disease-related malnutrition."
+      - text: "Supplements are always too poorly absorbed to help"
+        correct: false
+        feedback: "Absorption is not the core issue. The reason feeding alone often falls short is the inflammatory catabolism of the underlying disease."
+      - text: "Illness never reduces a person's appetite"
+        correct: false
+        feedback: "Illness commonly reduces appetite — anorexia is part of the inflammatory picture, which is exactly why intake falls and feeding alone struggles."
+      - text: "Protein stops mattering once a person is ill"
+        correct: false
+        feedback: "Protein still matters; the problem is that inflammation drives catabolism faster than feeding replaces it, so the disease must be addressed as well."
+
+  - id: q3
+    stem: "A community nurse's **MUST screen is positive**. What does that mean?"
+    options:
+      - text: "Risk is flagged — document, monitor and refer"
+        correct: true
+        feedback: "Correct. Screening is a fast filter that flags risk and triggers referral — it is not the diagnosis or the care plan. Formal diagnosis uses the downstream GLIM logic (a phenotype of loss plus a cause), done by the dietitian or team."
+      - text: "Malnutrition is now formally diagnosed and graded"
+        correct: false
+        feedback: "A positive screen is not a diagnosis. Diagnosis (GLIM) sits downstream of screening and is a dietitian- or team-led step."
+      - text: "A feeding plan can be written from the screen"
+        correct: false
+        feedback: "The screen flags risk; it does not generate a plan. The next step is document, monitor and refer — the plan is dietitian-led."
+      - text: "No action is needed until symptoms develop"
+        correct: false
+        feedback: "A positive screen is itself the trigger to act — document intake, monitor and refer — precisely so you don't wait for obvious symptoms."
+
+  - id: q4
+    stem: "A patient has a **normal BMI** but has lost 12% of their weight and is acutely unwell eating almost nothing. On MUST, they are…"
+    options:
+      - text: "High risk — the other two score regardless of BMI"
+        correct: true
+        feedback: "Correct. MUST adds three components, and the unplanned weight-loss score (12% is >10%, so 2) and the acute-disease effect (2) count independently of BMI. So a normal BMI still lands this patient at high risk — the classic 'she looks fine' miss avoided."
+      - text: "Low risk, because the BMI is in the normal range"
+        correct: false
+        feedback: "BMI is only one of three components. A large weight loss and an acute-illness effect push the total to high risk on their own."
+      - text: "Impossible to score without a below-normal BMI"
+        correct: false
+        feedback: "MUST scores fine with a normal BMI — the other two components carry the score here, giving high risk."
+      - text: "Medium risk at most, since BMI contributes nothing"
+        correct: false
+        feedback: "The weight-loss (2) and acute-illness (2) scores alone exceed the high-risk threshold, so this is high, not medium, risk."
+
+  - id: q5
+    stem: "An older patient is eating poorly. What is the best **first-line** response?"
+    options:
+      - text: "Food-first — fix the cause and fortify familiar meals"
+        correct: true
+        feedback: "Correct. The first rung is food-first: fix the cause of poor intake (isolation, dentition, mood, swallow, drugs) and fortify familiar dishes for more energy and protein per mouthful. Oral supplement drinks are an evidence-based add-on later, not the opening move — and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
+      - text: "Start a supplement drink and change nothing else"
+        correct: false
+        feedback: "ONS is an add-on, not the first step, and using it without fixing the cause underperforms. Food-first comes first, then fortification, then ONS."
+      - text: "Move straight to tube feeding to guarantee intake"
+        correct: false
+        feedback: "Enteral feeding is a specialist rung reserved for when oral routes are insufficient — not a first-line response to poor appetite."
+      - text: "Reassure them that appetite always recovers on its own"
+        correct: false
+        feedback: "That misses a modifiable problem. Poor intake in an older adult warrants food-first support and referral, not watchful reassurance."
+
+  - id: q6
+    stem: "A very underweight patient has eaten almost nothing for weeks. Why **not** simply feed them up quickly?"
+    options:
+      - text: "It risks refeeding syndrome — recognise and refer"
+        correct: true
+        feedback: "Correct. Reintroducing feeding (especially carbohydrate) after prolonged starvation drives phosphate, potassium and magnesium into cells and can cause refeeding syndrome, with cardiac and neurological harm. The first-year job is to recognise the at-risk patient and refer for cautious, monitored refeeding — the management itself is specialist."
+      - text: "Rapid feeding is the fastest safe way to recover"
+        correct: false
+        feedback: "Rapid feeding of a long-starved patient is the danger, not the solution — it can precipitate refeeding syndrome. Cautious, monitored refeeding is needed."
+      - text: "Their appetite must be tested with large meals first"
+        correct: false
+        feedback: "Large meals are exactly what to avoid here. The at-risk patient needs recognition and referral for a cautious, monitored restart."
+      - text: "Quick weight gain carries no particular risk here"
+        correct: false
+        feedback: "It carries a specific risk — refeeding syndrome — which is why these patients are identified and referred rather than fed up fast."
+
+  - id: q7
+    stem: "A post-stroke patient coughs on drinks and has a wet voice after meals, but not on every sip. What is the safest interpretation?"
+    options:
+      - text: "Refer to speech therapy — aspiration can be silent"
+        correct: true
+        feedback: "Correct. Coughing on fluids, a wet voice and slow meals are dysphagia red flags, and up to a third of aspiration is silent (no cough at all) — so you refer on the pattern, not the presence of a cough. The speech therapist assesses the swallow and sets the safe IDDSI texture level."
+      - text: "No cough on some sips means the swallow is safe"
+        correct: false
+        feedback: "Silent aspiration means a safe-looking sip can still be unsafe. The red-flag pattern warrants referral regardless of whether every sip provokes a cough."
+      - text: "Thicken all fluids yourself and review in a month"
+        correct: false
+        feedback: "Setting a texture level is the speech therapist's assessment, not something to do empirically — and a month's delay risks aspiration and weight loss."
+      - text: "Weight is stable, so the swallow needs no assessment"
+        correct: false
+        feedback: "The red flags stand on their own. A stable weight does not exclude an unsafe swallow, and the pattern here warrants a speech-therapy referral."
+
+  - id: q8
+    stem: "In malnutrition care, which task is the **generalist's** — with the rest referred?"
+    options:
+      - text: "Screening the at-risk patient and referring on"
+        correct: true
+        feedback: "Correct. The generalist screens, recognises the at-risk patient and the red flags, starts food-first and social support, and refers. The dietetic assessment and GLIM diagnosis, the ONS and enteral prescriptions, refeeding management and IDDSI level-setting are all team- and specialist-led."
+      - text: "Grading the malnutrition and setting the ONS dose"
+        correct: false
+        feedback: "Diagnosis, grading and supplement prescription are dietitian- and team-led, downstream of the screen. The generalist's part is screen, recognise and refer."
+      - text: "Prescribing the refeeding electrolyte replacement"
+        correct: false
+        feedback: "Refeeding management is specialist, later learning. The generalist recognises the at-risk patient and refers."
+      - text: "Choosing the safe IDDSI texture level to serve"
+        correct: false
+        feedback: "Setting the IDDSI level is the speech therapist's job after a swallow assessment. The generalist spots the red flags and refers."

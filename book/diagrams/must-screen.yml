@@ -1,0 +1,52 @@
+# Data for the MustScreen island (Undernutrition & Malnutrition chapter).
+# A MUST screening widget for the "Screening: the first-year competency" section. The learner sets the
+# three MUST components (BMI band, unplanned weight-loss band, acute-disease effect); the tool sums them
+# to a risk band (low / medium / high) with the matching action. Teaching point: weight loss and acute
+# illness score INDEPENDENTLY of BMI, so a normal/high BMI can still be high risk. Recognition-level only —
+# the output is a risk band + refer, never a feeding plan. Pure content — no asset paths.
+id: must-screen
+title: "Screen with MUST"
+intro: >-
+  MUST adds three things: a BMI score, an unplanned weight-loss score, and an acute-illness effect. Set
+  each and watch the risk band — and notice that a normal or even high BMI can still be high risk.
+# Each component: id, label, and options (label + score). Scores are additive.
+components:
+  - id: bmi
+    label: "1. Body mass index (BMI)"
+    options:
+      - { label: "> 20 (normal or high)", score: 0 }
+      - { label: "18.5 – 20", score: 1 }
+      - { label: "< 18.5", score: 2 }
+  - id: weightloss
+    label: "2. Unplanned weight loss (past 3–6 months)"
+    options:
+      - { label: "< 5%", score: 0 }
+      - { label: "5 – 10%", score: 1 }
+      - { label: "> 10%", score: 2 }
+  - id: acute
+    label: "3. Acutely ill AND little/no intake for > 5 days"
+    options:
+      - { label: "No", score: 0 }
+      - { label: "Yes", score: 2 }
+# Risk bands keyed by the highest total they cover (first band with total <= max wins).
+bands:
+  - max: 0
+    label: "Low risk"
+    kind: good
+    action: "Routine care — repeat screening (weekly in hospital, and periodically in the community)."
+  - max: 1
+    label: "Medium risk"
+    kind: caution
+    action: "Observe — document food intake for 2–3 days, then repeat screening and act if intake stays poor."
+  - max: 99
+    label: "High risk"
+    kind: avoid
+    action: "Refer to the dietitian / nutrition team and start food-first support now."
+# Shown when BMI scores 0 but the overall band is medium/high — the independence-of-BMI lesson.
+independenceNote: >-
+  Weight loss and acute illness score independently of BMI — a normal or high BMI can still be high risk.
+prompt: "Set the three components to see the risk band and the action."
+caption: >-
+  A positive screen flags risk and triggers referral — it is not a diagnosis or a feeding plan. The point
+  MUST makes plain: weight loss and acute illness count even when BMI looks fine.
+credit: "Scoring after BAPEN's Malnutrition Universal Screening Tool (MUST). Teaching aid — not a substitute for the validated tool."

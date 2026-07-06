@@ -1,0 +1,68 @@
+<svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mm-title mm-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="mm-title">What malnutrition does to the body, and why inflammation changes it</title>
+  <desc id="mm-desc">Malnutrition is a causal chain. A nutrient deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and — crucially — muscle mass, which causes weakness, poor wound healing, infection, longer hospital stays and higher mortality. Malnutrition is classified by cause on an inflammation gradient: starvation-related with no inflammation, chronic disease-related with mild to moderate inflammation, and acute disease or injury with severe inflammation at the cachexia end. Inflammation drives catabolism, which is why disease-related malnutrition resists feeding alone.</desc>
+  <defs>
+    <marker id="mm-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .in   { fill:#eef3f8; stroke:#47607a; stroke-width:1.4; }
+    .inf  { fill:#fbf1e8; stroke:#b0471d; stroke-width:1.4; }
+    .mid  { fill:#eef5f2; stroke:#0b5b54; stroke-width:1.4; }
+    .out  { fill:#fdecec; stroke:#c2410c; stroke-width:1.5; }
+    .lbl  { fill:#17324d; font-size:13px; }
+    .ilbl { fill:#7c2d12; font-size:12.5px; }
+    .mlbl { fill:#0b5b54; font-size:13px; font-weight:600; }
+    .olbl { fill:#7c2d12; font-size:12px; }
+    .flow { stroke:#64748b; stroke-width:2; fill:none; }
+    .hdr  { fill:#28425e; font-size:13px; font-weight:600; }
+    .note { fill:#5b6b7b; font-size:11px; }
+    .seglbl { fill:#ffffff; font-size:12.5px; font-weight:600; }
+    .segsub { fill:#ffffff; font-size:10.5px; }
+  </style>
+
+  <text class="hdr" x="20" y="26">Malnutrition is a causal chain, not a body size</text>
+
+  <!-- two inputs merge -->
+  <rect class="in"  x="25" y="48" width="215" height="46" rx="8"/>
+  <text class="lbl" x="132" y="68" text-anchor="middle">A nutrient deficit</text>
+  <text class="note" x="132" y="85" text-anchor="middle">energy · protein · micronutrients</text>
+
+  <rect class="inf" x="25" y="108" width="215" height="46" rx="8"/>
+  <text class="ilbl" x="132" y="128" text-anchor="middle">+ disease inflammation</text>
+  <text class="note" x="132" y="145" text-anchor="middle">&amp; reduced intake (the disease driver)</text>
+
+  <line class="flow" x1="240" y1="71" x2="300" y2="95" marker-end="url(#mm-ah)"/>
+  <line class="flow" x1="240" y1="131" x2="300" y2="107" marker-end="url(#mm-ah)"/>
+
+  <!-- middle: body composition -->
+  <rect class="mid" x="302" y="76" width="185" height="52" rx="8"/>
+  <text class="mlbl" x="394" y="97" text-anchor="middle">↓ fat AND muscle mass</text>
+  <text class="note" x="394" y="115" text-anchor="middle">(muscle = the body's protein store)</text>
+
+  <line class="flow" x1="487" y1="102" x2="547" y2="102" marker-end="url(#mm-ah)"/>
+
+  <!-- outcome -->
+  <rect class="out" x="549" y="60" width="210" height="86" rx="9"/>
+  <text class="olbl" x="654" y="82"  text-anchor="middle">Weakness · falls</text>
+  <text class="olbl" x="654" y="100" text-anchor="middle">poor wound healing</text>
+  <text class="olbl" x="654" y="118" text-anchor="middle">infection · longer stays</text>
+  <text class="olbl" x="654" y="136" text-anchor="middle">↑ mortality</text>
+
+  <!-- inflammation gradient -->
+  <text class="hdr" x="20" y="228">Classified by cause — on an inflammation gradient</text>
+  <rect x="25" y="244" width="243" height="60" rx="7" fill="#2f9e70"/>
+  <rect x="268" y="244" width="243" height="60" fill="#c99a2e"/>
+  <rect x="511" y="244" width="244" height="60" rx="7" fill="#c2410c"/>
+  <text class="seglbl" x="146" y="270" text-anchor="middle">Starvation-related</text>
+  <text class="segsub" x="146" y="290" text-anchor="middle">no inflammation</text>
+  <text class="seglbl" x="389" y="270" text-anchor="middle">Chronic disease-related</text>
+  <text class="segsub" x="389" y="290" text-anchor="middle">mild–moderate inflammation</text>
+  <text class="seglbl" x="633" y="270" text-anchor="middle">Acute disease / injury</text>
+  <text class="segsub" x="633" y="290" text-anchor="middle">severe (the cachexia end)</text>
+
+  <line class="flow" x1="25" y1="322" x2="755" y2="322" marker-end="url(#mm-ah)"/>
+  <text class="note" x="25" y="340">more inflammation →</text>
+  <text class="note" x="755" y="340" text-anchor="end">Inflammation drives catabolism — why disease-related malnutrition resists feeding alone.</text>
+</svg>
