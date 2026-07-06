@@ -34,10 +34,6 @@ They need different nutrition, and getting them backwards is a common error.
 
 ![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a fragility fracture, with real nutrient levers (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one real dietary lever is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug. The trap is treating them alike.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
 
-- **Osteoporosis** is a *bone* problem: low bone **density**, **silent until a fragility fracture**. Its levers are the nutrient ones this chapter builds first: calcium, vitamin D, protein.
-- **Osteoarthritis** is a *joint cartilage* problem: the worn, painful knee or hip. Its one real dietary lever is **weight loss**; supplements do not rebuild cartilage.
-- **Gout** is a *crystal* problem: urate crystals in the joint, a **metabolic** disease where diet nudges the urate only modestly and the real treatment is a **urate-lowering drug**.
-
 The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
 osteoporosis, and gout is neither wear nor thinning. We take the bone story first, then the joints.
 
@@ -80,8 +76,14 @@ cut in fractures**, and the two must never be conflated [@hernandez2003peakBmdMo
 
 ## Calcium: substrate, and why content isn't the whole story
 
-Singapore's calcium requirements run across the life course: about **1000 mg/day for adolescents (10–18),
-800 mg for adults 19–50, and 1000 mg for adults 51 and over**, and in pregnancy and lactation [@hpbRDACalcium].
+Singapore's calcium requirements run across the life course, plus a raised need in pregnancy and lactation [@hpbRDACalcium]:
+
+| Life stage | Calcium requirement (mg/day) |
+|---|---|
+| **Adolescents (10–18)** | 1000 |
+| **Adults 19–50** | 800 |
+| **Adults 51 and over** | 1000 |
+
 Local intake sits at a mean of **~794 mg/day** — actually among the highest in Asia, where most countries fall
 below 400–500 mg, but still under the requirement — and the gap widens with age, with about **half of older
 Singaporeans falling short** [@balkGlobalCalcium2017; @hpbNNS2010; @ye2023daha].

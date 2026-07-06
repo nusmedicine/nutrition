@@ -2,15 +2,18 @@
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-06.**
 >
-> **★ THE BOOK IS CONTENT-COMPLETE: 27 chapters across 5 parts, all drafted, reviewed, deployed & LIVE.**
-> <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages CI (`publish.yml`) on every push.
-> `origin/main` == local at **`09d1da6`**; CI green; working tree clean (bar the untracked user `.pptx` and a
-> modified dev `.claude/launch.json`).
+> **★ THE BOOK IS CONTENT-COMPLETE: 27 teaching chapters across 5 parts (28 numbered, since the Capstone is now
+> split 4+4), all drafted, reviewed & LIVE.** Title is now **_Health in Medicine: Nutrition_** (subtitle "An
+> interactive companion for medical students"). <https://nusmedicine.github.io/nutrition/> — deployed from `main`
+> by the Pages CI (`publish.yml`) on every push.
+> ⚠ **There is committed-but-UNPUSHED work awaiting a user go-ahead to deploy** (see §8): the Capstone `sim-*`
+> enrichment, the Part V 4+4 split, a readability/table pass on 6 disease chapters, the retitle, and index fixes.
 >
 > **★★ NO REQUIRED WORK REMAINS.** The next session is open-ended. Sensible options: **(a)** add another chapter
 > (there's an established, high-reliability pipeline — §2; candidate Phase-2 topics in §5); **(b)** enrich the
-> **Capstone** (`cases.qmd`, Ch.27) with more `sim-*` AI-patient cases (§6); **(c)** a light polish/maintenance
-> pass (§5 flags). If the user names something else, just do that.
+> **Capstone** (`cases-counselling.qmd` + `cases-referral.qmd`) with more `sim-*` AI-patient cases (§6); **(c)** a
+> light polish/maintenance pass (§5 flags), e.g. extend the table/readability pass to more chapters. If the user
+> names something else, just do that.
 >
 > **⚠ SOURCE OF TRUTH = [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)**
 > (the 27-chapter spine + the full decision log A–M) + the auto-loaded memory (`memory/MEMORY.md`).
@@ -26,6 +29,18 @@
 
 All on `main`. Full detail lives in the curriculum-map decision log + git history.
 
+- **Part V split + readability/table pass + retitle** — (1) **Split the Capstone into two chapters** (decision N):
+  Ch.27 *Everyday and preventive counselling* (`cases-counselling.qmd` — Mdm Tan, Mr Lim, Mr Tan, Mdm Goh) and
+  Ch.28 *Recognising risk and knowing when to refer* (`cases-referral.qmd` — Aisha, Mr Chua, Mdm Devi, Encik
+  Rahman); `cases.qmd` removed; two "capstone chapter"→"capstone cases" cross-refs updated. (2) **Readability pass**
+  via a convert→adversarial-verify `Workflow`: **5 house-style tables** added to 5 previously table-less disease
+  chapters (bone=calcium-by-life-stage, brain=supplement verdicts, T2D=hypo-risk drug classes,
+  healthy-ageing=refer-list, evidence-vs-hype=claim/evidence/verdict) — **every citation preserved; the verify
+  stage caught & fixed one fabricated cell in healthy-ageing.** Two other proposed tables (bone *three-conditions*,
+  CKD *phosphate*) were **dropped in review because an existing figure already showed the same info** —
+  ⚠ don't table-ify content a nearby figure already owns (`#fig-disambiguation`, `#fig-phosphate`). (3) **Retitle** to *Health in Medicine: Nutrition* (`_quarto.yml`), drop
+  "first-year" framing in the preface, **remove the stale "pilot" note**, fix the "honesty"→"candour" style tic.
+  All rendered (30/30) + asset-gated + case-linted + tic-grepped + browser-verified.
 - **Capstone sim-case enrichment (+4 AI-patient cases)** — added four new `sim-*` encounters to Ch.27
   (`cases.qmd`), taking the Capstone from 4 → **8** live-AI-patient cases, each grounded in its source
   chapter and leaning into a do-no-harm trap: **Mr Chua** (79, frailty/undernutrition — *density up,
@@ -60,7 +75,7 @@ Full table + decisions A–M in `curriculum-map.md` (READ IT FIRST). Cross-refs 
 | **II · Nutrition across Life Stages** | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ live |
 | **III · Assessing and Advising Patients** | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · 19 Interprofessional Practice, Referral & Self-Care | ✅ live |
 | **IV · Nutrition in Disease** (cascade order — decision J) | 20 Obesity & Metabolic Syndrome · 21 Type 2 Diabetes · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health · 26 Brain Health & Dementia | ✅ live |
-| **V · Integrative Cases** | 27 Capstone: Integrative Cases (`cases.qmd`, home of the live LLM patient — **8 `sim-*` encounters**) | ✅ live |
+| **V · Integrative Cases** | 27 Everyday & Preventive Counselling (`cases-counselling.qmd`) · 28 Recognising Risk & When to Refer (`cases-referral.qmd`) — **8 `sim-*` live-LLM-patient encounters, split 4+4** | ✅ live |
 
 Every chapter has: pathophysiology/physiology beat where relevant (§11f), ≥1 teaching figure, a bespoke island, an
 MCQ quiz, and an MCQ-only case with a do-no-harm hard route. Part IV/disease chapters run at **recognise-the-levers
@@ -112,6 +127,10 @@ warm); just-in-time glosses for prerequisite jargon; **≥1 teaching figure**; i
   capstone is its own final part.
 - **(L)** Part titles renamed to a clinical-function axis (the five titles in §1).
 - **(M)** *Brain Health & Dementia* added as the closing Part IV chapter (Ch.26).
+- **(N)** Part V (Integrative Cases) split into **two capstone chapters** — *Everyday and preventive counselling*
+  (well / worried-well: history, myths, prevention) + *Recognising risk and knowing when to refer* (deficiency,
+  disease, do-no-harm, safety-net). Grouped by consultation type (mirrors the book's spine); promote a 3rd chapter
+  when a bucket reaches ~3 cases.
 - **(§11f)** Part IV chapters carry a pathophysiology beat (built on Part I by name); Part III chapters carry
   relevant physiology background; figures where they teach.
 - **(§11g)** Prose must not read like AI (em-dashes sparingly; no "it's not X, it's Y"; no meta-commentary;
@@ -168,11 +187,11 @@ Invoke-RestMethod "https://api.github.com/repos/nusmedicine/nutrition/actions/ru
 The `patient-chat` case node → a real guardrailed AI patient. Client-composed prompt; key held server-side in a
 zero-dep proxy (`patient-proxy/`, FRP at `patient-api.phm.nusmed.space`); SSE streaming; an `(emotion)` tag drives
 the portrait (fixed set: `neutral, concerned, relieved, skeptical, surprised`); a post-encounter JSON rubric;
-graceful fallback if disabled. It lives **ONLY** in `sim-*` cases (the Integrated Cases / Capstone chapter,
-`cases.qmd` — now **8** encounters) — never in a per-chapter case ([[in-chapter-cases-mcq-only]], enforced by
-`validate-cases.mjs`). **Adding a sim case = self-contained `.case.yml` (persona + `brief` + `opener` + intro/
-patient-chat/end nodes; no scenario registry, no JS) + a persona sprite folder of the 5 emotions
-(`gen-persona-sprites.ps1`) + a section in `cases.qmd`.** Endpoint reality ([[qwen-llm-endpoint]]): llama.cpp router, OpenAI API at `/v1`,
+graceful fallback if disabled. It lives **ONLY** in `sim-*` cases (the two Integrative-Cases / Capstone chapters,
+`cases-counselling.qmd` + `cases-referral.qmd` — **8** encounters, split 4+4) — never in a per-chapter case
+([[in-chapter-cases-mcq-only]], enforced by `validate-cases.mjs`). **Adding a sim case = self-contained `.case.yml`
+(persona + `brief` + `opener` + intro/patient-chat/end nodes; no scenario registry, no JS) + a persona sprite folder
+of the 5 emotions (`gen-persona-sprites.ps1`) + a section in whichever capstone chapter fits (counselling vs refer).** Endpoint reality ([[qwen-llm-endpoint]]): llama.cpp router, OpenAI API at `/v1`,
 Qwen3.6 needs `enable_thinking:false` or content comes back empty. Code: `components/src/lib/{patient,config}.js`,
 `CasePlayer.svelte`, `lib/engine.js`.
 
@@ -183,9 +202,9 @@ HANDOVER.md(this) · AUTHOR.md(§11 = chapter template + house rules; §11f dept
 scripts/  render.mjs · check-assets.mjs · validate-cases.mjs · preview.ps1 · patient-proxy.ps1
 patient-proxy/  PROD key-holding proxy (deployed; §6)
 book/
-  _quarto.yml            5 parts, 27 chapters + the Integrative Cases part
+  _quarto.yml            5 parts, 28 numbered chapters (title "Health in Medicine: Nutrition")
   references.bib          SINGLE source of truth for citations (~780+ entries)
-  chapters/*.qmd          I(1–8) · II(part2-intro + 9–14) · III(15–19) · IV(20–26) · cases.qmd(27)
+  chapters/*.qmd          I(1–8) · II(part2-intro + 9–14) · III(15–19) · IV(20–26) · V: cases-counselling(27) + cases-referral(28)
   figures/  food/ · structures/ · anatomy/ · personas/ · mechanisms/(own-work SVGs) · CREDITS.csv
   diagrams/*.yml          island data (advise-refer, trial-check, renal-flip, must-screen, bone-bank, …)
   quizzes/*.quiz.yml · cases/*.case.yml   (in-chapter cases MCQ-only; sim-* = live AI chat)
@@ -197,8 +216,9 @@ research/
 
 ## 8. Git state
 
-- **Everything is committed, pushed & DEPLOYED live.** `origin/main` == local at **`09d1da6`**; latest CI run green
-  (build + deploy). The 27th chapter (`brain-health-dementia.html`) is live.
+- **`origin/main` is at `09d1da6` (last deployed); local `main` is 3 commits AHEAD, all UNPUSHED and awaiting a
+  user go-ahead to deploy:** `1fb4b90` (HANDOVER rewrite) · `369d7c3` (Capstone +4 sim cases) · the split/tables/
+  retitle commit. Once pushed, the live site rebuilds and the title becomes *Health in Medicine: Nutrition*.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; intentionally uncommitted).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. Commit freely; **ask before pushing** (deploying is

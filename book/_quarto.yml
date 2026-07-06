@@ -10,8 +10,8 @@ project:
     - figures/**
 
 book:
-  title: "Health in Medicine"
-  subtitle: "Nutrition — an interactive companion for first-year medical students"
+  title: "Health in Medicine: Nutrition"
+  subtitle: "An interactive companion for medical students"
   author: "Dept of Biochemistry, NUS Medicine"
   search: true
   chapters:
@@ -53,7 +53,8 @@ book:
         - chapters/brain-health-dementia.qmd
     - part: "V · Integrative Cases"
       chapters:
-        - chapters/cases.qmd
+        - chapters/cases-counselling.qmd
+        - chapters/cases-referral.qmd
 
 bibliography: references.bib
 

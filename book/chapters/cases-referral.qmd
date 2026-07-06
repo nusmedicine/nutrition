@@ -1,0 +1,44 @@
+# Recognising risk and knowing when to refer
+
+More **simulated-patient encounters** — the same format, higher stakes. These four move from the
+well and worried-well to patients where the first job is to notice what is going wrong: a
+deficiency, a disease, or a habit that could do harm. Often the safest and most skilful move is to
+recognise the limit of general advice and **refer**.
+
+::: {.callout-note appearance="simple"}
+The patient is an **AI simulation for practice, not a real person, and not medical advice**.
+Treat it as a natural consultation: ask, listen, and agree a realistic plan. If the simulated
+patient is not enabled in your build, the encounter simply notes this and continues.
+:::
+
+## Aisha — "tired all the time"
+
+A 24-year-old office worker who has been tired for months and puts it down to stress. She will
+not volunteer much, so draw out what is really going on, explain your concern plainly, and agree
+a sensible next step.
+
+<div data-island="case" data-src="/cases/sim-iron-deficiency-aisha.case.yml"></div>
+
+## Mr Chua — losing weight without trying
+
+A 79-year-old whose daughter noticed his clothes hanging loose. He feels "okay, just tired," and
+is quietly proud he has been eating less and plainer. Recognise what the weight loss means, turn
+the advice around, and agree a safe next step.
+
+<div data-island="case" data-src="/cases/sim-frailty-undernutrition-mr-chua.case.yml"></div>
+
+## Mdm Devi — "my bones must be weak"
+
+A 63-year-old who broke her wrist in a small fall and now wants to megadose calcium tablets.
+Correct the "more is better" idea, point her to what actually protects bone, and recognise what a
+fragility fracture needs.
+
+<div data-island="case" data-src="/cases/sim-bone-fracture-mdm-devi.case.yml"></div>
+
+## Encik Rahman — "must I stop all protein?"
+
+A 58-year-old with diabetes and hypertension whose kidneys are now affected. He has almost stopped
+eating protein, drinks star-fruit juice to "detox," and switched to a low-sodium salt. Undo the
+harmful ideas, reinforce what is safe, and know where this belongs.
+
+<div data-island="case" data-src="/cases/sim-ckd-protein-encik-rahman.case.yml"></div>

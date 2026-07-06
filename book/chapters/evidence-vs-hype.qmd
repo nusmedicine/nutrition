@@ -69,26 +69,15 @@ constant [@appel1997dash]. Real results, correctly bounded.
 
 ## Everyday questions
 
-The funnel turns "is X good or bad?" into something answerable. A few that come up constantly:
+The funnel turns "is X good or bad?" into something answerable. A few that come up constantly land very differently once you trace them to their evidence:
 
-- **"Cutting out dairy clears acne."** The evidence is **observational only** (there are *no*
-  randomised trials on dairy and acne) showing a **weak** association, strongest for skim milk, with a
-  plausible hormonal mechanism the box below traces [@juhl2018dairyacne]. The stronger acne signal, and the only one with
-  trials, is **high glycaemic load** [@meixiong2022dietacne]. Both editions of the dermatology
-  guidelines conclude there is **insufficient evidence to recommend cutting any food** to treat acne
-  [@aad2016acne; @aad2024acne]. Verdict: real but weak; a lower-sugar trial is reasonable, a strict
-  elimination diet is not.
-- **"Coffee protects your heart."** A large umbrella review links 3–4 cups a day with the lowest
-  mortality [@poole2017coffee], but it's observational. Reassuring for drinkers; not a reason to
-  start.
-- **"Sugar makes kids hyperactive."** Directly tested in blinded trials, and **disproven**: the
-  "sugar high" is parental expectancy [@wolraich1994sugar]. (Excess sugar is still unhealthy, just not
-  a behaviour switch.)
-- **"Go gluten-free to feel better."** Without coeliac disease, there's no evidence of benefit, and it
-  can worsen diet quality and cost [@glutenFreeNonCeliac]. Separate the real indication from the fad.
-- **"Apple cider vinegar melts fat."** The headline 2024 trial was **retracted in 2025** when its
-  analyses couldn't be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside
-  ordinary care [@acvGlycaemia; @acvBodyComp]. A clean "did the study survive?" case.
+| Everyday claim | What the evidence actually shows | Verdict / takeaway |
+|---|---|---|
+| **"Cutting out dairy clears acne."** | **Observational only** (there are *no* randomised trials on dairy and acne), a **weak** association, strongest for skim milk, with a plausible hormonal mechanism the box below traces [@juhl2018dairyacne]; the stronger acne signal, and the only one with trials, is **high glycaemic load** [@meixiong2022dietacne]; both editions of the dermatology guidelines conclude there is **insufficient evidence to recommend cutting any food** to treat acne [@aad2016acne; @aad2024acne] | Real but weak; a lower-sugar trial is reasonable, a strict elimination diet is not |
+| **"Coffee protects your heart."** | A large umbrella review links 3–4 cups a day with the lowest mortality [@poole2017coffee], but it's observational | Reassuring for drinkers; not a reason to start |
+| **"Sugar makes kids hyperactive."** | Directly tested in blinded trials, and **disproven**: the "sugar high" is parental expectancy [@wolraich1994sugar] | Excess sugar is still unhealthy, just not a behaviour switch |
+| **"Go gluten-free to feel better."** | Without coeliac disease, there's no evidence of benefit, and it can worsen diet quality and cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
+| **"Apple cider vinegar melts fat."** | The headline 2024 trial was **retracted in 2025** when its analyses couldn't be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside ordinary care [@acvGlycaemia; @acvBodyComp] | A clean "did the study survive?" case |
 
 ::: {.callout-note}
 ## 🔬 The pathway under the acne signal

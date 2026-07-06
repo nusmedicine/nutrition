@@ -168,13 +168,12 @@ chapter's.
 Here is the do-no-harm heart of the chapter. Cutting or skipping carbohydrate, or fasting, is **only
 safe once you know the patient's medication**, because a few glucose-lowering drug classes can cause
 dangerous **hypoglycaemia** (blood glucose falling too low). So the first move, every time, is to
-identify the drug class:
+identify the drug class and the action it demands [@ada2026glycemic; @aceT2DM2023]:
 
-- **Hypoglycaemia risk:** **insulin, sulfonylureas, meglitinides**. A patient on any of these who
-  suddenly cuts carbohydrate can go dangerously low: **refer to the diabetes team to review
-  medication first** [@ada2026glycemic; @aceT2DM2023].
-- **Low risk used alone:** **metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor
-  agonists**. Here a sensible carbohydrate-quality change is reasonable; still refer to a dietitian.
+| Hypo risk | Drug classes | Action before cutting carbohydrate |
+|---|---|---|
+| **Risk** | **insulin, sulfonylureas, meglitinides** | Patient can go dangerously low: **refer to the diabetes team to review medication first** |
+| **Low risk used alone** | **metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists** | A sensible carbohydrate-quality change is reasonable; still refer to a dietitian |
 
 For someone on a **fixed insulin** dose, the counselling message is **carbohydrate consistency**
 (steady timing and amount), not aggressive restriction. And a conscious hypo is treated with the

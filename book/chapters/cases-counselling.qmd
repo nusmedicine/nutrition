@@ -1,4 +1,4 @@
-# Integrated cases {#sec-cases}
+# Everyday and preventive counselling {#sec-cases}
 
 > *You have spent a year learning what to say. Now sit across from a patient and say it, in
 > your own words, and see what comes back.*
@@ -7,6 +7,9 @@ These are **simulated-patient encounters**. In the choice-based cases of the ear
 you drilled one idea at a time through set choices. Here you **talk with the patient in your own
 words**, then get feedback on your counselling. They draw together the nutrition science,
 communication, and clinical reasoning built up across the book.
+
+This first set is the bread and butter of prevention: people who feel well, or nearly well, who
+need a brief history, a myth gently corrected, and **one** realistic change they will actually make.
 
 ::: {.callout-note appearance="simple"}
 The patient is an **AI simulation for practice, not a real person, and not medical advice**.
@@ -29,14 +32,6 @@ them on quality-not-bans terms, and notice when a plan needs a dietitian.
 
 <div data-island="case" data-src="/cases/sim-common-questions-mr-lim.case.yml"></div>
 
-## Aisha — "tired all the time"
-
-A 24-year-old office worker who has been tired for months and puts it down to stress. She will
-not volunteer much, so draw out what is really going on, explain your concern plainly, and agree
-a sensible next step.
-
-<div data-island="case" data-src="/cases/sim-iron-deficiency-aisha.case.yml"></div>
-
 ## Mr Tan — feels "basically fine"
 
 A 38-year-old software engineer in for a pre-employment screen. He is asymptomatic and sceptical
@@ -45,22 +40,6 @@ one realistic change.
 
 <div data-island="case" data-src="/cases/sim-pillar-mr-tan.case.yml"></div>
 
-## Mr Chua — losing weight without trying
-
-A 79-year-old whose daughter noticed his clothes hanging loose. He feels "okay, just tired," and
-is quietly proud he has been eating less and plainer. Recognise what the weight loss means, turn
-the advice around, and agree a safe next step.
-
-<div data-island="case" data-src="/cases/sim-frailty-undernutrition-mr-chua.case.yml"></div>
-
-## Mdm Devi — "my bones must be weak"
-
-A 63-year-old who broke her wrist in a small fall and now wants to megadose calcium tablets.
-Correct the "more is better" idea, point her to what actually protects bone, and recognise what a
-fragility fracture needs.
-
-<div data-island="case" data-src="/cases/sim-bone-fracture-mdm-devi.case.yml"></div>
-
 ## Mdm Goh — frightened of dementia
 
 A 55-year-old teacher whose mother has dementia. She has a bag of brain supplements and a
@@ -68,11 +47,3 @@ borderline blood pressure and sugar she dismisses. Take her fear seriously, then
 actually lowers the risk.
 
 <div data-island="case" data-src="/cases/sim-dementia-prevention-mdm-goh.case.yml"></div>
-
-## Encik Rahman — "must I stop all protein?"
-
-A 58-year-old with diabetes and hypertension whose kidneys are now affected. He has almost stopped
-eating protein, drinks star-fruit juice to "detox," and switched to a low-sodium salt. Undo the
-harmful ideas, reinforce what is safe, and know where this belongs.
-
-<div data-island="case" data-src="/cases/sim-ckd-protein-encik-rahman.case.yml"></div>

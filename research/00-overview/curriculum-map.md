@@ -280,6 +280,17 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   counsel honestly, refer; no memorised drug/dosing. Links *Undernutrition & Malnutrition* and *Healthy Ageing* by
   name. Dossier `brain-health-dementia` 🟡 researching (verified-dossier Workflow). Cross-refs by name, renumber safe.
 
+- **(N) Part V (Integrative Cases) split into two capstone chapters (2026-07-06).** After enriching the Capstone from
+  4 → 8 `sim-*` AI-patient encounters, the single `cases.qmd` was split into **Ch.27 *Everyday and preventive
+  counselling*** (`cases-counselling.qmd` — Mdm Tan pre-diabetes, Mr Lim myths, Mr Tan asymptomatic screen, Mdm Goh
+  dementia-prevention) and **Ch.28 *Recognising risk and knowing when to refer*** (`cases-referral.qmd` — Aisha iron,
+  Mr Chua frailty, Mdm Devi bone, Encik Rahman CKD). **Axis = consultation type** (well/worried-well vs
+  recognise-deficiency-or-disease-and-refer), chosen over a pure life-stage/disease axis because several cases
+  straddle both; it also mirrors the book's function-based spine (Part III skills → Part IV disease). Rule of thumb:
+  promote a 3rd capstone chapter when a bucket reaches ~3 cases. Book is now **28 numbered chapters**. Also this session:
+  a readability/table pass (5 house-style tables into 5 disease chapters; 2 proposed tables dropped as they
+  duplicated existing figures — `#fig-disambiguation`, `#fig-phosphate`) and retitle to *Health in Medicine: Nutrition*.
+
 ---
 
 > **Part II status (decisions H+I).** ✅ **committed:** Ch.12 Pregnancy & Lactation, Ch.13 Menopause & Midlife.
