@@ -29,6 +29,13 @@
 
 All on `main`. Full detail lives in the curriculum-map decision log + git history.
 
+- **AI-disclosure front-matter + colophon** — added an **AI-use disclosure** callout to the Preface (`index.qmd`)
+  and a new unnumbered end page **`chapters/colophon.qmd` ("How this book was made")** covering the technical build
+  (Quarto/KaTeX/BibTeX · Svelte+Vite islands · GitHub Actions deploy), the self-hosted **Qwen** simulated-patient
+  model, and the agentic authoring process (Claude Opus 4 via Claude Code; research→refute-check→draft→adversarial
+  review→mechanical verify), with accountability held by the Dept + "reviewed and edited by medical educators". Wired
+  into `_quarto.yml` after Part V. (User hand-edited the wording before deploy.) Best-practice basis: no AI authorship,
+  disclose use, human accountability (COPE/ICMJE-aligned).
 - **Part V split + readability/table pass + retitle** — (1) **Split the Capstone into two chapters** (decision N):
   Ch.27 *Everyday and preventive counselling* (`cases-counselling.qmd` — Mdm Tan, Mr Lim, Mr Tan, Mdm Goh) and
   Ch.28 *Recognising risk and knowing when to refer* (`cases-referral.qmd` — Aisha, Mr Chua, Mdm Devi, Encik
@@ -204,7 +211,7 @@ patient-proxy/  PROD key-holding proxy (deployed; §6)
 book/
   _quarto.yml            5 parts, 28 numbered chapters (title "Health in Medicine: Nutrition")
   references.bib          SINGLE source of truth for citations (~780+ entries)
-  chapters/*.qmd          I(1–8) · II(part2-intro + 9–14) · III(15–19) · IV(20–26) · V: cases-counselling(27) + cases-referral(28)
+  chapters/*.qmd          I(1–8) · II(part2-intro + 9–14) · III(15–19) · IV(20–26) · V: cases-counselling(27) + cases-referral(28) · colophon(unnumbered)
   figures/  food/ · structures/ · anatomy/ · personas/ · mechanisms/(own-work SVGs) · CREDITS.csv
   diagrams/*.yml          island data (advise-refer, trial-check, renal-flip, must-screen, bone-bank, …)
   quizzes/*.quiz.yml · cases/*.case.yml   (in-chapter cases MCQ-only; sim-* = live AI chat)

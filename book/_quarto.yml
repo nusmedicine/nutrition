@@ -55,6 +55,7 @@ book:
       chapters:
         - chapters/cases-counselling.qmd
         - chapters/cases-referral.qmd
+    - chapters/colophon.qmd
 
 bibliography: references.bib
 
