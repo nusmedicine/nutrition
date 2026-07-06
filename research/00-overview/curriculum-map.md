@@ -8,10 +8,11 @@
 > ~160-agent Workflow; every citation refute-checked; ~247 new `.bib` keys queued for the drafting step).
 > **Part IV was REORDERED to cascade-first (decision J):** Obesity/MetS → T2D → CVD/HTN → CKD → Undernutrition
 > → Bone (the "two tails" become a part-opening frame + bookend, not adjacency). **Ch.19 Obesity, Ch.20 Type 2
-> Diabetes, Ch.21 CVD/Hypertension, Ch.22 Chronic Kidney Disease & Ch.23 Undernutrition are now DRAFTED** (each
-> with a pathophysiology beat + figures per AUTHOR §11f / principle 4). **NEXT = draft Ch.24 Bone Health &
-> Osteoporosis — the LAST Part IV chapter** (see `HANDOVER.md` §4). Part V: Referral (🟢 dossier) + Capstone (=
-> the Integrated-cases page).
+> Diabetes, Ch.21 CVD/Hypertension, Ch.22 Chronic Kidney Disease, Ch.23 Undernutrition & Ch.24 Bone Health are
+> now DRAFTED — ★ PART IV IS COMPLETE (Ch.19–24, each with a pathophysiology beat + figures per AUTHOR §11f /
+> principle 4).** **NEXT = the Part III physiology/biochem retrofit (§11f, deferred to after Part IV), then Part
+> V** (Ch.25 Referral 🟢 dossier — needs stub + drafting; Ch.26 Capstone = the Integrated-cases page). See
+> `HANDOVER.md` §4.
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -77,7 +78,7 @@
 | 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
 | 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
 | 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
-| 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | 🟢 verified · stub in book |
+| 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | ✅ **drafted** (island `bone-bank`, quiz, case, pathophysiology + figures) |
 | **V** | **— Integration & practice —** | | |
 | 25 | Interprofessional Practice & Referral | `14-interprofessional-referral` | 🟢 |
 | 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | NEW — design + case format | 🔴 |
