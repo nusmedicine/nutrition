@@ -1,0 +1,130 @@
+id: chronic-kidney-disease
+title: "Quick check: chronic kidney disease"
+questions:
+  - id: q1
+    stem: "A patient's results show a low eGFR (category G3b) with heavy albuminuria (A3). On the CKD **heat map**, how should you classify and act?"
+    options:
+      - text: "High-risk CKD — his diet is now dietitian-led work"
+        correct: true
+        feedback: "Correct. CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria sits firmly in the high-risk zone. The goal here is recognition, not threshold recall — and once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
+      - text: "Mild change — no action is needed until symptoms appear"
+        correct: false
+        feedback: "CKD is largely silent and detected biochemically, not by symptoms, so 'wait for symptoms' misses the window. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
+      - text: "Low risk — a low eGFR with albuminuria is reassuring"
+        correct: false
+        feedback: "This reads the heat map backwards. Falling eGFR and heavy albuminuria are the two axes that push a patient toward the high-risk end, not the reassuring one."
+      - text: "Not CKD — staging always needs a kidney biopsy first"
+        correct: false
+        feedback: "CKD is defined and staged from eGFR and albuminuria (with cause), not from a biopsy. These results already classify him — as high-risk CKD."
+
+  - id: q2
+    stem: "Which piece of standard healthy-eating advice can become **dangerous** in advanced CKD?"
+    options:
+      - text: "Eat more potassium, or a potassium salt substitute"
+        correct: true
+        feedback: "Correct. For the general public, more potassium and a potassium salt substitute are sound — but the failing kidney cannot clear a potassium load, so both can precipitate life-threatening hyperkalaemia. The WHO potassium advice explicitly excludes CKD, and the salt-substitute trial deliberately excluded serious kidney disease. This is the advice that reverses."
+      - text: "Cutting back on added salt and processed-food sodium"
+        correct: false
+        feedback: "Sodium is the one lever that does not reverse in CKD — cutting it still lowers blood pressure, reduces protein leak and helps kidney-protective drugs work. This is the lever a generalist can safely reinforce."
+      - text: "Choosing fresh foods over ultra-processed ones"
+        correct: false
+        feedback: "This stays good in CKD, and helps with hidden additive phosphate too. It is not the advice that flips."
+      - text: "Keeping to a healthy body weight over time"
+        correct: false
+        feedback: "Weight management remains sensible in CKD. The advice that turns dangerous is the potassium message, not this one."
+
+  - id: q3
+    stem: "How does **protein** advice change when a CKD patient starts **dialysis**?"
+    options:
+      - text: "It is raised again — dialysis is itself catabolic"
+        correct: true
+        feedback: "Correct. Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once dialysis begins — itself a catabolic process that removes protein — the target is raised again. Same patient, opposite advice by stage: a clear reason to recognise the lever and refer rather than apply a number from memory."
+      - text: "It is lowered further, since the kidneys have now failed"
+        correct: false
+        feedback: "This is the common trap. Dialysis is catabolic and removes protein, so needs go up, not down. Pushing protein lower here risks protein-energy wasting."
+      - text: "It stays exactly the same at every stage of CKD"
+        correct: false
+        feedback: "Protein advice is stage-dependent: restricted before dialysis, liberalised on it. That reversal is exactly why the lever is dietitian-set."
+      - text: "Protein is stopped entirely once dialysis begins"
+        correct: false
+        feedback: "Protein is never stopped — that would accelerate wasting. On dialysis it is actually increased relative to the pre-dialysis target."
+
+  - id: q4
+    stem: "A colleague says, \"The **MDRD** trial proved protein restriction slows CKD.\" What is the accurate response?"
+    options:
+      - text: "Its primary result was equivocal, not decisive"
+        correct: true
+        feedback: "Correct. MDRD's primary analysis found only a small, statistically fragile effect; the confident 'protein restriction slows CKD' reading came from a later secondary analysis. The fair position is benefit and caveat — not a settled prescription — which is part of why protein targets are individualised and supervised."
+      - text: "Correct — it was a decisive positive trial with a hard endpoint"
+        correct: false
+        feedback: "Its primary endpoint was not clearly positive. Treating MDRD as decisive overstates it — the supportive reading rests on secondary analysis."
+      - text: "It proved protein restriction is harmful and never useful"
+        correct: false
+        feedback: "MDRD did not show harm. The nuance is that its primary result was equivocal, not that restriction is dangerous — though unsupervised over-restriction does risk wasting."
+      - text: "It was retracted, so protein has no role in CKD"
+        correct: false
+        feedback: "MDRD was not retracted. Protein remains a central CKD lever — restricted before dialysis, raised on it — just not on the strength of a decisive primary result."
+
+  - id: q5
+    stem: "A dialysis patient following a strict self-imposed \"kidney diet\" has unintentional weight loss, low albumin and muscle wasting. What does this picture suggest?"
+    options:
+      - text: "Protein-energy wasting, not good adherence"
+        correct: true
+        feedback: "Correct. Low body and muscle mass, poor intake and abnormal blood chemistry define protein-energy wasting, which affects roughly a third to a half of dialysis patients and is strongly linked to death. A too-strict, unsupervised 'kidney diet' is a cause, not a success — refer for individualised nutrition."
+      - text: "Excellent renal-diet adherence that should be encouraged"
+        correct: false
+        feedback: "This is the dangerous misreading. Weight loss, low albumin and muscle wasting signal protein-energy wasting — the diet is doing harm, not working."
+      - text: "Simple dehydration that fluid will correct"
+        correct: false
+        feedback: "Muscle wasting and low albumin are not explained by dehydration. This is protein-energy wasting and needs dietetic assessment, not just fluid."
+      - text: "A normal finding on dialysis needing no action"
+        correct: false
+        feedback: "Wasting is never a 'normal' finding to ignore — it is mortality-linked and a clear trigger to refer for nutrition support."
+
+  - id: q6
+    stem: "Why can the **phosphorus number** on a food label understate the real phosphate load in CKD?"
+    options:
+      - text: "Inorganic additives are ~90–100% absorbed, often unlabelled"
+        correct: true
+        feedback: "Correct. Naturally occurring phosphate in whole foods is only partly absorbed (~40–60%, less from plants), but the inorganic phosphate additives in processed and 'enhanced' foods are absorbed almost completely — and are frequently absent from the label. The lever is preferring fresh over processed and scanning ingredient lists for '-PHOS' additives, which is a dietitian's skill."
+      - text: "The labelled number always overstates what is absorbed"
+        correct: false
+        feedback: "It usually understates it, because hidden inorganic additives — nearly fully absorbed — often are not on the label at all."
+      - text: "Phosphate from plants is absorbed more completely than additives"
+        correct: false
+        feedback: "It is the other way round: plant (phytate-bound) phosphate is the least available, while inorganic additives are the most completely absorbed."
+      - text: "Cooking destroys most phosphate before it is eaten"
+        correct: false
+        feedback: "Cooking does not reliably remove phosphate, and it does nothing about hidden additives. The real issue is the near-complete absorption of unlabelled inorganic phosphate."
+
+  - id: q7
+    stem: "Which food is an **absolute avoid** in CKD — not merely a portion-controlled one?"
+    options:
+      - text: "Star fruit or belimbing — neurotoxic in CKD"
+        correct: true
+        feedback: "Correct. Star fruit and belimbing (bilimbi) carry a neurotoxin that healthy kidneys clear but failing ones cannot, causing hiccups, confusion, seizures and death — with high mortality in kidney failure. That makes them an absolute avoid, distinct from ordinary high-potassium foods, and a locally important warning in Singapore."
+      - text: "White rice — its potassium load is dangerous in CKD"
+        correct: false
+        feedback: "White rice is low in potassium and not an absolute avoid. The neurotoxic hazard is star fruit and belimbing."
+      - text: "Banana — the single most toxic fruit in kidney disease"
+        correct: false
+        feedback: "Bananas are high in potassium and so are individualised, but they are portion-managed to blood levels, not an absolute avoid. Star fruit and belimbing are the neurotoxic exception."
+      - text: "Oily fish — its phosphate makes it unsafe to eat"
+        correct: false
+        feedback: "Oily fish is not an absolute avoid; its phosphate is natural and only partly absorbed. The absolute avoid is star fruit and belimbing."
+
+  - id: q8
+    stem: "In early CKD, which lever can a generalist legitimately reinforce — with the rest referred?"
+    options:
+      - text: "Cutting sodium — the lever that doesn't reverse in CKD"
+        correct: true
+        feedback: "Correct. Sodium reduction helps in CKD for the same reasons it helps in hypertension, plus it reduces protein leak and lets kidney-protective drugs work — and unlike the potassium message, it does not reverse. The quantities for potassium, phosphate, fluid and protein are individualised by a renal dietitian, so the generalist reinforces sodium, avoids the do-no-harm traps, and refers."
+      - text: "Prescribing a fixed daily fluid restriction in millilitres"
+        correct: false
+        feedback: "Early CKD usually needs no fluid restriction, and any limit is individualised and specialist. This is a refer, not a reinforce."
+      - text: "Setting an exact potassium and phosphate gram target"
+        correct: false
+        feedback: "Potassium and phosphate targets are individualised to blood levels by a dietitian, not set from memory by a generalist. Recognise the levers and refer."
+      - text: "Starting a phosphate binder with every meal"
+        correct: false
+        feedback: "Binders are a specialist pharmacological decision, not a generalist's lever. The one to reinforce is sodium."

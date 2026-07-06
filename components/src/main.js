@@ -26,6 +26,7 @@ import SamePlate from './SamePlate.svelte';
 import MetsCluster from './MetsCluster.svelte';
 import CarbSafetyCheck from './CarbSafetyCheck.svelte';
 import FatSwap from './FatSwap.svelte';
+import RenalFlip from './RenalFlip.svelte';
 import { resolveAsset } from './lib/base.js';
 
 // Island registry: data-island="<key>" -> Svelte component.
@@ -57,6 +58,7 @@ const REGISTRY = {
   'mets-cluster': MetsCluster,
   'carb-safety-check': CarbSafetyCheck,
   'fat-swap': FatSwap,
+  'renal-flip': RenalFlip,
   // future: flashcards, diagram, …
 };
 

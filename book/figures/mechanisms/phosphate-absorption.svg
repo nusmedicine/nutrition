@@ -1,0 +1,44 @@
+<svg viewBox="0 0 700 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="ph-title ph-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="ph-title">How much dietary phosphate is absorbed, by source</title>
+  <desc id="ph-desc">A bar chart of the fraction of dietary phosphate absorbed by source. Phosphate bound in plant foods as phytate is the least available. Phosphate occurring naturally in animal foods is partly absorbed at roughly 40 to 60 percent. Inorganic phosphate additives used in processed foods are almost completely absorbed at roughly 90 to 100 percent, and are often not shown on the label. Preferring fresh over processed and scanning ingredient lists for additives ending in PHOS is the practical lever.</desc>
+  <style>
+    .hd   { fill:#17324d; font-size:15px; font-weight:600; }
+    .cat  { fill:#28425e; font-size:13px; font-weight:600; }
+    .sub  { fill:#5b6b7b; font-size:10.5px; }
+    .val  { font-size:13px; font-weight:700; }
+    .axis { stroke:#9aa7b4; stroke-width:1; }
+    .tick { fill:#5b6b7b; font-size:11px; }
+    .note { fill:#7c2d12; font-size:11px; font-weight:600; }
+  </style>
+
+  <text class="hd" x="20" y="28">Fraction of dietary phosphate absorbed, by source</text>
+
+  <!-- axis baseline + ticks (chart x0=210, 100% at x=650; 1% = 4.4px) -->
+  <line class="axis" x1="210" y1="60" x2="210" y2="266"/>
+  <line class="axis" x1="210" y1="266" x2="650" y2="266"/>
+  <line class="axis" x1="430" y1="60" x2="430" y2="266" stroke-dasharray="3 4"/>
+  <text class="tick" x="210" y="284" text-anchor="middle">0%</text>
+  <text class="tick" x="430" y="284" text-anchor="middle">50%</text>
+  <text class="tick" x="650" y="284" text-anchor="middle">100%</text>
+
+  <!-- Bar 1: plant / phytate ~30% -> width 132 -->
+  <text class="cat" x="196" y="82"  text-anchor="end">Plant foods</text>
+  <text class="sub" x="196" y="98"  text-anchor="end">(phytate-bound)</text>
+  <rect x="210" y="70" width="132" height="40" rx="4" fill="#2f9e70"/>
+  <text class="val" x="352" y="95" fill="#1c6647">lowest</text>
+
+  <!-- Bar 2: animal / natural ~40-60% -> draw to 50% width 220 -->
+  <text class="cat" x="196" y="146" text-anchor="end">Animal foods</text>
+  <text class="sub" x="196" y="162" text-anchor="end">(natural)</text>
+  <rect x="210" y="134" width="220" height="40" rx="4" fill="#c99a2e"/>
+  <text class="val" x="440" y="159" fill="#8a6a12">≈40–60%</text>
+
+  <!-- Bar 3: inorganic additives ~90-100% -> draw to 95% width 418 -->
+  <text class="cat" x="196" y="210" text-anchor="end">Inorganic additives</text>
+  <text class="sub" x="196" y="226" text-anchor="end">(processed foods)</text>
+  <rect x="210" y="198" width="418" height="40" rx="4" fill="#c2410c"/>
+  <text class="val" x="620" y="223" fill="#ffffff" text-anchor="end">≈90–100%</text>
+
+  <!-- callout -->
+  <text class="note" x="210" y="306">Additives are often not on the label — scan ingredient lists for "-PHOS"</text>
+</svg>
