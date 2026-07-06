@@ -14,9 +14,10 @@
 > Ch.15–18 grounded in Part I owners by name (acne→IGF-1/androgen/mTORC1→sebum; detox→hepatic/renal clearance;
 > behaviour→reward pathways). **★ The Interprofessional Practice, Referral & Self-Care chapter is now DRAFTED and,
 > per decision K, folded into Part III (Ch.19); the AI-patient capstone (`cases.qmd`) is its own final Part V ·
-> Integrative Cases (Ch.26). ALL 26 CHAPTERS NOW EXIST — the book is content-complete. NEXT = capstone polish +
-> the cleanup backlog** (duplicate bib-key dedup, `ada2024care`→`ada2026care`, retire legacy/orphaned dossiers).
-> See `HANDOVER.md` §4.
+> Integrative Cases. The book-wide tone/style pass, part renames (decision L), capstone review, and the cleanup
+> backlog (bib dedup, `ada2024care`→`ada2026standards`, retire legacy/orphaned dossiers) are all DONE. **★ NOW
+> ADDING a 27th chapter — Brain Health & Dementia (decision M) — at the end of Part IV (Ch.26; capstone → Ch.27);
+> its verified dossier is in progress. NEXT = review the dossier, then draft the chapter.** See `HANDOVER.md` §4.
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -84,8 +85,9 @@
 | 23 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
 | 24 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
 | 25 | **Bone & Joint Health** ✨ (reframed — osteoporosis + osteoarthritis/gout/RA) | `bone-health-osteoporosis` + `joint-health-nutrition` (🟢) | ✅ **drafted** (island `bone-bank`; cases `madam-lim-bone` + `mr-tan-joint`; quiz bone+joint; disambiguation frame + 3 figures; glucosamine evidence-vs-hype + gout diet-adjunct) |
+| 26 | **Brain Health & Dementia** ✨ (net-new — **decision M**; ageing/frailty cluster) | `brain-health-dementia` | 🟡 researching (prevention-first + graded feeding/refer; vascular lever; MIND-RCT-null; supplement do-no-harm) |
 | **V** | **— Integrative Cases —** (the capstone; **decision K**) | | |
-| 26 | **Capstone: Integrative Cases (LLM patient)** ✨ | `cases.qmd` (largely built; home of the live AI patient) | ✅ book |
+| 27 | **Capstone: Integrative Cases (LLM patient)** ✨ | `cases.qmd` (largely built; home of the live AI patient) | ✅ book |
 
 > **Acne note:** food & acne (dairy / high-glycaemic-load) is taught as the flagship **evidence-appraisal
 > worked example in Ch.16** (Advising the healthy), not as a disease chapter. A dedicated skin-conditions
@@ -266,6 +268,17 @@ toolkit — moved with those chapters and are settled in decisions A–F below; 
   Life Stages". Applied to `book/_quarto.yml`; the one stale in-prose part reference (`part2-intro`) was fixed;
   cross-refs are by *chapter* name so nothing else broke. Done alongside a book-wide tone/style pass (AI-tells
   removed; see AUTHOR §11g / [[authoring-style-rules]]).
+- **(M) New chapter — Brain Health & Dementia — added to Part IV (2026-07-06).** A net-new "Nutrition in Disease"
+  chapter placed at the **END of Part IV** (new Ch.26, after Bone & Joint; the capstone shifts to Ch.27), clustered
+  with *Undernutrition & Malnutrition* and *Bone & Joint Health* as the ageing/frailty block. **Frame (user):**
+  center on the **preventive patient question** ("what should I eat to reduce my risk of / slow progression to
+  dementia?"), answered honestly — the biggest lever is **vascular** ("what's good for the heart is good for the
+  brain"; build the pathophysiology on *Cardiovascular Disease & Hypertension* and *Type 2 Diabetes* by name),
+  dietary patterns (MIND/Mediterranean) are a low-regret choice with **limited trial proof** (the MIND-diet RCT was
+  null), and the supplements are hype (the do-no-harm core). **Then** the graded feeding beat: tube feeding does not
+  help in advanced dementia, comfort feeding is preferred, refer. Altitude = recognise the modifiable levers,
+  counsel honestly, refer; no memorised drug/dosing. Links *Undernutrition & Malnutrition* and *Healthy Ageing* by
+  name. Dossier `brain-health-dementia` 🟡 researching (verified-dossier Workflow). Cross-refs by name, renumber safe.
 
 ---
 

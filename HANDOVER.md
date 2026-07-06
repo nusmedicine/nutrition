@@ -1,15 +1,17 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ ALL 26 CHAPTERS NOW EXIST — the book
-> is content-complete. Parts I–IV deployed; Part III §11f retrofit DONE (`2be9f8f`); ★ Ch.19 Interprofessional
-> Practice, Referral & Self-Care DRAFTED & folded into Part III (decision K, `f2fce0d`); the AI-patient capstone
-> is its own final Part V. NEXT = capstone polish + the cleanup backlog).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ 26 CHAPTERS EXIST & DEPLOYED;
+> book-wide tone/style pass, part renames (decision L), capstone review + the cleanup backlog all DONE. ★ A NEW
+> 27th chapter — Brain Health & Dementia (decision M) — is being added to the END of Part IV; its verified dossier
+> is in progress. NEXT = review the dossier, then draft the chapter).**
 >
-> **★★ NEXT ACTION: capstone polish + cleanup — no chapter drafting remains.** (1) The **Capstone = `cases.qmd`**
-> (Part V · Integrative Cases; home of the live LLM patient — largely built, §5): review/polish as the finale.
-> (2) The **cleanup backlog** (§4): duplicate bib-key dedup, `ada2024care`→`ada2026care` book-wide, retire the
-> legacy numbered + orphaned dossiers. Optional now that Referral has a page: tighten the disease chapters'
-> *generic* forward-refs to *Interprofessional Practice & Referral* to by-name.
+> **★★ NEXT ACTION: draft the new Ch.26 Brain Health & Dementia** (Part IV · Nutrition in Disease; capstone → Ch.27).
+> **Frame (decision M):** prevention-first — the patient asking *"what should I eat to avoid / slow dementia?"* —
+> answered honestly: the **vascular** lever (build pathophysiology on *CVD & Hypertension* + *Type 2 Diabetes* by
+> name) + patterns (MIND/Med, **honest that the MIND RCT was null**) + **supplement do-no-harm**; THEN the graded
+> feeding beat (tube feeding doesn't help in advanced dementia; comfort feeding; refer). Dossier
+> `brain-health-dementia` 🟡 (a research→refute-check→synthesize→critic Workflow is running); once 🟢, draft via the
+> per-chapter pipeline (§2). See §4 + decision M in the curriculum-map.
 >
 > **⚠ RECURRING HOUSE-STYLE TRAP — the "honest"/"honestly" tic.** It has been caught by the review in *three*
 > chapters now (Ch.22, Ch.24, and the Ch.24 joint reframe where it was a **BLOCKER, 8×**). It is banned prose
@@ -199,36 +201,27 @@ radiogroup without arrow-key handling.
 
 ## 4. Remaining work
 
-**★ ALL 26 CHAPTERS NOW EXIST — the book is content-complete.** Parts I–IV drafted/reviewed/deployed; the Part III
-§11f retrofit is DONE (`2be9f8f`); Ch.19 Interprofessional Practice, Referral & Self-Care is DRAFTED and folded
-into Part III (decision K, `f2fce0d`); the AI-patient capstone is its own Part V. **No chapter drafting remains.**
-Two closing work streams:
+**★ 26 CHAPTERS EXIST & DEPLOYED; the closing work streams are DONE.** The capstone was reviewed (clean after the
+tone pass) and **the cleanup backlog is complete** (`fb5d0cf`). **The one active work stream is the NEW 27th
+chapter:**
 
-**1. Capstone polish.** Ch.26 **= `cases.qmd`** (Part V · Integrative Cases — home of the live LLM patient; largely
-built, §5). Review/polish it as the finale; confirm the sim-* cases and the AI patient still work end-to-end.
+**Draft Ch.26 Brain Health & Dementia** (Part IV · Nutrition in Disease; capstone → Ch.27; decision M). Its
+**verified dossier is being built** by a research→refute-check→synthesize→critic Workflow. Once the dossier lands
+🟢 (`research/chapters/brain-health-dementia.md`), draft through the standard per-chapter pipeline (§2): draft qmd
+(prevention-first frame + vascular pathophysiology on *CVD*/*T2D* by name + honest patterns + supplement do-no-harm
++ graded feeding/refer) → bespoke island + MCQ quiz + MCQ-only do-no-harm case + ≥1 figure + verified bib keys →
+5-dim review → render/gate/browser-verify → commit. Add to `_quarto.yml` at the end of Part IV; capstone renumbers
+to Ch.27 (cross-refs by name, safe).
 
-**2. The cleanup backlog** (below): bib-key dedup, `ada2024care`→`ada2026care` book-wide, retire legacy/orphaned
-dossiers. **Optional now that Referral has a page:** the Bone/CKD/Undernutrition chapters forward-ref referral
-*generically* — tighten those to *Interprofessional Practice & Referral* by name.
-
-*(Done this session: the §11f Part III retrofit — food–acne → IGF-1/androgen/mTORC1→sebum, "detox" → hepatic/renal
-clearance, satiety/behaviour → reward pathways — and the Ch.19 Referral chapter + decision K restructure. See §0.)*
+*(Done this session: §11f Part III retrofit, Ch.19 Referral chapter + decision K restructure, the book-wide
+tone/style pass + part renames (decision L), and the polish + cleanup backlog. See §0.)*
 
 **Cross-chapter / maintainer flags:**
-- **Duplicate bib-key pairs (book-wide dedup pending).** The repo has TWO entries each for the same paper:
-  `whoPotassium2012`≡`who2012potassium`, `ssass2021`≡`neal2021ssass`, `hpbLessSalt`≡`hpb2023sodium`. Part IV
-  chapters (CVD, CKD) cite the `who2012potassium`/`neal2021ssass`/`hpb2023sodium` variants; Part I Micronutrients
-  uses `whoPotassium2012`/`ssass2021`/`hpbLessSalt`. Both resolve, so builds pass — but at a cleanup pass pick one
-  canonical key per source, update the citing chapters, and delete the duplicates.
-- **`ada2024care`** is stale — re-pin book-wide to **`ada2026care`** (ADA Standards of Care 2026, DOI
-  10.2337/dc26-S005) at a cleanup pass. The T2D/CVD chapters already use the newer `ada2026*` keys;
-  `ada2024care` was left untouched (may still be cited by an older chapter — check before deleting).
+- ✅ **DONE (`fb5d0cf`):** duplicate bib-key pairs deduped to canonical (`who2012potassium`/`hpb2023sodium`/
+  `neal2021ssass`); `ada2024care`→`ada2026standards` re-pin; legacy numbered dossiers (08/09/10/11) + orphaned
+  life-cycle files (`life-cycle-nutrition.quiz`, `mrs-devi-gdm.case`, `life-stages.yml`, `.source.qmd`) retired.
 - **`medUmbrella`** resolves to **Dinu 2018** (a valid Mediterranean umbrella review), not the CVD dossier's
-  preferred Hareer 2025 — fine as-is; re-pin only if a specific Hareer figure is ever needed.
-- The **legacy numbered dossiers** (`09-overnutrition`, `10-cvd-hypertension`, `11-type-2-diabetes`,
-  `08-life-cycle-undernutrition`) are **superseded** by the descriptive-named verified ones — safe to retire.
-- Orphaned life-cycle files (`book/quizzes/life-cycle-nutrition.quiz.yml`, `book/cases/mrs-devi-gdm.case.yml`,
-  `book/diagrams/life-stages.yml`, `research/chapters/life-cycle-nutrition.source.qmd`) — delete when convenient.
+  preferred Hareer 2025 — fine as-is; re-pin only if a specific Hareer figure is ever needed. (Only remaining flag.)
 
 ## 5. The LLM simulated-patient — BUILT, VERIFIED & DEPLOYED (unchanged; touch only if it's the focus)
 
