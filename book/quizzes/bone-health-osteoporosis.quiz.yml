@@ -1,0 +1,130 @@
+id: bone-health-osteoporosis
+title: "Quick check: bone health & osteoporosis"
+questions:
+  - id: q1
+    stem: "A patient asks how much of their bone strength is in their own hands. What's the accurate reply?"
+    options:
+      - text: "About 20–40% of peak bone mass is lifestyle-modifiable"
+        correct: true
+        feedback: "Correct. Peak bone mass is mostly inherited — only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That's real but bounded leverage: build the bank high in youth, then defend the balance. A higher peak buys years of delay before osteoporosis — but that's years of delay, not a percentage cut in fractures."
+      - text: "Essentially all of it — bone is purely a lifestyle matter"
+        correct: false
+        feedback: "The majority of peak bone mass is heritable; only about 20–40% is lifestyle-modifiable. Overselling it sets up false expectations."
+      - text: "None of it — bone mass is entirely fixed at birth"
+        correct: false
+        feedback: "It isn't fixed — about 20–40% is modifiable through the accrual years (calcium, activity) and the levers still matter across adulthood. The point is bounded leverage, not none."
+      - text: "It only becomes modifiable after menopause"
+        correct: false
+        feedback: "The biggest window is youth, when the bank is built; menopause is when women draw it down fastest. The levers matter across the whole life course."
+
+  - id: q2
+    stem: "A patient says \"spinach is full of calcium, so it's great for my bones.\" What's the accurate response?"
+    options:
+      - text: "Its calcium is oxalate-bound and barely absorbed (~5%)"
+        correct: true
+        feedback: "Correct. Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Choose the well-absorbed sources."
+      - text: "Correct — spinach is an excellent calcium source for bone"
+        correct: false
+        feedback: "This confuses content with availability. Spinach contains calcium but oxalate binds it, so only ~5% is absorbed — it's a poor bone source despite the label."
+      - text: "Only if eaten raw, which frees up the calcium"
+        correct: false
+        feedback: "Cooking doesn't unlock oxalate-bound calcium. Spinach stays a poor calcium source; pick low-oxalate greens or calcium-set tofu instead."
+      - text: "Yes, its calcium is absorbed better than from milk"
+        correct: false
+        feedback: "The opposite is true: spinach calcium (~5% absorbed) is far less available than milk's, because oxalate binds it."
+
+  - id: q3
+    stem: "Why is vitamin D deficiency common in **sunny** Singapore?"
+    options:
+      - text: "Indoor living, sun avoidance and skin pigmentation"
+        correct: true
+        feedback: "Correct. The cause is behaviour and biology, not the climate: indoor lifestyles, cosmetic sun avoidance, covering, and darker skin pigmentation all cut skin synthesis (which also falls with age). About 1 in 3 mid-life Singaporean women are deficient, and the burden is unequal — Indian and Malay women more than Chinese."
+      - text: "The equatorial sun is actually too weak for the skin"
+        correct: false
+        feedback: "The tropical sun is ample; the problem is that people avoid it (indoors, covered, sun-averse) and pigmentation reduces synthesis. It's behavioural, not a weak-sun problem."
+      - text: "Diet here contains dangerously little calcium"
+        correct: false
+        feedback: "The calcium gap is a separate issue. Vitamin D deficiency here is driven by low sun exposure and pigmentation, not by dietary calcium."
+      - text: "It isn't — deficiency is impossible in the tropics"
+        correct: false
+        feedback: "It is common: roughly 1 in 3 mid-life women are deficient despite the sun, because of indoor life, covering and pigmentation."
+
+  - id: q4
+    stem: "What does vitamin D do for bone, and should we test everyone's level?"
+    options:
+      - text: "It enables calcium uptake; don't test everyone"
+        correct: true
+        feedback: "Correct. Vitamin D doesn't build bone directly — its active form drives the gut to absorb calcium, so a shortfall means calcium passes through and the parathyroid pulls it from bone. And guideline bodies now advise against routine testing and empiric dosing in healthy adults: find and correct genuine shortfall in higher-risk people instead."
+      - text: "It builds bone directly; test the whole population"
+        correct: false
+        feedback: "Vitamin D is the enabler of calcium absorption, not a direct bone-builder, and routine population testing is not advised — target higher-risk people."
+      - text: "It replaces the need for dietary calcium entirely"
+        correct: false
+        feedback: "Vitamin D enables calcium absorption; it doesn't replace calcium. You need both the substrate (calcium) and the enabler (vitamin D)."
+      - text: "It has no role in bone and needn't be considered"
+        correct: false
+        feedback: "It has a central role — enabling calcium absorption — so genuine deficiency matters. What's not advised is blanket testing and dosing of healthy adults."
+
+  - id: q5
+    stem: "An older patient avoids protein because they heard it \"leaches calcium from bone.\" Best response?"
+    options:
+      - text: "With enough calcium, protein lowers fracture risk"
+        correct: true
+        feedback: "Correct. The acid-ash 'protein leaches calcium' idea is backwards: with adequate calcium, higher protein tracks about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. Protein is the collagen matrix and preserves fall-preventing muscle — a bone nutrient, not a threat."
+      - text: "They're right — cutting protein protects the skeleton"
+        correct: false
+        feedback: "This is the myth. Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures, not more."
+      - text: "Protein has no effect on bone either way"
+        correct: false
+        feedback: "Protein does matter — it's the collagen matrix, drives IGF-1, and maintains fall-preventing muscle. With adequate calcium it tracks lower fracture risk."
+      - text: "Only plant protein is safe; animal protein harms bone"
+        correct: false
+        feedback: "The evidence doesn't single out animal protein as harmful. Adequate protein of either kind, with enough calcium, supports bone."
+
+  - id: q6
+    stem: "Why is a **low body weight** a bone red flag?"
+    options:
+      - text: "A low BMI roughly doubles hip-fracture risk"
+        correct: true
+        feedback: "Correct. A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely because it tracks lower bone density — which is why low weight is built into fracture-risk tools like FRAX. Underweight and underfuelled patients, common in frail old age, are a bone red flag."
+      - text: "Thin people always have unusually dense bones"
+        correct: false
+        feedback: "The reverse: low body weight tracks lower bone density and nearly doubles hip-fracture risk."
+      - text: "Body weight has no relationship to fracture risk"
+        correct: false
+        feedback: "It has a strong relationship — a low BMI nearly doubles hip-fracture risk, and it's used in FRAX for exactly that reason."
+      - text: "It only matters in men, not in women"
+        correct: false
+        feedback: "Low body weight raises fracture risk in both sexes; it's not a men-only factor."
+
+  - id: q7
+    stem: "Who actually benefits from **calcium + vitamin D supplements** for fractures?"
+    options:
+      - text: "The genuinely deficient, not everyone"
+        correct: true
+        feedback: "Correct. Supplements cut fractures in people who are genuinely deficient or institutionalised (~15% total, ~30% hip), but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. So correct real deficiency and go food-first — don't blanket-supplement the population."
+      - text: "Every adult over 50, as a routine preventive measure"
+        correct: false
+        feedback: "Blanket supplementation of replete community adults doesn't prevent fractures and slightly raises kidney-stone risk. Benefit is confined to genuine deficiency."
+      - text: "Only people who already eat plenty of dairy"
+        correct: false
+        feedback: "People who already meet their needs gain no fracture benefit from extra supplements. The benefit is for those who are genuinely short."
+      - text: "No one — the supplements are never of any use"
+        correct: false
+        feedback: "They do help the genuinely deficient or institutionalised — the nuance is that they don't help already-replete community adults, not that they're useless."
+
+  - id: q8
+    stem: "A patient's **fragility fracture** and low weight worry you. What is the generalist's role?"
+    options:
+      - text: "Give food-first advice, correct deficiency, refer"
+        correct: true
+        feedback: "Correct. The generalist delivers the food-first and loading advice, corrects genuine deficiency, recognises the red flags (a fragility fracture, low weight), and refers — using OSTA/FRAX/DXA to decide who needs assessment. The bone scans, fracture thresholds, bisphosphonates and hormone therapy are specialist decisions."
+      - text: "Start a bisphosphonate and titrate it to the scan"
+        correct: false
+        feedback: "Prescribing and titrating osteoporosis drugs is specialist territory. The generalist's job is food-first advice, correcting deficiency, and referral."
+      - text: "Prescribe the hormone therapy she clearly needs now"
+        correct: false
+        feedback: "Menopausal hormone therapy is a specialist decision, owned by the Menopause & Midlife chapter and the specialist services — not a generalist reflex here."
+      - text: "Reassure her that fractures at her age are normal"
+        correct: false
+        feedback: "A fragility fracture is a red flag, not a normal event — it defines osteoporosis and warrants referral, not reassurance."

@@ -1,9 +1,223 @@
 # Bone health & osteoporosis
 
-::: {.callout-note}
-## Chapter in preparation
-This Part IV chapter is planned but not yet drafted. It will cover bone nutrition — calcium, vitamin D and protein; peak bone mass and age-related loss; dietary risk and protective factors; and when to refer.
+> Part IV ends where the skeleton does its slow accounting. Bone is a living bank: you pay into it through
+> childhood and youth, the balance peaks in your late twenties, and you draw it down for the rest of your life —
+> faster in women around menopause. Osteoporosis is that account run low, and it stays silent until a fragility
+> fracture announces it. The task here is to **recognise the dietary levers — calcium, vitamin D, protein and
+> enough energy — build the bank early, defend the balance lifelong, and refer** — not to prescribe the
+> osteoporosis drugs, which are specialist.
 
-Earlier chapters point here for the clinical detail they defer — for now they handle it at
-**recognise-and-refer** altitude, and the full management lands in this chapter.
+## Bone health & osteoporosis at a glance
+
+This chapter closes Part IV as the other half of the deficiency-and-frailty pair it opened with the
+*Undernutrition & Malnutrition* chapter — the frail, undernourished, sarcopenic patient and the fracturing
+skeleton are two faces of the same late-life vulnerability. Osteoporosis is common, **silent until it breaks**,
+and costly: Singapore historically had among the highest hip-fracture rates in Asia, and while the
+age-standardised *rate* is now falling, the absolute *number* of fractures keeps rising as the population ages —
+a distinction worth holding onto [@koh2001hipfracSG; @yong2019hipfracSG; @chandran2019burdenSG].
+
+Three habits of mind run through it:
+
+- **Build the bank in youth, then defend the balance.** Peak bone mass is essentially set by the late twenties, and only about **20–40% of it is modifiable** by lifestyle — real, but bounded, leverage [@nofPeakBoneMass2016].
+- **Bioavailability beats content, and dairy is optional.** How much calcium is *absorbed* — not the number on the label — is the lever, and a multi-ethnic, partly lactose-intolerant population can meet its needs without milk [@weaverVegCalcium1999; @healthhubCalciumSG].
+- **Correct real deficiency; don't supplement everyone.** Calcium and vitamin D help people who are genuinely short, but blanket pills for already-replete community adults do not prevent fractures [@zhao2017cavitdNoBenefit].
+
+## The science underneath: bone is a living bank
+
+Why does diet matter for something as solid as bone? Because bone is not inert scaffolding — it is **living
+tissue in constant turnover**. Cells called **osteoblasts** lay down new bone while **osteoclasts** resorb old
+bone, and the balance between them sets whether the account grows or shrinks. Through childhood and puberty
+building outpaces resorption, so the balance climbs to a genetically-set **peak bone mass** by the late twenties
+(about 90% of it laid down by the end of adolescence); thereafter resorption gradually wins and the balance
+falls for the rest of life [@hereford2024peakBoneMass; @bailey1999saskatchewanAccrual]. Everyone leaks bone —
+in both sexes, beginning in young adulthood — which is why the levers matter across the whole life course, not
+only after menopause [@riggs2008boneLossSites]. The **building** phase itself — the adolescent bone-building
+window, and the low energy availability that can blunt it — is owned by the *Childhood & Adolescence* chapter,
+which this chapter picks up from.
+
+<div data-island="bone-bank" data-src="/diagrams/bone-bank.yml"></div>
+
+In women, the withdrawal sharpens around the **menopause**: as oestrogen falls it **raises a resorption signal
+called RANKL**, tipping the balance toward the osteoclasts, and women lose roughly 7% of spine and 6% of
+femoral-neck bone mineral across the transition [@greendale2012swanBone; @eghbali2003rankl]. The hormonal
+context — and menopausal hormone therapy — belongs to the *Menopause & Midlife Health* chapter; here we follow
+the diet.
+
+Three nutrients act on this bank, and it helps to be precise about *how* each works — the underlying nutrient
+biology is owned by the *Micronutrients, Hydration & Electrolytes* and *Macronutrients* chapters:
+
+- **Calcium is the substrate** — the mineral the bone is built from, drawn from the *Micronutrients, Hydration & Electrolytes* chapter.
+- **Vitamin D is the enabler** — it does not build bone directly; its active form drives the **intestinal absorption of calcium**, so a shortfall means calcium passes through uneaten, the parathyroid glands pull calcium back out of bone, and the skeleton pays [@laird2010vitDbone].
+- **Protein is the matrix and the scaffold-builder** — about half of bone *volume* is a protein (type-I collagen) framework, and dietary protein also drives the growth factor IGF-1 and preserves the muscle that prevents falls; it is a bone nutrient, not a bone threat (more on the myth below).
+
+(A related pathway runs the other way in disease: when failing kidneys can no longer balance calcium, phosphate
+and vitamin D, the resulting **CKD–mineral and bone disease** is the *Chronic Kidney Disease* chapter's —
+recognised and referred, not re-taught here.)
+
+The organizing idea, captured in the island above, is that a **higher peak delays the day the account runs
+low**. A modelled 10% higher peak bone density delays the onset of osteoporosis by about **13 years** — far
+more than later menopause or slower loss buy — but note the units: that is **years of delay, not a percentage
+cut in fractures**, and the two must never be conflated [@hernandez2003peakBmdModel].
+
+## Calcium: substrate, and why content isn't the whole story
+
+Singapore's calcium requirements run across the life course: about **1000 mg/day for adolescents (10–18),
+800 mg for adults 19–50, and 1000 mg for adults 51 and over** and in pregnancy and lactation [@hpbRDACalcium].
+Local intake sits at a mean of **~794 mg/day** — actually among the highest in Asia, where most countries fall
+below 400–500 mg, but still under the requirement — and the gap widens with age, with about **half of older
+Singaporeans falling short** [@balkGlobalCalcium2017; @hpbNNS2010; @ye2023daha].
+
+The lever, though, is **bioavailability, not content**. How much calcium a food actually delivers depends on
+how well it is absorbed, and that varies enormously: the calcium in **spinach is bound to oxalate and only
+about 5% absorbed**, versus roughly a quarter to a third from milk, while **calcium-set tofu absorbs comparably
+to milk** and low-oxalate greens like kai-lan and bok choy are absorbed *better* still [@odsCalcium;
+@weaverTofuMilk2002; @weaverVegCalcium1999]. So the spinach that looks calcium-rich on a label is nearly
+useless for bone, and the tofu next to it is excellent — the *Micronutrients, Hydration & Electrolytes* chapter
+owns this oxalate contrast.
+
+![How much calcium a food delivers depends on how much is absorbed, not the amount it contains. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu sit around a quarter to a third; low-oxalate greens like kai-lan and bok choy are absorbed better still. Content is not availability — the spinach that looks calcium-rich is nearly useless for bone.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
+
+::: {.callout-tip}
+## 🍜 Eating out (and eating in) — the dairy-optional calcium plate
+Dairy is optional in Singapore. Familiar foods close the gap: **calcium-set tofu and tau kwa** (yong tau foo
+picks), **ikan bilis and canned sardines eaten with the soft bones**, **low-oxalate greens** (kai-lan, bok
+choy, chye sim), and **fortified soy milk** — HPB lists per-serving calcium (sardines with bones ~270 mg, ikan
+bilis ~270 mg, tau kwa ~150 mg, kai-lan ~195 mg, fortified soy milk ~500 mg, versus ~380 mg for a glass of
+low-fat milk) [@healthhubCalciumSG]. Small swaps stack up: tofu in the yong tau foo, milk in the kopi or teh,
+ikan bilis in the stock. Absorption is best in **doses under ~500 mg at a sitting**, so spread it across the day
+[@odsCalcium].
 :::
+
+## Vitamin D: the enabler, and Singapore's paradox
+
+Vitamin D earns a section of its own because of a genuinely counterintuitive local fact. Its active form,
+made in the skin from sunlight and finished in the liver and kidney, is what lets the gut absorb calcium at all
+[@laird2010vitDbone] — yet in **sunny, equatorial Singapore, roughly 1 in 3 mid-life women are vitamin D
+deficient** [@cheong2021vitDsg]. The cause is not the climate but **behaviour and biology**: indoor lifestyles,
+cosmetic sun avoidance, covering and veiling, and darker skin pigmentation all cut skin synthesis, and the
+skin's ability to make vitamin D more than halves with age [@nimitphong_2013_vitd_sea; @maclaughlin1985skinVitD].
+The burden is also **unequal** — Indian and Malay women carry several-fold higher odds of deficiency than
+Chinese women — which makes it a concrete equity point, not just a biochemistry one [@cheong2021vitDsg].
+
+![Vitamin D from skin and diet is activated through the liver and kidney to its active form, which drives the gut to absorb calcium, keeping bone supplied. When vitamin D is low, calcium absorption falls, parathyroid hormone rises, and calcium is pulled out of bone — so the deficiency starves the skeleton. Vitamin D does not build bone directly; it enables calcium to be absorbed.](/figures/mechanisms/vitamin-d-calcium-axis.svg){#fig-vitd-axis width="92%" fig-align="center"}
+
+The response, though, is *not* to test and dose everyone. Few foods contain vitamin D naturally (oily fish is
+the best), and guideline bodies now advise **against routine testing and empiric supplementation in otherwise
+healthy adults**; HPB's own vitamin D reference intake is a modest 2.5 µg (100 IU) precisely because it assumes
+some sun exposure [@odsVitaminD; @demay2024endoSocVitD; @hpb_healthhub_rda]. The teaching point is that
+**insufficiency by the lab cutoff is common, but the answer is to find and correct genuine shortfall in
+higher-risk people — the covered, the indoors, the elderly, the pregnant — not to blanket-dose the population**.
+
+## Protein is a bone nutrient, not a bone threat
+
+A persistent myth holds that protein "leaches calcium from bone" — the so-called acid-ash hypothesis. It is
+**backwards**. Higher protein intake, *with adequate calcium*, tracks about **11% lower hip-fracture risk**, and
+the extra calcium that appears in the urine after a protein meal comes from **better intestinal absorption**,
+not from dissolved bone [@groenendijk2019protein]. This makes mechanistic sense: protein is the collagen matrix
+bone is built on, it drives the bone-building growth factor IGF-1, and it maintains the muscle that keeps frail
+people from falling — the muscle–bone overlap the *Undernutrition & Malnutrition* and *Healthy Ageing* chapters
+meet from the sarcopenia side. So the advice for an older patient worried that "meat is bad for my bones" is the opposite of
+what they fear: eat enough protein, alongside enough calcium.
+
+## Body weight, and the whole pattern
+
+Two more levers round out the diet. **Adequate body weight is itself protective**: a low BMI (20 versus 25)
+nearly *doubles* hip-fracture risk, largely because it tracks lower bone density — so being underweight or
+underfuelled is a bone red flag, and one that the frailty of late life makes common [@delaet2005bmiFracture].
+And the **whole dietary pattern beats any single nutrient**: plenty of fruit and vegetables (supplying
+potassium, magnesium and vitamin K), a reliable calcium source, enough protein and enough energy — the overall
+pattern the *What a Healthy Diet Looks Like* chapter owns [@iofNutritionProf].
+
+## The contested box: solid risks versus weak claims
+
+Some foods get blamed for bones on thin evidence, and it is worth separating the solid from the soft. The
+**solid** dietary risks are low calcium, vitamin D, protein or body weight, plus heavy alcohol; smoking is a
+major (non-dietary) risk [@iofRiskFactors; @ke2023alcoholFracture; @law1997smokingHipFracture]. The **contested**
+trio is weaker than the headlines suggest: heavy **salt** genuinely raises urinary calcium, but its fracture
+link is weak and the real reason to cut salt is blood pressure; **caffeine's** tiny effect is offset by the
+splash of milk in the coffee; and the **cola–bone** signal is observational and confounded by milk displacement,
+not proven acid damage [@teucher2008sodiumBone; @heaney2002caffeineBone; @tucker2006colaBMD]. Recognise which
+box a claim belongs in before repeating it.
+
+## Supplements: correct deficiency, don't dose everyone
+
+This is the chapter's most important caveat, because it is where good intentions go wrong.
+Calcium and vitamin D supplements **do** cut fractures in people who are genuinely deficient or institutionalised
+— by roughly 15% for all fractures and 30% for hip fractures in that group [@weaver2016cavitd]. But in
+**already-replete, community-dwelling older adults**, large trials and pooled analyses find **no fracture
+benefit at all**, and a small *increase* in kidney stones [@zhao2017cavitdNoBenefit; @leboff2022vitalFractures;
+@uspstfCalcium2018]. So the message is not "everyone over 50 should take calcium and vitamin D." It is **food
+first, correct genuine deficiency, and reserve supplements for real shortfall or high risk** — the recognise,
+don't-blanket-treat posture.
+
+::: {.callout-note}
+## The strongest modifiable lever isn't a food
+Diet builds and defends the bank, but the single strongest *modifiable* signal to bone is **mechanical
+loading** — weight-bearing and resistance exercise. In a landmark trial, supervised high-intensity resistance
+and impact training actually *raised* bone density in postmenopausal women with low bone mass, safely
+[@watson2018liftmor]. Nutrition and loading are partners — calcium is the substrate, loading is the signal to
+use it — so name the exercise lever and let the *physical-activity* side own the prescription; HPB's own public
+message pairs a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009].
+:::
+
+## The Singapore picture
+
+**The paradox and the gap.** The signature local facts are the **vitamin D paradox** (common deficiency in a
+sunny country, driven by behaviour and pigmentation and unequal across ethnic groups) and the **calcium gap**
+(~794 mg/day on average, with about half of older adults short) — both covered above [@cheong2021vitDsg;
+@ye2023daha]. Together they make the "sunny country, dairy-rich West" assumptions fail here, which is why the
+dairy-optional, food-first Asian calcium list matters.
+
+**The fracture burden — rate versus count.** Singapore's hip-fracture *rates* have been **falling** since 2000
+(and continued to 2022), yet absolute *cases* keep **rising** with the ageing population, and osteoporotic
+fractures are projected to climb further by 2035 [@yong2019hipfracSG; @aceOsteoporosis2025; @chandran2019burdenSG].
+Fractures fall about **2:1 in women versus men** and **Chinese** carry the highest ethnic risk
+[@yong2019hipfracSG], and a hip fracture is genuinely **lethal** — mortality runs about double the background rate in women and higher in men
+[@yong2020mortalitySG]. Teach the rate-versus-count distinction explicitly: things are improving per person and
+worsening in total.
+
+**The guidance stack you signpost.** HPB's simple public message is two levers — a **high-calcium diet plus
+weight-bearing exercise** [@hpbOsteoporosisAwareness2009]. Case-finding uses **OSTA** (an Asian age-and-weight
+screen that flags who needs a scan) and **FRAX** (a 10-year fracture-probability tool with Singapore-calibrated
+models); a **DXA** bone scan showing a T-score of −2.5 or below (2.5 standard deviations under the young-adult
+peak) — or any fragility fracture (a break from a fall from standing height or less) — defines
+osteoporosis [@koh2001osta; @fraxSingapore; @aceOsteoporosis2018]. The drug treatment and the menopausal hormone
+decisions are **specialist**, guided by the national **ACE** guidance and the **2025 Singapore consensus** —
+signposted, not run from here [@aceOsteoporosis2025; @gani2025osteoconsensusSG].
+
+::: {.callout-important}
+## You recognise the levers and refer — you don't prescribe the osteoporosis drugs
+There is no drug regimen to memorise here. The generalist **recognises the dietary levers** (calcium, vitamin
+D, protein, adequate energy), delivers the **food-first** message and the loading message, **corrects genuine
+deficiency** rather than blanket-supplementing, spots the **red flags** (a fragility fracture, low body weight,
+a covered indoor patient, the frail faller), and **refers** — using OSTA/FRAX/DXA to decide who needs
+assessment. The bone-density scans, the fracture-risk thresholds, the bisphosphonates and the hormone therapy
+are specialist territory [@aceOsteoporosis2018; @gani2025osteoconsensusSG].
+:::
+
+## So — how do you keep a skeleton strong?
+
+You build the bank while it is still being built — calcium, vitamin D, protein and activity through childhood
+and youth — and then you defend the balance for the rest of life: a reliable, well-absorbed calcium source
+(dairy optional), enough vitamin D (corrected where genuinely short, not blanket-dosed), enough protein and
+enough energy, weight-bearing exercise, and less alcohol and tobacco. You recognise the frail, underweight or
+covered patient at risk, you correct real deficiency without medicalising the whole population, and you refer
+for the scan and the specialist decisions. With that, Part IV is complete — from the diseases of *too much*
+through the cardiometabolic-renal cascade to the deficiency-and-frailty pair of *too little* — and the through
+line holds: across the whole life course, what and how a person eats shapes whether they stay well.
+
+## Check your understanding
+
+<div data-island="quiz" data-src="/quizzes/bone-health-osteoporosis.quiz.yml"></div>
+
+## Practise: Madam Lim and the dairy-free bones
+
+Madam Lim is 58, three years past menopause, and Chinese. She is lactose-intolerant so avoids milk, works and
+stays mostly indoors, covers up and walks little; her BMI is 19. Her diet is mostly rice and vegetables with a
+little tofu and not much fish, and she has had no fracture — yet. She's read that she should "take calcium and
+vitamin D tablets like everyone my age," that "spinach is full of calcium," and wonders whether she needs a
+drug. Work through the visit: find her biggest dietary lever, handle the bioavailability and blanket-supplement
+traps, weigh her low body weight, and decide the right next step — recognising where reaching for a drug, rather
+than screening and referring, would be the wrong reflex. Your choices branch the case.
+
+<div data-island="case" data-src="/cases/madam-lim-bone.case.yml"></div>

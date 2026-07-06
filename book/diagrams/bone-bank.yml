@@ -1,0 +1,24 @@
+# Data for the BoneBank island (Bone Health & Osteoporosis chapter).
+# The "build the bank, defend the balance" widget for the "bone is a living bank" section. The learner
+# moves three levers — peak bone mass built by ~30 (a modifiable band over a heritable floor), the
+# age-related loss rate, and menopause age — and the widget shows WHEN the life-course bone-density curve
+# crosses the osteoporosis line, expressed as YEARS OF DELAY vs an average skeleton. Teaching point: a
+# higher peak buys the most delay (after Hernandez 2003). The output is explicitly "years of delay, NOT a
+# fracture-rate change". Illustrative model — the maths lives in the component. Pure content, no asset paths.
+id: bone-bank
+title: "Build the bank, defend the balance"
+intro: >-
+  Bone is a bank: you build it to a peak by about 30, then draw it down for life — faster around menopause.
+  Move the levers and watch WHEN the account crosses the osteoporosis line. The biggest lever is the peak you
+  build young.
+# The age-related loss-rate options (label + a multiplier the component applies to the loss model).
+lossOptions:
+  - { id: slow, label: "Slow", mult: 0.88 }
+  - { id: average, label: "Average", mult: 1.0 }
+  - { id: fast, label: "Fast", mult: 1.12 }
+caption: >-
+  A higher peak delays osteoporosis by more years than later menopause or slower loss — the youth deposit pays
+  off most. This is YEARS OF DELAY, not a change in fracture rate: never convert it to a percentage of fractures.
+credit: >-
+  Illustrative life-course model after Hernandez 2003 (a modelled 10% higher peak BMD delays osteoporosis ~13
+  years). A teaching aid, not a clinical calculator.

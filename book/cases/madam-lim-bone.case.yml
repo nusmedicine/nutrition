@@ -1,0 +1,227 @@
+id: madam-lim-bone
+title: "Madam Lim, 58: dairy-free bones and \"do I need a drug?\""
+objectives:
+  - "Identify her biggest dietary lever — a reliable, well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk) — over blanket supplements or a poorly-absorbed food."
+  - "Apply bioavailability: spinach's calcium is oxalate-bound and barely absorbed (~5%), so content is not availability — choose low-oxalate greens and calcium-set tofu."
+  - "Recognise her red flags — a low BMI (which nearly doubles hip-fracture risk) and genuine vitamin D deficiency risk (covered, indoor, despite the sun) — and correct genuine shortfall, since she is at-risk, not a replete community adult."
+  - "Do no harm / stay at altitude: don't reach for an osteoporosis drug — screen (OSTA), refer for a DXA scan, deliver food-first + loading advice, and correct real deficiency. The drug and hormone decisions are specialist."
+difficulty: core
+estimatedMinutes: 12
+tags: [nutrition, bone-health, osteoporosis, calcium, vitamin-d, bioavailability, do-no-harm, singapore, recognise-and-refer]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Madam Lim"
+  age: 58
+  sex: female
+  occupation: "office worker; three years post-menopause"
+  presentation: "Chinese, 3 years post-menopause, BMI 19. Lactose-intolerant so avoids milk; works and stays mostly indoors, covers up outdoors, walks little. Diet: mostly rice and vegetables, a little tofu, not much fish. No fracture yet."
+  voice: "Health-conscious and proactive; reads tips online and wants to 'do the right thing'. A little anxious, and half-expecting she'll be told to start a bone medicine."
+
+nodes:
+  - id: intro
+    type: info
+    title: "\"I want to protect my bones, doctor\""
+    body: |
+      Madam Lim is **58**, three years past menopause, and Chinese. She is **lactose-intolerant** so avoids milk,
+      works and stays **mostly indoors**, **covers up** outdoors, and walks little; her **BMI is 19**. Her diet is
+      mostly **rice and vegetables**, a little tofu, not much fish. She has had **no fracture**.
+
+      *"Doctor, I read that everyone my age should take calcium and vitamin D tablets — and someone said spinach is
+      full of calcium. Do I also need a bone medicine to be safe?"*
+
+      Work through the visit. Find her biggest dietary lever, handle the spinach and blanket-supplement questions,
+      weigh her low body weight and sun habits, and decide the right next step — noticing where reaching for a drug,
+      rather than screening and referring, would be the wrong reflex. Your choices branch the case.
+    next: q-lever
+
+  - id: q-lever
+    type: mcq
+    title: "Her biggest dietary lever"
+    stem: |
+      Madam Lim avoids dairy. What is her **single biggest dietary lever** for bone?
+    options:
+      - id: a
+        text: "A reliable, well-absorbed calcium source — dairy is optional here."
+        correct: true
+        feedback: "Right. Dairy is optional in Singapore: **calcium-set tofu and tau kwa** (absorbed like milk), **ikan bilis and canned sardines with the soft bones**, **low-oxalate greens** (kai-lan, bok choy) and **fortified soy milk** close the gap for a lactose-intolerant patient. Food-first, spread across the day (absorption is best under ~500 mg a sitting). A supplement may follow *if* she's genuinely short — but the everyday source is the lever."
+        effects: { quality: +1 }
+        goto: reveal-lever
+      - id: b
+        text: "A high-dose calcium and vitamin D tablet, like everyone her age should take."
+        correct: false
+        feedback: "'Everyone her age should supplement' is the trap. Blanket calcium + vitamin D doesn't prevent fractures in already-replete community adults and slightly raises kidney-stone risk — the benefit is for genuine deficiency. Lead with a **well-absorbed, dairy-optional food source**; a supplement is only for a real shortfall, which you'd assess."
+        goto: reveal-lever
+      - id: c
+        text: "More spinach and leafy greens, since spinach is rich in calcium."
+        correct: false
+        feedback: "Spinach looks calcium-rich but its calcium is oxalate-bound and only ~5% absorbed — content isn't availability. The lever is a **well-absorbed** source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
+        goto: reveal-lever
+
+  - id: reveal-lever
+    type: info
+    body: |
+      You suggest some dairy-free, well-absorbed options she likes — tofu in her yong tau foo, ikan bilis in the
+      stock, kai-lan, a carton of fortified soy milk. She nods, then points to her phone: *"But it says here
+      spinach is one of the best calcium foods — should I just eat lots of that?"*
+    next: q-spinach
+
+  - id: q-spinach
+    type: mcq
+    title: "\"Isn't spinach full of calcium?\""
+    stem: |
+      Madam Lim wants to rely on **spinach** for calcium. What's the **best** response?
+    options:
+      - id: a
+        text: "Its calcium is oxalate-bound and barely absorbed."
+        correct: true
+        feedback: "Correct. Spinach contains calcium, but **oxalate locks it away** so only about **5%** is absorbed — versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Content is not availability: point her to the well-absorbed sources."
+        effects: { quality: +1 }
+        goto: reveal-spinach
+      - id: b
+        text: "Yes — spinach is one of the best calcium sources for bone."
+        correct: false
+        feedback: "This confuses content with availability. Spinach's calcium is oxalate-bound and only ~5% absorbed, so it's a poor bone source despite the label. Kai-lan, bok choy and calcium-set tofu are far better absorbed."
+        goto: reveal-spinach
+      - id: c
+        text: "Only if she boils it first, which releases all the calcium."
+        correct: false
+        feedback: "Cooking doesn't free oxalate-bound calcium — spinach stays poorly absorbed (~5%). Steer her to low-oxalate greens and calcium-set tofu instead."
+        goto: reveal-spinach
+
+  - id: reveal-spinach
+    type: info
+    body: |
+      You explain that the number on the label isn't the amount her body gets. Looking at her more closely — **BMI
+      19**, covers up, mostly indoors, three years post-menopause — a few risk flags are stacking up. She asks,
+      *"Is my weight or the sun thing a problem?"*
+    next: q-bmi
+
+  - id: q-bmi
+    type: mcq
+    title: "Low weight and the sun paradox"
+    stem: |
+      How should you read Madam Lim's **BMI of 19** and her **covered, indoor** lifestyle?
+    options:
+      - id: a
+        text: "Both are red flags — low weight raises fracture risk and she's at vitamin D deficiency risk."
+        correct: true
+        feedback: "Right. A **low BMI (around 20 vs 25) nearly doubles hip-fracture risk**, largely via lower bone density — so her thinness is a genuine flag. And despite sunny Singapore, being **covered and indoors** puts her at real risk of **vitamin D deficiency** (about 1 in 3 mid-life women are deficient here). Both warrant attention — assess and correct a genuine shortfall, and shore up her weight and protein."
+        effects: { quality: +1 }
+        goto: reveal-bmi
+      - id: b
+        text: "Neither matters — thin people have strong bones, and no one is vitamin D deficient in sunny Singapore."
+        correct: false
+        feedback: "Both are wrong. Low body weight **raises** fracture risk (a low BMI nearly doubles hip-fracture risk), and vitamin D deficiency is **common** in Singapore precisely because people are covered and indoors — roughly 1 in 3 mid-life women. These are red flags, not reassurances."
+        goto: reveal-bmi
+      - id: c
+        text: "Only the weight matters; the sun is irrelevant to bone."
+        correct: false
+        feedback: "The weight is a real flag — but so is the sun exposure. Vitamin D **enables calcium absorption**, and her covered, indoor lifestyle puts her at genuine deficiency risk despite the tropics. Consider both."
+        goto: reveal-bmi
+
+  - id: reveal-bmi
+    type: info
+    body: |
+      So Madam Lim has several real flags: post-menopausal, low body weight, low dietary calcium, and a genuine
+      risk of vitamin D shortfall. She looks worried and asks the question she came with: *"So do I need to start
+      a bone medicine now, to be safe?"*
+    next: q-drug
+
+  - id: q-drug
+    type: mcq
+    title: "\"Do I need a bone medicine now?\""
+    stem: |
+      Madam Lim wants to **start an osteoporosis drug now "to be safe"**. What's the **best** response?
+    options:
+      - id: a
+        text: "Not yet — screen, refer, and go food-first; the drug is a specialist decision."
+        correct: true
+        feedback: "Exactly right, and the do-no-harm answer. She has **no diagnosis yet** — you don't start an osteoporosis drug on worry. The generalist **screens** (OSTA, an age-and-weight tool), refers for a **DXA bone scan** if indicated, delivers the **food-first calcium + vitamin D + protein** message and **weight-bearing exercise**, and corrects any genuine deficiency. Whether she needs a drug — or hormone therapy — is a **specialist** decision made *after* assessment, not a reflex now."
+        effects: { quality: +1 }
+        goto: reveal-drug
+      - id: b
+        text: "Yes — let's start a bisphosphonate today to be safe, since she's clearly at risk."
+        correct: false
+        feedback: "This is the over-reach, and it can do harm. Osteoporosis drugs are **started after a diagnosis** (a DXA T-score of −2.5 or below, or a fragility fracture), by a **specialist** — not on worry, and not by reflex. She has red flags but **no diagnosis yet**. The right move is screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine deficiency, and let the specialist decide on any medicine — a strong diet plan doesn't license prescribing a drug you shouldn't start."
+        goto: remedial-drug
+
+  - id: remedial-drug
+    type: info
+    title: "One reflex to catch before that prescription"
+    body: |
+      Pause before Madam Lim leaves on a bone drug.
+
+      **Osteoporosis medicines are not started on worry.** They follow a **diagnosis** — a DXA bone scan showing a
+      T-score of −2.5 or below, or a fragility fracture — and the decision (including menopausal hormone therapy) is
+      **specialist**. Madam Lim has real risk flags but **no diagnosis yet**, so a bisphosphonate today is the wrong
+      reflex.
+
+      The generalist's job is to **screen** (OSTA uses age and weight to flag who needs a scan), **refer for a
+      DXA** if indicated, deliver the **food-first** calcium/vitamin D/protein message and **weight-bearing
+      exercise**, and **correct a genuine deficiency**. Reaching for the drug now skips the diagnosis and takes on a
+      specialist decision — a genuine do-no-harm and altitude error, and no amount of good diet advice buys it back.
+    next: q-drug-after
+
+  - id: reveal-drug
+    type: info
+    body: |
+      You reassure her that a medicine isn't the first step — you'll check her risk properly first, and fix the
+      diet and activity meanwhile. She's relieved. You move to wrap up.
+    next: q-drug-after
+
+  - id: q-drug-after
+    type: info
+    body: |
+      You pull the plan together for Madam Lim.
+    next: route
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 4"
+        goto: end-good
+    else: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Food-first, screened, and referred — not drugged"
+    body: |
+      You handled Madam Lim well. You found her biggest lever — a **reliable, well-absorbed, dairy-optional calcium
+      source** rather than a blanket supplement — and busted the **spinach** myth (oxalate-bound, ~5% absorbed). You
+      read her **red flags** correctly: a low BMI that nearly doubles hip-fracture risk, and genuine **vitamin D
+      deficiency** risk despite the sun, because she's covered and indoors. And you applied **do-no-harm**: no
+      osteoporosis drug on worry — you screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine
+      deficiency, and leave the drug and hormone decisions to the specialist. That's exactly this chapter's altitude:
+      recognise the levers, correct real deficiency, and refer.
+    debrief:
+      objectivesMet: [1, 2, 3, 4]
+      keyPoints:
+        - "Lead with a well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk) — not a blanket supplement, which doesn't help replete adults and raises stone risk."
+        - "Bioavailability beats content: spinach's calcium is oxalate-bound and only ~5% absorbed; choose kai-lan, bok choy or calcium-set tofu."
+        - "Recognise the red flags — low BMI (nearly doubles hip-fracture risk) and real vitamin D deficiency risk despite the sun — and correct a genuine shortfall (she's at-risk, not a replete community adult)."
+        - "Don't start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, deliver food-first + loading, correct deficiency; the drug and hormone decisions are specialist."
+      references: ["@healthhubCalciumSG", "@odsCalcium", "@delaet2005bmiFracture", "@aceOsteoporosis2018"]
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way there"
+    body: |
+      You reached a plan for Madam Lim, but slipped on at least one key point — leading with a **well-absorbed
+      food source** rather than a blanket supplement, busting the **spinach** bioavailability myth, or reading her
+      **low weight and sun exposure** as the red flags they are. The one that matters most is the last question:
+      starting an **osteoporosis drug on worry** is a genuine do-no-harm and altitude error — these medicines follow
+      a **diagnosis** (a DXA T-score of −2.5 or below, or a fragility fracture) and a **specialist** decision, not a
+      reflex. Replay the safe path: food-first, dairy-optional calcium; content isn't availability; recognise the
+      low-weight and vitamin D flags and correct genuine deficiency; and **screen, refer, and let the specialist
+      decide on any medicine** rather than prescribing one now.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Lead with a well-absorbed, dairy-optional calcium source, not a blanket supplement."
+        - "Content isn't availability — spinach's calcium is oxalate-bound and barely absorbed."
+        - "Low body weight and a covered, indoor lifestyle are real red flags; correct genuine deficiency."
+        - "Never start an osteoporosis drug on worry — screen (OSTA), refer for a DXA, and leave the drug decision to the specialist."

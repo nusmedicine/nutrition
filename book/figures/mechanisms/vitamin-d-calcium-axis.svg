@@ -1,0 +1,71 @@
+<svg viewBox="0 0 780 360" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="vd-title vd-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="vd-title">Vitamin D is the enabler of calcium absorption</title>
+  <desc id="vd-desc">Vitamin D from skin sunlight and diet is activated in the liver and kidney to its active form, 1,25-dihydroxyvitamin D, which drives the gut to absorb calcium, so calcium is available and bone is maintained. When vitamin D is low, calcium absorption falls, parathyroid hormone rises, calcium is pulled out of bone, and bone is lost as osteomalacia or osteoporosis. Vitamin D does not build bone directly; it enables calcium to be absorbed.</desc>
+  <defs>
+    <marker id="vd-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+    <marker id="vd-ahr" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#c2410c"/>
+    </marker>
+  </defs>
+  <style>
+    .box  { fill:#eef3f8; stroke:#47607a; stroke-width:1.4; }
+    .vit  { fill:#eef5f2; stroke:#0b5b54; stroke-width:1.5; }
+    .lbl  { fill:#17324d; font-size:12.5px; }
+    .vlbl { fill:#0b5b54; font-size:12.5px; font-weight:600; }
+    .good { fill:#eef5f2; stroke:#0b5b54; stroke-width:1.5; }
+    .glbl { fill:#0b5b54; font-size:13px; font-weight:600; }
+    .bad  { fill:#fdecec; stroke:#c2410c; stroke-width:1.4; }
+    .blbl { fill:#7c2d12; font-size:12px; }
+    .flow { stroke:#64748b; stroke-width:2; fill:none; }
+    .rflow{ stroke:#c2410c; stroke-width:2; fill:none; }
+    .hdr  { fill:#28425e; font-size:13px; font-weight:600; }
+    .rhdr { fill:#7c2d12; font-size:13px; font-weight:600; }
+  </style>
+
+  <text class="hdr" x="20" y="26">The active pathway — vitamin D lets the gut absorb calcium</text>
+
+  <!-- activation chain -->
+  <rect class="box" x="15"  y="44" width="130" height="48" rx="8"/>
+  <text class="lbl" x="80"  y="64" text-anchor="middle">Skin (sunlight)</text>
+  <text class="lbl" x="80"  y="80" text-anchor="middle">+ diet</text>
+  <line class="flow" x1="145" y1="68" x2="165" y2="68" marker-end="url(#vd-ah)"/>
+  <rect class="box" x="165" y="44" width="80" height="48" rx="8"/>
+  <text class="lbl" x="205" y="72" text-anchor="middle">Liver</text>
+  <line class="flow" x1="245" y1="68" x2="265" y2="68" marker-end="url(#vd-ah)"/>
+  <rect class="box" x="265" y="44" width="80" height="48" rx="8"/>
+  <text class="lbl" x="305" y="72" text-anchor="middle">Kidney</text>
+  <line class="flow" x1="345" y1="68" x2="365" y2="68" marker-end="url(#vd-ah)"/>
+  <rect class="vit" x="365" y="44" width="160" height="48" rx="8"/>
+  <text class="vlbl" x="445" y="64" text-anchor="middle">Active vitamin D</text>
+  <text class="vlbl" x="445" y="80" text-anchor="middle">1,25-(OH)₂D</text>
+  <line class="flow" x1="525" y1="68" x2="545" y2="68" marker-end="url(#vd-ah)"/>
+  <rect class="box" x="545" y="44" width="150" height="48" rx="8"/>
+  <text class="lbl" x="620" y="64" text-anchor="middle">Gut absorbs</text>
+  <text class="lbl" x="620" y="80" text-anchor="middle">calcium</text>
+
+  <!-- good outcome -->
+  <line class="flow" x1="620" y1="92" x2="620" y2="122" marker-end="url(#vd-ah)"/>
+  <rect class="good" x="470" y="124" width="255" height="44" rx="8"/>
+  <text class="glbl" x="597" y="151" text-anchor="middle">Calcium available → bone maintained ✓</text>
+
+  <!-- deficiency chain -->
+  <text class="rhdr" x="20" y="222">When vitamin D is low —</text>
+  <rect class="bad" x="15"  y="238" width="150" height="48" rx="8"/>
+  <text class="blbl" x="90"  y="260" text-anchor="middle">↓ calcium</text>
+  <text class="blbl" x="90"  y="276" text-anchor="middle">absorption</text>
+  <line class="rflow" x1="165" y1="262" x2="188" y2="262" marker-end="url(#vd-ahr)"/>
+  <rect class="bad" x="188" y="238" width="95" height="48" rx="8"/>
+  <text class="blbl" x="235" y="260" text-anchor="middle">↑ PTH</text>
+  <text class="blbl" x="235" y="276" text-anchor="middle">(parathyroid)</text>
+  <line class="rflow" x1="283" y1="262" x2="306" y2="262" marker-end="url(#vd-ahr)"/>
+  <rect class="bad" x="306" y="238" width="190" height="48" rx="8"/>
+  <text class="blbl" x="401" y="266" text-anchor="middle">calcium pulled from bone</text>
+  <line class="rflow" x1="496" y1="262" x2="519" y2="262" marker-end="url(#vd-ahr)"/>
+  <rect class="bad" x="519" y="238" width="176" height="48" rx="8"/>
+  <text class="blbl" x="607" y="260" text-anchor="middle">bone loss</text>
+  <text class="blbl" x="607" y="276" text-anchor="middle">(osteomalacia / osteoporosis)</text>
+
+  <text class="hdr" x="20" y="316" fill="#5b6b7b" font-weight="400" font-size="11">Vitamin D does not build bone directly — it enables calcium to be absorbed. Deficiency starves the skeleton.</text>
+</svg>
