@@ -8,8 +8,8 @@
 > ~160-agent Workflow; every citation refute-checked; ~247 new `.bib` keys queued for the drafting step).
 > **Part IV was REORDERED to cascade-first (decision J):** Obesity/MetS → T2D → CVD/HTN → CKD → Undernutrition
 > → Bone (the "two tails" become a part-opening frame + bookend, not adjacency). **Ch.19 Obesity, Ch.20 Type 2
-> Diabetes & Ch.21 CVD/Hypertension are now DRAFTED** (each with a pathophysiology beat + figures per AUTHOR
-> §11f / principle 4). **NEXT = draft Ch.22 Chronic Kidney Disease → Ch.23 Undernutrition → Ch.24 Bone** (see
+> Diabetes, Ch.21 CVD/Hypertension & Ch.22 Chronic Kidney Disease are now DRAFTED** (each with a pathophysiology
+> beat + figures per AUTHOR §11f / principle 4). **NEXT = draft Ch.23 Undernutrition → Ch.24 Bone** (see
 > `HANDOVER.md` §4). Part V: Referral (🟢 dossier) + Capstone (= the Integrated-cases page).
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
@@ -74,7 +74,7 @@
 | 19 | Obesity & Metabolic Syndrome (over-nutrition; cascade opener) | `obesity-metabolic-syndrome` | ✅ **drafted** (island `mets-cluster`, quiz, case, pathophysiology + figures) |
 | 20 | Type 2 Diabetes | `type-2-diabetes` | ✅ **drafted** (island `carb-safety-check`, quiz, case, pathophysiology + figures) |
 | 21 | Cardiovascular Disease & Hypertension | `cardiovascular-disease-hypertension` | ✅ **drafted** (island `fat-swap`, quiz, case, pathophysiology + figures) |
-| 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | 🟢 verified · **drafting next** |
+| 22 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
 | 23 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | 🟢 verified · stub in book |
 | 24 | **Bone Health & Osteoporosis** ✨ | `bone-health-osteoporosis` | 🟢 verified · stub in book |
 | **V** | **— Integration & practice —** | | |

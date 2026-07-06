@@ -1,18 +1,18 @@
 # HANDOVER — continue in a new session
 
 > Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (PARTS I–III DEPLOYED · ALL 6 PART IV
-> DOSSIERS VERIFIED · PART IV REORDERED CASCADE-FIRST · 3 of 6 PART IV CHAPTERS DRAFTED — 19 Obesity, 20 T2D,
-> 21 CVD/HTN · NEXT = DRAFT Ch.22 CHRONIC KIDNEY DISEASE).**
+> DOSSIERS VERIFIED · PART IV REORDERED CASCADE-FIRST · 4 of 6 PART IV CHAPTERS DRAFTED — 19 Obesity, 20 T2D,
+> 21 CVD/HTN, 22 CKD · NEXT = DRAFT Ch.23 UNDERNUTRITION & MALNUTRITION).**
 >
-> **★★ NEXT ACTION: DRAFT Ch.22 Chronic Kidney Disease**, then Ch.23 Undernutrition & Malnutrition, then Ch.24
-> Bone Health & Osteoporosis — the remaining half of Part IV, in **cascade order (decision J)**. Reuse the exact
-> per-chapter pipeline (§2). All six dossiers are researched & 🟢 in `research/chapters/`; `chronic-kidney-disease`,
-> `undernutrition-malnutrition`, `bone-health-osteoporosis` remain to draft. Each chapter now also carries a
-> **basic pathophysiology beat + ≥1 teaching figure** (AUTHOR §11f — see §2/§3).
+> **★★ NEXT ACTION: DRAFT Ch.23 Undernutrition & Malnutrition**, then Ch.24 Bone Health & Osteoporosis — the
+> last two Part IV chapters, in **cascade order (decision J)**. Reuse the exact per-chapter pipeline (§2). Both
+> remaining dossiers are researched & 🟢 in `research/chapters/` (`undernutrition-malnutrition`,
+> `bone-health-osteoporosis`). Each chapter carries a **basic pathophysiology beat + ≥1 teaching figure**
+> (AUTHOR §11f — see §2/§3).
 >
 > **★ THE BOOK IS LIVE:** <https://nusmedicine.github.io/nutrition/> — deployed from `main` by the Pages CI
-> (`publish.yml`) on every push. Parts I–III + Part IV Ch.19–21 are drafted; **verify the deploy after this
-> session's push**.
+> (`publish.yml`) on every push. Parts I–III + Part IV Ch.19–22 are drafted; **Ch.22 CKD is committed
+> (`2504903`) but NOT yet pushed this session — push + verify the deploy.**
 >
 > **⚠ SOURCE OF TRUTH = [`research/00-overview/curriculum-map.md`](research/00-overview/curriculum-map.md)**
 > (read it first) + the auto-loaded memory ([[part4-dossiers-verified]], [[chapter-depth-and-figures]],
@@ -33,7 +33,7 @@
   chapter beyond the island + case persona). Memory [[chapter-depth-and-figures]].
 - **Fixed chapter numbering:** `book/chapters/part2-intro.qmd` H1 is now `{.unnumbered}`, so Quarto's displayed
   numbers match the map — **Part IV = Ch.19–24** (it was displaying 20–25 because the intro consumed a number).
-- **Drafted 3 Part IV chapters** through the full pipeline (each = pathophysiology section + bespoke island +
+- **Drafted 4 Part IV chapters** through the full pipeline (each = pathophysiology section + bespoke island +
   MCQ quiz + MCQ-only do-no-harm case + ≥1 figure + verified bib keys + 5-dim review + browser-verify + commit):
   - **Ch.19 Obesity & Metabolic Syndrome** (`1897ccf`) — island `mets-cluster` (MetS clustering wheel); case
     `mr-tan-obesity`; figs `obesity-pathophysiology.svg` + `char-kway-teow.jpg`; +40 bib keys.
@@ -42,6 +42,13 @@
   - **Ch.21 Cardiovascular Disease & Hypertension** (`660fef5`) — island `fat-swap` ("replaced with what?");
     case `mr-chua-cvd` (salt-substitute do-no-harm); figs `cvd-diet-pathways.svg` + reused `grilled-salmon.jpg`;
     +26 keys.
+  - **Ch.22 Chronic Kidney Disease** (`2504903`) — island `renal-flip` ("advice that flips in CKD" context
+    toggle — 4 population messages reverse, sodium holds as the control); case `mr-lim-ckd` ("Uncle Lim":
+    potassium/salt-substitute do-no-harm, closing the CVD chapter's hyperkalaemia loop); figs
+    `ckd-diet-levers.svg` + `phosphate-absorption.svg` (both own-work); **+34 keys**. Passed the 5-dim review
+    (0 blockers; fixes: quiz/case option length-parity, island aria-live scope, minor evidence/attribution).
+    **⚠ Cited the CVD-consistent keys `neal2021ssass`/`who2012potassium`/`hpb2023sodium` for the shared
+    salt-substitute/potassium/sodium story — the repo has duplicate bib-key pairs (see §4 flag).**
 
 ## 1. The spine — 26 chapters, 5 parts. Full table + decisions A–J in `curriculum-map.md`.
 
@@ -52,11 +59,11 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 | **I** · The metabolic & physiological basis | 1–8 | ✅ deployed |
 | **II** · Across the life stages | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
 | **III** · Advising the healthy | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling | ✅ deployed (⚠ physiology-background retrofit pending — §11f) |
-| **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅** · 22 Chronic Kidney Disease 🟢 · 23 Undernutrition & Malnutrition 🟢 · 24 Bone Health & Osteoporosis 🟢 | **3/6 drafted; 22–24 next** |
+| **IV** · Advising the chronically ill (cascade order — decision J) | **19 Obesity ✅ · 20 T2D ✅ · 21 CVD & Hypertension ✅ · 22 Chronic Kidney Disease ✅** · 23 Undernutrition & Malnutrition 🟢 · 24 Bone Health & Osteoporosis 🟢 | **4/6 drafted; 23–24 next** |
 | **V** · Integration & practice | 25 Interprofessional Practice & Referral (🟢 dossier `14-interprofessional-referral`, no stub yet) · 26 Capstone: Integrated Cases (= `cases.qmd`, home of the live LLM patient) | partial |
 
 **Cross-refs are by NAME**, so numbering is safe. Part IV files: `obesity-metabolic-syndrome`, `type-2-diabetes`,
-`cardiovascular-disease-hypertension` are **drafted**; `chronic-kidney-disease`, `undernutrition-malnutrition`,
+`cardiovascular-disease-hypertension`, `chronic-kidney-disease` are **drafted**; `undernutrition-malnutrition`,
 `bone-health-osteoporosis` remain stubs.
 
 ## 2. The per-chapter pipeline (reuse for Ch.22–24) — load-bearing discipline
@@ -113,21 +120,20 @@ radiogroup without arrow-key handling.
 
 ## 4. Remaining work
 
-**Draft Ch.22–24** (cascade order; each a recognise-and-refer chapter WITH a pathophysiology beat + ≥1 figure):
+**Draft Ch.23–24** (cascade order; each a recognise-and-refer chapter WITH a pathophysiology beat + ≥1 figure):
 
-1. **Ch.22 Chronic Kidney Disease** — `research/chapters/chronic-kidney-disease.md` 🟢 (net-new dossier, verified).
-   Protein adequacy-vs-restriction + protein-energy wasting; Na / K / phosphate (incl. hidden additive phosphate);
-   fluid; the dietitian-led renal diet; when to refer. **Pathophys:** why failing kidneys can no longer clear
-   Na/K/phosphate/acid, so diet must (the normal handling of these is the *Micronutrients, Hydration &
-   Electrolytes* chapter's). **Close the loop:** the *CVD & Hypertension* chapter already signposts the
-   **salt-substitute renal-potassium (hyperkalaemia) caveat** to this chapter.
-2. **Ch.23 Undernutrition & Malnutrition** — `research/chapters/undernutrition-malnutrition.md` 🟢 (carved from
+1. **Ch.23 Undernutrition & Malnutrition** — `research/chapters/undernutrition-malnutrition.md` 🟢 (carved from
    the `08` split source). MUST screening, the MDT, ONS/food-first, refeeding *awareness*, IDDSI — the pathological
    under-tail. Boundary C: the *Healthy Ageing* chapter hands off here. **Pathophys:** disease-related/catabolic
-   malnutrition + the sarcopenia overlap.
-3. **Ch.24 Bone Health & Osteoporosis** — `research/chapters/bone-health-osteoporosis.md` 🟢 (net-new). Ca / vit-D
+   malnutrition + the sarcopenia overlap. **Close the loop:** the *Chronic Kidney Disease* chapter forward-refs
+   its protein-energy-wasting / under-tail here by name.
+2. **Ch.24 Bone Health & Osteoporosis** — `research/chapters/bone-health-osteoporosis.md` 🟢 (net-new). Ca / vit-D
    / protein & bone; peak bone mass & age-related loss; the SG vitamin-D paradox; non-dairy Ca sources. Forward-
-   referenced from the Childhood & Adolescence, Menopause & Midlife, and Healthy Ageing chapters.
+   referenced from the Childhood & Adolescence, Menopause & Midlife, Healthy Ageing, and *Chronic Kidney Disease*
+   (CKD–mineral & bone disease) chapters.
+
+**Ch.22 done this session** — `chronic-kidney-disease.qmd` drafted (`2504903`); island `renal-flip`, case
+`mr-lim-ckd`, figs `ckd-diet-levers.svg` + `phosphate-absorption.svg`, +34 bib keys. See §0.
 
 **Then the Part III physiology retrofit (§11f decision, deferred to after Part IV):** add a relevant
 physiology/biochem background layer to the 4 deployed Part III chapters (e.g. the food–acne worked example →
@@ -137,6 +143,11 @@ sebum/androgens/IGF-1/glycaemic load; "detox" myths → hepatic & renal clearanc
 stub + drafting); Ch.26 Capstone = the existing `cases.qmd` (Integrated cases).
 
 **Cross-chapter / maintainer flags:**
+- **Duplicate bib-key pairs (book-wide dedup pending).** The repo has TWO entries each for the same paper:
+  `whoPotassium2012`≡`who2012potassium`, `ssass2021`≡`neal2021ssass`, `hpbLessSalt`≡`hpb2023sodium`. Part IV
+  chapters (CVD, CKD) cite the `who2012potassium`/`neal2021ssass`/`hpb2023sodium` variants; Part I Micronutrients
+  uses `whoPotassium2012`/`ssass2021`/`hpbLessSalt`. Both resolve, so builds pass — but at a cleanup pass pick one
+  canonical key per source, update the citing chapters, and delete the duplicates.
 - **`ada2024care`** is stale — re-pin book-wide to **`ada2026care`** (ADA Standards of Care 2026, DOI
   10.2337/dc26-S005) at a cleanup pass. The T2D/CVD chapters already use the newer `ada2026*` keys;
   `ada2024care` was left untouched (may still be cited by an older chapter — check before deleting).
@@ -190,11 +201,11 @@ HANDOVER.md(this) · AUTHOR.md(§11 + §11f = template + house rules) · curricu
 scripts/ render.mjs · check-assets.mjs · validate-cases.mjs · preview.ps1 · patient-proxy.ps1
 patient-proxy/  PROD key-holding proxy (deployed; §5)
 book/
-  _quarto.yml            Parts I–IV (Part IV Ch.19–21 drafted, 22–24 stubs) + Integrated cases
-  references.bib         SINGLE source of truth for citations (~640 entries)
-  chapters/*.qmd         I (1–8) · II (part2-intro + 6) · III (4) · IV (19–21 drafted, 22–24 stubs) · cases.qmd
+  _quarto.yml            Parts I–IV (Part IV Ch.19–22 drafted, 23–24 stubs) + Integrated cases
+  references.bib         SINGLE source of truth for citations (~635 entries)
+  chapters/*.qmd         I (1–8) · II (part2-intro + 6) · III (4) · IV (19–22 drafted, 23–24 stubs) · cases.qmd
   figures/               food/ · structures/ · anatomy/ · personas/ · mechanisms/(own-work pathophys SVGs) · CREDITS.csv
-  diagrams/*.yml         island data (incl. mets-cluster, carb-safety-check, fat-swap, + earlier)
+  diagrams/*.yml         island data (incl. mets-cluster, carb-safety-check, fat-swap, renal-flip, + earlier)
   quizzes/*.quiz.yml · cases/*.case.yml   (in-chapter cases MCQ-only; sim-* = live AI chat)
 components/src/          main.js(REGISTRY) + Quiz/CasePlayer + island .svelte (incl. MetsCluster/CarbSafetyCheck/FatSwap) + lib/
 research/
@@ -204,8 +215,10 @@ research/
 
 ## 8. Git state
 
-- **After this session's push, on origin/main & DEPLOYED:** research milestone `a0118f4` + Ch.19 `1897ccf` +
-  Ch.20 `186cf4a` + Ch.21 `660fef5` + this wrap-up commit. (Verify the CI run — §6.)
+- **On `main`, committed but ⚠ NOT yet pushed this session:** Ch.22 CKD `2504903` + this wrap-up commit.
+  **Ask the user, then `git push origin main` and verify the CI run (§6).**
+- **Already on origin/main & DEPLOYED (prior session):** research milestone `a0118f4` + Ch.19 `1897ccf` +
+  Ch.20 `186cf4a` + Ch.21 `660fef5` + wrap-up `ca33315`.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; not committed).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. `book/_book/` and `book/assets/components.js` are
