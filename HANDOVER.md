@@ -24,8 +24,19 @@
 
 ## 0. How we got here (recent milestones — most recent first)
 
-All on `main`, all deployed. Full detail lives in the curriculum-map decision log + git history.
+All on `main`. Full detail lives in the curriculum-map decision log + git history.
 
+- **Capstone sim-case enrichment (+4 AI-patient cases)** — added four new `sim-*` encounters to Ch.27
+  (`cases.qmd`), taking the Capstone from 4 → **8** live-AI-patient cases, each grounded in its source
+  chapter and leaning into a do-no-harm trap: **Mr Chua** (79, frailty/undernutrition — *density up,
+  restriction off*), **Mdm Devi** (63, post-fracture bone — calcium-megadose trap + refer for DXA),
+  **Mdm Goh** (55, dementia-prevention — brain-supplement "save your money" + vascular levers),
+  **Encik Rahman** (58, early CKD — DIY protein-restriction / star-fruit / K⁺-salt-substitute traps +
+  renal-dietitian referral). Each has its own persona sprite set (DiceBear Avataaars, registered in
+  `scripts/gen-persona-sprites.ps1`). No new island/JS: the `case` island reads the `.case.yml` at
+  runtime. Rendered + asset-gated + case-linted + browser-verified (all 8 islands mount, all 20 new
+  sprites resolve, portraits look right, no tics). **Names reuse common SG surnames as *different*
+  patients — the book's established convention (Mdm Tan spans ages 51–82 across 6 cases; Mr Chua 46/52/79).**
 - **Ch.26 Brain Health & Dementia (net-new, decision M)** `86d4256` — the closing Part IV chapter. Verified dossier
   `5a10551` (65-agent research→refute-check→synthesize→critic Workflow, 56 cites, 0 refuted). Prevention-first frame
   (vascular lever → MIND-RCT-null patterns → supplement do-no-harm → advanced-dementia feeding do-no-harm). Island
@@ -49,7 +60,7 @@ Full table + decisions A–M in `curriculum-map.md` (READ IT FIRST). Cross-refs 
 | **II · Nutrition across Life Stages** | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ live |
 | **III · Assessing and Advising Patients** | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · 19 Interprofessional Practice, Referral & Self-Care | ✅ live |
 | **IV · Nutrition in Disease** (cascade order — decision J) | 20 Obesity & Metabolic Syndrome · 21 Type 2 Diabetes · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health · 26 Brain Health & Dementia | ✅ live |
-| **V · Integrative Cases** | 27 Capstone: Integrative Cases (`cases.qmd`, home of the live LLM patient) | ✅ live |
+| **V · Integrative Cases** | 27 Capstone: Integrative Cases (`cases.qmd`, home of the live LLM patient — **8 `sim-*` encounters**) | ✅ live |
 
 Every chapter has: pathophysiology/physiology beat where relevant (§11f), ≥1 teaching figure, a bespoke island, an
 MCQ quiz, and an MCQ-only case with a do-no-harm hard route. Part IV/disease chapters run at **recognise-the-levers
@@ -156,9 +167,12 @@ Invoke-RestMethod "https://api.github.com/repos/nusmedicine/nutrition/actions/ru
 
 The `patient-chat` case node → a real guardrailed AI patient. Client-composed prompt; key held server-side in a
 zero-dep proxy (`patient-proxy/`, FRP at `patient-api.phm.nusmed.space`); SSE streaming; an `(emotion)` tag drives
-the portrait; a post-encounter JSON rubric; graceful fallback if disabled. It lives **ONLY** in `sim-*` cases (the
-Integrated Cases / Capstone chapter, `cases.qmd`) — never in a per-chapter case ([[in-chapter-cases-mcq-only]],
-enforced by `validate-cases.mjs`). Endpoint reality ([[qwen-llm-endpoint]]): llama.cpp router, OpenAI API at `/v1`,
+the portrait (fixed set: `neutral, concerned, relieved, skeptical, surprised`); a post-encounter JSON rubric;
+graceful fallback if disabled. It lives **ONLY** in `sim-*` cases (the Integrated Cases / Capstone chapter,
+`cases.qmd` — now **8** encounters) — never in a per-chapter case ([[in-chapter-cases-mcq-only]], enforced by
+`validate-cases.mjs`). **Adding a sim case = self-contained `.case.yml` (persona + `brief` + `opener` + intro/
+patient-chat/end nodes; no scenario registry, no JS) + a persona sprite folder of the 5 emotions
+(`gen-persona-sprites.ps1`) + a section in `cases.qmd`.** Endpoint reality ([[qwen-llm-endpoint]]): llama.cpp router, OpenAI API at `/v1`,
 Qwen3.6 needs `enable_thinking:false` or content comes back empty. Code: `components/src/lib/{patient,config}.js`,
 `CasePlayer.svelte`, `lib/engine.js`.
 

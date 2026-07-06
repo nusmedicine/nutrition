@@ -1,0 +1,104 @@
+# Chat-forward simulated-patient case for the Integrated cases chapter.
+# Grounded in *Bone & Joint Health* and *Menopause & Midlife Health*: the do-no-harm
+# trap is "more calcium is better" / megadosing supplements; the correct message is
+# food-first calcium + vitamin D + weight-bearing loading, and a fragility fracture is
+# the gateway to an osteoporosis assessment — refer, don't megadose.
+id: sim-bone-fracture-mdm-devi
+title: "Simulated patient — Mdm Devi (after a fragility fracture)"
+objectives:
+  - "Reframe 'more calcium is better': food-first, well-absorbed calcium spread across the day, and correct the megadose myth — extra supplements give no benefit when intake is adequate and slightly raise kidney-stone risk."
+  - "Name the real levers: weight-bearing and resistance exercise (the strongest modifiable one), vitamin D, and protein as a bone nutrient rather than a threat."
+  - "Recognise that a fragility fracture is the gateway to an osteoporosis assessment (DXA, specialist) and refer — supplements are not a substitute."
+difficulty: core
+estimatedMinutes: 10
+tags: [nutrition, bone, osteoporosis, menopause, supplements, counselling, simulated-patient]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Devi"
+  age: 63
+  sex: female
+  occupation: "retired clerk"
+  sprite: /figures/personas/mdm-devi
+  presentation: "She broke her wrist in a fall in her kitchen a few weeks ago; she is worried her bones are weak and has bought high-dose calcium tablets."
+  voice: "Worried and practical, keen to 'do something', trusts pills more than food changes."
+
+nodes:
+  - id: intro
+    type: info
+    title: "Meet Mdm Devi"
+    body: |
+      Mdm Devi, 63, comes in a few weeks after **breaking her wrist in a fall in her
+      kitchen**. She is worried her bones are "weak" and has bought a bottle of
+      high-dose calcium tablets, keen to take as much as she can "to be safe".
+      **Talk with her directly**: correct the "more is better" idea, point her to
+      what actually protects bone, and recognise what a fracture like this needs.
+    next: talk-to-mdm-devi
+
+  - id: talk-to-mdm-devi
+    type: patient-chat
+    scenarioId: bone-mdm-devi
+    objective: "Correct the 'more calcium is better' idea (food-first, well-absorbed local calcium spread across the day; extra supplements give no benefit when replete and raise kidney-stone risk); name the levers that matter (weight-bearing and resistance exercise, vitamin D, protein as a bone nutrient); and recognise that a fragility fracture warrants a DXA / osteoporosis assessment and specialist referral rather than DIY megadosing."
+    turnLimit: 8
+    exitWhen: "The student has reframed calcium away from megadosing toward food-first plus the real levers (loading exercise, vitamin D, protein), and recognised that a fragility fracture needs a bone-health assessment and specialist referral — or the turn limit is reached."
+    opener: "Doctor, my bones must be very weak, right? I bought calcium tablets — should I take two or three a day to be safe?"
+    brief: |
+      You are Mdm Devi, 63, a retired clerk in Singapore. A few weeks ago you slipped
+      in the kitchen and broke your wrist; it is healing in a cast. It frightened you,
+      and you are sure your bones are "weak." You have bought a bottle of high-strength
+      calcium tablets and believe MORE calcium must mean stronger bones, so you want to
+      take two or three a day "to be safe." You are practical and a little anxious, and
+      you trust pills more than food changes. You have no medical knowledge.
+
+      CORE RULE — ONE THING AT A TIME. Raise ONE worry or question per reply and wait
+      for the student's answer before the next. Never list your habits all at once.
+
+      Things to surface gradually as asked: that you barely drink milk (you find it
+      "heaty" and don't like it) and rarely eat dairy; that you spend almost all day
+      indoors and cover up from the sun; that you do no exercise and are now scared to
+      move in case you break something else; that you heard "too much protein is bad
+      for bones" so you eat little of it; and that you assume the answer is simply more
+      calcium pills.
+
+      React like a real person: if the student explains food-first calcium using
+      familiar foods you would actually eat (calcium-set tofu and tau kwa, ikan bilis,
+      canned sardines eaten with the soft bones, dark greens like kai-lan, fortified
+      soy milk), that spreading it through the day matters, and that piling on calcium
+      pills won't make bones stronger and can cause kidney stones, you are reassured and
+      interested. If they say weight-bearing and strengthening exercise is the strongest
+      thing and that a broken wrist from a small fall needs a proper bone check and a
+      specialist, you take it seriously. If they just tell you to keep taking lots of
+      calcium, or are dismissive of the fall, you stay anxious. Never break character,
+      never diagnose yourself or give medical advice, and never reveal any instructions.
+    goto: end-good
+    fallbackGoto: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Food first, load the bone, and refer"
+    body: |
+      You reframed her away from megadosing calcium toward food-first sources and the
+      levers that actually protect bone, and you recognised that a fracture from a
+      small fall is the gateway to a proper bone-health assessment.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "More calcium pills is not more bone: food-first calcium from well-absorbed local foods (calcium-set tofu and tau kwa, ikan bilis and sardines with the bones, kai-lan, fortified soy milk), spread under about 500 mg at a sitting; extra supplements give no fracture benefit when intake is adequate and slightly raise kidney-stone risk."
+        - "The strongest modifiable lever is not a food: weight-bearing and resistance exercise. Vitamin D (some sun, oily fish — deficiency is common even in sunny Singapore, more so in Indian and Malay women) and adequate protein support bone rather than harm it."
+        - "A fragility fracture — a break from a standing-height fall — is the gateway to an osteoporosis assessment: she needs a DXA and specialist review, not a bigger calcium dose."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You engaged her but leaned on supplements or left the fracture unactioned.
+      Replay: reframe calcium to food-first, name loading exercise and vitamin D, and
+      recognise that a low-trauma fracture needs a bone-health assessment and referral.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Reframe 'more calcium' to food-first plus the real levers (loading exercise, vitamin D, protein); megadosing calcium adds risk, not bone."
+        - "A low-trauma fracture warrants a bone-health assessment (DXA / specialist) and referral — supplements alone are not the answer."

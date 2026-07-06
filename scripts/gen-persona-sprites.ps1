@@ -33,6 +33,11 @@ $personas = @(
   @{ id = 'mr-tan';  look = 'seed=tan-swe&top=shortRound&facialHair=beardLight&facialHairProbability=100&accessories=prescription02&accessoriesProbability=100&skinColor=edb98a&hairColor=2c1b18' } # 38, male, software engineer
   @{ id = 'aisha';   look = 'seed=aisha-poly&top=straight02&facialHairProbability=0&accessoriesProbability=0&skinColor=d08b5b&hairColor=2c1b18' }                                                   # 24, female, new office job
   @{ id = 'mdm-tan'; look = 'seed=mdm-tan-teacher&top=bob&facialHairProbability=0&accessories=prescription01&accessoriesProbability=100&skinColor=edb98a&hairColor=4a312c' }                        # 52, female, teacher
+  # --- Capstone (Integrated cases) simulated patients ---
+  @{ id = 'mr-chua';      look = 'seed=chua-uncle-79&top=shortWaved&hairColor=b7b7b7&skinColor=edb98a&facialHair=beardLight&facialHairProbability=100&facialHairColor=b7b7b7&accessories=prescription02&accessoriesProbability=100&clothing=collarAndSweater&clothesColor=929598' } # 79, male, retired (frailty)
+  @{ id = 'encik-rahman'; look = 'seed=rahman-guard-58&top=shortFlat&hairColor=3b3b3b&skinColor=a86e42&facialHair=moustacheMagnum&facialHairProbability=100&facialHairColor=2c1b18&accessoriesProbability=0&clothing=shirtCrewNeck&clothesColor=5f7052' }                            # 58, male, security officer (CKD)
+  @{ id = 'mdm-devi';     look = 'seed=devi-aunty-63&top=bun&hairColor=524a45&skinColor=8d5524&accessories=prescription01&accessoriesProbability=100&facialHairProbability=0&clothing=shirtScoopNeck&clothesColor=b0568b' }                                                          # 63, female, retired clerk (bone)
+  @{ id = 'mdm-goh';      look = 'seed=goh-cikgu-55&top=straight02&hairColor=2c2c2c&skinColor=edb98a&accessories=prescription02&accessoriesProbability=100&facialHairProbability=0&clothing=collarAndSweater&clothesColor=3f8f7f' }                                                   # 55, female, teacher (dementia worry)
 )
 
 foreach ($p in $personas) {
