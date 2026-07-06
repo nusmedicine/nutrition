@@ -1,0 +1,152 @@
+id: refer-or-advise
+title: "Refer or advise? Write the referral"
+objectives:
+  - "Distinguish universal advice (in scope) from individualised medical nutrition therapy (refer) in a complex patient."
+  - "Write a complete, useful dietitian referral — diagnoses, key results, medications, weight trend, goals and urgency."
+  - "Do no harm: stay in scope — give safe interim advice and use the Healthier SG pathway, without overstepping into therapy or leaving the patient unsupported."
+difficulty: intro
+estimatedMinutes: 10
+tags: [nutrition, referral, scope-of-practice, interprofessional, singapore, safety]
+start: intro
+variables: { quality: 0 }
+
+persona:
+  name: "Mdm Tan"
+  age: 58
+  sex: female
+  occupation: "retiree, enrolled with her Healthier SG family doctor"
+  presentation: "Newly diagnosed type 2 diabetes (HbA1c 9.1%) with early kidney impairment (eGFR 52), on metformin plus two other agents, BMI 29 (obese on Asian cut-offs). Eats mostly hawker food and lives alone. Anxious and wants to know what to eat."
+  voice: "Practical, a little frightened by the diagnosis, keen to do the right thing but easily overwhelmed by detail."
+
+nodes:
+  - id: intro
+    type: info
+    emotion: concerned
+    title: "\"Doctor, what should I eat now?\""
+    body: |
+      Mdm Tan has just been told she has type 2 diabetes. Her HbA1c is 9.1%, her kidney function is
+      already mildly reduced (eGFR 52), and she takes three medicines. She has a BMI of 29, eats mostly
+      at the hawker centre, and lives alone. She looks at you: *"What should I eat now?"* Decide what is
+      yours to do, what belongs to a dietitian, and — if you refer — what the referral must say.
+    next: q-line
+
+  - id: q-line
+    type: mcq
+    emotion: concerned
+    stem: "With diabetes, early kidney impairment, three medicines and hawker meals, what is your first move?"
+    options:
+      - id: a
+        text: "Refer her for a dietitian's individualised plan, and give safe general advice meanwhile."
+        correct: true
+        feedback: "Right — the complexity (diabetes + early CKD + polypharmacy) crosses into medical nutrition therapy, which is the dietitian's role. You refer, but stay engaged with safe universal advice."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-referral
+      - id: b
+        text: "Give her a My Healthy Plate leaflet and review her in three months."
+        correct: false
+        feedback: "Appropriate universal advice, but insufficient here — the combination of diabetes, early CKD and three medicines crosses the therapy line. She needs a dietitian; don't advise-and-stop."
+        goto: q-referral
+      - id: c
+        text: "Write her an individualised low-carbohydrate, kidney-protective meal plan yourself."
+        correct: false
+        feedback: "That is medical nutrition therapy — an individualised therapeutic plan for her conditions is out of your scope and accountability. Refer it to the dietitian."
+        goto: q-referral
+
+  - id: q-referral
+    type: mcq
+    emotion: neutral
+    stem: "You refer her. Which referral will actually help the dietitian?"
+    options:
+      - id: a
+        text: "Her diagnoses, key results, medicines, weight trend, goals and social context."
+        correct: true
+        feedback: "Correct — reason and urgency, diagnoses, medications, key results, the weight trend and the patient's goals and social context turn a hand-off into a head start."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: q-interim
+      - id: b
+        text: "\"Newly diagnosed diabetic — please advise on diet.\""
+        correct: false
+        feedback: "Uninformative — a vague referral wastes a scarce resource. Add the diagnoses, key results, medicines, weight trend, goals and urgency."
+        goto: q-interim
+      - id: c
+        text: "A full copy of every consultation note from the past five years."
+        correct: false
+        feedback: "Burying the dietitian in undifferentiated notes is as unhelpful as too little. Give the relevant, structured summary, not the archive."
+        goto: q-interim
+
+  - id: q-interim
+    type: mcq
+    emotion: concerned
+    stem: "The dietitian's next slot is weeks away. What do you do in the meantime?"
+    options:
+      - id: a
+        text: "Give safe general advice, and note that Healthier SG follow-up is subsidised."
+        correct: true
+        feedback: "Right — safe universal advice (less rice, more vegetables, water over sweet drinks) plus pointing her to the subsidised Healthier SG pathway keeps you in scope, without overstepping or leaving her unsupported."
+        effects: { quality: +1 }
+        reaction: relieved
+        goto: route
+      - id: b
+        text: "Set her a specific daily carbohydrate and potassium gram target to follow until then."
+        correct: false
+        feedback: "That is medical nutrition therapy — specific therapeutic targets in a patient with kidney impairment are exactly what you refer, not improvise. Stay with safe general advice."
+        goto: remedial
+      - id: c
+        text: "Tell her to change nothing at all until the dietitian sees her."
+        correct: false
+        feedback: "That leaves her unsupported for weeks. Safe general advice — less rice, more vegetables, water — is in scope and helps now. Doing nothing is not the safe option."
+        goto: remedial
+
+  - id: route
+    type: branch
+    rules:
+      - if: "quality >= 3"
+        goto: end-good
+    else: remedial
+
+  - id: remedial
+    type: info
+    emotion: concerned
+    title: "Refer well — and stay in scope"
+    body: |
+      The through-line: **recognise** that her complexity crosses into medical nutrition therapy and
+      **refer**; write a **complete** referral (diagnoses, HbA1c, eGFR, medicines, weight trend, goals,
+      urgency) so the dietitian has a head start; and in the meantime **stay in scope** — safe general
+      advice plus the Healthier SG pathway, without inventing therapeutic targets or leaving her with
+      nothing. Replay and take the path that refers well without overstepping.
+    next: end-partial
+
+  - id: end-good
+    type: end
+    outcome: success
+    title: "Referred well, stayed in scope"
+    body: |
+      You recognised that diabetes with early kidney impairment and polypharmacy crosses into medical
+      nutrition therapy, referred her to the dietitian, and wrote a referral complete enough to be a head
+      start — not a shrug. While she waits, you stayed in scope with safe general advice and pointed her
+      to subsidised Healthier SG follow-up, rather than improvising therapeutic targets or leaving her
+      unsupported. That is what "refer well, and look after the patient in the meantime" looks like.
+    debrief:
+      objectivesMet: [1, 2, 3]
+      keyPoints:
+        - "Complexity — a condition plus early CKD plus polypharmacy — crosses into MNT: refer, don't improvise."
+        - "A useful referral carries diagnoses, key results, medications, weight trend, goals, social context and urgency."
+        - "Do no harm: give safe general advice and use the Healthier SG pathway; don't set therapeutic targets yourself or leave her with nothing."
+
+  - id: end-partial
+    type: end
+    outcome: partial
+    title: "Most of the way"
+    body: |
+      You handled part of this well but slipped on at least one turn — advising-and-stopping for a complex
+      patient, writing a vague referral, or either overstepping into therapy or leaving her unsupported
+      while she waits. Replay and run the safe path: recognise the therapy line and refer, write a
+      complete referral, and give safe general advice via the Healthier SG pathway in the meantime.
+    debrief:
+      objectivesMet: [1]
+      keyPoints:
+        - "Recognise when complexity crosses into MNT and refer, rather than advising-and-stopping or overstepping."
+        - "Write a complete referral, not \"please advise on diet.\""
+        - "Stay in scope while the patient waits: safe general advice, not improvised therapeutic targets or nothing at all."

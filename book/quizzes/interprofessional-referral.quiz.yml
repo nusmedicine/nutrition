@@ -1,0 +1,87 @@
+id: interprofessional-referral
+title: "Quick check: interprofessional practice & referral"
+questions:
+  - id: q1
+    stem: "Which patient most clearly needs referral to a dietitian rather than your general advice?"
+    options:
+      - text: "Newly diagnosed diabetes with early kidney impairment on three medicines"
+        correct: true
+        feedback: "Correct — the combination of a condition, early CKD and polypharmacy needs an individualised, therapeutic plan (medical nutrition therapy), which is a dietitian's role. Give safe interim advice and refer."
+      - text: "A well adult who asks for general tips on eating more healthily"
+        correct: false
+        feedback: "This is universal advice — My Healthy Plate, more vegetables, fewer sugary drinks — which is squarely in your scope. No referral needed."
+      - text: "A patient wondering whether to swap white rice for brown rice"
+        correct: false
+        feedback: "A general dietary-pattern shift anyone can act on; encourage it. It needs no individualised therapy and no referral."
+  - id: q2
+    stem: "A colleague's dietitian referral reads only \"please advise on diet.\" What is the main problem?"
+    options:
+      - text: "It gives no diagnoses, medications, results, weight trend or goals to act on"
+        correct: true
+        feedback: "Correct — a vague referral wastes a scarce resource. A useful one carries the reason and urgency, diagnoses, medications, key results, the weight trend, and the patient's goals and social context."
+      - text: "Referrals should never be written until the patient has failed advice first"
+        correct: false
+        feedback: "No — referral is a competency and a safety behaviour, not a last resort. The problem here is that the note is uninformative, not that it was made."
+      - text: "Diet is not something a dietitian should be asked about"
+        correct: false
+        feedback: "The opposite — individualised diet therapy is exactly the dietitian's role. The issue is the referral's lack of detail."
+  - id: q3
+    stem: "What best describes medical nutrition therapy (MNT)?"
+    options:
+      - text: "An individualised, therapeutic nutrition plan delivered by a dietitian"
+        correct: true
+        feedback: "Correct — MNT is a registered dietitian's structured, individualised assess–diagnose–intervene–monitor process for a medical condition. It is distinct from the universal advice any clinician gives."
+      - text: "Any dietary advice at all given to a patient during a consultation"
+        correct: false
+        feedback: "That conflates the two — general healthy-eating guidance is not MNT. Treating all advice as MNT would freeze you from giving safe basic advice."
+      - text: "A fixed diet sheet handed out to everyone with the same diagnosis"
+        correct: false
+        feedback: "MNT is individualised and monitored, not a one-size printout. A generic sheet is universal advice, not therapy."
+  - id: q4
+    stem: "In a team caring for a patient with a chronic condition, whose core role is reviewing medications?"
+    options:
+      - text: "The pharmacist, who reviews and reconciles her medicines"
+        correct: true
+        feedback: "Correct — the pharmacist reviews medications, while the family doctor coordinates, the dietitian delivers MNT, and the nurse monitors and educates. Nutrition care is rarely a solo act."
+      - text: "The dietitian, as part of the nutrition plan"
+        correct: false
+        feedback: "The dietitian delivers medical nutrition therapy; medication review is the pharmacist's core role. Knowing the hand-offs is the point."
+      - text: "Whoever happens to see the patient first"
+        correct: false
+        feedback: "Team-based care works because roles are defined, not improvised. Medication review belongs to the pharmacist."
+  - id: q5
+    stem: "What does Singapore's Healthier SG model give every enrolled resident?"
+    options:
+      - text: "One enrolled family doctor and a shared Health Plan, with team and community support"
+        correct: true
+        feedback: "Correct — Healthier SG anchors each resident to one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the scaffold that makes referral and follow-up happen."
+      - text: "A guaranteed fully-funded course of dietitian visits for any concern"
+        correct: false
+        feedback: "Not quite — the published funding centres on medications and care components, and does not spell out a dedicated dietitian subsidy line. Teach the pathway and principle, not a guaranteed benefit."
+      - text: "A fixed diet plan issued automatically at enrolment"
+        correct: false
+        feedback: "Healthier SG provides a family doctor and a Health Plan, not an automatic diet. Any individualised plan would come via referral."
+  - id: q6
+    stem: "A patient read that a diet programme reversed diabetes. What is the accurate framing?"
+    options:
+      - text: "Those results came from intensive, structured, team-delivered programmes in selected patients"
+        correct: true
+        feedback: "Correct — DiRECT's remission used a structured total-diet-replacement programme in early, non-insulin-treated diabetes, and the DPP's effect came from a 16-session curriculum. Don't promise those outcomes from brief advice alone."
+      - text: "A short chat about diet in clinic reliably produces the same remission"
+        correct: false
+        feedback: "Overstated — those outcomes needed intensive, multi-session, team-based programmes in selected groups, not a clinic conversation."
+      - text: "Diet cannot influence diabetes, so the claim is meaningless"
+        correct: false
+        feedback: "Too dismissive — diet genuinely matters, but the specific remission results came from intensive structured programmes, not everyday advice."
+  - id: q7
+    stem: "How should you read the evidence on a clinician's own diet and activity habits?"
+    options:
+      - text: "They are associated with more, and arguably more credible, preventive counselling"
+        correct: true
+        feedback: "Correct — clinicians who look after their own health are observed to counsel more and more credibly, though the evidence is associational, not proof of cause. Self-care is a professional and patient-safety issue, not an indulgence."
+      - text: "They have been proven to directly cause better patient outcomes"
+        correct: false
+        feedback: "Overstated — the role-model evidence is observational. Present it as plausible and consistent, not as proven cause and effect."
+      - text: "They are a private matter with no bearing on practice"
+        correct: false
+        feedback: "The evidence suggests otherwise — own habits track with counselling behaviour and credibility, and short sleep affects your own metabolic health too."

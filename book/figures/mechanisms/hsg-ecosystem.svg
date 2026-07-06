@@ -1,0 +1,79 @@
+<svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="hsg-title hsg-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
+  <title id="hsg-title">The Healthier SG team-and-community model</title>
+  <desc id="hsg-desc">A resident enrols with one family doctor who co-develops a shared Health Plan and sits at the centre of care. The family doctor hands off to a team — a dietitian for medical nutrition therapy, a nurse for monitoring and education, and a pharmacist for medication review — and makes social prescriptions to community partners such as Health Promotion Board programmes, Active Ageing Centres and Sport Singapore. Underneath, the Healthier SG Chronic Tier subsidises chronic medications and care components, keeping follow-up affordable. Dietitian and allied-health funding is not a dedicated Chronic Tier line and typically flows via polyclinic, specialist and cluster services; verify current details.</desc>
+  <defs>
+    <marker id="hsg-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
+    </marker>
+  </defs>
+  <style>
+    .hub  { fill:#0f766e; stroke:#0b5b54; stroke-width:1.5; }
+    .hlbl { fill:#ffffff; font-size:14px; font-weight:600; }
+    .hsub { fill:#d6efe9; font-size:12px; }
+    .box  { fill:#eef5f2; stroke:#0b5b54; stroke-width:1.4; }
+    .hdr  { fill:#0b5b54; font-size:13px; font-weight:600; }
+    .lbl  { fill:#17324d; font-size:12.5px; }
+    .chip { fill:#f3f6f9; stroke:#47607a; stroke-width:1.3; }
+    .clbl { fill:#28425e; font-size:13px; font-weight:600; }
+    .ctag { fill:#5b6b7b; font-size:10.5px; }
+    .flow { stroke:#64748b; stroke-width:2; fill:none; }
+    .band { fill:#28425e; font-size:12.5px; font-weight:600; }
+    .note { fill:#5b6b7b; font-size:11px; }
+    .fund { fill:#fef7ed; stroke:#c2410c; stroke-width:1.4; }
+    .flbl { fill:#7c2d12; font-size:12.5px; font-weight:600; }
+    .fnote{ fill:#9a5330; font-size:10.5px; }
+  </style>
+
+  <!-- patient -->
+  <rect class="chip" x="40" y="112" width="150" height="56" rx="9"/>
+  <text class="clbl" x="115" y="136" text-anchor="middle">Resident / patient</text>
+  <text class="ctag" x="115" y="154" text-anchor="middle">enrols</text>
+  <line class="flow" x1="190" y1="140" x2="280" y2="140" marker-end="url(#hsg-ah)"/>
+
+  <!-- central hub: family doctor -->
+  <rect class="hub" x="282" y="98" width="232" height="86" rx="11"/>
+  <text class="hlbl" x="398" y="128" text-anchor="middle">One enrolled family doctor</text>
+  <text class="hsub" x="398" y="150" text-anchor="middle">co-develops a shared Health Plan</text>
+  <text class="hsub" x="398" y="168" text-anchor="middle">— the coordinator —</text>
+
+  <!-- team column (right) -->
+  <text class="band" x="700" y="62" text-anchor="middle">The team · hand-offs</text>
+  <line class="flow" x1="514" y1="118" x2="608" y2="96"  marker-end="url(#hsg-ah)"/>
+  <line class="flow" x1="514" y1="141" x2="608" y2="164" marker-end="url(#hsg-ah)"/>
+  <line class="flow" x1="514" y1="164" x2="608" y2="232" marker-end="url(#hsg-ah)"/>
+
+  <rect class="box" x="610" y="70"  width="180" height="52" rx="8"/>
+  <text class="hdr" x="700" y="92"  text-anchor="middle">Dietitian</text>
+  <text class="lbl" x="700" y="110" text-anchor="middle">medical nutrition therapy</text>
+
+  <rect class="box" x="610" y="138" width="180" height="52" rx="8"/>
+  <text class="hdr" x="700" y="160" text-anchor="middle">Nurse</text>
+  <text class="lbl" x="700" y="178" text-anchor="middle">monitoring &amp; education</text>
+
+  <rect class="box" x="610" y="206" width="180" height="52" rx="8"/>
+  <text class="hdr" x="700" y="228" text-anchor="middle">Pharmacist</text>
+  <text class="lbl" x="700" y="246" text-anchor="middle">medication review</text>
+
+  <!-- social prescribing down to community -->
+  <line class="flow" x1="398" y1="184" x2="398" y2="286" marker-end="url(#hsg-ah)"/>
+  <text class="note" x="412" y="238" text-anchor="start">social prescribing</text>
+
+  <text class="band" x="398" y="304" text-anchor="middle">Community partners · beyond the clinic</text>
+  <rect class="chip" x="40"  y="316" width="215" height="52" rx="8"/>
+  <text class="clbl" x="147" y="338" text-anchor="middle">Health Promotion Board</text>
+  <text class="ctag" x="147" y="356" text-anchor="middle">activities &amp; screening</text>
+
+  <rect class="chip" x="290" y="316" width="215" height="52" rx="8"/>
+  <text class="clbl" x="397" y="338" text-anchor="middle">Active Ageing Centres</text>
+  <text class="ctag" x="397" y="356" text-anchor="middle">community support</text>
+
+  <rect class="chip" x="540" y="316" width="215" height="52" rx="8"/>
+  <text class="clbl" x="647" y="338" text-anchor="middle">Sport Singapore</text>
+  <text class="ctag" x="647" y="356" text-anchor="middle">physical activity</text>
+
+  <!-- funding band -->
+  <rect class="fund" x="40" y="404" width="715" height="66" rx="10"/>
+  <text class="flbl" x="398" y="428" text-anchor="middle">Healthier SG Chronic Tier — subsidises chronic medications &amp; care components</text>
+  <text class="flbl" x="398" y="446" text-anchor="middle">keeping chronic-disease follow-up affordable</text>
+  <text class="fnote" x="398" y="463" text-anchor="middle">(dietitian / allied-health funding flows via polyclinic, specialist &amp; cluster services — verify current details)</text>
+</svg>

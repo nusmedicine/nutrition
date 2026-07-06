@@ -1,0 +1,26 @@
+id: advise-refer
+title: "The line: advise or refer?"
+intro: "For each patient, decide whether it is universal advice you can give (in scope) or individualised therapy for a condition that belongs to a registered dietitian. Then check your call."
+credit: "Scenarios are schematic teaching cases; the advise-vs-MNT line follows the chapter."
+scenarios:
+  - patient: "A well 34-year-old office worker asks how to eat more healthily in general."
+    verdict: advise
+    why: "Universal guidance — My Healthy Plate, more vegetables, fewer sugary drinks — is safe for almost anyone and is exactly your job."
+  - patient: "Newly diagnosed type 2 diabetes with early kidney impairment (eGFR 52), on three medicines, HbA1c 9%."
+    verdict: refer
+    why: "The complexity — diabetes plus early CKD plus polypharmacy — needs an individualised carbohydrate and renal plan. That is medical nutrition therapy, a dietitian's work; give safe interim advice and refer."
+  - patient: "Someone asks whether they should switch their usual Nutri-Grade D drink for something better."
+    verdict: advise
+    why: "A universal message you can and should give — move toward a Nutri-Grade A or B drink. No condition-specific plan required."
+  - patient: "An 82-year-old who has lost weight without trying and now eats very little."
+    verdict: refer
+    why: "Unintended weight loss and malnutrition risk is a clear referral trigger — screen, then hand to the dietitian for assessment."
+  - patient: "A pregnant woman with gestational diabetes needs a structured eating plan to manage her glucose."
+    verdict: refer
+    why: "Pregnancy plus a condition needing individualised glucose-directed nutrition is MNT — refer, while reinforcing safe general messages."
+  - patient: "A patient wants to swap white rice for brown or mixed rice at home."
+    verdict: advise
+    why: "A general dietary-pattern shift anyone can act on — encourage it; no individualised therapy needed."
+  - patient: "A young woman reveals she skips meals to 'make up' for eating and feels guilty about food."
+    verdict: refer
+    why: "These are eating-disorder red flags. Don't add another restriction — pause weight and portion advice, and refer for specialist support."
