@@ -15,9 +15,9 @@
 > behaviour→reward pathways). **★ The Interprofessional Practice, Referral & Self-Care chapter is now DRAFTED and,
 > per decision K, folded into Part III (Ch.19); the AI-patient capstone (`cases.qmd`) is its own final Part V ·
 > Integrative Cases. The book-wide tone/style pass, part renames (decision L), capstone review, and the cleanup
-> backlog (bib dedup, `ada2024care`→`ada2026standards`, retire legacy/orphaned dossiers) are all DONE. **★ NOW
-> ADDING a 27th chapter — Brain Health & Dementia (decision M) — at the end of Part IV (Ch.26; capstone → Ch.27);
-> its verified dossier is in progress. NEXT = review the dossier, then draft the chapter.** See `HANDOVER.md` §4.
+> backlog (bib dedup, `ada2024care`→`ada2026standards`, retire legacy/orphaned dossiers) are all DONE. **★ The
+> 27th chapter — Brain Health & Dementia (decision M) — is DRAFTED & verified (`86d4256`), at the end of Part IV
+> (Ch.26; capstone → Ch.27). The book now has 27 chapters. NEXT = push/deploy + optional polish.** See `HANDOVER.md` §4.
 > **★ RE-AXIS 2026-07-05 (decision G) — the spine is now organised by the PATIENT, not by knowledge-vs-skills.**
 > Five parts on a *who am I advising* gradient: **I** the science → **II "Across the life stages"** (needs
 > vary by life stage) → **III "Advising the healthy"** (what a healthy diet is + types of diets → evaluating
@@ -85,7 +85,7 @@
 | 23 | **Chronic Kidney Disease** ✨ | `chronic-kidney-disease` | ✅ **drafted** (island `renal-flip`, quiz, case, pathophysiology + figures) |
 | 24 | Undernutrition & Malnutrition (under-nutrition — the other tail) | `undernutrition-malnutrition` | ✅ **drafted** (island `must-screen`, quiz, case, pathophysiology + figures) |
 | 25 | **Bone & Joint Health** ✨ (reframed — osteoporosis + osteoarthritis/gout/RA) | `bone-health-osteoporosis` + `joint-health-nutrition` (🟢) | ✅ **drafted** (island `bone-bank`; cases `madam-lim-bone` + `mr-tan-joint`; quiz bone+joint; disambiguation frame + 3 figures; glucosamine evidence-vs-hype + gout diet-adjunct) |
-| 26 | **Brain Health & Dementia** ✨ (net-new — **decision M**; ageing/frailty cluster) | `brain-health-dementia` | 🟡 researching (prevention-first + graded feeding/refer; vascular lever; MIND-RCT-null; supplement do-no-harm) |
+| 26 | **Brain Health & Dementia** ✨ (net-new — **decision M**; ageing/frailty cluster) | `brain-health-dementia` (🟢, 56 cites 0 refuted) | ✅ **drafted** (`86d4256`; island `trial-check`, quiz, 2 cases `dementia-prevention`+`dementia-feeding` w/ do-no-harm, figure `dementia-two-pathways`; vascular lever + MIND-RCT-null + supplement do-no-harm + graded feeding) |
 | **V** | **— Integrative Cases —** (the capstone; **decision K**) | | |
 | 27 | **Capstone: Integrative Cases (LLM patient)** ✨ | `cases.qmd` (largely built; home of the live AI patient) | ✅ book |
 

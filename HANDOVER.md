@@ -1,17 +1,15 @@
 # HANDOVER — continue in a new session
 
-> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ 26 CHAPTERS EXIST & DEPLOYED;
-> book-wide tone/style pass, part renames (decision L), capstone review + the cleanup backlog all DONE. ★ A NEW
-> 27th chapter — Brain Health & Dementia (decision M) — is being added to the END of Part IV; its verified dossier
-> is in progress. NEXT = review the dossier, then draft the chapter).**
+> Snapshot for picking this project up fresh. **Last updated: 2026-07-06 (★ 27 CHAPTERS — the new Ch.26 Brain
+> Health & Dementia is DRAFTED & fully verified (`86d4256`) at the end of Part IV; the AI-patient capstone is
+> Ch.27. Everything before it is deployed; this chapter + several commits are UNPUSHED. NEXT = push/deploy, then
+> optional next chapter or polish).**
 >
-> **★★ NEXT ACTION: draft the new Ch.26 Brain Health & Dementia** (Part IV · Nutrition in Disease; capstone → Ch.27).
-> **Frame (decision M):** prevention-first — the patient asking *"what should I eat to avoid / slow dementia?"* —
-> answered honestly: the **vascular** lever (build pathophysiology on *CVD & Hypertension* + *Type 2 Diabetes* by
-> name) + patterns (MIND/Med, **honest that the MIND RCT was null**) + **supplement do-no-harm**; THEN the graded
-> feeding beat (tube feeding doesn't help in advanced dementia; comfort feeding; refer). Dossier
-> `brain-health-dementia` 🟡 (a research→refute-check→synthesize→critic Workflow is running); once 🟢, draft via the
-> per-chapter pipeline (§2). See §4 + decision M in the curriculum-map.
+> **★★ NEXT ACTION: push to deploy, then verify CI (§6).** Unpushed on `main`: the cleanup backlog (`fb5d0cf`),
+> the decision-M dossier + doc wrap-ups, and **Ch.26 Brain Health & Dementia (`86d4256`)** — one push deploys them
+> all. After that there is **no required work**; options are another Part IV chapter or a light polish pass. The
+> Ch.26 build is complete and verified (island `trial-check`, quiz, 2 do-no-harm cases, figure, 46 verified bib
+> keys; render/gate/browser-verify/5-dim-review all clean). ⚠ Disk C: near-full has caused commit retries (§8).
 >
 > **⚠ RECURRING HOUSE-STYLE TRAP — the "honest"/"honestly" tic.** It has been caught by the review in *three*
 > chapters now (Ch.22, Ch.24, and the Ch.24 joint reframe where it was a **BLOCKER, 8×**). It is banned prose
@@ -30,6 +28,25 @@
 > [[authoring-style-rules]]).
 
 ## 0. What happened — most recent first (2026-07-06)
+
+- **★ NEW Ch.26 Brain Health & Dementia — verified dossier + full chapter DRAFTED (`5a10551` dossier, `86d4256`
+  chapter).** A net-new Part IV chapter (decision M; capstone → Ch.27). **Dossier:** 65-agent
+  research→refute-check→synthesize→critic Workflow — 56 citations verified, 0 refuted; 46 new bib keys.
+  **Chapter** (prevention-first, recognise-and-refer): vascular lever ("what's good for the heart is good for the
+  brain", built on *CVD*/*T2D* by name) → patterns as low-regret not proven (MIND cohort HR vs the **null MIND
+  RCT**) → **supplement do-no-harm** (ginkgo null, vitamin E harm, omega-3 null) → hearing/vision + activity → the
+  inversion: undernutrition + the **advanced-dementia feeding do-no-harm beat** (tube feeding doesn't help; comfort
+  feeding; refer). Island **`trial-check`** ("did the RCT confirm the claim?"; new `TrialCheck.svelte`); 7-MCQ quiz;
+  **two** do-no-harm MCQ cases (`dementia-prevention` = don't oversell/prescribe; `dementia-feeding` = no tube);
+  own-work figure `dementia-two-pathways.svg`. Verified: render exit 0 (29 pages), asset gate + case linter clean,
+  0 unresolved citations, no honest/first-year tics, browser-verified (island pick-and-check, figure no overflow,
+  cases+quiz mount), 5-dim review clean (0 blockers; all fixes applied incl. corrected CVD/T2D cross-refs to
+  content those chapters actually own, `livingston2020`→`2024` cite, MCQ length-parity). Honoured the dossier's 15
+  verify-flags. **⚠ The "honest" tic slipped into 5 spots at draft time and was caught by the pre-review grep** —
+  keep scrubbing it (see [[authoring-style-rules]]).
+- **★ Polish + cleanup backlog — DONE (`fb5d0cf`).** Bib-key dedup to canonical (`who2012potassium`/`hpb2023sodium`/
+  `neal2021ssass`), `ada2024care`→`ada2026standards`, retired 8 legacy/orphaned files, bone em-dash trim. Capstone
+  reviewed (clean). Referral forward-refs checked — nothing to tighten.
 
 - **★ GLOBAL REVIEW: tone/style pass + part renames (`00d3519`).** (1) **Part renames (decision L):** I "Foundations
   of Nutrition Science" · II "Nutrition across Life Stages" · III "Assessing and Advising Patients" · IV "Nutrition
@@ -140,7 +157,7 @@ Legend: ✅ drafted (deployed once pushed) · 🟢 dossier verified · stub = "i
 | **I** · Foundations of Nutrition Science *(renamed, decision L)* | 1–8 | ✅ deployed |
 | **II** · Nutrition across Life Stages *(renamed L)* | part2-intro (unnumbered) + 9 Infancy · 10 Childhood & Adolescence · 11 Adulthood · 12 Pregnancy · 13 Menopause · 14 Healthy Ageing | ✅ deployed |
 | **III** · Assessing and Advising Patients *(renamed L; + refer, decision K)* | 15 What a Healthy Diet · 16 Evidence vs Hype · 17 Assessing Diet · 18 Behaviour-Change Counselling · **19 Interprofessional Practice, Referral & Self-Care ✅** (`f2fce0d`) | ✅ deployed (Ch.15–18); §11f retrofit `2be9f8f`; Ch.19 + style pass push pending |
-| **IV** · Nutrition in Disease *(renamed L; cascade order — decision J)* | **20 Obesity · 21 T2D · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health** (renumbered +1 by decision K) | **✅ COMPLETE (6/6), deployed** |
+| **IV** · Nutrition in Disease *(renamed L; cascade order — decision J)* | **20 Obesity · 21 T2D · 22 CVD & Hypertension · 23 Chronic Kidney Disease · 24 Undernutrition & Malnutrition · 25 Bone & Joint Health** (renumbered +1 by decision K) · **26 Brain Health & Dementia ✅** (net-new, decision M) | ✅ 20–25 deployed; **26 drafted (`86d4256`), push pending** |
 | **V** · Integrative Cases (decision K) | 26 Capstone: Integrative Cases (= `cases.qmd`, home of the live LLM patient — largely built, §5) | ✅ in book (polish pending) |
 
 **Cross-refs are by NAME**, so numbering is safe. **All six Part IV files** (`obesity-metabolic-syndrome`,
@@ -280,16 +297,14 @@ research/
 
 ## 8. Git state
 
-- **This session — committed on `main`, mostly NOT pushed:** (1) Part III §11f retrofit `2be9f8f` (**pushed**; its
-  Pages *deploy* step hit a TRANSIENT failure — build passed — so **not yet live**). (2) Ch.19 Referral `f2fce0d`
-  + wrap-up `dc7a88d`. (3) **Global tone/style pass + part renames `00d3519`** (29 files) + this wrap-up.
-  **All of (2)+(3) are committed but NOT pushed.** **One push re-triggers CI and deploys everything** (retrofit +
-  Referral + style pass + renames) and clears the failed deploy — then verify the run (§6). Push is user-gated.
-  ⚠ Disk C: was ~100% full (3.6 GB free); a commit failed once ("unable to write new index file") and succeeded on
-  retry — retry commits if this recurs, and free disk space.
-- **All prior work is pushed & DEPLOYED live** (`origin/main` was `bbac6f7` at session start): Part IV Ch.19–24
-  (now renumbered 20–25) including the Ch.24→25 "Bone & Joint Health" joint reframe (`bbac6f7`); Ch.24 Bone
-  `04a1e22`; research `a0118f4`; Obesity `1897ccf` · T2D `186cf4a` · CVD `660fef5` · CKD `2504903` · Undernutrition `6f814ee`.
+- **DEPLOYED live** (pushed & CI-green at `77785fa`): the §11f retrofit, Ch.19 Referral + decision K, the book-wide
+  tone/style pass + part renames (decision L). That push's CI succeeded (build + deploy), clearing the earlier
+  transient Pages-deploy failure — all of it is live.
+- **Committed this session, NOT yet pushed** (on `main`, ahead of `origin`): cleanup backlog `fb5d0cf` · decision-M
+  wrap-up `dfe94b7` · Brain-Dementia dossier `5a10551` · **Ch.26 Brain Health & Dementia `86d4256`** · this wrap-up.
+  **One push deploys them and adds the new chapter live** — then verify CI (§6). Push is user-gated.
+  ⚠ Disk C: ~100% full (few GB free) caused several commits to fail with "unable to write new index file" and
+  succeed on retry — retry commits if this recurs, and free disk space.
 - **Working tree:** untracked user file `Update Health in Medicine 2026 v2.pptx` (leave it) + modified
   `.claude/launch.json` (a `book-fix`/`book-preview` preview config — harmless dev tooling; not committed).
 - Identity: `Kenneth Ban Hon Kim <kennethban@gmail.com>`. `book/_book/` and `book/assets/components.js` are
