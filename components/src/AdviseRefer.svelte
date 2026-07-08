@@ -138,7 +138,11 @@
   .ar .lchip { font-size:.74rem; color:var(--muted); display:inline-flex; align-items:center; gap:5px; }
   .ar .dot { width:10px; height:10px; border-radius:50%; flex:none; }
 
-  .ar .grid { list-style:none; margin:0; padding:0; display:grid; gap:10px; }
+  /* Explicit single column: Quarto/Bootstrap ship a global `.grid` utility
+     (grid-template-columns: repeat(12, 1fr)) that otherwise leaks in and lays the
+     scenarios out in one overflowing horizontal row. minmax(0,1fr) also lets the
+     column shrink so content never forces horizontal overflow. */
+  .ar .grid { list-style:none; margin:0; padding:0; display:grid; grid-template-columns:minmax(0,1fr); gap:10px; }
   .ar .scn { border:1px solid var(--line); border-radius:8px; padding:10px 14px; }
   .ar .scn.done { background:#fbfcfc; }
   .ar .pt { margin:0 0 8px; font-size:.92rem; }
