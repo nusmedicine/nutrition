@@ -11,12 +11,12 @@ proteins:
     pdb: /structures/myoglobin-1mbn.pdb
     note: >
       A single chain of about 150 amino acids folded into a compact bundle of α-helices — the
-      classic example of tertiary structure. The heme group (shown as sticks) is where oxygen
+      classic example of tertiary structure. The haem group (shown as sticks) is where oxygen
       binds. (PDB 1MBN.)
   - id: hemoglobin
     name: "Haemoglobin — four chains (quaternary)"
     pdb: /structures/hemoglobin-2hhb.pdb
     note: >
       Four myoglobin-like subunits — two α and two β — assembled into one molecule, the
-      hallmark of quaternary structure. Each carries a heme; a single amino-acid change in the
+      hallmark of quaternary structure. Each carries a haem; a single amino-acid change in the
       β-chain is what causes sickle-cell disease. (PDB 2HHB.)

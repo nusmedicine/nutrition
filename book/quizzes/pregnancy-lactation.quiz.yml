@@ -41,12 +41,12 @@ questions:
         feedback: "Weight loss, dehydration and ketosis mark hyperemesis, not ordinary morning sickness — it needs referral and admission, not reassurance."
 
   - id: q4
-    stem: "Why does the **calcium** requirement barely rise in pregnancy, even though the fetal skeleton is forming?"
+    stem: "Why does the **calcium** requirement barely rise in pregnancy, even though the foetal skeleton is forming?"
     options:
       - text: "Because the gut roughly doubles its calcium absorption"
         correct: true
         feedback: "Correct, and counter-intuitive. The adaptation is in absorption, not intake — so the recommended intake is unchanged and no special calcium allowance is needed; just ensure a good baseline."
-      - text: "Because the fetus doesn't actually need much calcium"
+      - text: "Because the foetus doesn't actually need much calcium"
         correct: false
         feedback: "It does need calcium for the skeleton — but the mother meets it by absorbing dietary calcium far more efficiently, not by eating more."
       - text: "Because calcium is stored in unlimited amounts in the mother's bones"
@@ -82,9 +82,9 @@ questions:
   - id: q7
     stem: "A baby of a mother with GDM is at risk of **low blood sugar in the first hours after birth**. Why?"
     options:
-      - text: "High maternal glucose drove high fetal insulin, which stays high once the supply is cut"
+      - text: "High maternal glucose drove high foetal insulin, which stays high once the supply is cut"
         correct: true
-        feedback: "Correct — in the womb, high maternal glucose drove high fetal insulin; when the maternal supply is cut at birth, that insulin is still high and drops the baby's sugar. Macrosomia and neonatal hypoglycaemia are two ends of one chain (maternal glucose in → fetal insulin out → overgrowth, then hypoglycaemia once the supply stops)."
+        feedback: "Correct — in the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and drops the baby's sugar. Macrosomia and neonatal hypoglycaemia are two ends of one chain (maternal glucose in → foetal insulin out → overgrowth, then hypoglycaemia once the supply stops)."
       - text: "The baby inherited diabetes from the mother"
         correct: false
         feedback: "It's not inherited diabetes — it's transient: the baby's own insulin, raised in response to maternal glucose, stays high briefly after delivery."

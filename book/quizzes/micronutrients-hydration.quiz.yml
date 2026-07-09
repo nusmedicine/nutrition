@@ -110,7 +110,7 @@ questions:
     options:
       - text: "Most gourmet salts aren't iodised, risking iodine deficiency"
         correct: true
-        feedback: "Correct — iodised salt is a key iodine source, so switching away risks deficiency; iodine builds thyroid hormone and is vital for fetal brain development, making this riskiest in pregnancy."
+        feedback: "Correct — iodised salt is a key iodine source, so switching away risks deficiency; iodine builds thyroid hormone and is vital for foetal brain development, making this riskiest in pregnancy."
       - text: "Sea salt contains dangerously high levels of iodine"
         correct: false
         feedback: "The opposite — most sea and gourmet salts contain little or no iodine."

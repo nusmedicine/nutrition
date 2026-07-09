@@ -1,5 +1,5 @@
 # Data for the MustScreen island (Undernutrition & Malnutrition chapter).
-# A MUST screening widget for the "Screening: the first-year competency" section. The learner sets the
+# A MUST screening widget for the "Screening: the part a generalist owns" section. The learner sets the
 # three MUST components (BMI band, unplanned weight-loss band, acute-disease effect); the tool sums them
 # to a risk band (low / medium / high) with the matching action. Teaching point: weight loss and acute
 # illness score INDEPENDENTLY of BMI, so a normal/high BMI can still be high risk. Recognition-level only —

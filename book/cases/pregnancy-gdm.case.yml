@@ -4,7 +4,7 @@ objectives:
   - "Justify Singapore's universal GDM screening — and recognise that withholding the test from a well-feeling woman is the error."
   - "Distinguish physiological haemodilution from true iron-deficiency anaemia."
   - "Respond to a GDM diagnosis with dietary first-line plus team referral, without over-reaching into insulin."
-  - "Explain the fetal-hyperinsulinaemia chain and arrange postpartum follow-up for future type 2 diabetes risk."
+  - "Explain the foetal-hyperinsulinaemia chain and arrange postpartum follow-up for future type 2 diabetes risk."
 difficulty: intro
 estimatedMinutes: 12
 tags: [nutrition, pregnancy, gdm, singapore, do-no-harm]
@@ -109,7 +109,7 @@ nodes:
       - id: a
         text: "\"Your sugar crosses to the baby, whose body makes extra insulin. After birth your sugar stops but that insulin lingers, so the baby's sugar dips.\""
         correct: true
-        feedback: "Correct — macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, fetal insulin out, overgrowth, then a dip once the supply is cut. Plain language, no jargon."
+        feedback: "Correct — macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, foetal insulin out, overgrowth, then a dip once the supply is cut. Plain language, no jargon."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-postpartum
@@ -162,7 +162,7 @@ nodes:
       The through-line: **offer the test to every pregnancy** — feeling well doesn't rule GDM out, and
       risk-based screening misses about half of local cases; read a mid-pregnancy haemoglobin as likely
       **dilution** but confirm with ferritin; meet a positive result with **dietary first-line plus the
-      team**, not insulin you titrate yourself; explain the baby's transient low sugar as **fetal
+      team**, not insulin you titrate yourself; explain the baby's transient low sugar as **foetal
       insulin**, not inherited diabetes; and arrange **postpartum follow-up** for future type 2 diabetes
       risk. Replay and run the safe path.
     next: end-partial
@@ -184,7 +184,7 @@ nodes:
         - "Singapore screens every pregnancy for GDM at 24–28 weeks — risk-based screening would miss about half of local cases, and feeling well doesn't rule it out."
         - "A mid-pregnancy haemoglobin fall is usually dilutional; confirm true iron deficiency with ferritin before treating, and counsel iron for tolerability (vitamin C, away from tea/calcium, alternate-day)."
         - "A GDM diagnosis: reassure, dietary first-line within familiar food, refer to the team, and don't over-reach into insulin."
-        - "Explain the fetal-hyperinsulinaemia chain (macrosomia → neonatal hypoglycaemia), and arrange postpartum glucose testing for the ~7-fold future type 2 diabetes risk."
+        - "Explain the foetal-hyperinsulinaemia chain (macrosomia → neonatal hypoglycaemia), and arrange postpartum glucose testing for the ~7-fold future type 2 diabetes risk."
 
   - id: end-partial
     type: end
@@ -201,4 +201,4 @@ nodes:
         - "Offer GDM screening to every pregnancy — feeling well doesn't rule it out."
         - "Read a mid-pregnancy haemoglobin fall as likely dilution; confirm with ferritin."
         - "GDM: dietary first-line + team referral; don't titrate insulin yourself."
-        - "Explain the baby's transient low sugar (fetal insulin) and arrange postpartum follow-up."
+        - "Explain the baby's transient low sugar (foetal insulin) and arrange postpartum follow-up."

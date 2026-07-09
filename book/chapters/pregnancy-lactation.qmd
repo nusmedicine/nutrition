@@ -62,7 +62,7 @@ expands by nearly **half**, outpacing the ~25% rise in red-cell mass, so the hae
 
 That said, true **iron deficiency** is genuinely common, even here: about **three-quarters** of
 Singaporean women are iron-deficient by the early third trimester [@loy2019ironSG]. Requirements rise
-for the expanding red-cell mass and the fetus's own stores, and daily oral iron (WHO: 30–60 mg with
+for the expanding red-cell mass and the foetus's own stores, and daily oral iron (WHO: 30–60 mg with
 folic acid) reduces maternal anaemia and low birth weight [@penarosas2015iron]. The nutrient basics
 sit in the *Micronutrients, Hydration & Electrolytes* chapter; here the practical point is
 **adherence**, because iron's gut side-effects are where supplementation quietly fails:
@@ -92,8 +92,8 @@ woman who has been vomiting for weeks may be **thiamine-depleted**, and giving g
 
 Beyond folate and iron, a short list carries most of the weight:
 
-- **Iodine** — the requirement rises to about **250 µg/day** for the fetal thyroid hormone that
-  builds the brain; the early fetus depends entirely on the mother [@bath2013iodine]. Singapore's
+- **Iodine** — the requirement rises to about **250 µg/day** for the foetal thyroid hormone that
+  builds the brain; the early foetus depends entirely on the mother [@bath2013iodine]. Singapore's
   salt iodisation is **voluntary**, so status can't be assumed, and iodised salt is a sensible default
   [@codling2017iodine].
 - **Calcium** — the surprise: the requirement **doesn't really rise**, because the gut roughly
@@ -124,7 +124,7 @@ Gestational diabetes is Singapore's defining antenatal nutrition issue, and it f
 the two-driver lens. **Internally**, insulin sensitivity falls by **50–60%** (the body's cells respond less
 to insulin) in the third trimester
 of *every* pregnancy: a normal adaptation, driven by a mix of placental and maternal hormones (no
-single one is the culprit), that diverts glucose to the growing fetus [@kampmann2019ir]. GDM is what
+single one is the culprit), that diverts glucose to the growing foetus [@kampmann2019ir]. GDM is what
 happens when the pancreas **can't compensate** for that resistance [@plows2018gdm], which is exactly
 why it forecasts a woman's future diabetes.
 
@@ -139,7 +139,7 @@ line**, not a biological cliff [@hapo2008].
 ::: {.callout-note}
 ## The chain, not the numbers
 The thresholds (fasting ≥5.1, 1-hour ≥10.0, 2-hour ≥8.5 mmol/L) matter less than the *pathway*.
-Maternal glucose crosses to the fetus, whose pancreas answers with its own insulin; that drives
+Maternal glucose crosses to the foetus, whose pancreas answers with its own insulin; that drives
 **overgrowth (macrosomia)** before birth and, once the maternal glucose supply is cut at delivery,
 leaves the baby briefly **hypoglycaemic**. And the mother carries a roughly **seven-fold** future
 risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose test at 4–12 weeks** and

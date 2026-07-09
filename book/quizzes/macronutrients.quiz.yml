@@ -25,7 +25,7 @@ questions:
         feedback: "Correct — free sugars are added sugars plus those in syrups and juices; WHO caps them at <10% of energy."
       - text: "The starch in brown rice"
         correct: false
-        feedback: "Starch is not a sugar; whole-grain starch sits at the protective end of the carbohydrate spectrum."
+        feedback: "Starch is not a sugar; wholegrain starch sits at the protective end of the carbohydrate spectrum."
 
   - id: q3
     stem: "Rank these fats from **most** to **least** harmful for cardiovascular risk."
@@ -41,7 +41,7 @@ questions:
         feedback: "Trans fat, not saturated, carries the clearest harm signal."
 
   - id: q4
-    stem: "The Reynolds 2019 meta-analyses found higher fibre and whole-grain intake is associated with better outcomes. What is the correct way to state this?"
+    stem: "The Reynolds 2019 meta-analyses found higher fibre and wholegrain intake is associated with better outcomes. What is the correct way to state this?"
     options:
       - text: "It proves fibre causes lower mortality"
         correct: false

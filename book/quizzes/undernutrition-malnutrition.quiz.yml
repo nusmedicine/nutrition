@@ -86,7 +86,7 @@ questions:
     options:
       - text: "It risks refeeding syndrome — recognise and refer"
         correct: true
-        feedback: "Correct. Reintroducing feeding (especially carbohydrate) after prolonged starvation drives phosphate, potassium and magnesium into cells and can cause refeeding syndrome, with cardiac and neurological harm. The first-year job is to recognise the at-risk patient and refer for cautious, monitored refeeding — the management itself is specialist."
+        feedback: "Correct. Reintroducing feeding (especially carbohydrate) after prolonged starvation drives phosphate, potassium and magnesium into cells and can cause refeeding syndrome, with cardiac and neurological harm. The job here is to recognise the at-risk patient and refer for cautious, monitored refeeding — the management itself is specialist."
       - text: "Rapid feeding is the fastest safe way to recover"
         correct: false
         feedback: "Rapid feeding of a long-starved patient is the danger, not the solution — it can precipitate refeeding syndrome. Cautious, monitored refeeding is needed."

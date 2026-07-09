@@ -20,7 +20,7 @@ nutrients:
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 105, 130, 150, 95]
-    why: "Expanding blood volume and the fetus's own stores push the need up, peaking late — then it falls again in lactation."
+    why: "Expanding blood volume and the foetus's own stores push the need up, peaking late — then it falls again in lactation."
 
   - name: "Folate"
     kind: rising
@@ -32,7 +32,7 @@ nutrients:
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 145, 150, 160, 190]
-    why: "Rises for the fetal thyroid hormone that builds the brain, and is highest in lactation as it passes into the milk."
+    why: "Rises for the foetal thyroid hormone that builds the brain, and is highest in lactation as it passes into the milk."
 
   - name: "Calcium"
     kind: flat
@@ -50,10 +50,10 @@ nutrients:
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 115, 130, 145, 150]
-    why: "Builds the fetal brain and eye and modestly lowers preterm birth, then carries on into the milk. Two to three low-mercury fish meals a week covers it."
+    why: "Builds the foetal brain and eye and modestly lowers preterm birth, then carries on into the milk. Two to three low-mercury fish meals a week covers it."
 
   - name: "Choline"
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 110, 120, 130, 150]
-    why: "One of the under-taught pair — most pregnant women fall short. It supports fetal brain development, and the need rises further in lactation."
+    why: "One of the under-taught pair — most pregnant women fall short. It supports foetal brain development, and the need rises further in lactation."
