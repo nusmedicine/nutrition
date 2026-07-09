@@ -26,7 +26,11 @@ The physiology underneath, how energy balance is measured and how appetite is se
 and the hypothalamus, is the *Energy Balance & Body Composition* and *Appetite & Weight Regulation*
 chapters' territory; this chapter stands on it rather than repeating it.
 
-## Recognising the phenotype: BMI, waist, and why Singapore acts earlier
+## Recognising it
+
+Two bedside reads define the problem: the phenotype (BMI plus waist, on Singapore's lower number-lines) and the cluster of risks it travels with.
+
+### Recognising the phenotype: BMI, waist, and why Singapore acts earlier
 
 BMI is a **screening proxy**, not a measurement of fat. It cannot separate muscle from fat or say
 *where* fat sits, and that matters here, because Singaporean adults carry **more body fat, and
@@ -46,7 +50,7 @@ the metabolically active kind. Here too the Asian cut-offs sit lower: **≥90 cm
 women** [@alberti2009harmonizingMetS; @sgObesityBMI]. A patient with a "reassuring" BMI of 24 and a
 waist over the cut-off is still carrying risk; BMI and waist are read **together**, never BMI alone.
 
-## The metabolic syndrome: a cluster, not a disease
+### The metabolic syndrome: a cluster, not a disease
 
 Central fat rarely travels alone. The **metabolic syndrome** names the tendency for five
 cardiometabolic problems to appear together, and the harmonised international definition is simply
@@ -73,7 +77,11 @@ the three-of-five threshold light up, and see how sleep loss and stress feed the
 
 <div data-island="mets-cluster" data-src="/diagrams/mets-cluster.yml"></div>
 
-## The science underneath: how obesity produces the cluster
+## The science underneath
+
+Two questions sit under the cluster: why the five risks travel together, and why the weight accumulates in the first place.
+
+### How obesity produces the cluster
 
 Why do those five problems travel together? Because **body fat is an active endocrine organ, not inert
 padding**, and *where* it sits and *how* it behaves is what links a waistline to a blood-sugar reading.
@@ -110,7 +118,7 @@ satiety and makes the surplus harder to reverse [@myers2010leptin]. The same bio
 cluster also *defends* the weight, which is why lifestyle change is a genuine physiological lever rather
 than a test of willpower.
 
-## Why weight accumulates: energy balance, but quality is the lever
+### Why weight accumulates: energy balance, but quality is the lever
 
 At the level of physics, weight gain is a **chronic positive energy balance**: small daily surpluses
 banked over years. But "eat less, move more" is a weak clinical lever on its own, because it treats
@@ -155,7 +163,11 @@ non-fried yong tau foo** (more vegetables and tofu, clear soup), **sliced fish b
 
 ![Char kway teow — a Singapore hawker favourite and a useful energy-density anchor: roughly 744 kcal and 38 g of fat in one plate.](/figures/food/char-kway-teow.jpg){#fig-char-kway-teow width="70%" fig-align="center"}
 
-## Managing over-nutrition: lifestyle first, then refer
+## Managing it
+
+The target is modest and lifestyle-first, and how the conversation is framed is part of the treatment.
+
+### Managing over-nutrition: lifestyle first, then refer
 
 The reassuring headline is that the target is **modest**. A sustained **5–10% weight loss** yields a
 disproportionate, dose-dependent cardiometabolic payoff, improving glucose, blood pressure and lipids
@@ -185,7 +197,7 @@ markers but did **not** reduce cardiovascular events [@lookahead2013]. The mecha
 belong to the *Type 2 Diabetes* chapter.
 :::
 
-## Weight-inclusive care: the framing is part of the treatment
+### Weight-inclusive care: the framing is part of the treatment
 
 How the conversation is framed changes its outcome, so this is a clinical skill, not a courtesy.
 **Weight stigma is a health hazard**: it degrades the quality of care, drives patients to avoid
