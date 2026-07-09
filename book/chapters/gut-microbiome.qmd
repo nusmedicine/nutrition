@@ -20,9 +20,11 @@ microbiome is a genuine, diet-modifiable system, and it is also the single most 
 in consumer nutrition. Much of what follows is the real mechanism; the rest is watching marketing
 claims collapse the moment you ask "by what mechanism?"
 
----
+## Who's in there, and how it forms
 
-## Who lives there, and how many {#sec-composition}
+Start with the two questions the marketing skips: who is actually in there, and how did they get there?
+
+### Who lives there, and how many {#sec-composition}
 
 **It is a community, and bacteria carry the story.** The gut holds trillions of microbes.
 **Bacteria** dominate by mass and function, alongside archaea, fungi (the "mycobiome") and viruses
@@ -63,7 +65,7 @@ read as a **continuous gradient**, not fixed categories [@knights2014rethinking]
 resilient one, but there are clear exceptions, so treat diversity as **one context-dependent
 signal, not a number to maximise or buy in a bottle** [@mcburney2019healthy].
 
-## How your microbiome grows up {#sec-development}
+### How your microbiome grows up {#sec-development}
 
 Your microbiome is not fixed at birth; it **assembles over the first years of life** and keeps
 shifting after. A newborn's gut is sparsely and erratically colonised; the community is shaped first
@@ -82,9 +84,11 @@ evidence-based fix and is advised against outside research, partly for infection
 [@acog2017vaginalseeding]. A useful antidote to the guilt this topic often provokes.
 :::
 
----
+## What they do for you
 
-## The main event: fibre becomes fuel {#sec-scfa}
+The microbiome earns its keep in two ways: it turns fibre into fuel, and it makes vitamins, though not always ones you can use.
+
+### The main event: fibre becomes fuel {#sec-scfa}
 
 This is the microbiome's single most important job for you. Recall from the Digestion & Absorption
 chapter that your own enzymes cannot break down **dietary fibre** and **resistant starch**, so they
@@ -168,9 +172,7 @@ is relatively **butyrogenic** (good news, since butyrate is the colonocyte fuel)
 Variety of fibre, not just quantity, is the point.
 :::
 
----
-
-## Vitamins made in the gut, and why you can't rely on them {#sec-vitamins}
+### Vitamins made in the gut, and why you can't rely on them {#sec-vitamins}
 
 Your gut microbes **do** synthesise vitamins: **vitamin K2** (menaquinones) and several **B
 vitamins** (biotin, folate, riboflavin, even B12). It is tempting to conclude you can rely on your
@@ -185,9 +187,11 @@ to you**, and dietary, animal-source B12 remains the functional supply [@degnan2
 The vitamins themselves are the Micronutrients chapter's; here the lesson is simply that *"made in
 the gut" does not mean "available to you."*
 
----
+## Feeding and shaping your microbiome
 
-## Feeding and shaping your microbiome {#sec-feeding}
+The microbiome is a garden you tend at every meal. Two things are worth getting right: how diet shapes it, and the vocabulary the marketing abuses.
+
+### How diet shapes it: fibre diversity {#sec-feeding}
 
 **Diet is the dominant, fast-acting, *reversible* lever.** Switch a person between an animal-based
 and a plant-based diet and their microbial community shifts within a **single day**, but it
@@ -247,9 +251,11 @@ lowered inflammatory markers where a high-fibre diet did not, a hypothesis rathe
 [@wastyk2021diet]. But **fermented ≠ probiotic**: only a defined, dosed, live product meets that bar.
 :::
 
----
+## When it goes wrong, and the hype
 
-## When things go wrong: antibiotics, *C. difficile* and FMT {#sec-clinical}
+The last question is the clinical one: what does the microbiome mean for a patient, and how do you tell real medicine from marketing?
+
+### When things go wrong: antibiotics, *C. difficile* and FMT {#sec-clinical}
 
 **Antibiotics disturb the ecosystem.** Broad-spectrum antibiotics do not target only the pathogen;
 they flatten the wider community, causing **dysbiosis** and often **antibiotic-associated diarrhoea
@@ -279,7 +285,7 @@ risk (a 2019 safety alert followed a fatal transmission) [@fmt2019safety]. Recog
 this is a medical therapy with one narrow indication, not a wellness reset.
 :::
 
-## Hype versus evidence {#sec-hype}
+### Hype versus evidence {#sec-hype}
 
 The microbiome is where good science and pure marketing sit closest together, so a few myth-busts
 are essential clinical hygiene:
