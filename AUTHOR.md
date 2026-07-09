@@ -401,11 +401,11 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 # Chapter title
 > one-line framing blockquote
 ## <Topic> at a glance          — orientation + a "how we'll take each one" signpost
-## <Topic A>  ┐ each = the five-beat anatomy (incl. the 🔬🍜🍳 triad)
-## <Topic B>  ┘ + its interactive/figure where it earns a place
-## From nutrients to patterns   — synthesis
+## <Movement 1>  ┐ 3–5 named narrative beats (§11h); topics within a movement
+## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned
+##   …            — ### only where a movement splits into 2+ real sub-topics, never a lone child
 ## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out")
-## <Chapter-question close>      — e.g. "So — are carbs bad?"
+## <Chapter-question close>      — e.g. "Is body weight just calories in minus out?"
 ## Check your understanding      — <div data-island="quiz" …>
 ## Practise: <case title>        — <div data-island="case" …>
 ```
@@ -522,3 +522,55 @@ edited chapter before review. The reference chapter for this register is `book/c
   not met, or soften it. Spiral up; never assume prior knowledge.
 
 Codified after a book-wide pass (2026-07-06) that revised all 26 chapters to this register. See [[authoring-style-rules]].
+
+### 11h. Chapter structure — narrative movements, nesting & the restructure recipe (2026-07-09)
+
+Chapters must read as a **structured narrative**, not a flat run of topics. Codified after restructuring
+*Appetite & Weight Regulation* and *Healthy Ageing* as pilots.
+
+- **Movements.** Group the body into **3–5 named `##` "movements"**, each a beat of the chapter's argument.
+- **Nesting rule.** Use `###` **only** where a movement genuinely splits into **2+ parallel sub-topics**.
+  **Never a single child** — a lone `###` under a `##` is an anti-pattern; drop the sub-heading and let the
+  prose or a table flow inline. (Callout titles stay `##` inside the `:::` fence; Quarto keeps them out of the
+  TOC and numbering, so they never count as sections.)
+- **Headings are topical and scannable** — the TOC should read like a syllabus. No second-person imperative
+  headings ("You look the targets up…") and no bare punchline headings; name the topic (a short subtitle after
+  a colon is fine).
+- **Voice (extends §11g).** Cut chapter-about-itself meta ("this one closes it", "the hardest idea in the
+  chapter", "the single most important thing this chapter teaches", roadmap sentences like "we build these in
+  order"). Keep the warm expository "you"; convert prescriptive "you should/must" to expository **unless**
+  recognise-and-refer is the actual teaching point.
+
+**Life-stage chapters (Part II) — the normal→clinical arc.** Mirrors the life-course textbooks (Brown,
+*Nutrition Through the Life Cycle*; Bernstein & McMahon, *Nutrition Across Life Stages*), which give every
+stage the same recipe and put **normal physiology before clinical problems**:
+
+```
+## <Stage> at a glance                       — orientation + through-lines + the island
+## What changes at this stage                — the physiology (fold nutrient needs in when inseparable)
+## What commonly goes wrong                  — the concerns; SPLIT into 2 movements if rich (e.g. intake vs social)
+## Recognising trouble, and when to refer    — red flags + the do-no-harm callout + a refer table (inline)
+## The Singapore picture
+## <close question>  ·  quiz  ·  case
+```
+*Worked example — Healthy Ageing:* at a glance (two drivers) → What changes inside (⤷ protein · watch-list) →
+Why older adults eat less → Who they eat with: the social plate → Recognising trouble, and when to refer →
+Singapore → close. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
+outline, quiz = self-test, case = case study.**
+
+**Verification — the preservation gate (REQUIRED after any restructure/rewrite).** A reorganisation must not
+silently drop content. Capture a baseline before, and it must match after:
+
+```
+f=book/chapters/<chapter>.qmd
+grep -oE '@[A-Za-z0-9_]+' "$f" | sort | uniq -c   # citation multiset — key set must be IDENTICAL
+grep -c 'data-island' "$f"                        # islands unchanged
+grep -cE ':::+ \{\.callout' "$f"                  # callouts unchanged
+grep -cE '^\|[-: |]+\|$' "$f"                     # tables unchanged
+grep -c '!\[' "$f"                                # figures unchanged
+```
+
+Then **render** (`node scripts/render.mjs`, exit 0), extract the rendered TOC from
+`_book/chapters/<chapter>.html`, and confirm a clean movement→sub-topic hierarchy with **no single-child
+headings and no stranded sections**. Re-run `validate-cases.mjs` if a case was touched. See
+[[chapter-structure-recipe]].
