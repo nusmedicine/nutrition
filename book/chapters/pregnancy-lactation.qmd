@@ -19,7 +19,11 @@ The dial below lets you watch the requirements move, and spot the ones that don'
 
 <div data-island="requirement-dial" data-src="/diagrams/requirement-dial.yml"></div>
 
-## Before pregnancy: the real starting line
+## What pregnancy demands
+
+The nutrition that matters begins before conception and stays surprisingly modest in quantity: a short list of things to get right, and one to hold a ceiling on.
+
+### Before pregnancy: the real starting line
 
 The most important nutrition window opens **before conception**. The neural tube closes by about
 **28 days**, often before a woman knows she is pregnant, so **folic acid has to be running
@@ -29,7 +33,7 @@ neural-tube-defect pregnancy, diabetes, obesity, or certain anticonvulsants) [@m
 teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception]. Much of good
 antenatal nutrition is really *pre*-natal.
 
-## Energy: "eating for two" is a myth until lactation
+### Energy: "eating for two" is a myth until lactation
 
 The oldest myth is that pregnancy doubles a woman's food needs. The energy cost is in fact
 **modest and back-loaded**: roughly **nothing extra** in the first trimester, about **+340 kcal/day**
@@ -53,7 +57,7 @@ out [@ee2014gwgSG; @he2019gwgSG], so treat them as a framework rather than a ver
 and caesarean, and helps keep weight gain in range; a previously active woman can generally carry on
 [@acog2020exercise].
 
-## The blood changes: dilution, not always deficiency
+### The blood changes: dilution, not always deficiency
 
 A mid-pregnancy haemoglobin almost always falls, and it is usually **not** anaemia. Plasma volume
 expands by nearly **half**, outpacing the ~25% rise in red-cell mass, so the haemoglobin drops by
@@ -73,22 +77,7 @@ sit in the *Micronutrients, Hydration & Electrolytes* chapter; here the practica
 - Expect **constipation** (progesterone already slows the gut, and iron compounds it); more fibre and
   fluid are first-line [@rungsiprakarn2015constipation].
 
-## Early pregnancy: nausea, and the red flag behind it
-
-Nausea and vomiting affect most pregnancies in the first trimester, the flip side of "no extra
-energy yet." Small, frequent, bland meals help, and **ginger** and **vitamin B6 (pyridoxine)** are
-reasonable first-line measures [@acog2018nvp]. Most of it is miserable but benign.
-
-::: {.callout-warning}
-## Do no harm: hyperemesis and the thiamine rule
-When vomiting is severe and persistent, with **weight loss, dehydration and ketosis**, it is
-**hyperemesis gravidarum**, and it needs referral, not reassurance. The safety point to carry: a
-woman who has been vomiting for weeks may be **thiamine-depleted**, and giving glucose or dextrose
-*first* can precipitate **Wernicke's encephalopathy**. **Thiamine goes in before any glucose**
-[@rcogHyperemesis69].
-:::
-
-## The micronutrients that matter, and the one that harms
+### The micronutrients that matter, and the one that harms
 
 Beyond folate and iron, a short list carries most of the weight:
 
@@ -118,7 +107,26 @@ low-mercury fish** instead. And keep the everyday drinks in view for caffeine: k
 bubble tea all count toward the daily cap.
 :::
 
-## Gestational diabetes: why Singapore screens everyone
+## The problems to catch: nausea and gestational diabetes
+
+Two clinical issues bracket a pregnancy, one early, one late, and they share a rule: recognise them, refer the severe form, and do no harm in the meantime.
+
+### Early pregnancy: nausea, and the red flag behind it
+
+Nausea and vomiting affect most pregnancies in the first trimester, the flip side of "no extra
+energy yet." Small, frequent, bland meals help, and **ginger** and **vitamin B6 (pyridoxine)** are
+reasonable first-line measures [@acog2018nvp]. Most of it is miserable but benign.
+
+::: {.callout-warning}
+## Do no harm: hyperemesis and the thiamine rule
+When vomiting is severe and persistent, with **weight loss, dehydration and ketosis**, it is
+**hyperemesis gravidarum**, and it needs referral, not reassurance. The safety point to carry: a
+woman who has been vomiting for weeks may be **thiamine-depleted**, and giving glucose or dextrose
+*first* can precipitate **Wernicke's encephalopathy**. **Thiamine goes in before any glucose**
+[@rcogHyperemesis69].
+:::
+
+### Gestational diabetes: why Singapore screens everyone
 
 Gestational diabetes is Singapore's defining antenatal nutrition issue, and it follows straight from
 the two-driver lens. **Internally**, insulin sensitivity falls by **50–60%** (the body's cells respond less
