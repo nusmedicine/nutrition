@@ -14,7 +14,11 @@ The common trap is to swing between two failures: swallowing whatever is trendin
 reflexively cynical and dismissing everything new. Appraisal is calibration. You run the claim
 through a fixed routine and land a proportionate verdict.
 
-## The appraisal funnel
+## The appraisal method
+
+Every claim gets the same treatment: run it through a fixed set of questions, allow for the ways nutrition evidence differs, and watch for the joints where data turns into hype.
+
+### The appraisal funnel
 
 Every claim gets the same four questions:
 
@@ -32,7 +36,7 @@ same routine, very different destinations.
 
 <div data-island="claim-analyzer" data-src="/diagrams/claim-analyzer.yml"></div>
 
-## Why nutrition bends the hierarchy
+### Why nutrition bends the hierarchy
 
 In drug research the randomised controlled trial sits at the top and observational studies are
 treated with suspicion. Nutrition bends that ranking, for reasons worth understanding. You often
@@ -42,7 +46,7 @@ cohorts** legitimately carry more weight here than they would for a pill [@johns
 Over-applying drug-trial standards throws away good dietary evidence, which is why "there's no RCT,
 so it's worthless" is usually the wrong reflex in nutrition.
 
-## The traps that turn data into hype
+### The traps that turn data into hype
 
 Most bad nutrition claims fail at one of a few predictable joints:
 
@@ -67,7 +71,11 @@ from a *controlled-feeding* study measuring a *surrogate* (blood pressure), with
 constant [@appel1997dash]. Real results, correctly bounded.
 :::
 
-## Everyday questions
+## Putting it to work
+
+The funnel turns "is X good or bad?" into something answerable, from the week's headlines to the supplement aisle.
+
+### Everyday questions
 
 The funnel turns "is X good or bad?" into something answerable. A few that come up constantly land very differently once you trace them to their evidence:
 
@@ -93,7 +101,7 @@ broad **glycaemic-load** lever the trials actually tested is more useful advice 
 milk.
 :::
 
-## Supplements: indicated, not indicated, or harmful
+### Supplements: indicated, not indicated, or harmful
 
 The default question is not "which supplement?" but "**is one needed at all?**" Supplements are
 indicated for a **documented deficiency** or a **life-stage need** (folate in pregnancy, B12 for
