@@ -4,27 +4,35 @@
 > found again? This chapter follows the signals that turn hunger up and down, why body
 > weight is so hard to shift, and how to talk about it without blame.*
 
-## The question Part I has been building toward {#sec-overview}
+## Appetite at a glance {#sec-overview}
 
-The Energy Balance chapter introduced energy balance as if it were arithmetic: calories in minus calories out.
-Every chapter since has complicated that picture, and this one closes it. Appetite is not a free choice
-laid on top of a passive body. It is a **controlled variable**, defended by an integrated system of
-hormones and brain circuits, in the same way blood glucose and body temperature are defended.
+The *Energy Balance* chapter treated energy balance as arithmetic: calories in minus calories out. That
+arithmetic is real, but it is not free. Appetite is not a free choice laid on top of a passive body; it
+is a **controlled variable**, defended by an integrated system of hormones and brain circuits, in the
+same way blood glucose and body temperature are defended.
 
 The system runs on **two clocks**. A **slow clock**, the hormone **leptin**, released by fat in
-proportion to how much you carry, tells the brain how full the fuel tanks are over days and weeks. A
-**fast clock**, gut peptides that rise and fall across a single meal, answers "should I start now?"
-and "have I had enough?" Both feed a **thermostat** in the brain that sets hunger. On top of this sits
-the brain's **reward system**, which can override fullness when food is pleasurable and everywhere. And
-underneath it all is the hardest idea in the chapter: **the body defends its weight**, fighting weight
-*loss* far harder than weight *gain*. This is why diets are so often regained, and why weight is a
-matter of biology rather than willpower.
+proportion to fat mass, tells the brain how full the fuel tanks are over days and weeks. A **fast
+clock**, gut peptides that rise and fall across a single meal, answers "should I start now?" and "have
+I had enough?" Both feed a **thermostat** in the brain that sets hunger. On top sits the brain's
+**reward system**, which can override fullness when food is pleasurable and everywhere. And underneath
+it all, **the body defends its weight**, fighting weight *loss* far harder than weight *gain*.
 
-We build these in order, then turn the physiology on real problems: the obesity epidemic,
-the new **GLP-1 medicines** (which work by amplifying the very signals described here), and
-Singapore's food environment.
+Three ideas run through the chapter:
 
-## The appetite thermostat {#sec-thermostat}
+- **Appetite is a defended biological drive, not a matter of willpower.** The same physiology explains
+  cravings, regain after a diet, and why weight is so hard to shift.
+- **A few modifiable levers do the real work** — protein and fibre, portion and drink defaults, sleep
+  and stress — more than any exhortation to eat less.
+- **This is the basis for weight care without blame**, and the reason "eat less, move more" is true but
+  insufficient.
+
+## How hunger and fullness are controlled
+
+Appetite runs on a **thermostat** in the brain that sums two hormone signals: a slow gauge of fat
+stores and a fast, meal-by-meal readout from the gut. We take them in turn.
+
+### The thermostat in the hypothalamus {#sec-thermostat}
 
 Deep in the brain, in the **hypothalamus**, sits a cluster of neurons that works like a thermostat for
 energy. The sensing hub is the **arcuate nucleus**, positioned right next to a gap in the blood–brain
@@ -52,11 +60,11 @@ and on-medication states, and watch the accelerator and brake re-weight.
 This is not just a mouse story. **MC4R mutations are the commonest single-gene cause of severe
 obesity**, found in about **6%** of people with severe childhood-onset obesity, and the more the
 mutation damages the receptor, the hungrier and heavier the person [@farooqi2003mc4r]. Break the brake
-at the receptor, and appetite runs relentlessly high. Hunger is *hardware*, which is
-the foundation of this chapter's non-stigmatising stance.
+at the receptor, and appetite runs relentlessly high. Hunger is *hardware*, the biological basis for
+treating weight without blame.
 :::
 
-## The slow clock: leptin, the fat-mass fuel gauge {#sec-leptin}
+### The slow clock: leptin, the fat-mass fuel gauge {#sec-leptin}
 
 For decades, physiologists suspected fat tissue sent a "how much is stored" signal to the brain. In
 **1994** it was found: cloning the gene mutated in a grossly obese mouse revealed **leptin**, a hormone
@@ -84,7 +92,7 @@ becomes the key to weight regain later in this chapter [@flier2024leptin30]. (In
 weaker fuel-gauge signal to the same neurons; its main home is the Integrative Metabolism chapter.)
 :::
 
-## The fast clock: the gut's meal-by-meal signals {#sec-gut-peptides}
+### The fast clock: the gut's meal-by-meal signals {#sec-gut-peptides}
 
 While leptin tracks fat over weeks, the gut narrates each *meal* to the brain in real time. You met
 some of these in the Digestion & Absorption chapter for what they do to the **gut**: CCK squeezing the gallbladder, the
@@ -122,7 +130,7 @@ bacteria make from fibre stimulate these same GLP-1/PYY cells, one more way that
 the colon, quietly turns up satiety.
 :::
 
-## Hunger, satiation, satiety, and what actually fills you up {#sec-satiety}
+## What actually fills you up {#sec-satiety}
 
 Three everyday words that mean different things, and confusing them is the commonest slip here:
 
@@ -174,7 +182,7 @@ the few free, evidence-backed ways to eat less without feeling deprived [@robins
 
 We don't only eat when energy is low. A second system, the brain's **reward system**, makes us eat
 because food is *pleasurable and available*, and in a modern food environment it can **override**
-fullness entirely. The single most important idea here, and the one most often gotten wrong:
+fullness entirely. It rests on a distinction that is often gotten wrong:
 
 ::: {.callout-important}
 ## Wanting is not liking
@@ -200,13 +208,13 @@ still ate about **500 kcal/day more** on the ultra-processed diet [@hall2019upf]
 non-stigmatising frame: overeating here is a **normal reward system responding to an abnormal
 environment**, not a character flaw [@berthoud2017blaming].
 
-## Why the body fights to keep its weight {#sec-defended}
+## Why the body defends its weight {#sec-defended}
 
-Here is the idea that changes how you think about weight. Body weight is not a free-floating tally.
-The body **actively defends** it, and the defence is **asymmetric**: it fights weight *loss* hard and
-weight *gain* weakly. (Weigh the models with care. There is no single "set-point" that has ever been
-located; the modern view is a defended *range* with a strong lower brake against starvation and a leaky
-upper one [@speakman2018lipostatic]. But the *defence of weight loss* is not in doubt.)
+Body weight is not a free-floating tally. The body **actively defends** it, and the defence is
+**asymmetric**: it fights weight *loss* hard and weight *gain* weakly. (Weigh the models with care.
+There is no single "set-point" that has ever been located; the modern view is a defended *range* with a
+strong lower brake against starvation and a leaky upper one [@speakman2018lipostatic]. But the
+*defence of weight loss* is not in doubt.)
 
 When someone loses meaningful weight, **three systems shift together, all pushing to regain it**:
 
@@ -235,7 +243,7 @@ weight *maintenance* hard; it does not make weight loss impossible or your metab
 The take-home reframes a common experience: **weight regain is the predicted output of a defended
 system, not a willpower failure.**
 
-## Two neglected levers: sleep and stress {#sec-sleep-stress}
+### Two neglected levers: sleep and stress {#sec-sleep-stress}
 
 Appetite isn't only about what's on the plate. It's also about how you slept and how stressed you are,
 two modifiable levers that "eat less, move more" ignores. Both bias the *same* system toward hunger.
@@ -255,7 +263,7 @@ The evidence is largely animal models and human *associations*: people with high
 do tend to carry more central fat [@jackson2017haircortisol], so hold it as a **plausible, not proven**
 loop.
 
-## When the switch is stuck: obesity as a defended system {#sec-obesity}
+### When the switch is stuck: obesity as a defended system {#sec-obesity}
 
 Everything so far reframes obesity. It is not a failure of discipline; it is the **same defended system,
 now defending an elevated weight.** The person is fighting a homeostatic set of signals, high but
@@ -310,7 +318,7 @@ is defended strongly enough that medication or specialist help is appropriate, n
 
 ## Is it really just willpower? {#sec-close}
 
-No, and that is the single most important thing this chapter teaches. Appetite is a **signalled
+No. Appetite is a **signalled
 biological drive**, integrated by a thermostat that defends a range of body weight, tuned by how you
 sleep and how stressed you are, and pushed on by a food environment engineered to be irresistible. The
 person who regains weight after a diet, or who can't stop snacking on night shift, or who feels hungrier
@@ -332,5 +340,3 @@ Progress is saved locally — replay to explore the other paths.
 :::
 
 <div data-island="case" data-src="/cases/appetite-defended-weight.case.yml"></div>
-</content>
-</invoke>
