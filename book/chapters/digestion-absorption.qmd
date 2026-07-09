@@ -20,7 +20,11 @@ below to see what happens to your meal there.
 
 <div data-island="gut" data-src="/diagrams/gut-journey.yml"></div>
 
-## Moving the food: motility
+## Breaking it down: motility, enzymes and hormones
+
+The first job is to reduce food to absorbable pieces. Three systems do it together: muscle that moves the food, enzymes that cut it, and hormones that time the line.
+
+### Moving the food: motility
 
 Muscle in the gut wall moves food along with two patterns worth telling apart.
 **Peristalsis** is a set of travelling waves that *push* the bolus forward; **segmentation**
@@ -42,7 +46,7 @@ varying with diet, fibre, fluid and activity. (How fibre speeds transit belongs 
 Microbiome chapter.)
 :::
 
-## Chemical digestion: enzymes are scissors
+### Chemical digestion: enzymes are scissors
 
 Each digestive enzyme is a pair of **scissors** specific to one kind of nutrient, and it works
 at a particular place along the tube [@statpearlsDigestion]:
@@ -93,7 +97,7 @@ culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium 
 (calcium-set tofu, fortified soy milk, leafy greens, small fish with bones) all work, while
 "just drink three glasses of milk" does not.
 
-## The control panel: gut hormones
+### The control panel: gut hormones
 
 The gut is often called the body's **largest endocrine organ**: hormone-making cells are
 scattered singly through its lining. Their shared logic is simple. Food arriving in one
@@ -195,7 +199,11 @@ alongside fat and bile, so a fat or bile problem can quietly cause *their* defic
 nutrients themselves are covered in the Micronutrients chapter; here we're mapping *where* they get in.
 :::
 
-## Same food, different speed: how eating and preparation change digestion
+## The journey in practice
+
+Three practical payoffs follow from the map: what speeds or slows a meal's digestion, the rehydration trick SGLT1 makes possible, and the myths this physiology lets you retire.
+
+### Same food, different speed: how eating and preparation change digestion
 
 Digestion depends not only on *what* is eaten but on *how*. Holding a food and its energy
 content constant, its **physical form**, how it is **cooked**, the **order** in which the parts
@@ -298,7 +306,7 @@ habit rather than the list: with any new medicine, check the label and ask a pha
 food, grapefruit, dairy, iron and timing.
 :::
 
-## The payoff: a spoonful of sugar (and salt) saves lives
+### The payoff: a spoonful of sugar (and salt) saves lives
 
 Put SGLT1 to work and you get one of the great public-health stories of the last century. In
 severe diarrhoea (cholera, rotavirus), the gut pours out fluid, but **SGLT1 keeps working**.
@@ -317,7 +325,7 @@ Plain water lacks the **glucose and sodium** that drive SGLT1; the glucose here 
 alone, does not rehydrate as well.
 :::
 
-## Myths worth busting
+### Myths worth busting
 
 Digestion attracts more folklore than almost any topic in nutrition, a good place to practise
 evidence literacy:
