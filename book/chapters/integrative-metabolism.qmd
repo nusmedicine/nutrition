@@ -27,11 +27,9 @@ The answer comes in two layers, built in order.
 One idea runs through both layers. Metabolism is one network with a logic, not a list of separate
 topics to memorise. Learn the logic and most of the detail follows.
 
----
+## Part A — reading the metabolic map {#sec-partA}
 
-## Part A — reading the metabolic map {#sec-partA .unnumbered}
-
-## Five crossroads and four one-way streets {#sec-map}
+### Five crossroads and four one-way streets {#sec-map}
 
 Metabolism looks impossible when you meet it as fifty enzymes. It becomes navigable once you
 notice that almost everything passes through just **five crossroads**, hub molecules where
@@ -61,7 +59,7 @@ together.
 
 <div data-island="metabolic-map" data-src="/diagrams/metabolic-map.yml"></div>
 
-## The carbohydrate roundabout: glucose-6-phosphate {#sec-g6p}
+### The carbohydrate roundabout: glucose-6-phosphate {#sec-g6p}
 
 **A glucose molecule entering a cell is immediately trapped**, tagged with a phosphate to make
 **glucose-6-phosphate**, which cannot leak back out. From this one roundabout, carbon can leave
@@ -92,7 +90,7 @@ walk increasingly by fat, a distinction we return to under exercise (§@sec-exer
 [@statpearlsAnaerobic].
 :::
 
-## Pyruvate, and the door that only opens one way {#sec-pyruvate}
+### Pyruvate, and the door that only opens one way {#sec-pyruvate}
 
 **Pyruvate** sits at the end of glycolysis as a genuine junction. Its carbon can go four ways: to
 **lactate** (regenerating what glycolysis needs, as above); to **alanine** (into the amino-acid
@@ -113,7 +111,7 @@ carefully defend and remake glucose when food runs short. Hold onto it: the whol
 turns on it.
 :::
 
-## Making glucose, and banking it {#sec-glucose-store}
+### Making glucose, and banking it {#sec-glucose-store}
 
 If glucose cannot be made from fat, where does it come from when the diet stops supplying it? Two
 sources, in order.
@@ -132,7 +130,7 @@ bypass enzymes are its control points, and because glycolysis and gluconeogenesi
 regulated, the cell is never wastefully doing both at once. This chapter names the *raw
 materials*; the enzyme steps belong to biochemistry proper.
 
-## Fat: the densest fuel, and its on/off switch {#sec-fat}
+### Fat: the densest fuel, and its on/off switch {#sec-fat}
 
 Fat is the body's **energy-dense** fuel, about **9 kcal/g against roughly 4** for carbohydrate
 or protein, which is exactly why it is the form the body uses for long-term storage.
@@ -162,7 +160,7 @@ but, lacking the one enzyme needed to use them, **cannot burn its own product.**
 factory that ships its entire output. Keep that oddity in mind; it is the key to how the body
 survives a long fast.
 
-## The central furnace: the TCA cycle and oxidative phosphorylation {#sec-furnace}
+### The central furnace: the TCA cycle and oxidative phosphorylation {#sec-furnace}
 
 Acetyl-CoA, no matter whether it came from carbohydrate, fat, or protein, enters the **TCA
 cycle** (also called the citric acid or Krebs cycle) in the **mitochondrion**. There it is
@@ -180,7 +178,7 @@ yields only about **2**. (Older textbooks say "36–38"; that figure is now cons
 overestimate. Treat all of these as *approximate*: the point is the ~15-fold gap between
 aerobic and anaerobic, not a memorised number.)
 
-## The energy currency: ATP is spent, not stored {#sec-atp}
+### The energy currency: ATP is spent, not stored {#sec-atp}
 
 It is tempting to think of ATP as the body's energy *store*. It is the opposite: **ATP is
 currency, not savings.** You hold only seconds-to-minutes' worth at any moment, and you turn over
@@ -190,7 +188,7 @@ ATP on demand. And note that not every carrier is an energy currency: **NADPH** 
 phosphate pathway) is a *building* currency, spent on synthesis and antioxidant defence, kept
 deliberately separate from the ATP-generating carriers. Confusing the two is a common slip.
 
-## The amino-acid pool: protein is a flow, not a store {#sec-amino}
+### The amino-acid pool: protein is a flow, not a store {#sec-amino}
 
 The fifth crossroads is the **amino-acid pool**, and it comes with a warning that shapes all of
 Part B: **there is no storage protein.** Unlike glycogen and fat, every amino acid in the body is
@@ -214,9 +212,7 @@ Step back and see the logic. The whole map is five crossroads, wired together by
 give-and-take, given its direction by four one-way streets. That is all of Part A. Everything in
 Part B is this same map, with hormones deciding, meal by meal, which way the traffic runs.
 
----
-
-## Part B — the map, alive: fed, fasted, starved {#sec-partB .unnumbered}
+## Part B — the map, alive: fed, fasted, starved {#sec-partB}
 
 The pathways of Part A are always present in every cell. What *changes*, hour to hour, is which
 of them are switched on, and that is set almost entirely by two hormones from the pancreas. The
@@ -226,7 +222,7 @@ changes. Most of Part B is in that one picture.
 
 <div data-island="metabolic-switch" data-src="/diagrams/metabolic-switch.yml"></div>
 
-## The master switch: the insulin-to-glucagon ratio {#sec-switch}
+### The master switch: the insulin-to-glucagon ratio {#sec-switch}
 
 The body does not have a "fed hormone" and a "fasted hormone" acting alone. It reads a **ratio**:
 **insulin against glucagon.** After a meal the ratio is **high** → *store*. Between meals it is
@@ -240,7 +236,7 @@ once: it stores glucose (as glycogen), stores fat (and blocks its breakdown), an
 while shutting down the opposing, mobilising pathways [@merheb2026insulin]. Insulin is the
 store-and-build conductor; lowering blood glucose is only one thing it does.
 
-## The fed state: store everything {#sec-fed}
+### The fed state: store everything {#sec-fed}
 
 After a meal, insulin is high, and each major organ plays its part. This is integration, not new
 pathways:
@@ -268,7 +264,7 @@ rather than release, not on its glucose door [@chadt2020glucose]. This one contr
 of the fed-state picture.
 :::
 
-## The fasted state: defend the blood glucose {#sec-fasted}
+### The fasted state: defend the blood glucose {#sec-fasted}
 
 As blood glucose falls between meals, insulin drops and **glucagon** rises, and the ratio flips to
 *mobilise*. Glucagon leads a **counter-regulatory team** with a clear pecking order by speed:
@@ -319,7 +315,7 @@ flowchart LR
   L -.->|"nitrogen → urea"| U["Kidney<br/>excretes urea"]
 ```
 
-## Prolonged fasting: ketones and the sparing of protein {#sec-starvation}
+### Prolonged fasting: ketones and the sparing of protein {#sec-starvation}
 
 Keep fasting past a day, and the body faces a problem: it is defending blood glucose partly by
 breaking down **protein** for gluconeogenesis, and protein is working tissue. Left unchecked, a
@@ -363,7 +359,7 @@ one you can smell on the breath of someone deep in ketosis or in the emergency n
 
 <div data-island="molecule" data-src="/structures/ketone-bodies.mol.yml"></div>
 
-## Ketosis is not ketoacidosis {#sec-dka}
+### Ketosis is not ketoacidosis {#sec-dka}
 
 This myth-correction matters, because the words sound alike and mean very different things.
 
@@ -385,7 +381,7 @@ and blood pH. A healthy person on a keto diet does not get DKA, because they sti
 (Recognising DKA is the skill here; managing it belongs to the diabetes chapter.)
 :::
 
-## Refeeding: the danger of coming back too fast {#sec-refeeding}
+### Refeeding: the danger of coming back too fast {#sec-refeeding}
 
 One recognition-level hazard closes the starvation story. When a severely malnourished or starved
 person is fed again, the sudden **insulin surge** drives **phosphate, potassium and magnesium
@@ -395,7 +391,7 @@ task here is only to **recognise the at-risk patient** (the long-starved, the ve
 underweight, the person who has eaten little for many days) and know that refeeding must be slow
 and monitored; the management is clinical-years work [@statpearlsRefeeding; @niceCg32].
 
-## Reading which fuel is burning: the respiratory quotient {#sec-rq}
+### Reading which fuel is burning: the respiratory quotient {#sec-rq}
 
 You can tell which fuel someone is burning from the gases they exchange. The **respiratory
 quotient (RQ)**, CO₂ produced ÷ O₂ consumed, is about **1.0 when burning pure carbohydrate** and
@@ -405,7 +401,7 @@ climbs toward 1.0; deep into a fast it drifts toward 0.7 as the body switches to
 The metabolic-switch interactive above shows this drift as you step from fed to fasted: it is the
 map telling you, in one number, which way the traffic is running.
 
-## Fuel for exercise: hitting the wall {#sec-exercise}
+### Fuel for exercise: hitting the wall {#sec-exercise}
 
 Exercise is fuel selection under stress, a continuum set by **intensity and duration**.
 The very first seconds run on stored **phosphocreatine**; short, hard efforts run on **muscle
@@ -435,7 +431,7 @@ where they delay "the wall", the reason a marathoner carbo-loads and takes gels 
 runner does not.
 :::
 
-## Lipoproteins, interconverted {#sec-lipoproteins}
+### Lipoproteins, interconverted {#sec-lipoproteins}
 
 The last piece of integration is how fat travels in the blood, and it ties three chapters
 together. The Macronutrients chapter named the lipoprotein *classes*; the Digestion & Absorption
@@ -454,8 +450,6 @@ flowchart LR
   LIV -->|"exports"| VLDL["VLDL"] -->|"sheds triglyceride"| IDL["IDL"] --> LDL["LDL<br/>(delivers cholesterol)"]
   HDL["HDL"] -.->|"reverse transport"| LIV
 ```
-
----
 
 ## When the switch breaks {#sec-broken}
 
