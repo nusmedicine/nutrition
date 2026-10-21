@@ -1,0 +1,23 @@
+/* House styles for chapter prose (AUTHOR.md §11g). Island styles live in the components bundle. */
+
+/* Example box: an illustration of the principle in the surrounding prose. */
+.example {
+  margin: 0.9rem 0 1.1rem;
+  padding: 0.55rem 0.85rem 0.6rem;
+  border-left: 4px solid #1baf7a;
+  background: #f2faf6;
+  border-radius: 0 6px 6px 0;
+  font-size: 0.93rem;
+}
+.example::before {
+  content: "Example";
+  display: block;
+  margin-bottom: 0.15rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #137a56;
+}
+.example p { margin: 0; }
+.example p + p { margin-top: 0.4rem; }

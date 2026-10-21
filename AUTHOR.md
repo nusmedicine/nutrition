@@ -399,8 +399,12 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 
 ```
 # Chapter title
-> one-line framing blockquote
-## <Topic> at a glance          — orientation + a "how we'll take each one" signpost
+> opener: one italic blockquote, 1–2 sentences — the chapter's problem as a concrete statement
+  (an in-world hook; "we" is allowed, "This chapter…" is not)
+::: {.callout-note}             — "## Learning objectives": 4–6 verb phrases a student should be able
+                                  to do ("Explain…", "Distinguish…", "Recognise… and refer")
+## <Topic> at a glance          — orientation; an overview figure/table shows the structure (no
+                                  narrated roadmap, §11g)
 ## <Movement 1>  ┐ 3–5 named narrative beats (§11h); topics within a movement
 ## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned
 ##   …            — ### only where a movement splits into 2+ real sub-topics, never a lone child
@@ -409,6 +413,10 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 ## Check your understanding      — <div data-island="quiz" …>
 ## Practise: <case title>        — <div data-island="case" …>
 ```
+
+**Chapter ending.** The close-question section answers the chapter's question with content; it does not
+restate the chapter as a summary or announce the next chapter (the page footer links to it). Then quiz,
+case, references.
 
 ### 11d. House rules (apply everywhere)
 
@@ -438,6 +446,10 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
   Ch.2/Ch.3 model: **"the *X* chapter"** in title case, keeping `&` in compound titles ("the
   *Digestion & Absorption* chapter"). This applies in **island data** (`diagrams/*.yml`) as well as
   prose. Forward-references to not-yet-written chapters use a generic name ("the diabetes chapter").
+  The chapter is never the subject of an action verb (§11g): put the reference in parentheses after the
+  fact it supports, or in a sentence whose subject is *we* or the topic. Where useful, make the title a
+  link with a section anchor (`the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-…) chapter`);
+  island data cannot hold links, so it uses the italic title alone.
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a
   paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.
 - **Asset paths — write root-absolute, they're auto-handled.** Use `/figures/…`, `/structures/…`,
@@ -500,28 +512,162 @@ Three cross-cutting depth rules, so students get the *medical-science basis* —
   chapter** beyond the interactive island and the case persona. Source food/clinical photos from Wikimedia
   Commons / Pexels / Unsplash (see the memory on image rendering).
 
-### 11g. Prose style — avoid the AI-writing tells (2026-07-06)
+### 11g. Prose style, voice & the copy audit (2026-07-06; merged with *book-microbio* `STYLE.md` 2026-10-21)
 
 The book must read like a human-written textbook, not machine prose. Apply everywhere; scrub every new or
-edited chapter before review. The reference chapter for this register is `book/chapters/01-why-nutrition-matters.qmd`.
+edited chapter before review. This section merges the 2026-07-06 rules with the house style of the sister
+book *Microbes in Medicine* (`../book-microbio/STYLE.md`), adapted to a nutrition book with a practice
+side. Run the automatic part with:
 
-- **Em-dashes, sparingly.** Reserve the em-dash for a genuine parenthetical aside or a bold list-label
-  (`**Term** — definition`). In running prose prefer commas, colons or full stops. A page should carry a
-  handful of prose em-dashes, not one per sentence.
-- **No antithesis tic.** Do not write "it's not X, it's Y", "not because… but because", or "X isn't Y; it
-  *is* Z". State the positive claim directly. (A genuine clarifying contrast — "a marker, not a hard
-  outcome" — is fine in moderation.)
-- **No teacherly meta-commentary.** Cut "this is a teaching moment", "the teaching point", "worth noting",
-  "we will practise", "the beauty of", "a habit to unlearn", "the work of this chapter". Teach the thing;
-  do not narrate that you are teaching it. Opening blockquotes are **in-world hooks**, not descriptions of
-  the chapter's pedagogical role.
-- **Professional register, kept warm.** No rhetorical "So —" section headers or chatty filler where a plain
-  statement fits. Keep the Singapore flavour and a human voice; lose the chattiness. Do not over-correct
-  into dry, robotic prose.
-- **First-year audience, no curse of knowledge.** Gloss (one short parenthetical) any term a first-year has
-  not met, or soften it. Spiral up; never assume prior knowledge.
+```sh
+node scripts/copy-audit.mjs                                   # all chapters + island data
+node scripts/copy-audit.mjs book/chapters/type-2-diabetes.qmd # just these files
+node scripts/copy-audit.mjs --summary                         # per-file counts only
+node scripts/copy-audit.mjs --you                             # also list every "you" (hybrid-voice check)
+```
 
-Codified after a book-wide pass (2026-07-06) that revised all 26 chapters to this register. See [[authoring-style-rules]].
+The checker flags patterns; it does not decide. A flag is a prompt to reread the sentence, and some flags
+will be fine where they stand. It always exits 0.
+
+#### Voice and level — the hybrid voice
+
+- **Exposition is in academic voice.** The science, mechanisms, evidence, guideline numbers and the
+  Singapore picture state facts in the third person. Use the first-person plural *we* for a shared line of
+  reasoning, as in a review article ("we can predict…", "we return to insulin resistance in…"), sparingly,
+  where it carries reasoning, not to open every paragraph.
+- **"You" is for the clinician in practice.** Keep *you* only where the reader is addressed as the doctor
+  doing the job: what to ask in a diet history, what to say to a patient, when to refer, the do-no-harm
+  callouts. "When you take a diet history, ask about drinks" is fine; "You can think of glycogen as a
+  store" becomes "Glycogen is a store". Convert prescriptive "you should/must" to expository unless
+  recognise-and-refer is the actual teaching point (§11h).
+- **Islands and instructions** (quizzes, cases, the one sentence telling the reader how to use an island)
+  may use the imperative or *you*.
+- **The book never acts.** A book, part, chapter or section is never the subject of an action verb: not
+  "This chapter explains…", "the *Integrative Metabolism* chapter returns to…", "The next chapter takes
+  up…". Write "We return to…", or give the reference in parentheses after the fact it supports: "(see the
+  *Integrative Metabolism* chapter)". Parentheses are preferred.
+- **Plain, direct sentences.** Prefer *is*, *has*, *does* over *serves as*, *stands as*, *functions as*,
+  *represents*, *boasts*, *features*. One idea per sentence where possible; vary sentence length and do
+  not stack short dramatic sentences.
+- **State a fact and its consequence.** Do not tell the reader that something is important; show what it
+  explains.
+- **No promotional or emotional colour** (*fascinating*, *remarkable*, *vibrant*, *rich*, *profound*), no
+  false enthusiasm or reassurance ("Don't worry", "Great question"), and no "honest/honestly" framing
+  (state the benefit and its caveat without the word).
+- **Professional register, kept warm.** No rhetorical "So —" section headers or chatty filler. Keep the
+  Singapore flavour and a human voice; do not over-correct into dry, robotic prose.
+- **No curse of knowledge.** Spiral up; never assume a term the reading order has not taught (see
+  *Terminology* below for the gloss pattern).
+
+#### Terminology and definitions
+
+- **Use the correct medical or nutrition term** in prose where clinicians would use it: *hypoglycaemia* not
+  "low blood sugar", *sarcopenia* not "muscle loss with age", *dysphagia* not "trouble swallowing",
+  *hypertension* not "high blood pressure", *oedema* not "swelling". Patient dialogue in cases stays plain
+  (§11e).
+- **Define every term the first time it appears in a chapter** unless an earlier chapter in reading order
+  taught it. Pattern: the term in bold, then the definition in plain words, e.g. "**Sarcopenia**
+  (age-related loss of muscle mass and strength)…" or "…**dysphagia**, difficulty swallowing." This is
+  the one-line just-in-time gloss; the full treatment stays in the owner chapter. Later uses in the same
+  chapter are plain text. In a definition table the terms are not bolded: the table marks them.
+- **Glossary.** Every defined term also goes in `book/glossary.qmd`, alphabetically, with the same
+  definition. If a definition changes, change it in both places. *(The glossary does not exist yet;
+  creating it is the first step of the retrofit pass.)*
+- **Never cycle synonyms for a technical term** to avoid repetition ("dietary fibre", "roughage";
+  "energy", "calories", "kilocalories" for the same thing in one paragraph). Pick the term and keep it.
+- **Spelling: British, plus house forms.** *ageing, fibre, behaviour, colour, litre, paediatric, oedema,
+  anaemia, haem/haemoglobin, oesophagus, foetal/foetus, dietitian, programme*, and **-ise** endings.
+  *wholegrain(s)* is one word; energy is *kcal* (never "Calorie" or kJ); *type 2 diabetes* is lower case.
+- **Units and numbers.** SI with a space (2 g, 1.5 mmol/L, 37 °C, 2,000 kcal); digits for measurements and
+  statistics.
+
+#### Examples
+
+Students tend to memorise every named food, trial and disease in case it is examined, and detail they
+cannot yet place pulls attention from the principle (the seductive-details effect). Examples therefore
+follow four rules.
+
+- **Anchor examples.** Prefer an example the reader has already met: a hawker dish or home food the book
+  already uses, or the chapter's own case persona. A new example needs a reason (a local study, a landmark
+  trial, the only common food that shows the trait).
+- **One example per idea**, plus at most one contrasting example when the idea is a distinction.
+- **One sentence of clinical detail**: only the fact that shows the principle. No full workup or management.
+- **Marked as an example.** Put it in an example box, so the principle and its illustration are visibly
+  different (styled in `book/styles.css`):
+  ```markdown
+  ::: {.example}
+  A plate of chicken rice and a bowl of yong tau foo can carry similar kcal…
+  :::
+  ```
+  The example box is for an illustration inside the prose; it does not replace the 🔬🍜🍳 house blocks
+  (§11b), which have their own fixed role.
+
+#### Copy-audit checklist
+
+Based on the Wikipedia guide *Signs of AI writing* (WikiProject AI Cleanup) and Pangram's corpus comparison
+of AI and human text. These patterns are not proof of anything; they make prose generic and are cheap to
+fix. The underlying fix is always the same: say the specific thing.
+
+**Vocabulary to avoid or justify:** *delve, crucial, pivotal, vital, key* (as an adjective of importance),
+*tapestry, testament, underscore, highlight* (as a verb of importance), *intricate, intricacies, meticulous,
+showcase, landscape* (figurative), *realm, interplay, robust, enduring, foster, garner, bolster, enhance,
+leverage, navigate* (figurative), *journey, unlock, harness, seamless, holistic, multifaceted, paramount,
+nuanced, invaluable, game-changer, cutting-edge, ever-evolving, dynamic, honest/honestly*.
+
+**Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
+Interestingly, Ultimately, Overall, In summary, In conclusion, It is important to note, It is worth noting*.
+
+| Pattern | Example | Fix |
+|---|---|---|
+| Negative parallelism (antithesis tic) | "It's not X, it's Y"; "not because… but because"; "not just X but also Y" | State Y directly. Keep a contrast only when the misconception X is real and named ("a marker, not a hard outcome" is fine in moderation) |
+| Significance padding | "plays a key role in", "serves as a reminder", "highlighting the importance of" | Say what it does |
+| Trailing -ing analysis | "…, highlighting how the gut adapts." | Make it a sentence with a subject, or delete |
+| Reflexive triads | three adjectives or three short clauses, every time | Use the number of items the content has |
+| Vague attribution | "experts agree", "studies show", "it is widely believed" | Name the source and cite it |
+| Section summaries | a closing paragraph that restates the section | Delete, or replace with the next question |
+| Rhetorical scaffolding | "So what does this mean?", "Here's the thing", "This is where X comes in" | Delete; start with the content |
+| Metacommentary | "this is a teaching moment", "the teaching point", "the work of this chapter", "we will practise", "the beauty of", "We turn next to…", "The table answers…", "first-year" in prose (§11d) | Delete, or replace with a sentence about the subject. Structure is shown by headings and overview figures, not narrated |
+| Hedging filler | "may potentially", "can often sometimes" | One hedge, where the evidence needs it |
+| False ranges | "from infancy to old age" when no scale is meant | List the items, or say "every life stage" |
+
+#### Formatting
+
+- **Bold** for a term at its defining use, for the five-beat lead-ins (§11a), and sparingly for one warning
+  per callout. Do not bold phrases for emphasis.
+- **No inline-header lists** (each bullet starting with a bold label and a colon or dash) unless the items
+  are genuinely labelled fields. Prefer a table or prose.
+- **Lists for parallel points.** When a paragraph sets out three or more parallel points (causes, steps,
+  examples, consequences), give them as a bulleted list introduced by a full sentence, or a numbered list
+  when the order matters. Each item is a complete sentence or a phrase parallel to the others. Reasoning
+  that links one point to the next stays in prose: a chain of "because… so…" is a paragraph, not a list.
+- **Headings in sentence case.** Emoji only in the three house-block callout headings (🔬🍜🍳, §11b); none
+  in prose or other headings. No decorative arrows or box characters in prose (a causal chain is a
+  sentence or a figure; arrows are fine inside tables and figures).
+- **Em dashes:** at most one or two per chapter in running prose, never as a substitute for a comma, colon
+  or full stop. Use a comma, colon, parentheses or a new sentence first.
+- **Straight quotes** in source files (`"` and `'`).
+
+#### Island data (quizzes, cases, diagrams)
+
+- **MCQ options** carry no bold and are about the same length; trim the correct option to a short parallel
+  statement and move the rationale into its feedback (never pad distractors).
+- **Feedback starts with the explanation**, not with "Right." or "Correct!". The component already shows
+  whether the answer was correct.
+- **Wrong-answer feedback names the misconception and gives the mechanism**, without scolding.
+- **No two consecutive feedback strings with the same opening word.**
+- **Summary and principle fields in diagram data are plain sentences:** no bolded one-line takeaway.
+
+#### Common beliefs
+
+A callout or section that addresses a widely held belief ("eating for two", the fat-burning zone, detox) is
+headed with a neutral question ("Does pregnancy double energy needs?", "Is there a fat-burning zone?"),
+states the belief and where it comes from, then gives the evidence. Avoid "myth", "busting", "corrected",
+"wrong" and other words that judge the reader. *(Several existing headings still say "myth"; retitle them
+in the retrofit pass.)*
+
+Codified after a book-wide pass (2026-07-06) that revised all 26 chapters to the original register; the
+microbio merge (2026-10-21) adds the hybrid voice, terminology/glossary, examples, common-beliefs and
+copy-audit rules, which the existing chapters do not yet follow. See [[authoring-style-rules]].
 
 ### 11h. Chapter structure — narrative movements, nesting & the restructure recipe (2026-07-09)
 
@@ -538,8 +684,9 @@ Chapters must read as a **structured narrative**, not a flat run of topics. Codi
   a colon is fine).
 - **Voice (extends §11g).** Cut chapter-about-itself meta ("this one closes it", "the hardest idea in the
   chapter", "the single most important thing this chapter teaches", roadmap sentences like "we build these in
-  order"). Keep the warm expository "you"; convert prescriptive "you should/must" to expository **unless**
-  recognise-and-refer is the actual teaching point.
+  order"). Follow the §11g hybrid voice: academic third person + *we* for exposition, *you* only for the
+  clinician in practice; convert prescriptive "you should/must" to expository **unless** recognise-and-refer
+  is the actual teaching point.
 
 **Life-stage chapters (Part II) — the normal→clinical arc.** Mirrors the life-course textbooks (Brown,
 *Nutrition Through the Life Cycle*; Bernstein & McMahon, *Nutrition Across Life Stages*), which give every
@@ -574,3 +721,14 @@ Then **render** (`node scripts/render.mjs`, exit 0), extract the rendered TOC fr
 `_book/chapters/<chapter>.html`, and confirm a clean movement→sub-topic hierarchy with **no single-child
 headings and no stranded sections**. Re-run `validate-cases.mjs` if a case was touched. See
 [[chapter-structure-recipe]].
+
+### 11i. Before review (checklist)
+
+1. `node scripts/copy-audit.mjs <chapter + its quiz/case YAML>` and reread every flagged line (§11g).
+2. `node scripts/copy-audit.mjs --you <chapter>`: every remaining *you* addresses the clinician in practice.
+3. Grep the chapter's bold-defined terms against `book/glossary.qmd`.
+4. Check every number (guideline thresholds, nutrient amounts, trial results) against its cited source.
+5. `node scripts/validate-cases.mjs` if a case was touched.
+6. Render (`node scripts/render.mjs`), then `node scripts/check-assets.mjs`, and check that internal links
+   and anchors resolve.
+7. After any restructure or rewrite, the preservation gate (§11h).
