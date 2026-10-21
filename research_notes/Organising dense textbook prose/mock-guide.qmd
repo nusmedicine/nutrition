@@ -1,0 +1,260 @@
+---
+title: "Mock: organising dense content"
+number-sections: false
+---
+
+```{=html}
+<style>
+.mock-tag { display:inline-block; font-size:0.72rem; font-weight:600; letter-spacing:0.03em;
+  color:#7a4b00; background:#fff4e0; border:1px solid #f0d3a0; border-radius:4px;
+  padding:0.05rem 0.4rem; margin:0.6rem 0 0.2rem; }
+.mock-banner { background:#f6f8fa; border:1px solid #d0d7de; border-radius:8px; padding:0.8rem 1rem; }
+dl dt { font-weight:600; margin-top:0.5rem; }
+dl dd { margin-left:1.2rem; }
+</style>
+```
+
+::: {.mock-banner}
+This page is a **review mock**, not part of the book. Part 1 is a draft authoring-guide section built from
+the research report (*Organising dense textbook prose*). Part 2 applies it to two movements of
+[*The gut microbiome*](gut-microbiome.qmd#sec-gut-who): compare them with the current chapter. Orange
+tags mark which rule each change applies; they would not appear in the book.
+:::
+
+# Part 1. Draft guide: organising dense content
+
+**Diagnosis.** "Dense" usually means too many new terms per paragraph, links between sentences left implicit,
+and weak cues to structure. It rarely means too much content. Fix it in this order:
+
+1. **Objective test.** Every sentence, box and image serves the section's objective; cut or move what does
+   not (coherence; seductive details hurt novices, g ≈ −0.33).
+2. **Pre-teach the players.** Define the key terms *before* the paragraph that runs the mechanism. More than
+   about three new bold terms in one paragraph is a density alarm: move some definitions earlier.
+3. **Cohesion rewrite.** Topic sentence states the claim; each sentence starts from what the reader already
+   has and ends on the new idea; explicit *because*, *so*, *however*, *only when*; repeat the key noun
+   instead of "this" or "it". This pass alone often fixes a dense paragraph.
+4. **Choose the form by the relation between the ideas** (table below). Keep the *why* in prose beside any
+   list, table or diagram.
+5. **Signal and check.** A descriptive heading at each real shift; bold only at definitions; figures beside
+   the paragraph that interprets them; end each movement with a *Check yourself* question.
+
+| The ideas are… | Use | Rule |
+|---|---|---|
+| A causal chain or argument | Prose | Never bullet a chain; add a flow beside it if it has 4+ steps |
+| 2–3 short parallel items | In-sentence list | "Two things protect the wall: A and B" |
+| 3–7 parallel items, each a sentence or phrase | Bulleted list | Introduced by a full sentence; items parallel |
+| A sequence whose steps need detail | Numbered list | Use `.flow` instead when the steps are 1–3 word labels |
+| Several items compared on 2+ attributes | Table | Rows in a meaningful order; one sentence states what the table shows |
+| Terms the next paragraph depends on | Definition list | Before the mechanism, not inside it |
+| A classification / a continuum | Tree / spectrum | As now (§11c) |
+| Genuinely optional depth or history | Collapsed callout | Never core content; title names the content |
+| Retrieval | *Check yourself* callout, collapsed | One or two per movement; the answer explains the mechanism and *is* the summary |
+
+**Evidence vs convention.** The strongest rules are the least countable: cue sparingly, keep causal chains in
+prose, keep figures beside their explanation, and test instead of summarising. The numbers are conventions
+from style guides, used as lint thresholds only: split sentences over ~25 words; restructure paragraphs over
+~150 words or 5 sentences; lists of 2–7 items. Bold run-in lead-ins belong only where paragraphs are
+genuinely parallel entries (the five-beat anatomy); on every paragraph of an argument they turn prose into a
+disguised list.
+
+# Part 2. Applied to *The gut microbiome*
+
+## Who lives in the gut, and how the community forms
+
+### Who lives there, and how many
+
+[bottom line first · no bold lead-in]{.mock-tag}
+
+The gut microbiome is a community of trillions of microbes, dominated by bacteria and concentrated in the
+colon [@matijasic2020beyond].
+
+::: {.concept-tree}
+[Members of the gut microbiome]{.tree-title}
+
+- Gut microbiome
+  - Bacteria: dominant by mass and function
+    - Bacillota (formerly *Firmicutes*)
+    - Bacteroidota (formerly *Bacteroidetes*)
+    - Actinomycetota, including *Bifidobacterium*
+  - Archaea, including methanogens
+  - Fungi: the **mycobiome**
+  - Viruses: mostly **bacteriophages**, viruses that infect bacteria
+:::
+
+The phylum names were formally updated in 2021, so older papers use the former ones [@oren2021valid].
+
+[relation: three parallel sites → bulleted list]{.mock-tag}
+
+Microbial density climbs steeply along the gastrointestinal tract, and each region's conditions explain its
+place on that gradient [@donaldson2016gutbiogeography]:
+
+- In the stomach, acid keeps numbers low.
+- In the small intestine, fast transit keeps numbers low.
+- In the colon, slow transit, near-neutral pH and little absorption allow the highest density, by orders of
+  magnitude, so the colon is the body's fermentation chamber (see the
+  [*Digestion & Absorption*](digestion-absorption.qmd) chapter).
+
+::: {.callout-warning}
+## Do microbes outnumber human cells ten to one?
+The figure of ten bacteria for every human cell is still widely quoted. It comes from a rough estimate made
+in the 1970s. A 2016 recount put the ratio at roughly 1:1: about 38 trillion bacteria to 30 trillion human
+cells, most of them (~84%) small red blood cells that the old estimate ignored [@sender2016revised]. The same
+recount puts total bacterial mass at about 0.2 kg; the often-quoted "1–2 kg" conflates bacteria with the
+whole weight of the colonic contents.
+:::
+
+The collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000 genes of
+the human genome [@qin2010catalogue]. This "second genome" lets gut microbes extract energy and make
+compounds that human cells cannot.
+
+[relation: causal chain → prose · cohesion rewrite (explicit "because", "so")]{.mock-tag}
+
+Two healthy people can carry very different species and still perform the same functions. This is possible
+because each function, such as fibre fermentation, vitamin synthesis or short-chain fatty acid production,
+is carried out by many different microbes, a property called **functional redundancy**
+[@moya2016functional]. People therefore share a functional core more than a taxonomic one. Functional
+redundancy also explains why **microbial diversity** (the number of species present and how evenly they are
+represented) is only a loose health marker: a richer community tends to be more resilient, but there are
+clear exceptions, so diversity is one context-dependent signal, not a number to maximise or buy in a bottle
+[@mcburney2019healthy].
+
+[optional history → collapsed]{.mock-tag}
+
+::: {.callout-note collapse="true"}
+## Optional: what happened to "enterotypes"?
+An older idea held that everyone belongs to one of three **enterotypes** (discrete community types). It is
+now read as a continuous gradient [@knights2014rethinking].
+:::
+
+### How the microbiome develops
+
+[relation: sequence needing detail → numbered list (replaces the flow, which repeated it)]{.mock-tag}
+
+The microbiome assembles over the first years of life and keeps shifting afterwards:
+
+1. At birth, the gut is sparsely and erratically colonised, and delivery mode shapes the first community
+   [@backhed2015dynamics].
+2. In infancy, feeding is the more durable influence. Breast milk carries **human milk oligosaccharides
+   (HMOs)**, sugars the infant cannot digest that selectively feed *Bifidobacterium*.
+3. Weaning onto solids diversifies the community.
+4. By about age three, after a gradual transition, the community is adult-like.
+5. Late in life, in frailty and especially in institutional care, diversity tends to decline
+   [@claesson2012elderly].
+
+::: {.callout-note}
+## Does caesarean birth permanently change the microbiome?
+Infants born by caesarean section start with a different early community, and this early difference is the
+source of the concern. The difference is largely transient: feeding mode is the stronger and more durable
+driver, and the communities converge over the first years. "Vaginal seeding" (swabbing a caesarean-born
+infant with vaginal fluid) is not an evidence-based intervention and is advised against outside research,
+partly because of infection risk [@acog2017vaginalseeding].
+:::
+
+[retrieval at the end of the movement · answer explains the mechanism]{.mock-tag}
+
+::: {.callout-tip collapse="true"}
+## Check yourself: two healthy adults carry very different gut species. Why can both still ferment fibre normally?
+Fibre fermentation is carried out by many different microbes, so different species can perform the same
+function (**functional redundancy**). The same property explains why a diversity count on its own is only a
+loose marker of gut health.
+:::
+
+## What gut microbes do for the host
+
+### Fermentation: fibre becomes fuel
+
+[pre-teach the players → definition list before the mechanism]{.mock-tag}
+
+Fermentation turns the fibre that human enzymes cannot digest into fuel for the colon. Three terms describe
+the process:
+
+Fermentation
+: The anaerobic metabolism, by colonic bacteria, of food the host's enzymes could not digest. It differs
+  from digestion, which is hydrolysis by the host's own enzymes in the small intestine [@koh2016scfa].
+
+Short-chain fatty acids (SCFAs)
+: The main products of fermentation: acetate, propionate and butyrate.
+
+Colonocytes
+: The epithelial cells lining the colon.
+
+[relation: causal chain → prose]{.mock-tag}
+
+Human enzymes cannot break down dietary fibre or resistant starch, so both reach the colon undigested (see
+the [*Digestion & Absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment them
+into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. For the host, this is the
+microbiome's most important function. Step through the pathway below, from what arrives in the colon to
+where each product goes.
+
+<div data-island="scfa-flow" data-src="/diagrams/scfa-flow.yml"></div>
+
+[relation: 3 items × 4 attributes → table (merges the bullet list and the molecule paragraph)]{.mock-tag}
+
+The three SCFAs differ by only one or two carbons, but each goes to a different place
+[@cummings1987scfa; @roediger1982colonocyte; @donohoe2011butyrate]:
+
+| SCFA | Carbons | Share (approx.) | Where it goes | What it does there |
+|---|---|---|---|---|
+| Acetate | 2 | 60% (most abundant) | Systemic circulation | Fuel for peripheral tissues and other bacteria |
+| Propionate | 3 | 20% | Liver, via the portal vein | Substrate for gluconeogenesis |
+| Butyrate | 4 | 20% (least abundant) | Stays in the colon | Preferred fuel of the colonocytes |
+
+The 60:20:20 ratio varies with diet, substrate and site. Rotate the three molecules below to see the chain
+lengths.
+
+<div data-island="molecule" data-src="/structures/scfa.mol.yml"></div>
+
+::: {.callout-important}
+## Is butyrate the most abundant SCFA?
+Because butyrate is the most discussed of the three, it is easy to assume it is also the most abundant. It is
+the least abundant, yet it is the one the colonic epithelium runs on. Oral butyrate supplements are mostly
+absorbed before they reach the colon, so claims that butyrate pills cure disease run ahead of the evidence.
+:::
+
+[mixed paragraph → split · three gases → short list]{.mock-tag}
+
+Fermentation also produces gas, the source of the bloating described in the *Digestion & Absorption*
+chapter. Alongside the SCFAs, it releases three gases:
+
+- hydrogen (H₂);
+- carbon dioxide (CO₂);
+- methane (CH₄), in people who carry **methanogenic archaea** such as *Methanobrevibacter smithii*, which
+  consume H₂ and so let fermentation continue [@chaudhary2018methanogens].
+
+More gas is produced when a large load of fermentable substrate arrives at once (undigested lactose, beans,
+onions or certain **FODMAPs**, the fermentable oligosaccharides, disaccharides, monosaccharides and polyols),
+and the distension is felt as bloating and flatulence. Gas is usually a sign that fermentation is
+proceeding normally.
+
+[causal chain → prose, with the flow figure directly beside it]{.mock-tag}
+
+A diverse microbiome is resilient partly because microbes **cross-feed**: one species lives on the products
+of another. Many butyrate producers cannot break down fibre themselves, so they depend on primary degraders
+such as *Bifidobacterium*, which ferment fibre into lactate and acetate. Butyrate producers such as
+*Faecalibacterium prausnitzii* and *Roseburia* then convert those intermediates to butyrate. A diverse range
+of fibres therefore feeds a diverse community [@riviere2016crossfeeding].
+
+```{mermaid}
+flowchart LR
+  F["Dietary fibre +<br/>resistant starch"] --> PD["Primary degraders<br/>(e.g. Bifidobacterium)"]
+  PD --> INT["Lactate + acetate"]
+  INT --> BP["Butyrate producers<br/>(F. prausnitzii, Roseburia)"]
+  BP --> BUT["Butyrate<br/>→ fuels the colon lining"]
+```
+
+[two parallel effects → in-sentence list · "however" makes the reversal explicit]{.mock-tag}
+
+SCFAs also protect the gut wall in two ways: they lower colonic pH, which discourages acid-sensitive
+pathogens, and butyrate fuels the epithelium and supports the **mucus barrier**, the layer of mucus that keeps
+bacteria away from the epithelial surface. When fibre runs short, however, gut microbes can erode that mucus
+layer for nutrients instead, thinning the barrier; this has been shown in gnotobiotic mice (germ-free mice
+colonised with a defined set of bacteria) [@desai2016fibre].
+
+[retrieval at the end of the movement]{.mock-tag}
+
+::: {.callout-tip collapse="true"}
+## Check yourself: butyrate is the least abundant SCFA. Why does losing it matter more to the colon than losing acetate?
+Butyrate is the colonocytes' preferred fuel and supports the mucus barrier, so the colon depends on it
+locally. Acetate, although more abundant, is poorly extracted in the gut and travels systemically to
+peripheral tissues. Abundance is not the same as local importance.
+:::

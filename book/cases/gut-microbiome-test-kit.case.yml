@@ -2,11 +2,11 @@ id: gut-microbiome-test-kit
 title: "I bought a gut-microbiome test kit"
 objectives:
   - "Recognise that direct-to-consumer microbiome test kits are not clinically actionable for well people."
-  - "Redirect to the real lever — fibre diversity — rather than the supplements a kit upsells."
+  - "Redirect to the real lever, fibre diversity, instead of the supplements a kit upsells."
   - "Know when symptoms warrant proper medical assessment (not a home kit)."
 difficulty: intro
 estimatedMinutes: 6
-tags: [nutrition, microbiome, evidence-literacy, myth-bust, recognition]
+tags: [nutrition, microbiome, evidence-literacy, common-beliefs, recognition]
 start: intro
 variables: { quality: 0 }
 
@@ -25,7 +25,7 @@ nodes:
     body: |
       Rachel, 24 and well, brings in a glossy **microbiome test-kit report** from a stool sample she
       mailed off. It flags her **_Bifidobacterium_ as "low"** and recommends a paid supplement bundle.
-      She has no gut symptoms — she just wants to "optimise" her gut health and asks what to do.
+      She has no gut symptoms; she just wants to "optimise" her gut health and asks what to do.
     next: q-result
 
   - id: q-result
@@ -33,20 +33,20 @@ nodes:
     stem: "What can this 'low Bifidobacterium' result actually tell Rachel about her gut health?"
     options:
       - id: a
-        text: "Very little on its own — it isn't a validated measure of gut health in a well person."
+        text: "Very little on its own; it isn't a validated measure of gut health in a well person."
         correct: true
-        feedback: "Correct. There's no agreed 'healthy' reference microbiome and results are poorly reproducible between companies — international consensus is that these kits aren't clinically actionable for well people, and the same stool can give different results from different companies."
+        feedback: "There's no agreed 'healthy' reference microbiome, and results are poorly reproducible: the same stool can give different results from different companies. International consensus is that these kits aren't clinically actionable for well people."
         effects: { quality: +1 }
         goto: q-supplements
       - id: b
-        text: "It's a precise diagnosis — a low reading means her gut is unhealthy and needs correcting."
+        text: "It's a precise diagnosis: a low reading means her gut is unhealthy and needs correcting."
         correct: false
-        feedback: "No — there's no agreed healthy reference to compare against, and reproducibility is poor. A single 'low' reading isn't a diagnosis."
+        feedback: "With no agreed healthy reference to compare against, and poor reproducibility, a single 'low' reading isn't a diagnosis."
         goto: q-supplements
       - id: c
         text: "It proves she has a disease that the supplements will treat."
         correct: false
-        feedback: "No — it proves nothing of the sort. These kits aren't validated to diagnose disease, and the supplement recommendation is marketing."
+        feedback: "These kits aren't validated to diagnose disease, and the supplement recommendation is marketing."
         goto: q-supplements
 
   - id: q-supplements
@@ -54,18 +54,18 @@ nodes:
     stem: "Should she buy the supplement bundle the report recommends?"
     options:
       - id: a
-        text: "No — that's an upsell built into the product, not a treatment need."
+        text: "No, that's an upsell built into the product, not a treatment need."
         correct: true
-        feedback: "Exactly. The test-and-supplement loop is a business model, not a treatment — there's no evidence a well person benefits, and the money is better spent on more varied plants. Food-first beats a bottle here."
+        feedback: "The test-and-supplement loop is a business model, not a treatment. There's no evidence a well person benefits, and the money is better spent on more varied plants."
         effects: { quality: +1 }
         goto: q-help
       - id: b
-        text: "Yes — if the report recommends them, they must be needed."
+        text: "Yes, if the report recommends them, they must be needed."
         correct: false
         feedback: "The recommendation is generated to sell products, not from validated clinical need. There's no good evidence a well person benefits."
         goto: q-help
       - id: c
-        text: "Yes — probiotics are harmless, so she may as well."
+        text: "Yes, probiotics are harmless, so she may as well."
         correct: false
         feedback: "Even setting aside cost, routine probiotics aren't recommended for well people, and can even delay microbiome recovery in some settings. Not a good default."
         goto: q-help
@@ -75,20 +75,20 @@ nodes:
     stem: "What actually helps her 'gut health'?"
     options:
       - id: a
-        text: "Eating a wide variety of plants across the week — no single superfood or test needed."
+        text: "Eating a wide variety of plants across the week, with no superfood or test."
         correct: true
-        feedback: "Right — diverse fibre from many different wholegrains, legumes, vegetables, fruit and nuts feeds a diverse, resilient microbiome. Fibre diversity is the real, evidence-based lever (and most of us fall short: only ~4% of Singapore's staples are wholegrain). Variety beats any product."
+        feedback: "Diverse fibre from many different wholegrains, legumes, vegetables, fruit and nuts feeds a diverse, resilient microbiome. Fibre diversity is the evidence-based lever, and most people fall short: only ~4% of Singapore's staples are wholegrain."
         effects: { quality: +1 }
         goto: q-symptoms
       - id: b
         text: "Find the one 'gut superfood' and eat lots of it."
         correct: false
-        feedback: "There's no single superfood — the lever is variety of fibre across the week (cross-feeding needs diverse substrates)."
+        feedback: "No single food does this; the lever is variety of fibre across the week (cross-feeding needs diverse substrates)."
         goto: q-symptoms
       - id: c
         text: "Repeat the test monthly to track her progress."
         correct: false
-        feedback: "No — the test isn't reproducible or actionable, so tracking it is spending money to chase noise. Focus on diverse plants instead."
+        feedback: "The test isn't reproducible or actionable, so tracking it spends money to chase noise. Diverse plants are the lever."
         goto: q-symptoms
 
   - id: q-symptoms
@@ -96,20 +96,20 @@ nodes:
     stem: "Rachel mentions that lately she's also had some persistent change in her bowel habit and occasional blood. What now?"
     options:
       - id: a
-        text: "That changes things — these symptoms need proper medical assessment, not a home kit."
+        text: "That changes things: these symptoms need proper medical assessment, not a home kit."
         correct: true
-        feedback: "Correct. Real symptoms — especially bleeding or a persistent change in bowel habit — are a red flag that warrants proper assessment, which a consumer kit can't provide. Recognise and refer."
+        feedback: "Real symptoms, especially bleeding or a persistent change in bowel habit, are a red flag that warrants proper assessment, which a consumer kit can't provide. Recognise and refer."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Reassure her the microbiome kit already covered it, so no further assessment is needed."
         correct: false
-        feedback: "No — the kit can't evaluate symptoms like bleeding. Persistent change in bowel habit or blood needs proper medical assessment."
+        feedback: "The kit can't evaluate symptoms like bleeding. Persistent change in bowel habit or blood needs proper medical assessment."
         goto: route
       - id: c
         text: "Tell her to just add more fibre and ignore the bleeding."
         correct: false
-        feedback: "No — bleeding and a persistent change in bowel habit are red flags that need assessment, not a dietary tweak."
+        feedback: "Bleeding and a persistent change in bowel habit are red flags that need assessment, not a dietary tweak."
         goto: route
 
   - id: route
@@ -124,11 +124,10 @@ nodes:
     title: "The two-part message"
     body: |
       Two things to hold together. For a **well** person, a direct-to-consumer microbiome kit is
-      **not clinically actionable** — no agreed healthy reference, poor reproducibility, no proven
-      action — and its supplement recommendations are an upsell; the real lever is **fibre
-      diversity** (many different plants). But **real symptoms** — persistent change in bowel habit,
-      bleeding, weight loss — are a different matter: they need **proper medical assessment**, not a
-      home kit.
+      not clinically actionable (no agreed healthy reference, poor reproducibility, no proven
+      action), and its supplement recommendations are an upsell; the real lever is fibre diversity
+      (many different plants). Real symptoms (persistent change in bowel habit, bleeding, weight
+      loss) are a different matter: they need **proper medical assessment**, not a home kit.
     next: end-partial
 
   - id: end-good
@@ -139,14 +138,14 @@ nodes:
       You saw through the kit: for a well person it's not actionable (no healthy reference, poor
       reproducibility), the supplement bundle is an upsell, and the real lever is **eating a wider
       variety of plants**. And when Rachel mentioned bleeding and a persistent change in bowel habit,
-      you recognised the red flag and steered her to **proper assessment** — the one thing a home kit
-      can't do. Evidence-literate and safe.
+      you recognised the red flag and steered her to **proper assessment**, the one thing a home kit
+      can't do.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "DTC microbiome kits aren't clinically actionable for well people (no healthy reference, poor reproducibility)."
         - "The supplement recommendation is an upsell; fibre diversity is the real, food-first lever."
-        - "Persistent symptoms or bleeding need medical assessment, not a home kit — recognise and refer."
+        - "Persistent symptoms or bleeding need medical assessment, not a home kit: recognise and refer."
 
   - id: end-partial
     type: end
@@ -155,7 +154,7 @@ nodes:
     body: |
       You worked through it, but the reasoning slipped. The take-home: a microbiome kit tells a well
       person **little that's actionable**, its supplements are an **upsell**, and the real lever is
-      **fibre diversity** — while genuine symptoms like bleeding need **proper assessment**, not a
+      **fibre diversity**, while genuine symptoms like bleeding need **proper assessment**, not a
       kit. Replay to firm up the two-part message.
     debrief:
       objectivesMet: [1]

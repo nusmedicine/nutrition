@@ -23,7 +23,7 @@ function walk(dir, out = []) {
   for (const e of readdirSync(dir, { withFileTypes: true })) {
     const p = join(dir, e.name);
     if (e.isDirectory()) {
-      if (['_book', '.quarto', 'assets', 'figures', 'site_libs', 'structures'].includes(e.name)) continue;
+      if (['_book', '.quarto', 'assets', 'figures', 'site_libs'].includes(e.name)) continue;
       walk(p, out);
     } else if (/\.(qmd|ya?ml)$/.test(e.name) && e.name !== '_quarto.yml') out.push(p);
   }
@@ -108,12 +108,12 @@ for (const f of files) {
       if (r.qmdOnly && !isQmd) continue;
       if (r.yamlOnly && isQmd) continue;
       if (r.id === 'first-year' && frontMatter) continue;
-      if (r.id === 'you' && /Check your understanding\b/.test(line)) continue; // fixed quiz heading
+      const text = r.id === 'you' ? line.replace(/Check your(self| understanding)\b/g, '') : line; // fixed headings (AUTHOR.md §11j)
       if (r.id === 'emoji' && /^#+\s*(🔬|🍜|🍳)/.test(line)) continue;
       if (r.id === 'arrow' && /^\s*\|/.test(line)) continue; // arrows are fine inside tables
       r.re.lastIndex = 0;
       let m;
-      while ((m = r.re.exec(line))) {
+      while ((m = r.re.exec(text))) {
         if (r.id === 'you') { you++; if (!listYou) continue; }
         hits.push({ line: i + 1, rule: r.id, why: r.why, text: m[0], ctx: line.trim().slice(0, 140) });
         if (!r.re.global) break;

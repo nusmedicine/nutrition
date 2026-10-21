@@ -1,10 +1,5 @@
 id: scfa-flow
 title: "Fibre → short-chain fatty acids"
-intro: >
-  The microbiome's signature job: fermenting the fibre your own enzymes could not digest into
-  short-chain fatty acids (SCFAs) that fuel your gut and signal to your body. Step through it — what
-  arrives, who ferments it, what comes out (in roughly 60:20:20), and where each product goes. Click
-  any short-chain fatty acid or its destination for detail.
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 viewBox: "0 0 770 430"
 
@@ -19,18 +14,18 @@ cargo:
 nodes:
   - id: substrate
     label: "Fibre + resistant starch"
-    sub: "escaped digestion (Ch.5)"
+    sub: "escaped digestion"
     x: 100
     y: 215
     kind: substrate
-    detail: "Dietary fibre, resistant starch and some oligosaccharides that your own small-intestinal enzymes cannot break down travel undigested to the colon."
+    detail: "Dietary fibre, resistant starch and some oligosaccharides that human small-intestinal enzymes cannot break down travel undigested to the colon."
   - id: ferment
     label: "Anaerobic bacteria"
-    sub: "ferment — no oxygen"
+    sub: "ferment without oxygen"
     x: 265
     y: 215
     kind: ferment
-    detail: "Colonic bacteria ferment the fibre without oxygen — bacterial metabolism, not your digestion. This is why it happens in the colon, not the small intestine."
+    detail: "Colonic bacteria ferment the fibre without oxygen. Fermentation is bacterial metabolism, distinct from the host's digestion, which is why it happens in the colon and not the small intestine."
   - id: acetate
     label: "Acetate"
     sub: "~60%"
@@ -38,7 +33,7 @@ nodes:
     y: 95
     kind: scfa
     pct: 60
-    detail: "The most abundant SCFA. Poorly extracted by the liver, so it travels systemically to peripheral tissues (and feeds other bacteria)."
+    detail: "The most abundant SCFA. It is poorly extracted by the liver, so it travels systemically to peripheral tissues and also feeds other bacteria."
   - id: propionate
     label: "Propionate"
     sub: "~20%"
@@ -46,43 +41,43 @@ nodes:
     y: 215
     kind: scfa
     pct: 20
-    detail: "Taken up by the liver via the portal vein, where it is a gluconeogenic substrate — a raw material for making glucose (Chapter 6)."
+    detail: "Taken up by the liver via the portal vein, where it is a substrate for gluconeogenesis (see the Integrative Metabolism chapter)."
   - id: butyrate
     label: "Butyrate"
-    sub: "~20% — the star"
+    sub: "~20%, least abundant"
     x: 455
     y: 335
     kind: scfa
     pct: 20
-    detail: "The LEAST abundant SCFA but the most important locally: the preferred fuel of the colonocytes, supplying the bulk of the colon lining's energy and supporting the mucus barrier."
+    detail: "The least abundant SCFA but the most important locally: the preferred fuel of the colonocytes, supplying most of their energy and supporting the mucus barrier."
   - id: gas
     label: "Gas"
     sub: "H₂, CO₂, CH₄"
     x: 265
     y: 355
     kind: gas
-    detail: "By-products of fermentation. Too much fermentable substrate at once (undigested lactose, beans, onions, FODMAPs) means more gas — the bloating mechanism Chapter 5 deferred. Methanogens turn H₂ into CH₄."
+    detail: "By-products of fermentation. A large load of fermentable substrate at once (undigested lactose, beans, onions, FODMAPs) means more gas, which is the cause of bloating. Methanogenic archaea turn H₂ into CH₄."
   - id: systemic
     label: "Systemic"
     sub: "peripheral tissues"
     x: 660
     y: 95
     kind: fate
-    detail: "Acetate reaches muscle, brain and other tissues, and other gut bacteria — the most far-travelling SCFA."
+    detail: "Acetate, the most far-travelling SCFA, reaches muscle, brain and other tissues, and other gut bacteria."
   - id: liver
     label: "Liver"
     sub: "gluconeogenesis"
     x: 660
     y: 215
     kind: fate
-    detail: "Propionate arrives by the portal vein and feeds into glucose production (Chapter 6)."
+    detail: "Propionate arrives by the portal vein and feeds into glucose production."
   - id: colonocytes
     label: "Colonocytes"
     sub: "colon lining fuel"
     x: 660
     y: 335
     kind: fate
-    detail: "Butyrate is burned right here by the cells lining the colon — their preferred fuel. The payoff of eating fibre."
+    detail: "Butyrate is oxidised here by the colonocytes, the cells lining the colon, as their preferred fuel."
 
 edges:
   - { from: substrate,  to: ferment,     step: 1, kind: substrate }
@@ -97,20 +92,18 @@ edges:
 steps:
   - title: "Fibre reaches the colon"
     caption: >
-      Dietary fibre and resistant starch escape digestion in the small intestine (Chapter 5) and
-      arrive, intact, in the colon — the body's fermentation chamber.
+      Dietary fibre and resistant starch escape digestion in the small intestine and arrive intact
+      in the colon, the body's fermentation chamber.
   - title: "Bacteria ferment it into SCFAs"
     caption: >
-      Anaerobic colonic bacteria ferment the fibre — without oxygen — into three short-chain fatty
-      acids in an approximate ratio of 60:20:20 (acetate : propionate : butyrate). It varies with
-      diet and site, so treat it as "roughly 60:20:20."
+      Anaerobic colonic bacteria ferment the fibre into three short-chain fatty acids, in an
+      approximate ratio of 60:20:20 (acetate : propionate : butyrate) that varies with diet and site.
   - title: "…and gas"
     caption: >
-      Fermentation also releases hydrogen, carbon dioxide and (in some people) methane. A big load
-      of fermentable substrate at once means more gas — the bloating mechanism. Usually a sign the
-      system is working, not failing.
+      Fermentation also releases hydrogen, carbon dioxide and, in some people, methane. A large load
+      of fermentable substrate at once means more gas and bloating. Gas is usually a sign that
+      fermentation is proceeding normally.
   - title: "Each SCFA has a fate"
     caption: >
-      Acetate travels systemically; propionate goes to the liver (gluconeogenesis, Chapter 6); and
-      butyrate — the least abundant — is burned locally as the colonocytes' preferred fuel. Note that
-      abundance is not importance: the star, butyrate, is the smallest share.
+      Acetate travels systemically; propionate goes to the liver for gluconeogenesis; and butyrate,
+      the least abundant, is oxidised locally as the colonocytes' preferred fuel.

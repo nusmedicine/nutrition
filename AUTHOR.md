@@ -403,10 +403,12 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
   (an in-world hook; "we" is allowed, "This chapter…" is not)
 ::: {.callout-note}             — "## Learning objectives": 4–6 verb phrases a student should be able
                                   to do ("Explain…", "Distinguish…", "Recognise… and refer")
+::: {.concept-tree}             — chapter map: ≤4 branches (the movements), each linked to its section
 ## <Topic> at a glance          — orientation; an overview figure/table shows the structure (no
                                   narrated roadmap, §11g)
 ## <Movement 1>  ┐ 3–5 named narrative beats (§11h); topics within a movement
-## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned
+## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned;
+                   each movement ends with a collapsed "Check yourself" (§11j)
 ##   …            — ### only where a movement splits into 2+ real sub-topics, never a lone child
 ## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out")
 ## <Chapter-question close>      — e.g. "Is body weight just calories in minus out?"
@@ -417,6 +419,35 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 **Chapter ending.** The close-question section answers the chapter's question with content; it does not
 restate the chapter as a summary or announce the next chapter (the page footer links to it). Then quiz,
 case, references.
+
+**Overview and hierarchy diagrams** (ported from *book-microbio* `STYLE.md` §4; styles in
+`book/styles.css`). Prose that lists several related groups, stages or levels of evidence is hard to parse
+without a frame to hang it on. Give the frame as a diagram written in Markdown, placed **before** the prose
+that fills it in, and pick the form by the shape of the content:
+
+| Content | Form | Markdown |
+|---|---|---|
+| The chapter's own structure | **Chapter map** after the learning objectives: at most four branches (the movements), each linked to its section; section headings follow the map | `::: {.concept-tree}` + `[Chapter map]{.tree-title}` + nested list of `[Heading](#sec-id)` |
+| A classification with real subdivisions | **Tree**, no more than three levels | `::: {.concept-tree}` + nested bulleted list |
+| Categories that are ends of a continuous range (strength of evidence, rate of fermentation, glycaemic response) | **Spectrum**, so the diagram does not teach a false either/or | `::: {.spectrum}` + bulleted list + `[Left]{.spectrum-end} [Right]{.spectrum-end}` |
+| Categories compared on the same attributes | **Table** | Markdown table |
+| A sequence of four to seven steps or stages | **Flow** | `::: {.flow}` + numbered list |
+
+```markdown
+::: {.concept-tree}
+[Chapter map]{.tree-title}
+
+- [Who lives in the gut](#sec-gut-who)
+  - [Who lives there, and how many](#sec-composition)
+  - [How the microbiome develops](#sec-development)
+- [What gut microbes do for the host](#sec-gut-function)
+:::
+```
+
+Rules: each node is a short phrase, not a sentence of new content (the prose and its citations carry the
+facts); a diagram never introduces a claim the chapter does not make and cite; do not redraw something an
+interactive island or figure already shows (the island owns it); a `##` movement needs an `{#sec-…}` id for
+the chapter map to link to.
 
 ### 11d. House rules (apply everywhere)
 
@@ -541,7 +572,13 @@ will be fine where they stand. It always exits 0.
   store" becomes "Glycogen is a store". Convert prescriptive "you should/must" to expository unless
   recognise-and-refer is the actual teaching point (§11h).
 - **Islands and instructions** (quizzes, cases, the one sentence telling the reader how to use an island)
-  may use the imperative or *you*.
+  may use the imperative or *you*. So may the practical advice in the 🍜🍳 house blocks ("Increase fibre
+  gradually"), which is the advice a patient would be given; drop "your gut"-style possessives there.
+- **Quoted claims keep their wording.** A marketing claim or patient belief in quotation marks ("A test
+  kit tells you how healthy your gut is") is not the book's voice; leave its *you*.
+- **No movement intros.** A `##` movement that opens straight into `###` sub-topics needs no lead-in
+  sentence ("Start with the two questions…", "The microbiome earns its keep in two ways…"); the headings
+  carry the structure.
 - **The book never acts.** A book, part, chapter or section is never the subject of an action verb: not
   "This chapter explains…", "the *Integrative Metabolism* chapter returns to…", "The next chapter takes
   up…". Write "We return to…", or give the reference in parentheses after the fact it supports: "(see the
@@ -571,8 +608,10 @@ will be fine where they stand. It always exits 0.
   the one-line just-in-time gloss; the full treatment stays in the owner chapter. Later uses in the same
   chapter are plain text. In a definition table the terms are not bolded: the table marks them.
 - **Glossary.** Every defined term also goes in `book/glossary.qmd`, alphabetically, with the same
-  definition. If a definition changes, change it in both places. *(The glossary does not exist yet;
-  creating it is the first step of the retrofit pass.)*
+  definition, plus the chapter where it is introduced; it is a three-column table (term, meaning,
+  introduced in) with the terms unbolded. If a definition changes, change it in both places. *(The
+  glossary is Appendix A; it is filled chapter by chapter as each is retrofitted. Pilot: *The Gut
+  Microbiome*.)*
 - **Never cycle synonyms for a technical term** to avoid repetition ("dietary fibre", "roughage";
   "energy", "calories", "kilocalories" for the same thing in one paragraph). Pick the term and keep it.
 - **Spelling: British, plus house forms.** *ageing, fibre, behaviour, colour, litre, paediatric, oedema,
@@ -732,3 +771,97 @@ headings and no stranded sections**. Re-run `validate-cases.mjs` if a case was t
 6. Render (`node scripts/render.mjs`), then `node scripts/check-assets.mjs`, and check that internal links
    and anchors resolve.
 7. After any restructure or rewrite, the preservation gate (§11h).
+8. The chapter's island YAML (`diagrams/`, `structures/`) is prose too: run it through the same rules and
+   cut any intro text that repeats the chapter paragraph beside it (§11j).
+
+### 11j. Organising dense content (2026-10-21)
+
+A colleague's complaint that the book is "dense, hard to read" prompted a literature review
+([reports/Organising dense textbook prose.md](reports/Organising%20dense%20textbook%20prose.md); notes in
+`research_notes/`). Its finding: "dense" usually means **too many new terms per paragraph, links between
+sentences left implicit, and weak cues to structure**. It rarely means too much content, and the "short
+attention span" explanation is a myth. Revision is therefore mostly *additive* for structure and
+*subtractive* only for material that fails the section's objective or repeats a figure. Worked example: the
+*The Gut Microbiome* pilot.
+
+Each rule carries a label: **[E]** evidence (meta-analyses or medical-education trials), **[E–]** limited
+evidence, **[C]** convention from style guides (GOV.UK, NHS, Microsoft, Google; no experiment behind the
+number), **[H]** house heuristic.
+
+#### The five passes, in order
+
+1. **Objective test [E].** Every sentence, box and image serves the section's objective; cut or move what
+   does not. Interesting-but-irrelevant detail lowers learning (seductive details, g ≈ −0.33), most for
+   novices and under time pressure. Singapore context that carries the practical point is not a seductive
+   detail; trivia and historical asides are.
+2. **Pre-teach the players [E–].** Define the key terms *before* the paragraph that runs the mechanism, as a
+   short definition list or a sentence of glosses, not scattered inside it. More than about three new bold
+   terms in one paragraph [H] is a density alarm: move some definitions earlier.
+3. **Cohesion rewrite [E].** Low-knowledge readers (first-years) understand more from explicit text. Open
+   with a topic sentence that states the claim; start each sentence from what the reader already has and
+   end on the new idea; make the links explicit (*because*, *so*, *however*, *only when*); repeat the key
+   noun instead of "this" or "it". This pass alone often fixes a dense paragraph.
+4. **Choose the form by the relation between the ideas** (table below). Keep the *why* in prose beside any
+   list, table or diagram, with one sentence stating what the device shows.
+5. **Signal and check [E].** A descriptive heading at each real shift; bold only at definitions; figures
+   beside the paragraph that interprets them [E] (prose interprets the figure, it does not re-narrate
+   every arrow); end each movement with a *Check yourself* question.
+
+#### Form by relation
+
+| The ideas are… | Use | Rule | Label |
+|---|---|---|---|
+| A causal chain, argument or caveat | Prose | Never bullet a chain: bullets help recall of parallel items but cost the surrounding reasoning, and mechanism beats feature lists for lasting diagnostic knowledge. Add a flow *beside* it if it has 4+ steps | [E–]; 4 steps [H] |
+| 2–3 short parallel items | In-sentence list | "SCFAs protect the wall in two ways: A, and B" | [H] |
+| 3–7 parallel items, each a sentence or phrase | Bulleted list | Introduced by a full sentence; items grammatically parallel; never one item | [C] |
+| A sequence whose steps need detail | Numbered list | Use `.flow` instead when the steps are 1–3-word labels; never both for the same sequence | [C] |
+| Several items compared on 2+ attributes | Table | Rows in a meaningful order (mechanism, severity), alphabetical only for look-up | [E] |
+| Terms the next paragraph depends on | Definition list | Before the mechanism; terms unbolded (the list marks them) | [E–] |
+| A classification / a continuum | Tree / spectrum | As in §11c | [H] |
+| Genuinely optional depth or history | Collapsed callout | `{.callout-note collapse="true"}` titled "Optional: …"; never core content (hidden content goes unread) | [C] |
+| Retrieval | *Check yourself* | See below | [E] |
+
+```markdown
+Fermentation turns the fibre that human enzymes cannot digest into fuel for the colon. Three terms describe
+the process:
+
+Fermentation
+: The anaerobic metabolism, by colonic bacteria, of food the host's enzymes could not digest.
+
+Short-chain fatty acids (SCFAs)
+: The main products of fermentation: acetate, propionate and butyrate.
+```
+
+#### *Check yourself* after each movement [E]
+
+Retrieval practice with explanatory feedback is the best-evidenced intervention in the review (in medical
+trainees, 39% vs 26% retained at six months) and also corrects the overconfidence of screen reading. End
+each `##` movement (not the Singapore picture or the close) with one, at most two, collapsed questions:
+
+```markdown
+::: {.callout-tip collapse="true"}
+## Check yourself: two healthy adults carry very different gut species. Why can both still ferment fibre normally?
+Fibre fermentation is carried out by many different microbes, so different species can perform the same
+function (functional redundancy). ...
+:::
+```
+
+The question asks *why* or *what follows*, never a bare recall fact. The answer explains the mechanism in
+2–4 sentences; it *is* the movement's summary, so the chapter needs no summary box. The end-of-chapter quiz
+and case stay.
+
+#### Signals, kept scarce [E]
+
+Cues work only while they are scarce: heavy bold cancels its own benefit. Bold the defining use of a term
+and at most one warning per callout. **Bold run-in lead-ins** belong only where paragraphs are genuinely
+parallel entries (the five-beat anatomy, §11a); on every paragraph of an argument they turn prose into a
+disguised list, so open such paragraphs with a plain topic sentence instead. Keep callout types consistent
+and few per screen [H].
+
+#### Thresholds (lint, not law) [C]
+
+Split sentences over ~25 words, especially those stacking several new terms. Restructure paragraphs over
+~150 words or ~5 sentences (one idea per paragraph). Lists of 2–7 items. Reading level stays at an expert
+audience's (terms are taught, not avoided). These numbers come from style guides; the evidence-backed rules
+above (scarce cues, chains in prose, figures beside text, test instead of summarise) matter more and cannot
+be counted.
