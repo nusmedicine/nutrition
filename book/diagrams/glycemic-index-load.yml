@@ -2,11 +2,11 @@ id: glycemic-index-load
 title: "Glycaemic index vs glycaemic load"
 ref_serving_note: >
   Servings are typical single portions; "carbs" is available carbohydrate (the
-  quantity that drives the glucose response). GL is computed as GI × carbs ÷ 100.
-  GI/GL values are representative teaching figures from international GI tables
-  (Atkinson et al. 2008/2021) and vary by variety, ripeness, processing and cooking —
-  they are a concept for understanding carbohydrate quality and portion, not a precise
-  clinical tool.
+  quantity that drives the glucose response).
+  GI and GL values are representative teaching figures from international GI tables
+  (Atkinson et al. 2008/2021) and vary with variety, ripeness, processing and cooking.
+  They illustrate carbohydrate quality and portion; they are not a precise clinical
+  tool.
 
 # Order matters: the first food is shown by default. Watermelon is the headline
 # high-GI / low-GL case; boiled potato is the compare anchor (near-identical peak,

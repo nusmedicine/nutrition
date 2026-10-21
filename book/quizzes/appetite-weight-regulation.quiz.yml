@@ -6,118 +6,118 @@ questions:
     options:
       - text: "Leptin signals fullness; ghrelin signals hunger."
         correct: true
-        feedback: "Correct. Leptin (from fat) is the slow, long-term fuel-gauge that suppresses appetite; ghrelin (from the stomach) is the fast hunger hormone that rises before meals and falls after eating. Swapping them is the commonest slip."
+        feedback: "Leptin, made by fat, is the slow, long-term fuel gauge that suppresses appetite; ghrelin, made by the stomach, is the fast hunger hormone that rises before meals and falls after eating. The two are easily swapped."
       - text: "Leptin signals hunger; ghrelin signals fullness."
         correct: false
-        feedback: "Reversed. Leptin (from fat) suppresses appetite over the long term; ghrelin (from the stomach) drives hunger before meals."
-      - text: "Both leptin and ghrelin are made by the stomach and signal fullness."
+        feedback: "This reverses them. Leptin (from fat) suppresses appetite over the long term; ghrelin (from the stomach) drives hunger before meals."
+      - text: "Both are made by the stomach and signal fullness."
         correct: false
-        feedback: "No — leptin is made by fat (long-term gauge); ghrelin is made by the stomach and signals hunger."
+        feedback: "Only ghrelin comes from the stomach, and it signals hunger; leptin is made by fat and is the long-term gauge."
   - id: q-mc4r
-    stem: "MC4R mutations are the commonest single-gene cause of severe obesity. What does that prove?"
+    stem: "MC4R mutations are the commonest single-gene cause of severe obesity. What does that show?"
     options:
-      - text: "That appetite is a biological drive, not just willpower."
+      - text: "That appetite is a drive, not just willpower."
         correct: true
-        feedback: "Correct. Break the appetite 'brake' at the MC4R receptor and people become relentlessly hungry — appetite is a real drive set by a brain circuit, not simply a matter of willpower. This underpins the non-stigmatising view of weight."
-      - text: "That obesity is always genetic."
+        feedback: "When the appetite brake fails at MC4R, people become relentlessly hungry, so appetite is a real drive set by a brain circuit. This is the biological basis for treating weight without blame."
+      - text: "That obesity is always genetic in origin."
         correct: false
-        feedback: "No — MC4R mutations explain only a small fraction (~6%) of severe childhood obesity. The point is what they prove: appetite is a signalled biological drive."
+        feedback: "MC4R mutations explain only a small fraction (about 6%) of severe childhood-onset obesity. Their importance is what they show: appetite is a signalled biological drive."
       - text: "That people with obesity lack willpower."
         correct: false
-        feedback: "The opposite — a broken appetite circuit causes hunger regardless of willpower, which is exactly the anti-stigma lesson."
+        feedback: "A broken appetite circuit causes hunger regardless of willpower, so the finding points away from blame."
   - id: q-leptin-resistance
     stem: "Why doesn't giving leptin cure common obesity?"
     options:
-      - text: "They already have high leptin and are resistant to it."
+      - text: "Their leptin is high, and the brain resists it."
         correct: true
-        feedback: "Correct. More fat makes more leptin, but the brain stops responding (leptin resistance), so giving more doesn't help. Recombinant leptin gave only modest, variable loss in common obesity — but rescues the rare person with congenital deficiency."
-      - text: "People with obesity are leptin-deficient and need large doses."
+        feedback: "More fat makes more leptin, but the brain stops responding (leptin resistance), so giving more does little. Recombinant leptin gave only modest, variable weight loss in common obesity, although it rescues the rare person with congenital deficiency."
+      - text: "They lack leptin and need much larger doses."
         correct: false
-        feedback: "No — that's the rare congenital case. In common obesity leptin is HIGH; the problem is resistance, not deficiency."
-      - text: "Leptin only works if combined with a diet."
+        feedback: "Leptin deficiency is the rare congenital case. In common obesity leptin is high, and the problem is resistance, not deficiency."
+      - text: "Leptin works only when combined with a diet."
         correct: false
-        feedback: "No — the issue is leptin resistance: high leptin that the brain ignores. Leptin therapy simply doesn't work for common obesity."
+        feedback: "Diet is not the missing ingredient: the brain ignores the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
   - id: q-satiation-satiety
     stem: "You put your fork down, full, at the end of a meal. Which term describes what just ended the meal?"
     options:
       - text: "Satiation."
         correct: true
-        feedback: "Correct. Satiation is the fullness that builds during a meal and ends it (sets meal size); satiety is the later fullness that delays the NEXT meal; hunger starts a meal."
+        feedback: "Satiation is the fullness that builds during a meal and ends it (it sets meal size); satiety is the later fullness that delays the next meal; hunger starts a meal."
       - text: "Satiety."
         correct: false
-        feedback: "Close — satiety is the fullness AFTER the meal that delays the next one. What ends the meal itself is satiation."
+        feedback: "Satiety is the fullness after the meal that delays the next one. What ends the meal itself is satiation."
       - text: "Hunger."
         correct: false
-        feedback: "Hunger starts a meal. What ends it is satiation."
+        feedback: "Hunger starts a meal; satiation is what ends it."
   - id: q-liquid
     stem: "Two snacks contain the same 450 kcal: one as jelly beans (solid), one as soft drink (liquid). What tends to happen?"
     options:
-      - text: "The liquid calories are poorly compensated for and add on."
+      - text: "The liquid calories are poorly compensated for."
         correct: true
-        feedback: "Correct — 'you don't drink your fullness.' People eat less later to offset the solid calories but not the liquid ones, so liquid calories give weak satiety, poor compensation, and weight gain — a clean reason to eat fruit rather than drink it."
-      - text: "Both are compensated for equally, since the calories are identical."
+        feedback: "People eat less later to offset solid calories but not liquid ones, so liquid calories give weak satiety, poor compensation and weight gain. The same logic favours eating fruit over drinking it."
+      - text: "Both are compensated for equally, as the calories match."
         correct: false
-        feedback: "No — this is the point of the classic study: the SAME calories as liquid produced no compensation and weight gain, unlike the solid."
-      - text: "The liquid is more filling because it's absorbed faster."
+        feedback: "Identical calories were not handled identically: in the classic study, the same 450 kcal as soft drink produced no compensation and caused weight gain, unlike the jelly beans."
+      - text: "The liquid is more filling, as it is absorbed faster."
         correct: false
-        feedback: "The opposite — liquid calories empty fast and give weak fullness, so they're poorly compensated for."
+        feedback: "Liquid calories empty from the stomach fast and give weak fullness, so they are poorly compensated for."
   - id: q-wanting-liking
-    stem: "You intensely crave a food you don't even enjoy that much anymore. Which brain process is driving the craving?"
+    stem: "You intensely crave a food you don't even enjoy that much any more. Which brain process is driving the craving?"
     options:
-      - text: "'Wanting' (incentive salience), driven by dopamine."
+      - text: "'Wanting', driven by dopamine."
         correct: true
-        feedback: "Correct. Dopamine drives the pursuit (wanting), which is separate from 'liking' (the actual pleasure) — they can come apart. 'Dopamine = the pleasure chemical' is the myth to unlearn."
-      - text: "'Liking' (actual pleasure), driven by dopamine."
+        feedback: "Dopamine drives the pursuit (wanting), which is separate from liking, the actual pleasure; the two can come apart. The popular idea that dopamine is the pleasure chemical does not fit this evidence."
+      - text: "'Liking', driven by dopamine."
         correct: false
-        feedback: "No — dopamine drives WANTING (motivation), not liking (pleasure, which is opioid-driven). You can want what you no longer like."
-      - text: "Low blood sugar creating real hunger."
+        feedback: "Liking, the pleasure itself, depends on opioid hotspots; dopamine drives wanting. A person can want what they no longer like."
+      - text: "Low blood glucose driving true hunger."
         correct: false
-        feedback: "This is hedonic (reward-driven) wanting, not homeostatic hunger — and it's dopamine-driven pursuit, distinct from pleasure."
+        feedback: "This is reward-driven (hedonic) wanting, not homeostatic hunger from low energy, and it is the dopamine-driven pursuit, distinct from pleasure."
   - id: q-defended
     stem: "A patient loses weight, then over the next year feels constantly hungry and regains most of it despite eating carefully. Why?"
     options:
       - text: "The body defends its weight and pushes to reclaim the lost fat."
         correct: true
-        feedback: "Correct. Weight regain is the predicted output of a defended system — leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts. Three coordinated arms reclaim the lost fat. It's biology, not a willpower failure."
+        feedback: "Weight regain is the predicted output of a defended system: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts. All three push to reclaim the lost fat."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
-        feedback: "No — this is the stigmatising myth the chapter dismantles. Persistent hunger-hormone shifts plus adaptive thermogenesis actively oppose maintenance."
+        feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis actively oppose weight maintenance."
       - text: "The lost weight was only water, so it returned automatically."
         correct: false
-        feedback: "No — real fat was lost; the regain is driven by a defended system (falling leptin, rising hunger hormones, adaptive thermogenesis)."
+        feedback: "Real fat was lost; the regain is driven by a defended system (falling leptin, rising hunger hormones, adaptive thermogenesis)."
   - id: q-adaptation
     stem: "Is it true that dieting 'permanently wrecks your metabolism'?"
     options:
-      - text: "No — adaptation is real but modest and largely reversible."
+      - text: "No, adaptation is real but modest and largely reversible."
         correct: true
-        feedback: "Correct. In ordinary dieters metabolic adaptation is modest and largely reversible; the dramatic 'permanent damage' story comes from an extreme outlier (the Biggest Loser) and is better read as ongoing activity, not damage. Adaptation makes maintenance harder, but it doesn't make weight loss impossible or your metabolism broken."
-      - text: "Yes — every diet permanently lowers your metabolism by ~500 kcal/day."
+        feedback: "In ordinary dieters metabolic adaptation is modest and largely reversible. The 'permanent damage' story comes from an extreme outlier, the Biggest Loser study, and is better explained by sustained high activity than by damage. Adaptation makes maintenance harder but does not make weight loss impossible."
+      - text: "Yes, every diet permanently lowers metabolism by about 500 kcal/day."
         correct: false
-        feedback: "Overstated — the ~500 kcal figure is the Biggest Loser outlier (extreme rapid loss + huge activity). In ordinary dieters adaptation is modest and largely reversible."
-      - text: "No — metabolism never changes with weight."
+        feedback: "The figure of about 500 kcal/day comes from the Biggest Loser outlier (extreme, rapid loss plus very high activity). In ordinary dieters adaptation is modest and largely reversible."
+      - text: "No, metabolism never changes with body weight."
         correct: false
-        feedback: "Not quite — adaptive thermogenesis is real (expenditure does drop more than body size predicts). The point is it's modest and reversible, not permanent damage."
+        feedback: "Adaptive thermogenesis is real: expenditure does drop more than body size predicts. It is modest and largely reversible, not permanent damage."
   - id: q-glp1
-    stem: "How do GLP-1 receptor-agonist weight-loss drugs work — and what happens when you stop?"
+    stem: "How do GLP-1 receptor agonists cause weight loss, and what happens when the drug is stopped?"
     options:
-      - text: "They amplify satiety signalling, so hunger falls; stopping lets weight return."
+      - text: "They amplify satiety; weight returns on stopping."
         correct: true
-        feedback: "Correct. They plug into the same satiety circuit the chapter taught — tipping the arcuate toward the brake and slowing the stomach — so hunger falls. Weight regain on stopping proves obesity is a chronic, defended condition, not a one-off fix."
-      - text: "They permanently reset the body's defended weight to a lower level."
+        feedback: "They act on the same satiety circuit as the body's own GLP-1, tipping the arcuate thermostat toward the brake and slowing the stomach, so hunger falls. Regain on stopping shows that obesity is a chronic, defended condition."
+      - text: "They permanently reset the defended range lower."
         correct: false
-        feedback: "No — they oppose the defended set-point while present but don't remove it, which is why weight returns when the drug stops."
-      - text: "They block calorie absorption in the gut."
+        feedback: "The drugs oppose the defended range while present but do not remove it, which is why weight returns when they are stopped."
+      - text: "They block the absorption of calories from the gut."
         correct: false
-        feedback: "No — GLP-1 agonists work on appetite (central satiety + slowed gastric emptying), not by blocking absorption."
+        feedback: "GLP-1 receptor agonists work on appetite (central satiety and slower gastric emptying); they do not block absorption."
   - id: q-sleep
     stem: "How does short sleep affect appetite?"
     options:
-      - text: "It raises ghrelin and lowers leptin, increasing hunger."
+      - text: "It raises ghrelin and lowers leptin, raising hunger."
         correct: true
-        feedback: "Correct. Sleep loss tilts the same hormones toward hunger — especially for calorie-dense foods, and with no matching rise in energy expenditure — adding on average ~385 kcal/day of intake. A modifiable lever 'eat less, move more' ignores."
-      - text: "It suppresses appetite by raising leptin."
+        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable lever that 'eat less, move more' ignores."
+      - text: "It suppresses appetite by raising leptin levels."
         correct: false
-        feedback: "Reversed — short sleep LOWERS leptin and RAISES ghrelin, increasing hunger."
+        feedback: "Short sleep lowers leptin and raises ghrelin, which increases hunger."
       - text: "It has no measurable effect on appetite hormones."
         correct: false
-        feedback: "No — controlled studies show clear shifts (leptin down, ghrelin up, hunger up), especially for energy-dense foods."
+        feedback: "In a controlled experiment, two nights of short sleep lowered leptin, raised ghrelin and raised hunger, especially for calorie-dense foods."

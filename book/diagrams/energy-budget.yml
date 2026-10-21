@@ -1,13 +1,8 @@
-# Data for the EnergyBudget island (Chapter 2, Energy Balance).
+# Data for the EnergyBudget island (the Energy Balance chapter).
 # An interactive Mifflin–St Jeor BMR/TEE estimator that splits total expenditure into
-# BMR + TEF + physical activity. No asset paths — pure config.
+# BMR + TEF + physical activity. No asset paths; pure config.
 id: energy-budget
 title: "Estimate a person's energy needs"
-intro: >-
-  Enter a person's details and pick how active they are. The tool estimates their basal
-  metabolic rate (BMR) with the Mifflin–St Jeor equation, scales it by an activity factor to
-  get total daily needs, and shows where that energy goes. Notice two things: BMR is the
-  largest slice, and physical activity is the part that changes most.
 
 # Thermic effect of food ≈ 10% of total energy expenditure.
 tefFraction: 0.10
@@ -21,7 +16,7 @@ activity:
   - id: light
     label: Lightly active
     pal: 1.6
-    note: "On your feet, or light exercise a few days a week."
+    note: "Often standing or walking, or light exercise a few days a week."
   - id: moderate
     label: Moderately active
     pal: 1.75
@@ -41,4 +36,4 @@ presets:
     age: 52
     activity: sedentary
 
-credit: "Mifflin–St Jeor equation (Mifflin et al., 1990). Estimates only — individual needs vary."
+credit: "Mifflin–St Jeor equation (Mifflin et al., 1990). Estimates only; individual needs vary."

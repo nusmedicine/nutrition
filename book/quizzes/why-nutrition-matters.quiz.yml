@@ -6,75 +6,75 @@ questions:
     options:
       - text: "About 25%"
         correct: false
-        feedback: "Too low — NCDs are now the dominant cause of death globally."
+        feedback: "This share would leave infection and injury as the main causes of death. They have been overtaken: NCDs are now the leading cause of death worldwide."
       - text: "About 75%"
         correct: true
-        feedback: "Correct — NCDs cause roughly **74%** of deaths worldwide, and most are driven by modifiable behaviours."
+        feedback: "NCDs cause roughly 74% of deaths worldwide, and most are driven by modifiable behaviours."
       - text: "About 95%"
         correct: false
-        feedback: "Too high — infectious disease, injury and maternal/neonatal causes still account for a substantial share."
+        feedback: "Infectious disease, injury and maternal and neonatal causes still account for a substantial share of deaths, so 95% is too high."
 
   - id: q2
-    stem: "Why is nutrition described as the **integrating hub** of the six pillars of health?"
+    stem: "Why is nutrition described as the hub of the six pillars of health?"
     options:
       - text: "Because diet is the only pillar that affects health"
         correct: false
-        feedback: "No — all six pillars matter. Nutrition is the *hub* because it connects to the others, not because it replaces them."
-      - text: "Because it interacts with the other five pillars in both directions"
+        feedback: "All six pillars affect health. Nutrition is the hub because it connects to the others, not because it replaces them."
+      - text: "Because it links to the other five pillars in both directions"
         correct: true
-        feedback: "Correct — nutrition connects bidirectionally to sleep, stress, activity, alcohol and social connection, so pulling on it tends to move the whole web (e.g. short sleep raises appetite; stress drives comfort eating)."
-      - text: "Because nutrition is unrelated to the other pillars and can be treated in isolation"
+        feedback: "Nutrition acts on, and is acted on by, physical activity, sleep, stress, social connection and alcohol, so pulling on it tends to move the whole web: short sleep raises appetite, and stress is thought to drive comfort eating."
+      - text: "Because it can be treated in isolation from the others"
         correct: false
-        feedback: "The opposite — its *connectedness* is exactly why it's the hub."
+        feedback: "Its links to the other pillars are what make it the hub, so treating it in isolation tends to fall short: fixing the diet often means addressing sleep and stress too."
 
   - id: q3
     stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
     options:
       - text: "Whole dietary patterns matter more than any single food"
         correct: true
-        feedback: "Correct — whole dietary patterns (e.g. Mediterranean, DASH) outperform single-nutrient or 'superfood' thinking."
-      - text: "Find the one magic nutrient and maximise it"
+        feedback: "The overall dietary pattern, such as the Mediterranean or DASH pattern, predicts health better than any single nutrient or 'superfood'."
+      - text: "One magic nutrient, maximised, will fix the diet"
         correct: false
-        feedback: "This is the single-nutrient reductionist trap the chapter warns against."
+        feedback: "Searching for one magic nutrient or superfood is single-nutrient reductionism; the evidence points to the overall dietary pattern instead."
       - text: "Diet has no measurable effect on disease risk"
         correct: false
-        feedback: "Diet is among the largest *modifiable* contributors to NCD burden."
+        feedback: "Diet is among the largest modifiable contributors to early death: the Global Burden of Disease study attributes around 11 million deaths a year to dietary risks."
 
   - id: q4
     stem: "A colleague says: 'PREDIMED proves the Mediterranean diet prevents heart attacks.' What is the most accurate response?"
     options:
-      - text: "Yes — it's a definitive randomised trial with no important caveats"
+      - text: "Yes, it is a definitive trial with no important caveats"
         correct: false
-        feedback: "Overstated. Every landmark trial carries caveats worth knowing."
+        feedback: "Every landmark trial carries limits. PREDIMED's result comes from a 2018 re-analysis, and its combined outcome was dominated by strokes rather than heart attacks."
       - text: "It showed a benefit, but the claim needs important caveats"
         correct: true
-        feedback: "Correct — a ~30% relative reduction on a stroke-dominated composite endpoint, partly cluster-randomised, from a 2018 re-analysis after the original was withdrawn."
-      - text: "PREDIMED found no effect at all"
+        feedback: "The trial found a ~30% relative reduction in a combined measure of cardiovascular events, most of them strokes. That result comes from a 2018 re-analysis, published after the original was withdrawn over problems with how participants were assigned to groups."
+      - text: "No, PREDIMED found no effect on any outcome"
         correct: false
-        feedback: "It did find a benefit — but the claim must be stated precisely, with its limits."
+        feedback: "PREDIMED did find a benefit, about 30% lower risk on a combined measure of cardiovascular events; the claim needs stating precisely, with its limits."
 
   - id: q5
     stem: "According to the National Nutrition Survey 2022, roughly what proportion of Singapore residents exceed the recommended sodium limit?"
     options:
       - text: "About 1 in 10"
         correct: false
-        feedback: "It's the reverse — only about 1 in 10 stay *within* the limit."
+        feedback: "It is the reverse: only about 1 in 10 residents stay within the limit."
       - text: "About 9 in 10"
         correct: true
-        feedback: "Correct — ~9 in 10 exceed the WHO sodium limit, with most sodium coming from sauces, broths and food eaten out."
+        feedback: "About 9 in 10 residents exceed the WHO sodium limit, and most of that sodium comes from sauces, broths and food eaten out."
       - text: "About 1 in 2"
         correct: false
-        feedback: "Higher than that — roughly 9 in 10 exceed the limit."
+        feedback: "The share is much higher, roughly 9 in 10; most sodium hides in sauces, broths and food eaten out."
 
   - id: q6
-    stem: "Which statement best captures the **Health in Medicine** approach to protecting health?"
+    stem: "How are the six pillars of health meant to be used?"
     options:
-      - text: "Using behaviour change instead of medication — an alternative to mainstream medicine"
+      - text: "Instead of drugs and surgery, replacing usual care"
         correct: false
-        feedback: "A common misconception. It is evidence-based and guideline-aligned — behaviour change *alongside* drugs, not rejecting them."
-      - text: "Evidence-based use of the six pillars alongside usual care"
+        feedback: "Behaviour change is sometimes presented as an alternative to medicine, but the six pillars are evidence-based and are used alongside drugs and surgery, never instead of them."
+      - text: "Alongside drugs and surgery, as evidence-based care"
         correct: true
-        feedback: "Correct — the six pillars (nutrition, activity, sleep, stress, connection, avoiding risky substances) are used to prevent, treat and sometimes reverse chronic disease, working *with* pharmacotherapy and surgery, not against them."
-      - text: "Only telling patients to 'eat better and exercise more'"
+        feedback: "The six pillars (nutrition, physical activity, restorative sleep, stress management, positive social connection and avoidance of risky substances) are used to prevent, treat and sometimes reverse chronic disease, working with drugs and surgery."
+      - text: "As general advice to 'eat better and exercise more'"
         correct: false
-        feedback: "Too vague. It is a structured, examinable clinical skill across six pillars."
+        feedback: "General advice gives a patient nothing concrete to act on. Advising across the six pillars is a structured, learnable clinical skill."

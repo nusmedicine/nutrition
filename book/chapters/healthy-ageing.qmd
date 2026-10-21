@@ -1,210 +1,311 @@
 # Healthy ageing
 
-> Old age flips the usual intuition. Appetite fades and the plate gets smaller, yet the need for
-> protein and most nutrients does *not* fall with it, and one need actually goes **up**. The advice an
-> older body needs is almost never "eat less"; it is eat denser, keep your muscle, and, above all,
-> don't eat alone. Much of the clinician's job is to anticipate these shifts and to recognise the
-> moment a normal one has tipped into something to refer.
+> *With age, appetite fades and the plate gets smaller, yet the need for most nutrients does not fall
+> with it, and the need for protein rises. The advice an older patient needs is almost never "eat less":
+> it is to eat a denser plate and, above all, to eat it in company.*
 
-## Healthy ageing at a glance: the two drivers
+::: {.callout-note}
+## Learning objectives
+- Explain why falling energy needs in later life call for a more nutrient-dense plate, not a smaller one.
+- Explain how anabolic resistance raises protein needs, and why protein is spread across meals and paired
+  with exercise.
+- Describe why vitamin B12, vitamin D, calcium and fluids need specific attention in later life, and
+  identify the older adults to check or refer.
+- Explain why older adults eat less, and how fortifying familiar food raises intake without adding volume.
+- Explain why eating alone is a nutritional red flag, and connect the older adult to a shared meal.
+- Recognise unintentional weight loss and the other red flags in an older adult, avoid restrictive diets
+  in the frail, and refer.
+:::
 
-This chapter covers the older adult (roughly **65 and over**), ageing *in
-health*, after the *Adulthood: working life & activity* and *Menopause & Midlife Health* chapters. As
-everywhere in this part, the story runs on two drivers, and here they pull in an unexpected direction.
+::: {.concept-tree}
+[Chapter map]{.tree-title}
 
-- **What's changing inside**, the *internal* drivers: appetite and energy needs **fall**, but the need
-  for protein and micronutrients per calorie **rises**; ageing muscle answers protein more weakly; and
-  B12, vitamin D and thirst all quietly decline.
-- **What's changing outside**, the *external* levers: **who the older person eats with**. Widowhood,
-  living alone, and the practical struggle to shop and cook do more damage to an older diet than any single
-  nutrient, and a shared meal is one of the strongest remedies.
+- [What changes inside: energy down, density up](#sec-ageing-inside)
+  - [Protein: needs rise with age](#sec-ageing-protein): anabolic resistance
+  - [The micronutrient and hydration watch-list](#sec-ageing-watchlist): B12, vitamin D, calcium, fluids
+- [Why older adults eat less](#sec-ageing-eat-less): appetite, teeth, swallowing, medicines
+- [Who they eat with: the social plate](#sec-ageing-social): company raises intake
+- [Recognising trouble, and when to refer](#sec-ageing-refer): unintentional weight loss
+:::
 
-The through-line is that mismatch: **energy down, density up**. The interactive makes
-it concrete: watch the needs diverge with age, then rebuild a real local meal to meet them.
+## Healthy ageing at a glance: the two drivers {#sec-overview}
+
+Later life here means the older adult, roughly 65 and over, ageing in health (the stages before it are in
+the *Adulthood & Working Life* and *Menopause & Midlife Health* chapters). As at every life stage, two
+drivers shape nutrition, and in later life they pull in an unexpected direction:
+
+| Driver | What changes at this stage |
+|---|---|
+| Internal drivers (inside the body) | Appetite and energy needs fall, but the need for protein and micronutrients per kcal rises; ageing muscle answers protein more weakly; B12, vitamin D and thirst all quietly decline |
+| External levers (life and environment) | Who the older person eats with: widowhood, living alone and the practical struggle to shop and cook do more damage to an older diet than any single nutrient, and a shared meal is one of the strongest remedies |
+
+The through-line is a mismatch: energy needs go down while most nutrient needs do not.
+**Nutrient density**, the amount of nutrients a food supplies for its energy, therefore has to go up
+(energy down, density up). The porridge builder below shows the principle on a familiar dish.
 
 <div data-island="same-plate" data-src="/diagrams/same-plate.yml"></div>
 
-## What changes inside: energy down, density up
+## What changes inside: energy down, density up {#sec-ageing-inside}
 
-Two things happen at once, and they point in opposite directions. Appetite and food intake genuinely
-**fall** with age, the "anorexia of ageing," so an older adult eats meaningfully less than they did as a
-young adult [@giezenaar2016appetite]. But the recommendations for **protein and most vitamins and minerals
-do not fall in step**; the same nutrients now have to be met from fewer calories
-[@espenGeriatrics2019]. Those four words carry the whole message, **energy down, density up**:
-the right response is a *more nutrient-dense* plate, not a smaller version of the same one. Advising an
-older adult to "just eat less of everything" gets it exactly backwards.
+Appetite and food intake fall with age, a change called the **anorexia of ageing**, so an older adult
+eats meaningfully less than they did as a young adult [@giezenaar2016appetite]. The recommendations for
+protein and most vitamins and minerals, however, do not fall in step, so the same nutrients now have to
+come from less energy [@espenGeriatrics2019]. The right response is a more nutrient-dense plate, not a
+smaller version of the same one; advice to "just eat less of everything" shrinks the nutrients along with
+the energy.
 
-### Protein: the one need that goes up
+### Protein: needs rise with age {#sec-ageing-protein}
 
-The clearest reversal of intuition is protein. Healthy older adults need **more** protein than younger
-ones, on the order of **1.0–1.2 g per kilogram per day** versus the 0.8 g/kg adult reference intake set in
-the *Macronutrients: Carbohydrate, Protein, Fat & Fibre* chapter (a figure to illustrate the *upward shift*,
-not a dose to titrate) [@bauer2013protage; @deutz2014espen]. The reason is **anabolic resistance**: ageing
-muscle mounts a weaker building response to a given amount of protein, so it takes *more* to get the same
-effect [@breen2011anabolic]. Two practical consequences follow, and, as in the *Adulthood* chapter, protein
-only works **paired with the stimulus of exercise**, especially resistance work [@deutz2014espen]:
+Protein is the clearest reversal: while energy needs fall, protein needs rise. Healthy older adults need
+more protein than younger ones, about 1.0–1.2 g/kg a day against the 0.8 g/kg adult reference intake
+(see the *Macronutrients* chapter) [@bauer2013protage; @deutz2014espen]. The range illustrates the upward
+shift; it is not a dose to titrate. The reason for the shift is **anabolic resistance**: ageing muscle
+mounts a weaker building response to a given amount of protein, so it takes more protein to get the same
+effect [@breen2011anabolic]. As in adulthood, protein works only when paired with the stimulus of
+exercise, especially resistance work (see the *Adulthood & Working Life* chapter) [@deutz2014espen].
 
-- **Spread it across the day.** Because each meal has to clear a higher bar to trigger muscle-building,
-  banking all the protein at dinner is less effective than **a palm-sized portion of protein at each meal**
-  [@mamerow2014distribution]. Treat that as a sensible rule of thumb grounded in the anabolic-resistance
-  mechanism rather than a precise dose, since the outcome trials in older adults are mixed.
-- **It defends against sarcopenia.** Sarcopenia is the age-related loss of muscle **strength and mass**.
-  It is screened simply in the community, where a weak hand grip is a common first clue, using cut-offs set
-  lower for Asian builds, and then **referred**, with diagnosis and management belonging to later clinical
-  training [@cruzjentoft2019ewgsop2; @chen2020awgs2019; @limSarcopeniaCpg2022]. Why it matters now: losing
-  muscle strength, together with the deficiency-prone vitamin D below, raises the risk of **falls and
-  fractures**, the downstream harm that makes getting protein and activity right early worthwhile
-  [@roberts2021community; @neo2016vitDsg].
+Because each meal has to clear a higher bar to trigger muscle building, a palm-sized portion of protein
+at each meal works better than banking it all at dinner [@mamerow2014distribution]. This spread is a rule
+of thumb grounded in the anabolic-resistance mechanism, not a precise dose, because the outcome trials in
+older adults are mixed.
 
-### The micronutrient and hydration watch-list
+Enough protein, with exercise, also defends against **sarcopenia**, the age-related loss of muscle
+strength and mass. Sarcopenia is screened simply in the community, where a weak hand grip is a common
+first clue, using cut-offs set lower for Asian builds; suspected sarcopenia is then referred, since
+diagnosis and management belong to later clinical training [@cruzjentoft2019ewgsop2; @chen2020awgs2019;
+@limSarcopeniaCpg2022]. Loss of muscle strength, together with the vitamin D deficiency common in older
+adults (below), raises the risk of falls and fractures [@roberts2021community; @neo2016vitDsg]. Getting
+protein and activity right early is therefore worthwhile.
 
-A few nutrients need specific attention in later life. What follows is the age-specific *shift*, not the
-underlying biology (which is the *Micronutrients, Hydration & Electrolytes* chapter's).
+### The micronutrient and hydration watch-list {#sec-ageing-watchlist}
 
-- **Vitamin B12, a problem of absorption, not intake.** With age the stomach makes less acid (atrophic
-  gastritis), and B12 can no longer be split from food protein to be absorbed, so deficiency comes from
-  **malabsorption** rather than a lack of B12 in the diet [@andres2005foodCobalamin]. Long-term **metformin and
-  proton-pump inhibitors** add to the risk, and both are common in Singapore's diabetes-prevalent older population
-  [@porter2021b12Gastritis; @metforminB12]. The message is to **watch the at-risk**: atrophic gastritis, those
-  drugs, or unexplained anaemia or nerve/memory changes, and check or refer rather than screen everyone
-  [@mouchaileh2023b12Older].
-- **Vitamin D, the sunny-country paradox.** The classic teaching is that ageing skin makes vitamin D less
-  efficiently [@maclaughlin1985skinVitD], though newer work questions how large that effect really is
-  [@borecka2024skin7dhc]. What is robust is the *behavioural* risk: older adults spend less time outdoors
-  and cover up, so deficiency is common **even in sunny Singapore** [@cheong2020shield]. Dosing and the
-  bone evidence belong to the *Bone & Joint Health* chapter.
-- **Calcium and hydration.** Calcium needs rise as absorption becomes less efficient, a wide local gap
-  best met **food-first** and otherwise referred to the bone chapter [@ye2023daha]. And **thirst is
-  blunted** in older adults, who dehydrate before they feel thirsty; the everyday bedside signs of
-  dehydration are unreliable in the old, so the lever is to **offer fluids proactively** rather than wait
-  for thirst [@li2023hydrationOlder; @hooper2016drieDehydration].
+Four nutrients need specific attention in later life (the underlying biology is in the
+*Micronutrients, Hydration & Electrolytes* chapter).
 
-## Why older adults eat less
+Vitamin B12 deficiency in older adults comes from malabsorption, not a lack of B12 in the diet: with age
+the stomach often makes less acid because of **atrophic gastritis**, a long-standing inflammation that
+thins the stomach lining, and without that acid B12 cannot be split from food protein to be absorbed
+[@andres2005foodCobalamin]. Long-term metformin and **proton-pump inhibitors (PPIs)**, drugs that
+suppress stomach acid, add to the risk, and both are widely used in Singapore's older population, in which
+diabetes is common [@porter2021b12Gastritis; @metforminB12]. Testing therefore targets the at-risk
+instead of screening everyone: older adults with atrophic gastritis, those on these drugs, and those with
+unexplained anaemia or nerve or memory changes are checked or referred [@mouchaileh2023b12Older].
 
-The falling appetite is real and multi-causal: the stomach empties more slowly and signals fullness sooner,
-and **taste and (especially) smell fade**, draining food of its reward [@wysokinski2015anorexia]. On top of
-that sit three practical, checkable problems.
+Vitamin D deficiency is common in older adults even in sunny Singapore, and what is firmly established
+is the behavioural reason: older adults spend less time outdoors and cover up [@cheong2020shield]. The
+classic teaching is that ageing skin also makes the vitamin less efficiently [@maclaughlin1985skinVitD],
+though newer work questions how large that effect is [@borecka2024skin7dhc]. (Dosing and the bone
+evidence are in the *Bone & Joint Health* chapter.)
 
-- **Teeth.** Poor dentition pushes people toward soft, carbohydrate-heavy food and away from meat, fruit and
-  vegetables. *Can this patient chew a piece of meat?* [@chan2023oralHealth]
-- **Swallowing.** Difficulty swallowing is common, and although texture-modified food and thickened fluids
-  keep it *safe*, they tend to **lower** intake, so enrich them and refer the red flags: coughing on food
-  or drink, a wet voice, recurrent chest infections [@wu2020tmd; @espenGeriatricsPractical2022].
-- **Medicines.** Taking **five or more** contributes to poor appetite, nausea and altered taste
-  [@morleySilver1995meals], a prompt to flag polypharmacy for review [@kok2022polypharmacy].
+Calcium needs rise as absorption becomes less efficient, and locally the gap between intake and need is
+wide; it is best met food-first, with anything beyond food left to the *Bone & Joint Health* chapter
+[@ye2023daha].
 
-Loss of appetite is often an **early** sign, appearing before weight is lost, so it is worth noticing
-[@desoutobarreto2022icfsr]. The classic *MEALS ON WHEELS* checklist is a useful memory aid for the
-reversible causes of an older person's weight loss [@morleySilver1995meals].
+Thirst is blunted in older adults, who dehydrate before they feel thirsty; the everyday bedside signs of
+dehydration are also unreliable in older people, so the response is to offer fluids proactively, without
+waiting for thirst [@li2023hydrationOlder; @hooper2016drieDehydration].
+
+::: {.callout-tip collapse="true"}
+## Check yourself: appetite and energy needs fall with age. Why do protein needs go up?
+Ageing muscle is anabolically resistant: it mounts a weaker building response to a given amount of
+protein, so it takes more protein to get the same effect. Needs therefore rise to about 1.0–1.2 g/kg a
+day, against the 0.8 g/kg adult reference. Because energy intake is falling at the same time, that protein
+has to come from less food, so the plate must be denser, with protein spread across meals and paired with
+exercise.
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: an older man on long-term metformin eats meat and eggs every day. Why can he still run short of vitamin B12?
+In older age, B12 deficiency is mainly a problem of absorption, not intake. With age the stomach often
+makes less acid, so B12 cannot be split from food protein, and long-term metformin adds to the risk. A
+B12-rich diet may therefore not protect him, and he fits the at-risk profile to check or refer.
+:::
+
+## Why older adults eat less {#sec-ageing-eat-less}
+
+The anorexia of ageing has several causes. The stomach empties more slowly and signals fullness sooner,
+and taste and especially smell fade, which drains food of its reward [@wysokinski2015anorexia]. Three
+practical, checkable problems add to these changes:
+
+- Poor dentition pushes people towards soft, carbohydrate-heavy food and away from meat, fruit and
+  vegetables; a quick check is whether the patient can chew a piece of meat [@chan2023oralHealth].
+- **Dysphagia**, difficulty swallowing, is common, and although **texture-modified food** (food whose
+  texture is altered, for example minced or puréed) and thickened fluids make swallowing safer, they tend
+  to lower intake, so they need enriching; coughing on food or drink, a wet voice and recurrent chest
+  infections are red flags to refer [@wu2020tmd; @espenGeriatricsPractical2022].
+- **Polypharmacy**, taking five or more medicines, contributes to poor appetite, nausea and altered taste
+  [@morleySilver1995meals], so it is a prompt to flag the medicine list for review [@kok2022polypharmacy].
+
+Loss of appetite often appears before weight is lost, so it is an early sign worth asking about
+[@desoutobarreto2022icfsr]. The *MEALS ON WHEELS* mnemonic is a memory aid for the reversible causes of
+weight loss in older people [@morleySilver1995meals].
 
 ::: {.callout-tip}
 ## 🍜 Fortify the familiar
-The first move for a frail older adult who eats little is not a supplement drink. It is **making the food
-they already eat more nourishing**. Stir an **egg, minced fish, silken tofu, ikan bilis or milk powder**
-into the morning porridge or *mee sua*; enrich soups; choose the **yong tau foo** pieces that are tofu and
-fish rather than deep-fried; put a palm-sized protein at every meal. This "food-first" fortification
-reliably raises energy and protein **without adding volume**, which is ideal when a small appetite limits how
-much goes on the plate [@geny2023fortification; @mills2018fortified]. And because smell and taste have faded,
-**amplify flavour** with herbs, spice and umami rather than stripping it away, one reason *not* to put a thin,
-frail elder on a bland "healthy" low-salt diet [@schiffman1993flavor].
+For a frail older adult who eats little, the first move is to make the food they already eat more
+nourishing; supplement drinks come later. Stir an egg, minced fish, silken tofu, ikan bilis or milk
+powder into the morning porridge or *mee sua*; enrich soups; choose the *yong tau foo* pieces that are
+tofu and fish instead of the deep-fried ones; put a palm-sized protein at every meal. This food-first
+fortification reliably raises energy and protein without adding volume, which suits a small appetite that
+limits how much goes on the plate [@geny2023fortification; @mills2018fortified]. Because smell and taste
+have faded, amplify flavour with herbs, spice and umami instead of stripping it away; this is one reason
+not to put a thin, frail older adult on a bland "healthy" low-salt diet [@schiffman1993flavor].
 :::
 
-## Who they eat with: the social plate
+::: {.callout-tip collapse="true"}
+## Check yourself: why does fortifying familiar food suit a frail older adult better than serving bigger portions?
+A small appetite limits how much goes on the plate: the stomach empties more slowly and signals fullness
+sooner, and faded taste and smell drain food of its reward. Stirring egg, fish, tofu or milk powder into
+porridge or soup raises energy and protein without adding volume. Keeping the flavour strong works with
+the faded senses, where a bland diet would work against them.
+:::
 
-For older adults, the most powerful nutrition lever is often not a nutrient at all. It is **company**.
-People eat **more, and more variedly, in the company of familiar others** than alone
-[@ruddock2019facilitation]. So **eating alone is a practical red flag**: solo eaters have poorer, less
-varied diets, and more frequent solitary eating tracks with lower fruit, vegetable and protein intake and
-more low mood [@bjornwall2024eatingAlone; @kwon2023eatingAlone]. **Social isolation** in particular, the
-objective lack of contact, predicts inadequate micronutrient intake [@steptoe2024isolation]. Three
-practical points follow. **Widowhood** is a discrete danger window for weight loss and lost interest in
-food, worth checking proactively [@shahar2001widowhood]. **Food insecurity in the old is about access as
-much as money**: *can you get to the shops, carry the groceries, stand to cook?* [@tucher2021foodInsecurity]
-And **communal meal programmes work**, raising intake and reaching exactly the isolated people who need them
-[@middleton2022sharedMeal; @cpstf2021meals]. "Who do you eat with?" is one of the highest-yield questions in
-a geriatric diet history.
+::: {.callout-tip collapse="true"}
+## Check yourself: an older man has been moved to texture-modified meals so that he swallows more safely. What follows for his intake?
+Texture-modified food and thickened fluids make swallowing safer but tend to lower intake, so his meals
+need enriching to keep energy and protein up. Safety and intake pull in opposite directions here, so the
+plate has to be made denser instead of larger, within the texture he has been prescribed. Coughing on
+food or drink, a wet voice or recurrent chest infections are red flags to refer.
+:::
 
-## Recognising trouble, and when to refer
+## Who they eat with: the social plate {#sec-ageing-social}
 
-Everything so far is *ageing in health*. The signal that it has become a clinical problem is simple and
-must not be dismissed as "just getting old": **unintentional weight loss of about 5% or more over six to
-twelve months**, corroborated by looser clothes or a relative's account, warrants evaluation and
-**referral** [@gaddey2021weightLoss]. It is also the first item of the frailty picture, alongside weakness,
-slow walking and exhaustion [@fried2001frailty]. At this point the older adult has crossed into
-**undernutrition**, and the formal screening tools, the multidisciplinary team, oral supplement drinks and
-tube feeding all belong to the *Undernutrition & Malnutrition* chapter. Here the task is to **recognise and
-refer**.
+For older adults, company is often a stronger nutrition lever than any nutrient. People eat more, and a
+wider variety of foods, in the company of familiar others than alone [@ruddock2019facilitation]. Eating
+alone is therefore a practical red flag. Solo eaters have poorer, less varied diets, and more frequent
+solitary eating tracks with lower fruit, vegetable and protein intake and with more low mood
+[@bjornwall2024eatingAlone; @kwon2023eatingAlone]. **Social isolation** in particular, the objective lack
+of contact with other people, predicts inadequate micronutrient intake [@steptoe2024isolation].
+
+Three practical points follow:
+
+- Widowhood is a discrete danger window for weight loss and lost interest in food, worth checking
+  proactively [@shahar2001widowhood].
+- **Food insecurity**, not having reliable access to enough food, depends in older age on physical access
+  as much as on money: whether the person can get to the shops, carry the groceries and stand to cook
+  [@tucher2021foodInsecurity].
+- Communal meal programmes work: they raise intake and reach the isolated people who need them
+  [@middleton2022sharedMeal; @cpstf2021meals].
+
+When you take a diet history from an older adult, "Who do you eat with?" is one of the highest-yield
+questions.
+
+::: {.callout-tip collapse="true"}
+## Check yourself: why does "Who do you eat with?" belong in an older adult's diet history?
+People eat more, and more varied food, with familiar others than alone, so eating alone is a red flag for
+a poorer diet. Solitary eating tracks with lower fruit, vegetable and protein intake, and social isolation
+predicts inadequate micronutrient intake. The answer also points to a remedy, because communal meal
+programmes raise intake in the isolated people who need them.
+:::
+
+## Recognising trouble, and when to refer {#sec-ageing-refer}
+
+::: {.spectrum}
+[From ageing in health to undernutrition]{.tree-title}
+
+- Appetite and energy needs fall: met with a denser plate
+- Unintentional weight loss of about 5% or more over 6–12 months: evaluate and refer
+- Managing undernutrition: formal screening and the multidisciplinary team (the *Undernutrition &
+  Malnutrition* chapter)
+
+[Ageing in health]{.spectrum-end} [Clinical problem]{.spectrum-end}
+:::
+
+The clearest signal that ageing in health has become a clinical problem is unintentional weight loss of
+about 5% or more over 6–12 months, corroborated by looser clothes or a relative's account; it must not
+be dismissed as "just getting old", and it warrants evaluation and referral [@gaddey2021weightLoss].
+Unintentional weight loss is also the first listed feature of **frailty**, a clinical picture in older
+age whose other features include weakness, slow walking and exhaustion [@fried2001frailty]. At this
+point the older adult has crossed into undernutrition, and the formal screening tools, the
+multidisciplinary team, oral supplement drinks and tube feeding are covered in the
+*Undernutrition & Malnutrition* chapter. The task here is to recognise and refer.
 
 ::: {.callout-warning}
-## Do no harm: don't put a frail, thin elder on a "diet"
+## Do no harm: restrictive diets in a frail older adult
 The reflex to prescribe a low-fat, low-salt, low-sugar or weight-loss diet, sensible for a younger adult,
-is actively **harmful** in a frail, underweight older person: it strips intake and flavour and can tip them
-into malnutrition. Dietary restriction should generally be **avoided** in older age; weight-loss diets are
-reserved for the *obese* older adult with weight-related problems, and always paired with exercise
-[@espenGeriatrics2019]. In a thin older adult who is losing weight, the rule is **density up, restriction
-off**: support intake, and refer.
+is actively harmful in a frail, underweight older person: it strips intake and flavour and can tip them
+into malnutrition. Dietary restriction should generally be avoided in older age; weight-loss diets are
+reserved for the older adult with obesity and weight-related problems, and are always paired with
+exercise [@espenGeriatrics2019]. In a thin older adult who is losing weight, the rule is **density up,
+restriction off**: support intake, and refer.
 :::
 
-Any of the following, drawn from the sections above, is a prompt to recognise and refer:
+Each of the following is a prompt to recognise and refer:
 
 | Trigger | What to look for |
 |---|---|
-| **Unintentional weight loss** | ~5%+, or looser clothes |
-| **Eating alone / newly widowed / isolated** | an older adult eating alone, recently bereaved, or without regular contact |
-| **Swallowing red flags** | coughing on food or fluids, a wet voice, recurrent chest infections |
-| **Suspected sarcopenia** | a weak grip, difficulty rising from a chair |
-| **Restrictive "diet" in a frail elder** | a low-fat, low-salt, low-sugar or weight-loss diet in a thin, frail older adult |
-| **At-risk B12 profile** | atrophic gastritis, long-term metformin/PPI |
+| Unintentional weight loss | About 5% or more over 6–12 months, or looser clothes |
+| Suspected sarcopenia | A weak grip, difficulty rising from a chair |
+| At-risk B12 profile | Atrophic gastritis, long-term metformin or a PPI, unexplained anaemia, or nerve or memory changes |
+| Red flags for dysphagia | Coughing on food or fluids, a wet voice, recurrent chest infections |
+| Eating alone, newly widowed or isolated | An older adult eating alone, recently bereaved, or without regular contact |
+| A restrictive diet in a frail older adult | A low-fat, low-salt, low-sugar or weight-loss diet in a thin, frail older adult |
 
-## The Singapore picture
+::: {.callout-tip collapse="true"}
+## Check yourself: a thin 80-year-old has lost weight without trying over the past year. Why does a low-fat, low-salt "healthy" diet do harm here?
+Weight lost without trying is the clearest sign that ageing in health has become a clinical problem; at
+about 5% or more over 6–12 months it warrants evaluation and referral. Restriction strips intake and
+flavour from someone who is already eating too little, and it can tip them into malnutrition. The rule is
+therefore density up, restriction off: support intake, and refer.
+:::
 
-Singapore is ageing fast. The share of citizens over 65 has climbed steeply and is heading toward **one in
-four**, which makes these skills increasingly everyday [@sgPopulationLongevity]. The local anchors
-map cleanly onto the drivers above.
+## The Singapore picture {#sec-singapore}
 
-**The HPB Dietary Guidelines for Older Adults** are the primary scaffold: **nutrient density over quantity,
-more protein, calcium-rich foods, softer textures, and more fluids**, the "energy down, density up" message
-in national form [@hpbSeniors]. Local guidance puts numbers to the protein point, roughly **1.2 g/kg a day
-for over-50s, about a palm-sized protein at each of three meals**, carried by familiar foods (eggs, a palm
-of fish, tofu, pulses) [@healthhubSeniorsProtein]. Yet local survey data suggest **about one in two older
-adults fall short of their protein target** [@mohNNS2022]. The practical response is the **🍜 "fortify the
-familiar"** move above: build protein and energy into porridge, soup and *yong tau foo* rather than
-prescribing unfamiliar "diet foods."
+**Singapore is ageing fast.** The share of citizens over 65 has climbed steeply and is heading towards one
+in four, which makes the care of older patients an increasingly everyday skill [@sgPopulationLongevity].
 
-The internal watch-list has a distinctly local shape. **Vitamin-D deficiency is common despite the sun**,
-around half of healthy community seniors have low levels, driven by indoor, sun-avoidant living rather than
-latitude [@cheong2020shield]; and **calcium falls short in about half of older adults**, a large fraction well
-below target [@ye2023daha]. B12, reassuringly, is uncommon in *well* local seniors, so reserve testing
-for the at-risk.
+**National guidance puts "energy down, density up" in local form.** The HPB Dietary Guidelines for Older
+Adults set out nutrient density over quantity, more protein, calcium-rich foods, softer textures and more
+fluids [@hpbSeniors]. Local guidance puts numbers to the protein point: roughly 1.2 g/kg a day for
+over-50s, about a palm-sized protein at each of three meals, carried by familiar foods (eggs, a palm of
+fish, tofu, pulses) [@healthhubSeniorsProtein]. Yet local survey data suggest that about one in two older
+adults fall short of their protein target [@mohNNS2022]. The practical response is to fortify the
+familiar (see [Why older adults eat less](#sec-ageing-eat-less)): build protein and energy into porridge,
+soup and *yong tau foo* instead of prescribing unfamiliar "diet foods".
 
-The sharpest local lesson is on the **external** driver. In Singapore's multigenerational households, a
-striking finding is that many older adults **eat alone even though they live with family**: adult children
-are out at work, and the elder eats by themselves [@ye2023daha]. So *living with family does not guarantee a
-shared meal*, and here it is **loneliness**, more than living arrangement on paper, that tracks with frailty
-[@geSocialFrailtySg2022]. The referral endpoints are local: **Active Ageing Centres** for communal dining and
-befriending, and the wider **Age Well SG** programme, the connections a clinician can make when the diet
-history reveals an older person eating alone [@mohAgeWellSg2023].
+**The internal watch-list has a local shape.** Vitamin D deficiency is common despite the sun: around half
+of healthy older adults living in the community have low levels, driven by indoor, sun-avoidant living,
+not latitude [@cheong2020shield]. Calcium falls short in about half of older adults, a large fraction well
+below target [@ye2023daha]. B12 deficiency, by contrast, is uncommon in well older adults locally, so
+testing is reserved for the at-risk.
 
-## Is old age just eating less?
+**Living with family does not guarantee a shared meal.** In Singapore's multigenerational households,
+many older adults eat alone even though they live with family: adult children are out at work, and the
+older person eats by themselves [@ye2023daha]. Locally it is loneliness (the felt lack of company), more
+than living arrangement, that tracks with frailty [@geSocialFrailtySg2022]. When a diet history reveals an
+older person eating alone, the local referral points are Active Ageing Centres, for communal dining and
+befriending, and the wider Age Well SG programme [@mohAgeWellSg2023].
 
-No, and that misreading does real harm. Almost everything about later-life nutrition runs *against* the
-"eat less" reflex: energy needs fall but **nutrient density must rise**; protein needs go **up**, not down,
-and want spreading across the day and pairing with movement; the plate should be **fortified and flavourful**,
-not stripped bare. And the biggest lever is the most human one: an older person eating **in company**
-rather than alone. The clinician's job is to anticipate those shifts, make the small food-first moves, and
-recognise the one clear signal, unintentional weight loss, that means it is time to **refer**, since the
-disease end of this spectrum is the *Undernutrition & Malnutrition* chapter's to manage.
+## Is old age just eating less? {#sec-close}
 
-## Check your understanding
+No, and that misreading does real harm. Eating less is the change that age brings, and almost never the
+advice an older patient needs. The older adult needs four things instead:
+
+- A more nutrient-dense plate, because energy needs fall while protein and most micronutrient needs do
+  not.
+- More protein than in younger adulthood, spread across meals and paired with exercise.
+- Familiar food, fortified and kept flavourful, in place of a restrictive "healthy" diet.
+- Company at meals, often the biggest lever of all, because people eat more, and more varied food, with
+  others.
+
+The clinician's job is to anticipate these shifts and make the small food-first moves; when eating less
+turns into unintentional weight loss, the task is to recognise it and refer (the disease end of this
+spectrum is in the *Undernutrition & Malnutrition* chapter).
+
+## Check your understanding {#sec-quiz}
 
 <div data-island="quiz" data-src="/quizzes/healthy-ageing.quiz.yml"></div>
 
-## Practise: the widow who eats alone
+## Practise: the widow who eats alone {#sec-case}
 
-Mdm Lim is 78, widowed four months ago, and lives in an HDB flat. Her daughter, who works full-time,
-notices her *cheongsam* hangs loose, that she "can't be bothered to cook for one," and often skips lunch.
-She takes long-term metformin and a stomach-acid tablet. Work through the visit: notice that the tempting
-"healthy diet" advice is the wrong one, that the loosening clothes are the real signal, and that your job is
-to lift her intake, reconnect her to a shared meal, and refer. Your choices branch the case.
+Mdm Lim is 78, widowed four months ago, and lives alone in an HDB flat. Her daughter, who works
+full-time, has noticed that her *cheongsam* hangs loose, that she "can't be bothered to cook for one" and
+that she often skips lunch. She takes long-term metformin and a stomach-acid tablet. Work through the
+visit, from what her daughter has noticed to what to advise and when to refer; your choices branch the
+case.
+
+::: {.callout-tip}
+Progress is saved locally; replay to explore the other paths.
+:::
 
 <div data-island="case" data-src="/cases/mdm-lim-widowed.case.yml"></div>

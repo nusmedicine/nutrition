@@ -1,324 +1,457 @@
 # Bone & joint health
 
-> The ageing musculoskeleton prompts some of the most common questions a doctor hears: *what should I
-> eat, and should I take a supplement?* Two systems get confused here. **Bone** is a living bank, built
-> to a peak in youth, drawn down for life, and run low as osteoporosis; its diet levers are real and
-> correctable (calcium, vitamin D, protein). The **joints** tell a different story. Worn cartilage
-> (osteoarthritis) and urate crystals (gout) have almost the mirror-image diet story: one true lever
-> (weight) and a best-selling supplement that does not work. The clinical task is to recognise the real
-> levers, deflate the hype, and refer. You will not prescribe the osteoporosis drugs, the urate-lowering
-> therapy, or the arthritis medicines, which are specialist.
+> *The ageing musculoskeleton prompts some of the most common questions a doctor hears: "What should I eat?"
+> and "Should I take a supplement?" Bone has real, correctable diet levers, while osteoarthritis and gout
+> have almost the mirror-image story: their main lever is weight loss (or, for gout, a drug), and their
+> best-selling supplement does not work.*
 
-## Bone & joint health at a glance
+::: {.callout-note}
+## Learning objectives
+- Distinguish osteoporosis, osteoarthritis and gout, and match each to its main lever.
+- Explain bone as tissue in constant turnover, and why a higher peak bone mass delays osteoporosis by years.
+- Explain how calcium, vitamin D and protein each act on bone, and why calcium bioavailability matters more
+  than calcium content.
+- Identify who benefits from calcium and vitamin D supplements, and explain why blanket supplementation of
+  replete adults does not prevent fractures.
+- Evaluate glucosamine and other joint-supplement claims against the guideline evidence.
+- Recognise the bone red flags (low body weight, a fragility fracture) and refer using OSTA, FRAX and DXA.
+:::
 
-This chapter is the other half of the deficiency-and-frailty pair the *Undernutrition &
-Malnutrition* chapter opened. It does double duty, because the two most common musculoskeletal questions a
-generalist fields, *"what should I take for my bones?"* and *"should I take glucosamine for my joints?"*,
-are really about different systems. So it takes **bone first**, the strong, correctable
-calcium/vitamin D/protein story, then turns to the **joints**, where the answer is usually *lose weight,
-skip the supplement, and refer*. Osteoporosis is common, **silent until it breaks**, and costly (Singapore's
-hip-fracture *rate* is falling but the *count* keeps rising with ageing); knee osteoarthritis and gout are
-common too, and heavily supplement-marketed [@koh2001hipfracSG; @chandran2019burdenSG; @leung2018sgkoa].
+::: {.concept-tree}
+[Chapter map]{.tree-title}
 
-Four habits of mind run through it:
+- [Three conditions people confuse](#sec-bone-conditions): osteoporosis, osteoarthritis, gout
+- [The science underneath: bone is a living bank](#sec-bone-bank)
+- [The bone levers](#sec-bone-levers)
+  - [Calcium](#sec-bone-calcium), [vitamin D](#sec-bone-vitd) and [protein](#sec-bone-protein)
+  - [Body weight and the whole pattern](#sec-bone-weight)
+  - [Salt, caffeine and cola](#sec-bone-contested)
+  - [Supplements](#sec-bone-supplements): for deficiency, not for everyone
+- [The joints](#sec-bone-joints)
+  - [Osteoarthritis](#sec-bone-oa): the lever is weight
+  - [Gout](#sec-bone-gout): treat urate to target
+  - [Rheumatoid arthritis](#sec-bone-ra): nutrition as an adjunct
+:::
 
-- **Build the bank in youth, then defend the balance.** Peak bone mass is essentially set by the late twenties, and only about **20–40% of it is modifiable** by lifestyle — real, but bounded, leverage [@nofPeakBoneMass2016].
-- **Bioavailability beats content, and dairy is optional.** How much calcium is *absorbed*, not the number on the label, is the lever, and a multi-ethnic, partly lactose-intolerant population can meet its needs without milk [@weaverVegCalcium1999; @healthhubCalciumSG].
-- **Correct real deficiency; don't supplement everyone.** Calcium and vitamin D help people who are genuinely short, but blanket pills for already-replete community adults do not prevent fractures [@zhao2017cavitdNoBenefit].
-- **For joints, the loudest supplement is the weakest.** The best-marketed joint product (glucosamine) is the one the guidelines advise against. The real levers are **weight** for osteoarthritis and a **urate-lowering drug** for gout [@wandel2010nma; @kolasinski2020acr].
+## Bone & joint health at a glance {#sec-bone-overview}
 
-## Three conditions people confuse
+The two musculoskeletal questions a generalist hears most often, *"what should I take for my bones?"* and
+*"should I take glucosamine for my joints?"*, concern different systems. **Osteoporosis** (low bone density,
+silent until a bone breaks) is common and costly: Singapore's hip-fracture *rate* is falling, but the *count*
+keeps rising with ageing [@koh2001hipfracSG; @chandran2019burdenSG]. Knee **osteoarthritis** (worn, painful
+joint cartilage) and **gout** (a metabolic disease in which uric acid crystals inflame the joint) are common
+too, and supplements are heavily marketed for both [@leung2018sgkoa]. For bone, the calcium,
+vitamin D and protein levers are strong and correctable; for the joints, the answer is usually to lose
+weight, skip the supplement and refer.
 
-Before any diet advice, disentangle the three musculoskeletal conditions that patients, and busy clinics, mix up.
-They need different nutrition, and getting them backwards is a common error.
+Four principles apply throughout:
 
-![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a fragility fracture, with real nutrient levers (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one real dietary lever is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug. The trap is treating them alike.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
+- Peak bone mass is essentially set by the late twenties, and only about 20–40% of it is modifiable by
+  lifestyle, a real but bounded lever: the bank is built in youth and its balance defended for life
+  [@nofPeakBoneMass2016].
+- What counts is how much calcium is absorbed (its bioavailability), not the number on the label, and a
+  multi-ethnic, partly lactose-intolerant population can meet its needs without milk
+  [@weaverVegCalcium1999; @healthhubCalciumSG].
+- Calcium and vitamin D help people who are genuinely short, but blanket supplements for already-replete
+  community-dwelling adults do not prevent fractures [@zhao2017cavitdNoBenefit].
+- For the joints, the best-marketed supplement (glucosamine) is the one the guidelines advise against; the
+  real levers are weight for osteoarthritis and a urate-lowering drug for gout [@wandel2010nma;
+  @kolasinski2020acr].
+
+## Three conditions people confuse {#sec-bone-conditions}
+
+Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three need different
+nutrition, and getting them backwards is a common error.
+
+![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), with real nutrient levers (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one real dietary lever is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
 
 The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
-osteoporosis, and gout is neither wear nor thinning. We take the bone story first, then the joints.
+osteoporosis, and gout is neither wear nor thinning.
 
-## The science underneath: bone is a living bank
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient with knee osteoarthritis starts calcium tablets for his joints. Why won't they help?
+Osteoarthritis is worn joint cartilage, not low bone density, so calcium, a lever for bone, does not act on
+it. The one real dietary lever for osteoarthritis is weight loss. Calcium belongs to osteoporosis, a
+different condition with a different diet story.
+:::
 
-Why does diet matter for something as solid as bone? Because bone is **living tissue in constant turnover**,
-not inert scaffolding. Cells called **osteoblasts** lay down new bone while **osteoclasts** resorb old
-bone, and the balance between them sets whether the account grows or shrinks. Through childhood and puberty
-building outpaces resorption, so the balance climbs to a genetically-set **peak bone mass** by the late twenties
-(about 90% of it laid down by the end of adolescence); thereafter resorption gradually wins and the balance
-falls for the rest of life [@hereford2024peakBoneMass; @bailey1999saskatchewanAccrual]. Everyone leaks bone —
-in both sexes, beginning in young adulthood — which is why the levers matter across the whole life course, not
-only after menopause [@riggs2008boneLossSites]. The **building** phase itself (the adolescent bone-building
-window, and the low energy availability that can blunt it) is owned by the *Childhood & Adolescence* chapter,
-which this chapter picks up from.
+## The science underneath: bone is a living bank {#sec-bone-bank}
+
+Bone is living tissue in constant turnover, not inert scaffolding, which is why diet matters even for
+something as solid as the skeleton. Two cell types do the work:
+
+Osteoblasts
+: Bone-forming cells that lay down new bone.
+
+Osteoclasts
+: Cells that resorb (break down) old bone.
+
+The balance between them sets whether the account grows or shrinks. Through childhood and puberty, building
+outpaces resorption, so the balance climbs to peak bone mass. Peak bone mass is mostly inherited and is
+reached by the late twenties, with about 90% of it laid down by the end of adolescence. After the peak,
+resorption gradually wins, and the balance falls for the rest of life [@hereford2024peakBoneMass;
+@bailey1999saskatchewanAccrual].
+This loss begins in young adulthood in both sexes, so the levers matter across the whole life course, long
+before menopause as well as after it [@riggs2008boneLossSites]. (The adolescent bone-building window, and the
+low energy availability that can blunt it, are covered in the
+[*Childhood & Adolescence*](childhood-adolescence.qmd) chapter.)
 
 <div data-island="bone-bank" data-src="/diagrams/bone-bank.yml"></div>
 
-In women, the withdrawal sharpens around the **menopause**: as oestrogen falls it **raises a resorption signal
-called RANKL**, tipping the balance toward the osteoclasts, and women lose roughly 7% of spine and 6% of
-femoral-neck bone mineral across the transition [@greendale2012swanBone; @eghbali2003rankl]. The hormonal
-context (and menopausal hormone therapy) belongs to the *Menopause & Midlife Health* chapter; here we follow
-the diet.
+A higher peak delays the day the account runs low. In a model, a 10% higher peak bone density delays the
+onset of osteoporosis by about 13 years, far more than a later menopause or slower loss
+[@hernandez2003peakBmdModel]. The gain is measured in years of delay, not as a percentage cut in fractures.
 
-Three nutrients act on this bank, and it helps to be precise about *how* each works. The underlying nutrient
-biology is owned by the *Micronutrients, Hydration & Electrolytes* and *Macronutrients* chapters:
+In women, the loss sharpens around the menopause. As oestrogen falls, the resorption signal RANKL rises and
+tips the balance toward the osteoclasts [@eghbali2003rankl], and women lose roughly 7% of spine and 6% of
+femoral-neck bone mineral across the transition [@greendale2012swanBone]. The hormonal context, including
+menopausal hormone therapy, is covered in the [*Menopause & Midlife Health*](menopause-midlife.qmd) chapter;
+here we follow the diet.
 
-- **Calcium is the substrate** — the mineral the bone is built from, drawn from the *Micronutrients, Hydration & Electrolytes* chapter.
-- **Vitamin D is the enabler.** It does not build bone directly; its active form drives the **intestinal absorption of calcium**, so a shortfall means calcium passes through uneaten, the parathyroid glands pull calcium back out of bone, and the skeleton pays [@laird2010vitDbone].
-- **Protein is the matrix and the scaffold-builder.** About half of bone *volume* is a protein (type-I collagen) framework, and dietary protein also drives the growth factor IGF-1 and preserves the muscle that prevents falls. It is a bone nutrient, not a bone threat (more on the myth below).
+Three nutrients act on this bank, each in a different way (the nutrient biology is in the
+[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) and
+[*Macronutrients*](macronutrients.qmd) chapters):
 
-(A related pathway runs the other way in disease: when failing kidneys can no longer balance calcium, phosphate
-and vitamin D, the resulting **CKD–mineral and bone disease** is the *Chronic Kidney Disease* chapter's,
-recognised and referred, not re-taught here.)
+| Nutrient | Role | How it acts on bone |
+|---|---|---|
+| Calcium | Substrate | The mineral bone is built from |
+| Vitamin D | Enabler | Its active form drives the intestinal absorption of calcium; it does not build bone directly |
+| Protein | Matrix | About half of bone volume is a type-I collagen framework; protein also drives the growth factor IGF-1 and preserves the muscle that prevents falls |
 
-The organizing idea, captured in the island above, is that a **higher peak delays the day the account runs
-low**. A modelled 10% higher peak bone density delays the onset of osteoporosis by about **13 years** — far
-more than later menopause or slower loss buy — but note the units: that is **years of delay, not a percentage
-cut in fractures**, and the two must never be conflated [@hernandez2003peakBmdModel].
+Because vitamin D's active form drives calcium absorption, a shortfall means calcium passes through
+unabsorbed, the parathyroid glands pull calcium back out of bone, and the skeleton pays [@laird2010vitDbone].
 
-## The bone levers
+(When failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and
+bone disease, which is recognised and referred; see the [*Chronic Kidney Disease*](chronic-kidney-disease.qmd)
+chapter.)
 
-Three nutrients and two more levers act on the bank: calcium the substrate, vitamin D the enabler, protein the matrix, plus body weight, the whole pattern, and the question of supplements.
+::: {.callout-tip collapse="true"}
+## Check yourself: why does building a higher peak in youth protect against osteoporosis decades later?
+After the late twenties, resorption gradually outpaces building, so everyone's bone balance falls for the
+rest of life. Starting from a higher peak means the balance takes longer to reach the osteoporosis
+threshold: in a model, a 10% higher peak delays onset by about 13 years, more than a later menopause or
+slower loss. The gain is years of delay, not a percentage cut in fractures.
+:::
 
-### Calcium: substrate, and why content isn't the whole story
+## The bone levers {#sec-bone-levers}
+
+### Calcium: the substrate, and bioavailability {#sec-bone-calcium}
 
 Singapore's calcium requirements run across the life course, plus a raised need in pregnancy and lactation [@hpbRDACalcium]:
 
 | Life stage | Calcium requirement (mg/day) |
 |---|---|
-| **Adolescents (10–18)** | 1000 |
-| **Adults 19–50** | 800 |
-| **Adults 51 and over** | 1000 |
+| Adolescents (10–18) | 1,000 |
+| Adults 19–50 | 800 |
+| Adults 51 and over | 1,000 |
 
-Local intake sits at a mean of **~794 mg/day** — actually among the highest in Asia, where most countries fall
-below 400–500 mg, but still under the requirement — and the gap widens with age, with about **half of older
-Singaporeans falling short** [@balkGlobalCalcium2017; @hpbNNS2010; @ye2023daha].
+Mean local intake is about 794 mg/day [@hpbNNS2010]. That is among the highest in Asia, where most countries
+fall below 400–500 mg, but still under the requirement [@balkGlobalCalcium2017], and the gap widens with age:
+about half of older Singaporeans fall short [@ye2023daha].
 
-The lever, though, is **bioavailability, not content**. How much calcium a food actually delivers depends on
-how well it is absorbed, and that varies enormously: the calcium in **spinach is bound to oxalate and only
-about 5% absorbed**, versus roughly a quarter to a third from milk, while **calcium-set tofu absorbs comparably
-to milk** and low-oxalate greens like kai-lan and bok choy are absorbed *better* still [@odsCalcium;
-@weaverTofuMilk2002; @weaverVegCalcium1999]. So the spinach that looks calcium-rich on a label is nearly
-useless for bone, and the tofu next to it is excellent. The *Micronutrients, Hydration & Electrolytes* chapter
-owns this oxalate contrast.
+Absorption matters more than content. How much calcium a food delivers depends on its bioavailability, and
+absorption varies enormously. The calcium in spinach is bound to oxalate, so only about 5% is absorbed, against
+roughly a quarter to a third from milk [@odsCalcium]. Calcium-set tofu is absorbed about as well as milk, and
+low-oxalate greens such as kai-lan and bok choy are absorbed better still [@weaverTofuMilk2002;
+@weaverVegCalcium1999]. The spinach that looks calcium-rich on a label is therefore nearly useless for bone,
+and the tofu beside it an excellent source (see the *Micronutrients, Hydration & Electrolytes* chapter for the
+oxalate contrast).
 
-![How much calcium a food delivers depends on how much is absorbed, not the amount it contains. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu sit around a quarter to a third; low-oxalate greens like kai-lan and bok choy are absorbed better still. Content is not availability: the spinach that looks calcium-rich is nearly useless for bone.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
+![How much calcium a food delivers depends on how much is absorbed, not the amount it contains. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu sit around a quarter to a third; low-oxalate greens like kai-lan and bok choy are absorbed better still.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
 
 ::: {.callout-tip}
-## 🍜 Eating out (and eating in) — the dairy-optional calcium plate
-Dairy is optional in Singapore. Familiar foods close the gap: **calcium-set tofu and tau kwa** (yong tau foo
-picks), **ikan bilis and canned sardines eaten with the soft bones**, **low-oxalate greens** (kai-lan, bok
-choy, chye sim), and **fortified soy milk**. HPB lists per-serving calcium (sardines with bones ~270 mg, ikan
-bilis ~270 mg, tau kwa ~150 mg, kai-lan ~195 mg, fortified soy milk ~500 mg, versus ~380 mg for a glass of
-low-fat milk) [@healthhubCalciumSG]. Small swaps stack up: tofu in the yong tau foo, milk in the kopi or teh,
-ikan bilis in the stock. Absorption is best in **doses under ~500 mg at a sitting**, so spread it across the day
-[@odsCalcium].
+## 🍜 Eating out (and eating in): the dairy-optional calcium plate
+Dairy is optional in Singapore. Familiar foods close the gap, shown here with HPB's per-serving calcium
+[@healthhubCalciumSG]:
+
+- calcium-set tofu and tau kwa, as yong tau foo picks (tau kwa ~150 mg);
+- ikan bilis and canned sardines eaten with the soft bones (~270 mg each);
+- low-oxalate greens such as kai-lan, bok choy and chye sim (kai-lan ~195 mg);
+- fortified soy milk (~500 mg), against ~380 mg for a glass of low-fat milk.
+
+Small swaps stack up: tofu in the yong tau foo, milk in the kopi or teh, ikan bilis in the stock. Absorption
+is best in doses under ~500 mg at a sitting, so spread calcium across the day [@odsCalcium].
 :::
 
-### Vitamin D: the enabler, and Singapore's paradox
+### Vitamin D: the enabler, and Singapore's paradox {#sec-bone-vitd}
 
-Vitamin D earns a section of its own because of a genuinely counterintuitive local fact. Its active form,
-made in the skin from sunlight and finished in the liver and kidney, is what lets the gut absorb calcium at all
-[@laird2010vitDbone], yet in **sunny, equatorial Singapore, roughly 1 in 3 mid-life women are vitamin D
-deficient** [@cheong2021vitDsg]. The cause lies in **behaviour and biology**, not the climate: indoor lifestyles,
-cosmetic sun avoidance, covering and veiling, and darker skin pigmentation all cut skin synthesis, and the
-skin's ability to make vitamin D more than halves with age [@nimitphong_2013_vitd_sea; @maclaughlin1985skinVitD].
-The burden is also **unequal**: Indian and Malay women carry several-fold higher odds of deficiency than
-Chinese women, which makes it a concrete equity point, not just a biochemistry one [@cheong2021vitDsg].
+Vitamin D's active form, made in the skin from sunlight and finished in the liver and kidney, is what lets the
+gut absorb calcium at all [@laird2010vitDbone].
 
 ![Vitamin D from skin and diet is activated through the liver and kidney to its active form, which drives the gut to absorb calcium, keeping bone supplied. When vitamin D is low, calcium absorption falls, parathyroid hormone rises, and calcium is pulled out of bone, so the deficiency starves the skeleton. Vitamin D does not build bone directly; it enables calcium to be absorbed.](/figures/mechanisms/vitamin-d-calcium-axis.svg){#fig-vitd-axis width="92%" fig-align="center"}
 
-The response, though, is *not* to test and dose everyone. Few foods contain vitamin D naturally (oily fish is
-the best), and guideline bodies now advise **against routine testing and empiric supplementation in otherwise
-healthy adults**; HPB's own vitamin D reference intake is a modest 2.5 µg (100 IU) precisely because it assumes
-some sun exposure [@odsVitaminD; @demay2024endoSocVitD; @hpb_healthhub_rda]. Insufficiency by the lab cutoff is
-common, but the answer is to find and correct genuine shortfall in higher-risk people — the covered, the indoors,
-the elderly, the pregnant — rather than to blanket-dose the population.
+Despite the sun, vitamin D deficiency is common in equatorial Singapore: roughly 1 in 3 mid-life women are
+deficient [@cheong2021vitDsg]. Behaviour and biology, not the climate, explain the paradox. Each of the
+following cuts skin synthesis of vitamin D [@nimitphong_2013_vitd_sea; @maclaughlin1985skinVitD]:
 
-### Protein is a bone nutrient, not a bone threat
+- indoor lifestyles;
+- cosmetic sun avoidance;
+- covering and veiling;
+- darker skin pigmentation;
+- age, which more than halves the skin's capacity to make vitamin D.
 
-A persistent myth holds that protein "leaches calcium from bone", the so-called acid-ash hypothesis. The
-evidence points the other way. Higher protein intake, *with adequate calcium*, tracks about **11% lower
-hip-fracture risk**, and the extra calcium that appears in the urine after a protein meal comes from **better
-intestinal absorption**, not from dissolved bone [@groenendijk2019protein]. This makes mechanistic sense:
-protein is the collagen matrix bone is built on, it drives the bone-building growth factor IGF-1, and it
-maintains the muscle that keeps frail people from falling — the muscle–bone overlap the *Undernutrition &
-Malnutrition* and *Healthy Ageing* chapters meet from the sarcopenia side. So the advice for an older patient
-worried that "meat is bad for my bones" is the opposite of what they fear: eat enough protein, alongside enough
-calcium.
+The burden is unequal: Indian and Malay women have several-fold higher odds of deficiency than Chinese women,
+which makes deficiency an equity issue [@cheong2021vitDsg].
 
-### Body weight, and the whole pattern
+Common deficiency does not justify testing and dosing everyone. Few foods contain vitamin D naturally (oily
+fish is the best) [@odsVitaminD], and the Endocrine Society guideline now advises against routine testing and
+empiric supplementation in otherwise healthy adults [@demay2024endoSocVitD]. HPB's own vitamin D reference
+intake is a modest 2.5 µg (100 IU) because it assumes some sun exposure [@hpb_healthhub_rda]. Insufficiency by
+the laboratory cut-off is common, but the response is to find and correct genuine shortfall in higher-risk
+people (those who cover up, stay indoors, are older or are pregnant) rather than to blanket-dose the
+population.
 
-Two more levers round out the diet. **Adequate body weight is itself protective**: a low BMI (20 versus 25)
-nearly *doubles* hip-fracture risk, largely because it tracks lower bone density — so being underweight or
-underfuelled is a bone red flag, and one that the frailty of late life makes common [@delaet2005bmiFracture].
-And the **whole dietary pattern beats any single nutrient**: plenty of fruit and vegetables (supplying
-potassium, magnesium and vitamin K), a reliable calcium source, enough protein and enough energy — the overall
-pattern the *What a Healthy Diet Looks Like* chapter owns [@iofNutritionProf].
+### Does protein leach calcium from bone? {#sec-bone-protein}
 
-### The contested box: solid risks versus weak claims
+A widely held belief is that protein "leaches calcium from bone", an idea known as the **acid-ash
+hypothesis**. The belief draws on the extra calcium that appears in the urine after a protein meal. The
+evidence points the other way: that calcium comes from better intestinal absorption, not from dissolved
+bone, and higher protein intake with adequate calcium tracks about 11% lower hip-fracture risk
+[@groenendijk2019protein].
 
-Some foods get blamed for bones on thin evidence, and it is worth separating the solid from the soft. The
-**solid** dietary risks are low calcium, vitamin D, protein or body weight, plus heavy alcohol; smoking is a
-major (non-dietary) risk [@iofRiskFactors; @ke2023alcoholFracture; @law1997smokingHipFracture]. The **contested**
-trio is weaker than the headlines suggest: heavy **salt** genuinely raises urinary calcium, but its fracture
-link is weak and the real reason to cut salt is blood pressure; **caffeine's** tiny effect is offset by the
-splash of milk in the coffee; and the **cola–bone** signal is observational and confounded by milk displacement,
-not proven acid damage [@teucher2008sodiumBone; @heaney2002caffeineBone; @tucker2006colaBMD]. Recognise which
-box a claim belongs in before repeating it.
+Protein's roles in bone explain the finding. It is the collagen matrix bone is built on, it drives the
+bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. (The
+muscle–bone overlap is approached from the sarcopenia side in the
+[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy Ageing*](healthy-ageing.qmd)
+chapters.) When an older patient worries that "meat is bad for my bones", the advice is the opposite of the
+fear: eat enough protein, alongside enough calcium.
 
-### Supplements: correct deficiency, don't dose everyone
+### Body weight, and the whole pattern {#sec-bone-weight}
 
-This is the chapter's most important caveat, because it is where good intentions go wrong.
-Calcium and vitamin D supplements **do** cut fractures in people who are genuinely deficient or institutionalised,
-by roughly 15% for all fractures and 30% for hip fractures in that group [@weaver2016cavitd]. But in
-**already-replete, community-dwelling older adults**, large trials and pooled analyses find **no fracture
-benefit at all**, and a small *increase* in kidney stones [@zhao2017cavitdNoBenefit; @leboff2022vitalFractures;
-@uspstfCalcium2018]. So the message is not "everyone over 50 should take calcium and vitamin D." It is **food
-first, correct genuine deficiency, and reserve supplements for real shortfall or high risk**: the recognise,
-don't-blanket-treat posture.
+Adequate body weight is itself protective. A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely
+because low weight tracks lower bone density [@delaet2005bmiFracture]. Being underweight or underfuelled is
+therefore a bone red flag, and the frailty of late life makes it common.
+
+The whole dietary pattern matters more than any single nutrient: plenty of fruit and vegetables (supplying
+potassium, magnesium and vitamin K), a reliable calcium source, enough protein and enough energy
+[@iofNutritionProf]. (The overall pattern is set out in the
+[*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ::: {.callout-note}
-## The strongest modifiable lever isn't a food
-Diet builds and defends the bank, but the single strongest *modifiable* signal to bone is **mechanical
-loading**: weight-bearing and resistance exercise. In a landmark trial, supervised high-intensity resistance
-and impact training actually *raised* bone density in postmenopausal women with low bone mass, safely
-[@watson2018liftmor]. Nutrition and loading are partners (calcium is the substrate, loading is the signal to
-use it), so name the exercise lever and let the *physical-activity* side own the prescription; HPB's own public
-message pairs a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009].
+## Mechanical loading: the strongest modifiable lever
+Diet builds and defends the bank, but the strongest modifiable signal to bone is mechanical loading, the
+weight-bearing and resistance exercise met in the *Menopause & Midlife Health* chapter. In a trial, supervised
+high-intensity resistance and impact training raised bone density in postmenopausal women with low bone
+mass, safely [@watson2018liftmor]. Nutrition and loading are partners (calcium is the substrate, loading is
+the signal to use it). When you advise a patient, name the exercise lever and leave the detailed prescription
+to physical-activity guidance; HPB's own public message pairs a high-calcium diet with weight-bearing exercise
+[@hpbOsteoporosisAwareness2009].
 :::
 
-## The Singapore picture
+### Do salt, caffeine and cola harm bone? {#sec-bone-contested}
 
-**The paradox and the gap.** The signature local facts are the **vitamin D paradox** (common deficiency in a
-sunny country, driven by behaviour and pigmentation and unequal across ethnic groups) and the **calcium gap**
-(~794 mg/day on average, with about half of older adults short), both covered above [@cheong2021vitDsg;
-@ye2023daha]. Together they make the "sunny country, dairy-rich West" assumptions fail here, which is why the
-dairy-optional, food-first Asian calcium list matters.
+Some foods are blamed for weak bones on thin evidence. The solid dietary risks are low calcium, vitamin D or
+protein, low body weight and heavy alcohol; smoking is a major non-dietary risk [@iofRiskFactors;
+@ke2023alcoholFracture; @law1997smokingHipFracture]. Three popular claims are weaker than the headlines
+suggest:
 
-**The fracture burden — rate versus count.** Singapore's hip-fracture *rates* have been **falling** since 2000
-(and continued to 2022), yet absolute *cases* keep **rising** with the ageing population, and osteoporotic
-fractures are projected to climb further by 2035 [@yong2019hipfracSG; @aceOsteoporosis2025; @chandran2019burdenSG].
-Fractures fall about **2:1 in women versus men** and **Chinese** carry the highest ethnic risk
-[@yong2019hipfracSG], and a hip fracture is genuinely **lethal** — mortality runs about double the background rate in women and higher in men
-[@yong2020mortalitySG]. Hold the rate-versus-count distinction: things are improving per person and
-worsening in total.
+- Heavy salt raises urinary calcium, but its link to fracture is weak; the reason to cut salt is blood
+  pressure [@teucher2008sodiumBone].
+- Caffeine's tiny effect on bone is offset by the splash of milk in the coffee [@heaney2002caffeineBone].
+- The cola–bone signal is observational and confounded by milk displacement; acid damage is not proven
+  [@tucker2006colaBMD].
 
-**The guidance stack you signpost.** HPB's simple public message is two levers, a **high-calcium diet plus
-weight-bearing exercise** [@hpbOsteoporosisAwareness2009]. Case-finding uses **OSTA** (an Asian age-and-weight
-screen that flags who needs a scan) and **FRAX** (a 10-year fracture-probability tool with Singapore-calibrated
-models); a **DXA** bone scan showing a T-score of −2.5 or below (2.5 standard deviations under the young-adult
-peak), or any fragility fracture (a break from a fall from standing height or less), defines
-osteoporosis [@koh2001osta; @fraxSingapore; @aceOsteoporosis2018]. The drug treatment and the menopausal hormone
-decisions are **specialist**, guided by the national **ACE** guidance and the **2025 Singapore consensus**,
-signposted, not run from here [@aceOsteoporosis2025; @gani2025osteoconsensusSG].
+### Supplements: for deficiency, not for everyone {#sec-bone-supplements}
 
-## The joints
+Calcium and vitamin D supplements cut fractures in people who are genuinely deficient or institutionalised,
+by roughly 15% for all fractures and 30% for hip fractures in that group [@weaver2016cavitd]. In
+already-replete, community-dwelling older adults, however, large trials and pooled analyses find no fracture
+benefit, and a small increase in kidney stones [@zhao2017cavitdNoBenefit; @leboff2022vitalFractures;
+@uspstfCalcium2018]. The message is therefore food first: correct genuine deficiency, and reserve supplements
+for real shortfall or high risk, rather than advising calcium and vitamin D for everyone over 50.
 
-Now the other system. The joints have almost the mirror-image diet story: one real lever, and a best-selling supplement that does not work.
+::: {.callout-tip collapse="true"}
+## Check yourself: spinach and calcium-set tofu both contain calcium. Why is the tofu the better source for bone?
+What reaches bone is the calcium that is absorbed, not the amount the food contains. Spinach's calcium is
+bound to oxalate, so only about 5% is absorbed, whereas calcium-set tofu is absorbed about as well as milk,
+roughly a quarter to a third. The label's calcium content therefore overstates what spinach delivers.
+:::
 
-### Osteoarthritis: the lever is weight, not a supplement
+::: {.callout-tip collapse="true"}
+## Check yourself: a woman in her sixties who lives at home and is not deficient asks about calcium and vitamin D tablets. Why is the answer usually no?
+Supplements cut fractures in people who are genuinely deficient or institutionalised, but in
+already-replete, community-dwelling older adults large trials find no fracture benefit and a small increase
+in kidney stones. She belongs to the second group, so the tablets would add a small risk without a fracture
+benefit. Food first is the approach, with supplements reserved for genuine shortfall or high risk.
+:::
 
-Now the joints. **Osteoarthritis** — worn, painful joint cartilage, the commonest arthritis and a very high
-local burden — is where the most-asked supplement question lands, and the answer has two halves. First,
-the **real lever is weight**. Obesity is the leading modifiable risk, acting through *both* the mechanical load
-on the joint *and* the low-grade inflammation of adipose tissue, and in the landmark IDEA trial a
-diet-plus-exercise programme that lost about **10% of body weight** improved pain and function while measurably
-lowering both knee load and inflammation, with more loss giving more benefit [@shumnalieva2023obesityoa;
-@messier2013idea; @messier2018morebetter]. Second, the **supplements don't work**: glucosamine and chondroitin,
-the best-selling joint supplements, are no better than placebo for pain or joint structure in the landmark
-trials, and the major guidelines (ACR, OARSI, NICE, and Singapore's ACE) all advise against them
-[@clegg2006gait; @wandel2010nma; @kolasinski2020acr; @bannuru2019oarsi; @nice2022ng226; @aceKneeOA2026]. (The one
-dissenting voice, the European ESCEO group, a musculoskeletal-disease society, makes a case for a specific
-patented formulation, an industry-linked minority position that independent panels reviewed and did not accept
-[@bruyere2018esceo].) The other popular pills —
-vitamin D, collagen, curcumin — fare no better, with negative or very-low-quality OA evidence
-[@mcalindon2013vitd; @lin2023collagenoa]. So the message is the mirror image of the bone one: **for a worn
-joint, the lever is weight and activity, not a supplement.**
+## The joints {#sec-bone-joints}
+
+::: {.spectrum}
+[Evidence for joint treatments and claims]{.tree-title}
+
+- Glucosamine and chondroitin for osteoarthritis: no better than placebo in the major independent trials
+- Cherries for gout: an observational signal only
+- Omega-3 fish oil in rheumatoid arthritis: a modest adjunct
+- The real levers: about 10% weight loss in knee osteoarthritis; a urate-lowering drug to target in gout
+
+[No proven benefit]{.spectrum-end} [Proven benefit]{.spectrum-end}
+:::
+
+### Osteoarthritis: the lever is weight, not a supplement {#sec-bone-oa}
+
+Osteoarthritis, the commonest arthritis and a very high local burden, is where the most-asked supplement
+question lands, and the answer has two parts.
+
+The first is that the real lever is weight. Obesity is the leading modifiable risk, acting through both the
+mechanical load on the joint and the low-grade inflammation of adipose tissue [@shumnalieva2023obesityoa]. In
+the IDEA trial, a diet-plus-exercise programme that lost about 10% of body weight improved pain and function
+while measurably lowering both knee load and inflammation, and more loss gave more benefit
+[@messier2013idea; @messier2018morebetter].
+
+The second is that the supplements do not work. Glucosamine and chondroitin, the best-selling joint
+supplements, are no better than placebo for pain or joint structure in the major independent trials
+[@clegg2006gait; @wandel2010nma]. The major guidelines all advise against them: those of the American
+College of Rheumatology (ACR), the Osteoarthritis Research Society International (OARSI), the National
+Institute for Health and Care Excellence (NICE) and Singapore's Agency for Care Effectiveness (ACE)
+[@kolasinski2020acr; @bannuru2019oarsi; @nice2022ng226; @aceKneeOA2026]. The one dissenting voice, the
+European ESCEO group (a musculoskeletal-disease society), makes a case for a specific patented formulation,
+an industry-linked minority position that independent panels reviewed and did not accept [@bruyere2018esceo].
+Other popular pills (vitamin D, collagen, curcumin) fare no better, with negative or very-low-quality evidence
+in osteoarthritis [@mcalindon2013vitd; @lin2023collagenoa].
 
 ::: {.callout-warning}
-## The joint supplement the guidelines reject — and the mixed messages patients get
-Glucosamine shows how consumer messaging can outrun the evidence. Singapore's **professional**
-guidance (ACE) states plainly that glucosamine and chondroitin "may add cost without established clinical
-benefit" for knee osteoarthritis, yet the government **consumer** portal (HealthHub) still frames glucosamine
-positively, as something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. The do-no-harm
-point is subtle: these supplements are physically fairly safe, so the harm is not toxicity but **cost, false
-reassurance, and spending on an ineffective pill instead of the lever that works**, losing weight and staying
-active. When a patient asks "should I take glucosamine?", the money is better spent on the effective levers.
+## Glucosamine: professional guidance versus consumer messaging
+Glucosamine shows how consumer messaging can outrun the evidence. Singapore's professional guidance (ACE)
+states that glucosamine and chondroitin "may add cost without established clinical benefit" for knee
+osteoarthritis, yet the government consumer portal (HealthHub) still frames glucosamine positively, as
+something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. The do-no-harm point is
+subtle: these supplements are physically fairly safe, so the harm is not toxicity but **cost, false
+reassurance, and spending on an ineffective pill instead of the lever that works** (losing weight and staying
+active). When a patient asks "should I take glucosamine?", the money is better spent on the effective levers.
 :::
 
-### Gout: a metabolic disease, not a moral failing
+### Gout: a metabolic disease, not a moral failing {#sec-bone-gout}
 
-**Gout** is the one joint condition where diet genuinely matters — and it is misunderstood at both ends.
-Patients are often told it is "their fault for eating too much seafood," and respond by cutting food drastically;
-both the blame and the over-restriction are wrong. Gout is a **metabolic disease of urate handling** (urate is
-uric acid, whose crystals inflame the joint). Diet does nudge the urate: **raised** by red and organ
-meat and some seafood (both rich in **purines**, which the body breaks down into urate), by **alcohol
-(especially beer)** and **fructose / sugary drinks**, and **lowered** by low-fat dairy and coffee. But the effect
-is **modest**, and
-purine-rich *vegetables* and total protein are not the problem at all [@choi2004purine; @choi2004alcohol;
-@choi2008fructose; @choi2007coffee]. The rheumatology guideline grades those dietary limits as only *conditional*
-on low-quality evidence, and the popular remedies fare no better: cherries are linked to fewer flares only in
-observational data, and vitamin C does not meaningfully lower urate [@fitzgerald2020goutacr; @zhang2012cherry;
-@stamp2013vitc]. The **strong** lever is a **urate-lowering drug (allopurinol) titrated to a target** blood
-urate level — and Singapore's own data show the real problem is *under-treatment*: most local gout patients
-never reach that target [@fitzgerald2020goutacr; @lee2023sggout; @oka2023goutcontrol]. So the counselling is: it
-is not your fault, don't starve yourself of protein and vegetables, cut the beer and sugary drinks if you like,
-and take the medication to target. The metabolic drivers (obesity, insulin resistance) and the kidney's role in
-urate belong to the *Obesity & Metabolic Syndrome* and *Chronic Kidney Disease* chapters.
+Gout is the one joint condition where particular foods matter, if only modestly, and it is misunderstood at
+both ends. Patients are often told it is "their fault for eating too much seafood" and respond by cutting
+food drastically; both the blame and the over-restriction are wrong.
 
-### Rheumatoid arthritis, in one line
+Gout is a metabolic disease of **urate** handling (urate is uric acid, whose crystals inflame the joint). Diet
+nudges urate in both directions, but only modestly [@choi2004purine; @choi2004alcohol; @choi2008fructose;
+@choi2007coffee]:
 
-**Rheumatoid arthritis** is a different beast again — an autoimmune joint disease managed with
-disease-modifying drugs — where nutrition is only a **modest adjunct**: omega-3 fish oil can ease symptoms and
-spare some anti-inflammatory medication, and a Mediterranean pattern may help a little, but neither substitutes
-for the drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
+- red and organ meat and some seafood raise it, because they are rich in **purines**, which the body breaks down into urate (purine-rich vegetables and total protein, however, are not the problem at all);
+- alcohol, especially beer, raises it;
+- fructose and sugary drinks raise it;
+- low-fat dairy and coffee lower it.
+
+
+The ACR gout guideline grades these dietary limits as only conditional, on low-quality evidence, and the
+popular remedies fare no better: cherries are linked to fewer flares only in observational data, and vitamin C
+does not meaningfully lower urate [@fitzgerald2020goutacr; @zhang2012cherry; @stamp2013vitc].
+
+The strong lever is a urate-lowering drug (allopurinol) titrated to a target blood urate level
+[@fitzgerald2020goutacr]. Singapore's own data show that the real problem is under-treatment: most local gout
+patients never reach that target [@lee2023sggout; @oka2023goutcontrol].
+
+When you counsel a patient with gout, the message runs: "It is not your fault. Don't starve yourself of
+protein and vegetables, cut the beer and sugary drinks if you like, and take the medication to target."
+(Obesity and insulin resistance, the metabolic drivers of gout, are covered in the
+[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
+
+### Rheumatoid arthritis: nutrition as an adjunct {#sec-bone-ra}
+
+**Rheumatoid arthritis**, an autoimmune joint disease managed with disease-modifying drugs, is different
+again: nutrition is only a modest adjunct. Omega-3 fish oil can ease symptoms and spare some
+anti-inflammatory medication, and a Mediterranean pattern may help a little, but neither substitutes for the
+drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
+
+::: {.callout-tip collapse="true"}
+## Check yourself: why does losing about 10% of body weight help a painful knee when glucosamine does not?
+Obesity loads the joint mechanically and adds the low-grade inflammation of adipose tissue. In the IDEA
+trial, losing about 10% of body weight improved pain and function while lowering both knee load and
+inflammation, with more loss giving more benefit. In the major independent trials, glucosamine and
+chondroitin were no better than placebo for pain or joint structure, which is why the major guidelines advise
+against them.
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient with gout plans to cut out meat, seafood and vegetables entirely. Why is that the wrong focus?
+Diet nudges urate only modestly: beer, sugary drinks and red and organ meat raise it, but purine-rich
+vegetables and total protein are not the problem. The strong lever is a urate-lowering drug titrated to a
+target urate level, and in Singapore most patients never reach that target. Drastic restriction misses the
+treatment that works.
+:::
+
+## The Singapore picture {#sec-bone-singapore}
+
+**Two local facts overturn imported assumptions.** Vitamin D deficiency is common in a sunny country, driven
+by behaviour and pigmentation and unequal across ethnic groups (see [vitamin D](#sec-bone-vitd) above)
+[@cheong2021vitDsg]. Average calcium intake (~794 mg/day) falls short, with about half of older adults below
+the requirement (see [calcium](#sec-bone-calcium) above) [@ye2023daha]. The imported assumptions (that a
+sunny country has little vitamin D deficiency, and that calcium means dairy) therefore fail here, which is why
+a dairy-optional, food-first calcium list matters.
+
+**Hip-fracture rates are falling, but the count is rising.** Singapore's hip-fracture *rates* have fallen
+since 2000 (and continued to fall to 2022), yet absolute *cases* keep rising with the ageing population, and
+osteoporotic fractures are projected to climb further by 2035 [@yong2019hipfracSG; @aceOsteoporosis2025;
+@chandran2019burdenSG]. Fractures are about twice as common in women as in men, and Chinese Singaporeans
+carry the highest ethnic risk [@yong2019hipfracSG]. A hip fracture also carries high mortality: about double
+the background rate in women, and higher in men [@yong2020mortalitySG].
+
+**National guidance sets case-finding and treatment.** HPB's public message is two levers, a high-calcium
+diet plus weight-bearing exercise [@hpbOsteoporosisAwareness2009]. Four terms describe case-finding and
+diagnosis:
+
+OSTA
+: An Asian screen, based on age and weight, that flags who needs a bone scan [@koh2001osta].
+
+FRAX
+: A tool that estimates 10-year fracture probability, with Singapore-calibrated models [@fraxSingapore].
+
+T-score
+: Bone density on a DXA scan (the low-dose X-ray scan met in the [*Energy Balance*](energy-balance.qmd)
+  chapter), expressed in standard deviations from the young-adult peak.
+
+Fragility fracture
+: A break from a fall from standing height or less.
+
+A T-score of −2.5 or below, or any fragility fracture, defines osteoporosis [@aceOsteoporosis2018]. Drug
+treatment and menopausal hormone decisions are specialist, guided by the national ACE guidance and the 2025
+Singapore consensus; at this level they are signposted, not managed
+[@aceOsteoporosis2025; @gani2025osteoconsensusSG].
 
 ::: {.callout-important}
-## You recognise the levers and refer — for bones and joints alike
-There is no drug regimen to memorise here, for either system. For **bone**, recognise the nutrient levers
-(calcium, vitamin D, protein, energy), correct genuine deficiency rather than blanket-supplementing, and refer
-using OSTA/FRAX/DXA. For **joints**, recognise that the real levers are **weight and activity** for
-osteoarthritis and a **urate-lowering drug to target** for gout, and that the best-selling joint supplement
-does not work. The osteoporosis drugs and hormone therapy, the allopurinol titration, and the arthritis
-disease-modifying drugs are all **specialist**: named and referred, never prescribed from here
-[@aceOsteoporosis2018; @kolasinski2020acr; @fitzgerald2020goutacr].
+## Recognise and refer, for bone and joints alike
+For bone, recognise the nutrient levers (calcium, vitamin D, protein, energy), correct genuine deficiency
+without blanket-supplementing, and refer using OSTA, FRAX and DXA. For the joints, recognise that the real
+levers are weight and activity for osteoarthritis and a urate-lowering drug to target for gout, and that the
+best-selling joint supplement does not work. The osteoporosis drugs and hormone therapy, the allopurinol
+titration and the arthritis disease-modifying drugs are all **specialist: named and referred, never
+prescribed at this level** [@aceOsteoporosis2018; @kolasinski2020acr; @fitzgerald2020goutacr].
 :::
 
-## Bones and joints: what actually helps?
+## Bones and joints: what actually helps? {#sec-bone-close}
 
-The two systems this chapter covers give almost opposite answers, and holding the difference is the whole point.
-For **bone**, the levers are real and correctable: build the bank young, then defend the balance with a
-well-absorbed calcium source (dairy optional), enough vitamin D, protein and energy, and weight-bearing
-exercise; correct genuine deficiency without medicalising everyone; refer for the scan. For the **joints**, the
-answer is usually less about a pill: lose weight and stay active for a worn knee, treat gout to target
-and stop blaming the seafood, and recognise that the glucosamine on the shelf is the supplement the guidelines
-advise against. Recognise the real levers, deflate the hype, and refer. With that, Part IV is complete, from
-the diseases of *too much* through the cardiometabolic-renal cascade to the deficiency-and-frailty pair and the
-ageing musculoskeleton of *too little*, and the through line holds: across the whole life course, what and how
-a person eats shapes whether they stay well.
+Bone and the joints call for almost opposite answers. For bone, the levers are real and correctable:
 
-## Check your understanding
+- a high peak built in youth, then a defended balance;
+- a well-absorbed calcium source (dairy optional), with enough vitamin D, protein and energy;
+- weight-bearing exercise;
+- correction of genuine deficiency without medicalising everyone, and referral for the scan.
+
+For the joints, the answer is usually less about a pill:
+
+- weight loss and activity for a worn knee;
+- urate-lowering treatment to target for gout, without blaming the seafood;
+- no glucosamine, the supplement the guidelines advise against.
+
+## Check your understanding {#sec-bone-quiz}
 
 <div data-island="quiz" data-src="/quizzes/bone-health-osteoporosis.quiz.yml"></div>
 
-## Practise: Madam Lim and the dairy-free bones
+## Practise: Madam Lim and the dairy-free bones {#sec-bone-case-lim}
 
-Madam Lim is 58, three years past menopause, and Chinese. She is lactose-intolerant so avoids milk, works and
-stays mostly indoors, covers up and walks little; her BMI is 19. Her diet is mostly rice and vegetables with a
-little tofu and not much fish, and she has had no fracture, yet. She's read that she should "take calcium and
-vitamin D tablets like everyone my age," that "spinach is full of calcium," and wonders whether she needs a
-drug. Work through the visit: find her biggest dietary lever, handle the bioavailability and blanket-supplement
-traps, weigh her low body weight, and decide the right next step, recognising where reaching for a drug, rather
-than screening and referring, would be the wrong reflex. Your choices branch the case.
+Madam Lim, 58 and three years past menopause, is lactose-intolerant, mostly indoors and covered up, with a
+BMI of 19 and no fracture yet. She has read that everyone her age should take calcium and vitamin D tablets,
+and wonders whether she needs a bone medicine. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/madam-lim-bone.case.yml"></div>
 
-## Practise: Mr Tan and the glucosamine question
+## Practise: Mr Tan and the glucosamine question {#sec-bone-case-tan}
 
-Mr Tan is 62, overweight (BMI 29), and his knees ache going up stairs, no locking, no giving way, no red flags.
-He has seen glucosamine advertised and a health website that sounded positive, and he's ready to buy it: *"Should
-I take glucosamine, doctor? Will it rebuild my cartilage?"* Work through the visit: give the evidence-based
-answer on the supplement, handle the mixed messages he's seen, steer him to the lever that actually works, and
-frame the do-no-harm point correctly, noticing that the harm here is not toxicity but spending on a pill instead
-of the thing that helps. Your choices branch the case.
+Mr Tan, 62, is overweight (BMI 29), and his knees ache on the stairs, with no red flags. He has seen
+glucosamine advertised and wants to know whether it will rebuild his cartilage. Your choices branch the case.
 
 <div data-island="case" data-src="/cases/mr-tan-joint.case.yml"></div>

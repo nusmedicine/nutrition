@@ -1,11 +1,7 @@
 id: requirement-dial
 title: "The requirement dial"
-intro: >
-  Pregnancy doesn't raise every need the same way. Pick a nutrient and watch its requirement move
-  across the stages — and notice the ones that break the pattern: energy barely rises until it jumps
-  for milk, calcium stays flat, and vitamin A is a ceiling, not a target. Values are schematic — they
-  teach the shape, not exact numbers.
-credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Schematic — relative to a non-pregnant baseline."
+intro: "Values are schematic, relative to a non-pregnant baseline: they show the shape of each change, not exact amounts."
+credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 
 stages: ["Not pregnant", "1st trimester", "2nd trimester", "3rd trimester", "Lactation"]
 
@@ -14,19 +10,19 @@ nutrients:
     kind: rising
     unit: "extra kcal/day above baseline"
     values: [0, 0, 340, 452, 500]
-    why: "Modest and back-loaded in pregnancy — then it genuinely jumps for milk. 'Eating for two' only nearly fits lactation."
+    why: "Modest and back-loaded in pregnancy, and highest in lactation, for milk production. 'Eating for two' only nearly fits lactation."
 
   - name: "Iron"
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 105, 130, 150, 95]
-    why: "Expanding blood volume and the foetus's own stores push the need up, peaking late — then it falls again in lactation."
+    why: "The expanding red-cell mass and the foetus's own stores push the need up, peaking late, and it falls again in lactation."
 
   - name: "Folate"
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 170, 160, 150, 130]
-    why: "Highest around conception and early pregnancy, to build the neural tube — which is why it must be running before you are pregnant."
+    why: "Highest around conception and early pregnancy, when the neural tube forms, which is why folic acid has to start before conception."
 
   - name: "Iodine"
     kind: rising
@@ -38,22 +34,22 @@ nutrients:
     kind: flat
     unit: "% of non-pregnant need (schematic)"
     values: [100, 100, 100, 100, 100]
-    why: "The surprise: the requirement barely rises, because the gut roughly doubles how much calcium it absorbs. Ensure a good baseline — no special allowance needed."
+    why: "The requirement barely rises, because the gut roughly doubles how much calcium it absorbs. A good baseline intake is enough, with no special allowance."
 
   - name: "Vitamin A"
     kind: ceiling
-    unit: "floor flat — but with an upper limit"
+    unit: "floor flat, with an upper limit"
     values: [100, 100, 100, 100, 100]
-    why: "The floor barely moves — but high-dose preformed retinol (supplements, liver) is teratogenic. This is a CEILING to respect, not a target to chase; plant beta-carotene is safe."
+    why: "The floor barely moves, but high-dose preformed retinol (supplements, liver) is teratogenic, so this is a ceiling to respect, not a target to chase. Plant β-carotene is safe."
 
   - name: "DHA (omega-3)"
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 115, 130, 145, 150]
-    why: "Builds the foetal brain and eye and modestly lowers preterm birth, then carries on into the milk. Two to three low-mercury fish meals a week covers it."
+    why: "Builds the foetal brain and eye and modestly lowers preterm birth, then carries on into the milk. Two to three low-mercury fish meals a week cover it."
 
   - name: "Choline"
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 110, 120, 130, 150]
-    why: "One of the under-taught pair — most pregnant women fall short. It supports foetal brain development, and the need rises further in lactation."
+    why: "Most pregnant women fall short of it. It supports foetal brain development, and the need rises further in lactation."

@@ -2,11 +2,11 @@ id: common-questions
 title: "Everyday questions in one clinic: carbs, fat and protein"
 objectives:
   - "Answer common lay questions on carbohydrate, fat and protein on quality-over-quantity terms."
-  - "Correct popular myths — coconut oil, dietary cholesterol, 'more protein = more muscle'."
-  - "Give quality guidance, anchor to My Healthy Plate, and recognise the boundary where a plan belongs with a dietitian (a skill later chapters teach)."
+  - "Respond with the evidence to popular beliefs about coconut oil, dietary cholesterol and 'more protein = more muscle'."
+  - "Give quality guidance, anchor to My Healthy Plate, and recognise the boundary where a plan belongs with a dietitian (taught in later chapters)."
 difficulty: intro
 estimatedMinutes: 10
-tags: [nutrition, macronutrients, counselling, myths]
+tags: [nutrition, macronutrients, counselling, common-beliefs]
 start: intro
 variables: { quality: 0 }
 
@@ -27,32 +27,32 @@ nodes:
     body: |
       Mr Lim's fasting glucose is borderline and his cholesterol is mildly up. He feels well
       and is motivated, but he has absorbed a lot of coffee-shop nutrition wisdom, and he
-      rattles off his worries one after another — about rice, about cooking oils, about eggs,
-      and about his son's protein powder. Answer each on **quality, not bans**, and watch the
-      same thread run through all four.
+      rattles off his worries one after another: rice, eggs, cooking oils and his son's
+      protein powder. Answer each on quality, not bans, and watch the same thread run
+      through all four.
     next: q-carb
 
   - id: q-carb
     type: mcq
     emotion: concerned
-    stem: "*\"Is white rice the problem? Should I just cut all carbs — my friend went keto?\"*"
+    stem: "*\"Is white rice the problem? Should I just cut all carbs? My friend went keto.\"*"
     options:
       - id: a
-        text: "\"Yes — cut all rice and carbs, keto is best.\""
+        text: "\"Yes, cut all rice and carbs; keto is best.\""
         correct: false
         feedback: "This throws out protective wholegrains, legumes and fibre along with the refined starch. Keto/low-carb can help weight and glucose *short-term* but isn't a proven long-term win, can push cholesterol up, and a strict plan needs a dietitian."
         goto: q-eggs
       - id: b
-        text: "\"It's about the type — swap some white rice for brown/red rice.\""
+        text: "\"It's the type: swap some white rice for brown or red rice.\""
         correct: true
-        feedback: "Right — a hawker-available quality upgrade anchored to My Healthy Plate, not a ban: fill half the plate with vegetables and keep the portion sensible. And reassure him: **whole fruit is fine** despite its sugar; it's the *sweet drinks* (bubble tea, sweetened kopi, even juice) that behave like added sugar."
+        feedback: "Swapping some white rice for brown or red rice is a quality upgrade available at hawker stalls, not a ban, and it fits My Healthy Plate: fill half the plate with vegetables and keep the portion sensible. Reassure him too that whole fruit is fine despite its sugar; it is sweet drinks (bubble tea, sweetened kopi, even juice) that behave like added sugar."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-eggs
       - id: c
-        text: "\"Rice is fine — eat as much white rice as you like.\""
+        text: "\"Rice is fine; eat as much white rice as you like.\""
         correct: false
-        feedback: "A flood of refined starch is exactly what nudges glucose up. Portion and type still matter — this isn't a free pass."
+        feedback: "A flood of refined starch is what nudges glucose up, so portion and type still matter; this isn't a free pass."
         goto: q-eggs
 
   - id: q-eggs
@@ -61,42 +61,42 @@ nodes:
     stem: "*\"So no more eggs for me? I heard eggs are full of cholesterol, and mine is already high.\"*"
     options:
       - id: a
-        text: "\"Yes, stop eating eggs — they'll raise your cholesterol.\""
+        text: "\"Yes, stop eating eggs; they'll raise your cholesterol.\""
         correct: false
-        feedback: "A common mix-up worth correcting. The cholesterol *in food* moves blood cholesterol far less than **saturated and trans fat** do. For most people eggs are fine in moderation — it's the fatty, fried sides they come with that matter more."
+        feedback: "The cholesterol in food moves blood cholesterol far less than saturated and trans fat do. For most people eggs are fine in moderation; the fatty, fried sides they come with matter more."
         goto: q-fat
       - id: b
-        text: "\"For most people eggs are fine in moderation — we'll keep an eye on your borderline results.\""
+        text: "\"Eggs in moderation are fine for most people; we'll watch your results.\""
         correct: true
-        feedback: "Exactly — correct the myth without banning, and individualise. The cholesterol in food matters less than saturated and trans fat; it's those that move blood cholesterol most, not the cholesterol in the egg itself."
+        feedback: "Saturated and trans fat move blood cholesterol more than the cholesterol in the egg itself, so for most people eggs need no ban. Individualising, with his borderline results in view, is the sound approach."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-fat
       - id: c
-        text: "\"Cholesterol in food doesn't matter at all — eat as many as you like.\""
+        text: "\"Cholesterol in food doesn't matter at all, so eat as many as you like.\""
         correct: false
-        feedback: "Almost — dietary cholesterol matters *less* than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras. Moderation, and mind the company they keep."
+        feedback: "Dietary cholesterol matters less than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras. Moderation, and mind the company they keep."
         goto: q-fat
 
   - id: q-fat
     type: mcq
     emotion: skeptical
-    stem: "*\"My friend says coconut oil is a superfood and butter is natural — I switched to those. Better for me, right?\"*"
+    stem: "*\"My friend says coconut oil is a superfood and butter is natural, so I switched to those. Better for me, right?\"*"
     options:
       - id: a
         text: "\"Yes, coconut oil and butter are healthy natural fats.\""
         correct: false
-        feedback: "A myth worth correcting kindly. Coconut oil is ~90% saturated fat and **raises cholesterol** like other saturated fats — the 'superfood' halo isn't supported; butter is roughly two-thirds saturated. Neither is a heart-healthy default."
+        feedback: "Coconut oil is ~90% saturated fat and raises cholesterol like other saturated fats, so the 'superfood' halo isn't supported; butter is roughly two-thirds saturated. Neither is a heart-healthy default; correct the belief kindly, without a ban."
         goto: q-protein
       - id: b
-        text: "\"Avoid all fat — go fat-free.\""
+        text: "\"Avoid all fat; go fat-free.\""
         correct: false
-        feedback: "Too far. You need some fat for the essential fatty acids and fat-soluble vitamins; the move is to **swap** saturated for unsaturated, not slash all fat."
+        feedback: "The body needs some fat for the essential fatty acids and fat-soluble vitamins; the move is to swap saturated for unsaturated fat, not to cut all fat."
         goto: q-protein
       - id: c
-        text: "\"Keep some fat, but use unsaturated oils for everyday cooking.\""
+        text: "\"Keep some fat, but cook with unsaturated oils.\""
         correct: true
-        feedback: "Exactly — type over total. Use unsaturated oils (peanut, canola, olive) as the default and small amounts of coconut for flavour are fine. Correct the hype without banning: it's the *default* cooking fat that matters."
+        feedback: "Type matters more than total. Unsaturated oils (peanut, canola, olive) make the everyday default, and small amounts of coconut for flavour are fine. The default cooking fat is what matters, so the hype can be corrected without a ban."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-protein
@@ -107,19 +107,19 @@ nodes:
     stem: "*\"Last one, doctor. My son takes protein powder and eats chicken breast all day to build muscle. Does more protein mean more muscle? Should I take some for energy?\"*"
     options:
       - id: a
-        text: "\"Yes — the more protein, the more muscle.\""
+        text: "\"Yes, the more protein, the more muscle.\""
         correct: false
-        feedback: "Only up to a point, and only *with* resistance training: extra protein helps build muscle up to roughly 1.6 g/kg/day, beyond which it's just extra calories. Protein is permissive, not magic."
+        feedback: "Extra protein helps build muscle only with resistance training, and only up to roughly 1.6 g/kg/day; beyond that it is just extra energy."
         goto: route
       - id: b
-        text: "\"Enough protein *plus* training builds muscle — ordinary food usually meets needs.\""
+        text: "\"Enough protein plus training builds muscle; food usually covers it.\""
         correct: true
-        feedback: "Right — adequacy + training, whole foods first (fish, egg, tofu, dhal, chicken), powder as convenience not necessity. And it's processed meats (luncheon meat, bacon, sausages) to cut back on — the processed-meat point lands the quality theme once more."
+        feedback: "Adequate protein plus training builds muscle. Whole foods come first (fish, egg, tofu, dhal, chicken), with powder a convenience, not a necessity, and the protein foods to cut back on are processed meats (luncheon meat, bacon, sausages)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: c
-        text: "\"Protein powder gives energy — take a few scoops a day to feel more energetic.\""
+        text: "\"Protein powder gives energy; take a few scoops a day.\""
         correct: false
         feedback: "Protein isn't an energy supplement. Most people meet their needs from ordinary local food; there's no need to add powder."
         goto: route
@@ -136,29 +136,29 @@ nodes:
     emotion: concerned
     title: "Re-centre on quality"
     body: |
-      The thread across all four questions is the same: **type and food source**, not
-      blanket bans or hype. Anchor to My Healthy Plate, correct myths plainly, and — when a
-      plan turns restrictive or therapeutic, or the patient is higher-risk — know when to
-      bring in a dietitian rather than prescribing it yourself.
+      The thread across all four questions is the same: type and food source, not
+      blanket bans or hype. Anchor advice to My Healthy Plate, correct mistaken beliefs
+      plainly, and, when a plan turns restrictive or therapeutic or the patient is
+      higher-risk, bring in a dietitian rather than prescribing it yourself.
     next: end-partial
 
   - id: end-good
     type: end
     outcome: success
-    title: "Quality over quantity — and where referral begins"
+    title: "Quality over quantity, and where referral begins"
     body: |
       You answered a carbohydrate, a cholesterol, a fat and a protein question on
-      quality-not-quantity terms, corrected the coconut-oil, egg and 'more-protein' myths,
-      and — because Mr Lim wants a strict low-carb plan on top of borderline glucose
-      and cholesterol — recognised this is beyond everyday advice and agreed to bring in a
-      **dietitian**. *(When and how to assess, counsel and refer is the work of later chapters
-      — Assessing Diet & Talking to Patients, Behaviour-Change Counselling, and
-      Interprofessional Practice & Referral.)*
+      quality-not-quantity terms and corrected the coconut-oil, egg and 'more-protein'
+      misconceptions. Because Mr Lim wants a strict low-carb plan on top of borderline
+      glucose and cholesterol, you recognised this is beyond everyday advice and agreed to
+      bring in a dietitian. (Assessing diet, counselling and referral are covered in the
+      *Assessing Diet & Talking to Patients*, *Behaviour-Change Counselling* and
+      *Interprofessional Practice & Referral* chapters.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Carbs, fat, cholesterol and protein all reduce to quality and food source — not blanket bans."
-        - "Correct myths clearly: coconut oil raises cholesterol; the cholesterol in food matters less than saturated/trans fat; processed meat is the stronger signal; protein builds muscle only with training, up to a point."
+        - "Carbs, fat, cholesterol and protein all reduce to quality and food source, not blanket bans."
+        - "Correct mistaken beliefs clearly: coconut oil raises cholesterol; the cholesterol in food matters less than saturated/trans fat; processed meat is the stronger signal; protein builds muscle only with training, up to a point."
         - "Give quality guidance and local tools; don't prescribe grams or restrictive plans; refer restrictive/therapeutic diets or higher-risk patients."
 
   - id: end-partial
@@ -167,7 +167,7 @@ nodes:
     title: "Most of the way"
     body: |
       You engaged all four questions but drifted toward all-or-nothing or hype on at least
-      one. Replay and reframe each around **quality** and one realistic local swap — and
+      one. Replay and reframe each around quality and one realistic local swap, and
       remember the referral boundary when a plan turns restrictive.
     debrief:
       objectivesMet: [1]

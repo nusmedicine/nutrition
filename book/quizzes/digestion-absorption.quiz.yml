@@ -2,14 +2,14 @@ id: digestion-absorption
 title: "Quick check: digestion & absorption"
 questions:
   - id: q1
-    stem: "Where does **most** digestion and absorption of nutrients happen?"
+    stem: "Where does most digestion and absorption of nutrients happen?"
     options:
       - text: "The small intestine"
         correct: true
-        feedback: "Correct — the small intestine is the main site of both. The stomach mainly stores, mixes, and starts protein digestion."
+        feedback: "The small intestine is the main site of both. The stomach mainly stores and mixes food and starts protein digestion."
       - text: "The stomach"
         correct: false
-        feedback: "A common misconception — the stomach starts protein digestion, but the small intestine does most of the work."
+        feedback: "Protein digestion starts in the stomach, but the small intestine does most of the work."
       - text: "The large intestine"
         correct: false
         feedback: "The large intestine mainly reabsorbs water and forms stool; little nutrient digestion happens there."
@@ -17,142 +17,142 @@ questions:
   - id: q2
     stem: "Where does chemical digestion begin?"
     options:
-      - text: "In the mouth, with salivary amylase acting on starch"
+      - text: "In the mouth, with salivary amylase"
         correct: true
-        feedback: "Correct — chewing plus salivary amylase (and a little lingual lipase) start digestion before food is even swallowed."
+        feedback: "Chewing plus salivary amylase (and a little lingual lipase) start digestion before food is swallowed."
       - text: "In the stomach, with acid"
         correct: false
-        feedback: "The stomach continues it, but digestion begins in the mouth with salivary amylase."
+        feedback: "The stomach continues digestion, but it begins in the mouth with salivary amylase."
       - text: "In the duodenum, with pancreatic enzymes"
         correct: false
-        feedback: "Pancreatic enzymes do a lot of the work, but the first step is salivary amylase in the mouth."
+        feedback: "Pancreatic enzymes do much of the work, but the first step is salivary amylase in the mouth."
 
   - id: q3
     stem: "Which pair correctly describes the two main gut movements?"
     options:
       - text: "Peristalsis pushes food along; segmentation mixes it"
         correct: true
-        feedback: "Correct — peristalsis is propulsive waves; segmentation is back-and-forth mixing, mainly in the small intestine."
+        feedback: "Peristalsis is a set of propulsive waves; segmentation is back-and-forth mixing, mainly in the small intestine."
       - text: "Peristalsis mixes food; segmentation pushes it along"
         correct: false
-        feedback: "Reversed — peristalsis pushes, segmentation mixes."
-      - text: "Both simply push food towards the anus at the same speed"
+        feedback: "This reverses the two: peristalsis pushes, segmentation mixes."
+      - text: "Both push food along at the same speed"
         correct: false
-        feedback: "They do different jobs — one propels, the other mixes."
+        feedback: "They do different jobs: one propels, the other mixes."
 
   - id: q4
-    stem: "The pancreas secretes its protein-digesting enzymes in an **inactive** form. Why?"
+    stem: "The pancreas secretes its protein-digesting enzymes in an inactive form. Why?"
     options:
       - text: "So the enzymes don't digest the pancreas itself"
         correct: true
-        feedback: "Correct — a biological safety-lock: the proteases are switched on only after they reach the intestine."
+        feedback: "It is a biological safety-lock: the proteases are switched on only after they reach the intestine."
       - text: "Because inactive enzymes are cheaper for the body to make"
         correct: false
-        feedback: "The reason is safety, not economy — active proteases in the pancreas would damage it."
+        feedback: "The reason is safety, not economy: active proteases in the pancreas would damage it."
       - text: "Because they only work in the acidic stomach"
         correct: false
-        feedback: "Pancreatic enzymes actually need the near-neutral pH of the bicarbonate-treated duodenum, not acid."
+        feedback: "Pancreatic enzymes need the near-neutral pH of the bicarbonate-treated duodenum, not acid."
 
   - id: q5
-    stem: "Which hormone triggers the pancreas to release **bicarbonate** to neutralise stomach acid?"
+    stem: "Which hormone triggers the pancreas to release bicarbonate to neutralise stomach acid?"
     options:
       - text: "Secretin"
         correct: true
-        feedback: "Correct — acid entering the duodenum releases secretin, which drives bicarbonate (the 'antacid step')."
+        feedback: "Acid entering the duodenum releases secretin, which drives bicarbonate secretion (the 'antacid step')."
       - text: "Gastrin"
         correct: false
-        feedback: "Gastrin does the opposite — it increases stomach acid."
+        feedback: "Gastrin does the opposite: it increases stomach acid."
       - text: "Motilin"
         correct: false
-        feedback: "Motilin drives the between-meals 'housekeeper' sweep, not bicarbonate release."
+        feedback: "Motilin drives the migrating motor complex between meals, not bicarbonate release."
 
   - id: q6
     stem: "A fatty meal arrives in the duodenum. Which hormone squeezes the gallbladder and calls for pancreatic enzymes?"
     options:
       - text: "CCK"
         correct: true
-        feedback: "Correct — CCK contracts the gallbladder (releasing bile) and stimulates pancreatic enzymes; it also slows gastric emptying."
+        feedback: "CCK contracts the gallbladder (releasing bile) and stimulates pancreatic enzymes; it also slows gastric emptying."
       - text: "Secretin"
         correct: false
         feedback: "Secretin handles bicarbonate; CCK handles bile release and enzymes."
       - text: "Insulin"
         correct: false
-        feedback: "Insulin acts on blood glucose after absorption — it isn't the gallbladder signal."
+        feedback: "Insulin acts on blood glucose after absorption; it is not the gallbladder signal."
 
   - id: q7
     stem: "About 95% of Singapore-born Chinese adults are lactase-deficient. What does that mean in practice?"
     options:
-      - text: "Deficient is not the same as intolerant, and different again from allergic"
+      - text: "Low lactase, which is neither intolerance nor allergy"
         correct: true
-        feedback: "Correct — deficient (low lactase) ≠ intolerant (symptoms from a given dose) ≠ allergic (an immune reaction to milk protein). Most still tolerate about a cup of milk."
-      - text: "Almost all of them will be violently ill after any dairy"
+        feedback: "Deficient (low lactase) is not the same as intolerant (symptoms from a given amount), and both differ from allergic (an immune reaction to milk protein). Most still tolerate about a cup of milk."
+      - text: "Almost all will have symptoms after any dairy"
         correct: false
-        feedback: "No — only about a third get symptoms on ordinary amounts, and most tolerate roughly a cup of milk."
-      - text: "They are allergic to milk"
+        feedback: "Only about a third get symptoms on ordinary amounts, and most tolerate roughly a cup of milk."
+      - text: "They are allergic to milk protein"
         correct: false
-        feedback: "Lactase deficiency is about digesting a sugar; milk allergy is a separate, immune reaction to milk protein."
+        feedback: "Lactase deficiency concerns digesting a sugar; milk allergy is a separate immune reaction to milk protein."
 
   - id: q8
-    stem: "How big is the small intestine's absorptive surface, really?"
+    stem: "How big is the small intestine's absorptive surface?"
     options:
-      - text: "About 30–40 m² — roughly half a badminton court"
+      - text: "About 30–40 m², roughly half a badminton court"
         correct: true
-        feedback: "Correct — careful measurement gives ~30–40 m². The old 'tennis court' figure is a corrected myth."
-      - text: "About 200–300 m² — a full tennis court"
+        feedback: "Careful measurement gives about 30–40 m². The older 'tennis court' figure has been revised downwards."
+      - text: "About 200–300 m², a full tennis court"
         correct: false
-        feedback: "That's the outdated textbook figure; the real area is much smaller (~30–40 m²)."
-      - text: "About 1–2 m² — the same as the skin"
+        feedback: "That is the older textbook figure; measured carefully, the area is much smaller (about 30–40 m²)."
+      - text: "About 1–2 m², the same as the skin"
         correct: false
-        feedback: "Folds, villi and microvilli amplify it far beyond skin area — to roughly 30–40 m²."
+        feedback: "Folds, villi and microvilli amplify it far beyond skin area, to roughly 30–40 m²."
 
   - id: q9
-    stem: "How is **glucose** absorbed across the gut lining?"
+    stem: "How is glucose absorbed across the gut lining?"
     options:
       - text: "By secondary active transport, via SGLT1"
         correct: true
-        feedback: "Correct — a sodium gradient (kept up by a pump) powers SGLT1, which drags glucose in alongside sodium. Fructose, by contrast, is facilitated (GLUT5)."
+        feedback: "A sodium gradient, kept up by a pump, powers SGLT1, which carries glucose in alongside sodium. Fructose, by contrast, crosses by facilitated diffusion (GLUT5)."
       - text: "By simple passive diffusion, like water"
         correct: false
-        feedback: "Glucose is moved by SGLT1 (sodium-coupled), not passive diffusion — that coupling is what oral rehydration relies on."
+        feedback: "Glucose is moved by SGLT1, coupled to sodium, not by passive diffusion; oral rehydration relies on that coupling."
       - text: "It isn't absorbed in the small intestine"
         correct: false
-        feedback: "Glucose is absorbed here via SGLT1, then exits to the portal blood."
+        feedback: "The small intestine absorbs glucose via SGLT1, and the glucose then exits to the portal blood."
 
   - id: q10
-    stem: "After absorption, how does most **dietary fat** reach the bloodstream?"
+    stem: "After absorption, how does most dietary fat reach the bloodstream?"
     options:
       - text: "Packaged into chylomicrons that enter the lymph"
         correct: true
-        feedback: "Correct — long-chain fat is re-esterified, packed into chylomicrons, and takes the lymphatic route (via the lacteals), bypassing the liver's first pass. Short- and medium-chain fats are the small exception, entering blood directly."
+        feedback: "Long-chain fat is re-esterified, packed into chylomicrons and carried by the lymph (via the lacteals), bypassing the liver's first pass. Short- and medium-chain fatty acids are the small exception, entering blood directly."
       - text: "Dissolved directly in the blood plasma like glucose"
         correct: false
-        feedback: "Fat doesn't dissolve in water — it travels as chylomicrons in lymph, then blood."
+        feedback: "Fat does not dissolve in water; it travels as chylomicrons in lymph, then blood."
       - text: "Absorbed unchanged as whole triglyceride droplets"
         correct: false
-        feedback: "Fat is digested to fatty acids/monoglycerides, ferried by micelles, then re-esterified and packaged as chylomicrons."
+        feedback: "Triglyceride is first digested to fatty acids and monoglycerides, ferried by micelles, then re-esterified and packaged as chylomicrons."
 
   - id: q11
-    stem: "Bile — where is it made, and what happens to it after a meal?"
+    stem: "Where is bile made, and what happens to it after a meal?"
     options:
       - text: "Made by the liver; most is reabsorbed and recycled"
         correct: true
-        feedback: "Correct — the liver makes bile, the gallbladder stores it, and about 95% of bile salts are reclaimed at the terminal ileum and reused (enterohepatic circulation)."
-      - text: "Made by the gallbladder and used up completely with each meal"
+        feedback: "The liver makes bile, the gallbladder stores it, and about 95% of bile salts are reclaimed at the terminal ileum and reused (the enterohepatic circulation)."
+      - text: "Made by the gallbladder; used up with each meal"
         correct: false
-        feedback: "The gallbladder only stores and concentrates bile; the liver makes it, and ~95% is recycled, not used up."
-      - text: "Made by the pancreas and excreted entirely in stool"
+        feedback: "Bile is only stored and concentrated in the gallbladder; the liver makes it, and about 95% of the bile salts are recycled, not used up."
+      - text: "Made by the pancreas; all lost in stool"
         correct: false
-        feedback: "Bile comes from the liver, not the pancreas, and most is reabsorbed rather than excreted."
+        feedback: "The liver, not the pancreas, makes bile, and most is reabsorbed rather than excreted."
 
   - id: q12
-    stem: "Oral rehydration salts contain glucose **and** sodium. Why not just water?"
+    stem: "Oral rehydration salts contain glucose and sodium. Why not plain water?"
     options:
       - text: "Glucose carries sodium in through SGLT1, and water follows"
         correct: true
-        feedback: "Correct — glucose is the 'handle' sodium rides in on through SGLT1, and water follows the sodium osmotically. Plain water lacks both, which is why ORS works better."
+        feedback: "Glucose is the handle that sodium rides in on through SGLT1, and water follows the sodium by osmosis. Plain water lacks both, which is why ORS works better."
       - text: "The glucose is mainly there for calories and energy"
         correct: false
         feedback: "Here the glucose is a transport handle for sodium, not primarily a fuel."
       - text: "The salt is only there to make it taste better"
         correct: false
-        feedback: "The sodium is co-absorbed with glucose through SGLT1 — it's the mechanism, not flavouring."
+        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism, not flavouring."

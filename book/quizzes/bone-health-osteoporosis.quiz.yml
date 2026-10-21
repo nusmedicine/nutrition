@@ -6,46 +6,46 @@ questions:
     options:
       - text: "About 20–40% of peak bone mass is lifestyle-modifiable"
         correct: true
-        feedback: "Correct. Peak bone mass is mostly inherited — only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That's real but bounded leverage: build the bank high in youth, then defend the balance. A higher peak buys years of delay before osteoporosis — but that's years of delay, not a percentage cut in fractures."
-      - text: "Essentially all of it — bone is purely a lifestyle matter"
+        feedback: "Peak bone mass is mostly inherited: only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That is a real but bounded lever: build the bank high in youth, then defend the balance. A higher peak buys years of delay before osteoporosis, which is not the same as a percentage cut in fractures."
+      - text: "Essentially all of it; bone is purely a lifestyle matter"
         correct: false
         feedback: "The majority of peak bone mass is heritable; only about 20–40% is lifestyle-modifiable. Overselling it sets up false expectations."
-      - text: "None of it — bone mass is entirely fixed at birth"
+      - text: "None of it; bone mass is entirely fixed at birth"
         correct: false
-        feedback: "It isn't fixed — about 20–40% is modifiable through the accrual years (calcium, activity) and the levers still matter across adulthood. The point is bounded leverage, not none."
+        feedback: "It isn't fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the levers still matter across adulthood. The lever is bounded, not absent."
       - text: "It only becomes modifiable after menopause"
         correct: false
         feedback: "The biggest window is youth, when the bank is built; menopause is when women draw it down fastest. The levers matter across the whole life course."
 
   - id: q2
-    stem: "A patient says \"spinach is full of calcium, so it's great for my bones.\" What's the accurate response?"
+    stem: "A patient says \"spinach is full of calcium, so it's great for my bones\". What's the accurate response?"
     options:
       - text: "Its calcium is oxalate-bound and barely absorbed (~5%)"
         correct: true
-        feedback: "Correct. Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Choose the well-absorbed sources."
-      - text: "Correct — spinach is an excellent calcium source for bone"
+        feedback: "Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Choose the well-absorbed sources."
+      - text: "Yes, spinach is an excellent calcium source for bone"
         correct: false
-        feedback: "This confuses content with availability. Spinach contains calcium but oxalate binds it, so only ~5% is absorbed — it's a poor bone source despite the label."
-      - text: "Only if eaten raw, which frees up the calcium"
+        feedback: "This confuses content with availability. Spinach contains calcium, but oxalate binds it, so only ~5% is absorbed; it is a poor bone source despite the label."
+      - text: "Only if cooked, which frees up the calcium"
         correct: false
-        feedback: "Cooking doesn't unlock oxalate-bound calcium. Spinach stays a poor calcium source; pick low-oxalate greens or calcium-set tofu instead."
+        feedback: "Cooking doesn't release oxalate-bound calcium. Spinach stays a poor calcium source; pick low-oxalate greens or calcium-set tofu instead."
       - text: "Yes, its calcium is absorbed better than from milk"
         correct: false
         feedback: "The opposite is true: spinach calcium (~5% absorbed) is far less available than milk's, because oxalate binds it."
 
   - id: q3
-    stem: "Why is vitamin D deficiency common in **sunny** Singapore?"
+    stem: "Why is vitamin D deficiency common in sunny Singapore?"
     options:
       - text: "Indoor living, sun avoidance and skin pigmentation"
         correct: true
-        feedback: "Correct. The cause is behaviour and biology, not the climate: indoor lifestyles, cosmetic sun avoidance, covering, and darker skin pigmentation all cut skin synthesis (which also falls with age). About 1 in 3 mid-life Singaporean women are deficient, and the burden is unequal — Indian and Malay women more than Chinese."
+        feedback: "Behaviour and biology, not the climate, explain it: indoor lifestyles, cosmetic sun avoidance, covering and darker skin pigmentation all cut skin synthesis (which also falls with age). About 1 in 3 mid-life Singaporean women are deficient, and the burden is unequal: Indian and Malay women more than Chinese."
       - text: "The equatorial sun is actually too weak for the skin"
         correct: false
-        feedback: "The tropical sun is ample; the problem is that people avoid it (indoors, covered, sun-averse) and pigmentation reduces synthesis. It's behavioural, not a weak-sun problem."
+        feedback: "The tropical sun is ample; the problem is that people avoid it (indoors, covered, sun-averse) and pigmentation reduces synthesis. The cause is behavioural, not a weak sun."
       - text: "Diet here contains dangerously little calcium"
         correct: false
-        feedback: "The calcium gap is a separate issue. Vitamin D deficiency here is driven by low sun exposure and pigmentation, not by dietary calcium."
-      - text: "It isn't — deficiency is impossible in the tropics"
+        feedback: "Dietary calcium is a separate issue (the calcium gap). Vitamin D deficiency here is driven by low sun exposure and pigmentation."
+      - text: "It isn't; deficiency is impossible in the tropics"
         correct: false
         feedback: "It is common: roughly 1 in 3 mid-life women are deficient despite the sun, because of indoor life, covering and pigmentation."
 
@@ -54,141 +54,141 @@ questions:
     options:
       - text: "It enables calcium uptake; don't test everyone"
         correct: true
-        feedback: "Correct. Vitamin D doesn't build bone directly — its active form drives the gut to absorb calcium, so a shortfall means calcium passes through and the parathyroid pulls it from bone. And guideline bodies now advise against routine testing and empiric dosing in healthy adults: find and correct genuine shortfall in higher-risk people instead."
+        feedback: "Vitamin D doesn't build bone directly: its active form drives the gut to absorb calcium, so a shortfall means calcium passes through and the parathyroid glands pull it from bone. The Endocrine Society guideline also advises against routine testing and empiric dosing in healthy adults; find and correct genuine shortfall in higher-risk people instead."
       - text: "It builds bone directly; test the whole population"
         correct: false
-        feedback: "Vitamin D is the enabler of calcium absorption, not a direct bone-builder, and routine population testing is not advised — target higher-risk people."
+        feedback: "As the enabler of calcium absorption, vitamin D is not a direct bone-builder, and routine population testing is not advised; target higher-risk people."
       - text: "It replaces the need for dietary calcium entirely"
         correct: false
         feedback: "Vitamin D enables calcium absorption; it doesn't replace calcium. You need both the substrate (calcium) and the enabler (vitamin D)."
       - text: "It has no role in bone and needn't be considered"
         correct: false
-        feedback: "It has a central role — enabling calcium absorption — so genuine deficiency matters. What's not advised is blanket testing and dosing of healthy adults."
+        feedback: "Its role is to enable calcium absorption, so genuine deficiency matters. What is not advised is blanket testing and dosing of healthy adults."
 
   - id: q5
-    stem: "An older patient avoids protein because they heard it \"leaches calcium from bone.\" Best response?"
+    stem: "An older patient avoids protein because they heard it \"leaches calcium from bone\". Best response?"
     options:
       - text: "With enough calcium, protein lowers fracture risk"
         correct: true
-        feedback: "Correct. The acid-ash 'protein leaches calcium' idea is backwards: with adequate calcium, higher protein tracks about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. Protein is the collagen matrix and preserves fall-preventing muscle — a bone nutrient, not a threat."
-      - text: "They're right — cutting protein protects the skeleton"
+        feedback: "With adequate calcium, higher protein tracks about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. The acid-ash idea that protein leaches calcium therefore runs against the evidence. Protein is the collagen matrix and preserves fall-preventing muscle: a bone nutrient, not a threat."
+      - text: "They're right; cutting protein protects the skeleton"
         correct: false
-        feedback: "This is the myth. Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures, not more."
+        feedback: "Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures, not more. The acid-ash belief has the evidence the wrong way round."
       - text: "Protein has no effect on bone either way"
         correct: false
-        feedback: "Protein does matter — it's the collagen matrix, drives IGF-1, and maintains fall-preventing muscle. With adequate calcium it tracks lower fracture risk."
+        feedback: "Protein does matter: it is the collagen matrix, drives IGF-1, and maintains fall-preventing muscle. With adequate calcium it tracks lower fracture risk."
       - text: "Only plant protein is safe; animal protein harms bone"
         correct: false
         feedback: "The evidence doesn't single out animal protein as harmful. Adequate protein of either kind, with enough calcium, supports bone."
 
   - id: q6
-    stem: "Why is a **low body weight** a bone red flag?"
+    stem: "Why is a low body weight a bone red flag?"
     options:
       - text: "A low BMI roughly doubles hip-fracture risk"
         correct: true
-        feedback: "Correct. A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely because it tracks lower bone density — which is why low weight is built into fracture-risk tools like FRAX. Underweight and underfuelled patients, common in frail old age, are a bone red flag."
+        feedback: "A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely because it tracks lower bone density, which is why low weight is built into fracture-risk tools like FRAX. Underweight and underfuelled patients, common in frail old age, carry a bone red flag."
       - text: "Thin people always have unusually dense bones"
         correct: false
         feedback: "The reverse: low body weight tracks lower bone density and nearly doubles hip-fracture risk."
       - text: "Body weight has no relationship to fracture risk"
         correct: false
-        feedback: "It has a strong relationship — a low BMI nearly doubles hip-fracture risk, and it's used in FRAX for exactly that reason."
+        feedback: "It has a strong relationship: a low BMI nearly doubles hip-fracture risk, and it's used in FRAX for exactly that reason."
       - text: "It only matters in men, not in women"
         correct: false
         feedback: "Low body weight raises fracture risk in both sexes; it's not a men-only factor."
 
   - id: q7
-    stem: "Who actually benefits from **calcium + vitamin D supplements** for fractures?"
+    stem: "Who benefits from calcium and vitamin D supplements for fractures?"
     options:
       - text: "The genuinely deficient, not everyone"
         correct: true
-        feedback: "Correct. Supplements cut fractures in people who are genuinely deficient or institutionalised (~15% total, ~30% hip), but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. So correct real deficiency and go food-first — don't blanket-supplement the population."
+        feedback: "Supplements cut fractures in people who are genuinely deficient or institutionalised (~15% total, ~30% hip), but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. Correct real deficiency and go food-first rather than blanket-supplementing the population."
       - text: "Every adult over 50, as a routine preventive measure"
         correct: false
         feedback: "Blanket supplementation of replete community adults doesn't prevent fractures and slightly raises kidney-stone risk. Benefit is confined to genuine deficiency."
       - text: "Only people who already eat plenty of dairy"
         correct: false
         feedback: "People who already meet their needs gain no fracture benefit from extra supplements. The benefit is for those who are genuinely short."
-      - text: "No one — the supplements are never of any use"
+      - text: "No one; the supplements are never of any use"
         correct: false
-        feedback: "They do help the genuinely deficient or institutionalised — the nuance is that they don't help already-replete community adults, not that they're useless."
+        feedback: "They do help the genuinely deficient or institutionalised; what they don't do is help already-replete community adults."
 
   - id: q8
-    stem: "A patient's **fragility fracture** and low weight worry you. What is the generalist's role?"
+    stem: "An older woman's fragility fracture and low weight worry you. What is the generalist's role?"
     options:
       - text: "Give food-first advice, correct deficiency, refer"
         correct: true
-        feedback: "Correct. The generalist delivers the food-first and loading advice, corrects genuine deficiency, recognises the red flags (a fragility fracture, low weight), and refers — using OSTA/FRAX/DXA to decide who needs assessment. The bone scans, fracture thresholds, bisphosphonates and hormone therapy are specialist decisions."
-      - text: "Start a bisphosphonate and titrate it to the scan"
+        feedback: "The generalist delivers the food-first and loading advice, corrects genuine deficiency, recognises the red flags (a fragility fracture, low weight), and refers, using OSTA, FRAX and DXA to decide who needs assessment. Osteoporosis drugs and hormone therapy are specialist decisions."
+      - text: "Start an osteoporosis drug and titrate it to the scan"
         correct: false
         feedback: "Prescribing and titrating osteoporosis drugs is specialist territory. The generalist's job is food-first advice, correcting deficiency, and referral."
       - text: "Prescribe the hormone therapy she clearly needs now"
         correct: false
-        feedback: "Menopausal hormone therapy is a specialist decision, owned by the Menopause & Midlife Health chapter and the specialist services — not a generalist reflex here."
+        feedback: "Menopausal hormone therapy is a specialist decision (see the *Menopause & Midlife Health* chapter), not a generalist reflex."
       - text: "Reassure her that fractures at her age are normal"
         correct: false
-        feedback: "A fragility fracture is a red flag, not a normal event — it defines osteoporosis and warrants referral, not reassurance."
+        feedback: "A fragility fracture is a red flag, not a normal event: it defines osteoporosis and warrants referral, not reassurance."
 
   - id: q9
-    stem: "A patient with knee **osteoarthritis** asks about **glucosamine**. What's the evidence-based answer?"
+    stem: "A patient with knee osteoarthritis asks about glucosamine. What's the evidence-based answer?"
     options:
-      - text: "No real benefit — guidelines advise against it"
+      - text: "No real benefit; guidelines advise against it"
         correct: true
-        feedback: "Correct. Glucosamine and chondroitin are no better than placebo for knee-OA pain or joint structure in the landmark trials (GAIT, Wandel), and ACR, OARSI, NICE and Singapore's ACE all advise against them. It doesn't rebuild cartilage — the levers that work are weight loss and exercise."
+        feedback: "Glucosamine and chondroitin are no better than placebo for knee-osteoarthritis pain or joint structure in the major independent trials, and ACR, OARSI, NICE and Singapore's ACE all advise against them. Glucosamine doesn't rebuild cartilage; the levers that work are weight loss and exercise."
       - text: "It rebuilds cartilage and reverses the arthritis"
         correct: false
-        feedback: "It does neither. Glucosamine doesn't rebuild cartilage or reverse OA, and it's no better than placebo for pain or structure — which is why the guidelines advise against it."
+        feedback: "It does neither. Glucosamine doesn't rebuild cartilage or reverse osteoarthritis, and it's no better than placebo for pain or structure, which is why the guidelines advise against it."
       - text: "It works about as well as a knee replacement"
         correct: false
-        feedback: "There's no comparison — glucosamine gives no meaningful benefit at all, whereas surgery is for end-stage disease. The evidence-based levers here are weight loss and activity."
+        feedback: "There's no comparison: glucosamine gives no meaningful benefit at all, whereas surgery is for end-stage disease. The evidence-based levers here are weight loss and activity."
       - text: "It's proven better than weight loss for the pain"
         correct: false
-        feedback: "The opposite is true: weight loss (with exercise) is the strongest lever for knee OA, while glucosamine gives no meaningful benefit."
+        feedback: "The opposite is true: weight loss (with exercise) is the strongest lever for knee osteoarthritis, while glucosamine gives no meaningful benefit."
 
   - id: q10
-    stem: "What is the single **most effective lever** for knee osteoarthritis?"
+    stem: "What is the single most effective lever for knee osteoarthritis?"
     options:
       - text: "Losing ~10% of body weight, with exercise"
         correct: true
-        feedback: "Correct. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function — working through both reduced mechanical load on the joint and lower inflammation — with more loss giving more benefit. Weight and activity beat any supplement."
+        feedback: "In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight and activity beat any supplement."
       - text: "Taking a daily cartilage supplement"
         correct: false
-        feedback: "Supplements don't rebuild cartilage or meaningfully relieve OA. The effective lever is weight loss with exercise."
+        feedback: "Supplements don't rebuild cartilage or meaningfully relieve osteoarthritis. The effective lever is weight loss with exercise."
       - text: "Resting the joint and avoiding all activity"
         correct: false
-        feedback: "Rest and de-conditioning worsen knee OA. Appropriate activity and strengthening — alongside weight loss — are what help."
+        feedback: "Rest and de-conditioning worsen knee osteoarthritis. Appropriate activity and strengthening, alongside weight loss, are what help."
       - text: "Switching to a high-dose vitamin D pill"
         correct: false
-        feedback: "Vitamin D showed no benefit for OA pain or cartilage in a 2-year trial. The lever is weight loss with exercise, not a supplement."
+        feedback: "Vitamin D showed no benefit for osteoarthritis pain or cartilage in a 2-year trial. The lever is weight loss with exercise, not a supplement."
 
   - id: q11
-    stem: "A patient with **gout** asks what to eat. Which advice is most accurate?"
+    stem: "A patient with gout asks what to eat. Which advice is most accurate?"
     options:
       - text: "Cut beer and sugary drinks; medication is the main lever"
         correct: true
-        feedback: "Correct. Diet nudges urate only modestly — beer and fructose/sugary drinks raise it, low-fat dairy and coffee associate with lower risk, but purine-rich vegetables and total protein aren't the problem. The strong lever is a urate-lowering drug (allopurinol) to target; diet is a helpful adjunct, not the cure — and it's not the patient's 'fault'."
+        feedback: "Diet nudges urate only modestly: beer and fructose or sugary drinks raise it, low-fat dairy and coffee are associated with lower risk, and purine-rich vegetables and total protein aren't the problem. The strong lever is a urate-lowering drug (allopurinol) to target; diet is a helpful adjunct, not the cure, and gout is not the patient's 'fault'."
       - text: "Cut out all seafood, all protein and all vegetables to be cured"
         correct: false
-        feedback: "That's over-restriction. Purine-rich vegetables and total protein aren't associated with gout, and diet alone rarely reaches target — the real lever is urate-lowering medication. Don't starve the patient of protein and vegetables."
+        feedback: "That's over-restriction. Purine-rich vegetables and total protein aren't associated with gout, and diet alone rarely reaches target; the real lever is urate-lowering medication. Don't starve the patient of protein and vegetables."
       - text: "Diet alone is enough; you don't need any medication"
         correct: false
-        feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug — diet is an adjunct, not a substitute."
-      - text: "It's your own fault for eating too much — just eat less"
+        feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug; diet is an adjunct, not a substitute."
+      - text: "It's your own fault for eating too much; just eat less"
         correct: false
-        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet over-restricts patients while missing the real lever — urate-lowering therapy to target."
+        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet over-restricts patients while missing the real lever: urate-lowering therapy to target."
 
   - id: q12
-    stem: "Which pairing correctly matches the condition to its **main dietary lever**?"
+    stem: "Which pairing correctly matches the condition to its main dietary lever?"
     options:
       - text: "Osteoarthritis → weight loss; osteoporosis → calcium"
         correct: true
-        feedback: "Correct. The two 'osteo' conditions have opposite diet stories: osteoarthritis (worn cartilage) responds to weight loss and activity, while osteoporosis (low bone density) responds to calcium, vitamin D and protein. Mixing them up — calcium for arthritis, glucosamine for osteoporosis — is the classic error."
+        feedback: "The two 'osteo' conditions have opposite diet stories: osteoarthritis (worn cartilage) responds to weight loss and activity, while osteoporosis (low bone density) responds to calcium, vitamin D and protein. Mixing them up (calcium for arthritis, glucosamine for osteoporosis) is the classic error."
       - text: "Osteoarthritis → calcium; osteoporosis → glucosamine"
         correct: false
-        feedback: "This swaps them. Calcium is for bone (osteoporosis), and glucosamine is for neither — the OA lever is weight loss."
+        feedback: "This swaps them. Calcium is for bone (osteoporosis), and glucosamine is for neither; the osteoarthritis lever is weight loss."
       - text: "Gout → glucosamine; osteoarthritis → urate drugs"
         correct: false
-        feedback: "Both are wrong: glucosamine helps nothing, urate-lowering drugs are for gout (not OA), and the OA lever is weight loss."
+        feedback: "Both are wrong: glucosamine helps nothing, urate-lowering drugs are for gout (not osteoarthritis), and the osteoarthritis lever is weight loss."
       - text: "Osteoporosis → weight loss; gout → high-dose vitamin D"
         correct: false
-        feedback: "Weight loss is the OA lever (not osteoporosis, which needs calcium/vitamin D/protein), and vitamin D doesn't treat gout — a urate-lowering drug does."
+        feedback: "Weight loss is the osteoarthritis lever (not osteoporosis, which needs calcium, vitamin D and protein), and vitamin D doesn't treat gout; a urate-lowering drug does."

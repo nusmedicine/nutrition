@@ -1,58 +1,63 @@
 # How this book was made {.unnumbered}
 
-*Health in Medicine: Nutrition* is authored by the **Department of Biochemistry & Nutrition/Metabolism Systems-based Workgroup, NUS Medicine** with AI assistance.
+*Health in Medicine: Nutrition* is authored by the Department of Biochemistry & Nutrition/Metabolism
+Systems-based Workgroup, NUS Medicine, with AI assistance.
 
 ## The technical build
 
-The book is a static website, built from plain-text source so that every version is diffable and
-reviewable.
+The book is a static website, built from plain-text source so that every change between versions can
+be compared and reviewed. The build has four elements:
 
-- **Quarto** turns the chapter source (Markdown with embedded citations and cross-references) into
-  the linked, searchable site you are reading, with **KaTeX** for equations and a BibTeX
-  bibliography as the single source of truth for references.
-- The interactive parts, the self-assessment quizzes, the branching clinical cases, and the bespoke
-  diagrams, are **Svelte** components bundled with **Vite** and hydrated into each page as
-  self-contained "islands." Your progress is saved locally in your browser; there is no account and
-  no login.
-- The site is rebuilt and deployed automatically through a GitHub Actions pipeline on every change,
-  so what you read is always the latest reviewed version.
+- Quarto turns the chapter source (Markdown with embedded citations and cross-references) into this
+  linked, searchable website. KaTeX renders the equations, and a BibTeX bibliography is the single
+  source of truth for references.
+- The interactive parts (the self-assessment quizzes, the branching clinical cases, and the bespoke
+  diagrams) are Svelte components, bundled with Vite and hydrated into each page as self-contained
+  "islands". Your progress is saved locally in your browser; there is no account and no login.
+- A GitHub Actions pipeline rebuilds and deploys the site automatically on every change, so the
+  published version is always the latest reviewed one.
 - Figures are either original diagrams drawn for this book or openly licensed images, each credited
   to its source.
 
 ## The simulated patient
 
-The live patient conversations in the capstone cases run on a **separate, self-hosted language
-model**: an open-weights **Qwen** model served on NUS infrastructure through an OpenAI-compatible
-interface. Your messages pass to a small server-side proxy that holds the key and applies the safety
-guardrails, and the replies stream back in real time, tagged with a mood that drives the patient's
-expression; a short rubric grades the encounter afterwards. It is a simulation for practice,
-guardrailed and tested against adversarial probing, and never a substitute for a real patient or for
-medical advice. If the model is unavailable, the case says so and continues.
+The live patient conversations in the cases of the
+[*Everyday & Preventive Counselling*](cases-counselling.qmd) and
+[*Recognising Risk & Knowing When to Refer*](cases-referral.qmd) chapters run on a separate,
+self-hosted language model. The model, an open-weights model from the Qwen family, is served on NUS
+infrastructure through an OpenAI-compatible interface. Your messages pass to a small server-side proxy
+that holds the access key and applies the safety guardrails. The replies stream back in real time,
+each tagged with a mood that drives the patient's expression, and a short rubric grades the encounter
+afterwards.
+
+The simulated patient is a practice tool, guardrailed and tested against adversarial probing, and never
+a substitute for a real patient or for medical advice. If the model is unavailable, the case says so
+and continues.
 
 ## The authoring process
 
-The manuscript was drafted with **Anthropic's Claude** (the Opus 4 family), run through **Claude
-Code**, an agentic command-line assistant, under close human direction. Rather than one-shot
-generation, the work used a deliberately adversarial, multi-agent process built to catch the failure
-modes these models are known for.
+The manuscript was drafted with Anthropic's Claude models, run through Claude Code, an agentic
+command-line assistant, under close human direction. Rather than one-shot generation, the work used a
+deliberately adversarial, multi-agent process built to catch the failure modes these models are known
+for. The process had four stages:
 
-1. **Research first.** For each topic, a fan-out of research agents assembled a source-backed
-   dossier, and every citation was then independently re-checked by a separate "refuter" agent,
-   because language models are prone to attaching a real claim to the wrong reference. Nothing
-   advanced to drafting until its sources survived that check.
-2. **Draft to a house style.** Each chapter was written against a fixed template and style guide:
-   pathophysiology built on earlier chapters by name, a Singapore-first framing, and a "recognise
-   the levers and refer" altitude for the disease chapters.
-3. **Review adversarially.** Separate agents then critiqued each draft along independent dimensions,
-   clinical accuracy against the dossier, house style, the quiz and case design, and the figures,
-   with the findings triaged and fixed.
-4. **Verify mechanically.** Deterministic checks rendered the whole book, confirmed that no asset or
-   citation was missing, linted the cases, and opened the interactive pages in a real browser to
-   confirm they worked, before anything was committed.
+1. For each topic, a fan-out of research agents first assembled a source-backed dossier. A separate
+   "refuter" agent then re-checked every citation independently, because language models are prone to
+   attaching a real claim to the wrong reference. Nothing advanced to drafting until its sources
+   survived that check.
+2. Each chapter was drafted against a fixed template and style guide: pathophysiology built on earlier
+   chapters by name, a Singapore-first framing, and a "recognise the levers and refer" altitude for the
+   disease chapters.
+3. Separate agents then reviewed each draft adversarially along independent dimensions (clinical
+   accuracy against the dossier, house style, the quiz and case design, and the figures), and the
+   findings were triaged and fixed.
+4. Before anything was committed, deterministic checks rendered the whole book, confirmed that no
+   asset or citation was missing, checked the case files for errors, and opened the interactive pages
+   in a real browser to confirm they worked.
 
-The resulting draft was then reviewed and edited by medical educators.
+Medical educators then reviewed and edited the resulting draft.
 
 ## A note to the reader
 
-This is an educational resource, not clinical guidance. Medicine and its evidence change over time;
-check against current local guidelines before acting on anything here.
+This book is an educational resource, not clinical guidance. Medicine and its evidence change over
+time; check against current local guidelines before acting on anything here.

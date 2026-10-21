@@ -6,59 +6,59 @@ questions:
     options:
       - text: "About 10%"
         correct: false
-        feedback: "~10% is the **thermic effect of food (TEF)**, not BMR."
+        feedback: "About 10% is the thermic effect of food (TEF); BMR is far larger."
       - text: "60–70%"
         correct: true
-        feedback: "Correct — BMR is the largest component of TEE for most people."
+        feedback: "BMR is the largest component of TEE for most people, typically 60–70%."
       - text: "Over 90%"
         correct: false
-        feedback: "Too high — physical activity and TEF together make up a meaningful share."
+        feedback: "Physical activity and TEF together take a meaningful share of TEE, which leaves BMR at about 60–70%."
 
   - id: q2
-    stem: "Which component of total energy expenditure varies **most** between individuals?"
+    stem: "Which component of total energy expenditure varies *most* between individuals?"
     options:
       - text: "Basal metabolic rate"
         correct: false
         feedback: "BMR varies, but it is relatively stable for a given body composition."
       - text: "Physical activity"
         correct: true
-        feedback: "Correct — physical activity is the most variable component."
+        feedback: "Physical activity differs most between otherwise similar people, and NEAT alone varies enormously from person to person."
       - text: "Thermic effect of food"
         correct: false
-        feedback: "TEF is fairly constant at ~10% of intake."
+        feedback: "TEF is fairly constant at about 10% of TEE."
 
   - id: q3
-    stem: "Which change would tend to **increase** BMR?"
+    stem: "Which change would tend to *increase* BMR?"
     options:
       - text: "Greater fat-free (lean) mass"
         correct: true
-        feedback: "Correct — metabolically active lean mass is the main driver of BMR."
+        feedback: "Lean mass, whose muscle and organs are metabolically active, is the main driver of BMR."
       - text: "Increasing age"
         correct: false
-        feedback: "BMR tends to fall with age."
+        feedback: "BMR tends to fall with age, partly because lean mass is lost."
       - text: "Lower thyroid hormone"
         correct: false
-        feedback: "Reduced thyroid hormone lowers BMR."
+        feedback: "Reduced thyroid hormone lowers BMR instead of increasing it."
 
   - id: q4
     stem: "The Mifflin–St Jeor equation estimates BMR from which inputs?"
     options:
-      - text: "Weight, height, age, and sex"
+      - text: "Weight, height, age and sex"
         correct: true
-        feedback: "Correct — these four inputs drive the estimate."
+        feedback: "These four inputs are all the equation uses, with a different constant for women and men."
       - text: "Weight and blood pressure"
         correct: false
         feedback: "Blood pressure is not an input to BMR estimation."
       - text: "Fasting glucose and BMI"
         correct: false
-        feedback: "These do not determine BMR in the equation."
+        feedback: "Fasting glucose and BMI are useful clinical measures, but neither is an input to the equation."
 
   - id: q5
     stem: "Two colleagues do the same 30-minute gym class. One also fidgets, takes the stairs and walks at lunch; the other sits the rest of the day. What best explains the first person's larger daily expenditure?"
     options:
       - text: "Non-exercise activity thermogenesis (NEAT)"
         correct: true
-        feedback: "Correct — everyday, non-exercise movement (NEAT) varies enormously between people and can outweigh a single formal workout over a day."
+        feedback: "Everyday, non-exercise movement (NEAT) varies enormously between people and, over a day, can outweigh a single formal workout."
       - text: "A higher thermic effect of food"
         correct: false
         feedback: "TEF tracks what you eat, not incidental movement; it's roughly 10% of TEE and fairly fixed."
@@ -71,23 +71,23 @@ questions:
     options:
       - text: "Expenditure falls and appetite rises after weight loss"
         correct: true
-        feedback: "Correct — the 'out' side drops disproportionately (adaptive thermogenesis) by more than the smaller body needs, while hunger signals rise, so the body defends against loss. Energy balance is defended, not free — the Appetite & Weight Regulation chapter develops this."
+        feedback: "The 'out' side falls by more than the smaller body needs (adaptive thermogenesis) while hunger rises, so the body defends against loss. Energy balance is defended, not free (see the *Appetite & Weight Regulation* chapter)."
       - text: "Fat cannot be lost once it has been stored"
         correct: false
         feedback: "Fat is readily mobilised; the problem is a system that resists *staying* lower, not irreversibility."
       - text: "The Mifflin–St Jeor equation is simply inaccurate at lower weights"
         correct: false
-        feedback: "Estimation error isn't the point — the body actively lowers expenditure and raises appetite after weight loss."
+        feedback: "Estimation error is not the point: the body actively lowers expenditure and raises appetite after weight loss."
 
   - id: q7
-    stem: "Why is BMI treated as a screening flag rather than a measure of body fat?"
+    stem: "Why is BMI treated as a screening flag and not a measure of body fat?"
     options:
       - text: "It uses only weight and height, not body composition"
         correct: true
-        feedback: "Correct — using only weight and height, BMI cannot tell muscle from fat, so a muscular person can have a high BMI with low fat; waist circumference adds the central-fat information BMI misses. (Asian overweight cut-offs are set lower.)"
+        feedback: "Using only weight and height, BMI cannot tell muscle from fat, so a muscular person can have a high BMI with little fat. Waist circumference adds the central-fat information that BMI misses. (Asian cut-offs for overweight are set lower, because risk rises at a lower BMI in Asian populations.)"
       - text: "It can only be calculated from a DXA scan"
         correct: false
-        feedback: "BMI is just weight ÷ height²; DXA is the accurate body-fat *reference*, not part of BMI."
+        feedback: "BMI is just weight ÷ height²; DXA is the accurate body-fat reference, not part of BMI."
       - text: "It measures visceral (central) fat directly"
         correct: false
-        feedback: "Waist circumference, not BMI, is what captures central fat."
+        feedback: "Waist circumference captures central fat; BMI uses only weight and height."

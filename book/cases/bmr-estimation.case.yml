@@ -25,38 +25,38 @@ nodes:
     emotion: concerned
     title: "Setting a realistic plan"
     body: |
-      To advise Mdm Tan on her diet, you first want to estimate her **daily energy
-      needs** — a sensible target is hard to set without knowing roughly how much
-      energy she expends.
+      To advise Mdm Tan on her diet, you first want to estimate her daily energy
+      needs: a sensible target is hard to set without knowing roughly how much
+      energy she spends.
     next: q-inputs
 
   - id: q-inputs
     type: mcq
-    stem: "Which details do you need to estimate her **BMR** using Mifflin–St Jeor?"
+    stem: "Which details do you need to estimate her BMR using Mifflin–St Jeor?"
     options:
       - id: a
-        text: "Age, sex, weight, and height"
+        text: "Age, sex, weight and height"
         correct: true
-        feedback: "Right — these four inputs drive the estimate."
+        feedback: "The equation needs exactly these four inputs, with a different constant for women and men."
         effects: { quality: 1 }
         goto: reveal
       - id: b
-        text: "Weight only"
+        text: "Weight and activity level only"
         correct: false
-        feedback: "Weight alone is insufficient — height, age and sex all matter."
+        feedback: "Activity level comes later, as the PAL factor; the BMR equation itself needs weight, height, age and sex."
         goto: reveal
       - id: c
         text: "Fasting glucose and blood pressure"
         correct: false
-        feedback: "Important clinically, but not inputs to BMR estimation."
+        feedback: "Glucose and blood pressure matter clinically, but neither is an input to the BMR equation."
         goto: reveal
 
   - id: reveal
     type: info
     body: |
-      You confirm: **52 years**, **female**, **68 kg**, **157 cm**.
+      You confirm: 52 years, female, 68 kg, 157 cm.
 
-      Mifflin–St Jeor (women): **BMR = 10·W + 6.25·H − 5·A − 161**
+      Mifflin–St Jeor (women): BMR = 10·W + 6.25·H − 5·A − 161
     next: q-bmr
 
   - id: q-bmr
@@ -64,60 +64,60 @@ nodes:
     stem: "Applying the equation, her BMR is approximately…?"
     options:
       - id: a
-        text: "~1240 kcal/day"
+        text: "~1,240 kcal/day"
         correct: true
-        feedback: "Correct: 10·68 + 6.25·157 − 5·52 − 161 ≈ **1240 kcal/day**."
+        feedback: "10·68 + 6.25·157 − 5·52 − 161 ≈ 1,240 kcal/day."
         effects: { quality: 1 }
         goto: q-tee
       - id: b
-        text: "~1405 kcal/day"
+        text: "~1,405 kcal/day"
         correct: false
-        feedback: "That uses the **men's** constant (+5) instead of −161 for women."
+        feedback: "That uses the men's constant (+5) in place of −161 for women."
         goto: q-tee
       - id: c
-        text: "~1700 kcal/day"
+        text: "~1,700 kcal/day"
         correct: false
-        feedback: "That is closer to her *total* needs once activity is added, not BMR itself."
+        feedback: "About 1,700 kcal/day is closer to her total needs once activity is added, not her BMR."
         goto: q-tee
 
   - id: q-tee
     type: mcq
-    stem: "She is largely sedentary. To estimate **total** daily energy needs, multiply BMR by an activity factor of about…?"
+    stem: "She is largely sedentary. To estimate *total* daily energy needs, multiply BMR by an activity factor of about…?"
     options:
       - id: a
         text: "≈ 1.4"
         correct: true
-        feedback: "Right — ~1.4 × 1240 ≈ **1740 kcal/day** total."
+        feedback: "Roughly 1.4 is the factor for a sedentary adult: 1.4 × 1,240 ≈ 1,740 kcal/day in total."
         effects: { quality: 1 }
         goto: q-advice
       - id: b
         text: "≈ 1.0"
         correct: false
-        feedback: "1.0 would ignore all activity and the thermic effect of food."
+        feedback: "A factor of 1.0 would ignore all activity and the thermic effect of food."
         goto: q-advice
       - id: c
         text: "≈ 2.2"
         correct: false
-        feedback: "~2.2 is for very active people — not a sedentary teacher."
+        feedback: "Factors of about 2.0 or more describe very active people, not a sedentary teacher."
         goto: q-advice
 
   - id: q-advice
     type: mcq
-    stem: "Her needs are ≈ **1740 kcal/day** and she wants to lose weight. What target should you set?"
+    stem: "Her needs are about 1,740 kcal/day and she wants to lose weight. What target should you set?"
     options:
       - id: a
         text: "A modest deficit of ~300–500 kcal/day"
         correct: true
-        feedback: "Right — a modest deficit supports gradual loss (~0.25–0.5 kg/week) via sustainable swaps, and is far easier to sustain. Drastic cuts provoke the body's defence of weight — stronger hunger and a fall in expenditure."
+        feedback: "A modest deficit supports gradual loss (~0.25–0.5 kg/week) through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke the body's defence of its weight: stronger hunger and a fall in expenditure."
         effects: { quality: 1 }
         goto: route
       - id: b
-        text: "A large deficit of ~1000+ kcal/day for faster results"
+        text: "A large deficit of ~1,000+ kcal/day for faster results"
         correct: false
-        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a drop in expenditure — the 'defended, not free' problem. Slow and steady wins."
+        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a fall in expenditure: energy balance is defended, not free."
         goto: route
       - id: c
-        text: "No change to intake — just tell her to exercise it off"
+        text: "No change to intake: just tell her to exercise it off"
         correct: false
         feedback: "Out-exercising a dietary surplus is hard; pairing a modest dietary deficit with more everyday movement (NEAT) is more realistic."
         goto: route
@@ -133,18 +133,18 @@ nodes:
     type: info
     emotion: relieved
     body: |
-      With needs ≈ **1740 kcal/day**, a modest **300–500 kcal/day** deficit supports
-      gradual weight loss. You agree one realistic change — swapping two sweetened
-      kopi for kopi-o kosong — and arrange review.
+      With needs of about 1,740 kcal/day, a modest 300–500 kcal/day deficit supports
+      gradual weight loss. You agree one realistic change, swapping two sweetened
+      *kopi* for *kopi-o kosong*, and arrange a review.
     next: end-good
 
   - id: remedial
     type: info
     emotion: concerned
-    title: "Let's revisit the estimate"
+    title: "Revisiting the estimate"
     body: |
-      A shaky energy estimate makes for shaky advice. Recall the steps: identify the
-      inputs → apply Mifflin–St Jeor → scale by activity → set a modest deficit.
+      A shaky energy estimate makes for shaky advice. Recall the four steps: identify
+      the inputs, apply Mifflin–St Jeor, scale by activity, then set a modest deficit.
     next: end-partial
 
   - id: end-good
@@ -156,7 +156,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "BMR needs weight, height, age, and sex (Mifflin–St Jeor)."
+        - "BMR needs weight, height, age and sex (Mifflin–St Jeor)."
         - "Total needs ≈ BMR × activity factor."
         - "A 300–500 kcal/day deficit supports gradual, sustainable loss."
 

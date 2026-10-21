@@ -1,229 +1,315 @@
 # Adulthood: working life & activity
 
-> For most of adult life the body asks for one thing: **maintenance**. Growth is finished, and the job
-> shifts from building to holding steady: keeping muscle, holding weight, and eating well inside a life
-> now ruled by work, the hawker centre, and the clock. The commonest adult worry, "my metabolism is
-> slowing down," turns out to be mostly a myth. The real levers are the environment and a few small
-> habits.
+> *In the working decades, growth is finished, and the body's task becomes maintenance: keeping
+> muscle and holding weight steady while work, the hawker centre and the clock shape most meals.
+> Midlife weight gain is usually blamed on a slowing metabolism, but size-adjusted energy expenditure
+> barely changes in these years; the levers are activity, muscle, the food environment and a few small
+> habits.*
 
-## Adulthood at a glance: from building to maintaining
+::: {.callout-note}
+## Learning objectives
+- Explain why a slowing metabolism accounts for little of midlife weight gain, and what drives adult
+  weight creep instead.
+- Explain why protein defends muscle only alongside resistance exercise, and state the protein range
+  for an active adult.
+- Match exercise fuelling and hydration to the training load, recognising when ordinary food and
+  water are enough.
+- Describe how eating out, shift work, stress and short sleep shape the working adult's diet, and the
+  evidence for daytime-weighted eating.
+- Explain why alcohol has no established safe level and why the heart-protection claim does not hold
+  up.
+- Recognise the alcohol flush, hazardous drinking, disordered eating and repeated crash dieting, and
+  screen, advise or refer.
+:::
 
-This chapter picks up after the *Childhood & Adolescence* chapter and covers the **healthy working-age
-adult**, roughly the twenties to the fifties, before the *Menopause & Midlife Health* and *Healthy
-Ageing* chapters take over. Two things make this stage distinctive, and the book returns to them least
-elsewhere: **how to fuel an active body** and **how to eat well inside a working life**. As everywhere
-in this part, the story runs on two drivers.
+::: {.concept-tree}
+[Chapter map]{.tree-title}
 
-- **What's changing inside** (the *internal* drivers): growth is over, so the challenge is
-  **maintenance**, defending **muscle** against a slow drift and understanding that the metabolism does
-  **not** simply slow with the years.
-- **What's changing outside** (the *external* levers): the **working-life food environment** (the
-  hawker meal, shift work, stress, time scarcity, alcohol) and **physical activity**, which for the
-  everyday active adult needs far less special "fuelling" than the internet suggests.
+- [What's changing inside: maintenance, metabolism and muscle](#sec-adult-inside)
+  - [Does metabolism slow down in midlife?](#sec-adult-metabolism): size-adjusted expenditure steady from about 20 to 60
+  - [Defending muscle: resistance exercise and protein](#sec-adult-muscle): two levers that work together
+- [What's changing outside: activity, the hawker plate and alcohol](#sec-adult-outside)
+  - [Fuelling everyday exercise](#sec-adult-fuelling): ordinary food and water for most adults
+  - [The working-life food environment](#sec-adult-food-environment): eating out, shift work, stress and sleep
+  - [Alcohol: the message that changed](#sec-adult-alcohol): no established safe level
+- [Recognising trouble, and when to refer](#sec-adult-refer)
+:::
 
-The interactive lets you dial in a realistic training week and see what your body actually needs, often
-reassuringly little beyond ordinary food and water.
+## Adulthood at a glance: from building to maintaining {#sec-overview}
+
+The healthy working-age adult, from roughly the twenties to the fifties, sits between adolescence and
+the midlife and older years (see the [*Childhood & Adolescence*](childhood-adolescence.qmd),
+[*Menopause & Midlife Health*](menopause-midlife.qmd) and [*Healthy Ageing*](healthy-ageing.qmd)
+chapters). Two topics set this stage apart: fuelling an active body, and eating well inside a working
+life.
+
+As at every life stage, the changes fall into two groups:
+
+| Driver | What changes at this stage |
+|---|---|
+| Internal drivers (inside the body) | Growth is over, so the task is maintenance: defending muscle against a slow drift, through decades in which the metabolism holds steady |
+| External levers (life and environment) | The working-life food environment (the hawker meal, shift work, stress, time scarcity and alcohol) and physical activity, which for the everyday active adult needs far less special fuelling than online advice suggests |
+
+Set a realistic training week in the dial below and see how rarely it calls for more than ordinary
+food and water.
 
 <div data-island="fuel-dial" data-src="/diagrams/fuel-dial.yml"></div>
 
-## What's changing inside: maintenance, metabolism and muscle
+## What's changing inside: maintenance, metabolism and muscle {#sec-adult-inside}
 
-Growth is over; the internal task is to hold steady. Two beliefs about that need correcting first: that the metabolism collapses with age, and that muscle looks after itself.
+### Does metabolism slow down in midlife? {#sec-adult-metabolism}
 
-### The metabolism doesn't crash at 40
+Midlife weight gain is commonly blamed on a slowing metabolism. Total energy expenditure (the sum of
+basal metabolic rate, the thermic effect of food and physical activity; see the
+[*Energy Balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled
+water across the whole lifespan. Adjusted for body size, it is in fact steady from about 20 to 60. It
+does not start falling in the thirties, and declines only later in life [@pontzer2021energy]. The
+familiar explanation, "my metabolism is slowing down", therefore accounts for little of midlife weight
+gain.
 
-The single most useful fact in this chapter overturns a near-universal belief. When total daily energy
-expenditure is measured properly (with doubly-labelled water) across the whole lifespan and adjusted for
-body size, it is **remarkably steady from about 20 to 60**. It does not start falling in your thirties,
-and only declines later in life [@pontzer2021energy]. (The machinery of total energy expenditure — basal
-rate, activity and the thermic effect of food — is the *Energy Balance & Body Composition* chapter's
-territory.) So the familiar "my metabolism is slowing down" explanation for midlife weight gain is mostly
-wrong.
+**Weight creep**, the slow adult weight gain of roughly 0.5–1 kg a year, comes instead from a small,
+chronic energy surplus, which usually arises from falling activity and muscle plus a little more
+intake, not from a falling resting metabolism [@hill2009energygap]. The fixes therefore lie in staying
+active, keeping muscle and managing the food environment; a crash diet aimed at a metabolic decline
+targets a cause that is not there. Activity alone, however, is a fairly weak lever on weight
+once excess has accumulated, so preventing the surplus works better than trying to out-exercise it
+later (the clearest data are in women) [@lee2010pawomen].
 
-What actually drives **weight creep** is a **small, chronic energy surplus**, on the order of enough to
-add roughly half a kilo to a kilo a year, usually from **falling activity and muscle** plus a little more
-intake rather than a falling resting metabolism [@hill2009energygap]. That reframing matters, because it
-points at the real fixes: keep moving, keep muscle, and mind the food environment, rather than a crash
-diet against an imaginary metabolic decline. It also sets up a real limit. **Activity alone is a fairly
-weak lever on weight** once excess has accumulated, so prevention beats trying to out-exercise a surplus
-later (the clearest data here are in women) [@lee2010pawomen].
+### Defending muscle: resistance exercise and protein {#sec-adult-muscle}
 
-### Muscle: the reserve you defend
+Adulthood is about keeping the muscle that growth built. Muscle mass is fairly stable from the late
+teens to about 60, drifting down only slowly, and strength fades faster than size
+[@mitchell2012sarcopenia]. The popular "you lose 1% a year from thirty" overstates the mid-adult loss,
+but the direction is real. These decades are therefore the window to build a reserve before the
+steeper losses of older age (see the *Healthy Ageing* chapter). Muscle is also the body's main destination for
+glucose after a meal [@merz2020muscleinsulin], so keeping muscle protects metabolic health upstream
+(for the mechanism, see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
 
-If growth built the muscle, adulthood is about **not losing it**. Muscle mass is fairly stable from the
-late teens to about sixty, drifting down only slowly, and **strength fades faster than size**
-[@mitchell2012sarcopenia]. The popular "you lose 1% a year from thirty" overstates the mid-adult loss, but
-the direction is real, and this is the window to build a reserve before the steeper losses of older age
-(picked up in the *Healthy Ageing* chapter). Muscle is worth defending for more than strength: it is the
-body's **main destination for glucose after a meal**, so keeping muscle is upstream metabolic protection.
-The mechanism itself belongs to the *Integrative Metabolism (Fed / Fasted)* chapter [@merz2020muscleinsulin].
+Two levers defend muscle, and the second depends on the first. **Resistance exercise**
+(muscle-strengthening exercise against a load) is the necessary stimulus: as little as two sessions a
+week meaningfully preserves muscle, and regular muscle-strengthening is linked to lower risk of death
+and major chronic disease [@schoenfeld2017rtvolume; @momma2022strengthmortality]. Protein is the second
+lever, but without that stimulus it does little.
 
-Two levers defend it, and they only work **together**. **Resistance exercise is the necessary stimulus**:
-as little as **two sessions a week** meaningfully preserves muscle, and it behaves like preventive
-medicine, with regular muscle-strengthening linked to **lower risk of death and major chronic disease**
-[@schoenfeld2017rtvolume; @momma2022strengthmortality]. Protein without that stimulus does little.
+The adult protein reference is the **Recommended Dietary Allowance (RDA)**, a population reference
+intake that is adequate for nearly all healthy adults: about 0.8 g/kg/day (see the
+[*Macronutrients*](macronutrients.qmd) chapter). The RDA is a floor, not an optimum: an adult training to build or hold muscle does better at around 1.2–1.6 g/kg/day, and the benefit plateaus near there, so
+more is not better [@morton2018proteinmeta]. The range is illustrative, not a number to titrate: an
+ordinary diet reaches it, and for most people it means some protein at each meal. The evidence answers
+three common worries about protein:
 
-**Protein for the active adult** is where the myths are thickest, so here is the calibrated version. The
-adult RDA (about 0.8 g/kg/day) is a floor, not an optimum (the reference-intake concept itself — the RDA,
-the acceptable range, and how the floor is set — belongs to the *Macronutrients: Carbohydrate, Protein, Fat
-& Fibre* chapter); someone training to build or hold muscle does better around **1.2–1.6 g per kilogram per
-day**, and the benefit **plateaus** near there, so more is not better [@morton2018proteinmeta]. Treat that
-as an illustrative range a normal diet reaches, not a number to titrate: for most people it is simply "some
-protein at each meal." Three reassurances defuse the common worries:
+- Timing around a workout barely matters once daily protein intake is adequate; the **anabolic window**
+  (the period after exercise in which protein is claimed to be best used) is far wider than the
+  supplement industry implies [@schoenfeld2013timing], so food does the job without a powder or a
+  30-minute shake.
+- Higher intakes are safe for people with normal kidney function; the exception is established kidney
+  disease (see the [*Chronic Kidney Disease*](chronic-kidney-disease.qmd) chapter)
+  [@devries2018kidney].
+- Plant and animal protein differ little for muscle once the total is adequate; a review found only a
+  small edge for animal protein [@lim2021animalplant].
 
-- **No powder, no 30-minute shake.** Once your daily protein is adequate, the exact **timing** around a
-  workout barely matters; the "anabolic window" is far wider than the supplement industry implies
-  [@schoenfeld2013timing]. Food does the job.
-- **Protein doesn't wreck healthy kidneys.** Higher intakes are safe for people with normal kidney
-  function; the real exception is **established kidney disease**, which is the *Chronic Kidney Disease*
-  chapter's territory [@devries2018kidney].
-- **Plant or animal, it barely matters** for muscle once the total is adequate; a locally-led review
-  found only a small edge for animal protein [@lim2021animalplant].
+::: {.callout-tip collapse="true"}
+## Check yourself: a 40-year-old blames her weight gain on a slowing metabolism and plans a crash diet. Why does the plan miss the cause?
+Total energy expenditure, adjusted for body size, stays steady from about 20 to 60, so her metabolism
+has changed little. Weight creep comes from a small, chronic energy surplus, usually from falling
+activity and muscle plus a little more intake. The fixes are staying active, keeping muscle and
+managing the food environment. Because activity alone is a fairly weak lever once excess has
+accumulated, preventing the surplus works better than trying to out-exercise it later.
+:::
 
-## What's changing outside: activity, the hawker plate and alcohol
+::: {.callout-tip collapse="true"}
+## Check yourself: an office worker doubles his protein intake but does no resistance exercise. What happens to his muscle, and why?
+Very little changes. Resistance exercise is the necessary stimulus for keeping muscle, and protein
+without that stimulus does little. Once the stimulus is in place, about 1.2–1.6 g/kg/day from ordinary
+food is enough, and because the benefit plateaus near there, more protein is not better.
+:::
 
-For most adults the environment, not the metabolism, drives the diet: how they fuel their activity, where work lets them eat, and what they drink.
+## What's changing outside: activity, the hawker plate and alcohol {#sec-adult-outside}
 
-### Fuelling everyday exercise: usually less than you think
+### Fuelling everyday exercise {#sec-adult-fuelling}
 
-Start with the **default that fits most adults**: if you are not training hard, you need **no special
-sports nutrition at all**, and the ordinary healthy plate plus **water** cover it. Sports drinks, gels and
-protein powders are marketed to everyone but earned by few. The aim here is to guard against
-over-fuelling.
+Most adults are not training hard, and they need no special sports nutrition: an ordinary healthy
+plate and water cover their activity. Sports drinks, gels and protein powders are marketed to everyone
+but needed by few, so the practical aim is to guard against over-fuelling.
 
-For those who *do* train, the principle is that fuelling scales to the **actual** load, which is usually
-modest. Carbohydrate needs rise with training volume, but a **30–60-minute gym or park session needs water,
-not a sports drink**. The high-carbohydrate and during-exercise fuelling advice you read about is
-calibrated for **serious endurance athletes** doing hours at a time, and should not be applied to
-recreational exercisers [@thomas2016nutritionathletic]. Recovery is similar: a normal next meal is fine
-unless you are training twice in one day. And genuinely **hard, once-daily training** is met by eating
-enough overall and getting adequate protein across the day, not by a ritual shake.
+For adults who do train, fuelling scales with the actual training load, which is usually modest.
+Carbohydrate needs rise with training volume (for the fuel physiology of exercise, see the
+[*Integrative Metabolism*](integrative-metabolism.qmd#sec-exercise) chapter). The high-carbohydrate
+and during-exercise fuelling advice, however, is calibrated for serious endurance athletes training for
+hours at a time, and does not apply to recreational exercisers [@thomas2016nutritionathletic]. Below
+that volume, the advice is simpler:
+
+- A 30–60-minute gym or park session needs water, not a sports drink.
+- Hard, once-daily training is met by eating enough overall and getting adequate protein across the
+  day, without a special shake.
+- Recovery needs only a normal next meal, unless training twice in one day.
+
+Caffeine, the working adult's staple, is a separate question: a coffee before exercise is a mild,
+legitimate performance aid, and the concern with bubble tea, energy drinks and kopi is their sugar and
+energy content, not the caffeine itself.
 
 ::: {.callout-tip}
 ## 🍜 Hydration in the Singapore heat
-The one place the tropics change the advice is **fluid**. In Singapore's heat and humidity you sweat more
-for the same effort: for outdoor exercise or a sweaty commute, drink to thirst and aim to lose **less than
-about 2% of your body weight** over a long session; weighing yourself before and after a long run tells you
-your real losses [@sawka2007fluid]. Salt matters only for **long or very sweaty** sessions (beyond a couple
-of hours); for a typical workout, plain water is right. (The body-water and sodium physiology behind this
-lives in the *Micronutrients, Hydration & Electrolytes* chapter.) The opposite error is real too:
-**drinking far more than you sweat**, especially plain water over hours, can dangerously dilute your blood
-sodium, so more is not safer [@sawka2007fluid]. On **caffeine**, the working adult's staple, a coffee
-before exercise is a mild, legitimate performance aid; the caution is the sugar and calories in bubble tea,
-energy drinks and kopi, not the caffeine itself.
+The tropics change the advice in one place, fluid. For outdoor exercise or a sweaty commute:
+
+- Drink to thirst, and aim to lose less than about 2% of body weight over a long session, because Singapore's heat and humidity raise sweat losses for the same effort; weighing
+  before and after a long run shows the real losses [@sawka2007fluid].
+- Add salt only for long or very sweaty sessions (beyond a couple of hours); for a typical workout,
+  plain water is right.
+- Avoid **drinking far more than is sweated out**, especially plain water over hours: it can cause
+  exercise-associated hyponatraemia, a dangerously low blood sodium, so more is not safer
+  [@sawka2007fluid].
+
+(For the body-water and sodium physiology behind these rules, see the
+[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 :::
 
-### The working-life food environment
+### The working-life food environment {#sec-adult-food-environment}
 
-For most adults, diet is shaped less by the home kitchen than by **where and when work lets them eat**.
+For most adults, diet is shaped less by the home kitchen than by where and when work lets them eat.
 Three forces dominate.
 
-**Eating out is the default, not the exception.** In Singapore the great majority of adults eat out
-regularly and many have a hawker meal every day, chosen for convenience and price [@naidoo2017eatingout].
-That makes the **hawker plate**, not the recipe, the real lever, a topic the *What a Healthy Diet Looks
-Like* and *Assessing Diet & Talking to Patients* chapters take up as a counselling skill.
+**Eating out is the default.** In Singapore the great majority of adults eat out regularly, and many
+have a hawker meal every day, chosen for convenience and price [@naidoo2017eatingout]. The hawker
+plate, not the home recipe, is therefore the real lever, and counselling around it is a skill of
+its own (see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) and
+[*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd) chapters).
 
-**Shift work** stresses the body's clock. Night-shift work is associated with higher rates of **type 2
-diabetes** and the **metabolic syndrome** (the risky cluster of central weight gain, high blood pressure,
-high glucose and abnormal blood fats). These are associations from observational data, not proof, and the
-mechanism runs through **circadian misalignment** [@xie2024nightshiftt2dm; @sooriya2022shiftmets]. The most
-useful, evidence-aligned tweak is about **when** to eat: keeping the main meals in the **daytime** and
-avoiding heavy eating in the small hours (roughly midnight to dawn) prevented the glucose intolerance of
-simulated night work in a controlled trial [@chellappa2021daytimeeating]. More generally, **late-weighted
-eating is less favourable** than an earlier-weighted pattern, though much of that evidence is observational
-[@stonge2017mealtiming].
+**Shift work stresses the body's clock.** Night-shift work is associated with higher rates of type 2
+diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
+abnormal blood lipids). These associations come from observational data and are not proof; the
+mechanism runs through **circadian misalignment** (eating, sleeping and working out of step with the
+body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
 
-**Stress, time and sleep** close the loop. Stress nudges intake toward less healthy food
-[@hill2022stresseating]; and **short sleep**, the working adult's chronic deficit, measurably **raises
-how much you eat**, while extending sleep pulls it back down [@alkhatib2017sleep; @tasali2022sleepextension].
-Fixing sleep is an under-rated nutrition intervention.
+The most useful evidence-aligned change for shift workers concerns when to eat. In a controlled trial,
+keeping the main meals in the daytime and avoiding heavy eating in the small hours (roughly midnight to
+dawn) prevented the glucose intolerance of simulated night work [@chellappa2021daytimeeating]. More
+generally, late-weighted eating is less favourable than an earlier-weighted pattern, though much of
+that evidence is observational [@stonge2017mealtiming].
 
-### Alcohol: the message that changed
+**Stress and short sleep change intake.** Stress nudges intake toward less healthy food
+[@hill2022stresseating]. Short sleep, a chronic deficit for many working adults, raises energy intake,
+and extending sleep brings it back down [@alkhatib2017sleep; @tasali2022sleepextension], so improving
+sleep is also a nutrition intervention.
 
-The advice a clinician gives about alcohol has genuinely **reversed** in a decade, and it is worth stating
-plainly. There is **no established safe level** for health: alcohol is a **Group 1 carcinogen** that causes
-at least seven cancers (including breast and oesophageal), and a meaningful share of alcohol-related cancers
-arise at **light-to-moderate** drinking [@anderson2023nosafelevel; @who2023nosafelevel; @jun2023alcoholcancer].
+### Alcohol: the message that changed {#sec-adult-alcohol}
 
-The old reassurance that *a daily glass of red wine protects your heart* **does not hold up**. The
-apparent benefit came largely from comparing drinkers with a group of "abstainers" that quietly included
-people who had **stopped drinking because they were ill**; studies using genetics to remove that bias find
-**no cardiovascular protection**, and harm that rises even at low intake [@piano2025ahaalcohol;
-@biddinger2022mralcohol]. The bottom line for practice is simple: **never advise anyone to drink for their
-heart.** Alcohol is also **empty energy** (about 7 kcal/g, poorly compensated), stacking on top of an
-eating-out diet [@traversy2015alcoholobesity].
+Clinical advice on alcohol has reversed within a decade. There is no established safe level of
+drinking for health: alcohol is a **Group 1 carcinogen** (an agent classed as an established cause of
+cancer in humans) that causes at least seven cancers, including breast and oesophageal cancer, and a
+meaningful share of alcohol-related cancers arise at light-to-moderate drinking
+[@anderson2023nosafelevel; @who2023nosafelevel; @jun2023alcoholcancer].
+
+The belief that "a daily glass of red wine protects your heart" does not hold up. The apparent benefit
+came largely from comparing drinkers with a group of "abstainers" that included people who had stopped
+drinking because they were ill; **Mendelian randomisation** studies, which use genetic variants to
+remove that bias, find no cardiovascular protection, and harm that rises even at low intake
+[@piano2025ahaalcohol; @biddinger2022mralcohol]. In practice, never advise anyone to drink for their
+heart. Alcohol is also empty energy (about 7 kcal/g), and drinkers eat little less to make up for it,
+so it stacks on top of an eating-out diet [@traversy2015alcoholobesity].
 
 ::: {.callout-warning}
-## The alcohol flush is a red flag, not a party trick
-About a third of East Asians carry a variant that makes them **flush red** after alcohol. That flush marks
-a build-up of **acetaldehyde**, the carcinogenic breakdown product, and people who flush *and* keep
-drinking carry a substantially **raised risk of oesophageal cancer** [@brooks2009aldh2]. So the flush is a
-clinical cue: **ask about it, and advise cutting down.** For any adult, the practical role at this stage is
-to **screen briefly** (a short set of questions such as the AUDIT-C is the usual convention), **advise**,
-and **refer** anyone with hazardous or harmful use; deeper management sits with the addiction services and
-future chapters [@uspstf2018alcohol; @bush1998auditc].
+## Is the alcohol flush harmless?
+Reddening after a drink, the **alcohol flush**, is often taken as a harmless quirk. The flush marks a build-up of **acetaldehyde**, the carcinogenic breakdown product of alcohol, and people who flush and keep drinking carry a substantially raised risk of oesophageal cancer [@brooks2009aldh2]. About a third of East Asians carry a variant of ALDH2 (aldehyde dehydrogenase 2, the enzyme that clears acetaldehyde) that makes them flush. The flush is therefore a clinical cue: **ask about it, and
+advise cutting down.**
 :::
 
-## Recognising trouble, and when to refer
+For any adult, the clinician's role at this stage is to screen briefly, advise, and refer anyone with
+hazardous or harmful use; deeper management sits with addiction services [@uspstf2018alcohol]. The
+usual screen is a short questionnaire such as the **AUDIT-C**, the consumption questions of the Alcohol
+Use Disorders Identification Test [@bush1998auditc].
 
-Most of this chapter is prevention; a few patterns need recognising and referring on.
+::: {.callout-tip collapse="true"}
+## Check yourself: why does a 40-minute park run need only water, when athlete guidance recommends carbohydrate during exercise?
+Muscle glycogen, the limited carbohydrate store, runs out only in long efforts such as a marathon (the
+"wall" in the *Integrative Metabolism* chapter). A 40-minute run therefore ends long before
+carbohydrate during exercise could help. The high-carbohydrate and during-exercise advice is
+calibrated for serious endurance athletes training for hours at a time, whereas a 30–60-minute session
+needs only water, with ordinary meals covering the rest. Applying the athlete advice to a few weekly
+sessions over-fuels the exerciser.
+:::
 
-- **Weight creep with a cardiometabolic edge.** Because Asian bodies carry risk at **lower BMI cut-offs**,
-  even a few kilograms of creep can cross a threshold. The point at which it becomes established obesity or
-  metabolic syndrome is the *Obesity & Metabolic Syndrome* and diabetes chapters' territory to manage.
-- **Repeated crash dieting.** Prevention should be **small, sustainable habits and regular self-weighing**,
-  which modestly work, rather than cycles of restriction [@graham2022smallchange; @zheng2015selfweighing].
-  Weight *cycling* has been linked to worse outcomes, but that signal is heavily confounded by **illness
-  causing unintentional loss**, so it is not proof that dieting itself kills; the plain reading is simply
-  "aim for steady, not sawtooth" [@zou2019fluctuation].
-- **Disordered eating and over-training in adults** (not only a teenage problem) and **hazardous alcohol
-  use**: recognise and refer.
+::: {.callout-tip collapse="true"}
+## Check yourself: comparisons of drinkers with non-drinkers once suggested that light drinking protects the heart. Why did that benefit disappear?
+The "abstainer" comparison group included people who had stopped drinking because they were ill, which
+made non-drinkers look less healthy than drinkers. Mendelian randomisation studies, which use genetic
+variants to remove that bias, find no cardiovascular protection and harm that rises even at low intake.
+Alcohol is also a Group 1 carcinogen, so no one should be advised to drink for their heart.
+:::
 
-## The Singapore picture
+## Recognising trouble, and when to refer {#sec-adult-refer}
 
-Every driver above has a sharp local form.
+Most of the advice above is preventive, but a few patterns call for recognition and, often, referral.
 
-**The hawker plate is the food environment.** With most adults eating out regularly, the population-level
-gaps the National Nutrition Survey keeps flagging, notably that about **nine in ten exceed the sodium
-limit**, are built into everyday meals more than home cooking [@mohNNS2022; @naidoo2017eatingout]. The
-national tools aim squarely here: the **Healthier Dining Programme** labels lower-calorie hawker options,
-and **Nutri-Grade** grades the drinks, both practical levers to point patients toward
-[@hdpHawker2017; @hpbNutriGrade].
+Weight creep matters sooner in Asian adults, who carry cardiometabolic risk at a lower BMI (hence
+Singapore's lower BMI cut-offs; see the
+[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd#sec-phenotype) chapter), so even a few
+kilograms of creep can cross a threshold. Established obesity and metabolic syndrome are managed as conditions in their own right (see
+the [*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) and
+[*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
+
+Repeated crash dieting is the pattern to steer patients away from. Small, sustainable habits and
+regular self-weighing modestly help prevent weight gain [@graham2022smallchange;
+@zheng2015selfweighing]. **Weight cycling** (repeated weight loss and regain) has been linked to worse
+outcomes, but that signal is heavily confounded by illness causing unintentional weight loss
+[@zou2019fluctuation]. The link is therefore not proof that dieting itself kills; the practical
+reading is "aim for steady, not sawtooth".
+
+Each of the following patterns is a prompt to act at this stage:
+
+| Pattern | Response at this stage |
+|---|---|
+| Weight creep crossing Singapore's lower BMI cut-offs | Address early with small, sustainable changes |
+| Repeated crash dieting | Advise a steady weight through small habits and regular self-weighing |
+| Disordered eating or over-training, in adults as well as adolescents | Recognise and refer |
+| Hazardous or harmful drinking | Screen briefly, advise, and refer |
+| Alcohol flush with continued drinking | Ask about flushing and advise cutting down |
+
+::: {.callout-tip collapse="true"}
+## Check yourself: weight cycling has been linked to worse health outcomes. Why does that link not show that dieting itself is harmful?
+The link is heavily confounded by illness: people who are ill often lose weight unintentionally, so
+some of the weight change reflects disease that is already present. The signal therefore cannot show
+that dieting itself causes harm. The practical reading is to aim for a steady weight, kept through
+small, sustainable habits and regular self-weighing, and to avoid repeated cycles of restriction.
+:::
+
+## The Singapore picture {#sec-singapore}
+
+**The hawker plate is the food environment.** With most adults eating out regularly, the
+population-level gaps the National Nutrition Survey flags, notably that about 9 in 10 exceed the sodium
+limit, are built into everyday meals more than into home cooking [@mohNNS2022; @naidoo2017eatingout].
+The national tools target this: the Healthier Dining Programme labels lower-calorie hawker options, and
+Nutri-Grade grades the drinks, both practical levers to point patients toward [@hdpHawker2017;
+@hpbNutriGrade].
 
 **Activity is often built into the commute.** Singapore's physical-activity guidance mirrors the
-international target, **150–300 minutes a week plus muscle-strengthening on two or more days**
-[@spag2022; @bull2020whopa], and a large share of the population's activity comes from **walking to and
-from transport**, with the gamified **National Steps Challenge** nudging it up [@nphs2023; @yao2022stepschallenge].
+international target of 150–300 minutes a week plus muscle-strengthening on two or more days
+[@spag2022; @bull2020whopa]. A large share of the population's activity comes from walking to and from
+transport, and the gamified National Steps Challenge nudges it up [@nphs2023; @yao2022stepschallenge].
 
-**Shift work and long hours** are common across healthcare, transport and food-and-beverage, and the
-long-hours culture normalises convenient, less healthy eating [@leu2023longhours], the human backdrop to
-the whole external-driver story. **Alcohol**, finally, sits inside all of it: local guidance caps intake at
-about **two standard drinks a day for men and one for women** (with a standard drink around 10 g of
-alcohol), health messaging now cites the "no safe level" position, and the **ALDH2 flush**, common in the
-Chinese-majority population, makes the "ask about flushing" cue especially high-yield here
-[@mohAlcoholLimits2018; @healthhubAlcoholHazards].
+**Shift work and long hours are common in several sectors.** These include healthcare, transport and
+food and beverage, and the long-hours culture normalises convenient, less healthy eating [@leu2023longhours].
 
-## Is adulthood just "slowing down"?
+**Local guidance caps alcohol intake.** The cap is about two **standard drinks** (about 10 g of alcohol
+each) a day for men and one for women, and health messaging now cites the "no safe level" position;
+the ALDH2 flush, common in the Chinese-majority population, makes the "ask about flushing" cue
+especially useful here [@mohAlcoholLimits2018; @healthhubAlcoholHazards].
 
-No, and believing it is leads to the wrong fixes. The metabolism holds steady through these decades; what
-changes is that **maintenance replaces growth**, and the **environment takes the wheel**. The internal job
-is to **defend muscle** (resistance work plus enough, not heroic, protein) and to see weight creep for
-what it is: a small, correctable surplus rather than an inevitable decline. The external job is to
-**navigate the working-life food environment**, the daily hawker meal, the shift, the short night, the
-after-work drink, with a few durable habits. And two messages have genuinely changed, worth saying
-clearly: most active adults need **ordinary food and water, not sports nutrition**, and **no one should
-drink for their heart**.
+## Is adulthood just "slowing down"? {#sec-close}
 
-## Check your understanding
+No, and believing it leads to the wrong fixes. The metabolism holds steady through these decades; what
+changes is that maintenance replaces growth and the environment sets most of the diet. Midlife weight
+creep reflects a small, correctable surplus, not a metabolic decline. The levers are therefore activity, muscle and the food environment, worked through a few durable habits. These include resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty energy and has no established safe level. Two messages have changed: most active adults need only ordinary food and water, not sports
+nutrition, and no one should drink for their heart.
+
+## Check your understanding {#sec-quiz}
 
 <div data-island="quiz" data-src="/quizzes/adulthood-working-life.quiz.yml"></div>
 
-## Practise: the shift-working weekend runner
+## Practise: the shift-working weekend runner {#sec-case}
 
-Rahmat is 34, a rotating-shift ICU nurse who runs 10–15 km most weekends. He asks whether he should
-"carb-load and take protein shakes," mentions after-work drinks three or four nights a week, notes his
-weight has crept up about 4 kg over three years, and adds that he "goes red" after just one beer. Work
-through the visit: notice how much of the *popular* advice he expects is unnecessary, and where the one
-genuinely important red flag is hiding. Your choices branch the case.
+Rahmat, a rotating-shift ICU nurse who runs most weekends, arrives with questions about carb-loading,
+protein shakes, night-shift meals and some weight creep. Work through what he needs, and what he does
+not.
 
 <div data-island="case" data-src="/cases/rahmat-shift-runner.case.yml"></div>

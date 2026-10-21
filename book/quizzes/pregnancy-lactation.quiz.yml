@@ -2,105 +2,105 @@ id: pregnancy-lactation
 title: "Quick check: pregnancy & lactation"
 questions:
   - id: q1
-    stem: "A woman at 10 weeks asks how much extra she should eat \"now that I'm eating for two.\" Best answer?"
+    stem: "A woman at 10 weeks asks how much extra she should eat \"now that I'm eating for two\". Best answer?"
     options:
-      - text: "Almost nothing extra yet — needs rise only modestly and mainly later"
+      - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Correct. Pregnancy is quality over quantity — a snack, not a second dinner. Energy needs rise only modestly and are back-loaded (~+340 kcal in the 2nd trimester, ~+452 in the 3rd); the 'eating for two' phrase only nearly fits breastfeeding, which adds ~+450–500 kcal/day and draws partly on pregnancy fat stores."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is a snack, not a second dinner. 'Eating for two' only nearly fits breastfeeding, which needs roughly 450–500 kcal/day net extra and draws partly on pregnancy fat stores. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
-        feedback: "The myth. Doubling mostly adds excess weight and GDM risk; the energy cost of pregnancy is modest and back-loaded."
+        feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and back-loaded, and doubling intake mostly adds excess weight and GDM risk."
       - text: "She should eat less to avoid gaining too much weight"
         correct: false
-        feedback: "Under-eating isn't the goal either — too-little gain raises the risk of a small or preterm baby. Adequate quality intake plus a sensible weight-gain target is the aim."
+        feedback: "Under-eating isn't the goal either: too little gain raises the risk of a small or preterm baby. The aim is adequate, good-quality intake and a weight-gain target set by pre-pregnancy BMI."
 
   - id: q2
     stem: "At 28 weeks Mrs Devi's haemoglobin has fallen from 12.5 to 10.8 g/dL. She feels well. What's the right first read?"
     options:
-      - text: "Likely physiological haemodilution — check ferritin before deciding on iron"
+      - text: "Likely haemodilution; check ferritin before deciding on iron"
         correct: true
-        feedback: "Correct. Plasma volume expands faster than red-cell mass, so a mid-pregnancy Hb almost always falls by dilution; use pregnancy-specific cut-offs and confirm true iron deficiency (ferritin) rather than reflexively treating the number — while remembering real deficiency is common."
-      - text: "Definite iron-deficiency anaemia — start high-dose iron immediately"
+        feedback: "Plasma volume expands faster than red-cell mass, so a mid-pregnancy haemoglobin almost always falls by dilution. Use pregnancy-specific cut-offs and confirm true iron deficiency with ferritin instead of treating the number alone, remembering that real deficiency is common."
+      - text: "Definite iron-deficiency anaemia; start high-dose iron now"
         correct: false
-        feedback: "Not so fast — the dilutional fall is expected and physiological. Check ferritin first; treat if genuinely deficient."
-      - text: "A dangerous drop needing urgent transfusion"
+        feedback: "The dilutional fall is expected and physiological, so a low number alone does not prove deficiency. Check ferritin first, and treat if she is truly deficient."
+      - text: "A dangerous drop that needs urgent transfusion"
         correct: false
-        feedback: "Over-reaction — a fall to ~10.8 in mid-pregnancy is common and usually dilutional, not an emergency."
+        feedback: "A fall to about 10.8 g/dL in mid-pregnancy is common and usually dilutional, not an emergency."
 
   - id: q3
-    stem: "A woman with **severe, persistent vomiting**, weight loss and ketosis is admitted. Which point is the critical safety step?"
+    stem: "A woman with severe, persistent vomiting, weight loss and ketosis is admitted. Which point is the critical safety step?"
     options:
       - text: "Give thiamine before any glucose or dextrose"
         correct: true
-        feedback: "Correct. Prolonged vomiting depletes thiamine, and glucose given first to a depleted woman can precipitate Wernicke's encephalopathy — so thiamine goes in before glucose, and this is managed as hyperemesis (refer). Ordinary nausea is managed with small frequent meals, ginger and vitamin B6, but this is hyperemesis."
-      - text: "Start IV dextrose quickly to correct her energy deficit, then add vitamins later"
+        feedback: "Prolonged vomiting depletes thiamine, and glucose given first to a depleted woman can precipitate Wernicke's encephalopathy, so thiamine goes in before glucose. Her severe, persistent vomiting, weight loss and ketosis mark hyperemesis gravidarum, which needs referral; small frequent meals, ginger and vitamin B6 are for ordinary nausea."
+      - text: "Start IV dextrose first, and add vitamins later"
         correct: false
-        feedback: "Dangerous — giving glucose first to a thiamine-depleted woman can trigger Wernicke's encephalopathy. Thiamine goes in before glucose."
+        feedback: "Correcting the energy deficit feels urgent, but this order is dangerous: glucose given first to a thiamine-depleted woman can trigger Wernicke's encephalopathy. Thiamine goes in before glucose."
       - text: "Reassure her that vomiting is normal and send her home"
         correct: false
-        feedback: "Weight loss, dehydration and ketosis mark hyperemesis, not ordinary morning sickness — it needs referral and admission, not reassurance."
+        feedback: "Weight loss, dehydration and ketosis mark hyperemesis gravidarum, not ordinary morning sickness; it needs referral and admission, not reassurance."
 
   - id: q4
-    stem: "Why does the **calcium** requirement barely rise in pregnancy, even though the foetal skeleton is forming?"
+    stem: "Why does the calcium requirement barely rise in pregnancy, even though the foetal skeleton is forming?"
     options:
       - text: "Because the gut roughly doubles its calcium absorption"
         correct: true
-        feedback: "Correct, and counter-intuitive. The adaptation is in absorption, not intake — so the recommended intake is unchanged and no special calcium allowance is needed; just ensure a good baseline."
+        feedback: "Intestinal absorption adapts: the gut roughly doubles its calcium absorption in pregnancy, so the recommended intake barely changes and an adequate baseline is enough."
       - text: "Because the foetus doesn't actually need much calcium"
         correct: false
-        feedback: "It does need calcium for the skeleton — but the mother meets it by absorbing dietary calcium far more efficiently, not by eating more."
+        feedback: "The foetal skeleton does need calcium, but the mother meets the need by absorbing dietary calcium more efficiently, not by eating more."
       - text: "Because calcium is stored in unlimited amounts in the mother's bones"
         correct: false
-        feedback: "The mechanism is increased intestinal absorption in pregnancy, not bone stores — which is why the intake recommendation stays the same."
+        feedback: "Bone stores are not the mechanism: intestinal calcium absorption roughly doubles in pregnancy, which is why the intake recommendation barely changes."
 
   - id: q5
-    stem: "Which nutrient is the one where the pregnancy advice is a **ceiling** (avoid excess), not a target to reach?"
+    stem: "Which nutrient is the one where the pregnancy advice is a ceiling (avoid excess), not a target to reach?"
     options:
-      - text: "Vitamin A — high-dose preformed retinol is teratogenic"
+      - text: "Vitamin A, because high-dose preformed retinol is teratogenic"
         correct: true
-        feedback: "Correct. Preformed retinol (supplements, liver) is teratogenic in excess, while plant beta-carotene is safe — so check a multivitamin isn't over-dosed in retinol and skip the liver. This is the nutrient whose *excess* harms."
-      - text: "Folate — the more the better throughout pregnancy"
+        feedback: "Preformed retinol (supplements, liver) is teratogenic in excess, while plant β-carotene is safe, so check that a multivitamin is not over-dosed in retinol and skip liver."
+      - text: "Folate, because more is better throughout pregnancy"
         correct: false
-        feedback: "Folate is a floor to reach (400 µg, or 4–5 mg if high-risk), not a ceiling — the teratogenic-in-excess nutrient is preformed vitamin A."
-      - text: "Iron — extra iron is always beneficial"
+        feedback: "Folate is a floor to reach (about 400 µg/day, or 4–5 mg/day if high-risk), not a ceiling; the nutrient that is teratogenic in excess is preformed vitamin A."
+      - text: "Iron, because extra iron is always beneficial"
         correct: false
         feedback: "Iron needs rise and deficiency is common; the nutrient with a teratogenic upper limit is preformed vitamin A."
 
   - id: q6
-    stem: "Why does Singapore offer the glucose tolerance test to **every** pregnant woman, not just high-risk ones?"
+    stem: "Why does Singapore offer the glucose tolerance test to every pregnant woman instead of only to high-risk women?"
     options:
       - text: "Because risk-factor screening would miss about half of cases in Asian women"
         correct: true
-        feedback: "Correct — that's the universal-screening rationale. Local evidence (GUSTO) showed risk factors predict GDM poorly here; GDM is common (~1 in 5) and often symptomless, so everyone is offered the 75 g test at 24–28 weeks."
+        feedback: "In the local GUSTO cohort, risk factors predicted GDM poorly, and risk-based screening would have missed about half of cases. GDM is common (about 1 in 5) and often symptomless, so every pregnancy is offered the 75 g test at 24–28 weeks."
       - text: "Because only older, overweight women with a family history get GDM"
         correct: false
-        feedback: "That's the risk-based approach Singapore *rejects* — it would have missed roughly half of local cases. Screening is universal."
+        feedback: "Restricting the test to women with these risk factors is risk-based screening, which would have missed about half of local cases; screening in Singapore is universal."
       - text: "Because women with GDM always have obvious symptoms"
         correct: false
-        feedback: "GDM is usually symptomless — which is exactly why routine universal screening is used rather than waiting for symptoms."
+        feedback: "GDM is usually symptomless, which is why universal screening is used instead of waiting for symptoms."
 
   - id: q7
-    stem: "A baby of a mother with GDM is at risk of **low blood sugar in the first hours after birth**. Why?"
+    stem: "The newborn of a mother with GDM is at risk of hypoglycaemia in the first hours after birth. Why?"
     options:
-      - text: "High maternal glucose drove high foetal insulin, which stays high once the supply is cut"
+      - text: "Foetal insulin, raised in the womb, stays high after birth"
         correct: true
-        feedback: "Correct — in the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and drops the baby's sugar. Macrosomia and neonatal hypoglycaemia are two ends of one chain (maternal glucose in → foetal insulin out → overgrowth, then hypoglycaemia once the supply stops)."
-      - text: "The baby inherited diabetes from the mother"
+        feedback: "In the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and lowers the baby's glucose. Macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, foetal insulin out, overgrowth, then hypoglycaemia once the supply stops."
+      - text: "The baby has inherited diabetes from the mother"
         correct: false
-        feedback: "It's not inherited diabetes — it's transient: the baby's own insulin, raised in response to maternal glucose, stays high briefly after delivery."
-      - text: "Because the baby is too small and underfed"
+        feedback: "The hypoglycaemia is transient: the baby's own insulin, raised in response to maternal glucose, stays high briefly after delivery, so it is not inherited diabetes."
+      - text: "The baby is too small and underfed, so it runs out of sugar"
         correct: false
         feedback: "These babies are typically *large* (macrosomic); the hypoglycaemia comes from their own high insulin after the maternal glucose supply is cut."
 
   - id: q8
-    stem: "A **vegan mother** is breastfeeding and feels perfectly well. What's the key nutrition risk to act on?"
+    stem: "A vegan mother is breastfeeding and feels perfectly well. What nutrition risk needs action?"
     options:
       - text: "Her milk can be critically low in vitamin B12 even while she feels fine"
         correct: true
-        feedback: "Correct. B12 is a diet-dependent milk nutrient, so supplement B12 and refer to a dietitian. Some milk nutrients are buffered from her stores (iron, calcium, folate), but B12, iodine, vitamin D and DHA depend on *her* intake — and low-B12 milk can harm the infant's developing brain."
-      - text: "Nothing — if she feels well, her milk is complete"
+        feedback: "Vitamin B12 is a diet-dependent milk nutrient. Iron, calcium and folate in milk are buffered from her stores, but B12, iodine, vitamin D and DHA depend on her intake, and low-B12 milk can harm the infant's developing brain. She needs B12 supplementation and a dietitian referral."
+      - text: "Nothing, since if she feels well her milk is complete"
         correct: false
         feedback: "She can look healthy while producing B12-deficient milk. B12 is diet-dependent in milk, so a vegan mother must supplement it."
       - text: "Her calcium and iron will be dangerously low in the milk"
         correct: false
-        feedback: "Calcium and iron are *buffered* — kept steady in milk at the mother's expense. The diet-dependent risk here is B12 (also iodine, vitamin D, DHA)."
+        feedback: "Calcium and iron are buffered, kept steady in milk at the mother's expense. The diet-dependent risk here is B12 (also iodine, vitamin D and DHA)."

@@ -3,12 +3,12 @@
 # The learner toggles the patient between a healthy adult and someone with advanced CKD / on dialysis;
 # each card's verdict flips good (✓) -> caution (⚠) or absolute-avoid (⛔) -> with a one-line why.
 # One card ("cut back on added salt") is a deliberate control that does NOT flip, so the lesson isn't
-# "everything reverses." Pure content — no asset paths.
+# "everything reverses." Pure content, no asset paths.
+# `intro` is optional in RenalFlip.svelte and was removed in the house-style retrofit: the chapter
+# paragraph beside the island already makes the point, and the sentence before it tells the reader
+# how to use the panel.
 id: renal-flip
 title: "The advice that flips in CKD"
-intro: >-
-  Standard healthy-eating advice can reverse once the kidney can no longer clear a potassium load.
-  Switch the patient and watch each verdict flip — except the one lever that doesn't.
 # The two toggle states. `short` is used in the aria-live "Advice for …" line.
 contexts:
   - id: healthy
@@ -27,13 +27,14 @@ items:
       healthy:
         kind: good
         badge: "Protective"
-        why: "More potassium helps lower blood pressure — the WHO advises the public to eat more of it."
+        why: "More potassium helps lower blood pressure, and the WHO advises the public to eat more of it."
       ckd:
         kind: caution
         badge: "Hazard"
         why: >-
-          The failing kidney can't clear a potassium load, risking hyperkalaemia. Individualised to
-          blood levels by a dietitian, not eaten freely — and the WHO advice explicitly excludes CKD.
+          The failing kidney can't clear a potassium load, risking hyperkalaemia. The WHO advice
+          explicitly excludes CKD. These foods are not eaten freely: a dietitian individualises the
+          amount to blood levels.
   - id: salt-substitute
     advice: "Switch to a low-sodium 'potassium salt' substitute"
     example: "potassium-chloride salt swaps"
@@ -41,14 +42,14 @@ items:
       healthy:
         kind: good
         badge: "Reasonable"
-        why: "A genuine way to cut sodium — in a large trial it cut strokes and deaths."
+        why: "A real way to cut sodium; in a large trial it cut strokes and deaths."
       ckd:
         kind: avoid
         badge: "Dangerous"
         why: >-
           That trial excluded serious kidney disease and potassium-raising drugs; the
-          potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first — if
-          unsure, don't.
+          potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first, and
+          if unsure, don't.
   - id: dash
     advice: "Follow the DASH pattern"
     example: "lots of fruit, veg, low-fat dairy"
@@ -56,7 +57,7 @@ items:
       healthy:
         kind: good
         badge: "First-line"
-        why: "A pattern designed to lower blood pressure — endorsed for the general public."
+        why: "A pattern designed to lower blood pressure, endorsed for the general public."
       ckd:
         kind: caution
         badge: "Adapt"
@@ -75,8 +76,8 @@ items:
         kind: avoid
         badge: "Absolute avoid"
         why: >-
-          They carry a neurotoxin the failing kidney can't clear — causing seizures and death, not
-          merely a high potassium load. An absolute avoid, not a portion-controlled food.
+          Beyond their potassium, they carry a neurotoxin the failing kidney can't clear, which
+          causes seizures and death. An absolute avoid, not a portion-controlled food.
   - id: sodium
     advice: "Cut back on added salt / sodium"
     example: "less soup, sauce and processed food"
@@ -84,17 +85,17 @@ items:
       healthy:
         kind: good
         badge: "Good advice"
-        why: "Lowers blood pressure — good for everyone."
+        why: "Lowers blood pressure, which is good for everyone."
       ckd:
         kind: good
-        badge: "Still good — doesn't flip"
+        badge: "Still good: no flip"
         why: >-
-          Sodium is the one lever that does NOT reverse in CKD: it lowers blood pressure, reduces
-          protein leak and helps kidney-protective drugs work. The lever a generalist can safely
+          Sodium is the one lever that does not reverse in CKD: it lowers blood pressure, reduces
+          protein leak and helps kidney-protective drugs work. It is the lever a generalist can safely
           reinforce.
-prompt: "Toggle the patient to see which advice flips — and which one holds."
+prompt: "Toggle the patient to see which advice flips, and which holds."
 caption: >-
-  For the public, "eat more potassium," a potassium salt substitute and DASH are all sound. In advanced
-  CKD they can turn hazardous — while cutting sodium stays good throughout. Recognising the flip is the
-  skill; the quantities are a renal dietitian's.
+  For the public, eating more potassium, using a potassium salt substitute and following the DASH
+  pattern are all sound. In advanced CKD they can become hazardous, while cutting sodium stays good
+  throughout; the quantities are a renal dietitian's to set.
 credit: "After WHO 2012 (potassium), Neal 2021 (SSaSS), KDOQI 2020 and NKF Singapore."

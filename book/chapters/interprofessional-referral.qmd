@@ -1,170 +1,247 @@
 # Interprofessional practice, referral and looking after yourself
 
-> *A safe clinician is defined as much by what they **refer** as by what they do. There are edges to
-> your role: advise well within them, hand over cleanly when a patient crosses them, work as a team,
-> and look after the one instrument you can't refer out, which is yourself.*
+> *A safe clinician is defined as much by what they refer as by what they do: good advice stays within
+> the edges of the role, and a clean hand-off follows when a patient crosses them. The clinician's own
+> health is the one instrument that cannot be referred out, and it needs looking after.*
 
-## Practice at a glance
+::: {.callout-note}
+## Learning objectives
+- Distinguish universal nutrition advice, which any clinician gives, from medical nutrition therapy,
+  which a registered dietitian delivers.
+- Recognise the triggers for referral to a dietitian, and refer.
+- Write a dietitian referral that carries what the dietitian needs to act on.
+- Describe the roles in a nutrition care team, and explain why intensive trial results cannot be
+  promised from brief advice.
+- Explain why a clinician's own sleep, diet and activity matter for their health and their counselling.
+- Describe how Healthier SG builds the advise-or-refer line into Singapore's primary care.
+:::
 
-Good dietary care also means knowing where your role ends and someone else's begins. That involves
-three moves and a coda:
+::: {.concept-tree}
+[Chapter map]{.tree-title}
 
-- **Advise** within scope: brief, general, evidence-aligned nutrition support any clinician can give.
-- **Refer** when the need crosses into individualised therapy for a condition, which is a dietitian's work.
-- **Work as a team**, because nutrition is rarely a solo act, and Singapore has built a system that assumes it.
-- **Mind yourself**, because your own diet, sleep and activity are both a wellbeing issue and, plausibly, a
-  credibility one.
+- [Scope of practice: advise or refer](#sec-scope)
+  - [Where the clinician's role ends](#sec-role-limits): role and accountability
+  - [The line: advice versus therapy](#sec-advice-therapy): universal advice or dietitian-led therapy
+  - [Referral triggers](#sec-referral-triggers): a short checklist
+- [Referring, and working as a team](#sec-referral-team)
+  - [Writing a referral that helps](#sec-referral-letter): what the dietitian needs
+  - [The nutrition care team](#sec-care-team): who does what
+- [The clinician's own health](#sec-clinician-health): sleep, diet and credibility
+:::
 
-The throughline is **humility with competence**: know your limits, refer well, work in a team, and
-look after yourself.
+## Interprofessional practice at a glance {#sec-overview}
 
-## Knowing your limits: advise, or refer
+Good dietary care calls for humility with competence: a clinician knows where their own role ends and
+someone else's begins. Brief, general, evidence-aligned advice is every clinician's work, and
+individualised therapy for a condition is a dietitian's. The care around a chronic condition is shared
+by a team, which Singapore's health system is built to support. The clinician's own diet, sleep and
+activity matter too, as a wellbeing issue and, plausibly, a credibility one.
 
-Safe care starts with a clean line between what any clinician can advise and what belongs to a dietitian, plus a checklist for spotting the crossing.
+## Scope of practice: advise or refer {#sec-scope}
 
-### Knowing where your role ends
+### Where the clinician's role ends {#sec-role-limits}
 
-At this stage of training, your nutrition care is **brief, general, evidence-aligned and
-patient-centred**. The *What a Healthy Diet Looks Like*, *Assessing Diet & Talking to Patients* and
-*Behaviour-Change Counselling* chapters gave you exactly this toolkit. It stops short of individualised
-therapy for a medical condition. Graduates consistently report feeling **under-prepared** to counsel on
-nutrition [@crowley2019], and the professional move is to recognise that gap rather than overreach to
-cover it. Scope is about **role and accountability, not just facts**: knowing the science is not a
-licence to deliver treatment [@aclm2022comp; @afn2021curriculum]. Referral is a **competency and a
-safety behaviour**, not an admission of failure.
+**Scope of practice** is the care a clinician's role allows them to deliver and be accountable for. It
+is set by role and accountability as well as by knowledge: knowing the science is not a licence to
+deliver treatment [@aclm2022comp; @afn2021curriculum]. At this stage of training, a clinician's
+nutrition care is brief, general, evidence-aligned and patient-centred. That care draws on the toolkit
+of the *What a Healthy Diet Looks Like*, *Assessing Diet & Talking to Patients* and
+*Behaviour-Change Counselling* chapters, and the toolkit stops short of individualised therapy for a
+medical condition.
 
-### The line: advice versus therapy
+Graduates consistently report feeling under-prepared to counsel on nutrition [@crowley2019], and the
+professional response to that gap is to recognise it and refer, without overreaching to cover it.
+Referral is a competency and a safety behaviour, not an admission of failure.
 
-There is a clean line between two kinds of "diet advice", and holding it is the core skill here.
+### The line: advice versus therapy {#sec-advice-therapy}
 
-- **Universal advice (in scope).** My Healthy Plate, "cut the sugary drinks", "more vegetables, less
-  refined rice", the dietary-pattern message: general guidance that is safe for almost anyone and that
-  every clinician should give [@hpbHealthyPlate].
-- **Medical nutrition therapy — MNT (refer).** An **individualised**, therapeutic nutrition plan for a
-  medical condition, delivered by a **registered dietitian (RD)**: a structured cycle of assess →
-  diagnose → intervene → monitor, evidence-based and outcome-tracked [@ada2026standards]. For type 2
-  diabetes, RD-delivered MNT is associated with reductions in **HbA1c** (a marker of average
-  blood-glucose control) of **roughly 0.3–2.0%**, a guideline-reported range across trials of differing
-  intensity rather than a guaranteed effect [@ada2026standards].
+Two kinds of "diet advice" sit on either side of a clean line, and holding that line is the core skill
+here:
+
+Universal advice (in scope)
+: General guidance that is safe for almost anyone and that every clinician should give: My Healthy
+  Plate, "cut the sugary drinks", "more vegetables, less refined rice", the dietary-pattern message
+  [@hpbHealthyPlate].
+
+Medical nutrition therapy (MNT; refer)
+: An individualised, therapeutic nutrition plan for a medical condition, delivered by a registered
+  dietitian: a structured cycle of assessment, diagnosis, intervention and monitoring, evidence-based
+  and outcome-tracked [@ada2026standards].
+
+For type 2 diabetes, dietitian-delivered MNT is associated with reductions in HbA1c (a marker of
+average blood-glucose control) of roughly 0.3–2.0%, a guideline-reported range across trials of
+differing intensity, not a guaranteed effect [@ada2026standards].
 
 Conflating the two fails in both directions. Treat all advice as MNT and you freeze, too afraid to say
 anything safe; treat MNT as ordinary advice and you overstep into care you can't be accountable for.
 
-Run a few real patients through the line below. The same question ("should I advise, or refer?") lands
-very differently depending on complexity.
+Run a few patients through the line below. The same question ("should I advise, or refer?") lands
+differently depending on complexity.
 
 <div data-island="advise-refer" data-src="/diagrams/advise-refer.yml"></div>
 
-### Referral triggers
+### Referral triggers {#sec-referral-triggers}
 
-You don't have to judge each case from scratch, because a short checklist catches most of it. **Refer to a
-dietitian when** there is:
+A short checklist catches most referral needs, so each case need not be judged from scratch. Refer to a
+dietitian when there is:
 
-- a **complex or multiple condition**: type 2 diabetes, chronic kidney disease, cardiovascular
-  disease, GI disease (the conditions you'll meet in Part IV, the disease chapters that follow);
-- **unintended weight loss or malnutrition risk** (the screen covered later in *Undernutrition & Malnutrition*);
-- **obesity needing structured management**, or **pregnancy / paediatric** nutrition;
-- a **food allergy or intolerance**, or any **eating-disorder** concern;
-- or simply that the advice needed **exceeds general guidance**, or the patient **isn't progressing**.
+- a complex condition, or several at once, such as type 2 diabetes, chronic kidney disease or
+  cardiovascular disease (see the *Type 2 Diabetes*, *Chronic Kidney Disease* and
+  *Cardiovascular Disease & Hypertension* chapters), or gastrointestinal disease;
+- unintended weight loss or malnutrition risk (see the *Undernutrition & Malnutrition* chapter for
+  screening);
+- obesity needing structured management, or pregnancy or paediatric nutrition needs;
+- a food allergy or intolerance, or any eating-disorder concern;
+- advice needs that exceed general guidance, or a patient who is not progressing.
 
-These are *recognition* triggers, not treatment cues: your job is to spot them and hand over,
-not to work up the plan yourself.
+These are recognition triggers, not treatment cues: your job is to spot them and hand over, and the
+dietitian works up the plan.
 
-## Referring, and working as a team
+::: {.callout-tip collapse="true"}
+## Check yourself: a clinician knows the dietary science of diabetes and kidney disease well. Why should she still refer a patient with both to a dietitian?
+Scope of practice is set by role and accountability, so knowing the science is not a licence to
+deliver treatment. An individualised therapeutic plan for a medical condition is medical nutrition
+therapy, delivered by a registered dietitian, and a complex or multiple condition is a referral
+trigger. Writing that plan herself would overstep into care she cannot be accountable for.
+:::
 
-A hand-off is only as good as what you put in it, and it lands in a team that shares the care.
+::: {.callout-tip collapse="true"}
+## Check yourself: why does treating every piece of diet advice as medical nutrition therapy also fail patients?
+Universal advice, such as My Healthy Plate or cutting sugary drinks, is safe for almost anyone, and
+every clinician should give it. A clinician who treats all advice as therapy freezes and says nothing
+safe, so the patient loses help that was within scope. Conflating advice and therapy fails in both
+directions: overstepping on one side, silence on the other.
+:::
 
-### Writing a referral that helps
+## Referring, and working as a team {#sec-referral-team}
 
-A referral is only as useful as what you put in it, and a scarce resource is wasted by a vague one.
-"Please advise on diet" tells the dietitian nothing. A referral that *helps* carries:
+### Writing a referral that helps {#sec-referral-letter}
+
+A referral is only as useful as its contents, and a vague one wastes a scarce resource. "Please advise
+on diet" tells the dietitian nothing. A referral that helps carries:
 
 ::: {.callout-note}
 ## What a good dietitian referral contains
-- **Reason for referral** and its **urgency**.
-- **Relevant diagnoses** (and how recent).
-- **Current medications**.
-- **Key results**, e.g. HbA1c, lipids, renal function (eGFR).
-- **Weight / BMI and the recent trend** (gaining, stable, losing).
-- **The patient's goals and social context**: who cooks, whether they eat out, whether they live alone.
+- The reason for referral and its urgency.
+- Relevant diagnoses, and how recent they are.
+- Current medications.
+- Key results, such as HbA1c, lipids and renal function (estimated glomerular filtration rate, eGFR).
+- Weight or BMI, and the recent trend (gaining, stable, losing).
+- The patient's goals and social context: who cooks, whether they eat out, whether they live alone.
 :::
 
 Completeness is itself a clinical skill: it turns a hand-off into a head start.
 
-### Nutrition is a team sport
+### The nutrition care team {#sec-care-team}
 
-Nutrition rarely acts alone. Around any patient with a chronic condition sits a team, each with a
-distinct hand-off: the **family doctor** coordinates; the **registered dietitian** delivers MNT; the
-**nurse** monitors and educates; the **pharmacist** reviews medications; and **allied-health and
-community partners** extend care beyond the clinic. Team-based care is associated with better
-chronic-disease outcomes, since the whole is more than any one professional's slice [@aclm2022comp;
-@afn2021curriculum].
+Nutrition care for a patient with a chronic condition is shared by a team, each member with a distinct
+hand-off:
 
-That "more than one slice" cuts both ways, and it is a common trap to over-claim the nutrition part.
-The headline lifestyle results you may have met were **team-delivered and intensive**, not a clinic
-chat: DiRECT's diabetes remission ran on a structured total-diet-replacement programme in **selected**
-patients (early type 2 diabetes, not on insulin), and the DPP's prevention effect came from a
-**16-session** curriculum [@lean2018direct; @dpp2002]. As the *Evidence vs Hype* chapter argued, don't
-promise those outcomes from advice alone.
+- the family doctor coordinates;
+- the registered dietitian delivers MNT;
+- the nurse monitors and educates;
+- the pharmacist reviews medications;
+- allied-health and community partners extend care beyond the clinic.
 
-## The Singapore picture: Healthier SG
+Team-based care is associated with better chronic-disease outcomes, since the whole is more than any
+one professional's slice [@aclm2022comp; @afn2021curriculum].
 
-Singapore has built the scaffold that makes referral and follow-up actually happen. **Healthier SG**
-(national roll-out from 2023) gives every resident **one enrolled family doctor** who co-develops a
-personalised **Health Plan**, the natural place a nutrition concern is raised and referred
-[@mohHealthierSG]. It is deliberately **team-based and community-linked**: family doctors can make
-**social prescriptions** to community programmes (Health Promotion Board activities, Active Ageing
-Centres, SportSG), and a **tiered dietitian pathway** has clinicians give first-line dietary advice and
-**escalate complex cases to a registered dietitian** [@mohEatWiseSG], putting your "advise vs refer" line
-into the health system itself.
+That "more than one slice" cuts both ways: it is a common trap to over-claim the nutrition part of the
+team's results. The headline lifestyle results (see the *Type 2 Diabetes* chapter) came from team-delivered, intensive programmes, not a clinic chat: remission in the DiRECT trial (Diabetes Remission Clinical Trial) ran on a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program reached its prevention effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
 
-Funding follows the same logic. The **Healthier SG Chronic Tier** (from 2024) gives enrolled
-CHAS / Pioneer Generation / Merdeka Generation cardholders **means-tested subsidies of up to about
-87.5% on selected chronic medications** (with no dollar cap) plus **up to about \$360 a year** toward
-other care components such as consultations and tests, the mechanism that keeps chronic-disease
-follow-up affordable [@mohChronicTier]. One caveat to flag: these
-materials centre on **medications and care components**, and do **not** spell out a dedicated
-dietitian / MNT subsidy line. RD and allied-health access typically flows via polyclinic, specialist
-and cluster services, and the exact funding evolves. Teach the **pathway and the principle**, and
-check current figures before quoting them to a patient.
+Don't promise those outcomes from advice alone. The trial patients were selected, so check whether a
+result applies to the patient in front of you (see the *Evidence vs Hype* chapter). The dose was
+intensive, and a single clinic visit does not deliver it (see the *Behaviour-Change Counselling*
+chapter).
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a referral reads only "please advise on diet". Why does it waste a scarce resource?
+A referral is only as useful as its contents. Medical nutrition therapy is individualised, so the
+dietitian needs the reason and urgency, the diagnoses, medications, key results, the weight trend, and
+the patient's goals and social context; a vague note supplies none of them. A complete referral spends
+the dietitian's time well and turns the hand-off into a head start.
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient has read that a diet put diabetes into remission. Why can't a clinic conversation promise her the same result?
+The headline results came from team-delivered, intensive programmes. DiRECT's remission used a
+structured total-diet-replacement programme in selected patients with early type 2 diabetes not on
+insulin, and the Diabetes Prevention Program's effect came from a 16-session curriculum. Brief advice
+from one clinician is a different dose, often given to a different patient, so it cannot claim those
+outcomes.
+:::
+
+## The clinician's own health: physician, mind thyself {#sec-clinician-health}
+
+The last part of the role is the one clinicians skip: their own health. Clinicians who look after their
+own diet and activity are observed to counsel more often, and arguably more credibly. The evidence is
+associational, not proof of cause, but it is consistent [@lobelo2015rolemodel; @lianov2010].
+
+A clinician's own habits matter for more than role-modelling. Short sleep shifts the appetite hormones
+(see the *Appetite & Weight Regulation* chapter), raising ghrelin, blunting satiety and pushing intake
+up [@sleepRestriction]. The packed-roster diet of skipped meals, *kopi* and five hours' sleep therefore
+works against the clinician's own metabolic health. The remedy is a sustainable micro-plan rather than
+an overhaul: one realistic food swap, a sleep anchor (a fixed bedtime or wake time) and a short daily
+walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence, and guarding
+against burnout is a longitudinal skill to keep working at [@lianov2010].
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a junior doctor on a packed roster sleeps five hours a night and skips meals. Why does that matter for her own health, as well as for how she counsels?
+Short sleep shifts the appetite hormones: ghrelin rises, satiety is blunted and intake goes up, so
+skipped meals, *kopi* and short sleep work against her own metabolic health. Her habits also bear on
+her patients, because clinicians who look after their own diet and activity are observed to counsel
+more often, although that evidence is associational. The remedy is a sustainable micro-plan (one food
+swap, a sleep anchor, a short daily walk), not an overhaul.
+:::
+
+## The Singapore picture: Healthier SG {#sec-singapore}
+
+Singapore has built the scaffold that makes referral and follow-up happen. Healthier SG is the national shift toward proactive, relationship-based prevention in primary care (see the *Why Nutrition Matters* chapter). Since its national roll-out in 2023, Healthier SG has given each enrolled resident one family doctor, who
+co-develops with them a personalised **Health Plan**, the natural place to raise a nutrition concern
+and refer it [@mohHealthierSG].
+
+The model is team-based and community-linked. Family doctors can make **social prescriptions**
+(referrals to community programmes such as Health Promotion Board activities, Active Ageing Centres and
+SportSG), and a **tiered dietitian pathway** has clinicians give first-line dietary advice and escalate
+complex cases to a registered dietitian [@mohEatWiseSG]. The line between advising and referring is
+therefore built into the health system itself.
+
+Funding follows the same logic. The **Healthier SG Chronic Tier** (from 2024) is the subsidy framework
+that keeps chronic-disease follow-up affordable: enrolled holders of Community Health Assist Scheme
+(CHAS), Pioneer Generation and Merdeka Generation cards receive means-tested subsidies of up to about
+87.5% on selected chronic medications, with no dollar cap, plus up to about \$360 a year toward other
+care components such as consultations and tests [@mohChronicTier].
 
 ![Healthier SG puts an enrolled family doctor at the centre of a team-and-community model: a shared Health Plan, hand-offs to the dietitian, nurse and pharmacist, social prescribing to community partners, and Chronic Tier subsidies that keep follow-up affordable.](/figures/mechanisms/hsg-ecosystem.svg){#fig-hsg-ecosystem}
 
-## Physician, mind thyself
+The published Chronic Tier scheme centres on medications and care components and does not spell out a
+dedicated dietitian or MNT subsidy line. Dietitian and allied-health access typically flows through
+polyclinic, specialist and cluster services, and the exact funding evolves. Explain the referral pathway
+and the advise-or-refer principle to patients, and check current figures before quoting them.
 
-The last part of your scope is the one clinicians skip: yourself. Clinicians who look after their own
-diet and activity are observed to **counsel more often, and arguably more credibly**. The evidence is
-**associational**, not proof of cause, but it is consistent [@lobelo2015rolemodel; @lianov2010]. And
-your own habits are more than a role-model question. As the *Appetite & Weight Regulation* chapter set
-out, **short sleep shifts the appetite hormones**, raising ghrelin, blunting satiety and pushing
-intake up, so the packed-roster diet of skipped meals, *kopi* and five hours' sleep quietly works
-against your own metabolic health [@sleepRestriction]. The reply is a **sustainable
-micro-plan** rather than an overhaul: one realistic food swap, a **sleep anchor**, a short daily walk.
-Practitioner wellbeing is a professional and patient-safety issue, not an indulgence, and burnout is a
-**longitudinal skill** to keep working at, not a box to tick once [@lianov2010].
+## Where does a clinician's role end? {#sec-close}
 
-## Where does your role end?
+A clinician's role ends at the edge of what they can safely be accountable for, not at the edge of what
+they know. In nutrition care that edge is the line between universal advice and medical nutrition
+therapy, and where a patient falls depends on their complexity. A well adult asking how to eat more
+healthily, or whether to swap white rice for brown, sits well inside the role, because universal advice
+is every clinician's job. A patient with newly diagnosed type 2 diabetes, early kidney impairment and
+three medicines sits beyond it, because her plan has to be individualised medical nutrition therapy.
+Beyond the edge, the clinician still has a part: a complete referral, and safe universal advice while
+the patient waits.
 
-Not at the edge of what you know, but at the edge of what you can safely be **accountable** for. You
-**advise** within scope, you **recognise the triggers** and **refer**, writing a referral complete
-enough to be a head start rather than a shrug. You **work with the team** the system already gives you,
-and you **look after yourself** so you can keep doing it. Knowing your limits is not a weakness in a
-clinician; it is one of the clearest marks of a safe one. The capstone cases that follow ask you to
-carry a whole encounter live, with a simulated patient.
-
-## Check your understanding
+## Check your understanding {#sec-quiz}
 
 <div data-island="quiz" data-src="/quizzes/interprofessional-referral.quiz.yml"></div>
 
-## Practise: refer or advise? Write the referral
+## Practise: refer or advise? Write the referral {#sec-case}
 
 Mdm Tan, 58, is enrolled with her Healthier SG family doctor. She has newly diagnosed type 2 diabetes
-(HbA1c 9.1%), early kidney impairment (eGFR 52), takes metformin and two other agents, has a BMI of 29
-(obese on Asian cut-offs), eats mostly hawker food and lives alone. Decide what is in your scope, what
-crosses into a dietitian's, and, if you refer, what the referral must say. Your choices branch the case.
+with early kidney impairment and asks what she should eat now. Decide what is in your scope, what
+crosses into a dietitian's, and, if you refer, what the referral must say.
 
 ::: {.callout-tip}
-Progress is saved locally — replay to explore the other paths.
+Progress is saved locally; replay to explore the other paths.
 :::
 
 <div data-island="case" data-src="/cases/refer-or-advise.case.yml"></div>

@@ -2,11 +2,11 @@ id: dietary-guidelines-patterns
 title: "Quick check: guidelines & healthy patterns"
 questions:
   - id: q1
-    stem: "On My Healthy Plate (\"quarter, quarter, half\"), what fills the **half**?"
+    stem: "On My Healthy Plate (\"quarter, quarter, half\"), what fills the half?"
     options:
       - text: "Fruit and vegetables"
         correct: true
-        feedback: "Correct — ½ fruit & vegetables, ¼ wholegrains, ¼ protein. The vegetable half is the largest section, and the one most often missing from a real local dinner."
+        feedback: "½ fruit & vegetables, ¼ wholegrains, ¼ protein. The vegetable half is the largest section, and the one most often missing from a real local dinner."
       - text: "Wholegrains"
         correct: false
         feedback: "Wholegrains are a quarter, not the half."
@@ -15,79 +15,79 @@ questions:
         feedback: "Protein is a quarter; the half is fruit & vegetables."
 
   - id: q2
-    stem: "A patient asks which national dietary guideline is \"right\" — WHO, the American Heart Association, or the US guidelines. What is the best answer?"
+    stem: "A patient asks which dietary guideline is \"right\": WHO, the American Heart Association or the US guidelines. What is the best answer?"
     options:
       - text: "They broadly converge on the same core messages"
         correct: true
-        feedback: "Correct — the differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit & veg, wholegrains, legumes, and limits on sugar, salt and certain fats. Convergence is the reassuring point."
+        feedback: "The differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit and vegetables, wholegrains, legumes, and limits on sugar, salt and certain fats. That convergence is the reassuring answer."
       - text: "The US guidelines are the most scientific, so follow those"
         correct: false
-        feedback: "No guideline is the single authority — and they agree far more than they differ. The shared core is what matters, not picking one."
+        feedback: "Picking one guideline as the authority misses the point: they agree far more than they differ, and the shared core is what matters."
       - text: "They contradict each other, so guidelines aren't useful"
         correct: false
-        feedback: "The opposite — their striking feature is how *little* they disagree on the core messages."
+        feedback: "Their striking feature is how little they disagree on the core messages."
 
   - id: q3
-    stem: "Why do modern guidelines increasingly emphasise **dietary patterns** rather than single nutrients?"
+    stem: "Why do modern guidelines increasingly emphasise dietary patterns instead of single nutrients?"
     options:
       - text: "Because foods act in combination (\"food synergy\")"
         correct: true
-        feedback: "Correct — we eat food, not nutrients, so a whole pattern can predict health better than any nutrient in isolation. This is a *framework* for reading evidence, though, not a precise effect size to quote."
+        feedback: "People eat food, not nutrients, and foods act in combination, so a whole pattern can predict health better than any nutrient in isolation. Food synergy is a framework for reading evidence, though, not a precise effect size to quote."
       - text: "Because single nutrients have no effect on health"
         correct: false
-        feedback: "Overstated — individual nutrients matter, but their effects are best understood within the whole pattern of food they arrive in."
+        feedback: "Individual nutrients do matter, but their effects are best understood within the whole pattern of food they arrive in."
       - text: "Because patterns are easier to sell to the public"
         correct: false
-        feedback: "The reason is scientific (food synergy), not marketing — though patterns do communicate well."
+        feedback: "The reason is scientific (food synergy), although patterns do also communicate well."
 
   - id: q4
-    stem: "A relative says: *\"PREDIMED proves the Mediterranean diet prevents heart attacks — guaranteed.\"* What is the single most important correction?"
+    stem: "A relative says: *\"PREDIMED proves the Mediterranean diet prevents heart attacks, guaranteed.\"* What is the most important caveat?"
     options:
-      - text: "It was a relative effect on a composite endpoint, so it can't promise any individual outcome"
+      - text: "It was a relative effect on a composite endpoint"
         correct: true
-        feedback: "Correct — benefit *with* caveats. The ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiac death weren't individually significant), and the trial was retracted and re-published. A strong pattern, but not a personal guarantee."
+        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot promise any individual outcome: a strong pattern, not a personal guarantee."
       - text: "PREDIMED found no benefit at all"
         correct: false
-        feedback: "It did find a benefit on the composite endpoint — the issue is how to state it accurately, not to deny it."
-      - text: "Nothing — the diet is guaranteed to prevent his heart attack"
+        feedback: "A benefit was found on the composite endpoint; the task is to state it accurately, not to deny it."
+      - text: "Nothing: whoever follows the diet is guaranteed no heart attack"
         correct: false
-        feedback: "This conflates relative with absolute risk and a composite with a hard endpoint — exactly the overclaim to avoid."
+        feedback: "This conflates relative with absolute risk, and a composite with a hard endpoint, which is the overclaim to avoid."
 
   - id: q5
     stem: "The DASH trial lowered blood pressure by about 5.5/3.0 mmHg. Which caveat matters most when citing it?"
     options:
-      - text: "Blood pressure is a surrogate endpoint, measured over only ~8 weeks"
+      - text: "Blood pressure is a surrogate, measured over only ~8 weeks"
         correct: true
-        feedback: "Correct — weight and sodium were held constant, so the fall came from the pattern itself (not weight loss or salt cutting), but BP is a surrogate and the trial was short. It shows a pattern moves a risk factor, not that it prevents events — a clean mechanism demonstration, not proof of long-term event reduction."
+        feedback: "Weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. But blood pressure is a surrogate and the trial was short: it shows that a pattern moves a risk factor, not that it prevents events."
       - text: "DASH is simply a low-salt diet"
         correct: false
-        feedback: "A common myth — sodium was held *constant* in the trial, so the effect came from the whole pattern. Cutting salt on top adds further benefit."
+        feedback: "Sodium was held constant in the trial, so the effect came from the whole pattern. Cutting salt on top of DASH lowers blood pressure further."
       - text: "The blood-pressure fall was too small to matter"
         correct: false
-        feedback: "A 5.5/3.0 mmHg fall (and ~11.4/5.5 in hypertensives) is clinically meaningful — the caveat is about surrogate endpoints and duration, not size."
+        feedback: "A 5.5/3.0 mmHg fall (and ~11.4/5.5 mmHg in participants with hypertension) is clinically meaningful; the caveat concerns the surrogate endpoint and the duration, not the size."
 
   - id: q6
-    stem: "A vegetarian Indian family is told their diet lacks protein because they eat no meat. Using My Healthy Plate, what's the right response?"
+    stem: "A vegetarian Indian family is told their diet lacks protein because they eat no meat. Using My Healthy Plate, what is the right response?"
     options:
       - text: "Dhal and other legumes fill the protein quarter"
         correct: true
-        feedback: "Correct — vegetarian does not mean protein-free. Build the plate around legumes plus a wholemeal chapati and a generous vegetable half. Adapt the plate to the cuisine: the fix is to rebuild their own food to QQH, not to prescribe a foreign diet."
-      - text: "They should switch to a Mediterranean diet to get enough protein"
+        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the fix is to rebuild the family's own food to QQH, not to prescribe a foreign diet."
+      - text: "Switch them to a Mediterranean diet for protein"
         correct: false
-        feedback: "Imposing an unfamiliar pattern misses the point — and their own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."
-      - text: "They must start eating meat"
+        feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."
+      - text: "Meat is needed for enough protein"
         correct: false
-        feedback: "Unnecessary — legumes, dairy and soy cover the protein quarter well within a vegetarian diet."
+        feedback: "Legumes, dairy and soy cover the protein quarter well within a vegetarian diet, so meat is unnecessary."
 
   - id: q7
     stem: "Singapore's National Nutrition Survey points to two of the biggest real gaps in the local diet. Which pair?"
     options:
       - text: "Too few wholegrains and too much sodium"
         correct: true
-        feedback: "Correct — wholegrains are only ~4% of staples and most residents exceed the sodium limit, which is why the brown-rice swap and cutting salt/sugary drinks are the two highest-yield moves, not small print."
+        feedback: "Wholegrains are only ~4% of staples and most residents exceed the sodium limit, which makes the brown-rice swap and cutting salt and sugary drinks the two highest-yield moves."
       - text: "Too little protein and too little fat"
         correct: false
-        feedback: "Neither is the main local gap — the survey highlights the wholegrain shortfall and excess sodium."
+        feedback: "Neither is a main local gap; the survey points to the wholegrain shortfall and excess sodium."
       - text: "Too few supplements and superfoods"
         correct: false
         feedback: "The gap is in everyday staples (wholegrains) and sodium, not in supplements or novelty foods."

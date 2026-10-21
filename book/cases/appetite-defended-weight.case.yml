@@ -23,10 +23,10 @@ nodes:
     type: info
     title: "\"I just don't have the willpower\""
     body: |
-      Mr Chua, 46, lost **12 kg** last year on a strict diet and felt great. Over the following
-      year he regained **9 kg** — despite, he says, *"eating less than before."* He's convinced
-      it's a personal failure of willpower and is close to giving up. Before you say anything about
-      diet, it's worth naming what his body has been doing.
+      Mr Chua, 46, lost 12 kg last year on a strict diet and felt great. Over the following
+      year he regained 9 kg, despite, he says, *"eating less than before"*. He's convinced
+      it's a personal failure of willpower and is close to giving up. Before any advice about
+      diet, name what his body has been doing.
     next: q-why
 
   - id: q-why
@@ -34,20 +34,20 @@ nodes:
     stem: "What is the best explanation for his regain?"
     options:
       - id: a
-        text: "His body defended its previous weight, pushing to regain the lost fat."
+        text: "His body defended its weight and pushed to regain the fat."
         correct: true
-        feedback: "Correct. Body weight is actively defended, and the defence fights weight loss hard. Regain is the predicted output of a regulated system — biology reasserting itself, not a moral failing."
+        feedback: "Body weight is actively defended, and the defence fights weight loss hard. Regain is the predicted output of a regulated system: biology reasserting itself, not a moral failing."
         effects: { quality: +1 }
         goto: q-arms
       - id: b
         text: "He simply lacks the discipline to maintain the diet."
         correct: false
-        feedback: "This is the stigmatising myth the chapter dismantles. His body mounted a coordinated biological response to the weight loss — discipline is fighting physiology."
+        feedback: "Blaming discipline misses what happened: his body mounted a coordinated biological response to the weight loss, and discipline alone is fighting physiology."
         goto: q-arms
       - id: c
         text: "The weight he lost was only water, so it came back on its own."
         correct: false
-        feedback: "No — real fat was lost. The regain is driven by a defended system, not by water shifts."
+        feedback: "Real fat was lost. The regain is driven by a defended system, not by water shifts."
         goto: q-arms
 
   - id: q-arms
@@ -55,20 +55,20 @@ nodes:
     stem: "Which set of changes drives the regain after weight loss?"
     options:
       - id: a
-        text: "Leptin falls, hunger hormones rise, and energy expenditure drops (adaptive thermogenesis)."
+        text: "Leptin falls, hunger hormones rise and energy expenditure drops."
         correct: true
-        feedback: "Exactly — three coordinated arms, all pushing to reclaim the lost fat. Falling leptin makes the brain read 'starving', hunger-hormone shifts persist for a year or more, and expenditure drops more than the smaller body predicts."
+        feedback: "Three coordinated arms push to reclaim the lost fat: falling leptin makes the brain read 'starving', hunger-hormone shifts persist for a year or more, and expenditure drops more than the smaller body predicts (adaptive thermogenesis)."
         effects: { quality: +1 }
         goto: q-damaged
       - id: b
-        text: "Leptin rises and appetite is suppressed, so regain must be purely from overeating."
+        text: "Leptin rises and suppresses appetite, so regain is simply overeating."
         correct: false
-        feedback: "Reversed — leptin FALLS after weight loss (less fat), which the brain reads as starvation and which drives hunger up, not down."
+        feedback: "After weight loss leptin falls (there is less fat), and the brain reads the fall as starvation, which drives hunger up, not down."
         goto: q-damaged
       - id: c
         text: "Nothing measurable changes; the body treats all weights the same."
         correct: false
-        feedback: "No — leptin, hunger hormones and energy expenditure all shift together after weight loss to defend the prior weight."
+        feedback: "Leptin, hunger hormones and energy expenditure all shift together after weight loss to defend the prior weight."
         goto: q-damaged
 
   - id: q-damaged
@@ -76,20 +76,20 @@ nodes:
     stem: "Mr Chua asks, \"So dieting permanently wrecked my metabolism?\" Your best answer?"
     options:
       - id: a
-        text: "No — metabolic adaptation is real but modest and largely reversible."
+        text: "No, it slows only a little, and mostly recovers."
         correct: true
-        feedback: "Right — the accurate, hype-aware answer. It makes maintenance harder, but it doesn't make weight loss impossible or your metabolism 'broken'. The dramatic 'permanent damage' story comes from an extreme outlier study and is better explained by sustained activity, not damage."
+        feedback: "Metabolic adaptation is real but modest and largely reversible. It makes maintenance harder, but it does not make weight loss impossible or his metabolism 'broken'. The 'permanent damage' story comes from an extreme outlier study and is better explained by sustained activity than by damage."
         effects: { quality: +1 }
         goto: q-say
       - id: b
-        text: "Yes — your metabolism is permanently lowered by hundreds of calories, so weight loss is now impossible."
+        text: "Yes, it is permanently lower, so losing weight is now impossible."
         correct: false
-        feedback: "Overstated and demoralising. Adaptation is modest and largely reversible in ordinary dieters; the huge figure comes from an extreme outlier (the Biggest Loser)."
+        feedback: "This overstates the effect and would demoralise him. Adaptation is modest and largely reversible in ordinary dieters; the large, lasting drop behind that claim comes from an extreme outlier (the Biggest Loser study)."
         goto: q-say
       - id: c
-        text: "There's no such thing as metabolic adaptation."
+        text: "No, metabolism never adapts to weight loss at all."
         correct: false
-        feedback: "Not quite — adaptive thermogenesis is real (expenditure does drop more than body size predicts). The key is that it's modest and reversible, not permanent damage."
+        feedback: "Adaptive thermogenesis is real: expenditure does drop more than body size predicts. It is modest and largely reversible, not permanent damage."
         goto: q-say
 
   - id: q-say
@@ -97,20 +97,20 @@ nodes:
     stem: "How should you frame this for Mr Chua?"
     options:
       - id: a
-        text: "Reassure him the regain reflects biology, not weakness, and shift the focus to environment and habits."
+        text: "Explain the regain as biology, not weakness; change environment and habits."
         correct: true
-        feedback: "Right — non-stigmatising, practical, and grounded. Shift from willpower to the environment and habits (protein, fibre, sleep, portion defaults), and note that for a strongly defended weight, specialist help or medication is legitimate — not a moral failing. This is where good weight medicine starts."
+        feedback: "Moving from willpower to the environment and habits (protein, fibre, sleep, portion defaults) is practical and avoids blame. For a strongly defended weight, specialist help or medication is legitimate, not a moral failing."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Tell him he just needs to try harder and show more willpower next time."
         correct: false
-        feedback: "This ignores the physiology and reinforces the stigma. Willpower alone is fighting a defended system."
+        feedback: "Urging more willpower ignores the physiology and reinforces the stigma; willpower alone is fighting a defended system."
         goto: route
       - id: c
         text: "Tell him weight is entirely genetic and nothing he does will matter."
         correct: false
-        feedback: "Too fatalistic — the environment and habits genuinely matter, and defended weight can be worked with (and, for some, medically supported). Don't swap one unhelpful message for another."
+        feedback: "Genetic fatalism swaps one unhelpful message for another: the environment and habits do matter, and a defended weight can be worked with and, for some, medically supported."
         goto: route
 
   - id: route
@@ -124,12 +124,12 @@ nodes:
     type: info
     title: "The defended-weight message"
     body: |
-      The core idea: body weight is **biologically defended**, and the defence fights weight *loss*
-      hard. After Mr Chua lost fat, **leptin fell** (the brain read starvation), **hunger hormones
-      rose** and stayed raised for a year, and **energy expenditure dropped** more than his smaller
-      body predicted. Regain is the *predicted output* of that system — not a willpower failure. And
-      his metabolism isn't "permanently wrecked": adaptation is real but modest and largely
-      reversible. The useful move is to change the **environment and habits**, without blame.
+      The core idea: body weight is **biologically defended**, and the defence fights weight loss
+      hard. After Mr Chua lost fat, leptin fell (the brain read starvation), hunger hormones rose
+      and stayed raised for a year, and energy expenditure dropped more than his smaller body
+      predicted. Regain is the predicted output of that system, not a willpower failure. His
+      metabolism is not "permanently wrecked" either: adaptation is real but modest and largely
+      reversible. The useful move is to change the environment and habits, without blame.
     next: end-partial
 
   - id: end-good
@@ -137,26 +137,25 @@ nodes:
     outcome: success
     title: "Biology, not blame"
     body: |
-      You reframed Mr Chua's regain as a **defended system** doing exactly what it evolved to do —
-      falling leptin, rising hunger hormones, and adaptive thermogenesis all pushing to reclaim lost
-      fat — rather than a personal failure. You answered the "damaged metabolism" question accurately
-      (real but modest and reversible), and shifted the plan from willpower to environment, habits,
-      and, where the biology is strongly defended, legitimate medical support. That understanding is
-      where non-stigmatising weight care begins.
+      You reframed Mr Chua's regain as a defended system doing what it evolved to do (falling
+      leptin, rising hunger hormones and adaptive thermogenesis, all pushing to reclaim lost fat)
+      instead of a personal failure. You answered the "damaged metabolism" question accurately
+      (real but modest and largely reversible), and shifted the plan from willpower to
+      environment, habits and, where the biology is strongly defended, legitimate medical support.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Weight regain is the predicted output of a biologically defended system, not a willpower failure."
-        - "Three arms drive it: leptin falls, hunger hormones rise (for a year+), and energy expenditure drops (adaptive thermogenesis)."
-        - "Metabolic adaptation is real but modest and reversible — reframe from blame to environment, habits, and (where needed) medical support."
+        - "Three arms drive it: leptin falls, hunger hormones rise (for a year or more), and energy expenditure drops (adaptive thermogenesis)."
+        - "Metabolic adaptation is real but modest and largely reversible: reframe from blame to environment, habits and, where needed, medical support."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Nearly there"
     body: |
-      You worked through it, but the framing slipped. The take-home: Mr Chua's regain is **biology,
-      not weakness** — a defended system (leptin down, hunger hormones up, expenditure down) pushing
+      You worked through it, but the framing slipped. The take-home: Mr Chua's regain is biology,
+      not weakness: a defended system (leptin down, hunger hormones up, expenditure down) pushing
       to reclaim lost fat. His metabolism isn't permanently damaged. Replay and focus on explaining
       it without blame.
     debrief:
@@ -164,4 +163,4 @@ nodes:
       keyPoints:
         - "Regain reflects a defended system, not a lack of willpower."
         - "Name the three arms: leptin down, hunger hormones up, adaptive thermogenesis."
-        - "Metabolic adaptation is modest and reversible — reframe from blame to environment and habits."
+        - "Metabolic adaptation is modest and largely reversible: reframe from blame to environment and habits."

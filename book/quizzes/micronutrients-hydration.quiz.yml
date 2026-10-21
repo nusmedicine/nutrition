@@ -6,153 +6,153 @@ questions:
     options:
       - text: "Because they are stored in the body"
         correct: true
-        feedback: "Correct — fat-soluble vitamins are stored rather than readily excreted, so they accumulate and megadoses can reach toxic levels; water-soluble excess is largely excreted."
+        feedback: "Fat-soluble vitamins are stored in fat and the liver rather than readily excreted, so megadoses accumulate and can reach toxic levels. Excess water-soluble vitamins are largely excreted."
       - text: "Because they contain more energy"
         correct: false
-        feedback: "Vitamins supply negligible energy; storage, not energy content, explains the toxicity risk."
+        feedback: "Vitamins supply almost no energy, so energy content cannot explain toxicity. Storage does: what is stored can accumulate."
       - text: "Because the body cannot absorb them at all"
         correct: false
-        feedback: "They are absorbed (with dietary fat) and then stored — which is exactly why excess can accumulate."
+        feedback: "Absorption is not the problem: fat-soluble vitamins are absorbed with dietary fat and then stored, which is why excess can accumulate."
 
   - id: q2
     stem: "A man with chronic heavy alcohol use arrives confused, with an unsteady gait and abnormal eye movements. Which vitamin deficiency must be treated urgently?"
     options:
       - text: "Thiamine (vitamin B1)"
         correct: true
-        feedback: "Correct — this is Wernicke's encephalopathy (confusion + ataxia + eye-movement problems); thiamine is given urgently in at-risk drinkers to prevent permanent damage."
+        feedback: "This is Wernicke's encephalopathy: confusion, unsteadiness and abnormal eye movements in a heavy drinker. Thiamine is given urgently to at-risk drinkers to prevent permanent damage."
       - text: "Vitamin C"
         correct: false
-        feedback: "Vitamin C deficiency causes scurvy (bleeding gums, poor healing), not this acute neurological triad."
+        feedback: "Scurvy, from vitamin C deficiency, causes bleeding gums and poor healing, not an acute neurological picture like this one."
       - text: "Vitamin D"
         correct: false
-        feedback: "Vitamin D deficiency affects bone (rickets/osteomalacia), not this acute confusional state."
+        feedback: "Vitamin D deficiency affects bone (rickets in children, osteomalacia in adults) and does not explain this acute confusion."
 
   - id: q3
-    stem: "Why is folic acid recommended *before* conception rather than once pregnancy is confirmed?"
+    stem: "Why is folic acid recommended before conception rather than once pregnancy is confirmed?"
     options:
       - text: "The neural tube closes very early in pregnancy"
         correct: true
-        feedback: "Correct — the neural tube closes about four weeks after conception, often before pregnancy is known, so by the time a test is positive it is usually too late to prevent defects such as spina bifida; folate must be adequate periconceptionally."
+        feedback: "The neural tube closes about four weeks after conception, often before a woman knows she is pregnant. By the time a test is positive it is usually too late to prevent defects such as spina bifida, so folate must already be adequate."
       - text: "Folic acid is destroyed by pregnancy hormones"
         correct: false
-        feedback: "No — the reason is timing: the neural tube has usually already closed by the time pregnancy is confirmed."
+        feedback: "Pregnancy hormones do not destroy folic acid. The reason is timing: the neural tube has usually closed by the time pregnancy is confirmed."
       - text: "Folate only works if taken together with iron"
         correct: false
-        feedback: "No — the periconceptional timing is the key point, independent of iron."
+        feedback: "Folate does not need iron to work. The advice is about timing: folate must be adequate before the neural tube closes, whatever the iron intake."
 
   - id: q4
     stem: "An older adult living alone, eating mostly 'tea and toast', has bleeding, spongy gums, easy bruising and slow-healing wounds. Which deficiency fits best?"
     options:
-      - text: "Vitamin C (scurvy)"
+      - text: "Vitamin C"
         correct: true
-        feedback: "Correct — vitamin C is needed to build collagen, so deficiency shows as bleeding gums, easy bruising and poor wound healing; the restricted diet is the clue."
+        feedback: "Vitamin C is needed to build collagen, so its deficiency, scurvy, shows as bleeding gums, easy bruising and poor wound healing. The restricted 'tea and toast' diet is the clue."
       - text: "Vitamin K"
         correct: false
-        feedback: "Vitamin K deficiency also causes bleeding, but not the spongy-gums-plus-poor-healing (collagen) picture; the tea-and-toast diet points to vitamin C."
+        feedback: "Bleeding also occurs in vitamin K deficiency, because clotting fails, but spongy gums and poor healing point to a collagen problem, and so to vitamin C."
       - text: "Vitamin A"
         correct: false
-        feedback: "Vitamin A deficiency causes night blindness and dry eyes, not this bleeding-gums picture."
+        feedback: "Night blindness and dry eyes are the signs of vitamin A deficiency; it does not cause bleeding gums."
 
   - id: q5
     stem: "Which group is at notably higher risk of vitamin B12 deficiency?"
     options:
-      - text: "People on long-term metformin, strict vegans, and older adults"
+      - text: "Vegans, older adults and long-term metformin users"
         correct: true
-        feedback: "Correct — all three are recognised at-risk groups. Note also that giving folate alone can mask the anaemia while B12 nerve damage silently progresses."
+        feedback: "B12 is essentially absent from plant foods, which puts vegans at risk; older adults and people on long-term metformin are the other recognised at-risk groups. Giving folate alone can correct the anaemia while B12 nerve damage continues."
       - text: "Young men who eat plenty of red meat"
         correct: false
-        feedback: "Regular animal-product intake makes B12 deficiency unlikely in this group."
+        feedback: "Animal foods supply B12, so regular red-meat intake makes deficiency unlikely in this group."
       - text: "People who spend a lot of time outdoors"
         correct: false
-        feedback: "Sun exposure relates to vitamin D, not B12."
+        feedback: "Sun exposure matters for vitamin D, which skin makes using UVB light; it has no bearing on B12."
 
   - id: q6
     stem: "A vegetarian patient wants to absorb more iron from a lentil (dhal) meal. What is the best advice?"
     options:
-      - text: "Add a vitamin-C-rich food, and keep tea/coffee for between meals"
+      - text: "Add a vitamin C-rich food; have tea or coffee between meals"
         correct: true
-        feedback: "Correct — vitamin C boosts absorption of plant (non-haem) iron, while the tannins in tea and coffee taken with a meal cut it substantially."
+        feedback: "Vitamin C increases the absorption of non-haem (plant) iron, while the tannins in tea and coffee taken with a meal cut it substantially."
       - text: "Drink a cup of strong tea with the meal to aid digestion"
         correct: false
-        feedback: "The opposite — tannins in tea markedly reduce non-haem iron absorption; keep tea between meals."
+        feedback: "Tea does not aid iron absorption: its tannins markedly reduce non-haem iron absorption, so tea is better taken between meals."
       - text: "Take a calcium supplement with the meal"
         correct: false
-        feedback: "Calcium can inhibit iron absorption in the same meal — it won't help and may hinder."
+        feedback: "Calcium taken in the same meal can reduce non-haem iron absorption, so a supplement with the meal will not help and may hinder."
 
   - id: q7
     stem: "A 24-year-old woman is tired, pale, and breathless climbing stairs, with heavy periods. Which deficiency fits best?"
     options:
       - text: "Iron-deficiency anaemia"
         correct: true
-        feedback: "Correct — the classic pattern in a menstruating woman; heavy menstrual bleeding is a leading cause."
+        feedback: "Fatigue, pallor and breathlessness in a woman with heavy periods is the classic pattern; heavy menstrual bleeding is a leading cause of iron deficiency."
       - text: "Vitamin D deficiency"
         correct: false
-        feedback: "Vitamin D deficiency doesn't classically cause this pallor-plus-breathlessness picture."
-      - text: "Vitamin B12 from long-term metformin"
+        feedback: "Vitamin D deficiency affects bone and does not classically cause pallor and breathlessness."
+      - text: "B12 deficiency from long-term metformin"
         correct: false
-        feedback: "B12 deficiency is a real cause of anaemia, but the heavy-periods history points to iron first; she isn't described as on metformin."
+        feedback: "B12 deficiency can cause anaemia, but she is not described as taking metformin, and the heavy periods point to iron loss first."
 
   - id: q8
-    stem: "Which of these is a *poor* source of absorbable calcium, despite being 'high in calcium'?"
+    stem: "Which of these is a poor source of absorbable calcium, despite being 'high in calcium'?"
     options:
       - text: "Spinach"
         correct: true
-        feedback: "Correct — spinach's oxalate binds its calcium, so little is absorbed. Low-oxalate greens (kai-lan, bok choy) and calcium-set tofu are far better non-dairy sources."
+        feedback: "Spinach's oxalate binds its calcium, so little is absorbed. Low-oxalate greens (kai-lan, bok choy) and calcium-set tofu are far better non-dairy sources."
       - text: "Calcium-set tofu"
         correct: false
-        feedback: "Actually a good source — tofu set with a calcium coagulant is absorbed about as well as milk."
+        feedback: "Tofu set with a calcium coagulant is a good source, absorbed about as well as milk."
       - text: "Kai-lan (Chinese broccoli)"
         correct: false
-        feedback: "A good source — low-oxalate greens provide well-absorbed calcium."
+        feedback: "Kai-lan is low in oxalate, so its calcium is well absorbed."
 
   - id: q9
     stem: "A health-conscious family switches entirely from iodised table salt to 'natural' sea salt and pink Himalayan salt. What is the hidden nutritional risk?"
     options:
       - text: "Most gourmet salts aren't iodised, risking iodine deficiency"
         correct: true
-        feedback: "Correct — iodised salt is a key iodine source, so switching away risks deficiency; iodine builds thyroid hormone and is vital for foetal brain development, making this riskiest in pregnancy."
+        feedback: "Iodised salt is an important iodine source, so switching to non-iodised salt risks deficiency. Iodine builds thyroid hormone, which drives foetal brain development, so the risk is greatest in pregnancy."
       - text: "Sea salt contains dangerously high levels of iodine"
         correct: false
-        feedback: "The opposite — most sea and gourmet salts contain little or no iodine."
+        feedback: "Most sea and gourmet salts contain little or no iodine, so the risk is too little iodine, not too much."
       - text: "Gourmet salts have far more sodium, raising blood pressure"
         correct: false
-        feedback: "Sodium content is essentially the same; the real difference is the missing iodine."
+        feedback: "All these salts carry essentially the same sodium; the difference that matters is the missing iodine."
 
   - id: q10
     stem: "For blood pressure, how do sodium and potassium act?"
     options:
-      - text: "High sodium raises BP; adequate potassium helps lower it"
+      - text: "High sodium raises it; adequate potassium helps lower it"
         correct: true
-        feedback: "Correct — they pull in opposite directions; WHO targets <2,000 mg sodium and ≥3,510 mg potassium per day."
+        feedback: "Sodium and potassium pull in opposite directions, which is why the WHO sets a ceiling for sodium (less than 2,000 mg a day) and a floor for potassium (at least 3,510 mg a day)."
       - text: "Both raise blood pressure equally"
         correct: false
-        feedback: "Potassium tends to *lower* blood pressure — the opposite of sodium."
+        feedback: "Potassium tends to lower blood pressure, the opposite of sodium, so the two do not act equally."
       - text: "Neither has any effect on blood pressure"
         correct: false
-        feedback: "Both matter; the sodium–potassium balance is central to blood-pressure risk."
+        feedback: "Both affect blood pressure: too much sodium and too little potassium raise it, along with cardiovascular risk."
 
   - id: q11
     stem: "In the National Nutrition Survey 2022, where does most of Singaporeans' dietary sodium come from?"
     options:
       - text: "Sauces, broths and food eaten out"
         correct: true
-        feedback: "Correct — most sodium is already *in* prepared and hawker foods rather than the table salt-shaker, which is why population strategies target the food supply."
-      - text: "Mostly salt added at the dining table"
+        feedback: "Most sodium is already in prepared and hawker foods, not added from the salt shaker at the table, which is why population strategies target the food supply."
+      - text: "Salt added at the dining table"
         correct: false
-        feedback: "A common misconception — the bulk is in cooking sauces, broths and eating out."
-      - text: "Mostly from fresh fruit"
+        feedback: "Table salt is the visible source, but the bulk of sodium is in cooking sauces, broths and food eaten out."
+      - text: "Fresh fruit and vegetables"
         correct: false
-        feedback: "Fruit is low in sodium and a good potassium source."
+        feedback: "Fresh fruit and vegetables are low in sodium and are good sources of potassium."
 
   - id: q12
     stem: "How should the SSaSS salt-substitute trial be summarised to a patient with kidney disease?"
     options:
       - text: "Potassium-based salt substitutes may be unsafe for them"
         correct: true
-        feedback: "Correct — this is not blanket advice: SSaSS benefit was in a specific high-risk group, much of the BP effect came from added potassium, and substitutes carry a hyperkalaemia risk in CKD or on certain BP drugs."
+        feedback: "SSaSS showed benefit in a specific high-risk group, and much of the blood-pressure effect came from the added potassium. Potassium-based substitutes carry a risk of hyperkalaemia (raised blood potassium) in kidney disease or with certain blood-pressure medications."
       - text: "Everyone should switch to a potassium salt substitute immediately"
         correct: false
-        feedback: "Unsafe to generalise — hyperkalaemia risk makes substitutes inappropriate in kidney disease and on some medications."
+        feedback: "The trial result does not generalise to everyone: the hyperkalaemia risk makes potassium-based substitutes inappropriate in kidney disease and with some medications."
       - text: "The trial proves salt has no effect on health"
         correct: false
-        feedback: "It showed real benefit; the nuance is about *who* it applies to and *which* electrolyte drove it."
+        feedback: "SSaSS showed real benefit: the substitute cut stroke, cardiovascular events and death. The caveats concern who the result applies to and which electrolyte drove it."

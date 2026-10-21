@@ -1,11 +1,11 @@
 id: rahmat-shift-runner
 title: "Rahmat, 34: the shift-working weekend runner"
 objectives:
-  - "Right-size exercise fuelling for a recreational adult (ordinary food + water, not carb-loading or shakes) — inoculate against over-fuelling."
+  - "Right-size exercise fuelling for a recreational adult: ordinary food and water, not carb-loading or shakes."
   - "Give a calibrated protein message (~1.2–1.6 g/kg from food; safe for healthy kidneys, the exception is kidney disease)."
-  - "Give evidence-based shift-work advice — weight meals toward the daytime."
+  - "Give evidence-based shift-work advice: weight meals toward the daytime."
   - "Address weight creep with small, sustainable habits, not crash dieting."
-  - "Deliver the modern alcohol message and act on the ALDH2 flush — ask, advise, screen, refer; never 'drink for your heart'."
+  - "Deliver the current alcohol message and act on the ALDH2 flush (ask, advise, screen, refer); never advise drinking for the heart."
 difficulty: intro
 estimatedMinutes: 12
 tags: [nutrition, adulthood, sports-nutrition, shift-work, alcohol, do-no-harm, singapore]
@@ -29,8 +29,8 @@ nodes:
       Rahmat is 34, a rotating-shift ICU nurse who runs 10–15 km most weekends. He has a list of questions:
       should he carb-load and take protein shakes, how to eat on night shifts, and what to do about ~4 kg of
       weight creep over three years. In passing he mentions he "goes red" after one beer but drinks most
-      evenings after work. Notice how much of the advice he *expects* he doesn't actually need — and where
-      the one real red flag is hiding.
+      evenings after work. Notice how much of the advice he *expects* he does not need, and where the one
+      real red flag is hiding.
     next: q-fuel
 
   - id: q-fuel
@@ -39,44 +39,44 @@ nodes:
     stem: "*\"For my weekend runs, should I carb-load the night before and use a sports drink during?\"*"
     options:
       - id: a
-        text: "\"For a run of that length you really just need normal meals and water — carb-loading and sports drinks are for much longer events.\""
+        text: "\"Normal meals and water cover that distance; carb-loading and sports drinks are for much longer events.\""
         correct: true
-        feedback: "Right — the inoculation against over-fuelling. A ~1-hour recreational run is covered by ordinary food and water; the athlete guidance is calibrated for hours of endurance training, not this."
+        feedback: "A ~1-hour recreational run is covered by ordinary food and water; the athlete guidance is calibrated for hours of endurance training."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-protein
       - id: b
-        text: "\"Yes — carb-load with 8–10 g/kg the day before and take a sports drink every session to be safe.\""
+        text: "\"Yes, carb-load with 8–10 g/kg the day before and take a sports drink every session to be safe.\""
         correct: false
-        feedback: "That's athlete guidance mis-applied. Carb-loading and during-exercise sports drinks are for long endurance efforts; for a weekend run they're unnecessary calories. Normal food and water suffice."
+        feedback: "Carb-loading and during-exercise sports drinks are athlete guidance for long endurance efforts; for a weekend run they add energy he does not need. Normal food and water suffice."
         goto: q-protein
       - id: c
         text: "\"Definitely use gels and a recovery shake after every run, or the training is wasted.\""
         correct: false
-        feedback: "Not needed at this level. Gels and recovery shakes are for high endurance volume or twice-daily training — for a weekend runner, ordinary meals do the job."
+        feedback: "Gels and recovery shakes are for high endurance volume or twice-daily training; for a weekend runner, ordinary meals do the job."
         goto: q-protein
 
   - id: q-protein
     type: mcq
     emotion: neutral
-    stem: "*\"How much protein should I get — and will lots of protein wreck my kidneys? Someone said 3 grams per kilo.\"*"
+    stem: "*\"How much protein should I get, and will lots of protein wreck my kidneys? Someone said 3 grams per kilo.\"*"
     options:
       - id: a
-        text: "\"About 1.2–1.6 g per kilo a day from food is plenty, and with your normal kidneys that's safe.\""
+        text: "\"About 1.2–1.6 g per kilo a day from food is plenty, and safe for normal kidneys.\""
         correct: true
-        feedback: "Correct on both counts. The benefit plateaus near 1.6 g/kg — so 3 g/kg is pointless and builds no extra muscle — and it comes from ordinary food. Higher protein is safe for healthy kidneys; the exception is established kidney disease, which is where that worry really belongs."
+        feedback: "Benefit plateaus near 1.6 g/kg, so 3 g/kg builds no extra muscle, and the range comes easily from ordinary food. Higher protein is safe for healthy kidneys; the worry belongs to established kidney disease."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-shift
       - id: b
-        text: "\"Yes, aim for 3 g/kg with shakes — more protein always means more muscle.\""
+        text: "\"Yes, aim for 3 g/kg with shakes, since more protein always means more muscle.\""
         correct: false
-        feedback: "Benefit plateaus around 1.6 g/kg; 3 g/kg builds no extra muscle. And it needs the resistance-training stimulus — protein alone does little."
+        feedback: "At 3 g/kg there is no extra muscle, because benefit plateaus around 1.6 g/kg. Muscle also needs the resistance-exercise stimulus; protein alone does little."
         goto: q-shift
       - id: c
-        text: "\"Actually keep protein low — high protein damages everyone's kidneys.\""
+        text: "\"Actually, keep protein low, because high protein damages everyone's kidneys.\""
         correct: false
-        feedback: "Not for healthy kidneys — the evidence shows no harm at higher intakes. The caveat is pre-existing kidney disease. Under-eating protein would undercut his training."
+        feedback: "Healthy kidneys show no harm at higher intakes; the caveat is established kidney disease. Under-eating protein would undercut his training."
         goto: q-shift
 
   - id: q-shift
@@ -85,68 +85,68 @@ nodes:
     stem: "*\"On night shifts I end up eating a big meal around 3 a.m. Is that okay?\"*"
     options:
       - id: a
-        text: "\"Try to shift your main meals into the daytime and keep the small-hours eating light.\""
+        text: "\"Move your main meals to the daytime and eat lightly at night.\""
         correct: true
-        feedback: "Correct — bodies handle food less well overnight, so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical tweak."
+        feedback: "The body handles food less well overnight, so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical change."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight
       - id: b
-        text: "\"A big 3 a.m. meal is fine — energy is energy, whatever the hour.\""
+        text: "\"A big 3 a.m. meal is fine; energy is energy, whatever the hour.\""
         correct: false
         feedback: "Timing matters here: heavy eating in the small hours worsens the metabolic picture for shift workers. Weight the main meals toward the daytime instead."
         goto: q-weight
       - id: c
         text: "\"Just skip food entirely on night shifts.\""
         correct: false
-        feedback: "Not necessary — the useful lever is meal timing (daytime-weighted), not fasting through every shift, which is hard to sustain and can backfire."
+        feedback: "Fasting through every shift is not necessary, and it is hard to sustain and can backfire; the useful lever is meal timing, weighted toward the daytime."
         goto: q-weight
 
   - id: q-weight
     type: mcq
     emotion: concerned
-    stem: "*\"And the 4 kg — should I go on a crash diet to get it off fast?\"*"
+    stem: "*\"And the 4 kg: should I go on a crash diet to get it off fast?\"*"
     options:
       - id: a
-        text: "\"Better to make a couple of small, steady changes you can keep — the after-work drinks are a big one — than a crash diet.\""
+        text: "\"Small changes you can keep, starting with fewer drinks, beat a crash diet.\""
         correct: true
-        feedback: "Correct — creep is a small chronic surplus, best undone by durable small changes (and self-weighing), not restriction cycles. And Asian BMI thresholds mean a few kg matters, so it's worth addressing."
+        feedback: "Weight creep is a small chronic surplus, best undone by durable small changes and self-weighing, not cycles of restriction. Lower Asian BMI cut-offs mean a few kilograms matter, so it is worth addressing."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-alcohol
       - id: b
-        text: "\"Yes — a strict crash diet now, then back to normal once the weight's off.\""
+        text: "\"Yes, a strict crash diet now, then back to normal once the weight's off.\""
         correct: false
-        feedback: "Crash-and-rebound rarely holds and sets up cycling. The evidence favours small, sustainable habits — starting with the most obvious surplus (the drinks)."
+        feedback: "Crash-and-rebound rarely holds and sets up weight cycling. The evidence favours small, sustainable habits, starting with the most obvious surplus: the drinks."
         goto: q-alcohol
       - id: c
-        text: "\"Don't worry about 4 kg — just train harder, you can out-run any diet.\""
+        text: "\"Don't worry about 4 kg; just train harder, since you can out-run any diet.\""
         correct: false
-        feedback: "You can't reliably out-train a surplus — activity is a weak lever on weight once it's accumulated. The intake side (those drinks) matters more here."
+        feedback: "Activity is a weak lever on weight once excess has accumulated, so a surplus cannot reliably be out-trained. The intake side (those drinks) matters more here."
         goto: q-alcohol
 
   - id: q-alcohol
     type: mcq
     emotion: concerned
-    stem: "*\"Last thing — I drink most evenings to unwind, but I read a daily drink is good for the heart. And yeah, I go red after one beer, but that's normal for me. All fine?\"*"
+    stem: "*\"Last thing: I drink most evenings to unwind, but I read a daily drink is good for the heart. And yeah, I go red after one beer, but that's normal for me. All fine?\"*"
     options:
       - id: a
-        text: "\"Two things, gently: the 'good for the heart' idea doesn't hold up any more, and the flushing actually matters — can I ask a few quick questions about your drinking?\""
+        text: "\"Two things: the heart claim no longer holds, and the flushing matters. Can I ask about your drinking?\""
         correct: true
-        feedback: "Correct — the modern alcohol message plus acting on the ALDH2 flush. The flush raises oesophageal-cancer risk if he keeps drinking, so advise cutting down. Screen briefly and refer if drinking is hazardous. This is the one real red flag in the visit."
+        feedback: "This combines the current alcohol message with action on the ALDH2 flush. The flush means a raised oesophageal-cancer risk if he keeps drinking, so advise cutting down, screen briefly, and refer if drinking is hazardous. It is the one real red flag in the visit."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
-        text: "\"A daily drink is fine — good for your heart, in fact — so keep it up; the flushing's harmless.\""
+        text: "\"A daily drink is fine, even good for your heart, so keep it up; the flushing's harmless.\""
         correct: false
-        feedback: "Both halves are unsafe. The heart-protection claim has collapsed (bias-free studies show no benefit), and the flush is a genuine red flag — acetaldehyde build-up raising oesophageal-cancer risk. Never endorse drinking for the heart, and never wave away the flush."
+        feedback: "Both halves are unsafe. Mendelian randomisation studies, which remove the bias behind the heart claim, find no benefit, and the flush is a red flag: acetaldehyde build-up that raises oesophageal-cancer risk. Never endorse drinking for the heart, and never wave away the flush."
         reaction: concerned
         goto: remedial
       - id: c
-        text: "\"The heart benefit is real so don't stop — but maybe drink a little less.\""
+        text: "\"The heart benefit is real, so don't stop, but maybe drink a little less.\""
         correct: false
-        feedback: "The 'heart benefit' is exactly the myth that's been overturned — don't reinforce it. And this misses the flush, which is the important cue here (raised throat-cancer risk). Drop the cardioprotection line and act on the flushing."
+        feedback: "The 'heart benefit' claim has been overturned, so do not reinforce it. This answer also misses the flush, the important cue here (raised oesophageal-cancer risk). Drop the cardioprotection line and act on the flushing."
         reaction: concerned
         goto: remedial
 
@@ -160,14 +160,14 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Right-size the advice — and catch the real red flag"
+    title: "Right-size the advice, and catch the real red flag"
     body: |
-      The through-line: most of what Rahmat expects, he doesn't need — a weekend run wants **ordinary food
-      and water**, not carb-loading or shakes; protein ~1.2–1.6 g/kg from food is plenty and safe for
-      healthy kidneys; shift eating is best **weighted to the daytime**; and weight creep yields to **small,
-      steady habits**, not a crash diet. The one genuine red flag is the **alcohol**: the "good for the
-      heart" line is a retired myth (never endorse it), and the **flush** signals a raised throat-cancer
-      risk — ask, advise cutting down, and screen/refer. Replay and run it through.
+      Most of what Rahmat expects, he does not need. A weekend run needs ordinary food and water, not
+      carb-loading or shakes; about 1.2–1.6 g/kg of protein from food is plenty and safe for healthy
+      kidneys; shift eating is best weighted to the daytime; and weight creep yields to small, steady
+      habits, not a crash diet. The one real red flag is the alcohol: the "good for the heart" claim
+      no longer holds (never endorse it), and the flush signals a raised oesophageal-cancer risk, so ask,
+      advise cutting down, screen briefly, and refer if drinking is hazardous. Replay and run it through.
     next: end-partial
 
   - id: end-good
@@ -176,32 +176,32 @@ nodes:
     title: "Right-sized, and the red flag caught"
     body: |
       You talked Rahmat out of unnecessary sports nutrition, gave him a sensible protein and shift-eating
-      plan, steered him to small sustainable changes for the creep, and — the crucial bit — you didn't
-      endorse "drinking for the heart" and you acted on the flush, screening and advising him to cut down.
-      That's the whole job at this stage: right-size the popular advice, and recognise the one thing that
-      genuinely matters. *(Detailed sports programming isn't something he needs at this level; hazardous
-      drinking, if screening flags it, is referred on to the addiction services.)*
+      plan, and steered him to small, sustainable changes for the creep. On the point that mattered most,
+      you did not endorse "drinking for the heart", and you acted on the flush, screening him and advising
+      him to cut down. The task at this stage is to right-size the popular advice and recognise the one
+      thing that matters. *(He does not need detailed sports programming at this level; hazardous
+      drinking, if screening flags it, is referred to addiction services.)*
     debrief:
       objectivesMet: [1, 2, 3, 4, 5]
       keyPoints:
-        - "Everyday active adults need ordinary food and water — carb-loading, sports drinks and shakes are for genuine endurance volume, not weekend runs."
+        - "Everyday active adults need ordinary food and water; carb-loading, sports drinks and shakes are for high endurance volume, not weekend runs."
         - "Protein ~1.2–1.6 g/kg from food is plenty (benefit plateaus); safe for healthy kidneys, the exception is kidney disease."
         - "Shift eating: weight the main meals toward the daytime; weight creep: small, steady habits over crash dieting."
-        - "Modern alcohol message: don't advise drinking for the heart; the ALDH2 flush is a red flag (throat-cancer risk) — ask, advise, screen, refer."
+        - "Current alcohol message: don't advise drinking for the heart; the ALDH2 flush is a red flag (oesophageal-cancer risk), so ask, advise, screen, refer."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Most of the way there"
     body: |
-      You helped Rahmat but slipped on at least one point — over-fuelling a recreational runner, the protein
-      or kidney message, shift-meal timing, the crash-diet trap, or (most important) the alcohol fork.
-      Replay and run the safe path: ordinary food and water for his runs, ~1.2–1.6 g/kg protein from food,
-      daytime-weighted shift eating, small steady habits for the creep — and never endorse "drinking for the
-      heart," while acting on the flush.
+      You helped Rahmat but slipped on at least one point: over-fuelling a recreational runner, the protein
+      or kidney message, shift-meal timing, the crash-diet trap, or, most important, the alcohol question.
+      Replay and run the safe path: ordinary food and water for his runs, about 1.2–1.6 g/kg protein from
+      food, daytime-weighted shift eating, small steady habits for the creep, and never endorse "drinking
+      for the heart", while acting on the flush.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Right-size fuelling: ordinary food + water for recreational training."
-        - "Protein ~1.2–1.6 g/kg from food; safe for healthy kidneys (not CKD)."
-        - "Never advise drinking for the heart; the alcohol flush is a red flag — ask, advise, screen, refer."
+        - "Right-size fuelling: ordinary food and water for recreational training."
+        - "Protein ~1.2–1.6 g/kg from food; safe for healthy kidneys (not in kidney disease)."
+        - "Never advise drinking for the heart; the alcohol flush is a red flag, so ask, advise, screen, refer."

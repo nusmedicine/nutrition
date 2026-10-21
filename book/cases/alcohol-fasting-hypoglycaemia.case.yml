@@ -2,7 +2,7 @@ id: alcohol-fasting-hypoglycaemia
 title: "He skipped meals, drank, and collapsed"
 objectives:
   - "Recognise that alcohol on an empty stomach can cause hypoglycaemia, not hyperglycaemia."
-  - "Explain the mechanism: alcohol blocks gluconeogenesis, and skipped meals leave glycogen already spent — both glucose sources offline."
+  - "Explain the mechanism: alcohol blocks gluconeogenesis, and skipped meals leave glycogen already spent, so both glucose sources are offline."
   - "Give recognition-level management: check and correct the glucose; sensible safety advice."
 difficulty: intro
 estimatedMinutes: 7
@@ -23,9 +23,9 @@ nodes:
     type: info
     title: "\"He's just drunk, right?\""
     body: |
-      Marcus, 22, is brought in by his flatmate after a night out. He **skipped dinner**,
-      drank steadily through the evening, and is now **confused, sweaty and trembling**.
-      His flatmate is sure it's "just the alcohol." Something about the sweating and shaking
+      Marcus, 22, is brought in by his flatmate after a night out. He skipped dinner,
+      drank steadily through the evening, and is now confused, sweaty and trembling.
+      His flatmate is sure it's "just the alcohol". Something about the sweating and shaking
       makes you want to check one thing first.
     next: q-first
 
@@ -34,62 +34,62 @@ nodes:
     stem: "What is the single most useful thing to check straight away?"
     options:
       - id: a
-        text: "A finger-prick blood glucose."
+        text: "A finger-prick blood glucose test."
         correct: true
-        feedback: "Correct. Adrenergic signs (sweating, tremor) plus confusion should always prompt a glucose check — a low blood sugar is dangerous but quickly reversible if caught. His reads low."
+        feedback: "Autonomic warning signs (sweating, tremor) plus confusion should always prompt a glucose check: hypoglycaemia is dangerous but quickly reversible if caught. His reads low."
         effects: { quality: +1 }
         goto: q-why
       - id: b
-        text: "Nothing — wait for the alcohol to wear off on its own."
+        text: "Nothing yet; let the alcohol wear off on its own."
         correct: false
-        feedback: "Risky. Confusion and sweating can be a treatable hypoglycaemia hiding behind 'just drunk.' Always check the glucose. His reads low."
+        feedback: "Waiting is risky: confusion and sweating can be a treatable hypoglycaemia hiding behind 'just drunk', so always check the glucose. His reads low."
         goto: q-why
       - id: c
         text: "Assume dehydration and give plain water only."
         correct: false
-        feedback: "That misses the likely problem. Sweating, tremor and confusion point to hypoglycaemia — check the glucose first. His reads low."
+        feedback: "Sweating, tremor and confusion point to hypoglycaemia, which water will not correct; check the glucose first. His reads low."
         goto: q-why
 
   - id: q-why
     type: mcq
-    stem: "His glucose is low. Normally the liver would rescue a falling blood sugar. Why can't it here?"
+    stem: "His glucose is low. Normally the liver would rescue a falling blood glucose. Why can't it here?"
     options:
       - id: a
-        text: "Skipped meals spent his glycogen, and alcohol blocks gluconeogenesis — both glucose sources are offline."
+        text: "Skipped meals spent his glycogen, and alcohol blocks gluconeogenesis."
         correct: true
-        feedback: "Exactly. Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis; and with glycogen already gone from skipped meals, there is no glucose left to release. That is why alcohol + fasting is so dangerous."
+        feedback: "Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis, and with glycogen already gone from skipped meals there is no glucose left to release. Both glucose sources are offline at once, which is why alcohol with fasting is so dangerous."
         effects: { quality: +1 }
         goto: q-trap
       - id: b
         text: "Alcohol destroys the liver's glycogen directly within a few hours."
         correct: false
-        feedback: "Not quite. The glycogen was already low from skipping meals. Alcohol's role is different — it blocks the liver from *making* new glucose (gluconeogenesis)."
+        feedback: "The glycogen was already low from skipping meals. Alcohol's role is different: it blocks the liver from *making* new glucose (gluconeogenesis)."
         goto: q-trap
       - id: c
-        text: "The liver never makes glucose — only the kidney does."
+        text: "The liver never makes glucose; only the kidney does."
         correct: false
-        feedback: "No — the liver is the main glucose producer. Here it's blocked on both fronts: glycogen spent (skipped meals) and gluconeogenesis inhibited (alcohol)."
+        feedback: "Hepatic glucose production is the main source of blood glucose in a fast. Here it is blocked on both fronts: glycogen spent (skipped meals) and gluconeogenesis inhibited (alcohol)."
         goto: q-trap
 
   - id: q-trap
     type: mcq
-    stem: "His flatmate says, \"But alcohol is full of sugar — shouldn't his blood sugar be high?\" Your answer?"
+    stem: "His flatmate says, \"But alcohol is full of sugar, so shouldn't his blood sugar be high?\" Your answer?"
     options:
       - id: a
-        text: "No — on an empty stomach alcohol pushes blood sugar down, not up. This is a low, not a high."
+        text: "No, on an empty stomach alcohol pushes blood sugar down."
         correct: true
-        feedback: "Right. It's a common trap. Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis — so on an empty stomach it pushes blood sugar down, and fasting + alcohol causes hypoglycaemia."
+        feedback: "Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis, so on an empty stomach it pushes blood glucose down: this is a low, not a high."
         effects: { quality: +1 }
         goto: q-manage
       - id: b
-        text: "Yes — he's right, the blood sugar must be high from the alcohol."
+        text: "Yes, he's right: the blood sugar must be high from the alcohol."
         correct: false
-        feedback: "This is the trap. Alcohol blocks the liver from making glucose; on an empty stomach it causes a LOW blood sugar. The measured glucose here is low."
+        feedback: "Alcohol blocks the liver from making glucose, so on an empty stomach it causes a low blood glucose, as measured here."
         goto: q-manage
       - id: c
-        text: "It doesn't matter either way — the number isn't important."
+        text: "It doesn't matter either way; the number isn't important."
         correct: false
-        feedback: "It matters a lot — a low glucose needs treating now. And the reasoning (alcohol blocks glucose production) is exactly why it's low."
+        feedback: "A low glucose needs treating now, and the reasoning (alcohol blocks glucose production) explains why it is low."
         goto: q-manage
 
   - id: q-manage
@@ -99,18 +99,18 @@ nodes:
       - id: a
         text: "Give glucose now, then advise eating when drinking."
         correct: true
-        feedback: "Correct. Give glucose by mouth if he can swallow safely, otherwise it's an emergency for the team to treat. Correct the glucose now; the lasting lesson is the safety advice — eat when drinking, not on an empty stomach. Recurrent or unexplained hypoglycaemia would be something to refer on, but that's beyond what's needed here."
+        feedback: "Glucose by mouth is right if he can swallow safely; if not, it is an emergency for the team to treat. Once the glucose is corrected, the lasting advice is to eat when drinking, not drink on an empty stomach. Recurrent or unexplained hypoglycaemia would be a reason to refer."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Give more fluids and let him sleep it off."
         correct: false
-        feedback: "No — a low blood sugar needs glucose, not just fluids and time. Untreated hypoglycaemia can be dangerous."
+        feedback: "Hypoglycaemia needs glucose; fluids and time do not correct it, and untreated it can be dangerous."
         goto: route
       - id: c
         text: "Give insulin to 'balance' the alcohol sugar."
         correct: false
-        feedback: "Dangerous — his glucose is already low. Insulin would drop it further. He needs glucose."
+        feedback: "His glucose is already low, and insulin would drop it further, which is dangerous. He needs glucose."
         goto: route
 
   - id: route
@@ -124,42 +124,42 @@ nodes:
     type: info
     title: "Back to the mechanism"
     body: |
-      The core idea: **alcohol + an empty stomach = low blood sugar.** Alcohol blocks the
-      liver from **making new glucose** (gluconeogenesis), and skipping meals means its
-      **glycogen store is already spent** — so both glucose sources are offline. The
-      sweating, tremor and confusion are the body's alarm and the brain running short of
-      fuel. Treat with **glucose**, not with time or insulin.
+      Alcohol on an empty stomach lowers blood glucose. Alcohol blocks the liver from making
+      new glucose (gluconeogenesis), and skipping meals means its glycogen store is already
+      spent, so both glucose sources are offline. The sweating and tremor are the body's
+      alarm, and the confusion is the brain running short of fuel. The treatment is
+      glucose, not time or insulin.
     next: end-partial
 
   - id: end-good
     type: end
     outcome: success
-    title: "Not just drunk"
+    title: "Looking past 'just drunk'"
     body: |
-      You looked past "he's just drunk," checked the glucose, and recognised
+      You looked past "he's just drunk", checked the glucose and recognised
       **alcohol-induced hypoglycaemia**: skipped meals had spent his glycogen, and alcohol
-      had blocked his liver from making new glucose — both sources offline at once. You
-      corrected the glucose and gave the advice that matters: eat when you drink, and never
-      drink on an empty stomach. Two integration failures stacked — spotted and reversed.
+      had blocked his liver from making new glucose, so both sources were offline at once.
+      You corrected the glucose and gave the advice that matters: eat when you drink, and
+      never drink on an empty stomach.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Sweating + tremor + confusion → always check the glucose; hypoglycaemia is treatable if caught."
-        - "Alcohol blocks gluconeogenesis; skipped meals spend glycogen — together they cause a low blood sugar."
-        - "Alcohol on an empty stomach lowers blood glucose despite any sugar in the drinks — a common trap."
+        - "Sweating, tremor and confusion always call for a glucose check; hypoglycaemia is treatable if caught."
+        - "Alcohol blocks gluconeogenesis and skipped meals spend glycogen; together they cause a low blood glucose."
+        - "Alcohol on an empty stomach lowers blood glucose despite any sugar in the drinks."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Nearly there"
     body: |
-      You worked through the case, but the reasoning slipped at a key point. The take-home:
-      **alcohol on an empty stomach causes hypoglycaemia** — it blocks the liver from making
-      glucose while skipped meals have already emptied the glycogen bank. Replay and focus on
-      why *both* of the liver's glucose sources are offline.
+      You worked through the case, but the reasoning slipped at one step. The take-home:
+      alcohol on an empty stomach causes hypoglycaemia, because it blocks the liver from making
+      glucose while skipped meals have already emptied the glycogen store. Replay and focus
+      on why *both* of the liver's glucose sources are offline.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Alcohol + fasting → low blood sugar, not high."
+        - "Alcohol with fasting lowers blood glucose; it does not raise it."
         - "Mechanism: alcohol blocks gluconeogenesis; skipped meals leave glycogen already spent."
         - "Treat with glucose; advise eating when drinking."

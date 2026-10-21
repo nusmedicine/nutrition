@@ -26,39 +26,39 @@ nodes:
       Aria, 2, has had **two days of watery diarrhoea**. She is a little dehydrated
       but **still drinking** and making some wet nappies. Her mother has heard that
       diarrhoea "empties everything straight out" and assumes Aria needs an
-      intravenous **drip**. You reach for a sachet of **oral rehydration salts (ORS)**
+      intravenous drip. You reach for a sachet of oral rehydration salts (ORS)
       instead.
     next: q-why-oral
 
   - id: q-why-oral
     type: mcq
-    stem: "Why can a child losing fluid to diarrhoea often be rehydrated **by mouth**?"
+    stem: "Why can a child losing fluid to diarrhoea often be rehydrated by mouth?"
     options:
       - id: a
-        text: "The gut's SGLT1 transporter keeps absorbing, so a glucose-and-salt drink still gets fluid in."
+        text: "SGLT1 keeps absorbing, so a glucose-and-salt drink still gets fluid in."
         correct: true
-        feedback: "Correct — secretory diarrhoea dumps fluid, but SGLT1 keeps working; that is exactly what oral rehydration exploits. A drip is kept for severe dehydration or a child who can't drink."
+        feedback: "In secretory diarrhoea, where the gut pours out fluid, SGLT1 keeps working, and oral rehydration exploits exactly that. A drip is kept for severe dehydration or a child who can't drink."
         effects: { quality: +1 }
         goto: q-both
       - id: b
         text: "The gut stops absorbing anything during diarrhoea, so only intravenous fluids can work."
         correct: false
-        feedback: "Not so — SGLT1 keeps absorbing sodium (with glucose), which is the whole basis of oral rehydration."
+        feedback: "SGLT1 keeps absorbing sodium (with glucose) during diarrhoea, which is the basis of oral rehydration."
         goto: q-both
       - id: c
         text: "Diarrhoea is harmless in toddlers, so no rehydration is needed."
         correct: false
-        feedback: "Dehydration is the real danger — the point of ORS is to prevent it safely and early."
+        feedback: "Dehydration is the real danger, and ORS prevents it safely and early."
         goto: q-both
 
   - id: q-both
     type: mcq
-    stem: "Why must the drink contain **both glucose and salt**, not just water?"
+    stem: "Why must the drink contain both glucose and salt, not plain water alone?"
     options:
       - id: a
-        text: "Glucose is the handle that sodium rides in on through SGLT1; water then follows."
+        text: "Glucose carries sodium in through SGLT1, and water follows."
         correct: true
-        feedback: "Exactly — the glucose is a transport handle for sodium, and water follows the salt. Plain water lacks both, which is why ORS rehydrates and plain water alone does less well."
+        feedback: "The glucose is a transport handle for sodium, and water follows the salt. Plain water lacks both, which is why ORS rehydrates better than plain water alone."
         effects: { quality: +1 }
         goto: q-drinks
       - id: b
@@ -69,28 +69,28 @@ nodes:
       - id: c
         text: "The salt is only added to improve the taste so she drinks more."
         correct: false
-        feedback: "No — the sodium is co-absorbed with glucose through SGLT1; it is mechanism, not flavouring."
+        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism, not flavouring."
         goto: q-drinks
 
   - id: q-drinks
     type: mcq
-    stem: "Mrs Lim has isotonic **sports drink** and **cola** at home. Are those a good stand-in for ORS?"
+    stem: "Mrs Lim has isotonic sports drink and cola at home. Are those a good stand-in for ORS?"
     options:
       - id: a
-        text: "No — they carry too much sugar and too little sodium; use proper ORS."
+        text: "No, they carry too much sugar and too little sodium; use proper ORS."
         correct: true
-        feedback: "Right — the wrong glucose-to-salt balance can even pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
+        feedback: "The wrong glucose-to-salt balance can pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
         effects: { quality: +1 }
         goto: q-advice
       - id: b
-        text: "Yes — any sugary drink supplies the glucose and water she needs."
+        text: "Yes, any sugary drink supplies the glucose and water she needs."
         correct: false
-        feedback: "The glucose-to-sodium *ratio* is what matters; too much sugar draws water into the gut (osmotic effect) and can make diarrhoea worse."
+        feedback: "What matters is the glucose-to-sodium ratio; too much sugar draws water into the gut (an osmotic effect) and can make diarrhoea worse."
         goto: q-advice
       - id: c
         text: "Yes, as long as she adds a pinch of salt to the cola."
         correct: false
-        feedback: "Improvised mixes are unreliable — reach for commercial ORS (or a correctly measured home recipe) to get the right low-strength balance."
+        feedback: "Improvised mixes are unreliable; commercial ORS (or a correctly measured home recipe) gives the right low-strength balance."
         goto: q-advice
 
   - id: q-advice
@@ -98,20 +98,20 @@ nodes:
     stem: "What is the best advice to Mrs Lim?"
     options:
       - id: a
-        text: "Give ORS in small, frequent sips, keep feeding her, and seek care if she worsens."
+        text: "Give ORS in small, frequent sips, keep feeding, and seek care if worse."
         correct: true
-        feedback: "Right — ORS + continued feeding is first-line, with a clear safety-net for severe dehydration: watch for warning signs (won't drink, very drowsy, no wet nappies) and seek care or a drip if she worsens."
+        feedback: "ORS with continued feeding is first-line, with a clear safety-net for severe dehydration: watch for warning signs (won't drink, very drowsy, no wet nappies) and seek care or a drip if she worsens."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Give large amounts of plain water only until the diarrhoea settles."
         correct: false
-        feedback: "Plain water lacks the glucose and sodium that drive absorption, and large volumes can dilute the body's salts — ORS is the right drink."
+        feedback: "Plain water lacks the glucose and sodium that drive absorption, and large volumes can dilute the body's salts; ORS is the right drink."
         goto: route
       - id: c
         text: "Withhold all food and fluids to 'rest the gut'."
         correct: false
-        feedback: "Outdated and harmful — continue ORS and feeding; starving the gut delays recovery and risks dehydration."
+        feedback: "Resting the gut by withholding food and fluid is outdated and harmful advice: it delays recovery and risks dehydration. ORS and feeding should continue."
         goto: route
 
   - id: route
@@ -125,10 +125,10 @@ nodes:
     type: info
     title: "Back to the mechanism"
     body: |
-      Not quite. The key idea: in diarrhoea the gut **keeps absorbing** via **SGLT1**,
-      which pulls in **sodium alongside glucose**, and **water follows**. So the drink
-      needs **both glucose and salt** — that is what ORS provides — given in small sips
-      while feeding continues, with a safety-net for severe dehydration.
+      In diarrhoea the gut keeps absorbing via SGLT1, which pulls in sodium alongside
+      glucose, and water follows. The drink therefore needs **both glucose and salt**,
+      which is what ORS provides, given in small sips while feeding continues, with a
+      safety-net for severe dehydration.
     next: end-partial
 
   - id: end-good
@@ -143,7 +143,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Secretory diarrhoea loses fluid, but SGLT1 keeps absorbing sodium when glucose is present."
+        - "In secretory diarrhoea the gut pours out fluid, but SGLT1 keeps absorbing sodium when glucose is present."
         - "ORS needs glucose AND sodium: glucose is the transport handle, and water follows the salt."
         - "First-line is ORS + continued feeding, with a safety-net (refer / IV) for severe dehydration."
 
@@ -153,11 +153,11 @@ nodes:
     title: "Nearly there"
     body: |
       You worked through the case, but the reasoning wasn't quite on target. Replay and
-      focus on the coupling: **glucose carries sodium in through SGLT1, and water follows** —
-      which is why ORS (glucose *and* salt) works when plain water does not.
+      focus on the coupling: **glucose carries sodium in through SGLT1, and water follows**.
+      That coupling is why ORS (glucose *and* salt) works when plain water does not.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "SGLT1 keeps absorbing in diarrhoea — the basis of oral rehydration."
+        - "SGLT1 keeps absorbing in diarrhoea, which is the basis of oral rehydration."
         - "The glucose in ORS is a transport handle for sodium, not mainly fuel."
         - "ORS + feeding first; a drip is for severe dehydration."

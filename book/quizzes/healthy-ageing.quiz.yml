@@ -2,92 +2,92 @@ id: healthy-ageing
 title: "Quick check: healthy ageing"
 questions:
   - id: q1
-    stem: "A daughter says her 80-year-old mother \"eats like a bird now\" and asks if she should \"just let her eat less since old people need less.\" What's the best framing?"
+    stem: "A daughter says her 80-year-old mother \"eats like a bird now\" and asks if she should \"just let her eat less since old people need less\". What's the best framing?"
     options:
-      - text: "Energy needs fall, but nutrient needs don't — the plate should get more nutrient-dense, not just smaller"
+      - text: "Energy needs fall, but nutrient needs don't, so the plate should be denser."
         correct: true
-        feedback: "Correct — this is the chapter in four words: 'energy down, density up.' A shrinking appetite met with a smaller version of the same plate leaves the nutrients short; the fix is density, not restriction."
-      - text: "Yes — older people need less of everything, so a smaller plate of the same food is right"
+        feedback: "Energy needs fall with appetite, but protein and most micronutrient needs do not, so a smaller version of the same plate leaves her short of nutrients. The response is a denser plate: energy down, density up."
+      - text: "Older people need less of everything, so a smaller plate is right."
         correct: false
-        feedback: "Energy needs fall, but protein and micronutrient needs per calorie *rise*. 'Eat less of everything' is the classic wrong advice here."
-      - text: "She should switch entirely to supplement drinks"
+        feedback: "Protein and most micronutrient needs do not fall with energy needs, so per kcal they rise, and \"eat less of everything\" shrinks the nutrients along with the energy."
+      - text: "She should switch to supplement drinks in place of meals."
         correct: false
-        feedback: "Food-first fortification of familiar meals comes before supplement drinks — and 'eat less' isn't the issue; nutrient density is."
+        feedback: "Fortifying the familiar meals she already eats comes before supplement drinks, and the problem to solve is nutrient density, not how much she eats."
 
   - id: q2
     stem: "How do protein needs change in healthy older adults, and why?"
     options:
-      - text: "They go up, because ageing muscle is anabolically resistant"
+      - text: "They go up, because ageing muscle is anabolically resistant."
         correct: true
-        feedback: "Correct. Needs rise to about 1.0–1.2 g/kg/day — higher than the 0.8 g/kg adult figure — because ageing muscle responds less to a given amount of protein. Best spread as roughly a palm of protein per meal, and only effective alongside activity (especially resistance work)."
-      - text: "They go down, since older adults are less active and lose muscle anyway"
+        feedback: "Ageing muscle responds less to a given amount of protein (anabolic resistance), so needs rise to about 1.0–1.2 g/kg/day, above the 0.8 g/kg adult reference intake. Protein works best spread as about a palm-sized portion per meal, and it is effective only alongside activity, especially resistance work."
+      - text: "They go down, since older adults are less active and lose muscle anyway."
         correct: false
-        feedback: "The opposite — needs rise because of anabolic resistance. Under-eating protein accelerates muscle loss."
-      - text: "They stay the same as a young adult, as long as total calories are met"
+        feedback: "Needs rise with age because of anabolic resistance: ageing muscle mounts a weaker building response to a given amount of protein, so it takes more to get the same effect. Under-eating protein accelerates muscle loss."
+      - text: "They stay the same, provided total energy intake is met."
         correct: false
-        feedback: "Not quite — the per-kg requirement rises with age, and per-meal distribution matters more than in youth."
+        feedback: "The per-kilogram requirement rises with age, and because each meal must clear a higher bar to trigger muscle building, spreading protein across meals matters more than in youth."
 
   - id: q3
     stem: "Which older adult most warrants checking vitamin B12, and why?"
     options:
-      - text: "One on long-term metformin and a PPI, since these impair B12 absorption"
+      - text: "One on long-term metformin and a PPI, which impair B12 absorption."
         correct: true
-        feedback: "Correct — watch the at-risk rather than screen everyone. Age-related B12 deficiency is mainly a problem of absorption, not diet: low stomach acid stops B12 being freed from food, and metformin and PPIs add to the risk (as do atrophic gastritis, poor intake, or a vegetarian diet), all common in this population."
-      - text: "Every older adult should be supplemented with B12 regardless"
+        feedback: "In older adults, B12 deficiency is mainly a problem of absorption, not diet: low stomach acid stops B12 being freed from food protein, and long-term metformin and PPIs add to the risk (as do atrophic gastritis, poor intake or a vegetarian diet), all common in this population. Testing targets this at-risk profile instead of screening everyone."
+      - text: "Every older adult, so supplement B12 regardless of risk."
         correct: false
-        feedback: "Blanket supplementation isn't the message — B12 deficiency is uncommon in *well* older adults. Target the at-risk profile."
-      - text: "Only strict vegans, since B12 comes from meat"
+        feedback: "B12 deficiency is uncommon in well older adults, so the target is the at-risk profile (atrophic gastritis, metformin, PPIs), not everyone."
+      - text: "Only strict vegans, since B12 comes from meat."
         correct: false
-        feedback: "Diet is one risk, but the dominant mechanism in older adults is malabsorption (atrophic gastritis, metformin/PPI) — so the at-risk group is broader than vegans."
+        feedback: "Diet is one risk, but in older adults the main mechanism is malabsorption (atrophic gastritis, metformin, PPIs), so the at-risk group is broader than vegans."
 
   - id: q4
-    stem: "An older Singaporean is found to have low vitamin D. The family is surprised \"because it's so sunny here.\" What's the explanation?"
+    stem: "An older Singaporean is found to have low vitamin D. The family is surprised \"because it's so sunny here\". What's the explanation?"
     options:
-      - text: "Deficiency is common despite the sun, because older adults get little sun exposure"
+      - text: "Older adults get little sun exposure, so deficiency is common."
         correct: true
-        feedback: "Correct — the 'sunny-country paradox.' Older adults spend little time outdoors and cover up, so exposure, not latitude, is the problem (around half of healthy community seniors have low levels). Ageing skin may also make vitamin D a little less efficiently, though how much is now debated."
-      - text: "It must be a lab error — you can't be vitamin-D deficient in a sunny country"
+        feedback: "Older adults spend little time outdoors and cover up, so exposure, not latitude, is the problem; around half of healthy older adults living in the community have low levels. Ageing skin may also make vitamin D a little less efficiently, though how much is now debated."
+      - text: "It must be a lab error, since deficiency can't occur in a sunny country."
         correct: false
-        feedback: "Not an error — deficiency is genuinely common in local older adults because of low sun exposure, not because the sun is lacking."
-      - text: "It only happens in people who don't eat oily fish"
+        feedback: "Deficiency is common in local older adults because they get little sun, not because the sun is lacking, so a low result is plausible."
+      - text: "It happens only in people who don't eat oily fish."
         correct: false
         feedback: "Diet contributes a little, but the main driver in older adults is reduced sun exposure (indoor living, covering up)."
 
   - id: q5
-    stem: "A frail 82-year-old is brought in dehydrated. What's the key teaching point about hydration in older adults?"
+    stem: "A frail 82-year-old is brought in dehydrated. What is the best approach to fluids in older adults?"
     options:
-      - text: "Thirst is blunted, so offer fluids proactively rather than waiting for thirst"
+      - text: "Offer fluids regularly, because thirst is blunted with age."
         correct: true
-        feedback: "Correct. Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so the lever is regular offering of fluids, not waiting for thirst or for someone to look dry."
-      - text: "Just tell them to drink when they feel thirsty — thirst is a reliable guide"
+        feedback: "Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so fluids are offered regularly instead of waiting for thirst or for someone to look dry."
+      - text: "Advise drinking when thirsty, since thirst is a reliable guide."
         correct: false
-        feedback: "Thirst is blunted with age, so 'drink when thirsty' fails — they're often already dehydrated by then. Offer fluids proactively."
-      - text: "Dry mouth and skin turgor reliably confirm or exclude dehydration in the elderly"
+        feedback: "Thirst is blunted with age, so an older adult is often already dehydrated by the time thirst appears."
+      - text: "Rely on dry mouth and skin turgor to detect dehydration."
         correct: false
-        feedback: "These bedside signs are unreliable in older people. Recognise the *risk* and offer fluids rather than relying on signs."
+        feedback: "Bedside signs such as dry mouth and skin turgor are unreliable in older people, so the safer approach is to recognise the risk and offer fluids."
 
   - id: q6
-    stem: "During a diet history you learn an older woman living in a full household \"eats alone most of the time.\" Why does this matter?"
+    stem: "During a diet history you learn an older woman living in a full household \"eats alone most of the time\". Why does this matter?"
     options:
-      - text: "Eating alone is a red flag, and living with family doesn't guarantee a shared meal"
+      - text: "Eating alone is a red flag, even in a full household."
         correct: true
-        feedback: "Correct — 'who do you eat with?' is one of the highest-yield questions. People eat less and less variedly alone, and in Singapore many older adults eat alone despite living with family (children are out at work). Company raises intake; solitary eating tracks with poorer diets and low mood. Reconnecting her to a shared meal is a real intervention."
-      - text: "It doesn't matter as long as she lives with family — they'll make sure she eats"
+        feedback: "People eat less, and less varied food, when they eat alone, and in Singapore many older adults eat alone despite living with family because their children are out at work. Solitary eating tracks with poorer diets and low mood, so \"Who do you eat with?\" is one of the highest-yield questions, and reconnecting her to a shared meal is a real intervention."
+      - text: "It doesn't matter, because her family will make sure she eats."
         correct: false
-        feedback: "Living with family doesn't guarantee a shared meal — many local seniors eat alone while relatives are at work. Eating alone remains a red flag."
-      - text: "It only matters for her mood, not her nutrition"
+        feedback: "Living with family does not guarantee a shared meal: many local older adults eat alone while relatives are at work, so eating alone remains a red flag."
+      - text: "It matters for her mood, but not for her nutrition."
         correct: false
-        feedback: "It affects both — eating alone lowers food intake and variety, not just mood. It's a nutritional red flag."
+        feedback: "Eating alone affects both: it lowers food intake and variety, and it tracks with low mood."
 
   - id: q7
     stem: "A thin 79-year-old man has lost about 6% of his body weight over the past 8 months without trying. His clothes are looser. What's the right response?"
     options:
-      - text: "Unintentional weight loss of ~5%+ is a red flag — evaluate the reversible causes and refer"
+      - text: "Treat it as a red flag: evaluate the reversible causes and refer."
         correct: true
-        feedback: "Correct — this is where healthy ageing has tipped into undernutrition. Don't dismiss it as normal ageing and don't put him on a restrictive 'healthy' diet. Recognise and refer; support intake with food-first density. Management of malnutrition itself belongs to the undernutrition chapter."
-      - text: "Reassure him that some weight loss is normal at his age and review in a year"
+        feedback: "Unintentional weight loss of about 5% or more over 6–12 months is the red flag, and this is the point where ageing in health has tipped into undernutrition. Do not dismiss it as normal ageing or put him on a restrictive \"healthy\" diet; support his intake with food-first density and refer. The management of malnutrition belongs to the *Undernutrition & Malnutrition* chapter."
+      - text: "Reassure him that some weight loss is normal at his age and review in a year."
         correct: false
-        feedback: "Unintentional weight loss of this degree is never 'just ageing' — it flags malignancy, depression, dental/swallowing or medication problems, and warrants evaluation and referral now."
-      - text: "Start him on a low-fat, low-salt diet to keep him healthy"
+        feedback: "Weight loss of this degree is never \"just ageing\": it flags malignancy, depression, dental, swallowing or medication problems, and it warrants evaluation and referral now."
+      - text: "Start him on a low-fat, low-salt diet to keep him healthy."
         correct: false
-        feedback: "This is the do-no-harm trap — restriction in a thin, losing-weight elder cuts intake and worsens malnutrition. The rule is density up, restriction off, and refer."
+        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition: the do-no-harm trap. The rule is density up, restriction off, and refer."

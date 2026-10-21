@@ -5,10 +5,10 @@
 # (hyperkalaemia). The one safely reinforceable lever is ordinary salt; the rest is the
 # renal dietitian's to individualise. Recognise the levers, refer, don't prescribe.
 id: sim-ckd-protein-encik-rahman
-title: "Simulated patient — Encik Rahman (early kidney disease)"
+title: "Simulated patient: Encik Rahman (early kidney disease)"
 objectives:
-  - "Correct the 'avoid protein' myth: near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian — reassure without prescribing a number."
-  - "Reinforce the one safe general lever (cutting ordinary salt) and catch the two do-no-harm traps — star fruit/belimbing is an absolute avoid in kidney disease, and a 'low-sodium' potassium salt substitute can be dangerous here."
+  - "Correct the 'avoid protein' belief: near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian. Reassure without prescribing a number."
+  - "Reinforce the one safe general lever (cutting ordinary salt) and catch the two do-no-harm traps: star fruit/belimbing is an absolute avoid in kidney disease, and a 'low-sodium' potassium salt substitute can be dangerous here."
   - "Recognise that kidney disease with diabetes is beyond general healthy-eating advice and refer to a renal dietitian, rather than issuing DIY potassium or protein limits."
 difficulty: core
 estimatedMinutes: 10
@@ -30,20 +30,19 @@ nodes:
     type: info
     title: "Meet Encik Rahman"
     body: |
-      Encik Rahman, 58, a security officer with long-standing diabetes and high blood
-      pressure, comes in confused. His last result showed his **kidneys are affected**,
-      and he has heard he must "stop eating protein." He has also started drinking
-      **star-fruit juice to 'detox'** and switched to a **'low-sodium' salt** to be
-      healthier. **Talk with him**: undo the harmful ideas, reinforce what is safe, and
-      recognise where this belongs.
+      Encik Rahman, 58, a security officer with long-standing diabetes and hypertension,
+      comes in confused. His last result showed his kidneys are affected, and he has
+      heard he must "stop eating protein." He has also started drinking star-fruit juice
+      to "detox" and switched to a "low-sodium" salt to be healthier. Talk with him: undo
+      the harmful ideas, reinforce what is safe, and recognise where this belongs.
     next: talk-to-encik-rahman
 
   - id: talk-to-encik-rahman
     type: patient-chat
     scenarioId: ckd-encik-rahman
-    objective: "Undo the 'avoid protein' myth (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist lever (cutting ordinary salt) while catching the two do-no-harm traps — stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous high potassium, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
+    objective: "Undo the 'avoid protein' belief (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist lever (cutting ordinary salt) while catching the two do-no-harm traps: stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous high potassium, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
     turnLimit: 8
-    exitWhen: "The student has corrected the over-restriction of protein, caught the star-fruit and salt-substitute traps, reinforced ordinary salt reduction, and flagged a renal dietitian referral — or the turn limit is reached."
+    exitWhen: "The student has corrected the over-restriction of protein, caught the star-fruit and salt-substitute traps, reinforced ordinary salt reduction, and flagged a renal dietitian referral, or the turn limit is reached."
     opener: "Doctor, they say my kidneys not so good now. So I must stop eating meat and fish completely, is it? I already almost stop."
     brief: |
       You are Encik Rahman, 58, a security officer in Singapore. You have had diabetes
@@ -88,9 +87,9 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "'Avoid protein' is the wrong instinct: near-total restriction risks protein-energy wasting and muscle loss. Protein targets in kidney disease are modest, stage-specific and dietitian-set — reassure him, don't prescribe a number yourself."
-        - "Catch the do-no-harm traps: star fruit and belimbing are an absolute avoid in kidney disease (a neurotoxin failing kidneys cannot clear), and a 'low-sodium' potassium salt substitute can cause dangerous high potassium, especially with his kidney-protection blood-pressure pill. Cutting ordinary salt is the one lever safe to reinforce."
-        - "Kidney disease with diabetes is beyond general healthy eating: refer to a renal dietitian (the National Kidney Foundation runs the education a referral plugs into) rather than handing out potassium or protein amounts."
+        - "'Avoid protein' is a harmful instinct here: near-total restriction risks protein-energy wasting and muscle loss. Protein targets in kidney disease are modest, stage-specific and dietitian-set, so reassure him and don't prescribe a number yourself."
+        - "Catch the do-no-harm traps: star fruit and belimbing are an absolute avoid in kidney disease (they carry a neurotoxin that failing kidneys cannot clear), and a 'low-sodium' potassium salt substitute can cause dangerous hyperkalaemia, especially with his kidney-protection blood-pressure pill. Cutting ordinary salt is the one lever safe to reinforce."
+        - "Kidney disease with diabetes is beyond general healthy eating: refer to a renal dietitian (the National Kidney Foundation runs the education a referral plugs into); do not hand out potassium or protein amounts yourself."
 
   - id: end-partial
     type: end

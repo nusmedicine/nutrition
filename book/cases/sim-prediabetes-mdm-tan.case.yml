@@ -1,5 +1,5 @@
 id: sim-prediabetes-mdm-tan
-title: "Simulated patient — Mdm Tan (pre-diabetes)"
+title: "Simulated patient: Mdm Tan (prediabetes)"
 # Chat-forward "LLM version" of the pre-diabetes scenario for the Integrated cases
 # chapter. The choice-based version lives in prediabetes-counseling.case.yml.
 objectives:
@@ -18,7 +18,7 @@ persona:
   sex: female
   occupation: "primary-school teacher"
   sprite: /figures/personas/mdm-tan
-  presentation: "A screening test found her fasting glucose is a bit high (pre-diabetes); she feels well but is worried."
+  presentation: "A screening test found her fasting glucose is a bit high (prediabetes); she feels well but is worried."
   voice: "Polite, mildly anxious, time-pressed; enjoys kopi and char kway teow."
 
 nodes:
@@ -26,10 +26,7 @@ nodes:
     type: info
     title: "Meet Mdm Tan"
     body: |
-      Mdm Tan, 52, comes in after a screening test showed a **raised fasting sugar**
-      (pre-diabetes). She feels well but is worried. In this encounter you **talk with her
-      directly**: take a brief history, agree one realistic change, and check her confidence.
-      Speak to her as you would a real patient — ask, listen, then agree a plan together.
+      In this encounter you talk with her directly, as you would with a real patient.
     next: talk-to-mdm-tan
 
   - id: talk-to-mdm-tan
@@ -71,14 +68,14 @@ nodes:
     outcome: success
     title: "Patient-centred and realistic"
     body: |
-      You took a brief history before advising and agreed one sustainable change with
-      Mdm Tan — and checked how confident she felt to do it.
+      You took a brief history before advising, agreed one sustainable change with
+      Mdm Tan, and checked how confident she felt to do it.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Assess intake before prescribing."
         - "One specific, achievable change beats a forbidden-foods list."
-        - "Check confidence — readiness predicts follow-through."
+        - "Check confidence: her answer shows what she feels able to do, and you build the goal on that."
 
   - id: end-partial
     type: end

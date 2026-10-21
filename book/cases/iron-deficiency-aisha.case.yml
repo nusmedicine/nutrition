@@ -27,7 +27,7 @@ nodes:
     body: |
       Aisha, 24, has felt **tired for three months** and gets **breathless climbing
       stairs**. She looks a little pale. On gentle questioning, she mentions **heavy
-      periods** — *"I change protection very often"* — and a diet built around **noodles
+      periods** (*"I change protection very often"*) and a diet built around **noodles
       and bread**, with little red meat.
     next: q-notice
 
@@ -38,18 +38,18 @@ nodes:
       - id: a
         text: "Pallor plus heavy menstrual bleeding."
         correct: true
-        feedback: "Right — this pattern should make you think of iron deficiency: fatigue, pallor, exertional breathlessness and heavy periods are the classic picture."
+        feedback: "Fatigue, pallor, exertional breathlessness and heavy periods are the classic picture of iron deficiency."
         effects: { quality: +1 }
         goto: reveal-group
       - id: b
-        text: "Probably just stress and overwork — reassure her."
+        text: "Probably stress and overwork, so reassure her."
         correct: false
-        feedback: "Plausible on the surface, but it ignores a classic, recognisable pattern with a treatable cause."
+        feedback: "Stress is plausible on the surface, but it ignores a classic, recognisable pattern with a treatable cause."
         goto: reveal-group
       - id: c
         text: "She needs an urgent blood transfusion now."
         correct: false
-        feedback: "Over-escalation — and not the call to make here. Recognise the pattern and take the appropriate next step."
+        feedback: "Transfusion would be over-escalation, and it is not the call to make here. Recognise the pattern and take the appropriate next step."
         goto: reveal-group
 
   - id: reveal-group
@@ -59,71 +59,71 @@ nodes:
     body: |
       Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
       nearly **one in three** women aged 15–49 are anaemic, with iron deficiency the
-      leading cause — and **heavy menstrual bleeding** is a major driver. The *cause*
-      matters as much as the iron itself.
+      leading cause, and heavy menstrual bleeding is a major driver. The cause matters
+      as much as the iron itself.
     next: q-diet
 
   - id: q-diet
     type: mcq
-    stem: "Her diet is mostly **noodles and bread** with little meat. Why does that matter for her iron?"
+    stem: "Her diet is mostly noodles and bread with little meat. Why does that matter for her iron?"
     options:
       - id: a
-        text: "Plant (non-haem) iron is absorbed less well than the haem iron in meat and fish."
+        text: "Plant (non-haem) iron is absorbed less well than haem iron."
         correct: true
-        feedback: "Right — non-haem iron is poorly and variably absorbed, so a meat-light diet is a genuine risk factor. Pairing it with a vitamin-C food (and keeping tea/coffee away from meals) helps."
+        feedback: "Non-haem iron, from plants, is poorly and variably absorbed, whereas the haem iron in meat and fish is well absorbed, so a meat-light diet is a genuine risk factor."
         effects: { quality: +1 }
         goto: q-absorption
       - id: b
         text: "Plant foods contain no iron at all, so she is getting none."
         correct: false
-        feedback: "Plants do contain iron (non-haem) — the issue is that it's absorbed less efficiently, not that it's absent."
+        feedback: "Plants do contain iron, in the non-haem form; the problem is that it is absorbed less efficiently."
         goto: q-absorption
       - id: c
         text: "Refined bread and noodles are actually rich in well-absorbed iron."
         correct: false
-        feedback: "Refined staples are low in bioavailable iron; the well-absorbed *haem* form comes from meat and fish, which she eats little of."
+        feedback: "Refined staples are low in bioavailable iron; the well-absorbed haem form comes from meat and fish, which she eats little of."
         goto: q-absorption
 
   - id: q-absorption
     type: mcq
-    stem: "Alongside more iron-rich foods, which simple dietary tip helps her **absorb** iron?"
+    stem: "Alongside more iron-rich foods, which simple dietary tip helps her absorb iron?"
     options:
       - id: a
-        text: "Pair iron-rich foods with a source of vitamin C (e.g. fruit or vegetables)."
+        text: "Pair iron-rich foods with a vitamin C source, such as fruit."
         correct: true
-        feedback: "Correct — vitamin C enhances absorption of non-haem (plant) iron."
+        feedback: "Vitamin C increases the absorption of non-haem (plant) iron, so fruit or vegetables with an iron-rich meal help."
         effects: { quality: +1 }
         goto: q-action
       - id: b
         text: "Take the iron-rich meal with strong tea or coffee."
         correct: false
-        feedback: "The opposite — tannins in tea/coffee *reduce* iron absorption; better taken between meals."
+        feedback: "Tannins in tea and coffee reduce non-haem iron absorption, so these drinks are better taken between meals."
         goto: q-action
       - id: c
         text: "Avoid all vegetables, as they block iron."
         correct: false
-        feedback: "Not so — vegetables (and their vitamin C) help, and provide some iron themselves."
+        feedback: "Vegetables do not block iron: their vitamin C helps absorption, and they provide some iron themselves."
         goto: q-action
 
   - id: q-action
     type: mcq
-    stem: "What is the most **appropriate** action here?"
+    stem: "What is the most appropriate action here?"
     options:
       - id: a
         text: "Give food-first advice, then arrange testing and refer."
         correct: true
-        feedback: "Exactly — recognition → at-risk group → food-first advice (iron-rich foods + vitamin C) + refer for the menstrual cause and confirmatory testing."
+        feedback: "Recognise the pattern, name the at-risk group, give food-first advice (iron-rich foods with vitamin C), and refer for confirmatory testing and assessment of the heavy periods."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Start her on high-dose intravenous iron yourself."
         correct: false
-        feedback: "Dosing and treatment are beyond the scope here — signpost to clinical years and refer."
+        feedback: "Choosing and dosing iron treatment is beyond the scope at this stage (it belongs to the clinical years); the step here is to refer."
         goto: route
       - id: c
         text: "Tell her to take any multivitamin and come back in a year."
         correct: false
-        feedback: "Under-management — it misses the menstrual cause and delays appropriate assessment."
+        feedback: "A multivitamin and a year's wait is under-management: it misses the menstrual cause and delays assessment."
         goto: route
 
   - id: route
@@ -138,9 +138,9 @@ nodes:
     emotion: concerned
     title: "Back to the pattern"
     body: |
-      The reasoning missed the mark. Recall the move for a recognisable
-      deficiency: **recognise the pattern → name the at-risk group → food-first advice and
-      refer** — not full work-up, not over-escalation, not under-management.
+      For a recognisable deficiency, the sequence is: **recognise the pattern, name the
+      at-risk group, give food-first advice and refer**. A full work-up, over-escalation
+      and under-management are all off target at this stage.
     next: end-partial
 
   - id: end-good
@@ -150,24 +150,26 @@ nodes:
     body: |
       You recognised iron-deficiency anaemia, placed Aisha in the classic at-risk group,
       gave practical food-first advice, and arranged appropriate testing and referral for
-      the underlying cause.
+      the underlying cause. (For when and how to refer, see the
+      *Interprofessional Practice & Referral* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Fatigue + pallor + breathlessness + heavy periods → think iron deficiency."
-        - "Menstruating women are the classic at-risk group; address the cause, not just the iron."
-        - "The scope here is recognise → food-first advice → refer, not investigate or treat."
+        - "Fatigue, pallor, breathlessness and heavy periods suggest iron deficiency."
+        - "Menstruating women are the classic at-risk group; address the cause of the iron loss as well as the iron."
+        - "At this stage the task is to recognise, give food-first advice and refer for investigation and treatment."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Nearly there"
     body: |
-      You engaged with the case but the action wasn't quite right for this stage.
-      Replay and aim for recognise → at-risk group → food-first advice and referral.
+      You engaged with the case, but the action was not quite right for this stage.
+      Replay and aim for the sequence: recognise the pattern, name the at-risk group,
+      give food-first advice and refer.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Match the pattern to the likely deficiency before acting."
-        - "Food-first advice (iron + vitamin C) is within scope; dosing is not."
-        - "Recognise and refer — don't over- or under-treat."
+        - "Food-first advice (iron-rich foods with vitamin C) is within scope; dosing is not."
+        - "Recognise and refer; do not over- or under-treat."

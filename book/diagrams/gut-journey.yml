@@ -1,17 +1,12 @@
 id: gut-journey
-title: "Follow the food: a journey through the gut"
+title: "Follow the food through the gut"
 image: /figures/anatomy/digestive-apparatus.png
 imageBox: "0 0 665 2499"
 credit: "Illustration: Servier Medical Art (smart.servier.com), CC BY-SA 3.0."
-intro: >
-  Click each organ to see what happens to your meal there — how it is moved,
-  broken down, and (in the small intestine) absorbed. The tube runs from mouth
-  to anus; four accessory organs (salivary glands, liver, gallbladder, pancreas)
-  add their juices along the way.
 footnote: >
-  Recognition-level overview. Absorption sites for specific nutrients (iron, B12,
-  calcium) are detailed in the Micronutrients chapter; what the liver does with absorbed
-  nutrients is the Integrative Metabolism chapter; the gut microbiome is the Gut Microbiome chapter.
+  Recognition-level overview. The nutrients themselves (iron, B12, calcium) are covered in the Micronutrients,
+  Hydration & Electrolytes chapter, what the liver does with absorbed nutrients in the
+  Integrative Metabolism chapter, and the colon's microbes in the Gut Microbiome chapter.
 organs:
   - id: mouth
     name: "Mouth"
@@ -19,16 +14,16 @@ organs:
     hx: 200
     hy: 495
     hr: 100
-    what: "Teeth grind food and the tongue mixes it with saliva into a soft bolus you can swallow."
+    what: "Teeth grind food and the tongue mixes it with saliva into a soft bolus ready to swallow."
     secretes: "Salivary amylase begins digesting starch; a little lingual lipase starts on fat."
-    note: "Chewing is mechanical digestion — more chewing means more surface area for enzymes to work on."
+    note: "Chewing is mechanical digestion: more chewing means more surface area for enzymes to work on."
   - id: salivary-glands
     name: "Salivary glands"
     kind: accessory
     hx: 285
     hy: 545
     hr: 50
-    what: "Three pairs (parotid, submandibular, sublingual) release about 1–1.5 litres of saliva a day into the mouth."
+    what: "Three pairs (parotid, submandibular, sublingual) release about 1–1.5 L of saliva a day into the mouth."
     secretes: "Salivary amylase (starch), lingual lipase (fat), and mucus to lubricate the bolus."
   - id: oesophagus
     name: "Oesophagus"
@@ -36,7 +31,7 @@ organs:
     hx: 288
     hy: 850
     hr: 75
-    what: "A muscular conduit — no digestion here. Peristalsis (travelling waves of muscle) pushes the bolus down to the stomach."
+    what: "A muscular conduit that does no digesting. Peristalsis (travelling waves of muscle) pushes the bolus down to the stomach."
     note: "The lower oesophageal sphincter guards the entrance to the stomach; when it leaks, stomach acid rises and causes heartburn (reflux)."
   - id: stomach
     name: "Stomach"
@@ -44,10 +39,10 @@ organs:
     hx: 385
     hy: 1465
     hr: 112
-    what: "Stores, churns, and starts protein digestion. It empties over a few hours — a fatty or large meal empties more slowly."
+    what: "Stores, churns, and starts protein digestion. It empties over a few hours, and a fatty or large meal empties more slowly."
     secretes: "Parietal cells make hydrochloric acid (very acidic, pH ~1.5–3.5) plus intrinsic factor; chief cells make pepsin, which cuts protein into peptides."
     hormone: "Gastrin (from G cells) drives acid secretion; the acid then activates pepsin."
-    note: "The intrinsic factor made here is needed to absorb vitamin B12 much further along, in the ileum."
+    note: "The intrinsic factor made here is needed to absorb vitamin B12 much further along, at the terminal ileum."
   - id: liver
     name: "Liver"
     kind: accessory
@@ -55,7 +50,7 @@ organs:
     hy: 1360
     hr: 120
     what: "Continuously makes bile, and receives all the nutrient-rich blood draining from the gut through the portal vein."
-    secretes: "Bile — a detergent that emulsifies fat into tiny droplets so enzymes can reach it. (What the liver does with absorbed nutrients is the Integrative Metabolism chapter.)"
+    secretes: "Bile, a detergent that emulsifies fat into tiny droplets so enzymes can reach it."
   - id: gallbladder
     name: "Gallbladder"
     kind: accessory
@@ -64,27 +59,27 @@ organs:
     hr: 46
     what: "Stores and concentrates bile between meals, then squeezes it into the duodenum when a fatty meal arrives."
     hormone: "CCK (released by the duodenum when fat and protein arrive) is the signal that makes it contract."
-    note: "Losing weight very rapidly can trigger gallstones — one reason to aim for slow and steady."
+    note: "Losing weight very rapidly can trigger gallstones, one reason to aim for slow and steady weight loss."
   - id: pancreas
     name: "Pancreas"
     kind: accessory
     hx: 215
     hy: 1635
     hr: 60
-    what: "The digestive workhorse: it pours about 1.5 litres a day of enzyme- and bicarbonate-rich juice into the duodenum."
+    what: "The main source of digestive enzymes: it pours about 1.5 L a day of enzyme- and bicarbonate-rich juice into the duodenum."
     secretes: "Amylase, lipase (+colipase), and protein-cutting enzymes made in an inactive form; bicarbonate neutralises the acid arriving from the stomach."
     hormone: "Secretin triggers the bicarbonate 'antacid'; CCK triggers the enzymes."
-    note: "The protein enzymes are 'safety-locked' and only switched on once they reach the gut — so the pancreas does not digest itself."
+    note: "The protein enzymes are 'safety-locked' and switched on only once they reach the gut, so the pancreas does not digest itself."
   - id: small-intestine
     name: "Small intestine"
     kind: tube
     hx: 300
     hy: 2080
     hr: 150
-    what: "The main event (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes make the final cut, and nutrients are absorbed across a huge folded surface."
-    secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides) — the last snip before absorption."
+    what: "The main site of digestion and absorption (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes make the final cut, and nutrients are absorbed across a huge folded surface."
+    secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides), the last snip before absorption."
     absorbs: "Sugars and amino acids into portal blood; fats via micelles → chylomicrons → lymph. Iron is taken up in the duodenum; vitamin B12 (with intrinsic factor) and recycled bile salts at the terminal ileum."
-    note: "Folds × villi × microvilli give roughly 30 m² of surface — about half a badminton court (not the 'tennis court' many textbooks claim)."
+    note: "Folds, villi and microvilli give roughly 30 m² of surface, about half a badminton court; textbooks long claimed a tennis court."
   - id: large-intestine
     name: "Large intestine"
     kind: tube
@@ -92,4 +87,4 @@ organs:
     hy: 1980
     hr: 82
     what: "Reabsorbs water and electrolytes from what's left, compacts it into stool, and stores it until defecation."
-    note: "Resident bacteria ferment leftover fibre (and any undigested lactose, producing gas) — that story belongs to the Gut Microbiome chapter."
+    note: "Resident bacteria ferment leftover fibre and any undigested lactose, producing gas."

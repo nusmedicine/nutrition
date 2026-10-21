@@ -2,14 +2,11 @@
 # Schematic: teaches the SHAPE of bone accrual and the modifiable-vs-genetic split, not exact values.
 id: bone-window
 title: "The bone bank: a window that closes"
-intro: >-
-  Most of the bone you carry as an adult is banked in the few years around the pubertal growth spurt.
-  Scrub the age, then toggle the levers — watch the bank fill, then plateau for life.
 ageMin: 8
 ageMax: 25
 windowFrom: 11
 windowTo: 16
-# The lowest attainable peak (as % of the genetic ceiling) with no lifestyle support — i.e. lifestyle
+# The lowest attainable peak (as % of the genetic ceiling) with no lifestyle support; i.e. lifestyle
 # moves the balance across the band from here up to 100. Reflects the ~20-40% lifestyle-modifiable share.
 modifiableFloor: 70
 # Cumulative fraction of the ATTAINED peak reached by each age (interpolated). Steepest across the window.
@@ -31,26 +28,25 @@ levers:
     label: "Weight-bearing activity"
     weight: 0.40
     grade: "A"
-    why: "The strongest lever, and most powerful in early puberty — high-impact loading builds bone directly."
+    why: "The strongest lever, and most powerful in early puberty: high-impact loading builds bone directly."
   - key: calcium
     label: "Adequate calcium"
     weight: 0.35
     grade: "A"
-    why: "Grade-A for accrual — but food-first. A supplement helps a teen who is short of calcium, little if they already have enough."
+    why: "Grade A for accrual; food first. A supplement helps a teenager who is short of calcium, and adds little for one who already has enough."
   - key: vitd
     label: "Vitamin D sufficient"
     weight: 0.25
     grade: "B"
-    why: "Supports accrual, but supplements build bone only in the deficient — not in the already-replete."
+    why: "Supports accrual, but supplements build bone only in children who are deficient, not in those already replete."
 threat:
   key: lowEA
   label: "Low energy availability / periods stopped"
   # Retained-fraction penalty: low energy availability shaves (1 - cap) off the attainable peak, so the
   # permanent deficit shows whatever the lever state (even with no builders active).
   cap: 0.82
-  why: "Under-fuelling (dieting or over-training) drops oestrogen and stalls accrual — it shaves the ceiling for life, whatever else you do. Recognise and refer."
+  why: "Under-fuelling (dieting or over-training) lowers oestrogen and stalls accrual, and the loss can be permanent whatever the other levers do. Recognise and refer."
 note: >-
   Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded
-  band, and the levers show the payoff of reaching adequacy — a child already getting enough gains little
-  from more. The window largely closes by the early twenties.
-credit: "Schematic — teaches the shape of accrual, not exact values. Grounded in Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."
+  band. The window largely closes by the early twenties.
+credit: "Schematic: shows the shape of accrual, not exact values. Based on Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."

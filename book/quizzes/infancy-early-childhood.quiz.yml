@@ -2,105 +2,105 @@ id: infancy-early-childhood
 title: "Quick check: infancy & early childhood"
 questions:
   - id: q1
-    stem: "A mother is exclusively breastfeeding her healthy newborn. Which routine **supplement** does the baby need?"
+    stem: "A mother is exclusively breastfeeding her healthy newborn. Which routine supplement does the baby need?"
     options:
       - text: "Vitamin D, 400 IU/day from birth"
         correct: true
-        feedback: "Correct. Breast milk is low in vitamin D, so all breastfed infants need 400 IU/day from birth. Breast milk is a near-complete food with specific gaps: vitamin D (daily supplement), vitamin K (injection at birth), and iron (from iron-rich solids ~6 months)."
+        feedback: "Breast milk is low in vitamin D, so every breastfed or partially breastfed infant needs 400 IU/day from birth. Its other two gaps are filled differently: vitamin K by an injection at birth, and iron by iron-rich solids from about 6 months."
       - text: "Iron drops from birth"
         correct: false
-        feedback: "Not from birth — a term baby's iron stores last ~6 months; iron then comes from iron-rich first foods, not drops from birth. The routine supplement is vitamin D."
-      - text: "None — if she's breastfeeding, the milk has everything"
+        feedback: "A term baby's iron stores last about 6 months, and iron then comes from iron-rich first foods, not drops from birth. The routine supplement is vitamin D."
+      - text: "None, as breast milk has everything"
         correct: false
-        feedback: "A common belief, but breast milk is low in vitamin D and vitamin K specifically. All breastfed infants need 400 IU/day vitamin D and a vitamin-K injection at birth."
+        feedback: "Many assume breast milk has everything, but it is low in vitamin D and vitamin K specifically. Every breastfed infant needs 400 IU/day of vitamin D and a vitamin K injection at birth."
 
   - id: q2
-    stem: "Which statement about the **evidence** for breastfeeding is the most accurate?"
+    stem: "Which statement about the evidence for breastfeeding is the most accurate?"
     options:
       - text: "The benefits are real but specific, not a blanket halo"
         correct: true
-        feedback: "Correct — state benefits with their caveats. The cleanest trial (PROBIT) showed less gut infection and eczema but no reduction in respiratory infection, and the obesity link is a modest association, not proof. PROBIT's respiratory-infection null and the confounded obesity/IQ associations are the accurate picture."
+        feedback: "The cleanest trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is a modest association, not proof. State the benefits with their caveats."
       - text: "Breastfeeding dramatically raises IQ and prevents obesity and most infections"
         correct: false
-        feedback: "Overstated. The IQ effect is small and mostly faded by adolescence; the obesity association is confounded; and protection is specific (GI/eczema yes, respiratory no)."
+        feedback: "Each claim goes beyond the evidence: the IQ effect is small and mostly faded by adolescence, the obesity link is an association, not proof, and the protection is specific (gut infection and eczema, not respiratory infection)."
       - text: "Formula is just as good, so breastfeeding makes no difference"
         correct: false
-        feedback: "Also wrong — PROBIT showed genuine reductions in GI infection and eczema. The point is calibration: real, specific benefits, not a halo."
+        feedback: "PROBIT showed reductions in gut infection and eczema, so breastfeeding does make a difference. The benefits are real and specific."
 
   - id: q3
-    stem: "Parents ask when to introduce **peanut and egg** to their 5-month-old. Best advice?"
+    stem: "Parents ask when to introduce peanut and egg to their 5-month-old. Best advice?"
     options:
       - text: "Introduce them early, once solids start"
         correct: true
-        feedback: "Correct — the LEAP/EAT reversal. Offer smooth peanut butter and well-cooked egg once solids start; delaying now increases allergy risk, and high-risk infants (severe eczema/egg allergy) should be referred for guided peanut introduction. Early oral exposure induces tolerance; sensitisation happens through inflamed skin. Don't over-apply LEAP's ~80% to all babies — it studied high-risk infants."
+        feedback: "Early oral exposure builds tolerance, whereas sensitisation happens through inflamed skin, and the LEAP and EAT trials reversed the old advice to delay. Smooth peanut butter and well-cooked egg are therefore offered once solids start; delaying now increases allergy risk. Refer high-risk infants (severe eczema or egg allergy) for guided peanut introduction; LEAP's ~80% figure comes from those infants, not from all babies."
       - text: "Delay all allergens until 12 months to be safe"
         correct: false
-        feedback: "This is the outdated, now-harmful advice. Early introduction in the 4–6-month window *prevents* allergy; withholding does harm."
+        feedback: "Delay was the advice for years, and the trials reversed it: early introduction in the 4–6-month window prevents allergy, so withholding peanut and egg gives up that protection."
       - text: "Give whole peanuts and boiled egg white daily from now"
         correct: false
-        feedback: "Right idea (early), wrong form — **whole peanuts are a choking hazard**; use smooth peanut butter. Introduce well-cooked egg."
+        feedback: "The timing is right but the form is not: whole peanuts are a choking hazard, so peanut goes in as smooth peanut butter, alongside well-cooked egg."
 
   - id: q4
-    stem: "Why do complementary foods begin **around six months**, and what should the first foods be?"
+    stem: "Why do complementary foods begin at about 6 months, and what should the first foods be?"
     options:
       - text: "Because iron stores run low, so first foods should be iron-rich"
         correct: true
-        feedback: "Correct — iron leads. A term baby's iron stores run low at ~6 months, so first foods should be iron-rich (and zinc-rich): fortified cereal, minced meat, egg, legumes — no added salt or sugar. Watch readiness cues too (sits with support, head control, lost tongue-thrust, reaches for food); \"about 6 months\" has a 4-month floor for the ready infant."
+        feedback: "A term baby's iron stores run low at about 6 months, so first foods should be rich in iron (and zinc): fortified cereal, minced meat, egg and legumes, with no added salt or sugar. Readiness signs (sitting with support, head control, loss of the tongue-thrust reflex, reaching for food) set the individual start, with a 4-month floor."
       - text: "Because milk stops being nutritious at 6 months, so any solids will do"
         correct: false
-        feedback: "Milk stays valuable well into the second year — the driver is iron-store depletion, so the *first foods* specifically need to be iron-rich."
+        feedback: "Milk stays valuable well into the second year; the driver is iron-store depletion, so the first foods specifically need to be iron-rich."
       - text: "Start with fruit purée, since babies prefer sweet tastes"
         correct: false
-        feedback: "Fruit purée misses the iron point (and reinforces sweet preference). First foods should be iron-rich; keep added sugar out."
+        feedback: "Fruit purée misses the iron point (and reinforces a sweet preference). First foods should be iron-rich; keep added sugar out."
 
   - id: q5
-    stem: "When can **cow's milk** become a baby's **main drink**?"
+    stem: "When can cow's milk become a baby's main drink?"
     options:
       - text: "Around 12 months"
         correct: true
-        feedback: "Correct. Before ~12 months cow's milk is iron-poor and causes occult gut blood loss, risking iron deficiency; but small amounts of yogurt/cheese as foods are fine from ~6 months. Distinguish 'main drink' (wait to ~12 months) from 'dairy foods' (fine from ~6 months). Toddler/'growing-up' milks after 12 months are unnecessary; plain full-fat cow's milk suffices."
-      - text: "From 6 months, once solids start — it's a healthy food"
+        feedback: "Before about 12 months, cow's milk is iron-poor and causes occult gut blood loss, risking iron deficiency, so it waits as the main drink; small amounts of yoghurt or cheese as foods are fine from about 6 months. After 12 months plain full-fat cow's milk suffices, and toddler ('growing-up') milks are unnecessary."
+      - text: "From 6 months, once solids start"
         correct: false
-        feedback: "As a *main drink* it's too early: cow's milk is iron-poor and causes occult GI blood loss in infancy. Yogurt/cheese in small amounts are fine, but not cow's milk as the drink."
+        feedback: "As a *main drink* it is too early: cow's milk is iron-poor and causes occult gut blood loss in infancy. Small amounts of yoghurt or cheese are fine as foods, but cow's milk waits as the drink."
       - text: "Never before 2 years"
         correct: false
-        feedback: "Too cautious — cow's milk is fine as the main drink from ~12 months. The concern is specifically the under-12-month period."
+        feedback: "Cow's milk is fine as the main drink from about 12 months; the concern is specifically the first year."
 
   - id: q6
-    stem: "A grandmother wants to add **a little honey** to a 7-month-old's porridge. What do you advise?"
+    stem: "A grandmother wants to add a little honey to a 7-month-old's porridge. What do you advise?"
     options:
       - text: "No honey before 12 months"
         correct: true
-        feedback: "Correct — spores of *Clostridium botulinum* can colonise the immature infant gut and produce toxin (infant botulism). Worth explaining the mechanism kindly: the immature gut lacks the protective flora that stops the spores colonising. After 12 months it's fine."
+        feedback: "Spores of *Clostridium botulinum* in honey can colonise the immature infant gut, which lacks the protective gut microbes that stop them, and produce toxin (infant botulism). Explaining the mechanism kindly helps; after 12 months honey is fine."
       - text: "A small amount is fine for energy and taste"
         correct: false
-        feedback: "No — even small amounts of honey risk infant botulism under 12 months. This is a firm do-no-harm rule."
+        feedback: "Even small amounts of honey risk infant botulism under 12 months, so this is a firm do-no-harm rule."
       - text: "Only manuka honey is unsafe; ordinary honey is fine"
         correct: false
-        feedback: "All honey can carry the spores — the rule is no honey of any kind before 12 months."
+        feedback: "All honey can carry the spores, so the rule covers honey of any kind before 12 months."
 
   - id: q7
     stem: "A toddler refuses vegetables he ate happily last month. His parents ask what to do."
     options:
       - text: "Reassure them it's a normal phase; keep offering calmly without forcing"
         correct: true
-        feedback: "Correct — this neophobic phase is normal and usually passes; keep offering the food calmly (~8–15 low-pressure tries) without forcing, because pressure backfires. Division of responsibility: the parent decides what/when/where, the child decides whether/how much. Repeated low-pressure exposure works; 'finish your plate' is linked to *more* fussiness."
+        feedback: "Food neophobia is a normal phase that usually passes, and acceptance comes from calm, repeated offering (about 8–15 low-pressure tries). Under the division of responsibility the parent decides what, when and where, and the child decides whether and how much; pressure to finish is linked to more fussiness."
       - text: "Insist he finishes his plate at every meal so he learns to eat vegetables"
         correct: false
-        feedback: "Pressure is counter-productive — it's associated with more fussiness, not less. Offer repeatedly and calmly instead."
+        feedback: "Pressure is counter-productive: it is associated with more fussiness, not less. Offer the vegetable repeatedly and calmly instead."
       - text: "Stop offering the vegetable to avoid mealtime conflict"
         correct: false
-        feedback: "Giving up too early is the other error — acceptance often takes 8–15 exposures. Keep offering without pressure."
+        feedback: "Acceptance often takes 8–15 exposures, so stopping after a few refusals ends the process too early. Keep offering without pressure."
 
   - id: q8
-    stem: "Which best captures the **choking** risk in weaning?"
+    stem: "Which best captures the choking risk while an infant learns to eat solids?"
     options:
-      - text: "It's mainly about food form, so modify the shape rather than ban the food"
+      - text: "It's mainly about food form, so change the shape instead of banning the food"
         correct: true
-        feedback: "Correct. The same peanut is a hazard whole but safe as smooth butter, and grapes should be quartered. Choking is a food-form issue (a third of all infants gag or choke a little while learning, whichever feeding method is used). Modify shapes; avoid whole nuts/grapes/hard chunks to ~4 years."
+        feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of all infants gag or choke a little while learning, whichever method is used, so the fix is the shape: no whole nuts, whole grapes or hard chunks before about 4 years."
       - text: "Baby-led weaning causes choking, so purées are always safer"
         correct: false
-        feedback: "Not so — modified baby-led weaning is no worse than spoon-feeding on choking; the risk is food *form*, not the method."
+        feedback: "Modified baby-led weaning is no worse than spoon-feeding on choking; the risk lies in food form, not the method."
       - text: "If a baby gags, it means they're choking and you should intervene immediately"
         correct: false
-        feedback: "Gagging is a normal, protective reflex that's common while learning textures — distinct from true choking. Learn to tell them apart rather than avoiding textures."
+        feedback: "Gagging is a normal, protective reflex that is common while textures are learned, and it is distinct from true choking. Parents learn to tell the two apart instead of avoiding textures."

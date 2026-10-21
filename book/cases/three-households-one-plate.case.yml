@@ -1,9 +1,9 @@
 id: three-households-one-plate
 title: "Three households, one plate"
 objectives:
-  - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting to each cuisine rather than imposing a foreign diet."
-  - "Tackle the two biggest local gaps — too little wholegrain and too much free sugar/salt — with practical swaps."
-  - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the right chapter."
+  - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting to each cuisine instead of imposing a foreign diet."
+  - "Tackle the two biggest local gaps, too little wholegrain and too much free sugar and salt, with practical swaps."
+  - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the Evidence vs Hype chapter."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, guidelines, patterns, singapore, counselling]
@@ -15,7 +15,7 @@ persona:
   age: 34
   sex: female
   occupation: "community health nurse"
-  presentation: "Runs a neighbourhood health-screening booth and asks you to help three families — a Chinese, a Malay and an Indian household — eat 'more healthily' using My Healthy Plate. Each brings its own habitual dinner and its own worries."
+  presentation: "Runs a neighbourhood health-screening booth and asks you to help three families (a Chinese, a Malay and an Indian household) eat 'more healthily' using My Healthy Plate. Each brings its own habitual dinner and its own worries."
   voice: "Practical and warm; wants advice the families can actually keep; gently pushes back on anything that sounds like an imposed 'diet'."
 
 nodes:
@@ -24,11 +24,10 @@ nodes:
     emotion: neutral
     title: "\"Same plate, three kitchens\""
     body: |
-      Nurse Farah sets you up at the booth. "One target — quarter, quarter, half — but three
-      very different kitchens. Don't hand anyone a diet from a textbook; help each family fix
-      **their own** dinner." Three households are waiting. Adapt My Healthy Plate to each, and
-      watch for the two gaps that show up again and again: **not enough wholegrain**, and **too
-      much sugary drink and salt**.
+      Nurse Farah sets you up at the booth. "One target: quarter, quarter, half. But three very
+      different kitchens. Don't hand anyone a diet from a textbook; help each family fix their own
+      dinner." Three households are waiting. Adapt My Healthy Plate to each, and watch for the two
+      gaps that show up again and again: not enough wholegrain, and too much sugary drink and salt.
     next: q-chinese
 
   - id: q-chinese
@@ -37,21 +36,21 @@ nodes:
     stem: "**Chen household (Chinese).** Dinner is a big bowl of white rice, sweet-and-sour pork, a little garnish of vegetables, and a canned soft drink. What's your first move with My Healthy Plate?"
     options:
       - id: a
-        text: "\"Some brown rice, half the plate stir-fried greens, steamed fish, and plain water instead of the soft drink.\""
+        text: "\"Some brown rice, greens filling half the plate, steamed fish and plain water.\""
         correct: true
-        feedback: "Right — you kept it Chinese and hit all four slots: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two highest-yield local moves."
+        feedback: "Brown rice, greens, steamed fish and water keep the dinner Chinese and hit all four slots: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two highest-yield local moves."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-malay
       - id: b
-        text: "\"Cut out all rice and carbs — go low-carb, that's the healthiest.\""
+        text: "\"Cut out all rice and carbs: go low-carb, that's the healthiest.\""
         correct: false
-        feedback: "This throws out protective wholegrains and fibre along with the refined rice, and it abandons the family's staple entirely. My Healthy Plate keeps a wholegrain quarter — it's about *type and proportion*, not banning carbs."
+        feedback: "This throws out protective wholegrains and fibre along with the refined rice, and it abandons the family's staple entirely. My Healthy Plate keeps a wholegrain quarter: it's about type and proportion, not banning carbs."
         goto: q-malay
       - id: c
-        text: "\"Switch the family to a Mediterranean diet — olive oil, fish, salads every day.\""
+        text: "\"Switch the family to a Mediterranean diet: olive oil, fish and salads every day.\""
         correct: false
-        feedback: "Patterns are principles to *adapt*, not menus to *impose*. A family that eats Chinese food won't keep a Mediterranean menu — and they don't need to. The same quarter-quarter-half target is reachable with brown rice, greens and steamed fish."
+        feedback: "Patterns are principles to adapt, not menus to impose. A family that eats Chinese food won't keep a Mediterranean menu, and they don't need to. The same quarter-quarter-half target is reachable with brown rice, greens and steamed fish."
         goto: q-malay
 
   - id: q-malay
@@ -60,67 +59,67 @@ nodes:
     stem: "**Rahim household (Malay).** They eat *nasi padang*: a heaped scoop of white rice soaked in coconut gravy, fried chicken (*ayam goreng*), and a sweet *bandung*. How do you shift this toward the plate?"
     options:
       - id: a
-        text: "\"More vegetables (sayur, ulam), a smaller rice scoop with less gravy, grilled *ikan bakar* over fried chicken, and teh-o kosong.\""
+        text: "\"More vegetables, less rice and gravy, grilled *ikan bakar* and teh-o kosong.\""
         correct: true
-        feedback: "Exactly — every swap stays within nasi padang. Grilled over fried, vegetables to half, a modest rice scoop, and dropping the sweet drink. Wholegrain rice is rarely offered here, so portion and the vegetable half do the work."
+        feedback: "Every swap stays within nasi padang: grilled over fried, vegetables (sayur, ulam) to half, a modest rice scoop with less gravy and no sweet drink. Wholegrain rice is rarely offered here, so portion and the vegetable half do the work."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-indian
       - id: b
         text: "\"Tell them nasi padang is unhealthy and they should stop eating it.\""
         correct: false
-        feedback: "Condemning the cuisine won't survive contact with the family table — and it isn't necessary. The dishes can be rebalanced: more vegetables, grilled not fried, less gravy, a plain drink."
+        feedback: "Condemning the cuisine won't survive contact with the family table, and it isn't necessary: the dishes can be rebalanced with more vegetables, grilled not fried, less gravy and a plain drink."
         goto: q-indian
       - id: c
         text: "\"Just tell them to take a smaller portion of everything.\""
         correct: false
-        feedback: "Shrinking the whole plate keeps the same lopsided ratio — still mostly rice and fried protein, still a sweet drink. The point is to change the *proportions* (more veg, grilled protein, plain drink), not only the size."
+        feedback: "Shrinking the whole plate keeps the same lopsided ratio: still mostly rice and fried protein, still a sweet drink. The proportions need to change (more vegetables, grilled protein, a plain drink) as well as the size."
         goto: q-indian
 
   - id: q-indian
     type: mcq
     emotion: skeptical
-    stem: "**Devan household (Indian, vegetarian).** They worry: *\"We don't eat meat — so we can't get enough protein, right?\"* Their dinner is a large naan, a small vegetable subji, and a sweet mango lassi."
+    stem: "**Devan household (Indian, vegetarian).** They worry: *\"We don't eat meat, so we can't get enough protein, right?\"* Their dinner is a large naan, a small vegetable subji, and a sweet mango lassi. What do you say?"
     options:
       - id: a
-        text: "\"Legumes are your protein — build around dhal or chana, swap the naan for wholemeal chapati, make the subji fill half, and go easy on the lassi.\""
+        text: "\"Dhal or chana is your protein; chapati in place of naan, more subji, a plainer drink.\""
         correct: true
-        feedback: "Right — you corrected the myth and rebuilt the plate in their own food: legumes as protein (dhal, chana), a wholemeal staple, a proper vegetable half, and a plainer drink. Vegetarian isn't protein-free, and legumes bring fibre too."
+        feedback: "Vegetarian isn't protein-free: legumes (dhal, chana) are the protein quarter and bring fibre too. The rest of the plate is rebuilt in the family's own food: a wholemeal chapati in place of naan, a subji filling half the plate, and a plainer drink than mango lassi."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-predimed
       - id: b
-        text: "\"You're right — vegetarians can't get enough protein, so start eating chicken.\""
+        text: "\"You're right: vegetarians can't get enough protein, so start eating chicken.\""
         correct: false
-        feedback: "Not so — legumes (dhal, chana), dairy and soy fill the protein quarter well. There's no need to abandon a vegetarian diet; adapt it instead."
+        feedback: "Legumes (dhal, chana), dairy and soy fill the protein quarter well, so there's no need to abandon a vegetarian diet; adapt it instead."
         goto: q-predimed
       - id: c
-        text: "\"Protein doesn't matter much — just eat more naan and rice to stay full.\""
+        text: "\"Protein doesn't matter much: just eat more naan and rice to stay full.\""
         correct: false
-        feedback: "This skips the protein quarter *and* leans on refined starch. The fix is to add legumes as protein and move the staple toward wholemeal, not to fill up on more white rice and naan."
+        feedback: "This skips the protein quarter and leans on refined starch. The fix is to add legumes as protein and move the staple toward wholemeal, not to fill up on more white rice and naan."
         goto: q-predimed
 
   - id: q-predimed
     type: mcq
     emotion: skeptical
-    stem: "**Mr Chen's brother** overhears and jumps in: *\"But PREDIMED proved the Mediterranean diet prevents heart attacks — guaranteed. Everyone should just do that.\"* He has borderline-high blood pressure. What do you say?"
+    stem: "**Mr Chen's brother** overhears and jumps in: *\"But PREDIMED proved the Mediterranean diet prevents heart attacks, guaranteed. Everyone should just do that.\"* He has borderline-high blood pressure. What do you say?"
     options:
       - id: a
-        text: "\"It's a strong pattern, but read the trial honestly — it can't 'guarantee' anyone's outcome. You'll learn to weigh claims like this properly later.\""
+        text: "\"It's a strong pattern, but the trial can't 'guarantee' anyone's outcome.\""
         correct: true
-        feedback: "Exactly — benefit *with* its caveats: the ~30% was a relative (not absolute) reduction on a stroke-dominated composite, heart attack and cardiac death weren't individually significant, and the trial was retracted and re-published. You gave a balanced answer and signposted that appraising such claims is a skill taught in the Evidence vs Hype chapter."
+        feedback: "The benefit comes with its caveats: the ~30% was a relative (not absolute) reduction on a stroke-dominated composite, heart attack and cardiovascular death weren't individually significant, and the trial was retracted and re-published. Appraising claims like this is a skill of its own (see the *Evidence vs Hype* chapter)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
-        text: "\"Yes — PREDIMED proves it, so the Mediterranean diet will prevent his heart attack.\""
+        text: "\"Yes, PREDIMED proves it, so the Mediterranean diet will prevent your heart attack.\""
         correct: false
         feedback: "This overclaims on every axis: it treats a relative reduction as an absolute guarantee, a stroke-dominated composite as 'heart attacks prevented', and ignores that the trial was retracted and re-published. Never quote a benefit without its caveat."
         goto: route
       - id: c
-        text: "\"PREDIMED was retracted, so ignore it — the Mediterranean diet is useless.\""
+        text: "\"PREDIMED was retracted, so ignore it: the Mediterranean diet is useless.\""
         correct: false
-        feedback: "The opposite overreaction. It was retracted *and re-published* with a reanalysis that upheld the headline, and observational data broadly agree. The accurate position is a genuine benefit stated with its limits — not dismissal."
+        feedback: "The opposite overreaction. The trial was retracted and re-published with a reanalysis that upheld the headline, and observational data broadly agree. The accurate position is a real benefit stated with its limits, not dismissal."
         goto: route
 
   - id: route
@@ -135,32 +134,32 @@ nodes:
     emotion: concerned
     title: "One target, adapted three ways"
     body: |
-      The thread runs through all three kitchens: **adapt the plate to the food**, don't impose
+      The thread runs through all three kitchens: adapt the plate to the food, don't impose
       a foreign diet or ban a cuisine. Rebuild each dinner to quarter-quarter-half with the
       family's own dishes, target the two real gaps (wholegrains and sugary drinks/salt), and
-      when you cite a trial like PREDIMED, state the benefit **with** its caveats.
+      when you cite a trial like PREDIMED, state the benefit with its caveats.
     next: end-partial
 
   - id: end-good
     type: end
     outcome: success
-    title: "Same plate, three kitchens — done well"
+    title: "Same plate, three kitchens: done well"
     body: |
       You rebuilt a Chinese, a Malay and an Indian dinner to the *same* My Healthy Plate target
-      using each family's own food — brown rice and steamed fish, grilled *ikan bakar* and more
-      *ulam*, dhal and wholemeal chapati — hit the two biggest local gaps (wholegrains, sugary
-      drinks), and corrected the "vegetarian = no protein" myth. When PREDIMED came up, you cited
-      it fairly: a relative reduction on a stroke-dominated composite, from a re-published
-      trial, not a personal guarantee. *(How to appraise such claims in depth is the work of the
-      Evidence vs Hype chapter; how to run the change conversation is the Behaviour-Change
-      Counselling chapter.)*
+      using each family's own food (brown rice and steamed fish, grilled *ikan bakar* and more
+      *ulam*, dhal and wholemeal chapati), pulled the two biggest local levers (wholegrains,
+      sugary drinks), and addressed the belief that vegetarian means no protein. When PREDIMED
+      came up, you cited it fairly: a relative reduction on a stroke-dominated composite, from a
+      re-published trial, not a personal guarantee. (Appraising such claims in depth is covered in
+      the *Evidence vs Hype* chapter, and running the change conversation in the
+      *Behaviour-Change Counselling* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "One target (quarter-quarter-half), three cuisines — adapt the plate to the food, never impose a foreign diet or ban a cuisine."
+        - "One target (quarter-quarter-half), three cuisines: adapt the plate to the food, never impose a foreign diet or ban a cuisine."
         - "The two highest-yield local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
-        - "Legumes are a full protein quarter — vegetarian does not mean protein-deficient."
-        - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the appraisal chapter."
+        - "Legumes are a full protein quarter; vegetarian does not mean protein-deficient."
+        - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the Evidence vs Hype chapter."
 
   - id: end-partial
     type: end
@@ -168,12 +167,12 @@ nodes:
     title: "Most of the way"
     body: |
       You helped the families but drifted toward banning a cuisine, imposing an unfamiliar diet,
-      or overstating a trial on at least one turn. Replay and, for each household, rebuild *their*
-      dinner to quarter-quarter-half — and when a trial comes up, pair the headline with its
+      or overstating a trial on at least one turn. Replay and, for each household, rebuild their
+      dinner to quarter-quarter-half, and when a trial comes up, pair the headline with its
       caveat.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Adapt My Healthy Plate to each cuisine; don't prescribe a foreign pattern or condemn the family's food."
         - "Target the two real local gaps: more wholegrains, fewer sugary drinks and less salt."
-        - "State a trial's benefit together with its caveat — a headline alone is how hype starts."
+        - "State a trial's benefit together with its caveat: a headline alone is how hype starts."
