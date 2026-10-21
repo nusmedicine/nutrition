@@ -3,6 +3,7 @@
   import yaml from 'js-yaml';
   import { md, mdInline } from './lib/md.js';
   import { load, save } from './lib/store.js';
+  import { stableShuffle } from './lib/shuffle.js';
 
   let { src } = $props();
 
@@ -50,7 +51,7 @@
       <div class="q">
         <p class="stem">{qi + 1}. {@html mdInline(q.stem)}</p>
         <div class="opts" role="group" aria-label={'Question ' + (qi + 1) + ' options'}>
-          {#each q.options as o, oi}
+          {#each stableShuffle(q.options, quiz.id + ':' + q.id) as { item: o, index: oi }}
             {@const answered = answers[q.id] != null}
             {@const chosen = answers[q.id] === oi}
             <button type="button" onclick={() => pick(q.id, oi)} disabled={answered}

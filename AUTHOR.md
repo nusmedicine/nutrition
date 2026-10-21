@@ -689,7 +689,10 @@ Interestingly, Ultimately, Overall, In summary, In conclusion, It is important t
 #### Island data (quizzes, cases, diagrams)
 
 - **MCQ options** carry no bold and are about the same length; trim the correct option to a short parallel
-  statement and move the rationale into its feedback (never pad distractors).
+  statement and move the rationale into its feedback (never pad distractors). Option order in the YAML does
+  not matter: `Quiz` and `CasePlayer` show options in a stable shuffled order per question
+  (`components/src/lib/shuffle.js`, seeded by quiz/case id + question id), so never write "all of the above"
+  or refer to an option by position.
 - **Feedback starts with the explanation**, not with "Right." or "Correct!". The component already shows
   whether the answer was correct.
 - **Wrong-answer feedback names the misconception and gives the mechanism**, without scolding.

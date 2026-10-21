@@ -7,6 +7,7 @@
   import { patientConfig } from './lib/config.js';
   import { patientSystemPrompt, evaluatorMessages, callPatient, callEvaluator, parsePatientReply } from './lib/patient.js';
   import { resolveAsset } from './lib/base.js';
+  import { stableShuffle } from './lib/shuffle.js';
 
   let { src } = $props();
 
@@ -228,7 +229,7 @@
       {:else if n.type === 'mcq'}
         <h3 class="nt stem" tabindex="-1" bind:this={titleEl}>{@html mdInline(n.stem)}</h3>
         <div class="opts" role="group" aria-label="Answer options">
-          {#each n.options as o}
+          {#each stableShuffle(n.options, def.id + ':' + n.id) as { item: o } (o.id)}
             <button type="button" onclick={() => choose(o.id)} disabled={!!state.pending}
               class="opt {state.pending ? (o.id === state.pending ? 'chosen ' + (o.correct ? 'correct' : 'incorrect') : (o.correct ? 'correct' : '')) : ''}">
               {@html mdInline(o.text)}{#if state.pending && (o.id === state.pending || o.correct)}<span class="tag">{o.correct ? 'Correct' : 'Reconsider'}</span>{/if}
