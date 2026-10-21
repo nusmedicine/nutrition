@@ -1,6 +1,6 @@
 # Adulthood: working life & activity
 
-> *In the working decades, growth is finished, and the body's task becomes maintenance: keeping
+> *In the working decades, growth is finished, and the nutritional priority becomes maintenance: keeping
 > muscle and holding weight steady while work, the hawker centre and the clock shape most meals.
 > Midlife weight gain is usually blamed on a slowing metabolism, but size-adjusted energy expenditure
 > barely changes in these years; the levers are activity, muscle, the food environment and a few small
@@ -10,7 +10,7 @@
 ## Learning objectives
 - Explain why a slowing metabolism accounts for little of midlife weight gain, and what drives adult
   weight creep instead.
-- Explain why protein defends muscle only alongside resistance exercise, and state the protein range
+- Explain why protein maintains muscle mass only alongside resistance exercise, and state the protein range
   for an active adult.
 - Match exercise fuelling and hydration to the training load, recognising when ordinary food and
   water are enough.
@@ -27,11 +27,11 @@
 
 - [What's changing inside: maintenance, metabolism and muscle](#sec-adult-inside)
   - [Does metabolism slow down in midlife?](#sec-adult-metabolism): size-adjusted expenditure steady from about 20 to 60
-  - [Defending muscle: resistance exercise and protein](#sec-adult-muscle): two levers that work together
-- [What's changing outside: activity, the hawker plate and alcohol](#sec-adult-outside)
+  - [Maintaining muscle mass: resistance exercise and protein](#sec-adult-muscle): two factors that work together
+- [What's changing outside: activity, the food environment and alcohol](#sec-adult-outside)
   - [Fuelling everyday exercise](#sec-adult-fuelling): ordinary food and water for most adults
   - [The working-life food environment](#sec-adult-food-environment): eating out, shift work, stress and sleep
-  - [Alcohol: the message that changed](#sec-adult-alcohol): no established safe level
+  - [Alcohol: cancer and cardiovascular risk](#sec-adult-alcohol): no established safe level
 - [Recognising trouble, and when to refer](#sec-adult-refer)
 :::
 
@@ -47,7 +47,7 @@ As at every life stage, the changes fall into two groups:
 
 | Driver | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | Growth is over, so the task is maintenance: defending muscle against a slow drift, through decades in which the metabolism holds steady |
+| Internal drivers (inside the body) | Growth is over, so the task is maintenance: maintaining muscle mass against a slow decline, through decades in which the metabolism holds steady |
 | External levers (life and environment) | The working-life food environment (the hawker meal, shift work, stress, time scarcity and alcohol) and physical activity, which for the everyday active adult needs far less special fuelling than online advice suggests |
 
 Set a realistic training week in the dial below and see how rarely it calls for more than ordinary
@@ -75,21 +75,21 @@ targets a cause that is not there. Activity alone, however, is a fairly weak lev
 once excess has accumulated, so preventing the surplus works better than trying to out-exercise it
 later (the clearest data are in women) [@lee2010pawomen].
 
-### Defending muscle: resistance exercise and protein {#sec-adult-muscle}
+### Maintaining muscle mass: resistance exercise and protein {#sec-adult-muscle}
 
 Adulthood is about keeping the muscle that growth built. Muscle mass is fairly stable from the late
 teens to about 60, drifting down only slowly, and strength fades faster than size
 [@mitchell2012sarcopenia]. The popular "you lose 1% a year from thirty" overstates the mid-adult loss,
 but the direction is real. These decades are therefore the window to build a reserve before the
-steeper losses of older age (see the *Healthy Ageing* chapter). Muscle is also the body's main destination for
-glucose after a meal [@merz2020muscleinsulin], so keeping muscle protects metabolic health upstream
+steeper losses of older age (see the *Healthy Ageing* chapter). Muscle is also the main site of glucose
+disposal after a meal [@merz2020muscleinsulin], so keeping muscle protects metabolic health upstream
 (for the mechanism, see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
 
-Two levers defend muscle, and the second depends on the first. **Resistance exercise**
+Two factors maintain muscle mass, and the second depends on the first. **Resistance exercise**
 (muscle-strengthening exercise against a load) is the necessary stimulus: as little as two sessions a
 week meaningfully preserves muscle, and regular muscle-strengthening is linked to lower risk of death
 and major chronic disease [@schoenfeld2017rtvolume; @momma2022strengthmortality]. Protein is the second
-lever, but without that stimulus it does little.
+factor, but without that stimulus it does little.
 
 The adult protein reference is the **Recommended Dietary Allowance (RDA)**, a population reference
 intake that is adequate for nearly all healthy adults: about 0.8 g/kg/day (see the
@@ -124,7 +124,7 @@ without that stimulus does little. Once the stimulus is in place, about 1.2–1.
 food is enough, and because the benefit plateaus near there, more protein is not better.
 :::
 
-## What's changing outside: activity, the hawker plate and alcohol {#sec-adult-outside}
+## What's changing outside: activity, the food environment and alcohol {#sec-adult-outside}
 
 ### Fuelling everyday exercise {#sec-adult-fuelling}
 
@@ -175,7 +175,7 @@ plate, not the home recipe, is therefore the real lever, and counselling around 
 its own (see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) and
 [*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd) chapters).
 
-**Shift work stresses the body's clock.** Night-shift work is associated with higher rates of type 2
+**Shift work disrupts circadian rhythms.** Night-shift work is associated with higher rates of type 2
 diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
 abnormal blood lipids). These associations come from observational data and are not proof; the
 mechanism runs through **circadian misalignment** (eating, sleeping and working out of step with the
@@ -192,7 +192,7 @@ that evidence is observational [@stonge2017mealtiming].
 and extending sleep brings it back down [@alkhatib2017sleep; @tasali2022sleepextension], so improving
 sleep is also a nutrition intervention.
 
-### Alcohol: the message that changed {#sec-adult-alcohol}
+### Alcohol: cancer and cardiovascular risk {#sec-adult-alcohol}
 
 Clinical advice on alcohol has reversed within a decade. There is no established safe level of
 drinking for health: alcohol is a **Group 1 carcinogen** (an agent classed as an established cause of
@@ -205,7 +205,7 @@ came largely from comparing drinkers with a group of "abstainers" that included 
 drinking because they were ill; **Mendelian randomisation** studies, which use genetic variants to
 remove that bias, find no cardiovascular protection, and harm that rises even at low intake
 [@piano2025ahaalcohol; @biddinger2022mralcohol]. In practice, never advise anyone to drink for their
-heart. Alcohol is also empty energy (about 7 kcal/g), and drinkers eat little less to make up for it,
+heart. Alcohol also supplies empty calories (about 7 kcal/g, with no nutrients), and drinkers eat little less to make up for it,
 so it stacks on top of an eating-out diet [@traversy2015alcoholobesity].
 
 ::: {.callout-warning}
@@ -221,8 +221,8 @@ Use Disorders Identification Test [@bush1998auditc].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does a 40-minute park run need only water, when athlete guidance recommends carbohydrate during exercise?
-Muscle glycogen, the limited carbohydrate store, runs out only in long efforts such as a marathon (the
-"wall" in the *Integrative Metabolism* chapter). A 40-minute run therefore ends long before
+Muscle glycogen, the limited carbohydrate store, runs out only in long efforts such as a marathon (glycogen
+depletion, described in the *Integrative Metabolism* chapter). A 40-minute run therefore ends long before
 carbohydrate during exercise could help. The high-carbohydrate and during-exercise advice is
 calibrated for serious endurance athletes training for hours at a time, whereas a 30–60-minute session
 needs only water, with ordinary meals covering the rest. Applying the athlete advice to a few weekly
@@ -273,6 +273,13 @@ that dieting itself causes harm. The practical reading is to aim for a steady we
 small, sustainable habits and regular self-weighing, and to avoid repeated cycles of restriction.
 :::
 
+## Is adulthood just "slowing down"? {#sec-close}
+
+No, and believing it leads to the wrong fixes. The metabolism holds steady through these decades; what
+changes is that maintenance replaces growth and the environment sets most of the diet. Midlife weight
+creep reflects a small, correctable surplus, not a metabolic decline. The levers are therefore activity, muscle and the food environment, worked through a few durable habits. These include resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty calories and has no established safe level. Two messages have changed: most active adults need only ordinary food and water, not sports
+nutrition, and no one should drink for their heart.
+
 ## The Singapore picture {#sec-singapore}
 
 **The hawker plate is the food environment.** With most adults eating out regularly, the
@@ -294,13 +301,6 @@ food and beverage, and the long-hours culture normalises convenient, less health
 each) a day for men and one for women, and health messaging now cites the "no safe level" position;
 the ALDH2 flush, common in the Chinese-majority population, makes the "ask about flushing" cue
 especially useful here [@mohAlcoholLimits2018; @healthhubAlcoholHazards].
-
-## Is adulthood just "slowing down"? {#sec-close}
-
-No, and believing it leads to the wrong fixes. The metabolism holds steady through these decades; what
-changes is that maintenance replaces growth and the environment sets most of the diet. Midlife weight
-creep reflects a small, correctable surplus, not a metabolic decline. The levers are therefore activity, muscle and the food environment, worked through a few durable habits. These include resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty energy and has no established safe level. Two messages have changed: most active adults need only ordinary food and water, not sports
-nutrition, and no one should drink for their heart.
 
 ## Check your understanding {#sec-quiz}
 

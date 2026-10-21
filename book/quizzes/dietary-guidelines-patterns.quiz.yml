@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Dhal and other legumes fill the protein quarter"
         correct: true
-        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the fix is to rebuild the family's own food to QQH, not to prescribe a foreign diet."
+        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the fix is to rebuild the family's own food to quarter-quarter-half, not to prescribe a foreign diet."
       - text: "Switch them to a Mediterranean diet for protein"
         correct: false
         feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."

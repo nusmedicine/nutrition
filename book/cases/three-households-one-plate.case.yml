@@ -68,7 +68,7 @@ nodes:
       - id: b
         text: "\"Tell them nasi padang is unhealthy and they should stop eating it.\""
         correct: false
-        feedback: "Condemning the cuisine won't survive contact with the family table, and it isn't necessary: the dishes can be rebalanced with more vegetables, grilled not fried, less gravy and a plain drink."
+        feedback: "A family is unlikely to keep advice that condemns its cuisine, and condemning it isn't necessary: the dishes can be rebalanced with more vegetables, grilled not fried, less gravy and a plain drink."
         goto: q-indian
       - id: c
         text: "\"Just tell them to take a smaller portion of everything.\""
@@ -147,7 +147,7 @@ nodes:
     body: |
       You rebuilt a Chinese, a Malay and an Indian dinner to the *same* My Healthy Plate target
       using each family's own food (brown rice and steamed fish, grilled *ikan bakar* and more
-      *ulam*, dhal and wholemeal chapati), pulled the two biggest local levers (wholegrains,
+      *ulam*, dhal and wholemeal chapati), made the two highest-yield local changes (wholegrains,
       sugary drinks), and addressed the belief that vegetarian means no protein. When PREDIMED
       came up, you cited it fairly: a relative reduction on a stroke-dominated composite, from a
       re-published trial, not a personal guarantee. (Appraising such claims in depth is covered in

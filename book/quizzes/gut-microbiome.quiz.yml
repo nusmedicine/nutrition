@@ -18,7 +18,7 @@ questions:
     options:
       - text: "The colon, with slow transit and near-neutral pH."
         correct: true
-        feedback: "Slow transit, near-neutral pH and little absorption make the colon the ideal fermentation chamber. Density climbs along the tract and peaks there, which is why fibre fermentation happens in the colon."
+        feedback: "Slow transit, near-neutral pH and little absorption make the colon the main site of microbial fermentation. Density climbs along the tract and peaks there, which is why fibre fermentation happens in the colon."
       - text: "The stomach, because the acid helps bacteria grow."
         correct: false
         feedback: "Stomach acid keeps microbial numbers low. The colon is the dense site."

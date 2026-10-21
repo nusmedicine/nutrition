@@ -57,7 +57,7 @@ organs:
     hx: 125
     hy: 1455
     hr: 46
-    what: "Stores and concentrates bile between meals, then squeezes it into the duodenum when a fatty meal arrives."
+    what: "Stores and concentrates bile between meals, then releases it into the duodenum when a fatty meal arrives."
     hormone: "CCK (released by the duodenum when fat and protein arrive) is the signal that makes it contract."
     note: "Losing weight very rapidly can trigger gallstones, one reason to aim for slow and steady weight loss."
   - id: pancreas
@@ -68,16 +68,16 @@ organs:
     hr: 60
     what: "The main source of digestive enzymes: it pours about 1.5 L a day of enzyme- and bicarbonate-rich juice into the duodenum."
     secretes: "Amylase, lipase (+colipase), and protein-cutting enzymes made in an inactive form; bicarbonate neutralises the acid arriving from the stomach."
-    hormone: "Secretin triggers the bicarbonate 'antacid'; CCK triggers the enzymes."
-    note: "The protein enzymes are 'safety-locked' and switched on only once they reach the gut, so the pancreas does not digest itself."
+    hormone: "Secretin triggers bicarbonate secretion; CCK triggers enzyme secretion."
+    note: "The protein enzymes are made as inactive precursors (zymogens) and activated only once they reach the gut, so the pancreas does not digest itself."
   - id: small-intestine
     name: "Small intestine"
     kind: tube
     hx: 300
     hy: 2080
     hr: 150
-    what: "The main site of digestion and absorption (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes make the final cut, and nutrients are absorbed across a huge folded surface."
-    secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides), the last snip before absorption."
+    what: "The main site of digestion and absorption (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes complete it, and nutrients are absorbed across a huge folded surface."
+    secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides), the final step of digestion before absorption."
     absorbs: "Sugars and amino acids into portal blood; fats via micelles → chylomicrons → lymph. Iron is taken up in the duodenum; vitamin B12 (with intrinsic factor) and recycled bile salts at the terminal ileum."
     note: "Folds, villi and microvilli give roughly 30 m² of surface, about half a badminton court; textbooks long claimed a tennis court."
   - id: large-intestine

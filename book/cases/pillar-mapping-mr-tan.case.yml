@@ -45,13 +45,13 @@ nodes:
       - id: b
         text: "All six pillars, though social connection is weaker."
         correct: true
-        feedback: "All six pillars appear: short sleep, work stress, a desk job, weekend beers and solitary meals sit around his food-court diet, with nutrition as the hub that connects them."
+        feedback: "All six pillars appear: short sleep, work stress, a desk job, weekend beers and solitary meals sit around his food-court diet, with nutrition at the centre, linked to each of them."
         effects: { quality: +1 }
         goto: reveal-profile
       - id: c
         text: "None, since he's asymptomatic and feels well."
         correct: false
-        feedback: "Feeling well does not mean low risk: his BMI and habits put him in the prevention window, before disease declares itself."
+        feedback: "Feeling well does not mean low risk: his BMI and habits already put him at risk, and this period, before disease becomes clinically apparent, is when prevention can act."
         goto: reveal-profile
 
   - id: reveal-profile
@@ -92,7 +92,7 @@ nodes:
       - id: a
         text: "Because short sleep and stress can keep pushing his intake up."
         correct: true
-        feedback: "The pillars interact: short sleep raises his appetite, and work stress is thought to drive comfort eating, so diet advice fights an uphill battle while they keep pushing intake up."
+        feedback: "The pillars interact: short sleep raises his appetite, and work stress is thought to drive comfort eating, so diet advice alone struggles while those two keep pushing intake up."
         effects: { quality: +1 }
         goto: setup-plans
       - id: b
@@ -186,7 +186,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Asymptomatic is the prevention window, not the all-clear."
+        - "Being asymptomatic is the time to prevent disease, not an all-clear."
         - "Nutrition is the entry point; a durable plan touches sleep, stress and social context."
         - "Multi-pillar plans are associated with larger benefit; state it as an association, not proven synergy."
 

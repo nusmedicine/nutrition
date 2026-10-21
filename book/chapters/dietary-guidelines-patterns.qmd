@@ -19,12 +19,12 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [The guidelines and the plate](#sec-guidelines)
+- [Dietary guidelines and plate models](#sec-guidelines)
   - [What a dietary guideline is](#sec-guideline-def): a consensus synthesis
   - [My Healthy Plate](#sec-plate): quarter, quarter, half
   - [Reading an international guideline](#sec-international): WHO, AHA, US
   - [Where the guidelines converge](#sec-convergence): one short shared list
-- [Patterns over nutrients](#sec-patterns): food synergy
+- [Dietary patterns versus single nutrients](#sec-patterns): food synergy
   - [The Mediterranean pattern](#sec-mediterranean): PREDIMED and its caveats
   - [The DASH pattern](#sec-dash): blood pressure, a surrogate endpoint
 - [Advising real patients](#sec-advising)
@@ -53,7 +53,7 @@ shared pattern and adapting it to a patient's cuisine is the clinician's task. W
 plans or prescribing gram targets is a dietitian's work, and knowing where that boundary sits is part
 of the clinical skill [@crowley2019].
 
-## The guidelines and the plate {#sec-guidelines}
+## Dietary guidelines and plate models {#sec-guidelines}
 
 ### What a dietary guideline is {#sec-guideline-def}
 
@@ -66,11 +66,11 @@ Guidelines come in two registers: **numeric thresholds** for populations (limits
 and saturated and *trans* fat) and **plate models** for individuals (proportions shown on a plate).
 Singapore, like most countries, publishes both.
 
-### My Healthy Plate: the Singapore anchor {#sec-plate}
+### My Healthy Plate {#sec-plate}
 
 Singapore's patient-facing guide is the Health Promotion Board's My Healthy Plate (introduced in the
-*Why Nutrition Matters* chapter). It is built on one memorable proportion, "quarter, quarter, half"
-(QQH): half the plate fruit and vegetables, a quarter wholegrains and a quarter meat and other
+*Why Nutrition Matters* chapter). It is built on one memorable proportion, "quarter, quarter, half":
+half the plate fruit and vegetables, a quarter wholegrains and a quarter meat and other
 protein, with three companion messages: choose water over sugary drinks, use healthier oils, and stay
 active [@hpbHealthyPlate].
 
@@ -81,7 +81,7 @@ national guidance.
 
 ::: {.callout-note}
 ## The plate is a proportion, not a portion size
-QQH sets the ratio of the plate, not its size. A rugby player and a sedentary retiree can both eat
+"Quarter, quarter, half" sets the ratio of the plate, not its size. A rugby player and a sedentary retiree can both eat
 "quarter, quarter, half"; the amounts differ, the proportions do not. The plate therefore travels well
 across ages, jobs and cuisines: it fixes the shape of a meal and leaves the size to appetite and need.
 :::
@@ -148,7 +148,7 @@ salt, and unsaturated fat in place of saturated and *trans* fat), whichever guid
 read.
 :::
 
-## Patterns over nutrients {#sec-patterns}
+## Dietary patterns versus single nutrients {#sec-patterns}
 
 Guidelines increasingly lead with patterns because people eat foods, not nutrients, and foods act in
 combination. The idea of **food synergy** holds that a whole dietary pattern can predict health better
@@ -166,7 +166,7 @@ question, a trap known as single-nutrient reductionism (see the *Why Nutrition M
 vs Hype* chapters).
 
 ::: {.callout-note}
-## How strong is "patterns beat nutrients"?
+## How strong is the case for patterns over single nutrients?
 The food-synergy argument is a framework, not a measured effect size: a way of reading evidence, well
 supported in principle but not a number to quote. Pattern-level risk reductions often look larger than
 single-nutrient ones, but comparing them fairly is itself a subtle appraisal problem. The idea is
@@ -383,19 +383,6 @@ the target. The swaps are more vegetables and *ulam*, a modest rice scoop with l
 set of principles to adapt, not a menu to impose.
 :::
 
-## The Singapore picture {#sec-singapore}
-
-The emphasis on wholegrains, sugary drinks and salt follows from where Singapore's diet falls short.
-The National Nutrition Survey 2022 found that only about 4% of the staples Singaporeans eat are
-wholegrain, against the quarter-plate the guideline asks for, and that roughly nine in ten residents
-exceed the recommended sodium intake [@mohNNS2022]. The two highest-yield moves are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap and the water-over-sugary-drink swap are the two
-biggest levers in the local diet.
-
-The plate's adaptability to each cuisine is also a cultural strength. Singapore's three major
-cuisines are a built-in laboratory for "same guideline, three menus": the plate survives contact with
-the family table, the festival spread and the hawker centre because it adapts to each cuisine instead
-of replacing it. A diet a patient will keep beats a "better" one they abandon by Friday.
-
 ## Is there one best diet? {#sec-close}
 
 No single diet is best. A healthy diet is a pattern that keeps the shared core on which nearly every
@@ -403,6 +390,18 @@ national guideline converges: mostly plants and whole foods, wholegrains in plac
 unsaturated fats, and little free sugar and salt. Among the patterns that meet it, the best for a
 patient is the one they will keep eating, which is usually their own cuisine rebuilt to the plate.
 When a plan has to become therapeutic or restrictive, it passes to a dietitian [@crowley2019].
+
+## The Singapore picture {#sec-singapore}
+
+The emphasis on wholegrains, sugary drinks and salt follows from where Singapore's diet falls short.
+The National Nutrition Survey 2022 found that only about 4% of the staples Singaporeans eat are
+wholegrain, against the quarter-plate the guideline asks for, and that roughly nine in ten residents
+exceed the recommended sodium intake [@mohNNS2022]. The two highest-yield moves are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap and the water-over-sugary-drink swap are the two
+swaps that matter most in the local diet.
+
+The plate's adaptability to each cuisine is also a cultural strength. Singapore's three major
+cuisines show one guideline met by three different menus: the plate works at the family table, the
+festival spread and the hawker centre because it adapts to each cuisine instead of replacing it. A diet a patient will keep beats a "better" one they abandon by Friday.
 
 ## Check your understanding {#sec-quiz}
 

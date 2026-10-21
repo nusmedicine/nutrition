@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Energy needs fall, but nutrient needs don't, so the plate should be denser."
         correct: true
-        feedback: "Energy needs fall with appetite, but protein and most micronutrient needs do not, so a smaller version of the same plate leaves her short of nutrients. The response is a denser plate: energy down, density up."
+        feedback: "Energy needs fall with appetite, but protein and most micronutrient needs do not, so a smaller version of the same plate leaves her short of nutrients. The response is a more nutrient-dense plate."
       - text: "Older people need less of everything, so a smaller plate is right."
         correct: false
         feedback: "Protein and most micronutrient needs do not fall with energy needs, so per kcal they rise, and \"eat less of everything\" shrinks the nutrients along with the energy."
@@ -22,10 +22,10 @@ questions:
         feedback: "Ageing muscle responds less to a given amount of protein (anabolic resistance), so needs rise to about 1.0–1.2 g/kg/day, above the 0.8 g/kg adult reference intake. Protein works best spread as about a palm-sized portion per meal, and it is effective only alongside activity, especially resistance work."
       - text: "They go down, since older adults are less active and lose muscle anyway."
         correct: false
-        feedback: "Needs rise with age because of anabolic resistance: ageing muscle mounts a weaker building response to a given amount of protein, so it takes more to get the same effect. Under-eating protein accelerates muscle loss."
+        feedback: "Needs rise with age because of anabolic resistance: ageing muscle mounts a weaker anabolic (muscle-building) response to a given amount of protein, so it takes more to get the same effect. Under-eating protein accelerates muscle loss."
       - text: "They stay the same, provided total energy intake is met."
         correct: false
-        feedback: "The per-kilogram requirement rises with age, and because each meal must clear a higher bar to trigger muscle building, spreading protein across meals matters more than in youth."
+        feedback: "The per-kilogram requirement rises with age, and because each meal needs a larger protein dose to stimulate muscle protein synthesis, spreading protein across meals matters more than in youth."
 
   - id: q3
     stem: "Which older adult most warrants checking vitamin B12, and why?"
@@ -90,4 +90,4 @@ questions:
         feedback: "Weight loss of this degree is never \"just ageing\": it flags malignancy, depression, dental, swallowing or medication problems, and it warrants evaluation and referral now."
       - text: "Start him on a low-fat, low-salt diet to keep him healthy."
         correct: false
-        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition: the do-no-harm trap. The rule is density up, restriction off, and refer."
+        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition: the do-no-harm trap. The rule is to raise nutrient density, avoid restriction, and refer."

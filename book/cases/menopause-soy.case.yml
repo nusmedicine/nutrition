@@ -4,7 +4,7 @@ objectives:
   - "Counsel accurately on soy for hot flushes: a modest, inconsistent effect, not a substitute for hormone therapy."
   - "Address the belief that soy causes breast cancer: dietary soy is safe and, at Asian intakes, linked to lower risk, including for survivors."
   - "Respond to midlife weight concern weight-inclusively: recognise disordered-eating red flags and never endorse harmful restriction."
-  - "Match the nutrition lever to the problem, and recognise when to refer (e.g. genitourinary symptoms)."
+  - "Match the nutrition intervention to the problem, and recognise when to refer (e.g. genitourinary symptoms)."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, menopause, midlife, soy, singapore, do-no-harm]
@@ -127,7 +127,7 @@ nodes:
       - id: c
         text: "\"Since food can't cure the flushes, diet won't really help you at all here.\""
         correct: false
-        feedback: "Too nihilistic: a good pattern strongly protects bone and heart, which is much of the midlife win. The skill is matching the lever to each problem."
+        feedback: "Too nihilistic: a good pattern strongly protects bone and heart, which is much of the midlife benefit. The skill is matching the intervention to each problem."
         reaction: concerned
         goto: route
 
@@ -147,7 +147,7 @@ nodes:
       therapy. The "soy causes cancer" fear comes from animal studies; at local intakes soy is, if
       anything, protective, including for survivors. Never endorse **crash dieting** in a midlife
       woman: restriction speeds muscle and bone loss, and the warning signs of disordered eating are
-      real, so counsel weight-inclusively and screen. Match the lever to the problem: diet protects
+      real, so counsel weight-inclusively and screen. Match the intervention to the problem: diet protects
       bone and heart, does little for flushes, and nothing for vaginal dryness, which needs referral,
       not a supplement. Replay and try the safe path.
     next: end-partial
@@ -160,14 +160,14 @@ nodes:
       You gave Mdm Tan the accurate two-part message on soy (safe and healthy, but not a flush cure),
       answered the breast-cancer fear without dismissing it, spotted the disordered-eating red flags
       and steered her away from harmful restriction, and matched each midlife problem to the right
-      lever, including knowing when to refer instead of reaching for a diet.
+      intervention, including knowing when to refer instead of reaching for a diet.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Soy foods are safe and healthy but only a modest, inconsistent help for hot flushes: not a substitute for hormone therapy, and not recommended as a treatment by the North American Menopause Society."
         - "Dietary soy does not cause breast cancer; at Asian intakes it's linked to lower risk, and it's safe for survivors, including oestrogen-receptor-positive disease and women on tamoxifen. The reassurance is for soy foods, not high-dose isoflavone supplements."
         - "Never endorse crash dieting at midlife: restriction speeds muscle and bone loss, and meal-skipping with daily weigh-ins and guilt are disordered-eating red flags; counsel weight-inclusively and with consent."
-        - "Match the lever to the problem: diet protects bone and heart, helps flushes a little, and does nothing for genitourinary symptoms, which need referral for effective treatment."
+        - "Match the intervention to the problem: diet protects bone and heart, helps flushes a little, and does nothing for genitourinary symptoms, which need referral for effective treatment."
 
   - id: end-partial
     type: end
@@ -175,7 +175,7 @@ nodes:
     title: "Most of the way there"
     body: |
       You helped Mdm Tan but slipped on at least one point: over- or under-selling soy, the
-      breast-cancer fear, the weight and eating red flags, or matching the lever to the problem.
+      breast-cancer fear, the weight and eating red flags, or matching the intervention to the problem.
       Replay and run the safe path: soy is a safe food but not a cure; the cancer fear has no support
       in human data; protect muscle and bone instead of pushing restriction; and refer for what diet
       can't fix.
@@ -185,4 +185,4 @@ nodes:
         - "Soy is safe and healthy, but only a modest and unreliable help for flushes, and not hormone therapy."
         - "The 'soy causes breast cancer' fear comes from animal studies; dietary soy is safe and, at Asian intakes, protective."
         - "Don't endorse crash dieting: recognise disordered-eating red flags and counsel weight-inclusively."
-        - "Match the lever to the problem, and refer for symptoms diet can't help (e.g. vaginal dryness)."
+        - "Match the intervention to the problem, and refer for symptoms diet can't help (e.g. vaginal dryness)."

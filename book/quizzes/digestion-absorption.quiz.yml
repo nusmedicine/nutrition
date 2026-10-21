@@ -45,7 +45,7 @@ questions:
     options:
       - text: "So the enzymes don't digest the pancreas itself"
         correct: true
-        feedback: "It is a biological safety-lock: the proteases are switched on only after they reach the intestine."
+        feedback: "Proteases are secreted as inactive precursors (zymogens) and activated only after they reach the intestine."
       - text: "Because inactive enzymes are cheaper for the body to make"
         correct: false
         feedback: "The reason is safety, not economy: active proteases in the pancreas would damage it."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Secretin"
         correct: true
-        feedback: "Acid entering the duodenum releases secretin, which drives bicarbonate secretion (the 'antacid step')."
+        feedback: "Acid entering the duodenum releases secretin, which drives bicarbonate secretion to neutralise the acid."
       - text: "Gastrin"
         correct: false
         feedback: "Gastrin does the opposite: it increases stomach acid."
@@ -67,7 +67,7 @@ questions:
         feedback: "Motilin drives the migrating motor complex between meals, not bicarbonate release."
 
   - id: q6
-    stem: "A fatty meal arrives in the duodenum. Which hormone squeezes the gallbladder and calls for pancreatic enzymes?"
+    stem: "A fatty meal arrives in the duodenum. Which hormone contracts the gallbladder and stimulates pancreatic enzyme secretion?"
     options:
       - text: "CCK"
         correct: true
@@ -129,7 +129,7 @@ questions:
         feedback: "Fat does not dissolve in water; it travels as chylomicrons in lymph, then blood."
       - text: "Absorbed unchanged as whole triglyceride droplets"
         correct: false
-        feedback: "Triglyceride is first digested to fatty acids and monoglycerides, ferried by micelles, then re-esterified and packaged as chylomicrons."
+        feedback: "Triglyceride is first digested to fatty acids and monoglycerides, carried by micelles, then re-esterified and packaged as chylomicrons."
 
   - id: q11
     stem: "Where is bile made, and what happens to it after a meal?"
@@ -147,12 +147,12 @@ questions:
   - id: q12
     stem: "Oral rehydration salts contain glucose and sodium. Why not plain water?"
     options:
-      - text: "Glucose carries sodium in through SGLT1, and water follows"
+      - text: "SGLT1 carries glucose and sodium in, and water follows"
         correct: true
-        feedback: "Glucose is the handle that sodium rides in on through SGLT1, and water follows the sodium by osmosis. Plain water lacks both, which is why ORS works better."
+        feedback: "SGLT1 cotransports glucose with sodium, and water follows the sodium by osmosis. Plain water lacks both, which is why ORS works better."
       - text: "The glucose is mainly there for calories and energy"
         correct: false
-        feedback: "Here the glucose is a transport handle for sodium, not primarily a fuel."
+        feedback: "Here the glucose is cotransported with sodium through SGLT1; it is not primarily a fuel."
       - text: "The salt is only there to make it taste better"
         correct: false
         feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism, not flavouring."

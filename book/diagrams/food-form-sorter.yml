@@ -9,10 +9,10 @@ credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 foods:
   - name: "Iron-fortified cereal"
     verdict: safe
-    why: "Iron leads: stores run low at ~6 months, so first foods should be iron-rich. A classic starter."
+    why: "Iron stores run low at ~6 months, so first foods should be iron-rich. A classic first food."
   - name: "Minced meat / fish / egg yolk"
     verdict: safe
-    why: "Iron- and zinc-rich first foods, exactly what the 6-month iron clock calls for."
+    why: "Iron- and zinc-rich first foods, which is what infants need as iron stores run low at ~6 months."
   - name: "Smooth peanut butter"
     verdict: safe
     why: "Introduce allergens early once solids start: early peanut protects against peanut allergy (LEAP)."

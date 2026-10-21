@@ -15,21 +15,21 @@
 - Explain how early oral exposure to peanut and egg builds tolerance, and refer the high-risk infant
   for specialist-guided peanut introduction.
 - Apply the division of responsibility to fussy eating and food refusal.
-- Recognise the infant food-safety hazards (honey, choking shapes, added sugar and salt) and advise on
-  each.
+- Recognise the infant food-safety hazards (honey, choking hazards, added sugar and salt) and advise on
+  each, and recognise the preterm, low-birth-weight or faltering infant who needs referral.
 :::
 
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
 - [Milk: breast, formula, and the gaps to fill](#sec-milk)
-  - [Breast milk](#sec-breast-milk): composition, evidence and three gaps
-  - [Formula and mixed feeding](#sec-formula): safe preparation, support without shame
+  - [Breast milk: composition, evidence and gaps](#sec-breast-milk)
+  - [Formula and mixed feeding](#sec-formula)
 - [Starting solids, allergens, and responsive feeding](#sec-solids)
-  - [Starting solids](#sec-starting-solids): iron sets the timing
-  - [Peanut and egg](#sec-allergens): early introduction builds tolerance
-  - [Responsive feeding](#sec-responsive-feeding): the division of responsibility
-- [Do no harm: the hazards to name](#sec-hazards): honey, choking shapes, sugar and salt
+  - [Starting solids: timing and iron-rich first foods](#sec-starting-solids)
+  - [Early allergen introduction: peanut and egg](#sec-allergens)
+  - [Responsive feeding and fussy eating](#sec-responsive-feeding)
+- [Recognising trouble, and when to refer](#sec-hazards)
 :::
 
 ## The infant at a glance: two drivers {#sec-overview}
@@ -103,7 +103,7 @@ the [*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd
 Vitamin D is the one routine daily infant supplement. **Vitamin K deficiency bleeding** is bleeding
 in newborns and young infants caused by too little vitamin K. Because breast milk is low in
 vitamin K, breastfed infants are the most prone to it, and the single injection at birth prevents
-it [@hand2022vitk]. The iron gap is the physiological clock that sets the timing of solids (see
+it [@hand2022vitk]. The depletion of iron stores at about 6 months sets the timing of solids (see
 [Starting solids](#sec-starting-solids)).
 
 The recommendation built on the evidence above and these gaps is **exclusive breastfeeding**
@@ -128,7 +128,7 @@ who is mixed feeding, support the pattern practically; the vitamin D dose still 
 partially breastfed infant.
 
 ::: {.callout-tip}
-## 🍜 Feeding well in Singapore: the wallet and the caregiving unit
+## 🍜 Feeding well in Singapore: cost and shared caregiving
 Premium formulas and toddler milks add cost, not nutrition: every infant formula sold in Singapore
 meets the same standard, yet prices have more than doubled. After 12 months, plain full-fat cow's
 milk does the job, so toddler (or "growing-up") milks are unnecessary and often sugar-sweetened
@@ -143,9 +143,8 @@ whole household that feeds the child [@tanGrandparents2019].
 ## Check yourself: a healthy term breastfed baby is given vitamin D drops from birth, but no iron drops. Why the difference?
 Breast milk is low in vitamin D from the start, so every breastfed or partially breastfed infant
 needs 400 IU/day from birth. Iron is different: a term infant's stores present at birth last about
-6 months, so
-the iron gap opens later and is filled by iron-rich first foods, not drops. The same 6-month clock
-sets the timing of solids.
+6 months, so the iron gap opens later and is filled by iron-rich first foods, not drops. The same
+depletion of iron stores at about 6 months sets the timing of solids.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -158,7 +157,7 @@ receives some breast milk, the 400 IU/day vitamin D dose still applies.
 
 ## Starting solids, allergens, and responsive feeding {#sec-solids}
 
-### Starting solids: when, and why iron leads {#sec-starting-solids}
+### Starting solids: timing and iron-rich first foods {#sec-starting-solids}
 
 The question parents ask most, "when do we start?", has a physiological answer. Solids begin at
 about 6 months because the iron stores present at birth are running out, so the first foods must be
@@ -192,11 +191,7 @@ Textures also have to progress. Introducing lumps later than about 9 to 10 month
 feeding difficulty years later, so food moves from purée to mashed to soft finger foods on schedule,
 and parents learn to tell normal, protective gagging from true choking [@coulthard2009texture].
 
-Preterm and low-birth-weight infants are a different case. Their iron stores deplete earlier and
-their solids are timed by **corrected age** (age counted from the due date), so their feeding is
-individualised and referred.
-
-### Does delaying peanut and egg prevent allergy? {#sec-allergens}
+### Early allergen introduction: peanut and egg {#sec-allergens}
 
 For years the advice was to delay peanut and egg "to be safe". Trials have since reversed that
 advice, and the mechanism explains why. Two immune outcomes are possible when an infant first meets
@@ -210,10 +205,10 @@ allergy) peanut early and cut peanut allergy by around 80% [@dutoit2015leap]. Th
 the same way, with adherence the practical limit, and a meta-analysis confirmed the effect for peanut
 and egg [@perkin2016eat; @ierodiakonou2016].
 
-In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. Two cautions
-apply. LEAP studied only these high-risk infants, so its 80% figure does not transfer to every
-infant. When you meet a high-risk infant, refer for specialist-guided peanut introduction instead of
-improvising it.
+In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
+applies: LEAP studied only these high-risk infants, so its 80% figure does not transfer to every
+infant (the high-risk infant is referred; see [Recognising trouble, and when to
+refer](#sec-hazards)).
 
 ### Responsive feeding and fussy eating {#sec-responsive-feeding}
 
@@ -249,29 +244,70 @@ In the dual-allergen hypothesis, an infant becomes sensitised to a food through 
 skin but develops tolerance by meeting it by mouth first, so early oral introduction builds
 tolerance. LEAP cut peanut allergy by around 80%, and a meta-analysis confirmed the effect for peanut
 and egg. LEAP's 80% figure comes from high-risk infants (those with severe eczema or egg allergy), so
-it does not transfer to every infant. A high-risk infant is referred for specialist-guided peanut
-introduction instead of improvising it.
+it does not transfer to every infant.
 :::
 
-## Do no harm: the hazards to name {#sec-hazards}
+## Recognising trouble, and when to refer {#sec-hazards}
 
 Three rules prevent avoidable harm in the first years:
 
 - No honey before 12 months. The immature gut lets *Clostridium botulinum* spores from honey colonise
   and make toxin, causing **infant botulism** [@rao2021botulism].
-- No choking shapes before about 4 years: no whole nuts, whole grapes, hard raw vegetables or chunks
-  of hot dog. Grapes are quartered lengthwise and food is cut small [@aap2010choking].
+- No choking hazards (high-risk food shapes) before about 4 years: no whole nuts, whole grapes, hard
+  raw vegetables or chunks of hot dog. Grapes are quartered lengthwise and food is cut small
+  [@aap2010choking].
 - No added sugar or salt, no sugary drinks, and no fruit juice before 12 months (and little juice
   after); early sweetness sets a lasting preference [@heyman2017juice;
   @whoComplementaryFeeding2023].
+
+A few infants need more than the default advice for the healthy term infant, and are referred.
+Preterm and low-birth-weight infants are the first case. Their iron stores deplete earlier and
+their solids are timed by **corrected age** (age counted from the due date), so their feeding is
+individualised.
+
+The infant at high risk of allergy (severe eczema or egg allergy) is the second; for this infant,
+peanut introduction is specialist-guided instead of improvised. The third is the infant with
+faltering growth (faltering growth is among the refer triggers in the
+[*Childhood & Adolescence*](childhood-adolescence.qmd) chapter). The referral cues are summarised
+below:
+
+| Sign | Action |
+|---|---|
+| Preterm or low birth weight | Individualise feeding, with solids timed by corrected age; refer |
+| High risk of allergy (severe eczema or egg allergy) | Refer for specialist-guided peanut introduction |
+| Faltering growth | Refer |
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: whole peanuts are kept from children until about 4 years, yet smooth peanut butter is encouraged from the start of solids. Why?
 Choking depends on food form, not on the food itself or the feeding method. A whole nut is a choking
 shape, so peanut is offered as smooth peanut butter instead, and early oral peanut builds tolerance.
-The same logic makes
-a grape quartered lengthwise safe where a whole grape is not.
+The same logic makes a grape quartered lengthwise safe where a whole grape is not.
 :::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: iron-rich solids at about 6 months and early peanut are the defaults. Why are a preterm infant and an infant with severe eczema referred?
+The defaults are set for the healthy term infant. A preterm or low-birth-weight infant's iron stores
+deplete earlier, and solids are timed by corrected age (age counted from the due date), so feeding is
+individualised. An infant with severe eczema is at high risk of allergy (the group LEAP studied:
+severe eczema or egg allergy), and for this infant peanut introduction is specialist-guided instead
+of improvised.
+:::
+
+## Is "breast is best" the whole story? {#sec-close}
+
+Breast milk is a strong start, not a complete one. It leaves three specific gaps (vitamin D,
+vitamin K and iron), and formula and mixed feeding are safe alternatives. Much of what protects an
+infant lies beyond the milk itself:
+
+- iron-rich first foods at about 6 months, because the iron stores present at birth run out;
+- early peanut and egg, because oral exposure builds tolerance;
+- the honey, cow's-milk and choking rules, because each prevents a specific, avoidable harm;
+- responsive feeding, because pressure to eat backfires.
+
+A large part of the clinician's work, in Singapore especially (see
+[The Singapore picture](#sec-singapore)), is gently retiring a well-meant tradition. Another part is
+recognising the few infants (preterm, high allergy risk, faltering growth) who need more than the
+default advice, and referring them.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -299,22 +335,6 @@ helpers as well as parents [@quahFeeding2025].
 
 **Sunshine does not replace the vitamin D drops.** The vitamin D dose matters here precisely because
 infant sun exposure is, rightly, kept low.
-
-## Is "breast is best" the whole story? {#sec-close}
-
-Breast milk is a strong start, not a complete one. It leaves three specific gaps (vitamin D,
-vitamin K and iron), and formula and mixed feeding are safe alternatives. Much of what protects an
-infant lies beyond the milk itself:
-
-- iron-rich first foods at about 6 months, because the iron stores present at birth run out;
-- early peanut and egg, because oral exposure builds tolerance;
-- the honey, cow's-milk and choking rules, because each prevents a specific, avoidable harm;
-- responsive feeding, because pressure to eat backfires.
-
-In Singapore especially, a large part of the clinician's work is gently retiring a well-meant
-tradition. Another part is recognising the infant whose slow growth means it is time to refer
-(faltering growth is among the refer triggers in the
-[*Childhood & Adolescence*](childhood-adolescence.qmd) chapter).
 
 ## Check your understanding {#sec-quiz}
 

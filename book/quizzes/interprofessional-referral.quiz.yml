@@ -54,7 +54,7 @@ questions:
     options:
       - text: "One enrolled family doctor and a personalised Health Plan"
         correct: true
-        feedback: "Healthier SG anchors each enrolled resident to one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the scaffold that makes referral and follow-up happen."
+        feedback: "Healthier SG anchors each enrolled resident to one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that makes referral and follow-up happen."
       - text: "A guaranteed fully-funded course of dietitian visits for any concern"
         correct: false
         feedback: "The published funding centres on medications and care components and does not spell out a dedicated dietitian subsidy line. Explain the pathway, and check current figures, instead of promising a guaranteed benefit."

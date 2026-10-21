@@ -22,19 +22,19 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Breaking food down](#sec-breakdown)
-  - [Motility](#sec-motility): pushing, mixing and emptying
-  - [Chemical digestion](#sec-enzymes): enzymes along the tube
+- [Digestion: motility, enzymes and hormones](#sec-breakdown)
+  - [Motility: moving the food](#sec-motility)
+  - [Chemical digestion: enzymes along the gut](#sec-enzymes)
   - [Lactase deficiency and lactose intolerance](#sec-lactose)
-  - [Gut hormones](#sec-gut-hormones): timing secretion and motility
-- [Absorption: crossing the wall](#sec-absorption)
-  - [The absorptive surface](#sec-surface): folds, villi, microvilli
-  - [Four routes into the enterocyte](#sec-transport): glucose rides in with sodium
-  - [Fat absorption](#sec-fat-absorption): bile, micelles, the lymph
-  - [Bile recycling and the terminal ileum](#sec-bile)
+  - [Gut hormones: timing secretion and motility](#sec-gut-hormones)
+- [Absorption across the gut wall](#sec-absorption)
+  - [The absorptive surface](#sec-surface)
+  - [Four routes into the enterocyte](#sec-transport)
+  - [Fat absorption: bile, micelles and the lymphatic route](#sec-fat-absorption)
+  - [The enterohepatic circulation and the terminal ileum](#sec-bile)
 - [Digestion and absorption in practice](#sec-in-practice)
-  - [Same food, different effect](#sec-food-form): form, cooking, meal order, medicines
-  - [Oral rehydration](#sec-ors): SGLT1 at work
+  - [Food form, preparation and meal order](#sec-food-form)
+  - [Oral rehydration and SGLT1](#sec-ors)
   - [Common beliefs about digestion](#sec-digestion-beliefs)
 :::
 
@@ -59,11 +59,11 @@ Click each organ in the illustration below to see what happens to a meal there.
 
 <div data-island="gut" data-src="/diagrams/gut-journey.yml"></div>
 
-## Breaking food down: motility, enzymes and hormones {#sec-breakdown}
+## Digestion: motility, enzymes and hormones {#sec-breakdown}
 
 ### Motility: moving the food {#sec-motility}
 
-Muscle in the gut wall moves food in two patterns, and one-way gates keep it moving forward:
+Muscle in the gut wall moves food in two patterns, and sphincters keep it moving forward:
 
 Peristalsis
 : Travelling waves of muscle contraction that push the **bolus** (the soft mass of chewed food and
@@ -74,12 +74,13 @@ Segmentation
   intestine.
 
 Sphincters
-: Muscular one-way gates (the lower oesophageal, pyloric, ileocaecal and anal sphincters) that stop
-  contents moving backwards.
+: Rings of muscle (the lower oesophageal, pyloric, ileocaecal and anal sphincters) that stop contents
+  moving backwards.
 
 **Gastric emptying**, the passage of food from the stomach into the duodenum, is actively regulated. A
 meal leaves the stomach over a few hours. Counter-intuitively, a fatty or large meal empties more
-slowly, because signals from the duodenum hold it back; this is partly why a greasy meal "sits heavy".
+slowly, because signals from the duodenum slow gastric emptying; this is partly why a greasy meal "sits
+heavy".
 Between meals, a cyclical "housekeeper" wave, the **migrating motor complex**, sweeps leftovers and
 bacteria onward roughly every 1–2 hours; the hormone motilin triggers it [@deloose2012mmc].
 
@@ -91,10 +92,10 @@ fluid and activity. (Fibre's effect on bowel regularity is in the [*Macronutrien
 chapter.)
 :::
 
-### Chemical digestion: enzymes along the tube {#sec-enzymes}
+### Chemical digestion: enzymes along the gut {#sec-enzymes}
 
 Each digestive enzyme is specific to one kind of nutrient, like a pair of scissors that cuts only one
-material, and each works at a particular place along the tube [@statpearlsDigestion]. Digestion begins
+material, and each works at a particular place along the gut [@statpearlsDigestion]. Digestion begins
 in the mouth and ends at the **brush border**, the surface of the cells lining the small intestine,
 where the last enzymes sit (see [the absorptive surface](#sec-surface)).
 
@@ -113,8 +114,8 @@ vitamin B12. **Chief cells** make **pepsin**, the enzyme that cuts protein into 
 [@statpearlsStomach].
 
 Salivary **amylase**, which starts the digestion of starch, stops working once it meets the stomach's
-acid. In the duodenum, the pancreas adds bicarbonate, which neutralises that acid. This "antacid step"
-gives the pancreatic enzymes the near-neutral pH they need.
+acid. In the duodenum, the pancreas adds bicarbonate, which neutralises that acid. Neutralisation gives
+the pancreatic enzymes the near-neutral pH they need.
 
 The pancreatic enzymes then take over: amylase continues on starch, proteases cut protein, and
 **lipase**, working with colipase, digests fat. At the brush border, **disaccharidases** (lactase,
@@ -122,9 +123,9 @@ sucrase, maltase) split disaccharides into single sugars, and **peptidases** fin
 protein.
 
 ::: {.callout-note}
-## The enzyme safety-lock
-The pancreas makes its protein-digesting enzymes in an inactive form and switches them on only once
-they reach the gut. Otherwise the enzymes would digest the pancreas itself. The concept matters here,
+## Why pancreatic proteases are secreted inactive
+The pancreas makes its protein-digesting enzymes as inactive precursors (zymogens), which are activated
+only once they reach the gut. Otherwise the enzymes would digest the pancreas itself. The concept matters here,
 not the named activation cascade.
 :::
 
@@ -159,20 +160,20 @@ glasses of milk" does not.
 
 The gut is often called the body's largest endocrine organ: hormone-making cells are scattered singly
 through its lining. The gut hormones share one logic: food arriving in one segment releases a hormone
-that prepares the next stage or brakes the one before [@statpearlsGIhormones]. Five gut hormones each
+that prepares the next stage or inhibits the one before [@statpearlsGIhormones]. Five gut hormones each
 have one main job in secretion or motility (their role in appetite is in the [*Appetite & Weight
 Regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
 
 | Hormone | Made by | Trigger | Job |
 |---|---|---|---|
 | Gastrin | stomach (G cells) | protein in the stomach | ↑ stomach acid |
-| Secretin | duodenum (S cells) | acid arriving in the duodenum | ↑ bicarbonate (the antacid); ↓ acid |
-| Cholecystokinin (CCK) | duodenum (I cells) | fat and protein in the duodenum | ↑ pancreatic enzymes; squeezes the gallbladder; slows gastric emptying |
-| Glucose-dependent insulinotropic polypeptide (GIP) | duodenum (K cells) | glucose and fat | signals the pancreas that glucose is coming (an incretin) |
+| Secretin | duodenum (S cells) | acid arriving in the duodenum | ↑ pancreatic bicarbonate; ↓ acid |
+| Cholecystokinin (CCK) | duodenum (I cells) | fat and protein in the duodenum | ↑ pancreatic enzymes; contracts the gallbladder; slows gastric emptying |
+| Glucose-dependent insulinotropic polypeptide (GIP) | duodenum (K cells) | glucose and fat | amplifies insulin secretion after a meal (an incretin) |
 | Motilin | small intestine (M cells) | fasting between meals | drives the migrating motor complex |
 
-Glucose eaten raises insulin more than the same glucose given intravenously, because the gut warns the
-pancreas that food is coming. This amplification is the **incretin effect**, carried by GIP and a
+Glucose eaten raises insulin more than the same glucose given intravenously, because hormones released
+by the gut in response to food amplify insulin secretion. This amplification is the **incretin effect**, carried by GIP and a
 partner hormone, glucagon-like peptide-1 (GLP-1) [@nauck2016incretin]. The same signal is the basis of
 major modern diabetes and weight medicines (see the [*Appetite & Weight
 Regulation*](appetite-weight-regulation.qmd#sec-obesity) and [*Type 2 Diabetes*](type-2-diabetes.qmd)
@@ -181,8 +182,9 @@ chapters).
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a fatty meal "sits heavy". Why does it leave the stomach more slowly than a small, low-fat meal?
 Gastric emptying is regulated by signals from the duodenum. Fat and protein arriving there release
-CCK, which calls up bile and pancreatic enzymes and also slows gastric emptying. This is the general
-logic of the gut hormones: food arriving in one segment brakes the segment before it.
+CCK, which stimulates gallbladder contraction and pancreatic enzyme secretion and also slows gastric
+emptying. This is the general logic of the gut hormones: food arriving in one segment inhibits the
+segment before it.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -193,7 +195,7 @@ only about a third report symptoms on ordinary amounts. The practical advice the
 and food choice (hard cheese, yoghurt, lactose-free milk, non-dairy calcium sources).
 :::
 
-## Absorption: crossing the wall {#sec-absorption}
+## Absorption across the gut wall {#sec-absorption}
 
 ### The absorptive surface {#sec-surface}
 
@@ -217,16 +219,16 @@ far side faces blood and lymph. Nutrients enter the enterocyte by one of four ro
 
 - passive diffusion, for fats and water;
 - facilitated diffusion, for fructose, through glucose transporter 5 (GLUT5);
-- primary active transport, by a pump that spends energy directly;
-- **secondary active transport**, which spends a gradient that a pump has built.
+- primary active transport, by a pump that uses energy directly;
+- **secondary active transport**, which uses an ion gradient that a pump has generated.
 
 Glucose enters by secondary active transport, the route that oral rehydration depends on (see [Oral
-rehydration](#sec-ors)). A sodium pump keeps sodium low inside the enterocyte, and that sodium
-gradient works like a battery: **sodium–glucose cotransporter 1 (SGLT1)** spends it to carry glucose
-into the cell alongside sodium [@roder2014]. Absorbed sugars and amino acids (and small peptides) drain
+rehydration](#sec-ors)). A sodium pump keeps sodium low inside the enterocyte, and the resulting sodium
+gradient acts like a battery: **sodium–glucose cotransporter 1 (SGLT1)** uses it to carry glucose into
+the cell alongside sodium [@roder2014]. Absorbed sugars and amino acids (and small peptides) drain
 into the **portal vein**, which carries them to the liver first.
 
-### Fat: bile, micelles and the lymphatic route {#sec-fat-absorption}
+### Fat absorption: bile, micelles and the lymphatic route {#sec-fat-absorption}
 
 Fat needs special handling because it does not dissolve in water. Four terms describe how it is
 absorbed:
@@ -236,7 +238,7 @@ Bile salts
   lipase can reach.
 
 Mixed micelles
-: Clusters of bile salts and the products of fat digestion that ferry those products to the brush
+: Clusters of bile salts and the products of fat digestion that carry those products to the brush
   border.
 
 Chylomicron
@@ -248,13 +250,13 @@ Lacteal
 
 Bile salts emulsify the fat, lipase digests it, and the products cluster with bile salts into mixed
 micelles that carry them to the brush border. There the fat diffuses into the enterocyte and the
-micelle stays behind: it is a shuttle, not cargo. Inside the cell the fat is re-esterified (reassembled
-into triglyceride; see the [*Macronutrients*](macronutrients.qmd) chapter) and packaged into
-chylomicrons. Because a chylomicron is too big for a blood capillary, it enters a lacteal and reaches
+micelle stays behind: it acts as a shuttle and is not itself absorbed. Inside the cell the fat is
+re-esterified (reassembled into triglyceride; see the [*Macronutrients*](macronutrients.qmd)
+chapter) and packaged into chylomicrons. Because a chylomicron is too big for a blood capillary, it enters a lacteal and reaches
 the blood through the lymph, bypassing the liver's first pass. This is why blood drawn after a fatty
 meal can look faintly milky.
 
-![How dietary fat is absorbed: bile emulsifies it, micelles ferry it to the gut wall, and it leaves as chylomicrons in the lymph. Diagram: Health in Medicine, CC BY-SA 4.0.](/figures/anatomy/fat-absorption.svg){#fig-fat fig-alt="Schematic of fat absorption: a fat droplet is emulsified by bile salts, digested by lipase, ferried in micelles into the enterocyte, re-esterified and packaged into chylomicrons that enter the lacteal; short- and medium-chain fatty acids enter blood directly." width="640" .lightbox}
+![How dietary fat is absorbed: bile emulsifies it, micelles carry it to the gut wall, and it leaves as chylomicrons in the lymph. Diagram: Health in Medicine, CC BY-SA 4.0.](/figures/anatomy/fat-absorption.svg){#fig-fat fig-alt="Schematic of fat absorption: a fat droplet is emulsified by bile salts, digested by lipase, carried in micelles into the enterocyte, re-esterified and packaged into chylomicrons that enter the lacteal; short- and medium-chain fatty acids enter blood directly." width="640" .lightbox}
 
 Most dietary fat is long-chain and takes this lymphatic route. Short- and medium-chain fatty acids are
 small enough to enter the blood directly, like sugars.
@@ -266,7 +268,7 @@ the two faces.
 
 <div data-island="molecule" data-src="/structures/bile.mol.yml"></div>
 
-### Bile recycling and the terminal ileum {#sec-bile}
+### The enterohepatic circulation and the terminal ileum {#sec-bile}
 
 Bile salts are recycled. The liver makes bile, the gallbladder stores and concentrates it, and CCK
 releases it into the duodenum when a fatty meal arrives. About 95% of the bile salts are then
@@ -285,11 +287,10 @@ flowchart LR
 ```
 
 The terminal ileum does two jobs: it reclaims bile salts, and it absorbs vitamin B12. Loss of or damage
-to the terminal ileum can therefore cause both fat malabsorption and B12 deficiency: two casualties,
-one site.
+to the terminal ileum can therefore cause both fat malabsorption and B12 deficiency.
 
 ::: {.callout-note}
-## Where each nutrient gets in
+## Sites of nutrient absorption
 Absorption is often site-specific: iron in the duodenum, vitamin B12 (with intrinsic factor) at the
 terminal ileum, and the fat-soluble vitamins (A, D, E, K) alongside fat and bile. A fat or bile problem
 can therefore quietly cause deficiency of the fat-soluble vitamins too. (The nutrients themselves are
@@ -313,7 +314,7 @@ where vitamin B12, with intrinsic factor, is absorbed. One damaged site can ther
 
 ## Digestion and absorption in practice {#sec-in-practice}
 
-### Same food, different effect: preparation, meal order and what is eaten with it {#sec-food-form}
+### Food form, preparation and meal order {#sec-food-form}
 
 The same food, with the same energy content, can be digested at different speeds. Its physical form,
 how it is cooked, the order in which a meal's parts are eaten and what they are eaten with all change
@@ -350,7 +351,7 @@ chapter). Chilling and reheating cooked rice or pasta therefore lowers their gly
 modestly, and the resistant starch survives reheating [@sonia2015rice]. The effect is small and
 variable, and is not a licence for larger portions.
 
-**Order and company.** With meal composition fixed, eating vegetables and protein before the
+**Meal order and accompanying foods.** With meal composition fixed, eating vegetables and protein before the
 carbohydrate measurably lowers the post-meal glucose and insulin rise. In people with prediabetes
 (blood glucose that has started to rise but is not yet in the diabetes range), a
 vegetable-and-protein-first order reduced the glucose peak by roughly 45% relative to carbohydrate
@@ -361,11 +362,11 @@ vegetables and protein act as a pre-load: they slow gastric emptying of the carb
 the CCK and incretin responses described [above](#sec-gut-hormones).
 
 Adding fat, protein, viscous fibre or acid to a carbohydrate meal has a similar effect through the same
-brake on gastric emptying. Vinegar is the best-studied acid: in a meta-analysis it modestly lowered
+slowing of gastric emptying. Vinegar is the best-studied acid: in a meta-analysis it modestly lowered
 post-meal glucose and insulin [@shishehbor2017vinegar], probably by slowing gastric emptying and
 inhibiting brush-border disaccharidases. These are adjuncts, not treatments.
 
-**Processing pre-digests food.** Industrial processing performs much of the gut's mechanical work
+**Processing.** Industrial processing performs much of the gut's mechanical work
 (grinding, refining and gelatinising) before food is eaten. Ultra-processed foods (industrial
 formulations made largely from refined ingredients and additives) are therefore digested faster and
 more completely. Their soft textures are also eaten more quickly and signal satiety less
@@ -401,7 +402,7 @@ a reason to dress vegetables with some oil rather than eat them fat-free (the vi
 in the [*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter).
 
 ::: {.callout-warning}
-## Food is not inert around medicines
+## Food–drug interactions
 Food can alter how a drug is absorbed by two broad mechanisms; at this stage the task is to recognise
 and refer, not to manage.
 
@@ -422,12 +423,12 @@ priority is the habit rather than the list: with any new medicine, check the lab
 pharmacist about food, grapefruit, dairy, iron and timing.
 :::
 
-### Oral rehydration: SGLT1 at work {#sec-ors}
+### Oral rehydration and SGLT1 {#sec-ors}
 
 SGLT1 explains how a drink of glucose and sodium can treat dehydration. In severe diarrhoea (cholera,
-rotavirus), the gut pours out fluid, but SGLT1 keeps working. SGLT1 pulls the sodium in, with the
-glucose as its handle, and water follows the sodium by osmosis, so a drink containing both glucose and
-sodium still gets fluid in. As a result, a dehydrated child can be rehydrated by mouth, with no drip
+rotavirus), the gut pours out fluid, but SGLT1 keeps working. SGLT1 cotransports sodium with glucose,
+and water follows the sodium by osmosis, so a drink containing both glucose and sodium still gets fluid
+in. As a result, a dehydrated child can be rehydrated by mouth, with no drip
 needed.
 
 ::: {.flow}
@@ -447,8 +448,8 @@ of 75 mmol/L each of sodium and glucose [@whoORS2006]. The underlying discovery 
 ::: {.callout-warning}
 ## Does plain water rehydrate as well as ORS?
 Water is the obvious drink for replacing lost fluid, but plain water lacks the glucose and sodium that
-drive SGLT1. In ORS the glucose is a transport handle, not a calorie source, and that coupling is why
-ORS rehydrates better than plain water alone.
+drive SGLT1. In ORS the glucose is there to be cotransported with sodium, not as a calorie source, and
+that coupling is why ORS rehydrates better than plain water alone.
 :::
 
 ### Common beliefs about digestion {#sec-digestion-beliefs}
@@ -489,19 +490,6 @@ terminal ileum. To replace them, the liver draws cholesterol from the blood to m
 which modestly lowers LDL cholesterol. The fibre works by interrupting the enterohepatic circulation.
 :::
 
-## The Singapore picture {#sec-singapore}
-
-Three of the mechanisms above apply directly to practice in Singapore:
-
-- Lactase deficiency is the local norm, not a disease. About 95% of Singapore-born Chinese adults are
-  lactase-deficient, yet most tolerate the lactose in about a cup of milk [@yap1989], so the
-  food-first options above (hard cheese, yoghurt, lactose-free milk, calcium-set tofu, fortified soy
-  milk) matter far more here than advice to "just drink more milk".
-- Meal order is a free lever at the hawker stall. At a mixed-rice (*cai png*) stall, eating the
-  vegetables and the fish or tofu first and the rice last flattens the glucose rise [@shukla2019order].
-- Oral rehydration salts are SGLT1 in a sachet: a pharmacy staple that turns the transporter into a
-  drip-free rescue for the gastroenteritis every family meets.
-
 ## What happens to a meal? {#sec-close}
 
 A plate of mixed rice with vegetables and fish is first broken down and then absorbed, in five stages:
@@ -509,13 +497,27 @@ A plate of mixed rice with vegetables and fish is first broken down and then abs
 1. In the mouth, chewing forms a bolus and salivary amylase starts on the rice starch.
 2. In the stomach, acid denatures the fish protein and pepsin cuts it into peptides, while the meal
    empties into the duodenum over a few hours.
-3. In the duodenum, secretin and CCK call up bicarbonate, pancreatic enzymes and bile, and the
-   pancreatic enzymes break starch, fat and protein into smaller units.
+3. In the duodenum, secretin and CCK stimulate the release of bicarbonate, pancreatic enzymes and
+   bile, and the pancreatic enzymes break starch, fat and protein into smaller units.
 4. At the brush border, the last enzymes finish the sugars and peptides. Glucose enters with sodium
    through SGLT1, and sugars and amino acids travel to the liver by the portal vein.
-5. The fat, emulsified by bile and ferried by micelles, leaves the enterocytes as chylomicrons in the
+5. The fat, emulsified by bile and carried by micelles, leaves the enterocytes as chylomicrons in the
    lymph. Most of the bile salts are reclaimed at the terminal ileum, and the undigested remainder of
    the meal passes to the colon.
+
+## The Singapore picture {#sec-singapore}
+
+Three digestive mechanisms apply directly to practice in Singapore:
+
+- Lactase deficiency is the local norm, not a disease. About 95% of Singapore-born Chinese adults are
+  lactase-deficient, yet most tolerate the lactose in about a cup of milk [@yap1989], so the
+  food-first options (hard cheese, yoghurt, lactose-free milk, calcium-set tofu, fortified soy milk;
+  see [lactose intolerance](#sec-lactose)) matter far more here than advice to "just drink more milk".
+- Meal order costs nothing to change at the hawker stall. At a mixed-rice (*cai png*) stall, eating
+  the vegetables and the fish or tofu first and the rice last flattens the glucose rise
+  [@shukla2019order].
+- Oral rehydration salts, a pharmacy staple, use SGLT1 cotransport to rehydrate by mouth, without an
+  intravenous drip, in the gastroenteritis every family meets.
 
 ## Check your understanding {#sec-quiz}
 

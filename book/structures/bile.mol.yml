@@ -10,4 +10,5 @@ molecules:
     svg: /structures/cholic-acid.svg
     note: >
       The main bile acid made by the liver from cholesterol. Its three –OH groups
-      cluster on one face (water-loving) while the steroid back is fat-loving.
+      cluster on one face, which is hydrophilic (water-loving), while the steroid back is
+      hydrophobic (fat-loving).

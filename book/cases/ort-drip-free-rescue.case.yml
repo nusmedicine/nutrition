@@ -56,15 +56,15 @@ nodes:
     stem: "Why must the drink contain both glucose and salt, not plain water alone?"
     options:
       - id: a
-        text: "Glucose carries sodium in through SGLT1, and water follows."
+        text: "SGLT1 carries glucose and sodium in together, and water follows."
         correct: true
-        feedback: "The glucose is a transport handle for sodium, and water follows the salt. Plain water lacks both, which is why ORS rehydrates better than plain water alone."
+        feedback: "SGLT1 cotransports glucose with sodium, and water follows the salt. Plain water lacks both, which is why ORS rehydrates better than plain water alone."
         effects: { quality: +1 }
         goto: q-drinks
       - id: b
         text: "The glucose is mainly there to give the child energy and calories."
         correct: false
-        feedback: "Its main job here is as a co-transport handle for sodium, not as fuel."
+        feedback: "Its main job here is to be cotransported with sodium through SGLT1, not to act as fuel."
         goto: q-drinks
       - id: c
         text: "The salt is only added to improve the taste so she drinks more."
@@ -134,17 +134,17 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "A rescue in a sachet"
+    title: "Rehydration by mouth"
     body: |
       You explained why Aria can be rehydrated by mouth (SGLT1 keeps working), why the
-      drink needs **both glucose and salt** (glucose carries sodium in, water follows),
+      drink needs **both glucose and salt** (SGLT1 cotransports them, water follows),
       and gave safe, practical advice: ORS in small sips, keep feeding, and seek care if
       she worsens. This simple physiology has saved millions of children's lives.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "In secretory diarrhoea the gut pours out fluid, but SGLT1 keeps absorbing sodium when glucose is present."
-        - "ORS needs glucose AND sodium: glucose is the transport handle, and water follows the salt."
+        - "ORS needs glucose AND sodium: SGLT1 cotransports them, and water follows the salt."
         - "First-line is ORS + continued feeding, with a safety-net (refer / IV) for severe dehydration."
 
   - id: end-partial
@@ -153,11 +153,11 @@ nodes:
     title: "Nearly there"
     body: |
       You worked through the case, but the reasoning wasn't quite on target. Replay and
-      focus on the coupling: **glucose carries sodium in through SGLT1, and water follows**.
+      focus on the coupling: **SGLT1 carries glucose and sodium in together, and water follows**.
       That coupling is why ORS (glucose *and* salt) works when plain water does not.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "SGLT1 keeps absorbing in diarrhoea, which is the basis of oral rehydration."
-        - "The glucose in ORS is a transport handle for sodium, not mainly fuel."
+        - "The glucose in ORS is cotransported with sodium through SGLT1; it is not mainly fuel."
         - "ORS + feeding first; a drip is for severe dehydration."

@@ -3,7 +3,7 @@
 # joined by a two-way link. Click a pillar to reveal how it and nutrition act on each other.
 # No asset paths: pure content.
 id: pillars-hub
-title: "The six pillars, with nutrition at the hub"
+title: "The six pillars, with nutrition at the centre"
 hub:
   label: Nutrition
   note: >-
@@ -28,5 +28,5 @@ pillars:
   - id: substances
     label: Substances
     full: Avoidance of risky substances
-    link: "Alcohol is itself part of the diet: empty energy that also disinhibits food choice."
+    link: "Alcohol is itself part of the diet: it supplies empty calories and also disinhibits food choice."
 credit: "The six pillars of health, after the American College of Lifestyle Medicine (ACLM) and other lifestyle-medicine frameworks."

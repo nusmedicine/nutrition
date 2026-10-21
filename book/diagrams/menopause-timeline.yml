@@ -14,7 +14,7 @@ layers:
     caption: >
       Total weight rises steadily with age, with no jump at the FMP. What is menopause-specific is fat
       redistributing to the abdomen and lean mass falling, so the waistline, not the scale, is the
-      tell.
+      better indicator.
     source: "SWAN body composition (Greendale 2019)"
     curves:
       - name: "Body weight"

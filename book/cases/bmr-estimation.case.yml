@@ -108,13 +108,13 @@ nodes:
       - id: a
         text: "A modest deficit of ~300–500 kcal/day"
         correct: true
-        feedback: "A modest deficit supports gradual loss (~0.25–0.5 kg/week) through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke the body's defence of its weight: stronger hunger and a fall in expenditure."
+        feedback: "A modest deficit supports gradual loss (~0.25–0.5 kg/week) through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke stronger hunger and a fall in expenditure (metabolic adaptation)."
         effects: { quality: 1 }
         goto: route
       - id: b
         text: "A large deficit of ~1,000+ kcal/day for faster results"
         correct: false
-        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a fall in expenditure: energy balance is defended, not free."
+        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a fall in expenditure: energy balance is actively regulated, not free."
         goto: route
       - id: c
         text: "No change to intake: just tell her to exercise it off"

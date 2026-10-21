@@ -410,15 +410,16 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 ## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned;
                    each movement ends with a collapsed "Check yourself" (§11j)
 ##   …            — ### only where a movement splits into 2+ real sub-topics, never a lone child
-## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out")
 ## <Chapter-question close>      — e.g. "Is body weight just calories in minus out?"
+## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out");
+                                  always the LAST content section (author decision 2026-10-22)
 ## Check your understanding      — <div data-island="quiz" …>
 ## Practise: <case title>        — <div data-island="case" …>
 ```
 
 **Chapter ending.** The close-question section answers the chapter's question with content; it does not
-restate the chapter as a summary or announce the next chapter (the page footer links to it). Then quiz,
-case, references.
+restate the chapter as a summary or announce the next chapter (the page footer links to it). The Singapore
+picture follows it as the last content section, then quiz, case, references.
 
 **Overview and hierarchy diagrams** (ported from *book-microbio* `STYLE.md` §4; styles in
 `book/styles.css`). Prose that lists several related groups, stages or levels of evidence is hard to parse
@@ -724,6 +725,13 @@ Chapters must read as a **structured narrative**, not a flat run of topics. Codi
 - **Headings are topical and scannable** — the TOC should read like a syllabus. No second-person imperative
   headings ("You look the targets up…") and no bare punchline headings; name the topic (a short subtitle after
   a colon is fine).
+- **Standard terminology, no private language (2026-10-22).** Name things by the term a textbook or guideline
+  uses (*metabolic adaptation*, *anabolic resistance*, *hypothalamic control of appetite*, *the fed
+  (absorptive) state*, *pathophysiology*, *bone remodelling*), never by a house coinage. A metaphor may
+  illustrate a mechanism once in prose, next to the real term, but never names a heading or replaces the term.
+  Do not personify organs or the body ("the body defends its weight", "the kidney rewrites the diet", "muscle
+  answers protein"): state the mechanism. Island component names (bone bank, renal flip, fuel dial) may stay
+  as titles of the interactive, but prose around them uses the standard terms.
 - **Voice (extends §11g).** Cut chapter-about-itself meta ("this one closes it", "the hardest idea in the
   chapter", "the single most important thing this chapter teaches", roadmap sentences like "we build these in
   order"). Follow the §11g hybrid voice: academic third person + *we* for exposition, *you* only for the
@@ -739,12 +747,12 @@ stage the same recipe and put **normal physiology before clinical problems**:
 ## What changes at this stage                — the physiology (fold nutrient needs in when inseparable)
 ## What commonly goes wrong                  — the concerns; SPLIT into 2 movements if rich (e.g. intake vs social)
 ## Recognising trouble, and when to refer    — red flags + the do-no-harm callout + a refer table (inline)
-## The Singapore picture
-## <close question>  ·  quiz  ·  case
+## <close question>
+## The Singapore picture  ·  quiz  ·  case
 ```
 *Worked example — Healthy Ageing:* at a glance (two drivers) → What changes inside (⤷ protein · watch-list) →
-Why older adults eat less → Who they eat with: the social plate → Recognising trouble, and when to refer →
-Singapore → close. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
+Why older adults eat less → Who they eat with → Recognising trouble, and when to refer → close →
+Singapore. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
 outline, quiz = self-test, case = case study.**
 
 **Verification — the preservation gate (REQUIRED after any restructure/rewrite).** A reorganisation must not

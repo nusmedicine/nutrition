@@ -17,7 +17,7 @@ questions:
   - id: q2
     stem: "Which statement about the evidence for breastfeeding is the most accurate?"
     options:
-      - text: "The benefits are real but specific, not a blanket halo"
+      - text: "The benefits are real but specific, not across every outcome"
         correct: true
         feedback: "The cleanest trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is a modest association, not proof. State the benefits with their caveats."
       - text: "Breastfeeding dramatically raises IQ and prevents obesity and most infections"

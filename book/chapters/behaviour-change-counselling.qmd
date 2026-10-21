@@ -20,13 +20,13 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Why knowledge is not enough](#sec-knowledge): reward, habit and the two levers
+- [Why knowledge is not enough](#sec-knowledge): reward, habit and motivation
 - [The conversation](#sec-conversation)
-  - [The 5 A's](#sec-five-as): the structure
+  - [The 5 A's](#sec-five-as): a framework for brief counselling
   - [Motivational interviewing](#sec-mi): the style
-  - [One SMART goal](#sec-smart): the product
+  - [Goal setting](#sec-smart): one SMART goal and an if-then plan
 - [Tailoring it to the person](#sec-tailoring)
-  - [Stages of change](#sec-stages): readiness, held loosely
+  - [Stages of change](#sec-stages): a heuristic for tailoring
   - [Fitting the goal to daily life](#sec-fit): the hawker centre and the family meal
 - [Do no harm](#sec-harm): weight-neutral language, red flags and referral
 :::
@@ -40,7 +40,7 @@ patient eats (see the [*Assessing Diet & Talking to Patients*](06-dietary-assess
 not close that gap on their own. In a brief consult, your aim is to start a change, not to finish one:
 to leave the patient a little more motivated, with one small step they chose themselves.
 
-Knowledge is a weak lever for a physiological reason: eating is only partly a deliberate choice (see
+Knowledge alone does little to change behaviour, for a physiological reason: eating is only partly a deliberate choice (see
 the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-hedonic) chapter). The brain's
 reward system generates wanting, a dopamine-driven pull toward palatable food; food cues, such as the
 sight, smell or advertisement of a snack, trigger that pull, and it can override both a fullness
@@ -49,7 +49,7 @@ eat is also **habit**: automatic, context-cued behaviour that runs with little c
 patient who "knows better" but eats otherwise therefore has a normal reward system and a set of habits
 operating in a food environment engineered to exploit both, not a weak will [@berthoud2017blaming].
 
-A reward system cannot be out-argued, so two levers move behaviour instead. One is eliciting the
+Information does not override the reward system, so behaviour change rests on two other approaches. One is eliciting the
 patient's own motivation, because the reason to change has to come from the patient. The other is
 re-shaping habits one small, repeated step at a time. Habits form slowly. A routine repeated in a
 consistent context takes weeks to months to turn automatic, so small-and-sustained beats
@@ -59,17 +59,17 @@ big-and-brief [@lally2010habits].
 ## Check yourself: a patient knows he should cut down his sweet kopi and still drinks three a day. Why is more information unlikely to change this, and what can?
 Eating is only partly a deliberate choice: food cues trigger the reward system's dopamine-driven
 wanting, which can override a considered intention, and much of what people eat runs as habit with
-little conscious thought. More information reaches only the deliberate part. The levers that work are
+little conscious thought. More information reaches only the deliberate part. What does work is
 the patient's own motivation and small changes repeated in a consistent context, which take weeks to
 months to become automatic.
 :::
 
 ## The conversation {#sec-conversation}
 
-### The 5 A's: the shape of the conversation {#sec-five-as}
+### The 5 A's: a framework for brief counselling {#sec-five-as}
 
-The 5 A's, the five-step scaffold for brief counselling (see the *Assessing Diet & Talking to
-Patients* chapter), give the consult its shape [@usptfBehavioural]:
+The 5 A's, the five-step framework for brief counselling (see the *Assessing Diet & Talking to
+Patients* chapter), structure the consult [@usptfBehavioural]:
 
 1. Assess: find out what the patient eats and what they are ready to change (the diet history).
 2. Advise: offer clear, personalised advice, with permission ("would it be OK if…?"); the content is
@@ -84,16 +84,16 @@ on intensive, multi-contact programmes (often a dozen or more sessions), not a s
 it, which is why the Arrange step matters. The more intensive, multi-session programmes that do shift
 outcomes belong to diabetes prevention (see the [*Type 2 Diabetes*](type-2-diabetes.qmd) chapter).
 
-The same scaffold works for any behaviour, whether activity, sleep, alcohol or smoking, so it is one
+The same framework works for any behaviour, whether activity, sleep, alcohol or smoking, so it is one
 transferable structure, applied here to food.
 
 ### Motivational interviewing: drawing out the patient's reasons {#sec-mi}
 
 **Motivational interviewing (MI)** is a collaborative way of talking that draws out the patient's own
-reasons to change instead of supplying the clinician's. It is the style that fills the 5 A's. Its
+reasons to change instead of supplying the clinician's. It is the communication style used within the 5 A's. Its
 benefits are real but modest: reviews find mostly small, short-term effects on health behaviours, and
 the evidence base is still developing [@frost2018mi]. MI is therefore a better default way to talk,
-not a guaranteed lever.
+not a guarantee of change.
 
 MI rests on four micro-skills, known by the acronym **OARS**: open questions, affirmations, reflective
 listening and summaries. The clinician uses them to listen for **change talk** (the patient voicing
@@ -119,7 +119,7 @@ see how he responds, and try more than one option to compare fixing with listeni
 
 <div data-island="response-chooser" data-src="/diagrams/response-chooser.yml"></div>
 
-### From a wish to one SMART goal {#sec-smart}
+### Goal setting: one SMART goal and an if-then plan {#sec-smart}
 
 Once a patient voices a change, the next step is to make it checkable. A **SMART goal** is Specific,
 Measurable, Achievable, Relevant and Time-bound.
@@ -130,7 +130,7 @@ Measurable, Achievable, Relevant and Time-bound.
 :::
 
 Specific goals show some promise over vague advice for dietary change, though the evidence has
-methodological limits and the acronym is only a scaffold [@shilts2004goalsetting]. Two rules matter
+methodological limits and the acronym is only a guide [@shilts2004goalsetting]. Two rules matter
 more than the letters. The goal must be the patient's, because an over-engineered goal they did not
 choose won't stick. It should also be small: one achievable change beats five aspirational ones.
 
@@ -149,14 +149,14 @@ the Arrange step, a follow-up or a referral, so that the change continues after 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient says the kopi is his only pleasure, and the doctor replies that the sugar is dangerous. Why does this accurate warning make change less likely?
 The warning is the righting reflex, the urge to fix, warn or lecture. It supplies the doctor's reason
-to change, but the lever that moves behaviour is the patient's own motivation, so the warning provokes
+to change, but what changes behaviour is the patient's own motivation, so the warning provokes
 resistance and he digs in. MI instead reflects, affirms and asks, which draws out change talk, and the
 patient argues himself toward change.
 :::
 
 ## Tailoring it to the person {#sec-tailoring}
 
-### Stages of change: a tailoring heuristic, held loosely {#sec-stages}
+### Stages of change: a heuristic for tailoring {#sec-stages}
 
 Patients arrive at different points of readiness, and the **stages-of-change** model gives those
 points names. Three of its stages are:
@@ -190,8 +190,8 @@ small, culturally familiar shift, not a prescription to stop eating out. The shi
 involve the people the patient eats with.
 
 ::: {.callout-tip}
-## 🍜 Eating out: goals that survive a hawker centre
-The best SMART goals ride existing rituals:
+## 🍜 Eating out: goals that work at a hawker centre
+The best SMART goals build on existing rituals:
 
 - kopi or teh *siu dai* or *kosong* instead of the sweet default;
 - one shared plate of *char kway teow* instead of one each;
@@ -247,17 +247,6 @@ as skipping meals to "make up" for eating or guilt around food, pressing on with
 goals could reinforce restriction. The safe response is to pause those goals and refer.
 :::
 
-## The Singapore picture {#sec-singapore}
-
-The HPB–MOH clinical practice guidelines already build brief lifestyle counselling on the 5 A's and
-MI-style engagement [@hpbMohCPG; @sgObesityBMI], so the approach is endorsed local practice.
-Nutri-Grade gives a ready-made SMART-goal lever: "move my usual drink from a D to an A or B" is
-specific, measurable and locally meaningful.
-
-The War on Diabetes framing draws attention to a higher risk among some ethnic groups, a cue to
-tailor: to meet a Malay, Indian or Chinese patient inside their own food culture instead of handing
-everyone the same script [@mohWarOnDiabetes].
-
 ## How do you start a change? {#sec-close}
 
 Not by knowing more, and not by trying harder to convince. A change starts when the patient hears
@@ -265,6 +254,17 @@ their own reason for it and leaves with one small step they chose, planned aroun
 followed up. It stays safe while the language stays kind and weight-neutral and the clinician keeps
 watching for red flags, ready to pause the goal and refer. One change the patient chose beats ten you
 prescribed.
+
+## The Singapore picture {#sec-singapore}
+
+The HPB–MOH clinical practice guidelines already build brief lifestyle counselling on the 5 A's and
+MI-style engagement [@hpbMohCPG; @sgObesityBMI], so the approach is endorsed local practice.
+Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
+specific, measurable and locally meaningful.
+
+The War on Diabetes framing draws attention to a higher risk among some ethnic groups, a cue to
+tailor: to meet a Malay, Indian or Chinese patient inside their own food culture instead of handing
+everyone the same script [@mohWarOnDiabetes].
 
 ## Check your understanding {#sec-quiz}
 

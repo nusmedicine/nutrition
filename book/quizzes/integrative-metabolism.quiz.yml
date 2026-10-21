@@ -6,15 +6,15 @@ questions:
     options:
       - text: "Only the glycerol backbone, not the fatty-acid carbons."
         correct: true
-        feedback: "Only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot. Fatty acids become acetyl-CoA, and the step from pyruvate to acetyl-CoA (PDH) is a one-way door, so fatty-acid carbon cannot go back to glucose."
+        feedback: "Only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot. Fatty acids become acetyl-CoA, and the step from pyruvate to acetyl-CoA (PDH) is irreversible, so fatty-acid carbon cannot go back to glucose."
       - text: "Yes, fat is readily converted to glucose whenever blood glucose is low."
         correct: false
-        feedback: "The one-way PDH step means fatty-acid carbon cannot become glucose, which is why the body must defend and remake glucose in a fast."
+        feedback: "The one-way PDH step means fatty-acid carbon cannot become glucose, which is why blood glucose must be maintained, and new glucose made, in a fast."
       - text: "No, no part of fat can ever contribute to glucose."
         correct: false
         feedback: "Glycerol, the backbone of a triglyceride, is glucogenic; only the fatty-acid carbons cannot become glucose."
   - id: q-muscle-glycogen
-    stem: "Your muscles hold most of the body's glycogen. Why can't that glycogen raise your blood glucose during a fast?"
+    stem: "Muscles hold most of the body's glycogen. Why can't that glycogen raise blood glucose during a fast?"
     options:
       - text: "Muscle lacks glucose-6-phosphatase, so it cannot release free glucose."
         correct: true
@@ -30,7 +30,7 @@ questions:
     options:
       - text: "It is anabolic for all three macronutrients."
         correct: true
-        feedback: "Insulin stores glucose and fat and builds protein, so it is the store-and-build signal across all three macronutrients; 'the sugar hormone' undersells it."
+        feedback: "Insulin stores glucose and fat and builds protein, so it is anabolic across all three macronutrients; 'the sugar hormone' undersells it."
       - text: "Its only job is to lower blood glucose."
         correct: false
         feedback: "Lowering glucose is one effect; insulin also stores fat (and blocks its breakdown) and builds protein."
@@ -42,10 +42,10 @@ questions:
     options:
       - text: "Their GLUT4 needs insulin; liver GLUT2 does not."
         correct: true
-        feedback: "Insulin brings GLUT4 to the cell surface, so a meal switches on uptake in muscle and fat. GLUT2 (liver) is insulin-independent and admits glucose in proportion to its concentration; insulin acts on the liver's enzymes, not its glucose door."
+        feedback: "Insulin brings GLUT4 to the cell surface, so a meal switches on uptake in muscle and fat. GLUT2 (liver) is insulin-independent and admits glucose in proportion to its concentration; insulin acts on the liver's enzymes, not its glucose transporter."
       - text: "The liver has no way to take up glucose."
         correct: false
-        feedback: "The liver takes up glucose readily through GLUT2. That door does not need insulin, so uptake does not surge the way it does in GLUT4-dependent muscle and fat."
+        feedback: "The liver takes up glucose readily through GLUT2. That transporter does not need insulin, so uptake does not surge the way it does in GLUT4-dependent muscle and fat."
       - text: "The liver only takes up glucose during fasting."
         correct: false
         feedback: "After a meal the liver takes up glucose through GLUT2, and during fasting it releases glucose. GLUT2 is insulin-independent."
@@ -90,7 +90,7 @@ questions:
     options:
       - text: "Hypoglycaemia: alcohol blocks gluconeogenesis and glycogen is already low."
         correct: true
-        feedback: "Metabolising ethanol floods the liver with NADH, which blocks gluconeogenesis. With glycogen already spent from skipped meals, both glucose sources are offline, and the result is a dangerous hypoglycaemia that can be mistaken for drunkenness."
+        feedback: "Metabolising ethanol floods the liver with NADH, which blocks gluconeogenesis. With glycogen already spent from skipped meals, neither glycogenolysis nor gluconeogenesis can supply glucose, and the result is a dangerous hypoglycaemia that can be mistaken for drunkenness."
       - text: "Hyperglycaemia: alcohol is full of sugar and raises blood glucose."
         correct: false
         feedback: "Whatever sugar the drinks contain, alcohol blocks the liver's glucose production, so on an empty stomach it lowers blood glucose."

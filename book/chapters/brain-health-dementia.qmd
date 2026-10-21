@@ -8,13 +8,13 @@
 ## Learning objectives
 - Explain how neurodegeneration and cerebral small-vessel disease add together to cause dementia, and
   why lowering the vascular load lowers the total burden.
-- Explain why vascular risk control is the best-supported lever, and interpret the Lancet Commission's
-  "up to about 45%" estimate without overselling it.
+- Explain why vascular risk control is the best-supported preventive approach, and interpret the Lancet
+  Commission's "up to about 45%" estimate without overselling it.
 - Distinguish the MIND diet's cohort association from its null prevention trial, and recommend a
   Mediterranean-style pattern as a low-regret choice.
 - Evaluate brain supplements against the trial evidence, including those that can cause harm.
-- Identify the non-dietary levers with real weight: physical activity, hearing and vision correction,
-  and social and mental engagement.
+- Identify the non-dietary measures with real weight: physical activity, hearing and vision
+  correction, and social and mental engagement.
 - Recognise weight loss in advanced dementia as part of the illness, explain why tube feeding does not
   help, and refer for a goals-of-care conversation.
 :::
@@ -22,13 +22,14 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Two pathways, one brain](#sec-dementia-pathways): neurodegeneration and vascular damage add up
-- [The prevention levers](#sec-dementia-levers)
-  - [Vascular risk](#sec-dementia-vascular): the best-supported lever
-  - [Diet and dementia](#sec-dementia-diet): a cohort signal, a null trial
-  - [Brain supplements](#sec-dementia-supplements): none proven, some harmful
-  - [Levers beyond the plate](#sec-dementia-beyond): activity, hearing and vision, engagement
-- [Eating in advanced dementia](#sec-dementia-advanced): careful hand feeding, not a tube
+- [Pathophysiology: neurodegeneration and small-vessel disease](#sec-dementia-pathways): the two kinds of damage add up
+- [Prevention: modifiable risk factors](#sec-dementia-levers)
+  - [Vascular risk factors](#sec-dementia-vascular): the best-supported target
+  - [Can a diet prevent dementia?](#sec-dementia-diet): a cohort signal, a null trial
+  - [Do brain supplements prevent dementia?](#sec-dementia-supplements): none proven, some harmful
+  - [Non-dietary modifiable risk factors](#sec-dementia-beyond): activity, hearing and vision, engagement
+- [Eating difficulties and weight loss in advanced dementia](#sec-dementia-advanced): careful hand feeding, not a tube
+- [When to refer](#sec-dementia-refer): genetic worry, goals of care, swallowing
 :::
 
 ## Brain health at a glance {#sec-overview}
@@ -38,21 +39,22 @@ to affect daily life. It is the condition patients most want a food fix for, and
 matters because the evidence is encouraging in one place and thin in the others. Four messages
 summarise the evidence:
 
-- The biggest dietary lever on the brain is vascular: what protects the heart protects the brain.
-  Managing blood pressure, glucose, weight, lipids, smoking and activity is the best-supported, most
-  actionable advice. It is the same prevention as for heart disease and diabetes (see the
-  [*Cardiovascular Disease & Hypertension*](cardiovascular-disease-hypertension.qmd) and
+- The largest dietary benefit for the brain comes through vascular risk: what protects the heart
+  protects the brain. Managing blood pressure, glucose, weight, lipids, smoking and activity is the
+  best-supported, most actionable advice. It is the same prevention as for heart disease and diabetes
+  (see the [*Cardiovascular Disease & Hypertension*](cardiovascular-disease-hypertension.qmd) and
   [*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
 - A brain-healthy eating pattern is a reasonable, low-regret choice, not a proven cure. The cohort
   studies look impressive, but the one prevention trial built to test a brain diet was negative.
 - No brain supplement is proven to prevent dementia, and a few can do harm.
-- Late in the disease the problem inverts. Weight loss and difficulty eating are an expected part of
-  advanced dementia, not a nutritional gap to fill with a feeding tube.
+- Late in the disease the concern shifts from prevention to eating difficulty. Weight loss and
+  difficulty eating are an expected part of advanced dementia, not a nutritional gap to fill with a
+  feeding tube.
 
-The task here is to recognise the levers, counsel truthfully and refer; no drug names or doses are
-needed.
+The task here is to recognise the modifiable risk factors, counsel truthfully and refer; no drug names
+or doses are needed.
 
-## The science underneath: two pathways, one brain {#sec-dementia-pathways}
+## Pathophysiology: neurodegeneration and small-vessel disease {#sec-dementia-pathways}
 
 Two kinds of brain damage usually run together in dementia.
 
@@ -74,7 +76,7 @@ Diabetes adds to the same vascular injury. The hyperglycaemic, insulin-resistant
 [*Type 2 Diabetes*](type-2-diabetes.qmd) chapter) also damages the brain's small vessels and speeds
 brain atrophy [@biessels2014diabetesmri]. There is no separate "diabetic dementia".
 
-![Two kinds of damage usually combine to produce dementia. Neurodegeneration (amyloid plaques and tau tangles) and cerebral small-vessel disease (from hypertension and diabetes) each push the brain toward a clinical threshold; because their injury adds together, reducing the vascular load lowers the total burden and can keep a person below the line for longer.](/figures/mechanisms/dementia-two-pathways.svg){#fig-two-pathways}
+![Two kinds of damage usually combine to produce dementia. Neurodegeneration (amyloid plaques and tau tangles) and cerebral small-vessel disease (from hypertension and diabetes) each push the brain toward a clinical threshold; because their injury adds together, reducing the vascular load lowers the total burden and can keep a person below that threshold for longer.](/figures/mechanisms/dementia-two-pathways.svg){#fig-two-pathways}
 
 The two processes rarely occur alone. In older people, **mixed pathology**, more than one disease
 process in the same brain, is the rule: most brains examined at post-mortem show it. The safest
@@ -99,9 +101,9 @@ Reducing the vascular load lowers the total burden and can keep a person below t
 longer, whichever model of neurodegeneration proves right.
 :::
 
-## The prevention levers {#sec-dementia-levers}
+## Prevention: modifiable risk factors {#sec-dementia-levers}
 
-### Vascular risk: what protects the heart protects the brain {#sec-dementia-vascular}
+### Vascular risk factors {#sec-dementia-vascular}
 
 The cardiometabolic risk factors for heart disease (hypertension, diabetes, high LDL cholesterol,
 obesity, smoking and physical inactivity) are also the modifiable drivers of the vascular contribution
@@ -119,14 +121,15 @@ Each risk factor raises risk only modestly, and reducing vascular damage is one 
 factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number
 comes from adding many common exposures across a life, not from one dominant cause. Two further
 points make the estimate usable. The largest single contributors are hearing loss, and education and
-social factors, not diet. Midlife is also the window that matters most, so prevention is a long game.
+social factors, not diet. Midlife is also the period that matters most, so prevention is a long-term
+effort.
 
 The best trial evidence that treating a vascular risk factor protects the brain comes from SPRINT
 MIND. Intensively lowering blood pressure significantly reduced **mild cognitive impairment** (a
 decline in memory or thinking that falls short of dementia) and the combined measure of mild
 impairment or dementia [@sprintmind2019jama]. It did not, on its own, reduce dementia (the trial was
 stopped early for its heart benefit, leaving it underpowered for that harder endpoint). Even with that
-caveat, it is the strongest signal we have, and it points at the vessels.
+caveat, it is the strongest signal we have, and it points to vascular risk.
 
 ### Can a diet prevent dementia? {#sec-dementia-diet}
 
@@ -153,12 +156,12 @@ Which impressive claims survive a randomised trial is rarely obvious in advance.
 <div data-island="trial-check" data-src="/diagrams/trial-check.yml"></div>
 
 For a patient, a Mediterranean-style or MIND-style pattern is safe, affordable and good for the heart.
-It is reasonable to recommend as a low-regret choice, though not as a proven shield against dementia.
+It is reasonable to recommend as a low-regret choice, though not as proven prevention of dementia.
 
 **Multidomain programmes**, which combine diet, exercise, cognitive activity and vascular monitoring,
 have improved cognitive test scores in trials such as FINGER [@ngandu2015finger]. Even the best of them
 has not shown a reduction in dementia itself, and the benefit probably runs largely through the
-vascular arm.
+vascular component.
 
 ### Do brain supplements prevent dementia? {#sec-dementia-supplements}
 
@@ -171,20 +174,16 @@ several carry a downside:
 | Fish-oil (omega-3) capsules | Omega-3 for the brain | Trials show no cognitive benefit [@sydenham2012cochraneomega3]; eat fish as food: the capsule is not the food |
 | Vitamin E | Antioxidant for prevention | No benefit, and at high doses linked to a small increase in death [@miller2005vitamine]; this one can harm |
 | Ginkgo biloba | The classic "brain tonic" | A large trial found it did not reduce dementia at all [@dekosky2008gem]; can increase bleeding and interact with blood thinners |
-| Coconut oil or "MCT" (medium-chain triglycerides) | Marketed for Alzheimer's | No credible trial evidence, and coconut oil is about 90% saturated fat, so it works against the vascular lever that actually matters |
+| Coconut oil or "MCT" (medium-chain triglycerides) | Marketed for Alzheimer's | No credible trial evidence, and coconut oil is about 90% saturated fat, so it works against the vascular risk control that actually matters |
 | "Medical foods" | Marketed for memory | A regulatory category with a lower bar than a medicine; the label is not evidence that the product works |
 
 A claim deserves scepticism when it rests on a blood or scan marker instead of memory itself, on a
 small pilot, or on an after-the-fact subgroup.
 
-A patient with a family history may ask about genetic testing for the *APOE* gene, whose variants are
-linked to Alzheimer's risk. The answer is that *APOE* is not tested for or acted on in ordinary
-prevention. If the worry persists, that is a reason to refer, not to start a supplement.
+### Non-dietary modifiable risk factors {#sec-dementia-beyond}
 
-### Levers beyond the plate {#sec-dementia-beyond}
-
-The worried-well patient deserves the whole picture, and some of the strongest levers are not
-dietary:
+The worried-well patient deserves the whole picture, and some of the strongest preventive measures are
+not dietary:
 
 - physical activity, a headline recommendation for brain health that works partly through the same
   vessels (see the [*Healthy Ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
@@ -199,9 +198,9 @@ rates across generations.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does dementia-prevention advice lead with blood pressure and glucose, not with a brain diet?
-The vascular lever has the strongest trial signal: in SPRINT MIND, intensive blood-pressure lowering
+Vascular risk control has the strongest trial signal: in SPRINT MIND, intensive blood-pressure lowering
 reduced mild cognitive impairment, although the trial was underpowered to show fewer cases of dementia
-itself. Diabetes injures the same small vessels, so glucose control belongs to the same vascular lever.
+itself. Diabetes injures the same small vessels, so glucose control acts on the same vascular pathway.
 The MIND diet's halved risk came from cohorts, which confounding and reverse causation can inflate,
 and it did not survive a three-year randomised trial. A Mediterranean-style pattern is still worth
 recommending as a low-regret, heart-healthy choice, but not as proven prevention.
@@ -214,29 +213,25 @@ they brought no benefit to memory or thinking. A claim that rests on a blood or 
 pilot or an after-the-fact subgroup deserves scepticism.
 :::
 
-## Eating in advanced dementia: when the problem inverts {#sec-dementia-advanced}
+## Eating difficulties and weight loss in advanced dementia {#sec-dementia-advanced}
 
-Late in the disease the nutrition problem turns upside down. As dementia advances, weight loss and
-difficulty eating are expected, driven by the disease itself: most people with advanced dementia
-develop an eating problem, and it marks a late stage of the illness [@mitchell2009cascade]. The
-instinct, and the family's plea, is to "do something so she doesn't starve", and the ward reflex is to
-consider a feeding tube.
+As dementia advances, weight loss and difficulty eating are expected, driven by the disease itself:
+most people with advanced dementia develop an eating problem, and it marks a late stage of the illness
+[@mitchell2009cascade]. The instinct, and the family's plea, is to "do something so she doesn't
+starve", and a common ward response is to consider a feeding tube.
 
-The evidence on that reflex is unusually clear. In advanced dementia, tube feeding does not prolong
-survival, prevent aspiration pneumonia, heal or prevent pressure ulcers, or improve comfort, and it can
-cause harm, including *more* pressure ulcers [@davies2021cochranetubefeeding;
+The evidence on tube feeding here is unusually clear. In advanced dementia, tube feeding does not
+prolong survival, prevent aspiration pneumonia, heal or prevent pressure ulcers, or improve comfort,
+and it can cause harm, including *more* pressure ulcers [@davies2021cochranetubefeeding;
 @teno2012pressureulcers]. Geriatrics societies and the Choosing Wisely campaign converge on the same
 position: **careful hand feeding**, offering food for comfort, is preferred [@ags2014feedingtubes].
 
-The generalist's task is to recognise the trajectory, explain gently that the weight loss is part of
-the illness and not neglect, and refer for a goals-of-care conversation instead of reaching for a tube.
+The generalist's task is to recognise the trajectory and explain gently that the weight loss is part
+of the illness and not neglect; the referral that follows is set out in
+[When to refer](#sec-dementia-refer).
 
 Two things are separate from the tube question and still appropriate: correcting a genuine vitamin
-deficiency, and supporting oral intake with feeding help earlier in the disease. A common ward reflex to
-watch is routinely thickening fluids for dysphagia. The evidence for routine thickening is weak, so
-recognise the reflex and refer to speech therapy instead of assuming it is needed. The
-recognise-and-refer posture, and the malnutrition screening behind it, are set out in the
-[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) chapter.
+deficiency, and supporting oral intake with feeding help earlier in the disease.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is the weight loss of advanced dementia not a gap that a feeding tube can close?
@@ -247,14 +242,55 @@ more pressure ulcers. Careful hand feeding for comfort, with a referral for a go
 conversation, is the evidence-based response.
 :::
 
+## When to refer {#sec-dementia-refer}
+
+The generalist counsels on prevention and recognises the late-stage trajectory. Three situations call
+for a referral instead of further advice or a product:
+
+- Persistent worry about genetic risk. A patient with a family history may ask about genetic
+  testing for the *APOE* gene, whose variants are linked to Alzheimer's risk. The answer is that *APOE*
+  is not tested for or acted on in ordinary prevention. If the worry persists, that is a reason to
+  refer, not to start a supplement.
+- Weight loss in advanced dementia. Once the trajectory is recognised and explained, refer for a
+  goals-of-care conversation instead of reaching for a tube.
+- Swallowing difficulty (dysphagia). A common ward practice to watch is routinely thickening fluids
+  for dysphagia. The evidence for routine thickening is weak, so recognise the practice and refer to
+  speech therapy instead of assuming it is needed.
+
+The recognise-and-refer posture, and the malnutrition screening behind it, are set out in the
+[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
+who does what across the multidisciplinary team, is in the
+[*Interprofessional Practice & Referral*](interprofessional-referral.qmd) chapter.)
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient with advanced dementia has trouble swallowing, and the ward plans routine thickened fluids. What should the generalist do instead?
+The evidence for routinely thickening fluids for dysphagia is weak. Recognise it as a common ward
+practice, not an established need, and refer to speech therapy instead of assuming thickening is
+required.
+:::
+
+## What should a patient worried about dementia be told? {#sec-close}
+
+Take the fear seriously, then cover four points:
+
+1. Lead with vascular risk, because what is good for the heart is good for the brain.
+2. Offer a Mediterranean-style pattern as a sensible, low-regret choice, while being clear that it is
+   not a proven cure.
+3. Steer away from brain supplements, which cost money and can occasionally harm.
+4. Add the non-dietary measures that carry real weight, especially activity and getting hearing and
+   vision corrected.
+
+If the same family later returns with a relative who is losing weight in advanced dementia, the kind,
+evidence-based answer is comfort, not a tube, with a referral for a proper conversation about goals.
+
 ## The Singapore picture {#sec-singapore}
 
 Singapore is ageing quickly, and dementia is common: about 1 in 11 residents aged 60 and over live with
 it, and about half of community dementia is still undiagnosed [@subramaniam2025wisedecade]. That
-undiagnosed half is the argument for the generalist's recognise-and-refer role. Risk maps onto the
-vascular story locally too: dementia is commoner in Indian than Chinese residents, mirroring the higher
-burden of diabetes and vascular disease. "Brain health is vascular health" is therefore a message that
-fits national diabetes and hypertension efforts.
+undiagnosed half is the argument for the generalist's recognise-and-refer role. Locally, too,
+dementia risk tracks vascular risk: dementia is commoner in Indian than Chinese residents,
+mirroring the higher burden of diabetes and vascular disease. "Brain health is vascular health" is therefore a
+message that fits national diabetes and hypertension efforts.
 
 Two local realities shape counselling. The first is a large local market in over-the-counter "brain
 tonics" (ginkgo, fish oil and traditional tonics). Being sold in a pharmacy does not make a product
@@ -265,20 +301,6 @@ quality tracks with better cognition [@huangx2023singaporemec], and regular curr
 been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry]. The
 curry finding generates a hypothesis; it is not a prescription. Local prevention programmes are
 adapting the multidomain approach to Singaporean food and life.
-
-## What should a patient worried about dementia be told? {#sec-close}
-
-Take the fear seriously, then cover four points:
-
-1. Lead with the blood vessels, because what is good for the heart is good for the brain.
-2. Offer a Mediterranean-style pattern as a sensible, low-regret choice, while being clear that it is
-   not a proven cure.
-3. Steer away from brain supplements, which cost money and can occasionally harm.
-4. Add the non-food levers that carry real weight, especially activity and getting hearing and vision
-   corrected.
-
-If the same family later returns with a relative who is losing weight in advanced dementia, the kind,
-evidence-based answer is comfort, not a tube, with a referral for a proper conversation about goals.
 
 ## Check your understanding {#sec-quiz}
 

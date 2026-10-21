@@ -18,7 +18,7 @@ probes:
     yield: 15
     reveal: "\"I skip breakfast, grab economy rice or noodles for lunch near the office, and dinner is whatever's easy: hawker or something quick at home.\""
     picture: ["Skips breakfast", "Economy rice / noodles lunch", "Convenience dinners"]
-    note: "The backbone question, which anchors everything else. One recalled day is not necessarily a habitual day (the 24-hour recall's main bias), so ask whether it was typical."
+    note: "The core question, which anchors everything else. One recalled day is not necessarily a habitual day (the 24-hour recall's main bias), so ask whether it was typical."
   - id: meals
     label: "How many meals, and when?"
     yield: 8

@@ -63,7 +63,7 @@ nodes:
       - id: a
         text: "Under-fuelling: her intake isn't matching her training, which threatens her bones."
         correct: true
-        feedback: "This is the recognisable pattern of low energy availability (too little energy left over after training): restriction, a heavy load, amenorrhoea and a stress fracture. The low energy is likely why her periods stopped and why she fractured, and it puts her peak-bone-mass window at risk."
+        feedback: "This is the recognisable pattern of low energy availability (too little energy left over after training): restriction, a heavy load, amenorrhoea and a stress fracture. The low energy is likely why her periods stopped and why she fractured, and it puts her bone accrual, and so her peak bone mass, at risk."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-refer
@@ -95,7 +95,7 @@ nodes:
       - id: b
         text: "Start a calcium and vitamin D supplement and review her in 6 months."
         correct: false
-        feedback: "A supplement doesn't fix the underlying problem (too little energy dropping her hormones), and 6 months is far too long to watch a bone-health red flag. She needs referral now."
+        feedback: "A supplement doesn't fix the underlying problem (too little energy lowering her hormone levels), and 6 months is far too long to watch a bone-health red flag. She needs referral now."
         reaction: concerned
         goto: q-message
       - id: c
@@ -159,7 +159,7 @@ nodes:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Never prescribe a diet to an adolescent: dieting predicts both eating disorders and weight gain, and a normal weight does not exclude a problem."
-        - "Amenorrhoea, a stress fracture, restriction and heavy training together point to low energy availability threatening the peak-bone-mass window: a red flag."
+        - "Amenorrhoea, a stress fracture, restriction and heavy training together point to low energy availability threatening bone accrual and peak bone mass: a red flag."
         - "The safe action is recognise-and-refer; the message is fuel, don't restrict, never 'eat less' or 'wait and see'."
         - "Detailed assessment and management belong to the specialist team, not the first encounter."
 

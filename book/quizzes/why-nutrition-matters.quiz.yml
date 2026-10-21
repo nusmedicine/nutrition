@@ -15,17 +15,17 @@ questions:
         feedback: "Infectious disease, injury and maternal and neonatal causes still account for a substantial share of deaths, so 95% is too high."
 
   - id: q2
-    stem: "Why is nutrition described as the hub of the six pillars of health?"
+    stem: "Why is nutrition described as central to the six pillars of health?"
     options:
       - text: "Because diet is the only pillar that affects health"
         correct: false
-        feedback: "All six pillars affect health. Nutrition is the hub because it connects to the others, not because it replaces them."
+        feedback: "All six pillars affect health. Nutrition is central because it connects to the others, not because it replaces them."
       - text: "Because it links to the other five pillars in both directions"
         correct: true
-        feedback: "Nutrition acts on, and is acted on by, physical activity, sleep, stress, social connection and alcohol, so pulling on it tends to move the whole web: short sleep raises appetite, and stress is thought to drive comfort eating."
+        feedback: "Nutrition acts on, and is acted on by, physical activity, sleep, stress, social connection and alcohol, so the pillars tend to move together: short sleep raises appetite, and stress is thought to drive comfort eating."
       - text: "Because it can be treated in isolation from the others"
         correct: false
-        feedback: "Its links to the other pillars are what make it the hub, so treating it in isolation tends to fall short: fixing the diet often means addressing sleep and stress too."
+        feedback: "Its links to the other pillars are what make it central, so treating it in isolation tends to fall short: fixing the diet often means addressing sleep and stress too."
 
   - id: q3
     stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
@@ -64,7 +64,7 @@ questions:
         feedback: "About 9 in 10 residents exceed the WHO sodium limit, and most of that sodium comes from sauces, broths and food eaten out."
       - text: "About 1 in 2"
         correct: false
-        feedback: "The share is much higher, roughly 9 in 10; most sodium hides in sauces, broths and food eaten out."
+        feedback: "The share is much higher, roughly 9 in 10; most sodium comes from sauces, broths and food eaten out."
 
   - id: q6
     stem: "How are the six pillars of health meant to be used?"

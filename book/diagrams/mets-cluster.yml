@@ -2,7 +2,7 @@
 # A clustering wheel: insulin resistance + central fat sit at the hub, and the five
 # harmonised metabolic-syndrome components orbit it. The learner toggles each component
 # present/absent; >=3 of 5 meets criteria. Sleep loss and stress/cortisol feed the hub as
-# modifiable levers. Pure content, no asset paths.
+# modifiable factors. Pure content, no asset paths.
 # No `intro` key: the chapter paragraph beside the island already states the definition, and the
 # component's own hint line carries the toggle instruction (AUTHOR.md §11i item 8).
 id: mets-cluster
@@ -41,9 +41,9 @@ verdicts:
   meets: "Metabolic syndrome: meets criteria (≥3 of 5)"
   # {n} is replaced with the running count of toggled-on components.
   notyet: "{n} of 5: not yet"
-# Modifiable levers that feed the hub. Rendered as badges with arrows pointing at the centre.
+# Modifiable factors that feed the hub. Rendered as badges with arrows pointing at the centre.
 levers:
-  caption: "Modifiable levers that feed the hub"
+  caption: "Modifiable factors that feed central fat and insulin resistance"
   items:
     - id: sleep
       label: "Sleep loss"
@@ -53,6 +53,6 @@ levers:
       note: "Chronic stress raises cortisol, which biases eating toward energy-dense comfort food and channels fat to the abdomen."
 # A short standing caption: the take-home the chapter paragraph does not already state.
 caption: >-
-  Care acts on the shared root (insulin resistance with central fat) and its modifiable levers,
-  not by chasing one number.
+  Care targets the common underlying abnormalities (insulin resistance with central fat) and the modifiable
+  factors that feed them, not one number in isolation.
 credit: "Harmonised criteria after IDF / AHA / NHLBI (Alberti 2009); Asian waist cut-offs per IDF."

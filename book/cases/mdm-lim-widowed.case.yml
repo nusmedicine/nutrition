@@ -1,8 +1,8 @@
 id: mdm-lim-widowed
 title: "Mdm Lim, 78: the widow who eats alone"
 objectives:
-  - "Recognise unintentional weight loss (looser clothing) in an older adult, especially in the widowhood window, as the main red flag, not \"normal ageing\"."
-  - "Apply do-no-harm: avoid a restrictive diet in a thin older adult who is losing weight, and fortify familiar foods instead (density up, restriction off)."
+  - "Recognise unintentional weight loss (looser clothing) in an older adult, especially in the months after widowhood, as the main red flag, not \"normal ageing\"."
+  - "Apply do-no-harm: avoid a restrictive diet in a thin older adult who is losing weight, and fortify familiar foods instead."
   - "Recognise the at-risk B12 profile (long-term metformin, a PPI and poor intake) and check or refer instead of blanket-supplementing."
   - "Reconnect the isolated older adult to a shared meal and refer appropriately, without managing malnutrition here."
 difficulty: intro
@@ -61,7 +61,7 @@ nodes:
       - id: a
         text: "\"The opposite: make her food richer and get her eating with others.\""
         correct: true
-        feedback: "Density up, restriction off: fortify familiar foods so a small appetite still delivers protein and energy, and tackle the eating-alone driver by reconnecting her to a shared meal."
+        feedback: "Raise nutrient density and avoid restriction: fortify familiar foods so a small appetite still delivers protein and energy, and address her eating alone by reconnecting her to a shared meal."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-b12
@@ -74,7 +74,7 @@ nodes:
       - id: c
         text: "\"Just buy her supplement drinks and leave it at that.\""
         correct: false
-        feedback: "Food-first fortification of the meals she already eats comes before supplement drinks, and drinks alone skip the biggest lever: she eats alone."
+        feedback: "Food-first fortification of the meals she already eats comes before supplement drinks, and drinks alone miss the main modifiable factor: she eats alone."
         goto: q-b12
 
   - id: q-b12
@@ -108,7 +108,7 @@ nodes:
       - id: a
         text: "Refer her (GP or polyclinic, dietitian) and link her to communal meals."
         correct: true
-        feedback: "Recognise and refer, and act on the social driver: linking her to an Active Ageing Centre for communal meals is an intervention you can start now. The full malnutrition assessment and management belong to the specialist (see the *Undernutrition & Malnutrition* chapter)."
+        feedback: "Recognise and refer, and act on the social cause: linking her to an Active Ageing Centre for communal meals is an intervention you can start now. The full malnutrition assessment and management belong to the specialist (see the *Undernutrition & Malnutrition* chapter)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -133,13 +133,13 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Density up, restriction off, and refer"
+    title: "Raise nutrient density, avoid restriction, and refer"
     body: |
       Unintentional weight loss (loose clothes) after widowhood is the red flag, not "normal ageing". The
       tempting low-fat, low-salt "healthy diet" is the do-no-harm trap: a thin older woman who is losing
-      weight needs her food made richer and more flavourful (fortify the familiar porridge with egg, fish or
+      weight needs her food made richer and more flavourful (fortify her usual porridge with egg, fish or
       tofu), not stricter. Her metformin and PPI put her at risk of B12 deficiency, which is worth checking.
-      The biggest lever is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
+      The most important modifiable factor is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
       dietitian) instead of managing malnutrition here. Replay and run it through.
     next: end-partial
 
@@ -158,22 +158,22 @@ nodes:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Unintentional weight loss (about 5% or more, or loose clothes), especially after widowhood, is a red flag, not normal ageing. Recognise and refer."
-        - "Do no harm: never put a thin older adult who is losing weight on a restrictive diet; fortify familiar foods instead (density up, restriction off)."
+        - "Do no harm: never put a thin older adult who is losing weight on a restrictive diet; fortify familiar foods instead."
         - "Long-term metformin, a PPI and poor intake put her at risk of B12 deficiency through malabsorption: check or refer, and don't blanket-supplement."
-        - "Eating alone is a powerful, modifiable driver: reconnect her to a shared meal (an Active Ageing Centre) and refer for the rest."
+        - "Eating alone is a powerful, modifiable risk factor: reconnect her to a shared meal (an Active Ageing Centre) and refer for the rest."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Most of the way there"
     body: |
-      You helped Mdm Lim but slipped on at least one point: recognising the weight loss, the do-no-harm fork
+      You helped Mdm Lim but slipped on at least one point: recognising the weight loss, the do-no-harm decision
       (no restrictive diet), the B12 risk, or the refer-and-reconnect plan. Replay and run the safe path:
-      recognise the unintentional weight loss, fortify the familiar (density up, restriction off), check B12
+      recognise the unintentional weight loss, fortify familiar foods to raise nutrient density without restriction, check B12
       given her metformin and PPI, reconnect her to a shared meal, and refer.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Unintentional weight loss after widowhood is a red flag: recognise and refer."
-        - "Density up, restriction off: fortify familiar foods, and never put a thin, frail older adult on a restrictive diet."
-        - "Eating alone is a modifiable driver: reconnect her to a shared meal, and check B12 given her metformin and PPI."
+        - "Raise nutrient density without restriction: fortify familiar foods, and never put a thin, frail older adult on a restrictive diet."
+        - "Eating alone is a modifiable risk factor: reconnect her to a shared meal, and check B12 given her metformin and PPI."

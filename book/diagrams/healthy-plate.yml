@@ -27,7 +27,7 @@ cuisines:
         - { label: "Steamed chicken, skin off", quality: ok, note: "Lean once the skin is off, so it makes a reasonable protein quarter." }
         - { label: "Steamed fish / sliced-fish soup", quality: good, note: "Lean protein with minimal added oil makes the model protein quarter." }
       drink:
-        - { label: "Canned soft drink", quality: poor, start: true, note: "A Nutri-Grade C/D drink is essentially a cup of free sugar; swapping it for water is one of the two biggest levers in the local diet." }
+        - { label: "Canned soft drink", quality: poor, start: true, note: "A Nutri-Grade C/D drink is essentially a cup of free sugar; swapping it for water is one of the two highest-yield changes in the local diet." }
         - { label: "Unsweetened tea", quality: ok, note: "No free sugar, so a fine choice. Water is still the everyday default." }
         - { label: "Plain water / kopi-o kosong", quality: good, note: "Choosing water (or unsweetened kopi) over any sweetened drink is the simplest high-yield swap." }
   - id: malay
@@ -39,7 +39,7 @@ cuisines:
         - { label: "Sayur lodeh + ulam (raw veg)", quality: good, note: "Cooked and raw vegetables together fill the half; ulam is an easy local way to bulk up greens." }
       grain:
         - { label: "Heaped rice, gravy soaked in", quality: poor, start: true, note: "A large refined-rice portion swimming in coconut gravy, energy-dense before the protein even arrives." }
-        - { label: "Regular rice scoop", quality: ok, note: "A normal portion; brown rice is rarely offered, so portion is the main lever here." }
+        - { label: "Regular rice scoop", quality: ok, note: "A normal portion; brown rice is rarely offered, so portion is the main change available here." }
         - { label: "Modest rice scoop, less gravy", quality: good, note: "A sensible portion with the coconut gravy kept light: the realistic wholegrain-quarter equivalent at nasi padang." }
       protein:
         - { label: "Fried chicken (ayam goreng)", quality: poor, start: true, note: "Deep-fried and often skin-on, this is a fatty take on the protein quarter." }

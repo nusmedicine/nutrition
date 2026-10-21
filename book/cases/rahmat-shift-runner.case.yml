@@ -87,7 +87,7 @@ nodes:
       - id: a
         text: "\"Move your main meals to the daytime and eat lightly at night.\""
         correct: true
-        feedback: "The body handles food less well overnight, so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical change."
+        feedback: "Food eaten overnight is handled less well metabolically (poorer glucose tolerance), so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical change."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight

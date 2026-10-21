@@ -6,10 +6,10 @@ questions:
     options:
       - text: "Past Singapore's ≥23 intervention point, with central obesity by the Asian waist cut-off"
         correct: true
-        feedback: "On the Singapore number-line, a BMI of 23 or more already triggers intervention, and a waist of 94 cm is over the Asian cut-off for men (≥90 cm), so a BMI of 24 is not reassuring here. BMI and waist are read together, never BMI alone, because Asians carry more central fat at a given BMI."
+        feedback: "On Singapore's cut-offs, a BMI of 23 or more already triggers intervention, and a waist of 94 cm is over the Asian cut-off for men (≥90 cm), so a BMI of 24 is not reassuring here. BMI and waist are read together, never BMI alone, because Asians carry more central fat at a given BMI."
       - text: "Normal weight, because the BMI is well under the 25 overweight threshold set globally"
         correct: false
-        feedback: "That applies the WHO global line (overweight ≥25). Singapore acts earlier, at ≥23, and the waist of 94 cm is already over the Asian cut-off, so this reading misses real risk."
+        feedback: "That applies the WHO global cut-off (overweight ≥25). Singapore acts earlier, at ≥23, and the waist of 94 cm is already over the Asian cut-off, so this reading misses real risk."
       - text: "Normal weight, because the BMI is well under the 30 obese threshold"
         correct: false
         feedback: "The 30 figure is the WHO obese threshold and the population surveillance number, not the clinical action point. Singapore intervenes at ≥23, and the waist here signals central obesity."
@@ -31,7 +31,7 @@ questions:
         feedback: "There is no obligatory component in the harmonised definition, and her waist of 86 cm is over the ≥80 cm cut-off for women. She meets three of five."
       - text: "Yes, and it is a single disease best treated with one targeted drug"
         correct: false
-        feedback: "She does meet criteria, but the syndrome is a risk marker for diabetes and cardiovascular disease, not one disease with one drug. The label prompts you to look at the whole cluster and its shared root."
+        feedback: "She does meet criteria, but the syndrome is a risk marker for diabetes and cardiovascular disease, not one disease with one drug. The label prompts you to look at the whole cluster and its common underlying abnormalities."
 
   - id: q3
     stem: "A newspaper reports that 12.7% of Singapore adults are obese, yet your clinic guideline flags patients from a lower BMI. Why the mismatch?"
@@ -41,10 +41,10 @@ questions:
         feedback: "Singapore reports population obesity at the WHO ≥30 threshold for international comparability, but clinical action begins far earlier: high risk at ≥27.5, intervention at ≥23. The surveillance threshold and the clinical action point are deliberately different numbers."
       - text: "The newspaper figure is simply an error; ≥30 is not used in Singapore"
         correct: false
-        feedback: "It is not an error: the ≥30 line is the correct surveillance and international-comparison threshold. The clinic simply acts earlier, at ≥27.5 and ≥23."
-      - text: "The clinic flags patients from ≥25 because that is the WHO overweight line used everywhere"
+        feedback: "It is not an error: the ≥30 cut-off is the correct surveillance and international-comparison threshold. The clinic simply acts earlier, at ≥27.5 and ≥23."
+      - text: "The clinic flags patients from ≥25 because that is the WHO overweight cut-off used everywhere"
         correct: false
-        feedback: "Singapore's action points are ≥23 and ≥27.5, shifted down from the WHO ≥25/≥30 line, not set at 25. The rationale is higher body fat at a given BMI in Asians."
+        feedback: "Singapore's action points are ≥23 and ≥27.5, shifted down from the WHO ≥25/≥30 cut-offs, not set at 25. The rationale is higher body fat at a given BMI in Asians."
       - text: "The two numbers describe entirely different things, so neither one is really comparable"
         correct: false
         feedback: "The two numbers are comparable and consistent: one is for population reporting (≥30), the other for clinical action (≥27.5 and ≥23), and reading them together explains the mismatch."
@@ -60,7 +60,7 @@ questions:
         feedback: "The hormone account is directional and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable signal is the increase in intake, not the hormone mediator."
       - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
         correct: false
-        feedback: "Poor sleep measurably raises energy intake, and stress biases eating toward energy-dense comfort food and channels fat to the abdomen. Both are modifiable levers."
+        feedback: "Poor sleep measurably raises energy intake, and stress biases eating toward energy-dense comfort food and channels fat to the abdomen. Both are modifiable factors."
       - text: "The fix is more willpower, since the cause is a failure of discipline"
         correct: false
         feedback: "Calling this a failure of discipline misframes an upstream driver as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging ignores the mechanism and can be stigmatising."
@@ -108,7 +108,7 @@ questions:
         feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma degrades care and drives avoidance. Ask permission and frame around behaviours instead."
       - text: "Comment that he looks heavier than last visit to motivate him to act"
         correct: false
-        feedback: "Comments on appearance are stigmatising and backfire: shaming raises cortisol and comfort-eating and can promote weight gain (the COBWEBS loop). Person-first, permission-based framing is the standard."
+        feedback: "Comments on appearance are stigmatising and backfire: shaming raises cortisol and comfort-eating and can promote weight gain (the cycle described by the COBWEBS model). Person-first, permission-based framing is the standard."
       - text: "Avoid the topic of weight entirely so as not to offend him at this visit"
         correct: false
         feedback: "Weight-inclusive care still raises the topic and holds the ~5–10% target, but does so with permission and person-first language instead of blame. Silence is not the goal."

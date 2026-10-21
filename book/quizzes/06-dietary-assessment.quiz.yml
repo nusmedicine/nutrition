@@ -71,10 +71,10 @@ questions:
     options:
       - text: "Toward undernutrition: recognise malnutrition risk and refer"
         correct: true
-        feedback: "Unplanned weight loss with poor intake flags malnutrition risk, which a MUST-type screen captures; this is the low tail, not a 'cut down' conversation. Recognise and refer."
+        feedback: "Unplanned weight loss with poor intake flags malnutrition risk, which a MUST-type screen captures; this is undernutrition, not a 'cut down' conversation. Recognise and refer."
       - text: "Toward weight loss advice, since losing weight is generally healthy"
         correct: false
-        feedback: "In an older adult, unplanned weight loss is a warning sign, not a success: the wrong tail entirely."
+        feedback: "In an older adult, unplanned weight loss is a warning sign of undernutrition, not a success."
       - text: "No action, since weight loss never needs assessment"
         correct: false
         feedback: "Unplanned weight loss with poor appetite is a red flag that warrants screening and referral."

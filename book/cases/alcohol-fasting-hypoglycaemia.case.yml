@@ -2,7 +2,7 @@ id: alcohol-fasting-hypoglycaemia
 title: "He skipped meals, drank, and collapsed"
 objectives:
   - "Recognise that alcohol on an empty stomach can cause hypoglycaemia, not hyperglycaemia."
-  - "Explain the mechanism: alcohol blocks gluconeogenesis, and skipped meals leave glycogen already spent, so both glucose sources are offline."
+  - "Explain the mechanism: alcohol blocks gluconeogenesis, and skipped meals leave glycogen already spent, so neither glycogenolysis nor gluconeogenesis can supply glucose."
   - "Give recognition-level management: check and correct the glucose; sensible safety advice."
 difficulty: intro
 estimatedMinutes: 7
@@ -52,12 +52,12 @@ nodes:
 
   - id: q-why
     type: mcq
-    stem: "His glucose is low. Normally the liver would rescue a falling blood glucose. Why can't it here?"
+    stem: "His glucose is low. Normally the liver would correct a falling blood glucose. Why can't it here?"
     options:
       - id: a
         text: "Skipped meals spent his glycogen, and alcohol blocks gluconeogenesis."
         correct: true
-        feedback: "Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis, and with glycogen already gone from skipped meals there is no glucose left to release. Both glucose sources are offline at once, which is why alcohol with fasting is so dangerous."
+        feedback: "Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis, and with glycogen already gone from skipped meals there is no glucose left to release. Both sources of glucose (glycogenolysis and gluconeogenesis) are unavailable at once, which is why alcohol with fasting is so dangerous."
         effects: { quality: +1 }
         goto: q-trap
       - id: b
@@ -126,8 +126,8 @@ nodes:
     body: |
       Alcohol on an empty stomach lowers blood glucose. Alcohol blocks the liver from making
       new glucose (gluconeogenesis), and skipping meals means its glycogen store is already
-      spent, so both glucose sources are offline. The sweating and tremor are the body's
-      alarm, and the confusion is the brain running short of fuel. The treatment is
+      spent, so neither glycogenolysis nor gluconeogenesis can supply glucose. The sweating and
+      tremor are autonomic warning symptoms, and the confusion is the brain running short of fuel. The treatment is
       glucose, not time or insulin.
     next: end-partial
 
@@ -138,7 +138,7 @@ nodes:
     body: |
       You looked past "he's just drunk", checked the glucose and recognised
       **alcohol-induced hypoglycaemia**: skipped meals had spent his glycogen, and alcohol
-      had blocked his liver from making new glucose, so both sources were offline at once.
+      had blocked his liver from making new glucose, so neither source of glucose was available.
       You corrected the glucose and gave the advice that matters: eat when you drink, and
       never drink on an empty stomach.
     debrief:
@@ -156,7 +156,8 @@ nodes:
       You worked through the case, but the reasoning slipped at one step. The take-home:
       alcohol on an empty stomach causes hypoglycaemia, because it blocks the liver from making
       glucose while skipped meals have already emptied the glycogen store. Replay and focus
-      on why *both* of the liver's glucose sources are offline.
+      on why *neither* of the liver's glucose sources (glycogenolysis and gluconeogenesis) is
+      available.
     debrief:
       objectivesMet: [1]
       keyPoints:

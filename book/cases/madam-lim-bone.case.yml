@@ -1,7 +1,7 @@
 id: madam-lim-bone
 title: "Madam Lim, 58: dairy-free bones and \"do I need a drug?\""
 objectives:
-  - "Identify her biggest dietary lever: a reliable, well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), ahead of blanket supplements or a poorly absorbed food."
+  - "Identify her most effective dietary change: a reliable, well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), ahead of blanket supplements or a poorly absorbed food."
   - "Apply bioavailability: spinach's calcium is oxalate-bound and barely absorbed (~5%), so content is not availability; choose low-oxalate greens and calcium-set tofu."
   - "Recognise her red flags (a low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk from a covered, indoor life despite the sun) and correct genuine shortfall, since she is at risk, not a replete community adult."
   - "Do no harm and stay within the generalist's role: don't reach for an osteoporosis drug; screen (OSTA), refer for a DXA scan, deliver food-first and loading advice, and correct real deficiency. The drug and hormone decisions are specialist."
@@ -31,20 +31,20 @@ nodes:
       *"Doctor, I read that everyone my age should take calcium and vitamin D tablets, and someone said spinach
       is full of calcium. Do I also need a bone medicine to be safe?"*
 
-      Work through the visit: her biggest dietary lever, the spinach and supplement questions, her low body
+      Work through the visit: her most effective dietary change, the spinach and supplement questions, her low body
       weight and sun habits, and the right next step.
     next: q-lever
 
   - id: q-lever
     type: mcq
-    title: "Her biggest dietary lever"
+    title: "Her most effective dietary change"
     stem: |
-      Madam Lim avoids dairy. What is her single biggest dietary lever for bone?
+      Madam Lim avoids dairy. What is her single most effective dietary change for bone?
     options:
       - id: a
         text: "A reliable, well-absorbed calcium source; dairy is optional here."
         correct: true
-        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short, but the everyday source is the lever."
+        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short, but the everyday source is what matters most."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b
@@ -55,7 +55,7 @@ nodes:
       - id: c
         text: "More spinach and leafy greens, since spinach is rich in calcium."
         correct: false
-        feedback: "Spinach looks calcium-rich, but its calcium is oxalate-bound and only ~5% absorbed: content isn't availability. The lever is a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
+        feedback: "Spinach looks calcium-rich, but its calcium is oxalate-bound and only ~5% absorbed: content isn't availability. What she needs is a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
         goto: reveal-lever
 
   - id: reveal-lever
@@ -99,7 +99,7 @@ nodes:
 
   - id: q-bmi
     type: mcq
-    title: "Low weight and the sun paradox"
+    title: "Low weight and vitamin D deficiency despite the sun"
     stem: |
       How should you read Madam Lim's BMI of 19 and her covered, indoor lifestyle?
     options:
@@ -188,13 +188,13 @@ nodes:
     outcome: success
     title: "Food-first, screened and referred, not drugged"
     body: |
-      You handled Madam Lim well. You found her biggest lever, a reliable, well-absorbed, dairy-optional calcium
+      You handled Madam Lim well. You found her most effective dietary change, a reliable, well-absorbed, dairy-optional calcium
       source rather than a blanket supplement, and handled the spinach question (oxalate-bound, ~5% absorbed).
       You read her red flags correctly: a low BMI that nearly doubles hip-fracture risk, and genuine vitamin D
       deficiency risk despite the sun, because she's covered and indoors. And you applied do-no-harm: no
       osteoporosis drug on worry. You screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine
       deficiency, and leave the drug and hormone decisions to the specialist. That is the generalist's role: recognise the
-      levers, correct real deficiency, and refer.
+      modifiable factors, correct real deficiency, and refer.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:

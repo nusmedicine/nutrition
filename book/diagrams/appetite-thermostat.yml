@@ -3,10 +3,10 @@ title: "The appetite thermostat"
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 viewBox: "0 0 720 380"
 
-# Peripheral input signals shown pressing the accelerator or the brake.
+# Peripheral input signals, shown acting on the AgRP/NPY (accel) or POMC/CART (brake) neurons.
 signals:
-  - { id: leptin,  label: "Leptin (fat gauge)", acts: brake }
-  - { id: ghrelin, label: "Ghrelin (hunger)",   acts: accel }
+  - { id: leptin,  label: "Leptin (fat stores)", acts: brake }
+  - { id: ghrelin, label: "Ghrelin (hunger)",    acts: accel }
   - { id: glp1,    label: "GLP-1 drug",          acts: brake }
 
 states:
@@ -17,13 +17,14 @@ states:
     brake: 25
     hunger: 78
     inputs:
-      leptin: { dir: down, note: "Lower or falling, so it eases off the brake." }
-      ghrelin: { dir: up, note: "High before a meal, pressing the accelerator." }
+      leptin: { dir: down, note: "Lower or falling, so it gives less support to the POMC (satiety) neurons." }
+      ghrelin: { dir: up, note: "High before a meal, stimulating the AgRP/NPY (hunger) neurons." }
     summary: >
-      Energy is low, so ghrelin is high and leptin eases: the accelerator (AgRP/NPY) fires, the brake
-      (POMC) quietens, and MC4R output swings toward hunger. This is normal, appropriate hunger.
+      Energy is low, so ghrelin is high and leptin eases: the AgRP/NPY neurons (the accelerator) fire,
+      the POMC neurons (the brake) quieten, and MC4R output swings toward hunger. This is normal,
+      appropriate hunger.
     detail:
-      accel: "AgRP/NPY neurons fire strongly, driving eating. They also directly inhibit the POMC brake."
+      accel: "AgRP/NPY neurons fire strongly, driving eating. They also directly inhibit the POMC neurons."
       brake: "POMC/CART neurons are quiet, so little α-MSH is made."
       mc4r: "With little α-MSH and plenty of AgRP blocking it, MC4R output is low, so hunger is high."
       hunger: "High: the drive to seek and start a meal."
@@ -36,11 +37,11 @@ states:
     hunger: 22
     inputs:
       ghrelin: { dir: down, note: "Falls after eating." }
-      leptin: { dir: up, note: "Steady and adequate, pressing the brake." }
+      leptin: { dir: up, note: "Steady and adequate, supporting POMC (satiety) activity." }
     summary: >
       Food has arrived: ghrelin falls, gut satiety peptides (CCK, GLP-1, PYY) and stomach stretch signal
-      fullness, and leptin's background tone holds. The brake (POMC → α-MSH) wins, and MC4R output
-      signals stop.
+      fullness, and leptin's background tone holds. POMC → α-MSH signalling dominates, and MC4R output
+      signals "stop eating".
     detail:
       accel: "AgRP/NPY drive is suppressed by the incoming satiety signals."
       brake: "POMC/CART neurons fire, making α-MSH, the 'stop eating' signal."
@@ -54,15 +55,16 @@ states:
     brake: 18
     hunger: 92
     inputs:
-      leptin: { dir: down, note: "Falls disproportionately low, so the brain reads 'starving'." }
+      leptin: { dir: down, note: "Falls disproportionately low, which signals starvation to the hypothalamus." }
       ghrelin: { dir: up, note: "Rises and stays elevated for a year or more." }
     summary: >
-      This is the defended-weight state. Fat mass shrank, so leptin fell far: the brain reads starvation,
-      ghrelin rises, and hunger is driven higher than in an ordinary fast. Energy expenditure also drops
-      more than body size predicts (adaptive thermogenesis). The biology is pushing to regain the weight.
+      This is the state that favours weight regain. Fat mass shrank, so leptin fell far: the hypothalamus
+      responds as it would to starvation, ghrelin rises, and hunger is driven higher than in an ordinary
+      fast. Energy expenditure also drops more than body size predicts (adaptive thermogenesis, or
+      metabolic adaptation). These changes favour regaining the weight.
     detail:
       accel: "AgRP/NPY drive is turned up hard by the low-leptin 'starvation' signal, more strongly than in an ordinary fast."
-      brake: "POMC is suppressed, releasing the brake."
+      brake: "POMC is suppressed, weakening satiety signalling."
       mc4r: "Output swings far toward hunger; this persists for a year or more after the weight loss."
       hunger: "Very high, with a lowered metabolic rate as well. This is regain pressure, not a willpower failure."
 
@@ -74,14 +76,14 @@ states:
     hunger: 28
     gastric: true
     inputs:
-      glp1: { dir: up, note: "The drug is a long-acting GLP-1 that keeps pressing the brake." }
+      glp1: { dir: up, note: "The drug is a long-acting GLP-1 that keeps satiety signalling high." }
       ghrelin: { dir: down, note: "Eating less, so ghrelin stays lower." }
     summary: >
-      The medicine amplifies the body's own satiety signalling through the same circuit: it tips the
-      arcuate nucleus toward the POMC brake and slows the stomach, so hunger falls and meals end sooner.
-      When the drug stops, the defended range reasserts itself and the weight returns.
+      The medicine amplifies endogenous satiety signalling through the same circuit: it shifts the
+      arcuate nucleus toward POMC (satiety) activity and slows gastric emptying, so hunger falls and
+      meals end sooner. When the drug stops, the defended range reasserts itself and the weight returns.
     detail:
       accel: "The drug shifts the balance away from AgRP/NPY drive."
-      brake: "GLP-1 receptors on the satiety side are held 'on' continuously, so the brake stays pressed."
+      brake: "GLP-1 receptors on the satiety side are activated continuously, so satiety signalling stays high."
       mc4r: "Sustained satiety output; hunger and meal size fall."
       hunger: "Low while the drug is present. The drug opposes the defended range without removing it, so when it stops, hunger and weight return."

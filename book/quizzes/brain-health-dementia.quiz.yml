@@ -57,10 +57,10 @@ questions:
         feedback: "Uncorrected hearing loss is among the largest single modifiable contributors in the population estimate, larger than diet, so 'get your hearing and eyes checked' is concrete, high-value advice."
       - text: "Taking a daily multivitamin"
         correct: false
-        feedback: "Multivitamins are not an established preventive lever. Hearing and vision correction carry far more weight."
+        feedback: "Multivitamins are not an established preventive measure. Hearing and vision correction carry far more weight."
       - text: "Switching to decaffeinated coffee"
         correct: false
-        feedback: "Decaffeinated coffee is not a meaningful dementia lever; the high-value non-food actions are activity, hearing and vision correction, and social and cognitive engagement."
+        feedback: "Decaffeinated coffee is not a meaningful modifiable factor for dementia; the high-value non-food actions are activity, hearing and vision correction, and social and cognitive engagement."
   - id: q6
     stem: "An 84-year-old with advanced dementia is eating less and losing weight, and the family asks for a feeding tube. What does the evidence support?"
     options:
@@ -69,7 +69,7 @@ questions:
         feedback: "In advanced dementia, tube feeding does not prolong survival, prevent aspiration, heal pressure ulcers or improve comfort, and it can cause harm. Careful hand feeding is preferred; recognise the trajectory and refer."
       - text: "Insert a feeding tube to prolong survival and prevent pneumonia"
         correct: false
-        feedback: "The evidence shows tube feeding does neither in advanced dementia, and it is associated with more pressure ulcers: the do-no-harm trap."
+        feedback: "The evidence shows tube feeding does neither in advanced dementia, and it is associated with more pressure ulcers: a do-no-harm error."
       - text: "Insert a tube to heal her sacral pressure ulcer"
         correct: false
         feedback: "Pressure ulcers are not healed or prevented by tube feeding, which is associated with more of them."

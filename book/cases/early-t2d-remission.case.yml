@@ -41,7 +41,7 @@ nodes:
       - id: a
         text: "\"For you, remission is a realistic goal through a supervised weight-management programme. Let me refer you.\""
         correct: true
-        feedback: "He fits the profile the remission trials studied: diagnosed within the last few years (well under about six), not on insulin, and in a weight range where substantial loss can empty fat out of the liver and pancreas and let blood glucose settle. The safe move is to name remission as a realistic goal and refer him to a supervised weight-management programme, without promising an outcome or brushing it off. (Long-standing or insulin-treated diabetes behaves differently, so the eligibility check matters.)"
+        feedback: "He fits the profile the remission trials studied: diagnosed within the last few years (well under about six), not on insulin, and in a weight range where substantial loss can remove fat from the liver and pancreas and bring blood glucose down. The safe move is to name remission as a realistic goal and refer him to a supervised weight-management programme, without promising an outcome or brushing it off. (Long-standing or insulin-treated diabetes behaves differently, so the eligibility check matters.)"
         effects: { quality: +1 }
         goto: reveal-eligibility
       - id: b
@@ -140,7 +140,7 @@ nodes:
       - id: c
         text: "Skip the programme and add a second diabetes medication now; that's simpler than all this diet effort."
         correct: false
-        feedback: "Mr Raj is a remission candidate who wants to reduce medication, not add to it, so reaching for another drug bypasses the weight-centred opportunity in front of you. Medication decisions belong to the diabetes team anyway; your job is to recognise the lever and refer him to a supervised weight-management programme and a dietitian."
+        feedback: "Mr Raj is a remission candidate who wants to reduce medication, not add to it, so reaching for another drug bypasses the weight-centred opportunity in front of you. Medication decisions belong to the diabetes team anyway; your job is to recognise the remission opportunity and refer him to a supervised weight-management programme and a dietitian."
         goto: route
 
   - id: route

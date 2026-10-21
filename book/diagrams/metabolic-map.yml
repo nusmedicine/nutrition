@@ -1,13 +1,13 @@
 id: metabolic-map
 title: "Build the metabolic map"
 intro: >
-  Use the toggles to show the one-way streets (the PDH step from pyruvate to acetyl-CoA, and the
+  Use the toggles to show the irreversible steps (the PDH step from pyruvate to acetyl-CoA, and the
   gluconeogenic routes that bypass glycolysis's three irreversible steps), or only the
-  breaking-down (catabolic) or building-up (anabolic) traffic.
+  breaking-down (catabolic) or building-up (anabolic) pathways.
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 viewBox: "0 0 760 480"
 
-# The five crossroads (★) plus the key molecules that link them.
+# The five metabolic hubs (★) plus the key molecules that link them.
 nodes:
   - id: glucose
     label: "Glucose"
@@ -23,10 +23,10 @@ nodes:
     inputs: "Glucose (trapped on entry)"
     outputs: "Four exits: burn (glycolysis), store (glycogen), build (pentose phosphate pathway → NADPH), or export as free glucose (liver and kidney only)"
     control: "Trapped by hexokinase / liver glucokinase"
-    note: "The carbohydrate roundabout, from which glucose carbon leaves by four exits."
+    note: "A branch point of carbohydrate metabolism, from which glucose carbon leaves by four routes."
   - id: glycogen
     label: "Glycogen"
-    sub: "glucose bank"
+    sub: "glucose store"
     x: 285
     y: 92
   - id: ppp
@@ -43,10 +43,10 @@ nodes:
     inputs: "Glycolysis; glucogenic amino acids; lactate"
     outputs: "Acetyl-CoA (one-way, via PDH); oxaloacetate (toward new glucose); lactate; alanine"
     control: "Pyruvate dehydrogenase (PDH): the one-way step to acetyl-CoA"
-    note: "The map's main branch point, and the site of its first one-way door."
+    note: "The map's main branch point, and the site of its first irreversible step."
   - id: lactate
     label: "Lactate"
-    sub: "no-oxygen backup"
+    sub: "anaerobic end-product"
     x: 110
     y: 410
   - id: acetylcoa
@@ -57,8 +57,8 @@ nodes:
     home: "Mitochondrion"
     inputs: "Pyruvate (PDH); fatty acids (β-oxidation); ketogenic amino acids"
     outputs: "TCA cycle (burn); fatty-acid synthesis (store); ketone bodies (fasting liver)"
-    control: "Reached from pyruvate through the irreversible PDH valve"
-    note: "The universal funnel, where all three fuels meet. Because the step from pyruvate to acetyl-CoA is one-way, fatty acids cannot become glucose."
+    control: "Reached from pyruvate through the irreversible PDH step"
+    note: "The common intermediate where all three fuels meet. Because the step from pyruvate to acetyl-CoA is one-way, fatty acids cannot become glucose."
   - id: fattyacids
     label: "Fatty acids"
     sub: "fat, ~9 kcal/g"
@@ -78,7 +78,7 @@ nodes:
     inputs: "Acetyl-CoA (from all three fuels); TCA intermediates from amino acids"
     outputs: "CO₂ + electron-carriers → oxidative phosphorylation; intermediates borrowed for building (amphibolic)"
     control: "The final common oxidative pathway for carbohydrate, fat and protein"
-    note: "The central furnace, and also a supply depot, since its intermediates are drawn off to build other molecules."
+    note: "The final common pathway of fuel oxidation, and also amphibolic, since its intermediates are drawn off to build other molecules."
   - id: oxphos
     label: "Oxidative phosphorylation"
     sub: "bulk ATP · O₂ used here"
@@ -92,15 +92,15 @@ nodes:
     home: "Whole body (no storage form)"
     inputs: "Dietary and tissue protein (nitrogen removed first → urea)"
     outputs: "Glucogenic skeletons → pyruvate/TCA (can make glucose); ketogenic → acetyl-CoA (cannot). A few amino acids, such as leucine and lysine, are purely ketogenic."
-    control: "Protein is a flow, not a store: spending it dismantles working tissue"
-    note: "The fifth crossroads. There is no storage protein, which is why the body defends it in fasting."
+    control: "No storage protein: using protein for fuel dismantles working tissue"
+    note: "The fifth hub. There is no storage protein, which is why protein is spared in fasting."
 
-# Each edge belongs to a step; kind sets its colour. valve:true = a one-way street.
+# Each edge belongs to a step; kind sets its colour. valve:true = an irreversible step.
 edges:
   # Step 1: glycolysis
   - { id: glu-g6p,   from: glucose,    to: g6p,        step: 1, kind: catabolic, label: "trapped" }
   - { id: glycolysis, from: g6p,       to: pyruvate,   step: 1, kind: catabolic, label: "glycolysis (no O₂ needed)" }
-  - { id: pyr-lac,   from: pyruvate,   to: lactate,    step: 1, kind: catabolic, label: "no-O₂ backup" }
+  - { id: pyr-lac,   from: pyruvate,   to: lactate,    step: 1, kind: catabolic, label: "anaerobic" }
   # Step 2: PDH + TCA + oxphos
   - { id: pdh,       from: pyruvate,   to: acetylcoa,  step: 2, kind: catabolic, valve: true, label: "PDH: one-way, ✗ back" }
   - { id: ac-tca,    from: acetylcoa,  to: tca,        step: 2, kind: catabolic, label: "burn" }
@@ -126,15 +126,15 @@ steps:
       Glucose is trapped as glucose-6-phosphate, then split to pyruvate in the cytosol, with no
       oxygen needed. When oxygen is short, pyruvate becomes lactate so the pathway keeps running.
       Oxygen is used later, not here.
-  - title: "The furnace, and the one-way door"
+  - title: "The TCA cycle and the irreversible PDH step"
     caption: >
-      Pyruvate passes through the irreversible PDH valve to acetyl-CoA, which feeds the TCA cycle
+      Pyruvate passes through the irreversible PDH step to acetyl-CoA, which feeds the TCA cycle
       and then oxidative phosphorylation, where most ATP is made and oxygen is finally used.
-      Nothing comes back through the PDH valve.
-  - title: "Fat snaps onto acetyl-CoA"
+      No carbon returns through the PDH step.
+  - title: "Fatty acids enter at acetyl-CoA"
     caption: >
       β-oxidation breaks fatty acids into many acetyl-CoA, on the same hub as glucose. Because
-      acetyl-CoA sits past the one-way PDH valve, fatty acids can be burned but cannot be turned back
+      acetyl-CoA sits past the irreversible PDH step, fatty acids can be burned but cannot be turned back
       into glucose. In the fasting liver, surplus acetyl-CoA becomes ketone bodies for export.
   - title: "Protein joins the map"
     caption: >
@@ -145,5 +145,5 @@ steps:
     caption: >
       The storing and building pathways (blue) join: glycogen, the pentose phosphate pathway, fat
       synthesis, glucose export and gluconeogenesis. Each opposes a breaking-down pathway, and the
-      two are never both fully on. The whole map is five crossroads, four one-way streets and
-      coordinated traffic.
+      two are never both fully on. The whole map is five hubs, four irreversible steps and
+      reciprocally regulated flux.

@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Total weight tracks age and lifestyle; fat redistributes to the abdomen"
         correct: true
-        feedback: "In cohort data the scale climbs steadily through the transition with no menopause-timed jump. The menopause-specific change is body *composition*: visceral fat up, lean mass down, so the waistline, not the scale, is the tell."
+        feedback: "In cohort data the scale climbs steadily through the transition with no menopause-timed jump. The menopause-specific change is body *composition*: visceral fat up, lean mass down, so the waistline, not the scale, is the better indicator."
       - text: "Menopause directly causes a sharp jump in total body weight at the final period"
         correct: false
         feedback: "Total weight tracks ageing and energy balance, with no jump at the final period. The menopause-specific change is *where* fat sits, not how much the scale reads."
@@ -17,10 +17,10 @@ questions:
   - id: q2
     stem: "\"My metabolism has crashed at menopause.\" Is that right?"
     options:
-      - text: "No, adjusted expenditure holds to age 60; any drop is mostly from muscle loss"
+      - text: "No, adjusted expenditure is stable to 60; any fall is mostly muscle loss"
         correct: true
-        feedback: "There's no metabolic cliff at menopause: fat-free-mass-adjusted expenditure is stable from 20 to 60 and declines only after about 60. Muscle loss is the modifiable driver, so defending muscle with protein and resistance exercise protects her energy expenditure."
-      - text: "Yes, metabolic rate falls off a cliff at the menopause transition"
+        feedback: "There is no sharp fall in metabolic rate at menopause: fat-free-mass-adjusted expenditure is stable from 20 to 60 and declines only after about 60. Muscle loss is the modifiable driver, so preserving muscle with protein and resistance exercise protects her energy expenditure."
+      - text: "Yes, metabolic rate falls sharply at the menopause transition"
         correct: false
         feedback: "Fat-free-mass-adjusted expenditure has no menopause-specific breakpoint: it is stable from 20 to 60, and the modifiable driver of any fall is muscle loss."
       - text: "Yes, metabolism has been falling steadily since her twenties"
@@ -30,12 +30,12 @@ questions:
   - id: q3
     stem: "Which statement about bone at menopause is correct?"
     options:
-      - text: "Loss speeds up around the final period; loading exercise is the strongest lever"
+      - text: "Loss speeds up around the final period; loading exercise helps most"
         correct: true
-        feedback: "Oestrogen normally brakes resorption; when it falls, loss accelerates in the window around the final period (roughly 2% a year, steeper at the spine). Calcium and vitamin D are permissive, but routine low-dose supplements show no net fracture benefit; food first plus progressive resistance and impact loading is the strongest modifiable lever."
+        feedback: "Oestrogen normally inhibits resorption; when it falls, loss accelerates in the window around the final period (roughly 2% a year, steeper at the spine). Calcium and vitamin D are permissive, but routine low-dose supplements show no net fracture benefit; food first plus progressive resistance and impact loading is the most effective modifiable lifestyle measure."
       - text: "Calcium and vitamin D supplements will stop or reverse the menopausal bone loss"
         correct: false
-        feedback: "Calcium and vitamin D are permissive raw materials, not a cure: routine low-dose supplementation gives no net fracture-prevention benefit and slightly raises kidney-stone risk. Loading is the strong lever."
+        feedback: "Calcium and vitamin D are permissive raw materials, not a cure: routine low-dose supplementation gives no net fracture-prevention benefit and slightly raises kidney-stone risk. Loading is the more effective measure."
       - text: "Bone loss at menopause is slow and gradual, just like ordinary ageing"
         correct: false
         feedback: "Loss accelerates sharply, to about 2% a year, in the roughly 3-year window around the final period, then slows; it is not the gradual loss of ordinary ageing."
@@ -84,10 +84,10 @@ questions:
     options:
       - text: "Diet helps bone and heart, does little for flushes, nothing for vaginal dryness"
         correct: true
-        feedback: "No single 'menopause diet' cures symptoms, so the lever is matched to the problem. Vaginal dryness (part of the genitourinary syndrome of menopause) has no dietary lever and needs recognition and referral for effective treatment; knowing when to refer beats selling a supplement."
+        feedback: "No single 'menopause diet' cures symptoms, so the intervention is matched to the problem. Vaginal dryness (part of the genitourinary syndrome of menopause) has no dietary treatment and needs recognition and referral for effective treatment; knowing when to refer beats selling a supplement."
       - text: "A special anti-menopause diet can fix all four if she's disciplined enough"
         correct: false
         feedback: "Overpromising a diet that doesn't exist sets her up to fail and invites 'natural remedy' marketing, especially for symptoms diet can't touch."
       - text: "Since diet can't cure the flushes, diet has no role at midlife"
         correct: false
-        feedback: "Writing diet off ignores what it does well: diet and activity strongly protect bone and heart. The skill is matching the lever to the problem."
+        feedback: "Writing diet off ignores what it does well: diet and activity strongly protect bone and heart. The skill is matching the intervention to the problem."

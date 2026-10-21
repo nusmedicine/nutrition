@@ -6,7 +6,7 @@ questions:
     options:
       - text: "An intensive, structured lifestyle programme with follow-up"
         correct: true
-        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. The active ingredient was the structure (a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 min/week of activity), not a single 'you should lose weight' conversation."
+        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. What made it effective was the structure (a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 min/week of activity), not a single 'you should lose weight' conversation."
       - text: "A one-off conversation advising weight loss and more exercise"
         correct: false
         feedback: "Brief advice is not what produced the Diabetes Prevention Program result. The benefit came from an intensive, multi-session programme with follow-up. A single conversation does not reproduce it, which is why guidelines say to refer to a structured programme."

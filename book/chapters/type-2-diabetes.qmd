@@ -1,9 +1,9 @@
 # Type 2 diabetes
 
 > *When insulin resistance outpaces what the pancreas can compensate for, blood glucose rises, and
-> type 2 diabetes is the point at which it stays high. Diet can prevent that slide, manage established
-> disease and put early disease into remission, provided the change is safe with the patient's
-> glucose-lowering drugs and the plan is made by referral.*
+> type 2 diabetes is the point at which it stays high. Diet can prevent that progression, manage
+> established disease and put early disease into remission, provided the change is safe with the
+> patient's glucose-lowering drugs and the plan is made by referral.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -24,16 +24,16 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [How insulin resistance becomes diabetes](#sec-t2d-mechanism): compensation, then β-cell failure
-- [The dietary levers](#sec-t2d-levers)
+- [Pathophysiology](#sec-t2d-mechanism): how insulin resistance becomes diabetes
+- [Dietary management](#sec-t2d-levers)
   - [Carbohydrate](#sec-t2d-carbohydrate): quality and consistency
-  - [Choosing a dietary pattern](#sec-t2d-patterns): several patterns work
+  - [Choosing a dietary pattern](#sec-t2d-patterns)
 - [Remission and prevention](#sec-t2d-remission-prevention)
-  - [Remission](#sec-t2d-remission): early disease, eligibility-bound
-  - [Preventing diabetes](#sec-t2d-prevention): structured programmes
+  - [Remission of early type 2 diabetes](#sec-t2d-remission)
+  - [Preventing diabetes](#sec-t2d-prevention): structured lifestyle programmes
 - [Safety before any diet change](#sec-t2d-safety)
-  - [Hypoglycaemia and the drug-class rule](#sec-t2d-hypoglycaemia)
-  - [Fasting for Ramadan](#sec-t2d-ramadan)
+  - [Hypoglycaemia risk by drug class](#sec-t2d-hypoglycaemia)
+  - [Fasting for Ramadan with diabetes](#sec-t2d-ramadan)
 :::
 
 ## Type 2 diabetes at a glance {#sec-overview}
@@ -51,9 +51,9 @@ The complications of type 2 diabetes in the heart, blood vessels and kidneys are
 *Cardiovascular Disease & Hypertension* and *Chronic Kidney Disease* chapters. Gestational diabetes,
 and why Singapore screens every pregnancy, is in the *Pregnancy & Lactation* chapter.
 
-The clinician's task is to recognise and refer, not to prescribe. You identify the nutritional levers:
-carbohydrate quality, a healthy dietary pattern, weight loss for remission and fewer sugary drinks.
-You then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
+The clinician's task is to recognise and refer, not to prescribe. You identify the modifiable dietary
+factors: carbohydrate quality, dietary pattern, body weight (for remission) and sugary-drink intake. You
+then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
 *Interprofessional Practice & Referral* chapter) and to the diabetes team for medication decisions.
 
 Safety comes before any diet advice. Before endorsing a low-carbohydrate diet or a fast, you need to
@@ -63,7 +63,7 @@ falling too low; see the *Integrative Metabolism* chapter) when carbohydrate is 
 All of this sits within Singapore's War on Diabetes: roughly one in three people will develop
 diabetes in their lifetime [@mohWarOnDiabetes].
 
-## The science underneath: how insulin resistance becomes diabetes {#sec-t2d-mechanism}
+## Pathophysiology: how insulin resistance becomes diabetes {#sec-t2d-mechanism}
 
 Type 2 diabetes is the end of a long compensation for insulin resistance by the pancreatic **β-cells**
 (the insulin-producing cells; insulin action and glucose handling are in the *Integrative Metabolism*
@@ -78,8 +78,8 @@ chapter). The progression runs in four steps:
 4. Blood glucose rises
 :::
 
-For years, the pancreas compensates for insulin resistance. When tissues resist insulin, the β-cells
-respond by making more of it, which keeps blood glucose normal. Diabetes appears when the β-cells can
+For years, β-cell compensation offsets insulin resistance. When tissues respond less to insulin, the
+β-cells secrete more of it, which keeps blood glucose normal. Diabetes appears when the β-cells can
 no longer keep up: insulin secretion declines progressively on top of the resistance
 [@ada2026standards]. Diabetes is therefore usually preceded by a long, silent prediabetes phase, and
 that phase is the window for early detection.
@@ -110,7 +110,7 @@ In the twin-cycle model, fat in the liver raises fasting glucose and fat in the 
 it and can restore β-cell function, which is the basis of remission in early disease.
 :::
 
-## The dietary levers {#sec-t2d-levers}
+## Dietary management {#sec-t2d-levers}
 
 ### Carbohydrate: quality and consistency {#sec-t2d-carbohydrate}
 
@@ -197,19 +197,20 @@ and a strict version needs dietitian supervision.
 
 ## Remission and prevention {#sec-t2d-remission-prevention}
 
-### Remission: reversing early diabetes {#sec-t2d-remission}
+### Remission of early type 2 diabetes {#sec-t2d-remission}
 
 Early type 2 diabetes can be put into remission with substantial, sustained weight loss. The landmark
 DiRECT trial (Diabetes Remission Clinical Trial) achieved 46% remission at one year with a structured
-weight-management programme, versus 4% with usual care [@lean2018direct]. Three qualifiers must travel
-with that number:
+weight-management programme, versus 4% with usual care [@lean2018direct]. Three qualifiers must
+accompany that number:
 
-- It is eligibility-bound. DiRECT enrolled people diagnosed within about 6 years, not on insulin,
-  within a defined BMI range. Long-standing or insulin-treated diabetes behaves differently. Because
-  Asians reach their personal fat threshold at a lower BMI, entry criteria should be ethnicity-adjusted
-  rather than the Western band applied unchanged [@taylor2023pft; @standby2022southasian].
-- It fades. Remission fell to about 36% at two years and about 13% at five, tracking with weight
-  regained; the maintenance problem is not yet solved [@direct5yr2024].
+- It applies to eligible patients only. DiRECT enrolled people diagnosed within about 6 years,
+  not on insulin, within a defined BMI range. Long-standing or insulin-treated diabetes behaves
+  differently. Because Asians reach their personal fat threshold at a lower BMI, entry criteria
+  should be ethnicity-adjusted rather than the Western band applied unchanged [@taylor2023pft;
+  @standby2022southasian].
+- It fades over time. Remission fell to about 36% at two years and about 13% at five,
+  tracking with weight regained; the maintenance problem is not yet solved [@direct5yr2024].
 - It is remission, not cure. The agreed definition is an HbA1c below the diabetes range sustained off
   glucose-lowering drugs, and monitoring continues because it can relapse [@riddle2021remission;
   @diabetesUK2021remission].
@@ -222,12 +223,12 @@ recognise the candidate and refer to a structured programme. Singapore has an ex
 framework for this (with ethnicity-adjusted thresholds), though no national remission programme yet
 exists [@khoo2026sgDSF].
 
-### Preventing diabetes: structure beats a single conversation {#sec-t2d-prevention}
+### Preventing diabetes: structured lifestyle programmes {#sec-t2d-prevention}
 
-Prevention works upstream of diagnosis, and how it is delivered decides whether it works. In the
+Prevention acts before diagnosis, and how it is delivered decides whether it works. In the
 Diabetes Prevention Program, an intensive, structured lifestyle programme cut progression from
 prediabetes to diabetes by 58%, outperforming metformin (31%) [@dpp2002]. The benefit persists for
-decades, even as it attenuates [@dppos2009; @dppos2025_21yr]. The active ingredient was the
+decades, even as it attenuates [@dppos2009; @dppos2025_21yr]. What made the programme effective was its
 structure: a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 minutes of
 activity a week. A one-off "you should lose weight" has none of that structure. Translated at scale it
 still works: the NHS programme and, locally, the Pre-DICTED trial reproduced the benefit in real-world
@@ -250,14 +251,14 @@ uses ethnicity-adjusted thresholds.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with prediabetes was told once, at a clinic visit, to lose some weight. Why is that unlikely to reproduce the Diabetes Prevention Program result?
-The active ingredient in the Diabetes Prevention Program was its structure: a multi-session curriculum
+What made the Diabetes Prevention Program effective was its structure: a multi-session curriculum
 with follow-up, aiming at about 5–7% weight loss and at least 150 minutes of activity a week. A one-off
 conversation has none of that structure. The guideline response is to refer to a structured programme.
 :::
 
 ## Safety before any diet change {#sec-t2d-safety}
 
-### Hypoglycaemia and the drug-class rule {#sec-t2d-hypoglycaemia}
+### Hypoglycaemia risk by drug class {#sec-t2d-hypoglycaemia}
 
 Cutting or skipping carbohydrate, or fasting, is only safe once you know the patient's medication,
 because a few glucose-lowering drug classes can cause dangerous hypoglycaemia. The first step, every
@@ -278,7 +279,7 @@ to endorse or needs the diabetes team first.
 <div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
 
 ::: {.callout-warning}
-## Check the drugs before you cut the carbs
+## Review the medication before carbohydrate is cut
 It is unsafe to endorse a low-carbohydrate diet or a fast to a patient on insulin or a sulfonylurea
 without a medication review. The dose set for their old intake can now drive their blood glucose too
 low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
@@ -325,6 +326,15 @@ medically unfit, so monitoring is religiously permissible. The task is to addres
 for a pre-Ramadan review to risk-stratify her and adjust medication.
 :::
 
+## Can diabetes be "reversed"? {#sec-close}
+
+Sometimes. A supervised, weight-centred programme that removes ectopic fat from the liver and pancreas
+can put early type 2 diabetes into remission. Remission is not cure: the benefit is real but limited to
+eligible patients, and it can fade as weight returns. For most people, the gains come from
+prevention and day-to-day management: structured lifestyle change prevents progression from
+prediabetes, and a quality carbohydrate pattern with the plate method manages established disease. The
+individualised plan is made by referral, to the dietitian and the diabetes team.
+
 ## The Singapore picture: the War on Diabetes {#sec-singapore}
 
 Singapore declared a War on Diabetes in 2016. About one in three Singaporeans will develop diabetes in
@@ -333,25 +343,16 @@ Prevalence has an ethnic gradient: Indian and Malay residents carry roughly twic
 Chinese residents [@mohNPHS2024]. The gradient should guide screening priority, framed as
 population-level risk and never as blame; individual counselling stays individualised.
 
-The local food environment is where the levers live: only ~4% of staples are wholegrain, and sugary
-drinks supply about half of dietary sugar [@mohNNS2022]. The national tools point straight at these
-levers: My Healthy Plate, Nutri-Grade on beverages [@mohNutriGradeFresh2023], and Healthier SG, with
-its subsidised screening, as the delivery vehicle for early detection and lifestyle advice
-[@mohHealthierSG; @mohHealthierSGScreening].
+The local food environment is where these modifiable dietary factors are found: only ~4% of
+staples are wholegrain, and sugary drinks supply about half of dietary sugar [@mohNNS2022]. The
+national tools target these same factors: My Healthy Plate, Nutri-Grade on beverages
+[@mohNutriGradeFresh2023], and Healthier SG, with its subsidised screening, as the delivery vehicle for
+early detection and lifestyle advice [@mohHealthierSG; @mohHealthierSGScreening].
 
 On medication, local guidance from the Agency for Care Effectiveness (ACE) names the classes: metformin
 first-line, and SGLT2 inhibitors or GLP-1 receptor agonists where heart or kidney risk warrants
 [@aceT2DM2023]. The task at this stage is to know that these tiers exist and that prescribing is the
 diabetes team's job.
-
-## Can diabetes be "reversed"? {#sec-close}
-
-Sometimes. A supervised, weight-centred programme that empties the liver and pancreas of ectopic fat
-can put early type 2 diabetes into remission. Remission is not cure: the benefit is real but
-eligibility-bound, and it can fade as weight returns. For most people, the gains lie upstream and
-alongside: structured lifestyle change prevents progression from prediabetes, and a quality
-carbohydrate pattern with the plate method manages established disease. The individualised plan is
-made by referral, to the dietitian and the diabetes team.
 
 ## Check your understanding {#sec-quiz}
 

@@ -19,7 +19,7 @@ questions:
     options:
       - text: "A diet often can't be blinded or trialled for decades"
         correct: true
-        feedback: "Nutrition bends the hierarchy: a diet often can't be blinded, there's no true 'no-food' placebo, and effects come from whole patterns over decades, so RCTs can't answer many dietary questions. 'No RCT, so it's worthless' is usually the wrong reflex here."
+        feedback: "Nutrition is a special case in the hierarchy of evidence: a diet often can't be blinded, there's no true 'no-food' placebo, and effects come from whole patterns over decades, so RCTs can't answer many dietary questions. 'No RCT, so it's worthless' is usually the wrong reflex here."
       - text: "Cohort studies are always more reliable than trials"
         correct: false
         feedback: "For a drug question the randomised trial is the stronger design. Nutrition is the special case, because diets are hard to blind and their effects build over decades."

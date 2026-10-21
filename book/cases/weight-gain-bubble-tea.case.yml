@@ -72,7 +72,7 @@ nodes:
       - id: c
         text: "\"Roughly how big are your portions?\""
         correct: false
-        feedback: "Portions are worth asking about, but they are not the highest-yield probe here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger lever by far."
+        feedback: "Portions are worth asking about, but they are not the highest-yield probe here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger contributor by far."
         goto: q-opener
 
   - id: q-opener

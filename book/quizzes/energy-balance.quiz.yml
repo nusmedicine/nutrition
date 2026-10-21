@@ -71,13 +71,13 @@ questions:
     options:
       - text: "Expenditure falls and appetite rises after weight loss"
         correct: true
-        feedback: "The 'out' side falls by more than the smaller body needs (adaptive thermogenesis) while hunger rises, so the body defends against loss. Energy balance is defended, not free (see the *Appetite & Weight Regulation* chapter)."
+        feedback: "The 'out' side falls by more than the smaller body needs (adaptive thermogenesis) while hunger rises, so these compensatory responses oppose the loss. Energy balance is actively regulated, not free (see the *Appetite & Weight Regulation* chapter)."
       - text: "Fat cannot be lost once it has been stored"
         correct: false
-        feedback: "Fat is readily mobilised; the problem is a system that resists *staying* lower, not irreversibility."
+        feedback: "Fat is readily mobilised; the problem is compensation that resists weight *staying* lower, not irreversibility."
       - text: "The Mifflin–St Jeor equation is simply inaccurate at lower weights"
         correct: false
-        feedback: "Estimation error is not the point: the body actively lowers expenditure and raises appetite after weight loss."
+        feedback: "Estimation error is not the point: after weight loss, expenditure falls (metabolic adaptation) and appetite rises."
 
   - id: q7
     stem: "Why is BMI treated as a screening flag and not a measure of body fat?"

@@ -8,7 +8,7 @@
 ## Learning objectives
 - Distinguish the menopause-linked shift of fat to the abdomen from the age-related rise in total weight.
 - Interpret the evidence that energy expenditure, adjusted for fat-free mass, does not fall at menopause,
-  and explain why defending muscle beats hard dieting.
+  and explain why preserving muscle beats hard dieting.
 - Explain how falling oestrogen accelerates bone loss around the final menstrual period, and why mechanical
   loading does more than calcium and vitamin D supplements.
 - Distinguish the menopause-linked step in LDL-cholesterol from the age-related drift in blood pressure and
@@ -24,11 +24,14 @@
 
 - [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight): weight follows age; fat moves to the abdomen
 - [What menopause changes: bone and the heart](#sec-meno-changes)
-  - [Bone](#sec-meno-bone): fast loss around the final menstrual period
-  - [The cardiometabolic shift](#sec-meno-heart): the LDL step and the age-related drift
-- [Soy, supplements, and the limits of diet](#sec-meno-soy-limits)
-  - [Soy and hot flushes](#sec-meno-soy): at most a modest, inconsistent effect; safe as food
+  - [Bone: fast loss around the final menstrual period](#sec-meno-bone)
+  - [The cardiometabolic shift: which changes are menopause-linked](#sec-meno-heart): the LDL step and the age-related drift
+- [Soy foods and isoflavone supplements](#sec-meno-soy-limits)
+  - [Soy and hot flushes: at most a modest, inconsistent effect](#sec-meno-soy)
+  - [Safety: soy and breast-cancer risk](#sec-meno-soy-safety): safe as food
+- [Recognising trouble, and when to refer](#sec-meno-refer)
   - [When nutrition is not the answer](#sec-meno-limits): what to investigate or refer
+  - [Unproven remedies and restrictive dieting](#sec-meno-harm): do no harm
 :::
 
 ## Menopause at a glance {#sec-overview}
@@ -53,8 +56,8 @@ levers that frame every life stage (see the *Reading the Life Stages* chapter):
 
 | Driver | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | The fall in oestrogen, which changes bone, blood lipids and where the body stores fat |
-| External levers (life and environment) | The levers a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
+| Internal drivers (inside the body) | The fall in oestrogen, which changes bone, blood lipids and where fat is stored |
+| External levers (life and environment) | The factors a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
 
 In Western accounts hot flushes define menopause, but the local picture differs. In Singaporean surveys
 the commonest complaints are aching joints and muscles and poor sleep, with hot flushes far down the list
@@ -74,16 +77,16 @@ lean (muscle) mass falls, and fat redistributes from the hips to the abdomen, th
 active depot (see the *Energy Balance* chapter) [@greendale2019swanBodyComp]. The waistline, not the
 scale, therefore shows the menopause-linked change.
 
-Nor does energy expenditure crash at menopause (see the *Adulthood & Working Life* chapter for the
+Nor does energy expenditure fall sharply at menopause (see the *Adulthood & Working Life* chapter for the
 lifespan data). When total energy expenditure is measured properly and adjusted for fat-free mass, it is
 stable from about age 20 to 60, through pregnancy and through menopause, and begins its slow decline,
 about 0.7% a year, only after 60 [@pontzer2021energy]. Any fall in a woman's energy expenditure comes
-mostly from losing muscle, and muscle is what resistance exercise and enough protein can defend.
+mostly from losing muscle, and muscle is what resistance exercise and enough protein can preserve.
 
 Both findings lead to the same advice: keep the muscle (protein plus resistance work) and mind the pattern
-and the portions. Aggressive dieting works against keeping the muscle, because cutting hard speeds the
-loss of lean mass and bone. The timeline below plots weight, fat and lean mass against the FMP; switch its
-layers to see the bone and lipid changes described in [What menopause changes](#sec-meno-changes).
+and the portions. Aggressive dieting works against keeping the muscle, because severe restriction speeds
+the loss of lean mass and bone. The timeline below plots weight, fat and lean mass against the FMP; switch
+its layers to see the bone and lipid changes described in [What menopause changes](#sec-meno-changes).
 
 <div data-island="menopause-timeline" data-src="/diagrams/menopause-timeline.yml"></div>
 
@@ -96,10 +99,10 @@ depot. A growing waist on a stable weight is that menopause-linked shift.
 :::
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: energy expenditure does not crash at menopause. Why, then, does hard dieting backfire?
+## Check yourself: energy expenditure does not fall sharply at menopause. Why, then, does hard dieting backfire?
 Adjusted for fat-free mass, total energy expenditure is stable from about 20 to 60, so any fall in a
-woman's expenditure comes mostly from losing muscle. Protein and resistance exercise defend that muscle.
-Hard restriction does the opposite: it speeds the loss of lean mass and bone.
+woman's expenditure comes mostly from losing muscle. Protein and resistance exercise preserve that muscle.
+Severe restriction does the opposite: it speeds the loss of lean mass and bone.
 :::
 
 ## What menopause changes: bone and the heart {#sec-meno-changes}
@@ -116,15 +119,15 @@ RANKL
 : A signalling molecule that promotes bone resorption by osteoclasts (bone-resorbing cells); it rises when
   oestrogen falls.
 
-Oestrogen normally acts as a brake on resorption. When it falls, RANKL rises, osteoclasts become more
+Oestrogen normally inhibits bone resorption. When it falls, RANKL rises, osteoclasts become more
 numerous and longer-lived, and resorption outpaces formation [@eghbali2003rankl]. Bone loss, gradual for
 most of adult life, therefore accelerates sharply in a narrow window, from about a year before the FMP to
 two to three years after, reaching roughly 2% a year and removing around 7% of spine bone across the
-transition [@greendale2012swanBone]. Chinese women, Singapore's majority, are among the faster losers
-through this window [@greendale2012swanBone].
+transition [@greendale2012swanBone]. Chinese women, Singapore's majority, are among the groups that lose bone
+faster through this window [@greendale2012swanBone].
 
 Diet can supply bone's raw materials but cannot stop the oestrogen-driven loss. Calcium, vitamin D and
-protein are permissive: remodelling needs them in adequate amounts, but they do not switch the loss off.
+protein are permissive: remodelling needs them in adequate amounts, but they cannot halt the resorption.
 Routine low-dose calcium-plus-vitamin-D supplements give no net fracture-prevention benefit in
 community-dwelling women after menopause, and they slightly raise the risk of kidney stones
 [@uspstfCalcium2018]. Supplements are therefore for a genuine shortfall or diagnosed osteoporosis (low bone
@@ -135,18 +138,18 @@ intake instead tracks with better bone and fewer hip fractures [@groenendijk2019
 are in the *Macronutrients* chapter, and sarcopenia, the age-related loss of muscle strength and mass, in
 the *Healthy Ageing* chapter.)
 
-**Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is the strongest
-lever a woman can pull. In one small, supervised trial, progressive resistance and impact training held or
-even modestly raised bone density where supplements alone did not [@watson2018liftmor], a real but bounded
-effect. The everyday version is brisk walking or jogging plus some strength work, not a prescription to
-self-load heavily.
+**Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is the most
+effective lifestyle measure for bone. In one small, supervised trial, progressive resistance
+and impact training held or even modestly raised bone density where supplements alone did not
+[@watson2018liftmor], a real but bounded effect. The everyday version is brisk walking or jogging plus
+some strength work, not a prescription to self-load heavily.
 
-At midlife the aim is to recognise the window and act early, building the bone bank from food and loading
-before it closes. (The diagnosis and drug management of osteoporosis, and the calcium and vitamin D
+At midlife the aim is to recognise the window and act early, protecting bone with food and loading before
+the window closes. (The diagnosis and drug management of osteoporosis, and the calcium and vitamin D
 reference intakes, are in the *Bone & Joint Health* chapter.)
 
 ::: {.callout-tip}
-## 🍜 Eating out & 🍳 healthy kitchen: build the bone bank from food first
+## 🍜 Eating out & 🍳 healthy kitchen: bone nutrients from food first
 Local calcium is easier to find than it looks:
 
 - Choose calcium-set tofu and *tau kwa*, and order *yong tau foo* with more beancurd.
@@ -157,7 +160,7 @@ Local calcium is easier to find than it looks:
 Pair the food with some sun and activity. Despite the climate, about one in three midlife Singaporean
 women are deficient in vitamin D, because of indoor lives and sun avoidance, not a lack of sun; Indian and
 Malay women are at higher risk [@cheong2021vitDsg]. Local calcium intakes sit at or below target, so food
-first is a realistic lever [@hpbNNS2010].
+first is a realistic strategy [@hpbNNS2010].
 :::
 
 ### The cardiometabolic shift: which changes are menopause-linked {#sec-meno-heart}
@@ -173,17 +176,18 @@ cardiovascular disease in women [@elkhoudary2020ahaMenopause].
 Separating the menopause-linked changes from the age-related ones guards against two opposite errors. One
 is over-attribution ("everything bad at midlife is menopause", when the blood pressure is probably
 ageing); the other is under-attribution ("nothing has changed", when the LDL-cholesterol step and the
-visceral fat are real). The dietary lever is a whole dietary pattern, Mediterranean- or DASH-style, in
-place of single nutrients (see the *What a Healthy Diet Looks Like* chapter). The midlife task is to start
-the pattern early, before the numbers go wrong. (The management of lipids and blood pressure is in the
-*Cardiovascular Disease & Hypertension* chapter.)
+visceral fat are real). The dietary intervention is a whole dietary pattern, Mediterranean- or DASH-style,
+in place of single nutrients (see the *What a Healthy Diet Looks Like* chapter). The midlife task is to
+start the pattern early, before the numbers go wrong. (The management of lipids and blood pressure is in
+the *Cardiovascular Disease & Hypertension* chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a 50-year-old already takes calcium and vitamin D. Why will that not stop the bone loss around her final period, and what does more?
 The loss is driven by falling oestrogen: RANKL rises, osteoclasts become more numerous and longer-lived,
 and resorption outpaces formation. Calcium, vitamin D and protein are permissive raw materials for
-remodelling, so they cannot switch that signal off, and routine low-dose supplements give no net fracture
-benefit in community-dwelling women after menopause. Mechanical loading, through resistance and impact exercise, is the strongest lever.
+remodelling, so they cannot stop that oestrogen-driven loss, and routine low-dose supplements give no net
+fracture benefit in community-dwelling women after menopause. Mechanical loading, through resistance and
+impact exercise, is the most effective lifestyle measure.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -194,13 +198,13 @@ cardiovascular advantage over men, adding to the age-related drift, so a whole d
 early acts before the numbers go wrong.
 :::
 
-## Soy, supplements, and the limits of diet {#sec-meno-soy-limits}
-
-### Does soy ease hot flushes, and is it safe? {#sec-meno-soy}
+## Soy foods and isoflavone supplements {#sec-meno-soy-limits}
 
 No midlife topic attracts more marketing than soy and its **phytoestrogens**, plant compounds that weakly
 mimic oestrogen (in soy, chiefly the **isoflavones**). The popular story errs in both directions: it
 overstates soy's benefit for hot flushes and overstates its risk for breast cancer.
+
+### Soy and hot flushes: at most a modest, inconsistent effect {#sec-meno-soy}
 
 For hot flushes, soy does less than the marketing claims. Pooled trials of isoflavone supplements show at
 most a modest and inconsistent reduction in flushes, around a fifth fewer, an effect far weaker and slower
@@ -215,6 +219,8 @@ equol directly to non-producers helps in preliminary trials [@aso2012sequol]. On
 North American Menopause Society does not recommend soy or isoflavone supplements as a treatment for
 flushes [@namsNonhormone2023]. The line to give a patient: *soy foods are a fine, healthy part of your diet and
 reasonable to try, but they are not hormone therapy and I would not count on them to fix the flushes.*
+
+### Safety: soy and breast-cancer risk {#sec-meno-soy-safety}
 
 On safety, soy is feared more than the evidence supports. Many women have heard that soy "causes breast
 cancer" or "feeds" oestrogen-sensitive tumours, a fear that came from rodent studies that do not translate
@@ -236,30 +242,6 @@ local intakes [@wu2008sgSoy]: *tau huay* and soybean milk, *tauhu* and *tau kwa*
 them, as a flush cure.
 :::
 
-### When nutrition is not the answer {#sec-meno-limits}
-
-Patients are most easily exploited where diet reaches its limits. Five points mark those limits:
-
-- After periods stop, iron needs fall, and a new deficiency is a red flag. Requirements drop to about the
-  level of an adult man's, so routine iron supplements become unnecessary, and the body has no way to
-  offload excess iron [@odsIron]. New iron-deficiency anaemia in a woman past menopause is therefore not a
-  life-stage need to top up. It points to blood loss, usually gastrointestinal, and should be
-  investigated, not self-treated.
-- Vaginal and urinary symptoms have no dietary fix. The **genitourinary syndrome of menopause** (vaginal
-  dryness and urinary symptoms) is common locally [@chim2002sgSymptoms], and no food or supplement treats
-  it. Recognise it, and refer for effective therapy (moisturisers, topical oestrogen). Be alert to
-  "natural remedy" marketing that targets exactly this symptom.
-- Poor sleep, one of the top local complaints [@logan2023iwhp], has cheap lifestyle levers: limiting alcohol
-  (it fragments sleep), keeping caffeine to earlier in the day, avoiding large late meals, and minding
-  weight. Sleep disrupted by night sweats or low mood may need referral instead of a dietary change.
-- A nightly glass of "wine for the flushes" is poor advice. Alcohol raises breast-cancer risk with no safe
-  threshold [@hamajima2002alcohol] and worsens both sleep and bone, so it is never a symptom remedy.
-- There is no menopause-specific diet pill, and most "menopause supplements" are unproven (obesity
-  medicines are in the *Obesity & Metabolic Syndrome* chapter). Restrictive dieting and disordered eating
-  occur in women aged 40–60 [@mangweth2014ed], so doing no harm means counselling weight-inclusively and
-  with consent. That counselling is anchored on protein, activity and a sound pattern, not on weight loss
-  (the *how* of the conversation is in the *Behaviour-Change Counselling* chapter).
-
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is soy reasonable to offer as food but not as a treatment for hot flushes?
 Soy foods are safe and, at Asian intakes, linked to lower breast-cancer risk, so there is no reason to
@@ -268,12 +250,68 @@ because only some people's gut bacteria convert isoflavones into equol, the more
 American Menopause Society therefore does not recommend soy as a flush treatment.
 :::
 
+## Recognising trouble, and when to refer {#sec-meno-refer}
+
+Some midlife problems lie beyond what diet can do, and some popular remedies do harm. Patients are most
+easily exploited where diet reaches its limits.
+
+### When nutrition is not the answer {#sec-meno-limits}
+
+Three problems mark the limits of diet:
+
+- After periods stop, iron needs fall, and a new deficiency is a red flag. Requirements drop to about the
+  level of an adult man's, so routine iron supplements become unnecessary, and there is no regulated
+  pathway for excreting excess iron [@odsIron]. New iron-deficiency anaemia in a woman past menopause is
+  therefore not a life-stage need to top up. It points to blood loss, usually gastrointestinal, and should
+  be investigated, not self-treated.
+- Vaginal and urinary symptoms have no dietary fix. The **genitourinary syndrome of menopause** (vaginal
+  dryness and urinary symptoms) is common locally [@chim2002sgSymptoms], and no food or supplement treats
+  it. Recognise it, and refer for effective therapy (moisturisers, topical oestrogen). Be alert to
+  "natural remedy" marketing that targets exactly this symptom.
+- Poor sleep, one of the top local complaints [@logan2023iwhp], responds to low-cost lifestyle measures:
+  limiting alcohol (it fragments sleep), keeping caffeine to earlier in the day, avoiding large late meals, and
+  minding weight. Sleep disrupted by night sweats or low mood may need referral instead of a dietary
+  change.
+
+### Unproven remedies and restrictive dieting {#sec-meno-harm}
+
+A nightly glass of "wine for the flushes" is poor advice. Alcohol raises breast-cancer risk with no safe
+threshold [@hamajima2002alcohol] and worsens both sleep and bone, so it is never a symptom remedy. There
+is also no menopause-specific diet pill, and most "menopause supplements" are unproven (obesity medicines
+are in the *Obesity & Metabolic Syndrome* chapter).
+
+::: {.callout-warning}
+## Do no harm: restrictive dieting at midlife
+Restrictive dieting and disordered eating occur in women aged 40–60 [@mangweth2014ed], so doing no harm
+means counselling weight-inclusively and with consent. That counselling is anchored on protein, activity
+and a sound pattern, not on weight loss, because severe restriction speeds the loss of lean mass and bone
+(see [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight)). The *how* of the
+conversation is in the *Behaviour-Change Counselling* chapter.
+:::
+
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does new iron-deficiency anaemia in a woman past menopause call for investigation?
-Once periods stop, iron requirements fall to about an adult man's, and the body has no way to offload
-excess iron, so a new deficiency is not a life-stage need. It points to blood loss, usually
+Once periods stop, iron requirements fall to about an adult man's, and there is no regulated pathway for
+excreting excess iron, so a new deficiency is not a life-stage need. It points to blood loss, usually
 gastrointestinal, so the source needs investigating instead of a top-up.
 :::
+
+## Is there a "menopause diet"? {#sec-close}
+
+No, and promising one does a disservice, because what diet and activity can do depends on the problem:
+
+::: {.spectrum}
+[What diet and activity do for midlife problems]{.tree-title}
+
+- Vaginal dryness: nothing; refer
+- Hot flushes: a little
+- Bone and heart: a lot
+
+[Nothing]{.spectrum-end} [A lot]{.spectrum-end}
+:::
+
+Diet and activity protect bone (food-first minerals plus loading) and the heart (a sound pattern, started
+early), and a weight-inclusive approach avoids the harm of crash dieting.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -292,23 +330,6 @@ Singapore is unusually well studied here, and four local findings change the cou
 
 Singapore now has its own specialist menopause guidance to refer to when symptoms outrun what nutrition and
 lifestyle can do.
-
-## Is there a "menopause diet"? {#sec-close}
-
-No, and promising one does a disservice, because what diet and activity can do depends on the problem:
-
-::: {.spectrum}
-[What diet and activity do for midlife problems]{.tree-title}
-
-- Vaginal dryness: nothing; refer
-- Hot flushes: a little
-- Bone and heart: a lot
-
-[Nothing]{.spectrum-end} [A lot]{.spectrum-end}
-:::
-
-Diet and activity protect bone (food-first minerals plus loading) and the heart (a sound pattern, started
-early), and a weight-inclusive approach avoids the harm of crash dieting.
 
 ## Check your understanding {#sec-quiz}
 

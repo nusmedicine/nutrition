@@ -26,7 +26,7 @@
   - [Water-soluble vitamins](#sec-water-soluble): not stored, so needed regularly
 - [Minerals and trace elements](#sec-micro-minerals)
   - [Iron](#sec-iron): absorption depends on the source and the meal
-  - [Calcium and bone](#sec-calcium): the bone bank
+  - [Calcium and bone](#sec-calcium): peak bone mass and calcium absorption
   - [Iodine and iodised salt](#sec-iodine)
   - [Zinc, magnesium and selenium](#sec-trace-minerals)
 - [Water and electrolytes](#sec-micro-water)
@@ -194,7 +194,7 @@ prevent colds; it only slightly shortens how long they last [@cochraneVitC].
 ## Check yourself: high-dose vitamin A supplements can harm a pregnancy, but a diet rich in carrots and sweet potato does not. Why the difference?
 Preformed vitamin A is fat-soluble, so a high dose is stored rather than readily excreted, and can
 accumulate to teratogenic levels. The β-carotene in orange produce is converted to vitamin A only as
-the body needs it, and this self-limiting conversion is what makes β-carotene from food safe.
+needed, and this self-limiting conversion is what makes β-carotene from food safe.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -243,13 +243,13 @@ two signs of iron deficiency are worth recognising: **koilonychia** (spoon-shape
 
 ### Calcium and bone {#sec-calcium}
 
-Over 99% of the body's calcium is in bone, which works as a bank: deposits are made early in life and
-drawn on later. About 90% of peak bone mass (the most bone a person ever has) is laid down by about
-age 18–20, and the account closes around age 30 [@nofPeakBoneMass2016]. Adequate calcium, vitamin D
-(needed to absorb it) and weight-bearing activity in youth build the reserve that protects against
-fractures decades later, and hip-fracture rates in Singapore are among the highest in Asia. Low intake
-adds to the concern: in one Singapore cohort, about half of older adults fell short of the calcium
-recommendation [@ye2023calciumSG].
+Over 99% of the body's calcium is in bone. Bone mass is built early in life and drawn on later, which
+is why bone is often likened to a bank. About 90% of peak bone mass (the most bone a person ever has)
+is laid down by about age 18–20, and bone mass peaks around age 30 [@nofPeakBoneMass2016].
+Adequate calcium, vitamin D (needed to absorb it) and weight-bearing activity in youth build the
+reserve that protects against fractures decades later, and hip-fracture rates in Singapore are among
+the highest in Asia. Low intake adds to the concern: in one Singapore cohort, about half of older
+adults fell short of the calcium recommendation [@ye2023calciumSG].
 
 Calcium does not have to come from dairy. Its bioavailability, like iron's, depends on the food it
 comes in. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption.
@@ -264,7 +264,7 @@ it, so it is poorly absorbed [@weaverVegCalcium1999].
 ## Does everyone need a calcium supplement?
 Calcium supplements are often taken as routine insurance for bone. For healthy adults, routine calcium
 supplements, with or without vitamin D, have limited fracture-prevention benefit, and some analyses
-have raised cardiovascular questions [@uspstfCalcium2018]. Food first still applies: the bone bank is
+have raised cardiovascular questions [@uspstfCalcium2018]. Food first still applies: bone mass is
 built from diet and activity, and supplements are reserved for people with a genuine shortfall or
 osteoporosis (thinned, fragile bone), under guidance (see the *Bone & Joint Health* chapter).
 :::
@@ -313,9 +313,9 @@ absorption.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does calcium intake in adolescence matter for a hip fracture at 80?
-Bone works as a calcium bank: about 90% of peak bone mass is laid down by around age 18–20, and the
-account closes around age 30. Calcium, vitamin D and weight-bearing activity in youth build the
-reserve that later life draws on and that protects against fractures decades later.
+About 90% of peak bone mass is laid down by around age 18–20, and bone mass peaks around age 30.
+Calcium, vitamin D and weight-bearing activity in youth build the reserve that later life draws on and
+that protects against fractures decades later.
 :::
 
 ## Water and electrolytes {#sec-micro-water}
@@ -364,11 +364,27 @@ potassium both raise blood pressure and cardiovascular risk. Sodium is therefore
 half-plate of My Healthy Plate, are its natural source.
 :::
 
+## When does a patient need a supplement? {#sec-close}
+
+For most people eating a varied, mostly whole-food diet, a supplement is not needed. Micronutrients
+come packaged in food with the cofactors, fibre and other nutrients that make them work, and
+whole-diet patterns beat isolated pills for almost every vitamin and mineral here. Supplements earn
+their place for specific, identifiable needs:
+
+- Folic acid before and in early pregnancy.
+- B12 for vegans and many older adults.
+- Vitamin D where skin synthesis is low.
+- Iron for a diagnosed deficiency.
+
+They are not daily insurance against a diet that could be improved, and more is not safer: the
+fat-soluble vitamins and several minerals are harmful in excess. Food comes first; supplements are
+for an identified need.
+
 ## The Singapore picture {#sec-singapore}
 
 Three micronutrient problems are sharply local: vitamin D deficiency is common despite the climate,
-many older adults fall short on calcium, and iodised salt is quietly slipping as "gourmet" salts
-spread.
+many older adults fall short on calcium, and iodised salt may be losing ground as non-iodised
+"gourmet" salts spread.
 
 The signature micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
@@ -402,21 +418,6 @@ over about 5 years [@neal2021ssass]. Four caveats temper the result:
 Salt substitutes are therefore **not blanket advice**, and SSaSS shows why any trial must be read
 together with its caveats.
 :::
-
-## When does a patient need a supplement? {#sec-close}
-
-For most people eating a varied, mostly whole-food diet, a supplement is not needed. Micronutrients
-come packaged in food with the cofactors, fibre and other nutrients that make them work, and
-whole-diet patterns beat isolated pills for almost every vitamin and mineral here. Supplements earn
-their place for specific, identifiable needs:
-
-- Folic acid before and in early pregnancy.
-- B12 for vegans and many older adults.
-- Vitamin D where skin synthesis is low.
-- Iron for a diagnosed deficiency.
-
-They are not daily insurance against a diet that could be improved, and more is not safer: the
-fat-soluble vitamins and several minerals are harmful in excess. The plate comes before the pillbox.
 
 ## Check your understanding {#sec-quiz}
 

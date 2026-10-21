@@ -8,7 +8,8 @@
 - Explain why the rise of non-communicable diseases makes prevention, and nutrition, central to
   clinical work.
 - Interpret a modelled estimate of diet-related deaths as a signal of risk, not a precise count.
-- Describe the six pillars of health and explain why nutrition is the hub that connects them.
+- Describe the six pillars of health and explain why nutrition is central to them, with two-way links
+  to each of the other five.
 - Explain why the overall dietary pattern predicts health better than single nutrients, and state the
   limits of the PREDIMED and DASH trials.
 - Recognise nutrition counselling as a learnable clinical skill, and where its scope ends at this
@@ -20,18 +21,18 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [The shape of modern disease](#sec-burden): chronic disease, and diet's share of it
+- [The burden of non-communicable disease](#sec-burden): chronic disease, and diet's share of it
 - [The six pillars of health](#sec-pillars)
   - [What the pillars are](#sec-six-pillars)
-  - [Nutrition as the hub](#sec-hub): two-way links to the other five
-- [Patterns over nutrients](#sec-patterns): whole diets, read with their caveats
+  - [Links between nutrition and the other pillars](#sec-hub): in both directions
+- [Whole dietary patterns and their evidence](#sec-patterns): whole diets, read with their caveats
 - [Nutrition counselling as a learnable skill](#sec-skill)
 :::
 
-## The shape of modern disease {#sec-burden}
+## The burden of non-communicable disease {#sec-burden}
 
-For most of medicine's history, the doctor's enemy was the acute and the infectious:
-pneumonia, sepsis, trauma. That enemy has not gone away, but it has been overtaken. Today,
+For most of medicine's history, the doctor's main concern was acute illness, injury and
+infection: pneumonia, sepsis, trauma. These have not gone away, but they have been overtaken. Today,
 **non-communicable diseases (NCDs)**, chronic diseases that are not passed from person to person,
 cause around three-quarters of all deaths worldwide [@who2020diet]. The main ones are
 cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. NCDs are, in
@@ -95,11 +96,11 @@ primary care, most visibly through **Healthier SG**, the national shift from rea
 toward proactive, relationship-based prevention [@mohHealthierSG].
 :::
 
-### Nutrition as the hub {#sec-hub}
+### Links between nutrition and the other pillars {#sec-hub}
 
-Of the six pillars, nutrition is the hub: it connects to each of the other five, in both directions,
-so pulling on it tends to move the whole web. The diagram below places nutrition at the centre, with a
-two-way link to each of the other pillars.
+Of the six pillars, nutrition is central: it connects to each of the other five, in both directions,
+so a change in diet tends to shift the other pillars as well. The diagram below places nutrition at
+the centre, with a two-way link to each of the other pillars.
 
 <div data-island="pillars-hub" data-src="/diagrams/pillars-hub.yml"></div>
 
@@ -114,7 +115,7 @@ Nutrition links to each of the other five pillars in its own way:
   drive "comfort eating" of palatable, energy-dense food [@dallman2003].
 - Eating is social, through family meals, communal hawker eating and festive food, so social context
   can entrench or transform a diet.
-- Alcohol is itself part of the diet: it is empty energy that also disinhibits food choice.
+- Alcohol is itself part of the diet: it supplies empty calories and also disinhibits food choice.
 
 One practical rule follows: start with nutrition, but plan across the pillars, because fixing the diet
 often means addressing sleep and stress too.
@@ -127,7 +128,7 @@ drive comfort eating, so problems in those pillars keep pushing intake up. Those
 practical rule is to start with nutrition but plan across the pillars.
 :::
 
-## Patterns over nutrients {#sec-patterns}
+## Whole dietary patterns and their evidence {#sec-patterns}
 
 A persistent trap for patients and doctors alike is **single-nutrient reductionism**, the search for
 one villain (carbohydrate, fat, gluten) or one "superfood". The evidence points instead to the
@@ -153,7 +154,7 @@ their limits, and any landmark trial is best read the same way.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient wants one "superfood" to fix his diet. What follows from the evidence for the advice he should get?
-The search for one superfood, or one villain nutrient, is single-nutrient reductionism. The evidence
+The search for one superfood, or one nutrient to blame, is single-nutrient reductionism. The evidence
 points to the dietary pattern, the diet taken as a whole, which predicts health better than any
 isolated nutrient. The advice therefore targets his overall pattern instead of one food. The
 Mediterranean and DASH patterns illustrate the point, each within the limits of its trial.
@@ -192,6 +193,14 @@ be learned, and a patient's diet is a set of habits, shaped by environment and c
 that responds to skilled advice.
 :::
 
+## Why should a doctor care about food? {#sec-close}
+
+NCDs now cause most deaths, and diet is among their leading modifiable risks. Unlike much of
+medicine, diet is something the patient can change, so advising on it is part of the doctor's job.
+Diet is linked in both directions to activity, sleep, stress, social life and alcohol, so improving
+it can move the other pillars too, and advising on it is a clinical skill that can be learned and
+examined.
+
 ## The Singapore picture {#sec-singapore}
 
 Diet-related disease is a declared national priority. The **War on Diabetes**, launched in 2016,
@@ -204,7 +213,7 @@ The National Nutrition Survey 2022 shows how far the population diet sits from t
 | Finding (NNS 2022) | What it means |
 |---|---|
 | Only ~4% of staples eaten are wholegrain | A quality gap (refined rice and noodles dominate) |
-| ~9 in 10 residents exceed the WHO sodium limit | Most sodium hides in sauces, broths and food eaten out |
+| ~9 in 10 residents exceed the WHO sodium limit | Most sodium comes from sauces, broths and food eaten out |
 
 Singapore translates the guidelines into two tools that clinicians use as counselling anchors:
 
@@ -222,16 +231,6 @@ These tools keep advice concrete and local, as in two everyday swaps:
 A *cai png* (economy rice) plate becomes "two veg, one protein, less gravy", and a Grade-D drink
 becomes *kopi-o kosong* or plain water.
 :::
-
-## Why should a doctor care about food? {#sec-close}
-
-A doctor should care about food for four reasons:
-
-- Diet is among the leading modifiable risks for the non-communicable diseases that now cause most
-  deaths.
-- Unlike much of medicine, diet is something the patient can change.
-- Diet is linked to every other pillar of health, so improving it tends to move the whole web.
-- Advising on diet is a clinical skill that can be learned and examined.
 
 ## Check your understanding {#sec-quiz}
 

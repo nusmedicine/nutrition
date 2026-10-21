@@ -1,5 +1,5 @@
 # Data for the FatSwap island (Cardiovascular Disease & Hypertension chapter).
-# A "replaced with what?" decision widget for the "Fat quality, not quantity" section.
+# A "replaced with what?" decision widget for the "Dietary fat: quality and replacement" section.
 # The learner is cutting saturated fat and must choose the REPLACEMENT. The teaching point:
 # what protects the heart is the swap, not the cut: replace saturated fat with unsaturated fat
 # (LDL down, events down); replace it with refined carbohydrate/sugar and the benefit vanishes.
@@ -20,13 +20,13 @@ options:
     best: true
     note: >-
       Swapping saturated for polyunsaturated fat lowers LDL cholesterol and cuts cardiovascular
-      events by about as much as a statin does. This is the swap the trials reward.
+      events by about as much as a statin does. This is the swap the trials support.
   - id: nuts-seeds-fish
     label: "Nuts, seeds and oily fish"
     example: "walnuts, flaxseed, salmon, mackerel"
     effect: down
     note: >-
-      Whole-food sources of unsaturated fat also lower LDL and events, and they are the backbone of
+      Whole-food sources of unsaturated fat also lower LDL and events, and they are central to
       the Mediterranean pattern. Recommend the oily fish itself, not a fish-oil capsule.
   - id: refined-carb
     label: "Refined carbohydrate & sugar"

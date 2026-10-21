@@ -23,7 +23,7 @@ each term is listed once, under the chapter that teaches it.
 | Alcohol flush | Reddening after alcohol in people who carry an ALDH2 variant; it marks a build-up of acetaldehyde, and with continued drinking signals a raised risk of oesophageal cancer | *Adulthood & Working Life* |
 | Amenorrhoea | The absence of menstrual periods; in a young athlete, it can signal low energy availability | *Childhood & Adolescence* |
 | Amino acid | The building block of protein: a central carbon carrying an amino group, a carboxyl group, a hydrogen and a variable side chain; about 20 occur in protein | *Macronutrients* |
-| Amino-acid pool | The crossroads where protein enters and leaves the metabolic map; the body has no storage protein, so drawing on it for fuel dismantles working tissue | *Integrative Metabolism* |
+| Amino-acid pool | The metabolic hub where protein enters and leaves the metabolic map; the body has no storage protein, so drawing on it for fuel dismantles working tissue | *Integrative Metabolism* |
 | Amphibolic | Both breaking down and building: describes the TCA cycle, whose intermediates are also drawn off to build other molecules and topped up from amino acids | *Integrative Metabolism* |
 | Amylase | The enzyme that digests starch into smaller sugars, made by the salivary glands and the pancreas | *Digestion & Absorption* |
 | Amylin | A satiety peptide released with insulin from the pancreas at each meal; it reduces meal size and slows the stomach | *Appetite & Weight Regulation* |
@@ -41,7 +41,7 @@ each term is listed once, under the chapter that teaches it.
 | Antibiotic-associated diarrhoea (AAD) | Diarrhoea caused by antibiotic disruption of the gut microbiome | *Gut Microbiome* |
 | Antidiuretic hormone (ADH) | The hormone that reduces water loss in urine; with thirst, the everyday regulator of water balance | *Micronutrients, Hydration & Electrolytes* |
 | Apolipoprotein B (apoB) | The protein carried on each LDL particle; it steps up with LDL-cholesterol around the final menstrual period | *Menopause & Midlife Health* |
-| Arcuate nucleus | The sensing hub of the hypothalamic appetite thermostat, beside a gap in the blood–brain barrier, where hunger and fullness hormones in the blood are read | *Appetite & Weight Regulation* |
+| Arcuate nucleus | The sensing hub of the hypothalamic neurons that set hunger, beside a gap in the blood–brain barrier, where hunger and fullness hormones in the blood are read | *Appetite & Weight Regulation* |
 | Aspiration | Food or drink entering the airway; up to a third is silent, with no cough | *Undernutrition & Malnutrition* |
 | Atherosclerosis | The build-up of plaque in the artery wall, where LDL cholesterol is deposited and inflames the wall; the plaque narrows the vessel and can rupture | *Cardiovascular Disease & Hypertension* |
 | ATP | The cell's energy currency, made and spent continuously; the body holds only seconds' to minutes' worth, and its energy stores are glycogen and fat | *Integrative Metabolism* |
@@ -67,7 +67,6 @@ each term is listed once, under the chapter that teaches it.
 | Bolus | The soft mass of chewed food and saliva that is swallowed | *Digestion & Absorption* |
 | Bone remodelling | The continual turnover of bone, in which old bone is broken down (resorption) and new bone is laid down (formation) | *Menopause & Midlife Health* |
 | Brush border | The surface of the cells lining the small intestine, formed by microvilli, where the last digestive enzymes sit | *Digestion & Absorption* |
-| Buffered milk nutrient | A nutrient whose level in breast milk stays steady even when the mother runs low, at the cost of her own stores: iron, calcium, folate and zinc | *Pregnancy & Lactation* |
 | Bulimia nervosa | Recurrent binge eating (an unusually large amount of food in a short time, with a sense of loss of control), followed by compensation such as vomiting, fasting or excessive exercise | *Childhood & Adolescence* |
 | Butyrogenic | Yielding a relatively high proportion of butyrate when fermented, as resistant starch does | *Gut Microbiome* |
 | Cahill phases | The staged hand-off of fuel supply in fasting: fed, post-absorptive (glycogen), early fasting (gluconeogenesis) and prolonged, protein-sparing ketosis | *Integrative Metabolism* |
@@ -109,7 +108,7 @@ each term is listed once, under the chapter that teaches it.
 | Confounding | Distortion of an association by a third factor linked to both the exposure and the outcome | *Brain Health & Dementia* |
 | Congenital leptin deficiency | A rare condition in which a child is born unable to make leptin, with extreme, early-onset obesity and relentless hunger; leptin injections rescue it | *Appetite & Weight Regulation* |
 | Contemplation | The stage of change in which a patient is weighing a change up | *Behaviour-Change Counselling* |
-| Controlled variable | A quantity that an integrated system of hormones and brain circuits defends, as it defends blood glucose and body temperature; appetite behaves this way | *Appetite & Weight Regulation* |
+| Controlled variable | A quantity that an integrated system of hormones and brain circuits regulates, as other homeostatic systems regulate blood glucose and body temperature; appetite behaves this way | *Appetite & Weight Regulation* |
 | Cori cycle | The return of lactate from muscle and red blood cells to the liver, which rebuilds it into glucose | *Integrative Metabolism* |
 | Corrected age | A preterm infant's age counted from the due date, used to time solids | *Infancy & Early Childhood* |
 | Cortisol | The main stress hormone | *Why Nutrition Matters* |
@@ -118,13 +117,12 @@ each term is listed once, under the chapter that teaches it.
 | Crossover concept | The shift of the exercise fuel mix from fat toward carbohydrate as intensity rises | *Integrative Metabolism* |
 | CYP3A4 | The intestinal enzyme that normally breaks many drugs down before they are absorbed; grapefruit inhibits it | *Digestion & Absorption* |
 | DASH pattern | Dietary Approaches to Stop Hypertension: a dietary pattern rich in fruit, vegetables and low-fat dairy that lowers blood pressure | *Why Nutrition Matters* |
-| Defended range | The range of body weight the body defends, with a strong lower brake against starvation and a leaky upper one; no single set point has been located | *Appetite & Weight Regulation* |
+| Defended range | The range within which body weight is actively regulated, with a strong lower limit against starvation and a weak upper one; no single set point has been located | *Appetite & Weight Regulation* |
 | Dehydration | Too little body water, shown by thirst, dark concentrated urine, dizziness and reduced urine output | *Micronutrients, Hydration & Electrolytes* |
 | Dementia | A clinical syndrome of acquired, progressive loss of memory and thinking severe enough to affect daily life | *Brain Health & Dementia* |
 | Denaturation | The unfolding of a protein by heat or acid, which usually makes it easier to digest | *Macronutrients* |
 | Diabetic ketoacidosis (DKA) | A medical emergency of near-total insulin deficiency, in which unchecked ketone production makes the blood acidic; defined by the acidosis, not the ketone level | *Integrative Metabolism* |
 | Dialysis | Treatment that partly takes over the kidney's clearance of wastes and water once the kidney fails | *Chronic Kidney Disease* |
-| Diet-dependent milk nutrient | A nutrient whose level in breast milk falls when the mother is deficient, so the baby bears the cost: vitamin B12, iodine, vitamin D and DHA | *Pregnancy & Lactation* |
 | Diet history | A structured conversation about what a patient usually eats and drinks, walking through a typical day and probing high-yield areas such as drinks, snacks and portions | *Assessing Diet & Talking to Patients* |
 | Dietary fibre | Carbohydrate that the small intestine cannot digest; much of it is fermented by gut bacteria | *Macronutrients* |
 | Dietary guideline | A consensus synthesis in which an expert body weighs the whole evidence and translates it into advice a population can act on | *What a Healthy Diet Looks Like* |
@@ -147,7 +145,7 @@ each term is listed once, under the chapter that teaches it.
 | Endothelium | The inner lining of a blood vessel | *Cardiovascular Disease & Hypertension* |
 | Energy availability | The energy left for the body's own housekeeping after training has taken its share: intake minus the energy burned in exercise | *Childhood & Adolescence* |
 | Energy balance | The relationship between the energy taken in as food and drink and the energy the body spends | *Energy Balance* |
-| Enteral feeding | Tube feeding; a specialist rung of nutrition support | *Undernutrition & Malnutrition* |
+| Enteral feeding | Tube feeding; a specialist step of nutrition support | *Undernutrition & Malnutrition* |
 | Enterocyte | An absorptive cell of the small intestine, with the brush border facing the gut contents and the far side facing blood and lymph | *Digestion & Absorption* |
 | Enterohepatic circulation | The recycling of bile salts, about 95% of which are reabsorbed at the terminal ileum and returned to the liver | *Digestion & Absorption* |
 | Enterotype | One of three discrete gut community types once proposed to classify everyone; now read as a continuous gradient | *Gut Microbiome* |
@@ -199,7 +197,7 @@ each term is listed once, under the chapter that teaches it.
 | Glucogenic | Able to become glucose; describes amino acids whose carbon enters the map as pyruvate or a TCA-cycle intermediate | *Integrative Metabolism* |
 | Gluconeogenesis | The making of new glucose, by the liver and later the kidney, from lactate, glycerol and glucogenic amino acids | *Integrative Metabolism* |
 | Glucose-6-phosphatase | The enzyme that frees glucose for export to the blood; present in the liver and kidney, absent from muscle | *Integrative Metabolism* |
-| Glucose-6-phosphate (G6P) | Glucose tagged with a phosphate as it enters a cell, which traps it there; the carbohydrate roundabout of the metabolic map | *Integrative Metabolism* |
+| Glucose-6-phosphate (G6P) | Glucose tagged with a phosphate as it enters a cell, which traps it there; a branch point of carbohydrate metabolism | *Integrative Metabolism* |
 | Glucose–alanine cycle | The export of alanine from muscle to the liver, carrying carbon for new glucose and nitrogen for disposal as urea | *Integrative Metabolism* |
 | Glucose-dependent insulinotropic polypeptide (GIP) | A duodenal hormone, released by glucose and fat, that signals the pancreas that glucose is coming; an incretin | *Digestion & Absorption* |
 | Glucose sparing | The switch of most tissues to burning fat in a fast, leaving glucose for the brain and red blood cells, which depend on it | *Integrative Metabolism* |
@@ -263,7 +261,7 @@ each term is listed once, under the chapter that teaches it.
 | LDL (low-density lipoprotein) | The lipoprotein that delivers cholesterol; it drives atherosclerosis when it builds up, and saturated fat raises it | *Macronutrients* |
 | Leaching | Soaking cut vegetables, then boiling them and discarding the water, to lower their potassium | *Chronic Kidney Disease* |
 | Lean body mass | The body's functional, non-fat tissue (muscle and organ protein), broken down in a sustained energy deficit | *Assessing Diet & Talking to Patients* |
-| Leptin | A hormone released by body fat in rough proportion to the amount stored; a long-term fuel gauge the brain reads to regulate appetite and defend body weight | *Energy Balance* |
+| Leptin | A hormone released by body fat in rough proportion to the amount stored; the brain's long-term signal of fat stores, used to regulate appetite and body weight | *Energy Balance* |
 | Leptin resistance | The brain's failure to respond to the high leptin of common obesity, which is why leptin therapy does not treat it | *Appetite & Weight Regulation* |
 | Liking | The actual pleasure of a food, driven by opioid "hotspots" separate from dopamine | *Appetite & Weight Regulation* |
 | Lipase | The pancreatic enzyme, working with colipase, that digests fat | *Digestion & Absorption* |
@@ -276,7 +274,7 @@ each term is listed once, under the chapter that teaches it.
 | Maillard reaction | The high-heat browning of food that adds flavour; in starchy foods it forms acrylamide | *Macronutrients* |
 | Malnutrition | In clinical screening and diagnosis, the deficit state (undernutrition): a disease state in which a deficit of energy, protein or micronutrients measurably changes body composition and function and worsens outcomes. In the broad sense, overnutrition and undernutrition are its two tails | *Undernutrition & Malnutrition* |
 | Malnutrition Universal Screening Tool (MUST) | A validated screen for malnutrition risk that combines BMI, recent unplanned weight loss and acute illness stopping intake | *Assessing Diet & Talking to Patients* |
-| Mechanical loading | Exercise that stresses the skeleton through impact or resistance; the strongest lever on bone at menopause | *Menopause & Midlife Health* |
+| Mechanical loading | Exercise that stresses the skeleton through impact or resistance; the most effective lifestyle measure for bone at menopause | *Menopause & Midlife Health* |
 | Medical food | A regulatory product category with a lower bar than a medicine; the label is not evidence that the product works | *Brain Health & Dementia* |
 | Medical nutrition therapy (MNT) | An individualised, therapeutic nutrition plan for a medical condition, delivered by a registered dietitian through a cycle of assessment, diagnosis, intervention and monitoring | *Interprofessional Practice & Referral* |
 | Mediterranean pattern | A dietary pattern built on olive oil, nuts, legumes, fish and vegetables | *Why Nutrition Matters* |
@@ -296,6 +294,8 @@ each term is listed once, under the chapter that teaches it.
 | Migrating motor complex | A cyclical wave between meals, triggered by motilin, that sweeps leftovers and bacteria onward roughly every 1–2 hours | *Digestion & Absorption* |
 | Mild cognitive impairment | A decline in memory or thinking that falls short of dementia | *Brain Health & Dementia* |
 | Milk allergy | An immune reaction to milk protein, unrelated to lactase | *Digestion & Absorption* |
+| Milk nutrient dependent on maternal intake | A nutrient whose level in breast milk falls when the mother is deficient, so the baby bears the cost: vitamin B12, iodine, vitamin D and DHA | *Pregnancy & Lactation* |
+| Milk nutrient largely independent of maternal status | A nutrient whose level in breast milk stays steady even when the mother runs low, at the cost of her own stores: iron, calcium, folate and zinc | *Pregnancy & Lactation* |
 | MIND diet | A blend of Mediterranean and DASH eating that emphasises leafy greens, berries, nuts, wholegrains, fish and olive oil | *Brain Health & Dementia* |
 | Mixed feeding | Giving an infant both breast milk and formula | *Infancy & Early Childhood* |
 | Mixed micelles | Clusters of bile salts and the products of fat digestion that ferry those products to the brush border | *Digestion & Absorption* |
@@ -340,7 +340,7 @@ each term is listed once, under the chapter that teaches it.
 | Osteoporosis | Low bone density, silent until a bone breaks; defined by a DXA T-score of −2.5 or below or any fragility fracture | *Bone & Joint Health* |
 | Oxalate | A compound in some greens, notably spinach, that binds calcium and reduces its absorption | *Micronutrients, Hydration & Electrolytes* |
 | Oxidative phosphorylation | The process on the inner mitochondrial membrane that makes most of the cell's ATP, using oxygen as the final acceptor of electrons | *Integrative Metabolism* |
-| Parenteral feeding | Intravenous feeding; a specialist rung of nutrition support | *Undernutrition & Malnutrition* |
+| Parenteral feeding | Intravenous feeding; a specialist step of nutrition support | *Undernutrition & Malnutrition* |
 | Parietal cells | Stomach cells that make hydrochloric acid and intrinsic factor | *Digestion & Absorption* |
 | Peak bone mass | The most bone a person ever has | *Childhood & Adolescence* |
 | Peak height velocity | The fastest growth of the pubertal growth spurt, the fastest since the first year of life | *Childhood & Adolescence* |

@@ -22,17 +22,17 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Finding out what they eat](#sec-assess-intake)
-  - [Three tools, each with a bias](#sec-methods)
+- [Assessing dietary intake](#sec-assess-intake)
+  - [Dietary assessment methods and their biases](#sec-methods)
   - [Taking a diet history](#sec-diet-history): ask about the drinks
   - [Reading a food label](#sec-food-label): per 100 g or 100 ml
-  - [Nutri-Grade](#sec-nutri-grade): grade the drink, pick a swap
-- [From history to problems](#sec-history-problems)
+  - [Nutri-Grade: front-of-pack grading of drinks](#sec-nutri-grade)
+- [Interpreting the diet history](#sec-history-problems)
   - [Likely surpluses and shortfalls](#sec-likely-problems)
-  - [Weight, screening and both tails of malnutrition](#sec-both-tails)
-- [Opening the conversation](#sec-conversation)
-  - [The first moves: assess and advise](#sec-first-moves)
-  - [Do no harm](#sec-do-no-harm): red flags, screen and refer
+  - [Anthropometry and malnutrition screening](#sec-both-tails)
+- [Brief counselling](#sec-conversation)
+  - [The 5 A's: assess and advise](#sec-first-moves)
+  - [Do no harm: eating-disorder red flags and screening](#sec-do-no-harm)
 :::
 
 ## Diet assessment at a glance {#sec-overview}
@@ -57,9 +57,9 @@ the drinks, the portions, who cooks. The difference is the patient, who may not 
 and will only tell you what you ask.
 :::
 
-## Finding out what they eat {#sec-assess-intake}
+## Assessing dietary intake {#sec-assess-intake}
 
-### Three tools, each with a bias {#sec-methods}
+### Dietary assessment methods and their biases {#sec-methods}
 
 No single method of dietary assessment is best, so the choice is the one that fits the purpose. Each
 of the three standard tools carries a characteristic bias [@measurementToolkitDiet]. The comparison
@@ -121,7 +121,7 @@ compares products fairly. The ingredient list adds one more signal: it is ordere
 near the top, under any of its many names, is a warning. (The policy behind labels and the wider food
 environment is in the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter.)
 
-### Nutri-Grade: grade the drink, pick a swap {#sec-nutri-grade}
+### Nutri-Grade: front-of-pack grading of drinks {#sec-nutri-grade}
 
 Nutri-Grade, Singapore's front-of-pack mark for drinks (see the
 [*Why Nutrition Matters*](01-why-nutrition-matters.qmd) chapter), turns the label into a one-glance
@@ -169,7 +169,7 @@ improve the overall quality of shoppers' baskets. A grade moves one choice; it d
 the rest of the history still needs reading.
 :::
 
-## From history to problems {#sec-history-problems}
+## Interpreting the diet history {#sec-history-problems}
 
 ### Likely surpluses and shortfalls {#sec-likely-problems}
 
@@ -186,7 +186,7 @@ The shortfalls follow the same pattern: wholegrains, fibre, fruit and vegetables
 calcium or iron. You are not calculating nutrient intakes; you are reading a pattern and naming, in
 plain terms, the two or three things worth shifting.
 
-### Weight, screening and both tails of malnutrition {#sec-both-tails}
+### Anthropometry and malnutrition screening {#sec-both-tails}
 
 **Anthropometry** (body measurements such as weight, height and waist circumference) adds an objective
 anchor to the history. BMI classifies weight-for-height (see the
@@ -203,8 +203,9 @@ A waist circumference of ≥90 cm in men or ≥80 cm in women flags excess centr
 a screen, not a verdict: it misses body composition (a muscular person, or an older person who has
 lost muscle), so it is read alongside the history, not instead of it.
 
-Malnutrition has two tails, excess and deficit, and the commoner instinct is to look only at the high
-one. Some patients sit on the low tail, with undernutrition: an unwell older adult who has lost weight
+Malnutrition covers excess (overnutrition) as well as deficit (undernutrition), the two tails of the
+same range, and the commoner instinct is to look only at excess. Some patients are undernourished: an
+unwell older adult who has lost weight
 and appetite, or someone eating alone and skipping meals. A validated tool such as the **Malnutrition
 Universal Screening Tool (MUST)**, which combines BMI, recent unplanned weight loss and any acute
 illness stopping intake, flags this risk and triggers a referral pathway [@bapenMUST].
@@ -219,7 +220,7 @@ score and manage it (see the [*Undernutrition & Malnutrition*](undernutrition-ma
 chapter for the recognition and management of the malnourished patient).
 
 ::: {.callout-important}
-## Always consider both tails
+## Always consider undernutrition
 "Lower on the scale is better" is a dangerous default. Before you suggest anyone eat less, ask whether
 the real problem is that they are eating too little, and whether weight talk is safe at all (see
 [Do no harm](#sec-do-no-harm)).
@@ -243,9 +244,9 @@ weight is therefore a red flag while the BMI still reads normal; the response at
 recognise the risk and refer.
 :::
 
-## Opening the conversation {#sec-conversation}
+## Brief counselling {#sec-conversation}
 
-### The first moves: assess and advise {#sec-first-moves}
+### The 5 A's: assess and advise {#sec-first-moves}
 
 Knowing the food is half the job; the other half is the conversation, which has its own structure.
 The widely recommended scaffold for brief counselling is the **5 A's**, five steps that run in
@@ -271,7 +272,7 @@ conversation. Use plain language: "sugary drinks", not "free sugars exceeding te
 Brief, respectful counselling in this style measurably improves what people actually eat
 [@frost2018mi]; hectoring does not.
 
-### Do no harm {#sec-do-no-harm}
+### Do no harm: eating-disorder red flags and screening {#sec-do-no-harm}
 
 Food, weight and "clean eating" talk can trigger or worsen disordered eating. Structured
 weight-management advice does not raise eating-disorder symptoms for most people (on average they
@@ -310,6 +311,17 @@ red flag. The safe response is the same either way: do not prescribe restriction
 eating disorder; be supportive, and refer.
 :::
 
+## How should a first nutrition conversation start? {#sec-close}
+
+It starts with asking, not advising. First contact done well has five parts, in roughly this order:
+
+1. Take a quick, structured history, and make sure to ask about the drinks.
+2. Read the label with the patient: check per 100 ml, grade the drink, name one swap.
+3. Check the findings for undernutrition as well as excess, using the Asian BMI cut-offs and
+   recognising when a screening tool is indicated.
+4. Say one useful, permission-first sentence.
+5. When the picture is complex or restrictive, or a red flag shows, recognise the boundary and refer.
+
 ## The Singapore picture {#sec-singapore}
 
 Nutri-Grade is useful in practice because it now reaches the freshly-prepared drinks people actually
@@ -318,17 +330,6 @@ abstraction [@hpbNutriGrade]. The National Nutrition Survey shows what to expect
 says a word: high sodium, sweet drinks, refined staples and too little wholegrain [@mohNNS2022]. The
 whole approach also fits the national direction of preventive care: screening and a short
 conversation at first contact, then referral where needed, instead of waiting for disease.
-
-## How should a first nutrition conversation start? {#sec-close}
-
-It starts with asking, not advising. First contact done well has five parts, in roughly this order:
-
-1. Take a quick, structured history, and make sure to ask about the drinks.
-2. Read the label with the patient: check per 100 ml, grade the drink, name one swap.
-3. Place the findings against both tails of malnutrition, using the Asian BMI cut-offs and
-   recognising when a screening tool is indicated.
-4. Say one useful, permission-first sentence.
-5. When the picture is complex or restrictive, or a red flag shows, recognise the boundary and refer.
 
 ## Check your understanding {#sec-quiz}
 

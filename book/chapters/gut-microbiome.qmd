@@ -19,15 +19,15 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Who lives in the gut, and how the community forms](#sec-gut-who)
-  - [Who lives there, and how many](#sec-composition): bacteria dominate, mostly in the colon
+- [Composition and development of the gut microbiome](#sec-gut-who)
+  - [Composition and abundance](#sec-composition): bacteria dominate, mostly in the colon
   - [How the microbiome develops](#sec-development): from birth to old age
 - [What gut microbes do for the host](#sec-gut-function)
-  - [Fermentation](#sec-scfa): fibre becomes short-chain fatty acids
+  - [Colonic fermentation and short-chain fatty acids](#sec-scfa)
   - [Vitamins made in the gut](#sec-vitamins): made, but mostly not absorbed
 - [Feeding and shaping the microbiome](#sec-gut-diet)
   - [How diet shapes it](#sec-feeding): fibre diversity
-  - [The "-biotics" family](#sec-biotics): consensus definitions
+  - [Probiotics, prebiotics, synbiotics and postbiotics: consensus definitions](#sec-biotics)
 - [Clinical problems and unproven claims](#sec-gut-clinical)
   - [Antibiotics, *C. difficile* and FMT](#sec-clinical)
   - [Microbiome claims and the evidence](#sec-hype)
@@ -45,9 +45,9 @@ way an ecologist studies a habitat, with no single part to fix with a pill. It i
 heavily marketed topics in consumer nutrition. The mechanisms below are real and diet-modifiable; many
 of the marketing claims do not survive the question "by what mechanism?"
 
-## Who lives in the gut, and how the community forms {#sec-gut-who}
+## Composition and development of the gut microbiome {#sec-gut-who}
 
-### Who lives there, and how many {#sec-composition}
+### Composition and abundance {#sec-composition}
 
 The gut microbiome is a community of trillions of microbes, dominated by bacteria and concentrated in
 the colon [@matijasic2020beyond].
@@ -73,7 +73,7 @@ its place on that gradient [@donaldson2016gutbiogeography]:
 - In the stomach, acid keeps numbers low.
 - In the small intestine, fast transit keeps numbers low.
 - In the colon, slow transit, near-neutral pH and little absorption allow the highest density, by
-  orders of magnitude, so the colon is the body's fermentation chamber (see the
+  orders of magnitude, so the colon is the main site of microbial fermentation (see the
   [*Digestion & Absorption*](digestion-absorption.qmd) chapter).
 
 ::: {.callout-warning}
@@ -137,7 +137,7 @@ only a loose marker of gut health.
 
 ## What gut microbes do for the host {#sec-gut-function}
 
-### Fermentation: fibre becomes fuel {#sec-scfa}
+### Colonic fermentation and short-chain fatty acids {#sec-scfa}
 
 Fermentation turns the fibre that human enzymes cannot digest into fuel for the colon. Three terms
 describe the process:
@@ -178,7 +178,7 @@ their chain lengths.
 ::: {.callout-important}
 ## Is butyrate the most abundant SCFA?
 Because butyrate is the most discussed of the three, it is easy to assume it is also the most
-abundant. It is the least abundant, yet it is the one the colonic epithelium runs on. Oral butyrate
+abundant. It is the least abundant, yet it is the main fuel of the colonic epithelium. Oral butyrate
 supplements are mostly absorbed before they reach the colon, so claims that butyrate pills cure
 disease run ahead of the evidence.
 :::
@@ -215,7 +215,7 @@ flowchart LR
 
 SCFAs also protect the gut wall in two ways: they lower colonic pH, which discourages acid-sensitive
 pathogens, and butyrate fuels the epithelium and supports the **mucus barrier**, the layer of mucus that
-keeps bacteria away from the epithelial surface. When fibre runs short, however, gut microbes can erode
+keeps bacteria away from the epithelial surface. When fibre runs short, however, gut microbes can degrade
 that mucus layer for nutrients instead, thinning the barrier; this has been shown in gnotobiotic mice
 (germ-free mice colonised with a defined set of bacteria) [@desai2016fibre].
 
@@ -264,7 +264,7 @@ circulation, and she needs a dietary or supplemental source.
 
 Diet is the dominant, fast-acting and reversible influence on the microbiome. When people switch
 between an animal-based and a plant-based diet, their microbial community shifts within a single day,
-but it reverts within days of a return to their usual diet, and each person's individual "fingerprint"
+but it reverts within days of a return to their usual diet, and each person's characteristic community
 largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal, and
 not a one-time reprogramming.
 
@@ -273,8 +273,8 @@ tend to have the most diverse microbiomes. A memorable but unproven heuristic fr
 "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
 
-The opposite pattern, a chronically low-fibre "Western" diet, starves the fibre fermenters and lowers
-diversity. The most dramatic version of this, a loss of diversity that becomes irreversible over
+The opposite pattern, a chronically low-fibre "Western" diet, deprives fibre-fermenting bacteria of
+substrate and lowers diversity. The most dramatic version of this, a loss of diversity that becomes irreversible over
 generations, comes from mice, so the evidence for that extreme is limited, though the direction of the
 effect is well supported [@sonnenburg2016diet]. Whole dietary patterns such as the Mediterranean diet are
 associated with more SCFA producers and with less frailty and inflammation [@ghosh2020mediterranean]
@@ -302,7 +302,7 @@ water. Cooking and then cooling starchy foods (rice, potatoes, pasta) forms resi
 fermented, butyrogenic fibre, in foods such as cold rice or potato salad.
 :::
 
-### The "-biotics" family: consensus definitions {#sec-biotics}
+### Probiotics, prebiotics, synbiotics and postbiotics: consensus definitions {#sec-biotics}
 
 The products marketed for the microbiome have precise consensus definitions from the International
 Scientific Association for Probiotics and Prebiotics (ISAPP):
@@ -395,8 +395,8 @@ Three claims about the microbiome are common in consumer marketing:
   International consensus discourages these tests without a medical indication; the money is better
   spent on more plants [@porcari2024microbiometest].
 - "A detox or cleanse resets your microbiome." There is no accumulated toxin to flush out, and a
-  low-fibre juice cleanse under-feeds gut microbes. The only intervention in medicine that resets the
-  community is FMT, for its one narrow indication.
+  low-fibre juice cleanse provides little substrate for gut microbes. The only intervention in medicine
+  that resets the community is FMT, for its one narrow indication.
 - "The gut is your second brain: gut serotonin controls your mood." The gut does make about 90–95% of
   the body's serotonin, but that serotonin regulates gut motility, and peripheral serotonin does not
   cross the blood–brain barrier [@serotoninGutReview]. The metaphor has no mechanism behind it.
@@ -419,13 +419,26 @@ community. It is not proven for obesity, and it carries a real risk of transmitt
 this, and refer any genuine indication to a specialist rather than treating FMT as a wellness reset.
 :::
 
+## How should a patient eat for a healthy microbiome? {#sec-close}
+
+The evidence points to a pattern of eating, not to a product:
+
+- A wide variety of plants across the week (wholegrains, legumes, vegetables, fruit, nuts and seeds),
+  because diverse fibres feed a diverse, resilient microbiome that yields SCFAs.
+- Fermented foods, for those who enjoy them, including some with live cultures.
+- A gradual increase in fibre, with fluids.
+- No test kits, cleanses or microbiome supplements, none of which has a proven benefit for a well
+  person.
+
+Like a garden, the microbiome is maintained by habitual diet: what it is fed every day.
+
 ## The Singapore picture {#sec-singapore}
 
 **Fibre intake in Singapore is low.** Only about 4% of the staples eaten in Singapore are wholegrain,
 against a target of about 30%, and average fibre intake is below the Health Promotion Board's
 recommendation (around 20 g/day for women and 26 g/day for men) [@mohNNS2022]. Most of the population
-is under-feeding its fibre fermenters, which is why the food-first swaps above are the highest-value
-change available.
+eats too little fibre to supply its fibre-fermenting bacteria, which is why the food-first swaps in
+[How diet shapes it: fibre diversity](#sec-feeding) are the highest-value change available.
 
 **Local fermented foods illustrate the live-versus-cooked distinction.** Fermented foods run through
 Singapore's food cultures, and they divide along the line that matters for the probiotic definition:
@@ -467,19 +480,6 @@ individuals is the rule, and that diet and lifestyle, not nationality, shape the
 fact that gut bacteria cannot supply B12 has practical consequences here: when you take a diet history
 from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
 *Micronutrients, Hydration & Electrolytes* chapter).
-
-## How should a patient eat for a healthy microbiome? {#sec-close}
-
-The evidence points to a pattern of eating, not to a product:
-
-- A wide variety of plants across the week (wholegrains, legumes, vegetables, fruit, nuts and seeds),
-  because diverse fibres feed a diverse, resilient microbiome that yields SCFAs.
-- Fermented foods, for those who enjoy them, including some with live cultures.
-- A gradual increase in fibre, with fluids.
-- No test kits, cleanses or microbiome supplements, none of which has a proven benefit for a well
-  person.
-
-The microbiome is tended like a garden, by what it is fed every day.
 
 ## Check your understanding {#sec-quiz}
 

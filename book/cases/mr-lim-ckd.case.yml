@@ -3,8 +3,8 @@ title: "Uncle Lim, 62: \"Should I eat more banana and switch to low-sodium salt,
 objectives:
   - "Classify CKD risk from eGFR and albuminuria (a low eGFR with heavy albuminuria is high-risk CKD), and recognise that once CKD is confirmed, nutrition is individualised, dietitian-led work: recognise and refer."
   - "Apply do-no-harm to the potassium message: do not adopt population 'eat more potassium' advice or a potassium salt substitute in CKD, because the failing kidney can't clear a potassium load and potassium-chloride substitutes risk dangerous hyperkalaemia, made worse by his ACE inhibitor; refer to a renal dietitian."
-  - "Catch the protein trap: reflexive protein restriction risks protein-energy wasting, and targets are modest, stage-specific and dietitian-set, so skipping meals can do harm; refer."
-  - "Reinforce the one lever whose advice does not reverse in CKD (cutting sodium) and refer the rest, without setting a fluid limit in millilitres or starting a phosphate binder."
+  - "Recognise the danger of protein over-restriction: reflexive protein restriction risks protein-energy wasting, and targets are modest, stage-specific and dietitian-set, so skipping meals can do harm; refer."
+  - "Reinforce the one dietary change whose advice does not reverse in CKD (cutting sodium) and refer the rest, without setting a fluid limit in millilitres or starting a phosphate binder."
 difficulty: core
 estimatedMinutes: 12
 tags: [nutrition, chronic-kidney-disease, potassium, hyperkalaemia, protein, do-no-harm, singapore, recognise-and-refer]
@@ -35,7 +35,7 @@ nodes:
 
   - id: q-classify
     type: mcq
-    title: "Placing him on the map"
+    title: "Classifying his CKD risk"
     stem: |
       Uncle Lim's eGFR is 38 with heavy albuminuria, on a background of 12 years of diabetes. How
       should you classify his kidney disease, and what does that mean for his diet?
@@ -54,14 +54,14 @@ nodes:
       - id: c
         text: "Not yet classifiable: he needs a kidney biopsy before any advice about his diet."
         correct: false
-        feedback: "CKD is defined and staged from eGFR and albuminuria (with the cause, here diabetes), not from a biopsy. His numbers already place him in the high-risk zone, and that is enough to act: recognise the levers and refer."
+        feedback: "CKD is defined and staged from eGFR and albuminuria (with the cause, here diabetes), not from a biopsy. His numbers already place him in the high-risk zone, and that is enough to act: recognise the dietary issues and refer."
         goto: reveal-classify
 
   - id: reveal-classify
     type: info
     body: |
-      Uncle Lim has high-risk diabetic kidney disease, the downstream end of the cardiometabolic-renal
-      cascade. That reframes his friend's tips: advice that is sound for the *general public* may not be safe
+      Uncle Lim has high-risk diabetic kidney disease, the renal end of the cascade that runs through
+      obesity, diabetes and cardiovascular disease (the cardiovascular-kidney-metabolic, or CKM, syndrome). That reframes his friend's tips: advice that is sound for the *general public* may not be safe
       for *him*. He's still holding his phone, waiting. Start with the banana-and-salt question.
     next: q-potassium
 
@@ -81,7 +81,7 @@ nodes:
       - id: b
         text: "Yes to both: potassium is heart-healthy and low-sodium salt lowers his blood pressure, so more is better."
         correct: false
-        feedback: "This is the trap, and it can cause real harm. 'Potassium is heart-healthy' is true for most people, but Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer. Good advice elsewhere does not make blanket 'more is better' advice safe here."
+        feedback: "This answer can cause real harm. 'Potassium is heart-healthy' is true for most people, but Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer. Good advice elsewhere does not make blanket 'more is better' advice safe here."
         goto: remedial-potassium
 
   - id: remedial-potassium
@@ -90,7 +90,7 @@ nodes:
     body: |
       Pause before Uncle Lim goes home and doubles his bananas.
 
-      This is the advice that flips in CKD. For the general public, "eat more potassium" and a low-sodium
+      This is advice that reverses in CKD. For the general public, "eat more potassium" and a low-sodium
       **potassium** salt substitute are sound heart advice. Uncle Lim's failing kidneys can't excrete a
       potassium load, so both can drive hyperkalaemia (a high blood potassium that can disturb the heart's
       rhythm), and his ACE inhibitor raises potassium as well. The WHO's advice to eat more potassium
@@ -106,7 +106,7 @@ nodes:
   - id: reveal-potassium
     type: info
     body: |
-      You explain gently that his kidneys change the rules, and agree to leave the potassium and the low-sodium
+      You explain gently that his kidney disease changes the advice, and agree to leave the potassium and the low-sodium
       salt to the renal dietitian. Uncle Lim nods, then adds, a little proudly: *"That's why I've been skipping
       some meals, doctor. Low protein saves the kidneys, right?"*
     next: q-protein
@@ -132,7 +132,7 @@ nodes:
       - id: c
         text: "It doesn't matter: protein has no real effect in kidney disease, so he can eat as he likes."
         correct: false
-        feedback: "Protein is a real lever, but a balanced one. The danger of his current approach is too little: skipping meals risks protein-energy wasting. The right message is not to over-restrict or skip meals, and to let the dietitian set a modest, stage-appropriate target."
+        feedback: "Protein matters in kidney disease, but the amount has to be balanced. The danger of his current approach is too little: skipping meals risks protein-energy wasting. The right message is not to over-restrict or skip meals, and to let the dietitian set a modest, stage-appropriate target."
         goto: reveal-protein
 
   - id: reveal-protein
@@ -145,21 +145,21 @@ nodes:
 
   - id: q-lever
     type: mcq
-    title: "The one lever he can start on today"
+    title: "The one change he can start on today"
     stem: |
-      Uncle Lim wants one concrete thing he can act on himself, now. Which is the best lever for a
+      Uncle Lim wants one concrete thing he can act on himself, now. Which is the best dietary change for a
       generalist to reinforce, with the rest referred?
     options:
       - id: a
         text: "Cut down on added salt and processed-food sodium, and refer the rest."
         correct: true
-        feedback: "Sodium is the one lever that doesn't reverse in CKD: cutting it lowers blood pressure, reduces the protein leaking into his urine, and helps his ACE inhibitor protect the kidney. A generalist can reinforce it safely without a blood test, and it fits his coffee-shop meals: leave most of the soup, keep sauce and gravy on the side, and ask for less salt. Potassium, phosphate, fluid and protein amounts go to the renal dietitian."
+        feedback: "Sodium reduction is the one piece of advice that doesn't reverse in CKD: cutting sodium lowers blood pressure, reduces his albuminuria, and helps his ACE inhibitor protect the kidney. A generalist can reinforce it safely without a blood test, and it fits his coffee-shop meals: leave most of the soup, keep sauce and gravy on the side, and ask for less salt. Potassium, phosphate, fluid and protein amounts go to the renal dietitian."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "Start a fixed 1,000 mL-a-day fluid limit and a phosphate binder with every meal."
         correct: false
-        feedback: "Both are specialist calls, not a generalist's opening move. Early-to-moderate CKD usually needs no fixed fluid limit (any restriction is individualised and set by the renal team), and binders are a nephrologist's decision. The lever you *can* reinforce today is cutting sodium; the rest is referred."
+        feedback: "Both are specialist calls, not a generalist's opening move. Early-to-moderate CKD usually needs no fixed fluid limit (any restriction is individualised and set by the renal team), and binders are a nephrologist's decision. The change you *can* reinforce today is cutting sodium; the rest is referred."
         goto: route
       - id: c
         text: "Give him exact daily gram targets for potassium and phosphate to follow."
@@ -182,16 +182,16 @@ nodes:
       You handled Uncle Lim well. You classified his results as high-risk CKD and recognised that his diet is
       now individualised, dietitian-led work. You applied **do-no-harm** to the potassium question: "eat more
       potassium" and a low-sodium potassium salt substitute reverse in CKD, and are riskier still on his ACE
-      inhibitor, so you held off and referred instead of endorsing them. You caught the protein trap (skipping
+      inhibitor, so you held off and referred instead of endorsing them. You caught the protein mistake (skipping
       meals risks protein-energy wasting, and targets are modest and dietitian-set), and you reinforced the one
-      lever a generalist safely can, cutting sodium, with everything else referred.
+      change a generalist safely can, cutting sodium, with everything else referred.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "A low eGFR with heavy albuminuria is high-risk CKD; once confirmed, nutrition is individualised, dietitian-led work: recognise and refer."
         - "The potassium message reverses in CKD: 'eat more potassium' and a potassium salt substitute can cause dangerous hyperkalaemia, worse on an ACE inhibitor. The population advice and the salt-substitute trial both excluded CKD, so hold off and refer."
         - "Don't over-restrict protein or skip meals, which risks protein-energy wasting; targets are modest, stage-specific and dietitian-set (and raised on dialysis)."
-        - "Cutting sodium is the one lever a generalist can safely reinforce; fluid limits, binders and potassium and phosphate targets are specialist, so refer."
+        - "Cutting sodium is the one dietary change a generalist can safely reinforce; fluid limits, binders and potassium and phosphate targets are specialist, so refer."
       references: ["@who2012potassium", "@neal2021ssass", "@kdoqi2020nutrition", "@nkfsEatingRightCKD"]
 
   - id: end-partial
@@ -206,11 +206,11 @@ nodes:
       failing kidney can't clear the potassium load, risking dangerous hyperkalaemia, and both the WHO advice and
       the salt-substitute trial excluded exactly these patients. Replay the safe path: classify the risk; hold off
       on extra potassium and the salt substitute and refer; don't let him skip meals; and reinforce cutting sodium
-      as the one lever you safely can.
+      as the one change you safely can.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Recognise high-risk CKD from a low eGFR with heavy albuminuria, and that confirmed CKD makes nutrition dietitian-led."
         - "Never endorse 'eat more potassium' or a potassium salt substitute in CKD: the kidney can't clear the load and an ACE inhibitor adds to it, so hold off and refer."
         - "Don't over-restrict protein or skip meals; that risks protein-energy wasting. Targets are modest and dietitian-set."
-        - "Reinforce cutting sodium, the one lever that doesn't reverse in CKD, and refer fluid, potassium, phosphate and protein targets."
+        - "Reinforce cutting sodium, the one change that doesn't reverse in CKD, and refer fluid, potassium, phosphate and protein targets."

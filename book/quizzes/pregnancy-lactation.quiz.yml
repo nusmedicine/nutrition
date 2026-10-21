@@ -9,7 +9,7 @@ questions:
         feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is a snack, not a second dinner. 'Eating for two' only nearly fits breastfeeding, which needs roughly 450–500 kcal/day net extra and draws partly on pregnancy fat stores. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
-        feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and back-loaded, and doubling intake mostly adds excess weight and GDM risk."
+        feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
       - text: "She should eat less to avoid gaining too much weight"
         correct: false
         feedback: "Under-eating isn't the goal either: too little gain raises the risk of a small or preterm baby. The aim is adequate, good-quality intake and a weight-gain target set by pre-pregnancy BMI."
@@ -43,9 +43,9 @@ questions:
   - id: q4
     stem: "Why does the calcium requirement barely rise in pregnancy, even though the foetal skeleton is forming?"
     options:
-      - text: "Because the gut roughly doubles its calcium absorption"
+      - text: "Because intestinal calcium absorption roughly doubles"
         correct: true
-        feedback: "Intestinal absorption adapts: the gut roughly doubles its calcium absorption in pregnancy, so the recommended intake barely changes and an adequate baseline is enough."
+        feedback: "Intestinal calcium absorption roughly doubles in pregnancy, so the recommended intake barely changes and an adequate baseline is enough."
       - text: "Because the foetus doesn't actually need much calcium"
         correct: false
         feedback: "The foetal skeleton does need calcium, but the mother meets the need by absorbing dietary calcium more efficiently, not by eating more."
@@ -54,14 +54,14 @@ questions:
         feedback: "Bone stores are not the mechanism: intestinal calcium absorption roughly doubles in pregnancy, which is why the intake recommendation barely changes."
 
   - id: q5
-    stem: "Which nutrient is the one where the pregnancy advice is a ceiling (avoid excess), not a target to reach?"
+    stem: "Which nutrient is the one where the pregnancy advice is an upper limit (avoid excess), not a target to reach?"
     options:
       - text: "Vitamin A, because high-dose preformed retinol is teratogenic"
         correct: true
         feedback: "Preformed retinol (supplements, liver) is teratogenic in excess, while plant β-carotene is safe, so check that a multivitamin is not over-dosed in retinol and skip liver."
       - text: "Folate, because more is better throughout pregnancy"
         correct: false
-        feedback: "Folate is a floor to reach (about 400 µg/day, or 4–5 mg/day if high-risk), not a ceiling; the nutrient that is teratogenic in excess is preformed vitamin A."
+        feedback: "Folate is a minimum to reach (about 400 µg/day, or 4–5 mg/day if high-risk), not an upper limit; the nutrient that is teratogenic in excess is preformed vitamin A."
       - text: "Iron, because extra iron is always beneficial"
         correct: false
         feedback: "Iron needs rise and deficiency is common; the nutrient with a teratogenic upper limit is preformed vitamin A."
@@ -97,10 +97,10 @@ questions:
     options:
       - text: "Her milk can be critically low in vitamin B12 even while she feels fine"
         correct: true
-        feedback: "Vitamin B12 is a diet-dependent milk nutrient. Iron, calcium and folate in milk are buffered from her stores, but B12, iodine, vitamin D and DHA depend on her intake, and low-B12 milk can harm the infant's developing brain. She needs B12 supplementation and a dietitian referral."
+        feedback: "Vitamin B12 is a milk nutrient dependent on maternal intake. Iron, calcium and folate in milk are held steady by drawing on her stores, but B12, iodine, vitamin D and DHA depend on her intake, and low-B12 milk can harm the infant's developing brain. She needs B12 supplementation and a dietitian referral."
       - text: "Nothing, since if she feels well her milk is complete"
         correct: false
-        feedback: "She can look healthy while producing B12-deficient milk. B12 is diet-dependent in milk, so a vegan mother must supplement it."
+        feedback: "She can look healthy while producing B12-deficient milk. B12 in milk depends on maternal intake, so a vegan mother must supplement it."
       - text: "Her calcium and iron will be dangerously low in the milk"
         correct: false
-        feedback: "Calcium and iron are buffered, kept steady in milk at the mother's expense. The diet-dependent risk here is B12 (also iodine, vitamin D and DHA)."
+        feedback: "Calcium and iron are kept steady in milk at the expense of the mother's stores. The nutrient here that depends on maternal intake is B12 (iodine, vitamin D and DHA do too)."

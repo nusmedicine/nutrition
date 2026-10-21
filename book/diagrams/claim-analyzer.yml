@@ -2,7 +2,7 @@ id: claim-analyzer
 title: "Run the appraisal funnel"
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 
-# the fixed appraisal funnel (same four questions for every claim)
+# the four fixed questions of critical appraisal (same for every claim)
 steps:
   - { id: study,  label: "Find the study",   q: "What actual evidence sits behind the headline?" }
   - { id: design, label: "Judge the design", q: "Where does it sit on the evidence hierarchy?" }
@@ -56,7 +56,7 @@ claims:
     study: "A near-universal belief, and one tested directly in blinded randomised trials decades ago."
     design: "Blinded randomised trials: the strongest design, and feasible for this question."
     outcome: "Children given sugar behaved no differently from those given a sugar-free substitute; the 'sugar high' is largely parental expectancy (observer bias)."
-    apply: "Applies broadly. Excess added sugar is still unhealthy for teeth and weight; it is just not a behaviour switch."
+    apply: "Applies broadly. Excess added sugar is still unhealthy for teeth and weight; it just does not cause hyperactivity."
     verdict: disproven
     verdictText: "Disproven as a behaviour effect. Cut added sugar for the real reasons, not for hyperactivity."
   - id: betacarotene

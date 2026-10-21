@@ -6,10 +6,10 @@ questions:
     options:
       - text: "DASH → lower blood pressure (feeding trial); Mediterranean → events (PREDIMED)"
         correct: true
-        feedback: "DASH was designed as a blood-pressure pattern and proved it in a controlled feeding trial with a surrogate (blood-pressure) endpoint; the Mediterranean pattern has event-level evidence from PREDIMED, where a composite of cardiovascular events fell about 30% in relative terms. Matching each pattern to its own endpoint keeps you from over-claiming."
+        feedback: "DASH was designed to lower blood pressure and proved it in a controlled feeding trial with a surrogate (blood-pressure) endpoint; the Mediterranean pattern has event-level evidence from PREDIMED, where a composite of cardiovascular events fell about 30% in relative terms. Matching each pattern to its own endpoint keeps you from over-claiming."
       - text: "DASH → fewer cardiovascular events (PREDIMED); Mediterranean → lower blood pressure"
         correct: false
-        feedback: "This reverses the two. PREDIMED tested the Mediterranean pattern on events, while DASH is the blood-pressure pattern proven in a feeding trial."
+        feedback: "This reverses the two. PREDIMED tested the Mediterranean pattern on events, while DASH is the pattern designed to lower blood pressure, proven in a feeding trial."
       - text: "Both patterns rest mainly on hard-outcome trials showing fewer heart attacks"
         correct: false
         feedback: "DASH's landmark evidence is a short feeding trial with a blood-pressure (surrogate) endpoint, not hard outcomes. Only the Mediterranean pattern has the event-level PREDIMED signal, and even that was stroke-driven."
@@ -22,7 +22,7 @@ questions:
     options:
       - text: "Replacing saturated and trans fat with unsaturated oils"
         correct: true
-        feedback: "Swapping saturated and trans fat for unsaturated fat lowers LDL cholesterol and cuts events: around 17% fewer, and about 30% (the size of a statin's effect) when saturated fat is specifically replaced with polyunsaturated fat. Fat quality and its replacement are the lever, so always ask 'replaced with what?'"
+        feedback: "Swapping saturated and trans fat for unsaturated fat lowers LDL cholesterol and cuts events: around 17% fewer, and about 30% (the size of a statin's effect) when saturated fat is specifically replaced with polyunsaturated fat. Fat quality and its replacement are what matter, so always ask 'replaced with what?'"
       - text: "Cutting fat across the board and eating more refined carbohydrate and sugar"
         correct: false
         feedback: "When saturated fat is replaced with refined carbohydrate and sugar there is no benefit, which is why 'just eat less fat' misses the point."
@@ -86,7 +86,7 @@ questions:
     options:
       - text: "Look up the risk-tiered guidance and refer, not recite a threshold"
         correct: true
-        feedback: "Targets are risk-tiered and looked up, not memorised: a clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023) and the ACE guidance gives the individual's target. The task here is to deliver the lifestyle levers and refer, knowing that the target exists and is individualised."
+        feedback: "Targets are risk-tiered and looked up, not memorised: a clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023) and the ACE guidance gives the individual's target. The task here is to deliver the lifestyle advice and refer, knowing that the target exists and is individualised."
       - text: "Recite the single LDL threshold that applies to every adult patient"
         correct: false
         feedback: "No single LDL number applies to every adult. Targets are individualised by cardiovascular risk and looked up in the guidance, so a memorised threshold would be misapplied."
@@ -121,7 +121,7 @@ questions:
         feedback: "The trial that proved these substitutes work excluded people with serious kidney disease and those on potassium-raising drugs (ACE inhibitors, ARBs, potassium-sparing diuretics), in whom extra potassium can cause dangerous hyperkalaemia. Check for these first, and if in doubt, don't (see the *Chronic Kidney Disease* chapter)."
       - text: "An otherwise healthy adult with hypertension and no kidney problems"
         correct: false
-        feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable sodium-cutting lever with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."
+        feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable way to cut sodium, with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."
       - text: "Someone whose only goal is to season food with less sodium overall"
         correct: false
         feedback: "Wanting less sodium is the reason to consider a substitute, not a reason to avoid it. The real do-not-switch group is defined by kidney disease and potassium-raising medications."

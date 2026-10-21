@@ -1,8 +1,8 @@
 # Data for the RenalFlip island (Chronic Kidney Disease chapter).
-# The "advice that flips in CKD" widget for the "Potassium: when 'eat more' reverses" section.
+# The "advice that flips in CKD" widget for the "Potassium: the risk of hyperkalaemia" section.
 # The learner toggles the patient between a healthy adult and someone with advanced CKD / on dialysis;
-# each card's verdict flips good (✓) -> caution (⚠) or absolute-avoid (⛔) -> with a one-line why.
-# One card ("cut back on added salt") is a deliberate control that does NOT flip, so the lesson isn't
+# each card's verdict changes from good (✓) to caution (⚠) or absolute-avoid (⛔), with a one-line why.
+# One card ("cut back on added salt") is a deliberate control that does NOT change, so the lesson isn't
 # "everything reverses." Pure content, no asset paths.
 # `intro` is optional in RenalFlip.svelte and was removed in the house-style retrofit: the chapter
 # paragraph beside the island already makes the point, and the sentence before it tells the reader
@@ -88,12 +88,12 @@ items:
         why: "Lowers blood pressure, which is good for everyone."
       ckd:
         kind: good
-        badge: "Still good: no flip"
+        badge: "Still good"
         why: >-
-          Sodium is the one lever that does not reverse in CKD: it lowers blood pressure, reduces
-          protein leak and helps kidney-protective drugs work. It is the lever a generalist can safely
-          reinforce.
-prompt: "Toggle the patient to see which advice flips, and which holds."
+          Cutting sodium is the one piece of advice that does not reverse in CKD: it lowers blood
+          pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a
+          generalist can safely reinforce.
+prompt: "Toggle the patient to see which advice reverses, and which holds."
 caption: >-
   For the public, eating more potassium, using a potassium salt substitute and following the DASH
   pattern are all sound. In advanced CKD they can become hazardous, while cutting sodium stays good

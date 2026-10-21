@@ -4,7 +4,7 @@ objectives:
   - "Recognise the at-risk patient (living alone, bereaved, eating alone and losing weight) and screen actively instead of waiting for a 'starved' appearance."
   - "Apply MUST conceptually: BMI, unplanned weight loss and the acute-disease effect add up to a risk band; a positive screen flags risk and triggers referral, and is not itself a diagnosis or a feeding plan."
   - "Start food-first and social support (fortify familiar dishes, address the causes, involve family and communal dining) and refer to the dietitian; ONS is an add-on, not the opener, and the plan is dietitian-led."
-  - "Do no harm: don't feed a long-poor-eater up too fast, because that risks refeeding syndrome; build up gradually and let the dietitian set the pace; recognise the risk and refer."
+  - "Do no harm: don't feed someone with prolonged poor intake up too fast, because that risks refeeding syndrome; build up gradually and let the dietitian set the pace; recognise the risk and refer."
 difficulty: core
 estimatedMinutes: 12
 tags: [nutrition, malnutrition, undernutrition, screening, must, refeeding, do-no-harm, singapore, recognise-and-refer]
@@ -102,7 +102,7 @@ nodes:
       - id: a
         text: "Food-first and social support, alongside the dietitian referral."
         correct: true
-        feedback: "The food-based rungs come first: fix the causes (low mood, eating alone, dentition, the knee limiting cooking), then fortify familiar dishes (egg, minced fish or tofu in her rice porridge, richer soup noodles, full-fat milk) so each mouthful carries more without more volume. Bring meals together (her daughter, communal dining at an Active Ageing Centre) and refer. Supplement drinks are an add-on the dietitian may layer on later, not the opening move."
+        feedback: "The food-based steps come first: fix the causes (low mood, eating alone, dentition, the knee limiting cooking), then fortify familiar dishes (egg, minced fish or tofu in her rice porridge, richer soup noodles, full-fat milk) so each mouthful carries more without more volume. Bring meals together (her daughter, communal dining at an Active Ageing Centre) and refer. Supplement drinks are an add-on the dietitian may layer on later, not the opening move."
         effects: { quality: +1 }
         goto: reveal-firstline
       - id: b
@@ -185,14 +185,14 @@ nodes:
       the MUST screen as high risk and referred, understanding that a screen flags risk and does not make the
       diagnosis. You started food-first and social support (fortifying familiar dishes, tackling the causes,
       bringing meals together), with ONS left as a dietitian's add-on. And you did no harm: you did not feed a
-      long-poor-eater up too fast, but built up gradually and let the dietitian set the pace.
+      patient with prolonged poor intake up too fast, but built up gradually and let the dietitian set the pace.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Recognise the at-risk patient (living alone, bereavement, eating alone, weight loss) and screen; don't wait for a 'starved' look, and don't let a near-normal BMI reassure you."
         - "MUST adds BMI, weight loss and acute illness; here that makes high risk. A positive screen flags risk and triggers referral; it is not a diagnosis or a feeding plan."
         - "Start food-first and social support (fortify familiar dishes, fix the causes, bring meals together) and refer; ONS is a dietitian's add-on, not the opener, and the plan is dietitian-led."
-        - "Do no harm: don't feed a long-poor-eater up too fast, because that risks refeeding syndrome. Build up gradually and let the dietitian set the pace; recognise and refer."
+        - "Do no harm: don't feed someone with prolonged poor intake up too fast, because that risks refeeding syndrome. Build up gradually and let the dietitian set the pace; recognise and refer."
       references: ["@bapenMUST", "@espenGeriatrics2019", "@deSilva2020Refeeding", "@hpbSeniors"]
 
   - id: end-partial
@@ -203,7 +203,7 @@ nodes:
       You reached a plan for Mdm Tan, but slipped on at least one point: recognising her as at risk despite a
       near-normal BMI, reading the screen as high risk and referring, or starting food-first instead of a
       supplement drink alone. The one that matters most for safety is the last question: agreeing to build her
-      up fast is a do-no-harm error, because feeding a long-poor-eater up too quickly can precipitate
+      up fast is a do-no-harm error, because feeding a patient with prolonged poor intake up too quickly can precipitate
       **refeeding syndrome**, with dangerous shifts in phosphate, potassium and magnesium. Replay the safe path:
       screen the at-risk senior (a normal BMI doesn't clear her); read a positive screen as refer, not
       reassure; start food-first and social support; and build up gradually, letting the dietitian set the pace.
@@ -213,4 +213,4 @@ nodes:
         - "Recognise the at-risk patient and screen: a near-normal BMI does not exclude malnutrition."
         - "A positive MUST screen (high risk here) means document, monitor and refer; it is not a diagnosis or a plan."
         - "Start food-first and social support and refer; ONS is an add-on, not the opening move."
-        - "Never feed a long-poor-eater up too fast, because that risks refeeding syndrome. Build up gradually and let the dietitian set the pace."
+        - "Never feed a patient with prolonged poor intake up too fast, because that risks refeeding syndrome. Build up gradually and let the dietitian set the pace."

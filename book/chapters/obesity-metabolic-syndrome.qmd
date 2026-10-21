@@ -1,13 +1,13 @@
 # Obesity & metabolic syndrome
 
 > *A patient with a "reassuring" BMI can still be carrying the fat that matters. Obesity and the
-> metabolic syndrome are a pattern written by biology and environment together, so the clinical task
+> metabolic syndrome are a pattern produced by biology and environment together, so the clinical task
 > is to read the pattern, start lifestyle-first care and know what to refer onward, without stigma.*
 
 ::: {.callout-note}
 ## Learning objectives
 - Classify an adult's weight status on Singapore's lower BMI and waist cut-offs, and explain why
-  Singapore acts earlier than the WHO lines.
+  Singapore acts earlier than the WHO cut-offs.
 - Apply the harmonised any-three-of-five definition of the metabolic syndrome, and explain why it is a
   risk marker and not a single disease.
 - Explain how visceral and ectopic fat, adipose inflammation and the adipokine shift produce insulin
@@ -24,13 +24,13 @@
 [Chapter map]{.tree-title}
 
 - [Recognising obesity and the metabolic syndrome](#sec-recognising)
-  - [The phenotype](#sec-phenotype): BMI and waist on Singapore's lower cut-offs
+  - [Classifying weight status](#sec-phenotype): BMI and waist on Singapore's lower cut-offs
   - [The metabolic syndrome](#sec-mets): any three of five
-- [The science underneath](#sec-science)
-  - [How obesity produces the cluster](#sec-mechanism): fat as an endocrine organ
+- [Pathophysiology](#sec-science)
+  - [How obesity produces the metabolic syndrome](#sec-mechanism): fat as an endocrine organ
   - [Why weight accumulates](#sec-accumulation): food quality drives intake
 - [Managing over-nutrition](#sec-managing)
-  - [Lifestyle first, then refer](#sec-lifestyle): five levers and a 5–10% target
+  - [Lifestyle intervention first, then referral](#sec-lifestyle): five areas of lifestyle change and a 5–10% target
   - [Weight-inclusive care](#sec-weight-inclusive): framing as part of treatment
 :::
 
@@ -45,7 +45,8 @@ Hypertension* chapters).
 Three ideas shape how over-nutrition is recognised and managed:
 
 - Singapore acts at lower BMI and waist cut-offs than the global ones, for a physiological reason.
-- Diet quality is a larger lever than calorie arithmetic alone, and sleep and stress are levers too.
+- Diet quality matters more than calorie arithmetic alone, and sleep and stress are modifiable factors
+  too.
 - How a weight conversation is framed, without stigma and with the person first, is part of clinical
   care.
 
@@ -55,7 +56,7 @@ hypothalamus set appetite) is in the [*Energy Balance*](energy-balance.qmd) and
 
 ## Recognising obesity and the metabolic syndrome {#sec-recognising}
 
-### The phenotype: BMI, waist and why Singapore acts earlier {#sec-phenotype}
+### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
 
 BMI (weight ÷ height², introduced in the [*Energy Balance*](energy-balance.qmd#sec-measuring)
 chapter) is a screening proxy, not a measurement of fat. It cannot separate muscle from fat or say
@@ -69,9 +70,9 @@ excess body fat than BMI did [@chen2021yishun]. Because Asians reach diabetes an
 at a lower BMI, Singapore shifts its action points down from the WHO cut-offs
 [@whoExpert2004AsianBMI].
 
-There are therefore two number-lines for BMI:
+There are therefore two sets of BMI cut-offs:
 
-| Number-line | Lower threshold | Upper threshold |
+| Cut-off set | Lower threshold | Upper threshold |
 |---|---|---|
 | WHO (global) | Overweight: BMI ≥25 kg/m² | Obese: BMI ≥30 kg/m² |
 | Singapore (clinical action) [@hpbmoh2016obesityCPG; @sgObesityBMI] | Intervene: BMI ≥23 kg/m² | High risk: BMI ≥27.5 kg/m² |
@@ -100,21 +101,23 @@ five, with no single obligatory component [@alberti2009harmonizingMetS]:
 
 Treatment for a component counts the same as an abnormal reading.
 
-Two linked problems sit at the hub of the cluster: central fat and **insulin resistance**, a
-reduced response of the body's cells to insulin. At first, the pancreas compensates by making more
-insulin to keep blood glucose normal. The shared hub is why the five components appear together. The syndrome is therefore best read as a risk marker, not a single disease with a single drug: it
-flags a markedly raised risk of type 2 diabetes and cardiovascular disease
-[@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011]. The label is a prompt to look at the whole cluster and its shared
-root. Local data add a further nuance: the components do not always behave as one tidy syndrome
-across Singapore's ethnic groups [@angMetsSingaporeNHS2005].
+Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response
+of the body's cells to insulin. At first, the pancreas compensates by making more insulin to keep
+blood glucose normal. These common underlying abnormalities are why the five components appear
+together. The syndrome is therefore best read as a risk marker, not a single disease with a single
+drug: it flags a markedly raised risk of type 2 diabetes and cardiovascular disease
+[@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011]. The label is a prompt to look at
+the whole cluster and its common underlying abnormalities. Local data add a further nuance: the
+components do not always behave as one tidy syndrome across Singapore's ethnic groups
+[@angMetsSingaporeNHS2005].
 
 In the interactive below, toggle a patient's findings to see when the three-of-five threshold is met,
-and how sleep loss and stress feed the same hub.
+and how sleep loss and stress feed the same underlying abnormalities (drawn as the hub of the wheel).
 
 <div data-island="mets-cluster" data-src="/diagrams/mets-cluster.yml"></div>
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why does Singapore start intervening at a BMI of 23, when the WHO line calls no one overweight until 25?
+## Check yourself: why does Singapore start intervening at a BMI of 23, when the WHO cut-offs call no one overweight until 25?
 BMI cannot show how much of the weight is fat or where it sits. Singaporean adults carry more body
 fat, and proportionally more visceral fat, at a given BMI than the Western populations behind the WHO
 cut-offs. Asians therefore reach diabetes and cardiovascular risk at a lower BMI, so the WHO cut-offs
@@ -126,15 +129,15 @@ than BMI did.
 ## Check yourself: a patient has raised blood pressure, low HDL and raised fasting glucose, but a waist under the cut-off. Does she have the metabolic syndrome, and what follows from the label?
 Yes. The harmonised definition is any three of five components with no obligatory one, so central
 obesity is not required. The label is a risk marker for type 2 diabetes and cardiovascular disease,
-so it prompts a look at the whole cluster and its shared root (insulin resistance at the hub), not
-a single drug for "the syndrome".
+so it prompts a look at the whole cluster and its common underlying abnormalities (insulin resistance
+with central fat), not a single drug for "the syndrome".
 :::
 
-## The science underneath: why the risks cluster and the weight accumulates {#sec-science}
+## Pathophysiology: why the risks cluster and the weight accumulates {#sec-science}
 
-### How obesity produces the cluster {#sec-mechanism}
+### How obesity produces the metabolic syndrome {#sec-mechanism}
 
-The five problems travel together because body fat is an active endocrine organ: where it sits and
+The five problems occur together because body fat is an active endocrine organ: where it sits and
 how it behaves link a waistline to a blood-glucose reading. (The normal mechanics of fat storage and
 insulin action are in the [*Energy Balance*](energy-balance.qmd) and
 [*Integrative Metabolism*](integrative-metabolism.qmd#sec-switch) chapters; here we follow how they go
@@ -155,7 +158,7 @@ Lipotoxicity
 : The harm done when free fatty acids and ectopic lipid spill over into non-fat tissues; in liver and
   muscle it disrupts insulin signalling.
 
-![How obesity produces the metabolic syndrome. A chronic energy surplus enlarges visceral and ectopic fat, which becomes inflamed and shifts its adipokine output, driving insulin resistance (the shared hub) and blunting satiety, so the five-component cluster emerges from one mechanism.](/figures/mechanisms/obesity-pathophysiology.svg){#fig-obesity-pathophysiology width="88%" fig-align="center"}
+![How obesity produces the metabolic syndrome. A chronic energy surplus enlarges visceral and ectopic fat, which becomes inflamed and shifts its adipokine output, driving insulin resistance (the common underlying abnormality) and blunting satiety, so the five-component cluster emerges from one mechanism.](/figures/mechanisms/obesity-pathophysiology.svg){#fig-obesity-pathophysiology width="88%" fig-align="center"}
 
 The chain starts with where the fat is stored. A chronic energy surplus enlarges fat cells, but the
 harmful growth is in visceral fat, packed around the abdominal organs, and in ectopic fat, not in the
@@ -171,25 +174,26 @@ it [@hotamisligil2006inflammation]. The adipokine profile shifts at the same tim
 while pro-inflammatory signals such as tumour necrosis factor-α (TNF-α), interleukin-6 (IL-6) and
 resistin rise [@ouchi2011adipokines].
 
-The result is insulin resistance, the hub of the cluster. Alongside the inflammation, lipotoxicity
-jams insulin signalling in the liver and muscle [@samuel2012mechanisms], and together they make the
-body's cells less responsive to insulin. Insulin resistance raises blood glucose, drives the liver to
-over-produce triglyceride (raising triglycerides and lowering HDL) and contributes to higher blood
-pressure, so the five components emerge from one mechanism.
+The result is insulin resistance, the common underlying abnormality of the cluster. Alongside the
+inflammation, lipotoxicity impairs insulin signalling in the liver and muscle
+[@samuel2012mechanisms], and together they make the body's cells less responsive to insulin. Insulin
+resistance raises blood glucose, drives the liver to over-produce triglyceride (raising triglycerides
+and lowering HDL) and contributes to higher blood pressure, so the five components emerge from one
+mechanism.
 
 Fat also signals the brain, and in obesity the signal goes wrong. Leptin, the satiety signal from
 fat, runs high, but central leptin signalling is blunted. This leptin resistance (see the
 [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter) weakens satiety
-and makes the surplus harder to reverse [@myers2010leptin]. The same biology that builds the cluster
-also defends the weight, which is why lifestyle change is a physiological lever, not a test of
-willpower.
+and makes the surplus harder to reverse [@myers2010leptin]. The same biology that produces the
+cluster also makes the extra weight harder to lose, which is why lifestyle change is a physiological
+intervention, not a test of willpower.
 
-### Why weight accumulates: energy balance, but quality is the lever {#sec-accumulation}
+### Why weight accumulates: energy balance and diet quality {#sec-accumulation}
 
 At the level of physics, weight gain is a chronic positive energy balance: small daily surpluses
-banked over years (see the [*Energy Balance*](energy-balance.qmd) chapter). "Eat less, move more"
-is a weak clinical lever on its own, however, because it treats every calorie as equal, and what is
-eaten shapes how much gets eaten. Two drivers do most of the work.
+accumulated over years (see the [*Energy Balance*](energy-balance.qmd) chapter). "Eat less, move
+more" is weak clinical advice on its own, however, because it treats every calorie as equal, and what
+is eaten shapes how much gets eaten. Two drivers do most of the work.
 
 **Ultra-processed foods drive overeating even when the nutrients are matched.** The evidence comes
 from the controlled inpatient trial met in the *Digestion & Absorption* chapter. People freely eating
@@ -198,11 +202,11 @@ and gained weight, although the two diets were matched for sugar, fat, fibre and
 Higher ultra-processed intake tracks with obesity and, more convincingly, with incident diabetes and
 cardiovascular outcomes across large populations [@lane2024upfumbrella].
 
-**Sugar-sweetened drinks add energy the body barely notices.** Liquid sugar is poorly compensated:
-people do not eat correspondingly less at the next meal, and higher intake produces dose-dependent
-weight gain [@nguyen2023ssb]. Swapping to a "diet" drink is not the fix the label implies. The WHO
-advises against relying on **non-sugar sweeteners**, the sugar substitutes in "diet" drinks, for
-weight control, so the better swap is water or an unsweetened drink, plus habit change [@who2023nss].
+**Energy from sugar-sweetened drinks is poorly compensated.** After a sugar-sweetened drink, people
+do not eat correspondingly less at the next meal, and higher intake produces dose-dependent weight
+gain [@nguyen2023ssb]. Swapping to a "diet" drink is not the fix the label implies. The WHO advises
+against relying on **non-sugar sweeteners**, the sugar substitutes in "diet" drinks, for weight
+control, so the better swap is water or an unsweetened drink, plus habit change [@who2023nss].
 
 The targets are simple to state: free sugars under 10% of energy (ideally under 5%), saturated fat
 under 10%, *trans* fat under 1% and salt under 5 g a day [@who2020diet; @who2015sugars]. Singapore
@@ -213,10 +217,10 @@ processed food over ultra-processed [@aha2021diet].
 
 ::: {.callout-note}
 ## 🔬 Food science: why "same nutrients" can still mean more energy eaten
-Soft, energy-dense, quick-to-eat foods are eaten faster and in greater volume before fullness signals
-catch up, so intake runs ahead of need even when a diet is matched gram for gram on sugar, fat and
+Soft, energy-dense, quick-to-eat foods are eaten faster and in greater volume before fullness (satiety)
+signals take effect, so intake exceeds need even when a diet is matched gram for gram on sugar, fat and
 fibre. That is the finding of the inpatient feeding trial, and it makes processing, as well as
-composition, a lever worth naming [@hall2019upf].
+composition, a modifiable factor worth naming [@hall2019upf].
 :::
 
 ::: {.callout-tip}
@@ -234,7 +238,7 @@ For drinks, read the Nutri-Grade: choose grade A or B, or order *kopi-o kosong*,
 plain water instead of a grade C or D condensed-milk or bubble-tea drink.
 :::
 
-![Char kway teow, a Singapore hawker favourite and a useful energy-density anchor: roughly 744 kcal and 38 g of fat in one plate.](/figures/food/char-kway-teow.jpg){#fig-char-kway-teow width="70%" fig-align="center"}
+![Char kway teow, a Singapore hawker favourite and a useful energy-density reference point: roughly 744 kcal and 38 g of fat in one plate.](/figures/food/char-kway-teow.jpg){#fig-char-kway-teow width="70%" fig-align="center"}
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: two men have the same BMI, but one carries much more visceral fat. Why is he more likely to develop the metabolic-syndrome cluster?
@@ -248,32 +252,34 @@ higher blood pressure.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: the inpatient trial matched its two diets for sugar, fat, fibre and salt. Why did people still eat about 500 kcal a day more on the ultra-processed diet, and what follows for advice?
 Because the diets were matched on composition, the difference lies in the form of the food. Soft,
-energy-dense, quick-to-eat foods are eaten faster and in greater volume before fullness signals catch
-up, though which of these features matters most is still debated. Processing, as well as
-composition, is therefore a lever. Advice works at the level of the pattern: minimally processed food
-over ultra-processed, and water or an unsweetened drink over a sugar-sweetened one.
+energy-dense, quick-to-eat foods are eaten faster and in greater volume before fullness (satiety)
+signals take effect, though which of these features matters most is still debated. Processing, as
+well as composition, is therefore a modifiable factor. Advice works at the level of the pattern:
+minimally processed food over ultra-processed, and water or an unsweetened drink over a
+sugar-sweetened one.
 :::
 
 ## Managing over-nutrition {#sec-managing}
 
-### Lifestyle first, then refer {#sec-lifestyle}
+### Lifestyle intervention first, then referral {#sec-lifestyle}
 
 The weight-loss target is modest. A sustained 5–10% weight loss yields a disproportionate,
-dose-dependent cardiometabolic payoff, improving glucose, blood pressure and lipids well out of
+dose-dependent cardiometabolic benefit, improving glucose, blood pressure and lipids well out of
 proportion to the change on the scale [@wing2011modest]. Lifestyle change is the cornerstone of care:
 every other treatment is added to it, not substituted for it.
 
-Five levers make up first-line care, and two of them, sleep and stress, are routinely under-used (see
-the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-sleep-stress) chapter).
+Five areas of lifestyle change make up first-line care, and two of them, sleep and stress, are
+routinely under-used (see the
+[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-sleep-stress) chapter).
 
-**Diet pattern.** The diet lever is a set of pattern-level substitutions built on My Healthy Plate,
-not a branded diet, aiming for a 5–10% loss over 6–12 months [@aceBmiControl2026].
+**Diet pattern.** The dietary change is a set of pattern-level substitutions built on My Healthy
+Plate, not a branded diet, aiming for a 5–10% loss over 6–12 months [@aceBmiControl2026].
 
 **Physical activity.** Activity works partly independently of the scale: it cuts visceral fat,
 improves insulin sensitivity and preserves lean mass even when weight barely moves
-[@kolnes2021exercisefat]. Diet quality remains the larger lever for weight, so the two are paired.
+[@kolnes2021exercisefat]. Diet quality remains the larger influence on weight, so the two are paired.
 
-**Sleep.** Sleep is a modifiable weight lever. Short or poor sleep raises energy intake with no
+**Sleep.** Sleep is a modifiable factor in weight. Short or poor sleep raises energy intake with no
 matching rise in expenditure, and extending sleep brings intake back down [@alkhatib2017;
 @tasali2022sleepextension]. Short habitual sleep also tracks with more central obesity
 [@kohanmoo2024shortsleep]. The appetite-hormone mechanism is less certain: the classic account, in
@@ -282,15 +288,15 @@ found no reliable hormone shift [@spiegel2004; @sleepHormonesMeta2025]. Intake i
 signal; the hormone story suggests a direction, not a proven mechanism.
 
 **Stress.** Chronic stress and cortisol bias eating toward energy-dense comfort food and channel fat
-to the abdomen, a self-reinforcing loop that feeds the hub of central fat and insulin resistance
+to the abdomen, a self-reinforcing cycle that worsens central fat and insulin resistance
 [@dallman2003]. Mindfulness programmes for weight are still exploratory, so the mechanism can be
 named but a fix cannot be promised [@daubenmier2011].
 
-**Behaviour change.** Behaviour-change skills make the other four levers stick (see the
+**Behaviour change.** Behaviour-change skills make the other four changes stick (see the
 [*Behaviour-Change Counselling*](behaviour-change-counselling.qmd) chapter).
 
 ::: {.callout-note}
-## The treatment ladder, and where recognition stops
+## Stepped care: medication, surgery and referral
 Above lifestyle sit two specialist tiers: anti-obesity medication (including the newer GLP-1
 receptor agonists) and **metabolic-bariatric surgery** (weight-loss surgery), which can achieve
 substantially greater loss for selected patients [@lee2023obesitylandscape]. The task at this stage
@@ -298,8 +304,8 @@ is to **recognise that these tiers exist and refer**, not to prescribe or select
 
 Two evidence cautions apply to what lifestyle change can be expected to achieve. First, the landmark
 trials showing that lifestyle change can prevent or even remit diabetes used intensive, structured
-programmes. The Diabetes Prevention Program was a 16-session curriculum [@dpp2002], and DiRECT's ~46% remission
-applied to early, non-insulin-treated patients and is untested in Asian primary care
+programmes. The Diabetes Prevention Program was a 16-session curriculum [@dpp2002], and DiRECT's ~46%
+remission applied to early, non-insulin-treated patients and is untested in Asian primary care
 [@lean2018direct]. Second, improving those risk factors is not the same as preventing cardiovascular
 events: an intensive lifestyle programme in established diabetes improved markers but did not reduce
 cardiovascular events [@lookahead2013]. (The mechanics of remission are in the *Type 2 Diabetes*
@@ -326,21 +332,21 @@ in Singapore: in a local survey most respondents had felt weight-stigmatised, an
 disrespected or discouraged by a healthcare worker [@chue2022stigmasg; @goff2023sgweightbias].
 
 ::: {.callout-important}
-## The language shift
+## Person-first, permission-based framing
 The framing comes down to three habits [@weghuber2023peoplefirst; @batterham2020switchingfocus]:
 
 - Use **person-first language**, which names the person before the condition ("a person with
   obesity", not "an obese patient").
 - Ask permission before discussing weight.
 - Set goals around health behaviours and metabolic markers, not the scale alone, while still holding
-  the ~5–10% target that earns the metabolic payoff.
+  the ~5–10% target that brings the metabolic benefit.
 
 Shaming does not motivate; it backfires.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has lost 6% of his weight, but his BMI still puts him in the high-risk band. Why is the loss still worthwhile?
-A sustained 5–10% loss gives a disproportionate, dose-dependent cardiometabolic payoff, improving
+A sustained 5–10% loss gives a disproportionate, dose-dependent cardiometabolic benefit, improving
 glucose, blood pressure and lipids well out of proportion to the change on the scale. Physical
 activity adds to this, cutting visceral fat and improving insulin sensitivity even when weight barely
 moves. The target is metabolic health.
@@ -350,8 +356,23 @@ moves. The target is metabolic health.
 ## Check yourself: why can shaming a patient about weight make the weight harder to lose?
 Weight stigma degrades the quality of care and drives patients to avoid appointments, so they receive
 less of the care that helps. Stigma also raises cortisol and comfort-eating, which can promote weight
-gain (the COBWEBS loop). Person-first, permission-based framing is therefore part of the treatment.
+gain (the cycle described by the COBWEBS model). Person-first, permission-based framing is therefore
+part of the treatment.
 :::
+
+## Is obesity just "eating too much"? {#sec-close}
+
+The belief comes from the arithmetic of energy balance: weight is gained only when intake exceeds
+expenditure, so obesity looks like a matter of eating less. The arithmetic is right, but it leaves out
+three things. What is eaten shapes how much is eaten, because ultra-processed foods and
+sugar-sweetened drinks push intake past need. Once the surplus is stored, leptin resistance weakens
+satiety and makes the higher weight harder to lose. And the harm depends on where the fat sits: visceral
+and ectopic fat drive the insulin resistance behind the metabolic-syndrome cluster. Singaporean
+adults carry more visceral fat at a given BMI, which is why Singapore reads BMI at lower cut-offs and
+always alongside the waist.
+
+Care therefore works on those causes, and the way it is delivered matters too: because weight stigma
+can itself promote weight gain, weight-inclusive, person-first care is part of the treatment.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -382,25 +403,11 @@ refer" into a longitudinal health plan [@mohHealthierSG].
 The 2016 obesity guideline's Asian BMI cut-offs remain current, but its treatment sections predate
 the GLP-1 era, so its management content is dated [@hpbmoh2016obesityCPG; @lee2023obesitylandscape].
 
-## Is obesity just "eating too much"? {#sec-close}
-
-The belief comes from the arithmetic of energy balance: weight is gained only when intake exceeds
-expenditure, so obesity looks like a matter of eating less. The arithmetic is right, but it leaves out
-three things. What is eaten shapes how much is eaten, because ultra-processed foods and
-sugar-sweetened drinks push intake past need. Once the surplus is stored, leptin resistance weakens
-satiety and the body defends the higher weight. And the harm depends on where the fat sits: visceral
-and ectopic fat drive the insulin resistance behind the metabolic-syndrome cluster. Singaporean
-adults carry more visceral fat at a given BMI, which is why Singapore reads BMI at lower cut-offs and
-always alongside the waist.
-
-Care therefore works on those causes, and the way it is delivered matters too: because weight stigma
-can itself promote weight gain, weight-inclusive, person-first care is part of the treatment.
-
 ## Check your understanding {#sec-quiz}
 
 <div data-island="quiz" data-src="/quizzes/obesity-metabolic-syndrome.quiz.yml"></div>
 
-## Practise: Mr Tan and the two number-lines {#sec-case}
+## Practise: Mr Tan and the two sets of BMI cut-offs {#sec-case}
 
 Mr Tan, 45, has a BMI of 28 kg/m², a waist of 98 cm and several other findings, and thinks his weight
 is "not that bad". Work through his visit: classify him, decide whether his findings cluster and agree

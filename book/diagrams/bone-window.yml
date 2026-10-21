@@ -7,7 +7,7 @@ ageMax: 25
 windowFrom: 11
 windowTo: 16
 # The lowest attainable peak (as % of the genetic ceiling) with no lifestyle support; i.e. lifestyle
-# moves the balance across the band from here up to 100. Reflects the ~20-40% lifestyle-modifiable share.
+# moves the attainable peak across the band from here up to 100. Reflects the ~20-40% lifestyle-modifiable share.
 modifiableFloor: 70
 # Cumulative fraction of the ATTAINED peak reached by each age (interpolated). Steepest across the window.
 accrual:
@@ -28,7 +28,7 @@ levers:
     label: "Weight-bearing activity"
     weight: 0.40
     grade: "A"
-    why: "The strongest lever, and most powerful in early puberty: high-impact loading builds bone directly."
+    why: "The strongest modifiable factor, and most powerful in early puberty: high-impact loading builds bone directly."
   - key: calcium
     label: "Adequate calcium"
     weight: 0.35
@@ -47,6 +47,6 @@ threat:
   cap: 0.82
   why: "Under-fuelling (dieting or over-training) lowers oestrogen and stalls accrual, and the loss can be permanent whatever the other levers do. Recognise and refer."
 note: >-
-  Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded
-  band. The window largely closes by the early twenties.
+  Genetics sets the ceiling (the highest peak bone mass a person could reach) and most of the peak
+  itself; lifestyle moves the peak actually reached within the shaded band. The window largely closes by the early twenties.
 credit: "Schematic: shows the shape of accrual, not exact values. Based on Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."

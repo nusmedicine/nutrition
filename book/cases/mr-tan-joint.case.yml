@@ -3,8 +3,8 @@ title: "Mr Tan, 62: \"Should I take glucosamine for my knees?\""
 objectives:
   - "Give the evidence-based answer that glucosamine and chondroitin do not provide clinically meaningful benefit for knee osteoarthritis (ACR, OARSI, NICE and Singapore's ACE all advise against them); don't endorse it or claim it rebuilds cartilage."
   - "Handle the professional-vs-consumer messaging gap: retail and even a government consumer portal can frame glucosamine positively, but the professional guidance says it adds cost without established benefit."
-  - "Steer to the real lever: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation, the strongest thing that helps."
-  - "Frame do-no-harm correctly: the harm is not toxicity but cost, false reassurance and spending on an ineffective pill instead of the effective lever."
+  - "Steer to the intervention that works: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation, the strongest thing that helps."
+  - "Frame do-no-harm correctly: the harm is not toxicity but cost, false reassurance and spending on an ineffective pill instead of the effective intervention."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, osteoarthritis, glucosamine, evidence-vs-hype, weight, do-no-harm, singapore, recognise-and-refer]
@@ -30,7 +30,7 @@ nodes:
 
       *"Should I take glucosamine, doctor? Will it rebuild my cartilage?"*
 
-      Work through the visit: the supplement question, the mixed messages he's seen, the lever for his knees,
+      Work through the visit: the supplement question, the mixed messages he's seen, what helps his knees,
       and the do-no-harm point.
     next: q-supplement
 
@@ -41,7 +41,7 @@ nodes:
       What is the best evidence-based answer to Mr Tan's question about glucosamine?
     options:
       - id: a
-        text: "No meaningful benefit; the real levers are weight and activity."
+        text: "No meaningful benefit; what helps is weight loss and activity."
         correct: true
         feedback: "Glucosamine and chondroitin are no better than placebo for knee-osteoarthritis pain or joint structure in the major independent trials, and every major guideline (ACR, OARSI, NICE and Singapore's ACE) advises against them. It won't rebuild his cartilage; the things that help are weight loss and exercise."
         effects: { quality: +1 }
@@ -49,7 +49,7 @@ nodes:
       - id: b
         text: "Yes: start it daily, since it rebuilds cartilage and works."
         correct: false
-        feedback: "This is the trap. Glucosamine does not rebuild cartilage, and it's no better than placebo for pain or structure: the major independent trials found no meaningful benefit, and ACR, OARSI, NICE and Singapore's ACE all advise against it. Endorsing it sends him spending on an ineffective pill instead of the lever that works. Lead with the evidence, then steer him to weight and activity."
+        feedback: "This is the trap. Glucosamine does not rebuild cartilage, and it's no better than placebo for pain or structure: the major independent trials found no meaningful benefit, and ACR, OARSI, NICE and Singapore's ACE all advise against it. Endorsing it sends him spending on an ineffective pill instead of the intervention that works. Lead with the evidence, then steer him to weight and activity."
         goto: remedial-supplement
 
   - id: remedial-supplement
@@ -64,7 +64,7 @@ nodes:
       ACE guidance all advise against them, and why glucosamine does not "rebuild cartilage".
 
       The evidence-based message is: *the supplement won't help, and the things that do are weight loss and
-      staying active.* Endorsing an ineffective pill isn't harmless: it costs him money and delays the lever
+      staying active.* Endorsing an ineffective pill isn't harmless: it costs him money and delays the intervention
       that works. That's the do-no-harm error to avoid here.
     next: reveal-supplement
 
@@ -102,25 +102,25 @@ nodes:
 
   - id: q-lever
     type: mcq
-    title: "The lever that works"
+    title: "The intervention that works"
     stem: |
-      What is Mr Tan's single biggest lever for his knee osteoarthritis?
+      What is Mr Tan's single most effective intervention for his knee osteoarthritis?
     options:
       - id: a
         text: "Lose around 10% of his weight, with diet and exercise."
         correct: true
-        feedback: "Weight is the strongest modifiable lever in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the high-yield plan, not a supplement."
+        feedback: "Weight is the strongest modifiable factor in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the high-yield plan, not a supplement."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b
         text: "A daily cartilage supplement, which is gentler on the knees than exercise."
         correct: false
-        feedback: "Supplements don't rebuild cartilage or relieve osteoarthritis meaningfully, and avoiding activity is the wrong instinct. The evidence-based lever is weight loss (~10%) plus exercise, which unloads the joint and lowers inflammation, even though it's more effort than a pill."
+        feedback: "Supplements don't rebuild cartilage or relieve osteoarthritis meaningfully, and avoiding activity is the wrong instinct. The evidence-based intervention is weight loss (~10%) plus exercise, which unloads the joint and lowers inflammation, even though it's more effort than a pill."
         goto: reveal-lever
       - id: c
         text: "Complete rest: stop using the stairs and avoid loading the joint."
         correct: false
-        feedback: "Rest and de-conditioning make knee osteoarthritis worse, not better. The lever is weight loss with activity and exercise: appropriate loading and strengthening help, and the goal is a lighter, stronger, more active knee, guided by a physiotherapist if needed."
+        feedback: "Rest and de-conditioning make knee osteoarthritis worse, not better. What helps is weight loss with activity and exercise: appropriate loading and strengthening help, and the goal is a lighter, stronger, more active knee, guided by a physiotherapist if needed."
         goto: reveal-lever
 
   - id: reveal-lever
@@ -140,18 +140,18 @@ nodes:
       - id: a
         text: "It's fairly safe physically; the harm is cost and false reassurance."
         correct: true
-        feedback: "Glucosamine is physically fairly safe for most people, so the harm isn't toxicity: it's the cost, the false reassurance, and spending on an ineffective pill instead of losing weight and staying active. If he wants to try it he can, but he should know it's unlikely to help and is no substitute for the lever that works."
+        feedback: "Glucosamine is physically fairly safe for most people, so the harm isn't toxicity: it's the cost, the false reassurance, and spending on an ineffective pill instead of losing weight and staying active. If he wants to try it he can, but he should know it's unlikely to help and is no substitute for the intervention that works."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "No, it's a toxic, dangerous supplement he must never take."
         correct: false
-        feedback: "That overstates the physical risk. Glucosamine is fairly safe for most people; the do-no-harm point is about cost, false reassurance and opportunity cost (money and hope spent on an ineffective pill instead of the weight-and-activity lever that works), not toxicity."
+        feedback: "That overstates the physical risk. Glucosamine is fairly safe for most people; the do-no-harm point is about cost, false reassurance and opportunity cost (money and hope spent on an ineffective pill instead of the weight loss and activity that work), not toxicity."
         goto: route
       - id: c
         text: "Yes, completely harmless, so take it for peace of mind."
         correct: false
-        feedback: "Physically it's low-harm, but \"harmless, take it for peace of mind\" glosses over the real cost: ongoing spending and false reassurance that can delay the effective lever. Tell him plainly that it's unlikely to help, while steering him to weight loss and activity."
+        feedback: "Physically it's low-harm, but \"harmless, take it for peace of mind\" glosses over the real cost: ongoing spending and false reassurance that can delay the effective intervention. Tell him plainly that it's unlikely to help, while steering him to weight loss and activity."
         goto: route
 
   - id: route
@@ -169,16 +169,16 @@ nodes:
       You handled Mr Tan well. You gave the evidence-based answer: glucosamine doesn't meaningfully help knee
       osteoarthritis and won't rebuild cartilage, and every major guideline advises against it. You handled the
       mixed messages (sold everywhere and framed positively online, yet the professional guidance says no
-      established benefit). You steered him to the real lever, around 10% weight loss with activity, which
+      established benefit). You steered him to the intervention that works, around 10% weight loss with activity, which
       unloads the joint and lowers inflammation. And you framed do-no-harm correctly: the harm isn't
       toxicity but cost, false reassurance and delaying what works. That is the generalist's role for the
-      joints: recognise the real lever, deflate the hype, and refer.
+      joints: recognise the intervention that works, deflate the hype, and refer.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Glucosamine and chondroitin give no clinically meaningful benefit for knee osteoarthritis; ACR, OARSI, NICE and Singapore's ACE all advise against them, and glucosamine doesn't rebuild cartilage."
         - "Being sold and framed positively for consumers isn't evidence; the professional guidance (ACE) says it adds cost without established benefit. Trust the clinical evidence."
-        - "The real lever is ~10% weight loss with activity (IDEA), unloading the joint and lowering inflammation; not a supplement, and not rest."
+        - "The intervention that works is ~10% weight loss with activity (IDEA), unloading the joint and lowering inflammation; not a supplement, and not rest."
         - "Do-no-harm here is about cost, false reassurance and opportunity cost, not toxicity: steer the money and effort to what works."
       references: ["@wandel2010nma", "@kolasinski2020acr", "@messier2013idea", "@aceKneeOA2026", "@healthhubGlucosamine"]
 
@@ -191,7 +191,7 @@ nodes:
       **endorsing glucosamine (or letting "it rebuilds cartilage" stand) is the do-no-harm error here.** It gives
       no clinically meaningful benefit for knee osteoarthritis (the major independent trials found no real effect, and ACR, OARSI,
       NICE and Singapore's ACE all advise against it), so recommending it sends Mr Tan spending on an
-      ineffective pill instead of the lever that works. Replay the safe path: give the evidence-based answer;
+      ineffective pill instead of the intervention that works. Replay the safe path: give the evidence-based answer;
       recognise that consumer messaging can outrun the evidence; steer him to ~10% weight loss with activity;
       and frame the harm as cost and false reassurance, not toxicity.
     debrief:
@@ -199,5 +199,5 @@ nodes:
       keyPoints:
         - "Don't endorse glucosamine: no meaningful benefit for knee osteoarthritis, and it doesn't rebuild cartilage (guidelines advise against)."
         - "Availability and positive consumer messaging aren't evidence; the professional guidance says no established benefit."
-        - "Steer to the real lever: ~10% weight loss with activity."
+        - "Steer to the intervention that works: ~10% weight loss with activity."
         - "Frame do-no-harm as cost, false reassurance and opportunity cost, not toxicity."

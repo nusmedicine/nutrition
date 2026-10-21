@@ -71,10 +71,10 @@ questions:
     options:
       - text: "Low energy availability driving the female-athlete triad; refer"
         correct: true
-        feedback: "Amenorrhoea, a stress fracture, restriction and heavy training together are the pattern to recognise. Energy availability is intake minus the energy burned in training; when it is too low for her training load, the body down-regulates, periods stop and bone suffers. The message is to fuel, not restrict (never a stricter diet), and the action is referral."
+        feedback: "Amenorrhoea, a stress fracture, restriction and heavy training together are the pattern to recognise. Energy availability is intake minus the energy burned in training; when it is too low for her training load, reproductive hormone production (oestrogen) is suppressed, periods stop and bone suffers. The message is to fuel, not restrict (never a stricter diet), and the action is referral."
       - text: "Overtraining; tell her to push through and take a calcium tablet"
         correct: false
-        feedback: "A calcium tablet won't fix the underlying problem (too little energy dropping her hormones), and 'pushing through' is harmful. This needs recognition and referral, and more fuel, not more restriction."
+        feedback: "A calcium tablet won't fix the underlying problem (too little energy lowering her hormone levels), and 'pushing through' is harmful. This needs recognition and referral, and more fuel, not more restriction."
       - text: "Normal athletic amenorrhoea; reassure her and do nothing"
         correct: false
         feedback: "Absent periods in an athlete are a red flag, not a benign sign of fitness: they signal low energy availability threatening bone. Recognise and refer."
@@ -87,7 +87,7 @@ questions:
         feedback: "Eating disorders are not confined to visibly underweight teens. A formerly heavier teen who loses weight fast can be seriously ill, and praising weight loss can mask one. Rapid weight loss, faltering growth, absent periods, a stress fracture or purging warrant referral whatever the current weight."
       - text: "You can safely exclude an eating disorder if the teen's weight is normal or high"
         correct: false
-        feedback: "This is a dangerous misconception: a large share of presentations are at normal or high weight. Recognise the behaviours and red flags, not just the number on the scale."
+        feedback: "This is a dangerous misconception: a large share of presentations are at normal or high weight. Recognise the behaviours and red flags; the number on the scale cannot exclude a disorder."
       - text: "'Fussy eating' and eating disorders are the same thing and need the same referral"
         correct: false
         feedback: "Most fussy eating is normal, but when avoidance is driven by sensory aversion or fear *without* weight or shape concern it can be ARFID (avoidant/restrictive food intake disorder), a clinical pattern distinct from anorexia nervosa. Recognise which is which."

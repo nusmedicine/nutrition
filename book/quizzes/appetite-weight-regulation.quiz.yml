@@ -6,19 +6,19 @@ questions:
     options:
       - text: "Leptin signals fullness; ghrelin signals hunger."
         correct: true
-        feedback: "Leptin, made by fat, is the slow, long-term fuel gauge that suppresses appetite; ghrelin, made by the stomach, is the fast hunger hormone that rises before meals and falls after eating. The two are easily swapped."
+        feedback: "Leptin, made by fat, is the long-term signal of fat stores that suppresses appetite; ghrelin, made by the stomach, is the short-term hunger hormone that rises before meals and falls after eating. The two are easily swapped."
       - text: "Leptin signals hunger; ghrelin signals fullness."
         correct: false
         feedback: "This reverses them. Leptin (from fat) suppresses appetite over the long term; ghrelin (from the stomach) drives hunger before meals."
       - text: "Both are made by the stomach and signal fullness."
         correct: false
-        feedback: "Only ghrelin comes from the stomach, and it signals hunger; leptin is made by fat and is the long-term gauge."
+        feedback: "Only ghrelin comes from the stomach, and it signals hunger; leptin is made by fat and is the long-term signal of fat stores."
   - id: q-mc4r
     stem: "MC4R mutations are the commonest single-gene cause of severe obesity. What does that show?"
     options:
-      - text: "That appetite is a drive, not just willpower."
+      - text: "That appetite is a drive set by biology."
         correct: true
-        feedback: "When the appetite brake fails at MC4R, people become relentlessly hungry, so appetite is a real drive set by a brain circuit. This is the biological basis for treating weight without blame."
+        feedback: "When the satiety signal cannot act at MC4R, people become relentlessly hungry, so appetite is a real drive set by a brain circuit. This is the biological basis for treating weight without blame."
       - text: "That obesity is always genetic in origin."
         correct: false
         feedback: "MC4R mutations explain only a small fraction (about 6%) of severe childhood-onset obesity. Their importance is what they show: appetite is a signalled biological drive."
@@ -76,15 +76,15 @@ questions:
   - id: q-defended
     stem: "A patient loses weight, then over the next year feels constantly hungry and regains most of it despite eating carefully. Why?"
     options:
-      - text: "The body defends its weight and pushes to reclaim the lost fat."
+      - text: "Hormonal and metabolic changes after weight loss favour regain."
         correct: true
-        feedback: "Weight regain is the predicted output of a defended system: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts. All three push to reclaim the lost fat."
+        feedback: "Weight regain is the predicted output of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
         feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis actively oppose weight maintenance."
       - text: "The lost weight was only water, so it returned automatically."
         correct: false
-        feedback: "Real fat was lost; the regain is driven by a defended system (falling leptin, rising hunger hormones, adaptive thermogenesis)."
+        feedback: "Real fat was lost; the regain is driven by body-weight regulation (falling leptin, rising hunger hormones, adaptive thermogenesis)."
   - id: q-adaptation
     stem: "Is it true that dieting 'permanently wrecks your metabolism'?"
     options:
@@ -102,7 +102,7 @@ questions:
     options:
       - text: "They amplify satiety; weight returns on stopping."
         correct: true
-        feedback: "They act on the same satiety circuit as the body's own GLP-1, tipping the arcuate thermostat toward the brake and slowing the stomach, so hunger falls. Regain on stopping shows that obesity is a chronic, defended condition."
+        feedback: "They act on the same satiety circuit as the body's own GLP-1, shifting the arcuate nucleus toward POMC (satiety) activity and slowing gastric emptying, so hunger falls. Regain on stopping shows that obesity is a chronic, regulated condition."
       - text: "They permanently reset the defended range lower."
         correct: false
         feedback: "The drugs oppose the defended range while present but do not remove it, which is why weight returns when they are stopped."

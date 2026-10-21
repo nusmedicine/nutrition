@@ -22,7 +22,7 @@ questions:
     options:
       - text: "Inflammation drives catabolism and blunts appetite"
         correct: true
-        feedback: "Chronic and acute disease bring inflammation, which drives muscle breakdown and blunts appetite, so the illness cannot simply be out-fed and the underlying disease has to be treated too. The degree of inflammation is also what separates starvation-related from chronic- and acute-disease-related malnutrition."
+        feedback: "Chronic and acute disease bring inflammation, which drives muscle breakdown and blunts appetite, so extra feeding cannot simply outpace the inflammation-driven catabolism and the underlying disease has to be treated too. The degree of inflammation is also what separates starvation-related from chronic- and acute-disease-related malnutrition."
       - text: "Supplements are always too poorly absorbed to help"
         correct: false
         feedback: "Absorption is not the core issue. The reason feeding alone often falls short is the inflammatory catabolism of the underlying disease."
@@ -70,13 +70,13 @@ questions:
     options:
       - text: "Food-first, then fortify their familiar meals"
         correct: true
-        feedback: "Food-first is the first rung (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the opening move, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
+        feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the opening move, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
       - text: "Start a supplement drink and change nothing else"
         correct: false
         feedback: "ONS is an add-on, not the first step, and using it without fixing the cause underperforms. Food-first comes first, then fortification, then ONS."
       - text: "Move straight to tube feeding to guarantee intake"
         correct: false
-        feedback: "Enteral (tube) feeding is a specialist rung, reserved for when oral routes are insufficient, and not a first-line response to poor appetite."
+        feedback: "Enteral (tube) feeding is a specialist step, reserved for when oral routes are insufficient, and not a first-line response to poor appetite."
       - text: "Reassure them that appetite always recovers on its own"
         correct: false
         feedback: "That misses a modifiable problem. Poor intake in an older adult warrants food-first support and referral, not watchful reassurance."

@@ -44,7 +44,7 @@ nodes:
       - id: b
         text: "Give her a My Healthy Plate leaflet and review her in three months."
         correct: false
-        feedback: "A leaflet is appropriate universal advice, but insufficient here: diabetes, early kidney impairment and three medicines together cross the therapy line. She needs a dietitian; don't advise-and-stop."
+        feedback: "A leaflet is appropriate universal advice, but insufficient here: diabetes, early kidney impairment and three medicines together call for medical nutrition therapy. She needs a dietitian; don't advise-and-stop."
         goto: q-referral
       - id: c
         text: "Write her an individualised low-carbohydrate, kidney-protective meal plan yourself."
@@ -141,7 +141,7 @@ nodes:
     body: |
       You handled part of this well but slipped on at least one turn: advising-and-stopping for a complex
       patient, writing a vague referral, or either overstepping into therapy or leaving her unsupported
-      while she waits. Replay and run the safe path: recognise the therapy line and refer, write a
+      while she waits. Replay and run the safe path: recognise that her needs call for medical nutrition therapy and refer, write a
       complete referral, and give safe general advice via the Healthier SG pathway in the meantime.
     debrief:
       objectivesMet: [1]

@@ -12,26 +12,27 @@
 - Distinguish physiological haemodilution from true iron deficiency, and counsel oral iron for
   adherence.
 - Explain why the calcium requirement barely rises in pregnancy, and why preformed vitamin A carries
-  a ceiling.
+  an upper limit.
 - Explain how gestational diabetes arises from the normal insulin resistance of pregnancy, and why
   Singapore screens every pregnancy.
 - Recognise hyperemesis gravidarum and the thiamine-before-glucose rule, and refer.
-- Distinguish buffered from diet-dependent milk nutrients, and identify the breastfeeding mother whose
-  baby is at risk.
+- Distinguish milk nutrients held largely steady whatever the mother's status from those that depend
+  on her intake, and identify the breastfeeding mother whose baby is at risk.
 :::
 
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [What pregnancy demands](#sec-preg-demands)
-  - [Before pregnancy](#sec-preg-preconception): folic acid before the neural tube closes
-  - [Energy, weight gain and activity](#sec-preg-energy): modest and back-loaded
-  - [The blood changes](#sec-preg-blood): dilution, and true iron deficiency
-  - [The other nutrients that matter](#sec-preg-micronutrients): a short list, and vitamin A's ceiling
-- [The problems to catch](#sec-preg-problems)
-  - [Nausea and hyperemesis](#sec-preg-nausea): the thiamine rule
-  - [Gestational diabetes](#sec-preg-gdm): why Singapore screens everyone
-- [Lactation: the mother's side](#sec-preg-lactation): buffered and diet-dependent milk nutrients
+- [Nutritional requirements in pregnancy](#sec-preg-demands)
+  - [Preconception nutrition](#sec-preg-preconception)
+  - [Energy, gestational weight gain and physical activity](#sec-preg-energy)
+  - [Haemodilution and iron deficiency](#sec-preg-blood)
+  - [Other key nutrients, and the upper limit for vitamin A](#sec-preg-micronutrients)
+- [Common problems: nausea and gestational diabetes](#sec-preg-problems)
+  - [Nausea and vomiting of pregnancy](#sec-preg-nausea)
+  - [Gestational diabetes: pathophysiology and universal screening](#sec-preg-gdm)
+- [Lactation: maternal nutrition](#sec-preg-lactation)
+- [Recognising trouble, and when to refer](#sec-preg-refer)
 :::
 
 ## Pregnancy at a glance: two drivers {#sec-overview}
@@ -40,7 +41,7 @@ As at every life stage, two drivers shape a woman's nutrition in pregnancy:
 
 | Driver | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | The automatic physiology of placental hormones, an expanding blood volume, a normal slide into insulin resistance, and a gut that roughly doubles its calcium absorption |
+| Internal drivers (inside the body) | The automatic physiology of placental hormones, an expanding blood volume, a normal slide into insulin resistance, and intestinal calcium absorption that roughly doubles |
 | External levers (life and environment) | The levers the woman and her clinician can pull: what she eats, how she moves, the screening she is offered, and the foods she avoids |
 
 The internal drivers explain three facts that would otherwise seem counter-intuitive:
@@ -48,15 +49,15 @@ The internal drivers explain three facts that would otherwise seem counter-intui
 - Calcium needs barely rise, because absorption doubles.
 - A mid-pregnancy haemoglobin falls, because plasma outpaces red cells.
 - Diabetes can first appear in pregnancy, because the normal insulin resistance of pregnancy can
-  outrun the pancreas: this is **gestational diabetes** (GDM).
+  exceed what the pancreas can compensate for: this is **gestational diabetes** (GDM).
 
-The dial below lets you watch the requirements move across the stages, and spot the ones that don't.
+The interactive figure below shows how the requirements change across the stages, and which ones do not.
 
 <div data-island="requirement-dial" data-src="/diagrams/requirement-dial.yml"></div>
 
-## What pregnancy demands {#sec-preg-demands}
+## Nutritional requirements in pregnancy {#sec-preg-demands}
 
-### Before pregnancy: the real starting line {#sec-preg-preconception}
+### Preconception nutrition {#sec-preg-preconception}
 
 The most important nutrition window opens before conception. The neural tube closes by about 28 days,
 often before a woman knows she is pregnant, so folic acid has to be running already (the folate
@@ -67,17 +68,17 @@ neural-tube-defect pregnancy, diabetes, obesity or certain anticonvulsants) [@mr
 where teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception]. Much
 of good antenatal nutrition is really *pre*-natal.
 
-### Energy, weight gain and activity {#sec-preg-energy}
+### Energy, gestational weight gain and physical activity {#sec-preg-energy}
 
 The phrase "eating for two" suggests that pregnancy doubles a woman's food needs. The energy cost is
-in fact modest and back-loaded: roughly nothing extra in the first trimester, about +340 kcal/day in
+in fact modest and concentrated in the second and third trimesters: roughly nothing extra in the first trimester, about +340 kcal/day in
 the second and +450 kcal/day in the third, and measured expenditure often rises even less than that
 [@savard2020energy]. It is one extra snack, not a second dinner.
 
 Lactation is the one stage where the phrase nearly fits. Making milk costs about 670 kcal a day;
 about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra
 requirement of roughly 450–500 kcal/day, with more fluid too [@faoEnergy2004]. Pregnancy fat gain is
-the biological down-payment for breastfeeding.
+therefore an energy reserve laid down for breastfeeding.
 
 Weight gain in pregnancy has a target range set by pre-pregnancy BMI: about 12.5–18 kg for women who
 are underweight, 11.5–16 kg for normal weight, 7–11.5 kg for overweight and 5–9 kg for obesity
@@ -87,12 +88,12 @@ range [@goldstein2017gwg]. The ranges rest on Western BMI cut-offs and may fit l
 imperfectly, as Singapore data bear out [@ee2014gwgSG; @he2019gwgSG], so they work as a framework,
 not a verdict.
 
-Physical activity is the clean external lever. For a woman without obstetric contraindications, about
-150 minutes a week of moderate activity lowers the risk of gestational diabetes, **pre-eclampsia** (a
-hypertensive disorder of pregnancy) and caesarean. It also helps keep weight gain in range, and a
-previously active woman can generally carry on [@acog2020exercise].
+Physical activity is an external lever with clear benefit. For a woman without obstetric
+contraindications, about 150 minutes a week of moderate activity lowers the risk of gestational
+diabetes, **pre-eclampsia** (a hypertensive disorder of pregnancy) and caesarean. It also helps keep
+weight gain in range, and a previously active woman can generally carry on [@acog2020exercise].
 
-### The blood changes: dilution, not always deficiency {#sec-preg-blood}
+### Haemodilution and iron deficiency {#sec-preg-blood}
 
 A mid-pregnancy haemoglobin almost always falls, usually by **haemodilution**: a lower haemoglobin
 concentration caused by plasma volume expanding faster than red-cell mass. Plasma volume expands by
@@ -115,7 +116,7 @@ Three measures help:
 - anticipating constipation, since progesterone already slows the gut and iron compounds it, and
   treating constipation with more fibre and fluid as the first line [@rungsiprakarn2015constipation].
 
-### The other nutrients that matter, and the one that harms {#sec-preg-micronutrients}
+### Other key nutrients, and the upper limit for vitamin A {#sec-preg-micronutrients}
 
 Beyond folate and iron, a short list of nutrients carries most of the weight:
 
@@ -123,7 +124,7 @@ Beyond folate and iron, a short list of nutrients carries most of the weight:
   early foetus depends entirely on the mother [@bath2013iodine]. Singapore's salt iodisation is
   voluntary, so iodine status cannot be assumed, and iodised salt is a sensible default
   [@codling2017iodine].
-- Calcium needs barely rise, because the gut roughly doubles its calcium absorption in pregnancy
+- Calcium needs barely rise, because intestinal calcium absorption roughly doubles in pregnancy
   [@kovacs2016mineral]. An adequate baseline intake is enough.
 - Vitamin D supplementation probably lowers the risk of pre-eclampsia and gestational diabetes, but
   the evidence was recently downgraded, so the advice is modest; deficiency is common in Singapore
@@ -132,13 +133,13 @@ Beyond folate and iron, a short list of nutrients carries most of the weight:
   **docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces preterm birth
   [@middleton2018omega3; @caudill2018choline].
 
-Vitamin A is the one nutrient here whose pregnancy advice is a ceiling, not a floor, because its
-excess harms. High-dose preformed retinol (supplements, liver) is teratogenic, while the β-carotene
-in plants is safe [@rothman1995vitA]. The clinician therefore checks that a multivitamin is not
-over-dosed in retinol and advises skipping liver.
+Vitamin A is the one nutrient here for which the pregnancy advice is an upper limit, not a minimum
+intake, because excess harms. High-dose preformed retinol (supplements, liver) is teratogenic, while
+the β-carotene in plants is safe [@rothman1995vitA]. The clinician therefore checks that a
+multivitamin is not over-dosed in retinol and advises skipping liver.
 
 ::: {.callout-tip}
-## 🍜 Eating out & 🍳 healthy kitchen: safety, and the fish paradox
+## 🍜 Eating out & 🍳 healthy kitchen: food safety and fish intake
 Pregnancy adds a food-safety layer. Skip raw and undercooked items (sashimi, raw oysters, half-boiled
 or raw egg, including raw egg stirred into porridge), cold deli meats and unpasteurised dairy (because
 of *Listeria*), and limit the big predatory fish (shark, swordfish, marlin, and tuna sashimi) for
@@ -163,30 +164,23 @@ cut-off, with a ferritin check before iron is given. True iron deficiency is sti
 Singapore, so the ferritin check guards against missing it as well as against needless iron.
 :::
 
-## The problems to catch: nausea and gestational diabetes {#sec-preg-problems}
+## Common problems: nausea and gestational diabetes {#sec-preg-problems}
 
-### Early pregnancy: nausea, and the red flag behind it {#sec-preg-nausea}
+### Nausea and vomiting of pregnancy {#sec-preg-nausea}
 
 Nausea and vomiting affect most pregnancies in the first trimester, when energy needs have not yet
 risen. Small, frequent, bland meals help, and ginger and vitamin B6 (pyridoxine) are reasonable
-first-line measures [@acog2018nvp]. Most of it is miserable but benign.
+first-line measures [@acog2018nvp]. Most of it is miserable but benign. Severe, persistent vomiting is
+the exception: its warning signs, and the safety rule that goes with them, are in [Recognising
+trouble, and when to refer](#sec-preg-refer).
 
-::: {.callout-warning}
-## Do no harm: hyperemesis and the thiamine rule
-When vomiting is severe and persistent, with weight loss, dehydration and ketosis, it is
-**hyperemesis gravidarum**, and it needs referral, not reassurance. A woman who has been vomiting for
-weeks may be thiamine-depleted, and giving glucose or dextrose first can precipitate Wernicke's
-encephalopathy (see the *Micronutrients, Hydration & Electrolytes* chapter). **Thiamine goes in before
-any glucose** [@rcogHyperemesis69].
-:::
-
-### Gestational diabetes: why Singapore screens everyone {#sec-preg-gdm}
+### Gestational diabetes: pathophysiology and universal screening {#sec-preg-gdm}
 
 Gestational diabetes is Singapore's defining antenatal nutrition issue, and both drivers shape it. The
 internal driver is the normal insulin resistance of pregnancy. By the third trimester of every
-pregnancy, insulin sensitivity is 50–60% lower (the body's cells respond less to insulin), a fall
-driven by a mix of placental and maternal hormones, with no single hormone responsible, that diverts
-glucose to the growing foetus [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
+pregnancy, insulin sensitivity is 50–60% lower (cells respond less to insulin), a fall driven by a
+mix of placental and maternal hormones, with no single hormone responsible, that diverts glucose to
+the growing foetus [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
 that resistance [@plows2018gdm], which is why it forecasts a woman's future diabetes.
 
 The external lever is how pregnancies are screened. The local GUSTO cohort found GDM in roughly one in
@@ -199,40 +193,31 @@ biological cliff: the HAPO study showed that glucose and outcomes rise together 
 continuum, with no natural cut-point [@hapo2008].
 
 :::: {.callout-note}
-## The chain, not the numbers
+## Gestational diabetes: the foetal hyperinsulinaemia pathway
 The thresholds (fasting ≥5.1, 1-hour ≥10.0, 2-hour ≥8.5 mmol/L) matter less than the pathway:
 
 ::: {.flow}
 1. Maternal glucose crosses
 2. Foetal insulin rises
-3. Overgrowth before birth
+3. Macrosomia (overgrowth) before birth
 4. Delivery cuts the supply
 5. Insulin stays high
 6. Neonatal hypoglycaemia
 :::
 
-Maternal glucose crosses to the foetus, whose pancreas answers with its own insulin. That insulin
-drives **macrosomia** (foetal overgrowth) before birth and, once the maternal glucose supply is cut at
-delivery, leaves the baby briefly hypoglycaemic. The mother, in turn, carries a roughly seven-fold
-future risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose test at 4–12
-weeks** and lifelong vigilance. That link is why GDM sits inside Singapore's *War on Diabetes*
-[@mohWarOnDiabetes].
+Maternal glucose crosses to the foetus and stimulates the foetal pancreas to secrete more insulin.
+That insulin drives **macrosomia** (foetal overgrowth) before birth and, once the maternal glucose
+supply is cut at delivery, leaves the baby briefly hypoglycaemic. The mother, in turn, carries a
+roughly seven-fold future risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose
+test at 4–12 weeks** and lifelong vigilance. That link is why GDM sits inside Singapore's
+*War on Diabetes* [@mohWarOnDiabetes].
 ::::
 
 First-line management of GDM is dietary, and it works best within a woman's usual food. A local
 "seafood-and-noodle" pattern was protective [@gustoDietGDM], which supports familiar swaps over an
 unfamiliar regimen: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B
-drink for a sweetened one. When diet is not enough, insulin and glucose targets belong to the
-obstetric and diabetes team by referral (an endocrinology matter), not to a first consult.
-
-::: {.callout-tip collapse="true"}
-## Check yourself: a woman who has vomited for weeks arrives dehydrated and ketotic. Why does thiamine go in before any glucose?
-Thiamine is needed to turn carbohydrate into energy (see the *Micronutrients, Hydration & Electrolytes*
-chapter), and weeks of vomiting can leave her depleted of it. A glucose or dextrose load given first
-can then precipitate Wernicke's encephalopathy, so thiamine goes in before any glucose. Severe,
-persistent vomiting with weight loss, dehydration and ketosis is hyperemesis gravidarum, which needs
-referral, not reassurance.
-:::
+drink for a sweetened one. When diet is not enough, care moves to the obstetric and diabetes team
+(see [Recognising trouble, and when to refer](#sec-preg-refer)).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: insulin sensitivity falls in every pregnancy. Why do only some women develop gestational diabetes, and what does it predict?
@@ -242,29 +227,29 @@ same shortfall forecasts future diabetes: a woman with GDM carries a roughly sev
 diabetes, so she needs a postpartum glucose test and lifelong vigilance.
 :::
 
-## Lactation: the mother's side {#sec-preg-lactation}
+## Lactation: maternal nutrition {#sec-preg-lactation}
 
 After birth, the nutrition question splits in two. Infant feeding itself (latch, weaning,
 complementary foods, the infant's own vitamin D) belongs with the infant (see the *Infancy & Early
 Childhood* chapter). The mother's side is her own extra energy and fluid ([set out
 above](#sec-preg-energy) with the energy cost of pregnancy) and what her diet does to her milk.
 
-The body protects the milk for some nutrients at the mother's own expense, but not for others
-[@dgac2020lactation]:
+The milk concentrations of some nutrients are maintained at the mother's own expense,
+while those of others fall with her intake [@dgac2020lactation]:
 
-Buffered milk nutrients
+Milk nutrients largely independent of maternal status
 : Iron, calcium, folate and zinc. Their levels in milk stay steady even if the mother runs low, so
-  she pays, not the baby.
+  the deficit falls on her, not on the baby.
 
-Diet-dependent milk nutrients
+Milk nutrients dependent on maternal intake
 : Vitamin B12, iodine, vitamin D and DHA. Their levels in milk fall if the mother is deficient, and
-  then the baby pays.
+  the baby's intake falls with them.
 
-The danger case is the vegan or strict vegetarian mother. She can look perfectly well while producing
-milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12], so she needs B12
-supplementation and a dietitian referral. (Milk is naturally low in vitamin D whatever the mother
-eats, which is why the infant is supplemented; the dose is in the *Infancy & Early Childhood*
-chapter.)
+The mother whose baby is most at risk is the vegan or strict vegetarian mother. She can look perfectly well while
+producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]; what
+follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer). (Milk is
+naturally low in vitamin D whatever the mother eats, which is why the infant is supplemented; the
+dose is in the *Infancy & Early Childhood* chapter.)
 
 Three practical points concern what reaches the milk, or what is taken to boost it:
 
@@ -278,10 +263,10 @@ Three practical points concern what reaches the milk, or what is taken to boost 
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a breastfeeding mother low in iron and a vegan mother low in B12 both feel well. Why is only the second baby at risk from the milk?
-Iron is a buffered milk nutrient: its level in milk stays steady when the mother runs low, so she
-bears the cost. Vitamin B12 is diet-dependent: its level in milk falls when the mother is deficient,
-and B12-poor milk harms the infant's developing brain. The vegan mother therefore needs B12
-supplementation and a dietitian referral, even though she looks well.
+Iron is a milk nutrient largely independent of maternal status: its level in milk stays steady when
+the mother runs low, so her own stores bear the cost. Vitamin B12 depends on maternal intake: its
+level in milk falls when the mother is deficient, and B12-poor milk harms the infant's developing
+brain. The vegan mother's baby is therefore at risk even though she looks well.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -290,6 +275,47 @@ Frequent, effective milk removal drives production, and the evidence that any ga
 supply is weak. The advice therefore centres on frequent feeding or expressing. The soup or herb can
 be supported warmly as part of her practice, without a promise that it raises supply.
 :::
+
+## Recognising trouble, and when to refer {#sec-preg-refer}
+
+Most nutrition care in pregnancy and lactation is counselling within a woman's usual food. A few
+findings change that plan, either by moving care to the obstetric team, the diabetes team or a
+dietitian, or by adding a test; one of them, severe vomiting, carries a safety rule of its own.
+
+::: {.callout-warning}
+## Do no harm: hyperemesis gravidarum and thiamine before glucose
+When vomiting is severe and persistent, with weight loss, dehydration and ketosis, it is
+**hyperemesis gravidarum**, and it needs referral, not reassurance. A woman who has been vomiting for
+weeks may be thiamine-depleted, and giving glucose or dextrose first can precipitate Wernicke's
+encephalopathy (see the *Micronutrients, Hydration & Electrolytes* chapter). **Thiamine goes in before
+any glucose** [@rcogHyperemesis69].
+:::
+
+The findings that change the plan, and the action each one calls for:
+
+| Finding | Action |
+|---|---|
+| Severe, persistent vomiting with weight loss, dehydration and ketosis (hyperemesis gravidarum) | Refer; give thiamine before any glucose or dextrose |
+| A positive 75 g glucose tolerance test at 24–28 weeks | Diet first; refer to the obstetric and diabetes team when diet is not enough (insulin and glucose targets are an endocrinology matter, not a first-consult task) |
+| A mid-pregnancy haemoglobin below the pregnancy-specific cut-off | Check ferritin before giving iron |
+| Gestational diabetes in this pregnancy | Arrange a postpartum glucose test at 4–12 weeks, then lifelong vigilance |
+| A vegan or strict vegetarian mother who is breastfeeding | Start B12 supplementation and refer to a dietitian |
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a woman who has vomited for weeks arrives dehydrated and ketotic. Why does thiamine go in before any glucose?
+Thiamine is needed to turn carbohydrate into energy (see the *Micronutrients, Hydration & Electrolytes*
+chapter), and weeks of vomiting can leave her depleted of it. A glucose or dextrose load given first
+can then precipitate Wernicke's encephalopathy, so thiamine goes in before any glucose. Severe,
+persistent vomiting with weight loss, dehydration and ketosis is hyperemesis gravidarum, which needs
+referral, not reassurance.
+:::
+
+## Does a pregnant woman eat for two? {#sec-close}
+
+No. Advising her to eat for two does harm, because excess weight gain carries its own risks. The
+energy cost of pregnancy is about one extra snack a day, and only from the second trimester, so what
+matters is the quality of her diet, not its quantity. Lactation comes nearest: making milk costs
+about 670 kcal a day, though fat laid down in pregnancy covers part of it.
 
 ## The Singapore picture: confinement {#sec-singapore}
 
@@ -305,13 +331,6 @@ reaches the milk), a heavy sodium and fat load, and the wholesale avoidance of "
 vegetables (the very foods that supply vitamin C, fibre and folate). The same respectful lens covers
 the vegetarian mother (whose B12 and iron need planning) and the halal family (a supplement-sourcing
 question, not a deficiency).
-
-## Does a pregnant woman eat for two? {#sec-close}
-
-No. Advising her to eat for two does harm, because excess weight gain carries its own risks. The
-energy cost of pregnancy is about one extra snack a day, and only from the second trimester, so what
-matters is the quality of her diet, not its quantity. Lactation comes nearest: making milk costs
-about 670 kcal a day, though fat laid down in pregnancy covers part of it.
 
 ## Check your understanding {#sec-quiz}
 

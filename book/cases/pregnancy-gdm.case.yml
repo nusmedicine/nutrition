@@ -109,7 +109,7 @@ nodes:
       - id: a
         text: "\"Your sugar raises the baby's insulin, which stays high after birth and lowers the baby's sugar.\""
         correct: true
-        feedback: "Maternal glucose crosses to the baby, whose pancreas answers with extra insulin; after birth the glucose supply stops but the insulin lingers, so the baby's glucose dips. Macrosomia and neonatal hypoglycaemia are two ends of this one chain, and the answer puts it in plain words, without jargon."
+        feedback: "Maternal glucose crosses to the baby and stimulates the baby's pancreas to make extra insulin; after birth the glucose supply stops but the insulin lingers, so the baby's glucose dips. Macrosomia and neonatal hypoglycaemia are two ends of this one chain, and the answer puts it in plain words, without jargon."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-postpartum

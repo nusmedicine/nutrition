@@ -10,7 +10,7 @@ nutrients:
     kind: rising
     unit: "extra kcal/day above baseline"
     values: [0, 0, 340, 452, 500]
-    why: "Modest and back-loaded in pregnancy, and highest in lactation, for milk production. 'Eating for two' only nearly fits lactation."
+    why: "Modest in pregnancy and concentrated in the second and third trimesters, and highest in lactation, for milk production. 'Eating for two' only nearly fits lactation."
 
   - name: "Iron"
     kind: rising
@@ -34,13 +34,13 @@ nutrients:
     kind: flat
     unit: "% of non-pregnant need (schematic)"
     values: [100, 100, 100, 100, 100]
-    why: "The requirement barely rises, because the gut roughly doubles how much calcium it absorbs. A good baseline intake is enough, with no special allowance."
+    why: "The requirement barely rises, because intestinal calcium absorption roughly doubles. A good baseline intake is enough, with no special allowance."
 
   - name: "Vitamin A"
     kind: ceiling
-    unit: "floor flat, with an upper limit"
+    unit: "requirement flat, with an upper limit"
     values: [100, 100, 100, 100, 100]
-    why: "The floor barely moves, but high-dose preformed retinol (supplements, liver) is teratogenic, so this is a ceiling to respect, not a target to chase. Plant β-carotene is safe."
+    why: "The requirement barely moves, but high-dose preformed retinol (supplements, liver) is teratogenic, so the advice is an upper limit to respect, not a target to reach. Plant β-carotene is safe."
 
   - name: "DHA (omega-3)"
     kind: rising

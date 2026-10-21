@@ -26,7 +26,7 @@ nodes:
     body: |
       Mrs Koh's mother, 84, has advanced dementia. She is bed-bound, says almost nothing, and over the
       past weeks has been eating less and losing weight. Mrs Koh, distressed, asks the team to insert a
-      feeding tube so her mother "doesn't starve". The ward reflex is to refer for a PEG (percutaneous
+      feeding tube so her mother "doesn't starve". The usual ward response is to refer for a PEG (percutaneous
       endoscopic gastrostomy) tube. Decide what the evidence supports, and how to hold this
       conversation.
     next: q-recommend
@@ -46,7 +46,7 @@ nodes:
       - id: b
         text: "Insert a feeding tube (PEG) to prolong survival and prevent aspiration pneumonia."
         correct: false
-        feedback: "The evidence shows a PEG does neither in advanced dementia, and PEG is associated with more pressure ulcers: the do-no-harm trap."
+        feedback: "The evidence shows a PEG does neither in advanced dementia, and PEG is associated with more pressure ulcers: a do-no-harm error."
         goto: q-frame
       - id: c
         text: "Pass a nasogastric tube to top up her calories until she recovers her appetite."

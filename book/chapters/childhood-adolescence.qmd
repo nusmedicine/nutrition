@@ -9,8 +9,9 @@
 ## Learning objectives
 - Explain why nutritional demand in the growth spurt tracks pubertal stage, not age, and why energy and
   protein needs fall per kilogram while total needs rise.
-- Explain why the peak-bone-mass window matters for later life, which levers (weight-bearing activity,
-  calcium, vitamin D, adequate energy) change bone accrual, and how strong the evidence is for each.
+- Explain why peak bone mass acquisition in adolescence matters for later life, which levers
+  (weight-bearing activity, calcium, vitamin D, adequate energy) change bone accrual, and how strong the
+  evidence is for each.
 - Explain why the menstruating adolescent girl is the classic group at risk of iron deficiency, and why
   ferritin detects deficiency before anaemia.
 - Evaluate the evidence that sugary drinks, food marketing, screen time and family meals shape adolescent
@@ -25,12 +26,12 @@
 
 - [What's changing inside: growth, bone and iron](#sec-child-inside)
   - [The growth spurt: timing, energy and protein](#sec-child-growth)
-  - [The peak-bone-mass window](#sec-child-bone): a bank filled once
+  - [Peak bone mass acquisition](#sec-child-bone)
   - [Iron and the menstruating adolescent](#sec-child-iron)
 - [What's changing outside: environment, peers and sport](#sec-child-outside)
-  - [Sugary drinks, marketing and the peer plate](#sec-child-environment)
-  - [Sport and energy availability](#sec-child-sport): fuelling the young athlete
-- [Recognising trouble, and when to refer](#sec-child-refer): disordered eating and obesity
+  - [Sugary drinks, food marketing and peer influence](#sec-child-environment)
+  - [Sport and energy availability](#sec-child-sport)
+- [Recognising trouble, and when to refer](#sec-child-refer)
 :::
 
 ## Childhood and adolescence at a glance: two drivers {#sec-overview}
@@ -42,7 +43,7 @@ short adolescent growth spurt. As at every life stage, two drivers shape nutriti
 
 | Driver | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | After years of slow, steady growth, the growth spurt re-accelerates height, and sex hormones make body composition diverge by sex. The window for banking adult bone briefly opens and then closes for life. Iron demand rises with growth and, in girls, jumps again once menstruation begins. |
+| Internal drivers (inside the body) | After years of slow, steady growth, the growth spurt re-accelerates height, and sex hormones make body composition diverge by sex. The window for accruing peak bone mass briefly opens and then closes for life. Iron demand rises with growth and, in girls, jumps again once menstruation begins. |
 | External levers (life and environment) | The school and hawker food environment, sugary drinks and their marketing, physical activity and sport, and the handover of food choice from parent to teenager and peers. |
 
 ## What's changing inside: growth, bone and iron {#sec-child-inside}
@@ -83,25 +84,27 @@ watchful waiting [@leroy_2020_catchup_growth]. (Reference intakes and the underl
 in the [*Macronutrients*](macronutrients.qmd) and
 [*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapters.)
 
-### The peak-bone-mass window: a bank filled once {#sec-child-bone}
+### Peak bone mass acquisition {#sec-child-bone}
 
 Bone is not laid down evenly across life. Roughly two-fifths of the bone mineral an adult carries is
 deposited in the few years around the growth spurt, a brief, hormone-gated window that then closes as the
-growth plates fuse [@baxterjones_2011_pbm_estimation]. The balance in this "bone bank" at the end of
-adolescence is the single biggest determinant of how much bone a person can afford to lose in later life
-(see the [*Bone & Joint Health*](bone-health-osteoporosis.qmd) and
-[*Menopause & Midlife Health*](menopause-midlife.qmd) chapters). The window is only partly modifiable:
-lifestyle sets about a fifth to two-fifths of **peak bone mass** (the most bone a person ever has), and
-the rest is inherited [@nof_weaver_2016_pbm_position]. Lifestyle is worth optimising, but it does not
-override genetics.
+growth plates fuse [@baxterjones_2011_pbm_estimation]. The bone mass accrued by the end of adolescence,
+close to a person's **peak bone mass** (the most bone a person ever has), is the single biggest
+determinant of how much bone a person can afford to lose in later life (see the
+[*Bone & Joint Health*](bone-health-osteoporosis.qmd) and
+[*Menopause & Midlife Health*](menopause-midlife.qmd) chapters). The window is only partly
+modifiable: lifestyle sets about a fifth to two-fifths of peak bone mass, and the rest is inherited
+[@nof_weaver_2016_pbm_position]. Lifestyle is worth optimising, but it does not override genetics.
 
-The bone bank below shows the shape of the window. Move the age slider to watch accrual climb steeply and
-then plateau, toggle the levers to see how far lifestyle moves the balance within the shaded band, and
-switch on the under-fuelling threat to see the attainable peak fall.
+The interactive below pictures peak bone mass as a "bone bank" filled during this window. Move the age
+slider to watch accrual climb steeply and then plateau, toggle the levers to see how far lifestyle moves
+the attainable peak within the shaded band, and switch on the under-fuelling threat to see that peak fall.
 
 <div data-island="bone-window" data-src="/diagrams/bone-window.yml"></div>
 
-What actually builds the balance is more specific, and less tidy, than "drink milk". The strongest evidence for building peak bone mass is for weight-bearing, high-impact activity and adequate calcium; dairy and vitamin D help but carry weaker evidence [@nof_weaver_2016_pbm_position].
+What actually builds bone is more specific, and less tidy, than "drink milk". The strongest evidence for
+building peak bone mass is for weight-bearing, high-impact activity and adequate calcium; dairy and
+vitamin D help but carry weaker evidence [@nof_weaver_2016_pbm_position].
 Exercise is most **osteogenic** (bone-building) in early puberty, when the window is widest
 [@hind_2007_exercise_bone_review].
 
@@ -112,10 +115,10 @@ The message is therefore food-first calcium, outdoor weight-bearing activity, an
 deficiency, not blanket supplementation.
 
 ::: {.callout-warning}
-## When the window is under threat: often energy, not calcium
-The fastest way to empty the adolescent bone bank is too little energy. In a teenager who trains hard
-and eats too little, the body's hormones down-regulate, menstrual periods stop (**amenorrhoea**) and
-bone accrual stalls, sometimes with a lasting deficit
+## When bone accrual is under threat: often energy, not calcium
+The fastest way to impair bone accrual in adolescence is too little energy. In a teenager who trains hard
+and eats too little, reproductive hormone (oestrogen) production falls, menstrual periods stop
+(**amenorrhoea**) and bone accrual stalls, sometimes with a lasting deficit
 [@ackerman_2011_athlete_bone_triad]. **A young athlete with irregular periods, amenorrhoea or a stress
 fracture is a slow-motion bone-health emergency: recognise it and refer, and do not reach for a calcium
 tablet.** We return to this pattern under [Sport and energy availability](#sec-child-sport).
@@ -142,7 +145,7 @@ thresholds and screening schedules belong to clinical practice; iron deficiency 
 the *Micronutrients, Hydration & Electrolytes* chapter.)
 
 ::: {.callout-tip}
-## 🍜 Getting iron from a real plate
+## 🍜 Getting iron from everyday meals
 The practical wins come from pairing foods, not from supplements. Haem iron (in meat, fish and poultry)
 is far better absorbed than the non-haem iron of plants, and a little meat or a food rich in vitamin C (a
 squeeze of lime, some vegetables, fruit after the meal) can multiply absorption from a plate of rice or
@@ -165,14 +168,14 @@ would be the flag.
 ## Check yourself: why does bone accrual missed at 14 still matter in later life?
 Roughly two-fifths of adult bone mineral is laid down in the few years around the growth spurt, and the
 window closes as the growth plates fuse, so a shortfall in those years can leave a lasting deficit. The
-balance banked by the end of adolescence is the single biggest determinant of how much bone a person can
+bone mass accrued by the end of adolescence is the single biggest determinant of how much bone a person can
 afford to lose in later life. Lifestyle sets only about a fifth to two-fifths of peak bone mass, but that
 share is worth protecting.
 :::
 
 ## What's changing outside: environment, peers and sport {#sec-child-outside}
 
-### Sugary drinks, marketing and the peer plate {#sec-child-environment}
+### Sugary drinks, food marketing and peer influence {#sec-child-environment}
 
 In adolescence, food choice moves from the parent to the teenager and their peers. Teenagers eat more
 meals out, skip more meals and meet more advertising, and the family meal weakens as an influence just as
@@ -210,8 +213,8 @@ The danger at the other end is under-fuelling: an active adolescent needs to be 
 Three terms describe the risk:
 
 Energy availability
-: The energy left for the body's own housekeeping after training has taken its share: intake minus the
-  energy burned in exercise.
+: The energy left for the body's other physiological functions after the energy cost of training: intake
+  minus the energy burned in exercise.
 
 Female-athlete triad
 : The linked trio of low energy availability, menstrual disturbance and impaired bone health.
@@ -220,16 +223,16 @@ Relative energy deficiency in sport
 : The broader form of the female-athlete triad, arising from low energy availability.
 
 When energy availability stays too low for too long, from dieting, disordered eating or simply not
-matching a heavy training load, the body down-regulates: amenorrhoea develops, bone accrual stalls and
-performance falls. The female-athlete triad and its broader form, relative energy deficiency in sport,
-name this cluster [@mountjoy2023reds; @weisskelly2016triad].
+matching a heavy training load, hormone production (including oestrogen) is suppressed: amenorrhoea
+develops, bone accrual stalls and performance falls. The female-athlete triad and its broader form,
+relative energy deficiency in sport, name this cluster [@mountjoy2023reds; @weisskelly2016triad].
 
 ::: {.flow}
 [Under-fuelling in sport]{.tree-title}
 
 1. Intake falls short of training
 2. Energy availability stays low
-3. Hormones down-regulate
+3. Hormone production falls (including oestrogen)
 4. Periods stop; bone and performance suffer
 :::
 
@@ -242,22 +245,23 @@ nutrition in more detail is in the [*Adulthood & Working Life*](adulthood-workin
 ## Check yourself: teenagers who share family meals have better diets. Why are family meals encouraged but not prescribed as a treatment?
 The association is largely observational and plausibly runs both ways, so it does not show that family
 meals cause the better diets. Because family meals are low-risk and sensible, they are still encouraged
-as a habit, and they are the counterweight to the peer plate and marketing as food choice passes to the
-teenager.
+as a habit, and they help offset peer influence and marketing as food choice passes to the teenager.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a 16-year-old runner eats ordinary meals but trains twice a day, and her periods have stopped. How can she be under-fuelled?
 Energy availability is intake minus the energy burned in exercise, so ordinary meals can leave too little
-for the body's own housekeeping when the training load is heavy. When energy availability stays low, the
-body down-regulates: amenorrhoea develops, bone accrual stalls and performance falls. One part of the triad
-should prompt a look for the others, and she needs recognition and referral, not a stricter diet.
+for the body's other physiological functions when the training load is heavy. When energy availability
+stays low, hormone production (including oestrogen) falls: amenorrhoea develops, bone accrual stalls and
+performance falls.
+One part of the triad should prompt a look for the others, and she needs recognition and referral, not
+a stricter diet.
 :::
 
 ## Recognising trouble, and when to refer {#sec-child-refer}
 
-Two clinical tails emerge in adolescence (disordered eating and obesity), and the same messages prevent
-both.
+Two clinical problems emerge in adolescence (disordered eating and obesity), and the same messages
+prevent both.
 
 **Disordered eating.** Adolescence is the peak onset window for eating disorders: anorexia nervosa,
 bulimia nervosa and binge-eating disorder typically begin in the early teens
@@ -277,7 +281,7 @@ Binge-eating disorder
 Dieting is not a harmless habit in adolescence. In prospective studies, adolescents who diet are far more
 likely than non-dieters to develop a new eating disorder and, paradoxically, to gain more weight over the
 following years [@patton_1999_adolescent_ed_onset; @neumarksztainer_2007_dieting_weightgain_eat2]. That
-single finding links both tails.
+single finding links both problems.
 
 Two points sharpen recognition. First, eating disorders occur across the whole weight spectrum: a
 formerly heavier teenager who loses weight fast can be seriously ill, so praising weight loss can mask an
@@ -313,7 +317,7 @@ and [*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
 ::: {.callout-warning}
 ## Do no harm: healthy habits, never a diet
 Because dieting predicts both a new eating disorder and more weight gain, the same safe approach serves
-both tails. Paediatric guidance echoes it: focus on healthy habits rather than weight, encourage family
+both problems. Paediatric guidance echoes it: focus on healthy habits rather than weight, encourage family
 meals, and avoid all weight-talk and teasing, which drive disordered eating
 [@golden_2016_aap_prevent_obesity_ed; @haines_2006_weight_teasing_eat]. **Whatever a teenager's weight,
 the answer is never "go on a diet".** How to raise weight safely, the do-no-harm interview itself, is
@@ -330,11 +334,11 @@ Across this stage, any of the following warrants referral:
 - Obesity on a cardiometabolic trajectory
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why does one message, healthy habits and never a diet, protect against both clinical tails?
+## Check yourself: why does one message, healthy habits and never a diet, protect against both disordered eating and obesity?
 In prospective studies, adolescents who diet are far more likely than non-dieters to develop a new eating
 disorder, and are also more likely to gain more weight over the following years. Dieting therefore
-predicts both the eating-disorder tail and the obesity tail, so the same safe approach (healthy habits,
-family meals, no weight-talk or teasing) serves both.
+predicts both a new eating disorder and more weight gain (the path to obesity), so the same safe
+approach (healthy habits, family meals, no weight-talk or teasing) serves both.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -346,9 +350,18 @@ adulthood, and paediatric type 2 diabetes is emerging downstream of it. A trajec
 risk warrants recognition and referral, never a diet.
 :::
 
+## Is adolescence just "feed them more"? {#sec-close}
+
+No, and getting that wrong is where the harm lives. The internal drivers set needs for quality and
+timing, not bulk. The spurt needs enough energy and iron (the menstruating girl is the one to watch),
+and bone accrual needs enough weight-bearing activity and calcium before its window largely closes by
+the early twenties. Because dieting and weight-talk can start real disease, the safe approach to any
+teenager's weight is healthy habits, never a diet, together with knowing the red flags that mean it is
+time to refer.
+
 ## The Singapore picture {#sec-singapore}
 
-**The school plate, and a cautionary tale.** The Healthy Meals in Schools Programme shapes the food a
+**School food, and a cautionary tale.** The Healthy Meals in Schools Programme shapes the food a
 Singaporean student meets daily. Participating canteens must cut fat, sugar and salt, serve wholegrains
 and vegetables, keep plain water the default, and discourage sugary drinks [@hpb_hmsp_page].
 
@@ -360,12 +373,12 @@ follow-up of anorexia-nervosa patients found that about one in ten had been thro
 illness began, an association, not proof of cause [@kuek_2015_an_singapore]. The lesson is the
 do-no-harm rule made national policy: weight is screened without shaming the child.
 
-**The bubble-tea environment.** Nutri-Grade, the mandatory A–D drink label with an advertising ban on the
-worst grade, was designed for exactly the drinks teenagers buy. Since December 2023 it has also covered
-freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023]. Its effect is
-modest: a small cut in sugar per serving [@shin2023_nutrigrade_rct]. Local data also show that most
-children already exceed added-sugar guidance [@brownlee2019sgchildren], so the label is one lever among
-many, best paired with the family and school environment.
+**Sugary drinks and drink labelling.** Nutri-Grade, the mandatory A–D drink label with an advertising
+ban on the worst grade, was designed for exactly the drinks teenagers buy. Since December 2023 it has
+also covered freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023].
+Its effect is modest: a small cut in sugar per serving [@shin2023_nutrigrade_rct]. Local data also show
+that most children already exceed added-sugar guidance [@brownlee2019sgchildren], so the label is one
+lever among many, best paired with the family and school environment.
 
 **A vitamin D tension, and a data gap.** Singapore's recommendations track the drivers well: iron rises
 steeply for adolescent girls (see [Iron and the menstruating adolescent](#sec-child-iron)) and calcium
@@ -382,15 +395,6 @@ screen at-risk (with Malay girls over-represented), presentations are rising and
 large share are atypical, non-underweight presentations [@ho2006_sg_eating_risk; @wong2022_paed_ed;
 @chew_2023_atypical_an_sg_adolescents]. These atypical presentations are the local face of eating
 disorders across the weight spectrum.
-
-## Is adolescence just "feed them more"? {#sec-close}
-
-No, and getting that wrong is where the harm lives. The internal drivers ask for quality and timing, not
-bulk. The spurt needs enough energy and iron (the menstruating girl is the one to watch), and the bone
-bank needs enough weight-bearing activity and calcium before its window largely closes by the early
-twenties. Because dieting and weight-talk can start real disease, the safe approach to any teenager's
-weight is healthy habits, never a diet, together with knowing the red flags that mean it is time to
-refer.
 
 ## Check your understanding {#sec-quiz}
 

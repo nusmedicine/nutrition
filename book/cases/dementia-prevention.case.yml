@@ -1,7 +1,7 @@
 id: dementia-prevention
 title: "\"What should I eat so I don't get dementia?\""
 objectives:
-  - "Lead worried-well dementia counselling with vascular and metabolic risk, the best-supported lever."
+  - "Lead worried-well dementia counselling with vascular and metabolic risk, the best-supported approach."
   - "Frame the MIND-diet evidence truthfully: an observational association, with a null prevention trial; a low-regret pattern, not a proven cure."
   - "Do no harm: discourage unproven brain supplements instead of prescribing one that wastes money or can harm."
 difficulty: intro
@@ -36,21 +36,21 @@ nodes:
     stem: "What is the most useful thing to lead with?"
     options:
       - id: a
-        text: "Treat her raised blood pressure and glucose, the levers with the best evidence."
+        text: "Treat her high blood pressure and glucose, the risk factors with the best evidence."
         correct: true
-        feedback: "The vascular contribution is the modifiable pathway, and her blood pressure and glucose are the levers with the best evidence. This is the same prevention as in the *Cardiovascular Disease & Hypertension* and *Type 2 Diabetes* chapters."
+        feedback: "The vascular contribution is the modifiable pathway, and her blood pressure and glucose are the risk factors with the best evidence. This is the same prevention as in the *Cardiovascular Disease & Hypertension* and *Type 2 Diabetes* chapters."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-diet
       - id: b
         text: "Tell her the MIND diet will halve her risk, so diet is all she needs."
         correct: false
-        feedback: "This overstates the diet and buries the strongest lever: the MIND pattern is reasonable, but its prevention trial was negative, and her vascular risk is the priority."
+        feedback: "This overstates the diet and buries the best-supported advice: the MIND pattern is reasonable, but its prevention trial was negative, and her vascular risk is the priority."
         goto: q-diet
       - id: c
         text: "Reassure her that nothing really works, so she should not worry about it."
         correct: false
-        feedback: "Vascular risk management does help, so fatalism misses the real, actionable levers."
+        feedback: "Vascular risk management does help, so fatalism misses the real, actionable risk factors."
         goto: q-diet
     next: q-diet
 
@@ -62,7 +62,7 @@ nodes:
       - id: a
         text: "Worth following, but its trial did not show it prevents dementia."
         correct: true
-        feedback: "The 'halved risk' is an observational association, and the randomised trial found no cognitive benefit. Recommend the pattern as sensible, low-regret eating, not a proven shield."
+        feedback: "The 'halved risk' is an observational association, and the randomised trial found no cognitive benefit. Recommend the pattern as sensible, low-regret eating, not proven prevention."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-supplement
@@ -114,7 +114,7 @@ nodes:
     title: "Counsel truthfully, and do no harm"
     body: |
       The through-line: **lead with vascular risk** (her blood pressure and glucose are the
-      best-evidenced levers), frame the diet truthfully (a low-regret pattern, not a proven cure, because
+      best-evidenced risk factors to treat), frame the diet truthfully (a low-regret pattern, not a proven cure, because
       the prevention trial was negative), and steer her away from supplements instead of prescribing one
       that wastes money or, in the case of high-dose vitamin E, can harm. Replay and take the path that
       helps without selling false hope.
@@ -125,7 +125,7 @@ nodes:
     outcome: success
     title: "Real help, no false hope"
     body: |
-      You led with her blood pressure and glucose, the levers with the best evidence, and framed the
+      You led with her blood pressure and glucose, the risk factors with the best evidence, and framed the
       MIND diet as a sensible low-regret pattern, not a proven cure. When she pushed for a supplement,
       you discouraged it and redirected her money and energy to what actually works.
     debrief:
@@ -140,7 +140,7 @@ nodes:
     outcome: partial
     title: "Most of the way"
     body: |
-      You helped Madam Ong on some turns but slipped on at least one: burying the vascular lever,
+      You helped Madam Ong on some turns but slipped on at least one: burying vascular risk control,
       repeating the '50%' headline as fact, or recommending a supplement. Replay and run the safe path:
       lead with blood pressure and glucose, frame the diet truthfully, and steer her away from the
       supplements.

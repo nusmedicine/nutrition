@@ -36,13 +36,13 @@
 energy. There are three (carbohydrate, fat and protein), plus **dietary fibre**, the carbohydrate
 that the small intestine cannot digest. They differ in how much energy each yields:
 
-| Macronutrient | Energy (kcal/g) | Headline role |
+| Macronutrient | Energy (kcal/g) | Main role |
 |---|---|---|
 | Carbohydrate | ~4 | Primary, glucose-yielding fuel |
 | Fat | ~9 | Energy store, cell membranes, essential fatty acids |
 | Protein | ~4 | Structure, enzymes, immune & transport functions |
 | Fibre | ~2 | Fermented by gut microbes; not a fuel in the usual sense |
-| *(Alcohol)* | *~7* | *Not a nutrient; empty energy, shown for contrast* |
+| *(Alcohol)* | *~7* | *Not a nutrient; empty calories, shown for contrast* |
 
 Fat is the most energy-dense macronutrient, so fat-rich foods raise total intake quickly.
 
@@ -94,7 +94,8 @@ Polysaccharides
 
 Amylose and amylopectin
 : The two forms of starch. Amylose is a straight chain with few ends and digests slowly; amylopectin
-  is branched, with many ends, and digests fast. Glycogen is amylopectin taken further.
+  is branched, with many ends, and digests fast. Glycogen is branched like amylopectin, but more
+  highly.
 
 ![The same sugar unit, linked differently: one, two or many units, in straight (amylose), branched (amylopectin) or β-linked (cellulose) chains.](/figures/structures/carbohydrate-chains.svg){#fig-carb-chains fig-alt="Schematic of sugar units drawn as beads: one bead is a monosaccharide, two a disaccharide, many a polysaccharide; then a straight amylose chain, a branched amylopectin chain, and a beta-linked cellulose chain." width="520"}
 
@@ -155,7 +156,7 @@ blood glucose over about two hours, relative to pure glucose, set at 100
 [Gentler rise]{.spectrum-end} [Faster, higher rise]{.spectrum-end}
 :::
 
-GI has a blind spot: it fixes the carbohydrate at 50 g, which may be far from a real serving.
+GI has a limitation: it fixes the carbohydrate at 50 g, which may be far from a real serving.
 **Glycaemic load (GL)** corrects for this by scaling GI to the actual serving:
 
 $$ \text{GL} = \frac{\text{GI} \times \text{available carbohydrate (g) per serving}}{100} $$
@@ -217,7 +218,7 @@ Four swaps improve the carbohydrate on a hawker plate [@hpbHealthyPlate; @hpbNut
 
 ::: {.callout-tip}
 ## 🍳 Healthy kitchen
-Cook pasta and noodles *al dente*; try the cook–cool–(reheat) trick for rice and potato to raise
+Cook pasta and noodles *al dente*; cook, cool and, if wanted, reheat rice and potato to raise
 resistant starch [@sonia2015rice]; and choose intact wholegrains (brown or red rice, rolled oats)
 over products made from finely milled flour.
 :::
@@ -228,7 +229,7 @@ over products made from finely milled flour.
 **soluble fibre** (viscous; in oats, legumes and some fruit) and **insoluble fibre** (bulking; in
 wholegrain bran and vegetable skins), and much of it can be fermented by gut bacteria.
 
-**What it does.** Soluble fibre slows digestion and gentles the glucose rise; insoluble fibre adds
+**What it does.** Soluble fibre slows digestion and blunts the rise in blood glucose; insoluble fibre adds
 bulk and aids regularity; and the fermentable part feeds gut microbes that make short-chain fatty
 acids (see the [*Gut Microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Higher fibre intake is
 among the best-supported dietary associations with lower disease risk (see the evidence above)
@@ -237,7 +238,7 @@ among the best-supported dietary associations with lower disease risk (see the e
 ::: {.callout-note}
 ## 🔬 Food science: the food matrix, why whole beats juiced
 Fibre is part of a food's physical structure, its **food matrix**. Juicing or finely blending fruit
-tears open the plant cell walls that caged the sugars, so the same fruit raises glucose faster as
+tears open the plant cell walls that enclosed the sugars, so the same fruit raises glucose faster as
 juice than eaten whole. A glass of juice also carries several fruits' worth of sugar with little of
 the fibre. Intact cell walls slow sugar release; milling grain into fine flour destroys them, part
 of why wholegrains beat refined starch.
@@ -300,13 +301,13 @@ Chain length runs from short through medium to long; medium-chain fats are absor
 which is the point of "MCT" (medium-chain triglyceride) oils. Replacing one fatty acid with a
 phosphate head gives a **phospholipid**. Phospholipids are amphipathic (they have a water-loving
 head and water-hating tails), so they self-assemble into the lipid bilayer of every cell membrane:
-fat is architecture as well as fuel.
+fat is a structural material as well as a fuel.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
-steroid hormones, bile acids and vitamin D. The cholesterol in food is a weaker lever on blood
-cholesterol than saturated and *trans* fat are [@carson2020cholesterol].
+steroid hormones, bile acids and vitamin D. The cholesterol in food raises blood cholesterol
+less than saturated and *trans* fat do [@carson2020cholesterol].
 
-![The major dietary lipids, as conventionally drawn. Three are fatty acids or built from them: a fatty acid is a hydrocarbon chain with a carboxyl head (the kink here is a *cis* double bond); three of them esterified onto a glycerol backbone make a triglyceride (the storage and dietary fat); and swapping one for a phosphate–choline head gives an amphipathic phospholipid (the membrane builder). Cholesterol, by contrast, is a rigid four-ring sterol.](/figures/structures/lipid-classes.svg){#fig-lipid-classes fig-alt="Skeletal structures of four lipids, each labelled: cholesterol (four fused rings), a free fatty acid (a chain with a cis kink and a carboxyl group), a triglyceride (three fatty-acid chains on a glycerol backbone), and a phospholipid (two chains plus a phosphate–choline head)." width="430"}
+![The major dietary lipids, as conventionally drawn. Three are fatty acids or built from them: a fatty acid is a hydrocarbon chain with a carboxyl head (the kink here is a *cis* double bond); three of them esterified onto a glycerol backbone make a triglyceride (the storage and dietary fat); and swapping one for a phosphate–choline head gives an amphipathic phospholipid (the main structural lipid of membranes). Cholesterol, by contrast, is a rigid four-ring sterol.](/figures/structures/lipid-classes.svg){#fig-lipid-classes fig-alt="Skeletal structures of four lipids, each labelled: cholesterol (four fused rings), a free fatty acid (a chain with a cis kink and a carboxyl group), a triglyceride (three fatty-acid chains on a glycerol backbone), and a phospholipid (two chains plus a phosphate–choline head)." width="430"}
 
 Because fats do not dissolve in blood, they travel inside **lipoproteins**: chylomicrons,
 very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL) and high-density lipoprotein
@@ -318,9 +319,9 @@ when it builds up (lipoprotein handling: see the
 every cell membrane, the carrier for the fat-soluble vitamins (A, D, E, K), and the source of the
 essential fatty acids.
 
-**From plate to cell.** Fat has to be coaxed into mixing with water: bile salts from the
-liver emulsify it into tiny droplets, and pancreatic lipase frees fatty acids and
-monoglycerides, which micelles ferry to the gut lining for absorption. Inside the intestinal cells
+**From plate to cell.** Fat does not mix with water, so it is emulsified first: bile salts from
+the liver break it into tiny droplets, and pancreatic lipase frees fatty acids and
+monoglycerides, which micelles carry to the gut lining for absorption. Inside the intestinal cells
 these products are re-assembled into triglycerides and packaged into chylomicrons, which enter the
 lymphatics (not the portal vein) before reaching the blood. (Bile and micelles: see the
 [*Digestion & Absorption*](digestion-absorption.qmd) chapter; lipoprotein transport and fat
@@ -360,7 +361,7 @@ is fat quality, and the replacement nutrient matters. Where saturated fat sits w
 replace it with unsaturated fat and whole foods.
 :::
 
-### Seeing the difference: *cis*, *trans* and saturated {#sec-cis-trans}
+### Fatty-acid geometry: *cis*, *trans* and saturated {#sec-cis-trans}
 
 Oleic acid (olive oil) and elaidic acid (the classic industrial *trans* fat) contain the same atoms
 and differ only in the geometry of one double bond. Start with the 2D formula, then rotate the 3D
@@ -451,8 +452,8 @@ The two real structures below show the last two levels: myoglobin is a single fo
 
 <div data-island="protein" data-src="/structures/proteins.protein.yml"></div>
 
-**What it does.** Protein is the body's building and working material: structure (muscle,
-collagen, skin), enzymes, antibodies, and transport and signalling molecules. Individual amino
+**What it does.** Protein has structural and functional roles: it forms muscle, collagen and
+skin, and it makes up enzymes, antibodies, and transport and signalling molecules. Individual amino
 acids are also the precursors of other nitrogen-containing molecules, including several
 neurotransmitters (such as serotonin and dopamine) and hormones (adrenaline, thyroid hormone).
 Unlike carbohydrate and fat, protein is not primarily an energy store: the body keeps only a small
@@ -479,7 +480,7 @@ FAO-preferred successor, the Digestible Indispensable Amino Acid Score (DIAAS) [
 Animal proteins are typically **complete** (not short of any essential amino acid). Most single
 plant proteins are lower in one essential amino acid (cereals in lysine, legumes in methionine), so
 **complementary** pairings such as rice and *dhal* cover each other's gaps across the day. Plant
-proteins also arrive as a package deal with fibre and unsaturated fat.
+protein foods also supply fibre and unsaturated fat.
 
 ![Tofu, a plant protein that also brings unsaturated fat, with no cholesterol. Photo: yearofeats, CC BY 2.0.](/figures/food/tofu.jpg){#fig-tofu fig-alt="Cubes of fresh tofu." width="320" .lightbox}
 
@@ -538,6 +539,15 @@ from fried food. This is why guidelines advise eating patterns (wholegrains, pla
 fats; little added sugar, *trans* fat, sodium and ultra-processed food) instead of one ideal ratio.
 :::
 
+## Are carbs bad? {#sec-close}
+
+The question has no single answer until it becomes *which carbohydrate, from what food?* A sugary
+drink with a plate of white rice, and a bowl of brown rice with vegetables and fish, are both
+"carbs", and they are not remotely the same for health. In clinic, the task is to give quality
+guidance ("more wholegrains, fewer free sugars, better fat"), anchor it to My Healthy Plate, and
+refer to a dietitian when a patient wants a restrictive or therapeutic diet [@ada2026standards].
+Prescribing grams is not the task at this stage [@crowley2019].
+
 ## The Singapore picture {#sec-singapore}
 
 My Healthy Plate ("quarter, quarter, half": ¼ wholegrains, ¼ protein, ½ fruit and vegetables)
@@ -547,17 +557,8 @@ tools for the advice above (both introduced in the
 2022 shows the gap they address: only about 4% of the staples eaten are wholegrain, against a
 recommendation of about 30%; saturated fat makes up a large share of fat intake; and most residents
 exceed the sodium target [@mohNNS2022]. The gap between what the science recommends and what the
-population actually eats is where a brown-rice swap, a less oily order and a plainer drink earn
-their keep.
-
-## Are carbs bad? {#sec-close}
-
-The question has no single answer until it becomes *which carbohydrate, from what food?* A sugary
-drink with a plate of white rice, and a bowl of brown rice with vegetables and fish, are both
-"carbs", and they are not remotely the same for health. In clinic, the task is to give quality
-guidance ("more wholegrains, fewer free sugars, better fat"), anchor it to My Healthy Plate, and
-refer to a dietitian when a patient wants a restrictive or therapeutic diet [@ada2026standards].
-Prescribing grams is not the task at this stage [@crowley2019].
+population actually eats is where a brown-rice swap, a less oily order and a plainer drink make a
+difference.
 
 ## Check your understanding {#sec-quiz}
 

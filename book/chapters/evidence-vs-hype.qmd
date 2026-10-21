@@ -6,7 +6,7 @@
 
 ::: {.callout-note}
 ## Learning objectives
-- Apply the four questions of the appraisal funnel to a nutrition claim and state a proportionate
+- Apply the four questions of critical appraisal to a nutrition claim and state a proportionate
   verdict.
 - Explain why well-conducted prospective cohort studies carry more weight in nutrition than in drug
   research.
@@ -23,11 +23,11 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [The appraisal method](#sec-appraisal)
-  - [The appraisal funnel](#sec-funnel): four questions, one verdict
-  - [Why nutrition bends the hierarchy](#sec-hierarchy): why cohorts count for more
-  - [The traps that turn data into hype](#sec-traps): predictable failure points
-- [Applying the funnel](#sec-applying)
+- [Critical appraisal](#sec-appraisal)
+  - [Four questions of critical appraisal](#sec-funnel): one verdict per claim
+  - [The hierarchy of evidence in nutrition](#sec-hierarchy): why cohorts count for more
+  - [Common errors in interpreting evidence](#sec-traps): predictable failure points
+- [Applying critical appraisal](#sec-applying)
   - [Everyday questions](#sec-everyday): five common claims
   - [Supplements: indicated, not indicated, or harmful](#sec-supplements): whether one is needed at all
   - [Do detox products remove toxins?](#sec-detox): the liver and kidneys already clear them
@@ -43,11 +43,12 @@ The common trap is to swing between two failures: swallowing whatever is trendin
 reflexively cynical and dismissing everything new. Appraisal is calibration: a fixed routine that
 lands a proportionate verdict.
 
-## The appraisal method {#sec-appraisal}
+## Critical appraisal {#sec-appraisal}
 
-### The appraisal funnel {#sec-funnel}
+### Four questions of critical appraisal {#sec-funnel}
 
-The appraisal funnel asks the same four questions of every claim. Its second question places the
+Critical appraisal asks the same four questions of every claim (the "appraisal funnel" of the
+interactive below). Its second question places the
 study by its design, and its third turns on what was measured and how the change is expressed. Six
 terms name these ideas:
 
@@ -77,7 +78,7 @@ The four questions are:
    study.)
 2. Judge the design. Where does it sit: a case report, a survey, a cohort study, a randomised trial or
    a review? A higher design is not automatically better (see
-   [Why nutrition bends the hierarchy](#sec-hierarchy)), but the verdict depends on knowing where the
+   [The hierarchy of evidence in nutrition](#sec-hierarchy)), but the verdict depends on knowing where the
    study sits.
 3. Read the outcome. Did it measure a hard endpoint (heart attacks) or a surrogate (a blood marker)?
    Is the change relative ("30% lower") or absolute? And did the result survive replication, or was
@@ -85,11 +86,11 @@ The four questions are:
 4. Check it applies. Who was studied, and are they like your patient?
 
 Then commit to a verdict: proven, plausible but unproven, weak association, disproven, retracted or
-harmful. Run a few real claims through the funnel below to see how differently they land.
+harmful. Run a few real claims through the four questions below to see how differently they land.
 
 <div data-island="claim-analyzer" data-src="/diagrams/claim-analyzer.yml"></div>
 
-### Why nutrition bends the hierarchy {#sec-hierarchy}
+### The hierarchy of evidence in nutrition {#sec-hierarchy}
 
 ::: {.spectrum}
 [Single studies, as usually ranked for a drug question]{.tree-title}
@@ -104,7 +105,7 @@ harmful. Run a few real claims through the funnel below to see how differently t
 
 In drug research the RCT sits at the top. **Observational studies** (which record what people
 already do, without assigning a treatment; a prospective cohort study is one) are, by contrast,
-treated with suspicion. Nutrition bends that ranking for three reasons:
+treated with suspicion. Nutrition research departs from that ranking for three reasons:
 
 - With a diet, **blinding** (keeping participants unaware of which treatment they receive) is often
   impossible, because people know what they are eating.
@@ -115,7 +116,7 @@ Well-conducted prospective cohort studies therefore legitimately carry more weig
 would for a pill [@johnston2019ebnutrition]. Over-applying drug-trial standards throws away good dietary evidence,
 which is why "there's no RCT, so it's worthless" is usually the wrong reflex in nutrition.
 
-### The traps that turn data into hype {#sec-traps}
+### Common errors in interpreting evidence {#sec-traps}
 
 Most overstated nutrition claims fail at one of a few predictable points:
 
@@ -136,7 +137,7 @@ Most overstated nutrition claims fail at one of a few predictable points:
 ::: {.callout-note}
 ## Re-appraising PREDIMED and DASH
 PREDIMED and DASH appeared, with their caveats, in the
-[*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter; run through the funnel,
+[*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter; run through the four questions,
 they yield exactly those caveats. PREDIMED's "~30%" is a relative risk reduction on a
 stroke-dominated **composite endpoint** (several outcomes counted together as one result), from a
 trial retracted and republished in 2018 [@estruch2018predimed]. DASH's ~5.5/3.0 mmHg came from a
@@ -161,23 +162,23 @@ non-drinkers in many other health-related ways (healthy-user bias), and people w
 reassuring for people who already drink coffee, but they do not show that starting would help.
 :::
 
-## Applying the funnel {#sec-applying}
+## Applying critical appraisal {#sec-applying}
 
 ### Everyday questions {#sec-everyday}
 
-The funnel turns "is X good or bad?" into an answerable question. Five claims that come up often land
+Critical appraisal turns "is X good or bad?" into an answerable question. Five claims that come up often land
 very differently once traced to their evidence:
 
 | Everyday claim | What the evidence shows | Verdict and takeaway |
 |---|---|---|
 | "Cutting out dairy clears acne." | Observational only (there are no randomised trials on dairy and acne): a weak association, strongest for skimmed milk, with a plausible hormonal mechanism (see the box below) [@juhl2018dairyacne]. The stronger acne signal, and the only one tested in trials, is high glycaemic load [@meixiong2022dietacne] | Real but weak. A lower-sugar trial is reasonable; a strict elimination diet is not, because both editions of the American Academy of Dermatology guidelines find insufficient evidence to recommend cutting any food to treat acne [@aad2016acne; @aad2024acne] |
 | "Coffee protects your heart." | A large umbrella review (a review of many earlier reviews) links 3–4 cups a day with the lowest mortality [@poole2017coffee], but the evidence is observational | Reassuring for drinkers; not a reason to start |
-| "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven: the "sugar high" is parental expectancy [@wolraich1994sugar] | Excess sugar is still unhealthy, just not a behaviour switch |
+| "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven: the "sugar high" is parental expectancy [@wolraich1994sugar] | Excess sugar is still unhealthy, just not a cause of hyperactivity |
 | "Go gluten-free to feel better." | Without coeliac disease, there is no evidence of benefit, and it can worsen diet quality and raise cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
 | "Apple cider vinegar melts fat." | The headline 2024 trial was retracted in 2025 when its analyses could not be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside ordinary care [@acvGlycaemia; @acvBodyComp] | A clear "did the study survive?" case |
 
 ::: {.callout-note}
-## 🔬 Food science: the pathway under the acne signal
+## 🔬 Food science: insulin, IGF-1 and acne
 A high glycaemic load and dairy reach the skin through one shared hormonal pathway. Four terms
 describe it:
 
@@ -198,9 +199,9 @@ A high glycaemic load (see the [*Macronutrients*](macronutrients.qmd) chapter) d
 of insulin after a meal; dairy, separately, raises IGF-1, through both its amino acids and its own
 insulin-raising effect. Insulin and IGF-1 together raise androgen activity and switch on mTORC1 in the
 skin; the result is more sebum from the sebaceous glands and a follicle lining that over-keratinises
-(builds up excess keratin), the two changes that seed a blocked pore [@melnik2015acne]. Because a high
-glycaemic load and dairy converge on this insulin/IGF-1/androgen axis, the broad glycaemic-load lever,
-which the trials tested, is more useful advice than singling out milk.
+(builds up excess keratin), the two changes that lead to a blocked pore [@melnik2015acne]. Because a high
+glycaemic load and dairy converge on this insulin/IGF-1/androgen axis, the broader advice to lower
+glycaemic load, which the trials tested, is more useful than singling out milk.
 :::
 
 ### Supplements: indicated, not indicated, or harmful {#sec-supplements}
@@ -216,22 +217,22 @@ three groups:
 
 ### Do detox products remove toxins? {#sec-detox}
 
-"Detox" products, such as juice cleanses and detox teas, rest on the belief that the body needs help
-to clear toxins, a claim that misreads its physiology. The body already runs a continuous
-detoxification system (see the
+"Detox" products, such as juice cleanses and detox teas, rest on the belief that toxins need outside
+help to be cleared, a claim that misreads normal physiology. Detoxification is already continuous
+(see the
 [*Digestion & Absorption*](digestion-absorption.qmd#sec-digestion-beliefs) chapter). The liver
 carries out **biotransformation**, chemically converting drugs, hormones and metabolic waste into
 water-soluble forms in two stages (Phase I and Phase II). The kidneys then filter those products from
 the blood and excrete them in urine, every hour of every day.
 
-A juice cleanse or detox tea adds nothing to that machinery: a critical review found no clinical
+A juice cleanse or detox tea adds nothing to that hepatic and renal clearance: a critical review found no clinical
 trials and no evidence that commercial detox diets remove any toxin, and what visible effect they have
 comes from water and bowel loss [@klein2015detox].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: dairy and a high glycaemic load are both linked to acne. Why is cutting back on sugary, refined foods better advice than cutting out milk?
 Both act through the same pathway: insulin and IGF-1 raise androgen activity and switch on mTORC1 in
-the skin, which increases sebum and seeds blocked pores. The dairy evidence is observational only,
+the skin, which increases sebum and leads to blocked pores. The dairy evidence is observational only,
 whereas high glycaemic load is the stronger signal and the only one tested in trials. Because the
 trial evidence favours glycaemic load, a lower-sugar trial is reasonable; because guidelines find
 insufficient evidence to recommend cutting any food, a strict elimination diet is not.
@@ -239,22 +240,12 @@ insufficient evidence to recommend cutting any food, a strict elimination diet i
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient asks whether a juice cleanse will clear the toxins from her body. What do you tell her, and why?
-The body already clears toxins continuously: the liver converts drugs, hormones and metabolic waste
+Toxins are already cleared continuously: the liver converts drugs, hormones and metabolic waste
 into water-soluble forms, and the kidneys excrete them in urine. A cleanse adds nothing to that
-machinery; a critical review found no evidence that commercial detox diets remove any toxin, and their
+clearance; a critical review found no evidence that commercial detox diets remove any toxin, and their
 visible effect comes from water and bowel loss. The advice is a sustainable eating pattern, not a
 product.
 :::
-
-## The Singapore picture {#sec-singapore}
-
-Singapore's health authorities counter these claims directly. HealthHub states plainly that
-supplements "cannot and should not replace a balanced diet" and that detox claims are
-unevidenced; the Health Sciences Authority notifies supplements rather than approving them for
-efficacy, and regularly finds illegally adulterated products containing undeclared or banned drugs
-[@hpbHealthSupplements]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
-Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
-[@hpbHealthyPlate].
 
 ## What separates signal from hype? {#sec-close}
 
@@ -264,6 +255,16 @@ clinician's task is to tell which claims carry a signal, and to keep a patient f
 balanced diet for a product or a restriction. Where a claim shades into a restrictive diet or a
 possible eating disorder, the conversation becomes one about doing no harm (see the
 [*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd#sec-do-no-harm) chapter).
+
+## The Singapore picture {#sec-singapore}
+
+Singapore's health authorities counter supplement and detox claims directly. HealthHub states plainly that
+supplements "cannot and should not replace a balanced diet" and that detox claims are
+unevidenced; the Health Sciences Authority notifies supplements rather than approving them for
+efficacy, and regularly finds illegally adulterated products containing undeclared or banned drugs
+[@hpbHealthSupplements]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
+Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
+[@hpbHealthyPlate].
 
 ## Check your understanding {#sec-quiz}
 

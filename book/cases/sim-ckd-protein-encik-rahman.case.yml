@@ -1,14 +1,14 @@
 # Chat-forward simulated-patient case for the Integrated cases chapter.
 # Grounded in *Chronic Kidney Disease*: the central skill is the referral boundary.
-# Do-no-harm traps — near-total DIY protein restriction (wasting), star fruit/belimbing
+# Do-no-harm hazards — near-total DIY protein restriction (wasting), star fruit/belimbing
 # (neurotoxic, absolute avoid), and a "low-sodium" potassium salt substitute
-# (hyperkalaemia). The one safely reinforceable lever is ordinary salt; the rest is the
-# renal dietitian's to individualise. Recognise the levers, refer, don't prescribe.
+# (hyperkalaemia). The one change safe to reinforce is cutting ordinary salt; the rest is the
+# renal dietitian's to individualise. Recognise the five components, refer, don't prescribe.
 id: sim-ckd-protein-encik-rahman
 title: "Simulated patient: Encik Rahman (early kidney disease)"
 objectives:
   - "Correct the 'avoid protein' belief: near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian. Reassure without prescribing a number."
-  - "Reinforce the one safe general lever (cutting ordinary salt) and catch the two do-no-harm traps: star fruit/belimbing is an absolute avoid in kidney disease, and a 'low-sodium' potassium salt substitute can be dangerous here."
+  - "Reinforce the one safe general change (cutting ordinary salt) and catch the two do-no-harm hazards: star fruit/belimbing is an absolute avoid in kidney disease, and a 'low-sodium' potassium salt substitute can be dangerous here."
   - "Recognise that kidney disease with diabetes is beyond general healthy-eating advice and refer to a renal dietitian, rather than issuing DIY potassium or protein limits."
 difficulty: core
 estimatedMinutes: 10
@@ -40,9 +40,9 @@ nodes:
   - id: talk-to-encik-rahman
     type: patient-chat
     scenarioId: ckd-encik-rahman
-    objective: "Undo the 'avoid protein' belief (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist lever (cutting ordinary salt) while catching the two do-no-harm traps: stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous high potassium, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
+    objective: "Undo the 'avoid protein' belief (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist change (cutting ordinary salt) while catching the two do-no-harm hazards: stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous high potassium, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
     turnLimit: 8
-    exitWhen: "The student has corrected the over-restriction of protein, caught the star-fruit and salt-substitute traps, reinforced ordinary salt reduction, and flagged a renal dietitian referral, or the turn limit is reached."
+    exitWhen: "The student has corrected the over-restriction of protein, caught the star-fruit and salt-substitute hazards, reinforced ordinary salt reduction, and flagged a renal dietitian referral, or the turn limit is reached."
     opener: "Doctor, they say my kidneys not so good now. So I must stop eating meat and fish completely, is it? I already almost stop."
     brief: |
       You are Encik Rahman, 58, a security officer in Singapore. You have had diabetes
@@ -79,16 +79,16 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Undo the traps, reinforce salt, and refer"
+    title: "Stop the hazards, reinforce salt, and refer"
     body: |
       You reassured him that cutting protein to nothing is harmful, caught the two
-      dangerous habits, reinforced the one lever that is safe to push, and recognised
+      dangerous habits, reinforced the one change that is safe to push, and recognised
       that the individualised plan belongs with a renal dietitian.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "'Avoid protein' is a harmful instinct here: near-total restriction risks protein-energy wasting and muscle loss. Protein targets in kidney disease are modest, stage-specific and dietitian-set, so reassure him and don't prescribe a number yourself."
-        - "Catch the do-no-harm traps: star fruit and belimbing are an absolute avoid in kidney disease (they carry a neurotoxin that failing kidneys cannot clear), and a 'low-sodium' potassium salt substitute can cause dangerous hyperkalaemia, especially with his kidney-protection blood-pressure pill. Cutting ordinary salt is the one lever safe to reinforce."
+        - "Catch the do-no-harm hazards: star fruit and belimbing are an absolute avoid in kidney disease (they carry a neurotoxin that failing kidneys cannot clear), and a 'low-sodium' potassium salt substitute can cause dangerous hyperkalaemia, especially with his kidney-protection blood-pressure pill. Cutting ordinary salt is the one change safe to reinforce."
         - "Kidney disease with diabetes is beyond general healthy eating: refer to a renal dietitian (the National Kidney Foundation runs the education a referral plugs into); do not hand out potassium or protein amounts yourself."
 
   - id: end-partial
@@ -96,11 +96,11 @@ nodes:
     outcome: partial
     title: "Most of the way"
     body: |
-      You engaged him but left a trap standing or slipped into prescribing amounts.
+      You engaged him but left a hazard standing or slipped into prescribing amounts.
       Replay: reassure him off the near-total protein restriction, stop the star fruit
       and the salt substitute, reinforce ordinary salt, and refer to a renal dietitian.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Reassure him that cutting out protein completely is harmful; the individualised amount is the dietitian's job, not a DIY restriction."
-        - "Do not miss the traps: stop the star-fruit juice and the potassium salt substitute, reinforce ordinary salt reduction, and refer to a renal dietitian."
+        - "Do not miss the hazards: stop the star-fruit juice and the potassium salt substitute, reinforce ordinary salt reduction, and refer to a renal dietitian."
