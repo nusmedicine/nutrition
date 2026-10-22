@@ -51,7 +51,7 @@ nodes:
       - id: c
         text: "\"Start with fruit purée, since babies like sweet tastes and it's gentle.\""
         correct: false
-        feedback: "His iron stores are depleting, so first foods should be iron-rich; fruit purée misses that point and also nudges a sweet preference."
+        feedback: "His iron stores are depleting, so first foods should be iron-rich; fruit purée supplies little iron and also nudges a sweet preference."
         goto: q-allergen
 
   - id: q-allergen

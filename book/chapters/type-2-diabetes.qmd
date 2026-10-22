@@ -90,7 +90,7 @@ remission (see [Remission](#sec-t2d-remission)).
 
 Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter). Each person has
 a **personal fat threshold**, the individual level of body fat beyond which diabetes develops. An Asian
-patient can therefore cross it at a lower weight than Western cut-offs assume [@taylor2023pft].
+patient can therefore cross it at a BMI below the Western cut-offs [@taylor2023pft].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has had insulin resistance for years, yet his blood glucose was normal until recently. Why?
@@ -114,7 +114,7 @@ it and can restore β-cell function, which is the basis of remission in early di
 
 Cutting or skipping carbohydrate, or fasting, is only safe once you know the patient's medication,
 because a few glucose-lowering drug classes can cause dangerous hypoglycaemia. The first step, every
-time, is therefore to identify the drug class and the action it demands [@ada2026glycemic;
+time, is therefore to identify the drug class and the action that follows from it [@ada2026glycemic;
 @aceT2DM2023]:
 
 | Hypoglycaemia risk | Drug classes | Action before cutting carbohydrate |
@@ -267,7 +267,7 @@ exists [@khoo2026sgDSF].
 
 ### Preventing diabetes: structured lifestyle programmes {#sec-t2d-prevention}
 
-Prevention acts before diagnosis, and how it is delivered decides whether it works. In the
+Prevention acts before diagnosis, and how it is delivered determines whether it works. In the
 Diabetes Prevention Program, an intensive, structured lifestyle programme cut progression from
 prediabetes to diabetes by 58% relative to placebo (from about 11 to about 5 new cases per 100 people a
 year), outperforming metformin (31%, about 8 per 100) [@dpp2002]. The benefit persists for
@@ -287,7 +287,7 @@ behaviour-change techniques).
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why should remission programmes in Singapore use ethnicity-adjusted entry criteria instead of DiRECT's Western BMI band?
 Asians carry more fat at a given BMI, so they can cross their personal fat threshold into diabetes at
-a lower weight than Western cut-offs assume. A BMI band set on Western populations therefore misjudges
+a BMI below the Western cut-offs. A BMI band set on Western populations therefore underestimates
 how much body fat an Asian patient carries at a given weight. Singapore's expert-consensus framework
 uses ethnicity-adjusted thresholds.
 :::

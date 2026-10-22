@@ -1,7 +1,7 @@
 # Obesity & metabolic syndrome
 
 > *Obesity and the metabolic syndrome result from biology and environment together, and a normal BMI can
-> still hide harmful visceral fat. We cover how weight status and the metabolic syndrome are defined, how
+> still coexist with harmful visceral fat. We cover how weight status and the metabolic syndrome are defined, how
 > excess fat produces the cluster of risks, lifestyle-first dietary management delivered without stigma,
 > and when to refer.*
 
@@ -61,7 +61,7 @@ hypothalamus set appetite) is in the [*Energy balance*](energy-balance.qmd) and
 #### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
 
 BMI (weight ÷ height², introduced in the [*Energy balance*](energy-balance.qmd#sec-measuring)
-chapter) is a screening proxy, not a measurement of fat. It cannot separate muscle from fat or say
+chapter) is a screening proxy, not a measurement of fat. It does not distinguish muscle from fat or show
 where the fat sits. That limitation matters in Singapore, because Singaporean adults carry more body
 fat, and proportionally more visceral fat, at a given BMI than the Western populations on which the
 WHO cut-offs were built.
@@ -193,7 +193,7 @@ intervention, not a test of willpower.
 
 At the level of physics, weight gain is a chronic positive energy balance: small daily surpluses
 accumulated over years (see the [*Energy balance*](energy-balance.qmd) chapter). "Eat less, move
-more" is weak clinical advice on its own, however, because it treats every calorie as equal, and what
+more" is weak clinical advice on its own, however, because it addresses only the number of calories, not their source, and what
 is eaten shapes how much gets eaten. Two dietary factors are the main contributors.
 
 **Ultra-processed foods drive overeating even when the nutrients are matched.** The evidence comes
@@ -319,7 +319,7 @@ such as blame, shaming or disrespect. Weight stigma is a health hazard [@tomiyam
 - by raising cortisol and comfort-eating, it is thought to promote weight gain paradoxically, the loop proposed
   by the Cyclic Obesity/Weight-Based Stigma (COBWEBS) model.
 
-International consensus now condemns weight stigma outright and asks clinicians to switch focus from
+An international consensus of experts now condemns weight stigma outright and asks clinicians to switch focus from
 the scale to health and behaviour [@rubino2020consensus; @tylka2014weightinclusive;
 @batterham2020switchingfocus]. Care built on that shift is **weight-inclusive**: it bases counselling on
 health behaviours and metabolic markers instead of on the scale alone. Weight stigma is a live issue

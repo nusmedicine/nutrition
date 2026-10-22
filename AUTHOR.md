@@ -682,6 +682,19 @@ the arithmetic quietly turns against them, the hormone story, the youth deposit 
 lives, a slow-motion emergency, lands a verdict*), and no slogan closers (*X beats Y*, *a head start, not a
 shrug*). If a sentence would sound odd said aloud by a consultant to a student, rewrite it literally.
 
+**Anthropomorphism (2026-10-22 sweep, ~135 fixes).** Do not give a mental act, intention, emotion or moral
+quality to something that cannot have one: an idea, slogan, advice, diet, food, nutrient, drug, test, index,
+cut-off, label, guideline, figure, the body or an organ. Not *"just try harder" misreads the biology*, *the
+label says nothing*, *lactation asks only a little more*, *the cut-offs assume*, *the test misleads*, *the
+gut pours out fluid while SGLT1 keeps working*, *fat that refuses to budge*. Make a person the subject
+("telling a patient to 'try harder' ignores…"), or state the mechanism or property ("the label gives no
+information on…", "lactation needs only a little more energy", "the cut-offs were set on Western
+populations"). Standard scientific usage stays: *the study found, data show, guidelines recommend, the AHA
+advises*, receptor and signalling verbs (*binds, signals, senses* for a sensor cell), *insulin resistance*,
+*the reward system*, *drug or immune tolerance*, and the defined term **defended range**. Glosses: hydrophilic
+= "water-attracting", hydrophobic = "water-repelling" (not "water-loving/-hating"); butyrate is the
+colonocytes' "main fuel".
+
 **Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
 Interestingly, Ultimately, Overall, In summary, In conclusion, It is important to note, It is worth noting*.
 

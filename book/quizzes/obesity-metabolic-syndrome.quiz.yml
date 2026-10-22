@@ -63,7 +63,7 @@ questions:
         feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
       - text: "The fix is more willpower, since the cause is a failure of discipline"
         correct: false
-        feedback: "Calling this a failure of discipline misframes an underlying cause as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging ignores the mechanism and can be stigmatising."
+        feedback: "Calling this a failure of discipline misframes an underlying cause as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging leaves out the mechanism and can be stigmatising."
 
   - id: q5
     stem: "Your patient, a man with a BMI of 28 kg/m², has tried diet changes with limited success and asks about weight-loss drugs and surgery. What is the right response at this stage?"

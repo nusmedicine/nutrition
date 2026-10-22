@@ -114,7 +114,7 @@ nodes:
       - id: b
         text: "\"Yes, PREDIMED proves it, so the Mediterranean diet will prevent your heart attack.\""
         correct: false
-        feedback: "This overclaims on every axis: it treats a relative reduction as an absolute guarantee, a stroke-dominated composite as 'heart attacks prevented', and ignores that the trial was retracted and re-published. Never quote a benefit without its caveat."
+        feedback: "This overclaims on every axis: it treats a relative reduction as an absolute guarantee, a stroke-dominated composite as 'heart attacks prevented', and leaves out that the trial was retracted and re-published. Never quote a benefit without its caveat."
         goto: route
       - id: c
         text: "\"PREDIMED was retracted, so ignore it: the Mediterranean diet is useless.\""

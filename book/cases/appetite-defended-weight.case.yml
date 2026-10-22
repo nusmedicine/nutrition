@@ -42,7 +42,7 @@ nodes:
       - id: b
         text: "He simply lacks the discipline to maintain the diet."
         correct: false
-        feedback: "Blaming discipline misses what happened: the weight loss triggered a coordinated biological response, and discipline alone is fighting physiology."
+        feedback: "Blaming discipline misses what happened: the weight loss triggered a coordinated biological response, and relying on discipline alone means working against physiology."
         goto: q-arms
       - id: c
         text: "The weight he lost was only water, so it came back on its own."
@@ -105,7 +105,7 @@ nodes:
       - id: b
         text: "Tell him he just needs to try harder and show more willpower next time."
         correct: false
-        feedback: "Urging more willpower ignores the physiology and reinforces the stigma; willpower alone is fighting body-weight regulation."
+        feedback: "Urging more willpower leaves out the physiology and reinforces the stigma; a patient relying on willpower alone is working against body-weight regulation."
         goto: route
       - id: c
         text: "Tell him weight is entirely genetic and nothing he does will matter."

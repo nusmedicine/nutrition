@@ -74,7 +74,7 @@ nodes:
       - id: c
         text: "\"Just buy her supplement drinks and leave it at that.\""
         correct: false
-        feedback: "Food-first fortification of the meals she already eats comes before supplement drinks, and drinks alone miss the main modifiable factor: she eats alone."
+        feedback: "Food-first fortification of the meals she already eats comes before supplement drinks, and drinks alone leave out the main modifiable factor: she eats alone."
         goto: q-b12
 
   - id: q-b12

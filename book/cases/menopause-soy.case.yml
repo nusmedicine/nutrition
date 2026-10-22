@@ -102,7 +102,7 @@ nodes:
       - id: c
         text: "Tell her to stop worrying about weight entirely; it doesn't matter at her age."
         correct: false
-        feedback: "Too dismissive: it ignores the red flags in *how* she's dieting. The concern needs redirecting safely: screen, reassure, and shift to protein, activity and pattern."
+        feedback: "Too dismissive: it leaves the red flags in *how* she's dieting unaddressed. The concern needs redirecting safely: screen, reassure, and shift to protein, activity and pattern."
         reaction: skeptical
         goto: q-lever
 

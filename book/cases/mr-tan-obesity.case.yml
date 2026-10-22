@@ -124,7 +124,7 @@ nodes:
       - id: c
         text: "Tell him it's down to willpower: eat less and stop being lazy."
         correct: false
-        feedback: "This is the do-no-harm trap. Shaming doesn't motivate. It raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment, not a courtesy. 'Eat less' also ignores that diet quality, sleep and stress are the modifiable factors here."
+        feedback: "This is the do-no-harm trap. Shaming doesn't motivate. It raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment, not a courtesy. Telling him to 'eat less' also leaves out diet quality, sleep and stress, the modifiable factors here."
         reaction: concerned
         goto: remedial-donoharm
 

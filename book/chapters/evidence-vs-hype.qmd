@@ -48,9 +48,9 @@ in proportion to the evidence.
 
 ### Four questions of critical appraisal {#sec-funnel}
 
-Critical appraisal asks the same four questions of every claim (the "appraisal funnel" of the
-interactive below). Its second question places the
-study by its design, and its third turns on what was measured and how the change is expressed. Six
+In critical appraisal you ask the same four questions of every claim (the "appraisal funnel" of the
+interactive below). The second question places the
+study by its design, and the third turns on what was measured and how the change is expressed. Six
 terms name these ideas:
 
 Prospective cohort study
@@ -58,7 +58,7 @@ Prospective cohort study
   see who develops disease.
 
 Randomised controlled trial (RCT)
-: A study in which chance decides who receives the treatment and who receives the comparison.
+: A study in which participants are allocated at random to the treatment or the comparison.
 
 Hard endpoint
 : An outcome that matters to the patient directly, such as a heart attack or death.
@@ -125,7 +125,7 @@ Most overstated nutrition claims fail at one of a few predictable points:
   carries a **healthy-user bias**: people who choose one habit tend to differ in many other
   health-related ways. The comparison can also carry **reverse causation**, the outcome changing the
   exposure: people who become ill cut back on coffee. An association is a question, not an answer.
-- A relative risk reduction can hide a small absolute one. "30% lower risk" sounds large, but if the
+- A relative risk reduction can make a small absolute one look large. "30% lower risk" sounds large, but if the
   baseline risk was small, the absolute risk reduction can be tiny. The question is always "30% of
   what?"
 - A surrogate is not a hard endpoint. A diet that lowers a blood marker has not been shown to prevent
@@ -219,7 +219,7 @@ three groups:
 ### Do detox products remove toxins? {#sec-detox}
 
 "Detox" products, such as juice cleanses and detox teas, rest on the belief that toxins need outside
-help to be cleared, a claim that misreads normal physiology. Detoxification is already continuous
+help to be cleared, a claim at odds with normal physiology. Detoxification is already continuous
 (see the
 [*Digestion and absorption*](digestion-absorption.qmd#sec-digestion-beliefs) chapter). The liver
 carries out **biotransformation**, chemically converting drugs, hormones and metabolic waste into

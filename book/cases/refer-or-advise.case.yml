@@ -67,7 +67,7 @@ nodes:
       - id: b
         text: "\"Newly diagnosed diabetic, please advise on diet.\""
         correct: false
-        feedback: "A vague referral wastes a scarce resource and tells the dietitian nothing. Add the diagnoses, key results, medicines, weight trend, goals and urgency."
+        feedback: "A vague referral wastes a scarce resource and gives the dietitian nothing to act on. Add the diagnoses, key results, medicines, weight trend, goals and urgency."
         goto: q-interim
       - id: c
         text: "A full copy of every consultation note from the past five years."

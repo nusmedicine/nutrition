@@ -17,11 +17,11 @@
     id: 'fat-swap',
     title: 'Replaced with what?',
     intro:
-      "You're cutting back on saturated fat (butter, palm oil, fatty meat, coconut milk). What you replace it with decides whether the heart benefits. Pick a replacement and see what happens.",
+      "You're cutting back on saturated fat (butter, palm oil, fatty meat, coconut milk). What you replace it with determines whether the heart benefits. Pick a replacement and see what happens.",
     options: [
-      { id: 'unsaturated-oils', label: 'Unsaturated plant oils', example: 'olive, canola, sunflower oil', effect: 'down', best: true, note: 'Swapping saturated for polyunsaturated fat lowers LDL cholesterol and cuts cardiovascular events — a change roughly the size of a statin. This is the swap the trials reward.' },
+      { id: 'unsaturated-oils', label: 'Unsaturated plant oils', example: 'olive, canola, sunflower oil', effect: 'down', best: true, note: 'Swapping saturated for polyunsaturated fat lowers LDL cholesterol and cuts cardiovascular events — a change roughly the size of a statin. This is the swap the trials support.' },
       { id: 'nuts-seeds-fish', label: 'Nuts, seeds and oily fish', example: 'walnuts, flaxseed, salmon, mackerel', effect: 'down', note: 'Whole-food sources of unsaturated fat lower LDL and events too — and they are the backbone of the Mediterranean pattern. Recommend the oily fish itself, not a fish-oil capsule.' },
-      { id: 'refined-carb', label: 'Refined carbohydrate & sugar', example: 'white bread, sugary drinks, biscuits', effect: 'neutral', note: 'Trade saturated fat for refined starch and sugar and the benefit disappears — LDL is roughly unchanged and it can worsen triglycerides. This is why "saturated fat has been exonerated" headlines mislead: they never said what the fat was replaced with.' },
+      { id: 'refined-carb', label: 'Refined carbohydrate & sugar', example: 'white bread, sugary drinks, biscuits', effect: 'neutral', note: 'Trade saturated fat for refined starch and sugar and the benefit disappears — LDL is roughly unchanged and it can worsen triglycerides. This is why "saturated fat has been exonerated" headlines mislead: they did not report what the fat was replaced with.' },
       { id: 'nothing', label: 'Nothing — just "eat less fat"', example: 'smaller portions, same foods', effect: 'neutral', note: 'Cutting fat without a better replacement does little on its own. LDL and events depend on what replaces the fat, not on how much is cut.' },
     ],
     verdicts: {

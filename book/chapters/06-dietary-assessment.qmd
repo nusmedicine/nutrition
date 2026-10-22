@@ -116,7 +116,7 @@ scoops?"), and you uncover far more than an open "so, how's your diet?" ever wil
 
 A packaged food or drink carries a **Nutrition Information Panel**, the nutrient table quoted per
 serving and per 100 g or 100 ml. Its trap is the serving size. The per-serving figure may describe a
-small or unrealistic serving: a bottle labelled "2.5 servings" hides how much sugar a person drinks
+small or unrealistic serving: on a bottle labelled "2.5 servings", it understates how much sugar a person drinks
 when they finish it in one go. The per-100 g or per-100 ml column is the one to check, because it
 compares products fairly. The ingredient list adds one more signal: it is ordered by weight, so sugar
 near the top, under any of its many names, is a warning. (The policy behind labels and the wider food
@@ -136,7 +136,7 @@ your usual drink, then pick one swap" an authentic local exercise:
 Nutri-Grade works as a nudge, not a verdict. In a randomised trial of the label, shoppers bought
 drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall
 quality of their basket [@nutriGradeRCT2023]. A grade influences one choice; it does not change the whole diet. It
-also grades only drinks, on two nutrients: an "A" drink is not a licence, and Nutri-Grade says nothing
+also grades only drinks, on two nutrients: an "A" drink is not a licence, and Nutri-Grade gives no information
 about solid food.
 
 ::: {.callout-tip}
@@ -162,7 +162,7 @@ everyday comparisons, uncovers what people do not volunteer.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has switched all her drinks to grade A. Why might her diet still need work?
-Nutri-Grade grades only drinks, and only on sugar and saturated fat, so it says nothing about the solid
+Nutri-Grade grades only drinks, and only on sugar and saturated fat, so it gives no information about the solid
 food she eats. In a randomised trial the label moved drink purchases towards less sugar but did not
 improve the overall quality of shoppers' baskets. A grade influences one choice but not the whole diet,
 so the rest of the history still needs reading.
@@ -191,7 +191,7 @@ plain terms, the two or three things worth shifting.
 measurements to the history. BMI classifies weight-for-height (see the
 [*Energy balance*](energy-balance.qmd#sec-measuring) chapter), but its thresholds are not universal.
 Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
-populations than the international thresholds assume [@sgObesityBMI]:
+populations than the international thresholds imply [@sgObesityBMI]:
 
 | Category | Asian cut-off, used in Singapore | International cut-off |
 |---|---|---|
@@ -199,7 +199,7 @@ populations than the international thresholds assume [@sgObesityBMI]:
 | Obese | BMI ≥27.5 kg/m² | BMI ≥30 kg/m² |
 
 A waist circumference of ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI]. BMI is
-a screen, not a verdict: it misses body composition (a muscular person, or an older person who has
+a screen, not a verdict: it does not capture body composition (a muscular person, or an older person who has
 lost muscle), so it is read alongside the history, not instead of it.
 
 Malnutrition covers excess (overnutrition) as well as deficit (undernutrition), the two tails of the

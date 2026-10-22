@@ -50,7 +50,7 @@ nodes:
       - id: c
         text: "Reassure her that nothing really works, so she should not worry about it."
         correct: false
-        feedback: "Vascular risk management does help, so fatalism misses the actionable risk factors."
+        feedback: "Vascular risk management does help, so a fatalistic answer leaves out the actionable risk factors."
         goto: q-diet
     next: q-diet
 

@@ -10,7 +10,7 @@
 - Explain how a deficit of energy, protein or micronutrients leads, through loss of muscle, to weakness,
   poor healing and higher mortality.
 - Distinguish starvation-related, chronic disease-related and acute disease- or injury-related
-  malnutrition by their degree of inflammation, and explain why disease-related malnutrition resists
+  malnutrition by their degree of inflammation, and explain why disease-related malnutrition is hard to reverse with
   feeding alone.
 - Explain why a normal or high BMI excludes neither malnutrition nor sarcopenia.
 - Identify the patients to screen, and interpret a positive MUST screen as a risk flag that triggers
@@ -62,7 +62,7 @@ tissue, not a designed store (see the fasted and starved states in the
 [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation) chapter, and body composition in the
 *Energy balance* chapter).
 
-![Malnutrition is a causal chain, not a body size. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories sit on an inflammation gradient, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition resists feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
+![Malnutrition is a causal chain, not a body size. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories sit on an inflammation gradient, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition is hard to reverse with feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
 
 Inflammation is the basis of the classification by cause, and it explains why some malnutrition responds
 poorly to feeding alone. Three types are distinguished by how much inflammation is present
@@ -80,7 +80,7 @@ Acute disease- or injury-related malnutrition
 
 Inflammation drives catabolism and blunts appetite (for how appetite is regulated, see the *Appetite and
 weight regulation* chapter). **Disease-related malnutrition**, the chronic and acute types together,
-therefore resists feeding alone: extra feeding cannot simply outpace inflammation-driven catabolism, and
+therefore is hard to reverse with feeding alone: extra feeding cannot simply outpace inflammation-driven catabolism, and
 the underlying disease has to be treated too.
 
 ::: {.example}

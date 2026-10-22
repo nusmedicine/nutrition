@@ -41,7 +41,7 @@ nodes:
       - id: a
         text: "Living alone, recent bereavement, eating alone and losing weight."
         correct: true
-        feedback: "Living alone, bereavement, eating alone and unintentional weight loss are the social and clinical risk factors that mark someone out for screening. Living *with* family isn't the same as sharing a meal, and low mood after a loss suppresses appetite. Knowing she's in an at-risk group raises the pre-test probability and tells you to screen instead of waiting for her to look starved."
+        feedback: "Living alone, bereavement, eating alone and unintentional weight loss are the social and clinical risk factors that mark someone out for screening. Living *with* family isn't the same as sharing a meal, and low mood after a loss suppresses appetite. Knowing she's in an at-risk group raises the pre-test probability and is your cue to screen instead of waiting for her to look starved."
         effects: { quality: +1 }
         goto: reveal-suspect
       - id: b

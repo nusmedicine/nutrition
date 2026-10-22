@@ -92,7 +92,7 @@ nodes:
       - id: a
         text: "Because short sleep and stress can keep pushing his intake up."
         correct: true
-        feedback: "The pillars interact: short sleep raises his appetite, and work stress is thought to drive comfort eating, so diet advice alone struggles while those two keep pushing intake up."
+        feedback: "The pillars interact: short sleep raises his appetite, and work stress is thought to drive comfort eating, so diet advice alone has limited effect while those two keep pushing intake up."
         effects: { quality: +1 }
         goto: setup-plans
       - id: b

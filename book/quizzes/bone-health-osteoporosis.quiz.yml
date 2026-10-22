@@ -175,7 +175,7 @@ questions:
         feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug; diet is an adjunct, not a substitute."
       - text: "It's your own fault for eating too much; just eat less"
         correct: false
-        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet over-restricts patients while missing the effective treatment: urate-lowering therapy to target."
+        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet leads clinicians to over-restrict patients and overlook the effective treatment: urate-lowering therapy to target."
 
   - id: q12
     stem: "Which pairing correctly matches each condition to its main dietary measure?"

@@ -38,7 +38,7 @@ questions:
         feedback: "Without the baseline (absolute) risk, a relative figure can greatly overstate the real benefit."
       - text: "Whether the advertisement itself is well designed"
         correct: false
-        feedback: "An advertisement's polish says nothing about the evidence; the relative-versus-absolute distinction decides whether the claim matters."
+        feedback: "An advertisement's polish is no guide to the evidence; whether the claim matters depends on the relative-versus-absolute distinction."
 
   - id: q4
     stem: "Time-restricted eating (16:8 fasting) has a genuine circadian rationale. What do the randomised trials show?"

@@ -93,7 +93,7 @@ nodes:
       - id: b
         text: "≈ 1.0"
         correct: false
-        feedback: "A factor of 1.0 would ignore all activity and the thermic effect of food."
+        feedback: "A factor of 1.0 would leave out all activity and the thermic effect of food."
         goto: q-advice
       - id: c
         text: "≈ 2.2"

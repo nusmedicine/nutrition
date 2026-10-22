@@ -25,7 +25,7 @@ questions:
         feedback: "Swapping saturated and trans fat for unsaturated fat lowers LDL cholesterol and cuts events: around 17% fewer, and about 30% (the size of a statin's effect) when saturated fat is specifically replaced with polyunsaturated fat. Fat quality and its replacement are what matter, so always ask 'replaced with what?'"
       - text: "Cutting fat across the board and eating more refined carbohydrate and sugar"
         correct: false
-        feedback: "When saturated fat is replaced with refined carbohydrate and sugar there is no benefit, which is why 'just eat less fat' misses the point."
+        feedback: "When saturated fat is replaced with refined carbohydrate and sugar there is no benefit, which is why the advice 'just eat less fat' leaves out what matters."
       - text: "Keeping fat the same but eating smaller total portions at every meal"
         correct: false
         feedback: "The evidence concerns the type of fat and what replaces it. Smaller portions of the same foods leave the fat quality unchanged."

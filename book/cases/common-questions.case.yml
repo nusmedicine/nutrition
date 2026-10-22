@@ -75,7 +75,7 @@ nodes:
       - id: c
         text: "\"Cholesterol in food doesn't matter at all, so eat as many as you like.\""
         correct: false
-        feedback: "Dietary cholesterol matters less than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras. Moderation, and mind the company they keep."
+        feedback: "Dietary cholesterol matters less than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras. Moderation, and watch what they are eaten with."
         goto: q-fat
 
   - id: q-fat

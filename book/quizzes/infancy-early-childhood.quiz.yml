@@ -51,7 +51,7 @@ questions:
         feedback: "Milk stays valuable well into the second year; the reason is iron-store depletion, so the first foods specifically need to be iron-rich."
       - text: "Start with fruit purée, since babies prefer sweet tastes"
         correct: false
-        feedback: "Fruit purée misses the iron point (and reinforces a sweet preference). First foods should be iron-rich; keep added sugar out."
+        feedback: "Fruit purée supplies little iron (and reinforces a sweet preference). First foods should be iron-rich; keep added sugar out."
 
   - id: q5
     stem: "When can cow's milk become a baby's main drink?"

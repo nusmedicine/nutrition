@@ -42,7 +42,7 @@ nodes:
       - id: b
         text: "Nothing yet; let the alcohol wear off on its own."
         correct: false
-        feedback: "Waiting is risky: confusion and sweating can be a treatable hypoglycaemia hiding behind 'just drunk', so always check the glucose. His reads low."
+        feedback: "Waiting is risky: confusion and sweating can be a treatable hypoglycaemia mistaken for 'just drunk', so always check the glucose. His reads low."
         goto: q-why
       - id: c
         text: "Assume dehydration and give plain water only."

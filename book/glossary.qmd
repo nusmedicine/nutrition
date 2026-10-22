@@ -98,7 +98,7 @@ each term is listed once, under the chapter that teaches it.
 | Coeliac disease | An immune reaction to gluten that damages the lining of the small intestine | *Digestion and absorption* |
 | Cofactor | A non-protein helper that an enzyme needs in order to work; many micronutrients act as cofactors | *Micronutrients, hydration and electrolytes* |
 | Cognitive reserve | The brain's capacity to absorb damage before dementia shows | *Brain health and dementia* |
-| Colonocyte | An epithelial cell lining the colon; its preferred fuel is butyrate | *The gut microbiome* |
+| Colonocyte | An epithelial cell lining the colon; its main fuel is butyrate | *The gut microbiome* |
 | Colostrum | The low-volume, antibody-dense milk of the first days after birth | *Infancy & early childhood* |
 | Complementary foods | Solids given alongside breast milk or formula, from about 6 months | *Infancy & early childhood* |
 | Complementary proteins | Plant proteins with different amino-acid shortfalls (cereals in lysine, legumes in methionine) that cover each other's gaps across the day, as rice and *dhal* do | *Macronutrients* |
@@ -130,11 +130,11 @@ each term is listed once, under the chapter that teaches it.
 | Digestion | Breaking food into pieces small enough to absorb | *Digestion and absorption* |
 | Disaccharidases | Brush-border enzymes (lactase, sucrase, maltase) that split disaccharides into single sugars | *Digestion and absorption* |
 | Disaccharide | Two sugar units joined: sucrose, lactose or maltose | *Macronutrients* |
-| Disease-related malnutrition | The chronic and acute disease-related types together, in which inflammation drives catabolism and blunts appetite, so it resists feeding alone | *Undernutrition & malnutrition* |
+| Disease-related malnutrition | The chronic and acute disease-related types together, in which inflammation drives catabolism and blunts appetite, so it is hard to reverse with feeding alone | *Undernutrition & malnutrition* |
 | Division of responsibility | The feeding principle in which the parent decides what, when and where, and the child decides whether and how much | *Infancy & early childhood* |
 | Docosahexaenoic acid (DHA) | A marine omega-3 fatty acid; in pregnancy it modestly reduces preterm birth | *Pregnancy & lactation* |
 | Doubly labelled water | A harmless isotope tracer, followed over one to two weeks, that measures total energy expenditure in free-living people; the gold standard | *Energy balance* |
-| Dual-allergen hypothesis | The hypothesis that the route of first exposure to a food decides the immune outcome: inflamed, eczematous skin sensitises, whereas meeting the food by mouth first builds tolerance | *Infancy & early childhood* |
+| Dual-allergen hypothesis | The hypothesis that the route of first exposure to a food determines the immune outcome: inflamed, eczematous skin sensitises, whereas meeting the food by mouth first builds tolerance | *Infancy & early childhood* |
 | Duodenum | The first segment of the small intestine, which receives the pancreatic juice and the bile | *Digestion and absorption* |
 | DXA | Dual-energy X-ray absorptiometry: a low-dose X-ray scan that measures fat and lean mass; the accurate clinical and research reference for body composition | *Energy balance* |
 | Dysbiosis | Disruption of the normal microbial community, for example by broad-spectrum antibiotics | *The gut microbiome* |
@@ -160,7 +160,7 @@ each term is listed once, under the chapter that teaches it.
 | Faecal microbiota transplant (FMT) | Transfer of stool from a healthy donor to restore a depleted gut community; proven only for recurrent *C. difficile* infection | *The gut microbiome* |
 | Fat-free (lean) mass | Body mass other than fat; its muscle and organs are metabolically active and mainly determine basal metabolic rate | *Energy balance* |
 | Fat-soluble vitamins | Vitamins A, D, E and K: stored in fat and the liver, so deficiency develops slowly and megadoses can be toxic | *Micronutrients, hydration and electrolytes* |
-| Fatty acid | A hydrocarbon chain (a water-hating tail) capped by a carboxyl group (a water-loving head); the building block of dietary fats | *Macronutrients* |
+| Fatty acid | A hydrocarbon chain (a water-repelling tail) capped by a carboxyl group (a water-attracting head); the building block of dietary fats | *Macronutrients* |
 | Female-athlete triad | The linked trio of low energy availability, menstrual disturbance and impaired bone health | *Childhood & adolescence* |
 | Fermentation | Anaerobic metabolism by bacteria in the colon of food the host's enzymes could not digest | *The gut microbiome* |
 | Fermented food | A food made through desired microbial growth and enzymatic conversions; it need not contain live microbes when eaten | *The gut microbiome* |
@@ -189,7 +189,7 @@ each term is listed once, under the chapter that teaches it.
 | Gastrin | A stomach hormone, released when protein arrives, that increases stomach acid | *Digestion and absorption* |
 | Gelatinisation | The swelling of starch granules during cooking, which makes starch easier to digest | *Macronutrients* |
 | Genitourinary syndrome of menopause | Vaginal dryness and urinary symptoms after menopause; no food or supplement treats it | *Menopause & midlife health* |
-| Gestational diabetes (GDM) | Diabetes that first appears in pregnancy, when the pancreas cannot compensate for the normal insulin resistance of pregnancy; it forecasts later type 2 diabetes | *Pregnancy & lactation* |
+| Gestational diabetes (GDM) | Diabetes that first appears in pregnancy, when the pancreas cannot compensate for the normal insulin resistance of pregnancy; it marks a raised risk of later type 2 diabetes | *Pregnancy & lactation* |
 | Ghrelin | The stomach hormone that drives hunger; it rises before meals, partly entrained to habitual meal times, and falls after eating | *Appetite and weight regulation* |
 | GLIM criteria | The Global Leadership Initiative on Malnutrition's diagnostic rule, applied after a positive screen: at least one phenotypic criterion (weight loss, low BMI, reduced muscle mass) plus at least one aetiological criterion (reduced intake or absorption, or inflammation or disease burden) | *Undernutrition & malnutrition* |
 | GLP-1 receptor agonists | Engineered, long-acting versions of the gut satiety hormone GLP-1 (semaglutide; tirzepatide is a dual GIP/GLP-1 receptor agonist) that amplify satiety signalling; weight returns when they are stopped | *Appetite and weight regulation* |
@@ -352,7 +352,7 @@ each term is listed once, under the chapter that teaches it.
 | Perimenopause | The years of fluctuating ovarian hormones before the final menstrual period | *Menopause & midlife health* |
 | Peristalsis | Travelling waves of muscle contraction that push the bolus forward | *Digestion and absorption* |
 | Person-first language | Language that names the person before the condition ("a person with obesity", not "an obese patient") | *Obesity & metabolic syndrome* |
-| Personal fat threshold | The individual level of body fat beyond which a person develops type 2 diabetes; people of Asian descent can cross it at a lower BMI than Western cut-offs assume | *Type 2 diabetes* |
+| Personal fat threshold | The individual level of body fat beyond which a person develops type 2 diabetes; people of Asian descent can cross it at a BMI below the Western cut-offs | *Type 2 diabetes* |
 | Phosphate additives | Inorganic phosphates used to preserve and improve processed foods; absorbed almost completely and often not on the label | *Chronic kidney disease* |
 | Phosphate binder | A drug taken with meals to manage retained phosphate in CKD; prescribing it is a specialist decision | *Chronic kidney disease* |
 | Phospholipid | A lipid with two fatty acids and a phosphate head on glycerol; amphipathic, it self-assembles into the lipid bilayer of cell membranes | *Macronutrients* |

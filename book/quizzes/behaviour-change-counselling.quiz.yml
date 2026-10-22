@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Reflect both sides and let him voice his own reasons"
         correct: true
-        feedback: "Reflecting both sides (\"the kopi keeps you going, and it sounds like the sugar worries you a bit\") resists the righting reflex and invites change talk, so he argues himself toward change instead of resisting you."
+        feedback: "Reflecting both sides (\"the kopi keeps you going, and it sounds like the sugar worries you a bit\") lets you resist the righting reflex and invites change talk, so he argues himself toward change instead of resisting you."
       - text: "Tell him firmly he must stop the sugar because it's dangerous"
         correct: false
         feedback: "This is the righting reflex, the urge to fix or warn. The warning is accurate, but it provokes resistance and he digs in ('don't tell me what to do')."

@@ -30,7 +30,7 @@ nodes:
 
   - id: q-result
     type: mcq
-    stem: "What can this 'low Bifidobacterium' result actually tell Rachel about her gut health?"
+    stem: "What can this 'low Bifidobacterium' result actually show about Rachel's gut health?"
     options:
       - id: a
         text: "Very little on its own; it isn't a validated measure of gut health in a well person."
@@ -152,7 +152,7 @@ nodes:
     outcome: partial
     title: "Nearly there"
     body: |
-      You worked through it, but the reasoning slipped. The take-home: a microbiome kit tells a well
+      You worked through it, but the reasoning slipped. The take-home: a microbiome kit gives a well
       person **little that's actionable**, its supplements are an **upsell**, and what helps is
       **fibre diversity**, while genuine symptoms like bleeding need **proper assessment**, not a
       kit. Replay to firm up the two-part message.

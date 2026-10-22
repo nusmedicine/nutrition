@@ -35,7 +35,7 @@ options:
     note: >-
       Trade saturated fat for refined starch and sugar and the benefit disappears: LDL falls a
       little, but HDL falls too and triglycerides rise, so the cholesterol ratio does not improve. The "saturated fat has been exonerated" headlines
-      mislead because the studies behind them never said what the fat was replaced with.
+      mislead because the studies behind them did not report what the fat was replaced with.
   - id: nothing
     label: 'Nothing, just "eat less fat"'
     example: "smaller portions, same foods"

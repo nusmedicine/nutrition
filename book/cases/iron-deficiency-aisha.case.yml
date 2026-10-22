@@ -44,7 +44,7 @@ nodes:
       - id: b
         text: "Probably stress and overwork, so reassure her."
         correct: false
-        feedback: "Stress is plausible on the surface, but it ignores a classic, recognisable pattern with a treatable cause."
+        feedback: "Stress is plausible on the surface, but that explanation leaves out a classic, recognisable pattern with a treatable cause."
         goto: reveal-group
       - id: c
         text: "She needs an urgent blood transfusion now."

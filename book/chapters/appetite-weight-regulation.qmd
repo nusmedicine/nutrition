@@ -44,7 +44,7 @@ regulates it, as other homeostatic systems regulate blood glucose and body tempe
 a free choice laid on top of a passive body.
 
 The system uses two kinds of signal. The long-term signal is leptin, released by fat in proportion to
-fat mass, which tells the brain how large the fat stores are over days and weeks. The short-term
+fat mass, which signals to the brain how large the fat stores are over days and weeks. The short-term
 signals are gut hormones that rise and fall across a single meal and govern when a meal starts and
 when it ends. Both act on circuits in the hypothalamus that set hunger. The brain's **reward system**,
 which drives eating because food is pleasurable and available, can override fullness when such food
@@ -351,7 +351,7 @@ weight maintenance hard; it does not make weight loss impossible or leave the me
 
 ### Sleep and stress: two neglected influences {#sec-sleep-stress}
 
-Sleep and stress are two modifiable influences on appetite that "eat less, move more" ignores, and both
+Sleep and stress are two modifiable influences on appetite that the "eat less, move more" message leaves out, and both
 bias the same system toward hunger.
 
 **Short sleep tilts appetite toward hunger.** In a controlled experiment, two nights restricted to
@@ -393,8 +393,8 @@ around 15% with semaglutide over 68 weeks and about 21% with tirzepatide at the 
 against 2 to 3% with placebo, counting everyone randomised whether or not they stayed on the drug
 [@wilding2021step1; @jastreboff2022surmount1]. When the drug stops, the
 weight comes back, because the defended range was opposed, never removed
-[@wilding2022step1extension]. Regain on stopping is the clearest demonstration that obesity is a
-chronic, regulated condition and that "just try harder" misreads the biology. (The classification
+[@wilding2022step1extension]. Regain on stopping shows that obesity is a
+chronic, regulated condition and that regain is not a failure of effort. (The classification
 and management of obesity, including where these medicines and surgery fit, are in the
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
 
@@ -412,13 +412,13 @@ regulation, not a failure of willpower.
 The drug amplifies endogenous satiety signalling, shifting the arcuate nucleus toward POMC/CART
 (satiety) activity and slowing gastric emptying. It opposes the defended range without removing it,
 so when the drug stops the regulatory responses return and the weight comes back. Obesity therefore
-behaves as a chronic, regulated condition, which is why "just try harder" misreads the biology.
+behaves as a chronic, regulated condition, and regain after stopping is not a failure of effort.
 :::
 
 ## Is it really just willpower? {#sec-close}
 
 No. Appetite is a signalled biological drive. The person who regains weight after a diet, who cannot
-stop snacking on night shift, or who feels hungrier the more they diet is not weak: they are experiencing what the physiology predicts.
+stop snacking on night shift, or who feels hungrier the more they diet is not weak: they are experiencing the expected result of their physiology.
 Non-stigmatising medicine starts from that understanding. Energy balance (see the *Energy balance*
 chapter) still applies, but it is biologically regulated rather than freely chosen.
 
@@ -428,8 +428,8 @@ Singapore is a clear illustration of an **obesogenic food environment**: one in 
 energy-dense food is cheap, abundant and always in view. That environment collides with the biology of
 weight regulation, which is why the national "eat less, move more" message, while not wrong, is
 insufficient. Adult obesity has risen in recent years, from 10.5% in 2019–2020 to 12.7% in 2023–2024
-[@mohNPHS2024], despite sustained public-health effort, as a regulated, environment-driven system
-predicts.
+[@mohNPHS2024], despite sustained public-health effort, as would be expected of a regulated, environment-driven
+system.
 
 **The food environment encourages reward-driven eating.** Hawker centres, food courts and 24-hour options put
 such food within reach day and night, and eating out is routine: in the 2010 National Nutrition Survey,

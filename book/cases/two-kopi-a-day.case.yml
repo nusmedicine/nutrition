@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "\"It keeps you going, and it sounds like the sugar worries you a bit. OK to talk?\""
         correct: true
-        feedback: "A reflection that names both sides, plus a request for permission, resists the urge to fix, so he stays engaged instead of defending himself."
+        feedback: "Reflecting both sides and asking permission lets you resist the urge to fix, so he stays engaged instead of defending himself."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-changetalk

@@ -48,7 +48,7 @@ that the small intestine cannot digest. They differ in how much energy each yiel
 Fat is the most energy-dense macronutrient, so fat-rich foods raise total intake quickly.
 
 ::: {.callout-important}
-## What decides a macronutrient's health effect
+## What determines a macronutrient's health effect
 The health effect of a macronutrient depends on its form and food source, so "Are carbs bad?" and
 "Is fat bad?" have no single answer. The question that matters clinically is almost never "how many
 grams?" but "what kind, from what food?" (see [Are carbs bad?](#sec-close)).
@@ -79,7 +79,7 @@ Each region of the spectrum has its own place in the diet:
 ![Whatever their source, digestible carbohydrates are broken down to simple sugars, chiefly glucose, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
 
 Every digestible carbohydrate is built from simple sugars, and the length and shape of the chain
-decide how fast it becomes blood glucose. Four terms describe the chains:
+determine how fast it becomes blood glucose. Four terms describe the chains:
 
 Monosaccharides
 : Single sugar units: glucose (the body's fuel), fructose (fruit sugar, handled mainly by the liver)
@@ -270,7 +270,7 @@ white rice is still high-GI.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: watermelon has a higher GI than *bee hoon*. Why can a plate of *bee hoon* still be the bigger glucose load?
 GI is measured on a fixed 50 g of available carbohydrate, so it rates the quality of the carbohydrate
-but ignores how much is eaten. Glycaemic load scales GI to the real serving: a slice of watermelon
+but does not account for how much is eaten. Glycaemic load scales GI to the real serving: a slice of watermelon
 holds only about 6 g of carbohydrate (GL about 5, low), whereas a hawker portion of low-GI *bee hoon*
 is a high-GL plate. Quality and portion both set the response.
 :::
@@ -281,7 +281,7 @@ is a high-GL plate. Quality and portion both set the response.
 geometry of any double bonds. Five terms describe the molecules:
 
 Fatty acid
-: A hydrocarbon chain (a water-hating tail) capped by a carboxyl group, –COOH (a water-loving head).
+: A hydrocarbon chain (a water-repelling tail) capped by a carboxyl group, –COOH (a water-attracting head).
 
 Saturated fatty acid
 : A fatty acid with no double bonds, so its straight chain packs tightly and the fat stays solid.
@@ -301,8 +301,8 @@ Fatty acids rarely travel alone. Three of them esterified onto a glycerol backbo
 **triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to).
 Chain length runs from short through medium to long; medium-chain fats are absorbed more directly,
 which is the point of "MCT" (medium-chain triglyceride) oils. Replacing one fatty acid with a
-phosphate head gives a **phospholipid**. Phospholipids are amphipathic (they have a water-loving
-head and water-hating tails), so they self-assemble into the lipid bilayer of every cell membrane:
+phosphate head gives a **phospholipid**. Phospholipids are amphipathic (they have a water-attracting
+head and water-repelling tails), so they self-assemble into the lipid bilayer of every cell membrane:
 fat is a structural material as well as a fuel.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
@@ -538,7 +538,7 @@ chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: two diets share the same split of 50% carbohydrate, 30% fat and 20% protein. Why might one be far healthier?
-A macronutrient split says nothing about form or food source: the carbohydrate could come from
+A macronutrient split gives no information about form or food source: the carbohydrate could come from
 wholegrains and vegetables or from white rice and sugary drinks, and the fat from nuts and fish or
 from fried food. This is why guidelines advise eating patterns (wholegrains, plants and unsaturated
 fats; little added sugar, *trans* fat, sodium and ultra-processed food) instead of one ideal ratio.

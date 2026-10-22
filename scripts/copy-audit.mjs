@@ -9,7 +9,7 @@
 //
 // A flag is a prompt to reread the sentence, not a verdict. Exits 0 always; it is a reading aid.
 import { readdirSync, readFileSync, statSync } from 'node:fs';
-import { join, relative, dirname, basename } from 'node:path';
+import { join, relative, dirname, basename, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const repo = dirname(dirname(fileURLToPath(import.meta.url)));
@@ -30,7 +30,7 @@ function walk(dir, out = []) {
   return out;
 }
 
-const files = explicit.length ? explicit.map((f) => join(process.cwd(), f)) : walk(book);
+const files = explicit.length ? explicit.map((f) => resolve(f)) : walk(book);
 
 // Front matter may name the audience; chapter prose may not (AUTHOR.md §11d).
 const FRONT_MATTER = ['index.qmd', 'colophon.qmd'];
@@ -55,6 +55,7 @@ const RULES = [
   { id: 'worth-noting', why: 'didactic filler', re: /\b(it is|it's) (important|worth|crucial|essential) (to note|noting|to remember|to understand)\b|\bworth noting\b|\bkeep in mind that\b/gi },
   { id: 'honest', why: 'the "honest" tic (AUTHOR.md §11g)', re: /\bhonest(ly)?\b/gi },
   { id: 'business', why: 'business/journalism word: use the medical term (AUTHOR.md copy-audit checklist)', re: /(?<![-#/])\blevers?\b(?![-.:}\/])|\bhigh(est)?-yield\b|\boutyields?\b|\btoolkit\b|\bplaybook\b|\bpay(s|off)\b|\bpays off\b|\bheadline (result|finding|figure|trial|recommendation|problem)s?\b|\bthe (real|biggest) (lever|driver|problem|target|answer)\b|\b(social|cardiometabolic|modifiable|main|key) drivers?\b|\bcounselling anchors?\b/gi },
+  { id: 'anthropomorphism', why: 'non-human subject given a mental act (AUTHOR.md copy-audit checklist): make a person the subject or state the mechanism', re: /"[^"\n]{2,40}"\s+(misreads|ignores|overlooks|forgets|misses the point|tells|says|asks)\b|\b(label|labels|test|index|cut-offs?|guidelines?|plate|BMI|kit|slogan|message|advice|framing|figure|table|equation|diet|evidence)\s+(misreads|ignores|overlooks|forgets|wants|refuses|insists|decides|chooses|assumes|says nothing|tells (?:you |us )?nothing|asks (?:for|only)|hides|pretends|punishes|forgives|intends)\b|\bwater-(loving|hating)\b|\bfat-loving\b/gi },
   { id: 'superlative', why: 'unsourced superlative: state the real strength or cite the ranking', re: /(\bno single \w+ (matters|does) more\b|\bthe single (biggest|most important|strongest)\b|\bthe strongest modifiable\b|\bmore than any (other )?(lever|factor|nutrient|intervention|change)\b)(?![^\n]{0,160}\[@)/gi },
   { id: 'neg-parallel', why: 'negative parallelism ("not X but Y", "not just X")', re: /\bnot (just|only|merely|simply)\b|\bnot because\b[^.]{1,80}\bbut because\b|\b(it|this|that)('s| is| was) not [^.;]{1,60}[,;:—]\s*(it|this|that)('s| is| was)\b|\b(is|are|was|were) not [^.;]{1,50}, but\b/gi },
   { id: 'neg-parallel-2', why: 'negative parallelism across sentences ("…is not X. It is Y.")', re: /\b(is|are) not [^.]{1,70}\.\s+(It|They|This|That) (is|are)\b/g },

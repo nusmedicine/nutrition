@@ -45,7 +45,7 @@ questions:
     options:
       - text: "It was a relative effect on a composite endpoint"
         correct: true
-        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot promise any individual outcome: a strong pattern, not a personal guarantee."
+        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot predict any individual outcome: a strong pattern, not a personal guarantee."
       - text: "PREDIMED found no benefit at all"
         correct: false
         feedback: "A benefit was found on the composite endpoint; the task is to state it accurately, not to deny it."

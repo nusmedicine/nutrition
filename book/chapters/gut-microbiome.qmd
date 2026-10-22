@@ -81,7 +81,7 @@ its place on that gradient [@donaldson2016gutbiogeography]:
 ## Do microbes outnumber human cells ten to one?
 The figure of ten bacteria for every human cell is still widely quoted. It comes from a rough
 estimate made in the 1970s. A 2016 recount put the ratio at roughly 1:1: about 38 trillion bacteria
-to 30 trillion human cells, most of them (~84%) small red blood cells that the old estimate ignored
+to 30 trillion human cells, most of them (~84%) small red blood cells that the old estimate left out
 [@sender2016revised]. The same recount puts total bacterial mass at about 0.2 kg; the often-quoted
 "1–2 kg" conflates bacteria with the whole weight of the colonic contents.
 :::
@@ -169,7 +169,7 @@ The three SCFAs differ by only one or two carbons, but each goes to a different 
 |---|---|---|---|---|
 | Acetate | 2 | 60% (most abundant) | Systemic circulation | Fuel for peripheral tissues and other bacteria |
 | Propionate | 3 | 20% | Liver, via the portal vein | Substrate for gluconeogenesis (see the [*Integrative metabolism*](integrative-metabolism.qmd) chapter) |
-| Butyrate | 4 | 20% (least abundant) | Stays in the colon | Preferred fuel of the colonocytes |
+| Butyrate | 4 | 20% (least abundant) | Stays in the colon | Main fuel of the colonocytes |
 
 The 60:20:20 ratio varies with diet, substrate and site. Rotate the three molecules below to compare
 their chain lengths.
@@ -247,7 +247,7 @@ here is that "made in the gut" does not mean "available to the host".
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: butyrate is the least abundant SCFA. Why does losing it matter more to the colon than losing acetate?
-Butyrate is the colonocytes' preferred fuel and supports the mucus barrier, so the colon depends on it
+Butyrate is the colonocytes' main fuel and supports the mucus barrier, so the colon depends on it
 locally. Acetate, although more abundant, is poorly extracted in the gut and travels systemically to
 peripheral tissues. Abundance is not the same as local importance.
 :::
@@ -390,7 +390,7 @@ indication.**
 
 Three claims about the microbiome are common in consumer marketing:
 
-- "A microbiome test kit tells you how healthy your gut is." For a well person, it does not. There is
+- "A microbiome test kit shows how healthy your gut is." For a well person, it does not. There is
   no agreed "healthy" reference microbiome, reproducibility is poor (the same stool can give different
   results from different companies), and no proven clinical action follows from the result.
   International consensus discourages these tests without a medical indication; the money is better
@@ -489,7 +489,7 @@ from a vegetarian or vegan patient, ask about a dietary or supplemental B12 sour
 ## Practise: "I bought a gut-microbiome test kit" {#sec-case}
 
 A well young adult brings in a colourful microbiome-test report and a list of supplements it
-recommends. Work through what the result can and cannot tell her, and what actually helps.
+recommends. Work through what the result can and cannot show about her gut, and what actually helps.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

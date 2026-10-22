@@ -35,7 +35,7 @@ questions:
         feedback: "This is the serving-size trap. Most people drink the whole bottle, so the real intake is about 2.5 times the per-serving figure. The per-100 ml (or per-100 g) column compares products fairly and shows what a realistic portion delivers."
       - text: "Nothing; the per-serving sugar is the number that matters"
         correct: false
-        feedback: "Per-serving figures can hide the real intake when the 'serving' is unrealistically small. Check per-100 ml and the whole-pack amount."
+        feedback: "Per-serving figures can understate the real intake when the 'serving' is unrealistically small. Check per-100 ml and the whole-pack amount."
       - text: "Only the Nutri-Grade letter, ignoring the panel"
         correct: false
         feedback: "The grade is a useful glance, but it won't reveal the per-serving trap; reading the panel per 100 ml is the skill."
@@ -97,7 +97,7 @@ questions:
     options:
       - text: "Overweight at BMI ≥23 and obese at ≥27.5 kg/m² (Asian cut-offs)"
         correct: true
-        feedback: "Singapore uses lower Asian cut-offs because cardiometabolic risk rises at a lower BMI than the international ≥25/≥30. BMI still misses body composition."
+        feedback: "Singapore uses lower Asian cut-offs because cardiometabolic risk rises at a lower BMI than the international ≥25/≥30. BMI still does not measure body composition."
       - text: "Overweight at ≥25 and obese at ≥30 kg/m² (the international cut-offs)"
         correct: false
         feedback: "Those are the international thresholds; Singapore uses the lower Asian cut-offs (≥23 / ≥27.5)."

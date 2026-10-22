@@ -28,7 +28,7 @@ questions:
         feedback: "Absorption is not the core issue. The reason feeding alone often falls short is the inflammatory catabolism of the underlying disease."
       - text: "Illness never reduces a person's appetite"
         correct: false
-        feedback: "Illness commonly reduces appetite: anorexia (loss of appetite) is part of the inflammatory picture, which is why intake falls and feeding alone struggles."
+        feedback: "Illness commonly reduces appetite: anorexia (loss of appetite) is part of the inflammatory picture, which is why intake falls and feeding alone is often not enough."
       - text: "Protein stops mattering once a person is ill"
         correct: false
         feedback: "Protein still matters; the problem is that inflammation drives catabolism faster than feeding replaces it, so the disease must be addressed as well."

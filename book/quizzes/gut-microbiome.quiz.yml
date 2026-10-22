@@ -38,7 +38,7 @@ questions:
         correct: false
         feedback: "Fermentation is anaerobic bacterial metabolism in the colon, not acid digestion in the stomach."
   - id: q-butyrate
-    stem: "Which short-chain fatty acid is the preferred fuel of the cells lining the colon?"
+    stem: "Which short-chain fatty acid is the main fuel of the cells lining the colon?"
     options:
       - text: "Butyrate, because it fuels the colonocytes."
         correct: true

@@ -234,7 +234,7 @@ that generate ATP. Confusing the two is a common slip.
 
 ### The amino-acid pool: no storage protein {#sec-amino}
 
-The fifth hub is the amino-acid pool, and it carries a warning that shapes the response to fasting:
+The fifth hub is the amino-acid pool, and one fact about it shapes the response to fasting:
 the body has no storage protein. Unlike glycogen and fat, every protein in the body is doing a job, as
 muscle, as an enzyme, as an immune cell. Using protein for fuel therefore dismantles working tissue,
 which is why protein is broken down for fuel late and at a cost.
@@ -313,7 +313,7 @@ Glucose uptake by muscle and fat surges after a meal while the liver's does not,
 fat use a different glucose transporter from the liver. Muscle and fat use **GLUT4**, which comes to
 the cell surface only when insulin signals, so the meal switches their uptake on. The liver uses
 **GLUT2**, which is always present and admits glucose in proportion to its concentration, with no
-insulin required. Insulin still acts on the liver, but on its enzymes, telling it to store rather than
+insulin required. Insulin still acts on the liver, but on its enzymes, signalling it to store rather than
 release glucose, not on its glucose transporter [@chadt2020glucose]. This one contrast explains most
 of the fed-state picture.
 :::
@@ -487,7 +487,7 @@ the map.
 
 ### Fuel use during exercise {#sec-exercise}
 
-Exercise selects fuel along a continuum set by intensity and duration:
+The fuel used in exercise varies along a continuum set by intensity and duration:
 
 ::: {.spectrum}
 [Main fuel for exercise]{.tree-title}

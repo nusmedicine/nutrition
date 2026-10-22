@@ -261,8 +261,8 @@ meal can look faintly milky.
 Most dietary fat is long-chain and takes this lymphatic route. Short- and medium-chain fatty acids are
 small enough to enter the blood directly, like sugars.
 
-Bile salts can emulsify fat because of their shape. A bile salt has a water-loving face and a
-fat-loving face (it is amphipathic, like the membrane phospholipids in the *Macronutrients* chapter),
+Bile salts can emulsify fat because of their shape. A bile salt has a water-attracting face and a
+water-repelling face (it is amphipathic, like the membrane phospholipids in the *Macronutrients* chapter),
 so it can sit at the oil–water boundary and break fat apart. The model of cholic acid below shows
 the two faces.
 
@@ -328,7 +328,7 @@ enzymes reach the food:
 
 | What changes | Mechanism (why the speed changes) | Effect |
 |---|---|---|
-| Whole → blended → juiced | Cell walls and starch granules hide substrate from enzymes; disrupting them exposes surface area, and liquids empty faster | Faster, higher glucose rise; less satiety |
+| Whole → blended → juiced | Cell walls and starch granules keep enzymes away from the substrate; disrupting them exposes surface area, and liquids empty faster | Faster, higher glucose rise; less satiety |
 | Cooking, then cooling | Heat gelatinises starch (faster); cooling forms resistant starch (slower), retained on reheating | Cooked faster; cooled rice/pasta a little slower |
 | Vegetables and protein before carbohydrate | The pre-load slows gastric emptying and stimulates CCK and incretin release | A lower, flatter glucose peak |
 | Adding fat, protein, fibre or acid to a carbohydrate | All slow gastric emptying; acid also slows brush-border sugar-splitting | Blunts the glucose rise |
@@ -426,7 +426,7 @@ pharmacist about food, grapefruit, dairy, iron and timing.
 ### Oral rehydration and SGLT1 {#sec-ors}
 
 SGLT1 explains how a drink of glucose and sodium can treat dehydration. In severe diarrhoea (cholera,
-rotavirus), the gut pours out fluid, but SGLT1 keeps working. SGLT1 cotransports sodium with glucose,
+rotavirus), the gut secretes large volumes of fluid, but SGLT1 transport continues. SGLT1 cotransports sodium with glucose,
 and water follows the sodium by osmosis, so a drink containing both glucose and sodium still gets fluid
 in. As a result, a dehydrated child can be rehydrated by mouth, with no drip
 needed.
@@ -459,7 +459,7 @@ Six common beliefs about digestion can be tested against the evidence:
 - "Gluten-free is healthier for everyone." It is healthier only for people with **coeliac disease**
   (an immune reaction to gluten that damages the lining of the small intestine) or wheat allergy.
   Going gluten-free can cost fibre and micronutrients, and if coeliac disease is suspected, test for
-  it before gluten is removed, or the test misleads [@glutenFreeNonCeliac].
+  it before gluten is removed, or the test can give a false-negative result [@glutenFreeNonCeliac].
 - "I need to detox / my 'leaky gut' is the problem." The liver and kidneys already detoxify. The gut
   barrier is real, but "leaky gut syndrome" as a diagnosable, supplement-fixable disease is not
   established, and there is no reliable test for it [@leakyGutMechanisms].

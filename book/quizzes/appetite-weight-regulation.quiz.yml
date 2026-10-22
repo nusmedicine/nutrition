@@ -28,7 +28,7 @@ questions:
   - id: q-leptin-resistance
     stem: "Why doesn't giving leptin cure common obesity?"
     options:
-      - text: "Their leptin is high, and the brain resists it."
+      - text: "Their leptin is high, but the brain is resistant."
         correct: true
         feedback: "More fat makes more leptin, but the brain stops responding (leptin resistance), so giving more does little. Recombinant leptin gave only modest, variable weight loss in common obesity, although it rescues the rare person with congenital deficiency."
       - text: "They lack leptin and need much larger doses."
@@ -36,7 +36,7 @@ questions:
         feedback: "Leptin deficiency is the rare congenital case. In common obesity leptin is high, and the problem is resistance, not deficiency."
       - text: "Leptin works only when combined with a diet."
         correct: false
-        feedback: "Diet is not the missing ingredient: the brain ignores the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
+        feedback: "Diet is not the missing ingredient: the brain responds poorly to the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
   - id: q-satiation-satiety
     stem: "You put your fork down, full, at the end of a meal. Which term describes what just ended the meal?"
     options:
@@ -81,7 +81,7 @@ questions:
         feedback: "Weight regain is the predicted output of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
-        feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis actively oppose weight maintenance."
+        feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis make weight maintenance harder."
       - text: "The lost weight was only water, so it returned automatically."
         correct: false
         feedback: "Real fat was lost; the regain is driven by body-weight regulation (falling leptin, rising hunger hormones, adaptive thermogenesis)."
@@ -114,7 +114,7 @@ questions:
     options:
       - text: "It raises ghrelin and lowers leptin, raising hunger."
         correct: true
-        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable factor that 'eat less, move more' ignores."
+        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable factor that the advice 'eat less, move more' leaves out."
       - text: "It suppresses appetite by raising leptin levels."
         correct: false
         feedback: "Short sleep lowers leptin and raises ghrelin, which increases hunger."

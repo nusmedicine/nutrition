@@ -55,7 +55,7 @@ probes:
     yield: 5
     reveal: "\"I live alone and barely cook; it's just easier to buy something.\""
     picture: ["Lives alone, rarely cooks"]
-    note: "The social and practical context (who buys and cooks, and eating alone) decides what change is feasible."
+    note: "The social and practical context (who buys and cooks, and eating alone) determines what change is feasible."
   - id: supplements
     label: "Any supplements or health products?"
     yield: 3

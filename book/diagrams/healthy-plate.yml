@@ -21,7 +21,7 @@ cuisines:
       grain:
         - { label: "Big bowl of white rice", quality: poor, start: true, note: "Refined, fast-digesting and too big a portion. Only ~4% of staples eaten in Singapore are wholegrain." }
         - { label: "White rice, smaller scoop", quality: ok, note: "Portion fixed, but still refined; a wholegrain swap is the bigger win." }
-        - { label: "Brown or mixed rice, one scoop", quality: good, note: "Intact wholegrain keeps its fibre, so the glucose rise is gentler; this is the quarter the plate asks for." }
+        - { label: "Brown or mixed rice, one scoop", quality: good, note: "Intact wholegrain keeps its fibre, so the glucose rise is gentler; this is what the wholegrain quarter is meant to hold." }
       protein:
         - { label: "Sweet-and-sour pork (battered, fried)", quality: poor, start: true, note: "Fatty cut, deep-fried and sugar-glazed: the protein quarter carries a lot of extra energy." }
         - { label: "Steamed chicken, skin off", quality: ok, note: "Lean once the skin is off, so it makes a reasonable protein quarter." }
@@ -55,7 +55,7 @@ cuisines:
       veg:
         - { label: "Small vegetable subji", quality: poor, start: true, note: "A token vegetable dish; the greens need to reach half the plate." }
         - { label: "Vegetable subji + a little salad", quality: ok, note: "Closer; keep building the vegetable half." }
-        - { label: "Generous subji + salad, half the plate", quality: good, note: "Vegetables as the largest section, exactly as the plate intends." }
+        - { label: "Generous subji + salad, half the plate", quality: good, note: "Vegetables as the largest section, exactly as the plate model sets out." }
       grain:
         - { label: "Large naan / plenty of white rice", quality: poor, start: true, note: "Naan and white rice are refined; a big portion pushes out the vegetable and protein quarters." }
         - { label: "White rice, smaller portion", quality: ok, note: "Portion sorted, but still refined." }

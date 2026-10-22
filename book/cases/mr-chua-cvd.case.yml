@@ -176,7 +176,7 @@ nodes:
       You handled Mr Chua well. You led with the right first move (confirm the readings, take a history,
       counsel lifestyle-first, and arrange risk assessment) instead of reflexively prescribing or dismissing it.
       You gave pattern-based dietary advice (My Healthy Plate plus sodium reduction), recognising that what
-      counts is fat quality, not blanket avoidance, and that his sodium hides in soups and sauces, not the
+      counts is fat quality, not blanket avoidance, and that his sodium comes mostly from soups and sauces, not the
       shaker. You applied do-no-harm to the potassium salt substitute, checking for kidney disease and
       potassium-raising medicines before recommending it. And you closed correctly: refer to a dietitian,
       arrange risk assessment and re-check, treat targets as risk-tiered and looked up, and never advise a daily
@@ -185,7 +185,7 @@ nodes:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "First move is lifestyle-first plus risk assessment: confirm the blood pressure over repeated readings, take a diet, activity and alcohol history, counsel, and arrange a formal cardiovascular-risk assessment. Don't prescribe reflexively or defer for a year."
-        - "Dietary advice is pattern-based (a DASH-aligned My Healthy Plate) plus sodium reduction; it's fat quality and replacement ('replaced with what?'), not 'cut all fat', and most sodium hides in soups, sauces and eaten-out food, not the shaker."
+        - "Dietary advice is pattern-based (a DASH-aligned My Healthy Plate) plus sodium reduction; it's fat quality and replacement ('replaced with what?'), not 'cut all fat', and most sodium comes from soups, sauces and eaten-out food, not the shaker."
         - "Do no harm with a potassium salt substitute: reasonable for most people, but only after checking there's no kidney disease and no ACE inhibitor, ARB or potassium-sparing diuretic. If unsure, don't, and involve the doctor (see the *Chronic kidney disease* chapter)."
         - "Refer to a dietitian and arrange risk-tiered assessment and re-check; blood-pressure and cholesterol targets are looked up, not memorised; and alcohol is never advised 'for the heart'."
       references: ["@hpbHealthyPlate", "@who2020diet", "@mohAlcoholLimits2018"]
@@ -209,6 +209,6 @@ nodes:
       objectivesMet: [1]
       keyPoints:
         - "Lead lifestyle-first and estimate risk before treating: confirm the readings, take a history, counsel, and arrange a cardiovascular-risk assessment."
-        - "Advise a whole heart-healthy pattern (My Healthy Plate) plus sodium reduction; sodium hides in soups and sauces, and fat is about quality, not blanket avoidance."
+        - "Advise a whole heart-healthy pattern (My Healthy Plate) plus sodium reduction; sodium comes mostly from soups and sauces, and fat is about quality, not blanket avoidance."
         - "Never recommend a potassium salt substitute without first checking for kidney disease and potassium-raising drugs (ACE inhibitor, ARB or potassium-sparing diuretic); if unsure, don't."
         - "Refer for the structured plan; targets are risk-tiered and looked up, not memorised; and alcohol is never advised for the heart."

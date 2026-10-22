@@ -151,7 +151,7 @@ nodes:
       - id: c
         text: "Yes, completely harmless, so take it for peace of mind."
         correct: false
-        feedback: "Physically it's low-harm, but \"harmless, take it for peace of mind\" glosses over the real cost: ongoing spending and false reassurance that can delay the effective intervention. Tell him plainly that it's unlikely to help, while steering him to weight loss and activity."
+        feedback: "Physically it's low-harm, but answering \"harmless, take it for peace of mind\" glosses over the real cost: ongoing spending and false reassurance that can delay the effective intervention. Tell him plainly that it's unlikely to help, while steering him to weight loss and activity."
         goto: route
 
   - id: route
