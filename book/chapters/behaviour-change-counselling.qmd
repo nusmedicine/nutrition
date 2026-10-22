@@ -20,7 +20,7 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Why knowledge is not enough](#sec-knowledge): reward, habit and motivation
+- [Why knowledge is not enough: reward and habit](#sec-knowledge): why information alone rarely changes eating
 - [The conversation](#sec-conversation)
   - [The 5 A's](#sec-five-as): a framework for brief counselling
   - [Motivational interviewing](#sec-mi): the style
@@ -31,7 +31,7 @@
 - [Do no harm](#sec-harm): weight-neutral language, red flags and referral
 :::
 
-## Why knowledge is not enough: reward and habit {#sec-knowledge}
+## Behaviour-change counselling at a glance {#sec-overview}
 
 The gap between "I know I should eat better" and actually doing it is where most advice fails, and
 clinicians are consistently under-prepared to bridge it [@crowley2019]. Knowing what to eat (see the
@@ -39,6 +39,8 @@ clinicians are consistently under-prepared to bridge it [@crowley2019]. Knowing 
 patient eats (see the [*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd) chapter) do
 not close that gap on their own. In a brief consult, your aim is to start a change, not to finish one:
 to leave the patient a little more motivated, with one small step they chose themselves.
+
+## Why knowledge is not enough: reward and habit {#sec-knowledge}
 
 Knowledge alone does little to change behaviour, for a physiological reason: eating is only partly a deliberate choice (see
 the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-hedonic) chapter). The brain's

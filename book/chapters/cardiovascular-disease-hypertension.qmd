@@ -22,14 +22,15 @@
 [Chapter map]{.tree-title}
 
 - [Pathophysiology: how diet affects the arteries and blood pressure](#sec-cvd-science)
-- [Lowering blood pressure](#sec-cvd-pressure)
+- [Dietary management: lowering blood pressure](#sec-cvd-pressure)
   - [The DASH dietary pattern](#sec-cvd-dash)
   - [Sodium reduction and potassium intake](#sec-cvd-sodium)
-- [Protecting the arteries](#sec-cvd-artery)
+- [Dietary management: protecting the arteries](#sec-cvd-artery)
   - [Dietary fat: quality and replacement](#sec-cvd-fat)
   - [Oily fish, omega-3 supplements and icosapent ethyl](#sec-cvd-fish)
   - [The Mediterranean dietary pattern](#sec-cvd-mediterranean)
   - [Alcohol and cardiovascular risk](#sec-cvd-alcohol)
+- [When to refer](#sec-cvd-refer)
 :::
 
 ## Cardiovascular disease & hypertension at a glance {#sec-overview}
@@ -39,12 +40,10 @@ roughly one in three adults has **hypertension** (persistently raised blood pres
 undiagnosed [@shfHeartStats2024; @nphs2024]. The response is population-scale **primary prevention**
 (preventing disease before it develops), delivered lifestyle-first.
 
-Three principles frame the advice and the referral:
+Two principles frame the advice and the referral:
 
 - The modern framing treats heart-healthy eating as a whole dietary pattern, not a list of good and bad
   nutrients [@aha2021diet].
-- At this stage the task is to recognise the dietary changes that lower risk and refer or co-manage
-  for the plan: a dietitian delivers the structured change, and drug decisions belong to the clinician.
 - Blood-pressure and cholesterol targets are risk-tiered and looked up, not memorised; it is enough to
   know that they exist and are individualised.
 
@@ -110,7 +109,7 @@ rupture, causing heart attacks and strokes. Easing either pathway therefore redu
 vessel wall.
 :::
 
-## Lowering blood pressure {#sec-cvd-pressure}
+## Dietary management: lowering blood pressure {#sec-cvd-pressure}
 
 ### The DASH dietary pattern {#sec-cvd-dash}
 
@@ -189,7 +188,7 @@ soup can carry most of a day's sodium on its own. The swaps that help are made a
 most of the soup, taking sauce on the side and asking for less salt.
 :::
 
-## Protecting the arteries {#sec-cvd-artery}
+## Dietary management: protecting the arteries {#sec-cvd-artery}
 
 ### Dietary fat: quality and replacement {#sec-cvd-fat}
 
@@ -273,6 +272,32 @@ risk rising with intake and no protective threshold. Cutting down lowers blood p
 already drink, but that is never a reason to start, so advise the non-drinker not to.
 :::
 
+## When to refer {#sec-cvd-refer}
+
+At this stage the task is to recognise the dietary changes that lower risk and refer or co-manage
+for the plan: a dietitian delivers the structured change, and drug decisions belong to the clinician.
+
+The national clinical guidances on hypertension and lipids, from the Agency for Care Effectiveness
+(ACE), are risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023]. Structured dietary change is
+referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional Practice & Referral* chapter).
+
+::: {.callout-important}
+## Blood-pressure and cholesterol targets: risk-tiered and looked up
+No single cholesterol or blood-pressure target applies to every patient. Targets are **risk-tiered**: a
+clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023), and the ACE guidance gives the
+individual's target. At this stage, recognise that targets exist, are individualised and are looked up.
+Then deliver the lifestyle advice and refer, instead of applying drug thresholds from memory
+[@aceHtn2023; @aceLipid2023].
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient with raised blood pressure and LDL cholesterol asks which numbers he must reach and whether he needs a drug. Why is quoting a target from memory the wrong move?
+Targets are risk-tiered: a clinician estimates his cardiovascular risk (in Singapore, with SG-FRS-2023),
+and the ACE guidance gives his individual target, so no single number applies to every patient. The task
+at this stage is to deliver the lifestyle advice and refer: a dietitian delivers the structured dietary
+change, through EatWise SG, and the drug decision belongs to the clinician.
+:::
+
 ## What does a heart-healthy plate look like? {#sec-close}
 
 The evidence points to a pattern of eating:
@@ -305,19 +330,7 @@ the ready-made local form of the DASH and Mediterranean patterns [@hpbHealthyPla
 **Risk is estimated, and the tool must fit the population.** Singapore estimates risk with SG-FRS-2023, a
 risk score recalibrated on local multi-ethnic data because imported US equations mis-estimate risk across
 Chinese, Malay and Indian groups; it estimates only 10-year coronary risk, not stroke or total
-cardiovascular risk [@sgfrs2023]. The national clinical guidances on hypertension and lipids, from the
-Agency for Care Effectiveness (ACE), are risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023].
-Structured dietary change is referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional
-Practice & Referral* chapter).
-
-::: {.callout-important}
-## Blood-pressure and cholesterol targets: risk-tiered and looked up
-No single cholesterol or blood-pressure target applies to every patient. Targets are **risk-tiered**: a
-clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023), and the ACE guidance gives the
-individual's target. At this stage, recognise that targets exist, are individualised and are looked up.
-Then deliver the lifestyle advice and refer, instead of applying drug thresholds from memory
-[@aceHtn2023; @aceLipid2023].
-:::
+cardiovascular risk [@sgfrs2023].
 
 ## Check your understanding {#sec-quiz}
 

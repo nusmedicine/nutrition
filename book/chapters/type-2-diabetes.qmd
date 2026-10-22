@@ -24,16 +24,17 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Pathophysiology](#sec-t2d-mechanism): how insulin resistance becomes diabetes
-- [Dietary management](#sec-t2d-levers)
-  - [Carbohydrate](#sec-t2d-carbohydrate): quality and consistency
+- [Pathophysiology: how insulin resistance becomes diabetes](#sec-t2d-mechanism)
+- [Dietary management: medication safety, carbohydrate and dietary pattern](#sec-t2d-levers)
+  - [Safety before any diet change](#sec-t2d-safety)
+    - [Hypoglycaemia risk by drug class](#sec-t2d-hypoglycaemia)
+    - [Fasting for Ramadan with diabetes](#sec-t2d-ramadan)
+  - [Carbohydrate: quality and consistency](#sec-t2d-carbohydrate)
   - [Choosing a dietary pattern](#sec-t2d-patterns)
 - [Remission and prevention](#sec-t2d-remission-prevention)
   - [Remission of early type 2 diabetes](#sec-t2d-remission)
-  - [Preventing diabetes](#sec-t2d-prevention): structured lifestyle programmes
-- [Safety before any diet change](#sec-t2d-safety)
-  - [Hypoglycaemia risk by drug class](#sec-t2d-hypoglycaemia)
-  - [Fasting for Ramadan with diabetes](#sec-t2d-ramadan)
+  - [Preventing diabetes: structured lifestyle programmes](#sec-t2d-prevention)
+- [When to refer](#sec-t2d-refer)
 :::
 
 ## Type 2 diabetes at a glance {#sec-overview}
@@ -50,11 +51,6 @@ glucose-lowering drugs (see [Remission](#sec-t2d-remission)).
 The complications of type 2 diabetes in the heart, blood vessels and kidneys are taught in the
 *Cardiovascular Disease & Hypertension* and *Chronic Kidney Disease* chapters. Gestational diabetes,
 and why Singapore screens every pregnancy, is in the *Pregnancy & Lactation* chapter.
-
-The clinician's task is to recognise and refer, not to prescribe. You identify the modifiable dietary
-factors: carbohydrate quality, dietary pattern, body weight (for remission) and sugary-drink intake. You
-then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
-*Interprofessional Practice & Referral* chapter) and to the diabetes team for medication decisions.
 
 Safety comes before any diet advice. Before endorsing a low-carbohydrate diet or a fast, you need to
 know which glucose-lowering drugs the patient takes. Some cause dangerous hypoglycaemia (blood glucose
@@ -110,7 +106,51 @@ In the twin-cycle model, fat in the liver raises fasting glucose and fat in the 
 it and can restore β-cell function, which is the basis of remission in early disease.
 :::
 
-## Dietary management {#sec-t2d-levers}
+## Dietary management: medication safety, carbohydrate and dietary pattern {#sec-t2d-levers}
+
+### Safety before any diet change {#sec-t2d-safety}
+
+#### Hypoglycaemia risk by drug class {#sec-t2d-hypoglycaemia}
+
+Cutting or skipping carbohydrate, or fasting, is only safe once you know the patient's medication,
+because a few glucose-lowering drug classes can cause dangerous hypoglycaemia. The first step, every
+time, is therefore to identify the drug class and the action it demands [@ada2026glycemic;
+@aceT2DM2023]:
+
+| Hypoglycaemia risk | Drug classes | Action before cutting carbohydrate |
+|---|---|---|
+| High | insulin, sulfonylureas, meglitinides | Patient can go dangerously low: refer to the diabetes team to review medication first |
+| Low when used alone | metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists | A sensible carbohydrate-quality change is reasonable; still refer to a dietitian |
+
+Older people on sulfonylureas or insulin are especially vulnerable to hypoglycaemia
+[@ling2021elderlyhypo]. One caveat sits outside hypoglycaemia: on an SGLT2 inhibitor, a very-low-carbohydrate
+or ketogenic diet should be avoided, because the combination can trigger diabetic ketoacidosis
+[@ada2026standards].
+
+Select a patient's medications in the interactive below to see whether a low-carbohydrate plan is safe
+to endorse or needs the diabetes team first.
+
+<div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
+
+For someone on a fixed insulin dose, the counselling message is **carbohydrate consistency** (steady
+timing and amount of carbohydrate from day to day), not aggressive restriction.
+
+Hypoglycaemia in a conscious patient is treated with the **15-15 rule** (about 15 g of fast-acting
+glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat slows absorption
+[@diabetesukHypo].
+
+#### Fasting for Ramadan with diabetes {#sec-t2d-ramadan}
+
+For Singapore's Malay-Muslim community, which also carries a high diabetes burden, Ramadan fasting is
+a high-yield, faith-aware counselling task (the fed–fasted physiology of Ramadan is in the
+*Integrative Metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
+severe hypoglycaemia was several times more frequent during Ramadan than in other months
+[@salti2004epidiar]. The danger is greatest for patients on insulin or a sulfonylurea, two of the
+high-risk classes in the table above.
+
+Many patients believe that a finger-prick glucose test breaks the fast, and some come to harm because
+of that belief [@zainudin2017knowledge]. The test does not break the fast, and Islam exempts the
+medically unfit, so monitoring and, where needed, not fasting are religiously permissible.
 
 ### Carbohydrate: quality and consistency {#sec-t2d-carbohydrate}
 
@@ -259,29 +299,12 @@ with follow-up, aiming at a weight loss of at least 7% and at least 150 minutes 
 conversation has none of that structure. The guideline response is to refer to a structured programme.
 :::
 
-## Safety before any diet change {#sec-t2d-safety}
+## When to refer {#sec-t2d-refer}
 
-### Hypoglycaemia risk by drug class {#sec-t2d-hypoglycaemia}
-
-Cutting or skipping carbohydrate, or fasting, is only safe once you know the patient's medication,
-because a few glucose-lowering drug classes can cause dangerous hypoglycaemia. The first step, every
-time, is therefore to identify the drug class and the action it demands [@ada2026glycemic;
-@aceT2DM2023]:
-
-| Hypoglycaemia risk | Drug classes | Action before cutting carbohydrate |
-|---|---|---|
-| High | insulin, sulfonylureas, meglitinides | Patient can go dangerously low: refer to the diabetes team to review medication first |
-| Low when used alone | metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists | A sensible carbohydrate-quality change is reasonable; still refer to a dietitian |
-
-Older people on sulfonylureas or insulin are especially vulnerable to hypoglycaemia
-[@ling2021elderlyhypo]. One caveat sits outside hypoglycaemia: on an SGLT2 inhibitor, a very-low-carbohydrate
-or ketogenic diet should be avoided, because the combination can trigger diabetic ketoacidosis
-[@ada2026standards].
-
-Select a patient's medications in the interactive below to see whether a low-carbohydrate plan is safe
-to endorse or needs the diabetes team first.
-
-<div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
+The clinician's task is to recognise and refer, not to prescribe. You identify the modifiable dietary
+factors: carbohydrate quality, dietary pattern, body weight (for remission) and sugary-drink intake. You
+then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
+*Interprofessional Practice & Referral* chapter) and to the diabetes team for medication decisions.
 
 ::: {.callout-warning}
 ## Review the medication before carbohydrate is cut
@@ -290,25 +313,7 @@ without a medication review. The dose set for their old intake can now drive the
 low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
 :::
 
-For someone on a fixed insulin dose, the counselling message is **carbohydrate consistency** (steady
-timing and amount of carbohydrate from day to day), not aggressive restriction.
-
-Hypoglycaemia in a conscious patient is treated with the **15-15 rule** (about 15 g of fast-acting
-glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat slows absorption
-[@diabetesukHypo].
-
-### Fasting for Ramadan with diabetes {#sec-t2d-ramadan}
-
-For Singapore's Malay-Muslim community, which also carries a high diabetes burden, Ramadan fasting is
-a high-yield, faith-aware counselling task (the fed–fasted physiology of Ramadan is in the
-*Integrative Metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
-severe hypoglycaemia was several times more frequent during Ramadan than in other months
-[@salti2004epidiar]. The danger is greatest for patients on insulin or a sulfonylurea, two of the
-high-risk classes in the table above.
-
-Many patients believe that a finger-prick glucose test breaks the fast, and some come to harm because
-of that belief [@zainudin2017knowledge]. The test does not break the fast, and Islam exempts the
-medically unfit, so monitoring and, where needed, not fasting are religiously permissible.
+Ramadan fasting needs the same medication review, made in advance.
 
 The safe approach is a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify
 the patient and adjust medication, following international guidance [@hassanein2022ramadan]. It is a
@@ -342,7 +347,7 @@ prevention and day-to-day management: structured lifestyle change prevents progr
 prediabetes, and a quality carbohydrate pattern with the plate method manages established disease. The
 individualised plan is made by referral, to the dietitian and the diabetes team.
 
-## The Singapore picture: the War on Diabetes {#sec-singapore}
+## The Singapore picture {#sec-singapore}
 
 Singapore declared a War on Diabetes in 2016. About one in three Singaporeans will develop diabetes in
 their lifetime [@mohWarOnDiabetes], and current prevalence is around 9% of adults [@mohNPHS2024].

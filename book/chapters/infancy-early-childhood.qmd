@@ -6,14 +6,14 @@
 
 ::: {.callout-note}
 ## Learning objectives
-- Identify the three nutrient gaps of the breastfed infant (vitamin D, vitamin K and iron) and how
-  each is filled.
-- Interpret the evidence for breastfeeding as specific benefits with their limits, and support formula
-  and mixed feeding, including safe preparation.
 - Explain why solids begin at about 6 months with iron-rich first foods, and how readiness signs set
   the start for an individual infant.
 - Explain how early oral exposure to peanut and egg builds tolerance, and refer the high-risk infant
   for specialist-guided peanut introduction.
+- Identify the three nutrient gaps of the breastfed infant (vitamin D, vitamin K and iron) and how
+  each is filled.
+- Interpret the evidence for breastfeeding as specific benefits with their limits, and support formula
+  and mixed feeding, including safe preparation.
 - Apply the division of responsibility to fussy eating and food refusal.
 - Recognise the infant food-safety hazards (honey, choking hazards, added sugar and salt) and advise on
   each, and recognise the preterm, low-birth-weight or faltering infant who needs referral.
@@ -22,17 +22,17 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Milk: breast, formula, and the gaps to fill](#sec-milk)
-  - [Breast milk: composition, evidence and gaps](#sec-breast-milk)
-  - [Formula and mixed feeding](#sec-formula)
-- [Starting solids, allergens, and responsive feeding](#sec-solids)
+- [What changes inside: iron stores and allergen tolerance](#sec-solids)
   - [Starting solids: timing and iron-rich first foods](#sec-starting-solids)
   - [Early allergen introduction: peanut and egg](#sec-allergens)
+- [What changes outside: breast milk, formula and responsive feeding](#sec-milk)
+  - [Breast milk: composition, evidence and gaps](#sec-breast-milk)
+  - [Formula and mixed feeding](#sec-formula)
   - [Responsive feeding and fussy eating](#sec-responsive-feeding)
 - [Recognising trouble, and when to refer](#sec-hazards)
 :::
 
-## The infant at a glance: two drivers {#sec-overview}
+## Infancy & early childhood at a glance: two drivers {#sec-overview}
 
 Infancy and early childhood run from birth to about the pre-school years; the focus here is the
 healthy term infant and young child. From about 4 to 5 years, a child eats essentially family foods
@@ -63,7 +63,79 @@ The sorter below groups common first foods by when, and in what form, each is sa
 
 <div data-island="food-form-sorter" data-src="/diagrams/food-form-sorter.yml"></div>
 
-## Milk: breast, formula, and the gaps to fill {#sec-milk}
+## What changes inside: iron stores and allergen tolerance {#sec-solids}
+
+### Starting solids: timing and iron-rich first foods {#sec-starting-solids}
+
+The question parents ask most, "when do we start?", has a physiological answer. Solids begin at
+about 6 months because the iron stores present at birth are running out, so the first foods must be
+iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short, and the first foods carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
+
+The infant's readiness, not the calendar, sets the start for each child. A ready infant shows four
+signs, usually near 6 months and not before 4 months:
+
+- sits with support;
+- has steady head control;
+- has lost the **tongue-thrust reflex**, which pushes food out of the mouth;
+- reaches for food.
+
+The 4-month floor reconciles two guideline positions. WHO holds to "about 6 months", whereas allergy
+and gastroenterology societies argue for starting solids, including allergens, between 4 and 6
+months [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. The two apply at different levels:
+"about 6 months" is the population default, and 4 months is the floor for an individual infant who
+is ready. Singapore's guidelines take the same position (see [The Singapore picture](#sec-singapore)).
+
+Cow's milk waits until about 12 months as the main drink, for the same iron reason. It is iron-poor
+and, in infancy, causes occult (hidden) blood loss from the gut, a direct route to iron deficiency
+[@ziegler1990cowmilk; @ziegler2011review]. Small amounts of yoghurt or cheese are fine as
+**complementary foods** (solids given alongside milk) from 6 months, so the line falls between cow's milk as the main drink and dairy
+as a food.
+
+The aim is to prevent iron deficiency before it starts. Iron deficiency in the brain-growth
+window between 6 and 24 months can leave neurocognitive effects that persist into adulthood despite
+later iron, which is the strongest argument for getting the first foods right [@lukowski2010iron].
+
+Textures also have to progress. Introducing lumps later than about 9 to 10 months is linked to more
+feeding difficulty years later, so food moves from purée to mashed to soft finger foods on schedule,
+and parents learn to tell normal, protective gagging from true choking [@coulthard2009texture].
+
+### Early allergen introduction: peanut and egg {#sec-allergens}
+
+For years the advice was to delay peanut and egg "to be safe". Trials have since reversed that
+advice, and the mechanism explains why. Two immune outcomes are possible when an infant first meets
+a food. **Sensitisation** primes the immune system to react to it; **tolerance** is acceptance, so
+eating the food causes no reaction. The **dual-allergen hypothesis** holds that the route of first
+exposure decides which occurs: inflamed, eczematous skin sensitises, whereas meeting the food by
+mouth first builds tolerance [@lack2008dual]. Early oral introduction therefore protects.
+
+The trial evidence agrees. The LEAP trial gave high-risk infants (those with severe eczema or egg
+allergy) peanut early and cut peanut allergy by around 80% [@dutoit2015leap]. The EAT trial pointed
+the same way, with adherence the practical limit, and a meta-analysis confirmed the effect for peanut
+and egg [@perkin2016eat; @ierodiakonou2016].
+
+In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
+applies: LEAP studied only these high-risk infants, so its 80% figure does not transfer to every
+infant (the high-risk infant is referred; see [Recognising trouble, and when to
+refer](#sec-hazards)).
+
+::: {.callout-tip collapse="true"}
+## Check yourself: iron stores run low at about 6 months. Why does that keep cow's milk from being the main drink until about 12 months?
+As the main drink, cow's milk is iron-poor and causes occult blood loss from the infant gut, a direct
+route to iron deficiency just as the iron stores present at birth run out. Iron deficiency between 6
+and 24 months can leave lasting neurocognitive effects. Small amounts of yoghurt or cheese are still
+fine as complementary foods, so the rule is about cow's milk as the main drink, not dairy as a food.
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: for years parents were told to delay peanut and egg. Why does early introduction protect instead?
+In the dual-allergen hypothesis, an infant becomes sensitised to a food through inflamed, eczematous
+skin but develops tolerance by meeting it by mouth first, so early oral introduction builds
+tolerance. LEAP cut peanut allergy by around 80%, and a meta-analysis confirmed the effect for peanut
+and egg. LEAP's 80% figure comes from high-risk infants (those with severe eczema or egg allergy), so
+it does not transfer to every infant.
+:::
+
+## What changes outside: breast milk, formula and responsive feeding {#sec-milk}
 
 ### Breast milk: composition, evidence and gaps {#sec-breast-milk}
 
@@ -108,9 +180,9 @@ it [@hand2022vitk]. The depletion of iron stores at about 6 months sets the timi
 
 The recommendation built on the evidence above and these gaps is **exclusive breastfeeding**
 (breast milk only, with no other food or drink apart from vitamin drops or medicines) for about 6
-months. After that come **complementary foods** (solids given alongside milk), with continued
+months. After that come complementary foods, with continued
 breastfeeding into the second year, supported by the Baby-Friendly Hospital Initiative
-[@whoBreastfeeding]. The recommendation is applied with the iron and allergen caveats that follow
+[@whoBreastfeeding]. The recommendation is applied with the iron and allergen caveats above
 [@kramer2012cochrane].
 
 ### Formula and mixed feeding {#sec-formula}
@@ -139,77 +211,6 @@ fruit can stand in for vegetables or that a child should always finish the plate
 whole household that feeds the child [@tanGrandparents2019].
 :::
 
-::: {.callout-tip collapse="true"}
-## Check yourself: a healthy term breastfed baby is given vitamin D drops from birth, but no iron drops. Why the difference?
-Breast milk is low in vitamin D from the start, so every breastfed or partially breastfed infant
-needs 400 IU/day from birth. Iron is different: a term infant's stores present at birth last about
-6 months, so the iron gap opens later and is filled by iron-rich first foods, not drops. The same
-depletion of iron stores at about 6 months sets the timing of solids.
-:::
-
-::: {.callout-tip collapse="true"}
-## Check yourself: only about 3% of Singapore infants are exclusively breastfed at 6 months. What follows for a mother who is mixed feeding?
-Mixed feeding is the usual pattern, not a failure, so she gets practical support without shame.
-Formula is safe and adequate, so the useful advice is safe preparation: water at 70 °C or above to
-kill *Cronobacter*, cooling, and discarding any made-up feed after 2 hours. Because her baby still
-receives some breast milk, the 400 IU/day vitamin D dose still applies.
-:::
-
-## Starting solids, allergens, and responsive feeding {#sec-solids}
-
-### Starting solids: timing and iron-rich first foods {#sec-starting-solids}
-
-The question parents ask most, "when do we start?", has a physiological answer. Solids begin at
-about 6 months because the iron stores present at birth are running out, so the first foods must be
-iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short, and the first foods carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
-
-The infant's readiness, not the calendar, sets the start for each child. A ready infant shows four
-signs, usually near 6 months and not before 4 months:
-
-- sits with support;
-- has steady head control;
-- has lost the **tongue-thrust reflex**, which pushes food out of the mouth;
-- reaches for food.
-
-The 4-month floor reconciles two guideline positions. WHO holds to "about 6 months", whereas allergy
-and gastroenterology societies argue for starting solids, including allergens, between 4 and 6
-months [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. The two apply at different levels:
-"about 6 months" is the population default, and 4 months is the floor for an individual infant who
-is ready. Singapore's guidelines take the same position (see [The Singapore picture](#sec-singapore)).
-
-Cow's milk waits until about 12 months as the main drink, for the same iron reason. It is iron-poor
-and, in infancy, causes occult (hidden) blood loss from the gut, a direct route to iron deficiency
-[@ziegler1990cowmilk; @ziegler2011review]. Small amounts of yoghurt or cheese are fine as
-complementary foods from 6 months, so the line falls between cow's milk as the main drink and dairy
-as a food.
-
-The aim is to prevent iron deficiency before it starts. Iron deficiency in the brain-growth
-window between 6 and 24 months can leave neurocognitive effects that persist into adulthood despite
-later iron, which is the strongest argument for getting the first foods right [@lukowski2010iron].
-
-Textures also have to progress. Introducing lumps later than about 9 to 10 months is linked to more
-feeding difficulty years later, so food moves from purée to mashed to soft finger foods on schedule,
-and parents learn to tell normal, protective gagging from true choking [@coulthard2009texture].
-
-### Early allergen introduction: peanut and egg {#sec-allergens}
-
-For years the advice was to delay peanut and egg "to be safe". Trials have since reversed that
-advice, and the mechanism explains why. Two immune outcomes are possible when an infant first meets
-a food. **Sensitisation** primes the immune system to react to it; **tolerance** is acceptance, so
-eating the food causes no reaction. The **dual-allergen hypothesis** holds that the route of first
-exposure decides which occurs: inflamed, eczematous skin sensitises, whereas meeting the food by
-mouth first builds tolerance [@lack2008dual]. Early oral introduction therefore protects.
-
-The trial evidence agrees. The LEAP trial gave high-risk infants (those with severe eczema or egg
-allergy) peanut early and cut peanut allergy by around 80% [@dutoit2015leap]. The EAT trial pointed
-the same way, with adherence the practical limit, and a meta-analysis confirmed the effect for peanut
-and egg [@perkin2016eat; @ierodiakonou2016].
-
-In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
-applies: LEAP studied only these high-risk infants, so its 80% figure does not transfer to every
-infant (the high-risk infant is referred; see [Recognising trouble, and when to
-refer](#sec-hazards)).
-
 ### Responsive feeding and fussy eating {#sec-responsive-feeding}
 
 How a child is fed matters as much as what. **Responsive feeding** follows the child's hunger and
@@ -231,20 +232,19 @@ about a third of infants choke at least once between 6 and 8 months, at a simila
 way they are fed [@fangupo2016choking].
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: iron stores run low at about 6 months. Why does that keep cow's milk from being the main drink until about 12 months?
-As the main drink, cow's milk is iron-poor and causes occult blood loss from the infant gut, a direct
-route to iron deficiency just as the iron stores present at birth run out. Iron deficiency between 6
-and 24 months can leave lasting neurocognitive effects. Small amounts of yoghurt or cheese are still
-fine as complementary foods, so the rule is about cow's milk as the main drink, not dairy as a food.
+## Check yourself: a healthy term breastfed baby is given vitamin D drops from birth, but no iron drops. Why the difference?
+Breast milk is low in vitamin D from the start, so every breastfed or partially breastfed infant
+needs 400 IU/day from birth. Iron is different: a term infant's stores present at birth last about
+6 months, so the iron gap opens later and is filled by iron-rich first foods, not drops. The same
+depletion of iron stores at about 6 months sets the timing of solids.
 :::
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: for years parents were told to delay peanut and egg. Why does early introduction protect instead?
-In the dual-allergen hypothesis, an infant becomes sensitised to a food through inflamed, eczematous
-skin but develops tolerance by meeting it by mouth first, so early oral introduction builds
-tolerance. LEAP cut peanut allergy by around 80%, and a meta-analysis confirmed the effect for peanut
-and egg. LEAP's 80% figure comes from high-risk infants (those with severe eczema or egg allergy), so
-it does not transfer to every infant.
+## Check yourself: only about 3% of Singapore infants are exclusively breastfed at 6 months. What follows for a mother who is mixed feeding?
+Mixed feeding is the usual pattern, not a failure, so she gets practical support without shame.
+Formula is safe and adequate, so the useful advice is safe preparation: water at 70 °C or above to
+kill *Cronobacter*, cooling, and discarding any made-up feed after 2 hours. Because her baby still
+receives some breast milk, the 400 IU/day vitamin D dose still applies.
 :::
 
 ## Recognising trouble, and when to refer {#sec-hazards}

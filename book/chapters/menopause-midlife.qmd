@@ -22,11 +22,11 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight): weight follows age; fat moves to the abdomen
-- [What menopause changes: bone and the heart](#sec-meno-changes)
+- [What changes inside: weight, bone and the heart](#sec-meno-changes)
+  - [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight): weight follows age; fat moves to the abdomen
   - [Bone: fast loss around the final menstrual period](#sec-meno-bone)
   - [The cardiometabolic shift: which changes are menopause-linked](#sec-meno-heart): the LDL step and the age-related drift
-- [Soy foods and isoflavone supplements](#sec-meno-soy-limits)
+- [What changes outside: soy foods and the supplement marketplace](#sec-meno-soy-limits)
   - [Soy and hot flushes: at most a modest, inconsistent effect](#sec-meno-soy)
   - [Safety: soy and breast-cancer risk](#sec-meno-soy-safety): safe as food
 - [Recognising trouble, and when to refer](#sec-meno-refer)
@@ -34,7 +34,7 @@
   - [Unproven remedies and restrictive dieting](#sec-meno-harm): do no harm
 :::
 
-## Menopause at a glance {#sec-overview}
+## Menopause & midlife health at a glance: two drivers {#sec-overview}
 
 **Menopause** is a reproductive transition rather than a disease: the ovaries wind down and oestrogen
 falls. Three terms date the transition:
@@ -64,7 +64,9 @@ the commonest complaints are aching joints and muscles and poor sleep, with hot 
 [@chim2002sgSymptoms; @logan2023iwhp]. A woman here may never mention a flush, so listen for the aches and
 the sleepless nights instead.
 
-## Does menopause cause weight gain or slow the metabolism? {#sec-meno-weight}
+## What changes inside: weight, bone and the heart {#sec-meno-changes}
+
+### Does menopause cause weight gain or slow the metabolism? {#sec-meno-weight}
 
 Almost every woman reaches midlife having been told that menopause will make her gain weight and slow her
 metabolism, and much midlife advice is built on those two beliefs. The cohort and energy-expenditure data
@@ -86,7 +88,8 @@ mostly from losing muscle, and muscle is what resistance exercise and enough pro
 Both findings lead to the same advice: keep the muscle (protein plus resistance work) and mind the pattern
 and the portions. Aggressive dieting works against keeping the muscle, because severe restriction speeds
 the loss of lean mass and bone. The timeline below plots weight, fat and lean mass against the FMP; switch
-its layers to see the bone and lipid changes described in [What menopause changes](#sec-meno-changes).
+its layers to see the bone and lipid changes described in [Bone](#sec-meno-bone) and
+[The cardiometabolic shift](#sec-meno-heart).
 
 <div data-island="menopause-timeline" data-src="/diagrams/menopause-timeline.yml"></div>
 
@@ -104,8 +107,6 @@ Adjusted for fat-free mass, total energy expenditure is stable from about 20 to 
 woman's expenditure comes mostly from losing muscle. Protein and resistance exercise preserve that muscle.
 Severe restriction does the opposite: it speeds the loss of lean mass and bone.
 :::
-
-## What menopause changes: bone and the heart {#sec-meno-changes}
 
 ### Bone: fast loss around the final menstrual period {#sec-meno-bone}
 
@@ -198,7 +199,7 @@ cardiovascular advantage over men, adding to the age-related drift, so a whole d
 early acts before the numbers go wrong.
 :::
 
-## Soy foods and isoflavone supplements {#sec-meno-soy-limits}
+## What changes outside: soy foods and the supplement marketplace {#sec-meno-soy-limits}
 
 No midlife topic attracts more marketing than soy and its **phytoestrogens**, plant compounds that weakly
 mimic oestrogen (in soy, chiefly the **isoflavones**). The popular story errs in both directions: it

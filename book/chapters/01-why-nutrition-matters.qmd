@@ -29,7 +29,7 @@
 - [Nutrition counselling as a learnable skill](#sec-skill)
 :::
 
-## The burden of non-communicable disease {#sec-burden}
+## Why nutrition matters at a glance {#sec-overview}
 
 For most of medicine's history, the doctor's main concern was acute illness, injury and
 infection: pneumonia, sepsis, trauma. These have not gone away, but they have been overtaken. Today,
@@ -38,9 +38,11 @@ cause around three-quarters of deaths worldwide, setting aside deaths from the C
 [@whoNCD2025]. The main ones are
 cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. NCDs are, in
 large part, slow diseases of daily living, driven by a handful of modifiable behaviours: what we
-eat, how much we move, whether we sleep, smoke or drink.
+eat, how much we move, whether we sleep, smoke or drink. Diet sits near the top of that list.
 
-Diet sits near the top of that list. The Global Burden of Disease study attributes around 11 million
+## The burden of non-communicable disease {#sec-burden}
+
+The Global Burden of Disease study attributes around 11 million
 deaths a year to dietary risks such as too much sodium, too few wholegrains and too little fruit,
 which puts diet among the largest modifiable contributors to early death [@gbd2019diet].
 

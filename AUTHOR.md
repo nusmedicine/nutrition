@@ -404,8 +404,9 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 ::: {.callout-note}             — "## Learning objectives": 4–6 verb phrases a student should be able
                                   to do ("Explain…", "Distinguish…", "Recognise… and refer")
 ::: {.concept-tree}             — chapter map: ≤4 branches (the movements), each linked to its section
-## <Topic> at a glance          — orientation; an overview figure/table shows the structure (no
-                                  narrated roadmap, §11g)
+## <Chapter title> at a glance  — EVERY chapter; the H1 title before any colon, verbatim ("Macronutrients
+                                  at a glance"; Part II adds ": two drivers"). Orientation; an overview
+                                  figure/table shows the structure (no narrated roadmap, §11g)
 ## <Movement 1>  ┐ 3–5 named narrative beats (§11h); topics within a movement
 ## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned;
                    each movement ends with a collapsed "Check yourself" (§11j)
@@ -743,16 +744,36 @@ Chapters must read as a **structured narrative**, not a flat run of topics. Codi
 stage the same recipe and put **normal physiology before clinical problems**:
 
 ```
-## <Stage> at a glance                       — orientation + through-lines + the island
-## What changes at this stage                — the physiology (fold nutrient needs in when inseparable)
-## What commonly goes wrong                  — the concerns; SPLIT into 2 movements if rich (e.g. intake vs social)
+## <Stage> at a glance: two drivers         — orientation + the two-row driver table + the island
+## What changes inside: <subtitle>          — the internal drivers: physiology and needs (row 1 of the table)
+## What changes outside: <subtitle>         — the external levers: food environment, social, culture (row 2)
+## [one stage-specific movement, optional]  — only where the content needs it (e.g. Lactation)
 ## Recognising trouble, and when to refer    — red flags + the do-no-harm callout + a refer table (inline)
 ## <close question>
 ## The Singapore picture  ·  quiz  ·  case
 ```
-*Worked example — Healthy Ageing:* at a glance (two drivers) → What changes inside (⤷ protein · watch-list) →
-Why older adults eat less → Who they eat with → Recognising trouble, and when to refer → close →
-Singapore. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
+The two middle movement names are fixed (author decision 2026-10-22) so every life stage shows the same
+two-driver frame as its driver table; the subtitle carries the stage's own content.
+*Worked example — Healthy Ageing:* at a glance: two drivers → What changes inside (⤷ protein · micronutrients
+and hydration · why older adults eat less) → What changes outside (eating alone and isolation) →
+Recognising trouble, and when to refer → close → Singapore.
+
+**Disease chapters (Part IV) — the fixed scaffold** (author decision 2026-10-22):
+
+```
+## <Condition> at a glance                    — orientation; disambiguation of look-alike conditions goes here
+## Pathophysiology: <subtitle>               — always the first movement; definitions it needs are pre-taught
+                                               as its first sub-topic (§11j pass 2)
+## Dietary management: <subtitle>            — one or two movements, always named "Dietary management";
+                                               drug-diet safety (e.g. hypoglycaemia by drug class) belongs here
+## [one condition-specific movement, optional] — e.g. Remission and prevention; The joints; Advanced dementia;
+                                               Recognising and screening (may precede Dietary management
+                                               when the logic requires)
+## When to refer                              — every Part IV chapter: referral triggers, who to refer to
+## <close question>
+## The Singapore picture  ·  quiz  ·  case
+```
+The Singapore picture never takes a subtitle in any chapter; its opening sentence carries the local hook. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
 outline, quiz = self-test, case = case study.**
 
 **Verification — the preservation gate (REQUIRED after any restructure/rewrite).** A reorganisation must not

@@ -26,10 +26,11 @@
 - [Recognising and screening for malnutrition](#sec-mal-recognise)
   - [Who to suspect](#sec-mal-suspect): the at-risk groups
   - [Nutrition screening: the generalist's role](#sec-mal-screening): MUST flags risk, GLIM diagnoses
-- [Nutrition support and referral](#sec-mal-support)
-  - [The multidisciplinary nutrition team](#sec-mal-team): the dietitian leads assessment and the plan
+- [Dietary management: nutrition support](#sec-mal-support)
   - [Oral nutrition support: a stepwise, food-first approach](#sec-mal-ons): the steps and refeeding risk
   - [Dysphagia and texture-modified food](#sec-mal-dysphagia): red flags and the intake trade-off
+- [When to refer](#sec-mal-team): the multidisciplinary nutrition team; the dietitian leads assessment and
+  the plan
 :::
 
 ## Undernutrition & malnutrition at a glance {#sec-overview}
@@ -184,24 +185,7 @@ muscle mass, plus at least one aetiological criterion, such as reduced intake or
 dietitian or team makes it. The positive screen's job is to trigger documentation, monitoring and referral.
 :::
 
-## Nutrition support and referral {#sec-mal-support}
-
-### The multidisciplinary nutrition team {#sec-mal-team}
-
-Nutrition support is a team activity, and each member has a distinct part [@sgPostDischarge2023;
-@niceCG32NST]:
-
-- the dietitian does the assessment and the plan;
-- the doctor treats the underlying cause and champions nutrition by referring;
-- the nurse screens and monitors intake;
-- the speech therapist assesses swallowing and texture;
-- physiotherapists and occupational therapists restore the function that lets improved eating last;
-- the medical social worker tackles the social drivers;
-- the pharmacist watches drug–nutrient and electrolyte safety.
-
-The doctor's distinctive contribution is the referral that sets the team in motion; the feeding plan is
-the dietitian's. Nutrition is therefore best handled as interprofessional teamwork, not solo prescribing
-[@aclm2022comp; @crowley2019] (see the *Interprofessional Practice & Referral* chapter).
+## Dietary management: nutrition support {#sec-mal-support}
 
 ### Oral nutrition support: a stepwise, food-first approach {#sec-mal-ons}
 
@@ -292,11 +276,22 @@ pattern of red flags (a wet voice, slow meals, recurrent chest infections) still
 tends to lower intake, because it delivers less energy and calcium, so it needs fortifying and monitoring.
 :::
 
-## What does treating malnutrition look like for a generalist? {#sec-close}
+## When to refer {#sec-mal-team}
 
-It looks like catching malnutrition early and handing it on safely, without doing harm on the way: not
-feeding a starved patient up too fast, and referring a risky swallow on its red flags instead of waiting
-for a cough.
+Nutrition support is a team activity, and each member has a distinct part [@sgPostDischarge2023;
+@niceCG32NST]:
+
+- the dietitian does the assessment and the plan;
+- the doctor treats the underlying cause and champions nutrition by referring;
+- the nurse screens and monitors intake;
+- the speech therapist assesses swallowing and texture;
+- physiotherapists and occupational therapists restore the function that lets improved eating last;
+- the medical social worker tackles the social drivers;
+- the pharmacist watches drug–nutrient and electrolyte safety.
+
+The doctor's distinctive contribution is the referral that sets the team in motion; the feeding plan is
+the dietitian's. Nutrition is therefore best handled as interprofessional teamwork, not solo prescribing
+[@aclm2022comp; @crowley2019] (see the *Interprofessional Practice & Referral* chapter).
 
 ::: {.callout-important}
 ## You screen and refer; you do not prescribe the feeding plan
@@ -306,6 +301,21 @@ refers to the dietitian and the team [@sgPostDischarge2023; @aclm2022comp]. The 
 GLIM diagnosis, the ONS and enteral prescriptions, refeeding management and IDDSI level-setting are all
 team- and specialist-led.
 :::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: an older patient who lives alone screens high risk on MUST. What is the doctor's part, and what is left to the team?
+The doctor recognises the at-risk patient and the red flags, starts food-first and social support, treats
+the underlying cause and refers; that referral is what sets the team in motion. The dietitian then does
+the assessment and the plan, the nurse monitors intake, and the medical social worker tackles the social
+drivers such as living alone. The GLIM diagnosis, the ONS and enteral prescriptions, refeeding management
+and IDDSI level-setting are all team- and specialist-led.
+:::
+
+## What does treating malnutrition look like for a generalist? {#sec-close}
+
+It looks like catching malnutrition early and handing it on safely, without doing harm on the way: not
+feeding a starved patient up too fast, and referring a risky swallow on its red flags instead of waiting
+for a cough.
 
 ## The Singapore picture {#sec-singapore}
 

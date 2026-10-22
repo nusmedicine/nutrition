@@ -20,15 +20,15 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Physiological changes and nutrient needs](#sec-ageing-inside)
+- [What changes inside: physiological changes and nutrient needs](#sec-ageing-inside)
   - [Protein: needs rise with age](#sec-ageing-protein): anabolic resistance
   - [Micronutrients and hydration](#sec-ageing-watchlist): B12, vitamin D, calcium, fluids
-- [Why older adults eat less](#sec-ageing-eat-less): appetite, teeth, swallowing, medicines
-- [Social factors: eating alone and isolation](#sec-ageing-social): company raises intake
+  - [Why older adults eat less](#sec-ageing-eat-less): appetite, teeth, swallowing, medicines
+- [What changes outside: eating alone and isolation](#sec-ageing-social): company raises intake
 - [Recognising trouble, and when to refer](#sec-ageing-refer): unintentional weight loss
 :::
 
-## Healthy ageing at a glance: the two drivers {#sec-overview}
+## Healthy ageing at a glance: two drivers {#sec-overview}
 
 Later life here means the older adult, roughly 65 and over, ageing in health (the stages before it are in
 the *Adulthood & Working Life* and *Menopause & Midlife Health* chapters). As at every life stage, two
@@ -45,7 +45,7 @@ The through-line is a mismatch: energy needs go down while most nutrient needs d
 
 <div data-island="same-plate" data-src="/diagrams/same-plate.yml"></div>
 
-## Physiological changes and nutrient needs {#sec-ageing-inside}
+## What changes inside: physiological changes and nutrient needs {#sec-ageing-inside}
 
 Appetite and food intake fall with age, a change called the **anorexia of ageing**, so an older adult
 eats meaningfully less than they did as a young adult [@giezenaar2016appetite]. The recommendations for
@@ -120,7 +120,7 @@ In older age, B12 deficiency is mainly a problem of absorption, not intake. In s
 B12-rich diet may therefore not protect him, and he fits the at-risk profile to check or refer.
 :::
 
-## Why older adults eat less {#sec-ageing-eat-less}
+### Why older adults eat less {#sec-ageing-eat-less}
 
 The anorexia of ageing has several causes. The stomach empties more slowly and signals fullness sooner,
 and taste and especially smell fade, which drains food of its reward [@wysokinski2015anorexia]. Three
@@ -167,7 +167,7 @@ plate has to be made denser instead of larger, within the texture he has been pr
 food or drink, a wet voice or recurrent chest infections are red flags to refer.
 :::
 
-## Social factors: eating alone and isolation {#sec-ageing-social}
+## What changes outside: eating alone and isolation {#sec-ageing-social}
 
 For older adults, company at meals often does more for nutrition than any single nutrient. People eat more, and a
 wider variety of foods, in the company of familiar others than alone [@ruddock2019facilitation]. Eating

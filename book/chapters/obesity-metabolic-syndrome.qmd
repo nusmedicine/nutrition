@@ -23,15 +23,14 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Recognising obesity and the metabolic syndrome](#sec-recognising)
-  - [Classifying weight status](#sec-phenotype): BMI and waist on Singapore's lower cut-offs
-  - [The metabolic syndrome](#sec-mets): any three of five
-- [Pathophysiology](#sec-science)
+- [Pathophysiology: why the risks cluster and the weight accumulates](#sec-science)
+  - [Defining obesity and the metabolic syndrome](#sec-recognising): BMI and waist on Singapore's lower cut-offs; any three of five
   - [How obesity produces the metabolic syndrome](#sec-mechanism): fat as an endocrine organ
   - [Why weight accumulates](#sec-accumulation): food quality drives intake
-- [Managing over-nutrition](#sec-managing)
-  - [Lifestyle intervention first, then referral](#sec-lifestyle): five areas of lifestyle change and a 5–10% target
+- [Dietary management: lifestyle intervention and weight-inclusive care](#sec-managing)
+  - [Lifestyle intervention](#sec-lifestyle): five areas of lifestyle change and a 5–10% target
   - [Weight-inclusive care](#sec-weight-inclusive): framing as part of treatment
+- [When to refer](#sec-obesity-refer): medication and surgery as specialist tiers
 :::
 
 ## Obesity & metabolic syndrome at a glance {#sec-overview}
@@ -54,9 +53,11 @@ The physiology underneath (how energy balance is measured, and how leptin, ghrel
 hypothalamus set appetite) is in the [*Energy Balance*](energy-balance.qmd) and
 [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd) chapters.
 
-## Recognising obesity and the metabolic syndrome {#sec-recognising}
+## Pathophysiology: why the risks cluster and the weight accumulates {#sec-science}
 
-### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
+### Defining obesity and the metabolic syndrome {#sec-recognising}
+
+#### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
 
 BMI (weight ÷ height², introduced in the [*Energy Balance*](energy-balance.qmd#sec-measuring)
 chapter) is a screening proxy, not a measurement of fat. It cannot separate muscle from fat or say
@@ -88,7 +89,7 @@ BMI alone.
 A patient with a "reassuring" BMI of 24 kg/m² and a waist over the cut-off is still carrying risk.
 :::
 
-### The metabolic syndrome: a cluster, not a disease {#sec-mets}
+#### The metabolic syndrome: a cluster, not a disease {#sec-mets}
 
 Central fat rarely travels alone. The **metabolic syndrome** is the tendency for five cardiometabolic
 problems to appear together. Its harmonised international definition is any three of the following
@@ -133,8 +134,6 @@ obesity is not required. The label is a risk marker for type 2 diabetes and card
 so it prompts a look at the whole cluster and its common underlying abnormalities (insulin resistance
 with central fat), not a single drug for "the syndrome".
 :::
-
-## Pathophysiology: why the risks cluster and the weight accumulates {#sec-science}
 
 ### How obesity produces the metabolic syndrome {#sec-mechanism}
 
@@ -261,9 +260,9 @@ minimally processed food over ultra-processed, and water or an unsweetened drink
 sugar-sweetened one.
 :::
 
-## Managing over-nutrition {#sec-managing}
+## Dietary management: lifestyle intervention and weight-inclusive care {#sec-managing}
 
-### Lifestyle intervention first, then referral {#sec-lifestyle}
+### Lifestyle intervention: the cornerstone of care {#sec-lifestyle}
 
 The weight-loss target is modest. A sustained 5–10% weight loss yields a disproportionate,
 dose-dependent cardiometabolic benefit, improving glucose, blood pressure and lipids well out of
@@ -298,13 +297,6 @@ named but a fix cannot be promised [@daubenmier2011].
 **Behaviour change.** Behaviour-change skills make the other four changes stick (see the
 [*Behaviour-Change Counselling*](behaviour-change-counselling.qmd) chapter).
 
-::: {.callout-note}
-## Stepped care: medication, surgery and referral
-Above lifestyle sit two specialist tiers: anti-obesity medication (including the newer GLP-1
-receptor agonists) and **metabolic-bariatric surgery** (weight-loss surgery), which can achieve
-substantially greater loss for selected patients [@lee2023obesitylandscape]. The task at this stage
-is to **recognise that these tiers exist and refer**, not to prescribe or select them.
-
 Two evidence cautions apply to what lifestyle change can be expected to achieve. First, the landmark
 trials showing that lifestyle change can prevent or even remit diabetes used intensive, structured
 programmes. The Diabetes Prevention Program was a 16-session curriculum [@dpp2002], and DiRECT's ~46%
@@ -313,7 +305,6 @@ remission applied to early, non-insulin-treated patients and is untested in Asia
 events: an intensive lifestyle programme in established diabetes improved markers but did not reduce
 cardiovascular events [@lookahead2013]. (The mechanics of remission are in the *Type 2 Diabetes*
 chapter.)
-:::
 
 ### Weight-inclusive care: the framing is part of the treatment {#sec-weight-inclusive}
 
@@ -361,6 +352,27 @@ Weight stigma degrades the quality of care and drives patients to avoid appointm
 less of the care that helps. Stigma is also thought to raise cortisol and comfort-eating, which can
 promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is therefore
 part of the treatment.
+:::
+
+## When to refer {#sec-obesity-refer}
+
+Lifestyle change stays the base of care at every step; the specialist tiers above it are reached by
+referral.
+
+::: {.callout-note}
+## Stepped care: medication, surgery and referral
+Above lifestyle sit two specialist tiers: anti-obesity medication (including the newer GLP-1
+receptor agonists) and **metabolic-bariatric surgery** (weight-loss surgery), which can achieve
+substantially greater loss for selected patients [@lee2023obesitylandscape]. The task at this stage
+is to **recognise that these tiers exist and refer**, not to prescribe or select them.
+:::
+
+::: {.callout-tip collapse="true"}
+## Check yourself: a patient with obesity asks you to start her on a GLP-1 drug. What is your role at this stage?
+Anti-obesity medication, including the GLP-1 receptor agonists, and metabolic-bariatric surgery are
+specialist tiers that sit above lifestyle change. The task at this stage is to recognise that these
+tiers exist and refer, not to prescribe or select them. Lifestyle change stays the cornerstone: the
+other treatments are added to it, not substituted for it.
 :::
 
 ## Is obesity just "eating too much"? {#sec-close}

@@ -20,9 +20,8 @@
 ::: {.concept-tree}
 [Chapter map]{.tree-title}
 
-- [Three conditions people confuse](#sec-bone-conditions)
 - [Pathophysiology: bone remodelling](#sec-bone-bank)
-- [Modifiable factors in bone health](#sec-bone-levers)
+- [Dietary management: modifiable factors in bone health](#sec-bone-levers)
   - [Calcium](#sec-bone-calcium): requirements and bioavailability
   - [Vitamin D](#sec-bone-vitd): calcium absorption, and deficiency despite the sun
   - [Does protein leach calcium from bone?](#sec-bone-protein)
@@ -31,8 +30,11 @@
   - [Supplements](#sec-bone-supplements): for deficiency, not for everyone
 - [The joints](#sec-bone-joints)
   - [Osteoarthritis](#sec-bone-oa): weight loss, not supplements
-  - [Gout](#sec-bone-gout): diet and urate-lowering treatment
+  - [Gout](#sec-bone-gout): diet and counselling
   - [Rheumatoid arthritis](#sec-bone-ra): nutrition as an adjunct
+- [When to refer](#sec-bone-refer)
+  - [Osteoporosis](#sec-bone-refer-osteoporosis): case-finding, diagnosis and drug treatment
+  - [Gout](#sec-bone-refer-gout): urate-lowering treatment to target
 :::
 
 ## Bone & joint health at a glance {#sec-bone-overview}
@@ -45,6 +47,16 @@ joint cartilage) and **gout** (a metabolic disease in which uric acid crystals i
 too [@leung2018sgkoa; @lee2023sggout], and supplements are heavily marketed for both. For bone, calcium, vitamin D and
 protein are strong, correctable factors; for the joints, the answer is usually to lose weight, skip the
 supplement and refer.
+
+[]{#sec-bone-conditions}
+
+Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three need different
+nutrition, and getting them backwards is a common error.
+
+![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
+
+The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
+osteoporosis, and gout is neither wear nor thinning.
 
 Four principles apply throughout:
 
@@ -59,23 +71,6 @@ Four principles apply throughout:
 - For the joints, the best-marketed supplement (glucosamine) is the one the guidelines advise against; the
   effective measures are weight loss for osteoarthritis and a urate-lowering drug for gout [@wandel2010nma;
   @kolasinski2020acr].
-
-## Three conditions people confuse {#sec-bone-conditions}
-
-Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three need different
-nutrition, and getting them backwards is a common error.
-
-![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
-
-The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
-osteoporosis, and gout is neither wear nor thinning.
-
-::: {.callout-tip collapse="true"}
-## Check yourself: a patient with knee osteoarthritis starts calcium tablets for his joints. Why won't they help?
-Osteoarthritis is worn joint cartilage, not low bone density, so calcium, which acts on bone, does not act
-on it. The one effective dietary measure for osteoarthritis is weight loss. Calcium belongs to osteoporosis, a
-different condition with a different diet story.
-:::
 
 ## Pathophysiology: bone remodelling {#sec-bone-bank}
 
@@ -140,7 +135,7 @@ threshold: in a model, a 10% higher peak delays onset by about 13 years, more th
 slower loss. The gain is years of delay, not a percentage cut in fractures.
 :::
 
-## Modifiable factors in bone health {#sec-bone-levers}
+## Dietary management: modifiable factors in bone health {#sec-bone-levers}
 
 ### Calcium: requirements and bioavailability {#sec-bone-calcium}
 
@@ -336,7 +331,7 @@ staying active). When a patient asks "should I take glucosamine?", the money is 
 that work.
 :::
 
-### Gout: diet and urate-lowering treatment {#sec-bone-gout}
+### Gout: diet and counselling {#sec-bone-gout}
 
 Gout is the one joint condition where particular foods matter, if only modestly, and it is misunderstood at
 both ends. Patients are often told it is "their fault for eating too much seafood" and respond by cutting
@@ -356,10 +351,6 @@ The ACR gout guideline grades these dietary limits as only conditional, on low-q
 popular remedies fare no better: cherries are linked to fewer flares only in observational data, and vitamin C
 does not meaningfully lower urate [@fitzgerald2020goutacr; @zhang2012cherry; @stamp2013vitc].
 
-The effective treatment is a urate-lowering drug (allopurinol) titrated to a target blood urate level
-[@fitzgerald2020goutacr]. Singapore's own data show that the real problem is under-treatment: most local gout
-patients never reach that target [@lee2023sggout; @oka2023goutcontrol].
-
 When you counsel a patient with gout, the message runs: "It is not your fault. Don't starve yourself of
 protein and vegetables, cut the beer and sugary drinks if you like, and take the medication to target."
 (Obesity is linked to a higher risk of gout, and the ACR guideline conditionally recommends weight loss for
@@ -374,12 +365,64 @@ anti-inflammatory medication, and a Mediterranean pattern may help a little, but
 drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
 
 ::: {.callout-tip collapse="true"}
+## Check yourself: a patient with knee osteoarthritis starts calcium tablets for his joints. Why won't they help?
+Osteoarthritis is worn joint cartilage, not low bone density, so calcium, which acts on bone, does not act
+on it. The one effective dietary measure for osteoarthritis is weight loss. Calcium belongs to osteoporosis, a
+different condition with a different diet story.
+:::
+
+::: {.callout-tip collapse="true"}
 ## Check yourself: why does losing about 10% of body weight help a painful knee when glucosamine does not?
 Obesity loads the joint mechanically and adds the low-grade inflammation of adipose tissue. In the IDEA
 trial, losing about 10% of body weight improved pain and function while lowering both knee load and
 inflammation, with more loss giving more benefit. In the major independent trials, glucosamine and
 chondroitin were no better than placebo for pain or joint structure, which is why the major guidelines advise
 against them.
+:::
+
+## When to refer {#sec-bone-refer}
+
+The bone and joint conditions share one rule at this level: recognise who needs specialist
+assessment or drug treatment, and refer.
+
+### Osteoporosis: case-finding, diagnosis and drug treatment {#sec-bone-refer-osteoporosis}
+
+National guidance sets case-finding and treatment. HPB's public message pairs two measures, a
+high-calcium diet and weight-bearing exercise [@hpbOsteoporosisAwareness2009]. Four terms describe
+case-finding and diagnosis:
+
+OSTA
+: An Asian screen, based on age and weight, that flags who needs a bone scan [@koh2001osta].
+
+FRAX
+: A tool that estimates 10-year fracture probability, with Singapore-calibrated models [@fraxSingapore].
+
+T-score
+: Bone density on a DXA scan (the low-dose X-ray scan met in the [*Energy Balance*](energy-balance.qmd)
+  chapter), expressed in standard deviations from the young-adult peak.
+
+Fragility fracture
+: A break from a fall from standing height or less.
+
+A T-score of −2.5 or below, or any fragility fracture, defines osteoporosis [@aceOsteoporosis2018]. Drug
+treatment and menopausal hormone decisions are specialist, guided by the national ACE guidance and the 2025
+Singapore consensus; at this level they are signposted, not managed
+[@aceOsteoporosis2025; @gani2025osteoconsensusSG].
+
+### Gout: urate-lowering treatment to target {#sec-bone-refer-gout}
+
+The effective treatment is a urate-lowering drug (allopurinol) titrated to a target blood urate level
+[@fitzgerald2020goutacr]. Singapore's own data show that the real problem is under-treatment: most local gout
+patients never reach that target [@lee2023sggout; @oka2023goutcontrol].
+
+::: {.callout-important}
+## Recognise and refer, for bone and joints alike
+For bone, recognise the modifiable nutrient factors (calcium, vitamin D, protein, energy), correct genuine
+deficiency without blanket-supplementing, and refer using OSTA, FRAX and DXA. For the joints, recognise that
+the effective measures are weight loss and activity for osteoarthritis and a urate-lowering drug to target
+for gout, and that the best-selling joint supplement does not work. The osteoporosis drugs and hormone
+therapy, the allopurinol titration and the arthritis disease-modifying drugs are all **specialist: named and
+referred, never prescribed at this level** [@aceOsteoporosis2018; @kolasinski2020acr; @fitzgerald2020goutacr].
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -398,7 +441,7 @@ Bone and the joints call for almost opposite answers. For bone, the modifiable f
 - a well-absorbed calcium source (dairy optional), with enough vitamin D, protein and energy;
 - weight-bearing exercise;
 - correction of genuine deficiency without medicalising everyone, and referral for a bone-density scan
-  (case-finding is set out in [The Singapore picture](#sec-bone-singapore)).
+  (case-finding is set out in [When to refer](#sec-bone-refer-osteoporosis)).
 
 For the joints, the answer is usually less about a pill:
 
@@ -421,38 +464,6 @@ osteoporotic fractures are projected to climb further by 2035 [@yong2019hipfracS
 @chandran2019burdenSG]. Fractures are about twice as common in women as in men, and Chinese Singaporeans
 carry the highest ethnic risk [@yong2019hipfracSG]. A hip fracture also carries high mortality: about double
 the background rate in women, and higher in men [@yong2020mortalitySG].
-
-**National guidance sets case-finding and treatment.** HPB's public message pairs two measures, a
-high-calcium diet and weight-bearing exercise [@hpbOsteoporosisAwareness2009]. Four terms describe
-case-finding and diagnosis:
-
-OSTA
-: An Asian screen, based on age and weight, that flags who needs a bone scan [@koh2001osta].
-
-FRAX
-: A tool that estimates 10-year fracture probability, with Singapore-calibrated models [@fraxSingapore].
-
-T-score
-: Bone density on a DXA scan (the low-dose X-ray scan met in the [*Energy Balance*](energy-balance.qmd)
-  chapter), expressed in standard deviations from the young-adult peak.
-
-Fragility fracture
-: A break from a fall from standing height or less.
-
-A T-score of −2.5 or below, or any fragility fracture, defines osteoporosis [@aceOsteoporosis2018]. Drug
-treatment and menopausal hormone decisions are specialist, guided by the national ACE guidance and the 2025
-Singapore consensus; at this level they are signposted, not managed
-[@aceOsteoporosis2025; @gani2025osteoconsensusSG].
-
-::: {.callout-important}
-## Recognise and refer, for bone and joints alike
-For bone, recognise the modifiable nutrient factors (calcium, vitamin D, protein, energy), correct genuine
-deficiency without blanket-supplementing, and refer using OSTA, FRAX and DXA. For the joints, recognise that
-the effective measures are weight loss and activity for osteoarthritis and a urate-lowering drug to target
-for gout, and that the best-selling joint supplement does not work. The osteoporosis drugs and hormone
-therapy, the allopurinol titration and the arthritis disease-modifying drugs are all **specialist: named and
-referred, never prescribed at this level** [@aceOsteoporosis2018; @kolasinski2020acr; @fitzgerald2020goutacr].
-:::
 
 ## Check your understanding {#sec-bone-quiz}
 
