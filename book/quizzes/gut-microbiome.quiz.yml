@@ -54,7 +54,7 @@ questions:
     options:
       - text: "Colonic bacteria ferment the carbohydrate, producing gas."
         correct: true
-        feedback: "Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄), which is usually a sign that fermentation is proceeding normally. Undigested lactose reaching the colon (see the *Digestion & Absorption* chapter) is a classic example."
+        feedback: "Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄), which is usually a sign that fermentation is proceeding normally. Undigested lactose reaching the colon (see the *Digestion and absorption* chapter) is a classic example."
       - text: "The stomach can't handle these foods, so acid escapes as gas."
         correct: false
         feedback: "The gas comes from bacterial fermentation in the colon, not from the stomach."

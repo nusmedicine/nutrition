@@ -65,9 +65,9 @@ Healthy Plate is its local form, which needs no counting of nutrients [@hpbHealt
 Diet raises blood pressure and promotes atherosclerosis mainly through two pathways, and both converge
 on the vessel wall. Both pathways build on how fats are carried as lipoproteins (see the
 [*Macronutrients*](macronutrients.qmd) and
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapters) and how sodium
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapters) and how sodium
 and water balance is regulated (see the
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter). Four terms recur
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter). Four terms recur
 below:
 
 Atherosclerosis
@@ -97,8 +97,8 @@ potassium works the other way, helping the kidney excrete sodium and relaxing th
 [@who2012potassium].
 
 Blood pressure and plaque then act on the same endothelium, and the insulin resistance and dyslipidaemia
-of obesity and type 2 diabetes feed both pathways (see the *Obesity & Metabolic Syndrome* and *Type 2
-Diabetes* chapters).
+of obesity and type 2 diabetes feed both pathways (see the *Obesity & metabolic syndrome* and *Type 2
+diabetes* chapters).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: salt and saturated fat act on different things. Why can cutting either one lower the risk of heart attack and stroke?
@@ -114,7 +114,7 @@ vessel wall.
 ### The DASH dietary pattern {#sec-cvd-dash}
 
 The DASH pattern (rich in fruit, vegetables, wholegrains and low-fat dairy; see the
-[*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter) was designed to lower blood
+[*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter) was designed to lower blood
 pressure, and it does so in its own right. In the landmark feeding trial, with sodium and weight held
 constant, it lowered blood pressure by about 5.5/3.0 mmHg overall and 11.4/5.5 mmHg in people with
 hypertension, so the effect came from the pattern itself [@appel1997dash]. Two caveats apply. The trial
@@ -131,7 +131,7 @@ protein [@hpbHealthyPlate].
 
 ### Sodium reduction and potassium intake {#sec-cvd-sodium}
 
-Sodium is Singapore's headline dietary problem (see the *Micronutrients, Hydration & Electrolytes*
+Sodium is Singapore's headline dietary problem (see the *Micronutrients, hydration and electrolytes*
 chapter). About 9 in 10 residents exceed the recommended sodium limit, averaging about 3,600 mg a day
 (roughly twice the WHO ceiling), and most of it is hidden in soup bases, sauces, seasonings and food eaten
 out, not added from the salt shaker [@hpb2023sodium]. The blood-pressure benefit of cutting back is
@@ -153,7 +153,7 @@ potassium supplements** [@neal2021ssass]. Two other common blood-pressure drugs 
 potassium: angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor blockers (ARBs). In
 all of these people, extra potassium can cause dangerous hyperkalaemia, a high blood potassium that can disturb heart
 rhythm. So before recommending one, check for kidney disease and those medications, and if in doubt,
-don't. (For the renal side of potassium, see the *Chronic Kidney Disease* chapter.)
+don't. (For the renal side of potassium, see the *Chronic kidney disease* chapter.)
 :::
 
 ::: {.callout-tip}
@@ -222,7 +222,7 @@ different things:
 ### The Mediterranean dietary pattern {#sec-cvd-mediterranean}
 
 The Mediterranean pattern (olive oil, nuts, fish, vegetables, legumes, wholegrains; see the *What a
-Healthy Diet Looks Like* chapter) is the one with event-level trial evidence. In PREDIMED it lowered a
+healthy diet looks like* chapter) is the one with event-level trial evidence. In PREDIMED it lowered a
 composite of cardiovascular events by about 30% in relative terms in a high-risk Spanish population, a
 signal driven mainly by stroke [@estruch2018predimed].
 
@@ -239,7 +239,7 @@ oils.
 
 The old reassurance that "a daily glass protects your heart" has not held up. The apparent benefit came
 from comparing drinkers with an "abstainer" group that included people who had stopped drinking because
-they were ill (see the [*Adulthood & Working Life*](adulthood-working-life.qmd) chapter); Mendelian
+they were ill (see the [*Adulthood*](adulthood-working-life.qmd) chapter); Mendelian
 randomisation studies, which use genetic variants to remove that bias, find risk rising with intake and
 no protective threshold [@biddinger2022mralcohol], and health bodies now state that there is no safe
 level [@who2023nosafelevel].
@@ -279,7 +279,7 @@ for the plan: a dietitian delivers the structured change, and drug decisions bel
 
 The national clinical guidances on hypertension and lipids, from the Agency for Care Effectiveness
 (ACE), are risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023]. Structured dietary change is
-referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional Practice & Referral* chapter).
+referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
 ## Blood-pressure and cholesterol targets: risk-tiered and looked up

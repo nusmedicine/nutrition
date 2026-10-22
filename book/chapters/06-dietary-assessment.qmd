@@ -37,7 +37,7 @@
 
 ## Assessing diet and talking to patients at a glance {#sec-overview}
 
-Knowing what people should eat (see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd)
+Knowing what people should eat (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
 chapter) is useful only once the clinician knows what a patient eats now: a diet cannot be counselled
 before it has been assessed. The tool is the **diet history**, a structured conversation about what a
 patient usually eats and drinks. The same short conversation that surfaces food also surfaces
@@ -119,12 +119,12 @@ small or unrealistic serving: a bottle labelled "2.5 servings" hides how much su
 when they finish it in one go. The per-100 g or per-100 ml column is the one to check, because it
 compares products fairly. The ingredient list adds one more signal: it is ordered by weight, so sugar
 near the top, under any of its many names, is a warning. (The policy behind labels and the wider food
-environment is in the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter.)
+environment is in the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ### Nutri-Grade: front-of-pack grading of drinks {#sec-nutri-grade}
 
 Nutri-Grade, Singapore's front-of-pack mark for drinks (see the
-[*Why Nutrition Matters*](01-why-nutrition-matters.qmd) chapter), turns the label into a one-glance
+[*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter), turns the label into a one-glance
 judgement. It grades a beverage A to D by sugar per 100 ml (A ≤1 g, B >1–5 g, C >5–10 g, D >10 g).
 A high saturated-fat content then downgrades it, so a low-sugar but creamy drink still cannot
 reach an A. Grades C and D must display the mark, and grade D cannot be advertised. Since 30 December 2023 the mark has also covered freshly-prepared drinks such as *kopi*, *teh* and bubble tea, although small sellers (revenue of S$1 million or less and fewer than 10 outlets) are exempt; pre-packaged drinks have carried it since 30 December 2022 [@hpbNutriGrade]. That reach makes "grade
@@ -188,7 +188,7 @@ plain terms, the two or three things worth shifting.
 
 **Anthropometry** (body measurements such as weight, height and waist circumference) adds an objective
 anchor to the history. BMI classifies weight-for-height (see the
-[*Energy Balance*](energy-balance.qmd#sec-measuring) chapter), but its thresholds are not universal.
+[*Energy balance*](energy-balance.qmd#sec-measuring) chapter), but its thresholds are not universal.
 Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
 populations than the international thresholds assume [@sgObesityBMI]:
 
@@ -210,11 +210,11 @@ illness stopping intake, flags this risk and triggers a referral pathway [@bapen
 
 Unplanned weight loss earns its place in MUST for a physiological reason. A sustained energy deficit,
 worsened by illness, drives catabolism of **lean body mass** (muscle and organ protein) as well as fat
-(see prolonged fasting in the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-starvation)
+(see prolonged fasting in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation)
 chapter). The loss of that functional tissue erodes strength, immunity and recovery. A falling weight
 is therefore a red flag even when the BMI still reads "normal", which is why MUST scores recent loss
 independently of BMI. At this stage you recognise when MUST applies and refer; you do not need to
-score and manage it (see the [*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd)
+score and manage it (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
 chapter for the recognition and management of the malnourished patient).
 
 ::: {.callout-important}
@@ -259,7 +259,7 @@ sequence [@fiveAsNutrition]:
 :::
 
 The full cycle, and the motivational-interviewing skills behind it, are in the
-[*Behaviour-Change Counselling*](behaviour-change-counselling.qmd) chapter. The opening moves, assess
+[*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter. The opening moves, assess
 and advise, are where first contact succeeds or fails. Assessing means finding out what the patient
 eats and what they are ready to change, without judgement; it is the diet history above. Advising
 means offering one concrete, realistic step, with permission: "Would it be alright if I shared one

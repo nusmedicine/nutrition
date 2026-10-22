@@ -34,7 +34,7 @@ components:
   - id: glucose
     label: "Raised fasting glucose"
     threshold: "≥5.6 mmol/L"
-    note: "Impaired fasting glucose: an early signal, well before the diagnostic cut-off in the Type 2 Diabetes chapter."
+    note: "Impaired fasting glucose: an early signal, well before the diagnostic cut-off in the Type 2 diabetes chapter."
 # How many of the five must be present to meet the harmonised criteria.
 threshold_count: 3
 verdicts:

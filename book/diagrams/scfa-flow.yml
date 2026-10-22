@@ -41,7 +41,7 @@ nodes:
     y: 215
     kind: scfa
     pct: 20
-    detail: "Taken up by the liver via the portal vein, where it is a substrate for gluconeogenesis (see the Integrative Metabolism chapter)."
+    detail: "Taken up by the liver via the portal vein, where it is a substrate for gluconeogenesis (see the Integrative metabolism chapter)."
   - id: butyrate
     label: "Butyrate"
     sub: "~20%, least abundant"

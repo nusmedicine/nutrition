@@ -1,5 +1,5 @@
 # Chat-forward simulated-patient case for the Integrated cases chapter.
-# Grounded in *Healthy Ageing* and *Undernutrition & Malnutrition*: the do-no-harm
+# Grounded in *Healthy ageing* and *Undernutrition & malnutrition*: the do-no-harm
 # inversion — restrictive "healthy eating" is harmful in a thin, frail older adult;
 # the rule is to raise nutrient density, avoid restriction, then refer.
 id: sim-frailty-undernutrition-mr-chua

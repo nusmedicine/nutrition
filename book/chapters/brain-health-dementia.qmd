@@ -42,8 +42,8 @@ summarise the evidence:
 - The largest dietary benefit for the brain comes through vascular risk: what protects the heart
   protects the brain. Managing blood pressure, glucose, weight, lipids, smoking and activity is the
   best-supported, most actionable advice. It is the same prevention as for heart disease and diabetes
-  (see the [*Cardiovascular Disease & Hypertension*](cardiovascular-disease-hypertension.qmd) and
-  [*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
+  (see the [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) and
+  [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 - A brain-healthy eating pattern is a reasonable, low-regret choice, not a proven cure. The cohort
   studies look impressive, but the one prevention trial built to test a brain diet was negative.
 - No brain supplement is proven to prevent dementia, and a few can do harm.
@@ -66,14 +66,14 @@ settled fact.
 
 The second is vascular: damage to the brain's small blood vessels, called **cerebral small-vessel
 disease**. Chronic hypertension damages blood vessels and drives stroke (see the
-[*Cardiovascular Disease & Hypertension*](cardiovascular-disease-hypertension.qmd) chapter), and it
+[*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapter), and it
 damages the brain's own small vessels too. Hypertension stiffens and thickens the small
 arterioles, which impairs blood flow and injures the surrounding white matter. The result is the
 **lacunar strokes** (small, deep infarcts: areas of brain tissue killed by a blocked small vessel)
 and white-matter changes seen on scans.
 
 Diabetes adds to the same vascular injury. The hyperglycaemic, insulin-resistant state (see the
-[*Type 2 Diabetes*](type-2-diabetes.qmd) chapter) also damages the brain's small vessels and speeds
+[*Type 2 diabetes*](type-2-diabetes.qmd) chapter) also damages the brain's small vessels and speeds
 brain atrophy [@biessels2014diabetesmri]. There is no separate "diabetic dementia".
 
 ![Two kinds of damage usually combine to produce dementia. Neurodegeneration (amyloid plaques and tau tangles) and cerebral small-vessel disease (from hypertension and diabetes) each push the brain toward a clinical threshold; because their injury adds together, reducing the vascular load lowers the total burden and can keep a person below that threshold for longer.](/figures/mechanisms/dementia-two-pathways.svg){#fig-two-pathways}
@@ -146,7 +146,7 @@ A three-year randomised trial of the MIND diet, built specifically to answer the
 then found no cognitive benefit over a control diet with the same mild calorie restriction and counselling
 [@barnes2023mindrct]. The cohort signal did not survive the trial.
 
-Three explanations fit the gap (see the [*Evidence vs Hype*](evidence-vs-hype.qmd) chapter):
+Three explanations fit the gap (see the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter):
 
 - People who eat well differ in a hundred other ways, some of which could produce the association.
   That is **confounding**: distortion of an association by a third factor linked to both the
@@ -189,7 +189,7 @@ The worried-well patient deserves the whole picture, and some of the strongest p
 not dietary:
 
 - physical activity, a headline recommendation for brain health that works partly through the same
-  vessels (see the [*Healthy Ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
+  vessels (see the [*Healthy ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
 - correcting hearing and vision, which matters more than most people expect: uncorrected hearing loss
   is one of the largest single modifiable contributors to dementia risk, so "get your hearing and eyes
   checked" is concrete, high-value advice.
@@ -264,9 +264,9 @@ for a referral instead of further advice or a product:
   the practice and refer to a speech therapist, who sets the texture level, instead of assuming it is needed.
 
 The recognise-and-refer posture, and the malnutrition screening behind it, are set out in the
-[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
+[*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
 who does what across the multidisciplinary team, is in the
-[*Interprofessional Practice & Referral*](interprofessional-referral.qmd) chapter.)
+[*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with advanced dementia has trouble swallowing, and the ward plans routine thickened fluids. What should the generalist do instead?

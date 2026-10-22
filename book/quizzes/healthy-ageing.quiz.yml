@@ -84,7 +84,7 @@ questions:
     options:
       - text: "Treat it as a red flag: evaluate the reversible causes and refer."
         correct: true
-        feedback: "Unintentional weight loss of about 5% or more over 6–12 months is the red flag, and this is the point where ageing in health has tipped into undernutrition. Do not dismiss it as normal ageing or put him on a restrictive \"healthy\" diet; support his intake with food-first density and refer. The management of malnutrition belongs to the *Undernutrition & Malnutrition* chapter."
+        feedback: "Unintentional weight loss of about 5% or more over 6–12 months is the red flag, and this is the point where ageing in health has tipped into undernutrition. Do not dismiss it as normal ageing or put him on a restrictive \"healthy\" diet; support his intake with food-first density and refer. The management of malnutrition belongs to the *Undernutrition & malnutrition* chapter."
       - text: "Reassure him that some weight loss is normal at his age and review in a year."
         correct: false
         feedback: "Weight loss of this degree is never \"just ageing\": it flags malignancy, depression, dental, swallowing or medication problems, and it warrants evaluation and referral now."

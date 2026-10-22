@@ -124,7 +124,7 @@ questions:
         feedback: "Prescribing and titrating osteoporosis drugs is specialist territory. The generalist's job is food-first advice, correcting deficiency, and referral."
       - text: "Prescribe the hormone therapy she clearly needs now"
         correct: false
-        feedback: "Menopausal hormone therapy is a specialist decision (see the *Menopause & Midlife Health* chapter), not a generalist reflex."
+        feedback: "Menopausal hormone therapy is a specialist decision (see the *Menopause & midlife health* chapter), not a generalist reflex."
       - text: "Reassure her that fractures at her age are normal"
         correct: false
         feedback: "A fragility fracture is a red flag, not a normal event: it defines osteoporosis and warrants referral, not reassurance."

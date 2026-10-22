@@ -36,10 +36,10 @@
 ## Obesity & metabolic syndrome at a glance {#sec-overview}
 
 Over- and under-nutrition are the two tails of malnutrition, and obesity is the more familiar one
-(undernutrition is in the *Undernutrition & Malnutrition* chapter). Obesity is also the entry point to
+(undernutrition is in the *Undernutrition & malnutrition* chapter). Obesity is also the entry point to
 a cardiometabolic cascade, because the same central, insulin-resistant fat that defines it drives much
-of type 2 diabetes and cardiovascular disease (see the *Type 2 Diabetes* and *Cardiovascular Disease &
-Hypertension* chapters).
+of type 2 diabetes and cardiovascular disease (see the *Type 2 diabetes* and *Cardiovascular disease &
+hypertension* chapters).
 
 Three ideas shape how over-nutrition is recognised and managed:
 
@@ -50,8 +50,8 @@ Three ideas shape how over-nutrition is recognised and managed:
   care.
 
 The physiology underneath (how energy balance is measured, and how leptin, ghrelin and the
-hypothalamus set appetite) is in the [*Energy Balance*](energy-balance.qmd) and
-[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd) chapters.
+hypothalamus set appetite) is in the [*Energy balance*](energy-balance.qmd) and
+[*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapters.
 
 ## Pathophysiology: why the risks cluster and the weight accumulates {#sec-science}
 
@@ -59,7 +59,7 @@ hypothalamus set appetite) is in the [*Energy Balance*](energy-balance.qmd) and
 
 #### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
 
-BMI (weight ÷ height², introduced in the [*Energy Balance*](energy-balance.qmd#sec-measuring)
+BMI (weight ÷ height², introduced in the [*Energy balance*](energy-balance.qmd#sec-measuring)
 chapter) is a screening proxy, not a measurement of fat. It cannot separate muscle from fat or say
 where the fat sits. That limitation matters in Singapore, because Singaporean adults carry more body
 fat, and proportionally more visceral fat, at a given BMI than the Western populations on which the
@@ -139,8 +139,8 @@ with central fat), not a single drug for "the syndrome".
 
 The five problems occur together because body fat is an active endocrine organ: where it sits and
 how it behaves link a waistline to a blood-glucose reading. (The normal mechanics of fat storage and
-insulin action are in the [*Energy Balance*](energy-balance.qmd) and
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-switch) chapters; here we follow how they go
+insulin action are in the [*Energy balance*](energy-balance.qmd) and
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-switch) chapters; here we follow how they go
 wrong.) Four terms describe the process:
 
 Ectopic fat
@@ -183,7 +183,7 @@ mechanism.
 
 Fat also signals the brain, and in obesity the signal goes wrong. Leptin, the satiety signal from
 fat, runs high, but central leptin signalling is blunted. This leptin resistance (see the
-[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter) weakens satiety
+[*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter) weakens satiety
 and makes the surplus harder to reverse [@myers2010leptin]. The same biology that produces the
 cluster also makes the extra weight harder to lose, which is why lifestyle change is a physiological
 intervention, not a test of willpower.
@@ -191,12 +191,12 @@ intervention, not a test of willpower.
 ### Why weight accumulates: energy balance and diet quality {#sec-accumulation}
 
 At the level of physics, weight gain is a chronic positive energy balance: small daily surpluses
-accumulated over years (see the [*Energy Balance*](energy-balance.qmd) chapter). "Eat less, move
+accumulated over years (see the [*Energy balance*](energy-balance.qmd) chapter). "Eat less, move
 more" is weak clinical advice on its own, however, because it treats every calorie as equal, and what
 is eaten shapes how much gets eaten. Two drivers do most of the work.
 
 **Ultra-processed foods drive overeating even when the nutrients are matched.** The evidence comes
-from the controlled inpatient trial met in the *Digestion & Absorption* chapter. People freely eating
+from the controlled inpatient trial met in the *Digestion and absorption* chapter. People freely eating
 an ultra-processed diet took in about 500 kcal a day more than the same people on an unprocessed diet,
 and gained weight, although the two diets were matched for sugar, fat, fibre and salt [@hall2019upf].
 Higher ultra-processed intake tracks with obesity and, more convincingly, with incident diabetes and
@@ -271,7 +271,7 @@ every other treatment is added to it, not substituted for it.
 
 Five areas of lifestyle change make up first-line care, and two of them, sleep and stress, are
 routinely under-used (see the
-[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-sleep-stress) chapter).
+[*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-sleep-stress) chapter).
 
 **Diet pattern.** The dietary change is a set of pattern-level substitutions built on My Healthy
 Plate, not a branded diet, aiming for a 5–10% loss over 6–12 months [@aceBmiControl2026].
@@ -295,7 +295,7 @@ is plausible but not proven. Mindfulness programmes for weight are still explora
 named but a fix cannot be promised [@daubenmier2011].
 
 **Behaviour change.** Behaviour-change skills make the other four changes stick (see the
-[*Behaviour-Change Counselling*](behaviour-change-counselling.qmd) chapter).
+[*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter).
 
 Two evidence cautions apply to what lifestyle change can be expected to achieve. First, the landmark
 trials showing that lifestyle change can prevent or even remit diabetes used intensive, structured
@@ -303,7 +303,7 @@ programmes. The Diabetes Prevention Program was a 16-session curriculum [@dpp200
 remission applied to early, non-insulin-treated patients and is untested in Asian primary care
 [@lean2018direct]. Second, improving those risk factors is not the same as preventing cardiovascular
 events: an intensive lifestyle programme in established diabetes improved markers but did not reduce
-cardiovascular events [@lookahead2013]. (The mechanics of remission are in the *Type 2 Diabetes*
+cardiovascular events [@lookahead2013]. (The mechanics of remission are in the *Type 2 diabetes*
 chapter.)
 
 ### Weight-inclusive care: the framing is part of the treatment {#sec-weight-inclusive}
@@ -407,7 +407,7 @@ diabetes roughly 1 in 11: the population denominators behind the clustering idea
 obesity and diabetes than Chinese residents [@zhang2024bmiSg]. The drivers are genetic,
 socio-economic, dietary and environmental, not moral, and the gradient motivates culturally tailored
 counselling and the national War on Diabetes [@mohWarOnDiabetes]. (The diabetes detail is in the
-*Type 2 Diabetes* chapter.)
+*Type 2 diabetes* chapter.)
 
 **National policy gives clinicians tools to point patients toward.** The tools include My Healthy
 Plate, Nutri-Grade (whose national roll-out measurably cut the sugar in drinks bought)

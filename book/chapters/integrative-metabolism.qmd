@@ -47,7 +47,7 @@
 ## Integrative metabolism at a glance {#sec-overview}
 
 Once a meal has been digested and absorbed, its glucose, amino acids and fat enter the circulation
-(see the [*Macronutrients*](macronutrients.qmd) and [*Digestion & Absorption*](digestion-absorption.qmd)
+(see the [*Macronutrients*](macronutrients.qmd) and [*Digestion and absorption*](digestion-absorption.qmd)
 chapters). What is not used at once is stored, and between meals those stores are drawn on to keep
 every tissue supplied, the brain above all.
 
@@ -303,7 +303,7 @@ of the map to store the meal:
   [@wang2009lpl], and insulin is strongly anti-lipolytic: it brakes the release of fat from the store.
   (Adipose tissue also releases leptin in proportion to its fat stores, a long-term signal that the
   brain uses to regulate appetite and body weight; see the
-  [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd) chapter.)
+  [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.)
 
 ::: {.callout-note}
 ## GLUT4 versus GLUT2
@@ -447,7 +447,7 @@ person is fed again. The sudden insulin surge drives phosphate, potassium and ma
 cells, and blood levels can crash; the fall in phosphate (**hypophosphataemia**) is the most dangerous
 and can be fatal. The task at this stage is to recognise the patient at risk: the long-starved, the
 very underweight, the person who has eaten little for many days (see the
-[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) chapter). Such a patient must be
+[*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter). Such a patient must be
 refed slowly and with monitoring; management comes in the clinical years [@statpearlsRefeeding;
 @niceCg32].
 
@@ -476,7 +476,7 @@ of fat in the blood as lipoproteins.
 ### The respiratory quotient {#sec-rq}
 
 The respiratory quotient (RQ), the ratio of CO₂ produced to O₂ consumed (see the
-[*Energy Balance*](energy-balance.qmd) chapter), shows which fuel is being oxidised. It is about 1.0
+[*Energy balance*](energy-balance.qmd) chapter), shows which fuel is being oxidised. It is about 1.0
 when burning pure carbohydrate and about 0.7 when burning pure fat; protein and a mixed diet sit in
 between, around 0.8–0.85. After a carbohydrate meal, RQ climbs toward 1.0; deep into a fast it drifts
 toward 0.7 as metabolism shifts to fat [@rqValuesStd]. The metabolic switch interactive above shows
@@ -520,7 +520,7 @@ What and when to eat around exercise follows from the map. Muscle glycogen is a 
 topping it up matters, but only when exercise actually runs it low. For everyday activity (a run, a
 gym session, a social game), existing glycogen is ample and water is usually all that is needed;
 sports drinks and gels are marketing, not physiology (see the
-[*Adulthood & Working Life*](adulthood-working-life.qmd) chapter). Carbohydrate loading before, and
+[*Adulthood*](adulthood-working-life.qmd) chapter). Carbohydrate loading before, and
 fuelling during, help only for prolonged, hard efforts lasting well beyond an hour, where they delay
 glycogen depletion: the reason a marathoner carbo-loads and takes gels while a Sunday 5 km runner does
 not.
@@ -531,7 +531,7 @@ not.
 Fat travels in the blood inside lipoproteins, whose classes are named in the
 [*Macronutrients*](macronutrients.qmd) chapter, and the classes are stages of one interconverting
 pathway. Dietary fat leaves the gut as chylomicrons (assembled in the gut lining; see the
-[*Digestion & Absorption*](digestion-absorption.qmd) chapter); lipoprotein lipase strips their
+[*Digestion and absorption*](digestion-absorption.qmd) chapter); lipoprotein lipase strips their
 triglyceride, leaving remnants that the liver clears. The liver exports its own fat as VLDL, which
 sheds triglyceride to become IDL (intermediate-density lipoprotein) and then LDL, the main
 cholesterol-delivery particle. HDL works in the opposite direction, carrying cholesterol back from the
@@ -561,7 +561,7 @@ cells behave as if starving. In type 1 diabetes, the total loss of insulin's inh
 lets fat breakdown and ketone production in the liver run unchecked, the road to DKA (see
 [Physiological ketosis and diabetic ketoacidosis](#sec-dka)). Here the task is to recognise this
 failure of regulation; the dietary management of type 2 diabetes comes later (see the
-[*Type 2 Diabetes*](type-2-diabetes.qmd) chapter) [@ada2026standards].
+[*Type 2 diabetes*](type-2-diabetes.qmd) chapter) [@ada2026standards].
 
 **Alcohol on an empty stomach.** Metabolising ethanol floods the liver with the electron carrier NADH,
 and that blocks gluconeogenesis. If glycogen is also low, as after skipped meals and a night of
@@ -650,7 +650,7 @@ through the episode [@zainudin2017knowledge]. The
 evidence-based response is local too: the Singapore-developed FAST algorithm, tested in a randomised
 trial, guides pre-Ramadan medication adjustment [@lum2020fast]. When you see a patient with diabetes
 who plans to fast, recognise the risk, advise breaking the fast for a hypoglycaemic episode, and refer
-for a pre-Ramadan review (see the [*Type 2 Diabetes*](type-2-diabetes.qmd) chapter).
+for a pre-Ramadan review (see the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter).
 
 **Supper and drinking culture.** The local habit of late-night drinking, often after a light dinner or
 on an empty stomach, is exactly the setting for the alcohol-and-fasting hypoglycaemia described earlier
@@ -667,7 +667,7 @@ restriction gave no significantly greater weight loss than the same calorie rest
 [@liu2022tre; @decabo2019fasting]. The ketogenic diet likewise works largely through
 control of appetite and energy intake, and its nutritional ketosis is not the dangerous ketoacidosis a
 patient may fear. (Weighing claims like these is the subject
-of the [*Evidence vs Hype*](evidence-vs-hype.qmd) chapter.)
+of the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter.)
 :::
 
 **Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]; in

@@ -39,9 +39,9 @@
 **Chronic kidney disease (CKD)** is long-term damage to the kidneys, usually with a gradual loss of
 their function. It is the renal end of the cascade that runs through obesity, type 2 diabetes and
 cardiovascular disease (together, the cardiovascular-kidney-metabolic (CKM) syndrome), and it shares their drivers (see the
-[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd),
-[*Type 2 Diabetes*](type-2-diabetes.qmd) and
-[*Cardiovascular Disease & Hypertension*](cardiovascular-disease-hypertension.qmd) chapters). CKD is
+[*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd),
+[*Type 2 diabetes*](type-2-diabetes.qmd) and
+[*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). CKD is
 common, largely silent (detected by blood and urine tests, not symptoms) and progressive
 [@kdigo2024ckd]. In Singapore it is mostly a consequence of diabetes, which drives roughly 2 in 3 new
 cases of kidney failure [@nkfsKeyStats; @ho2024stemmingckd].
@@ -58,9 +58,9 @@ Three principles shape nutrition in CKD:
 
 - Most CKD is the organ damage of poorly controlled diabetes and hypertension, so the most effective
   "renal diet" is upstream: glycaemic and blood-pressure control years earlier (see the *Type 2
-  Diabetes* and *Cardiovascular Disease & Hypertension* chapters) [@ahaCKM2023; @ho2024stemmingckd].
+  diabetes* and *Cardiovascular disease & hypertension* chapters) [@ahaCKM2023; @ho2024stemmingckd].
 - There is no single "renal diet". Nutrition in CKD is individualised, dietitian-led medical nutrition
-  therapy (see the [*Interprofessional Practice & Referral*](interprofessional-referral.qmd) chapter).
+  therapy (see the [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter).
   It changes with the stage of disease and with **dialysis** (treatment that partly takes over the
   kidney's clearance of wastes and water), including the type of dialysis. A printout is not a
   prescription [@kdoqi2020nutrition; @aceCKD2023].
@@ -74,7 +74,7 @@ Kidney disease changes which foods a person may eat, whereas heart disease mostl
 of certain foods. The reason is that the kidney does more than filter: it is the main regulator of the
 body's water, electrolyte and acid–base balance. The healthy kidney clears sodium, potassium,
 phosphate, acid and water, and it activates vitamin D. (The everyday balance of sodium, potassium and water is in the
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter.)
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 
 As functioning **nephrons** (the kidney's filtering units) are progressively lost, the substances they
 used to clear accumulate in the blood, each with its own consequence [@kdigo2024ckd]:
@@ -147,7 +147,7 @@ death [@fouque2008pew; @carrero2018pewprev; @bonanni2011pewmortality]. Adequate 
 any protein target safe; without enough energy, muscle protein is broken down for fuel
 [@kdoqi2020nutrition]. Protein targets are therefore modest, stage-specific and dietitian-set, and
 **unsupervised low-protein advice is unsafe** [@piccoli2023lowprotein] (see the
-[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) chapter).
+[*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter).
 :::
 
 ### Sodium: advice a generalist can reinforce {#sec-ckd-sodium}
@@ -161,7 +161,7 @@ blood pressure [@kdigo2024ckd].
 
 Singaporeans start badly placed: about 9 in 10 exceed the limit, averaging about 3,600 mg a day, most of
 it hidden in soups, sauces and food eaten out [@hpb2023sodium]. (The population story of sodium and
-blood pressure is in the *Cardiovascular Disease & Hypertension* chapter.) CKD adds a firm caution about one
+blood pressure is in the *Cardiovascular disease & hypertension* chapter.) CKD adds a firm caution about one
 common way of cutting salt, the potassium salt substitute (see
 [Potassium: the risk of hyperkalaemia](#sec-ckd-potassium)).
 
@@ -190,7 +190,7 @@ potassium chloride. For most people the swap lowers cardiovascular risk: in a la
 strokes and deaths. That trial excluded people with serious kidney disease and those taking potassium-sparing
 diuretics or potassium supplements, so its safety data do not cover CKD, where the swap can precipitate life-threatening hyperkalaemia
 [@neal2021ssass; @xu2024saltsubstitutes; @doorenbos2003saltsubstitute]. (The same caveat appears in the
-*Cardiovascular Disease & Hypertension* chapter.)
+*Cardiovascular disease & hypertension* chapter.)
 
 **Star fruit and belimbing (bilimbi).** Beyond their potassium, these fruits carry a neurotoxin that
 healthy kidneys clear but failing ones cannot. In CKD it causes hiccups (the commonest symptom), confusion, seizures and death, with
@@ -219,7 +219,7 @@ processed foods and to scan ingredient lists for additives ending in "-PHOS"
 **phosphate binder** (a drug taken with meals) is a specialist decision [@tsuchiya2021phosphate;
 @ketteler2025ckdmbd]. (The calcium and vitamin D physiology behind the bone side of the disorder,
 including parathyroid hormone and fracture risk, is in the
-[*Bone & Joint Health*](bone-health-osteoporosis.qmd) chapter.)
+[*Bone & joint health*](bone-health-osteoporosis.qmd) chapter.)
 
 ::: {.callout-tip}
 ## 🍜 Eating out
@@ -274,7 +274,7 @@ whenever the advice needed exceeds general healthy eating; in practice, five fin
 In Singapore the National Kidney Foundation provides most subsidised dialysis and runs the renal
 patient education that a referral plugs into [@mohNkfDialysis2026; @nkfsEatingRightCKD]. (The wider
 referral map, who does what across the multidisciplinary team, is in the
-[*Interprofessional Practice & Referral*](interprofessional-referral.qmd) chapter.)
+[*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter.)
 
 ::: {.callout-important}
 ## You recognise the five components; you do not prescribe the renal diet

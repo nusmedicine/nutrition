@@ -74,7 +74,7 @@ its place on that gradient [@donaldson2016gutbiogeography]:
 - In the small intestine, fast transit keeps numbers low.
 - In the colon, slow transit, near-neutral pH and little absorption allow the highest density, by
   orders of magnitude, so the colon is the main site of microbial fermentation (see the
-  [*Digestion & Absorption*](digestion-absorption.qmd) chapter).
+  [*Digestion and absorption*](digestion-absorption.qmd) chapter).
 
 ::: {.callout-warning}
 ## Do microbes outnumber human cells ten to one?
@@ -154,7 +154,7 @@ Colonocytes
 : The epithelial cells lining the colon.
 
 Human enzymes cannot break down dietary fibre or resistant starch, so both reach the colon undigested
-(see the [*Digestion & Absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment
+(see the [*Digestion and absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment
 them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. For the host, this
 is the microbiome's most important function. Step through the pathway below, from what arrives in the
 colon to where each product goes.
@@ -167,7 +167,7 @@ The three SCFAs differ by only one or two carbons, but each goes to a different 
 | SCFA | Carbons | Share (approx.) | Where it goes | What it does there |
 |---|---|---|---|---|
 | Acetate | 2 | 60% (most abundant) | Systemic circulation | Fuel for peripheral tissues and other bacteria |
-| Propionate | 3 | 20% | Liver, via the portal vein | Substrate for gluconeogenesis (see the [*Integrative Metabolism*](integrative-metabolism.qmd) chapter) |
+| Propionate | 3 | 20% | Liver, via the portal vein | Substrate for gluconeogenesis (see the [*Integrative metabolism*](integrative-metabolism.qmd) chapter) |
 | Butyrate | 4 | 20% (least abundant) | Stays in the colon | Preferred fuel of the colonocytes |
 
 The 60:20:20 ratio varies with diet, substrate and site. Rotate the three molecules below to compare
@@ -183,7 +183,7 @@ supplements are mostly absorbed before they reach the colon, so claims that buty
 disease run ahead of the evidence.
 :::
 
-Fermentation also produces gas, the source of the bloating described in the *Digestion & Absorption*
+Fermentation also produces gas, the source of the bloating described in the *Digestion and absorption*
 chapter. Alongside the SCFAs, it releases three gases:
 
 - hydrogen (H₂);
@@ -237,11 +237,11 @@ K2 (menaquinones) and several B vitamins (biotin, folate, riboflavin and B12).
 
 Vitamin B12 is the clearest example. Most gut microbes are net consumers of B12, and the little they
 make is produced beyond the terminal ileum, the site where B12 (bound to intrinsic factor) is absorbed
-(see the *Digestion & Absorption* chapter). Colonic microbial B12 is therefore essentially unavailable
+(see the *Digestion and absorption* chapter). Colonic microbial B12 is therefore essentially unavailable
 to the host, and dietary B12 from animal sources remains the functional supply [@degnan2014b12].
 Bacterial K2 is similarly poorly available, and diet remains the principal source of vitamin K
 [@lai2022vitk]. The vitamins themselves are covered in the
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter; the principle
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter; the principle
 here is that "made in the gut" does not mean "available to the host".
 
 ::: {.callout-tip collapse="true"}
@@ -278,7 +278,7 @@ substrate and lowers diversity. The most dramatic version of this, a loss of div
 generations, comes from mice, so the evidence for that extreme is limited, though the direction of the
 effect is well supported [@sonnenburg2016diet]. Whole dietary patterns such as the Mediterranean diet are
 associated with more SCFA producers and with less frailty and inflammation [@ghosh2020mediterranean]
-(see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter).
+(see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter).
 
 ::: {.callout-tip}
 ## 🍜 Eating for the gut microbiome in Singapore
@@ -409,7 +409,7 @@ neuroactive metabolites [@cryan2019microbiota]. The most striking results, in wh
 microbes change behaviour, come largely from mouse studies, and the benefits of **psychobiotics**
 (microbes or microbial products claimed to improve mental health) for mood in humans are mostly small
 or preclinical. The channel is real; the mood claims are unproven. Its role in appetite and behaviour
-is taken up in the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd) chapter.
+is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -479,7 +479,7 @@ individuals is the rule, and that diet and lifestyle, not nationality, shape the
 [@khine2021multiethnic]. Vegetarian and vegan eating is common in several local communities, so the
 fact that gut bacteria cannot supply B12 has practical consequences here: when you take a diet history
 from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
-*Micronutrients, Hydration & Electrolytes* chapter).
+*Micronutrients, hydration and electrolytes* chapter).
 
 ## Check your understanding {#sec-quiz}
 

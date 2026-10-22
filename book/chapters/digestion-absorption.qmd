@@ -150,8 +150,8 @@ lactase-deficient, yet only around a third report symptoms on ordinary amounts o
 more recent multi-ethnic Malaysian study finds the same high prevalence across Chinese, Malay and
 Indian adults [@goh2018lactase].
 
-When undigested lactose reaches the colon, resident bacteria ferment it and produce gas (see the
-[*Gut Microbiome*](gut-microbiome.qmd#sec-scfa) chapter). The practical message is food-first and
+When undigested lactose reaches the colon, resident bacteria ferment it and produce gas (see [*The
+gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). The practical message is food-first and
 culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources (calcium-set
 tofu, fortified soy milk, leafy greens, small fish with bones) all work, while "just drink three
 glasses of milk" does not.
@@ -161,8 +161,8 @@ glasses of milk" does not.
 The gut is often called the body's largest endocrine organ: hormone-making cells are scattered singly
 through its lining. The gut hormones share one logic: food arriving in one segment releases a hormone
 that prepares the next stage or inhibits the one before [@statpearlsGIhormones]. Five gut hormones each
-have one main job in secretion or motility (their role in appetite is in the [*Appetite & Weight
-Regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
+have one main job in secretion or motility (their role in appetite is in the [*Appetite and weight
+regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
 
 | Hormone | Made by | Trigger | Job |
 |---|---|---|---|
@@ -175,8 +175,8 @@ Regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
 Glucose eaten raises insulin more than the same glucose given intravenously, because hormones released
 by the gut in response to food amplify insulin secretion. This amplification is the **incretin effect**, carried by GIP and a
 partner hormone, glucagon-like peptide-1 (GLP-1) [@nauck2016incretin]. The same signal is the basis of
-major modern diabetes and weight medicines (see the [*Appetite & Weight
-Regulation*](appetite-weight-regulation.qmd#sec-obesity) and [*Type 2 Diabetes*](type-2-diabetes.qmd)
+major modern diabetes and weight medicines (see the [*Appetite and weight
+regulation*](appetite-weight-regulation.qmd#sec-obesity) and [*Type 2 diabetes*](type-2-diabetes.qmd)
 chapters).
 
 ::: {.callout-tip collapse="true"}
@@ -294,7 +294,7 @@ to the terminal ileum can therefore cause both fat malabsorption and B12 deficie
 Absorption is often site-specific: iron in the duodenum, vitamin B12 (with intrinsic factor) at the
 terminal ileum, and the fat-soluble vitamins (A, D, E, K) alongside fat and bile. A fat or bile problem
 can therefore quietly cause deficiency of the fat-soluble vitamins too. (The nutrients themselves are
-in the [*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter.)
+in the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -346,7 +346,7 @@ a rebound fall in glucose, and were the least satiating, compared with the whole
 crystalline structure so that enzymes digest them more readily. Cooking also denatures protein and
 improves its digestibility, by the same principle by which gastric acid unfolds protein for pepsin.
 Cooling cooked starch partly reverses this: some retrogrades into resistant starch, which the small
-intestine cannot digest and which passes to the colon (see the [*Gut Microbiome*](gut-microbiome.qmd#sec-scfa)
+intestine cannot digest and which passes to the colon (see [*The gut microbiome*](gut-microbiome.qmd#sec-scfa)
 chapter). Chilling and reheating cooked rice or pasta therefore lowers their glycaemic response
 modestly, and the resistant starch survives reheating [@sonia2015rice]. The effect is small and
 variable, and is not a licence for larger portions.
@@ -380,9 +380,9 @@ macronutrients, sugar, fat, fibre and sodium, and eating rate was faster on the 
 [@hall2019upf]. The trial is important but small (n = 20) and brief (two weeks per arm) in a
 metabolic-ward setting, and the mechanism is still debated (energy density, texture and eating rate are
 all candidates). For digestion, the trial illustrates how processing changes the rate of eating and
-digestion (its weight consequences are in the [*Appetite & Weight
-Regulation*](appetite-weight-regulation.qmd) and [*Obesity & Metabolic
-Syndrome*](obesity-metabolic-syndrome.qmd) chapters). Cooking, fermentation and freezing are also
+digestion (its weight consequences are in the [*Appetite and weight
+regulation*](appetite-weight-regulation.qmd) and [*Obesity & metabolic
+syndrome*](obesity-metabolic-syndrome.qmd) chapters). Cooking, fermentation and freezing are also
 processing, so not all processing is harmful; minimally processed foods keep the structure that slows
 digestion.
 :::
@@ -391,15 +391,15 @@ Viscous fibre acts twice, once on speed and once on bile. Viscous fibres such as
 psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption. They
 also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood, which is why adequate
 viscous fibre modestly lowers LDL cholesterol [@whitehead2014betaglucan]. This is the enterohepatic
-circulation deliberately interrupted (fibre fermentation is a separate process; see the *Gut
-Microbiome* chapter).
+circulation deliberately interrupted (fibre fermentation is a separate process; see *The gut
+microbiome* chapter).
 
 Fat also aids the absorption of fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
 pigments such as β-carotene) travel the same bile-and-micelle route as dietary fat, so a nearly
 fat-free meal leaves much of them unabsorbed. Carotenoid uptake from a salad was negligible with a
 fat-free dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, which is
 a reason to dress vegetables with some oil rather than eat them fat-free (the vitamins themselves are
-in the [*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter).
+in the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter).
 
 ::: {.callout-warning}
 ## Food–drug interactions
@@ -418,7 +418,7 @@ Separating them in time avoids the problem.
 
 Alcohol is relevant here too. It injures the gastric lining and impairs absorption of several
 nutrients, notably by blocking the active transport of thiamine, part of the mechanism behind thiamine
-deficiency [@subramanya2010alcohol] (see the *Micronutrients, Hydration & Electrolytes* chapter). The
+deficiency [@subramanya2010alcohol] (see the *Micronutrients, hydration and electrolytes* chapter). The
 priority is the habit rather than the list: with any new medicine, check the label and ask a
 pharmacist about food, grapefruit, dairy, iron and timing.
 :::

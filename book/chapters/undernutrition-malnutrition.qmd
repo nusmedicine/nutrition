@@ -39,8 +39,8 @@ In its broad sense, malnutrition covers both overnutrition and **undernutrition*
 deficit form, and it is what clinical screening and diagnosis mean by **malnutrition**. In that sense
 malnutrition is a disease state: a deficit of energy, protein or micronutrients that measurably changes body composition and
 function and worsens outcomes. The frail, undernourished senior is as much a nutritional patient as the
-person with metabolic syndrome (see the *Obesity & Metabolic Syndrome* chapter). Healthy ageing is ageing
-*in health* (see the *Healthy Ageing* chapter); malnutrition is the pathological state that ageing, illness
+person with metabolic syndrome (see the *Obesity & metabolic syndrome* chapter). Healthy ageing is ageing
+*in health* (see the *Healthy ageing* chapter); malnutrition is the pathological state that ageing, illness
 and isolation tip people into.
 
 Three principles shape the clinical approach to malnutrition:
@@ -57,8 +57,8 @@ body composition: a loss of fat and, above all, of muscle. That loss in turn cau
 harm: weakness, falls, poor wound healing, more infections, longer hospital stays and higher mortality
 [@cederholm2017espenTerminology]. A sustained deficit draws its protein from muscle, which is working
 tissue, not a designed store (see the fasted and starved states in the
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-starvation) chapter, and body composition in the
-*Energy Balance* chapter).
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation) chapter, and body composition in the
+*Energy balance* chapter).
 
 ![Malnutrition is a causal chain, not a body size. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories sit on an inflammation gradient, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition resists feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
 
@@ -76,8 +76,8 @@ Chronic disease-related malnutrition
 Acute disease- or injury-related malnutrition
 : Malnutrition with severe inflammation, as in acute illness or injury.
 
-Inflammation drives catabolism and blunts appetite (for how appetite is regulated, see the *Appetite &
-Weight Regulation* chapter). **Disease-related malnutrition**, the chronic and acute types together,
+Inflammation drives catabolism and blunts appetite (for how appetite is regulated, see the *Appetite and
+weight regulation* chapter). **Disease-related malnutrition**, the chronic and acute types together,
 therefore resists feeding alone: extra feeding cannot simply outpace inflammation-driven catabolism, and
 the underlying disease has to be treated too.
 
@@ -86,7 +86,7 @@ Roughly 46% of patients with heart failure are malnourished, and malnutrition ab
 mortality [@lv2021hfMalnutrition].
 :::
 
-Sarcopenia, the age-related loss of muscle strength and mass (see the *Healthy Ageing* chapter), is a
+Sarcopenia, the age-related loss of muscle strength and mass (see the *Healthy ageing* chapter), is a
 muscle disorder, diagnosed on low strength confirmed by low muscle quantity, and is related to but distinct
 from a nutritional deficit [@cruzjentoft2019ewgsop2]. The two overlap: reduced muscle mass is a feature of
 malnutrition, and a nutritional deficit accelerates muscle loss. However, a person can be sarcopenic at a
@@ -96,7 +96,7 @@ assessed as well as weight.
 In Singapore the Asian Working Group for Sarcopenia (AWGS 2019) cut-offs apply, because European values
 overestimate the deficit in smaller-framed populations [@chen2020awgs2019; @limSarcopeniaCpg2022]. The
 muscle–bone overlap, and the resistance-exercise and bone-loading side of protecting the frail patient, are
-in the *Bone & Joint Health* chapter.
+in the *Bone & joint health* chapter.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a malnourished patient with heart failure is offered plenty of food. Why is feeding alone unlikely to reverse the malnutrition?
@@ -127,7 +127,7 @@ enough risk to warrant active screening [@bapenAtRisk; @fried2001frailty]:
 - anyone in the post-discharge period.
 
 Unintentional weight loss, or "shrinking", is a core feature of frailty (a clinical picture in older age
-whose other features include weakness, slow walking and exhaustion; see the *Healthy Ageing* chapter) and
+whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) and
 one of the first things to ask about [@fried2001frailty]. Membership of an at-risk group raises the
 pre-test probability (the chance, before any test, that the patient has the condition). You therefore
 screen the patient instead of waiting for malnutrition to look obvious. Knowing the group is the difference
@@ -138,7 +138,7 @@ between catching malnutrition and missing it.
 **Nutrition screening** is a fast, low-skill filter that anyone can apply to flag risk and trigger
 referral, and it is the part of malnutrition care that falls to the generalist. It is deliberately not the
 assessment, which the dietitian does. MUST (the Malnutrition Universal Screening Tool, met in the
-*Assessing Diet & Talking to Patients* chapter) is a useful exemplar. It adds three components: a BMI
+*Assessing diet and talking to patients* chapter) is a useful exemplar. It adds three components: a BMI
 score, an unplanned weight-loss score, and an acute-disease effect (acutely ill and little or no intake for
 more than about five days). The scores sum to an overall risk of low, medium or high, each tied to an
 action, from routine re-screening to referral and a care plan [@bapenMUST].
@@ -228,7 +228,7 @@ protein, softer textures and more fluids [@hpbSeniors].
 The instinct to "build them up quickly" is dangerous. In someone who has eaten little for a long time,
 restarting feeding, especially carbohydrate, triggers an insulin surge that drives phosphate, potassium and
 magnesium into cells, on top of thiamine depletion. The result is refeeding syndrome (see the
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-refeeding) chapter): a fall in blood phosphate
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-refeeding) chapter): a fall in blood phosphate
 (hypophosphataemia) that can bring cardiac and neurological harm [@deSilva2020Refeeding;
 @daSilva2020ASPEN]. The task here is to recognise the at-risk patient (very low BMI, large recent weight
 loss, prolonged low intake, low baseline electrolytes, or a high-risk history such as alcohol or
@@ -238,7 +238,7 @@ thiamine replacement and the energy titration) is specialist, later learning.
 
 ### Dysphagia and texture-modified food {#sec-mal-dysphagia}
 
-Dysphagia (difficulty swallowing; see the *Healthy Ageing* chapter) is a common, dangerous driver of
+Dysphagia (difficulty swallowing; see the *Healthy ageing* chapter) is a common, dangerous driver of
 undernutrition, and it has recognisable red flags:
 
 - coughing or choking on food or drink;
@@ -291,7 +291,7 @@ Nutrition support is a team activity, and each member has a distinct part [@sgPo
 
 The doctor's distinctive contribution is the referral that sets the team in motion; the feeding plan is
 the dietitian's. Nutrition is therefore best handled as interprofessional teamwork, not solo prescribing
-[@aclm2022comp; @crowley2019] (see the *Interprofessional Practice & Referral* chapter).
+[@aclm2022comp; @crowley2019] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
 ## You screen and refer; you do not prescribe the feeding plan

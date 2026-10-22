@@ -22,8 +22,8 @@ be compared and reviewed. The build has four elements:
 ## The simulated patient
 
 The live patient conversations in the cases of the
-[*Everyday & Preventive Counselling*](cases-counselling.qmd) and
-[*Recognising Risk & Knowing When to Refer*](cases-referral.qmd) chapters run on a separate,
+[*Everyday and preventive counselling*](cases-counselling.qmd) and
+[*Recognising risk and knowing when to refer*](cases-referral.qmd) chapters run on a separate,
 self-hosted language model. The model, an open-weights model from the Qwen family, is served on NUS
 infrastructure through an OpenAI-compatible interface. Your messages pass to a small server-side proxy
 that holds the access key and applies the safety guardrails. The replies stream back in real time,

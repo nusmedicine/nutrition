@@ -39,8 +39,8 @@
 
 The healthy working-age adult, from roughly the twenties to the fifties, has moved from building the
 body to maintaining it, and sits between adolescence and the midlife and older years (see the
-[*Childhood & Adolescence*](childhood-adolescence.qmd),
-[*Menopause & Midlife Health*](menopause-midlife.qmd) and [*Healthy Ageing*](healthy-ageing.qmd)
+[*Childhood & adolescence*](childhood-adolescence.qmd),
+[*Menopause & midlife health*](menopause-midlife.qmd) and [*Healthy ageing*](healthy-ageing.qmd)
 chapters). Two topics set this stage apart: fuelling an active body, and eating well inside a working
 life.
 
@@ -62,7 +62,7 @@ food and water.
 
 Midlife weight gain is commonly blamed on a slowing metabolism. Total energy expenditure (the sum of
 basal metabolic rate, the thermic effect of food and physical activity; see the
-[*Energy Balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled
+[*Energy balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled
 water across the whole lifespan. Adjusted for body size, it is in fact steady from about 20 to 60. It
 does not start falling in the thirties, and declines only later in life [@pontzer2021energy]. The
 familiar explanation, "my metabolism is slowing down", therefore accounts for little of midlife weight
@@ -82,9 +82,9 @@ Adulthood is about keeping the muscle that growth built. Muscle mass is fairly s
 teens to about 60, drifting down only slowly, and strength fades faster than size
 [@mitchell2012sarcopenia]. The popular "you lose 1% a year from thirty" overstates the mid-adult loss,
 but the direction is real. These decades are therefore the window to build a reserve before the
-steeper losses of older age (see the *Healthy Ageing* chapter). Muscle is also the main site of glucose
+steeper losses of older age (see the *Healthy ageing* chapter). Muscle is also the main site of glucose
 disposal after a meal [@merz2020muscleinsulin], so keeping muscle protects metabolic health upstream
-(for the mechanism, see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
+(for the mechanism, see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
 
 Two factors maintain muscle mass, and the second depends on the first. **Resistance exercise**
 (muscle-strengthening exercise against a load) is the necessary stimulus: guidelines ask for it on two
@@ -105,7 +105,7 @@ three common worries about protein:
   supplement industry implies [@schoenfeld2013timing], so food does the job without a powder or a
   30-minute shake.
 - Higher intakes are safe for people with normal kidney function; the exception is established kidney
-  disease (see the [*Chronic Kidney Disease*](chronic-kidney-disease.qmd) chapter)
+  disease (see the [*Chronic kidney disease*](chronic-kidney-disease.qmd) chapter)
   [@devries2018kidney].
 - Plant and animal protein differ little for muscle once the total is adequate; a review found only a
   small edge for animal protein [@lim2021animalplant].
@@ -136,7 +136,7 @@ but needed by few, so the practical aim is to guard against over-fuelling.
 
 For adults who do train, fuelling scales with the actual training load, which is usually modest.
 Carbohydrate needs rise with training volume (for the fuel physiology of exercise, see the
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-exercise) chapter). The high-carbohydrate
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-exercise) chapter). The high-carbohydrate
 and during-exercise fuelling advice, however, is calibrated for serious endurance athletes training for
 hours at a time, and does not apply to recreational exercisers [@thomas2016nutritionathletic]. Below
 that volume, the advice is simpler:
@@ -163,7 +163,7 @@ The tropics change the advice in one place, fluid. For outdoor exercise or a swe
   [@sawka2007fluid].
 
 (For the body-water and sodium physiology behind these rules, see the
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapter.)
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 :::
 
 ### The working-life food environment {#sec-adult-food-environment}
@@ -174,8 +174,8 @@ Three forces dominate.
 **Eating out is the default.** In Singapore the great majority of adults eat out regularly, and many
 have a hawker meal every day, chosen for convenience and price [@naidoo2017eatingout]. The hawker
 plate, not the home recipe, is therefore the real lever, and counselling around it is a skill of
-its own (see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) and
-[*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd) chapters).
+its own (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) and
+[*Assessing diet and talking to patients*](06-dietary-assessment.qmd) chapters).
 
 **Shift work disrupts circadian rhythms.** Night-shift work is associated with higher rates of type 2
 diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
@@ -224,7 +224,7 @@ Use Disorders Identification Test [@bush1998auditc].
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does a 40-minute park run need only water, when athlete guidance recommends carbohydrate during exercise?
 Muscle glycogen, the limited carbohydrate store, runs out only in long efforts such as a marathon (glycogen
-depletion, described in the *Integrative Metabolism* chapter). A 40-minute run therefore ends long before
+depletion, described in the *Integrative metabolism* chapter). A 40-minute run therefore ends long before
 carbohydrate during exercise could help. The high-carbohydrate and during-exercise advice is
 calibrated for serious endurance athletes training for hours at a time, whereas a 30–60-minute session
 needs only water, with ordinary meals covering the rest. Applying the athlete advice to a few weekly
@@ -245,10 +245,10 @@ Most of the advice above is preventive, but a few patterns call for recognition 
 
 Weight creep matters sooner in Asian adults, who carry cardiometabolic risk at a lower BMI (hence
 Singapore's lower BMI cut-offs; see the
-[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd#sec-phenotype) chapter), so even a few
+[*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd#sec-phenotype) chapter), so even a few
 kilograms of creep can cross a threshold. Established obesity and metabolic syndrome are managed as conditions in their own right (see
-the [*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) and
-[*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
+the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) and
+[*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 
 Repeated crash dieting is the pattern to steer patients away from. Small, sustainable habits and
 regular self-weighing modestly help prevent weight gain [@graham2022smallchange;

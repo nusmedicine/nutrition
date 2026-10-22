@@ -63,7 +63,7 @@ The interactive figure below shows how the requirements change across the stages
 
 The most important nutrition window opens before conception. The neural tube closes by about 28 days after conception,
 often before a woman knows she is pregnant, so folic acid has to be running already (the folate
-science is in the *Micronutrients, Hydration & Electrolytes* chapter). The usual dose is about
+science is in the *Micronutrients, hydration and electrolytes* chapter). The usual dose is about
 400 µg/day of folic acid; higher-risk women need 4–5 mg/day (those with a previous
 neural-tube-defect pregnancy, diabetes, obesity or certain anticonvulsants) [@mrc1991folate;
 @czeizel1992folate]. The same window is where weight and blood glucose are best optimised and
@@ -97,13 +97,13 @@ A mid-pregnancy haemoglobin almost always falls, usually by **haemodilution**: a
 concentration caused by plasma volume expanding faster than red-cell mass. Plasma volume expands by
 nearly half, outpacing the roughly 25% rise in red-cell mass [@aguree2019plasma], so the fall is
 usually not anaemia. The response is to use pregnancy-specific cut-offs and to check ferritin (the
-iron-store marker that falls before haemoglobin does; see the *Childhood & Adolescence* chapter)
+iron-store marker that falls before haemoglobin does; see the *Childhood & adolescence* chapter)
 before treating, instead of giving iron for every low number.
 
 Haemodilution does not rule out true iron deficiency, which is common even in Singapore: about
 three-quarters of Singaporean women are iron-deficient by the early third trimester
 [@loy2019ironSG]. Requirements rise for the expanding red-cell mass and the foetus's own stores (the
-nutrient basics are in the *Micronutrients, Hydration & Electrolytes* chapter). Daily oral iron
+nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter). Daily oral iron
 (WHO: 30–60 mg elemental iron with folic acid [@whoAntenatal2016]) reduces maternal anaemia and iron
 deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
 The practical problem is adherence, because iron's gut side-effects are where supplementation fails.
@@ -248,8 +248,8 @@ diabetes, so she needs a postpartum glucose test and lifelong vigilance.
 ## Lactation: maternal nutrition {#sec-preg-lactation}
 
 After birth, the nutrition question splits in two. Infant feeding itself (latch, weaning,
-complementary foods, the infant's own vitamin D) belongs with the infant (see the *Infancy & Early
-Childhood* chapter). The mother's side is her own extra energy and fluid ([set out
+complementary foods, the infant's own vitamin D) belongs with the infant (see the *Infancy & early
+childhood* chapter). The mother's side is her own extra energy and fluid ([set out
 above](#sec-preg-energy) with the energy cost of pregnancy) and what her diet does to her milk.
 
 The milk concentrations of some nutrients are maintained at the mother's own expense,
@@ -267,7 +267,7 @@ The mother whose baby is most at risk is the vegan or strict vegetarian mother. 
 producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]; what
 follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer). (Milk is
 low in vitamin D at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]; this is why the infant is supplemented directly, and the
-dose is in the *Infancy & Early Childhood* chapter.)
+dose is in the *Infancy & early childhood* chapter.)
 
 Three practical points concern what reaches the milk, or what is taken to boost it:
 
@@ -307,7 +307,7 @@ dietitian, or by adding a test; one of them, severe vomiting, carries a safety r
 When vomiting is severe and persistent, with weight loss, dehydration and ketosis, it is
 **hyperemesis gravidarum**, and it needs referral, not reassurance. A woman who has been vomiting for
 weeks may be thiamine-depleted, and giving glucose or dextrose first can precipitate Wernicke's
-encephalopathy (see the *Micronutrients, Hydration & Electrolytes* chapter). **Thiamine goes in before
+encephalopathy (see the *Micronutrients, hydration and electrolytes* chapter). **Thiamine goes in before
 any glucose** [@rcogHyperemesis69].
 :::
 
@@ -323,7 +323,7 @@ The findings that change the plan, and the action each one calls for:
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a woman who has vomited for weeks arrives dehydrated and ketotic. Why does thiamine go in before any glucose?
-Thiamine is needed to turn carbohydrate into energy (see the *Micronutrients, Hydration & Electrolytes*
+Thiamine is needed to turn carbohydrate into energy (see the *Micronutrients, hydration and electrolytes*
 chapter), and weeks of vomiting can leave her depleted of it. A glucose or dextrose load given first
 can then precipitate Wernicke's encephalopathy, so thiamine goes in before any glucose. Severe,
 persistent vomiting with weight loss, dehydration and ketosis is hyperemesis gravidarum, which needs

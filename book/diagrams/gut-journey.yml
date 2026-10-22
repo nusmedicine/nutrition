@@ -5,8 +5,8 @@ imageBox: "0 0 665 2499"
 credit: "Illustration: Servier Medical Art (smart.servier.com), CC BY-SA 3.0."
 footnote: >
   Recognition-level overview. The nutrients themselves (iron, B12, calcium) are covered in the Micronutrients,
-  Hydration & Electrolytes chapter, what the liver does with absorbed nutrients in the
-  Integrative Metabolism chapter, and the colon's microbes in the Gut Microbiome chapter.
+  hydration and electrolytes chapter, what the liver does with absorbed nutrients in the
+  Integrative metabolism chapter, and the colon's microbes in The gut microbiome chapter.
 organs:
   - id: mouth
     name: "Mouth"

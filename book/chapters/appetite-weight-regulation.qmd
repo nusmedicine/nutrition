@@ -36,7 +36,7 @@
 ## Appetite and weight regulation at a glance {#sec-overview}
 
 Energy balance can be written as arithmetic, calories in minus calories out (see the
-[*Energy Balance*](energy-balance.qmd#sec-overview) chapter). That arithmetic is real, but it is not
+[*Energy balance*](energy-balance.qmd#sec-overview) chapter). That arithmetic is real, but it is not
 free. Appetite is a **controlled variable**: an integrated system of hormones and brain circuits
 regulates it, as other homeostatic systems regulate blood glucose and body temperature. Appetite is not
 a free choice laid on top of a passive body.
@@ -99,10 +99,10 @@ cannot act and appetite runs relentlessly high. Hunger is, in this sense, set by
 Physiologists long suspected that fat tissue sends the brain a signal of how much is stored. In 1994,
 cloning the gene mutated in a grossly obese mouse revealed it: leptin, a hormone made by fat in
 proportion to fat mass [@zhang1994leptin]. More fat means more leptin and, normally, less hunger (see
-the *Energy Balance* and [*Integrative Metabolism*](integrative-metabolism.qmd#sec-fed) chapters).
+the *Energy balance* and [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapters).
 Leptin acts directly on the arcuate nucleus: it activates the POMC/CART neurons and inhibits the
 AgRP/NPY neurons. Because its level tracks fat mass, leptin is the brain's long-term signal of fat
-stores. Insulin (its metabolic actions are in the *Integrative Metabolism* chapter) is a second, weaker
+stores. Insulin (its metabolic actions are in the *Integrative metabolism* chapter) is a second, weaker
 long-term signal to the same neurons.
 
 Children with **congenital leptin deficiency**, who are born unable to make leptin, show that leptin is
@@ -130,7 +130,7 @@ underlies weight regain [@flier2024leptin30] (see
 
 While leptin tracks fat stores over weeks, gut hormones signal to the brain about each meal as it is
 eaten. Two of these gut hormones appear in the
-[*Digestion & Absorption*](digestion-absorption.qmd) chapter for
+[*Digestion and absorption*](digestion-absorption.qmd) chapter for
 their actions on the gut: CCK, which makes the gallbladder contract, and GLP-1 (glucagon-like
 peptide-1), an incretin that helps trigger insulin release. For appetite, what matters is what the gut
 hormones signal to the brain.
@@ -161,8 +161,8 @@ volume, not calories. That is why a big bowl of soup or salad feels filling for 
 ## The ileal brake and the microbiome
 When food reaches the far end of the small intestine, the GLP-1/PYY cells there both slow the
 stomach and signal fullness, a feedback loop called the **ileal brake** that paces digestion and
-appetite together. Short-chain fatty acids, which gut bacteria make from fibre (see the
-[*Gut Microbiome*](gut-microbiome.qmd#sec-scfa) chapter), stimulate these same GLP-1/PYY cells, so
+appetite together. Short-chain fatty acids, which gut bacteria make from fibre (see [*The
+gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter), stimulate these same GLP-1/PYY cells, so
 fibre fermented in the colon also turns up satiety.
 :::
 
@@ -293,7 +293,7 @@ The foods themselves can also be built to trigger the reward system. **Ultra-pro
 industrial formulations made largely from refined ingredients and additives, with little intact whole food. One measure of such foods is **hyper-palatability**: pairing fat with sugar or salt, or carbohydrate with salt, above set thresholds. By one such definition, 62% of foods in a US food database qualified [@fazzino2019hyperpalatable].
 
 The strongest controlled evidence that ultra-processed foods drive overeating comes from a small
-inpatient trial (see the *Digestion & Absorption* chapter). Twenty adults on a metabolic ward ate an
+inpatient trial (see the *Digestion and absorption* chapter). Twenty adults on a metabolic ward ate an
 ultra-processed diet and an unprocessed one for two weeks each. The diets were matched for the calories
 presented, energy density, macronutrients, sugar, salt and fibre, yet people still ate about
 500 kcal/day more on the ultra-processed diet [@hall2019upf]. The trial was small and short, and why
@@ -331,7 +331,7 @@ After meaningful weight loss, three systems shift together, and all three favour
 - The hunger hormones shift: ghrelin rises, the satiety peptides fall and measured hunger goes up,
   and these changes persist a full year after the weight loss [@sumithran2011hormonal].
 - Energy expenditure drops more than the smaller body should need. This extra fall is adaptive
-  thermogenesis, also called metabolic adaptation (see the *Energy Balance* chapter), and it lowers
+  thermogenesis, also called metabolic adaptation (see the *Energy balance* chapter), and it lowers
   the expenditure side of the energy-balance equation. A weight-reduced person spends less energy
   than someone of the same weight who was never heavier, so the arithmetic quietly turns against
   them.
@@ -395,7 +395,7 @@ weight comes back, because the defended range was opposed, never removed
 [@wilding2022step1extension]. Regain on stopping is the clearest demonstration that obesity is a
 chronic, regulated condition and that "just try harder" misreads the biology. (The classification
 and management of obesity, including where these medicines and surgery fit, are in the
-[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
+[*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient lost 10 kg on a diet. A year later she is hungrier than before and regaining. Why is this the expected outcome?
@@ -418,7 +418,7 @@ behaves as a chronic, regulated condition, which is why "just try harder" misrea
 
 No. Appetite is a signalled biological drive. The person who regains weight after a diet, who cannot
 stop snacking on night shift, or who feels hungrier the more they diet is not weak: they are experiencing what the physiology predicts.
-Non-stigmatising medicine starts from that understanding. Energy balance (see the *Energy Balance*
+Non-stigmatising medicine starts from that understanding. Energy balance (see the *Energy balance*
 chapter) is real, but it is biologically regulated, not free.
 
 ## The Singapore picture {#sec-singapore}

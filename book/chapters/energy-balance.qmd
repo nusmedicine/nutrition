@@ -69,7 +69,7 @@ body composition does [@westerterp2017dlw].
 
 The **thermic effect of food (TEF)** is the energy cost of digesting, absorbing and processing a
 meal, about 10% of TEE [@westerterp2004dit]. Protein costs more to process than carbohydrate or fat, which is one reason protein-rich meals
-feel more satisfying (see the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-satiety)
+feel more satisfying (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-satiety)
 chapter).
 
 **Physical activity (PA)** is the most variable component: it differs most between two otherwise
@@ -141,7 +141,7 @@ compared below, from cheap, rough screening to the accurate reference standard:
 | DXA (dual-energy X-ray absorptiometry), a low-dose X-ray scan | Fat versus lean | The accurate clinical and research reference |
 
 BMI cannot tell muscle from fat, so it misclassifies the very muscular and can miss excess fat in
-people who are slim by weight. BMI is therefore a screening tool, not a diagnosis. Asian cut-offs for overweight are set lower than the international ones, because the risk of diabetes and cardiovascular disease rises at a lower BMI in Asian populations [@whoExpert2004AsianBMI] (see the [*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) chapter). Waist circumference captures
+people who are slim by weight. BMI is therefore a screening tool, not a diagnosis. Asian cut-offs for overweight are set lower than the international ones, because the risk of diabetes and cardiovascular disease rises at a lower BMI in Asian populations [@whoExpert2004AsianBMI] (see the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter). Waist circumference captures
 **central (visceral) fat**, the fat stored around the abdomen. That fat carries more metabolic risk
 than fat on the hips and thighs, so the waist measurement adds what BMI misses [@whoWaist2011].
 
@@ -156,7 +156,7 @@ The gases measured in indirect calorimetry also show which fuel the body is burn
 **respiratory quotient (RQ)** is the ratio of carbon dioxide produced to oxygen consumed: about 1.0
 when burning carbohydrate and about 0.7 when burning fat, with a mixed diet around 0.85 [@rqValuesStd]. RQ shifts as
 the body moves between the fed and fasted states (see the
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-rq) chapter).
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-rq) chapter).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient's BMI is in the healthy range, but her waist circumference is large. Why does the waist measurement change the picture?
@@ -178,7 +178,7 @@ spent and the fuel mix.
 Energy balance is actively regulated, not free to drift. Two physiological responses oppose
 changes in body weight: a fall in energy expenditure after weight loss, and signalling of the size
 of the fat stores to the brain (see the
-[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-defended) chapter).
+[*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-defended) chapter).
 
 When someone loses weight, "energy out" falls by more than their smaller body should require. This
 extra drop, **adaptive thermogenesis** (also called metabolic adaptation), makes lost weight easy to
@@ -192,7 +192,7 @@ stores, often likened to a fuel gauge, to regulate appetite and body weight over
 If leptin signals a large store, extra leptin might be expected to cut appetite and weight. Simply
 giving it does not, however, reverse common obesity [@heymsfield1999recombinant]; the reason is
 taken up under leptin in the
-[*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter.
+[*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: after losing weight, a patient eats to an energy estimate calculated for her new, lower weight. Why does the weight tend to return?
@@ -211,7 +211,7 @@ does lower weight. The two sides are linked, however. When intake falls, energy 
 too, and body fat releases leptin in rough proportion to its size, a signal
 the brain uses to regulate body weight. The rule "calories in minus calories out" is therefore the
 right *bookkeeping* and a poor *strategy*, because the "out" column itself shifts in response to
-intake (see the [*Appetite & Weight Regulation*](appetite-weight-regulation.qmd#sec-defended)
+intake (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-defended)
 chapter).
 
 ## The Singapore picture {#sec-singapore}
@@ -232,7 +232,7 @@ The National Nutrition Survey shows a gap between the guidelines and the plate [
 practical levers aim to close that gap without calorie counting:
 
 - My Healthy Plate (¼ wholegrains, ¼ protein, ½ fruit and vegetables; see the
-  [*Why Nutrition Matters*](01-why-nutrition-matters.qmd) chapter) lowers a meal's energy density
+  [*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter) lowers a meal's energy density
   [@hpbHealthyPlate].
 - Nutri-Grade flags the sugary drinks that are the easiest surplus to cut.
 - Everyday movement (stairs over the escalator, a walk after dinner, alighting a stop early)

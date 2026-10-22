@@ -45,7 +45,7 @@ questions:
     options:
       - text: "Higher protein intakes are safe with normal kidney function"
         correct: true
-        feedback: "Higher intakes show no harm to healthy kidneys. The exception is established kidney disease (see the *Chronic Kidney Disease* chapter)."
+        feedback: "Higher intakes show no harm to healthy kidneys. The exception is established kidney disease (see the *Chronic kidney disease* chapter)."
       - text: "Yes, any protein above the RDA damages healthy adults' kidneys"
         correct: false
         feedback: "Healthy kidneys tolerate higher protein; the concern applies to people who already have kidney disease."

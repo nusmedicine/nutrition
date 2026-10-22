@@ -108,14 +108,14 @@ nodes:
       - id: a
         text: "Refer her (GP or polyclinic, dietitian) and link her to communal meals."
         correct: true
-        feedback: "Recognise and refer, and act on the social cause: linking her to an Active Ageing Centre for communal meals is an intervention you can start now. The full malnutrition assessment and management belong to the specialist (see the *Undernutrition & Malnutrition* chapter)."
+        feedback: "Recognise and refer, and act on the social cause: linking her to an Active Ageing Centre for communal meals is an intervention you can start now. The full malnutrition assessment and management belong to the specialist (see the *Undernutrition & malnutrition* chapter)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
         text: "Handle the full malnutrition assessment and feeding plan yourself today."
         correct: false
-        feedback: "The formal screening tools, the multidisciplinary team and any supplement or feeding plan lie beyond this role (see the *Undernutrition & Malnutrition* chapter). Recognise, support intake and refer."
+        feedback: "The formal screening tools, the multidisciplinary team and any supplement or feeding plan lie beyond this role (see the *Undernutrition & malnutrition* chapter). Recognise, support intake and refer."
         goto: route
       - id: c
         text: "Send her home with advice to \"eat more\" and no follow-up."
@@ -153,7 +153,7 @@ nodes:
       referred appropriately. At this stage the job is to anticipate the shifting needs of ageing, recognise
       when a normal shift has tipped into a problem, and refer, while making the small food-first and social
       moves that help straight away. (The malnutrition assessment and management belong to the
-      *Undernutrition & Malnutrition* chapter.)
+      *Undernutrition & malnutrition* chapter.)
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:

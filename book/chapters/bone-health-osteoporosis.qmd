@@ -94,7 +94,7 @@ mass falls for the rest of life [@hereford2024peakBoneMass; @bailey1999saskatche
 @nof_weaver_2016_pbm_position]. This loss begins in young adulthood in both
 sexes, so the modifiable factors matter across the whole life course, long before menopause as well as after
 it [@riggs2008boneLossSites]. (The adolescent bone-building window, and the low energy availability that can
-blunt it, are covered in the [*Childhood & Adolescence*](childhood-adolescence.qmd) chapter.)
+blunt it, are covered in the [*Childhood & adolescence*](childhood-adolescence.qmd) chapter.)
 
 <div data-island="bone-bank" data-src="/diagrams/bone-bank.yml"></div>
 
@@ -106,11 +106,11 @@ percentage cut in fractures.
 In women, the loss sharpens around the menopause. As oestrogen falls, the resorption signal RANKL rises and
 shifts remodelling toward osteoclastic resorption [@eghbali2003rankl], and women lose roughly 7% of spine and
 6% of femoral-neck bone mineral across the transition [@greendale2012swanBone]. The hormonal context, including
-menopausal hormone therapy, is covered in the [*Menopause & Midlife Health*](menopause-midlife.qmd) chapter;
+menopausal hormone therapy, is covered in the [*Menopause & midlife health*](menopause-midlife.qmd) chapter;
 here we follow the diet.
 
 Three nutrients act on bone, each in a different way (the nutrient biology is in the
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) and
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) and
 [*Macronutrients*](macronutrients.qmd) chapters):
 
 | Nutrient | Role | How it acts on bone |
@@ -124,7 +124,7 @@ unabsorbed, parathyroid hormone rises and mobilises calcium from bone, and bone 
 [@laird2010vitDbone].
 
 (When failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and
-bone disease, which is recognised and referred; see the [*Chronic Kidney Disease*](chronic-kidney-disease.qmd)
+bone disease, which is recognised and referred; see the [*Chronic kidney disease*](chronic-kidney-disease.qmd)
 chapter.)
 
 ::: {.callout-tip collapse="true"}
@@ -157,7 +157,7 @@ absorption varies enormously. The calcium in spinach is bound to oxalate, so onl
 roughly a quarter to a third from milk [@odsCalcium]. Calcium-set tofu is absorbed about as well as milk, and
 low-oxalate greens such as kai-lan and bok choy are absorbed better still [@weaverTofuMilk2002;
 @weaverVegCalcium1999]. The spinach that looks calcium-rich on a label is therefore nearly useless for bone,
-and the tofu beside it an excellent source (see the *Micronutrients, Hydration & Electrolytes* chapter for the
+and the tofu beside it an excellent source (see the *Micronutrients, hydration and electrolytes* chapter for the
 oxalate contrast).
 
 ![How much calcium a food delivers depends on how much is absorbed, not the amount it contains. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu sit around a quarter to a third; low-oxalate greens like kai-lan and bok choy are absorbed better still.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
@@ -217,7 +217,7 @@ bone, and higher protein intake with adequate calcium tracks about 11% lower hip
 Protein's roles in bone explain the finding. It is the collagen matrix bone is built on, it drives the
 bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. (The
 muscle–bone overlap is approached from the sarcopenia side in the
-[*Undernutrition & Malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy Ageing*](healthy-ageing.qmd)
+[*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy ageing*](healthy-ageing.qmd)
 chapters.) When an older patient worries that "meat is bad for my bones", the advice is the opposite of the
 fear: eat enough protein, alongside enough calcium.
 
@@ -230,12 +230,12 @@ intake is therefore a bone red flag, and the frailty of late life makes it commo
 The whole dietary pattern matters more than any single nutrient: plenty of fruit and vegetables (supplying
 potassium, magnesium and vitamin K), a reliable calcium source, enough protein and enough energy
 [@iofNutritionProf]. (The overall pattern is set out in the
-[*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd) chapter.)
+[*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ::: {.callout-note}
 ## Mechanical loading: the strongest modifiable factor
 Diet supports both building peak bone mass and slowing its later loss, but the strongest modifiable signal to
-bone is mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & Midlife Health*
+bone is mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & midlife health*
 chapter. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact
 training improved bone density more than a low-intensity home programme in postmenopausal women with low
 bone mass, with only one minor adverse event [@watson2018liftmor]. Nutrition and loading are partners
@@ -355,7 +355,7 @@ When you counsel a patient with gout, the message runs: "It is not your fault. D
 protein and vegetables, cut the beer and sugary drinks if you like, and take the medication to target."
 (Obesity is linked to a higher risk of gout, and the ACR guideline conditionally recommends weight loss for
 patients with gout who are overweight [@fitzgerald2020goutacr]; obesity itself is covered in the
-[*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
+[*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
 
 ### Rheumatoid arthritis: nutrition as an adjunct {#sec-bone-ra}
 
@@ -398,7 +398,7 @@ FRAX
 : A tool that estimates 10-year fracture probability, with Singapore-calibrated models [@fraxSingapore].
 
 T-score
-: Bone density on a DXA scan (the low-dose X-ray scan met in the [*Energy Balance*](energy-balance.qmd)
+: Bone density on a DXA scan (the low-dose X-ray scan met in the [*Energy balance*](energy-balance.qmd)
   chapter), expressed in standard deviations from the young-adult peak.
 
 Fragility fracture

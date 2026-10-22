@@ -474,14 +474,20 @@ the chapter map to link to.
   insulin/glucagon physiology review cited "for local relevance" does not.)*
 - **Cite everything** with a `@key` that exists in `book/references.bib`; log any figure/photo
   in `book/figures/CREDITS.csv` (CC0/PD/CC-BY/CC-BY-SA only — never NC/ND).
-- **Cross-reference chapters by NAME, not number.** Write "the *Integrative Metabolism* chapter",
+- **Cross-reference chapters by NAME, not number.** Write "the *Integrative metabolism* chapter",
   never "Chapter 6" — names survive re-ordering (Part I was resequenced once already). Use the form
-  Ch.2/Ch.3 model: **"the *X* chapter"** in title case, keeping `&` in compound titles ("the
-  *Digestion & Absorption* chapter"). This applies in **island data** (`diagrams/*.yml`) as well as
-  prose. Forward-references to not-yet-written chapters use a generic name ("the diabetes chapter").
+  Ch.2/Ch.3 model: **"the *X* chapter"**, where *X* is the chapter's name **exactly as its at-a-glance
+  heading gives it**: the H1 before any colon, in the H1's own sentence case and with its own `&` or
+  "and" ("the *Digestion and absorption* chapter", "the *Bone & joint health* chapter", "the
+  *Integrative metabolism* chapter", "the *Adulthood* chapter", "the *Evidence vs hype* chapter"). Two
+  exceptions: *What a healthy diet looks like* (full H1) and *The gut microbiome*, which drops the
+  preceding "the" ("see [*The gut microbiome*](gut-microbiome.qmd) chapter"). The glossary's
+  "Introduced in" column uses the same names. If a chapter's H1 changes, re-run the rename across
+  book/, diagrams and islands. This applies in **island data** (`diagrams/*.yml`, plain text, no
+  italics) as well as prose. Forward-references to not-yet-written chapters use a generic name ("the diabetes chapter").
   The chapter is never the subject of an action verb (§11g): put the reference in parentheses after the
   fact it supports, or in a sentence whose subject is *we* or the topic. Where useful, make the title a
-  link with a section anchor (`the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-…) chapter`);
+  link with a section anchor (`the [*Integrative metabolism*](integrative-metabolism.qmd#sec-…) chapter`);
   island data cannot hold links, so it uses the italic title alone.
 - **Interactives earn their place** — a diagram/molecule island where it teaches something a
   paragraph can't; otherwise a static figure. Every chapter gets a **quiz** and a **case**.
@@ -529,8 +535,8 @@ Three cross-cutting depth rules, so students get the *medical-science basis* —
   clinical picture; do not merely assert the risk. *Worked example (Obesity & Metabolic Syndrome):* chronic
   energy surplus → adipocyte hypertrophy and **visceral / ectopic fat** → dysfunctional adipose tissue with
   **low-grade inflammation** and an **adipokine shift** (↑ pro-inflammatory signals, ↓ adiponectin) → **insulin
-  resistance** (the *Integrative Metabolism* chapter's mechanism) and **leptin/appetite dysregulation** (the
-  *Appetite & Weight Regulation* chapter) → the metabolic-syndrome cluster. Keep it first-year mechanism depth,
+  resistance** (the *Integrative metabolism* chapter's mechanism) and **leptin/appetite dysregulation** (the
+  *Appetite and weight regulation* chapter) → the metabolic-syndrome cluster. Keep it first-year mechanism depth,
   **cite the mechanism** (verify any new citation), and forward deep pathway detail to Part I / later years.
 - **Part III (advising the healthy) chapters carry the relevant *physiology / biochemistry* background.**
   Where a topic needs a physiological or biochemical basis to make sense, give a **short, relevant** grounding
@@ -582,9 +588,9 @@ will be fine where they stand. It always exits 0.
   sentence ("Start with the two questions…", "The microbiome earns its keep in two ways…"); the headings
   carry the structure.
 - **The book never acts.** A book, part, chapter or section is never the subject of an action verb: not
-  "This chapter explains…", "the *Integrative Metabolism* chapter returns to…", "The next chapter takes
+  "This chapter explains…", "the *Integrative metabolism* chapter returns to…", "The next chapter takes
   up…". Write "We return to…", or give the reference in parentheses after the fact it supports: "(see the
-  *Integrative Metabolism* chapter)". Parentheses are preferred.
+  *Integrative metabolism* chapter)". Parentheses are preferred.
 - **Plain, direct sentences.** Prefer *is*, *has*, *does* over *serves as*, *stands as*, *functions as*,
   *represents*, *boasts*, *features*. One idea per sentence where possible; vary sentence length and do
   not stack short dramatic sentences.

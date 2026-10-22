@@ -3,7 +3,7 @@ title: "Three households, one plate"
 objectives:
   - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting to each cuisine instead of imposing a foreign diet."
   - "Tackle the two biggest local gaps, too little wholegrain and too much free sugar and salt, with practical swaps."
-  - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the Evidence vs Hype chapter."
+  - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the *Evidence vs hype* chapter."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, guidelines, patterns, singapore, counselling]
@@ -107,7 +107,7 @@ nodes:
       - id: a
         text: "\"It's a strong pattern, but the trial can't 'guarantee' anyone's outcome.\""
         correct: true
-        feedback: "The benefit comes with its caveats: the ~30% was a relative (not absolute) reduction on a stroke-dominated composite, heart attack and cardiovascular death weren't individually significant, and the trial was retracted and re-published. Appraising claims like this is a skill of its own (see the *Evidence vs Hype* chapter)."
+        feedback: "The benefit comes with its caveats: the ~30% was a relative (not absolute) reduction on a stroke-dominated composite, heart attack and cardiovascular death weren't individually significant, and the trial was retracted and re-published. Appraising claims like this is a skill of its own (see the *Evidence vs hype* chapter)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -151,15 +151,15 @@ nodes:
       sugary drinks), and addressed the belief that vegetarian means no protein. When PREDIMED
       came up, you cited it fairly: a relative reduction on a stroke-dominated composite, from a
       re-published trial, not a personal guarantee. (Appraising such claims in depth is covered in
-      the *Evidence vs Hype* chapter, and running the change conversation in the
-      *Behaviour-Change Counselling* chapter.)
+      the *Evidence vs hype* chapter, and running the change conversation in the
+      *Behaviour-change counselling* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "One target (quarter-quarter-half), three cuisines: adapt the plate to the food, never impose a foreign diet or ban a cuisine."
         - "The two highest-yield local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
         - "Legumes are a full protein quarter; vegetarian does not mean protein-deficient."
-        - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the Evidence vs Hype chapter."
+        - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the *Evidence vs hype* chapter."
 
   - id: end-partial
     type: end

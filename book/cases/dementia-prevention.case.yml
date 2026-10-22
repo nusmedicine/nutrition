@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "Treat her high blood pressure and glucose, the risk factors with the best evidence."
         correct: true
-        feedback: "The vascular contribution is the modifiable pathway, and her blood pressure and glucose are the risk factors with the best evidence. This is the same prevention as in the *Cardiovascular Disease & Hypertension* and *Type 2 Diabetes* chapters."
+        feedback: "The vascular contribution is the modifiable pathway, and her blood pressure and glucose are the risk factors with the best evidence. This is the same prevention as in the *Cardiovascular disease & hypertension* and *Type 2 diabetes* chapters."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-diet

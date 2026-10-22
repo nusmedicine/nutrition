@@ -85,7 +85,7 @@ Monosaccharides
   and galactose (from milk).
 
 Disaccharides
-: Two units joined: sucrose, lactose and maltose. Most adults make less lactase, the enzyme that splits lactose, after childhood; this is the norm, and only some get symptoms (lactose intolerance; see the [*Digestion & Absorption*](digestion-absorption.qmd) chapter).
+: Two units joined: sucrose, lactose and maltose. Most adults make less lactase, the enzyme that splits lactose, after childhood; this is the norm, and only some get symptoms (lactose intolerance; see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
 
 Polysaccharides
 : Long chains of units. Rice, bread and potato are mostly **starch**, a mix of amylose and
@@ -120,8 +120,8 @@ lactase, which sit on the surface of the intestinal lining cells) finish the bre
 sugars. Glucose and galactose cross the gut lining on SGLT1 (sodium–glucose cotransporter 1), and
 fructose on its own transporter, GLUT5. Glucose and galactose then travel to the liver in the
 portal blood, where insulin drives their storage. (Digestion in detail: see the
-[*Digestion & Absorption*](digestion-absorption.qmd) chapter; the fed and fasted handling of glucose:
-see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-partB) chapter.)
+[*Digestion and absorption*](digestion-absorption.qmd) chapter; the fed and fasted handling of glucose:
+see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-partB) chapter.)
 
 **Quality: not all carbohydrate is equal.** In a major series of meta-analyses, higher fibre
 and wholegrain intake was associated with roughly 15–30% lower all-cause and
@@ -231,7 +231,7 @@ wholegrain bran and vegetable skins), and much of it can be fermented by gut bac
 
 **What it does.** Soluble fibre slows digestion and blunts the rise in blood glucose; insoluble fibre adds
 bulk and aids regularity; and the fermentable part feeds gut microbes that make short-chain fatty
-acids (see the [*Gut Microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Higher fibre intake is
+acids (see [*The gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Higher fibre intake is
 among the best-supported dietary associations with lower disease risk (see the evidence above)
 [@reynolds2019carb].
 
@@ -314,7 +314,7 @@ Because fats do not dissolve in blood, they travel inside **lipoproteins**: chyl
 very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL) and high-density lipoprotein
 (HDL). **LDL** delivers cholesterol and drives atherosclerosis (plaque formation in the artery wall)
 when it builds up (lipoprotein handling: see the
-[*Integrative Metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter).
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter).
 
 **What it does.** Fat is the body's most concentrated energy store, a structural component of
 every cell membrane, the carrier for the fat-soluble vitamins (A, D, E, K), and the source of the
@@ -325,8 +325,8 @@ the liver break it into tiny droplets, and pancreatic lipase frees fatty acids a
 monoglycerides, which micelles carry to the gut lining for absorption. Inside the intestinal cells
 these products are re-assembled into triglycerides and packaged into chylomicrons, which enter the
 lymphatics (not the portal vein) before reaching the blood. (Bile and micelles: see the
-[*Digestion & Absorption*](digestion-absorption.qmd) chapter; lipoprotein transport and fat
-metabolism: see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter.)
+[*Digestion and absorption*](digestion-absorption.qmd) chapter; lipoprotein transport and fat
+metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter.)
 
 **Quality: type matters more than total.** For decades the advice was "eat less fat"; the better
 message is "eat better fat". Fats can be ranked by their relationship to cardiovascular risk:
@@ -465,14 +465,14 @@ peptidases then break it down to amino acids and short peptides, which are absor
 portal blood.
 Cells use these to build their own proteins; surplus amino acids are deaminated (the nitrogen
 leaving as urea) and their carbon skeletons burned for energy or turned into glucose. (Digestion
-in detail: see the [*Digestion & Absorption*](digestion-absorption.qmd) chapter; amino-acid
-metabolism: see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-amino) chapter.)
+in detail: see the [*Digestion and absorption*](digestion-absorption.qmd) chapter; amino-acid
+metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-amino) chapter.)
 
 **Quality: adequacy and completeness.** A useful population reference is about 0.8 g/kg/day,
 adequate for most healthy adults [@who2007protein], though needs rise in older age, illness
 [@bauer2013protage] and athletic training.
 Protein also has the highest thermic effect of the macronutrients (see the
-[*Energy Balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy
+[*Energy balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy
 expenditure and satiety.
 
 **Protein quality** reflects how well a protein's amino acids match human needs and how digestible
@@ -532,7 +532,7 @@ deliberately avoid prescribing one. Diabetes standards, for example, find no ide
 energy from carbohydrate, protein or fat, and advise individualising the split and referring to a
 dietitian [@ada2026standards]. Their consistent themes are to favour wholegrains, plants and
 unsaturated fats, and to minimise added sugar, *trans* fat, sodium and ultra-processed foods.
-(Dietary patterns in full: see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd)
+(Dietary patterns in full: see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
 chapter.)
 
 ::: {.callout-tip collapse="true"}
@@ -557,7 +557,7 @@ Prescribing grams is not the task at this stage.
 My Healthy Plate ("quarter, quarter, half": ¼ wholegrains, ¼ protein, ½ fruit and vegetables)
 [@hpbHealthyPlate] and the Nutri-Grade A–D drink labels [@hpbNutriGrade] are Singapore's everyday
 tools for the advice above (both introduced in the
-[*Why Nutrition Matters*](01-why-nutrition-matters.qmd) chapter). The National Nutrition Survey
+[*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter). The National Nutrition Survey
 2022 shows the gap they address: only about 4% of the staples eaten are wholegrain, against a
 recommendation of about 30%; saturated fat makes up a large share of fat intake; and most residents
 exceed the sodium target [@mohNNS2022]. The gap between what the science recommends and what the

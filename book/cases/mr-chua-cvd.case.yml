@@ -108,7 +108,7 @@ nodes:
       - id: a
         text: "It's reasonable for most people, but first let me check your kidneys and medicines."
         correct: true
-        feedback: "A potassium-enriched salt substitute is a reasonable way to cut sodium for most people, but the trial that showed it prevents strokes and deaths **excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements**, and ACE inhibitors and ARBs also raise potassium. In all of these people extra potassium can cause dangerous high blood potassium (hyperkalaemia). So check for kidney disease and those medicines first, and if unsure, don't: involve his doctor (see the *Chronic Kidney Disease* chapter)."
+        feedback: "A potassium-enriched salt substitute is a reasonable way to cut sodium for most people, but the trial that showed it prevents strokes and deaths **excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements**, and ACE inhibitors and ARBs also raise potassium. In all of these people extra potassium can cause dangerous high blood potassium (hyperkalaemia). So check for kidney disease and those medicines first, and if unsure, don't: involve his doctor (see the *Chronic kidney disease* chapter)."
         effects: { quality: +1 }
         goto: q-refer
       - id: b
@@ -132,7 +132,7 @@ nodes:
 
       So the safe message is: *"It's reasonable for most people, but first let me check you have no kidney
       disease and aren't on those medicines. If we're unsure, we hold off and I check with your doctor."*
-      (For the renal side of potassium, see the *Chronic Kidney Disease* chapter.) Recommending it freely,
+      (For the renal side of potassium, see the *Chronic kidney disease* chapter.) Recommending it freely,
       without any kidney or medication check, is **a genuine do-no-harm error**, and no amount of good advice
       elsewhere buys it back.
     next: q-refer
@@ -186,7 +186,7 @@ nodes:
       keyPoints:
         - "First move is lifestyle-first plus risk assessment: confirm the blood pressure over repeated readings, take a diet, activity and alcohol history, counsel, and arrange a formal cardiovascular-risk assessment. Don't prescribe reflexively or defer for a year."
         - "Dietary advice is pattern-based (a DASH-aligned My Healthy Plate) plus sodium reduction; it's fat quality and replacement ('replaced with what?'), not 'cut all fat', and most sodium hides in soups, sauces and eaten-out food, not the shaker."
-        - "Do no harm with a potassium salt substitute: reasonable for most people, but only after checking there's no kidney disease and no ACE inhibitor, ARB or potassium-sparing diuretic. If unsure, don't, and involve the doctor (see the Chronic Kidney Disease chapter)."
+        - "Do no harm with a potassium salt substitute: reasonable for most people, but only after checking there's no kidney disease and no ACE inhibitor, ARB or potassium-sparing diuretic. If unsure, don't, and involve the doctor (see the *Chronic kidney disease* chapter)."
         - "Refer to a dietitian and arrange risk-tiered assessment and re-check; blood-pressure and cholesterol targets are looked up, not memorised; and alcohol is never advised 'for the heart'."
       references: ["@hpbHealthyPlate", "@who2020diet", "@mohAlcoholLimits2018"]
 

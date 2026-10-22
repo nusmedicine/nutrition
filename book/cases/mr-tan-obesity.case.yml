@@ -83,7 +83,7 @@ nodes:
       - id: a
         text: "Four of five: he meets criteria; the label is a risk marker, not a disease to drug."
         correct: true
-        feedback: "Central obesity, low HDL, raised blood pressure and raised fasting glucose make four of five (only triglycerides are untested), past the any-three-of-five threshold. Insulin resistance and central fat, the common underlying abnormalities, tie them together, which is why the syndrome is a risk marker for type 2 diabetes and cardiovascular disease, not an entity treated with a single 'metabolic-syndrome' drug. Detailed diabetes, lipid and blood-pressure management belongs to the *Type 2 Diabetes* and *Cardiovascular Disease & Hypertension* chapters."
+        feedback: "Central obesity, low HDL, raised blood pressure and raised fasting glucose make four of five (only triglycerides are untested), past the any-three-of-five threshold. Insulin resistance and central fat, the common underlying abnormalities, tie them together, which is why the syndrome is a risk marker for type 2 diabetes and cardiovascular disease, not an entity treated with a single 'metabolic-syndrome' drug. Detailed diabetes, lipid and blood-pressure management belongs to the *Type 2 diabetes* and *Cardiovascular disease & hypertension* chapters."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-levers

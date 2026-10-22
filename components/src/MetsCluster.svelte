@@ -27,7 +27,7 @@
       { id: 'triglycerides', label: 'Raised triglycerides', threshold: '≥1.7 mmol/L', note: 'A marker of the fat the liver is over-producing under insulin resistance (or on treatment).' },
       { id: 'hdl', label: 'Low HDL cholesterol', threshold: '<1.0 mmol/L (men) / <1.3 mmol/L (women)', note: "The 'protective' cholesterol falls as the cluster forms (or on treatment)." },
       { id: 'bp', label: 'Raised blood pressure', threshold: '≥130/85 mmHg', note: 'Below the threshold for hypertension on its own, but it still counts here (or on treatment).' },
-      { id: 'glucose', label: 'Raised fasting glucose', threshold: '≥5.6 mmol/L', note: "Impaired fasting glucose — an early signal, well before the Type 2 Diabetes chapter's diagnostic cut-off." },
+      { id: 'glucose', label: 'Raised fasting glucose', threshold: '≥5.6 mmol/L', note: "Impaired fasting glucose — an early signal, well before the Type 2 diabetes chapter's diagnostic cut-off." },
     ],
     threshold_count: 3,
     verdicts: { meets: 'Metabolic syndrome — meets criteria (≥3 of 5)', notyet: '{n} of 5 — not yet' },

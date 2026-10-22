@@ -40,7 +40,7 @@
 ## Type 2 diabetes at a glance {#sec-overview}
 
 Type 2 diabetes grows out of insulin resistance, the reduced response of the body's cells to insulin
-(see the *Obesity & Metabolic Syndrome* chapter). Nutrition acts along the whole course of the
+(see the *Obesity & metabolic syndrome* chapter). Nutrition acts along the whole course of the
 disease. It prevents progression in people with **prediabetes**, the phase in which blood glucose has
 started to rise but is not yet in the diabetes range. It manages established diabetes, and it can put
 early disease into **remission**, with blood glucose held below the diabetes range off
@@ -49,12 +49,12 @@ glucose-lowering drugs (see [Remission](#sec-t2d-remission)).
 ![The diabetes continuum and where nutrition acts: from at-risk, through prediabetes, to early and then established type 2 diabetes. Structured lifestyle change can prevent progression; a supervised, weight-centred programme can put *early* disease into remission; dietary quality manages established disease; medication (a specialist decision) is layered on, not a substitute.](/figures/mechanisms/t2d-continuum.svg){#fig-t2d-continuum width="92%" fig-align="center"}
 
 The complications of type 2 diabetes in the heart, blood vessels and kidneys are taught in the
-*Cardiovascular Disease & Hypertension* and *Chronic Kidney Disease* chapters. Gestational diabetes,
-and why Singapore screens every pregnancy, is in the *Pregnancy & Lactation* chapter.
+*Cardiovascular disease & hypertension* and *Chronic kidney disease* chapters. Gestational diabetes,
+and why Singapore screens every pregnancy, is in the *Pregnancy & lactation* chapter.
 
 Safety comes before any diet advice. Before endorsing a low-carbohydrate diet or a fast, you need to
 know which glucose-lowering drugs the patient takes. Some cause dangerous hypoglycaemia (blood glucose
-falling too low; see the *Integrative Metabolism* chapter) when carbohydrate is cut.
+falling too low; see the *Integrative metabolism* chapter) when carbohydrate is cut.
 
 All of this sits within Singapore's War on Diabetes: roughly one in three people will develop
 diabetes in their lifetime [@mohWarOnDiabetes].
@@ -62,7 +62,7 @@ diabetes in their lifetime [@mohWarOnDiabetes].
 ## Pathophysiology: how insulin resistance becomes diabetes {#sec-t2d-mechanism}
 
 Type 2 diabetes is the end of a long compensation for insulin resistance by the pancreatic **β-cells**
-(the insulin-producing cells; insulin action and glucose handling are in the *Integrative Metabolism*
+(the insulin-producing cells; insulin action and glucose handling are in the *Integrative metabolism*
 chapter). The progression runs in four steps:
 
 ::: {.flow}
@@ -84,11 +84,11 @@ The **twin-cycle model** offers one explanation of why the β-cells fail. Excess
 drives up fasting glucose (the liver cycle), while fat in the pancreas impairs the β-cells' ability to
 respond (the pancreas cycle), and each cycle feeds the other [@taylor2021remission;
 @taylor2025twincycle]. This organ fat is ectopic fat (fat stored in organs where it does not belong;
-see the *Obesity & Metabolic Syndrome* chapter), and it is removable. Substantial weight loss removes
+see the *Obesity & metabolic syndrome* chapter), and it is removable. Substantial weight loss removes
 it, which can restore β-cell function and reverse early disease. That reversal is the basis of
 remission (see [Remission](#sec-t2d-remission)).
 
-Asians carry more fat at a given BMI (see the *Obesity & Metabolic Syndrome* chapter). Each person has
+Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter). Each person has
 a **personal fat threshold**, the individual level of body fat beyond which diabetes develops. An Asian
 patient can therefore cross it at a lower weight than Western cut-offs assume [@taylor2023pft].
 
@@ -143,7 +143,7 @@ glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat sl
 
 For Singapore's Malay-Muslim community, which also carries a high diabetes burden, Ramadan fasting is
 a high-yield, faith-aware counselling task (the fed–fasted physiology of Ramadan is in the
-*Integrative Metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
+*Integrative metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
 severe hypoglycaemia was several times more frequent during Ramadan than in other months
 [@salti2004epidiar]. The danger is greatest for patients on insulin or a sulfonylurea, two of the
 high-risk classes in the table above.
@@ -195,7 +195,7 @@ of the staples Singaporeans eat are wholegrain [@mohNNS2022].
 
 Because quality matters more than the macronutrient ratio, several dietary patterns are acceptable,
 and the right one is the one a person will actually keep [@evert2019nutrition]. The evidence behind
-three common patterns (see the *What a Healthy Diet Looks Like* chapter) differs:
+three common patterns (see the *What a healthy diet looks like* chapter) differs:
 
 - The Mediterranean pattern has the deepest diabetes-specific evidence. It lowers HbA1c in established
   disease, reduces new cases, and works well translated into local food instead of adopted wholesale
@@ -207,7 +207,7 @@ three common patterns (see the *What a Healthy Diet Looks Like* chapter) differs
   diabetes-specific DASH trials to rank it confidently [@jing2023networkma].
 
 The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's
-blood-pressure and lipid rationale) is in the *Cardiovascular Disease & Hypertension* chapter. In
+blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter. In
 diabetes, these patterns matter for glucose and overall diet quality.
 
 The **plate method**, a low-numeracy tool that sets the proportions of the plate, makes any of these
@@ -281,7 +281,7 @@ The guideline advice for prediabetes has three parts: aim for modest weight loss
 quality dietary pattern, and refer to a structured programme [@ada2026prevention]. When you discuss
 prediabetes, frame it to motivate, not to frighten, since not everyone with prediabetes progresses,
 and some revert to normal [@hpbPreDictedInfo]. Sustaining any of these changes is a skill in itself
-(see the *Behaviour-Change Counselling* chapter for motivational interviewing and the wider
+(see the *Behaviour-change counselling* chapter for motivational interviewing and the wider
 behaviour-change toolkit).
 
 ::: {.callout-tip collapse="true"}
@@ -304,7 +304,7 @@ conversation has none of that structure. The guideline response is to refer to a
 The clinician's task is to recognise and refer, not to prescribe. You identify the modifiable dietary
 factors: carbohydrate quality, dietary pattern, body weight (for remission) and sugary-drink intake. You
 then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
-*Interprofessional Practice & Referral* chapter) and to the diabetes team for medication decisions.
+*Interprofessional practice, referral and looking after yourself* chapter) and to the diabetes team for medication decisions.
 
 ::: {.callout-warning}
 ## Review the medication before carbohydrate is cut
@@ -318,7 +318,7 @@ Ramadan fasting needs the same medication review, made in advance.
 The safe approach is a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify
 the patient and adjust medication, following international guidance [@hassanein2022ramadan]. It is a
 recognise-and-refer task, not one to manage single-handed. Singapore's locally validated fasting
-algorithm (the FAST algorithm; see the *Integrative Metabolism* chapter) shows that fasting with
+algorithm (the FAST algorithm; see the *Integrative metabolism* chapter) shows that fasting with
 diabetes can be done safely when medication is adjusted by the algorithm [@lum2020fast].
 
 ::: {.callout-tip collapse="true"}

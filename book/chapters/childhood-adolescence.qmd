@@ -37,7 +37,7 @@
 ## Childhood & adolescence at a glance: two drivers {#sec-overview}
 
 This stage runs from about age 4 or 5, once a child eats family foods, to the end of adolescence (for the
-earlier years, see the [*Infancy & Early Childhood*](infancy-early-childhood.qmd) chapter). The period has
+earlier years, see the [*Infancy & early childhood*](infancy-early-childhood.qmd) chapter). The period has
 two phases: a long, quiet school-age phase (about 5–10 years) of steady growth in which habits set, and a
 short adolescent growth spurt. As at every life stage, two drivers shape nutrition:
 
@@ -82,7 +82,7 @@ age. A young child can recover from a setback, but by later childhood that poten
 crossing down through the growth centiles (the reference curves on a growth chart) warrants referral, not
 watchful waiting [@leroy_2020_catchup_growth]. (Reference intakes and the underlying nutrient biology are
 in the [*Macronutrients*](macronutrients.qmd) and
-[*Micronutrients, Hydration & Electrolytes*](04-micronutrients-hydration.qmd) chapters.)
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapters.)
 
 ### Peak bone mass acquisition {#sec-child-bone}
 
@@ -91,8 +91,8 @@ deposited in the few years around the growth spurt, a brief, hormone-gated windo
 growth plates fuse [@baxterjones_2011_pbm_estimation]. The bone mass accrued by the end of adolescence,
 close to a person's **peak bone mass** (the most bone a person ever has), is the single biggest
 determinant of how much bone a person can afford to lose in later life (see the
-[*Bone & Joint Health*](bone-health-osteoporosis.qmd) and
-[*Menopause & Midlife Health*](menopause-midlife.qmd) chapters). The window is only partly
+[*Bone & joint health*](bone-health-osteoporosis.qmd) and
+[*Menopause & midlife health*](menopause-midlife.qmd) chapters). The window is only partly
 modifiable: lifestyle sets about a fifth to two-fifths of peak bone mass, and the rest is inherited
 [@nof_weaver_2016_pbm_position]. Lifestyle is worth optimising, but it does not override genetics.
 
@@ -142,7 +142,7 @@ does, matters more than haemoglobin alone. When you see a tired, poorly concentr
 menstruating adolescent, especially one on a meat-restricted diet, suspect iron deficiency and check iron
 studies (blood tests of iron status, including ferritin) or refer, without waiting for anaemia. (Exact
 thresholds and screening schedules belong to clinical practice; iron deficiency and anaemia are covered in
-the *Micronutrients, Hydration & Electrolytes* chapter.)
+the *Micronutrients, hydration and electrolytes* chapter.)
 
 ::: {.callout-tip}
 ## 🍜 Getting iron from everyday meals
@@ -239,7 +239,7 @@ relative energy deficiency in sport, name this cluster [@mountjoy2023reds; @weis
 Sports medicine's rule of thumb is that adequate energy is the foundation, and that one part of the triad
 should prompt a look for the others [@thomas2016nutritionathletic]. An under-fuelled adolescent with
 amenorrhoea or a stress fracture therefore needs recognition and referral, not a stricter diet. (Sports
-nutrition in more detail is in the [*Adulthood & Working Life*](adulthood-working-life.qmd) chapter.)
+nutrition in more detail is in the [*Adulthood*](adulthood-working-life.qmd) chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: teenagers who share family meals have better diets. Why are family meals encouraged but not prescribed as a treatment?
@@ -297,7 +297,7 @@ worth checking at every routine visit, and any one of them warrants referral
 
 Two further patterns complete the picture. **Avoidant/restrictive food intake disorder (ARFID)** is
 restrictive eating driven by sensory aversion or fear, without concern about weight or shape. It is where
-"fussy eating" becomes clinical (see the *Infancy & Early Childhood* chapter)
+"fussy eating" becomes clinical (see the *Infancy & early childhood* chapter)
 [@sanchez_arfid_2023_epi_review]. **Orthorexia**, an obsessive fixation on "clean eating", is a real
 pattern, fuelled by social media, that is worth recognising even though it is not yet a formal diagnosis
 [@horovitz_orthorexia_2023_review].
@@ -311,8 +311,8 @@ fat is therefore usually showing physiology, not disease, and should not be path
 The concern is the trajectory. Childhood obesity tends to track into adulthood, and paediatric type 2
 diabetes is now emerging downstream of it, including in Singapore [@singh_2008_tracking_overweight;
 @nuh_paediatric_t2dm_children]. Here too the task is to recognise the trajectory and its cardiometabolic
-risk, and refer (management is in the [*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd)
-and [*Type 2 Diabetes*](type-2-diabetes.qmd) chapters).
+risk, and refer (management is in the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd)
+and [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 
 ::: {.callout-warning}
 ## Do no harm: healthy habits, never a diet
@@ -321,7 +321,7 @@ both problems. Paediatric guidance echoes it: focus on healthy habits rather tha
 meals, and avoid all weight-talk and teasing, which drive disordered eating
 [@golden_2016_aap_prevent_obesity_ed; @haines_2006_weight_teasing_eat]. **Whatever a teenager's weight,
 the answer is never "go on a diet".** How to raise weight safely, the do-no-harm interview itself, is
-taught in the [*Assessing Diet & Talking to Patients*](06-dietary-assessment.qmd) chapter; the task here
+taught in the [*Assessing diet and talking to patients*](06-dietary-assessment.qmd) chapter; the task here
 is to recognise and refer.
 :::
 
