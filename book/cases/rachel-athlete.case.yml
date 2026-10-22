@@ -51,7 +51,7 @@ nodes:
       - id: c
         text: "Reassure them both that periods often stop in athletes as a sign of fitness, and send them home."
         correct: false
-        feedback: "Amenorrhoea in an athlete is a red flag, not a badge of fitness: it can signal under-fuelling that is quietly harming her bones. Dismissing it misses a slow-motion emergency."
+        feedback: "Amenorrhoea in an athlete is a red flag, not a badge of fitness: it can signal under-fuelling that is harming her bones without symptoms. Dismissing it misses a serious, progressive problem."
         reaction: concerned
         goto: remedial
 
@@ -148,7 +148,7 @@ nodes:
     outcome: success
     title: "Recognised, reframed, referred"
     body: |
-      You resisted the request to prescribe a diet, took a history that surfaced the real problem, recognised
+      You resisted the request to prescribe a diet, took a history that surfaced the underlying problem, recognised
       under-fuelling threatening Rachel's bones and periods, referred appropriately, and reframed the whole
       conversation from weight to *fuelling for health*. That is the job at this stage: recognise the
       pattern, protect the teenager from harmful diet-talk, and hand the detailed work to the team.

@@ -2,7 +2,7 @@ id: weight-gain-bubble-tea
 title: "Weight gain and bubble tea: a diet-history station"
 objectives:
   - "Choose a fit-for-purpose assessment method and take a structured diet history, naming its bias."
-  - "Ask the highest-yield question (drinks) and open the conversation with permission, in plain language."
+  - "Ask the most informative question (drinks) and open the conversation with permission, in plain language."
   - "Recognise a disordered-eating red flag and respond safely: screen and refer, and never prescribe restriction into possible harm."
 difficulty: intro
 estimatedMinutes: 10
@@ -60,7 +60,7 @@ nodes:
       - id: a
         text: "\"What do you drink through the day?\""
         correct: true
-        feedback: "This is the highest-yield question locally, and here it pays off: \"Oh… I have bubble tea most days, sometimes twice, and kopi with condensed milk. I never thought of drinks as food.\" Sugary drinks are the biggest hidden source."
+        feedback: "This is the most informative question locally, and here it is revealing: \"Oh… I have bubble tea most days, sometimes twice, and kopi with condensed milk. I never thought of drinks as food.\" Sugary drinks are a major hidden source."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-opener
@@ -72,7 +72,7 @@ nodes:
       - id: c
         text: "\"Roughly how big are your portions?\""
         correct: false
-        feedback: "Portions are worth asking about, but they are not the highest-yield probe here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger contributor by far."
+        feedback: "Portions are worth asking about, but they are not the most informative question here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger contributor by far."
         goto: q-opener
 
   - id: q-opener
@@ -95,7 +95,7 @@ nodes:
       - id: c
         text: "Say nothing about the drinks, to avoid making her uncomfortable."
         correct: false
-        feedback: "Avoiding the highest-yield issue helps no one. It can be raised kindly, with permission and without judgement."
+        feedback: "Avoiding the most important issue helps no one. It can be raised kindly, with permission and without judgement."
         goto: q-safety
 
   - id: q-safety
@@ -144,8 +144,8 @@ nodes:
     outcome: success
     title: "First contact, done safely"
     body: |
-      You took a structured history rather than assuming, asked the highest-yield question and
-      uncovered the bubble tea, opened the advice with permission and one realistic swap, and, when
+      You took a structured history rather than assuming, asked the most informative question
+      and uncovered the bubble tea, opened the advice with permission and one realistic swap, and, when
       Wei revealed compensatory meal-skipping and guilt, recognised the red flag and switched to a
       gentle screen and referral instead of a restriction plan. That is competent, safe first
       contact. (Motivational interviewing, goal-setting and the full 5 A's, which carry the
@@ -154,7 +154,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Assess before you advise: take a structured history and widen a single day to 'is that typical?'."
-        - "Ask about drinks: the highest-yield, most-often-skipped question in a local diet history."
+        - "Ask about drinks: the most informative, most-often-skipped question in a local diet history."
         - "Advise with permission, in plain language, one realistic swap at a time."
         - "Do no harm: skipping to compensate and guilt after eating are red flags. Screen (SCOFF), be supportive and refer; never prescribe restriction into possible harm."
 
@@ -171,5 +171,5 @@ nodes:
       objectivesMet: [1]
       keyPoints:
         - "You cannot counsel a diet you have not assessed: history first."
-        - "Drinks are the highest-yield probe; ask with permission before advising."
+        - "The drinks question is the most informative one; ask with permission before advising."
         - "Compensatory meal-skipping and guilt are eating-disorder red flags: screen and refer, and do not prescribe restriction."

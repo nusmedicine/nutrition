@@ -38,7 +38,7 @@
 
 **Chronic kidney disease (CKD)** is long-term damage to the kidneys, usually with a gradual loss of
 their function. It is the renal end of the cascade that runs through obesity, type 2 diabetes and
-cardiovascular disease (together, the cardiovascular-kidney-metabolic (CKM) syndrome), and it shares their drivers (see the
+cardiovascular disease (together, the cardiovascular-kidney-metabolic (CKM) syndrome), and it shares their risk factors (see the
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd),
 [*Type 2 diabetes*](type-2-diabetes.qmd) and
 [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). CKD is
@@ -123,7 +123,7 @@ encouraged in one patient and limited in another.
 
 ### Protein: targets before and on dialysis {#sec-ckd-protein}
 
-Protein is the most misunderstood part of the renal diet, because the advice reverses at dialysis.
+Protein is a commonly misunderstood part of the renal diet, because the advice reverses at dialysis.
 Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once a patient starts
 dialysis, which is itself catabolic and removes protein, the target is raised again
 [@kdoqi2020nutrition; @lambert2022kdoqicommentary]. Because the same patient needs opposite advice at
@@ -160,7 +160,7 @@ albuminuria and lets blood-pressure drugs work better [@kdigo2024ckd; @kdoqi2020
 blood pressure [@kdigo2024ckd].
 
 Singaporeans start badly placed: about 9 in 10 exceed the limit, averaging about 3,600 mg a day, most of
-it hidden in soups, sauces and food eaten out [@hpb2023sodium]. (The population story of sodium and
+it hidden in soups, sauces and food eaten out [@hpb2023sodium]. (The population evidence on sodium and
 blood pressure is in the *Cardiovascular disease & hypertension* chapter.) CKD adds a firm caution about one
 common way of cutting salt, the potassium salt substitute (see
 [Potassium: the risk of hyperkalaemia](#sec-ckd-potassium)).
@@ -202,7 +202,7 @@ The warning matters locally, since both fruits are common in Singapore gardens a
 
 ### Phosphate: dietary sources and absorption {#sec-ckd-phosphate}
 
-Retained phosphate is a quiet driver of CKD–mineral and bone disease, and its form matters more than
+Retained phosphate silently contributes to CKD–mineral and bone disease, and its form matters more than
 the milligrams [@kdigo2017ckdmbd; @gonzalezparra2012phosphorus]. Phosphate that occurs naturally in
 whole foods (meat, dairy, legumes) is only partly absorbed, roughly 40–60%, and less from plant
 sources. **Phosphate additives**, the inorganic phosphates used to preserve and improve processed
@@ -308,19 +308,19 @@ their stage:
 **Diabetes drives most new cases of kidney failure in Singapore.** Singapore has one of the highest
 rates of diabetes-driven kidney failure in the world: about 6 people a day start treatment for kidney
 failure, over 9,000 are on dialysis, and roughly 2 in 3 new cases are due to diabetes [@nkfsKeyStats;
-@leo2020dialysissg]. Local CKD prevalence tracks the cardiometabolic drivers closely: it is far higher
+@leo2020dialysissg]. Local CKD prevalence tracks the cardiometabolic risk factors closely: it is far higher
 in people with diabetes or hypertension than in those without, and is projected to rise toward 1 in 4
 residents as those conditions climb [@ho2024stemmingckd; @wong2018ckdprojection]. The largest gain for
 the kidney is therefore made years upstream, in the control of diabetes and blood pressure.
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease dominates
-new dialysis, the national War on Diabetes is also the country's most important CKD-prevention strategy
+new dialysis, the national War on Diabetes is also a central CKD-prevention strategy
 [@mohWarOnDiabetes]. The American Heart Association's concept of **cardiovascular-kidney-metabolic
 (CKM) syndrome** treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder
 [@ahaCKM2023]. The CKD guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same
 heat-map staging and is pragmatic about referral: not every patient needs a dietitian, but referral can help those with more complex dietary needs [@aceCKD2023].
 
-**The renal diet clashes with the hawker palate, and the clash drives poor intake.** A low-salt,
+**The renal diet clashes with typical hawker food, and the clash contributes to poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet runs against a flavour-dense hawker palate built on soy,
 sambal, coconut and preserved dishes. The clash is one reason patients struggle to eat well and slide
 toward wasting, and another reason the plan needs a dietitian who can adapt it to how people eat

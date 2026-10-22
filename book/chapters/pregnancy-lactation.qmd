@@ -37,16 +37,16 @@
 - [Recognising trouble, and when to refer](#sec-preg-refer)
 :::
 
-## Pregnancy & lactation at a glance: two drivers {#sec-overview}
+## Pregnancy & lactation at a glance: internal and external factors {#sec-overview}
 
-As at every life stage, two drivers shape a woman's nutrition in pregnancy:
+As at every life stage, two sets of factors shape a woman's nutrition in pregnancy:
 
-| Driver | What changes at this stage |
+| Factor | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | The automatic physiology of placental hormones, an expanding blood volume, a normal slide into insulin resistance, and intestinal calcium absorption that roughly doubles |
-| External levers (life and environment) | The levers the woman and her clinician can pull: what she eats, how she moves, the screening she is offered, and the foods she avoids |
+| Internal factors (inside the body) | The automatic physiology of placental hormones, an expanding blood volume, a normal slide into insulin resistance, and intestinal calcium absorption that roughly doubles |
+| External factors (life and environment) | The factors the woman and her clinician can change: what she eats, how she moves, the screening she is offered, and the foods she avoids |
 
-The internal drivers explain three facts that would otherwise seem counter-intuitive:
+The internal factors explain three facts that would otherwise seem counter-intuitive:
 
 - Calcium needs barely rise, because absorption doubles.
 - A mid-pregnancy haemoglobin falls, because plasma outpaces red cells.
@@ -61,12 +61,12 @@ The interactive figure below shows how the requirements change across the stages
 
 ### Preconception nutrition {#sec-preg-preconception}
 
-The most important nutrition window opens before conception. The neural tube closes by about 28 days after conception,
+A key nutrition window opens before conception. The neural tube closes by about 28 days after conception,
 often before a woman knows she is pregnant, so folic acid has to be running already (the folate
 science is in the *Micronutrients, hydration and electrolytes* chapter). The usual dose is about
 400 µg/day of folic acid; higher-risk women need 4–5 mg/day (those with a previous
 neural-tube-defect pregnancy, diabetes, obesity or certain anticonvulsants) [@mrc1991folate;
-@czeizel1992folate]. The same window is where weight and blood glucose are best optimised and
+@czeizel1992folate]. The same window is where weight and blood glucose are best brought into range and
 where teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception]. Much
 of good antenatal nutrition is really *pre*-natal.
 
@@ -152,8 +152,8 @@ trouble, and when to refer](#sec-preg-refer).
 
 ### Gestational diabetes: pathophysiology {#sec-preg-gdm}
 
-Gestational diabetes is Singapore's defining antenatal nutrition issue, and both drivers shape it. The
-internal driver is the normal insulin resistance of pregnancy. By the third trimester of every
+Gestational diabetes is a major antenatal nutrition issue in Singapore, and both internal and external factors shape it. The
+internal factor is the normal insulin resistance of pregnancy. By the third trimester of every
 pregnancy, insulin sensitivity is 50–60% lower (cells respond less to insulin), a fall driven by a
 mix of placental and maternal hormones, with no single hormone responsible, that diverts glucose to
 the growing foetus [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
@@ -178,7 +178,7 @@ Singapore, so the ferritin check guards against missing it as well as against ne
 
 ### Physical activity and food safety {#sec-preg-lifestyle}
 
-Physical activity is an external lever with clear benefit. For a woman without obstetric
+Physical activity is an external factor with clear benefit. For a woman without obstetric
 contraindications, about 150 minutes a week of moderate activity lowers the risk of gestational
 diabetes, pre-eclampsia and caesarean. It also helps keep weight gain in range, and a previously
 active woman can generally carry on [@acog2020exercise].
@@ -198,7 +198,7 @@ in pregnancy is known [@cdcAlcoholPregnancy].
 
 ### Gestational diabetes: universal screening and dietary management {#sec-preg-gdm-care}
 
-The external lever is how pregnancies are screened. The local GUSTO cohort found GDM in roughly one in
+The external factor here is how pregnancies are screened. The local GUSTO cohort found GDM in roughly one in
 five pregnancies, and showed that screening only "high-risk" women would have missed about half of
 cases, because risk factors predict GDM poorly in Asian women [@gusto_gdm]. Singapore therefore uses
 **universal screening**, testing every pregnancy instead of only women with risk factors, with a

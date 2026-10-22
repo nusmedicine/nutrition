@@ -28,7 +28,7 @@ levers:
     label: "Weight-bearing activity"
     weight: 0.40
     grade: "A"
-    why: "The strongest modifiable factor, and most powerful in early puberty: high-impact loading builds bone directly."
+    why: "A major modifiable factor, and most effective in early puberty: high-impact loading builds bone directly."
   - key: calcium
     label: "Adequate calcium"
     weight: 0.35
@@ -45,7 +45,7 @@ threat:
   # Retained-fraction penalty: low energy availability shaves (1 - cap) off the attainable peak, so the
   # permanent deficit shows whatever the lever state (even with no builders active).
   cap: 0.82
-  why: "Under-fuelling (dieting or over-training) lowers oestrogen and stalls accrual, and the loss can be permanent whatever the other levers do. Recognise and refer."
+  why: "Under-fuelling (dieting or over-training) lowers oestrogen and stalls accrual, and the loss can be permanent regardless of the other factors. Recognise and refer."
 note: >-
   Genetics sets the ceiling (the highest peak bone mass a person could reach) and most of the peak
   itself; lifestyle moves the peak actually reached within the shaded band. The window largely closes by the early twenties.

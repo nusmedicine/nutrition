@@ -2,7 +2,7 @@ id: gut-microbiome-test-kit
 title: "I bought a gut-microbiome test kit"
 objectives:
   - "Recognise that direct-to-consumer microbiome test kits are not clinically actionable for well people."
-  - "Redirect to the real lever, fibre diversity, instead of the supplements a kit upsells."
+  - "Redirect to what does help, fibre diversity, instead of the supplements a kit upsells."
   - "Know when symptoms warrant proper medical assessment (not a home kit)."
 difficulty: intro
 estimatedMinutes: 6
@@ -77,18 +77,18 @@ nodes:
       - id: a
         text: "Eating a wide variety of plants across the week, with no superfood or test."
         correct: true
-        feedback: "Diverse fibre from many different wholegrains, legumes, vegetables, fruit and nuts feeds a diverse, resilient microbiome. Fibre diversity is the evidence-based lever, and most people fall short: only ~4% of Singapore's staples are wholegrain."
+        feedback: "Diverse fibre from many different wholegrains, legumes, vegetables, fruit and nuts feeds a diverse, resilient microbiome. Widening fibre diversity is the evidence-based change, and most people fall short: only ~4% of Singapore's staples are wholegrain."
         effects: { quality: +1 }
         goto: q-symptoms
       - id: b
         text: "Find the one 'gut superfood' and eat lots of it."
         correct: false
-        feedback: "No single food does this; the lever is variety of fibre across the week (cross-feeding needs diverse substrates)."
+        feedback: "No single food does this; what matters is variety of fibre across the week (cross-feeding needs diverse substrates)."
         goto: q-symptoms
       - id: c
         text: "Repeat the test monthly to track her progress."
         correct: false
-        feedback: "The test isn't reproducible or actionable, so tracking it spends money to chase noise. Diverse plants are the lever."
+        feedback: "The test isn't reproducible or actionable, so tracking it spends money to chase noise. Eating diverse plants is what helps."
         goto: q-symptoms
 
   - id: q-symptoms
@@ -125,7 +125,7 @@ nodes:
     body: |
       Two things to hold together. For a **well** person, a direct-to-consumer microbiome kit is
       not clinically actionable (no agreed healthy reference, poor reproducibility, no proven
-      action), and its supplement recommendations are an upsell; the real lever is fibre diversity
+      action), and its supplement recommendations are an upsell; what helps is fibre diversity
       (many different plants). Real symptoms (persistent change in bowel habit, bleeding, weight
       loss) are a different matter: they need **proper medical assessment**, not a home kit.
     next: end-partial
@@ -136,7 +136,7 @@ nodes:
     title: "Food-first, and know the red flags"
     body: |
       You saw through the kit: for a well person it's not actionable (no healthy reference, poor
-      reproducibility), the supplement bundle is an upsell, and the real lever is **eating a wider
+      reproducibility), the supplement bundle is an upsell, and what helps is **eating a wider
       variety of plants**. And when Rachel mentioned bleeding and a persistent change in bowel habit,
       you recognised the red flag and steered her to **proper assessment**, the one thing a home kit
       can't do.
@@ -144,7 +144,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "DTC microbiome kits aren't clinically actionable for well people (no healthy reference, poor reproducibility)."
-        - "The supplement recommendation is an upsell; fibre diversity is the real, food-first lever."
+        - "The supplement recommendation is an upsell; fibre diversity is the food-first change that helps."
         - "Persistent symptoms or bleeding need medical assessment, not a home kit: recognise and refer."
 
   - id: end-partial
@@ -153,7 +153,7 @@ nodes:
     title: "Nearly there"
     body: |
       You worked through it, but the reasoning slipped. The take-home: a microbiome kit tells a well
-      person **little that's actionable**, its supplements are an **upsell**, and the real lever is
+      person **little that's actionable**, its supplements are an **upsell**, and what helps is
       **fibre diversity**, while genuine symptoms like bleeding need **proper assessment**, not a
       kit. Replay to firm up the two-part message.
     debrief:

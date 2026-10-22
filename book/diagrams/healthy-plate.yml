@@ -27,9 +27,9 @@ cuisines:
         - { label: "Steamed chicken, skin off", quality: ok, note: "Lean once the skin is off, so it makes a reasonable protein quarter." }
         - { label: "Steamed fish / sliced-fish soup", quality: good, note: "Lean protein with minimal added oil makes the model protein quarter." }
       drink:
-        - { label: "Canned soft drink", quality: poor, start: true, note: "A Nutri-Grade C/D drink is essentially a cup of free sugar; swapping it for water is one of the two highest-yield changes in the local diet." }
+        - { label: "Canned soft drink", quality: poor, start: true, note: "A Nutri-Grade C/D drink is essentially a cup of free sugar; swapping it for water is one of the two most effective changes in the local diet." }
         - { label: "Unsweetened tea", quality: ok, note: "No free sugar, so a fine choice. Water is still the everyday default." }
-        - { label: "Plain water / kopi-o kosong", quality: good, note: "Choosing water (or unsweetened kopi) over any sweetened drink is the simplest high-yield swap." }
+        - { label: "Plain water / kopi-o kosong", quality: good, note: "Choosing water (or unsweetened kopi) over any sweetened drink is a simple, effective swap." }
   - id: malay
     label: "Malay"
     options:

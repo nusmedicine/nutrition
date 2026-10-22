@@ -70,7 +70,7 @@ questions:
     options:
       - text: "Food-first, then fortify their familiar meals"
         correct: true
-        feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the opening move, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
+        feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the place to start, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
       - text: "Start a supplement drink and change nothing else"
         correct: false
         feedback: "ONS is an add-on, not the first step, and using it without fixing the cause underperforms. Food-first comes first, then fortification, then ONS."

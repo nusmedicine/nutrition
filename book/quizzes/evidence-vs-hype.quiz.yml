@@ -2,7 +2,7 @@ id: evidence-vs-hype
 title: "Quick check: evidence vs hype"
 questions:
   - id: q1
-    stem: "A patient shows you a headline: \"New study: turmeric cures arthritis.\" What's your first move as an appraiser?"
+    stem: "A patient shows you a headline: \"New study: turmeric cures arthritis.\" What should you do first to appraise it?"
     options:
       - text: "Find and judge the study behind it"
         correct: true

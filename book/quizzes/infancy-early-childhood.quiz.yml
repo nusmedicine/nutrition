@@ -48,7 +48,7 @@ questions:
         feedback: "A term baby's iron stores run low at about 6 months, so first foods should be rich in iron (and zinc): fortified cereal, minced meat, egg and legumes, with no added salt or sugar. Readiness signs (sitting with support, head control, loss of the tongue-thrust reflex, reaching for food) set the individual start, with a 4-month floor."
       - text: "Because milk stops being nutritious at 6 months, so any solids will do"
         correct: false
-        feedback: "Milk stays valuable well into the second year; the driver is iron-store depletion, so the first foods specifically need to be iron-rich."
+        feedback: "Milk stays valuable well into the second year; the reason is iron-store depletion, so the first foods specifically need to be iron-rich."
       - text: "Start with fruit purée, since babies prefer sweet tastes"
         correct: false
         feedback: "Fruit purée misses the iron point (and reinforces a sweet preference). First foods should be iron-rich; keep added sugar out."
@@ -97,7 +97,7 @@ questions:
     options:
       - text: "It's mainly about food form, so change the shape instead of banning the food"
         correct: true
-        feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of infants choke at least once between 6 and 8 months, whichever method is used, so the fix is the shape: no whole nuts, whole grapes or hard chunks before about 4 years."
+        feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of infants choke at least once between 6 and 8 months, whichever method is used, so the answer is to change the food's shape: no whole nuts, whole grapes or hard chunks before about 4 years."
       - text: "Baby-led weaning causes choking, so purées are always safer"
         correct: false
         feedback: "Modified baby-led weaning is no worse than spoon-feeding on choking; the risk lies in food form, not the method."

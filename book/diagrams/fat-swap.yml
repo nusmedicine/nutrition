@@ -41,8 +41,8 @@ options:
     example: "smaller portions, same foods"
     effect: neutral
     note: >-
-      Cutting fat without a better replacement does little on its own. What moves LDL and events is
-      the quality of the swap.
+      Cutting fat without a better replacement does little on its own. LDL and cardiovascular events
+      depend on what replaces the fat.
 # Verdict text keyed by effect. Shown in an aria-live region after a choice is made.
 verdicts:
   down:

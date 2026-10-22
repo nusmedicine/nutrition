@@ -128,7 +128,7 @@ muscle, or in a cell with no mitochondria (the organelles that burn fuel with ox
 blood cell. Making lactate regenerates the molecule glycolysis needs to keep
 running, so the cell can make ATP without oxygen. Oxygen is used later, in the mitochondrion
 (see [The TCA cycle and oxidative phosphorylation](#sec-furnace)), and not in glycolysis itself. Even
-so, the belief that glycolysis consumes oxygen is the single most common one about glucose breakdown.
+so, the belief that glycolysis consumes oxygen is a common misconception about glucose breakdown.
 
 ::: {.callout-note}
 ## 🔬 Food science: why anaerobic exercise burns glucose, not fat
@@ -148,8 +148,8 @@ Pyruvate sits at the end of glycolysis as a junction, and its carbon can go four
 - forward into acetyl-CoA.
 
 The last step, from pyruvate to acetyl-CoA, is irreversible. It is catalysed by pyruvate
-dehydrogenase (PDH), and its irreversibility makes it the first and most important of the map's four
-irreversible steps, with a large consequence for fasting.
+dehydrogenase (PDH), and it is the first of the map's four irreversible
+steps, with a large consequence for fasting.
 
 ::: {.callout-important}
 ## Why fatty acids cannot become glucose
@@ -597,11 +597,11 @@ the blood turns acidic: diabetic ketoacidosis.
 
 ## Is fasting good or bad for health? {#sec-close}
 
-The question is the wrong shape. Every body fasts every night. After dinner it stores glucose as
+The question has no single answer. Everyone fasts overnight. After dinner the body stores glucose as
 glycogen, overnight it spends the liver's glycogen, and towards morning it makes a little new glucose;
 throughout, the brain stays supplied, which is why fasting blood glucose is normal after 12 hours
-without food. A longer fast escalates into ketosis, which spares muscle protein for weeks. There is no
-metabolic catastrophe in a missed meal, and no metabolic magic in a fasting schedule. The main dangers
+without food. A longer fast escalates into ketosis, which spares muscle protein for weeks. A missed meal
+is not a metabolic emergency, and a fasting schedule has no special metabolic effect. The main dangers
 are clinical: a person with diabetes on insulin or a sulfonylurea (a glucose-lowering drug that can
 cause hypoglycaemia), for whom a long fast risks hypoglycaemia; anyone drinking heavily on an empty
 stomach; and a severely malnourished person, for whom refeeding is the hazard.

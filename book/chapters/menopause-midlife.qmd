@@ -34,7 +34,7 @@
   - [Unproven remedies and restrictive dieting](#sec-meno-harm): do no harm
 :::
 
-## Menopause & midlife health at a glance: two drivers {#sec-overview}
+## Menopause & midlife health at a glance: internal and external factors {#sec-overview}
 
 **Menopause** is a reproductive transition rather than a disease: the ovaries wind down and oestrogen
 falls. Three terms date the transition:
@@ -51,13 +51,13 @@ Postmenopause
 In Singapore the mean age of natural menopause is about 49 years, with little difference across Chinese,
 Malay and Indian women [@loh2005sgMenopause].
 
-Menopause reshapes several nutrition-relevant systems at once, through the internal drivers and external
-levers that frame every life stage (see the *Reading the life stages* chapter):
+Menopause reshapes several nutrition-relevant systems at once, through the internal and external factors
+that frame every life stage (see the *Reading the life stages* chapter):
 
-| Driver | What changes at this stage |
+| Factor | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | The fall in oestrogen, which changes bone, blood lipids and where fat is stored |
-| External levers (life and environment) | The factors a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
+| Internal factors (inside the body) | The fall in oestrogen, which changes bone, blood lipids and where fat is stored |
+| External factors (life and environment) | The factors a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
 
 In Western accounts hot flushes define menopause, but the local picture differs. In Singaporean surveys
 the commonest complaints are aching joints and muscles and poor sleep, with hot flushes reported less often
@@ -139,8 +139,8 @@ intake instead tracks with better bone and fewer hip fractures [@groenendijk2019
 are in the *Macronutrients* chapter, and sarcopenia, the age-related loss of muscle strength and mass, in
 the *Healthy ageing* chapter.)
 
-**Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is the most
-effective lifestyle measure for bone. In one small, supervised trial, progressive resistance
+**Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is a key lifestyle
+measure for bone. In one small, supervised trial, progressive resistance
 and impact training held or even modestly raised bone density where a home-based, low-intensity exercise programme did not
 [@watson2018liftmor], a real but bounded effect. The everyday version is brisk walking or jogging plus
 some strength work, not a prescription to self-load heavily.
@@ -188,7 +188,7 @@ The loss is driven by falling oestrogen: RANKL rises, osteoclasts become more nu
 and resorption outpaces formation. Calcium, vitamin D and protein are permissive raw materials for
 remodelling, so they cannot stop that oestrogen-driven loss, and routine low-dose supplements give no net
 fracture benefit in community-dwelling women after menopause. Mechanical loading, through resistance and
-impact exercise, is the most effective lifestyle measure.
+impact exercise, is a key lifestyle measure.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -201,9 +201,9 @@ early acts before the numbers go wrong.
 
 ## What changes outside: soy foods and the supplement marketplace {#sec-meno-soy-limits}
 
-No midlife topic attracts more marketing than soy and its **phytoestrogens**, plant compounds that weakly
-mimic oestrogen (in soy, chiefly the **isoflavones**). The popular story errs in both directions: it
-overstates soy's benefit for hot flushes and overstates its risk for breast cancer.
+Few midlife topics attract more marketing than soy and its **phytoestrogens**, plant compounds that weakly
+mimic oestrogen (in soy, chiefly the **isoflavones**). Popular claims err in both directions: they
+overstate soy's benefit for hot flushes and overstate its risk for breast cancer.
 
 ### Soy and hot flushes: at most a modest, inconsistent effect {#sec-meno-soy}
 
@@ -232,7 +232,7 @@ anti-oestrogen drug used to treat it); if anything, survivors who eat moderate s
 [@shu2009shanghai; @nechuta2012abcpp]. The reassurance is for whole soy foods, not for high-dose
 isoflavone pills, which are a different and less-tested product.
 
-(The appraisal toolkit for tracing claims such as "soy fixes menopause" or "soy causes cancer" back to
+(The appraisal methods for tracing claims such as "soy fixes menopause" or "soy causes cancer" back to
 the underlying evidence is in the *Evidence vs hype* chapter.)
 
 ::: {.callout-tip}
@@ -284,7 +284,7 @@ are in the *Obesity & metabolic syndrome* chapter).
 ::: {.callout-warning}
 ## Do no harm: restrictive dieting at midlife
 Restrictive dieting and disordered eating occur in women aged 40–60 [@mangweth2014ed], so doing no harm
-means counselling weight-inclusively and with consent. That counselling is anchored on protein, activity
+means counselling weight-inclusively and with consent. That counselling centres on protein, activity
 and a sound pattern, not on weight loss, because severe restriction speeds the loss of lean mass and bone
 (see [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight)). The *how* of the
 conversation is in the *Behaviour-change counselling* chapter.

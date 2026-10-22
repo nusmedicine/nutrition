@@ -99,7 +99,7 @@ nodes:
       - id: c
         text: "\"Just skip food entirely on night shifts.\""
         correct: false
-        feedback: "Fasting through every shift is not necessary, and it is hard to sustain and can backfire; the useful lever is meal timing, weighted toward the daytime."
+        feedback: "Fasting through every shift is not necessary, and it is hard to sustain and can backfire; the useful change is meal timing, weighted toward the daytime."
         goto: q-weight
 
   - id: q-weight
@@ -122,7 +122,7 @@ nodes:
       - id: c
         text: "\"Don't worry about 4 kg; just train harder, since you can out-run any diet.\""
         correct: false
-        feedback: "Activity is a weak lever on weight once excess has accumulated, so a surplus cannot reliably be out-trained. The intake side (those drinks) matters more here."
+        feedback: "Activity has a weak effect on weight once excess has accumulated, so a surplus cannot reliably be out-trained. The intake side (those drinks) matters more here."
         goto: q-alcohol
 
   - id: q-alcohol
@@ -164,8 +164,8 @@ nodes:
     body: |
       Most of what Rahmat expects, he does not need. A weekend run needs ordinary food and water, not
       carb-loading or shakes; about 1.2–1.6 g/kg of protein from food is plenty and safe for healthy
-      kidneys; shift eating is best weighted to the daytime; and weight creep yields to small, steady
-      habits, not a crash diet. The one real red flag is the alcohol: the "good for the heart" claim
+      kidneys; shift eating is best weighted to the daytime; and weight creep responds to small,
+      steady habits, not a crash diet. The one real red flag is the alcohol: the "good for the heart" claim
       no longer holds (never endorse it), and the flush signals a raised oesophageal-cancer risk, so ask,
       advise cutting down, screen briefly, and refer if drinking is hazardous. Replay and run it through.
     next: end-partial

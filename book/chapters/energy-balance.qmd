@@ -14,7 +14,7 @@
 - Explain how calorimetry, doubly labelled water and the respiratory quotient measure energy
   expenditure and the fuel being burned.
 - Explain how adaptive thermogenesis and leptin signalling oppose changes in body weight.
-- Relate Singapore's food environment to energy balance, and name the practical levers that shift it.
+- Relate Singapore's food environment to energy balance, and name the practical changes that shift it.
 :::
 
 ::: {.concept-tree}
@@ -50,8 +50,8 @@ the "out" side falls to meet it, so body weight does not behave like a simple ba
 ::: {.callout-note}
 ## Small numbers, long time
 A daily surplus of about 100 kcal, roughly one sweetened drink, is enough to add meaningful weight
-over a year if nothing else changes [@hill2003energygap]. The smallness is also the good news: small,
-sustainable changes are the practical lever in counselling, because energy balance plays out over
+over a year if nothing else changes [@hill2003energygap]. Equally, small, sustainable
+changes are the practical approach in counselling, because energy balance plays out over
 months, not meals.
 :::
 
@@ -122,7 +122,7 @@ tissue, so she spends more energy at rest.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is the estimate of 1,740 kcal/day for the sedentary woman in the example only a starting point?
 The Mifflin–St Jeor equation is a population estimate: it predicts BMR from weight, height, age and
-sex, so it cannot see how much of her weight is lean mass, the main driver of BMR. Physical activity,
+sex, so it cannot see how much of her weight is lean mass, the main determinant of BMR. Physical activity,
 the most variable component, enters only as a rough PAL band.
 :::
 
@@ -216,7 +216,7 @@ chapter).
 
 ## The Singapore picture {#sec-singapore}
 
-Singapore's food environment tilts the balance toward the "in" side, quietly and by default. Eating
+Singapore's food environment tends to favour a high energy intake. Eating
 out is the norm: about three in four adults usually eat at least one of their daily meals out [@naidoo2017eatingout]. Hawker and food-court favourites are energy-dense
 (high in kcal for their weight). A plate of *char kway teow* with a sweet drink can carry a large
 share of a day's energy in one sitting, and the drink alone can add a couple of hundred easily missed
@@ -229,7 +229,7 @@ afterwards, so it accumulates over the years [@yanovski2000holiday]. None of thi
 it is an environment that keeps "energy in" easy and "energy out" low.
 
 The National Nutrition Survey shows a gap between the guidelines and the plate [@mohNNS2022]. Three
-practical levers aim to close that gap without calorie counting:
+practical measures aim to close that gap without calorie counting:
 
 - My Healthy Plate (¼ wholegrains, ¼ protein, ½ fruit and vegetables; see the
   [*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter) lowers a meal's energy density

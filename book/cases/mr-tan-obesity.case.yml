@@ -124,7 +124,7 @@ nodes:
       - id: c
         text: "Tell him it's down to willpower: eat less and stop being lazy."
         correct: false
-        feedback: "This is the do-no-harm trap. Shaming doesn't motivate. It raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment, not a courtesy. 'Eat less' also ignores that diet quality, sleep and stress are the real modifiable factors here."
+        feedback: "This is the do-no-harm trap. Shaming doesn't motivate. It raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment, not a courtesy. 'Eat less' also ignores that diet quality, sleep and stress are the modifiable factors here."
         reaction: concerned
         goto: remedial-donoharm
 
@@ -138,7 +138,7 @@ nodes:
       **First, order of care.** Lifestyle change is first-line and the cornerstone. Anti-obesity medication
       and metabolic-bariatric surgery are genuine tiers, but they sit above lifestyle and are added by specialists.
       The task at this stage is to recognise that they exist and refer, not to prescribe or pick one.
-      A strong answer elsewhere can't buy back reaching for a drug first.
+      A strong answer elsewhere does not make up for reaching for a drug first.
 
       **Second, framing.** Shame and blame ("just eat less, it's willpower") backfire: stigma is itself a
       stressor that raises cortisol and comfort-eating and drives people to avoid appointments, so it can
@@ -200,7 +200,7 @@ nodes:
         - "Two sets of BMI cut-offs: classify using Singapore's ≥27.5 high-risk action point (and ≥23 to intervene), read waist against the Asian central-obesity cut-off, and read BMI and waist together."
         - "Metabolic syndrome is any three of five components: a risk marker for type 2 diabetes and cardiovascular disease, not a disease treated with its own drug."
         - "Lifestyle change is first-line across five areas (diet quality, activity, sleep, stress, behaviour change); anti-obesity medication and surgery are specialist tiers: recognise and refer, don't prescribe."
-        - "Aim for a modest, high-yield ~5–10% loss with realistic swaps; frame it person-first and permission-based, because stigma is itself a metabolic stressor."
+        - "Aim for a modest, worthwhile ~5–10% loss with realistic swaps; frame it person-first and permission-based, because stigma is itself a metabolic stressor."
       references: ["@sgObesityBMI", "@who2020diet", "@hpbHealthyPlate", "@hpbNutriGrade", "@mohHealthierSG"]
 
   - id: end-partial

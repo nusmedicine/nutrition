@@ -30,7 +30,7 @@ questions:
   - id: q3
     stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
     options:
-      - text: "Whole dietary patterns matter more than any single food"
+      - text: "Whole dietary patterns matter more than single foods"
         correct: true
         feedback: "The overall dietary pattern, such as the Mediterranean or DASH pattern, predicts health better than any single nutrient or 'superfood'."
       - text: "One magic nutrient, maximised, will fix the diet"

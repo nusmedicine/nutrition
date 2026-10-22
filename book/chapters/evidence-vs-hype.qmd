@@ -40,8 +40,8 @@ containing a real signal. Medical students and recent graduates often lack the k
 transferable skill is to stop reacting to a claim and start appraising it.
 
 The common trap is to swing between two failures: swallowing whatever is trending, or turning
-reflexively cynical and dismissing everything new. Appraisal is calibration: a fixed routine that
-lands a proportionate verdict.
+reflexively cynical and dismissing everything new. Appraisal is a fixed routine that reaches a conclusion
+in proportion to the evidence.
 
 ## Critical appraisal {#sec-appraisal}
 
@@ -86,7 +86,7 @@ The four questions are:
 4. Check it applies. Who was studied, and are they like your patient?
 
 Then commit to a verdict: proven, plausible but unproven, weak association, disproven, retracted or
-harmful. Run a few real claims through the four questions below to see how differently they land.
+harmful. Run a few real claims through the four questions below to see how differently they are rated.
 
 <div data-island="claim-analyzer" data-src="/diagrams/claim-analyzer.yml"></div>
 
@@ -129,7 +129,7 @@ Most overstated nutrition claims fail at one of a few predictable points:
   what?"
 - A surrogate is not a hard endpoint. A diet that lowers a blood marker has not been shown to prevent
   heart attacks until it is tested against heart attacks.
-- A plausible mechanism is not clinical proof. A convincing biological story only raises a hypothesis.
+- A plausible mechanism is not clinical proof. A convincing biological explanation only raises a hypothesis.
   Time-restricted eating is the clearest example: its circadian rationale is real, yet randomised
   trials show its weight effect is no better than three regular meals a day [@lowe2020treat] or than
   ordinary calorie restriction [@lin2023tre]. Being sceptical of the hype does not mean dismissing the mechanism.
@@ -166,8 +166,8 @@ reassuring for people who already drink coffee, but they do not show that starti
 
 ### Everyday questions {#sec-everyday}
 
-Critical appraisal turns "is X good or bad?" into an answerable question. Five claims that come up often land
-very differently once traced to their evidence:
+Critical appraisal turns "is X good or bad?" into an answerable question. Five claims that come up often receive
+very different verdicts once traced to their evidence:
 
 | Everyday claim | What the evidence shows | Verdict and takeaway |
 |---|---|---|
@@ -175,7 +175,7 @@ very differently once traced to their evidence:
 | "Coffee protects your heart." | A large umbrella review (a review of many earlier reviews) links 3–4 cups a day with the lowest mortality [@poole2017coffee], but the evidence is observational | Reassuring for drinkers; not a reason to start |
 | "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven [@wolraich1994sugar]: the "sugar high" is largely parental expectancy [@hoover1994sugar] | Excess sugar is still unhealthy, just not a cause of hyperactivity |
 | "Go gluten-free to feel better." | Without coeliac disease, there is no convincing evidence of benefit, and it can worsen diet quality and raise cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
-| "Apple cider vinegar melts fat." | The headline 2024 trial was retracted in 2025 when its analyses could not be reproduced [@acvRetracted2024]; what remains is a few small, short trials in type 2 diabetes suggesting some fall in fasting glucose, of limited certainty [@acvGlycaemia], and a weight meta-analysis that still pooled the retracted trial [@acvBodyComp]; neither is a substitute for ordinary care | A clear "did the study survive?" case |
+| "Apple cider vinegar melts fat." | The much-publicised 2024 trial was retracted in 2025 when its analyses could not be reproduced [@acvRetracted2024]; what remains is a few small, short trials in type 2 diabetes suggesting some fall in fasting glucose, of limited certainty [@acvGlycaemia], and a weight meta-analysis that still pooled the retracted trial [@acvBodyComp]; neither is a substitute for ordinary care | A clear "did the study survive?" case |
 
 ::: {.callout-note}
 ## 🔬 Food science: insulin, IGF-1 and acne

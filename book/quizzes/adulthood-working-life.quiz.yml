@@ -6,13 +6,13 @@ questions:
     options:
       - text: "Expenditure is broadly steady from about 20 to 60; the creep is a small chronic surplus"
         correct: true
-        feedback: "Doubly labelled water data show stable expenditure through these decades; midlife weight creep comes from a small chronic surplus, usually from falling activity and muscle plus a little more intake. The fix is to keep moving and keep muscle, not to crash-diet against a metabolic decline that is not happening."
+        feedback: "Doubly labelled water data show stable expenditure through these decades; midlife weight creep comes from a small chronic surplus, usually from falling activity and muscle plus a little more intake. The aim is to stay active and preserve muscle, not to crash-diet against a metabolic decline that is not happening."
       - text: "Yes, basal metabolic rate falls steadily from the thirties, so gain is inevitable"
         correct: false
         feedback: "This is the commonest explanation, but adjusted energy expenditure is stable from about 20 to 60 and falls only later in life; the creep comes from a small surplus, usually driven by declining activity and muscle."
       - text: "It's purely genetic, so changing behaviour would make no difference"
         correct: false
-        feedback: "The surplus is small and modifiable. Small, sustainable habits and preserving muscle are the levers; the metabolism is not the cause."
+        feedback: "The surplus is small and modifiable. Small, sustainable habits and preserving muscle address it; the metabolism is not the cause."
 
   - id: q2
     stem: "A healthy adult does three 45-minute moderate gym sessions a week and asks what to eat and drink around them. Best advice?"
@@ -90,4 +90,4 @@ questions:
         feedback: "Heavy eating in the small hours worsens the metabolic picture, so weight meals toward the daytime."
       - text: "Skip eating entirely on night shifts"
         correct: false
-        feedback: "Fasting through every shift is not needed or advisable; the useful lever is meal *timing*, weighted toward the daytime."
+        feedback: "Fasting through every shift is not needed or advisable; the useful change is meal *timing*, weighted toward the daytime."

@@ -64,7 +64,7 @@ nodes:
       - id: a
         text: "\"That fear comes from animal studies. In people, soy foods are safe. No need to stop.\""
         correct: true
-        feedback: "Especially at the amounts common in Asian diets, population and survivor data (including oestrogen-receptor-positive disease and women on tamoxifen) show soy *foods* are safe, linked to a lower risk of breast cancer and, in women who've had it, to lower recurrence. The rodent-oestrogen story doesn't translate to humans."
+        feedback: "Especially at the amounts common in Asian diets, population and survivor data (including oestrogen-receptor-positive disease and women on tamoxifen) show soy *foods* are safe, linked to a lower risk of breast cancer and, in women who've had it, to lower recurrence. The rodent oestrogen findings don't translate to humans."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight

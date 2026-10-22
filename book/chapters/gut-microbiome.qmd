@@ -95,8 +95,8 @@ production, is carried out by many different microbes, a property called **funct
 [@moya2016functional]. People therefore share a functional core more than a taxonomic one. Functional
 redundancy also explains why **microbial diversity** (the number of species present and how evenly they
 are represented) is only a loose health marker: a richer community tends to be more resilient, but there
-are clear exceptions, so diversity is one context-dependent signal, not a number to maximise or buy in a
-bottle [@mcburney2019healthy].
+are clear exceptions, so diversity is one context-dependent signal, not a number to maximise or to raise with
+supplements [@mcburney2019healthy].
 
 ::: {.callout-note collapse="true"}
 ## Optional: what happened to "enterotypes"?
@@ -121,7 +121,7 @@ The microbiome assembles over the first years of life and keeps shifting afterwa
 ## Does caesarean birth permanently change the microbiome?
 Infants born by caesarean section start with a different early community from infants born
 vaginally, and this early difference is the source of the concern. The difference is largely
-transient: feeding mode is the stronger and more durable driver, and the communities converge over the
+transient: feeding mode is the stronger and more durable influence, and the communities converge over the
 first years. "Vaginal seeding" (swabbing a caesarean-born infant with vaginal fluid) is not an
 evidence-based intervention and is advised against outside research, partly because of infection
 risk [@acog2017vaginalseeding]. This evidence can relieve the guilt some parents feel after a
@@ -156,7 +156,7 @@ Colonocytes
 Human enzymes cannot break down dietary fibre or resistant starch, so both reach the colon undigested
 (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment
 them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. For the host, this
-is the microbiome's most important function. Step through the pathway below, from what arrives in the
+is a major function of the microbiome. Step through the pathway below, from what arrives in the
 colon to where each product goes.
 
 <div data-island="scfa-flow" data-src="/diagrams/scfa-flow.yml"></div>
@@ -268,7 +268,7 @@ but it reverts within days of a return to their usual diet, and each person's ch
 largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal, and
 not a one-time reprogramming.
 
-The variety of plants matters more than any single food. People who eat the widest variety of plants
+The variety of plants eaten matters more than any single food. People who eat the widest variety of plants
 tend to have the most diverse microbiomes. A memorable but unproven heuristic from citizen science is
 "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
@@ -282,7 +282,7 @@ associated with more SCFA producers and with less frailty and inflammation [@gho
 
 ::: {.callout-tip}
 ## 🍜 Eating for the gut microbiome in Singapore
-The lever is fibre variety, and Singapore's food offers easy swaps:
+The main dietary change is greater fibre variety, and Singapore's food offers easy swaps:
 
 - Replace white rice with brown, red or mixed rice some of the time.
 - Choose wholemeal over white bread.
@@ -290,7 +290,7 @@ The lever is fibre variety, and Singapore's food offers easy swaps:
 - Keep the skins on fruit and potatoes.
 
 Aim for many different plants across the week, not one "gut superfood". Only about 4% of the staples
-eaten in Singapore are wholegrain, so for most people this is the largest single lever available (see
+eaten in Singapore are wholegrain, so most people have plenty of room to add wholegrains (see
 [The Singapore picture](#sec-singapore)).
 :::
 
@@ -430,7 +430,7 @@ The evidence points to a pattern of eating, not to a product:
 - No test kits, cleanses or microbiome supplements, none of which has a proven benefit for a well
   person.
 
-Like a garden, the microbiome is maintained by habitual diet: what it is fed every day.
+The microbiome is maintained by habitual diet, what is eaten every day.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -438,7 +438,7 @@ Like a garden, the microbiome is maintained by habitual diet: what it is fed eve
 against a target of about 30%, and average fibre intake is below the Health Promotion Board's
 recommendation (around 20 g/day for women and 26 g/day for men) [@mohNNS2022]. Most of the population
 eats too little fibre to supply its fibre-fermenting bacteria, which is why the food-first swaps in
-[How diet shapes it: fibre diversity](#sec-feeding) are the highest-value change available.
+[How diet shapes it: fibre diversity](#sec-feeding) are a worthwhile change for most people.
 
 **Local fermented foods illustrate the live-versus-cooked distinction.** Fermented foods run through
 Singapore's food cultures, and they divide along the line that matters for the probiotic definition:

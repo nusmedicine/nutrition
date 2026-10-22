@@ -20,7 +20,7 @@
     id: 'bone-window',
     title: 'The bone bank: a window that closes',
     intro:
-      'Roughly two-fifths of adult bone mineral is laid down in the few years around the pubertal growth spurt. Scrub the age, then toggle the levers: watch the bank fill, then plateau.',
+      'Roughly two-fifths of adult bone mineral is laid down in the few years around the pubertal growth spurt. Scrub the age, then toggle the factors: watch the bank fill, then plateau.',
     ageMin: 8,
     ageMax: 25,
     windowFrom: 11,
@@ -33,7 +33,7 @@
     ],
     levers: [
       { key: 'activity', label: 'Weight-bearing activity', weight: 0.4, grade: 'A',
-        why: 'The strongest lever, and most powerful in early puberty — high-impact loading builds bone directly.' },
+        why: 'A major modifiable factor, and most effective in early puberty — high-impact loading builds bone directly.' },
       { key: 'calcium', label: 'Adequate calcium', weight: 0.35, grade: 'A',
         why: 'Grade-A for accrual — but food-first. A supplement helps a teen who is short of calcium, little if they already have enough.' },
       { key: 'vitd', label: 'Vitamin D sufficient', weight: 0.25, grade: 'B',
@@ -41,7 +41,7 @@
     ],
     threat: { key: 'lowEA', label: 'Low energy availability / periods stopped', cap: 0.82,
       why: 'Under-fuelling (dieting or over-training) drops oestrogen and stalls accrual — it shaves the ceiling for life, whatever else you do. Recognise and refer.' },
-    note: "Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded band, and the levers show the payoff of reaching adequacy — a child already getting enough gains little from more. The window largely closes by the early twenties.",
+    note: "Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded band, and the toggles show the benefit of moving from too little to enough — a child already getting enough gains little from more. The window largely closes by the early twenties.",
     credit: 'Schematic — teaches the shape of accrual, not exact values. Grounded in Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011.',
   };
 
@@ -136,7 +136,7 @@
     if (age >= 20) return 'The window has essentially closed: from here bone is mostly maintained, not built, and the bone gained by the early twenties is the starting point for later loss.';
     if (age >= (data.windowFrom || 11) && age <= (data.windowTo || 16)) return 'Inside the window, accrual is at its steepest. This is where activity and calcium build the most bone.';
     if (activeLever) return activeLever.why;
-    return 'Before puberty the bank fills slowly. The steep climb, and the biggest opportunity, is still ahead.';
+    return 'Before puberty the bank fills slowly. The steepest gain in bone mass is still ahead.';
   });
 </script>
 
@@ -146,7 +146,7 @@
   <figure class="bw card">
     <figcaption class="head">
       <strong>{data.title}</strong>
-      <span class="hint">Scrub age · toggle the levers</span>
+      <span class="hint">Scrub age · toggle the factors</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 
@@ -209,7 +209,7 @@
       <input type="range" min={data.ageMin} max={data.ageMax} step="1" bind:value={age} aria-label="Age in years" />
     </label>
 
-    <div class="chips" role="group" aria-label="Bone-building levers">
+    <div class="chips" role="group" aria-label="Bone-building factors">
       {#each levers as l}
         <button type="button" class="chip build" class:on={on[l.key]} onclick={() => toggle(l.key)} aria-pressed={!!on[l.key]}>
           <span class="tick-mark">{on[l.key] ? '✓' : '+'}</span> {l.label} <span class="grade">grade&nbsp;{l.grade}</span>

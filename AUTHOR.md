@@ -405,7 +405,7 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
                                   to do ("Explain…", "Distinguish…", "Recognise… and refer")
 ::: {.concept-tree}             — chapter map: ≤4 branches (the movements), each linked to its section
 ## <Chapter title> at a glance  — EVERY chapter; the H1 title before any colon, verbatim ("Macronutrients
-                                  at a glance"; Part II adds ": two drivers"). Orientation; an overview
+                                  at a glance"; Part II adds ": internal and external factors"). Orientation; an overview
                                   figure/table shows the structure (no narrated roadmap, §11g)
 ## <Movement 1>  ┐ 3–5 named narrative beats (§11h); topics within a movement
 ## <Movement 2>  ┘ use the five-beat anatomy (§11a) + interactive/figure where earned;
@@ -661,6 +661,23 @@ showcase, landscape* (figurative), *realm, interplay, robust, enduring, foster, 
 leverage, navigate* (figurative), *journey, unlock, harness, seamless, holistic, multifaceted, paramount,
 nuanced, invaluable, game-changer, cutting-edge, ever-evolving, dynamic, honest/honestly*.
 
+**Business and journalism words, banned in prose (2026-10-22 sweep, 380 fixes).** Use the medical or plain
+term: *lever(s)* → factor, modifiable factor, measure, change (island controls: "controls"); *driver(s)*
+meaning cause → cause, risk factor, factor; *high-yield / highest-yield / outyields* → most useful, most
+informative; *headline* for a study result → main result (a literal news headline is fine); *anchor(s)* →
+based on, reference point; *toolkit, playbook, payoff, pays off, buys (years)*; *move* for a clinical step →
+step, approach, response; *the fix* → treatment, correction; *lands / lands differently* → applies, is
+received; *the real X* → drop "real"; *story* for an explanation → explanation, evidence. Standard terms
+stay: ATP as "energy currency", the microbiome as an "ecosystem", "silent" osteoporosis or hypertension,
+"hidden" sugar or salt, "reframe" in counselling, "energy budget", "clinically actionable".
+
+**Hyperbole and private metaphor.** No unsourced superlative (*no single X matters more, the single biggest,
+the strongest, more than any, the most important*): state the claim at its real strength ("one of the main
+modifiable factors") or cite the source that ranks it. No private metaphors or literary turns (*quieter,
+the arithmetic quietly turns against them, the hormone story, the youth deposit pays off, where the harm
+lives, a slow-motion emergency, lands a verdict*), and no slogan closers (*X beats Y*, *a head start, not a
+shrug*). If a sentence would sound odd said aloud by a consultant to a student, rewrite it literally.
+
 **Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
 Interestingly, Ultimately, Overall, In summary, In conclusion, It is important to note, It is worth noting*.
 
@@ -750,17 +767,17 @@ Chapters must read as a **structured narrative**, not a flat run of topics. Codi
 stage the same recipe and put **normal physiology before clinical problems**:
 
 ```
-## <Stage> at a glance: two drivers         — orientation + the two-row driver table + the island
-## What changes inside: <subtitle>          — the internal drivers: physiology and needs (row 1 of the table)
-## What changes outside: <subtitle>         — the external levers: food environment, social, culture (row 2)
+## <Stage> at a glance: internal and external factors — orientation + the two-row factor table + the island
+## What changes inside: <subtitle>          — the internal factors: physiology and needs (row 1 of the table)
+## What changes outside: <subtitle>         — the external factors: food environment, social, culture (row 2)
 ## [one stage-specific movement, optional]  — only where the content needs it (e.g. Lactation)
 ## Recognising trouble, and when to refer    — red flags + the do-no-harm callout + a refer table (inline)
 ## <close question>
 ## The Singapore picture  ·  quiz  ·  case
 ```
 The two middle movement names are fixed (author decision 2026-10-22) so every life stage shows the same
-two-driver frame as its driver table; the subtitle carries the stage's own content.
-*Worked example — Healthy Ageing:* at a glance: two drivers → What changes inside (⤷ protein · micronutrients
+internal/external frame as its factor table; the subtitle carries the stage's own content.
+*Worked example — Healthy Ageing:* at a glance: internal and external factors → What changes inside (⤷ protein · micronutrients
 and hydration · why older adults eat less) → What changes outside (eating alone and isolation) →
 Recognising trouble, and when to refer → close → Singapore.
 

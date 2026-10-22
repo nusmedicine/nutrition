@@ -18,7 +18,7 @@
     id: 'renal-flip',
     title: 'The advice that flips in CKD',
     intro:
-      "Standard healthy-eating advice can reverse once the kidney can no longer clear a potassium load. Switch the patient and watch each verdict flip — except the one lever that doesn't.",
+      "Standard healthy-eating advice can reverse once the kidney can no longer clear a potassium load. Switch the patient and watch each verdict flip — except the one piece of advice that doesn't.",
     contexts: [
       { id: 'healthy', label: 'A healthy adult', short: 'a healthy adult' },
       { id: 'ckd', label: 'Advanced CKD / on dialysis', short: 'someone with advanced CKD' },
@@ -66,7 +66,7 @@
         example: 'less soup, sauce and processed food',
         verdicts: {
           healthy: { kind: 'good', badge: 'Good advice', why: 'Lowers blood pressure — good for everyone.' },
-          ckd: { kind: 'good', badge: "Still good — doesn't flip", why: 'Sodium is the one lever that does NOT reverse in CKD: it lowers blood pressure, reduces protein leak and helps kidney-protective drugs work. The lever a generalist can safely reinforce.' },
+          ckd: { kind: 'good', badge: "Still good — doesn't flip", why: 'Cutting sodium is the one piece of advice that does NOT reverse in CKD: it lowers blood pressure, reduces protein leak and helps kidney-protective drugs work. It is the change a generalist can safely reinforce.' },
         },
       },
     ],

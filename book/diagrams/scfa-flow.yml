@@ -49,7 +49,7 @@ nodes:
     y: 335
     kind: scfa
     pct: 20
-    detail: "The least abundant SCFA but the most important locally: the preferred fuel of the colonocytes, supplying most of their energy and supporting the mucus barrier."
+    detail: "The least abundant SCFA but the main one used locally: the preferred fuel of the colonocytes, supplying most of their energy and supporting the mucus barrier."
   - id: gas
     label: "Gas"
     sub: "H₂, CO₂, CH₄"

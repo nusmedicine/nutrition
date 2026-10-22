@@ -54,7 +54,7 @@ nodes:
       - id: c
         text: "Reassure him it's nothing to worry about, and review in a year."
         correct: false
-        feedback: "Blood pressure around 148/92 with a raised LDL, in a hawker-lunch regular who barely walks, is the high-prevalence, high-yield situation where lifestyle-first counselling and a proper risk assessment change the trajectory. Hypertension is silent, so 'come back in a year' leaves a modifiable risk untouched. Confirm the readings, take a history, counsel, and arrange risk assessment now."
+        feedback: "Blood pressure around 148/92 with a raised LDL, in a hawker-lunch regular who barely walks, is the common situation in which lifestyle-first counselling and a proper risk assessment can lower his risk. Hypertension is silent, so 'come back in a year' leaves a modifiable risk untouched. Confirm the readings, take a history, counsel, and arrange risk assessment now."
         goto: reveal-first-move
 
   - id: reveal-first-move
@@ -86,7 +86,7 @@ nodes:
       - id: c
         text: "Tell him to just stop adding table salt, because that fixes the sodium."
         correct: false
-        feedback: "In Singapore most sodium is hidden in soup bases, sauces, seasonings and eaten-out food, not the shaker, and a bowl of fishball noodle *soup* alone can carry most of a day's sodium. So the table-salt tip is necessary but barely moves Mr Chua, who eats out daily. The changes that matter are made at the stall: leave most of the soup, take sauce or gravy on the side, ask for 'less salt', and skip extra soy and chilli, all inside the whole heart-healthy pattern."
+        feedback: "In Singapore most sodium is hidden in soup bases, sauces, seasonings and eaten-out food, not the shaker, and a bowl of fishball noodle *soup* alone can carry most of a day's sodium. So the table-salt tip is necessary but does little for Mr Chua, who eats out daily. The changes that matter are made at the stall: leave most of the soup, take sauce or gravy on the side, ask for 'less salt', and skip extra soy and chilli, all inside the whole heart-healthy pattern."
         goto: reveal-diet
 
   - id: reveal-diet
@@ -133,8 +133,8 @@ nodes:
       So the safe message is: *"It's reasonable for most people, but first let me check you have no kidney
       disease and aren't on those medicines. If we're unsure, we hold off and I check with your doctor."*
       (For the renal side of potassium, see the *Chronic kidney disease* chapter.) Recommending it freely,
-      without any kidney or medication check, is **a genuine do-no-harm error**, and no amount of good advice
-      elsewhere buys it back.
+      without any kidney or medication check, is **a genuine do-no-harm error**, and good advice elsewhere
+      does not make up for it.
     next: q-refer
 
   - id: q-refer
@@ -147,7 +147,7 @@ nodes:
       - id: a
         text: "Refer to a dietitian, arrange risk assessment, look targets up, and advise against drinking for the heart."
         correct: true
-        feedback: "Referral to a dietitian (in Singapore, via EatWise SG) delivers the structured pattern change; alongside it, arrange a formal cardiovascular-risk assessment and a re-check of his blood pressure and lipids. His blood-pressure and cholesterol targets are risk-tiered and looked up by a clinician using his risk estimate, not recited from memory. On the beer: current evidence finds no safe level, and the old 'protective' story is confounding. Cutting down lowers blood pressure, but a daily drink is never advised 'for the heart'."
+        feedback: "Referral to a dietitian (in Singapore, via EatWise SG) delivers the structured pattern change; alongside it, arrange a formal cardiovascular-risk assessment and a re-check of his blood pressure and lipids. His blood-pressure and cholesterol targets are risk-tiered and looked up by a clinician using his risk estimate, not recited from memory. On the beer: current evidence finds no safe level, and the old 'protective' finding reflects confounding. Cutting down lowers blood pressure, but a daily drink is never advised 'for the heart'."
         effects: { quality: +1 }
         goto: route
       - id: b

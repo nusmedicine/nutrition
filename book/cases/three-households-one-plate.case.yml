@@ -2,7 +2,7 @@ id: three-households-one-plate
 title: "Three households, one plate"
 objectives:
   - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting to each cuisine instead of imposing a foreign diet."
-  - "Tackle the two biggest local gaps, too little wholegrain and too much free sugar and salt, with practical swaps."
+  - "Tackle two major local gaps, too little wholegrain and too much free sugar and salt, with practical swaps."
   - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the *Evidence vs hype* chapter."
 difficulty: intro
 estimatedMinutes: 10
@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "\"Some brown rice, greens filling half the plate, steamed fish and plain water.\""
         correct: true
-        feedback: "Brown rice, greens, steamed fish and water keep the dinner Chinese and hit all four slots: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two highest-yield local moves."
+        feedback: "Brown rice, greens, steamed fish and water keep the dinner Chinese and hit all four slots: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two most useful local changes."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-malay
@@ -119,7 +119,7 @@ nodes:
       - id: c
         text: "\"PREDIMED was retracted, so ignore it: the Mediterranean diet is useless.\""
         correct: false
-        feedback: "The opposite overreaction. The trial was retracted and re-published with a reanalysis that upheld the headline, and observational data broadly agree. The accurate position is a real benefit stated with its limits, not dismissal."
+        feedback: "The opposite overreaction. The trial was retracted and re-published with a reanalysis that upheld the main result, and observational data broadly agree. The accurate position is a real benefit stated with its limits, not dismissal."
         goto: route
 
   - id: route
@@ -147,7 +147,7 @@ nodes:
     body: |
       You rebuilt a Chinese, a Malay and an Indian dinner to the *same* My Healthy Plate target
       using each family's own food (brown rice and steamed fish, grilled *ikan bakar* and more
-      *ulam*, dhal and wholemeal chapati), made the two highest-yield local changes (wholegrains,
+      *ulam*, dhal and wholemeal chapati), made the two most useful local changes (wholegrains,
       sugary drinks), and addressed the belief that vegetarian means no protein. When PREDIMED
       came up, you cited it fairly: a relative reduction on a stroke-dominated composite, from a
       re-published trial, not a personal guarantee. (Appraising such claims in depth is covered in
@@ -157,7 +157,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "One target (quarter-quarter-half), three cuisines: adapt the plate to the food, never impose a foreign diet or ban a cuisine."
-        - "The two highest-yield local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
+        - "The two most useful local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
         - "Legumes are a full protein quarter; vegetarian does not mean protein-deficient."
         - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the *Evidence vs hype* chapter."
 
@@ -168,11 +168,11 @@ nodes:
     body: |
       You helped the families but drifted toward banning a cuisine, imposing an unfamiliar diet,
       or overstating a trial on at least one turn. Replay and, for each household, rebuild their
-      dinner to quarter-quarter-half, and when a trial comes up, pair the headline with its
-      caveat.
+      dinner to quarter-quarter-half, and when a trial comes up, state the main result with
+      its caveat.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Adapt My Healthy Plate to each cuisine; don't prescribe a foreign pattern or condemn the family's food."
-        - "Target the two real local gaps: more wholegrains, fewer sugary drinks and less salt."
-        - "State a trial's benefit together with its caveat: a headline alone is how hype starts."
+        - "Target the two major local gaps: more wholegrains, fewer sugary drinks and less salt."
+        - "State a trial's benefit together with its caveat: stating the benefit alone overstates it."

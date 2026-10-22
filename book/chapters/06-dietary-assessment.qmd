@@ -8,7 +8,7 @@
 ## Learning objectives
 - Choose a fit-for-purpose dietary assessment method, and name the characteristic bias of the 24-hour
   recall, the food-frequency questionnaire and the food diary.
-- Take a structured diet history, and explain why the drinks question yields the most in a Singapore
+- Take a structured diet history, and explain why the drinks question is especially informative in a Singapore
   diet.
 - Read a Nutrition Information Panel per 100 g or 100 ml, and grade a drink with Nutri-Grade.
 - Link a diet pattern to its likely surpluses and shortfalls, and interpret BMI and waist
@@ -74,7 +74,7 @@ Recall bias
 Reactivity
 : Eating differently because intake is being recorded.
 
-| Method | What it is | Strength | Its signature bias |
+| Method | What it is | Strength | Characteristic bias |
 |---|---|---|---|
 | 24-hour recall | "Tell me everything you ate and drank yesterday." | Quick, low burden for the patient | One day is not necessarily a usual day: intake varies widely from day to day, and the method relies on memory (recall bias). Several non-consecutive recalls estimate habitual intake far better. |
 | Food-frequency questionnaire | A checklist: how often, over months, do you eat X? | Captures the habitual pattern; low burden | Best for ranking people (high vs low), not for measuring exact quantities; portion estimation is rough. |
@@ -90,11 +90,11 @@ usually a short structured history, which is a guided 24-hour recall widened wit
 ### Taking a diet history {#sec-diet-history}
 
 A diet history is a structured conversation, not an interrogation. Walk through a typical day from
-waking to sleeping, then probe the high-yield areas: meal pattern and skipping, drinks, snacks, how
+waking to sleeping, then probe the most informative areas: meal pattern and skipping, drinks, snacks, how
 often they eat out or *tapau* (buy takeaway), portion sizes, who shops and cooks, and supplements.
 Keep it conversational, and let the facts come out instead of firing questions.
 
-One probe outyields all the others locally: drinks. Sugary drinks (*kopi* and *teh* with condensed
+Locally, the most useful single probe is drinks. Sugary drinks (*kopi* and *teh* with condensed
 milk, *bandung*, bubble tea, canned soft drinks) were the single biggest source of sugar in the 2022
 National Nutrition Survey, about half of all sugar eaten [@mohNNS2022], and they are the question most often skipped. The drinks probe also
 folds in a routine, non-judgemental question about alcohol.
@@ -105,9 +105,9 @@ you miss if you never ask what she drinks.
 <div data-island="diet-history" data-src="/diagrams/diet-history.yml"></div>
 
 ::: {.callout-tip}
-## The highest-yield question is often the one not asked
+## The most useful question is often the one not asked
 People rarely volunteer their drinks, their snacks or their true portions, not to deceive but because
-they feel these "don't count". Ask specifically, with everyday anchors ("how big, a *rice bowl*? two
+they feel these "don't count". Ask specifically, with everyday comparisons ("how big, a *rice bowl*? two
 scoops?"), and you uncover far more than an open "so, how's your diet?" ever will.
 :::
 
@@ -134,20 +134,20 @@ your usual drink, then pick one swap" an authentic local exercise:
 
 Nutri-Grade works as a nudge, not a verdict. In a randomised trial of the label, shoppers bought
 drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall
-quality of their basket [@nutriGradeRCT2023]. A grade moves one choice; it does not fix a diet. It
+quality of their basket [@nutriGradeRCT2023]. A grade influences one choice; it does not change the whole diet. It
 also grades only drinks, on two nutrients: an "A" drink is not a licence, and Nutri-Grade says nothing
 about solid food.
 
 ::: {.callout-tip}
-## 🍜 Eating out: the one swap that lands
-The single highest-yield swap in a Singapore diet history is the drink. Four swaps make it concrete:
+## 🍜 Eating out: start with the drink
+In a Singapore diet history, the drink is usually the most useful thing to swap. Four swaps make it concrete:
 
 - *kopi-o kosong* or *teh-o kosong* (grade A) instead of the sweetened default;
 - *siu dai* (less sweet) or *kosong* (no sugar) when ordering;
 - water instead of the bundled soft drink;
 - whole fruit instead of a pressed juice.
 
-One realistic swap the patient agrees to beats a lecture on all of them.
+One realistic swap the patient agrees to is more useful than a lecture on all of them.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -156,15 +156,15 @@ One recalled day is not necessarily a usual day: intake varies widely from day t
 depends on memory (recall bias). Self-reported intake is also systematically under-reported, because
 people leave out or shrink the less-flattering foods and portions. Asking "is that typical?" widens
 the recall towards habitual intake, and asking specifically about drinks, snacks and portions, with
-everyday anchors, uncovers what people do not volunteer.
+everyday comparisons, uncovers what people do not volunteer.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has switched all her drinks to grade A. Why might her diet still need work?
 Nutri-Grade grades only drinks, and only on sugar and saturated fat, so it says nothing about the solid
 food she eats. In a randomised trial the label moved drink purchases towards less sugar but did not
-improve the overall quality of shoppers' baskets. A grade moves one choice; it does not fix a diet, so
-the rest of the history still needs reading.
+improve the overall quality of shoppers' baskets. A grade influences one choice but not the whole diet,
+so the rest of the history still needs reading.
 :::
 
 ## Interpreting the diet history {#sec-history-problems}
@@ -186,8 +186,8 @@ plain terms, the two or three things worth shifting.
 
 ### Anthropometry and malnutrition screening {#sec-both-tails}
 
-**Anthropometry** (body measurements such as weight, height and waist circumference) adds an objective
-anchor to the history. BMI classifies weight-for-height (see the
+**Anthropometry** (body measurements such as weight, height and waist circumference) adds objective
+measurements to the history. BMI classifies weight-for-height (see the
 [*Energy balance*](energy-balance.qmd#sec-measuring) chapter), but its thresholds are not universal.
 Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
 populations than the international thresholds assume [@sgObesityBMI]:
@@ -220,7 +220,7 @@ chapter for the recognition and management of the malnourished patient).
 ::: {.callout-important}
 ## Always consider undernutrition
 "Lower on the scale is better" is a dangerous default. Before you suggest anyone eat less, ask whether
-the real problem is that they are eating too little, and whether weight talk is safe at all (see
+the problem is in fact that they are eating too little, and whether weight talk is safe at all (see
 [Do no harm](#sec-do-no-harm)).
 :::
 
@@ -259,8 +259,8 @@ sequence [@fiveAsNutrition]:
 :::
 
 The full cycle, and the motivational-interviewing skills behind it, are in the
-[*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter. The opening moves, assess
-and advise, are where first contact succeeds or fails. Assessing means finding out what the patient
+[*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter. The opening steps, assess
+and advise, are the focus at first contact. Assessing means finding out what the patient
 eats and what they are ready to change, without judgement; it is the diet history above. Advising
 means offering one concrete, realistic step, with permission: "Would it be alright if I shared one
 idea about your drinks?" earns a hearing, and an unasked-for lecture does not.

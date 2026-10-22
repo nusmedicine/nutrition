@@ -2,7 +2,7 @@ id: behaviour-change-counselling
 title: "Quick check: behaviour-change counselling"
 questions:
   - id: q1
-    stem: "A patient says, \"The kopi is my only pleasure driving all day.\" What's the motivational-interviewing move?"
+    stem: "A patient says, \"The kopi is my only pleasure driving all day.\" What is the motivational-interviewing response?"
     options:
       - text: "Reflect both sides and let him voice his own reasons"
         correct: true
@@ -45,7 +45,7 @@ questions:
     options:
       - text: "\"Order kopi siu dai each workday, from Monday\""
         correct: true
-        feedback: "It is Specific, Measurable, Achievable, Relevant and Time-bound, and it is the patient's own choice. Small and owned beats big and imposed."
+        feedback: "It is Specific, Measurable, Achievable, Relevant and Time-bound, and it is the patient's own choice. A small goal the patient chooses works better than a large imposed one."
       - text: "\"Be healthier and cut out sugar\""
         correct: false
         feedback: "This is too vague to check: it is not specific, measurable or time-bound, so it is a wish, not a goal."
@@ -61,7 +61,7 @@ questions:
         feedback: "An if-then plan (\"if the stall auntie forgets, then I'll remind her siu dai\") is an implementation intention, which has a medium-to-large effect on goal attainment. Planning for the obstacle in advance makes the goal more likely to happen."
       - text: "Setting five more goals at the same time"
         correct: false
-        feedback: "Too many goals dilute the effort; one small, well-planned change beats five aspirational ones."
+        feedback: "Too many goals dilute the effort; one small, well-planned change works better than five ambitious ones."
       - text: "Telling the patient it matters and they must try hard"
         correct: false
         feedback: "Exhortation doesn't change behaviour. A concrete if-then plan does far more than 'try harder'."

@@ -20,8 +20,8 @@
     id: 'trial-check',
     title: 'Did the trial confirm the claim?',
     claims: [
-      { claim: 'Cohort studies linked the MIND diet to about half the risk of Alzheimer’s. Did the prevention trial confirm a benefit?', verdict: 'null', why: 'The 3-year MIND randomised trial found no cognitive benefit over an improved-eating control. The impressive cohort number did not survive the trial.' },
-      { claim: 'Intensively lowering blood pressure — did the trial reduce cognitive impairment?', verdict: 'confirmed', why: 'SPRINT MIND: intensive BP control reduced mild cognitive impairment and the mild-impairment-or-dementia measure. The vascular lever is the one that holds up.' },
+      { claim: 'Cohort studies linked the MIND diet to about half the risk of Alzheimer’s. Did the prevention trial confirm a benefit?', verdict: 'null', why: 'The 3-year MIND randomised trial found no cognitive benefit over an improved-eating control. The trial did not confirm the large effect seen in the cohort studies.' },
+      { claim: 'Intensively lowering blood pressure — did the trial reduce cognitive impairment?', verdict: 'confirmed', why: 'SPRINT MIND: intensive BP control reduced mild cognitive impairment and the mild-impairment-or-dementia measure. Vascular risk control is the intervention with trial support.' },
       { claim: 'Ginkgo biloba “brain tonic” — did the large trial reduce dementia?', verdict: 'null', why: 'The GEM trial found ginkgo did not reduce dementia at all, and it can increase bleeding risk.' },
     ],
   };

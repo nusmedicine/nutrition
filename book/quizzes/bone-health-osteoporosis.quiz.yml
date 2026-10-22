@@ -6,7 +6,7 @@ questions:
     options:
       - text: "About 20–40% of peak bone mass is lifestyle-modifiable"
         correct: true
-        feedback: "Peak bone mass is mostly inherited: only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That is a real but bounded effect: build a high peak bone mass in youth, then slow its loss. A higher peak buys years of delay before osteoporosis, which is not the same as a percentage cut in fractures."
+        feedback: "Peak bone mass is mostly inherited: only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That is a real but bounded effect: build a high peak bone mass in youth, then slow its loss. A higher peak delays the onset of osteoporosis by years, which is not the same as a percentage cut in fractures."
       - text: "Essentially all of it; bone is purely a lifestyle matter"
         correct: false
         feedback: "The majority of peak bone mass is heritable; only about 20–40% is lifestyle-modifiable. Overselling it sets up false expectations."
@@ -15,7 +15,7 @@ questions:
         feedback: "It isn't fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the modifiable factors still matter across adulthood. Their effect is bounded, not absent."
       - text: "It only becomes modifiable after menopause"
         correct: false
-        feedback: "The biggest window is youth, when peak bone mass is built; menopause is when women lose bone fastest. The modifiable factors matter across the whole life course."
+        feedback: "The main window is youth, when peak bone mass is built; menopause is when women lose bone fastest. The modifiable factors matter across the whole life course."
 
   - id: q2
     stem: "A patient says \"spinach is full of calcium, so it's great for my bones\". What's the accurate response?"
@@ -146,11 +146,11 @@ questions:
         feedback: "The opposite is true: weight loss (with exercise) is the most effective intervention for knee osteoarthritis, while glucosamine gives no meaningful benefit."
 
   - id: q10
-    stem: "What is the single most effective intervention for knee osteoarthritis?"
+    stem: "Which intervention has the best evidence for knee osteoarthritis?"
     options:
       - text: "Losing ~10% of body weight, with exercise"
         correct: true
-        feedback: "In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight and activity beat any supplement."
+        feedback: "In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight loss and activity help more than supplements."
       - text: "Taking a daily cartilage supplement"
         correct: false
         feedback: "Supplements don't rebuild cartilage or meaningfully relieve osteoarthritis. The effective intervention is weight loss with exercise."
@@ -182,7 +182,7 @@ questions:
     options:
       - text: "Osteoarthritis → weight loss; osteoporosis → calcium"
         correct: true
-        feedback: "The two 'osteo' conditions have opposite diet stories: osteoarthritis (worn cartilage) responds to weight loss and activity, while osteoporosis (low bone density) responds to calcium, vitamin D and protein. Mixing them up (calcium for arthritis, glucosamine for osteoporosis) is the classic error."
+        feedback: "The two 'osteo' conditions need different dietary measures: osteoarthritis (worn cartilage) responds to weight loss and activity, while osteoporosis (low bone density) responds to calcium, vitamin D and protein. Mixing them up (calcium for arthritis, glucosamine for osteoporosis) is the classic error."
       - text: "Osteoarthritis → calcium; osteoporosis → glucosamine"
         correct: false
         feedback: "This swaps them. Calcium is for bone (osteoporosis), and glucosamine is for neither; for osteoarthritis, the main measure is weight loss."

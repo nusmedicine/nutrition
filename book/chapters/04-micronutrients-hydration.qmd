@@ -3,7 +3,7 @@
 > *Vitamins and minerals are needed only in milligram or microgram amounts and supply almost no
 > energy, yet a shortfall can blind a child, soften bone or leave permanent nerve damage, and an
 > excess of some is toxic. The body also holds water and electrolytes in tight balance, and
-> Singapore's signature problem with them is an excess: too much sodium.*
+> in Singapore the main problem with them is an excess: too much sodium.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -64,10 +64,10 @@ Switch between the three vitamins below to compare them.
 Because vitamins are essential, it is easy to assume that more must be better. Fat-soluble vitamins
 (notably A and D) can **accumulate to toxic levels**. Water-soluble vitamins are mostly excreted, but
 very high intakes can still cause harm: B6 can damage nerves, and vitamin C can cause kidney stones.
-What helps is regular intake, not megadoses. For most people, food beats pills.
+Regular intake is what is needed, not megadoses, and for most people food is a better source than supplements.
 :::
 
-Minerals and trace elements each have a signature role:
+Each mineral and trace element has a main role:
 
 - Calcium builds bone.
 - Iron carries oxygen.
@@ -178,8 +178,8 @@ metformin, a common diabetes medicine [@metforminB12]. A reliable plant-based in
 foods or a supplement; spirulina and algae do not count, because they contain an inactive look-alike.
 :::
 
-**Vitamin C** builds collagen, the body's "glue", so its deficiency, **scurvy**, is a disease of
-things falling apart: bleeding, spongy gums, easy bruising, poor wound healing and corkscrew-shaped
+**Vitamin C** is needed to make collagen, so its deficiency, **scurvy**, weakens
+connective tissue, causing bleeding, spongy gums, easy bruising, poor wound healing and corkscrew-shaped
 hairs [@dermnetScurvy]. Vitamin C also greatly increases the absorption of plant (non-haem) iron, so a
 squeeze of lime or a vitamin C-rich fruit with an iron-rich meal helps (see [iron](#sec-iron) below).
 
@@ -279,7 +279,7 @@ development. Iodine deficiency causes **goitre** (a swollen thyroid) and, in pre
 intellectual disability in the child; it is a leading preventable cause of brain injury worldwide
 [@odsIodine].
 
-Iodising salt has pushed iodine deficiency out of most of the world. Two trends can let it quietly
+Salt iodisation has made iodine deficiency much less common worldwide. Two trends could allow it to
 return: non-iodised "gourmet" salts (sea salt, pink Himalayan) and rising plant-based eating, which
 reduces intake of the main sources (dairy, seafood and eggs). Keeping iodised salt as the kitchen
 default guards against both.
@@ -288,7 +288,7 @@ In Singapore, salt iodisation is voluntary, not mandatory [@codling2017iodine], 
 iodine-status survey has been published. The food supply therefore does not guarantee enough iodine,
 and choosing iodised salt is a sensible individual safeguard.
 
-![Iodised salt: a cheap population-wide fix for iodine deficiency; most "gourmet" salts are not iodised. Photo: Drtony999, CC BY-SA 3.0.](/figures/food/iodised-salt.jpg){#fig-iodisedsalt fig-alt="A small pile of fine iodised salt on a dark dish." width="300" .lightbox}
+![Iodised salt: a low-cost population-wide measure against iodine deficiency; most "gourmet" salts are not iodised. Photo: Drtony999, CC BY-SA 3.0.](/figures/food/iodised-salt.jpg){#fig-iodisedsalt fig-alt="A small pile of fine iodised salt on a dark dish." width="300" .lightbox}
 
 ### Zinc, magnesium and selenium {#sec-trace-minerals}
 
@@ -387,11 +387,11 @@ for an identified need.
 
 ## The Singapore picture {#sec-singapore}
 
-Three micronutrient problems are sharply local: vitamin D deficiency is common despite the climate,
+Three micronutrient problems are particularly relevant in Singapore: vitamin D deficiency is common despite the climate,
 many older adults fall short on calcium, and, with salt iodisation voluntary, the food supply does not
 guarantee enough iodine [@codling2017iodine].
 
-The signature micronutrient problem in Singapore, however, is an excess: too much sodium. The
+The main micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
 limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium does not come from
 the salt shaker at the table. It is in sauces, broths and food eaten out of home [@mohNNS2022], which makes sodium a

@@ -24,9 +24,9 @@ claims:
     study: "The claim leans on a 2024 randomised trial that reported weight loss from a daily dose of apple cider vinegar."
     design: "A randomised trial, normally high on the hierarchy, but small, short and not registered in advance."
     outcome: "The reported effect was modest, and the study was retracted in 2025 when its analyses could not be reproduced."
-    apply: "With the headline study withdrawn, what's left is a few small, short trials: a possible fall in fasting glucose in type 2 diabetes, of limited certainty, and weight data that still include the retracted trial. Neither replaces ordinary diet and activity."
+    apply: "With the main study withdrawn, what's left is a few small, short trials: a possible fall in fasting glucose in type 2 diabetes, of limited certainty, and weight data that still include the retracted trial. Neither replaces ordinary diet and activity."
     verdict: retracted
-    verdictText: "The flagship study was retracted, so the claim rests on nothing solid. A cheap condiment is not a weight-loss treatment."
+    verdictText: "The main study was retracted, so the claim has no reliable support. A cheap condiment is not a weight-loss treatment."
   - id: coffee
     label: "\"Coffee protects your heart\""
     study: "Backed by a large 2017 umbrella review that pooled many observational studies of coffee and health."
@@ -58,7 +58,7 @@ claims:
     outcome: "Children given sugar behaved no differently from those given a sugar-free substitute; the 'sugar high' is largely parental expectancy (observer bias)."
     apply: "Applies broadly. Excess added sugar is still unhealthy for teeth and weight; it just does not cause hyperactivity."
     verdict: disproven
-    verdictText: "Disproven as a behaviour effect. Cut added sugar for the real reasons, not for hyperactivity."
+    verdictText: "Disproven as a behaviour effect. Cut added sugar for its established harms, not for hyperactivity."
   - id: betacarotene
     label: "\"Beta-carotene supplements prevent cancer\""
     study: "Tested directly in large randomised prevention trials, including beta-carotene given to smokers."

@@ -54,7 +54,7 @@ questions:
     options:
       - text: "Poor sleep reliably raises intake; the hormone mechanism is contested"
         correct: true
-        feedback: "Increased intake with no matching rise in expenditure is the reproducible signal. The classic leptin-down, ghrelin-up story comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone story gives a direction, not a proven mechanism."
+        feedback: "Increased intake with no matching rise in expenditure is the reproducible signal. The classic leptin-down, ghrelin-up account comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone mechanism is suggestive, not proven."
       - text: "Short sleep proves weight gain by lowering leptin and raising ghrelin"
         correct: false
         feedback: "The hormone account is directional and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable signal is the increase in intake, not the hormone mediator."
@@ -63,7 +63,7 @@ questions:
         feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
       - text: "The fix is more willpower, since the cause is a failure of discipline"
         correct: false
-        feedback: "Calling this a failure of discipline misframes an upstream driver as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging ignores the mechanism and can be stigmatising."
+        feedback: "Calling this a failure of discipline misframes an underlying cause as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging ignores the mechanism and can be stigmatising."
 
   - id: q5
     stem: "Your patient, a man with a BMI of 28 kg/m², has tried diet changes with limited success and asks about weight-loss drugs and surgery. What is the right response at this stage?"
@@ -76,7 +76,7 @@ questions:
         feedback: "Prescribing sits outside this stage: pharmacotherapy is a specialist tier, and lifestyle remains the cornerstone under any added treatment. The role here is to recognise and refer."
       - text: "Refer for metabolic-bariatric surgery at once as the most effective option"
         correct: false
-        feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision, not a first-line move. Recognise the tier exists and refer appropriately."
+        feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision, not a first-line step. Recognise the tier exists and refer appropriately."
       - text: "Tell him drugs and surgery always fail, so only willpower works"
         correct: false
         feedback: "The specialist tiers work for selected patients, so the claim is untrue, and willpower framing is stigmatising. Referral, not prescribing, is the correct route."

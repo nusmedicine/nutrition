@@ -32,7 +32,7 @@ questions:
     options:
       - text: "Greater fat-free (lean) mass"
         correct: true
-        feedback: "Lean mass, whose muscle and organs are metabolically active, is the main driver of BMR."
+        feedback: "Lean mass, whose muscle and organs are metabolically active, is the main determinant of BMR."
       - text: "Increasing age"
         correct: false
         feedback: "BMR tends to fall with age, partly because lean mass is lost."

@@ -114,7 +114,7 @@ questions:
     options:
       - text: "It raises ghrelin and lowers leptin, raising hunger."
         correct: true
-        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable lever that 'eat less, move more' ignores."
+        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable factor that 'eat less, move more' ignores."
       - text: "It suppresses appetite by raising leptin levels."
         correct: false
         feedback: "Short sleep lowers leptin and raises ghrelin, which increases hunger."

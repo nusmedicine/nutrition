@@ -23,6 +23,6 @@ molecules:
     sdf: /structures/butyric-acid.sdf
     svg: /structures/butyric-acid.svg
     note: >
-      Four carbons. The least abundant SCFA yet the most important locally: the preferred fuel of
+      Four carbons. The least abundant SCFA yet the main one used locally: the preferred fuel of
       the colonocytes that line the colon.
 credit: "Structures: generated with RDKit (CC0)."

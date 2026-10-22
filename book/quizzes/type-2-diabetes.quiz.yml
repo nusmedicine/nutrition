@@ -12,7 +12,7 @@ questions:
         feedback: "Brief advice is not what produced the Diabetes Prevention Program result. The benefit came from an intensive, multi-session programme with follow-up. A single conversation does not reproduce it, which is why guidelines say to refer to a structured programme."
       - text: "Metformin started early, since a drug beats any lifestyle change"
         correct: false
-        feedback: "Metformin did reduce progression (about 31%), but structured lifestyle change beat it (58%). Lifestyle, delivered through a structured programme, is the stronger first move."
+        feedback: "Metformin did reduce progression (about 31%), but structured lifestyle change beat it (58%). Lifestyle, delivered through a structured programme, is the stronger first step."
       - text: "Placebo with reassurance, since most prediabetes reverts anyway"
         correct: false
         feedback: "Some prediabetes does revert, but a substantial share progresses without action. Placebo was the comparator the structured programme clearly outperformed."
@@ -89,7 +89,7 @@ questions:
         feedback: "Brown rice, vegetables and a lean protein shift the plate toward wholegrains and plants: the My Healthy Plate 'quarter, quarter, half' in hawker terms. It substitutes toward quality instead of banning rice; locally, rice intake itself was not linked to diabetes, while swapping toward wholegrain lowered risk."
       - text: "White rice with extra gravy and two fried meat dishes for flavour"
         correct: false
-        feedback: "White rice with extra gravy and fried meat is the higher refined-carbohydrate, higher-fat option. The better move is to shift toward wholegrains and vegetables with a lean protein and less gravy."
+        feedback: "White rice with extra gravy and fried meat is the higher refined-carbohydrate, higher-fat option. The better choice is to shift toward wholegrains and vegetables with a lean protein and less gravy."
       - text: "No rice at all, since rice is the main cause of diabetes locally"
         correct: false
         feedback: "Cutting rice entirely misreads the evidence: the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The gain comes from substitution toward wholegrain and more vegetables, not from banning a staple."

@@ -130,8 +130,8 @@ Unintentional weight loss, or "shrinking", is a core feature of frailty (a clini
 whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) and
 one of the first things to ask about [@fried2001frailty]. Membership of an at-risk group raises the
 pre-test probability (the chance, before any test, that the patient has the condition). You therefore
-screen the patient instead of waiting for malnutrition to look obvious. Knowing the group is the difference
-between catching malnutrition and missing it.
+screen the patient instead of waiting for malnutrition to look obvious. Knowing the at-risk groups makes
+malnutrition less likely to be missed.
 
 ### Nutrition screening: the generalist's role {#sec-mal-screening}
 
@@ -193,18 +193,18 @@ When intake is poor, oral nutrition support follows a stepwise approach (often d
 first step is not a supplement:
 
 1. Food-first, which fixes the cause of poor intake (isolation, poor dentition, low mood, dysphagia,
-   finances or appetite-blunting drugs) and optimises ordinary food.
+   finances or appetite-blunting drugs) and makes the most of ordinary meals.
 2. **Food fortification**, which enriches familiar dishes so each mouthful carries more energy and protein
    without more volume (adding egg, minced fish, tofu, milk powder, oil or full-fat dairy) and can lift
    intake substantially [@bapenFoodFirst; @hpbSeniors].
 3. **Oral nutritional supplements (ONS)**, the supplement drinks, which are an evidence-based add-on when
-   food-based measures fall short, not the opening move [@espenGeriatrics2019;
+   food-based measures fall short, not the first step [@espenGeriatrics2019;
    @espenGeriatricsPractical2022].
 
 **Enteral** (tube) and **parenteral** (intravenous) feeding are specialist steps beyond these, prescribed by
 the team.
 
-![Oral nutrition support is stepwise: start with food-first (fix the cause of poor intake and optimise ordinary food), then food fortification (more energy and protein per mouthful, no extra volume), then oral nutritional supplements as an add-on; enteral and parenteral feeding are specialist steps beyond these. The generalist screens, starts food-first and fortification, and refers; the plan itself is dietitian-led.](/figures/mechanisms/oral-support-ladder.svg){#fig-ons-ladder width="72%" fig-align="center"}
+![Oral nutrition support is stepwise: start with food-first (fix the cause of poor intake and make the most of ordinary meals), then food fortification (more energy and protein per mouthful, no extra volume), then oral nutritional supplements as an add-on; enteral and parenteral feeding are specialist steps beyond these. The generalist screens, starts food-first and fortification, and refers; the plan itself is dietitian-led.](/figures/mechanisms/oral-support-ladder.svg){#fig-ons-ladder width="72%" fig-align="center"}
 
 ONS are often started too early, and their benefit is modest. In at-risk older people ONS produce a
 small, consistent weight gain and fewer complications, but no significant overall mortality benefit
@@ -238,7 +238,7 @@ thiamine replacement and the energy titration) is specialist, later learning.
 
 ### Dysphagia and texture-modified food {#sec-mal-dysphagia}
 
-Dysphagia (difficulty swallowing; see the *Healthy ageing* chapter) is a common, dangerous driver of
+Dysphagia (difficulty swallowing; see the *Healthy ageing* chapter) is a common, dangerous cause of
 undernutrition, and it has recognisable red flags:
 
 - coughing or choking on food or drink;
@@ -286,7 +286,7 @@ Nutrition support is a team activity, and each member has a distinct part [@sgPo
 - the nurse screens and monitors intake;
 - the speech therapist assesses swallowing and texture;
 - physiotherapists and occupational therapists restore the function that lets improved eating last;
-- the medical social worker tackles the social drivers;
+- the medical social worker addresses the social causes;
 - the pharmacist watches drug–nutrient and electrolyte safety.
 
 The doctor's distinctive contribution is the referral that sets the team in motion; the feeding plan is
@@ -296,7 +296,7 @@ the dietitian's. Nutrition is therefore best handled as interprofessional teamwo
 ::: {.callout-important}
 ## You screen and refer; you do not prescribe the feeding plan
 The generalist screens (MUST or a local tool), recognises the at-risk patient and the red flags (weight
-loss, poor intake, dysphagia, a social driver, refeeding risk), starts food-first and social support, and
+loss, poor intake, dysphagia, a social cause, refeeding risk), starts food-first and social support, and
 refers to the dietitian and the team [@sgPostDischarge2023; @aclm2022comp]. The dietetic assessment and
 GLIM diagnosis, the ONS and enteral prescriptions, refeeding management and IDDSI level-setting are all
 team- and specialist-led.
@@ -306,8 +306,8 @@ team- and specialist-led.
 ## Check yourself: an older patient who lives alone screens high risk on MUST. What is the doctor's part, and what is left to the team?
 The doctor recognises the at-risk patient and the red flags, starts food-first and social support, treats
 the underlying cause and refers; that referral is what sets the team in motion. The dietitian then does
-the assessment and the plan, the nurse monitors intake, and the medical social worker tackles the social
-drivers such as living alone. The GLIM diagnosis, the ONS and enteral prescriptions, refeeding management
+the assessment and the plan, the nurse monitors intake, and the medical social worker addresses social
+causes such as living alone. The GLIM diagnosis, the ONS and enteral prescriptions, refeeding management
 and IDDSI level-setting are all team- and specialist-led.
 :::
 

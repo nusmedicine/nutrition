@@ -41,7 +41,7 @@ questions:
         feedback: "The grade is a useful glance, but it won't reveal the per-serving trap; reading the panel per 100 ml is the skill."
 
   - id: q4
-    stem: "You've spotted that a patient drinks two bubble teas a day. What is the best opening move?"
+    stem: "You've spotted that a patient drinks two bubble teas a day. What is the best way to start?"
     options:
       - text: "Ask permission, then suggest one concrete swap in plain language"
         correct: true
@@ -51,7 +51,7 @@ questions:
         feedback: "Unasked-for, jargon-laden advice puts people on the defensive. Ask permission and use plain language ('sugary drinks')."
       - text: "Say nothing about it to avoid making them uncomfortable"
         correct: false
-        feedback: "Avoiding the highest-yield issue helps no one. Raise it, with permission and without judgement."
+        feedback: "Avoiding the most important dietary issue helps no one. Raise it, with permission and without judgement."
 
   - id: q5
     stem: "During the history a young patient mentions skipping meals to \"make up\" for eating, and feeling guilty after meals. What is the safe next step?"
@@ -64,7 +64,7 @@ questions:
         feedback: "A restrictive plan prescribes restriction into a possible eating disorder, the harm to avoid. Recognise the red flags first."
       - text: "Reassure them it's normal and move on"
         correct: false
-        feedback: "Dismissing the flag misses a chance to help safely. A brief screen and referral consideration is the do-no-harm move."
+        feedback: "Dismissing the flag misses a chance to help safely. A brief screen and consideration of referral is the safe next step."
 
   - id: q6
     stem: "An 80-year-old has had unplanned weight loss and poor appetite over three months. Which way should your assessment go?"

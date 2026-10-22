@@ -1,8 +1,8 @@
 # Brain health and dementia
 
 > *A 52-year-old whose mother has dementia asks the question doctors hear again and again: "Doctor,
-> what should I eat so I don't get it too?" The answer is not a superfood or a supplement; it starts
-> with the blood vessels.*
+> what should I eat so I don't get it too?" The best-supported answer is not a superfood or a supplement but
+> control of vascular risk.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -35,7 +35,7 @@
 ## Brain health and dementia at a glance {#sec-overview}
 
 **Dementia** is a clinical syndrome of acquired, progressive loss of memory and thinking severe enough
-to affect daily life. It is the condition patients most want a food fix for, and careful counselling
+to affect daily life. Patients often hope for a dietary way to prevent it, and careful counselling
 matters because the evidence is encouraging in one place and thin in the others. Four messages
 summarise the evidence:
 
@@ -108,7 +108,7 @@ longer, whichever model of neurodegeneration proves right.
 ### Vascular risk factors {#sec-dementia-vascular}
 
 The cardiometabolic risk factors for heart disease (hypertension, diabetes, high LDL cholesterol,
-obesity, smoking and physical inactivity) are also the modifiable drivers of the vascular contribution
+obesity, smoking and physical inactivity) are also the modifiable risk factors for the vascular contribution
 to dementia. Nutrition acts on the brain mostly *through* this vascular route, by improving those risk
 factors.
 
@@ -124,7 +124,7 @@ factors are thought to act [@livingston2024lancet]. Because each effect is modes
 comes from adding many common exposures across a life, not from one dominant cause. Two further
 points make the estimate usable. The largest single contributors in the model are hearing loss and high LDL cholesterol (about 7%
 each), followed by less education and social isolation (about 5% each). Diet is not among the modelled
-factors, because the Commission judged its evidence not consistent enough to include. Midlife is also the period that matters most, so prevention is a long-term
+factors, because the Commission judged its evidence not consistent enough to include. Midlife is also a key period, so prevention is a long-term
 effort.
 
 The best trial evidence that treating a vascular risk factor protects the brain comes from SPRINT
@@ -132,7 +132,7 @@ MIND. Intensively lowering blood pressure significantly reduced **mild cognitive
 decline in memory or thinking that falls short of dementia) and the combined measure of mild
 impairment or dementia [@sprintmind2019jama]. It did not, on its own, reduce dementia (the trial was
 stopped early for its heart benefit, leaving it underpowered for that harder endpoint). Even with that
-caveat, it is the strongest signal we have, and it points to vascular risk.
+caveat, it is the best trial evidence available, and it points to vascular risk.
 
 ### Can a diet prevent dementia? {#sec-dementia-diet}
 
@@ -188,7 +188,7 @@ small pilot, or on an after-the-fact subgroup.
 The worried-well patient deserves the whole picture, and some of the strongest preventive measures are
 not dietary:
 
-- physical activity, a headline recommendation for brain health that works partly through the same
+- physical activity, a core recommendation for brain health that works partly through the same
   vessels (see the [*Healthy ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
 - correcting hearing and vision, which matters more than most people expect: uncorrected hearing loss
   is one of the largest single modifiable contributors to dementia risk, so "get your hearing and eyes

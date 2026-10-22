@@ -41,20 +41,20 @@ questions:
         feedback: "Iron can be depleted while haemoglobin is still normal, leaving a teen tired and under-performing, so deficiency is suspected early, not after anaemia appears."
 
   - id: q4
-    stem: "The WHO advises keeping free sugars under 10% of energy. What is that threshold anchored on, and how strong is the sugary-drink-to-weight evidence?"
+    stem: "The WHO advises keeping free sugars under 10% of energy. What is that threshold based on, and how strong is the sugary-drink-to-weight evidence?"
     options:
-      - text: "It's anchored first on dental caries; the weight effect is real but modest"
+      - text: "It's based first on dental caries; the weight effect is real but modest"
         correct: true
         feedback: "Dental caries is the primary rationale. On weight, drink-swap trials show a genuine but modest effect that works mainly through the drinks' energy content, not a special toxicity of sugar, so sugary drinks are a red flag to recognise, not a poison to fear."
-      - text: "It's anchored on obesity; trials prove sugary drinks are its sole cause"
+      - text: "It's based on obesity; trials prove sugary drinks are its sole cause"
         correct: false
-        feedback: "The threshold is anchored on *caries*, and the weight evidence, while real, is modest and multi-factorial: sugary drinks are one lever among many, not the sole cause."
+        feedback: "The threshold is based on *caries*, and the weight evidence, while real, is modest and multi-factorial: sugary drinks are one factor among many, not the sole cause."
       - text: "It's arbitrary; there's no real evidence behind the number"
         correct: false
         feedback: "Evidence exists, chiefly on dental caries, plus drink-swap trials showing a modest weight effect; the number reflects that evidence, not guesswork."
 
   - id: q5
-    stem: "A mother asks you to tell her overweight-looking 14-year-old to \"go on a diet\". Why is this the wrong move?"
+    stem: "A mother asks you to tell her overweight-looking 14-year-old to \"go on a diet\". Why is this the wrong approach?"
     options:
       - text: "Because teenage dieting predicts both eating disorders and more weight gain"
         correct: true

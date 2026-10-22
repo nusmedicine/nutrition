@@ -59,7 +59,7 @@ nodes:
     body: |
       Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
       nearly **one in three** women aged 15–49 are anaemic, with iron
-      deficiency the most common nutritional cause, and heavy menstrual bleeding is a major driver. The cause matters
+      deficiency the most common nutritional cause, and heavy menstrual bleeding is a major contributor. The cause matters
       as much as the iron itself.
     next: q-diet
 
@@ -123,7 +123,7 @@ nodes:
       - id: c
         text: "They only matter if she becomes pregnant."
         correct: false
-        feedback: "Heavy periods matter now: monthly blood loss is a major driver of iron deficiency in women of reproductive age."
+        feedback: "Heavy periods matter now: monthly blood loss is a major cause of iron deficiency in women of reproductive age."
         goto: route
 
   - id: route

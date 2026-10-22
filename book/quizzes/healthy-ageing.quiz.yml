@@ -51,7 +51,7 @@ questions:
         feedback: "Deficiency is common in local older adults because they get little sun, not because the sun is lacking, so a low result is plausible."
       - text: "It happens only in people who don't eat oily fish."
         correct: false
-        feedback: "Diet contributes a little, but the main driver in older adults is reduced sun exposure (indoor living, covering up)."
+        feedback: "Diet contributes a little, but the main cause in older adults is reduced sun exposure (indoor living, covering up)."
 
   - id: q5
     stem: "A frail 82-year-old is brought in dehydrated. What is the best approach to fluids in older adults?"
@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Eating alone is a red flag, even in a full household."
         correct: true
-        feedback: "People eat less, and less varied food, when they eat alone, and in Singapore many older adults eat alone despite living with family because their children are out at work. Solitary eating tracks with poorer diets and low mood, so \"Who do you eat with?\" is one of the highest-yield questions, and reconnecting her to a shared meal is a real intervention."
+        feedback: "People eat less, and less varied food, when they eat alone, and in Singapore many older adults eat alone despite living with family because their children are out at work. Solitary eating tracks with poorer diets and low mood, so \"Who do you eat with?\" is one of the most useful questions to ask, and reconnecting her to a shared meal is a real intervention."
       - text: "It doesn't matter, because her family will make sure she eats."
         correct: false
         feedback: "Living with family does not guarantee a shared meal: many local older adults eat alone while relatives are at work, so eating alone remains a red flag."

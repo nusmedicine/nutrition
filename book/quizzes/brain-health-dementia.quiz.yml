@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Manage her blood pressure, glucose and other vascular risks"
         correct: true
-        feedback: "Controlling cardiometabolic risk (blood pressure, glucose, weight, smoking and activity) is the best-supported, most actionable message, and the vascular contribution is the modifiable pathway: what protects the heart protects the brain."
+        feedback: "Controlling cardiometabolic risk (blood pressure, glucose, weight, smoking and activity) is the best-supported, most actionable message, and vascular risk is the main modifiable pathway, since the same risk factors harm both heart and brain."
       - text: "Start the MIND diet, which is proven to prevent Alzheimer's disease"
         correct: false
         feedback: "The MIND pattern is a reasonable low-regret choice, but its prevention trial was negative, so it is not a proven preventive."

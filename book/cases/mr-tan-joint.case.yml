@@ -3,7 +3,7 @@ title: "Mr Tan, 62: \"Should I take glucosamine for my knees?\""
 objectives:
   - "Give the evidence-based answer that glucosamine and chondroitin do not provide clinically meaningful benefit for knee osteoarthritis (ACR, OARSI, NICE and Singapore's ACE all advise against them); don't endorse it or claim it rebuilds cartilage."
   - "Handle the professional-vs-consumer messaging gap: retail and even a government consumer portal can frame glucosamine positively, but the professional guidance says it adds cost without established benefit."
-  - "Steer to the intervention that works: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation, the strongest thing that helps."
+  - "Steer to the intervention that works: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation and is the best-supported option."
   - "Frame do-no-harm correctly: the harm is not toxicity but cost, false reassurance and spending on an ineffective pill instead of the effective intervention."
 difficulty: core
 estimatedMinutes: 10
@@ -109,7 +109,7 @@ nodes:
       - id: a
         text: "Lose around 10% of his weight, with diet and exercise."
         correct: true
-        feedback: "Weight is the strongest modifiable factor in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the high-yield plan, not a supplement."
+        feedback: "Weight is the strongest modifiable factor in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the most useful plan, not a supplement."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b

@@ -54,13 +54,13 @@ questions:
     options:
       - text: "Mostly in soups, gravies and sauces, so leave most of the soup"
         correct: true
-        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, not in the salt shaker, and a bowl of fishball noodle soup can carry most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the real source."
+        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, not in the salt shaker, and a bowl of fishball noodle soup can carry most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the main source."
       - text: "Mostly in the salt shaker, so just stop adding table salt at the table"
         correct: false
         feedback: "The shaker is a small part of the problem. Most sodium is already in the soups, gravies and sauces before the food reaches the table, so skipping the shaker alone changes little."
       - text: "Mostly in fresh vegetables and fruit, so eat fewer of those with meals"
         correct: false
-        feedback: "Vegetables and fruit are low in sodium and are the potassium counterpart you want more of. Cutting them is the opposite of the right move."
+        feedback: "Vegetables and fruit are low in sodium and are the potassium counterpart you want more of. Cutting them would be counter-productive."
       - text: "Mostly in plain rice and noodles, so remove all starch from the plate"
         correct: false
         feedback: "Plain rice and noodles are not the main sodium source; the salt is in the accompanying soup, gravy and sauces. Removing starch does not address where the sodium actually sits."
@@ -92,7 +92,7 @@ questions:
         feedback: "No single LDL number applies to every adult. Targets are individualised by cardiovascular risk and looked up in the guidance, so a memorised threshold would be misapplied."
       - text: "Start a cholesterol-lowering drug immediately at a fixed standard dose"
         correct: false
-        feedback: "Starting a drug is a clinician's risk-tiered decision, not a reflex from one number. The move here is lifestyle-first and refer, with drug thresholds signposted rather than applied from memory."
+        feedback: "Starting a drug is a clinician's risk-tiered decision, not a reflex from one number. The step here is lifestyle advice and referral, with drug thresholds signposted rather than applied from memory."
       - text: "Reassure the patient that a raised number rarely needs any follow-up"
         correct: false
         feedback: "A raised LDL is exactly what should prompt risk estimation and referral. The right response is to look up the risk-tiered guidance and refer, not to dismiss it."
@@ -124,7 +124,7 @@ questions:
         feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable way to cut sodium, with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."
       - text: "Someone whose only goal is to season food with less sodium overall"
         correct: false
-        feedback: "Wanting less sodium is the reason to consider a substitute, not a reason to avoid it. The real do-not-switch group is defined by kidney disease and potassium-raising medications."
+        feedback: "Wanting less sodium is the reason to consider a substitute, not a reason to avoid it. The group who should not switch is defined by kidney disease and potassium-raising medications."
       - text: "A patient who eats out often and finds it hard to cut soup and sauces"
         correct: false
         feedback: "This describes a good candidate for sodium-lowering strategies, not a contraindication. The safety check that changes the advice is kidney disease or potassium-raising drugs."

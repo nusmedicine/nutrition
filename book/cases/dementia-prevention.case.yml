@@ -50,7 +50,7 @@ nodes:
       - id: c
         text: "Reassure her that nothing really works, so she should not worry about it."
         correct: false
-        feedback: "Vascular risk management does help, so fatalism misses the real, actionable risk factors."
+        feedback: "Vascular risk management does help, so fatalism misses the actionable risk factors."
         goto: q-diet
     next: q-diet
 
@@ -69,7 +69,7 @@ nodes:
       - id: b
         text: "Yes, it is proven to halve Alzheimer's risk, so follow it strictly."
         correct: false
-        feedback: "That repeats the headline as fact. The cohort signal did not survive the prevention trial; promising a 50% cut is false hope."
+        feedback: "That repeats the online claim as fact. The cohort signal did not survive the prevention trial; promising a 50% cut is false hope."
         goto: q-supplement
       - id: c
         text: "No, there is no point: diet has nothing to do with the brain."
@@ -141,7 +141,7 @@ nodes:
     title: "Most of the way"
     body: |
       You helped Madam Ong on some turns but slipped on at least one: burying vascular risk control,
-      repeating the '50%' headline as fact, or recommending a supplement. Replay and run the safe path:
+      repeating the '50%' claim as fact, or recommending a supplement. Replay and run the safe path:
       lead with blood pressure and glucose, frame the diet truthfully, and steer her away from the
       supplements.
     debrief:

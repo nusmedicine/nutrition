@@ -2,7 +2,7 @@
 
 > *A safe clinician is defined as much by what they refer as by what they do: good advice stays within
 > the edges of the role, and a clean hand-off follows when a patient crosses them. The clinician's own
-> health is the one instrument that cannot be referred out, and it needs looking after.*
+> health also needs looking after.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -44,10 +44,8 @@ activity matter too, as a wellbeing issue and, plausibly, a credibility one.
 **Scope of practice** is the care a clinician's role allows them to deliver and be accountable for. It
 is set by role and accountability as well as by knowledge: knowing the science is not a licence to
 deliver treatment [@aclm2022comp; @afn2021curriculum]. At this stage of training, a clinician's
-nutrition care is brief, general, evidence-aligned and patient-centred. That care draws on the toolkit
-of the *What a healthy diet looks like*, *Assessing diet and talking to patients* and
-*Behaviour-change counselling* chapters, and the toolkit stops short of individualised therapy for a
-medical condition.
+nutrition care is brief, general, evidence-aligned and patient-centred. That care draws on the skills
+of the *What a healthy diet looks like*, *Assessing diet and talking to patients* and *Behaviour-change counselling* chapters, and those skills stop short of individualised therapy for a medical condition.
 
 Graduates consistently report feeling under-prepared to counsel on nutrition [@crowley2019], and the
 professional response to that gap is to recognise it and refer, without overreaching to cover it.
@@ -75,8 +73,8 @@ differing intensity, not a guaranteed effect [@ada2026standards].
 Conflating the two fails in both directions. Treat all advice as MNT and you freeze, too afraid to say
 anything safe; treat MNT as ordinary advice and you overstep into care you can't be accountable for.
 
-Run a few patients through the line below. The same question ("should I advise, or refer?") lands
-differently depending on complexity.
+Run a few patients through the line below. The answer to the same question ("should I advise, or
+refer?") differs depending on complexity.
 
 <div data-island="advise-refer" data-src="/diagrams/advise-refer.yml"></div>
 
@@ -130,7 +128,7 @@ on diet" tells the dietitian nothing. A referral that helps carries:
 - The patient's goals and social context: who cooks, whether they eat out, whether they live alone.
 :::
 
-Completeness is itself a clinical skill: it turns a hand-off into a head start.
+Writing a complete referral is itself a clinical skill: it lets the dietitian start work without re-gathering the basics.
 
 ### The nutrition care team {#sec-care-team}
 
@@ -145,10 +143,10 @@ hand-off:
 
 Team-based care is associated with better chronic-disease outcomes: in hypertension, for example,
 teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare]. The
-whole is more than any one professional's slice.
+team achieves more than any one professional alone.
 
-That "more than one slice" cuts both ways: it is a common trap to over-claim the nutrition part of the
-team's results. The headline lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a clinic chat: remission in the DiRECT trial (Diabetes Remission Clinical Trial) ran on a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program reached its prevention effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
+This cuts both ways: it is a common trap to over-claim the nutrition part of the
+team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation: remission in the DiRECT trial (Diabetes Remission Clinical Trial) ran on a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program reached its prevention effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
 
 Don't promise those outcomes from advice alone. The trial patients were selected, so check whether a
 result applies to the patient in front of you (see the *Evidence vs hype* chapter). The dose was
@@ -165,7 +163,7 @@ the dietitian's time well and turns the hand-off into a head start.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has read that a diet put diabetes into remission. Why can't a clinic conversation promise her the same result?
-The headline results came from team-delivered, intensive programmes. DiRECT's remission used a
+The best-known results came from team-delivered, intensive programmes. DiRECT's remission used a
 structured total-diet-replacement programme in selected patients with early type 2 diabetes not on
 insulin, and the Diabetes Prevention Program's effect came from a 16-session curriculum. Brief advice
 from one clinician is a different dose, often given to a different patient, so it cannot claim those
@@ -174,7 +172,7 @@ outcomes.
 
 ## The clinician's own health {#sec-clinician-health}
 
-The last part of the role is the one clinicians skip: their own health. Clinicians who look after their
+The last part of the role is one clinicians often neglect: their own health. Clinicians who look after their
 own diet and activity are observed to counsel more often, and arguably more credibly. The evidence is
 associational, not proof of cause, and mostly on physical activity, but it is consistent [@lobelo2015rolemodel].
 
@@ -182,7 +180,7 @@ A clinician's own habits matter for more than role-modelling. Short sleep shifts
 (see the *Appetite and weight regulation* chapter), raising ghrelin, blunting satiety and pushing intake
 up [@sleepRestriction; @alkhatib2017partialsleep]. The packed-roster diet of skipped meals, *kopi* and five hours' sleep therefore
 works against the clinician's own metabolic health. The remedy is a small, sustainable plan rather than
-an overhaul: one realistic food swap, a sleep anchor (a fixed bedtime or wake time) and a short daily
+an overhaul: one realistic food swap, a fixed bedtime or wake time and a short daily
 walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
 staff, poor wellbeing and burnout are associated with poorer patient safety, such as more medical
 errors, although few studies are prospective [@hall2016wellbeing]. Lifestyle-medicine competencies
@@ -195,7 +193,7 @@ Short sleep shifts the appetite hormones: ghrelin rises, satiety is blunted and 
 skipped meals, *kopi* and short sleep work against her own metabolic health. Her habits also bear on
 her patients, because clinicians who look after their own diet and activity are observed to counsel
 more often, although that evidence is associational. The remedy is a small, sustainable plan (one food
-swap, a sleep anchor, a short daily walk), not an overhaul.
+swap, a fixed bedtime or wake time, a short daily walk), not an overhaul.
 :::
 
 ## Where does a clinician's role end? {#sec-close}

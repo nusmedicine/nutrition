@@ -54,7 +54,7 @@ questions:
     options:
       - text: "One enrolled family doctor and a personalised Health Plan"
         correct: true
-        feedback: "Healthier SG anchors each enrolled resident to one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that makes referral and follow-up happen."
+        feedback: "Healthier SG gives each enrolled resident one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that makes referral and follow-up happen."
       - text: "A guaranteed fully-funded course of dietitian visits for any concern"
         correct: false
         feedback: "The published funding centres on medications and care components and does not spell out a dedicated dietitian subsidy line. Explain the pathway, and check current figures, instead of promising a guaranteed benefit."
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "Those results came from intensive programmes in selected patients"
         correct: true
-        feedback: "The headline results came from intensive, team-delivered programmes. DiRECT's remission used a structured total-diet-replacement programme in early, non-insulin-treated diabetes, and the Diabetes Prevention Program's effect came from a 16-session curriculum. Don't promise those outcomes from brief advice alone."
+        feedback: "The reported results came from intensive, team-delivered programmes. DiRECT's remission used a structured total-diet-replacement programme in early, non-insulin-treated diabetes, and the Diabetes Prevention Program's effect came from a 16-session curriculum. Don't promise those outcomes from brief advice alone."
       - text: "A short chat about diet in clinic reliably produces the same remission"
         correct: false
         feedback: "Those outcomes needed intensive, multi-session, team-based programmes in selected groups, not a clinic conversation."

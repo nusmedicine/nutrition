@@ -113,7 +113,7 @@
         <p>{sel.link}</p>
       </div>
     {:else}
-      <p class="prompt">{(data.hub && data.hub.note) || 'Nutrition connects to every other pillar, in both directions — pull on it and the whole web tends to move. Click a pillar to see the link.'}</p>
+      <p class="prompt">{(data.hub && data.hub.note) || 'Nutrition is linked to every other pillar, in both directions, so a change in one tends to affect the others. Click a pillar to see the link.'}</p>
     {/if}
 
     {#if data.footer}<p class="footer">{data.footer}</p>{/if}

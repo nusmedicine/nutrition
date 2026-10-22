@@ -17,14 +17,14 @@
     id: 'bone-bank',
     title: 'Build the bank, defend the balance',
     intro:
-      "Bone is a bank: you build it to a peak by about 30, then draw it down for life — faster around menopause. Move the levers and watch WHEN the account crosses the osteoporosis line. The biggest lever is the peak you build young.",
+      "Bone is a bank: you build it to a peak by about 30, then draw it down for life — faster around menopause. Move the controls and watch WHEN the account crosses the osteoporosis line. Peak bone mass built when young has the largest effect.",
     lossOptions: [
       { id: 'slow', label: 'Slow', mult: 0.88 },
       { id: 'average', label: 'Average', mult: 1.0 },
       { id: 'fast', label: 'Fast', mult: 1.12 },
     ],
     caption:
-      "A higher peak delays osteoporosis by more years than later menopause or slower loss — the youth deposit pays off most. This is YEARS OF DELAY, not a change in fracture rate: never convert it to a percentage of fractures.",
+      "A higher peak, built in youth, delays osteoporosis by more years than a later menopause or slower loss. This is YEARS OF DELAY, not a change in fracture rate: never convert it to a percentage of fractures.",
     credit: 'Illustrative life-course model after Hernandez 2003 (a modelled 10% higher peak BMD delays osteoporosis ~13 years). A teaching aid, not a clinical calculator.',
   };
 
@@ -123,7 +123,7 @@
   <figure class="bb card">
     <figcaption class="head">
       <strong>{data.title || 'Build the bank, defend the balance'}</strong>
-      <span class="hint">Move the levers · watch when the account runs low</span>
+      <span class="hint">Move the controls · watch when bone density reaches the osteoporosis line</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

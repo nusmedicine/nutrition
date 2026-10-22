@@ -91,7 +91,7 @@ A patient with a "reassuring" BMI of 24 kg/m² and a waist over the cut-off is s
 
 #### The metabolic syndrome: a cluster, not a disease {#sec-mets}
 
-Central fat rarely travels alone. The **metabolic syndrome** is the tendency for five cardiometabolic
+Central fat is rarely the only abnormality. The **metabolic syndrome** is the tendency for five cardiometabolic
 problems to appear together. Its harmonised international definition is any three of the following
 five, with no single obligatory component [@alberti2009harmonizingMetS]:
 
@@ -193,7 +193,7 @@ intervention, not a test of willpower.
 At the level of physics, weight gain is a chronic positive energy balance: small daily surpluses
 accumulated over years (see the [*Energy balance*](energy-balance.qmd) chapter). "Eat less, move
 more" is weak clinical advice on its own, however, because it treats every calorie as equal, and what
-is eaten shapes how much gets eaten. Two drivers do most of the work.
+is eaten shapes how much gets eaten. Two dietary factors are the main contributors.
 
 **Ultra-processed foods drive overeating even when the nutrients are matched.** The evidence comes
 from the controlled inpatient trial met in the *Digestion and absorption* chapter. People freely eating
@@ -204,7 +204,7 @@ cardiovascular outcomes across large populations [@lane2024upfumbrella].
 
 **Energy from sugar-sweetened drinks is poorly compensated.** After a sugar-sweetened drink, people
 do not eat correspondingly less at the next meal, and higher intake produces dose-dependent weight
-gain [@nguyen2023ssb]. Swapping to a "diet" drink is not the fix the label implies. The WHO advises
+gain [@nguyen2023ssb]. Swapping to a "diet" drink is not a reliable solution. The WHO advises
 against relying on **non-sugar sweeteners**, the sugar substitutes in "diet" drinks, for weight
 control, so the better swap is water or an unsweetened drink, plus habit change [@who2023nss].
 
@@ -226,7 +226,7 @@ Either way, processing, as well as composition, is a modifiable factor worth nam
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-The hawker plate is where most of this is decided. Energy-dense staples add up fast: a plate of char
+For many Singaporeans, most of these choices are made at the hawker centre. Energy-dense staples add up fast: a plate of char
 kway teow runs to roughly 744 kcal with about 38 g of fat, around two-thirds of a day's recommended fat (55–60 g) in one dish
 [@healthhubHawkerSwaps]. Several lower-density swaps still fit My Healthy Plate:
 
@@ -285,14 +285,14 @@ matching rise in expenditure, and extending sleep brings intake back down [@alkh
 @tasali2022sleepextension]. Short habitual sleep also tracks with more central obesity
 [@kohanmoo2024shortsleep]. The appetite-hormone mechanism is less certain: the classic account, in
 which leptin falls and ghrelin rises, rests on a small early sleep-restriction experiment, but a 2025 meta-analysis of trials
-found no reliable hormone shift [@spiegel2004; @sleepHormonesMeta2025]. Intake is the reliable
-signal; the hormone story suggests a direction, not a proven mechanism.
+found no reliable hormone shift [@spiegel2004; @sleepHormonesMeta2025]. The effect on intake
+is consistent; the hormonal explanation is plausible but unproven.
 
 **Stress.** Chronic stress and cortisol are thought to bias eating toward energy-dense comfort food
 and channel fat to the abdomen, a self-reinforcing cycle that would worsen central fat and insulin
 resistance [@dallman2003]. The evidence is largely animal work and human associations, so the loop
-is plausible but not proven. Mindfulness programmes for weight are still exploratory, so the mechanism can be
-named but a fix cannot be promised [@daubenmier2011].
+is plausible but not proven. Mindfulness programmes for weight are still exploratory, so the mechanism can be described
+but an effective intervention cannot be promised [@daubenmier2011].
 
 **Behaviour change.** Behaviour-change skills make the other four changes stick (see the
 [*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter).
@@ -320,8 +320,8 @@ such as blame, shaming or disrespect. Weight stigma is a health hazard [@tomiyam
 
 International consensus now condemns weight stigma outright and asks clinicians to switch focus from
 the scale to health and behaviour [@rubino2020consensus; @tylka2014weightinclusive;
-@batterham2020switchingfocus]. Care built on that shift is **weight-inclusive**: it anchors counselling
-on health behaviours and metabolic markers instead of on the scale alone. Weight stigma is a live issue
+@batterham2020switchingfocus]. Care built on that shift is **weight-inclusive**: it bases counselling on
+health behaviours and metabolic markers instead of on the scale alone. Weight stigma is a live issue
 in Singapore: in a local survey most respondents had felt weight-stigmatised, and a fifth felt
 disrespected or discouraged by a healthcare worker [@chue2022stigmasg; @goff2023sgweightbias].
 
@@ -335,7 +335,7 @@ The framing comes down to three habits [@weghuber2023peoplefirst; @batterham2020
 - Set goals around health behaviours and metabolic markers, not the scale alone, while still holding
   the ~5–10% target that brings the metabolic benefit.
 
-Shaming does not motivate; it backfires.
+Shaming does not motivate weight loss and may promote weight gain.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -394,8 +394,8 @@ can itself promote weight gain, weight-inclusive, person-first care is part of t
 **Singapore reports obesity at one threshold and acts at another.** Population obesity is reported at
 the WHO ≥30 threshold for international comparability, and on that measure it rose from 10.5% to
 12.7% between 2019–20 and 2023–24; clinical action starts far earlier, and the ≥27.5 high-risk band
-has stayed broadly stable at just over 1 in 5 adults (20.7% to 22.8%) [@mohNPHS2024]. "12.7% obese" is the newspaper figure;
-≥27.5 and ≥23 are the clinic figures. Over the same window, national physical activity recovered to 84.7%
+has stayed broadly stable at just over 1 in 5 adults (20.7% to 22.8%) [@mohNPHS2024]. The 12.7% figure is used for international comparison; the
+≥27.5 and ≥23 cut-offs are the ones used in clinical practice. Over the same window, national physical activity recovered to 84.7%
 and obesity still rose, a Singapore-grounded argument for putting diet quality ahead of "just
 exercise more" [@mohNPHS2024].
 
@@ -404,8 +404,8 @@ Hypertension affects about 1 in 3 adults, raised blood lipids about 1 in 3 and
 diabetes roughly 1 in 11: the population denominators behind the clustering idea [@mohNPHS2024].
 
 **Obesity and diabetes follow an ethnic gradient.** Malay and Indian residents carry markedly higher
-obesity and diabetes than Chinese residents [@zhang2024bmiSg]. The drivers are genetic,
-socio-economic, dietary and environmental, not moral, and the gradient motivates culturally tailored
+obesity and diabetes than Chinese residents [@zhang2024bmiSg]. The contributing factors are
+genetic, socio-economic, dietary and environmental, not moral, and the gradient motivates culturally tailored
 counselling and the national War on Diabetes [@mohWarOnDiabetes]. (The diabetes detail is in the
 *Type 2 diabetes* chapter.)
 

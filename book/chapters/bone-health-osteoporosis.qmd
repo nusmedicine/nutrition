@@ -1,8 +1,8 @@
 # Bone & joint health
 
 > *The ageing musculoskeleton prompts some of the most common questions a doctor hears: "What should I eat?"
-> and "Should I take a supplement?" Bone responds to real, correctable dietary factors, while osteoarthritis and
-> gout have almost the mirror-image story: their main treatment is weight loss (or, for gout, a drug), and
+> and "Should I take a supplement?" Bone responds to real, correctable dietary factors, while osteoarthritis
+> and gout are almost the opposite case: their main treatment is weight loss (or, for gout, a drug), and
 > their best-selling supplement does not work.*
 
 ::: {.callout-note}
@@ -53,7 +53,7 @@ supplement and refer.
 Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three need different
 nutrition, and getting them backwards is a common error.
 
-![Three conditions patients confuse, and their different diet stories. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the real treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
+![Three conditions patients confuse, and their different dietary management. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet nudges urate only modestly and the main treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
 
 The trap is treating them alike: calcium does nothing for arthritis, glucosamine does nothing for
 osteoporosis, and gout is neither wear nor thinning.
@@ -233,9 +233,9 @@ potassium, magnesium and vitamin K), a reliable calcium source, enough protein a
 [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ::: {.callout-note}
-## Mechanical loading: the strongest modifiable factor
-Diet supports both building peak bone mass and slowing its later loss, but the strongest modifiable signal to
-bone is mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & midlife health*
+## Mechanical loading: a key modifiable factor
+Diet supports both building peak bone mass and slowing its later loss, and mechanical loading is another important
+modifiable influence on bone, the weight-bearing and resistance exercise met in the *Menopause & midlife health*
 chapter. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact
 training improved bone density more than a low-intensity home programme in postmenopausal women with low
 bone mass, with only one minor adverse event [@watson2018liftmor]. Nutrition and loading are partners
@@ -297,8 +297,8 @@ benefit. Food first is the approach, with supplements reserved for genuine short
 
 ### Osteoarthritis: weight loss, not supplements {#sec-bone-oa}
 
-Osteoarthritis, the commonest arthritis and a very high local burden, is where the most-asked supplement
-question lands, and the answer has two parts.
+Osteoarthritis, the commonest arthritis and a very high local burden, is the condition patients most often ask
+about supplements for, and the answer has two parts.
 
 The first is that the measure that works is weight loss (with activity). Obesity is the leading modifiable risk,
 acting through both the mechanical load on the joint and the low-grade inflammation of adipose tissue
@@ -368,7 +368,7 @@ drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra;
 ## Check yourself: a patient with knee osteoarthritis starts calcium tablets for his joints. Why won't they help?
 Osteoarthritis is worn joint cartilage, not low bone density, so calcium, which acts on bone, does not act
 on it. The one effective dietary measure for osteoarthritis is weight loss. Calcium belongs to osteoporosis, a
-different condition with a different diet story.
+different condition with different dietary advice.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -412,7 +412,7 @@ Singapore consensus; at this level they are signposted, not managed
 ### Gout: urate-lowering treatment to target {#sec-bone-refer-gout}
 
 The effective treatment is a urate-lowering drug (allopurinol) titrated to a target blood urate level
-[@fitzgerald2020goutacr]. Singapore's own data show that the real problem is under-treatment: most local gout
+[@fitzgerald2020goutacr]. Singapore's own data show that the main problem is under-treatment: most local gout
 patients never reach that target [@lee2023sggout; @oka2023goutcontrol].
 
 ::: {.callout-important}

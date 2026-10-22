@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Dhal and other legumes fill the protein quarter"
         correct: true
-        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the fix is to rebuild the family's own food to quarter-quarter-half, not to prescribe a foreign diet."
+        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the aim is to adapt the family's own food to quarter-quarter-half, not to prescribe a foreign diet."
       - text: "Switch them to a Mediterranean diet for protein"
         correct: false
         feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."
@@ -80,11 +80,11 @@ questions:
         feedback: "Legumes, dairy and soy cover the protein quarter well within a vegetarian diet, so meat is unnecessary."
 
   - id: q7
-    stem: "Singapore's National Nutrition Survey points to two of the biggest real gaps in the local diet. Which pair?"
+    stem: "Singapore's National Nutrition Survey points to two major gaps in the local diet. Which pair?"
     options:
       - text: "Too few wholegrains and too much sodium"
         correct: true
-        feedback: "Wholegrains are only ~4% of staples and most residents exceed the sodium limit, which makes the brown-rice swap and cutting salt and sugary drinks the two highest-yield moves."
+        feedback: "Wholegrains are only ~4% of staples and most residents exceed the sodium limit, which makes the brown-rice swap and cutting salt and sugary drinks the two most useful changes."
       - text: "Too little protein and too little fat"
         correct: false
         feedback: "Neither is a main local gap; the survey points to the wholegrain shortfall and excess sodium."

@@ -108,7 +108,7 @@
           <p class="vtext">{claim.verdictText}</p>
         </div>
       {:else}
-        <p class="prompt">Keep going to reach a verdict — then try another claim and watch where it lands.</p>
+        <p class="prompt">Keep going to reach a verdict — then try another claim and compare the verdicts.</p>
       {/if}
     {/if}
     {#if data.credit}<p class="credit">{data.credit}</p>{/if}

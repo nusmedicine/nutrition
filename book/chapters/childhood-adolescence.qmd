@@ -1,15 +1,14 @@
 # Childhood & adolescence
 
 > *Between the high chair and adulthood, the body lays down most of its adult bone, grows for a decade
-> and settles habits that are just as lasting. The biggest risks at this stage come not from a missing
-> nutrient but from the environment and from how weight is talked about, where a careless word can start
-> real damage.*
+> and settles habits that are just as lasting. Many of the risks at this stage come less from a missing
+> nutrient than from the environment and from how weight is talked about, where careless comments can cause harm.*
 
 ::: {.callout-note}
 ## Learning objectives
 - Explain why nutritional demand in the growth spurt tracks pubertal stage, not age, and why energy and
   protein needs fall per kilogram while total needs rise.
-- Explain why peak bone mass acquisition in adolescence matters for later life, which levers
+- Explain why peak bone mass acquisition in adolescence matters for later life, which factors
   (weight-bearing activity, calcium, vitamin D, adequate energy) change bone accrual, and how strong the
   evidence is for each.
 - Explain why the menstruating adolescent girl is the classic group at risk of iron deficiency, and why
@@ -34,17 +33,17 @@
 - [Recognising trouble, and when to refer](#sec-child-refer)
 :::
 
-## Childhood & adolescence at a glance: two drivers {#sec-overview}
+## Childhood & adolescence at a glance: internal and external factors {#sec-overview}
 
 This stage runs from about age 4 or 5, once a child eats family foods, to the end of adolescence (for the
 earlier years, see the [*Infancy & early childhood*](infancy-early-childhood.qmd) chapter). The period has
-two phases: a long, quiet school-age phase (about 5–10 years) of steady growth in which habits set, and a
-short adolescent growth spurt. As at every life stage, two drivers shape nutrition:
+two phases: a long school-age phase (about 5–10 years) of steady growth in which habits set, and a
+short adolescent growth spurt. As at every life stage, two sets of factors shape nutrition:
 
-| Driver | What changes at this stage |
+| Factor | What changes at this stage |
 |---|---|
-| Internal drivers (inside the body) | After years of slow, steady growth, the growth spurt re-accelerates height, and sex hormones make body composition diverge by sex. The window for accruing peak bone mass briefly opens and then closes for life. Iron demand rises with growth and, in girls, jumps again once menstruation begins. |
-| External levers (life and environment) | The school and hawker food environment, sugary drinks and their marketing, physical activity and sport, and the handover of food choice from parent to teenager and peers. |
+| Internal factors (inside the body) | After years of slow, steady growth, the growth spurt re-accelerates height, and sex hormones make body composition diverge by sex. The window for accruing peak bone mass briefly opens and then closes for life. Iron demand rises with growth and, in girls, jumps again once menstruation begins. |
+| External factors (life and environment) | The school and hawker food environment, sugary drinks and their marketing, physical activity and sport, and the handover of food choice from parent to teenager and peers. |
 
 ## What changes inside: growth, bone and iron {#sec-child-inside}
 
@@ -89,15 +88,15 @@ in the [*Macronutrients*](macronutrients.qmd) and
 Bone is not laid down evenly across life. Roughly two-fifths of the bone mineral an adult carries is
 deposited in the few years around the growth spurt, a brief, hormone-gated window that then closes as the
 growth plates fuse [@baxterjones_2011_pbm_estimation]. The bone mass accrued by the end of adolescence,
-close to a person's **peak bone mass** (the most bone a person ever has), is the single biggest
-determinant of how much bone a person can afford to lose in later life (see the
+close to a person's **peak bone mass** (the most bone a person ever has), is a major
+determinant of how much bone loss a person can tolerate in later life (see the
 [*Bone & joint health*](bone-health-osteoporosis.qmd) and
 [*Menopause & midlife health*](menopause-midlife.qmd) chapters). The window is only partly
 modifiable: lifestyle sets about a fifth to two-fifths of peak bone mass, and the rest is inherited
-[@nof_weaver_2016_pbm_position]. Lifestyle is worth optimising, but it does not override genetics.
+[@nof_weaver_2016_pbm_position]. Lifestyle is worth improving, but it does not override genetics.
 
 The interactive below pictures peak bone mass as a "bone bank" filled during this window. Move the age
-slider to watch accrual climb steeply and then plateau, toggle the levers to see how far lifestyle moves
+slider to watch accrual climb steeply and then plateau, toggle the lifestyle factors to see how far they move
 the attainable peak within the shaded band, and switch on the under-fuelling threat to see that peak fall.
 
 <div data-island="bone-window" data-src="/diagrams/bone-window.yml"></div>
@@ -116,11 +115,11 @@ deficiency, not blanket supplementation.
 
 ::: {.callout-warning}
 ## When bone accrual is under threat: often energy, not calcium
-The fastest way to impair bone accrual in adolescence is too little energy. In a teenager who trains hard
+In adolescence, bone accrual is often impaired by too little energy. In a teenager who trains hard
 and eats too little, reproductive hormone (oestrogen) production falls, menstrual periods stop
 (**amenorrhoea**) and bone accrual stalls, sometimes with a lasting deficit
 [@ackerman_2011_athlete_bone_triad]. **A young athlete with irregular periods, amenorrhoea or a stress
-fracture is a slow-motion bone-health emergency: recognise it and refer, and do not reach for a calcium
+fracture is at risk of lasting bone loss: recognise it and refer, and do not reach for a calcium
 tablet.** We return to this pattern under [Sport and energy availability](#sec-child-sport).
 :::
 
@@ -168,8 +167,7 @@ would be the flag.
 ## Check yourself: why does bone accrual missed at 14 still matter in later life?
 Roughly two-fifths of adult bone mineral is laid down in the few years around the growth spurt, and the
 window closes as the growth plates fuse, so a shortfall in those years can leave a lasting deficit. The
-bone mass accrued by the end of adolescence is the single biggest determinant of how much bone a person can
-afford to lose in later life. Lifestyle sets only about a fifth to two-fifths of peak bone mass, but that
+bone mass accrued by the end of adolescence is a major determinant of how much bone loss a person can tolerate in later life. Lifestyle sets only about a fifth to two-fifths of peak bone mass, but that
 share is worth protecting.
 :::
 
@@ -182,7 +180,7 @@ meals out, skip more meals and meet more advertising, and the family meal weaken
 sugary drinks and marketing gain strength [@story2002adolescent]. Two environmental forces stand out.
 
 **Free sugars and sugary drinks.** The WHO ceiling of free sugars under 10% of energy, and better under
-5%, is anchored first on dental caries (tooth decay), not weight [@who2015sugars]. On weight, the
+5%, is based first on dental caries (tooth decay), not weight [@who2015sugars]. On weight, the
 cleanest evidence comes from trials that swapped sugary for sugar-free drinks. A double-blind trial in
 children found less weight gain over 18 months, and an open-label trial in adolescents saw a benefit that
 had faded by 2 years [@deruyter2012ssb; @ebbeling2012ssb]. The effect is real but modest, and it works
@@ -194,7 +192,7 @@ fear.
 [@boyland2016adcue; @boyland2022marketing], enough that the WHO now calls for mandatory limits on
 marketing unhealthy food to under-18s [@who2023marketing]. Screen time is associated with heavier weight,
 but the link runs both ways: heavier children may also choose more sedentary screen time. Much of the
-effect also runs through other levers (eating while watching, exposure to the adverts and lost sleep), so
+effect also runs through other pathways (eating while watching, exposure to the adverts and lost sleep), so
 screen time is one of several interlinked influences, not a single cause [@zhang2016tvobesity;
 @robinson2017screenmedia].
 
@@ -352,8 +350,8 @@ risk warrants recognition and referral, never a diet.
 
 ## Is adolescence just "feed them more"? {#sec-close}
 
-No, and getting that wrong is where the harm lives. The internal drivers set needs for quality and
-timing, not bulk. The spurt needs enough energy and iron (the menstruating girl is the one to watch),
+No, and getting that wrong can cause harm. The internal factors set needs for quality and
+timing, not sheer quantity. The spurt needs enough energy and iron (the menstruating girl is the one to watch),
 and bone accrual needs enough weight-bearing activity and calcium before its window largely closes by
 the early twenties. Because dieting and weight-talk can start real disease, the safe approach to any
 teenager's weight is healthy habits, never a diet, together with knowing the red flags that mean it is
@@ -378,9 +376,9 @@ ban on the worst grade, was designed for exactly the drinks teenagers buy. Since
 also covered freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023].
 Its effect is modest: a small cut in sugar per serving [@shin2023_nutrigrade_rct]. Local data also show
 that most children already exceed added-sugar guidance [@brownlee2019sgchildren], so the label is one
-lever among many, best paired with the family and school environment.
+measure among many, best paired with the family and school environment.
 
-**A vitamin D tension, and a data gap.** Singapore's recommendations track the drivers well: iron rises
+**A vitamin D tension, and a data gap.** Singapore's recommendations track these physiological changes well: iron rises
 steeply for adolescent girls (see [Iron and the menstruating adolescent](#sec-child-iron)) and calcium
 stays high through the bone-building years, but vitamin D is set unusually low, on the assumption of
 abundant tropical sun [@hpb_healthhub_rda]. That assumption sits awkwardly with regional evidence that

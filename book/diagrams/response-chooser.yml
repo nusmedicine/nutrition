@@ -20,7 +20,7 @@ turns:
         tier: poor
         text: "\"You need to stop the sugar. It's what's pushing your blood sugar up.\""
         reaction: "(folds his arms) \"I know, I know. Everyone says that. But I can't just stop, my job is stressful.\""
-        feedback: "The warning is accurate, but jumping straight to fixing provokes resistance and he digs in. Resisting the urge to fix is the core of motivational interviewing."
+        feedback: "The warning is accurate, but jumping straight to fixing provokes resistance and he digs in. Resisting the urge to fix (the righting reflex) is a core principle of motivational interviewing."
       - type: reflect
         tier: good
         text: "\"The kopi keeps you going through the long shifts, and it sounds like the sugar worries you a little too.\""

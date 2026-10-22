@@ -52,7 +52,7 @@ nodes:
 
   - id: q-change
     type: mcq
-    stem: "Which single change is the most realistic, high-yield first goal?"
+    stem: "Which single change is the most realistic and useful first goal?"
     options:
       - id: a
         text: "Replace 2 of 3 sweetened kopi with kopi-o kosong."
@@ -104,7 +104,7 @@ nodes:
     outcome: partial
     title: "On the right track"
     body: |
-      You reached a plan, but a more patient-centred approach would land better.
+      You reached a plan, but a more patient-centred approach would work better.
       Try replaying with different choices.
     debrief:
       objectivesMet: [2]

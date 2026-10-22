@@ -98,7 +98,7 @@ nodes:
       - id: b
         text: "Because diet doesn't really matter without medication."
         correct: false
-        feedback: "Diet matters without medication: it is among the largest modifiable levers, and it works better still when the other pillars are addressed too."
+        feedback: "Diet matters without medication: it is among the largest modifiable factors, and it works better still when the other pillars are addressed too."
         goto: setup-plans
 
   - id: setup-plans
@@ -197,8 +197,8 @@ nodes:
     outcome: partial
     title: "On the right track"
     body: |
-      You reached a plan, but a fuller pillar map and a more environment-specific swap
-      would land better. Replay to explore the other paths.
+      You reached a plan, but a fuller pillar map and a more environment-specific
+      swap would work better. Replay to explore the other paths.
     debrief:
       objectivesMet: [1]
       keyPoints:

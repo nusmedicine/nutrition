@@ -1,7 +1,7 @@
 id: nutri-grade
 title: "Grade the drink, pick a swap"
 intro: >
-  Tap a drink to see where it lands and the swap that moves it to a better grade. Sugar values are
+  Tap a drink to see its grade and a swap that improves it. Sugar values are
   illustrative approximations: the real grade depends on the exact product (many brands now sell
   reduced-sugar versions) and how sweet it is ordered.
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Thresholds: HPB Nutri-Grade (Food Regulations)."

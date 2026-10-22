@@ -44,7 +44,7 @@ nodes:
       - id: a
         text: "A reliable, well-absorbed calcium source; dairy is optional here."
         correct: true
-        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short, but the everyday source is what matters most."
+        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short, but the everyday food source comes first."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b
@@ -199,7 +199,7 @@ nodes:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Lead with a well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), not a blanket supplement, which doesn't help replete adults and raises stone risk."
-        - "Bioavailability beats content: spinach's calcium is oxalate-bound and only ~5% absorbed; choose kai-lan, bok choy or calcium-set tofu."
+        - "Bioavailability matters more than content: spinach's calcium is oxalate-bound and only ~5% absorbed; choose kai-lan, bok choy or calcium-set tofu."
         - "Recognise the red flags (low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk despite the sun) and correct a genuine shortfall: she's at risk, not a replete community adult."
         - "Don't start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, deliver food-first and loading advice, correct deficiency; the drug and hormone decisions are specialist."
       references: ["@healthhubCalciumSG", "@odsCalcium", "@delaet2005bmiFracture", "@aceOsteoporosis2018"]
