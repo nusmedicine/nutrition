@@ -399,8 +399,12 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
 
 ```
 # Chapter title
-> opener: one italic blockquote, 1–2 sentences — the chapter's problem as a concrete statement
-  (an in-world hook; "we" is allowed, "This chapter…" is not)
+> opener: one italic blockquote, two plain sentences — (1) what the topic is and why it matters to a
+  doctor; (2) "We cover…/We look at…" the chapter's movements, in section order. No anecdote, staged
+  patient question, aphorism or "The clinician's task is…" formula; "we" is allowed, "This chapter…"
+  is not. Example: "Before most nutrients can enter the body, digestion has to break food into molecules
+  small enough to cross the gut wall. We follow a meal through the gut: …" (2026-10-22). Capstone case
+  chapters take no opener; their intro paragraph does the job.
 ::: {.callout-note}             — "## Learning objectives": 4–6 verb phrases a student should be able
                                   to do ("Explain…", "Distinguish…", "Recognise… and refer")
 ::: {.concept-tree}             — chapter map: ≤4 branches (the movements), each linked to its section
