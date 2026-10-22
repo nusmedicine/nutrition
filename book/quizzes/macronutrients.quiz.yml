@@ -22,7 +22,7 @@ questions:
         feedback: "The sugar inside whole fruit is not a free sugar, so it is not the target of the WHO limit."
       - text: "Added sugar, plus the sugar in fruit juice"
         correct: true
-        feedback: "Free sugars are added sugars plus those in syrups and fruit juices; WHO caps them at <10% of energy."
+        feedback: "Free sugars are added sugars plus those in honey, syrups and fruit juices; WHO caps them at <10% of energy."
       - text: "The starch in brown rice"
         correct: false
         feedback: "Starch is not a sugar; wholegrain starch sits at the protective end of the carbohydrate spectrum."

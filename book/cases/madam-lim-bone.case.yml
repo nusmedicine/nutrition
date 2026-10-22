@@ -75,7 +75,7 @@ nodes:
       - id: a
         text: "Its calcium is oxalate-bound and barely absorbed."
         correct: true
-        feedback: "Oxalate locks spinach's calcium away, so only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Content is not availability: point her to the well-absorbed sources."
+        feedback: "Oxalate locks spinach's calcium away, so only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Content is not availability: point her to the well-absorbed sources."
         effects: { quality: +1 }
         goto: reveal-spinach
       - id: b
@@ -86,7 +86,7 @@ nodes:
       - id: c
         text: "Only if she boils it first, which releases all the calcium."
         correct: false
-        feedback: "Cooking doesn't free oxalate-bound calcium; spinach stays poorly absorbed (~5%). Steer her to low-oxalate greens and calcium-set tofu instead."
+        feedback: "Boiling leaches some oxalate into the water, but nothing shows it makes spinach a well-absorbed calcium source. Steer her to low-oxalate greens and calcium-set tofu instead."
         goto: reveal-spinach
 
   - id: reveal-spinach

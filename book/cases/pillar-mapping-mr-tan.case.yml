@@ -158,8 +158,9 @@ nodes:
     title: "Stay accurate about the evidence"
     body: |
       The claim that the pillars reinforce each other rests largely on observational
-      data on combined lifestyles (people with the healthiest profiles have roughly
-      half the mortality risk of the least healthy), plus small mechanistic studies.
+      data on combined lifestyles (in one meta-analysis of cohort studies, people with
+      four or more healthy lifestyle factors had about a third of the all-cause
+      mortality risk of those with the fewest), plus small mechanistic studies.
       Residual confounding (the healthiest people differ in other ways that the
       analysis cannot fully adjust for) and reverse causation (early illness can itself change behaviour) both remain
       possible. The accurate phrasing is therefore that combined behaviours are
@@ -189,6 +190,7 @@ nodes:
         - "Being asymptomatic is the time to prevent disease, not an all-clear."
         - "Nutrition is the entry point; a durable plan touches sleep, stress and social context."
         - "Multi-pillar plans are associated with larger benefit; state it as an association, not proven synergy."
+      references: ["@loef2012lifestyle"]
 
   - id: end-partial
     type: end

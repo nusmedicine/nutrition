@@ -37,16 +37,16 @@ nodes:
     stem: "*\"Can soy replace hormones for these flushes, doctor?\"*"
     options:
       - id: a
-        text: "\"Soy is healthy and fine to try, but it helps flushes only a little, not like hormone therapy.\""
+        text: "\"Soy is healthy to eat, but it helps flushes only a little, not like hormone therapy.\""
         correct: true
-        feedback: "Isoflavone effects on flushes are modest, inconsistent, and slower and weaker than hormone therapy, and the North American Menopause Society does not recommend soy as a treatment. Offering soy as a safe food to try, not a guaranteed cure, keeps the answer accurate and leaves room to talk about options that do work."
+        feedback: "Isoflavone effects on flushes are modest, inconsistent, and slower and weaker than hormone therapy, and the North American Menopause Society does not recommend soy as a treatment. Offering soy as a safe, healthy food, not a flush treatment, keeps the answer accurate and leaves room to talk about options that do work."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-safety
       - id: b
         text: "\"Yes, soy is a natural hormone replacement. Two servings a day should sort the flushes out.\""
         correct: false
-        feedback: "This over-promises: isoflavone supplements cut flushes only modestly and don't work in everyone (partly down to whether her gut bacteria make equol). Soy is a safe food to try, not an equal to hormone therapy."
+        feedback: "This over-promises: isoflavone supplements cut flushes only modestly and don't work in everyone (partly down to whether her gut bacteria make equol). Soy is a safe, healthy food, not an equal to hormone therapy."
         reaction: skeptical
         goto: q-safety
       - id: c
@@ -64,7 +64,7 @@ nodes:
       - id: a
         text: "\"That fear comes from animal studies. In people, soy foods are safe. No need to stop.\""
         correct: true
-        feedback: "Especially at the amounts common in Asian diets, population and survivor data (including oestrogen-receptor-positive disease and women on tamoxifen) show soy *foods* are safe and linked to a lower risk of breast cancer, even for women who've had it. The rodent-oestrogen story doesn't translate to humans."
+        feedback: "Especially at the amounts common in Asian diets, population and survivor data (including oestrogen-receptor-positive disease and women on tamoxifen) show soy *foods* are safe, linked to a lower risk of breast cancer and, in women who've had it, to lower recurrence. The rodent-oestrogen story doesn't translate to humans."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight

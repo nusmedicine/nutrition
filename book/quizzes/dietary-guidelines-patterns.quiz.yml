@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Fruit and vegetables"
         correct: true
-        feedback: "½ fruit & vegetables, ¼ wholegrains, ¼ protein. The vegetable half is the largest section, and the one most often missing from a real local dinner."
+        feedback: "½ fruit & vegetables, ¼ wholegrains, ¼ protein. The vegetable half is the largest section, and most adults here eat less fruit and vegetables than recommended."
       - text: "Wholegrains"
         correct: false
         feedback: "Wholegrains are a quarter, not the half."

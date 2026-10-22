@@ -105,7 +105,7 @@ states:
       muscle:  { role: "spared", tone: burn, detail: "Burns fatty acids and ketones; protein breakdown eases now that the brain needs less glucose." }
       adipose: { role: "the main fuel", tone: release, detail: "The dominant fuel source: fatty acids for tissues and the feedstock for the liver's ketones." }
       rbc:     { role: "runs on glucose", tone: burn, detail: "Still glucose-only: a minimum glucose requirement that never fully disappears, so a little gluconeogenesis always continues." }
-      kidney:  { role: "making glucose", tone: make, detail: "Now a second gluconeogenic organ, supplying up to roughly 40–50% of glucose production in a prolonged fast." }
+      kidney:  { role: "making glucose", tone: make, detail: "Now a second gluconeogenic organ: in a classic study after five to six weeks of fasting, it supplied about half of the body's glucose production." }
     fluxes:
       - { from: adipose, to: liver,  kind: fat,     mag: 3, label: "fatty acids → ketones" }
       - { from: liver,   to: brain,  kind: ketone,  mag: 3, label: "ketones" }

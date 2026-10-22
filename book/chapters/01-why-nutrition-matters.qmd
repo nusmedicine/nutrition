@@ -34,7 +34,8 @@
 For most of medicine's history, the doctor's main concern was acute illness, injury and
 infection: pneumonia, sepsis, trauma. These have not gone away, but they have been overtaken. Today,
 **non-communicable diseases (NCDs)**, chronic diseases that are not passed from person to person,
-cause around three-quarters of all deaths worldwide [@who2020diet]. The main ones are
+cause around three-quarters of deaths worldwide, setting aside deaths from the COVID-19 pandemic
+[@whoNCD2025]. The main ones are
 cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. NCDs are, in
 large part, slow diseases of daily living, driven by a handful of modifiable behaviours: what we
 eat, how much we move, whether we sleep, smoke or drink.
@@ -109,8 +110,9 @@ Nutrition links to each of the other five pillars in its own way:
 - Diet and physical activity act together on weight and glucose; neither alone is as effective as
   both.
 - Short sleep lowers **insulin sensitivity** (how well the body clears glucose in response to insulin)
-  and raises appetite and the intake of energy-dense food. Late, heavy meals in turn worsen sleep, so
-  the two form a self-reinforcing loop [@sleepRestriction].
+  [@buxton2010sleep] and raises hunger and appetite, especially for energy-dense food
+  [@sleepRestriction], and overall energy intake [@alkhatib2017partialsleep]. Eating late at night is
+  in turn linked to poorer sleep, so the two can form a self-reinforcing loop [@crispim2011foodsleep].
 - Acute and chronic stress, acting through **cortisol** (the main stress hormone), are thought to
   drive "comfort eating" of palatable, energy-dense food [@dallman2003].
 - Eating is social, through family meals, communal hawker eating and festive food, so social context
@@ -135,8 +137,8 @@ one villain (carbohydrate, fat, gluten) or one "superfood". The evidence points 
 **dietary pattern**, the diet taken as a whole, which predicts health better than any isolated
 nutrient [@aha2021diet]. Two of the most-studied patterns illustrate the point:
 
-- The **Mediterranean pattern** (olive oil, nuts, legumes, fish, vegetables) was associated with
-  about a 30% lower risk on a combined measure of cardiovascular events in the PREDIMED trial
+- The **Mediterranean pattern** (olive oil, nuts, legumes, fish, vegetables) lowered the risk of a
+  combined measure of cardiovascular events by about 30% in relative terms in the PREDIMED trial
   [@estruch2018predimed].
 - The **DASH pattern** (Dietary Approaches to Stop Hypertension: rich in fruit, vegetables and
   low-fat dairy) lowered blood pressure meaningfully, even without weight loss or salt restriction
@@ -147,7 +149,7 @@ nutrient [@aha2021diet]. Two of the most-studied patterns illustrate the point:
 Both results have limits (see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd)
 chapter). PREDIMED's headline comes from a 2018 re-analysis, published after the original had
 problems with how participants were assigned to groups. Its main result combined several
-cardiovascular events, most of them strokes. DASH was a short controlled-feeding study that measured
+cardiovascular events; strokes were the largest share and showed the clearest reduction. DASH was a short controlled-feeding study that measured
 blood pressure, a marker, instead of heart attacks themselves. Both are real findings that hold within
 their limits, and any landmark trial is best read the same way.
 :::
@@ -180,7 +182,9 @@ habits, shaped by environment and circumstance, that responds to skilled advice.
 The aim is nutritional literacy: the science, the Singapore context and the skill of advising
 patients well. Training as a dietitian and prescribing protocols lie outside it at this stage.
 Detailed medical nutrition therapy (a dietitian's individualised nutrition plan for a medical
-condition), drug choices and disease management come later, as does deciding when to refer. At this
+condition), drug choices and disease management come later in training. Deciding when to refer is
+taught later in this book, in the [*Interprofessional Practice & Referral*](interprofessional-referral.qmd)
+chapter and the disease chapters. At this
 stage, nutrition is about motivation, concepts and the clinical conversation, taught with humility
 about what the evidence does and does not show.
 :::

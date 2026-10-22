@@ -2,7 +2,8 @@ id: nutri-grade
 title: "Grade the drink, pick a swap"
 intro: >
   Tap a drink to see where it lands and the swap that moves it to a better grade. Sugar values are
-  approximate: the real grade depends on the exact product and how sweet it is ordered.
+  illustrative approximations: the real grade depends on the exact product (many brands now sell
+  reduced-sugar versions) and how sweet it is ordered.
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0. Thresholds: HPB Nutri-Grade (Food Regulations)."
 
 # grade bands by sugar per 100 ml (upper bound inclusive). Saturated fat can only downgrade.
@@ -21,5 +22,5 @@ drinks:
   - { id: milo,     label: "Milo (with sugar)",       sugar: 7.5,  satfat: true, swap: "Ask for less sugar, or Milo kosong, to move it to a better grade." }
   - { id: packettea,label: "Packet chrysanthemum tea",sugar: 8,    swap: "Choose an unsweetened tea; most of the grade is the added sugar." }
   - { id: oj,       label: "Fresh-pressed orange juice", sugar: 9, swap: "Eat a whole orange instead, for the fibre and less of a sugar hit." }
-  - { id: cola,     label: "Canned soft drink",       sugar: 10.6, swap: "Swap for water or a grade A/B drink; this is essentially a cup of free sugars." }
+  - { id: cola,     label: "Full-sugar soft drink",   sugar: 10.6, swap: "Swap for water or a grade A/B drink; this is essentially a cup of free sugars." }
   - { id: bbt,      label: "Bubble milk tea",         sugar: 11,   satfat: true, swap: "Ask for 25–50% sugar and skip the creamer and pearls, or go for teh-o kosong (grade A)." }

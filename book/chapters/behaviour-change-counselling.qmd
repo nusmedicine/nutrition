@@ -69,7 +69,7 @@ months to become automatic.
 ### The 5 A's: a framework for brief counselling {#sec-five-as}
 
 The 5 A's, the five-step framework for brief counselling (see the *Assessing Diet & Talking to
-Patients* chapter), structure the consult [@usptfBehavioural]:
+Patients* chapter), structure the consult [@fiveAsNutrition]:
 
 1. Assess: find out what the patient eats and what they are ready to change (the diet history).
 2. Advise: offer clear, personalised advice, with permission ("would it be OK if…?"); the content is
@@ -78,9 +78,7 @@ Patients* chapter), structure the consult [@usptfBehavioural]:
 4. Assist: help the patient problem-solve and co-write the goal.
 5. Arrange: set up follow-up, or a referral.
 
-The 5 A's carry one caveat, about dose. The bodies that endorse them base their effectiveness evidence
-on intensive, multi-contact programmes (often a dozen or more sessions), not a single clinic visit
-[@usptfBehavioural]. A one-off consult therefore realistically initiates change rather than delivering
+The 5 A's carry one caveat, about dose. The evidence that diet and activity counselling works comes from intensive, multi-contact programmes (a median of 12 contacts over 6 to 18 months), not a single clinic visit [@usptfBehavioural]. A one-off consult therefore realistically initiates change rather than delivering
 it, which is why the Arrange step matters. The more intensive, multi-session programmes that do shift
 outcomes belong to diabetes prevention (see the [*Type 2 Diabetes*](type-2-diabetes.qmd) chapter).
 
@@ -140,7 +138,7 @@ forgets, then I'll remind her *siu dai*". This advance planning has a medium-to-
 whether a goal is achieved [@gollwitzer2006implementation].
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: the effectiveness evidence for the 5 A's comes from intensive, multi-contact programmes, often a dozen or more sessions. What follows for a single brief consult?
+## Check yourself: the evidence that diet and activity counselling works comes from intensive, multi-contact programmes, with a median of 12 contacts. What follows for a single brief consult?
 A single consult realistically starts a change but does not deliver it. It should therefore end with
 one small goal the patient chose, made SMART and paired with an if-then plan. It should also complete
 the Arrange step, a follow-up or a referral, so that the change continues after the visit.
@@ -175,11 +173,12 @@ about it; build confidence and co-set a goal for the person who is ready. Use it
 your style, not to label people.
 
 ::: {.callout-warning}
-## Does a patient's stage predict who will succeed?
-It is tempting to read a patient's stage as a forecast. Stages-of-change is a **heuristic, not a
-proven predictor**. The Cochrane evidence for it producing sustained weight loss is low-certainty
-[@mastellos2014ttm]. It helps you meet a patient where they are; it does not tell you whether they'll
-succeed, so don't present it as fact.
+## Is stages-of-change a proven tool?
+It is tempting to treat a patient's stage as a forecast, or stage-matched counselling as a proven
+method. Stages-of-change is a **heuristic, not a proven method**: a Cochrane review of programmes
+built on it found only inconclusive, low-certainty evidence that they produce sustained weight loss
+[@mastellos2014ttm]. Use it to meet a patient where they are, not as a forecast of whether they'll
+succeed, and don't present it as fact.
 :::
 
 ### Fitting the goal to daily life {#sec-fit}
@@ -257,8 +256,11 @@ prescribed.
 
 ## The Singapore picture {#sec-singapore}
 
-The HPB–MOH clinical practice guidelines already build brief lifestyle counselling on the 5 A's and
-MI-style engagement [@hpbMohCPG; @sgObesityBMI], so the approach is endorsed local practice.
+Local clinical practice guidelines already point the same way. The HPB–MOH obesity guidelines ask
+for weight-loss interventions that combine behavioural strategies such as self-monitoring and
+goal-setting [@sgObesityBMI], and the tobacco guidelines name motivational interviewing as a
+behavioural intervention that may be used to help people quit [@hpbMohCPG]. The approach therefore
+fits endorsed local practice.
 Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
 specific, measurable and locally meaningful.
 

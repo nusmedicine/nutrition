@@ -81,9 +81,9 @@ nodes:
     stem: "The dietitian's next slot is weeks away. What do you do in the meantime?"
     options:
       - id: a
-        text: "Give safe general advice, and note that Healthier SG follow-up is subsidised."
+        text: "Give safe general advice, and keep her under Healthier SG follow-up."
         correct: true
-        feedback: "Safe universal advice (less rice, more vegetables, water over sweet drinks) plus pointing her to the subsidised Healthier SG pathway keeps you in scope, without overstepping or leaving her unsupported."
+        feedback: "Safe universal advice (less rice, more vegetables, water over sweet drinks) plus keeping her under her Healthier SG family doctor (with Chronic Tier subsidies if she holds a CHAS card) keeps you in scope, without overstepping or leaving her unsupported."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -124,8 +124,8 @@ nodes:
     body: |
       You recognised that diabetes with early kidney impairment and three medicines crosses into medical
       nutrition therapy, referred her to the dietitian, and wrote a referral complete enough to be a head
-      start, not a shrug. While she waits, you stayed in scope with safe general advice and pointed her
-      to subsidised Healthier SG follow-up, without improvising therapeutic targets or leaving her
+      start, not a shrug. While she waits, you stayed in scope with safe general advice and kept her
+      under Healthier SG follow-up, without improvising therapeutic targets or leaving her
       unsupported.
     debrief:
       objectivesMet: [1, 2, 3]

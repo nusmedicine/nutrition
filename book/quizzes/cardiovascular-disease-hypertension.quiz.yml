@@ -70,7 +70,7 @@ questions:
     options:
       - text: "Recommend eating oily fish; routine omega-3 capsules have not prevented events"
         correct: true
-        feedback: "Oily fish is a food to recommend as part of the pattern, but routine omega-3 supplements failed to prevent cardiovascular events in large trials (VITAL, ASCEND). The high-dose 'fish-oil trial' people cite tested icosapent ethyl, a prescription drug and a specialist decision, and its result cannot be extrapolated to over-the-counter fish oil."
+        feedback: "Oily fish is a food to recommend as part of the pattern, but routine omega-3 supplements failed to prevent cardiovascular events in large trials. The high-dose 'fish-oil trial' people cite tested icosapent ethyl, a prescription drug and a specialist decision, and its result cannot be extrapolated to over-the-counter fish oil."
       - text: "Recommend the capsules, since a large drug trial proved fish oil prevents events"
         correct: false
         feedback: "That trial tested icosapent ethyl, a high-dose prescription drug given to selected patients, not over-the-counter fish oil. Routine omega-3 supplements did not prevent events, so the drug result does not carry over to capsules."
@@ -118,7 +118,7 @@ questions:
     options:
       - text: "Someone with kidney disease or on a potassium-raising blood-pressure drug"
         correct: true
-        feedback: "The trial that proved these substitutes work excluded people with serious kidney disease and those on potassium-raising drugs (ACE inhibitors, ARBs, potassium-sparing diuretics), in whom extra potassium can cause dangerous hyperkalaemia. Check for these first, and if in doubt, don't (see the *Chronic Kidney Disease* chapter)."
+        feedback: "The trial that proved these substitutes work excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements, and ACE inhibitors and ARBs also raise potassium. In all of these people, extra potassium can cause dangerous hyperkalaemia. Check for these first, and if in doubt, don't (see the *Chronic Kidney Disease* chapter)."
       - text: "An otherwise healthy adult with hypertension and no kidney problems"
         correct: false
         feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable way to cut sodium, with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."

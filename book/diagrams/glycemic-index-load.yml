@@ -28,13 +28,13 @@ foods:
     serving: "50 g in water"
     carbs: 50
   - id: white-rice
-    name: "White rice (jasmine)"
+    name: "White rice (boiled)"
     gi: 73
     serving: "1 bowl, 150 g cooked"
     carbs: 36
   - id: brown-rice
     name: "Brown rice"
-    gi: 65
+    gi: 68
     serving: "1 bowl, 150 g cooked"
     carbs: 33
   - id: white-bread
@@ -54,7 +54,7 @@ foods:
     carbs: 25
   - id: banana
     name: "Banana"
-    gi: 47
+    gi: 51
     serving: "1 medium, 120 g"
     carbs: 24
   - id: apple
@@ -69,6 +69,6 @@ foods:
     carbs: 18
   - id: soft-drink
     name: "Sweetened soft drink (cola)"
-    gi: 63
+    gi: 59
     serving: "1 can, 250 ml"
     carbs: 26

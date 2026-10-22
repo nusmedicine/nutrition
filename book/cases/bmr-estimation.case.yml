@@ -106,9 +106,9 @@ nodes:
     stem: "Her needs are about 1,740 kcal/day and she wants to lose weight. What target should you set?"
     options:
       - id: a
-        text: "A modest deficit of ~300–500 kcal/day"
+        text: "A modest deficit of about 500 kcal/day"
         correct: true
-        feedback: "A modest deficit supports gradual loss (~0.25–0.5 kg/week) through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke stronger hunger and a fall in expenditure (metabolic adaptation)."
+        feedback: "About 500 kcal/day below her needs, the Singapore guideline's starting point, supports gradual loss through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke stronger hunger and a fall in expenditure (metabolic adaptation)."
         effects: { quality: 1 }
         goto: route
       - id: b
@@ -133,7 +133,7 @@ nodes:
     type: info
     emotion: relieved
     body: |
-      With needs of about 1,740 kcal/day, a modest 300–500 kcal/day deficit supports
+      With needs of about 1,740 kcal/day, a modest deficit of about 500 kcal/day supports
       gradual weight loss. You agree one realistic change, swapping two sweetened
       *kopi* for *kopi-o kosong*, and arrange a review.
     next: end-good
@@ -158,7 +158,7 @@ nodes:
       keyPoints:
         - "BMR needs weight, height, age and sex (Mifflin–St Jeor)."
         - "Total needs ≈ BMR × activity factor."
-        - "A 300–500 kcal/day deficit supports gradual, sustainable loss."
+        - "A deficit of about 500 kcal/day supports gradual, sustainable loss."
 
   - id: end-partial
     type: end

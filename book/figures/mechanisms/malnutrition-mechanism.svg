@@ -1,6 +1,6 @@
 <svg viewBox="0 0 780 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="mm-title mm-desc" font-family="'Segoe UI', system-ui, -apple-system, sans-serif">
   <title id="mm-title">What malnutrition does to the body, and why inflammation changes it</title>
-  <desc id="mm-desc">Malnutrition is a causal chain. A nutrient deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and — crucially — muscle mass, which causes weakness, poor wound healing, infection, longer hospital stays and higher mortality. Malnutrition is classified by cause on an inflammation gradient: starvation-related with no inflammation, chronic disease-related with mild to moderate inflammation, and acute disease or injury with severe inflammation at the cachexia end. Inflammation drives catabolism, which is why disease-related malnutrition resists feeding alone.</desc>
+  <desc id="mm-desc">Malnutrition is a causal chain. A nutrient deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and — crucially — muscle mass, which causes weakness, poor wound healing, infection, longer hospital stays and higher mortality. Malnutrition is classified by cause on an inflammation gradient: starvation-related with no inflammation, chronic disease-related with mild to moderate inflammation (cachexia), and acute disease or injury with severe inflammation. Inflammation drives catabolism, which is why disease-related malnutrition resists feeding alone.</desc>
   <defs>
     <marker id="mm-ah" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth">
       <path d="M0,0 L7,3 L0,6 Z" fill="#64748b"/>
@@ -39,7 +39,7 @@
   <!-- middle: body composition -->
   <rect class="mid" x="302" y="76" width="185" height="52" rx="8"/>
   <text class="mlbl" x="394" y="97" text-anchor="middle">↓ fat AND muscle mass</text>
-  <text class="note" x="394" y="115" text-anchor="middle">(muscle = the body's protein store)</text>
+  <text class="note" x="394" y="115" text-anchor="middle">(muscle is working tissue, not a store)</text>
 
   <line class="flow" x1="487" y1="102" x2="547" y2="102" marker-end="url(#mm-ah)"/>
 
@@ -58,9 +58,9 @@
   <text class="seglbl" x="146" y="270" text-anchor="middle">Starvation-related</text>
   <text class="segsub" x="146" y="290" text-anchor="middle">no inflammation</text>
   <text class="seglbl" x="389" y="270" text-anchor="middle">Chronic disease-related</text>
-  <text class="segsub" x="389" y="290" text-anchor="middle">mild–moderate inflammation</text>
+  <text class="segsub" x="389" y="290" text-anchor="middle">mild–moderate inflammation (cachexia)</text>
   <text class="seglbl" x="633" y="270" text-anchor="middle">Acute disease / injury</text>
-  <text class="segsub" x="633" y="290" text-anchor="middle">severe (the cachexia end)</text>
+  <text class="segsub" x="633" y="290" text-anchor="middle">severe inflammation</text>
 
   <line class="flow" x1="25" y1="322" x2="755" y2="322" marker-end="url(#mm-ah)"/>
   <text class="note" x="25" y="340">more inflammation →</text>

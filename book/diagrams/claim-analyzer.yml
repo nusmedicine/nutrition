@@ -24,7 +24,7 @@ claims:
     study: "The claim leans on a 2024 randomised trial that reported weight loss from a daily dose of apple cider vinegar."
     design: "A randomised trial, normally high on the hierarchy, but small, short and not registered in advance."
     outcome: "The reported effect was modest, and the study was retracted in 2025 when its analyses could not be reproduced."
-    apply: "With the headline study withdrawn, there's little solid human evidence left; any real glycaemic effect is tiny beside ordinary diet and activity."
+    apply: "With the headline study withdrawn, what's left is a few small, short trials: a possible fall in fasting glucose in type 2 diabetes, of limited certainty, and weight data that still include the retracted trial. Neither replaces ordinary diet and activity."
     verdict: retracted
     verdictText: "The flagship study was retracted, so the claim rests on nothing solid. A cheap condiment is not a weight-loss treatment."
   - id: coffee

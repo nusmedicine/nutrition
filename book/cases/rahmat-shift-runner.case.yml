@@ -39,14 +39,14 @@ nodes:
     stem: "*\"For my weekend runs, should I carb-load the night before and use a sports drink during?\"*"
     options:
       - id: a
-        text: "\"Normal meals and water cover that distance; carb-loading and sports drinks are for much longer events.\""
+        text: "\"Normal meals and water cover that distance; carb-loading and sports drinks are for longer, harder events.\""
         correct: true
-        feedback: "A ~1-hour recreational run is covered by ordinary food and water; the athlete guidance is calibrated for hours of endurance training."
+        feedback: "A 1- to 1.5-hour recreational run is covered by ordinary food and water; carb-loading is athlete guidance for events over about 90 minutes, and carbohydrate during exercise is a performance strategy for training or racing athletes."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-protein
       - id: b
-        text: "\"Yes, carb-load with 8–10 g/kg the day before and take a sports drink every session to be safe.\""
+        text: "\"Yes, carb-load with 10–12 g/kg the day before and take a sports drink every session to be safe.\""
         correct: false
         feedback: "Carb-loading and during-exercise sports drinks are athlete guidance for long endurance efforts; for a weekend run they add energy he does not need. Normal food and water suffice."
         goto: q-protein

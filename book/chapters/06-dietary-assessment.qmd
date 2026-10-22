@@ -44,8 +44,8 @@ patient usually eats and drinks. The same short conversation that surfaces food 
 drinking, activity, sleep and stress. A diet history is therefore one branch of a whole lifestyle
 history, and the skill transfers to the rest of it.
 
-Graduates consistently report feeling least prepared in exactly this applied territory of talking to
-patients about food [@crowley2019; @aclm2022comp]. The goal at this stage is competent first contact:
+Medical students and recent graduates report gaps in the knowledge, skills and confidence to give
+nutrition care, including talking to patients about food [@crowley2019]. The goal at this stage is competent first contact:
 take a basic history, read a label, flag the likely problems and open the conversation. Specialist
 assessment and a therapeutic plan lie beyond first contact; where a plan turns detailed or
 restrictive, you recognise it and refer.
@@ -95,8 +95,8 @@ often they eat out or *tapau* (buy takeaway), portion sizes, who shops and cooks
 Keep it conversational, and let the facts come out instead of firing questions.
 
 One probe outyields all the others locally: drinks. Sugary drinks (*kopi* and *teh* with condensed
-milk, *bandung*, bubble tea, canned soft drinks) are the biggest hidden source of energy and free
-sugars in many Singaporean diets, and they are the question most often skipped. The drinks probe also
+milk, *bandung*, bubble tea, canned soft drinks) were the single biggest source of sugar in the 2022
+National Nutrition Survey, about half of all sugar eaten [@mohNNS2022], and they are the question most often skipped. The drinks probe also
 folds in a routine, non-judgemental question about alcohol.
 
 Try the history below: click the questions you would ask and watch the picture build, and notice what
@@ -127,9 +127,7 @@ Nutri-Grade, Singapore's front-of-pack mark for drinks (see the
 [*Why Nutrition Matters*](01-why-nutrition-matters.qmd) chapter), turns the label into a one-glance
 judgement. It grades a beverage A to D by sugar per 100 ml (A ≤1 g, B >1–5 g, C >5–10 g, D >10 g).
 A high saturated-fat content then downgrades it, so a low-sugar but creamy drink still cannot
-reach an A. Grades C and D must display the mark, and grade D cannot be advertised. Since 30 December
-2023 the mark has also covered freshly-prepared drinks, the *kopi*, *teh* and bubble tea bought at the stall;
-pre-packaged drinks have carried it since 30 December 2022 [@hpbNutriGrade]. That reach makes "grade
+reach an A. Grades C and D must display the mark, and grade D cannot be advertised. Since 30 December 2023 the mark has also covered freshly-prepared drinks such as *kopi*, *teh* and bubble tea, although small sellers (revenue of S$1 million or less and fewer than 10 outlets) are exempt; pre-packaged drinks have carried it since 30 December 2022 [@hpbNutriGrade]. That reach makes "grade
 your usual drink, then pick one swap" an authentic local exercise:
 
 <div data-island="nutri-grade" data-src="/diagrams/nutri-grade.yml"></div>
@@ -199,7 +197,7 @@ populations than the international thresholds assume [@sgObesityBMI]:
 | Overweight | BMI ≥23 kg/m² | BMI ≥25 kg/m² |
 | Obese | BMI ≥27.5 kg/m² | BMI ≥30 kg/m² |
 
-A waist circumference of ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat. BMI is
+A waist circumference of ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI]. BMI is
 a screen, not a verdict: it misses body composition (a muscular person, or an older person who has
 lost muscle), so it is read alongside the history, not instead of it.
 
@@ -269,13 +267,14 @@ idea about your drinks?" earns a hearing, and an unasked-for lecture does not.
 
 Two rules carry most of the weight. Ask before advising, because permission turns advice into a
 conversation. Use plain language: "sugary drinks", not "free sugars exceeding ten percent of energy".
-Brief, respectful counselling in this style measurably improves what people actually eat
-[@frost2018mi]; hectoring does not.
+Counselling in this respectful, motivational-interviewing style can produce small, mostly short-term
+improvements in some health behaviours, such as drinking and physical activity; for diet specifically
+the evidence is of low quality [@frost2018mi].
 
 ### Do no harm: eating-disorder red flags and screening {#sec-do-no-harm}
 
-Food, weight and "clean eating" talk can trigger or worsen disordered eating. Structured
-weight-management advice does not raise eating-disorder symptoms for most people (on average they
+Food, weight and "clean eating" talk can trigger or worsen disordered eating. Behavioural
+weight-management programmes do not raise eating-disorder symptoms for most adults (on average they
 ease slightly), but a small minority develop new symptoms, so vigilance still matters
 [@jebeile2023edrisk]. A do-no-harm reflex therefore belongs at first contact, before any advice to
 restrict. The red flags to listen for are:
@@ -289,8 +288,8 @@ When something flags, a brief screen such as **SCOFF** (five questions on vomiti
 recent weight loss, feeling fat, and food dominating life) raises or lowers suspicion. Two measures
 describe how well a screen performs: its **sensitivity**, the proportion of people with the condition
 whom it correctly flags, and its **specificity**, the proportion without it whom it correctly clears.
-For SCOFF the pooled sensitivity is about 0.86 and the specificity about 0.83
-[@scoffMorgan1999; @kutzScoff2020]. SCOFF is a screen, not a diagnosis: a positive result means ask
+SCOFF was first validated in young women with anorexia or bulimia [@scoffMorgan1999]; pooled across
+25 validation studies, its sensitivity is about 0.86 and its specificity about 0.83 [@kutzScoff2020]. SCOFF is a screen, not a diagnosis: a positive result means ask
 more and consider referral, and a negative result does not exclude an eating disorder. The safe
 response at this stage is the same either way: do not prescribe restriction into a possible eating
 disorder; be supportive, and refer.
@@ -299,8 +298,8 @@ disorder; be supportive, and refer.
 ## Check yourself: why open with "Would it be alright if I shared one idea about your drinks?" instead of "You need to cut down on sugar"?
 Asking permission turns advice into a conversation, so the idea that follows earns a hearing; an
 unasked-for lecture does not. The first version also narrows the advice to one target, the drinks,
-where the second is a broad instruction. Brief, respectful counselling in this style improves what people eat, and
-hectoring does not.
+where the second is a broad instruction. Respectful, permission-first counselling can bring small, short-term
+changes in some health behaviours, though the evidence that it changes diet is of low quality.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -324,9 +323,9 @@ It starts with asking, not advising. First contact done well has five parts, in 
 
 ## The Singapore picture {#sec-singapore}
 
-Nutri-Grade is useful in practice because it now reaches the freshly-prepared drinks people actually
-buy, the bubble tea and the *kopi*, so "grade your drink" is a real exercise and not a supermarket
-abstraction [@hpbNutriGrade]. The National Nutrition Survey shows what to expect before the patient
+Nutri-Grade is useful in practice because it now reaches many of the freshly-prepared drinks people
+actually buy, such as bubble tea and coffee from the larger chains, so "grade your drink" is a real
+exercise and not a supermarket abstraction [@hpbNutriGrade]. The National Nutrition Survey shows what to expect before the patient
 says a word: high sodium, sweet drinks, refined staples and too little wholegrain [@mohNNS2022]. The
 whole approach also fits the national direction of preventive care: screening and a short
 conversation at first contact, then referral where needed, instead of waiting for disease.

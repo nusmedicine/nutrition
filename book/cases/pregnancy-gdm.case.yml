@@ -86,7 +86,7 @@ nodes:
       - id: a
         text: "Reassure her, start dietary changes within her usual meals, and bring in the antenatal team."
         correct: true
-        feedback: "First-line management is dietary, delivered with the team (obstetrician, dietitian, diabetes nurse), and it works best within familiar food: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B drink for the sweet one. A local seafood-and-noodle pattern was protective. Your part is to reassure, guide swaps and refer."
+        feedback: "First-line management is dietary, delivered with the team (obstetrician, dietitian, diabetes nurse), and it works best within familiar food: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B drink for the sweet one. In a local cohort, women eating a seafood-and-noodle pattern were less likely to have GDM. Your part is to reassure, guide swaps and refer."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-chain
@@ -98,7 +98,7 @@ nodes:
       - id: c
         text: "Tell her it's mild and nothing to worry about, and carry on as normal."
         correct: false
-        feedback: "GDM does need action: untreated, it raises the risk of a large baby and delivery complications. Dietary first-line plus team referral is the response, not dismissal."
+        feedback: "GDM does need action: untreated, it raises the risk of a large baby and of a difficult delivery (shoulder dystocia). Dietary first-line plus team referral is the response, not dismissal."
         goto: q-chain
 
   - id: q-chain
@@ -130,9 +130,9 @@ nodes:
     stem: "*\"So once the baby is born, this all just goes away, right?\"*"
     options:
       - id: a
-        text: "\"It usually settles, but your diabetes risk stays raised: a test at 4 to 12 weeks, then regular checks.\""
+        text: "\"It usually settles, but your diabetes risk stays raised: a test at 6 to 12 weeks, then regular checks.\""
         correct: true
-        feedback: "GDM usually resolves, but it signals a roughly seven-fold future risk of type 2 diabetes, so postpartum testing at 4 to 12 weeks and ongoing screening matter. This is the direct tie to Singapore's War on Diabetes."
+        feedback: "GDM usually resolves, but it signals a roughly seven-fold future risk of type 2 diabetes, so postpartum testing at 6 to 12 weeks and screening every 1 to 3 years matter. This is the direct tie to Singapore's War on Diabetes."
         effects: { quality: +1 }
         reaction: relieved
         goto: route

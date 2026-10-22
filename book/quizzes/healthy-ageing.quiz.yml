@@ -32,7 +32,7 @@ questions:
     options:
       - text: "One on long-term metformin and a PPI, which impair B12 absorption."
         correct: true
-        feedback: "In older adults, B12 deficiency is mainly a problem of absorption, not diet: low stomach acid stops B12 being freed from food protein, and long-term metformin and PPIs add to the risk (as do atrophic gastritis, poor intake or a vegetarian diet), all common in this population. Testing targets this at-risk profile instead of screening everyone."
+        feedback: "In older adults, B12 deficiency is mainly a problem of absorption, not diet: low stomach acid stops B12 being freed from food protein, and long-term metformin and PPIs, both widely used in this population, add to the risk (as do atrophic gastritis, poor intake or a vegetarian diet). Testing targets this at-risk profile instead of screening everyone."
       - text: "Every older adult, so supplement B12 regardless of risk."
         correct: false
         feedback: "B12 deficiency is uncommon in well older adults, so the target is the at-risk profile (atrophic gastritis, metformin, PPIs), not everyone."

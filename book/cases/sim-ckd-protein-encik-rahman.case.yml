@@ -40,7 +40,7 @@ nodes:
   - id: talk-to-encik-rahman
     type: patient-chat
     scenarioId: ckd-encik-rahman
-    objective: "Undo the 'avoid protein' belief (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist change (cutting ordinary salt) while catching the two do-no-harm hazards: stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous high potassium, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
+    objective: "Undo the 'avoid protein' belief (near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian, not self-imposed); reinforce the one safe generalist change (cutting ordinary salt) while catching the two do-no-harm hazards: stop the star fruit/belimbing (an absolute avoid in kidney disease) and the 'low-sodium' potassium salt substitute (risk of dangerous hyperkalaemia, especially on his blood-pressure pill); and recognise that kidney disease with diabetes needs a renal dietitian referral rather than DIY potassium or protein limits."
     turnLimit: 8
     exitWhen: "The student has corrected the over-restriction of protein, caught the star-fruit and salt-substitute hazards, reinforced ordinary salt reduction, and flagged a renal dietitian referral, or the turn limit is reached."
     opener: "Doctor, they say my kidneys not so good now. So I must stop eating meat and fish completely, is it? I already almost stop."

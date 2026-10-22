@@ -143,8 +143,9 @@ hand-off:
 - the pharmacist reviews medications;
 - allied-health and community partners extend care beyond the clinic.
 
-Team-based care is associated with better chronic-disease outcomes, since the whole is more than any
-one professional's slice [@aclm2022comp; @afn2021curriculum].
+Team-based care is associated with better chronic-disease outcomes: in hypertension, for example,
+teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare]. The
+whole is more than any one professional's slice.
 
 That "more than one slice" cuts both ways: it is a common trap to over-claim the nutrition part of the
 team's results. The headline lifestyle results (see the *Type 2 Diabetes* chapter) came from team-delivered, intensive programmes, not a clinic chat: remission in the DiRECT trial (Diabetes Remission Clinical Trial) ran on a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program reached its prevention effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
@@ -175,15 +176,18 @@ outcomes.
 
 The last part of the role is the one clinicians skip: their own health. Clinicians who look after their
 own diet and activity are observed to counsel more often, and arguably more credibly. The evidence is
-associational, not proof of cause, but it is consistent [@lobelo2015rolemodel; @lianov2010].
+associational, not proof of cause, and mostly on physical activity, but it is consistent [@lobelo2015rolemodel].
 
 A clinician's own habits matter for more than role-modelling. Short sleep shifts the appetite hormones
 (see the *Appetite & Weight Regulation* chapter), raising ghrelin, blunting satiety and pushing intake
-up [@sleepRestriction]. The packed-roster diet of skipped meals, *kopi* and five hours' sleep therefore
+up [@sleepRestriction; @alkhatib2017partialsleep]. The packed-roster diet of skipped meals, *kopi* and five hours' sleep therefore
 works against the clinician's own metabolic health. The remedy is a small, sustainable plan rather than
 an overhaul: one realistic food swap, a sleep anchor (a fixed bedtime or wake time) and a short daily
-walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence, and guarding
-against burnout is a longitudinal skill to keep working at [@lianov2010].
+walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
+staff, poor wellbeing and burnout are associated with poorer patient safety, such as more medical
+errors, although few studies are prospective [@hall2016wellbeing]. Lifestyle-medicine competencies
+also ask clinicians to seek to practise healthy behaviours themselves [@lianov2010], and guarding
+against burnout is a skill to keep working at across a career.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a junior doctor on a packed roster sleeps five hours a night and skips meals. Why does that matter for her own health, as well as for how she counsels?
@@ -213,7 +217,7 @@ and refer it [@mohHealthierSG].
 
 The model is team-based and community-linked. Family doctors can make **social prescriptions**
 (referrals to community programmes such as Health Promotion Board activities, Active Ageing Centres and
-SportSG), and a **tiered dietitian pathway** has clinicians give first-line dietary advice and escalate
+SportSG) [@mohHealthierSG], and a **tiered dietitian pathway** has clinicians give first-line dietary advice and escalate
 complex cases to a registered dietitian [@mohEatWiseSG]. The line between advising and referring is
 therefore built into the health system itself.
 

@@ -80,17 +80,17 @@ questions:
         feedback: "Calcium taken in the same meal can reduce non-haem iron absorption, so a supplement with the meal will not help and may hinder."
 
   - id: q7
-    stem: "A 24-year-old woman is tired, pale, and breathless climbing stairs, with heavy periods. Which deficiency fits best?"
+    stem: "A 20-year-old vegetarian student is tired and pale, has spoon-shaped nails and has started craving ice. Which deficiency fits best?"
     options:
       - text: "Iron-deficiency anaemia"
         correct: true
-        feedback: "Fatigue, pallor and breathlessness in a woman with heavy periods is the classic pattern; heavy menstrual bleeding is a leading cause of iron deficiency."
+        feedback: "Koilonychia (spoon-shaped nails) and pica (craving ice) are signs of iron deficiency, and a vegetarian diet supplies only the less well-absorbed non-haem iron."
       - text: "Vitamin D deficiency"
         correct: false
-        feedback: "Vitamin D deficiency affects bone and does not classically cause pallor and breathlessness."
-      - text: "B12 deficiency from long-term metformin"
+        feedback: "Vitamin D deficiency affects bone and does not classically cause pallor, spoon-shaped nails or pica."
+      - text: "Vitamin B12 deficiency"
         correct: false
-        feedback: "B12 deficiency can cause anaemia, but she is not described as taking metformin, and the heavy periods point to iron loss first."
+        feedback: "B12 deficiency can cause anaemia and is a risk on plant-based diets, but spoon-shaped nails and craving ice point to iron."
 
   - id: q8
     stem: "Which of these is a poor source of absorbable calcium, despite being 'high in calcium'?"

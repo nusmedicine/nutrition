@@ -5,7 +5,7 @@ intro: >
   (–OH) groups.
 molecules:
   - id: cholic-acid
-    name: "Cholic acid (a bile salt)"
+    name: "Cholic acid (a bile acid)"
     sdf: /structures/cholic-acid.sdf
     svg: /structures/cholic-acid.svg
     note: >

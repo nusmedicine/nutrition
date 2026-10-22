@@ -15,7 +15,7 @@ cuisines:
     label: "Chinese"
     options:
       veg:
-        - { label: "A little garnish", quality: poor, start: true, note: "Barely any vegetable: the half-plate is the section most often missing from a real local dinner." }
+        - { label: "A little garnish", quality: poor, start: true, note: "Barely any vegetable: most adults here eat less fruit and vegetables than recommended, so the half-plate is often the section that falls short." }
         - { label: "Side of stir-fried greens", quality: ok, note: "A start, but the greens should fill half the plate, not sit at the edge." }
         - { label: "Half a plate of kai lan / xiao bai cai", quality: good, note: "The vegetable half done properly: leafy greens make up the largest section." }
       grain:

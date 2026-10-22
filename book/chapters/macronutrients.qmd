@@ -69,7 +69,7 @@ more than the word "carb":
 
 Each region of the spectrum has its own place in the diet:
 
-- **Free sugars**, added sugars plus those in syrups and fruit juices, are the carbohydrate to
+- **Free sugars**, added sugars plus those in honey, syrups and fruit juices, are the carbohydrate to
   limit. The WHO caps them at <10% of energy, with further benefit below 5% [@who2020diet]. The
   natural sugar inside whole fruit is not a free sugar and is not the target.
 - **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
@@ -238,8 +238,9 @@ among the best-supported dietary associations with lower disease risk (see the e
 ::: {.callout-note}
 ## 🔬 Food science: the food matrix, why whole beats juiced
 Fibre is part of a food's physical structure, its **food matrix**. Juicing or finely blending fruit
-tears open the plant cell walls that enclosed the sugars, so the same fruit raises glucose faster as
-juice than eaten whole. A glass of juice also carries several fruits' worth of sugar with little of
+tears open the plant cell walls that enclosed the sugars. In a classic study, apple juice was drunk far
+faster than the same carbohydrate as whole apples, satisfied less, and drew a larger insulin response
+followed by a rebound fall in glucose [@haber1977apple]. A glass of juice also carries several fruits' worth of sugar with little of
 the fibre. Intact cell walls slow sugar release; milling grain into fine flour destroys them, part
 of why wholegrains beat refined starch.
 :::
@@ -378,8 +379,7 @@ kinked.
 ## 🔬 Food science: geometry and oxidation
 The *cis* kink in the model above is why olive oil is liquid while *trans* and saturated fats are
 more solid. Heat matters too.
-Overheating oil past its smoke point, or reusing frying oil repeatedly, oxidises it into polar
-compounds and aldehydes; the more polyunsaturated the oil, the faster this happens.
+Overheating oil past its smoke point, or reusing frying oil repeatedly, oxidises and breaks it down into harmful compounds such as aldehydes; polyunsaturated oils are unstable under intense heat [@sfaReusingOils].
 :::
 
 ::: {.callout-tip}
@@ -469,7 +469,8 @@ in detail: see the [*Digestion & Absorption*](digestion-absorption.qmd) chapter;
 metabolism: see the [*Integrative Metabolism*](integrative-metabolism.qmd#sec-amino) chapter.)
 
 **Quality: adequacy and completeness.** A useful population reference is about 0.8 g/kg/day,
-adequate for most healthy adults, though needs rise in older age, illness and athletic training.
+adequate for most healthy adults [@who2007protein], though needs rise in older age, illness
+[@bauer2013protage] and athletic training.
 Protein also has the highest thermic effect of the macronutrients (see the
 [*Energy Balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy
 expenditure and satiety.
@@ -489,8 +490,10 @@ protein foods also supply fibre and unsaturated fat.
 Heat **denatures** protein, unfolding it so enzymes can reach it, which usually makes it easier to
 digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%) [@evenepoel1998egg]. But
 the high-heat browning that adds flavour, the **Maillard reaction**, has a downside. In starchy
-foods it forms **acrylamide**, a genotoxic carcinogen of concern [@efsa2015acrylamide]; in charred
-meat it forms other mutagens, though the human cancer evidence is inconclusive [@nciCookedMeats].
+foods it forms **acrylamide**, a genotoxic carcinogen of concern [@efsa2015acrylamide]; in meat
+cooked at high heat, related reactions of amino acids, sugars and creatine form heterocyclic amines,
+and fat dripping onto a flame adds smoke-borne polycyclic aromatic hydrocarbons; both are mutagens in
+the laboratory, though the human cancer evidence is inconclusive [@nciCookedMeats].
 :::
 
 ::: {.callout-tip}
@@ -525,8 +528,9 @@ that the day's mix supplies all of them: complementary plant proteins cover each
 
 Modern guidelines have moved decisively from "hit this macronutrient ratio" to "eat these foods,
 in this pattern" [@aha2021diet]. There is no single ideal macronutrient split: guidelines
-deliberately avoid prescribing one, and advise individualising and referring to a dietitian where
-needed [@ada2026standards]. Their consistent themes are to favour wholegrains, plants and
+deliberately avoid prescribing one. Diabetes standards, for example, find no ideal percentage of
+energy from carbohydrate, protein or fat, and advise individualising the split and referring to a
+dietitian [@ada2026standards]. Their consistent themes are to favour wholegrains, plants and
 unsaturated fats, and to minimise added sugar, *trans* fat, sodium and ultra-processed foods.
 (Dietary patterns in full: see the [*What a Healthy Diet Looks Like*](dietary-guidelines-patterns.qmd)
 chapter.)
@@ -546,7 +550,7 @@ drink with a plate of white rice, and a bowl of brown rice with vegetables and f
 "carbs", and they are not remotely the same for health. In clinic, the task is to give quality
 guidance ("more wholegrains, fewer free sugars, better fat"), anchor it to My Healthy Plate, and
 refer to a dietitian when a patient wants a restrictive or therapeutic diet [@ada2026standards].
-Prescribing grams is not the task at this stage [@crowley2019].
+Prescribing grams is not the task at this stage.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -567,7 +571,7 @@ difference.
 ## Practise: common questions in one clinic {#sec-case}
 
 Mr Lim arrives with a handful of everyday questions about rice, eggs, cooking oils and his son's
-protein powder. Answer each on quality-over-quantity terms, respond to what he has heard with the
+protein powder. Answer each on quality-and-portion terms, respond to what he has heard with the
 evidence, and know when to refer. Your choices branch the case.
 
 ::: {.callout-tip}

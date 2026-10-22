@@ -69,12 +69,12 @@ questions:
   - id: q6
     stem: "You use the stages-of-change model to tailor your approach. What caveat should you hold?"
     options:
-      - text: "It is a useful heuristic but doesn't reliably predict sustained weight loss"
+      - text: "It is a useful heuristic, not a proven route to weight loss"
         correct: true
         feedback: "The model helps in choosing how to talk, but the evidence that it produces sustained weight loss is low-certainty. Use it to meet a patient where they are, not to label them or forecast success. Present it as a tool, not a proven fact."
       - text: "It reliably predicts success, so focus only on the 'ready' ones"
         correct: false
-        feedback: "This overstates it: the Cochrane evidence that the model produces sustained weight loss is low-certainty, and the model is not a proven predictor of who will succeed. It tailors the style of the conversation, nothing more."
+        feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It tailors the style of the conversation, nothing more."
       - text: "It is proven superior to every other counselling approach"
         correct: false
         feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it is far from a proven-best method."

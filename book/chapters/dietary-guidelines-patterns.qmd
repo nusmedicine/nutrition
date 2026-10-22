@@ -51,7 +51,7 @@ whole dietary pattern (see the *Why Nutrition Matters* chapter). Modern guidelin
 direction, and that shift is why they agree with each other far more than they differ. Reading that
 shared pattern and adapting it to a patient's cuisine is the clinician's task. Writing therapeutic meal
 plans or prescribing gram targets is a dietitian's work, and knowing where that boundary sits is part
-of the clinical skill [@crowley2019].
+of the clinical skill [@afn2021curriculum].
 
 ## Dietary guidelines and plate models {#sec-guidelines}
 
@@ -76,7 +76,7 @@ active [@hpbHealthyPlate].
 
 The plate leaves out calorie counting, grams and forbidden foods. It is proportional and motivational:
 a picture to aim at, with no arithmetic. That is a deliberate design choice for first-line public
-messaging. My Healthy Plate dates from 2014 (the page was refreshed in 2024); it remains current
+messaging. My Healthy Plate dates from 2014 [@hpb2014plate] (the HealthHub page was last reviewed in 2025); it remains current
 national guidance.
 
 ::: {.callout-note}
@@ -106,7 +106,7 @@ Hydration & Electrolytes* chapters):
 ::: {.callout-warning}
 ## Guidelines evolve and are debated
 Guidance is a moving, contested consensus, not fixed truth. A new 2025–2030 edition of the US
-guidelines was released in January 2026 and drew immediate expert criticism over its handling of
+guidelines was released in January 2026 [@dga2025] and drew immediate expert criticism over its handling of
 saturated fat and protein. For now, the stable 2020–2025 edition is the reference here. The debate is
 itself a live case study in how dietary evidence is argued (see the *Evidence vs Hype* chapter).
 :::
@@ -114,7 +114,9 @@ itself a live case study in how dietary evidence is argued (see the *Evidence vs
 ### Where the guidelines converge {#sec-convergence}
 
 Side by side, the guidelines disagree on very little. A global review of 90 national food-based dietary
-guidelines found nearly universal messages [@herforth2019fbdg]:
+guidelines found some messages nearly universal: eat a variety of foods, eat fruit, vegetables and
+legumes, and limit sugar, fat and salt [@herforth2019fbdg]. The four guidelines compared here share a
+slightly longer list, read from each one's own text [@hpbHealthyPlate; @who2020diet; @aha2021diet; @dga2020]:
 
 | Shared message | My Healthy Plate | WHO | AHA 2021 | US DGA |
 |---|:---:|:---:|:---:|:---:|
@@ -125,7 +127,7 @@ guidelines found nearly universal messages [@herforth2019fbdg]:
 | Limit free/added sugar | ✓ | ✓ | ✓ | ✓ |
 | Limit salt | ✓ | ✓ | ✓ | ✓ |
 | Prefer unsaturated over saturated/*trans* fat | ✓ | ✓ | ✓ | ✓ |
-| Limit ultra-processed foods | not stated | ✓ | ✓ | ✓ |
+| Limit ultra-processed foods | not stated | ✓ | ✓ | not stated |
 
 The wording and the pictures differ; the substance is the same short list. When a patient asks "which
 diet is right?", the answer is reassuring: the guidelines broadly agree, and the agreement is
@@ -142,10 +144,10 @@ same, so a large plate and a small one are both on target when each keeps those 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has read that WHO, the AHA and the US guidelines all say different things. What follows for the advice you give?
 The guidelines differ in wording and pictures, but their substance is the same short list: a review of
-90 national food-based guidelines found nearly universal messages. Advice can therefore rest on that
-shared core (variety, plenty of fruit and vegetables, wholegrains, legumes, limits on free sugar and
-salt, and unsaturated fat in place of saturated and *trans* fat), whichever guideline the patient has
-read.
+90 national food-based guidelines found variety, fruit and vegetables, legumes and limits on sugar,
+fat and salt nearly universal, and the major guidelines add wholegrains and unsaturated fat in place
+of saturated and *trans* fat. Advice can therefore rest on that shared core, whichever guideline the
+patient has read.
 :::
 
 ## Dietary patterns versus single nutrients {#sec-patterns}
@@ -162,8 +164,7 @@ An orange behaves differently from a vitamin-C tablet plus fibre plus sugar.
 The pattern view also disarms the perennial "is [food] good or bad now?" question. Butter, eggs,
 coffee, red meat: asked in isolation, each generates a decade of contradictory headlines. Asked as
 "what pattern is this part of?", the noise settles. Asking about one food in isolation is the wrong
-question, a trap known as single-nutrient reductionism (see the *Why Nutrition Matters* and *Evidence
-vs Hype* chapters).
+question, a trap known as single-nutrient reductionism (see the *Why Nutrition Matters* chapter).
 
 ::: {.callout-note}
 ## How strong is the case for patterns over single nutrients?
@@ -272,7 +273,7 @@ the evidence behind it:
 | Diet | What the evidence shows | Verdict |
 |---|---|---|
 | Low-carb / ketogenic | Real, fast early weight loss that attenuates after a few months; adherence is hard, LDL cholesterol can rise, and most of the trial evidence is low-certainty [@keto2023umbrella] | A tool, not a cure |
-| Intermittent fasting / time-restricted eating | A genuine circadian rationale, but head-to-head trials show it is no better than ordinary calorie restriction; it helps whoever it helps to eat less | A reasonable structure for some, not a metabolic reset |
+| Intermittent fasting / time-restricted eating | A genuine circadian rationale, but head-to-head trials show it is no better than ordinary calorie restriction [@liu2022tre; @lin2023tre]; it helps whoever it helps to eat less | A reasonable structure for some, not a metabolic reset |
 | Paleo, "clean eating" and similar | They usually "work" to the extent that they cut ultra-processed food and added sugar, while excluding whole food groups such as dairy, grains and legumes | The cuts help; the exclusions are unnecessary and risk nutrient gaps |
 | Plant-based / vegetarian | The one popular pattern that aligns with the guidelines' plant-predominant message | Healthful when well planned; mind vitamin B12 |
 
@@ -385,18 +386,18 @@ set of principles to adapt, not a menu to impose.
 
 ## Is there one best diet? {#sec-close}
 
-No single diet is best. A healthy diet is a pattern that keeps the shared core on which nearly every
-national guideline converges: mostly plants and whole foods, wholegrains in place of refined staples,
+No single diet is best. A healthy diet is a pattern that keeps the shared core on which the major
+guidelines converge: mostly plants and whole foods, wholegrains in place of refined staples,
 unsaturated fats, and little free sugar and salt. Among the patterns that meet it, the best for a
 patient is the one they will keep eating, which is usually their own cuisine rebuilt to the plate.
-When a plan has to become therapeutic or restrictive, it passes to a dietitian [@crowley2019].
+When a plan has to become therapeutic or restrictive, it passes to a dietitian [@afn2021curriculum].
 
 ## The Singapore picture {#sec-singapore}
 
 The emphasis on wholegrains, sugary drinks and salt follows from where Singapore's diet falls short.
 The National Nutrition Survey 2022 found that only about 4% of the staples Singaporeans eat are
 wholegrain, against the quarter-plate the guideline asks for, and that roughly nine in ten residents
-exceed the recommended sodium intake [@mohNNS2022]. The two highest-yield moves are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap and the water-over-sugary-drink swap are the two
+exceed the recommended sodium intake; sugar-sweetened drinks are the single biggest source of dietary sugar, supplying about half of it [@mohNNS2022]. The two highest-yield moves are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap and the water-over-sugary-drink swap are the two
 swaps that matter most in the local diet.
 
 The plate's adaptability to each cuisine is also a cultural strength. Singapore's three major

@@ -42,15 +42,15 @@ The two musculoskeletal questions a generalist hears most often, *"what should I
 silent until a bone breaks) is common and costly: Singapore's hip-fracture *rate* is falling, but the *count*
 keeps rising with ageing [@koh2001hipfracSG; @chandran2019burdenSG]. Knee **osteoarthritis** (worn, painful
 joint cartilage) and **gout** (a metabolic disease in which uric acid crystals inflame the joint) are common
-too, and supplements are heavily marketed for both [@leung2018sgkoa]. For bone, calcium, vitamin D and
+too [@leung2018sgkoa; @lee2023sggout], and supplements are heavily marketed for both. For bone, calcium, vitamin D and
 protein are strong, correctable factors; for the joints, the answer is usually to lose weight, skip the
 supplement and refer.
 
 Four principles apply throughout:
 
-- Peak bone mass is essentially set by the late twenties, and only about 20–40% of it is modifiable by
+- Peak bone mass is reached in young adulthood (from the late teens to the thirties, depending on the skeletal site), and only about 20–40% of it is modifiable by
   lifestyle, a real but bounded influence: peak bone mass is built in youth, and the rate of later bone loss matters for
-  the rest of life [@nofPeakBoneMass2016].
+  the rest of life [@nof_weaver_2016_pbm_position].
 - What counts is how much calcium is absorbed (its bioavailability), not the number on the label, and a
   multi-ethnic, partly lactose-intolerant population can meet its needs without milk
   [@weaverVegCalcium1999; @healthhubCalciumSG].
@@ -92,10 +92,11 @@ Formation and resorption continue throughout life, a process called bone turnove
 resorption-then-formation cycle is called bone remodelling, and it dominates in the adult skeleton. The balance
 between the two sets whether bone mass rises or falls, often pictured as deposits into and withdrawals from a
 bank account. Through childhood and puberty, formation
-outpaces resorption, so bone mass rises to its peak. Peak bone mass is mostly inherited and is reached by the
-late twenties, with about 90% of it laid down by the end of adolescence. After the peak, resorption gradually
-exceeds formation, and bone mass falls for the rest of life
-[@hereford2024peakBoneMass; @bailey1999saskatchewanAccrual]. This loss begins in young adulthood in both
+outpaces resorption, so bone mass rises to its peak. Peak bone mass is mostly inherited; about 90% of it is
+laid down by the end of adolescence, and the peak itself is reached in young adulthood, from the late teens
+at the hip to the thirties at the spine. After the peak, resorption gradually exceeds formation, and bone
+mass falls for the rest of life [@hereford2024peakBoneMass; @bailey1999saskatchewanAccrual;
+@nof_weaver_2016_pbm_position]. This loss begins in young adulthood in both
 sexes, so the modifiable factors matter across the whole life course, long before menopause as well as after
 it [@riggs2008boneLossSites]. (The adolescent bone-building window, and the low energy availability that can
 blunt it, are covered in the [*Childhood & Adolescence*](childhood-adolescence.qmd) chapter.)
@@ -133,7 +134,7 @@ chapter.)
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does building a higher peak in youth protect against osteoporosis decades later?
-After the late twenties, resorption gradually outpaces formation, so everyone's bone mass falls for the
+After the peak in young adulthood, resorption gradually outpaces formation, so everyone's bone mass falls for the
 rest of life. Starting from a higher peak means bone density takes longer to fall to the osteoporosis
 threshold: in a model, a 10% higher peak delays onset by about 13 years, more than a later menopause or
 slower loss. The gain is years of delay, not a percentage cut in fractures.
@@ -150,6 +151,7 @@ Singapore's calcium requirements run across the life course, plus a raised need 
 | Adolescents (10–18) | 1,000 |
 | Adults 19–50 | 800 |
 | Adults 51 and over | 1,000 |
+| Pregnancy and lactation | 1,000 |
 
 Mean local intake is about 794 mg/day [@hpbNNS2010]. That is among the highest in Asia, where most countries
 fall below 400–500 mg, but still under the requirement [@balkGlobalCalcium2017], and the gap widens with age:
@@ -194,14 +196,16 @@ following cuts skin synthesis of vitamin D [@nimitphong_2013_vitd_sea; @maclaugh
 - cosmetic sun avoidance;
 - covering and veiling;
 - darker skin pigmentation;
-- age, which more than halves the skin's capacity to make vitamin D.
+- age (in classic laboratory work, skin from people in their late seventies made less than half as much
+  vitamin D as young skin, though newer work questions how large that effect is [@borecka2024skin7dhc]).
 
 The burden is unequal: Indian and Malay women have several-fold higher odds of deficiency than Chinese women,
 which makes deficiency an equity issue [@cheong2021vitDsg].
 
 Common deficiency does not justify testing and dosing everyone. Few foods contain vitamin D naturally (oily
-fish is the best) [@odsVitaminD], and the Endocrine Society guideline now advises against routine testing and
-empiric supplementation in otherwise healthy adults [@demay2024endoSocVitD]. HPB's own vitamin D reference
+fish is the best) [@odsVitaminD], and the Endocrine Society guideline now suggests against routine testing, and
+against empiric doses above the US Dietary Reference Intake in healthy adults under 75, while suggesting
+empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference
 intake is a modest 2.5 µg (100 IU) because it assumes some sun exposure [@hpb_healthhub_rda]. Insufficiency by
 the laboratory cut-off is common, but the response is to find and correct genuine shortfall in higher-risk
 people (those who cover up, stay indoors, are older or are pregnant) rather than to blanket-dose the
@@ -237,8 +241,9 @@ potassium, magnesium and vitamin K), a reliable calcium source, enough protein a
 ## Mechanical loading: the strongest modifiable factor
 Diet supports both building peak bone mass and slowing its later loss, but the strongest modifiable signal to
 bone is mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & Midlife Health*
-chapter. In a trial, supervised high-intensity resistance and impact training raised bone density in
-postmenopausal women with low bone mass, safely [@watson2018liftmor]. Nutrition and loading are partners
+chapter. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact
+training improved bone density more than a low-intensity home programme in postmenopausal women with low
+bone mass, with only one minor adverse event [@watson2018liftmor]. Nutrition and loading are partners
 (calcium is the substrate, loading is the signal to use it). When you advise a patient, name exercise as part
 of the plan and leave the detailed prescription to physical-activity guidance; HPB's own public message pairs
 a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009].
@@ -259,8 +264,9 @@ suggest:
 
 ### Supplements: for deficiency, not for everyone {#sec-bone-supplements}
 
-Calcium and vitamin D supplements cut fractures in people who are genuinely deficient or institutionalised,
-by roughly 15% for all fractures and 30% for hip fractures in that group [@weaver2016cavitd]. In
+Calcium and vitamin D supplements together can cut fractures: one meta-analysis pooling trials in
+community-dwelling and institutionalised adults found roughly 15% fewer fractures overall and 30% fewer hip
+fractures, with the clearest effect in the two trials in institutional care [@weaver2016cavitd]. In
 already-replete, community-dwelling older adults, however, large trials and pooled analyses find no fracture
 benefit, and a small increase in kidney stones [@zhao2017cavitdNoBenefit; @leboff2022vitalFractures;
 @uspstfCalcium2018]. The message is therefore food first: correct genuine deficiency, and reserve supplements
@@ -311,8 +317,10 @@ supplements, are no better than placebo for pain or joint structure in the major
 College of Rheumatology (ACR), the Osteoarthritis Research Society International (OARSI), the National
 Institute for Health and Care Excellence (NICE) and Singapore's Agency for Care Effectiveness (ACE)
 [@kolasinski2020acr; @bannuru2019oarsi; @nice2022ng226; @aceKneeOA2026]. The one dissenting voice, the
-European ESCEO group (a musculoskeletal-disease society), makes a case for a specific patented formulation,
-an industry-linked minority position that independent panels reviewed and did not accept [@bruyere2018esceo].
+European ESCEO group (a musculoskeletal-disease society), makes a case for a specific patented formulation
+[@bruyere2018esceo]. It remains a minority position: the ACR panel noted that pharmaceutical-grade
+preparations have been studied, flagged discrepancies between industry-sponsored and publicly funded trials,
+and still advised strongly against glucosamine [@kolasinski2020acr].
 Other popular pills (vitamin D, collagen, curcumin) fare no better, with negative or very-low-quality evidence
 in osteoarthritis [@mcalindon2013vitd; @lin2023collagenoa].
 
@@ -354,7 +362,8 @@ patients never reach that target [@lee2023sggout; @oka2023goutcontrol].
 
 When you counsel a patient with gout, the message runs: "It is not your fault. Don't starve yourself of
 protein and vegetables, cut the beer and sugary drinks if you like, and take the medication to target."
-(Obesity and insulin resistance, the metabolic drivers of gout, are covered in the
+(Obesity is linked to a higher risk of gout, and the ACR guideline conditionally recommends weight loss for
+patients with gout who are overweight [@fitzgerald2020goutacr]; obesity itself is covered in the
 [*Obesity & Metabolic Syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
 
 ### Rheumatoid arthritis: nutrition as an adjunct {#sec-bone-ra}

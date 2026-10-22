@@ -69,11 +69,11 @@ Starvation-related malnutrition
 : Malnutrition from a pure intake deficit, without inflammation.
 
 Chronic disease-related malnutrition
-: Malnutrition with mild-to-moderate inflammation, as in heart failure, cancer or kidney disease.
+: Malnutrition with mild-to-moderate inflammation, as in heart failure, cancer or kidney disease; also
+  called cachexia (illness-driven wasting of muscle, often with loss of fat).
 
 Acute disease- or injury-related malnutrition
-: Malnutrition with severe inflammation, as in acute illness or injury; the cachexia end of the range
-  (cachexia is illness-driven wasting of muscle, often with loss of fat).
+: Malnutrition with severe inflammation, as in acute illness or injury.
 
 Inflammation drives catabolism and blunts appetite (for how appetite is regulated, see the *Appetite &
 Weight Regulation* chapter). **Disease-related malnutrition**, the chronic and acute types together,
@@ -153,7 +153,8 @@ settings, and all do the same job of flagging risk for referral:
 - NRS-2002 (Nutritional Risk Screening 2002), for hospital inpatients [@kondrup2003nrs2002];
 - the MNA-SF (Mini Nutritional Assessment short form), for older adults [@rubenstein2001mnasf;
   @kaiser2009mnasf];
-- the WHO ICOPE (Integrated Care for Older People) vitality question, in the community [@whoIcope];
+- the WHO ICOPE (Integrated Care for Older People) vitality screen (two questions, on unintended weight
+  loss and loss of appetite), in the community [@whoIcope];
 - 3-MinNS (3-Minute Nutrition Screening), developed in Singapore [@lim2009minns].
 
 ::: {.callout-important}
@@ -309,12 +310,12 @@ team- and specialist-led.
 ## The Singapore picture {#sec-singapore}
 
 **Undernutrition begins in the community, not the ward.** In the population-based Singapore Longitudinal
-Ageing Studies, about 1 in 4 community-dwelling older adults (27.6%) were at malnutrition risk and nearly
+Ageing Studies, more than 1 in 4 community-dwelling older adults (27.6%) were at malnutrition risk and nearly
 half were pre-frail [@wei2017slasFrailty]. Malnutrition and frailty are related but distinct, and they
-frequently co-occur. The harm concentrates where they co-occur: poor nutrition combined with frailty raised
-mortality several-fold in the local cohort, whereas poor nutrition alone was a weaker signal
-[@wei2018slasOutcomes]. The practical frame is to screen the frail senior for malnutrition specifically.
-Nationally, about 1 in 4 older adults fall below minimum energy needs and about half below protein needs,
+frequently co-occur. The harm concentrates where they co-occur: in the local cohort, poor nutrition combined with
+pre-frailty or frailty carried the highest death rate and about 1.7 times the mortality risk after
+adjustment, whereas poor nutrition alone showed no clear excess [@wei2018slasOutcomes]. The practical frame is to screen the frail senior for malnutrition specifically.
+Nationally, about 1 in 4 adults aged 50 to 69 fall below minimum energy needs and about half below protein needs,
 and standardised screening in polyclinics and Active Ageing Centres is under active discussion: a direction
 of travel, not a settled mandate [@mohMalnutritionTracking2025; @mohPolyclinicScreening2026].
 

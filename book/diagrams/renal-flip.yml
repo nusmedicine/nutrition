@@ -47,7 +47,7 @@ items:
         kind: avoid
         badge: "Dangerous"
         why: >-
-          That trial excluded serious kidney disease and potassium-raising drugs; the
+          That trial excluded serious kidney disease and people taking potassium-sparing diuretics or potassium supplements; the
           potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first, and
           if unsure, don't.
   - id: dash

@@ -20,7 +20,7 @@
     id: 'bone-window',
     title: 'The bone bank: a window that closes',
     intro:
-      'Most of the bone you carry as an adult is banked in the few years around the pubertal growth spurt. Scrub the age, then toggle the levers — watch the bank fill, then plateau for life.',
+      'Roughly two-fifths of adult bone mineral is laid down in the few years around the pubertal growth spurt. Scrub the age, then toggle the levers: watch the bank fill, then plateau.',
     ageMin: 8,
     ageMax: 25,
     windowFrom: 11,
@@ -133,10 +133,10 @@
     if (!data) return '';
     if (threatOn) return data.threat.why;
     const activeLever = levers.find((l) => on[l.key]);
-    if (age >= 20) return 'The window has essentially closed — the bank is now defended, not filled. What you banked by the early twenties is what you carry.';
-    if (age >= (data.windowFrom || 11) && age <= (data.windowTo || 16)) return 'You are inside the window: accrual is at its steepest. This is where activity and calcium buy the most bone.';
+    if (age >= 20) return 'The window has essentially closed: from here bone is mostly maintained, not built, and the bone gained by the early twenties is the starting point for later loss.';
+    if (age >= (data.windowFrom || 11) && age <= (data.windowTo || 16)) return 'Inside the window, accrual is at its steepest. This is where activity and calcium build the most bone.';
     if (activeLever) return activeLever.why;
-    return 'Before puberty the bank fills slowly. The steep climb — and the biggest opportunity — is still ahead.';
+    return 'Before puberty the bank fills slowly. The steep climb, and the biggest opportunity, is still ahead.';
   });
 </script>
 

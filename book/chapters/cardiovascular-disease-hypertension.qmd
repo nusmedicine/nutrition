@@ -34,8 +34,8 @@
 
 ## Cardiovascular disease & hypertension at a glance {#sec-overview}
 
-Two facts set the stakes. Cardiovascular disease causes about a third of all deaths in Singapore, and
-roughly one in three adults has **hypertension** (persistently raised blood pressure), over half of them
+Two facts set the stakes. Cardiovascular disease causes about 30% of all deaths in Singapore, and
+roughly one in three adults has **hypertension** (persistently raised blood pressure), just over half of them
 undiagnosed [@shfHeartStats2024; @nphs2024]. The response is population-scale **primary prevention**
 (preventing disease before it develops), delivered lifestyle-first.
 
@@ -126,8 +126,9 @@ pattern on their own achieve less, with pooled trials nearer 3–7/2–4 mmHg [@
 DASH works through the whole-food matrix (potassium, magnesium and fibre together), which beats the
 matched supplements, so the advice is *potassium-rich produce, not pills* [@alsolaiman2010dashmechanism].
 DASH also adds to salt reduction: in DASH-Sodium, each change lowered blood pressure on its own, and the
-two together lowered it most [@sacks2001dashsodium]. In Singapore, DASH *is* My Healthy Plate: half the
-plate fruit and vegetables, a quarter wholegrains, a quarter lean protein.
+two together lowered it most [@sacks2001dashsodium]. In Singapore, My Healthy Plate carries the core of
+DASH into everyday meals: half the plate fruit and vegetables, a quarter wholegrains, a quarter lean
+protein [@hpbHealthyPlate].
 
 ### Sodium reduction and potassium intake {#sec-cvd-sodium}
 
@@ -148,10 +149,10 @@ strokes and deaths [@neal2021ssass]. It is not safe for everyone.
 ::: {.callout-warning}
 ## Check the kidneys before a potassium salt substitute
 Potassium-based salt substitutes are helpful for *most* people, but the trial that proved they work
-**excluded people with serious kidney disease and those on potassium-raising drugs**
-(angiotensin-converting enzyme or ACE inhibitors, angiotensin receptor blockers or ARBs, and
-potassium-sparing diuretics) [@neal2021ssass]. In these
-people, extra potassium can cause dangerous hyperkalaemia, a high blood potassium that can disturb heart
+**excluded people with serious kidney disease and those taking potassium-sparing diuretics or
+potassium supplements** [@neal2021ssass]. Two other common blood-pressure drugs also raise blood
+potassium: angiotensin-converting enzyme (ACE) inhibitors and angiotensin receptor blockers (ARBs). In
+all of these people, extra potassium can cause dangerous hyperkalaemia, a high blood potassium that can disturb heart
 rhythm. So before recommending one, check for kidney disease and those medications, and if in doubt,
 don't. (For the renal side of potassium, see the *Chronic Kidney Disease* chapter.)
 :::
@@ -199,8 +200,8 @@ replacing it specifically with polyunsaturated fat cuts them by roughly 30%, abo
 **statin**, a cholesterol-lowering drug [@mensink2003; @hooper2020; @sacks2017].
 
 The widely reported "saturated fat has been exonerated" headlines came from studies that did not say what
-the fat was replaced with, and when the replacement is refined carbohydrate and sugar, there is no benefit
-[@siritarino2010]. The question to ask of every swap is therefore "replaced with what?": butter or palm oil
+the fat was replaced with [@siritarino2010], and when the replacement is refined carbohydrate and sugar,
+there is no benefit [@sacks2017]. The question to ask of every swap is therefore "replaced with what?": butter or palm oil
 for olive or canola oil, yes; butter for white bread, no. Try each replacement below.
 
 <div data-island="fat-swap" data-src="/diagrams/fat-swap.yml"></div>
@@ -244,8 +245,9 @@ randomisation studies, which use genetic variants to remove that bias, find risk
 no protective threshold [@biddinger2022mralcohol], and health bodies now state that there is no safe
 level [@who2023nosafelevel].
 
-Cutting down does lower blood pressure, dose-dependently and most in heavy drinkers, and it lowers
-triglycerides [@roerecke2017bp]. Alcohol reduction is therefore a cardiovascular measure for people who
+Cutting down does lower blood pressure, dose-dependently and most in heavy drinkers
+[@roerecke2017bp], and because heavy drinking raises triglycerides, cutting down or stopping is the
+standard advice when they are high [@klop2013alcoholtg]. Alcohol reduction is therefore a cardiovascular measure for people who
 drink, but never a reason for anyone to start. Singapore's low-risk guidance caps intake at about two
 standard drinks a day for men and one for women (a standard drink is about 10 g of alcohol), a
 harm-reduction ceiling, not a "safe" target [@mohAlcoholLimits2018].
@@ -289,12 +291,12 @@ vegetables and a *teh-o kosong*.
 
 **The burden is large, and much of it is silent.** Cardiovascular disease is Singapore's leading cause of
 death, about 30% of deaths [@shfHeartStats2024]. Measured hypertension, a silent driver of that burden,
-affects about 34% of adults, but about half of them are undiagnosed and most known cases are not well
+affects about 34% of adults, but just over half of them are undiagnosed and most known cases are not well
 controlled [@nphs2024]. The gap between self-reported and measured hypertension is the case for screening
 a disease that has no symptoms.
 
 **The dietary changes have national counterparts.** Sodium is the priority ([above](#sec-cvd-sodium)),
-and national measures target it: a 15%-by-2026 reduction target, subsidies for reduced-sodium
+and national measures target it: a target to cut intake by 15% by 2026, subsidies for reduced-sodium
 ingredients, and the Nutri-Grade extension to sauces and instant noodles [@hpb2023sodium;
 @moh2025nutrigrade]. For fats, cooking oil is the single largest local source of saturated fat, so the
 change to make at home is the type of oil and less deep-frying [@moh2025nutrigrade]. My Healthy Plate is

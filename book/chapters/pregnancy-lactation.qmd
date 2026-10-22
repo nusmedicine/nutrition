@@ -59,7 +59,7 @@ The interactive figure below shows how the requirements change across the stages
 
 ### Preconception nutrition {#sec-preg-preconception}
 
-The most important nutrition window opens before conception. The neural tube closes by about 28 days,
+The most important nutrition window opens before conception. The neural tube closes by about 28 days after conception,
 often before a woman knows she is pregnant, so folic acid has to be running already (the folate
 science is in the *Micronutrients, Hydration & Electrolytes* chapter). The usual dose is about
 400 µg/day of folic acid; higher-risk women need 4–5 mg/day (those with a previous
@@ -75,9 +75,10 @@ in fact modest and concentrated in the second and third trimesters: roughly noth
 the second and +450 kcal/day in the third, and measured expenditure often rises even less than that
 [@savard2020energy]. It is one extra snack, not a second dinner.
 
-Lactation is the one stage where the phrase nearly fits. Making milk costs about 670 kcal a day;
+Lactation asks only a little more. Making milk costs about 675 kcal a day;
 about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra
-requirement of roughly 450–500 kcal/day, with more fluid too [@faoEnergy2004]. Pregnancy fat gain is
+requirement of roughly 500 kcal/day, little more than in the third trimester, with more fluid too
+[@faoEnergy2004]. Pregnancy fat gain is
 therefore an energy reserve laid down for breastfeeding.
 
 Weight gain in pregnancy has a target range set by pre-pregnancy BMI: about 12.5–18 kg for women who
@@ -106,7 +107,8 @@ Haemodilution does not rule out true iron deficiency, which is common even in Si
 three-quarters of Singaporean women are iron-deficient by the early third trimester
 [@loy2019ironSG]. Requirements rise for the expanding red-cell mass and the foetus's own stores (the
 nutrient basics are in the *Micronutrients, Hydration & Electrolytes* chapter). Daily oral iron
-(WHO: 30–60 mg with folic acid) reduces maternal anaemia and low birth weight [@penarosas2015iron].
+(WHO: 30–60 mg elemental iron with folic acid [@whoAntenatal2016]) reduces maternal anaemia and iron
+deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
 The practical problem is adherence, because iron's gut side-effects are where supplementation fails.
 Three measures help:
 
@@ -124,14 +126,17 @@ Beyond folate and iron, a short list of nutrients carries most of the weight:
   early foetus depends entirely on the mother [@bath2013iodine]. Singapore's salt iodisation is
   voluntary, so iodine status cannot be assumed, and iodised salt is a sensible default
   [@codling2017iodine].
-- Calcium needs barely rise, because intestinal calcium absorption roughly doubles in pregnancy
-  [@kovacs2016mineral]. An adequate baseline intake is enough.
+- Calcium needs barely rise, because intestinal calcium absorption roughly doubles in pregnancy,
+  meeting the foetal demand without the mother having to eat much more [@kovacs2016mineral].
+  Singapore's allowance still rises modestly, from 800 to 1,000 mg/day for adult women who are
+  pregnant or breastfeeding [@hpbRDACalcium], so the target is simply an adequate intake.
 - Vitamin D supplementation probably lowers the risk of pre-eclampsia and gestational diabetes, but
   the evidence was recently downgraded, so the advice is modest; deficiency is common in Singapore
   despite the sun [@palacios2024vitD; @sgVitDeficiency].
-- **Choline** supports foetal brain development, and most pregnant women fall short of it;
-  **docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces preterm birth
-  [@middleton2018omega3; @caudill2018choline].
+- **Choline** may support foetal brain development, though the human evidence so far comes from small
+  trials [@caudill2018choline], and most pregnant women in US surveys fall short of it
+  [@wallace2017choline]; **docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces
+  preterm birth [@middleton2018omega3].
 
 Vitamin A is the one nutrient here for which the pregnancy advice is an upper limit, not a minimum
 intake, because excess harms. High-dose preformed retinol (supplements, liver) is teratogenic, while
@@ -145,13 +150,15 @@ or raw egg, including raw egg stirred into porridge), cold deli meats and unpast
 of *Listeria*), and limit the big predatory fish (shark, swordfish, marlin, and tuna sashimi) for
 mercury. Avoiding fish altogether over-corrects, though: low seafood intake tracks with worse child
 neurodevelopment [@hibbeln2007seafood], so eat 2–3 servings a week of low-mercury fish instead. Keep
-the everyday drinks in view for caffeine: kopi, teh, Milo and bubble tea all count toward the daily
-cap.
+the everyday drinks in view for caffeine: kopi, teh, Milo and bubble tea all count toward a daily
+cap of about 200 mg [@efsa2015caffeine], a pragmatic line, since pregnancy-loss risk appears to rise
+steadily with intake [@chen2016caffeine]. Alcohol is best avoided altogether, because no safe amount
+in pregnancy is known [@cdcAlcoholPregnancy].
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a woman planning a pregnancy means to start folic acid once her test is positive. Why is that too late?
-The neural tube closes by about 28 days, often before a woman knows she is pregnant, so folic acid
+The neural tube closes by about 28 days after conception, often before a woman knows she is pregnant, so folic acid
 started after a positive test can miss the window it protects. It has to be running before
 conception: about 400 µg/day for most women, and 4–5 mg/day for those at higher risk.
 :::
@@ -209,13 +216,16 @@ Maternal glucose crosses to the foetus and stimulates the foetal pancreas to sec
 That insulin drives **macrosomia** (foetal overgrowth) before birth and, once the maternal glucose
 supply is cut at delivery, leaves the baby briefly hypoglycaemic. The mother, in turn, carries a
 roughly seven-fold future risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose
-test at 4–12 weeks** and lifelong vigilance. That link is why GDM sits inside Singapore's
+test at 6–12 weeks**, then a diabetes check every 1–3 years for life [@aceGDM2018]. That link is why GDM sits inside Singapore's
 *War on Diabetes* [@mohWarOnDiabetes].
 ::::
 
-First-line management of GDM is dietary, and it works best within a woman's usual food. A local
-"seafood-and-noodle" pattern was protective [@gustoDietGDM], which supports familiar swaps over an
-unfamiliar regimen: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B
+First-line management of GDM is lifestyle, with diet at its centre, and medication is added only when
+that does not control glucose; managed this way, GDM carries fewer complications such as
+pre-eclampsia, macrosomia and shoulder dystocia (the baby's shoulder lodging during birth) [@aceGDM2018]. Diet works best within a woman's usual
+food: in the local GUSTO cohort, women eating a "seafood-and-noodle" pattern were less likely to have
+GDM [@gustoDietGDM], a sign that a healthy pattern can be built from familiar dishes. That supports
+familiar swaps over an unfamiliar regimen: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B
 drink for a sweetened one. When diet is not enough, care moves to the obstetric and diabetes team
 (see [Recognising trouble, and when to refer](#sec-preg-refer)).
 
@@ -248,14 +258,16 @@ Milk nutrients dependent on maternal intake
 The mother whose baby is most at risk is the vegan or strict vegetarian mother. She can look perfectly well while
 producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]; what
 follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer). (Milk is
-naturally low in vitamin D whatever the mother eats, which is why the infant is supplemented; the
+low in vitamin D at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]; this is why the infant is supplemented directly, and the
 dose is in the *Infancy & Early Childhood* chapter.)
 
 Three practical points concern what reaches the milk, or what is taken to boost it:
 
 - Alcohol passes into milk, and only time clears it, so "pump and dump" relieves fullness but does not
-  remove alcohol; the advice is to feed before a drink, or to wait.
-- Caffeine up to about 200–300 mg a day is compatible with breastfeeding.
+  remove alcohol; the advice is to feed before a drink, or to wait 2 to 2.5 hours per drink
+  [@lactmedAlcohol].
+- Caffeine up to about 200–300 mg a day is compatible with breastfeeding, with less for a preterm or
+  newborn baby, who clears it slowly [@lactmedCaffeine].
 - The "milk-boosting" soups and herbs are **galactagogues** (substances, often foods or herbs, taken
   to raise milk supply), and the evidence that any galactagogue raises supply is weak; frequent,
   effective milk removal is what drives production [@foong2020galactagogue]. The practice can be
@@ -298,7 +310,7 @@ The findings that change the plan, and the action each one calls for:
 | Severe, persistent vomiting with weight loss, dehydration and ketosis (hyperemesis gravidarum) | Refer; give thiamine before any glucose or dextrose |
 | A positive 75 g glucose tolerance test at 24–28 weeks | Diet first; refer to the obstetric and diabetes team when diet is not enough (insulin and glucose targets are an endocrinology matter, not a first-consult task) |
 | A mid-pregnancy haemoglobin below the pregnancy-specific cut-off | Check ferritin before giving iron |
-| Gestational diabetes in this pregnancy | Arrange a postpartum glucose test at 4–12 weeks, then lifelong vigilance |
+| Gestational diabetes in this pregnancy | Arrange a postpartum glucose test at 6–12 weeks, then a check every 1–3 years |
 | A vegan or strict vegetarian mother who is breastfeeding | Start B12 supplementation and refer to a dietitian |
 
 ::: {.callout-tip collapse="true"}
@@ -314,8 +326,9 @@ referral, not reassurance.
 
 No. Advising her to eat for two does harm, because excess weight gain carries its own risks. The
 energy cost of pregnancy is about one extra snack a day, and only from the second trimester, so what
-matters is the quality of her diet, not its quantity. Lactation comes nearest: making milk costs
-about 670 kcal a day, though fat laid down in pregnancy covers part of it.
+matters is the quality of her diet, not its quantity. Lactation asks only a little more: making milk
+costs about 675 kcal a day, but fat laid down in pregnancy covers about 170 kcal of it, leaving a net
+extra of about 500 kcal, close to the third-trimester figure.
 
 ## The Singapore picture: confinement {#sec-singapore}
 

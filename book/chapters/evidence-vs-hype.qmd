@@ -36,7 +36,7 @@
 ## Evidence appraisal at a glance {#sec-overview}
 
 Advising the healthy means fielding a steady stream of claims, most of them overstated, a few
-containing a real signal. Graduates say this is where they feel least equipped [@crowley2019]. The
+containing a real signal. Medical students and recent graduates often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The
 transferable skill is to stop reacting to a claim and start appraising it.
 
 The common trap is to swing between two failures: swallowing whatever is trending, or turning
@@ -131,8 +131,8 @@ Most overstated nutrition claims fail at one of a few predictable points:
   heart attacks until it is tested against heart attacks.
 - A plausible mechanism is not clinical proof. A convincing biological story only raises a hypothesis.
   Time-restricted eating is the clearest example: its circadian rationale is real, yet randomised
-  trials show its weight effect is no better than ordinary calorie restriction
-  [@lowe2020treat; @lin2023tre]. Being sceptical of the hype does not mean dismissing the mechanism.
+  trials show its weight effect is no better than three regular meals a day [@lowe2020treat] or than
+  ordinary calorie restriction [@lin2023tre]. Being sceptical of the hype does not mean dismissing the mechanism.
 
 ::: {.callout-note}
 ## Re-appraising PREDIMED and DASH
@@ -173,9 +173,9 @@ very differently once traced to their evidence:
 |---|---|---|
 | "Cutting out dairy clears acne." | Observational only (there are no randomised trials on dairy and acne): a weak association, strongest for skimmed milk, with a plausible hormonal mechanism (see the box below) [@juhl2018dairyacne]. The stronger acne signal, and the only one tested in trials, is high glycaemic load [@meixiong2022dietacne] | Real but weak. A lower-sugar trial is reasonable; a strict elimination diet is not, because both editions of the American Academy of Dermatology guidelines find insufficient evidence to recommend cutting any food to treat acne [@aad2016acne; @aad2024acne] |
 | "Coffee protects your heart." | A large umbrella review (a review of many earlier reviews) links 3–4 cups a day with the lowest mortality [@poole2017coffee], but the evidence is observational | Reassuring for drinkers; not a reason to start |
-| "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven: the "sugar high" is parental expectancy [@wolraich1994sugar] | Excess sugar is still unhealthy, just not a cause of hyperactivity |
-| "Go gluten-free to feel better." | Without coeliac disease, there is no evidence of benefit, and it can worsen diet quality and raise cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
-| "Apple cider vinegar melts fat." | The headline 2024 trial was retracted in 2025 when its analyses could not be reproduced [@acvRetracted2024]; the real glycaemic effects are tiny beside ordinary care [@acvGlycaemia; @acvBodyComp] | A clear "did the study survive?" case |
+| "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven [@wolraich1994sugar]: the "sugar high" is largely parental expectancy [@hoover1994sugar] | Excess sugar is still unhealthy, just not a cause of hyperactivity |
+| "Go gluten-free to feel better." | Without coeliac disease, there is no convincing evidence of benefit, and it can worsen diet quality and raise cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
+| "Apple cider vinegar melts fat." | The headline 2024 trial was retracted in 2025 when its analyses could not be reproduced [@acvRetracted2024]; what remains is a few small, short trials in type 2 diabetes suggesting some fall in fasting glucose, of limited certainty [@acvGlycaemia], and a weight meta-analysis that still pooled the retracted trial [@acvBodyComp]; neither is a substitute for ordinary care | A clear "did the study survive?" case |
 
 ::: {.callout-note}
 ## 🔬 Food science: insulin, IGF-1 and acne
@@ -212,8 +212,8 @@ three groups:
 | Use | When it applies | Example or evidence |
 |---|---|---|
 | Indicated | A documented deficiency, or a life-stage or dietary need | Folate in pregnancy, B12 for vegans, iron for deficiency |
-| Not indicated | Replacing a balanced diet, "detoxing" the body, or blanket prevention in a well-nourished person | In the large VITAL trial, vitamin D and fish oil did not reduce cancer or cardiovascular events [@vital2019] |
-| Harmful | A supplement with a proven downside in a particular group | Beta-carotene supplements increased lung cancer in smokers [@caret1996] |
+| Not indicated | Replacing a balanced diet, "detoxing" the body, or blanket prevention in a well-nourished person | In the large VITAL trial, vitamin D and fish oil did not reduce cancer or major cardiovascular events [@vital2019; @manson2019vital] |
+| Harmful | A supplement with a proven downside in a particular group | Beta-carotene supplements increased lung cancer in smokers [@atbc1994; @caret1996] |
 
 ### Do detox products remove toxins? {#sec-detox}
 
@@ -258,11 +258,11 @@ possible eating disorder, the conversation becomes one about doing no harm (see 
 
 ## The Singapore picture {#sec-singapore}
 
-Singapore's health authorities counter supplement and detox claims directly. HealthHub states plainly that
-supplements "cannot and should not replace a balanced diet" and that detox claims are
-unevidenced; the Health Sciences Authority notifies supplements rather than approving them for
-efficacy, and regularly finds illegally adulterated products containing undeclared or banned drugs
-[@hpbHealthSupplements]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
+Singapore's health authorities counter supplement and detox claims directly. The Ministry of Health states plainly that
+health supplements "cannot and should not replace a balanced diet" [@mohSupplements2018], and HealthHub
+calls detox claims unevidenced; health supplements need no approval from the Health Sciences Authority before sale and are not
+evaluated for efficacy, and its post-market testing has removed products containing undeclared western
+drugs or toxic heavy metals [@hsaUnderstandingSupplements; @mohSupplements2018]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
 Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
 [@hpbHealthyPlate].
 

@@ -16,7 +16,7 @@ pillars:
   - id: sleep
     label: Sleep
     full: Restorative sleep
-    link: "Short sleep lowers insulin sensitivity and raises appetite and intake of energy-dense food, while late, heavy meals worsen sleep, so the two form a self-reinforcing loop."
+    link: "Short sleep lowers insulin sensitivity and raises appetite, especially for energy-dense food, and energy intake; late eating is in turn linked to poorer sleep, so the two can reinforce each other."
   - id: stress
     label: Stress
     full: Stress management

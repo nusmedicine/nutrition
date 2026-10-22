@@ -71,7 +71,7 @@ questions:
     options:
       - text: "No honey before 12 months"
         correct: true
-        feedback: "Spores of *Clostridium botulinum* in honey can colonise the immature infant gut, which lacks the protective gut microbes that stop them, and produce toxin (infant botulism). Explaining the mechanism kindly helps; after 12 months honey is fine."
+        feedback: "Spores of *Clostridium botulinum* in honey can colonise the immature infant gut, whose still-developing microbiome is thought to offer little protection against them, and produce toxin (infant botulism). Explaining the mechanism kindly helps; after 12 months honey is fine."
       - text: "A small amount is fine for energy and taste"
         correct: false
         feedback: "Even small amounts of honey risk infant botulism under 12 months, so this is a firm do-no-harm rule."
@@ -97,7 +97,7 @@ questions:
     options:
       - text: "It's mainly about food form, so change the shape instead of banning the food"
         correct: true
-        feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of all infants gag or choke a little while learning, whichever method is used, so the fix is the shape: no whole nuts, whole grapes or hard chunks before about 4 years."
+        feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of infants choke at least once between 6 and 8 months, whichever method is used, so the fix is the shape: no whole nuts, whole grapes or hard chunks before about 4 years."
       - text: "Baby-led weaning causes choking, so purées are always safer"
         correct: false
         feedback: "Modified baby-led weaning is no worse than spoon-feeding on choking; the risk lies in food form, not the method."

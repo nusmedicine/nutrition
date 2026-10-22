@@ -50,7 +50,7 @@ levers:
       note: "Short or poor sleep measurably raises energy intake and tracks with more central fat."
     - id: stress
       label: "Stress / cortisol"
-      note: "Chronic stress raises cortisol, which biases eating toward energy-dense comfort food and channels fat to the abdomen."
+      note: "Chronic stress and cortisol are thought to bias eating toward energy-dense comfort food and favour abdominal fat: plausible, not proven."
 # A short standing caption: the take-home the chapter paragraph does not already state.
 caption: >-
   Care targets the common underlying abnormalities (insulin resistance with central fat) and the modifiable

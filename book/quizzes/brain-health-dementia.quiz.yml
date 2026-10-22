@@ -54,7 +54,7 @@ questions:
     options:
       - text: "Uncorrected hearing loss"
         correct: true
-        feedback: "Uncorrected hearing loss is among the largest single modifiable contributors in the population estimate, larger than diet, so 'get your hearing and eyes checked' is concrete, high-value advice."
+        feedback: "Uncorrected hearing loss is, with high LDL cholesterol, the largest single modifiable contributor in the population estimate (about 7% each), so 'get your hearing and eyes checked' is concrete, high-value advice."
       - text: "Taking a daily multivitamin"
         correct: false
         feedback: "Multivitamins are not an established preventive measure. Hearing and vision correction carry far more weight."

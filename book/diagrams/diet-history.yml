@@ -31,7 +31,7 @@ probes:
     hinge: true
     reveal: "\"Oh… I have bubble tea most days, sometimes twice, and kopi with condensed milk in the morning. I didn't think of drinks as food.\""
     picture: ["~2 bubble teas/day (high sugar)", "Sweet kopi"]
-    note: "The highest-yield local question, and the one most often skipped. Sugary drinks are the single biggest hidden source of energy and free sugars in many Singaporean diets. The drinks probe folds in a routine alcohol question too."
+    note: "The highest-yield local question, and the one most often skipped. In the 2022 national nutrition survey, sugary drinks were the single biggest source of sugar, about half of all sugar eaten. The drinks probe folds in a routine alcohol question too."
   - id: snacks
     label: "Anything between meals?"
     yield: 12

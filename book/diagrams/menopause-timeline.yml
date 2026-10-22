@@ -15,7 +15,7 @@ layers:
       Total weight rises steadily with age, with no jump at the FMP. What is menopause-specific is fat
       redistributing to the abdomen and lean mass falling, so the waistline, not the scale, is the
       better indicator.
-    source: "SWAN body composition (Greendale 2019)"
+    source: "SWAN body composition (Greendale 2019); visceral fat (Lovejoy 2008)"
     curves:
       - name: "Body weight"
         color: "#5b6670"
@@ -34,7 +34,7 @@ layers:
     label: "Bone density"
     caption: >
       Bone loss, gradual for most of adult life, accelerates sharply in a narrow window from about a
-      year before the FMP to two or three years after, reaching roughly 2% a year and steeper at the
+      year before the FMP to about two years after, reaching roughly 2% a year and steeper at the
       spine. This is the window to act in.
     source: "SWAN bone (Greendale 2012)"
     curves:

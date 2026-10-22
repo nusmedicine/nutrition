@@ -117,8 +117,8 @@ balance accumulation against wasting, which is why a specialist sets it.
 
 Renal nutrition is individualised medical nutrition therapy. It depends
 on the stage of disease, on whether the patient is on dialysis and which kind, on their potassium and
-phosphate blood levels, and on their nutritional state. International guidelines specify that it
-should be delivered by a renal dietitian [@kdoqi2020nutrition; @aceCKD2023]. The same food can be
+phosphate blood levels, and on their nutritional state. The KDOQI nutrition guideline recommends that it
+be delivered by a registered dietitian working closely with the doctor [@kdoqi2020nutrition]. The same food can be
 encouraged in one patient and limited in another.
 
 ### Protein: targets before and on dialysis {#sec-ckd-protein}
@@ -187,15 +187,14 @@ Two hazards carry more risk than an ordinary high-potassium food and should be r
 ## Two hazards: the potassium salt substitute and star fruit
 **The potassium salt substitute.** "Low-sodium" or "heart-healthy" salt swaps sodium chloride for
 potassium chloride. For most people the swap lowers cardiovascular risk: in a large trial it cut
-strokes and deaths. That trial deliberately excluded people with serious kidney disease and those on
-potassium-raising drugs (ACE inhibitors, angiotensin receptor blockers or potassium-sparing diuretics),
-so its safety data do not cover CKD, where the swap can precipitate life-threatening hyperkalaemia
+strokes and deaths. That trial excluded people with serious kidney disease and those taking potassium-sparing
+diuretics or potassium supplements, so its safety data do not cover CKD, where the swap can precipitate life-threatening hyperkalaemia
 [@neal2021ssass; @xu2024saltsubstitutes; @doorenbos2003saltsubstitute]. (The same caveat appears in the
 *Cardiovascular Disease & Hypertension* chapter.)
 
 **Star fruit and belimbing (bilimbi).** Beyond their potassium, these fruits carry a neurotoxin that
-healthy kidneys clear but failing ones cannot. In CKD it causes confusion, seizures and death, with
-mortality reported in a third of intoxicated patients with kidney failure [@chua2017starfruit;
+healthy kidneys clear but failing ones cannot. In CKD it causes hiccups (the commonest symptom), confusion, seizures and death, with
+mortality reported in about a quarter to a third of intoxicated patients with impaired kidney function [@chua2017starfruit;
 @caetano2017bilimbi]. For a CKD patient they are an **absolute avoid**, not a portion-controlled food.
 The warning matters locally, since both fruits are common in Singapore gardens and juices
 [@nkfsEatingRightCKD].
@@ -238,7 +237,7 @@ hand out quantities [@nkfsEatingRightCKD].
 
 ### Fluid: when restriction is needed {#sec-ckd-fluid}
 
-Fluid restriction is the measure generalists most often over-apply. Early CKD usually needs no fluid restriction;
+Fluid restriction is an easy measure to over-apply. Early CKD usually needs no fluid restriction [@aceCKD2023];
 limits matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain
 between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. There is no
 universal fluid target: it is individualised and set by the renal team. The generalist's part is to
@@ -264,8 +263,7 @@ opposite advice at different stages, the target is set by the renal dietitian, n
 ## When to refer {#sec-ckd-refer}
 
 Once CKD is confirmed, individualised nutrition is the treatment, and it is dietitian-led. Refer
-whenever the advice needed exceeds general healthy eating; in practice, five findings trigger a
-referral [@kdoqi2020nutrition; @aceCKD2023]:
+whenever the advice needed exceeds general healthy eating; in practice, five findings are useful triggers for a referral, several of which Singapore's ACE guidance also lists as reasons for shared specialist care [@kdoqi2020nutrition; @aceCKD2023]:
 
 - eGFR is falling, or is roughly in category G3b or worse.
 - CKD coexists with diabetes.
@@ -320,7 +318,7 @@ new dialysis, the national War on Diabetes is also the country's most important 
 [@mohWarOnDiabetes]. The American Heart Association's concept of **cardiovascular-kidney-metabolic
 (CKM) syndrome** treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder
 [@ahaCKM2023]. The CKD guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same
-heat-map staging and is pragmatic about referral: not every patient needs a dietitian, but those with complex needs do [@aceCKD2023].
+heat-map staging and is pragmatic about referral: not every patient needs a dietitian, but referral can help those with more complex dietary needs [@aceCKD2023].
 
 **The renal diet clashes with the hawker palate, and the clash drives poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet runs against a flavour-dense hawker palate built on soy,

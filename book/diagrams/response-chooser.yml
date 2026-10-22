@@ -30,7 +30,7 @@ turns:
         tier: good
         text: "\"Would it be alright if we talked about your drinks for a moment?\""
         reaction: "\"Sure, doctor, go ahead. I know they're not great for me.\""
-        feedback: "Asking permission keeps you partners rather than adversaries, and it is a safe, respectful opener that almost always gets a yes."
+        feedback: "Asking permission keeps you partners rather than adversaries, and it is a safe, respectful way to raise the topic."
       - type: closed
         tier: ok
         text: "\"How many sugars do you take in each cup?\""
@@ -81,4 +81,4 @@ turns:
         tier: poor
         text: "\"Don't worry about it. Just try your best, okay?\""
         reaction: "\"…okay.\" (you can tell nothing will change)"
-        feedback: "Vague reassurance lets the moment slip. He was ready to plan something concrete, so this is the point to help him co-write one small, specific goal, then arrange to follow it up."
+        feedback: "Vague reassurance capped with a yes/no 'okay?' lets the moment slip. He was ready to plan something concrete, so this is the point to help him co-write one small, specific goal, then arrange to follow it up."

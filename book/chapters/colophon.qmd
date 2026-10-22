@@ -15,8 +15,8 @@ be compared and reviewed. The build has four elements:
   diagrams) are Svelte components, bundled with Vite and hydrated into each page as self-contained
   "islands". Your progress is saved locally in your browser; there is no account and no login.
 - A GitHub Actions pipeline rebuilds and deploys the site automatically on every change, so the
-  published version is always the latest reviewed one.
-- Figures are either original diagrams drawn for this book or openly licensed images, each credited
+  published version always matches the latest source.
+- Figures are either original diagrams made for this book or openly licensed images, each credited
   to its source.
 
 ## The simulated patient

@@ -1,12 +1,12 @@
-# Chat-forward simulated-patient case for the Integrated cases chapter.
-# Grounded in *Brain Health and Dementia*: the do-no-harm trap is buying "brain
+# Chat-forward simulated-patient case for the Everyday and preventive counselling chapter.
+# Grounded in *Brain health and dementia*: the do-no-harm trap is buying "brain
 # supplements" (ginkgo, fish-oil pills, coconut oil) and expecting them to prevent
 # dementia; the correct message is prevention-first vascular risk factors, a dietary PATTERN
 # as low-regret not a shield, the non-dietary risk factors, and refer if worry persists.
 id: sim-dementia-prevention-mdm-goh
 title: "Simulated patient: Mdm Goh (worried about dementia)"
 objectives:
-  - "Take her fear seriously, then reframe prevention around vascular risk factors (what is good for the heart is good for the brain), using her own raised blood pressure and borderline sugar."
+  - "Take her fear seriously, then reframe prevention around vascular risk factors (what is good for the heart is good for the brain), using her own slightly raised blood pressure and borderline glucose."
   - "Steer her away from unproven or harmful brain supplements (ginkgo, fish-oil capsules, coconut oil), and offer a Mediterranean/MIND-style pattern as a sensible, low-regret choice rather than a proven shield."
   - "Add the non-dietary modifiable risk factors that carry real weight (physical activity, correcting hearing and vision, staying engaged), and recognise that persistent worry warrants referral, not supplement escalation."
 difficulty: core
@@ -37,7 +37,7 @@ nodes:
   - id: talk-to-mdm-goh
     type: patient-chat
     scenarioId: dementia-mdm-goh
-    objective: "Take her fear seriously and reframe prevention around vascular risk (her blood pressure and borderline sugar: what is good for the heart is good for the brain); steer her away from unproven or harmful brain supplements (ginkgo, fish-oil capsules, coconut oil) and offer a Mediterranean/MIND-style pattern as a low-regret choice rather than a proven cure; add the non-dietary risk factors (activity, hearing and vision, engagement) and recognise that persistent worry, or a request for gene testing, is a reason to refer, not to escalate supplements."
+    objective: "Take her fear seriously and reframe prevention around vascular risk (her slightly raised blood pressure and borderline glucose: what is good for the heart is good for the brain); steer her away from unproven or harmful brain supplements (ginkgo, fish-oil capsules, coconut oil) and offer a Mediterranean/MIND-style pattern as a low-regret choice rather than a proven cure; add the non-dietary risk factors (activity, hearing and vision, engagement) and recognise that persistent worry, or a request for gene testing, is a reason to refer, not to escalate supplements."
     turnLimit: 8
     exitWhen: "The student has reframed prevention onto the vascular risk factors, steered away from the supplements while offering a sensible dietary pattern as low-regret, and added at least one non-dietary risk factor or the referral point, or the turn limit is reached."
     opener: "Doctor, my mother has dementia and I'm terrified I'll get it too. I've started ginkgo and fish oil. What other supplements should I be taking?"

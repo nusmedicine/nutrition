@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is a snack, not a second dinner. 'Eating for two' only nearly fits breastfeeding, which needs roughly 450–500 kcal/day net extra and draws partly on pregnancy fat stores. In pregnancy, quality matters more than quantity."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is a snack, not a second dinner. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
         feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
@@ -45,13 +45,13 @@ questions:
     options:
       - text: "Because intestinal calcium absorption roughly doubles"
         correct: true
-        feedback: "Intestinal calcium absorption roughly doubles in pregnancy, so the recommended intake barely changes and an adequate baseline is enough."
+        feedback: "Intestinal calcium absorption roughly doubles in pregnancy, so the mother meets the foetal demand without eating much more; Singapore's allowance rises only modestly, from 800 to 1,000 mg a day for adult women."
       - text: "Because the foetus doesn't actually need much calcium"
         correct: false
         feedback: "The foetal skeleton does need calcium, but the mother meets the need by absorbing dietary calcium more efficiently, not by eating more."
       - text: "Because calcium is stored in unlimited amounts in the mother's bones"
         correct: false
-        feedback: "Bone stores are not the mechanism: intestinal calcium absorption roughly doubles in pregnancy, which is why the intake recommendation barely changes."
+        feedback: "Bone stores are not the mechanism: intestinal calcium absorption roughly doubles in pregnancy, which is why the mother needs little extra intake."
 
   - id: q5
     stem: "Which nutrient is the one where the pregnancy advice is an upper limit (avoid excess), not a target to reach?"

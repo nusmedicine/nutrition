@@ -34,7 +34,7 @@ nodes:
   - id: talk
     type: patient-chat
     scenarioId: pillar-mapping-mr-tan
-    objective: Engage Mr Tan (a resistant, asymptomatic but at-risk patient) WITHOUT lecturing; explore his life beyond diet (sleep, stress, activity, alcohol, social context); and agree ONE concrete, realistic change he'll actually try this week.
+    objective: Engage Mr Tan (a resistant, asymptomatic but at-risk patient) without lecturing; explore his life beyond diet (sleep, stress, activity, alcohol, social context); and agree one concrete, realistic change he'll actually try this week.
     turnLimit: 8
     exitWhen: Mr Tan grudgingly but genuinely agrees to ONE specific, realistic change he'll try this week, or the turn limit is reached.
     opener: Morning doc. This one's just for my new job, right? I feel okay lah. Can I just get the form signed?

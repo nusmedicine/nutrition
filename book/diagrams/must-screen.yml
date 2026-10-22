@@ -36,7 +36,7 @@ bands:
   - max: 1
     label: "Medium risk"
     kind: caution
-    action: "Observe: document food intake for 2–3 days, then repeat screening and act if intake stays poor."
+    action: "Observe: document food intake for 3 days, then repeat screening and act if intake stays poor."
   - max: 99
     label: "High risk"
     kind: avoid

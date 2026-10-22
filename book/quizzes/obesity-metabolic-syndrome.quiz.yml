@@ -18,7 +18,7 @@ questions:
         feedback: "BMI is a screening proxy, and paired with waist circumference it classifies risk well enough at the bedside. A DXA scan is not needed to act on a raised waist."
 
   - id: q2
-    stem: "A woman has a waist of 86 cm, blood pressure 132/88 mmHg, and takes a statin for low HDL. Her triglycerides and fasting glucose are normal. Does she meet metabolic-syndrome criteria?"
+    stem: "A woman has a waist of 86 cm, blood pressure 132/88 mmHg, and is on drug treatment for low HDL. Her triglycerides and fasting glucose are normal. Does she meet metabolic-syndrome criteria?"
     options:
       - text: "Yes: three of five components are met, counting the treated one"
         correct: true
@@ -54,13 +54,13 @@ questions:
     options:
       - text: "Poor sleep reliably raises intake; the hormone mechanism is contested"
         correct: true
-        feedback: "Increased intake with no matching rise in expenditure is the reproducible signal. The classic leptin-down, ghrelin-up story is echoed observationally, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone story gives a direction, not a proven mechanism."
+        feedback: "Increased intake with no matching rise in expenditure is the reproducible signal. The classic leptin-down, ghrelin-up story comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone story gives a direction, not a proven mechanism."
       - text: "Short sleep proves weight gain by lowering leptin and raising ghrelin"
         correct: false
         feedback: "The hormone account is directional and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable signal is the increase in intake, not the hormone mediator."
       - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
         correct: false
-        feedback: "Poor sleep measurably raises energy intake, and stress biases eating toward energy-dense comfort food and channels fat to the abdomen. Both are modifiable factors."
+        feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
       - text: "The fix is more willpower, since the cause is a failure of discipline"
         correct: false
         feedback: "Calling this a failure of discipline misframes an upstream driver as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging ignores the mechanism and can be stigmatising."
@@ -90,7 +90,7 @@ questions:
       - text: "A diet soft drink, since swapping to a non-sugar sweetener solves the habit"
         correct: false
         feedback: "The WHO advises against relying on non-sugar sweeteners for weight control, so a diet version is not the fix the label implies. Water or an unsweetened drink, plus habit change, is the better swap."
-      - text: "Condensed-milk kopi-C, since milk makes it more nutritious overall"
+      - text: "Kopi with condensed milk, since milk makes it more nutritious overall"
         correct: false
         feedback: "Condensed-milk drinks are high in sugar and saturated fat and grade toward the C/D end. The added milk does not offset the sugar load here."
       - text: "Bubble tea, as long as it carries a Nutri-Grade label somewhere"
@@ -108,7 +108,7 @@ questions:
         feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma degrades care and drives avoidance. Ask permission and frame around behaviours instead."
       - text: "Comment that he looks heavier than last visit to motivate him to act"
         correct: false
-        feedback: "Comments on appearance are stigmatising and backfire: shaming raises cortisol and comfort-eating and can promote weight gain (the cycle described by the COBWEBS model). Person-first, permission-based framing is the standard."
+        feedback: "Comments on appearance are stigmatising and backfire: shaming is thought to raise cortisol and comfort-eating and can promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is the standard."
       - text: "Avoid the topic of weight entirely so as not to offend him at this visit"
         correct: false
         feedback: "Weight-inclusive care still raises the topic and holds the ~5–10% target, but does so with permission and person-first language instead of blame. Silence is not the goal."

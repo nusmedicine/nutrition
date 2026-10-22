@@ -85,7 +85,7 @@ nodes:
       - id: a
         text: "\"Please hold off on honey until he's 12 months; after his first birthday it's fine.\""
         correct: true
-        feedback: "Honey can carry spores that cause infant botulism: the immature gut lacks the protective gut microbes that would stop them colonising and making toxin. Explaining the 'why' kindly helps the grandmother come along."
+        feedback: "Honey can carry spores that cause infant botulism: the immature gut, with its still-developing microbiome, is thought to offer little protection against them colonising and making toxin. Explaining the 'why' kindly helps the grandmother come along."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-milk

@@ -40,7 +40,7 @@ drugs:
     label: "SGLT2 inhibitor"
     example: "empagliflozin, dapagliflozin"
     risk: low
-    note: "Does not cause hypoglycaemia used alone (mind fluid/ketone advice separately)."
+    note: "Does not cause hypoglycaemia used alone, but avoid a very-low-carbohydrate or ketogenic diet on it, because the combination can cause ketoacidosis."
   - id: glp1
     label: "GLP-1 receptor agonist"
     example: "semaglutide, liraglutide"

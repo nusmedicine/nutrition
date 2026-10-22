@@ -3,7 +3,7 @@ title: "\"Tired all the time\""
 objectives:
   - "Recognise the classic pattern of iron-deficiency anaemia."
   - "Identify the at-risk group and the likely underlying cause."
-  - "Choose an appropriate action: food-first advice plus recognise-and-refer."
+  - "Give food-first advice and explain why the cause of the iron loss matters."
 difficulty: intro
 estimatedMinutes: 8
 tags: [nutrition, micronutrients, iron, anaemia, recognition]
@@ -58,8 +58,8 @@ nodes:
     title: "The at-risk group"
     body: |
       Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
-      nearly **one in three** women aged 15–49 are anaemic, with iron deficiency the
-      leading cause, and heavy menstrual bleeding is a major driver. The cause matters
+      nearly **one in three** women aged 15–49 are anaemic, with iron
+      deficiency the most common nutritional cause, and heavy menstrual bleeding is a major driver. The cause matters
       as much as the iron itself.
     next: q-diet
 
@@ -107,23 +107,23 @@ nodes:
 
   - id: q-action
     type: mcq
-    stem: "What is the most appropriate action here?"
+    stem: "Why do her heavy periods matter as much as her diet?"
     options:
       - id: a
-        text: "Give food-first advice, then arrange testing and refer."
+        text: "They are the ongoing source of her iron loss."
         correct: true
-        feedback: "Recognise the pattern, name the at-risk group, give food-first advice (iron-rich foods with vitamin C), and refer for confirmatory testing and assessment of the heavy periods."
+        feedback: "Heavy menstrual bleeding keeps draining iron, so better food alone may not keep up; the cause of the loss needs attention as well as the intake."
         effects: { quality: +1 }
         goto: route
       - id: b
-        text: "Start her on high-dose intravenous iron yourself."
+        text: "They stop mattering once she eats more meat."
         correct: false
-        feedback: "Choosing and dosing iron treatment is beyond the scope at this stage (it belongs to the clinical years); the step here is to refer."
+        feedback: "More iron-rich food helps, but if the heavy bleeding continues she keeps losing iron; the cause needs attention too."
         goto: route
       - id: c
-        text: "Tell her to take any multivitamin and come back in a year."
+        text: "They only matter if she becomes pregnant."
         correct: false
-        feedback: "A multivitamin and a year's wait is under-management: it misses the menstrual cause and delays assessment."
+        feedback: "Heavy periods matter now: monthly blood loss is a major driver of iron deficiency in women of reproductive age."
         goto: route
 
   - id: route
@@ -139,8 +139,8 @@ nodes:
     title: "Back to the pattern"
     body: |
       For a recognisable deficiency, the sequence is: **recognise the pattern, name the
-      at-risk group, give food-first advice and refer**. A full work-up, over-escalation
-      and under-management are all off target at this stage.
+      at-risk group, give food-first advice and look at the cause of the iron loss**. Here
+      that cause is her heavy periods, which better food alone cannot fix.
     next: end-partial
 
   - id: end-good
@@ -149,8 +149,8 @@ nodes:
     title: "Recognise and refer"
     body: |
       You recognised iron-deficiency anaemia, placed Aisha in the classic at-risk group,
-      gave practical food-first advice, and arranged appropriate testing and referral for
-      the underlying cause. (For when and how to refer, see the
+      gave practical food-first advice, and saw that her heavy periods need attention too;
+      she will need testing and a referral for that. (For when and how to refer, see the
       *Interprofessional Practice & Referral* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
@@ -158,15 +158,16 @@ nodes:
         - "Fatigue, pallor, breathlessness and heavy periods suggest iron deficiency."
         - "Menstruating women are the classic at-risk group; address the cause of the iron loss as well as the iron."
         - "At this stage the task is to recognise, give food-first advice and refer for investigation and treatment."
+      references: ["@stevens2022anaemia"]
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Nearly there"
     body: |
-      You engaged with the case, but the action was not quite right for this stage.
+      You engaged with the case, but some steps were off target.
       Replay and aim for the sequence: recognise the pattern, name the at-risk group,
-      give food-first advice and refer.
+      give food-first advice and look at the cause of the iron loss.
     debrief:
       objectivesMet: [1]
       keyPoints:

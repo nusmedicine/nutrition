@@ -22,13 +22,13 @@ questions:
     options:
       - text: "Its calcium is oxalate-bound and barely absorbed (~5%)"
         correct: true
-        feedback: "Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens like kai-lan and bok choy. Choose the well-absorbed sources."
+        feedback: "Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Choose the well-absorbed sources."
       - text: "Yes, spinach is an excellent calcium source for bone"
         correct: false
         feedback: "This confuses content with availability. Spinach contains calcium, but oxalate binds it, so only ~5% is absorbed; it is a poor bone source despite the label."
       - text: "Only if cooked, which frees up the calcium"
         correct: false
-        feedback: "Cooking doesn't release oxalate-bound calcium. Spinach stays a poor calcium source; pick low-oxalate greens or calcium-set tofu instead."
+        feedback: "Boiling leaches some oxalate into the water, but nothing shows it turns spinach into a well-absorbed calcium source; pick low-oxalate greens or calcium-set tofu instead."
       - text: "Yes, its calcium is absorbed better than from milk"
         correct: false
         feedback: "The opposite is true: spinach calcium (~5% absorbed) is far less available than milk's, because oxalate binds it."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "It enables calcium uptake; don't test everyone"
         correct: true
-        feedback: "Vitamin D doesn't build bone directly: its active form drives intestinal calcium absorption, so a shortfall means calcium passes through unabsorbed and parathyroid hormone rises and mobilises it from bone. The Endocrine Society guideline also advises against routine testing and empiric dosing in healthy adults; find and correct genuine shortfall in higher-risk people instead."
+        feedback: "Vitamin D doesn't build bone directly: its active form drives intestinal calcium absorption, so a shortfall means calcium passes through unabsorbed and parathyroid hormone rises and mobilises it from bone. The Endocrine Society guideline also suggests against routine testing, and against empiric vitamin D above the recommended intake (the DRI) in healthy adults under 75; find and correct genuine shortfall in higher-risk people instead."
       - text: "It builds bone directly; test the whole population"
         correct: false
         feedback: "Vitamin D regulates calcium absorption rather than building bone directly, and routine population testing is not advised; target higher-risk people."
@@ -102,7 +102,7 @@ questions:
     options:
       - text: "The genuinely deficient, not everyone"
         correct: true
-        feedback: "Supplements cut fractures in people who are genuinely deficient or institutionalised (~15% total, ~30% hip), but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. Correct real deficiency and go food-first rather than blanket-supplementing the population."
+        feedback: "Supplements cut fractures in people who are genuinely deficient or institutionalised, but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. Correct real deficiency and go food-first rather than blanket-supplementing the population."
       - text: "Every adult over 50, as a routine preventive measure"
         correct: false
         feedback: "Blanket supplementation of replete community adults doesn't prevent fractures and slightly raises kidney-stone risk. Benefit is confined to genuine deficiency."

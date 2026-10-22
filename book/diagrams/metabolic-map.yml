@@ -145,5 +145,7 @@ steps:
     caption: >
       The storing and building pathways (blue) join: glycogen, the pentose phosphate pathway, fat
       synthesis, glucose export and gluconeogenesis. Each opposes a breaking-down pathway, and the
-      two are never both fully on. The whole map is five hubs, four irreversible steps and
-      reciprocally regulated flux.
+      two are never both fully on. The three one-way-street arrows stand for all four irreversible
+      steps: one is PDH, and the other two are the routes that bypass glycolysis's three irreversible
+      steps (glucose export bypasses the first; the gluconeogenesis arrow stands for the other two). The
+      whole map is five hubs, four irreversible steps and reciprocally regulated flux.

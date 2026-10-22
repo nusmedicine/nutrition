@@ -60,7 +60,7 @@ nodes:
   - id: reveal-first-move
     type: info
     body: |
-      You repeat the readings and take a history. A typical day: kopi-C twice (with condensed/evaporated milk
+      You repeat the readings and take a history. A typical day: kopi-C twice (with evaporated milk
       and sugar), fishball noodle soup for lunch most days, sauces and extra soy at the table, sweet drinks,
       and under 5,000 steps. No alcohol most days. This is a picture you can work with: several dietary
       habits, all modifiable. Next: what dietary advice actually lowers his blood pressure and cholesterol?
@@ -108,13 +108,13 @@ nodes:
       - id: a
         text: "It's reasonable for most people, but first let me check your kidneys and medicines."
         correct: true
-        feedback: "A potassium-enriched salt substitute is a reasonable way to cut sodium for most people, but the trial that showed it prevents strokes and deaths **excluded people with serious kidney disease and those on potassium-raising drugs** (ACE inhibitors, ARBs, potassium-sparing diuretics). In those people extra potassium can cause dangerous high blood potassium (hyperkalaemia). So check for kidney disease and those medicines first, and if unsure, don't: involve his doctor (see the *Chronic Kidney Disease* chapter)."
+        feedback: "A potassium-enriched salt substitute is a reasonable way to cut sodium for most people, but the trial that showed it prevents strokes and deaths **excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements**, and ACE inhibitors and ARBs also raise potassium. In all of these people extra potassium can cause dangerous high blood potassium (hyperkalaemia). So check for kidney disease and those medicines first, and if unsure, don't: involve his doctor (see the *Chronic Kidney Disease* chapter)."
         effects: { quality: +1 }
         goto: q-refer
       - id: b
         text: "Sure, potassium salt is the healthy kind, so use it freely; more potassium is always good."
         correct: false
-        feedback: "'Potassium is good for blood pressure' is true for most people, but recommending a potassium salt substitute without first checking his kidneys and medications is unsafe. In people with kidney disease or on an ACE inhibitor, ARB or potassium-sparing diuretic, the extra potassium can build up to a **dangerous level (hyperkalaemia)**, and the trial that proved these substitutes work deliberately excluded exactly those people. Run the safety check first; a good performance elsewhere can't make blanket 'use it freely' advice safe."
+        feedback: "'Potassium is good for blood pressure' is true for most people, but recommending a potassium salt substitute without first checking his kidneys and medications is unsafe. In people with kidney disease or on an ACE inhibitor, ARB or potassium-sparing diuretic, the extra potassium can build up to a **dangerous level (hyperkalaemia)**, and the trial that proved these substitutes work excluded people with serious kidney disease or on potassium-sparing diuretics. Run the safety check first; a good performance elsewhere can't make blanket 'use it freely' advice safe."
         goto: remedial-salt-substitute
 
   - id: remedial-salt-substitute
@@ -124,8 +124,9 @@ nodes:
       Pause before Mr Chua walks out and buys it.
 
       A potassium salt substitute is helpful for most people, but not without a check. The large trial that
-      showed it cuts strokes and deaths excluded people with serious kidney disease and those on
-      potassium-raising drugs (ACE inhibitors, ARBs, potassium-sparing diuretics). In those people, extra
+      showed it cuts strokes and deaths excluded people with serious kidney disease and those taking
+      potassium-sparing diuretics or potassium supplements, and ACE inhibitors and ARBs also raise
+      potassium. In all of these people, extra
       potassium can push blood potassium to a dangerous level (hyperkalaemia), which can affect the heart
       rhythm. Healthy kidneys clear the extra potassium; impaired ones may not.
 
@@ -199,7 +200,7 @@ nodes:
       or (the one that matters most for safety) recommending the potassium salt substitute without first
       checking his kidneys and medications. That last one is **a genuine do-no-harm error**: in people with
       kidney disease or on an ACE inhibitor, ARB or potassium-sparing diuretic, extra potassium can cause
-      dangerous hyperkalaemia, and the trial behind these substitutes excluded exactly those people, so a strong
+      dangerous hyperkalaemia, and the trial behind these substitutes excluded people with serious kidney disease or on potassium-sparing diuretics, so a strong
       performance elsewhere can't make blanket 'use it freely' advice safe. Replay the safe path: confirm and
       assess before treating; advise the pattern plus sodium reduction; check kidneys and medicines before any
       potassium salt substitute; refer to a dietitian; keep targets as looked-up, not recited; and never advise a

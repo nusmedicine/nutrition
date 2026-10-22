@@ -34,7 +34,7 @@ nodes:
   - id: talk
     type: patient-chat
     scenarioId: common-questions-mr-lim
-    objective: Take a brief diet history, then answer Mr Lim's questions one at a time by focusing on food quality and portion rather than outright bans, gently correcting his misconceptions (keto/rice, eggs, coconut oil/butter, protein powder). Given his borderline glucose plus cholesterol and his keenness for a strict low-carb plan, recognise that a therapeutic diet is beyond simple advice and offer to involve a dietitian.
+    objective: Take a brief diet history, then answer Mr Lim's questions one at a time on food quality and portion, not bans, gently correcting his misconceptions (keto/rice, eggs, coconut oil/butter, protein powder). With borderline glucose and raised cholesterol, the strict low-carb plan he wants is beyond simple advice, so offer to involve a dietitian.
     turnLimit: 8
     exitWhen: The student has answered his main questions with a quality-not-bans message and flagged that a strict low-carb / therapeutic plan warrants dietitian involvement, or the turn limit is reached.
     opener: Doctor, my report say my sugar and cholesterol a bit high, but I feel totally fine leh. Can I ask you something? My friend just went keto, so... is it true I must stop eating rice completely?
@@ -59,7 +59,7 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: Quality over quantity, and knowing when to refer
+    title: Quality and portion, and knowing when to refer
     body: |
       You answered Mr Lim on quality-not-bans terms, addressed each misconception clearly, and recognised that a strict low-carb plan on top of his results is a job for a dietitian.
     debrief:

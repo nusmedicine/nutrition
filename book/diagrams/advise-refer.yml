@@ -5,7 +5,7 @@ scenarios:
   - patient: "A well 34-year-old office worker asks how to eat more healthily in general."
     verdict: advise
     why: "Universal guidance (My Healthy Plate, more vegetables, fewer sugary drinks) is safe for almost anyone and is exactly your job."
-  - patient: "Newly diagnosed type 2 diabetes with early kidney impairment (eGFR, an estimate of kidney filtration, 52), on three medicines, HbA1c 9%."
+  - patient: "Newly diagnosed type 2 diabetes with early kidney impairment (eGFR, an estimate of kidney filtration, 52), on three medicines, HbA1c 9.1%."
     verdict: refer
     why: "The complexity (diabetes plus early kidney impairment plus three medicines) needs an individualised carbohydrate and renal plan. That is medical nutrition therapy, a dietitian's work; give safe interim advice and refer."
   - patient: "Someone asks whether they should switch their usual Nutri-Grade D drink for something better."

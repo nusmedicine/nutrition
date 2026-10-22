@@ -90,8 +90,9 @@ blindness, which progresses through **xerophthalmia** (dryness of the eyes) to c
 Vitamin A comes in two forms. **Preformed vitamin A** comes ready-made in liver, egg yolk and dairy.
 **β-carotene**, a precursor in orange and dark-green produce (carrot, sweet potato, pumpkin, spinach,
 kangkong), is converted to vitamin A by the body as needed. The two forms differ in safety. High-dose
-preformed vitamin A is **teratogenic** (it can cause birth defects), which is why acne drugs such as
-isotretinoin demand strict pregnancy prevention. β-carotene from food is safe, because its conversion
+preformed vitamin A is **teratogenic** (it can cause birth defects). Isotretinoin, an acne drug, is
+itself a retinoid (a vitamin A derivative) and carries the same risk, which is why it demands strict
+pregnancy prevention. β-carotene from food is safe, because its conversion
 is self-limiting.
 
 **Vitamin D** behaves more like a hormone than a vitamin: the body makes it in skin from a
@@ -235,7 +236,7 @@ or reduce how much is absorbed:
 
 The food-first advice follows: pair iron-rich plant foods with a vitamin C-rich food, and drink tea or
 coffee between meals, not with them. Because non-haem iron is absorbed less well, vegetarians and
-vegans need roughly 1.8 times as much iron, and their intake deserves a closer look. Beyond fatigue,
+vegans need roughly 1.8 times as much iron [@odsIron], and their intake deserves a closer look. Beyond fatigue,
 two signs of iron deficiency are worth recognising: **koilonychia** (spoon-shaped nails) and **pica**
 (craving non-foods, classically ice).
 
@@ -245,11 +246,12 @@ two signs of iron deficiency are worth recognising: **koilonychia** (spoon-shape
 
 Over 99% of the body's calcium is in bone. Bone mass is built early in life and drawn on later, which
 is why bone is often likened to a bank. About 90% of peak bone mass (the most bone a person ever has)
-is laid down by about age 18–20, and bone mass peaks around age 30 [@nofPeakBoneMass2016].
+is laid down by about age 18–20, and bone mass peaks around age 30 [@nof_weaver_2016_pbm_position].
 Adequate calcium, vitamin D (needed to absorb it) and weight-bearing activity in youth build the
-reserve that protects against fractures decades later, and hip-fracture rates in Singapore are among
-the highest in Asia. Low intake adds to the concern: in one Singapore cohort, about half of older
-adults fell short of the calcium recommendation [@ye2023calciumSG].
+reserve that protects against fractures decades later. Hip fractures are a growing burden in Singapore:
+as the population ages, hip-fracture admissions nearly doubled between 2000 and 2017, even though
+age-adjusted rates fell [@yong2019hipfracSG]. Low intake adds to the concern: in one Singapore cohort, about half of older
+adults fell short of the calcium recommendation [@ye2023daha].
 
 Calcium does not have to come from dairy. Its bioavailability, like iron's, depends on the food it
 comes in. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption.
@@ -263,8 +265,9 @@ it, so it is poorly absorbed [@weaverVegCalcium1999].
 ::: {.callout-note}
 ## Does everyone need a calcium supplement?
 Calcium supplements are often taken as routine insurance for bone. For healthy adults, routine calcium
-supplements, with or without vitamin D, have limited fracture-prevention benefit, and some analyses
-have raised cardiovascular questions [@uspstfCalcium2018]. Food first still applies: bone mass is
+supplements, with or without vitamin D, have limited fracture-prevention benefit. Combined calcium and
+vitamin D slightly raises the risk of kidney stones; trials have not shown a rise in cardiovascular
+disease, but calcium's cardiovascular safety is still being studied [@uspstfCalcium2018]. Food first still applies: bone mass is
 built from diet and activity, and supplements are reserved for people with a genuine shortfall or
 osteoporosis (thinned, fragile bone), under guidance (see the *Bone & Joint Health* chapter).
 :::
@@ -295,7 +298,8 @@ around the mouth and on the hands, hair loss and blunted taste. The groups to wa
 
 **Magnesium** is a cofactor for nerve and muscle function and for energy metabolism, drawn from
 greens, wholegrains, nuts and legumes. Low levels are associated with heavy alcohol use, poorly
-controlled diabetes and some medicines.
+controlled diabetes and some medicines taken long term, such as certain diuretics (drugs that increase
+urine output) and proton pump inhibitors (drugs that reduce stomach acid) [@odsMagnesium].
 
 **Selenium** is needed by antioxidant enzymes and for thyroid metabolism. Selenium deficiency, which
 depends on how much selenium the local soil holds, causes **Keshan disease**, a disease of heart
@@ -368,7 +372,8 @@ half-plate of My Healthy Plate, are its natural source.
 
 For most people eating a varied, mostly whole-food diet, a supplement is not needed. Micronutrients
 come packaged in food with the cofactors, fibre and other nutrients that make them work, and
-whole-diet patterns beat isolated pills for almost every vitamin and mineral here. Supplements earn
+in adults without a known deficiency, vitamin and mineral pills have not been shown to prevent heart
+disease or cancer, and β-carotene pills do more harm than good [@uspstf2022vitamins]. Supplements earn
 their place for specific, identifiable needs:
 
 - Folic acid before and in early pregnancy.
@@ -383,13 +388,13 @@ for an identified need.
 ## The Singapore picture {#sec-singapore}
 
 Three micronutrient problems are sharply local: vitamin D deficiency is common despite the climate,
-many older adults fall short on calcium, and iodised salt may be losing ground as non-iodised
-"gourmet" salts spread.
+many older adults fall short on calcium, and, with salt iodisation voluntary, the food supply does not
+guarantee enough iodine [@codling2017iodine].
 
 The signature micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
 limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium does not come from
-the salt shaker at the table. It is in sauces, broths and food eaten out of home, which makes sodium a
+the salt shaker at the table. It is in sauces, broths and food eaten out of home [@mohNNS2022], which makes sodium a
 hawker-culture issue. Some common hawker dishes approach or exceed a whole day's sodium in a single
 bowl. (Per-dish figures from consumer-education sources are illustrative and vary by stall
 [@shfSaltiestDishes].)
@@ -403,8 +408,9 @@ as individual habits.
 ::: {.callout-warning}
 ## Salt substitutes and the SSaSS trial
 The Salt Substitute and Stroke Study (SSaSS) replaced regular salt with a 75% sodium, 25% potassium
-substitute and cut stroke (about 14%), major cardiovascular events (about 13%) and death (about 12%)
-over about 5 years [@neal2021ssass]. Four caveats temper the result:
+substitute and cut the relative rate of stroke (about 14%), major cardiovascular events (about 13%) and
+death (about 12%) over about 5 years. In absolute terms, that was about 4.5 fewer strokes for every
+1,000 people followed for a year (29 versus 34) [@neal2021ssass]. Four caveats temper the result:
 
 - It was **open-label** (participants knew which salt they were using) and **cluster-randomised**
   (groups, not individuals, were assigned to each salt).

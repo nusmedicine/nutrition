@@ -106,9 +106,10 @@ stores. Insulin (its metabolic actions are in the *Integrative Metabolism* chapt
 long-term signal to the same neurons.
 
 Children with **congenital leptin deficiency**, who are born unable to make leptin, show that leptin is
-necessary for normal human appetite. They have extreme, early-onset obesity with relentless hunger,
-and leptin injections rescue them completely, melting away the appetite and the fat
-[@montague1997congenital; @farooqi1999leptintherapy].
+necessary for normal human appetite. They have extreme, early-onset obesity with relentless hunger
+[@montague1997congenital]. In the first children treated, daily leptin injections transformed this:
+appetite fell sharply and they lost weight that was almost entirely fat, with the benefit sustained for
+years [@farooqi1999leptintherapy; @farooqi2002leptin].
 
 ::: {.callout-important}
 ## Why doesn't leptin treat common obesity?
@@ -136,9 +137,11 @@ hormones signal to the brain.
 
 **Ghrelin**, made by the stomach, is the only gut hormone that drives hunger. It rises before meals
 and falls after eating, which is why it is called the hunger hormone [@kojima1999ghrelin;
-@cummings2001preprandial]. Much of the pre-meal rise is learned, entrained to a person's habitual
-meal times, so hunger partly follows the clock (and the smell of the hawker centre) as well as an
-empty stomach. Protein suppresses ghrelin most durably, which is part of why protein is so filling.
+@cummings2001preprandial]. Part of the pre-meal rise appears to be learned: in rats fed on a fixed
+schedule, ghrelin climbs in anticipation of the usual meal time [@drazen2006fixedmeal], so hunger may
+partly follow the clock (and the smell of the hawker centre) as well as an empty stomach. In a small
+human study, protein suppressed ghrelin the most overall, while after carbohydrate it rebounded above
+its pre-meal level [@fosterschubert2008ghrelin], which may be part of why protein is so filling.
 
 The **satiety peptides**, hormones that signal fullness, are released as food arrives, roughly in
 proportion to the calories eaten. They differ in where they are made and in how they curb eating:
@@ -147,7 +150,7 @@ proportion to the calories eaten. They differ in where they are made and in how 
 |---|---|---|
 | CCK | Duodenum, triggered by fat and protein | A short, meal-ending signal; the first satiety hormone identified [@gibbs1973cck] |
 | GLP-1 and PYY (peptide YY) | Cells lower down the small intestine | PYY at normal post-meal levels cuts food intake by about a third [@batterham2002pyy]; GLP-1 is the hormone the newer weight-loss drugs mimic (see [Obesity and GLP-1 receptor agonists](#sec-obesity)) |
-| Amylin | Pancreas, released with insulin at each meal | Reduces meal size and slows the stomach |
+| Amylin | Pancreas, released with insulin at each meal | Reduces meal size and slows the stomach [@lutz2010amylin; @mietlickibaase2016amylin] |
 
 These signals reach the brain mostly along the vagus nerve, through a relay in the brainstem (the
 nucleus of the solitary tract, NTS) and up to the hypothalamus, a direct neural pathway for fullness.
@@ -211,14 +214,14 @@ What and how people eat changes fullness for the same calories, through five lev
 
 | Lever | Why it works | Practical version |
 |---|---|---|
-| Protein | Most satiating macronutrient; suppresses ghrelin, raises GLP-1/PYY | Build meals around a protein source |
+| Protein | Most satiating macronutrient; strongly raises PYY and acutely suppresses ghrelin [@batterham2006pyyprotein; @fosterschubert2008ghrelin] | Build meals around a protein source |
 | Energy density | People eat a fairly constant volume; water and fibre in the food lower calories per bite | Bulk meals with vegetables |
-| Viscous fibre | Gels, slows stomach emptying, feeds the ileal brake | Oats, legumes, wholegrains |
+| Viscous fibre | Thickens or gels in the stomach, so the same volume feels fuller [@hoad2004gelation]; may slow stomach emptying [@georgjensen2012alginate] | Oats, legumes, wholegrains |
 | Solid over liquid | Liquid calories give weak fullness and little compensation | Eat fruit, don't drink it |
-| Eating rate | Fullness signals lag; fast eating "outruns" them | Slow down |
+| Eating rate | Slower eating lowers intake, probably because fullness signals lag behind the meal [@robinson2014eatingrate] | Slow down |
 
-Two studies put numbers on these levers. The strongest single demonstration came from protein: when volunteers' protein intake was raised from
-15% to 30% of energy, they spontaneously ate about 440 kcal/day less and lost about 4.9 kg over
+Two studies put numbers on these levers. A striking demonstration came from protein: when 19 volunteers' protein intake was raised from
+15% to 30% of energy (carbohydrate held constant), they spontaneously ate about 440 kcal/day less and lost about 4.9 kg over
 12 weeks, with no instruction to eat less [@weigle2005highprotein]. Liquid calories, by contrast, are
 poorly compensated for. When 450 kcal/day was eaten as jelly beans, it was fully compensated for (no
 weight gain), but the same 450 kcal drunk as soft drink was not, and caused weight gain
@@ -287,13 +290,14 @@ why buffets and variety make people eat more.
 can spark food-seeking even after a full meal [@volkow2017dopamine].
 
 The foods themselves can also be built to trigger the reward system. **Ultra-processed foods** are
-industrial formulations made largely from refined ingredients and additives, with little intact whole food. Modern ones are engineered to combine sugar, fat and salt at maximally rewarding levels
-[@fazzino2019hyperpalatable].
+industrial formulations made largely from refined ingredients and additives, with little intact whole food. One measure of such foods is **hyper-palatability**: pairing fat with sugar or salt, or carbohydrate with salt, above set thresholds. By one such definition, 62% of foods in a US food database qualified [@fazzino2019hyperpalatable].
 
-The clearest evidence that ultra-processed foods drive overeating comes from a tightly controlled
-trial (see the *Digestion & Absorption* chapter). An ultra-processed diet and an unprocessed one were
-matched for the calories presented, macronutrients, sugar, fat, salt and fibre, yet people still ate
-about 500 kcal/day more on the ultra-processed diet [@hall2019upf]. Overeating in this setting is a
+The strongest controlled evidence that ultra-processed foods drive overeating comes from a small
+inpatient trial (see the *Digestion & Absorption* chapter). Twenty adults on a metabolic ward ate an
+ultra-processed diet and an unprocessed one for two weeks each. The diets were matched for the calories
+presented, energy density, macronutrients, sugar, salt and fibre, yet people still ate about
+500 kcal/day more on the ultra-processed diet [@hall2019upf]. The trial was small and short, and why
+people ate more on the ultra-processed diet is still unclear. Overeating in this setting is a
 normal reward system responding to an abnormal environment, not a character flaw
 [@berthoud2017blaming].
 
@@ -352,7 +356,7 @@ bias the same system toward hunger.
 **Short sleep tilts appetite toward hunger.** In a controlled experiment, two nights restricted to
 4 h of sleep lowered leptin by about 18%, raised ghrelin by about 28% and raised hunger by about 24%,
 especially for
-calorie-dense foods [@spiegel2004sleep]. Pooled across trials, partial sleep loss adds on average
+calorie-dense foods [@sleepRestriction]. Pooled across trials, partial sleep loss adds on average
 about 385 kcal/day of intake with no rise in energy expenditure, a clear tilt toward positive energy
 balance [@alkhatib2017partialsleep]. Sleep loss also weakens cortical control over eating (a
 "cortical brake") and amplifies reward responses to food [@greer2013sleepdeprivation]. Meal timing
@@ -371,18 +375,22 @@ proven.
 In obesity, the same regulatory system maintains an elevated weight, so the problem is not a failure
 of discipline. A person with obesity is working against homeostatic signals that maintain the higher
 weight: high but ineffective leptin, a hunger drive that rises as soon as weight is lost, and energy
-expenditure that adapts. Obesity is increasingly understood as a disease of a dysregulated system,
-not a lifestyle choice [@rubino2025clinicalobesity].
+expenditure that adapts. Obesity is increasingly understood as a condition of a dysregulated system,
+not a lifestyle choice. A 2025 commission draws a line within it: *clinical* obesity, in which excess fat
+already impairs how organs or the whole person function, is a chronic disease, whereas *preclinical*
+obesity, with function preserved, is a state of raised risk [@rubino2025clinicalobesity].
 
 The newer weight-loss medicines act on this circuit. **GLP-1 receptor agonists** (semaglutide, and
-tirzepatide, a dual GIP/GLP-1 receptor agonist) are engineered, long-acting versions of GLP-1, the gut
-satiety hormone (see [Gut hormones: short-term hunger and satiety signals](#sec-gut-peptides)). They
+tirzepatide, a dual GIP/GLP-1 receptor agonist) are engineered, long-acting drugs that activate the
+receptor for GLP-1, the gut satiety hormone (see [Gut hormones: short-term hunger and satiety signals](#sec-gut-peptides)). They
 amplify endogenous satiety signalling: they shift the arcuate nucleus toward POMC/CART (satiety)
 activity and slow gastric emptying, so hunger falls and meals end sooner (the fourth state of the
 [interactive](#sec-thermostat)).
 
-The medicines are effective, with mean weight loss around 15% with semaglutide and about 21% with
-tirzepatide at the top dose [@wilding2021step1; @jastreboff2022surmount1]. When the drug stops, the
+The medicines are effective. In the main trials, alongside lifestyle support, mean weight loss was
+around 15% with semaglutide over 68 weeks and about 21% with tirzepatide at the top dose over 72 weeks,
+against 2 to 3% with placebo, counting everyone randomised whether or not they stayed on the drug
+[@wilding2021step1; @jastreboff2022surmount1]. When the drug stops, the
 weight comes back, because the defended range was opposed, never removed
 [@wilding2022step1extension]. Regain on stopping is the clearest demonstration that obesity is a
 chronic, regulated condition and that "just try harder" misreads the biology. (The classification
@@ -418,18 +426,21 @@ chapter) is real, but it is biologically regulated, not free.
 Singapore is a clear illustration of an **obesogenic food environment**: one in which palatable,
 energy-dense food is cheap, abundant and always in view. That environment collides with the biology of
 weight regulation, which is why the national "eat less, move more" message, while not wrong, is
-insufficient. Adult obesity has kept rising despite sustained public-health effort, as a regulated,
-environment-driven system predicts.
+insufficient. Adult obesity has risen in recent years, from 10.5% in 2019–2020 to 12.7% in 2023–2024
+[@mohNPHS2024], despite sustained public-health effort, as a regulated, environment-driven system
+predicts.
 
 **The food environment is built for wanting.** Hawker centres, food courts and 24-hour options put
-such food within reach day and night, and most residents eat out most days [@tan2020whereweeat].
+such food within reach day and night, and eating out is routine: in the 2010 National Nutrition Survey,
+about 60% of Singaporeans ate out at least four times a week [@tan2020whereweeat].
 Large refined-carbohydrate portions and sweet drinks are the easy default, the everyday form of the reward-and-cue physiology (see
 [Eating for pleasure](#sec-hedonic)).
 
 **Nutri-Grade changes the environment instead of blaming the eater.** Sugary drinks are Singapore's
 biggest source of dietary sugar. The Nutri-Grade scheme (A–D grades, plus an advertising ban on the
-worst) is a concrete environmental lever on them, and it has worked: as manufacturers reformulated,
-the median sugar content of pre-packed graded drinks fell from 7.1% to 4.6% [@hpbNutriGrade].
+worst) is a concrete environmental lever on them, and industry responded even before it took effect: as
+manufacturers reformulated ahead of the rules, the median sugar content of pre-packed graded drinks fell
+from 7.1% in 2017 to 4.6% in 2021 [@mohNutriGradeRollout2022].
 
 **Short sleep, exam stress and shift-work stress are the norm.** In a large multi-ethnic local cohort,
 shorter and poorer sleep tracked with greater adiposity [@helios2024sleepadiposity]: the physiology of

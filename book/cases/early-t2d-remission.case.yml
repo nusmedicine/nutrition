@@ -60,7 +60,7 @@ nodes:
     title: "Who the remission evidence covers"
     body: |
       Mr Raj fits the profile the remission evidence comes from: early disease (diagnosed within about six
-      years), not on insulin, with weight to lose [@lean2018direct]. For people of Asian descent, who reach
+      years), not on insulin, with weight to lose. For people of Asian descent, who reach
       their personal fat threshold at a lower weight, entry criteria are best ethnicity-adjusted instead of
       borrowed unchanged from Western trials. The next thing to get right is the language: what "reversal"
       actually means.
@@ -100,7 +100,7 @@ nodes:
       - id: b
         text: "\"Sure, the shakes are just food, and stopping metformin is fine since the goal is to be off it. Start today.\""
         correct: false
-        feedback: "Self-starting is unsafe: a very-low-calorie shake diet is a supervised total diet replacement, not something to begin from an online order, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Being off medication is the goal of remission, not the starting move, and a good performance elsewhere in this visit cannot make up for endorsing this."
+        feedback: "Self-starting is unsafe: a low-calorie shake diet like this is a supervised total diet replacement, not something to begin from an online order, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Being off medication is the goal of remission, not the starting move, and a good performance elsewhere in this visit cannot make up for endorsing this."
         goto: remedial-do-no-harm
 
   - id: remedial-do-no-harm
@@ -111,7 +111,7 @@ nodes:
 
       Total diet replacement is a supervised programme, not a solo project. The low-calorie shake phase works,
       but it is delivered with clinical oversight, and the **glucose-lowering medication is adjusted on the very
-      first day**, because blood glucose and blood pressure fall fast when intake drops [@lean2018direct].
+      first day**, because blood glucose and blood pressure fall fast when intake drops.
       Someone who crash-diets while self-managing (or abruptly stopping) their tablets can be harmed. Coming off
       medication is the goal of remission, reached under supervision; it is not the way to begin.
 

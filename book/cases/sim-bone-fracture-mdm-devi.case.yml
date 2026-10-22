@@ -39,7 +39,7 @@ nodes:
   - id: talk-to-mdm-devi
     type: patient-chat
     scenarioId: bone-mdm-devi
-    objective: "Correct the 'more calcium is better' idea (food-first, well-absorbed local calcium spread across the day; extra supplements give no benefit when replete and raise kidney-stone risk); name the modifiable factors that matter (weight-bearing and resistance exercise, vitamin D, protein as a bone nutrient); and recognise that a fragility fracture warrants a DXA / osteoporosis assessment and specialist referral rather than DIY megadosing."
+    objective: "Correct the 'more calcium is better' idea (food-first, well-absorbed local calcium spread across the day; extra supplements give no benefit when replete and slightly raise kidney-stone risk); name the modifiable factors that matter (weight-bearing and resistance exercise, vitamin D, protein as a bone nutrient); and recognise that a fragility fracture warrants a DXA / osteoporosis assessment and specialist referral rather than DIY megadosing."
     turnLimit: 8
     exitWhen: "The student has reframed calcium away from megadosing toward food-first plus the real modifiable factors (loading exercise, vitamin D, protein), and recognised that a fragility fracture needs an osteoporosis assessment and specialist referral, or the turn limit is reached."
     opener: "Doctor, my bones must be very weak, right? I bought calcium tablets. Should I take two or three a day to be safe?"

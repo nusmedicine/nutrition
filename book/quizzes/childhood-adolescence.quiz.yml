@@ -23,9 +23,9 @@ questions:
       - text: "Yes; the spurt roughly doubles protein needs, which food alone can't meet"
         correct: false
         feedback: "Per-kilogram protein needs drift *down*, not up, and total intake from ordinary food is almost always sufficient, so supplements aren't needed for normal growth."
-      - text: "Yes; the energy cost of new tissue is the main reason teenagers are so hungry"
+      - text: "Yes; his huge appetite is a sign that his body is short of protein"
         correct: false
-        feedback: "The direct energy cost of laying down tissue is small (about 1–2% of the day's energy). A big appetite mostly reflects a bigger body and more movement, and tracks growth velocity."
+        feedback: "A big appetite is a normal signal that tracks growth velocity, and mostly reflects a bigger body and more movement, not a protein shortfall. An ordinary diet that meets his energy needs almost always meets his protein needs."
 
   - id: q3
     stem: "Which adolescent is at highest risk of iron deficiency, and how is it caught early?"

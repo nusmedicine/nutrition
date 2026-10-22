@@ -126,8 +126,10 @@ best delivered as concrete swaps, not by memorising glycaemic-index tables (see 
 chapter), which are measured for single foods and blunted in mixed meals [@dnsg2023easd].
 
 Fibre and wholegrains carry the strongest, most consistent evidence. Higher intake lowers the risk of
-developing diabetes and, in established disease, lowers HbA1c, with an optimum around 25–29 g of fibre
-a day [@reynolds2019carbquality; @reynolds2020fibrediabetes]. International guidelines converge on the
+developing diabetes; across a range of outcomes in the general population, the risk reduction was
+greatest at around 25–29 g of fibre a day [@reynolds2019carbquality]. In established disease it lowers
+HbA1c, and raising intake by about 15 g a day, or to about 35 g, is a reasonable target
+[@reynolds2020fibrediabetes]. International guidelines converge on the
 same plate: carbohydrate mainly from wholegrains, vegetables, fruit and legumes, with refined grains
 and sugary drinks kept to a minimum [@who2023carbohydrate].
 
@@ -227,9 +229,10 @@ exists [@khoo2026sgDSF].
 
 Prevention acts before diagnosis, and how it is delivered decides whether it works. In the
 Diabetes Prevention Program, an intensive, structured lifestyle programme cut progression from
-prediabetes to diabetes by 58%, outperforming metformin (31%) [@dpp2002]. The benefit persists for
+prediabetes to diabetes by 58% relative to placebo (from about 11 to about 5 new cases per 100 people a
+year), outperforming metformin (31%, about 8 per 100) [@dpp2002]. The benefit persists for
 decades, even as it attenuates [@dppos2009; @dppos2025_21yr]. What made the programme effective was its
-structure: a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 minutes of
+structure: a multi-session curriculum with follow-up, aiming at ≥7% weight loss and ≥150 minutes of
 activity a week. A one-off "you should lose weight" has none of that structure. Translated at scale it
 still works: the NHS programme and, locally, the Pre-DICTED trial reproduced the benefit in real-world
 and multi-ethnic Asian settings [@mcmanus2022nhsDpp; @bee2025predicted].
@@ -252,7 +255,7 @@ uses ethnicity-adjusted thresholds.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with prediabetes was told once, at a clinic visit, to lose some weight. Why is that unlikely to reproduce the Diabetes Prevention Program result?
 What made the Diabetes Prevention Program effective was its structure: a multi-session curriculum
-with follow-up, aiming at about 5–7% weight loss and at least 150 minutes of activity a week. A one-off
+with follow-up, aiming at a weight loss of at least 7% and at least 150 minutes of activity a week. A one-off
 conversation has none of that structure. The guideline response is to refer to a structured programme.
 :::
 
@@ -271,7 +274,9 @@ time, is therefore to identify the drug class and the action it demands [@ada202
 | Low when used alone | metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists | A sensible carbohydrate-quality change is reasonable; still refer to a dietitian |
 
 Older people on sulfonylureas or insulin are especially vulnerable to hypoglycaemia
-[@ling2021elderlyhypo].
+[@ling2021elderlyhypo]. One caveat sits outside hypoglycaemia: on an SGLT2 inhibitor, a very-low-carbohydrate
+or ketogenic diet should be avoided, because the combination can trigger diabetic ketoacidosis
+[@ada2026standards].
 
 Select a patient's medications in the interactive below to see whether a low-carbohydrate plan is safe
 to endorse or needs the diabetes team first.
@@ -296,8 +301,10 @@ glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat sl
 
 For Singapore's Malay-Muslim community, which also carries a high diabetes burden, Ramadan fasting is
 a high-yield, faith-aware counselling task (the fed–fasted physiology of Ramadan is in the
-*Integrative Metabolism* chapter). Most Muslim patients with diabetes fast, and doing so on insulin or
-a sulfonylurea raises the risk of severe hypoglycaemia several-fold [@salti2004epidiar].
+*Integrative Metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
+severe hypoglycaemia was several times more frequent during Ramadan than in other months
+[@salti2004epidiar]. The danger is greatest for patients on insulin or a sulfonylurea, two of the
+high-risk classes in the table above.
 
 Many patients believe that a finger-prick glucose test breaks the fast, and some come to harm because
 of that belief [@zainudin2017knowledge]. The test does not break the fast, and Islam exempts the
@@ -320,8 +327,8 @@ diet changes.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient on insulin plans to fast for Ramadan and will not test her glucose, because she believes a finger-prick breaks the fast. What follows?
-Fasting on insulin raises the risk of severe hypoglycaemia several-fold, and her belief removes the
-monitoring that would catch it. A finger-prick test does not break the fast, and Islam exempts the
+Severe hypoglycaemia is several times more frequent during Ramadan, insulin is one of the drugs that can
+cause it, and her belief removes the monitoring that would catch it. A finger-prick test does not break the fast, and Islam exempts the
 medically unfit, so monitoring is religiously permissible. The task is to address the belief and refer
 for a pre-Ramadan review to risk-stratify her and adjust medication.
 :::
@@ -338,7 +345,7 @@ individualised plan is made by referral, to the dietitian and the diabetes team.
 ## The Singapore picture: the War on Diabetes {#sec-singapore}
 
 Singapore declared a War on Diabetes in 2016. About one in three Singaporeans will develop diabetes in
-their lifetime, and current prevalence is around 9% of adults [@mohWarOnDiabetes; @mohNPHS2024].
+their lifetime [@mohWarOnDiabetes], and current prevalence is around 9% of adults [@mohNPHS2024].
 Prevalence has an ethnic gradient: Indian and Malay residents carry roughly twice the prevalence of
 Chinese residents [@mohNPHS2024]. The gradient should guide screening priority, framed as
 population-level risk and never as blame; individual counselling stays individualised.

@@ -1,7 +1,7 @@
 id: sim-prediabetes-mdm-tan
 title: "Simulated patient: Mdm Tan (prediabetes)"
-# Chat-forward "LLM version" of the pre-diabetes scenario for the Integrated cases
-# chapter. The choice-based version lives in prediabetes-counseling.case.yml.
+# Chat-forward "LLM version" of the prediabetes scenario for the Everyday and
+# preventive counselling chapter. The choice-based version lives in prediabetes-counseling.case.yml.
 objectives:
   - "Take a focused diet history before advising."
   - "Agree one realistic, patient-centred dietary change."

@@ -1,7 +1,7 @@
 id: common-questions
 title: "Everyday questions in one clinic: carbs, fat and protein"
 objectives:
-  - "Answer common lay questions on carbohydrate, fat and protein on quality-over-quantity terms."
+  - "Answer common lay questions on carbohydrate, fat and protein on quality-and-portion terms."
   - "Respond with the evidence to popular beliefs about coconut oil, dietary cholesterol and 'more protein = more muscle'."
   - "Give quality guidance, anchor to My Healthy Plate, and recognise the boundary where a plan belongs with a dietitian (taught in later chapters)."
 difficulty: intro
@@ -145,12 +145,12 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Quality over quantity, and where referral begins"
+    title: "Quality and portion, and where referral begins"
     body: |
       You answered a carbohydrate, a cholesterol, a fat and a protein question on
-      quality-not-quantity terms and corrected the coconut-oil, egg and 'more-protein'
-      misconceptions. Because Mr Lim wants a strict low-carb plan on top of borderline
-      glucose and cholesterol, you recognised this is beyond everyday advice and agreed to
+      quality-and-portion terms and corrected the coconut-oil, egg and 'more-protein'
+      misconceptions. If Mr Lim still wants his friend's strict low-carb plan on top of
+      borderline glucose and cholesterol, that is beyond everyday advice, and the step is to
       bring in a dietitian. (Assessing diet, counselling and referral are covered in the
       *Assessing Diet & Talking to Patients*, *Behaviour-Change Counselling* and
       *Interprofessional Practice & Referral* chapters.)

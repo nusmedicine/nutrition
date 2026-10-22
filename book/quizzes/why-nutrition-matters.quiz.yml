@@ -9,7 +9,7 @@ questions:
         feedback: "This share would leave infection and injury as the main causes of death. They have been overtaken: NCDs are now the leading cause of death worldwide."
       - text: "About 75%"
         correct: true
-        feedback: "NCDs cause roughly 74% of deaths worldwide, and most are driven by modifiable behaviours."
+        feedback: "NCDs caused about 75% of deaths worldwide in 2021, setting aside deaths from the COVID-19 pandemic, and most are driven by modifiable behaviours."
       - text: "About 95%"
         correct: false
         feedback: "Infectious disease, injury and maternal and neonatal causes still account for a substantial share of deaths, so 95% is too high."
@@ -45,13 +45,13 @@ questions:
     options:
       - text: "Yes, it is a definitive trial with no important caveats"
         correct: false
-        feedback: "Every landmark trial carries limits. PREDIMED's result comes from a 2018 re-analysis, and its combined outcome was dominated by strokes rather than heart attacks."
+        feedback: "Every landmark trial carries limits. PREDIMED's result comes from a 2018 re-analysis, and its benefit on the combined outcome came mainly from fewer strokes rather than fewer heart attacks."
       - text: "It showed a benefit, but the claim needs important caveats"
         correct: true
-        feedback: "The trial found a ~30% relative reduction in a combined measure of cardiovascular events, most of them strokes. That result comes from a 2018 re-analysis, published after the original was withdrawn over problems with how participants were assigned to groups."
+        feedback: "The trial found a ~30% relative reduction in a combined measure of cardiovascular events, with the clearest reduction in strokes. That result comes from a 2018 re-analysis, published after the original was withdrawn over problems with how participants were assigned to groups."
       - text: "No, PREDIMED found no effect on any outcome"
         correct: false
-        feedback: "PREDIMED did find a benefit, about 30% lower risk on a combined measure of cardiovascular events; the claim needs stating precisely, with its limits."
+        feedback: "PREDIMED did find a benefit, about 30% lower relative risk on a combined measure of cardiovascular events; the claim needs stating precisely, with its limits."
 
   - id: q5
     stem: "According to the National Nutrition Survey 2022, roughly what proportion of Singapore residents exceed the recommended sodium limit?"

@@ -65,7 +65,8 @@ fat, and proportionally more visceral fat, at a given BMI than the Western popul
 WHO cut-offs were built.
 
 The local Yishun Study made the gap concrete. Matched for BMI, age and sex, Singaporeans had higher
-percentage body fat, and classifying by body fat instead of BMI flagged far more adults as carrying
+percentage body fat than white adults in the US and Europe, and classifying by body fat instead of
+BMI flagged far more adults as carrying
 excess body fat than BMI did [@chen2021yishun]. Because Asians reach diabetes and cardiovascular risk
 at a lower BMI, Singapore shifts its action points down from the WHO cut-offs
 [@whoExpert2004AsianBMI].
@@ -218,15 +219,16 @@ processed food over ultra-processed [@aha2021diet].
 ::: {.callout-note}
 ## 🔬 Food science: why "same nutrients" can still mean more energy eaten
 Soft, energy-dense, quick-to-eat foods are eaten faster and in greater volume before fullness (satiety)
-signals take effect, so intake exceeds need even when a diet is matched gram for gram on sugar, fat and
-fibre. That is the finding of the inpatient feeding trial, and it makes processing, as well as
-composition, a modifiable factor worth naming [@hall2019upf].
+signals take effect, so intake can exceed need even when a diet is matched on sugar, fat and fibre.
+In the inpatient feeding trial people ate the ultra-processed meals faster, a possible explanation
+alongside the higher energy density of their solid foods; which feature matters most is still debated.
+Either way, processing, as well as composition, is a modifiable factor worth naming [@hall2019upf].
 :::
 
 ::: {.callout-tip}
 ## 🍜 Eating out
 The hawker plate is where most of this is decided. Energy-dense staples add up fast: a plate of char
-kway teow runs to roughly 744 kcal with about 38 g of fat, close to a whole day's fat in one dish
+kway teow runs to roughly 744 kcal with about 38 g of fat, around two-thirds of a day's recommended fat (55–60 g) in one dish
 [@healthhubHawkerSwaps]. Several lower-density swaps still fit My Healthy Plate:
 
 - thunder tea rice;
@@ -283,13 +285,14 @@ improves insulin sensitivity and preserves lean mass even when weight barely mov
 matching rise in expenditure, and extending sleep brings intake back down [@alkhatib2017;
 @tasali2022sleepextension]. Short habitual sleep also tracks with more central obesity
 [@kohanmoo2024shortsleep]. The appetite-hormone mechanism is less certain: the classic account, in
-which leptin falls and ghrelin rises, is echoed observationally, but a 2025 meta-analysis of trials
+which leptin falls and ghrelin rises, rests on a small early sleep-restriction experiment, but a 2025 meta-analysis of trials
 found no reliable hormone shift [@spiegel2004; @sleepHormonesMeta2025]. Intake is the reliable
 signal; the hormone story suggests a direction, not a proven mechanism.
 
-**Stress.** Chronic stress and cortisol bias eating toward energy-dense comfort food and channel fat
-to the abdomen, a self-reinforcing cycle that worsens central fat and insulin resistance
-[@dallman2003]. Mindfulness programmes for weight are still exploratory, so the mechanism can be
+**Stress.** Chronic stress and cortisol are thought to bias eating toward energy-dense comfort food
+and channel fat to the abdomen, a self-reinforcing cycle that would worsen central fat and insulin
+resistance [@dallman2003]. The evidence is largely animal work and human associations, so the loop
+is plausible but not proven. Mindfulness programmes for weight are still exploratory, so the mechanism can be
 named but a fix cannot be promised [@daubenmier2011].
 
 **Behaviour change.** Behaviour-change skills make the other four changes stick (see the
@@ -321,7 +324,7 @@ such as blame, shaming or disrespect. Weight stigma is a health hazard [@tomiyam
 
 - it degrades the quality of care;
 - it drives patients to avoid appointments;
-- by raising cortisol and comfort-eating, it can paradoxically promote weight gain, the loop captured
+- by raising cortisol and comfort-eating, it is thought to promote weight gain paradoxically, the loop proposed
   by the Cyclic Obesity/Weight-Based Stigma (COBWEBS) model.
 
 International consensus now condemns weight stigma outright and asks clinicians to switch focus from
@@ -355,8 +358,8 @@ moves. The target is metabolic health.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why can shaming a patient about weight make the weight harder to lose?
 Weight stigma degrades the quality of care and drives patients to avoid appointments, so they receive
-less of the care that helps. Stigma also raises cortisol and comfort-eating, which can promote weight
-gain (the cycle described by the COBWEBS model). Person-first, permission-based framing is therefore
+less of the care that helps. Stigma is also thought to raise cortisol and comfort-eating, which can
+promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is therefore
 part of the treatment.
 :::
 
@@ -379,7 +382,7 @@ can itself promote weight gain, weight-inclusive, person-first care is part of t
 **Singapore reports obesity at one threshold and acts at another.** Population obesity is reported at
 the WHO ≥30 threshold for international comparability, and on that measure it rose from 10.5% to
 12.7% between 2019–20 and 2023–24; clinical action starts far earlier, and the ≥27.5 high-risk band
-has held steady at roughly 1 in 5 adults [@mohNPHS2024]. "12.7% obese" is the newspaper figure;
+has stayed broadly stable at just over 1 in 5 adults (20.7% to 22.8%) [@mohNPHS2024]. "12.7% obese" is the newspaper figure;
 ≥27.5 and ≥23 are the clinic figures. Over the same window, national physical activity recovered to 84.7%
 and obesity still rose, a Singapore-grounded argument for putting diet quality ahead of "just
 exercise more" [@mohNPHS2024].

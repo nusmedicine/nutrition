@@ -152,7 +152,7 @@
           <input type="range" min="45" max="58" step="1" value={menoAge}
                  oninput={(e) => setMeno(e.currentTarget.value)}
                  aria-label="Menopause age" />
-          <span class="cnote">women lose bone faster for ~7 years afterwards</span>
+          <span class="cnote">women lose bone faster around menopause and for several years after</span>
         </label>
       </div>
 

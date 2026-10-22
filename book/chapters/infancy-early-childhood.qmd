@@ -83,8 +83,8 @@ the gut barrier [@ballard2013milk; @dinleyici2023hmo].
 The slogan "breast is best" needs reading against the evidence. The cleanest data come from
 PROBIT, a large cluster-randomised trial of breastfeeding support, which found real reductions in
 gastrointestinal infection and eczema but no reduction in respiratory infection
-[@kramer2001probit]. Its cognitive benefit was modest, mostly verbal, and had largely faded by
-adolescence [@kramer2008cognition]. In observational studies the association with IQ is small, and
+[@kramer2001probit]. Its cognitive benefit at 6.5 years was modest and mostly verbal
+[@kramer2008cognition], and by 16 years only a much smaller verbal effect remained [@yang2018probit]. In observational studies the association with IQ is small, and
 it shrinks after adjustment for the mother's own IQ [@horta2015iq].
 
 Breastfeeding is also associated with modestly lower later obesity, about 15% lower odds in the
@@ -227,8 +227,8 @@ the association runs both ways [@jansen2017pressure].
 **Baby-led weaning**, in which the infant feeds itself instead of being spoon-fed, is a reasonable
 parent choice when an iron-rich food is offered at each meal; it is no better and no worse than
 spoon-feeding on iron [@daniels2018bliss]. Choking depends on food form, not on the feeding method:
-about a third of all infants gag or choke a little while learning, whichever way they are fed
-[@fangupo2016choking].
+about a third of infants choke at least once between 6 and 8 months, at a similar rate whichever
+way they are fed [@fangupo2016choking].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: iron stores run low at about 6 months. Why does that keep cow's milk from being the main drink until about 12 months?
@@ -252,7 +252,7 @@ it does not transfer to every infant.
 Three rules prevent avoidable harm in the first years:
 
 - No honey before 12 months. The immature gut lets *Clostridium botulinum* spores from honey colonise
-  and make toxin, causing **infant botulism** [@rao2021botulism].
+  and make toxin, causing **infant botulism** [@harris2024botulism].
 - No choking hazards (high-risk food shapes) before about 4 years: no whole nuts, whole grapes, hard
   raw vegetables or chunks of hot dog. Grapes are quartered lengthwise and food is cut small
   [@aap2010choking].
@@ -315,7 +315,7 @@ default advice, and referring them.
 guidelines are built around variety, autonomy, an unhurried screen-free setting and sensible timing.
 Their practical advice includes five points [@smjFeeding2023]:
 
-- vegetables first;
+- vegetables as the first complementary food, to build acceptance of vegetables (offered alongside the iron-rich first foods of [Starting solids](#sec-starting-solids));
 - responsive feeding from birth;
 - complementary foods at 4 to 6 months;
 - specialist-guided early peanut for high-risk infants;

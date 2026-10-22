@@ -10,7 +10,7 @@ nutrients:
     kind: rising
     unit: "extra kcal/day above baseline"
     values: [0, 0, 340, 452, 500]
-    why: "Modest in pregnancy and concentrated in the second and third trimesters, and highest in lactation, for milk production. 'Eating for two' only nearly fits lactation."
+    why: "Modest in pregnancy and concentrated in the second and third trimesters. Lactation is highest, for milk production, but fat laid down in pregnancy covers part of the cost, so the net need is only a little above the third trimester's."
 
   - name: "Iron"
     kind: rising
@@ -34,7 +34,7 @@ nutrients:
     kind: flat
     unit: "% of non-pregnant need (schematic)"
     values: [100, 100, 100, 100, 100]
-    why: "The requirement barely rises, because intestinal calcium absorption roughly doubles. A good baseline intake is enough, with no special allowance."
+    why: "Physiologically the need barely rises: in pregnancy intestinal calcium absorption roughly doubles, and in lactation the mother's skeleton releases calcium for the milk, so the dial stays flat. Singapore's allowance still rises modestly, from 800 to 1,000 mg a day for adult women."
 
   - name: "Vitamin A"
     kind: ceiling
@@ -52,4 +52,4 @@ nutrients:
     kind: rising
     unit: "% of non-pregnant need (schematic)"
     values: [100, 110, 120, 130, 150]
-    why: "Most pregnant women fall short of it. It supports foetal brain development, and the need rises further in lactation."
+    why: "Most pregnant women in surveys fall short of it. Small trials suggest it supports foetal brain development, and the need rises further in lactation."

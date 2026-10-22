@@ -33,8 +33,8 @@ options:
     example: "white bread, sugary drinks, biscuits"
     effect: neutral
     note: >-
-      Trade saturated fat for refined starch and sugar and the benefit disappears: LDL is roughly
-      unchanged, and triglycerides can worsen. The "saturated fat has been exonerated" headlines
+      Trade saturated fat for refined starch and sugar and the benefit disappears: LDL falls a
+      little, but HDL falls too and triglycerides rise, so the cholesterol ratio does not improve. The "saturated fat has been exonerated" headlines
       mislead because the studies behind them never said what the fat was replaced with.
   - id: nothing
     label: 'Nothing, just "eat less fat"'
@@ -53,7 +53,7 @@ verdicts:
   neutral:
     label: "No real benefit"
     text: >-
-      Because the replacement is not unsaturated fat, LDL and events barely move.
+      Because the replacement is not unsaturated fat, the blood-lipid profile and events barely improve.
   up:
     label: "Can worsen risk"
     text: >-

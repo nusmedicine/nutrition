@@ -5,7 +5,7 @@ neglect, because it is quieter, slower and rarely an emergency. Yet it is where 
 in length and quality of life are won. *Health in Medicine* is about that second job: the everyday
 clinical work of helping people stay well. No single lever matters more to it than nutrition.
 
-In Singapore, keeping people well now has a national plan. Healthier SG, launched on 5 July 2023
+In Singapore, keeping people well now has a national plan. Healthier SG, launched on 5 July 2023 [@mohHSGEnrolment2023]
 after its 2022 White Paper to Parliament, set out to re-orient the health system *"from reactively
 caring for those who are already sick, to proactively preventing individuals from falling ill"*
 [@mohHealthierSG]. Every resident is invited to enrol with a family doctor and build a personalised
@@ -15,7 +15,8 @@ of that plan and is the subject of this book.
 ## Why a whole book on nutrition
 
 Non-communicable diseases (cardiovascular disease, diabetes, cancers, chronic respiratory disease)
-now cause around three-quarters of all deaths worldwide [@who2020diet]. They are, in large part,
+now cause around three-quarters of deaths worldwide, setting aside deaths from the COVID-19 pandemic
+[@whoNCD2025]. They are, in large part,
 diseases of how people live, and diet is among the largest modifiable drivers [@gbd2019diet]. Close
 to home, one in three Singaporeans has a lifetime risk of diabetes [@mohWarOnDiabetes]. Diet quality
 is part of that picture: the National Nutrition Survey 2022 found that only about 4% of the staples
@@ -25,9 +26,9 @@ up a large share of fat intake [@mohNNS2022].
 Diet is one of the most powerful levers a doctor has, yet it is one of the least taught subjects in
 medical training. A 2019 review across five world regions concluded that *"nutrition is
 insufficiently incorporated into medical education, regardless of country, setting, or year of
-medical education"* [@crowley2019]. In Singapore, by contrast, NUS Medicine is expanding graduate
-training in nutrition and preventive health from 2026, with a focus on Asia's ageing population and
-rising chronic disease.
+medical education"* [@crowley2019]. In Singapore, by contrast, NUS Medicine has launched a Master of Science in Nutrition and
+Lifestyle Medicine, aimed at the challenges of Asia's ageing population and rising chronic disease
+[@nusMScNLM].
 
 ## What this book is
 
@@ -48,7 +49,10 @@ The book is built for an integrated study loop:
 Each chapter has concise text, live diagrams, self-assessment quizzes that give instant feedback,
 and branching clinical cases. In the cases you practise advising patients in realistic situations:
 choosing a *cai png* lunch, facing a high screening glucose, or feeling tired with heavy periods.
-All progress is saved locally in your browser; there is no account and no login.
+All progress is saved locally in your browser; there is no account and no login. In the AI-patient
+cases of the two capstone chapters, what you type is sent to a university-hosted model so that the
+patient can reply and your consultation can be given feedback; the book's server does not log message
+content.
 
 ## How to read it
 

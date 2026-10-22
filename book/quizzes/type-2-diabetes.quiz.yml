@@ -6,7 +6,7 @@ questions:
     options:
       - text: "An intensive, structured lifestyle programme with follow-up"
         correct: true
-        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. What made it effective was the structure (a multi-session curriculum with follow-up, aiming at ~5–7% weight loss and ≥150 min/week of activity), not a single 'you should lose weight' conversation."
+        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. What made it effective was the structure (a multi-session curriculum with follow-up, aiming at ≥7% weight loss and ≥150 min/week of activity), not a single 'you should lose weight' conversation."
       - text: "A one-off conversation advising weight loss and more exercise"
         correct: false
         feedback: "Brief advice is not what produced the Diabetes Prevention Program result. The benefit came from an intensive, multi-session programme with follow-up. A single conversation does not reproduce it, which is why guidelines say to refer to a structured programme."
@@ -60,7 +60,7 @@ questions:
         feedback: "Metformin used alone does not cause hypoglycaemia. On metformin only, a sensible carbohydrate-quality change is reasonable, with a dietitian referral; a medication review for hypoglycaemia risk is not the priority."
       - text: "An SGLT2 inhibitor, with an insulin-like hypoglycaemia risk"
         correct: false
-        feedback: "SGLT2 inhibitors carry low hypoglycaemia risk used alone. The classes that can cause hypoglycaemia are insulin, sulfonylureas and meglitinides, and that is the list to screen for before endorsing carbohydrate restriction."
+        feedback: "SGLT2 inhibitors carry low hypoglycaemia risk used alone, though a very-low-carbohydrate or ketogenic diet is still best avoided on one because of a ketoacidosis risk. The classes that can cause hypoglycaemia are insulin, sulfonylureas and meglitinides, and that is the list to screen for before endorsing carbohydrate restriction."
       - text: "A GLP-1 receptor agonist, as risky here as a sulfonylurea"
         correct: false
         feedback: "GLP-1 receptor agonists do not cause hypoglycaemia used alone. It is the sulfonylureas (with insulin and meglitinides) that carry the risk requiring a medication review first."
@@ -106,7 +106,7 @@ questions:
       - text: "A sweet bubble tea, as long as it carries a Nutri-Grade label somewhere"
         correct: false
         feedback: "A label is not an endorsement: bubble tea typically grades C/D for high sugar. The grade is there to steer the choice toward the A/B end."
-      - text: "Condensed-milk kopi-c, because the milk makes it more nutritious"
+      - text: "Kopi with condensed milk, because the milk makes it more nutritious"
         correct: false
         feedback: "Condensed-milk drinks are high in sugar and saturated fat and grade toward the C/D end. The added milk does not offset the sugar load here."
       - text: "A regular sugary teh, since one drink a day is harmless anyway"
@@ -121,7 +121,7 @@ questions:
         feedback: "Finger-prick glucose testing does not break the fast, and Islam exempts the medically unfit. Many patients believe otherwise and some come to harm, so address the belief and arrange a pre-Ramadan review to risk-stratify and adjust medication."
       - text: "Fasting on insulin is fine and needs no special preparation beforehand"
         correct: false
-        feedback: "Fasting on insulin or a sulfonylurea raises the risk of severe hypoglycaemia several-fold, so it is not preparation-free. The safe approach is a pre-Ramadan review, weeks ahead, to risk-stratify and adjust medication."
+        feedback: "Severe hypoglycaemia is several times more frequent during Ramadan, and insulin and sulfonylureas are among the drugs that can cause it, so fasting on insulin is not preparation-free. The safe approach is a pre-Ramadan review, weeks ahead, to risk-stratify and adjust medication."
       - text: "Testing does break the fast, so the patient should avoid checking glucose"
         correct: false
         feedback: "A finger-prick test does not break the fast: monitoring is religiously permissible and, on medications that can cause hypoglycaemia, important for safety."

@@ -60,7 +60,7 @@ levers that frame every life stage (see the *Reading the Life Stages* chapter):
 | External levers (life and environment) | The factors a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
 
 In Western accounts hot flushes define menopause, but the local picture differs. In Singaporean surveys
-the commonest complaints are aching joints and muscles and poor sleep, with hot flushes far down the list
+the commonest complaints are aching joints and muscles and poor sleep, with hot flushes reported less often
 [@chim2002sgSymptoms; @logan2023iwhp]. A woman here may never mention a flush, so listen for the aches and
 the sleepless nights instead.
 
@@ -73,8 +73,8 @@ support neither in its usual form.
 Total weight gain at midlife follows age and energy balance, not menopause. In women followed through the
 transition, the scale rises steadily with age, with no jump timed to the FMP [@greendale2019swanBodyComp].
 What menopause does change is where the fat sits. Around the FMP the rate of fat gain roughly doubles and
-lean (muscle) mass falls, and fat redistributes from the hips to the abdomen, the visceral, metabolically
-active depot (see the *Energy Balance* chapter) [@greendale2019swanBodyComp]. The waistline, not the
+lean (muscle) mass falls [@greendale2019swanBodyComp], and fat shifts towards the abdomen, the visceral,
+metabolically active depot (see the *Energy Balance* chapter) [@lovejoy2008visceral]. The waistline, not the
 scale, therefore shows the menopause-linked change.
 
 Nor does energy expenditure fall sharply at menopause (see the *Adulthood & Working Life* chapter for the
@@ -122,7 +122,7 @@ RANKL
 Oestrogen normally inhibits bone resorption. When it falls, RANKL rises, osteoclasts become more
 numerous and longer-lived, and resorption outpaces formation [@eghbali2003rankl]. Bone loss, gradual for
 most of adult life, therefore accelerates sharply in a narrow window, from about a year before the FMP to
-two to three years after, reaching roughly 2% a year and removing around 7% of spine bone across the
+about two years after, reaching roughly 2% a year and removing around 7% of spine bone across the
 transition [@greendale2012swanBone]. Chinese women, Singapore's majority, are among the groups that lose bone
 faster through this window [@greendale2012swanBone].
 
@@ -140,7 +140,7 @@ the *Healthy Ageing* chapter.)
 
 **Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is the most
 effective lifestyle measure for bone. In one small, supervised trial, progressive resistance
-and impact training held or even modestly raised bone density where supplements alone did not
+and impact training held or even modestly raised bone density where a home-based, low-intensity exercise programme did not
 [@watson2018liftmor], a real but bounded effect. The everyday version is brisk walking or jogging plus
 some strength work, not a prescription to self-load heavily.
 
@@ -215,10 +215,10 @@ of the soy isoflavones [@lethaby2013cochranePhyto].
 
 Part of the inconsistency is biological. Only some people (more in Asian populations) carry the gut
 bacteria that convert a soy isoflavone into **equol**, its more active form [@setchell2002equol]. Giving
-equol directly to non-producers helps in preliminary trials [@aso2012sequol]. On the pooled evidence, the
-North American Menopause Society does not recommend soy or isoflavone supplements as a treatment for
-flushes [@namsNonhormone2023]. The line to give a patient: *soy foods are a fine, healthy part of your diet and
-reasonable to try, but they are not hormone therapy and I would not count on them to fix the flushes.*
+equol directly to non-producers helped in one small placebo-controlled trial, a preliminary finding [@aso2012sequol]. On the pooled evidence, the
+North American Menopause Society does not recommend soy foods, soy extracts or equol as a treatment for
+flushes [@namsNonhormone2023]. The line to give a patient: *soy foods are a fine, healthy part of your diet,
+but they are not hormone therapy and I would not count on them to fix the flushes.*
 
 ### Safety: soy and breast-cancer risk {#sec-meno-soy-safety}
 
@@ -317,7 +317,7 @@ early), and a weight-inclusive approach avoids the harm of crash dieting.
 
 Singapore is unusually well studied here, and four local findings change the counselling:
 
-- Menopause arrives a little earlier than the Western "51" (mean about 49 years), and its symptoms differ:
+- Menopause arrives a little earlier than the Western figure of about 51 [@gold2001swanAge] (mean about 49 years here), and its symptoms differ:
   aches and broken sleep dominate over flushes, and Indian women report the heaviest symptom burden and
   Chinese women the least [@loh2005sgMenopause; @logan2023iwhp].
 - Bone risk is higher than the sunshine suggests: bone loss through the transition is fast in Chinese
@@ -328,7 +328,7 @@ Singapore is unusually well studied here, and four local findings change the cou
 - Menopause is often met with cultural silence, so the clinician frequently has to open the subject gently
   and normalise it.
 
-Singapore now has its own specialist menopause guidance to refer to when symptoms outrun what nutrition and
+Singapore now has its own menopause management guidelines [@kkh2026menopauseGuidelines] to refer to when symptoms outrun what nutrition and
 lifestyle can do.
 
 ## Check your understanding {#sec-quiz}

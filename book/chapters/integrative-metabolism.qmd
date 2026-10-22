@@ -224,7 +224,7 @@ numbers are approximate: what matters is the roughly 15-fold gap between aerobic
 ### ATP turnover: spent, not stored {#sec-atp}
 
 ATP is easily mistaken for the body's energy store, but it is an energy currency. The body holds only
-seconds' to minutes' worth at any moment, yet turns over close to its own weight in ATP each day,
+seconds' to minutes' worth at any moment, yet turns over close to its own weight in ATP each day [@tornroth2008gate],
 making and spending it continuously. The body's energy stores are glycogen and fat, which are converted
 into ATP on demand. Not every carrier serves ATP production: NADPH, from the pentose phosphate pathway,
 supplies reducing power for synthesis and antioxidant defence and is kept separate from the carriers
@@ -500,13 +500,16 @@ Exercise selects fuel along a continuum set by intensity and duration:
 The **crossover concept** summarises the trade: as intensity rises, the fuel mix shifts from fat toward
 carbohydrate [@brooks1994crossover]. Because glycogen is the limited store, running it down
 (**glycogen depletion**) produces the sudden fade that athletes call "hitting the wall", felt by a
-marathoner near 30 km, when the glycogen is spent and only slower fat oxidation is left.
+marathoner most often around 33–34 km, when the glycogen is spent and only slower fat oxidation is
+left [@rapoport2010marathon].
 
 ::: {.callout-warning}
 ## Is there a fat-burning zone?
 Gym machines advertise a low-intensity "fat-burning zone", based on a real observation: gentle exercise
-burns a higher proportion of fat. It also burns less energy in total. Harder exercise burns more total
-energy, and more total fat, per minute. For losing fat over weeks, what counts is the total energy
+burns a higher proportion of fat. It also burns less energy in total. Moving from gentle to moderate
+exercise burns more total energy, and more total fat, per minute; total fat burning peaks at a
+moderate intensity and falls away in very hard efforts, which run mainly on carbohydrate
+[@achten2002fatmax]. For losing fat over weeks, what counts is the total energy
 deficit, not the zone a session sat in. The zone is therefore misleading: burning a higher proportion
 of fat is not the same as burning more fat.
 :::
@@ -567,9 +570,10 @@ state called **hypoglycaemia** [@krebs1969alcohol]. Heavy drinking without eatin
 a hypoglycaemic collapse that looks like ordinary drunkenness.
 
 **Recognising hypoglycaemia.** As blood glucose falls, the counter-regulatory response produces
-symptoms in a typical order. Autonomic (adrenergic) warning symptoms come first: tremor, sweating,
-palpitations and hunger. They are driven by adrenaline and appear at a higher glucose level, as an
-early alarm. **Neuroglycopenic** symptoms, those of the brain itself running short of glucose, follow:
+symptoms in a typical order. Autonomic (neurogenic) warning symptoms come first: tremor, sweating,
+palpitations and hunger. They come from the autonomic nervous system, partly through adrenaline and
+noradrenaline (tremor, palpitations) and partly through acetylcholine-releasing (cholinergic) nerves
+(sweating, hunger), and appear at a higher glucose level, as an early alarm [@towler1993awareness]. **Neuroglycopenic** symptoms, those of the brain itself running short of glucose, follow:
 confusion, slurred speech and eventually loss of consciousness [@mitrakou1991;
 @diabetologia2022thresholds]. The dependable point is that the autonomic warning comes before the brain
 fails; the order of one symptom against another is less consistent than older teaching implied, and
@@ -619,8 +623,10 @@ The festivals show the storing state most clearly. Chinese New Year, Hari Raya, 
 Christmas each bring days of feasting (reunion dinners, *bak kwa* and pineapple tarts, *ketupat* and
 *rendang*, log cakes and soft drinks), and fed-state metabolism stores the surplus as glycogen and fat.
 Nothing is metabolically wrong: fed-state regulation is working normally. But holiday weight gain is
-real, modest per season and not fully reversed afterwards, so it accumulates across the years
-[@yanovski2000holiday].
+real: in a US study of the Thanksgiving-to-New-Year season it was modest (under half a kilogram on
+average) and was not reversed in the following months, so it probably adds up across the years
+[@yanovski2000holiday]. The study was American, but the same physiology applies to Singapore's
+festival calendar.
 
 **Ramadan: the fed–fasted cycle, every day for a month.** For a large part of the community the cycle
 of fed, fasted and refed states is lived daily for a month. There is no food or drink from dawn to dusk
@@ -638,8 +644,9 @@ For someone with diabetes on insulin or a sulfonylurea, this cultural practice b
 issue, one to recognise and refer, not
 manage. A long daily fast on glucose-lowering medication markedly raises the risk of hypoglycaemia. A
 13-country survey put the rise in severe hypoglycaemia at several-fold [@salti2004epidiar], and a
-Singapore study found nearly half of Muslim patients with type 2 diabetes had a hypoglycaemic episode
-around Ramadan, many continuing to fast without self-monitoring [@zainudin2017knowledge]. The
+Singapore hospital survey found that nearly half of Muslim patients with diabetes had a hypoglycaemic
+episode during the previous Ramadan, over a third had not monitored their glucose, and some fasted on
+through the episode [@zainudin2017knowledge]. The
 evidence-based response is local too: the Singapore-developed FAST algorithm, tested in a randomised
 trial, guides pre-Ramadan medication adjustment [@lum2020fast]. When you see a patient with diabetes
 who plans to fast, recognise the risk, advise breaking the fast for a hypoglycaemic episode, and refer
@@ -655,15 +662,17 @@ assumption that they are "just drunk".
 ## 🍜 How do intermittent fasting and the ketogenic diet work?
 Both are popular here, and both work, but through more ordinary mechanisms than their promoters claim.
 **Time-restricted eating** (limiting eating to a daily window, as in "16:8") produces weight loss mostly
-by reducing total energy intake, and in a careful trial was not superior to plain daily calorie
-restriction [@liu2022tre; @decabo2019fasting]. The ketogenic diet likewise works largely through
+by reducing total energy intake, and in a careful 12-month trial, adding an eating window to calorie
+restriction gave no significantly greater weight loss than the same calorie restriction alone
+[@liu2022tre; @decabo2019fasting]. The ketogenic diet likewise works largely through
 control of appetite and energy intake, and its nutritional ketosis is not the dangerous ketoacidosis a
 patient may fear. (Weighing claims like these is the subject
 of the [*Evidence vs Hype*](evidence-vs-hype.qmd) chapter.)
 :::
 
-**Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016; roughly one
-resident in twelve lives with diabetes, and more in some communities [@mohWarOnDiabetes]. A food
+**Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]; in
+the 2021–2022 National Population Health Survey, roughly one resident in twelve aged 18 to 74 had
+diabetes [@mohNNS2022]. A food
 culture that keeps many people in the fed, storing state, together with the ways metabolic regulation
 fails, is the physiology beneath that public-health effort.
 
