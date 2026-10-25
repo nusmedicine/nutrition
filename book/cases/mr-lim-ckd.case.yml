@@ -43,18 +43,18 @@ nodes:
       - id: a
         text: "High-risk CKD: from here his diet is dietitian-led work, so recognise and refer."
         correct: true
-        feedback: "CKD is staged by cause, eGFR and albuminuria on a colour-coded heat map, and a low eGFR with heavy albuminuria falls in the high-risk zone, the downstream kidney damage of his long-standing diabetes. The task is to recognise that once CKD is confirmed, individualised nutrition is the treatment and it is **dietitian-led**, not to memorise every threshold."
+        feedback: "CKD is staged by cause, eGFR and albuminuria on a colour-coded heat map, and a low eGFR with heavy albuminuria falls in the high-risk zone, the downstream kidney damage of his long-standing diabetes. The task is to recognise that once CKD is confirmed, individualised nutrition is the treatment and it is **dietitian-led**."
         effects: { quality: +1 }
         goto: reveal-classify
       - id: b
         text: "Mild and reassuring: no real action is needed while he feels completely well."
         correct: false
-        feedback: "Feeling well is no reassurance in a silent disease. CKD is detected biochemically, not by symptoms, and a low eGFR with heavy albuminuria is high-risk CKD now. This is the point at which the diet and the referral matter, before the disease advances."
+        feedback: "Feeling well is no reassurance in a silent disease. CKD is detected biochemically, and a low eGFR with heavy albuminuria is high-risk CKD now. This is the point at which the diet and the referral matter, before the disease advances."
         goto: reveal-classify
       - id: c
         text: "Not yet classifiable: he needs a kidney biopsy before any advice about his diet."
         correct: false
-        feedback: "CKD is defined and staged from eGFR and albuminuria (with the cause, here diabetes), not from a biopsy. His numbers already place him in the high-risk zone, and that is enough to act: recognise the dietary issues and refer."
+        feedback: "CKD is defined and staged from eGFR and albuminuria (with the cause, here diabetes); no biopsy is needed. His numbers already place him in the high-risk zone, and that is enough to act: recognise the dietary issues and refer."
         goto: reveal-classify
 
   - id: reveal-classify
@@ -81,7 +81,7 @@ nodes:
       - id: b
         text: "Yes to both: potassium is heart-healthy and low-sodium salt lowers his blood pressure, so more is better."
         correct: false
-        feedback: "This answer can cause real harm. 'Potassium is heart-healthy' is true for most people, but Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer. Good advice elsewhere does not make blanket 'more is better' advice safe here."
+        feedback: "This answer can cause real harm. Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer."
         goto: remedial-potassium
 
   - id: remedial-potassium
@@ -90,8 +90,8 @@ nodes:
     body: |
       Pause before Uncle Lim goes home and doubles his bananas.
 
-      This is advice that reverses in CKD. For the general public, "eat more potassium" and a low-sodium
-      **potassium** salt substitute are sound heart advice. Uncle Lim's failing kidneys can't excrete a
+      For the general public, "eat more potassium" and a low-sodium
+      **potassium** salt substitute are sound heart advice, and both reverse in CKD. Uncle Lim's failing kidneys can't excrete a
       potassium load, so both can drive hyperkalaemia (a high blood potassium that can disturb the heart's
       rhythm), and his ACE inhibitor raises potassium as well. The WHO's advice to eat more potassium
       explicitly excludes people who can't excrete it, and the large salt-substitute trial deliberately
@@ -159,12 +159,12 @@ nodes:
       - id: b
         text: "Start a fixed 1,000 mL-a-day fluid limit and a phosphate binder with every meal."
         correct: false
-        feedback: "Both are specialist decisions, not a generalist's first step. Fluid limits matter mainly in advanced disease and on dialysis, where any restriction is individualised and set by the renal team; binders are a nephrologist's decision. The change you *can* reinforce today is cutting sodium; the rest is referred."
+        feedback: "Both are specialist decisions. Fluid limits matter mainly in advanced disease and on dialysis, where any restriction is individualised and set by the renal team; binders are a nephrologist's decision. The change you *can* reinforce today is cutting sodium; the rest is referred."
         goto: route
       - id: c
         text: "Give him exact daily gram targets for potassium and phosphate to follow."
         correct: false
-        feedback: "Potassium and phosphate amounts are individualised to his blood levels by a renal dietitian, not handed out as gram targets from memory, and getting potassium wrong is exactly the hyperkalaemia risk you just avoided. Reinforce sodium, and refer the quantified targets."
+        feedback: "Potassium and phosphate amounts are individualised to his blood levels by a renal dietitian, and getting potassium wrong is exactly the hyperkalaemia risk you just avoided. Reinforce sodium, and refer the quantified targets."
         goto: route
 
   - id: route
@@ -182,7 +182,7 @@ nodes:
       You handled Uncle Lim well. You classified his results as high-risk CKD and recognised that his diet is
       now individualised, dietitian-led work. You applied **do-no-harm** to the potassium question: "eat more
       potassium" and a low-sodium potassium salt substitute reverse in CKD, and are riskier still on his ACE
-      inhibitor, so you held off and referred instead of endorsing them. You caught the protein mistake (skipping
+      inhibitor, so you held off and referred. You caught the protein mistake (skipping
       meals risks protein-energy wasting, and targets are modest and dietitian-set), and you reinforced the one
       change a generalist safely can, cutting sodium, with everything else referred.
     debrief:
@@ -201,7 +201,7 @@ nodes:
     title: "Most of the way there"
     body: |
       You reached a plan for Uncle Lim, but slipped on at least one point: classifying his high-risk CKD,
-      catching the protein-skipping mistake, or reinforcing sodium instead of prescribing specialist limits. The
+      catching the protein-skipping mistake, or reinforcing sodium and referring the specialist limits. The
       one that matters most for safety is the **potassium** question. Endorsing "eat more banana" and a
       low-sodium potassium salt substitute in a CKD patient on an ACE inhibitor is a do-no-harm error: the
       failing kidney can't clear the potassium load, risking dangerous hyperkalaemia, and both the WHO advice and

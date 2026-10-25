@@ -1,7 +1,7 @@
 id: pillar-mapping-mr-tan
 title: "Mr Tan feels 'basically fine'"
 objectives:
-  - "Map a patient's risk across all six pillars of health, not diet alone."
+  - "Map a patient's risk across all six pillars of health."
   - "Choose dietary advice that fits the patient's real food environment."
   - "Explain why a single-pillar plan is often less effective than a multi-pillar one, keeping the evidence caveats intact."
 difficulty: intro
@@ -61,7 +61,7 @@ nodes:
       You note his pillar profile: short sleep (~5.5 h), high work stress, sedentary
       days, weekend alcohol and eating alone, all wrapped around an energy-dense,
       refined-carbohydrate, high-sodium food-court diet. Nutrition is the obvious entry
-      point, but it is not the only factor.
+      point, and the other pillars all feed back onto his eating.
     next: q-leverage
 
   - id: q-leverage
@@ -76,7 +76,7 @@ nodes:
       - id: b
         text: "Map food-court swaps he can make tomorrow."
         correct: true
-        feedback: "Specific, local swaps give him something to act on: a My Healthy Plate *cai png* (two veg, one protein, less gravy), plain tea or *kopi-o kosong* instead of a Grade-D *teh tarik*, and a smaller rice portion, all at the same food court tomorrow."
+        feedback: "Specific, local swaps give him something to act on: a My Healthy Plate *cai png* (two veg, one protein, less gravy), a switch from a Grade-D *teh tarik* to plain tea or *kopi-o kosong*, and a smaller rice portion, all at the same food court tomorrow."
         effects: { quality: +1 }
         goto: q-underperform
       - id: c
@@ -187,9 +187,9 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "The asymptomatic stage is the time to prevent disease, not an all-clear."
+        - "The asymptomatic stage is the time to prevent disease."
         - "Nutrition is the entry point; a durable plan touches sleep, stress and social context."
-        - "Multi-pillar plans are associated with larger benefit; state it as an association, not proven synergy."
+        - "Multi-pillar plans are associated with larger benefit. Synergy has not been proven, so state the benefit as an association."
       references: ["@loef2012lifestyle"]
 
   - id: end-partial
@@ -204,4 +204,4 @@ nodes:
       keyPoints:
         - "Map all six pillars before deciding where to focus."
         - "Make diet advice concrete and local: a swap he can make at the same food court."
-        - "Keep the evidence claims precise: association, not proven synergy."
+        - "Keep the evidence claims precise: combined behaviours are associated with benefit, and synergy is unproven."

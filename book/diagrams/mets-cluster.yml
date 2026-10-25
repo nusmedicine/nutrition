@@ -6,7 +6,7 @@
 # No `intro` key: the chapter paragraph beside the island already states the definition, and the
 # component's own hint line carries the toggle instruction (AUTHOR.md §11i item 8).
 id: mets-cluster
-title: "Metabolic syndrome: a cluster, not a single disease"
+title: "Metabolic syndrome: a cluster of risk factors"
 hub:
   label: "Insulin resistance"
   sub: "+ central fat"
@@ -18,7 +18,7 @@ components:
   - id: waist
     label: "Central obesity"
     threshold: "Waist ≥90 cm (men) / ≥80 cm (women)"
-    note: "Asian cut-offs. Waist circumference reflects visceral fat, the depot that contributes most to the risk, rather than overall weight."
+    note: "Asian cut-offs. Waist circumference reflects visceral fat, the depot that contributes most to the risk."
   - id: triglycerides
     label: "Raised triglycerides"
     threshold: "≥1.7 mmol/L"
@@ -50,9 +50,9 @@ levers:
       note: "Short or poor sleep measurably raises energy intake and is associated with more central fat."
     - id: stress
       label: "Stress / cortisol"
-      note: "Chronic stress and cortisol are thought to bias eating toward energy-dense comfort food and favour abdominal fat: plausible, not proven."
+      note: "Chronic stress and cortisol are thought to bias eating toward energy-dense comfort food and favour abdominal fat, although this is unproven."
 # A short standing caption: the take-home the chapter paragraph does not already state.
 caption: >-
   Care targets the common underlying abnormalities (insulin resistance with central fat) and the modifiable
-  factors that contribute to them, not one number in isolation.
+  factors that contribute to them.
 credit: "Harmonised criteria after IDF / AHA / NHLBI (Alberti 2009); Asian waist cut-offs per IDF."

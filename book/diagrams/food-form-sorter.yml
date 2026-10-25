@@ -21,13 +21,13 @@ foods:
     why: "Whole peanuts are a choking hazard; as smooth peanut butter, peanut is safe and protects against allergy."
   - name: "Well-cooked egg"
     verdict: safe
-    why: "Another early allergen to introduce, not delay: early introduction of egg lowers egg-allergy risk."
+    why: "Another allergen to introduce early: early introduction of egg lowers egg-allergy risk."
   - name: "Whole grapes"
     verdict: modify
     why: "A common choking hazard because of their shape. Quartered lengthwise, grapes are fine."
   - name: "Grapes, quartered lengthwise"
     verdict: safe
-    why: "The same grape, made safe by changing its shape: the choking risk comes from the shape, not the food itself."
+    why: "The same grape, made safe by changing its shape: the choking risk lies in the shape."
   - name: "Hot dog (round chunks)"
     verdict: modify
     why: "A common choking hazard when sliced into rounds. Cut it lengthwise and small instead."
@@ -45,7 +45,7 @@ foods:
     why: "No juice before 12 months and little after; no added sugar. Early exposure to sweet tastes sets a lasting preference for sweetness."
   - name: "Plain rice-water porridge"
     verdict: modify
-    why: "Not a choking risk; the issue is nutrition, since on its own it supplies energy but few nutrients, including little iron. Make the congee iron-rich with minced meat, egg and soft greens."
+    why: "Its problem is nutrition: on its own it supplies energy but few nutrients, including little iron. Make the congee iron-rich with minced meat, egg and soft greens."
   - name: "Added salt"
     verdict: wait12
     why: "The infant kidney is immature and taste preferences are still developing, so no added salt (or sugar) in the first year."

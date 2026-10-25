@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Because they are stored in the body"
         correct: true
-        feedback: "Fat-soluble vitamins are stored in fat and the liver rather than readily excreted, so megadoses accumulate and can reach toxic levels. Excess water-soluble vitamins are largely excreted."
+        feedback: "Fat-soluble vitamins are stored in fat and the liver, so megadoses accumulate and can reach toxic levels. Excess water-soluble vitamins are largely excreted."
       - text: "Because they contain more energy"
         correct: false
         feedback: "Vitamins supply almost no energy, so energy content cannot explain toxicity. Storage does: what is stored can accumulate."
@@ -22,13 +22,13 @@ questions:
         feedback: "This is Wernicke's encephalopathy: confusion, unsteadiness and abnormal eye movements in a heavy drinker. Thiamine is given urgently to at-risk drinkers to prevent permanent damage."
       - text: "Vitamin C"
         correct: false
-        feedback: "Scurvy, from vitamin C deficiency, causes bleeding gums and poor healing, not an acute neurological picture like this one."
+        feedback: "Scurvy, from vitamin C deficiency, causes bleeding gums and poor healing and does not explain this acute neurological picture."
       - text: "Vitamin D"
         correct: false
         feedback: "Vitamin D deficiency affects bone (rickets in children, osteomalacia in adults) and does not explain this acute confusion."
 
   - id: q3
-    stem: "Why is folic acid recommended before conception rather than once pregnancy is confirmed?"
+    stem: "Why should folic acid be started before conception?"
     options:
       - text: "The neural tube closes very early in pregnancy"
         correct: true
@@ -113,7 +113,7 @@ questions:
         feedback: "Iodised salt is an important iodine source, so switching to non-iodised salt risks deficiency. Iodine is needed to make thyroid hormone, which is essential for foetal brain development, so the risk is greatest in pregnancy."
       - text: "Sea salt contains dangerously high levels of iodine"
         correct: false
-        feedback: "Most sea and gourmet salts contain little or no iodine, so the risk is too little iodine, not too much."
+        feedback: "Most sea and gourmet salts contain little or no iodine, so the risk is iodine deficiency."
       - text: "Gourmet salts have far more sodium, raising blood pressure"
         correct: false
         feedback: "All these salts contain essentially the same amount of sodium; the difference that matters is the missing iodine."
@@ -136,7 +136,7 @@ questions:
     options:
       - text: "Sauces, broths and food eaten out"
         correct: true
-        feedback: "Most sodium is already in prepared and hawker foods, not added from the salt shaker at the table, which is why population strategies target the food supply."
+        feedback: "Most sodium is already in prepared and hawker foods by the time they reach the table, which is why population strategies target the food supply."
       - text: "Salt added at the dining table"
         correct: false
         feedback: "Table salt is the visible source, but the bulk of sodium is in cooking sauces, broths and food eaten out."

@@ -4,7 +4,7 @@ questions:
   - id: q-fat-to-glucose
     stem: "Can the body turn fat into glucose?"
     options:
-      - text: "Only the glycerol backbone, not the fatty-acid carbons."
+      - text: "Only the glycerol backbone of a triglyceride."
         correct: true
         feedback: "Only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot. Fatty acids become acetyl-CoA, and the step from pyruvate to acetyl-CoA (PDH) is irreversible, so fatty-acid carbon cannot go back to glucose."
       - text: "Yes, fat is readily converted to glucose whenever blood glucose is low."
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Their GLUT4 needs insulin; liver GLUT2 does not."
         correct: true
-        feedback: "Insulin brings GLUT4 to the cell surface, so a meal switches on uptake in muscle and fat. GLUT2 (liver) is insulin-independent and admits glucose in proportion to its concentration; insulin acts on the liver's enzymes, not its glucose transporter."
+        feedback: "Insulin brings GLUT4 to the cell surface, so a meal switches on uptake in muscle and fat. GLUT2 (liver) is insulin-independent and admits glucose in proportion to its concentration; insulin acts on the liver's enzymes."
       - text: "The liver has no way to take up glucose."
         correct: false
         feedback: "The liver takes up glucose readily through GLUT2. That transporter does not need insulin, so uptake does not surge the way it does in GLUT4-dependent muscle and fat."
@@ -50,7 +50,7 @@ questions:
         correct: false
         feedback: "After a meal the liver takes up glucose through GLUT2, and during fasting it releases glucose. GLUT2 is insulin-independent."
   - id: q-scot
-    stem: "In a prolonged fast the liver makes large amounts of ketone bodies. Why does it export them instead of burning them itself?"
+    stem: "In a prolonged fast the liver makes large amounts of ketone bodies but burns none itself. Why?"
     options:
       - text: "The liver lacks the enzyme needed to use ketones."
         correct: true
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "The acidosis: an acidic blood pH from uncontrolled insulin deficiency."
         correct: true
-        feedback: "Deep nutritional ketosis and mild DKA can have overlapping ketone levels. What defines DKA is the acidosis, and the near-total lack of insulin behind it, not the ketone number alone."
+        feedback: "Deep nutritional ketosis and mild DKA can have overlapping ketone levels. What defines DKA is the acidosis and the near-total lack of insulin behind it."
       - text: "The ketone level alone, which is always far higher in DKA."
         correct: false
         feedback: "The ketone ranges overlap, so the number alone cannot separate the two; DKA is defined by the acidosis driven by uncontrolled insulin deficiency."

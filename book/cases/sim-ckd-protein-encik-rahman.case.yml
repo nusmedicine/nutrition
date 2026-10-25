@@ -9,7 +9,7 @@ title: "Simulated patient: Encik Rahman (early kidney disease)"
 objectives:
   - "Correct the 'avoid protein' belief: near-total restriction risks muscle wasting; the right, stage-specific amount is set by a renal dietitian. Reassure without prescribing a number."
   - "Reinforce the one safe general change (cutting ordinary salt) and catch the two do-no-harm hazards: star fruit/belimbing must be avoided completely in kidney disease, and a 'low-sodium' potassium salt substitute can be dangerous here."
-  - "Recognise that kidney disease with diabetes is beyond general healthy-eating advice and refer to a renal dietitian, rather than issuing DIY potassium or protein limits."
+  - "Recognise that kidney disease with diabetes is beyond general healthy-eating advice, and refer to a renal dietitian to set any potassium or protein limits."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, kidney, ckd, referral, do-no-harm, counselling, simulated-patient]
@@ -89,7 +89,7 @@ nodes:
       keyPoints:
         - "'Avoid protein' is harmful advice here: near-total restriction risks protein-energy wasting and muscle loss. Protein targets in kidney disease are modest, stage-specific and dietitian-set, so reassure him and don't prescribe a number yourself."
         - "Catch the do-no-harm hazards: star fruit and belimbing must be avoided completely in kidney disease (they carry a neurotoxin that failing kidneys cannot clear), and a 'low-sodium' potassium salt substitute can cause dangerous hyperkalaemia, especially with his kidney-protection blood-pressure pill. Cutting ordinary salt is the one change safe to reinforce."
-        - "Kidney disease with diabetes is beyond general healthy eating: refer to a renal dietitian (a referral can link him to the National Kidney Foundation's education programmes); do not hand out potassium or protein amounts yourself."
+        - "Kidney disease with diabetes is beyond general healthy eating: refer to a renal dietitian, who sets any potassium or protein amounts (a referral can also link him to the National Kidney Foundation's education programmes)."
 
   - id: end-partial
     type: end
@@ -102,5 +102,5 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Reassure him that cutting out protein completely is harmful; the individualised amount is the dietitian's job, not a DIY restriction."
-        - "Do not miss the hazards: stop the star-fruit juice and the potassium salt substitute, reinforce ordinary salt reduction, and refer to a renal dietitian."
+        - "Reassure him that cutting out protein completely is harmful, and leave the individualised amount to the renal dietitian."
+        - "Catch the hazards: stop the star-fruit juice and the potassium salt substitute, reinforce ordinary salt reduction, and refer to a renal dietitian."

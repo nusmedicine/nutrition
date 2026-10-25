@@ -72,7 +72,7 @@ nodes:
       - id: c
         text: "A full copy of every consultation note from the past five years."
         correct: false
-        feedback: "Burying the dietitian in undifferentiated notes is as unhelpful as too little. Give the relevant, structured summary, not the archive."
+        feedback: "Burying the dietitian in undifferentiated notes is as unhelpful as too little. Give the relevant, structured summary."
         goto: q-interim
 
   - id: q-interim
@@ -90,7 +90,7 @@ nodes:
       - id: b
         text: "Set her a specific daily carbohydrate and potassium gram target to follow until then."
         correct: false
-        feedback: "Specific therapeutic targets in a patient with kidney impairment are medical nutrition therapy, exactly what you refer instead of improvising. Stay with safe general advice."
+        feedback: "Specific therapeutic targets in a patient with kidney impairment are medical nutrition therapy, which belongs with the dietitian. Stay with safe general advice."
         goto: remedial
       - id: c
         text: "Tell her to change nothing at all until the dietitian sees her."
@@ -146,6 +146,6 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Recognise when complexity requires MNT and refer, rather than advising without referring, or overstepping."
-        - "Write a complete referral, not \"please advise on diet\"."
-        - "Stay in scope while the patient waits: safe general advice, not improvised therapeutic targets or nothing at all."
+        - "Recognise when complexity requires MNT, and refer while staying in scope."
+        - "Write a complete referral: diagnoses, key results, medicines, weight trend, goals and urgency."
+        - "Stay in scope while the patient waits: give safe general advice and keep her under follow-up."

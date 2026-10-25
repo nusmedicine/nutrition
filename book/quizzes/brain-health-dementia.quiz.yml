@@ -16,7 +16,7 @@ questions:
   - id: q2
     stem: "A headline says up to 45% of dementia is preventable. How should you interpret it for a patient?"
     options:
-      - text: "A population estimate across many factors, not a 45% cut in one person's risk"
+      - text: "A population estimate summed across many common risk factors"
         correct: true
         feedback: "It is a population-attributable estimate: a theoretical ceiling that assumes full causality and full elimination of many factors across a population. It is not an individual guarantee, and no trial has proven it."
       - text: "A promise that fixing her risk factors will cut her personal risk by 45%"
@@ -24,19 +24,19 @@ questions:
         feedback: "Each risk factor raises an individual's risk only modestly; the big number comes from summing many common exposures across a population."
       - text: "A figure proven in randomised trials of risk-factor treatment"
         correct: false
-        feedback: "Modelled from observational data, the figure is not a trial result. The best trial evidence, from blood-pressure control, is real but narrower."
+        feedback: "The figure is modelled from observational data. The best trial evidence, from blood-pressure control, is real but narrower."
   - id: q3
     stem: "Cohort studies linked the MIND diet to about half the Alzheimer's risk, yet you should not tell patients it prevents dementia. Why?"
     options:
       - text: "The randomised trial built to test it found no cognitive benefit"
         correct: true
-        feedback: "The trial did not confirm the cohort association. People who eat well differ in many other ways (confounding), and early disease can worsen diet (reverse causation). Recommend the pattern as having little downside, not as proven prevention."
+        feedback: "The trial did not confirm the cohort association. People who eat well differ in many other ways (confounding), and early disease can worsen diet (reverse causation). Recommend the pattern because it has little downside, and present its effect on dementia as unproven."
       - text: "The cohort studies were fabricated and later retracted"
         correct: false
         feedback: "These cohorts are real, but observational associations often overstate a benefit compared with a trial."
       - text: "The diet is unsafe, so it should not be recommended at all"
         correct: false
-        feedback: "A Mediterranean or MIND pattern is safe and cardioprotective, so it is fine to recommend, just not as a dementia cure."
+        feedback: "A Mediterranean or MIND pattern is safe and cardioprotective, so it is fine to recommend."
   - id: q4
     stem: "A patient brings a bag of brain supplements and asks which to keep. What is the best response?"
     options:
@@ -45,7 +45,7 @@ questions:
         feedback: "Trials of ginkgo and omega-3 capsules found no benefit (eat fish as food), and high-dose vitamin E carries a small mortality signal. Redirect the spending to vascular control and diet quality."
       - text: "Keep the ginkgo, since it is a proven memory protector"
         correct: false
-        feedback: "A large trial found ginkgo did not reduce dementia, so it is not protective, and it can raise bleeding risk."
+        feedback: "A large trial found ginkgo did not reduce dementia, and it can raise bleeding risk."
       - text: "Add high-dose vitamin E, which reliably prevents decline"
         correct: false
         feedback: "Vitamin E does not prevent dementia and, at high doses, has been linked to a small increase in death, so adding it risks harm."
@@ -76,12 +76,12 @@ questions:
   - id: q7
     stem: "How should you frame the weight loss of advanced dementia to a distressed family?"
     options:
-      - text: "An expected part of the illness, not a reversible deficit"
+      - text: "An expected, irreversible part of the illness itself"
         correct: true
         feedback: "Weight loss and difficulty eating are a late feature of the disease itself. Naming this plainly and kindly, and offering careful hand feeding, is the humane and evidence-based approach."
       - text: "A sign the patient is being neglected and underfed"
         correct: false
-        feedback: "The weight loss is disease-driven, not a failure of care; framing it as neglect adds guilt and pushes toward futile tube feeding."
+        feedback: "The weight loss is driven by the disease. Framing it as neglect adds guilt and pushes toward futile tube feeding."
       - text: "A problem that high-calorie supplements will reliably reverse"
         correct: false
-        feedback: "Late-stage weight loss is not a simple deficit to top up; supplements do not reverse the trajectory. Comfort and a goals-of-care conversation come first."
+        feedback: "Supplements do not reverse the trajectory of late-stage weight loss. Comfort and a goals-of-care conversation come first."

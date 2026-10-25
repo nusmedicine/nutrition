@@ -9,7 +9,7 @@ questions:
         feedback: "Breast milk is low in vitamin D, so every breastfed or partially breastfed infant needs 400 IU/day from birth. Its other two gaps are filled differently: vitamin K by an injection at birth, and iron by iron-rich solids from about 6 months."
       - text: "Iron drops from birth"
         correct: false
-        feedback: "A term baby's iron stores last about 6 months, and iron then comes from iron-rich first foods, not drops from birth. The routine supplement is vitamin D."
+        feedback: "A term baby's iron stores last about 6 months, and iron then comes from iron-rich first foods. The routine supplement is vitamin D."
       - text: "None, as breast milk has everything"
         correct: false
         feedback: "Many assume breast milk has everything, but it is low in vitamin D and vitamin K specifically. Every breastfed infant needs 400 IU/day of vitamin D and a vitamin K injection at birth."
@@ -17,12 +17,12 @@ questions:
   - id: q2
     stem: "Which statement about the evidence for breastfeeding is the most accurate?"
     options:
-      - text: "The benefits are real but specific, not across every outcome"
+      - text: "The benefits are real but limited to specific outcomes"
         correct: true
-        feedback: "The most rigorous trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is a modest association, not proof. State the benefits with their caveats."
+        feedback: "The most rigorous trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is only a modest association. State the benefits with their caveats."
       - text: "Breastfeeding dramatically raises IQ and prevents obesity and most infections"
         correct: false
-        feedback: "Each claim goes beyond the evidence: the IQ effect is small and mostly faded by adolescence, the obesity link is an association, not proof, and the protection is specific (gut infection and eczema, not respiratory infection)."
+        feedback: "Each claim goes beyond the evidence: the IQ effect is small and mostly faded by adolescence, the obesity link is only an association, and the protection covers gut infection and eczema; PROBIT found no reduction in respiratory infection."
       - text: "Formula is just as good, so breastfeeding makes no difference"
         correct: false
         feedback: "PROBIT showed reductions in gut infection and eczema, so breastfeeding does make a difference. The benefits are real and specific."
@@ -32,7 +32,7 @@ questions:
     options:
       - text: "Introduce them early, once solids start"
         correct: true
-        feedback: "Early oral exposure builds tolerance, whereas sensitisation happens through inflamed skin, and the LEAP and EAT trials reversed the old advice to delay. Smooth peanut butter and well-cooked egg are therefore offered once solids start; delaying now increases allergy risk. Refer high-risk infants (severe eczema or egg allergy) for guided peanut introduction; LEAP's ~80% figure comes from those infants, not from all babies."
+        feedback: "Early oral exposure builds tolerance, whereas sensitisation happens through inflamed skin, and the LEAP and EAT trials reversed the old advice to delay. Smooth peanut butter and well-cooked egg are therefore offered once solids start; delaying now increases allergy risk. Refer high-risk infants (severe eczema or egg allergy) for guided peanut introduction; LEAP's ~80% figure comes from those high-risk infants."
       - text: "Delay all allergens until 12 months to be safe"
         correct: false
         feedback: "Delay was the advice for years, and the trials reversed it: early introduction in the 4–6-month window prevents allergy, so withholding peanut and egg gives up that protection."
@@ -87,7 +87,7 @@ questions:
         feedback: "Food neophobia is a normal phase that usually passes, and acceptance comes from calm, repeated offering (about 8–15 low-pressure tries). Under the division of responsibility the parent decides what, when and where, and the child decides whether and how much; pressure to finish is linked to more fussiness."
       - text: "Insist he finishes his plate at every meal so he learns to eat vegetables"
         correct: false
-        feedback: "Pressure is counter-productive: it is associated with more fussiness, not less. Offer the vegetable repeatedly and calmly instead."
+        feedback: "Pressure is counter-productive: it is associated with more fussiness. Offer the vegetable repeatedly and calmly."
       - text: "Stop offering the vegetable to avoid mealtime conflict"
         correct: false
         feedback: "Acceptance often takes 8–15 exposures, so stopping after a few refusals ends the process too early. Keep offering without pressure."
@@ -95,12 +95,12 @@ questions:
   - id: q8
     stem: "Which best captures the choking risk while an infant learns to eat solids?"
     options:
-      - text: "It's mainly about food form, so change the shape instead of banning the food"
+      - text: "It's mainly about food form, so serve risky foods in a safer shape"
         correct: true
         feedback: "The same peanut is a hazard whole but safe as smooth peanut butter, and a grape is safe once quartered lengthwise. About a third of infants choke at least once between 6 and 8 months, whichever method is used, so the answer is to change the food's shape: no whole nuts, whole grapes or hard chunks before about 4 years."
       - text: "Baby-led weaning causes choking, so purées are always safer"
         correct: false
-        feedback: "Modified baby-led weaning is no worse than spoon-feeding on choking; the risk lies in food form, not the method."
+        feedback: "Modified baby-led weaning is no worse than spoon-feeding on choking; the risk lies in the form of the food."
       - text: "If a baby gags, it means they're choking and you should intervene immediately"
         correct: false
-        feedback: "Gagging is a normal, protective reflex that is common while textures are learned, and it is distinct from true choking. Parents learn to tell the two apart instead of avoiding textures."
+        feedback: "Gagging is a normal, protective reflex that is common while textures are learned, and it is distinct from true choking. Parents learn to tell the two apart and keep offering new textures."

@@ -3,7 +3,7 @@ title: "Madam Lim, 58: dairy-free bones and \"do I need a drug?\""
 objectives:
   - "Identify her most effective dietary change: a reliable, well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), ahead of blanket supplements or a poorly absorbed food."
   - "Apply bioavailability: spinach's calcium is oxalate-bound and barely absorbed (~5%), so high content does not mean high bioavailability; choose low-oxalate greens and calcium-set tofu."
-  - "Recognise her red flags (a low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk from a covered, indoor life despite the sun) and correct genuine shortfall, since she is at risk, not a replete community adult."
+  - "Recognise her red flags (a low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk from a covered, indoor life despite the sun) and correct genuine shortfall, since she is at risk."
   - "Do no harm and stay within the generalist's role: don't reach for an osteoporosis drug; screen (OSTA), refer for a DXA scan, advise food-first eating plus weight-bearing and resistance exercise, and correct real deficiency. The drug and hormone decisions are specialist."
 difficulty: core
 estimatedMinutes: 12
@@ -44,18 +44,18 @@ nodes:
       - id: a
         text: "A reliable, well-absorbed calcium source; dairy is optional here."
         correct: true
-        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short, but the everyday food source comes first."
+        feedback: "Dairy is optional in Singapore: calcium-set tofu and tau kwa (absorbed like milk), ikan bilis and canned sardines with the soft bones, low-oxalate greens (kai-lan, bok choy) and fortified soy milk close the gap for a lactose-intolerant patient. Go food-first and spread it across the day (absorption is best under ~500 mg a sitting). A supplement may follow if she is genuinely short."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b
         text: "A high-dose calcium and vitamin D tablet, like everyone her age should take."
         correct: false
-        feedback: "'Everyone her age should supplement' is the trap. Blanket calcium and vitamin D don't prevent fractures in already-replete community adults and slightly raise kidney-stone risk; the benefit is for genuine deficiency. Lead with a well-absorbed, dairy-optional food source; a supplement is only for a real shortfall, which you'd assess."
+        feedback: "Blanket calcium and vitamin D don't prevent fractures in already-replete community adults and slightly raise kidney-stone risk; their benefit is in genuine deficiency. Lead with a well-absorbed, dairy-optional food source, and keep a supplement for a real shortfall, which you'd assess."
         goto: reveal-lever
       - id: c
         text: "More spinach and leafy greens, since spinach is rich in calcium."
         correct: false
-        feedback: "Spinach looks calcium-rich, but its calcium is oxalate-bound and only ~5% absorbed: high content does not mean high absorption. What she needs is a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
+        feedback: "Spinach's calcium is oxalate-bound and only ~5% absorbed, so high content does not mean high absorption. She needs a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
         goto: reveal-lever
 
   - id: reveal-lever
@@ -112,7 +112,7 @@ nodes:
       - id: b
         text: "Neither matters: thin people have strong bones, and no one here lacks vitamin D."
         correct: false
-        feedback: "Both are wrong. Low body weight raises fracture risk (a low BMI nearly doubles hip-fracture risk), and vitamin D deficiency is common in Singapore precisely because people are covered and indoors: roughly 1 in 3 mid-life women. These are red flags, not reassurances."
+        feedback: "Both are wrong. Low body weight raises fracture risk (a low BMI nearly doubles hip-fracture risk), and vitamin D deficiency is common in Singapore precisely because people are covered and indoors: roughly 1 in 3 mid-life women."
         goto: reveal-bmi
       - id: c
         text: "Only the weight matters; the sun is irrelevant to bone."
@@ -137,13 +137,13 @@ nodes:
       - id: a
         text: "Not yet: screen, refer and go food-first; the drug is a specialist decision."
         correct: true
-        feedback: "She has no diagnosis yet, and an osteoporosis drug is not started on worry; this is the do-no-harm answer. The generalist screens (OSTA, an age-and-weight tool), refers for a DXA bone scan if indicated, delivers the food-first calcium, vitamin D and protein message and weight-bearing exercise, and corrects any genuine deficiency. Whether she needs a drug, or hormone therapy, is a specialist decision made after assessment, not a reflex now."
+        feedback: "She has no diagnosis yet, and an osteoporosis drug is not started on worry; this is the do-no-harm answer. The generalist screens (OSTA, an age-and-weight tool), refers for a DXA bone scan if indicated, delivers the food-first calcium, vitamin D and protein message and weight-bearing exercise, and corrects any genuine deficiency. Whether she needs a drug, or hormone therapy, is a specialist decision made after assessment."
         effects: { quality: +1 }
         goto: reveal-drug
       - id: b
         text: "Yes: start an osteoporosis drug today to be safe, since she's at risk."
         correct: false
-        feedback: "This is the over-reach, and it can do harm. Osteoporosis drugs are started after a diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture), by a specialist, not on worry or by reflex. She has red flags but no diagnosis yet. The right step is to screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine deficiency, and let the specialist decide on any medicine; a strong diet plan doesn't license prescribing a drug you shouldn't start."
+        feedback: "Osteoporosis drugs are started by a specialist after a diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture), and starting one now can do harm. She has red flags but no diagnosis yet. The right step is to screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine deficiency, and let the specialist decide on any medicine."
         goto: remedial-drug
 
   - id: remedial-drug
@@ -186,10 +186,10 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Food-first, screened and referred, not medicated"
+    title: "Food-first, screened and referred"
     body: |
       You handled Madam Lim well. You found her most effective dietary change, a reliable, well-absorbed, dairy-optional calcium
-      source rather than a blanket supplement, and handled the spinach question (oxalate-bound, ~5% absorbed).
+      source, and handled the spinach question (oxalate-bound, ~5% absorbed).
       You read her red flags correctly: a low BMI that nearly doubles hip-fracture risk, and genuine vitamin D
       deficiency risk despite the sun, because she's covered and indoors. And you applied do-no-harm: no
       osteoporosis drug on worry. You screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine
@@ -198,9 +198,9 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
-        - "Lead with a well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), not a blanket supplement, which doesn't help replete adults and raises stone risk."
+        - "Lead with a well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk); blanket supplements don't help replete adults and raise stone risk."
         - "Bioavailability matters more than content: spinach's calcium is oxalate-bound and only ~5% absorbed; choose kai-lan, bok choy or calcium-set tofu."
-        - "Recognise the red flags (low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk despite the sun) and correct a genuine shortfall: she's at risk, not a replete community adult."
+        - "Recognise the red flags (low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk despite the sun) and correct a genuine shortfall, since she's at risk."
         - "Don't start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, advise food-first eating plus weight-bearing and resistance exercise, correct deficiency; the drug and hormone decisions are specialist."
       references: ["@healthhubCalciumSG", "@odsCalcium", "@delaet2005bmiFracture", "@aceOsteoporosis2018"]
 
@@ -210,17 +210,17 @@ nodes:
     title: "Most of the way there"
     body: |
       You reached a plan for Madam Lim, but slipped on at least one point: leading with a well-absorbed food
-      source rather than a blanket supplement, handling the spinach bioavailability question, or reading her low
+      source, handling the spinach bioavailability question, or reading her low
       weight and sun exposure as the red flags they are. The one that matters most is the last question.
       Starting an **osteoporosis drug on worry** is a do-no-harm and scope-of-practice error: these medicines follow a
-      diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture) and a specialist decision, not a
-      reflex. Replay the safe path: food-first, dairy-optional calcium; bioavailability matters more than content; recognise the
+      diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture) and a specialist decision.
+      Replay the safe path: food-first, dairy-optional calcium; bioavailability matters more than content; recognise the
       low-weight and vitamin D flags and correct genuine deficiency; and screen, refer and let the specialist
-      decide on any medicine instead of prescribing one now.
+      decide on any medicine.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Lead with a well-absorbed, dairy-optional calcium source, not a blanket supplement."
+        - "Lead with a well-absorbed, dairy-optional calcium source; keep supplements for a genuine shortfall."
         - "Bioavailability matters more than content: spinach's calcium is oxalate-bound and barely absorbed."
         - "Low body weight and a covered, indoor lifestyle are real red flags; correct genuine deficiency."
         - "Never start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, and leave the drug decision to the specialist."

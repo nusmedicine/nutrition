@@ -4,7 +4,7 @@ objectives:
   - "Give the evidence-based answer that glucosamine and chondroitin do not provide clinically meaningful benefit for knee osteoarthritis (ACR, OARSI, NICE and Singapore's ACE all advise against them); don't endorse it or claim it rebuilds cartilage."
   - "Handle the gap between professional guidance and consumer messaging: retail and even a government consumer portal can frame glucosamine positively, but the professional guidance says it adds cost without established benefit."
   - "Steer to the intervention that works: about 10% weight loss with activity (the IDEA trial), which both unloads the joint and lowers inflammation and is the best-supported option."
-  - "Frame do-no-harm correctly: the harm is not toxicity but cost, false reassurance and spending on an ineffective pill instead of the effective intervention."
+  - "Frame do-no-harm correctly: glucosamine is physically fairly safe, and the harm lies in cost, false reassurance and delay of the effective intervention."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, osteoarthritis, glucosamine, evidence-vs-hype, weight, do-no-harm, singapore, recognise-and-refer]
@@ -49,7 +49,7 @@ nodes:
       - id: b
         text: "Yes: start it daily, since it rebuilds cartilage and works."
         correct: false
-        feedback: "This is the trap. Glucosamine does not rebuild cartilage, and it's no better than placebo for pain or structure: the major independent trials found no meaningful benefit, and ACR, OARSI, NICE and Singapore's ACE all advise against it. Endorsing it sends him spending on an ineffective pill instead of the intervention that works. Lead with the evidence, then steer him to weight and activity."
+        feedback: "This is the trap. Glucosamine does not rebuild cartilage, and it's no better than placebo for pain or structure: the major independent trials found no meaningful benefit, and ACR, OARSI, NICE and Singapore's ACE all advise against it. Endorsing it sends him spending money on an ineffective pill and delays the intervention that works. Lead with the evidence, then steer him to weight and activity."
         goto: remedial-supplement
 
   - id: remedial-supplement
@@ -85,13 +85,13 @@ nodes:
       - id: a
         text: "Consumer messaging can go beyond the evidence; trust the guidance."
         correct: true
-        feedback: "Being sold, advertised or described positively on a consumer page isn't the same as working. Singapore's professional guidance (ACE) states that glucosamine \"may add cost without established clinical benefit\" for knee osteoarthritis, yet the government consumer portal still frames it positively. Consumer messaging can go beyond the evidence; trust the clinical guidance."
+        feedback: "Singapore's professional guidance (ACE) states that glucosamine \"may add cost without established clinical benefit\" for knee osteoarthritis, yet the government consumer portal still frames it positively. Consumer messaging can go beyond the evidence; trust the clinical guidance."
         effects: { quality: +1 }
         goto: reveal-messaging
       - id: b
         text: "If it's sold and praised online, it must have been proven to work."
         correct: false
-        feedback: "Availability and positive consumer messaging aren't evidence of benefit. Supplements are sold with a lower bar than medicines, and here the professional guidance (ACE) says glucosamine adds cost without established benefit, even though the consumer portal sounds encouraging. Base the decision on the clinical evidence, not on what is sold or posted online."
+        feedback: "Availability and positive consumer messaging aren't evidence of benefit. Supplements are sold with a lower bar than medicines, and here the professional guidance (ACE) says glucosamine adds cost without established benefit, even though the consumer portal sounds encouraging. Base the decision on the clinical evidence."
         goto: reveal-messaging
 
   - id: reveal-messaging
@@ -109,7 +109,7 @@ nodes:
       - id: a
         text: "Lose around 10% of his weight, with diet and exercise."
         correct: true
-        feedback: "Weight is the strongest modifiable factor in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme that produced about 10% weight loss improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the most useful plan, not a supplement."
+        feedback: "Weight is the strongest modifiable factor in knee osteoarthritis. In the IDEA trial, a diet-plus-exercise programme that produced about 10% weight loss improved pain and function, working through both less mechanical load on the knee and lower inflammation, and more loss gave more benefit. For Mr Tan (BMI 29, sedentary), that's the most useful plan."
         effects: { quality: +1 }
         goto: reveal-lever
       - id: b
@@ -120,7 +120,7 @@ nodes:
       - id: c
         text: "Complete rest: stop using the stairs and avoid loading the joint."
         correct: false
-        feedback: "Rest and de-conditioning make knee osteoarthritis worse, not better. What helps is weight loss with activity and exercise: appropriate loading and strengthening help, and the goal is less load on the knee, stronger muscles and more activity, guided by a physiotherapist if needed."
+        feedback: "Rest and de-conditioning make knee osteoarthritis worse. What helps is weight loss with activity and exercise: appropriate loading and strengthening help, and the goal is less load on the knee, stronger muscles and more activity, guided by a physiotherapist if needed."
         goto: reveal-lever
 
   - id: reveal-lever
@@ -140,13 +140,13 @@ nodes:
       - id: a
         text: "It's fairly safe physically; the harm is cost and false reassurance."
         correct: true
-        feedback: "Glucosamine is physically fairly safe for most people, so the harm isn't toxicity: it's the cost, the false reassurance, and spending on an ineffective pill instead of losing weight and staying active. If he wants to try it he can, but he should know it's unlikely to help and is no substitute for the intervention that works."
+        feedback: "Glucosamine is physically fairly safe for most people, and the harm lies in the cost, the false reassurance, and money spent on an ineffective pill while he puts off losing weight and staying active. If he wants to try it he can, but he should know it's unlikely to help and is no substitute for the intervention that works."
         effects: { quality: +1 }
         goto: route
       - id: b
         text: "No, it's a toxic, dangerous supplement he must never take."
         correct: false
-        feedback: "That overstates the physical risk. Glucosamine is fairly safe for most people; the do-no-harm point is about cost, false reassurance and opportunity cost (money and hope spent on an ineffective pill instead of the weight loss and activity that work), not toxicity."
+        feedback: "That overstates the physical risk. Glucosamine is fairly safe for most people; the do-no-harm point is about cost, false reassurance and opportunity cost (money and hope spent on an ineffective pill while the weight loss and activity that work are put off)."
         goto: route
       - id: c
         text: "Yes, completely harmless, so take it for peace of mind."
@@ -170,16 +170,16 @@ nodes:
       osteoarthritis and won't rebuild cartilage, and every major guideline advises against it. You handled the
       mixed messages (sold everywhere and framed positively online, yet the professional guidance says no
       established benefit). You steered him to the intervention that works, around 10% weight loss with activity, which
-      unloads the joint and lowers inflammation. And you framed do-no-harm correctly: the harm isn't
-      toxicity but cost, false reassurance and delaying what works. That is the generalist's role for the
+      unloads the joint and lowers inflammation. And you framed do-no-harm correctly: the harm lies in
+      cost, false reassurance and delaying what works. That is the generalist's role for the
       joints: recognise the intervention that works, correct the overstated claims, and refer.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Glucosamine and chondroitin give no clinically meaningful benefit for knee osteoarthritis; ACR, OARSI, NICE and Singapore's ACE all advise against them, and glucosamine doesn't rebuild cartilage."
         - "Being sold and framed positively for consumers isn't evidence; the professional guidance (ACE) says it adds cost without established benefit. Trust the clinical evidence."
-        - "The intervention that works is ~10% weight loss with activity (IDEA), unloading the joint and lowering inflammation; not a supplement, and not rest."
-        - "Do-no-harm here is about cost, false reassurance and opportunity cost, not toxicity: steer the money and effort to what works."
+        - "The intervention that works is ~10% weight loss with activity (IDEA), which unloads the joint and lowers inflammation."
+        - "Glucosamine is fairly safe physically; do-no-harm here is about cost, false reassurance and opportunity cost, so steer the money and effort to what works."
       references: ["@wandel2010nma", "@kolasinski2020acr", "@messier2013idea", "@aceKneeOA2026", "@healthhubGlucosamine"]
 
   - id: end-partial
@@ -191,13 +191,13 @@ nodes:
       **endorsing glucosamine (or letting "it rebuilds cartilage" stand) is the do-no-harm error here.** It gives
       no clinically meaningful benefit for knee osteoarthritis (the major independent trials found no real effect, and ACR, OARSI,
       NICE and Singapore's ACE all advise against it), so recommending it sends Mr Tan spending on an
-      ineffective pill instead of the intervention that works. Replay the safe path: give the evidence-based answer;
+      ineffective pill and delays the intervention that works. Replay the safe path: give the evidence-based answer;
       recognise that consumer messaging can go beyond the evidence; steer him to ~10% weight loss with activity;
-      and frame the harm as cost and false reassurance, not toxicity.
+      and frame the harm as cost and false reassurance.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Don't endorse glucosamine: no meaningful benefit for knee osteoarthritis, and it doesn't rebuild cartilage (guidelines advise against)."
         - "Availability and positive consumer messaging aren't evidence; the professional guidance says no established benefit."
         - "Steer to the intervention that works: ~10% weight loss with activity."
-        - "Frame do-no-harm as cost, false reassurance and opportunity cost, not toxicity."
+        - "Frame do-no-harm as cost, false reassurance and opportunity cost; glucosamine itself is fairly safe."

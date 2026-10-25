@@ -1,7 +1,7 @@
 id: three-households-one-plate
 title: "Three households, one plate"
 objectives:
-  - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting to each cuisine instead of imposing a foreign diet."
+  - "Translate My Healthy Plate into realistic Chinese, Malay and Indian meals, adapting it to each cuisine."
   - "Tackle two major local gaps, too little wholegrain and too much free sugar and salt, with practical swaps."
   - "Cite a landmark trial (PREDIMED) fairly, with its caveats, and leave the deeper appraisal to the *Evidence vs hype* chapter."
 difficulty: intro
@@ -45,12 +45,12 @@ nodes:
       - id: b
         text: "\"Cut out all rice and carbs: go low-carb, that's the healthiest.\""
         correct: false
-        feedback: "This throws out protective wholegrains and fibre along with the refined rice, and it abandons the family's staple entirely. My Healthy Plate keeps a wholegrain quarter: it's about type and proportion, not banning carbs."
+        feedback: "This throws out protective wholegrains and fibre along with the refined rice, and it abandons the family's staple entirely. My Healthy Plate keeps a wholegrain quarter and changes the type and proportion of carbohydrate."
         goto: q-malay
       - id: c
         text: "\"Switch the family to a Mediterranean diet: olive oil, fish and salads every day.\""
         correct: false
-        feedback: "Patterns are principles to adapt, not menus to impose. A family that eats Chinese food won't keep a Mediterranean menu, and they don't need to. The same quarter-quarter-half target is reachable with brown rice, greens and steamed fish."
+        feedback: "A dietary pattern is a set of principles to adapt to the family's own food. A family that eats Chinese food won't keep a Mediterranean menu, and the same quarter-quarter-half target is reachable with brown rice, greens and steamed fish."
         goto: q-malay
 
   - id: q-malay
@@ -68,7 +68,7 @@ nodes:
       - id: b
         text: "\"Tell them nasi padang is unhealthy and they should stop eating it.\""
         correct: false
-        feedback: "A family is unlikely to keep advice that condemns its cuisine, and condemning it isn't necessary: the dishes can be rebalanced with more vegetables, grilled not fried, less gravy and a plain drink."
+        feedback: "A family is unlikely to keep advice that condemns its cuisine. The same dishes can be rebalanced with more vegetables, grilled protein, less gravy and a plain drink."
         goto: q-indian
       - id: c
         text: "\"Just tell them to take a smaller portion of everything.\""
@@ -84,19 +84,19 @@ nodes:
       - id: a
         text: "\"Dhal or chana is your protein; chapati in place of naan, more subji, a plainer drink.\""
         correct: true
-        feedback: "Vegetarian isn't protein-free: legumes (dhal, chana) are the protein quarter and bring fibre too. The rest of the plate is rebuilt in the family's own food: a wholemeal chapati in place of naan, a subji filling half the plate, and a plainer drink than mango lassi."
+        feedback: "Legumes (dhal, chana) are the protein quarter of a vegetarian plate and bring fibre too. The rest of the plate is rebuilt in the family's own food: a wholemeal chapati in place of naan, a subji filling half the plate, and a plainer drink than mango lassi."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-predimed
       - id: b
         text: "\"You're right: vegetarians can't get enough protein, so start eating chicken.\""
         correct: false
-        feedback: "Legumes (dhal, chana), dairy and soy fill the protein quarter well, so there's no need to abandon a vegetarian diet; adapt it instead."
+        feedback: "Legumes (dhal, chana), dairy and soy fill the protein quarter well, so the family can keep its vegetarian diet and adapt it."
         goto: q-predimed
       - id: c
         text: "\"Protein doesn't matter much: just eat more naan and rice to stay full.\""
         correct: false
-        feedback: "This skips the protein quarter and leans on refined starch. The better approach is to add legumes as protein and move the staple toward wholemeal, not to fill up on more white rice and naan."
+        feedback: "This skips the protein quarter and leans on refined starch. The better approach is to add legumes as protein and move the staple toward wholemeal."
         goto: q-predimed
 
   - id: q-predimed
@@ -119,7 +119,7 @@ nodes:
       - id: c
         text: "\"PREDIMED was retracted, so ignore it: the Mediterranean diet is useless.\""
         correct: false
-        feedback: "The opposite overreaction. The trial was retracted and re-published with a reanalysis that upheld the main result, and observational data broadly agree. The accurate position is a real benefit stated with its limits, not dismissal."
+        feedback: "Retraction does not make the diet useless: the trial was re-published with a reanalysis that upheld the main result, and observational data broadly agree. The accurate position is a real benefit, stated with its limits."
         goto: route
 
   - id: route
@@ -134,9 +134,8 @@ nodes:
     emotion: concerned
     title: "One target, adapted three ways"
     body: |
-      The same principle applies in all three kitchens: adapt the plate to the food, don't impose
-      a foreign diet or ban a cuisine. Rebuild each dinner to quarter-quarter-half with the
-      family's own dishes, target the two main gaps (wholegrains and sugary drinks/salt), and
+      In all three kitchens, adapt the plate to the food: rebuild each dinner to
+      quarter-quarter-half with the family's own dishes, target the two main gaps (wholegrains and sugary drinks/salt), and
       when you cite a trial like PREDIMED, state the benefit with its caveats.
     next: end-partial
 
@@ -150,15 +149,15 @@ nodes:
       *ulam*, dhal and wholemeal chapati), made the two most useful local changes (wholegrains,
       sugary drinks), and addressed the belief that vegetarian means no protein. When PREDIMED
       came up, you cited it fairly: a relative reduction on a stroke-dominated composite, from a
-      re-published trial, not a personal guarantee. (Appraising such claims in depth is covered in
+      re-published trial, which cannot guarantee any one person's outcome. (Appraising such claims in depth is covered in
       the *Evidence vs hype* chapter, and running the change conversation in the
       *Behaviour-change counselling* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "One target (quarter-quarter-half), three cuisines: adapt the plate to the food, never impose a foreign diet or ban a cuisine."
+        - "One target (quarter-quarter-half), three cuisines: adapt the plate to each family's own food."
         - "The two most useful local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
-        - "Legumes can fill the protein quarter; vegetarian does not mean protein-deficient."
+        - "Legumes can fill the protein quarter of a vegetarian plate."
         - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the *Evidence vs hype* chapter."
 
   - id: end-partial
@@ -173,6 +172,6 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Adapt My Healthy Plate to each cuisine; don't prescribe a foreign pattern or condemn the family's food."
+        - "Adapt My Healthy Plate to each cuisine, using the family's own dishes."
         - "Target the two major local gaps: more wholegrains, fewer sugary drinks and less salt."
         - "State a trial's benefit together with its caveat: stating the benefit alone overstates it."

@@ -7,8 +7,8 @@ id: sim-dementia-prevention-mdm-goh
 title: "Simulated patient: Mdm Goh (worried about dementia)"
 objectives:
   - "Take her fear seriously, then reframe prevention around vascular risk factors (what is good for the heart is good for the brain), using her own slightly raised blood pressure and borderline glucose."
-  - "Steer her away from unproven or harmful brain supplements (ginkgo, fish-oil capsules, coconut oil), and offer a Mediterranean/MIND-style pattern as a sensible, low-risk choice rather than proven protection."
-  - "Add the non-dietary modifiable risk factors that also contribute substantially (physical activity, correcting hearing and vision, staying engaged), and recognise that persistent worry warrants referral, not supplement escalation."
+  - "Steer her away from unproven or harmful brain supplements (ginkgo, fish-oil capsules, coconut oil), and offer a Mediterranean/MIND-style pattern as a sensible, low-risk choice whose protective effect is unproven."
+  - "Add the non-dietary modifiable risk factors that also contribute substantially (physical activity, correcting hearing and vision, staying engaged), and recognise that persistent worry warrants referral."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, brain, dementia, prevention, supplements, counselling, simulated-patient]
@@ -77,7 +77,7 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Vascular risk first, not supplements"
+    title: "Vascular risk first"
     body: |
       You took her fear seriously, moved her from a supplement shopping list to the
       vascular risk factors that actually matter, kept the diet advice realistic, and added
@@ -86,8 +86,8 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "What is good for the heart is good for the brain: managing blood pressure, glucose, weight and activity is the best-supported prevention measure. Her slightly raised blood pressure and borderline glucose are the place to start."
-        - "Brain supplements are not worth buying: ginkgo did not reduce dementia and can thin the blood, fish-oil capsules show no cognitive benefit (eat fish as food), and coconut oil is mostly saturated fat, so it works against vascular risk control. A Mediterranean/MIND-style pattern is a sensible, low-risk choice, not proven protection."
-        - "Non-dietary risk factors also contribute substantially: physical activity, correcting hearing and vision, and staying socially and mentally engaged. Persistent fear or a request for gene (APOE) testing is a reason to refer, not to add a supplement."
+        - "Brain supplements are not worth buying: ginkgo did not reduce dementia and can thin the blood, fish-oil capsules show no cognitive benefit (eat fish as food), and coconut oil is mostly saturated fat, so it works against vascular risk control. A Mediterranean/MIND-style pattern is a sensible, low-risk choice. Whether it protects against dementia is unproven."
+        - "Non-dietary risk factors also contribute substantially: physical activity, correcting hearing and vision, and staying socially and mentally engaged. Persistent fear or a request for gene (APOE) testing is a reason to refer."
 
   - id: end-partial
     type: end
@@ -100,5 +100,5 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Lead with the vascular risk factors (blood pressure, glucose, activity), not a supplement shopping list."
+        - "Lead with the vascular risk factors (blood pressure, glucose, activity)."
         - "Be clear that brain supplements are unproven and some carry harm; offer a Mediterranean/MIND pattern as low-risk, and refer if the worry persists."

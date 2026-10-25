@@ -6,13 +6,13 @@ questions:
     options:
       - text: "Reflect both sides and let him voice his own reasons"
         correct: true
-        feedback: "Reflecting both sides (\"the kopi keeps you going, and it sounds like the sugar worries you a bit\") lets you resist the righting reflex and invites change talk, so he argues himself toward change instead of resisting you."
+        feedback: "Reflecting both sides (\"the kopi keeps you going, and it sounds like the sugar worries you a bit\") lets you resist the righting reflex and invites change talk, so he argues himself toward change."
       - text: "Tell him firmly he must stop the sugar because it's dangerous"
         correct: false
         feedback: "This is the righting reflex, the urge to fix or warn. The warning is accurate, but it provokes resistance and he digs in ('don't tell me what to do')."
       - text: "Say nothing about it to avoid conflict"
         correct: false
-        feedback: "Avoidance isn't the answer either: permission and reflection let you raise the topic without lecturing."
+        feedback: "Permission and reflection let you raise the topic without lecturing or conflict."
 
   - id: q2
     stem: "Which of these patient statements is change talk (the patient's own motivation to change)?"
@@ -32,7 +32,7 @@ questions:
     options:
       - text: "Ask permission before sharing an idea"
         correct: true
-        feedback: "Asking permission (\"would it be OK if I shared one idea?\") keeps clinician and patient partners rather than adversaries. Unasked-for advice, however good, tends to be ignored."
+        feedback: "Asking permission (\"would it be OK if I shared one idea?\") keeps clinician and patient working as partners. Unasked-for advice, however good, tends to be ignored."
       - text: "Nothing; good advice should be given at once, and firmly"
         correct: false
         feedback: "Advice without permission or listening undermines partnership and provokes resistance. Assess and ask first."
@@ -48,7 +48,7 @@ questions:
         feedback: "It is Specific, Measurable, Achievable, Relevant and Time-bound, and it is the patient's own choice. A small goal the patient chooses works better than a large imposed one."
       - text: "\"Be healthier and cut out sugar\""
         correct: false
-        feedback: "This is too vague to check: it is not specific, measurable or time-bound, so it is a wish, not a goal."
+        feedback: "This is too vague to check: it is not specific, measurable or time-bound."
       - text: "\"Never drink kopi again, starting today\""
         correct: false
         feedback: "A total ban is not achievable, and an overly ambitious goal the patient did not choose is soon abandoned. Aim for one small, sustainable change."
@@ -69,22 +69,22 @@ questions:
   - id: q6
     stem: "You use the stages-of-change model to tailor your approach. What caveat should you hold?"
     options:
-      - text: "It is a useful heuristic, not a proven route to weight loss"
+      - text: "It is a useful heuristic with weak evidence for weight loss"
         correct: true
-        feedback: "The model helps in choosing how to talk, but the evidence that it produces sustained weight loss is low-certainty. Use it to meet a patient where they are, not to label them or forecast success. Present it as a tool, not a proven fact."
+        feedback: "The model helps in choosing how to talk, but the evidence that it produces sustained weight loss is low-certainty. Present it as a tool for meeting a patient where they are. It should not be used to label patients or forecast success."
       - text: "It reliably predicts success, so focus only on the 'ready' ones"
         correct: false
         feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It helps tailor the style of the conversation, nothing more."
       - text: "It is proven superior to every other counselling approach"
         correct: false
-        feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it is far from proven to be the best method."
+        feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it has not been shown to be the best method."
 
   - id: q7
     stem: "Mid-consult, a patient reveals she skips meals to \"make up\" for eating and feels guilty afterwards. What now?"
     options:
       - text: "Pause the weight goals, screen gently and consider referral"
         correct: true
-        feedback: "Compensatory meal-skipping and guilt are eating-disorder red flags. On average, structured behavioural weight management does not increase eating-disorder symptoms, but for this patient more restriction could do harm, so pause the weight and portion goals and offer support and referral."
+        feedback: "Compensatory meal-skipping and guilt are eating-disorder red flags, and for this patient more restriction could do harm, so pause the weight and portion goals and offer support and referral. The concern is specific to her: on average, structured behavioural weight management does not increase eating-disorder symptoms."
       - text: "Praise her discipline and encourage her to keep cutting things out"
         correct: false
         feedback: "Praise reinforces restriction in someone showing red flags, which is the harm to avoid. Recognise the warning signs and switch to support and referral."

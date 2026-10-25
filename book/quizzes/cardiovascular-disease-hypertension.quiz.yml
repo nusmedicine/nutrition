@@ -12,10 +12,10 @@ questions:
         feedback: "This reverses the two. PREDIMED tested the Mediterranean pattern on events, while DASH is the pattern designed to lower blood pressure, proven in a feeding trial."
       - text: "Both patterns rest mainly on hard-outcome trials showing fewer heart attacks"
         correct: false
-        feedback: "DASH's landmark evidence is a short feeding trial with a blood-pressure (surrogate) endpoint, not hard outcomes. Only the Mediterranean pattern has event-level evidence, from PREDIMED, and even that was stroke-driven."
+        feedback: "DASH's landmark evidence is a short feeding trial with a blood-pressure (surrogate) endpoint. Only the Mediterranean pattern has event-level evidence, from PREDIMED, and even that was stroke-driven."
       - text: "Both patterns rest mainly on feeding trials using blood pressure as the endpoint"
         correct: false
-        feedback: "The Mediterranean evidence from PREDIMED measured cardiovascular events, not blood pressure. Only DASH used a blood-pressure endpoint."
+        feedback: "The Mediterranean evidence from PREDIMED measured cardiovascular events. Only DASH used a blood-pressure endpoint."
 
   - id: q2
     stem: "A patient wants to make their diet more heart-healthy and asks about fat. Which change is best supported for lowering cardiovascular risk?"
@@ -38,23 +38,23 @@ questions:
     options:
       - text: "It was retracted then republished in 2018, with the conclusion upheld"
         correct: true
-        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding unchanged: an example of science correcting itself, not of a diet being disproved. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
+        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding unchanged, an example of science correcting itself. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
       - text: "It was retracted for good, so the Mediterranean pattern has no trial evidence at all"
         correct: false
         feedback: "After re-analysis the paper was republished and its conclusion held, so the Mediterranean pattern still has event-level trial evidence."
       - text: "The retraction proved the diet caused harm, reversing the original benefit"
         correct: false
-        feedback: "The retraction concerned how participants were randomised, not a reversal to harm. On re-analysis the benefit remained, so nothing suggests the pattern was harmful."
+        feedback: "The retraction concerned how participants were randomised. On re-analysis the benefit remained, so nothing suggests the pattern was harmful."
       - text: "Nothing changed, since the finding was a large absolute cut in heart attacks for everyone"
         correct: false
-        feedback: "What PREDIMED found was a relative reduction on a composite endpoint in a high-risk group, driven by stroke, not a large absolute cut in heart attacks for everyone."
+        feedback: "The finding was narrower than that: PREDIMED found a relative reduction on a composite endpoint, driven by stroke, in a high-risk group."
 
   - id: q4
     stem: "A patient in Singapore eats out most days and wants to cut sodium. Where is most of the salt, and what is the best first swap?"
     options:
       - text: "Mostly in soups, gravies and sauces, so leave most of the soup"
         correct: true
-        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, not in the salt shaker, and a bowl of fishball noodle soup can contain most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the main source."
+        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, and a bowl of fishball noodle soup can contain most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the main source."
       - text: "Mostly in the salt shaker, so just stop adding table salt at the table"
         correct: false
         feedback: "The shaker is a small part of the problem. Most sodium is already in the soups, gravies and sauces before the food reaches the table, so skipping the shaker alone changes little."
@@ -73,45 +73,45 @@ questions:
         feedback: "Oily fish is a food to recommend as part of the pattern, but routine omega-3 supplements failed to prevent cardiovascular events in large trials. The high-dose 'fish-oil trial' people cite tested icosapent ethyl, a prescription drug and a specialist decision, and its result cannot be extrapolated to over-the-counter fish oil."
       - text: "Recommend the capsules, since a large drug trial proved fish oil prevents events"
         correct: false
-        feedback: "That trial tested icosapent ethyl, a high-dose prescription drug given to selected patients, not over-the-counter fish oil. Routine omega-3 supplements did not prevent events, so the drug result does not carry over to capsules."
+        feedback: "That trial tested icosapent ethyl, a high-dose prescription drug given to selected patients. Routine omega-3 supplements did not prevent events, so the drug result does not carry over to capsules."
       - text: "Tell the patient neither fish nor capsules matter for heart health"
         correct: false
         feedback: "Oily fish is a recommended food and part of the heart-healthy pattern. The distinction is between food, capsule and drug; fish itself still matters."
       - text: "Recommend the capsules over fish, as they deliver the same benefit more reliably"
         correct: false
-        feedback: "The evidence points the other way: recommend the fish, not the capsule. Routine omega-3 supplements did not reproduce a benefit in prevention trials."
+        feedback: "The evidence favours the fish. Routine omega-3 supplements did not reproduce a benefit in prevention trials."
 
   - id: q6
     stem: "A patient's LDL cholesterol comes back raised. At this stage, what should you do with that number?"
     options:
-      - text: "Look up the risk-tiered guidance and refer, not recite a threshold"
+      - text: "Look up the risk-tiered guidance for this patient, then refer"
         correct: true
-        feedback: "Targets are risk-tiered and looked up, not memorised: a clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023) and the ACE guidance gives the individual's target. The task here is to deliver the lifestyle advice and refer, knowing that the target exists and is individualised."
+        feedback: "Targets are risk-tiered and looked up: a clinician estimates cardiovascular risk (in Singapore, with SG-FRS-2023) and the ACE guidance gives the individual's target. The task here is to deliver the lifestyle advice and refer, knowing that the target exists and is individualised."
       - text: "Recite the single LDL threshold that applies to every adult patient"
         correct: false
         feedback: "No single LDL number applies to every adult. Targets are individualised by cardiovascular risk and looked up in the guidance, so a memorised threshold would be misapplied."
       - text: "Start a cholesterol-lowering drug immediately at a fixed standard dose"
         correct: false
-        feedback: "Starting a drug is a clinician's risk-tiered decision, not an automatic response to one number. The step here is lifestyle advice and referral, with drug thresholds signposted rather than applied from memory."
+        feedback: "Starting a drug is a clinician's risk-tiered decision. The step here is lifestyle advice and referral, with drug thresholds signposted."
       - text: "Reassure the patient that a raised number rarely needs any follow-up"
         correct: false
-        feedback: "A raised LDL is exactly what should prompt risk estimation and referral. The right response is to look up the risk-tiered guidance and refer, not to dismiss it."
+        feedback: "A raised LDL is exactly what should prompt risk estimation and referral. The right response is to look up the risk-tiered guidance and refer."
 
   - id: q7
     stem: "Singapore uses SG-FRS-2023 rather than an imported US risk score. Why, and what does it actually estimate?"
     options:
       - text: "It is recalibrated on local multi-ethnic data and estimates 10-year coronary risk"
         correct: true
-        feedback: "Imported US equations mis-estimate risk across Chinese, Malay and Indian groups, so the score was recalibrated on local multi-ethnic data. It estimates 10-year coronary risk only, not stroke or total cardiovascular risk."
+        feedback: "Imported US equations mis-estimate risk across Chinese, Malay and Indian groups, so the score was recalibrated on local multi-ethnic data. It estimates 10-year coronary risk only."
       - text: "It is the same US equation kept unchanged, and it estimates total stroke risk"
         correct: false
-        feedback: "The US equations mis-estimate risk across Chinese, Malay and Indian groups, which is why the score was recalibrated locally. It also estimates coronary risk, not stroke."
+        feedback: "The US equations mis-estimate risk across Chinese, Malay and Indian groups, which is why the score was recalibrated locally. The score estimates coronary risk only."
       - text: "It is recalibrated locally and estimates total cardiovascular risk including stroke"
         correct: false
-        feedback: "Recalibration is right, but the scope is narrower: SG-FRS-2023 estimates coronary risk only, not total cardiovascular or stroke risk."
+        feedback: "Recalibration is right, but the scope is narrower: SG-FRS-2023 estimates coronary risk only."
       - text: "It replaces risk estimation entirely with a fixed blood-pressure cut-off"
         correct: false
-        feedback: "SG-FRS-2023 is a risk-estimation tool, not a single cut-off. It produces a 10-year coronary risk estimate that then feeds risk-tiered guidance."
+        feedback: "SG-FRS-2023 is a risk-estimation tool. It produces a 10-year coronary risk estimate that then feeds risk-tiered guidance."
 
   - id: q8
     stem: "A potassium-based salt substitute has hard-outcome trial support for cutting sodium. Which patient should you **not** simply advise to switch to it?"
@@ -124,7 +124,7 @@ questions:
         feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable way to cut sodium, with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."
       - text: "Someone whose only goal is to season food with less sodium overall"
         correct: false
-        feedback: "Wanting less sodium is the reason to consider a substitute, not a reason to avoid it. The group who should not switch is defined by kidney disease and potassium-raising medications."
+        feedback: "Wanting less sodium is the reason to consider a substitute. The group who should not switch is defined by kidney disease and potassium-raising medications."
       - text: "A patient who eats out often and finds it hard to cut soup and sauces"
         correct: false
-        feedback: "This describes a good candidate for sodium-lowering strategies, not a contraindication. The safety check that changes the advice is kidney disease or potassium-raising drugs."
+        feedback: "This describes a good candidate for sodium-lowering strategies. The safety check that changes the advice is kidney disease or potassium-raising drugs."

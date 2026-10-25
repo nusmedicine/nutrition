@@ -2,8 +2,8 @@ id: gut-microbiome-test-kit
 title: "I bought a gut-microbiome test kit"
 objectives:
   - "Recognise that direct-to-consumer microbiome test kits are not clinically actionable for well people."
-  - "Redirect to what does help, fibre diversity, instead of the supplements a kit upsells."
-  - "Know when symptoms warrant proper medical assessment (not a home kit)."
+  - "Redirect to what does help: fibre diversity."
+  - "Know when symptoms warrant proper medical assessment."
 difficulty: intro
 estimatedMinutes: 6
 tags: [nutrition, microbiome, evidence-literacy, common-beliefs, recognition]
@@ -54,15 +54,15 @@ nodes:
     stem: "Should she buy the supplement bundle the report recommends?"
     options:
       - id: a
-        text: "No, that's an upsell built into the product, not a treatment need."
+        text: "No, that's an upsell built into the product."
         correct: true
-        feedback: "The test-and-supplement loop is a business model, not a treatment. There's no evidence a well person benefits, and the money is better spent on more varied plants."
+        feedback: "The test-and-supplement loop is a business model. There's no evidence a well person benefits, and the money is better spent on more varied plants."
         effects: { quality: +1 }
         goto: q-help
       - id: b
         text: "Yes, if the report recommends them, they must be needed."
         correct: false
-        feedback: "The recommendation is generated to sell products, not from validated clinical need. There's no good evidence a well person benefits."
+        feedback: "The recommendation is generated to sell products. There's no good evidence a well person benefits."
         goto: q-help
       - id: c
         text: "Yes, probiotics are harmless, so she may as well."
@@ -96,7 +96,7 @@ nodes:
     stem: "Rachel mentions that lately she's also had some persistent change in her bowel habit and occasional blood. What now?"
     options:
       - id: a
-        text: "That changes things: these symptoms need proper medical assessment, not a home kit."
+        text: "That changes things: these symptoms need proper medical assessment."
         correct: true
         feedback: "Real symptoms, especially bleeding or a persistent change in bowel habit, are a red flag that warrants proper assessment, which a consumer kit can't provide. Recognise and refer."
         effects: { quality: +1 }
@@ -109,7 +109,7 @@ nodes:
       - id: c
         text: "Tell her to just add more fibre and ignore the bleeding."
         correct: false
-        feedback: "Bleeding and a persistent change in bowel habit are red flags that need assessment, not a dietary tweak."
+        feedback: "Bleeding and a persistent change in bowel habit are red flags that need medical assessment."
         goto: route
 
   - id: route
@@ -123,11 +123,11 @@ nodes:
     type: info
     title: "The two-part message"
     body: |
-      Keep two points in mind. For a **well** person, a direct-to-consumer microbiome kit is
+      For a **well** person, a direct-to-consumer microbiome kit is
       not clinically actionable (no agreed healthy reference, poor reproducibility, no proven
       action), and its supplement recommendations are an upsell; what helps is fibre diversity
       (many different plants). Real symptoms (persistent change in bowel habit, bleeding, weight
-      loss) are a different matter: they need **proper medical assessment**, not a home kit.
+      loss) need **proper medical assessment**.
     next: end-partial
 
   - id: end-good
@@ -145,7 +145,7 @@ nodes:
       keyPoints:
         - "DTC microbiome kits aren't clinically actionable for well people (no healthy reference, poor reproducibility)."
         - "The supplement recommendation is an upsell; fibre diversity is the food-first change that helps."
-        - "Persistent symptoms or bleeding need medical assessment, not a home kit: recognise and refer."
+        - "Persistent symptoms or bleeding need medical assessment: recognise and refer."
 
   - id: end-partial
     type: end
@@ -154,8 +154,8 @@ nodes:
     body: |
       You worked through it, but the reasoning slipped. The take-home: a microbiome kit gives a well
       person **little that's actionable**, its supplements are an **upsell**, and what helps is
-      **fibre diversity**, while genuine symptoms like bleeding need **proper assessment**, not a
-      kit. Replay to firm up the two-part message.
+      **fibre diversity**, while genuine symptoms like bleeding need **proper assessment**.
+      Replay to firm up the two-part message.
     debrief:
       objectivesMet: [1]
       keyPoints:

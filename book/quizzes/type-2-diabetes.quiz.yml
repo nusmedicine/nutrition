@@ -6,10 +6,10 @@ questions:
     options:
       - text: "An intensive, structured lifestyle programme with follow-up"
         correct: true
-        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. What made it effective was the structure (a multi-session curriculum with follow-up, aiming at ≥7% weight loss and ≥150 min/week of activity), not a single 'you should lose weight' conversation."
+        feedback: "Structured lifestyle change cut progression by 58%, outperforming metformin (31%) and placebo. Its effect came from the structure: a multi-session curriculum with follow-up, aiming at ≥7% weight loss and ≥150 min/week of activity."
       - text: "A one-off conversation advising weight loss and more exercise"
         correct: false
-        feedback: "Brief advice is not what produced the Diabetes Prevention Program result. The benefit came from an intensive, multi-session programme with follow-up. A single conversation does not reproduce it, which is why guidelines say to refer to a structured programme."
+        feedback: "The Diabetes Prevention Program result came from an intensive, multi-session programme with follow-up, which a single conversation does not reproduce. This is why guidelines say to refer to a structured programme."
       - text: "Metformin started early, since a drug beats any lifestyle change"
         correct: false
         feedback: "Metformin did reduce progression (about 31%), but structured lifestyle change beat it (58%). Lifestyle, delivered through a structured programme, is the stronger first step."
@@ -22,7 +22,7 @@ questions:
     options:
       - text: "Diagnosed 2 years ago, on metformin only, within the studied BMI range"
         correct: true
-        feedback: "DiRECT enrolled people diagnosed within about 6 years, not on insulin, within a defined BMI range. Early, non-insulin-treated disease is where a supervised weight-centred programme has the best chance, so this patient is the one to refer."
+        feedback: "DiRECT enrolled people diagnosed within about 6 years, within a defined BMI range and not on insulin. Early, non-insulin-treated disease is where a supervised weight-centred programme has the best chance, so this patient is the one to refer."
       - text: "Diagnosed 12 years ago, still on metformin, with a normal body weight"
         correct: false
         feedback: "Long-standing disease (well beyond ~6 years) falls outside the studied range, and remission is associated with substantial weight loss from a weight-centred programme. This patient is a poorer candidate."
@@ -31,23 +31,23 @@ questions:
         feedback: "Insulin-treated diabetes was an exclusion criterion in DiRECT and behaves differently. Being recently diagnosed is not enough on its own: insulin use places this patient outside the eligibility criteria."
       - text: "Diagnosed 8 years ago, on a sulfonylurea, with prior severe hypoglycaemia"
         correct: false
-        feedback: "This patient is both beyond the time-since-diagnosis limit and on a drug that can cause hypoglycaemia, so the priority is a safe medication review, not a remission attempt."
+        feedback: "This patient is both beyond the time-since-diagnosis limit and on a drug that can cause hypoglycaemia, so the priority is a safe medication review."
 
   - id: q3
     stem: "True or false: achieving diabetes remission means the patient is permanently cured."
     options:
       - text: "False: remission is not permanent, and monitoring continues"
         correct: true
-        feedback: "Remission means an HbA1c below the diabetes range sustained off glucose-lowering drugs, and it is deliberately called remission, not cure. It fades with weight regained (about 36% at two years and about 13% at five in DiRECT) and can relapse, so follow-up continues."
+        feedback: "Remission means an HbA1c below the diabetes range sustained off glucose-lowering drugs. It is called remission because it is not a cure: it fades with weight regained (about 36% at two years and about 13% at five in DiRECT) and can relapse, so follow-up continues."
       - text: "True: once HbA1c is normal off drugs, the diabetes is gone for good"
         correct: false
-        feedback: "An HbA1c below the diabetes range off drugs defines remission, not a cure. It fades over time (~13% still in remission at five years) and can relapse, so the patient stays under review."
+        feedback: "An HbA1c below the diabetes range off drugs defines remission, a state that fades over time (~13% still in remission at five years) and can relapse, so the patient stays under review."
       - text: "True: remission and cure are the same thing in different words"
         correct: false
-        feedback: "The words are chosen precisely to differ. Cure implies permanence; remission is a lasting but reversible state that depends on keeping weight off and requires ongoing monitoring."
+        feedback: "Cure implies permanence; remission is a lasting but reversible state that depends on keeping weight off and requires ongoing monitoring."
       - text: "False: remission is impossible in type 2 diabetes under any circumstances"
         correct: false
-        feedback: "Remission of early disease is real and well documented (DiRECT). The distinction is that it is remission, not cure: achievable, but not permanent."
+        feedback: "Remission of early disease is real and well documented (DiRECT). It can be lost, so monitoring continues."
 
   - id: q4
     stem: "Before you endorse a low-carbohydrate diet, you check the patient's medications. Which drug class carries a hypoglycaemia risk that means you should refer for a medication review first?"
@@ -79,20 +79,20 @@ questions:
         feedback: "Nuts are fat and protein, which raise glucose slowly, the opposite of what acute hypoglycaemia needs. Give about 15 g of fast-acting glucose and recheck at 15 minutes."
       - text: "Nothing yet; wait to see whether the glucose recovers on its own"
         correct: false
-        feedback: "Hypoglycaemia needs prompt treatment, not watchful waiting. Give about 15 g of fast-acting glucose and recheck in 15 minutes, repeating if it is still low."
+        feedback: "Hypoglycaemia needs prompt treatment. Give about 15 g of fast-acting glucose and recheck in 15 minutes, repeating if it is still low."
 
   - id: q6
     stem: "A patient with diabetes orders at a *cai png* (mixed-rice) stall and wants the best-quality plate. Which choice best fits the guidance?"
     options:
       - text: "Brown rice, two vegetables, one lean protein, less gravy"
         correct: true
-        feedback: "Brown rice, vegetables and a lean protein shift the plate toward wholegrains and plants: the My Healthy Plate 'quarter, quarter, half' in hawker terms. This approach swaps toward better-quality foods instead of banning rice; locally, rice intake itself was not linked to diabetes, while swapping toward wholegrain lowered risk."
+        feedback: "Brown rice, vegetables and a lean protein shift the plate toward wholegrains and plants: the My Healthy Plate 'quarter, quarter, half' in hawker terms. Swapping toward better-quality foods keeps rice on the plate: locally, rice intake itself was not linked to diabetes, and swapping toward wholegrain lowered risk."
       - text: "White rice with extra gravy and two fried meat dishes for flavour"
         correct: false
         feedback: "White rice with extra gravy and fried meat is the higher refined-carbohydrate, higher-fat option. The better choice is to shift toward wholegrains and vegetables with a lean protein and less gravy."
       - text: "No rice at all, since rice is the main cause of diabetes locally"
         correct: false
-        feedback: "Cutting rice entirely is not supported by the evidence: the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The benefit comes from substituting wholegrain and more vegetables, not from banning a staple."
+        feedback: "Cutting rice entirely is not supported by the evidence: the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The benefit comes from substituting wholegrain and more vegetables."
       - text: "A larger scoop of white rice to feel full and eat less later"
         correct: false
         feedback: "More refined carbohydrate is the wrong direction for glucose. Choose brown rice, add vegetables and a lean protein, and go easy on the gravy instead."
@@ -127,4 +127,4 @@ questions:
         feedback: "A finger-prick test does not break the fast: monitoring is religiously permissible and, on medications that can cause hypoglycaemia, important for safety."
       - text: "The patient must not fast at all, because diabetes always forbids fasting"
         correct: false
-        feedback: "Diabetes does not automatically forbid fasting. The medically unfit are exempt, but many can fast safely after a pre-Ramadan review to risk-stratify and adjust medication: a recognise-and-refer task, not a blanket ban."
+        feedback: "Diabetes does not automatically forbid fasting. The medically unfit are exempt, but many can fast safely after a pre-Ramadan review to risk-stratify and adjust medication. This is a recognise-and-refer task."

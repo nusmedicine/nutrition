@@ -28,7 +28,7 @@ nodes:
       Mr Lim's fasting glucose is borderline and his cholesterol is mildly up. He feels well
       and is motivated, but he has absorbed a lot of coffee-shop nutrition wisdom, and he
       rattles off his worries one after another: rice, eggs, cooking oils and his son's
-      protein powder. Answer each on quality, not bans, and notice the principle that runs
+      protein powder. Answer each in terms of food quality and portion, and notice the principle that runs
       through all four.
     next: q-carb
 
@@ -45,7 +45,7 @@ nodes:
       - id: b
         text: "\"It's the type: swap some white rice for brown or red rice.\""
         correct: true
-        feedback: "Swapping some white rice for brown or red rice is a quality upgrade available at hawker stalls, not a ban, and it fits My Healthy Plate: fill half the plate with vegetables and keep the portion sensible. Reassure him too that whole fruit is fine despite its sugar; it is sweet drinks (bubble tea, sweetened kopi, even juice) that behave like added sugar."
+        feedback: "Swapping some white rice for brown or red rice is a quality upgrade available at hawker stalls, and it fits My Healthy Plate: fill half the plate with vegetables and keep the portion sensible. Reassure him too that whole fruit is fine despite its sugar. Sweet drinks (bubble tea, sweetened kopi, even juice) behave like added sugar."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-eggs
@@ -91,7 +91,7 @@ nodes:
       - id: b
         text: "\"Avoid all fat; go fat-free.\""
         correct: false
-        feedback: "The body needs some fat for the essential fatty acids and fat-soluble vitamins; the aim is to swap saturated for unsaturated fat, not to cut all fat."
+        feedback: "The body needs some fat for the essential fatty acids and fat-soluble vitamins; the aim is to swap saturated for unsaturated fat."
         goto: q-protein
       - id: c
         text: "\"Keep some fat, but cook with unsaturated oils.\""
@@ -114,7 +114,7 @@ nodes:
       - id: b
         text: "\"Enough protein plus training builds muscle; food usually covers it.\""
         correct: true
-        feedback: "Adequate protein plus training builds muscle. Whole foods come first (fish, egg, tofu, dhal, chicken), with powder a convenience, not a necessity, and the protein foods to cut back on are processed meats (luncheon meat, bacon, sausages)."
+        feedback: "Adequate protein plus training builds muscle. Whole foods come first (fish, egg, tofu, dhal, chicken), with powder an optional convenience, and the protein foods to cut back on are processed meats (luncheon meat, bacon, sausages)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -136,10 +136,10 @@ nodes:
     emotion: concerned
     title: "Re-centre on quality"
     body: |
-      The principle across all four questions is the same: type and food source, not
-      blanket bans or hype. Base advice on My Healthy Plate, correct mistaken beliefs
-      plainly, and, when a plan turns restrictive or therapeutic or the patient is
-      higher-risk, bring in a dietitian rather than prescribing it yourself.
+      The principle across all four questions is the same: judge each food by its type and
+      source, and avoid blanket bans. Base advice on My Healthy Plate, correct mistaken beliefs plainly, and, when a
+      plan turns restrictive or therapeutic or the patient is higher-risk, bring in a
+      dietitian to prescribe it.
     next: end-partial
 
   - id: end-good
@@ -157,7 +157,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Carbs, fat, cholesterol and protein all reduce to quality and food source, not blanket bans."
+        - "Carbs, fat, cholesterol and protein all reduce to quality and food source."
         - "Correct mistaken beliefs clearly: coconut oil raises cholesterol; the cholesterol in food matters less than saturated/trans fat; processed meat has the stronger evidence of harm; protein builds muscle only with training, up to a point."
         - "Give quality guidance and local tools; don't prescribe grams or restrictive plans; refer restrictive/therapeutic diets or higher-risk patients."
 
@@ -172,6 +172,6 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Lead with quality and food source, not 'good vs bad'."
+        - "Lead with quality and food source."
         - "Base advice on My Healthy Plate and Nutri-Grade."
         - "Refer restrictive or therapeutic diets to a dietitian."

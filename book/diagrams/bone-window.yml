@@ -1,5 +1,5 @@
 # Data for the BoneWindow island (Childhood & Adolescence chapter).
-# Schematic: teaches the SHAPE of bone accrual and the modifiable-vs-genetic split, not exact values.
+# Schematic: teaches the SHAPE of bone accrual and the modifiable-vs-genetic split; values are illustrative.
 id: bone-window
 title: "The bone bank: a window that closes"
 ageMin: 8
@@ -38,7 +38,7 @@ levers:
     label: "Vitamin D sufficient"
     weight: 0.25
     grade: "B"
-    why: "Supports accrual, but supplements build bone only in children who are deficient, not in those already replete."
+    why: "Supports accrual. Supplements build bone only in children who are deficient."
 threat:
   key: lowEA
   label: "Low energy availability / periods stopped"
@@ -49,4 +49,4 @@ threat:
 note: >-
   Genetics sets the ceiling (the highest peak bone mass a person could reach) and most of the peak
   itself; lifestyle moves the peak actually reached within the shaded band. The window largely closes by the early twenties.
-credit: "Schematic: shows the shape of accrual, not exact values. Based on Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."
+credit: "Schematic: shows the shape of accrual; values are illustrative. Based on Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011."

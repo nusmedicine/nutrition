@@ -63,7 +63,7 @@ nodes:
       - id: a
         text: "Probably physiological dilution; check ferritin before deciding on iron."
         correct: true
-        feedback: "Plasma volume expands faster than red cells, so a mid-pregnancy haemoglobin almost always falls by dilution. Confirm true iron deficiency with ferritin and pregnancy-specific cut-offs instead of treating the number alone, remembering that real deficiency is common here."
+        feedback: "Plasma volume expands faster than red cells, so a mid-pregnancy haemoglobin almost always falls by dilution. Confirm true iron deficiency with ferritin and pregnancy-specific cut-offs before treating, remembering that real deficiency is common here."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-result
@@ -75,7 +75,7 @@ nodes:
       - id: c
         text: "A dangerous drop; arrange an urgent transfusion."
         correct: false
-        feedback: "A fall to about 10.8 g/dL in mid-pregnancy is common and usually dilutional, not an emergency."
+        feedback: "A fall to about 10.8 g/dL in mid-pregnancy is common and usually dilutional, and it does not call for a transfusion. Check ferritin first."
         goto: q-result
 
   - id: q-result
@@ -98,7 +98,7 @@ nodes:
       - id: c
         text: "Tell her it's mild and nothing to worry about, and carry on as normal."
         correct: false
-        feedback: "GDM does need action: untreated, it raises the risk of a large baby and of a difficult delivery (shoulder dystocia). Dietary first-line plus team referral is the response, not dismissal."
+        feedback: "GDM does need action: untreated, it raises the risk of a large baby and of a difficult delivery (shoulder dystocia). Dietary first-line plus team referral is the response."
         goto: q-chain
 
   - id: q-chain
@@ -121,7 +121,7 @@ nodes:
       - id: c
         text: "\"Because the baby is small and underfed, it runs out of sugar after birth.\""
         correct: false
-        feedback: "These babies are usually large, not small; the hypoglycaemia comes from their own high insulin after the maternal glucose supply is cut."
+        feedback: "These babies are usually large, and the hypoglycaemia comes from their own high insulin after the maternal glucose supply is cut."
         goto: q-postpartum
 
   - id: q-postpartum
@@ -144,7 +144,7 @@ nodes:
       - id: c
         text: "\"No, you have diabetes for life now and will need medication from here on.\""
         correct: false
-        feedback: "Overstated and frightening: GDM usually resolves after delivery. The message is future *risk*, managed with follow-up testing and lifestyle, not lifelong medication starting now."
+        feedback: "Overstated and frightening: GDM usually resolves after delivery. The message is future *risk*, managed with follow-up testing and lifestyle."
         goto: route
 
   - id: route
@@ -159,11 +159,11 @@ nodes:
     emotion: concerned
     title: "Screen everyone, interpret the blood count, refer, follow up"
     body: |
-      The safe path has five steps. Offer the test to every pregnancy, because feeling well doesn't rule
+      Offer the test to every pregnancy, because feeling well doesn't rule
       GDM out and risk-based screening misses about half of local cases. Read a mid-pregnancy
       haemoglobin fall as likely dilution, but confirm with ferritin. Meet a positive result with
-      dietary first-line plus the team, not insulin you titrate yourself. Explain the baby's transient
-      low sugar as foetal insulin, not inherited diabetes. Arrange postpartum follow-up for the future
+      dietary first-line plus the team, and leave insulin to them. Explain the baby's transient
+      low sugar as the effect of foetal insulin. Arrange postpartum follow-up for the future
       type 2 diabetes risk.
 
       Replay and take the safe path.
@@ -175,7 +175,7 @@ nodes:
     title: "Anticipate, screen, recognise, refer"
     body: |
       You offered the test even though she felt well and would rather have skipped it, read the falling haemoglobin
-      correctly, met the diagnosis with dietary first-line plus the team rather than reaching for insulin,
+      correctly, met the diagnosis with dietary first-line plus the team,
       explained the baby's low sugar in plain language, and flagged the postpartum follow-up that links
       gestational diabetes to future type 2 diabetes. That is the role at this stage: anticipate, screen,
       recognise and refer. *(Insulin, glucose targets and detailed management are decided by the obstetric and

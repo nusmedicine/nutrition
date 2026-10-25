@@ -2,8 +2,8 @@ id: dementia-prevention
 title: "\"What should I eat so I don't get dementia?\""
 objectives:
   - "When counselling worried-well patients about dementia, lead with vascular and metabolic risk, the best-supported approach."
-  - "Frame the MIND-diet evidence truthfully: an observational association, with a null prevention trial; a low-risk pattern, not a proven cure."
-  - "Do no harm: discourage unproven brain supplements instead of prescribing one that wastes money or can harm."
+  - "Frame the MIND-diet evidence truthfully: an observational association with a null prevention trial. Recommend it as a sensible, low-risk eating pattern whose effect on dementia is unproven."
+  - "Do no harm: discourage unproven brain supplements, which waste money and in some cases can harm."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, dementia, prevention, evidence-vs-hype, singapore, safety]
@@ -62,7 +62,7 @@ nodes:
       - id: a
         text: "Worth following, but its trial did not show it prevents dementia."
         correct: true
-        feedback: "The 'halved risk' is an observational association, and the randomised trial found no cognitive benefit. Recommend the pattern as sensible, low-risk eating, not proven prevention."
+        feedback: "The 'halved risk' is an observational association, and the randomised trial found no cognitive benefit. Recommend the pattern as sensible, low-risk eating."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-supplement
@@ -74,7 +74,7 @@ nodes:
       - id: c
         text: "No, there is no point: diet has nothing to do with the brain."
         correct: false
-        feedback: "A Mediterranean or MIND pattern is cardioprotective and works partly through the vessels, so it is worth recommending, just not as a cure."
+        feedback: "A Mediterranean or MIND pattern is cardioprotective and works partly through the vessels, so it is worth recommending."
         goto: q-supplement
 
   - id: q-supplement
@@ -114,9 +114,9 @@ nodes:
     title: "Counsel truthfully, and do no harm"
     body: |
       In summary: **lead with vascular risk** (her blood pressure and glucose are the
-      best-evidenced risk factors to treat), frame the diet truthfully (a low-risk pattern, not a proven cure, because
-      the prevention trial was negative), and steer her away from supplements instead of prescribing one
-      that wastes money or, in the case of high-dose vitamin E, can harm. Replay and take the path that
+      best-evidenced risk factors to treat), frame the diet truthfully (a low-risk pattern whose
+      prevention trial was negative), and steer her away from supplements, which waste money and,
+      in the case of high-dose vitamin E, can harm. Replay and take the path that
       helps without offering false hope.
     next: end-partial
 
@@ -126,7 +126,7 @@ nodes:
     title: "Real help, no false hope"
     body: |
       You led with her blood pressure and glucose, the risk factors with the best evidence, and framed the
-      MIND diet as a sensible low-risk pattern, not a proven cure. When she pushed for a supplement,
+      MIND diet as a sensible low-risk pattern. When she pushed for a supplement,
       you discouraged it and redirected her money and energy to what actually works.
     debrief:
       objectivesMet: [1, 2, 3]
@@ -147,6 +147,6 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Vascular risk first; diet as a low-risk pattern, not a proven cure."
+        - "Vascular risk first; diet as a sensible low-risk pattern."
         - "The '50%' from cohort studies was not confirmed by the prevention trial, so don't promise it."
         - "Discourage unproven supplements; some, like high-dose vitamin E, can harm."

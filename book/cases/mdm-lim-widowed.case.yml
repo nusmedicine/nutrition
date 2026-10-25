@@ -1,10 +1,10 @@
 id: mdm-lim-widowed
 title: "Mdm Lim, 78: the widow who eats alone"
 objectives:
-  - "Recognise unintentional weight loss (looser clothing) in an older adult, especially in the months after widowhood, as the main red flag, not \"normal ageing\"."
+  - "Recognise unintentional weight loss (looser clothing) in an older adult, especially in the months after widowhood, as the main red flag."
   - "Apply do-no-harm: avoid a restrictive diet in a thin older adult who is losing weight, and fortify familiar foods instead."
-  - "Recognise the at-risk B12 profile (long-term metformin, a PPI and poor intake) and check or refer instead of blanket-supplementing."
-  - "Reconnect the isolated older adult to a shared meal and refer appropriately, without managing malnutrition here."
+  - "Recognise the at-risk B12 profile (long-term metformin, a PPI and poor intake) and target that nutrient: check B12 or refer for it."
+  - "Reconnect the isolated older adult to a shared meal and refer her for the malnutrition assessment and management."
 difficulty: intro
 estimatedMinutes: 11
 tags: [nutrition, healthy-ageing, undernutrition, social-isolation, do-no-harm, singapore]
@@ -38,19 +38,19 @@ nodes:
       - id: a
         text: "The unintentional weight loss since she was widowed, which needs evaluation."
         correct: true
-        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam is the sign that this is no longer healthy ageing but a problem that needs action."
+        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam shows that the loss is a problem that needs action."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-advice
       - id: b
         text: "Nothing: weight loss is normal in ageing, so reassure and review in a year."
         correct: false
-        feedback: "Weight loss without trying can indicate malignancy, depression, dental, swallowing or medication problems, so it warrants evaluation now, not a year's wait."
+        feedback: "Weight loss without trying can indicate malignancy, depression, dental, swallowing or medication problems, so it warrants evaluation now."
         goto: q-advice
       - id: c
         text: "Only her grief, which will pass without further action."
         correct: false
-        feedback: "Grief is part of it, but the weight loss cannot be put down to bereavement and left there: the loss itself needs evaluating, and her low intake needs support now."
+        feedback: "Grief is part of it. The weight loss itself needs evaluating, and her low intake needs support now."
         goto: q-advice
 
   - id: q-advice
@@ -68,7 +68,7 @@ nodes:
       - id: b
         text: "\"Yes, a low-fat, low-salt diet is the healthy thing to do.\""
         correct: false
-        feedback: "Restricting the diet of a thin older woman who is losing weight reduces intake and flavour and can tip her into malnutrition. This is the do-no-harm trap: she needs density and flavour, not restriction."
+        feedback: "Restricting the diet of a thin older woman who is losing weight reduces intake and flavour and can tip her into malnutrition. This is the do-no-harm trap: she needs density and flavour."
         reaction: concerned
         goto: remedial
       - id: c
@@ -92,7 +92,7 @@ nodes:
       - id: b
         text: "Start a full panel of vitamin and mineral supplements to be thorough."
         correct: false
-        feedback: "Blanket supplementation is not targeted: her metformin and PPI raise B12 risk specifically, so check that nutrient instead of everything."
+        feedback: "Blanket supplementation is not targeted: her metformin and PPI raise B12 risk specifically, so check that nutrient."
         goto: q-refer
       - id: c
         text: "Check nothing, since her diet is the only issue."
@@ -135,12 +135,12 @@ nodes:
     emotion: concerned
     title: "Raise nutrient density, avoid restriction, and refer"
     body: |
-      Unintentional weight loss (loose clothes) after widowhood is the red flag, not "normal ageing". The
+      Unintentional weight loss (loose clothes) after widowhood is the red flag. The
       tempting low-fat, low-salt "healthy diet" is the do-no-harm trap: a thin older woman who is losing
       weight needs her food made richer and more flavourful (fortify her usual porridge with egg, fish or
-      tofu), not stricter. Her metformin and PPI put her at risk of B12 deficiency, which is worth checking.
+      tofu). Her metformin and PPI put her at risk of B12 deficiency, which is worth checking.
       A key modifiable factor is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
-      dietitian) instead of managing malnutrition here. Replay the case.
+      dietitian) for the malnutrition assessment and management. Replay the case.
     next: end-partial
 
   - id: end-good
@@ -149,7 +149,7 @@ nodes:
     title: "Recognised, supported, referred"
     body: |
       You saw the weight loss for what it was, resisted the reflex to restrict a frail older woman's diet,
-      chose food-first fortification and a shared meal over a "healthy diet", flagged her B12 risk and
+      chose food-first fortification and a shared meal, flagged her B12 risk and
       referred appropriately. At this stage the job is to anticipate the shifting needs of ageing, recognise
       when a normal change has become a problem, and refer, while making the small food-first and social
       changes that help straight away. (The malnutrition assessment and management belong to the
@@ -157,7 +157,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
-        - "Unintentional weight loss (about 5% or more, or loose clothes), especially after widowhood, is a red flag, not normal ageing. Recognise and refer."
+        - "Unintentional weight loss (about 5% or more, or loose clothes), especially after widowhood, is a red flag. Recognise and refer."
         - "Do no harm: never put a thin older adult who is losing weight on a restrictive diet; fortify familiar foods instead."
         - "Long-term metformin, a PPI and poor intake put her at risk of B12 deficiency through malabsorption: check or refer, and don't blanket-supplement."
         - "Eating alone is a powerful, modifiable risk factor: reconnect her to a shared meal (an Active Ageing Centre) and refer for the rest."

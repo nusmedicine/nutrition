@@ -3,7 +3,7 @@ id: sim-common-questions-mr-lim
 title: "Simulated patient: Mr Lim (everyday nutrition questions)"
 objectives:
   - Take a brief diet history before advising.
-  - Answer his questions on food quality and portion, correcting misconceptions rather than banning foods.
+  - Answer his questions with advice on food quality and portion, and correct his misconceptions.
   - Recognise that a strict or therapeutic low-carb plan needs a dietitian, and offer referral.
 difficulty: intro
 estimatedMinutes: 10
@@ -61,14 +61,14 @@ nodes:
     outcome: success
     title: Quality and portion, and knowing when to refer
     body: |
-      You answered Mr Lim on quality-not-bans terms, addressed each misconception clearly, and recognised that a strict low-carb plan on top of his results needs a dietitian.
+      You answered Mr Lim in terms of food quality and portion, addressed each misconception clearly, and recognised that a strict low-carb plan on top of his results needs a dietitian.
     debrief:
       objectivesMet:
         - 1
         - 2
         - 3
       keyPoints:
-        - Reframed 'cut all carbs / all rice' as quality and portion, not a total ban. Responded to his keenness on keto with a kinder, more sustainable message instead of endorsing it or issuing a flat 'no carbs'.
+        - Reframed 'cut all carbs / all rice' as a question of quality and portion, and answered his keenness on keto with a moderate, sustainable message.
         - 'Addressed each misconception accurately and in plain language: the cholesterol in eggs is not the main influence on blood cholesterol for most people; coconut oil and butter are high in saturated fat and ''natural'' does not mean heart-healthy; protein powder is not an energy supplement and is unnecessary on his ordinary diet.'
         - Took at least a brief diet history before advising and used non-judgemental language. Recognised that a strict or therapeutic low-carb plan in someone with borderline glucose and raised cholesterol is beyond simple advice, and offered to involve a dietitian.
   - id: end-partial
@@ -81,5 +81,5 @@ nodes:
       objectivesMet:
         - 1
       keyPoints:
-        - Gave reasonable answers but leaned on bans ('stop eating rice', 'don't eat eggs') instead of a quality-and-portion message, or left one or more misconceptions (coconut oil/butter, protein powder) unaddressed.
+        - Gave reasonable answers but leaned on bans ('stop eating rice', 'don't eat eggs'), or left one or more misconceptions (coconut oil/butter, protein powder) unaddressed.
         - Missed that his keenness for a strict low-carb plan on top of borderline glucose and cholesterol warrants a dietitian referral, or advised before hearing what he actually eats.

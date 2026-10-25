@@ -12,7 +12,7 @@ pillars:
   - id: activity
     label: Activity
     full: Physical activity
-    link: "Diet and movement act together on weight and glucose; neither alone is as effective as both."
+    link: "Diet and movement act together on weight and glucose, and the combination is more effective than either alone."
   - id: sleep
     label: Sleep
     full: Restorative sleep

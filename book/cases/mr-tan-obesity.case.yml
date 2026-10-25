@@ -1,10 +1,10 @@
 id: mr-tan-obesity
 title: "Mr Tan, 45: two sets of BMI cut-offs"
 objectives:
-  - "Classify an Asian adult using the right cut-offs (Singapore's ≥27.5 high-risk action point, not the WHO ≥30 cut-off) and read waist against the Asian central-obesity cut-off."
-  - "Tally the metabolic-syndrome components (≥3 of 5) and treat the label as a risk marker of clustered risk, not a disease with its own drug."
-  - "Work through all five areas of lifestyle change (diet quality, activity, sleep, stress, behaviour change) instead of reaching for a drug or for blame."
-  - "Turn the plan into realistic, person-first swaps aimed at a modest ~5–10% loss, framed with permission rather than shame."
+  - "Classify an Asian adult using the right cut-offs (Singapore's ≥27.5 high-risk action point, which is lower than the WHO ≥30 cut-off) and read waist against the Asian central-obesity cut-off."
+  - "Tally the metabolic-syndrome components (≥3 of 5) and treat the label as a marker of clustered risk, managed through lifestyle and the treatment of each component."
+  - "Work through all five areas of lifestyle change (diet quality, activity, sleep, stress, behaviour change) before any drug, and without blame."
+  - "Turn the plan into realistic, person-first swaps aimed at a modest ~5–10% loss, framed with permission and respect."
 difficulty: core
 estimatedMinutes: 12
 tags: [nutrition, obesity, metabolic-syndrome, singapore, do-no-harm, weight-inclusive]
@@ -54,7 +54,7 @@ nodes:
       - id: b
         text: "Normal: his BMI is under the WHO cut-off of 30, so he isn't obese."
         correct: false
-        feedback: "The WHO ≥30 cut-off under-detects risk in Asian patients. Singapore's clinical action points are lower (intervene at ≥23, high risk at ≥27.5) because Singaporeans carry more, and more central, body fat at a given BMI. A BMI of 28 with a 98 cm waist is high-risk with central obesity, not 'normal'."
+        feedback: "The WHO ≥30 cut-off under-detects risk in Asian patients. Singapore's clinical action points are lower (intervene at ≥23, high risk at ≥27.5) because Singaporeans carry more, and more central, body fat at a given BMI. A BMI of 28 with a 98 cm waist is high-risk with central obesity."
         reaction: skeptical
         goto: reveal-numberlines
       - id: c
@@ -81,9 +81,9 @@ nodes:
       What does this add up to?
     options:
       - id: a
-        text: "Four of five: he meets criteria; a risk marker, not a disease with its own drug."
+        text: "Four of five: he meets criteria; the label is a marker of clustered risk."
         correct: true
-        feedback: "Central obesity, low HDL, raised blood pressure and raised fasting glucose make four of five (only triglycerides are untested), past the any-three-of-five threshold. Insulin resistance and central fat, the common underlying abnormalities, tie them together, which is why the syndrome is a risk marker for type 2 diabetes and cardiovascular disease, not an entity treated with a single 'metabolic-syndrome' drug. Detailed diabetes, lipid and blood-pressure management belongs to the *Type 2 diabetes* and *Cardiovascular disease & hypertension* chapters."
+        feedback: "Central obesity, low HDL, raised blood pressure and raised fasting glucose make four of five (only triglycerides are untested), past the any-three-of-five threshold. Insulin resistance and central fat, the common underlying abnormalities, tie them together, which is why the syndrome is a risk marker for type 2 diabetes and cardiovascular disease, managed through lifestyle and the treatment of each component. Detailed diabetes, lipid and blood-pressure management belongs to the *Type 2 diabetes* and *Cardiovascular disease & hypertension* chapters."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-levers
@@ -96,7 +96,7 @@ nodes:
       - id: c
         text: "He has 'metabolic syndrome disease': start a drug aimed at the syndrome itself."
         correct: false
-        feedback: "Metabolic syndrome is a clustering of risks around insulin resistance and central fat, not a single disease with a single drug. The label prompts action on the common underlying abnormalities (lifestyle first) and management of each component in its own chapter, not a prescription 'for the syndrome'."
+        feedback: "No single drug treats metabolic syndrome: it is a clustering of risks around insulin resistance and central fat. The label prompts action on the common underlying abnormalities (lifestyle first) and management of each component in its own chapter."
         reaction: concerned
         goto: q-levers
 
@@ -111,20 +111,20 @@ nodes:
       - id: a
         text: "Map all five areas of lifestyle change and start a lifestyle-first plan."
         correct: true
-        feedback: "Lifestyle change is the cornerstone, and his own history supplies the modifiable factors: diet quality (char kway teow, kopi-C twice a day), activity (under 5,000 steps), sleep (six hours raises next-day intake) and stress (deadline snacking), with behaviour change to make them stick. Medication and surgery are real tiers, but they come after lifestyle change and are added by specialists: recognise and refer, and don't reach for them first."
+        feedback: "Lifestyle change is the cornerstone, and his own history supplies the modifiable factors: diet quality (char kway teow, kopi-C twice a day), activity (under 5,000 steps), sleep (six hours raises next-day intake) and stress (deadline snacking), with behaviour change to make them stick. Medication and surgery come after lifestyle change and are added by specialists, so recognise and refer."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-plan
       - id: b
         text: "Start a weight-loss drug now, since lifestyle advice rarely works anyway."
         correct: false
-        feedback: "Reaching for a drug first is not safe practice. Anti-obesity medication (including the newer GLP-1 receptor agonists) and metabolic-bariatric surgery are specialist tiers added on top of lifestyle, not in place of it. The task here is to recognise that they exist and refer, not to prescribe or select them. Lifestyle-first care is where you start, and his history is full of modifiable factors."
+        feedback: "Reaching for a drug first is not safe practice. Anti-obesity medication (including the newer GLP-1 receptor agonists) and metabolic-bariatric surgery are specialist tiers added on top of lifestyle. The task here is to recognise that they exist and refer. Lifestyle-first care is where you start, and his history is full of modifiable factors."
         reaction: concerned
         goto: remedial-donoharm
       - id: c
         text: "Tell him it's down to willpower: eat less and stop being lazy."
         correct: false
-        feedback: "This is the do-no-harm trap. Shaming doesn't motivate. It raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment, not a courtesy. Telling him to 'eat less' also leaves out diet quality, sleep and stress, the modifiable factors here."
+        feedback: "This is the do-no-harm trap. Shaming raises stress and comfort-eating and drives patients to avoid care, so it can make weight worse; weight-inclusive, person-first framing is part of the treatment. Telling him to 'eat less' also leaves out diet quality, sleep and stress, the modifiable factors here."
         reaction: concerned
         goto: remedial-donoharm
 
@@ -133,17 +133,14 @@ nodes:
     emotion: concerned
     title: "Two things to correct before we plan"
     body: |
-      Two corrections before Mr Tan gets a plan.
-
       **First, order of care.** Lifestyle change is first-line and the cornerstone. Anti-obesity medication
-      and metabolic-bariatric surgery are genuine tiers, but they come after lifestyle change and are added by specialists.
-      The task at this stage is to recognise that they exist and refer, not to prescribe or pick one.
+      and metabolic-bariatric surgery come after lifestyle change and are added by specialists.
+      The task at this stage is to recognise that they exist and refer.
       A strong answer elsewhere does not make up for reaching for a drug first.
 
       **Second, framing.** Shame and blame ("just eat less, it's willpower") backfire: stigma is itself a
       stressor that raises cortisol and comfort-eating and drives people to avoid appointments, so it can
-      make weight worse. Use person-first, permission-based language and target health behaviours, not
-      the scale alone.
+      make weight worse. Use person-first, permission-based language and target health behaviours as well as the number on the scale.
 
       With those corrections, the modifiable factors are all in his own history: diet quality, activity, sleep and stress,
       with behaviour change to make them stick. Next comes the plan.
@@ -160,20 +157,20 @@ nodes:
       - id: a
         text: "Agree a few realistic swaps and small activity and sleep goals for ~5–10% loss."
         correct: true
-        feedback: "A sustained, gradual 5–10% loss yields a disproportionate cardiometabolic benefit (better glucose, blood pressure and lipids). The swaps are specific and realistic at the hawker centre (half-rice plus vegetables, kopi-o kosong, a lunchtime walk, a sleep target), they address several of these areas at once, and they are agreed with him, not dictated, and reviewed together. Point him to My Healthy Plate and Nutri-Grade, and arrange follow-up through Healthier SG."
+        feedback: "A sustained, gradual 5–10% loss yields a disproportionate cardiometabolic benefit (better glucose, blood pressure and lipids). The swaps are specific and realistic at the hawker centre (half-rice plus vegetables, kopi-o kosong, a lunchtime walk, a sleep target), they address several of these areas at once, and they are agreed with him and reviewed together. Point him to My Healthy Plate and Nutri-Grade, and arrange follow-up through Healthier SG."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
         text: "Start a strict very-low-calorie crash diet and ban rice, kopi and hawker food today."
         correct: false
-        feedback: "This crash diet is too big and too abrupt to stick: bans tend to cause rebound eating and can damage rapport. The evidence favours a modest, sustained ~5–10% loss built from realistic pattern-level swaps (half-rice with vegetables, kopi-o kosong, a lunchtime walk), not an all-or-nothing crash he can't keep in his real food environment."
+        feedback: "This crash diet is too big and too abrupt to stick: bans tend to cause rebound eating and can damage rapport. The evidence favours a modest, sustained ~5–10% loss built from realistic pattern-level swaps (half-rice with vegetables, kopi-o kosong, a lunchtime walk) that he can keep in his real food environment."
         reaction: concerned
         goto: route
       - id: c
         text: "Tell him to 'lose weight and exercise more' and return once he's lost 15 kg."
         correct: false
-        feedback: "The advice is too vague and the target too big: 'exercise more' alone is a weak weight-loss strategy (nationally, activity rose while obesity still climbed), and a 15 kg target set as a condition for coming back invites failure and avoidance. Co-create a couple of specific swaps aimed at a modest 5–10% loss, and review together instead of sending him away until he's 'fixed it'."
+        feedback: "The advice is too vague and the target too big: 'exercise more' alone is a weak weight-loss strategy (nationally, activity rose while obesity still climbed), and a 15 kg target set as a condition for coming back invites failure and avoidance. Co-create a couple of specific swaps aimed at a modest 5–10% loss, and review progress together."
         reaction: concerned
         goto: route
 
@@ -191,14 +188,14 @@ nodes:
     body: |
       You classified Mr Tan using the right cut-offs (high-risk by Singapore's ≥27.5 point, with central obesity by
       the Asian waist cut-off), recognised that his four findings cluster into metabolic syndrome as a risk
-      marker and not a disease with its own drug, and worked through all five areas of lifestyle change. You kept medication and surgery
-      as specialist referrals, not a first step, and framed the conversation with permission and
-      respect instead of blame. The plan is a handful of realistic swaps aimed at a modest ~5–10% loss.
+      marker, and worked through all five areas of lifestyle change. You kept medication and surgery
+      as later specialist referrals and framed the conversation with permission and
+      respect. The plan is a handful of realistic swaps aimed at a modest ~5–10% loss.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Two sets of BMI cut-offs: classify using Singapore's ≥27.5 high-risk action point (and ≥23 to intervene), read waist against the Asian central-obesity cut-off, and read BMI and waist together."
-        - "Metabolic syndrome is any three of five components: a risk marker for type 2 diabetes and cardiovascular disease, not a disease treated with its own drug."
+        - "Metabolic syndrome is any three of five components: a risk marker for type 2 diabetes and cardiovascular disease, managed through lifestyle and each component's own treatment."
         - "Lifestyle change is first-line across five areas (diet quality, activity, sleep, stress, behaviour change); anti-obesity medication and surgery are specialist tiers: recognise and refer, don't prescribe."
         - "Aim for a modest, worthwhile ~5–10% loss with realistic swaps; frame it person-first and permission-based, because stigma is itself a metabolic stressor."
       references: ["@sgObesityBMI", "@who2020diet", "@hpbHealthyPlate", "@hpbNutriGrade", "@mohHealthierSG"]
@@ -209,8 +206,8 @@ nodes:
     title: "Most of the way there"
     body: |
       You reached a plan for Mr Tan, but slipped on at least one point: the cut-offs used to classify him,
-      whether the findings cluster (and that the syndrome is a risk marker, not a disease with its own drug), keeping
-      medication and surgery as specialist referrals instead of a first step, or the person-first framing.
+      whether the findings cluster (and that the syndrome is a risk marker), keeping
+      medication and surgery as later specialist referrals, or the person-first framing.
       Replay the safe path: classify using Singapore's ≥27.5 cut-off with the Asian waist cut-off; tally the
       any-three-of-five cluster; start lifestyle-first across all five areas of lifestyle change with realistic swaps aimed
       at ~5–10% loss; and never lead with a drug or with blame.
@@ -218,5 +215,5 @@ nodes:
       objectivesMet: [1]
       keyPoints:
         - "Classify using Singapore's ≥27.5 high-risk point (BMI and waist together), not the WHO ≥30 cut-off."
-        - "Metabolic syndrome is any three of five components: a risk marker, not a disease with its own drug."
+        - "Metabolic syndrome is any three of five components: a marker of clustered risk, treated through its components."
         - "Lifestyle-first across all five areas; medication and surgery are for recognition and referral, and shame backfires."

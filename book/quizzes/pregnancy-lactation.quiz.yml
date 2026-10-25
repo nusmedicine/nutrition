@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack, not an extra meal. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
         feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
@@ -19,13 +19,13 @@ questions:
     options:
       - text: "Likely haemodilution; check ferritin before deciding on iron"
         correct: true
-        feedback: "Plasma volume expands faster than red-cell mass, so a mid-pregnancy haemoglobin almost always falls by dilution. Use pregnancy-specific cut-offs and confirm true iron deficiency with ferritin instead of treating the number alone, remembering that real deficiency is common."
+        feedback: "Plasma volume expands faster than red-cell mass, so a mid-pregnancy haemoglobin almost always falls by dilution. Use pregnancy-specific cut-offs and confirm true iron deficiency with ferritin before treating, remembering that real deficiency is common."
       - text: "Definite iron-deficiency anaemia; start high-dose iron now"
         correct: false
         feedback: "The dilutional fall is expected and physiological, so a low number alone does not prove deficiency. Check ferritin first, and treat if she is truly deficient."
       - text: "A dangerous drop that needs urgent transfusion"
         correct: false
-        feedback: "A fall to about 10.8 g/dL in mid-pregnancy is common and usually dilutional, not an emergency."
+        feedback: "A fall to about 10.8 g/dL in mid-pregnancy is common and usually dilutional, and is not an emergency."
 
   - id: q3
     stem: "A woman with severe, persistent vomiting, weight loss and ketosis is admitted. Which point is the critical safety step?"
@@ -38,7 +38,7 @@ questions:
         feedback: "Correcting the energy deficit feels urgent, but this order is dangerous: glucose given first to a thiamine-depleted woman can trigger Wernicke's encephalopathy. Thiamine is given before glucose."
       - text: "Reassure her that vomiting is normal and send her home"
         correct: false
-        feedback: "Weight loss, dehydration and ketosis mark hyperemesis gravidarum, not ordinary morning sickness; it needs referral and admission, not reassurance."
+        feedback: "Weight loss, dehydration and ketosis mark hyperemesis gravidarum, which is more severe than ordinary morning sickness and needs referral and admission."
 
   - id: q4
     stem: "Why does the calcium requirement barely rise in pregnancy, even though the foetal skeleton is forming?"
@@ -48,26 +48,26 @@ questions:
         feedback: "Intestinal calcium absorption roughly doubles in pregnancy, so the mother meets the foetal demand without eating much more; Singapore's allowance rises only modestly, from 800 to 1,000 mg a day for adult women."
       - text: "Because the foetus doesn't actually need much calcium"
         correct: false
-        feedback: "The foetal skeleton does need calcium, but the mother meets the need by absorbing dietary calcium more efficiently, not by eating more."
+        feedback: "The foetal skeleton does need calcium, but the mother meets the need by absorbing dietary calcium more efficiently."
       - text: "Because calcium is stored in unlimited amounts in the mother's bones"
         correct: false
         feedback: "Bone stores are not the mechanism: intestinal calcium absorption roughly doubles in pregnancy, which is why the mother needs little extra intake."
 
   - id: q5
-    stem: "Which nutrient is the one where the pregnancy advice is an upper limit (avoid excess), not a target to reach?"
+    stem: "For which nutrient is the pregnancy advice an upper limit (avoid excess)?"
     options:
       - text: "Vitamin A, because high-dose preformed retinol is teratogenic"
         correct: true
         feedback: "Preformed retinol (supplements, liver) is teratogenic in excess, while plant β-carotene is safe, so check that a multivitamin does not contain high-dose retinol, and avoid liver."
       - text: "Folate, because more is better throughout pregnancy"
         correct: false
-        feedback: "Folate is a minimum to reach (about 400 µg/day, or 4–5 mg/day if high-risk), not an upper limit; the nutrient that is teratogenic in excess is preformed vitamin A."
+        feedback: "Folate is a minimum to reach (about 400 µg/day, or 4–5 mg/day if high-risk); the nutrient that is teratogenic in excess is preformed vitamin A."
       - text: "Iron, because extra iron is always beneficial"
         correct: false
         feedback: "Iron needs rise and deficiency is common; the nutrient with a teratogenic upper limit is preformed vitamin A."
 
   - id: q6
-    stem: "Why does Singapore offer the glucose tolerance test to every pregnant woman instead of only to high-risk women?"
+    stem: "Why does Singapore offer the glucose tolerance test to every pregnant woman, including those at low risk?"
     options:
       - text: "Because risk-factor screening would miss about half of cases in Asian women"
         correct: true
@@ -77,7 +77,7 @@ questions:
         feedback: "Restricting the test to women with these risk factors is risk-based screening, which would have missed about half of local cases; screening in Singapore is universal."
       - text: "Because women with GDM always have obvious symptoms"
         correct: false
-        feedback: "GDM is usually symptomless, which is why universal screening is used instead of waiting for symptoms."
+        feedback: "GDM is usually symptomless, which is why every pregnant woman is screened."
 
   - id: q7
     stem: "The newborn of a mother with GDM is at risk of hypoglycaemia in the first hours after birth. Why?"

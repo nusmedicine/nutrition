@@ -1,6 +1,6 @@
 # Data for the SamePlate island (Healthy Ageing chapter).
 # Schematic/qualitative: teaches "energy down, density up" via a fortify-the-familiar porridge builder.
-# Values are illustrative: they teach the shape and direction, not exact nutrition.
+# Values are illustrative: they teach the shape and direction only.
 id: same-plate
 title: "Fortifying familiar foods: lower energy needs, higher nutrient density"
 intro: >-
@@ -21,5 +21,5 @@ restrict:
   label: 'Make it "low-fat & low-salt"'
   why: >-
     This older adult is losing weight. Stripping fat, salt and flavour cuts intake and can tip a frail
-    older adult into malnutrition, so the aim is to raise nutrient density, not to restrict the diet.
-credit: "Schematic: shows the shape and direction (lower energy needs, higher nutrient density), not exact nutrition. Based on the HPB Dietary Guidelines for Older Adults, PROT-AGE and the ESPEN geriatrics guideline."
+    older adult into malnutrition, so the aim is to raise nutrient density.
+credit: "Schematic: shows the shape and direction only (lower energy needs, higher nutrient density). Based on the HPB Dietary Guidelines for Older Adults, PROT-AGE and the ESPEN geriatrics guideline."

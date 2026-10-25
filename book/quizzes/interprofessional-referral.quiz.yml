@@ -2,7 +2,7 @@ id: interprofessional-referral
 title: "Quick check: interprofessional practice & referral"
 questions:
   - id: q1
-    stem: "Which patient most clearly needs referral to a dietitian rather than your general advice?"
+    stem: "Which patient most clearly needs referral to a dietitian?"
     options:
       - text: "Newly diagnosed diabetes with early kidney impairment on three medicines"
         correct: true
@@ -21,7 +21,7 @@ questions:
         feedback: "A vague referral wastes a scarce resource. A useful one includes the reason and urgency, diagnoses, medications, key results, the weight trend, and the patient's goals and social context."
       - text: "Referrals should never be written until the patient has failed advice first"
         correct: false
-        feedback: "Referral is a competency and a safety behaviour, not a last resort. The problem here is that the note is uninformative, not that it was made."
+        feedback: "Referral need not wait for advice to fail: it is a competency and a safety behaviour. The problem here is that the note gives the dietitian nothing to act on."
       - text: "Diet is not something a dietitian should be asked about"
         correct: false
         feedback: "Individualised diet therapy is exactly the dietitian's role. The issue is the referral's lack of detail."
@@ -36,7 +36,7 @@ questions:
         feedback: "That conflates the two: general healthy-eating guidance is not MNT. Treating all advice as MNT would leave a clinician too afraid to give safe basic advice."
       - text: "A fixed diet sheet handed out to everyone with the same diagnosis"
         correct: false
-        feedback: "A one-size-fits-all handout is universal advice, not therapy; MNT is individualised and monitored."
+        feedback: "A one-size-fits-all handout is universal advice. MNT is individualised and monitored."
   - id: q4
     stem: "In a team caring for a patient with a chronic condition, whose core role is reviewing medications?"
     options:
@@ -48,7 +48,7 @@ questions:
         feedback: "Dietitians deliver medical nutrition therapy; medication review is the pharmacist's core role."
       - text: "Whoever happens to see the patient first"
         correct: false
-        feedback: "Team-based care works because roles are defined, not improvised. Medication review belongs to the pharmacist."
+        feedback: "Team-based care works because each member has a defined role, and medication review belongs to the pharmacist."
   - id: q5
     stem: "What does Singapore's Healthier SG model give every enrolled resident?"
     options:
@@ -57,10 +57,10 @@ questions:
         feedback: "Healthier SG gives each enrolled resident one family doctor and a personalised Health Plan, with referrals to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that supports referral and follow-up."
       - text: "A guaranteed fully-funded course of dietitian visits for any concern"
         correct: false
-        feedback: "The published funding centres on medications and care components and does not spell out a dedicated dietitian subsidy line. Explain the pathway, and check current figures, instead of promising a guaranteed benefit."
+        feedback: "The published funding centres on medications and care components and does not spell out a dedicated dietitian subsidy line. Explain the pathway and check current figures before quoting any benefit."
       - text: "A fixed diet plan issued automatically at enrolment"
         correct: false
-        feedback: "Healthier SG provides a family doctor and a Health Plan, not an automatic diet. Any individualised plan would come via referral."
+        feedback: "Healthier SG provides a family doctor and a Health Plan. Any individualised diet plan would come via referral."
   - id: q6
     stem: "A patient read that a diet programme reversed diabetes. What is the accurate framing?"
     options:
@@ -69,19 +69,19 @@ questions:
         feedback: "The reported results came from intensive, team-delivered programmes. DiRECT's remission used a structured total-diet-replacement programme in early, non-insulin-treated diabetes, and the Diabetes Prevention Program's effect came from a 16-session curriculum. Don't promise those outcomes from brief advice alone."
       - text: "A short chat about diet in clinic reliably produces the same remission"
         correct: false
-        feedback: "Those outcomes needed intensive, multi-session, team-based programmes in selected groups, not a clinic conversation."
+        feedback: "Those outcomes needed intensive, multi-session, team-based programmes in selected groups."
       - text: "Diet cannot influence diabetes, so the claim is meaningless"
         correct: false
-        feedback: "Diet does matter in diabetes, but the specific remission results came from intensive structured programmes, not everyday advice."
+        feedback: "Diet does matter in diabetes. The remission results came from intensive structured programmes."
   - id: q7
     stem: "How should you read the evidence on a clinician's own diet and activity habits?"
     options:
       - text: "They are associated with more preventive counselling"
         correct: true
-        feedback: "Clinicians who look after their own health are observed to counsel more often, and arguably more credibly, though the evidence is associational, not proof of cause. Self-care is a professional and patient-safety issue, not an indulgence."
+        feedback: "Clinicians who look after their own health are observed to counsel more often, and arguably more credibly, though the evidence is associational. Self-care is a professional and patient-safety issue."
       - text: "They have been proven to directly cause better patient outcomes"
         correct: false
-        feedback: "The role-model evidence is observational. Present it as plausible and consistent, not as proven cause and effect."
+        feedback: "The role-model evidence is observational, so present it as plausible and consistent."
       - text: "They are a private matter with no bearing on practice"
         correct: false
         feedback: "Evidence suggests a clinician's own habits are associated with counselling behaviour and credibility, and short sleep affects their own metabolic health too."

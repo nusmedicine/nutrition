@@ -30,12 +30,12 @@ turns:
         tier: good
         text: "\"Would it be alright if we talked about your drinks for a moment?\""
         reaction: "\"Sure, doctor, go ahead. I know they're not great for me.\""
-        feedback: "Asking permission keeps you partners rather than adversaries, and it is a safe, respectful way to raise the topic."
+        feedback: "Asking permission keeps you working as partners, and it is a safe, respectful way to raise the topic."
       - type: closed
         tier: ok
         text: "\"How many sugars do you take in each cup?\""
         reaction: "\"Two, sometimes three. And condensed milk.\""
-        feedback: "Gathering a fact is fine, but a closed question doesn't open up his motivation. It is useful later, but it is not the best way to open the conversation."
+        feedback: "Gathering a fact is fine, but a closed question doesn't open up his motivation. Save it for later in the conversation."
   - id: t2
     patient: "\"My father had diabetes. I don't want to end up like him, but the kopi is such a habit.\""
     options:
@@ -53,12 +53,12 @@ turns:
         tier: good
         text: "\"So watching what happened to your dad makes this feel real for you.\""
         reaction: "\"Exactly. It's more than numbers on a report. I've seen where it goes.\""
-        feedback: "Gently amplifying his change talk helps him hear his own reasons instead of supplying yours."
+        feedback: "Gently amplifying his change talk helps him hear his own reasons for change."
       - type: closed
         tier: ok
         text: "\"Do you know your latest HbA1c number?\""
         reaction: "\"Not really… the nurse said it was 'borderline'.\""
-        feedback: "Not wrong, but a data question pulls the conversation back to numbers at the moment he was opening up emotionally. Reflect or affirm first; the number can wait."
+        feedback: "The number is worth knowing later. Right now a data question pulls the conversation back to numbers just as he was opening up emotionally. Reflect or affirm first; the number can wait."
   - id: t3
     patient: "\"Maybe I could cut down a bit. But I don't know if I can. It's just what I do.\""
     options:
@@ -66,7 +66,7 @@ turns:
         tier: poor
         text: "\"Good. From tomorrow, no more kopi gao: switch to plain water.\""
         reaction: "\"Aiyoh, no. Plain water the whole day? That won't last a week.\""
-        feedback: "The goal is too big and imposed by you, not chosen by him, so he disengages. A goal has to be his, and achievable, or it won't stick."
+        feedback: "The goal is too big and imposed by you, so he disengages. A goal sticks when he chooses it and can achieve it."
       - type: open
         tier: good
         text: "\"What's one small change you think you could actually stick to?\""

@@ -125,7 +125,6 @@ steps:
     caption: >
       Glucose is trapped as glucose-6-phosphate, then split to pyruvate in the cytosol, with no
       oxygen needed. When oxygen is short, pyruvate becomes lactate so the pathway keeps running.
-      Oxygen is used later, not here.
   - title: "The TCA cycle and the irreversible PDH step"
     caption: >
       Pyruvate passes through the irreversible PDH step to acetyl-CoA, which feeds the TCA cycle

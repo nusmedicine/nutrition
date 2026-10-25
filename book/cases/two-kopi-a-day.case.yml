@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "\"It keeps you going, and it sounds like the sugar worries you a bit. OK to talk?\""
         correct: true
-        feedback: "Reflecting both sides and asking permission lets you resist the urge to fix, so he stays engaged instead of defending himself."
+        feedback: "Reflecting both sides and asking permission lets you resist the urge to fix, so he stays engaged in the conversation."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-changetalk
@@ -73,7 +73,7 @@ nodes:
       - id: c
         text: "\"Do you know your latest HbA1c number?\""
         correct: false
-        feedback: "Not wrong, but a data question pulls the conversation back to numbers just as he opens up emotionally. Reflect or affirm first; the number can wait."
+        feedback: "A data question pulls the conversation back to numbers just as he opens up emotionally. Reflect or affirm first; the number can wait."
         goto: q-goal
 
   - id: q-goal
@@ -91,7 +91,7 @@ nodes:
       - id: b
         text: "\"Good. From tomorrow, no more kopi: plain water all day.\""
         correct: false
-        feedback: "A total ban is too big, and it is imposed by you, not chosen by him, so he'll abandon it within a week. Aim for one small change he owns."
+        feedback: "A total ban is too big, and because you imposed it, he'll abandon it within a week. Aim for one small change he chooses and owns."
         goto: q-safety
       - id: c
         text: "\"Don't worry about it. Just try your best.\""
@@ -107,7 +107,7 @@ nodes:
       - id: a
         text: "Pause the kopi goal, ask gently about the skipping and consider referral."
         correct: true
-        feedback: "Skipping meals to 'make up' and guilt around eating are red flags. On average, structured behavioural weight management does not increase eating-disorder symptoms, but for this patient another restriction could do harm, so screen gently and refer instead of pushing the goal."
+        feedback: "Skipping meals to 'make up' and guilt around eating are red flags. In this patient another restriction could do harm, so pause the goal, screen gently and refer. Structured behavioural weight management does not increase eating-disorder symptoms on average, so the caution applies to patients who show red flags like these."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -134,7 +134,7 @@ nodes:
     emotion: concerned
     title: "Start the change, and do no harm"
     body: |
-      Resist the righting reflex (reflect and ask, don't fix), draw out and affirm his own reasons,
+      Resist the righting reflex (reflect and ask permission), draw out and affirm his own reasons,
       and help him choose one small, owned goal with an if-then plan. The moment food talk turns to
       compensatory skipping and guilt, **stop pressing and refer**. Replay and take the path that
       starts a change without causing harm.
@@ -145,17 +145,16 @@ nodes:
     outcome: success
     title: "One small change he owns"
     body: |
-      You opened with a reflection and permission instead of a lecture, caught and strengthened his
-      change talk, and helped him choose one small SMART goal (kopi siu dai on workday mornings, with
-      an if-then plan) rather than imposing a ban. And when he revealed compensatory meal-skipping and
-      guilt, you recognised the red flag and shifted to support and referral instead of reinforcing
-      restriction. (Whole consultations with a live simulated patient are practised in the
+      You opened with a reflection and permission, caught and strengthened his change talk, and
+      helped him choose one small SMART goal (kopi siu dai on workday mornings, with an if-then
+      plan). When he revealed compensatory meal-skipping and guilt, you recognised the red flag and
+      shifted to support and referral. (Whole consultations with a live simulated patient are practised in the
       *Everyday and preventive counselling* chapter.)
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Resist the righting reflex: reflect, affirm and ask permission, and let the patient voice their own reasons to change."
-        - "Co-write one small, owned SMART goal with an if-then plan; a small, chosen goal works better than a large, imposed one."
+        - "Co-write one small, owned SMART goal with an if-then plan, and let the patient choose it: a small goal the patient has chosen is more likely to be kept."
         - "Do no harm: compensatory meal-skipping and guilt are eating-disorder red flags, so pause the goal, screen and refer; never reinforce restriction."
 
   - id: end-partial
@@ -163,13 +162,13 @@ nodes:
     outcome: partial
     title: "Most of the way"
     body: |
-      You worked with Mr Tan but slipped on at least one turn: lecturing instead of listening,
-      imposing a goal instead of evoking one, or missing the red flag. Replay and take the safe path:
+      You worked with Mr Tan but slipped on at least one turn: lecturing him,
+      imposing a goal on him, or missing the red flag. Replay and take the safe path:
       reflect and ask, affirm his change talk, co-set one small owned goal, and step back to refer when
       restriction and guilt appear.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Reflect and ask permission; don't fix or lecture."
+        - "Reflect and ask permission before advising."
         - "Evoke change talk, then co-set one small, owned goal with an if-then plan."
-        - "Compensatory meal-skipping and guilt are red flags: screen and refer, and don't reinforce restriction."
+        - "Compensatory meal-skipping and guilt are red flags: screen and refer, and pause any restriction goal."

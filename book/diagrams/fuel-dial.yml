@@ -1,6 +1,6 @@
 # Data for the FuelDial island (Adulthood: working life & activity chapter).
-# Schematic/qualitative: teaches that everyday active adults need ordinary food + water, not sports
-# nutrition; you have to reach genuine endurance-athlete volume before special fuelling is earned.
+# Schematic/qualitative: teaches that everyday active adults need only ordinary food + water;
+# special fuelling becomes relevant only at genuine endurance-athlete volume.
 id: fuel-dial
 title: "Matching food to training: usually less is needed than expected"
 proteinPerKg:
@@ -36,4 +36,4 @@ athleteNote: >-
 tropicalNote: >-
   In Singapore's heat, sweat losses are higher for the same effort: drink to thirst and aim to lose
   under ~2% of body weight over a long session. Salt matters only for long sessions or heavy sweating.
-credit: "Schematic: shows direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling guidance from Thomas 2016; hydration from Sawka 2007."
+credit: "Schematic: shows direction only. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling guidance from Thomas 2016; hydration from Sawka 2007."

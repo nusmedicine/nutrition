@@ -72,7 +72,7 @@ nodes:
       - id: c
         text: "\"Roughly how big are your portions?\""
         correct: false
-        feedback: "Portions are worth asking about, but they are not the most informative question here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger contributor by far."
+        feedback: "Portions are worth asking about, but drinks are the more informative question here. When you do get to drinks, Wei reveals two bubble teas a day plus sweet kopi: the bigger contributor by far."
         goto: q-opener
 
   - id: q-opener
@@ -90,7 +90,7 @@ nodes:
       - id: b
         text: "\"You need to stop the bubble tea; it's full of free sugars over the limit.\""
         correct: false
-        feedback: "Unasked-for, jargon-laden advice puts her on the defensive. Ask permission first, and say 'sugary drinks', not 'free sugars over the limit'."
+        feedback: "Unasked-for, jargon-laden advice puts her on the defensive. Ask permission first, and use plain words such as 'sugary drinks'."
         goto: q-safety
       - id: c
         text: "Say nothing about the drinks, to avoid making her uncomfortable."
@@ -113,12 +113,12 @@ nodes:
       - id: b
         text: "\"Good, skipping meals and eating less will help you lose faster. I'll give you a strict low-calorie plan.\""
         correct: false
-        feedback: "Prescribing restriction to someone who may have an eating disorder is the harm to avoid. The guilt and compensatory skipping are warning signs, not habits to reinforce. Missing this safety point means the station can't be 'first contact done safely', however well the rest went."
+        feedback: "Prescribing restriction to someone who may have an eating disorder is the harm to avoid. The guilt and compensatory skipping are warning signs. Missing this safety point means the station can't be 'first contact done safely', however well the rest went."
         goto: remedial
       - id: c
         text: "\"That's completely normal, don't worry about it.\" Then carry on with diet advice."
         correct: false
-        feedback: "Dismissing the flag misses a chance to help safely. Compensatory meal-skipping and guilt warrant a gentle screen and referral consideration, not reassurance and a diet."
+        feedback: "Dismissing the flag misses a chance to help safely. Compensatory meal-skipping and guilt warrant a gentle screen and consideration of referral."
         goto: remedial
 
   - id: route
@@ -144,10 +144,10 @@ nodes:
     outcome: success
     title: "First contact, done safely"
     body: |
-      You took a structured history rather than assuming, asked the most informative question
+      You took a structured history, asked the most informative question
       and uncovered the bubble tea, opened the advice with permission and one realistic swap, and, when
       Wei revealed compensatory meal-skipping and guilt, recognised the red flag and switched to a
-      gentle screen and referral instead of a restriction plan. That is competent, safe first
+      gentle screen and referral. That is competent, safe first
       contact. (Motivational interviewing, goal-setting and the full 5 A's, which carry the
       conversation through to change, are in the *Behaviour-change counselling* chapter.)
     debrief:

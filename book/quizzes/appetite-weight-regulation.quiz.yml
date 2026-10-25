@@ -33,7 +33,7 @@ questions:
         feedback: "More fat makes more leptin, but the brain stops responding (leptin resistance), so giving more does little. Recombinant leptin gave only modest, variable weight loss in common obesity, although it rescues the rare person with congenital deficiency."
       - text: "They lack leptin and need much larger doses."
         correct: false
-        feedback: "Leptin deficiency is the rare congenital case. In common obesity leptin is high, and the problem is resistance, not deficiency."
+        feedback: "Leptin deficiency is the rare congenital case. In common obesity leptin is high, and the brain is resistant to it."
       - text: "Leptin works only when combined with a diet."
         correct: false
         feedback: "Diet is not the missing factor: the brain responds poorly to the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
@@ -57,7 +57,7 @@ questions:
         feedback: "People eat less later to offset solid calories but not liquid ones, so liquid calories give weak satiety, poor compensation and weight gain. The same logic favours eating fruit over drinking it."
       - text: "Both are compensated for equally, as the calories match."
         correct: false
-        feedback: "Identical calories were not handled identically: in the classic study, the same 450 kcal as soft drink produced no compensation and caused weight gain, unlike the jelly beans."
+        feedback: "In the classic study, people compensated for the jelly beans by eating less later, but the same 450 kcal as soft drink produced no compensation and caused weight gain."
       - text: "The liquid is more filling, as it is absorbed faster."
         correct: false
         feedback: "Liquid calories empty from the stomach fast and give weak fullness, so they are poorly compensated for."
@@ -72,7 +72,7 @@ questions:
         feedback: "Liking, the pleasure itself, depends on opioid hotspots; dopamine drives wanting. A person can want what they no longer like."
       - text: "Low blood glucose driving true hunger."
         correct: false
-        feedback: "This is reward-driven (hedonic) wanting, not homeostatic hunger from low energy, and it is the dopamine-driven pursuit, distinct from pleasure."
+        feedback: "The craving is reward-driven (hedonic) wanting, the dopamine-driven pursuit of a food, which is distinct from pleasure. Homeostatic hunger from low energy is a separate process."
   - id: q-defended
     stem: "A patient loses weight, then over the next year feels constantly hungry and regains most of it despite eating carefully. Why?"
     options:
@@ -81,7 +81,7 @@ questions:
         feedback: "Weight regain is the expected result of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
-        feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis make weight maintenance harder."
+        feedback: "Persistent hunger-hormone shifts plus adaptive thermogenesis make weight maintenance harder, whatever the patient's discipline."
       - text: "The lost weight was only water, so it returned automatically."
         correct: false
         feedback: "Real fat was lost; the regain is driven by body-weight regulation (falling leptin, rising hunger hormones, adaptive thermogenesis)."
@@ -96,7 +96,7 @@ questions:
         feedback: "The figure of about 500 kcal/day comes from the Biggest Loser outlier (extreme, rapid loss plus very high activity). In ordinary dieters adaptation is modest and largely reversible."
       - text: "No, metabolism never changes with body weight."
         correct: false
-        feedback: "Adaptive thermogenesis is real: expenditure does drop more than body size predicts. It is modest and largely reversible, not permanent damage."
+        feedback: "Adaptive thermogenesis is real: expenditure does drop more than body size predicts. It is modest and largely reversible."
   - id: q-glp1
     stem: "How do GLP-1 receptor agonists cause weight loss, and what happens when the drug is stopped?"
     options:

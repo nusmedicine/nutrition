@@ -48,10 +48,10 @@ questions:
         feedback: "Proteases are secreted as inactive precursors (zymogens) and activated only after they reach the intestine."
       - text: "Because inactive enzymes are cheaper for the body to make"
         correct: false
-        feedback: "The reason is safety, not economy: active proteases in the pancreas would damage it."
+        feedback: "The reason is safety: active proteases in the pancreas would damage it."
       - text: "Because they only work in the acidic stomach"
         correct: false
-        feedback: "Pancreatic enzymes need the near-neutral pH that bicarbonate produces in the duodenum, not acid."
+        feedback: "Pancreatic enzymes need the near-neutral pH that bicarbonate produces in the duodenum."
 
   - id: q5
     stem: "Which hormone triggers the pancreas to release bicarbonate to neutralise stomach acid?"
@@ -64,7 +64,7 @@ questions:
         feedback: "Gastrin does the opposite: it increases stomach acid."
       - text: "Motilin"
         correct: false
-        feedback: "Motilin drives the migrating motor complex between meals, not bicarbonate release."
+        feedback: "Motilin drives the migrating motor complex between meals; secretin triggers bicarbonate release."
 
   - id: q6
     stem: "A fatty meal arrives in the duodenum. Which hormone contracts the gallbladder and stimulates pancreatic enzyme secretion?"
@@ -113,7 +113,7 @@ questions:
         feedback: "A sodium gradient, maintained by the sodium pump, powers SGLT1, which carries glucose in alongside sodium. Fructose, by contrast, crosses by facilitated diffusion (GLUT5)."
       - text: "By simple passive diffusion, like water"
         correct: false
-        feedback: "Glucose is moved by SGLT1, coupled to sodium, not by passive diffusion; oral rehydration relies on that coupling."
+        feedback: "Glucose crosses by secondary active transport through SGLT1, coupled to sodium; oral rehydration relies on that coupling."
       - text: "It isn't absorbed in the small intestine"
         correct: false
         feedback: "The small intestine absorbs glucose via SGLT1, and the glucose then exits to the portal blood."
@@ -139,10 +139,10 @@ questions:
         feedback: "The liver makes bile, the gallbladder stores it, and about 95% of bile salts are reclaimed at the terminal ileum and reused (the enterohepatic circulation)."
       - text: "Made by the gallbladder; used up with each meal"
         correct: false
-        feedback: "Bile is only stored and concentrated in the gallbladder; the liver makes it, and about 95% of the bile salts are recycled, not used up."
+        feedback: "Bile is only stored and concentrated in the gallbladder; the liver makes it, and about 95% of the bile salts are recycled."
       - text: "Made by the pancreas; all lost in stool"
         correct: false
-        feedback: "The liver, not the pancreas, makes bile, and most is reabsorbed rather than excreted."
+        feedback: "The liver makes bile, and most is reabsorbed and recycled."
 
   - id: q12
     stem: "Oral rehydration salts contain glucose and sodium. Why not plain water?"
@@ -155,4 +155,4 @@ questions:
         feedback: "Here the glucose is cotransported with sodium through SGLT1; it is not primarily a fuel."
       - text: "The salt is only there to make it taste better"
         correct: false
-        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is essential to the mechanism, not a flavouring."
+        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is essential to the mechanism."

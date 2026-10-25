@@ -1,9 +1,9 @@
 id: rachel-athlete
 title: "Rachel, 14: the netball player who \"should go on a diet\""
 objectives:
-  - "Apply the do-no-harm rule: never prescribe a diet or dismiss red flags in an adolescent, and address weight through healthy habits, not restriction."
+  - "Apply the do-no-harm rule: never prescribe a diet or dismiss red flags in an adolescent, and address weight through healthy habits."
   - "Recognise the pattern of low energy availability and the female-athlete triad (amenorrhoea, a stress fracture, restriction and a heavy training load) as a bone-health red flag."
-  - "Recognise that a normal weight does not exclude a problem, and that the safe action at this stage is to refer, not to work it up."
+  - "Recognise that a normal weight does not exclude a problem, and that the safe action at this stage is to refer for work-up."
   - "Frame the message as fuel-don't-restrict, and know the limits of the role."
 difficulty: intro
 estimatedMinutes: 10
@@ -51,7 +51,7 @@ nodes:
       - id: c
         text: "Reassure them both that periods often stop in athletes as a sign of fitness, and send them home."
         correct: false
-        feedback: "Amenorrhoea in an athlete is a red flag, not a badge of fitness: it can signal under-fuelling that is harming her bones without symptoms. Dismissing it misses a serious, progressive problem."
+        feedback: "Amenorrhoea in an athlete is a red flag: it can signal under-fuelling that is harming her bones without symptoms. Dismissing it misses a serious, progressive problem."
         reaction: concerned
         goto: remedial
 
@@ -70,7 +70,7 @@ nodes:
       - id: b
         text: "Nothing concerning; cutting rice and snacks is sensible eating for an athlete."
         correct: false
-        feedback: "In the context of amenorrhoea, a stress fracture and a heavy training load, this level of restriction is a warning sign of under-fuelling, not healthy eating."
+        feedback: "In the context of amenorrhoea, a stress fracture and a heavy training load, this level of restriction is a warning sign of under-fuelling."
         reaction: concerned
         goto: q-refer
       - id: c
@@ -88,7 +88,7 @@ nodes:
       - id: a
         text: "Refer her for proper assessment, reassuring her the goal is to fuel her training."
         correct: true
-        feedback: "Recognise and refer, without attempting the work-up or a diagnosis yourself. The message is *fuel, don't restrict*; detailed assessment, bone-health work-up and management belong to the specialist team."
+        feedback: "Recognise and refer, without attempting the work-up or a diagnosis yourself, and advise her to eat enough to fuel her training. Detailed assessment, bone-health work-up and management belong to the specialist team."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-message
@@ -113,7 +113,7 @@ nodes:
       - id: a
         text: "\"Actually, the opposite. Right now Rachel needs to eat enough to match her training.\""
         correct: true
-        feedback: "Reframe from weight to fuelling and health, and keep it blame-free: this is about her health and her bones, not her weight, and the team will help her get the balance right. The reframe protects Rachel from the diet-talk that drives disordered eating, and gets the mother on side."
+        feedback: "Reframe from weight to fuelling and health, and keep it blame-free: this is about her health and her bones, and the team will help her get the balance right. The reframe protects Rachel from the diet-talk that drives disordered eating, and gets the mother on side."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -139,8 +139,8 @@ nodes:
       A mother's request to "put her on a diet" is the tempting wrong answer: dieting in adolescence
       predicts both eating disorders and weight gain, and a **normal weight does not mean safe**.
       Amenorrhoea plus a stress fracture in a hard-training teenager is low energy availability threatening
-      her bones, a red flag to recognise and refer, with the message *fuel, don't restrict*, never a
-      stricter diet or "wait and see". Replay and take the safe path.
+      her bones, a red flag to recognise and refer, with advice to eat enough to fuel her training. A
+      stricter diet or "wait and see" would add to the harm. Replay and take the safe path.
     next: end-partial
 
   - id: end-good
@@ -160,8 +160,8 @@ nodes:
       keyPoints:
         - "Never prescribe a diet to an adolescent: dieting predicts both eating disorders and weight gain, and a normal weight does not exclude a problem."
         - "Amenorrhoea, a stress fracture, restriction and heavy training together point to low energy availability threatening bone accrual and peak bone mass: a red flag."
-        - "The safe action is recognise-and-refer; the message is fuel, don't restrict, never 'eat less' or 'wait and see'."
-        - "Detailed assessment and management belong to the specialist team, not the first encounter."
+        - "The safe action is recognise-and-refer, with advice to eat enough to fuel her training. 'Eat less' and 'wait and see' are unsafe."
+        - "Detailed assessment and management belong to the specialist team."
 
   - id: end-partial
     type: end
@@ -169,12 +169,12 @@ nodes:
     title: "Most of the way there"
     body: |
       You helped Rachel but slipped on at least one point: the do-no-harm decision (no diet, don't dismiss the
-      amenorrhoea), recognising the under-fuelling pattern, referring rather than supplementing or waiting, or
+      amenorrhoea), recognising the under-fuelling pattern, referring her now, or
       reframing from weight to fuelling. Replay and take the safe path: take a history, recognise low energy
-      availability threatening her bones, refer, and tell her to *fuel, not restrict*.
+      availability threatening her bones, refer, and advise her to eat enough to fuel her training.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Agreeing to 'put her on a diet' is the harmful answer; address weight through healthy habits, never restriction."
         - "Absent periods and a stress fracture in a hard-training teen point to low energy availability threatening bone."
-        - "Recognise and refer; the message is fuel, don't restrict."
+        - "Recognise and refer, and advise her to eat enough to fuel her training."

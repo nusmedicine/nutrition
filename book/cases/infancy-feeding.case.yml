@@ -2,7 +2,7 @@ id: infancy-feeding
 title: "Baby Aidan: a new-parent feeding clinic"
 objectives:
   - "Advise on starting solids around 6 months (readiness cues, iron-rich first foods) and correct over-rigid readings of the guideline."
-  - "Counsel early, not delayed, allergen introduction, and refer high-risk infants."
+  - "Counsel early allergen introduction, and refer high-risk infants."
   - "Apply the infant food-safety do-no-harm rules: no honey before 12 months; cow's milk as a main drink only from ~12 months."
   - "Reassure non-judgementally on formula (premium and toddler milks are unnecessary) and name the one routine supplement (vitamin D)."
 difficulty: intro
@@ -110,7 +110,7 @@ nodes:
       - id: a
         text: "\"Keep breast milk or ordinary formula as his main drink until about 12 months, and skip the premium one.\""
         correct: true
-        feedback: "Cow's milk before ~12 months is iron-poor and can cause gut blood loss, so it should not be the *main drink* until then (yoghurt and cheese as foods are fine now). Every formula sold here meets the same standard, so premium and toddler milks are marketing, not nutrition, and a cheaper standard formula is equivalent."
+        feedback: "Cow's milk before ~12 months is iron-poor and can cause gut blood loss, so it should not be the *main drink* until then (yoghurt and cheese as foods are fine now). Every formula sold here meets the same standard, so a cheaper standard formula is equivalent to premium and toddler milks."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-supplement
@@ -122,7 +122,7 @@ nodes:
       - id: c
         text: "\"Yes, switch to the premium formula, since the extra ingredients are worth it.\""
         correct: false
-        feedback: "All infant formula sold in Singapore meets identical standards; 'premium' reflects marketing and price, not better nutrition. Reassure her a standard brand is equivalent."
+        feedback: "All infant formula sold in Singapore meets identical standards; 'premium' reflects marketing and price. Reassure her a standard brand is equivalent."
         goto: q-supplement
 
   - id: q-supplement
@@ -140,7 +140,7 @@ nodes:
       - id: b
         text: "\"Iron drops every day from birth.\""
         correct: false
-        feedback: "His stores last ~6 months, and iron then comes from iron-rich solids, not drops from birth. The routine daily supplement is vitamin D."
+        feedback: "His stores last ~6 months, and iron then comes from iron-rich solids. The routine daily supplement is vitamin D."
         goto: route
       - id: c
         text: "\"None, since it's sunny in Singapore and he'll make plenty of vitamin D.\""
@@ -160,8 +160,8 @@ nodes:
     emotion: concerned
     title: "Evidence over tradition, kindly"
     body: |
-      The safe path has five parts. Solids start at about 6 months (readiness cues, 4-month floor),
-      with iron-rich first foods. Allergens go in early, not late; refer the high-risk infant.
+      Solids start at about 6 months (readiness cues, 4-month floor),
+      with iron-rich first foods. Allergens go in early, once solids start; refer the high-risk infant.
       **No honey before 12 months** (infant botulism); never endorse it, however well-meant the
       offer. Breast milk or formula stays the main drink until ~12 months; reassure her that premium
       and toddler milks are unnecessary. Vitamin D 400 IU/day is the one routine supplement.
@@ -181,7 +181,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
-        - "Start solids ~6 months (readiness cues; 4-month floor) with iron-rich first foods: iron stores run low at ~6 months, which sets the usual start, and readiness, not the calendar, decides when each baby begins."
+        - "Start solids ~6 months (readiness cues; 4-month floor) with iron-rich first foods: iron stores run low at ~6 months, which sets the usual start, and readiness decides when each baby begins."
         - "Introduce allergens (smooth peanut, well-cooked egg) early once solids begin; delaying increases risk. Refer high-risk infants for guided peanut introduction."
         - "Do-no-harm rules: no honey before 12 months (botulism); cow's milk as a main drink only from ~12 months; no added salt or sugar; prepare food in a safe size, shape and texture to prevent choking."
         - "Formula is safe, and premium and toddler milks are unnecessary; the one routine supplement is vitamin D 400 IU/day. Recognise faltering growth and refer."
@@ -199,6 +199,6 @@ nodes:
       objectivesMet: [1]
       keyPoints:
         - "Solids ~6 months, iron-rich first foods; watch readiness as well as the date."
-        - "Introduce allergens early, not late; refer the high-risk infant."
+        - "Introduce allergens early, once solids start; refer the high-risk infant."
         - "No honey before 12 months; cow's milk as main drink only from ~12 months."
         - "Premium and toddler milks are unnecessary; vitamin D 400 IU/day is the routine supplement."

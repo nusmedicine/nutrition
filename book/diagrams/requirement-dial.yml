@@ -1,6 +1,6 @@
 id: requirement-dial
 title: "The requirement dial"
-intro: "Values are schematic, relative to a non-pregnant baseline: they show the shape of each change, not exact amounts."
+intro: "Values are schematic, relative to a non-pregnant baseline, and show the shape of each change."
 credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 
 stages: ["Not pregnant", "1st trimester", "2nd trimester", "3rd trimester", "Lactation"]
@@ -40,7 +40,7 @@ nutrients:
     kind: ceiling
     unit: "requirement flat, with an upper limit"
     values: [100, 100, 100, 100, 100]
-    why: "The requirement barely moves, but high-dose preformed retinol (supplements, liver) is teratogenic, so the advice is an upper limit to respect, not a target to reach. Plant β-carotene is safe."
+    why: "The requirement barely moves, but high-dose preformed retinol (supplements, liver) is teratogenic, so the advice sets an upper limit to stay below. Plant β-carotene is safe."
 
   - name: "DHA (omega-3)"
     kind: rising

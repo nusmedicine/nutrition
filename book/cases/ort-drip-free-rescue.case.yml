@@ -53,7 +53,7 @@ nodes:
 
   - id: q-both
     type: mcq
-    stem: "Why must the drink contain both glucose and salt, not plain water alone?"
+    stem: "Why must the drink contain both glucose and salt?"
     options:
       - id: a
         text: "SGLT1 carries glucose and sodium in together, and water follows."
@@ -64,12 +64,12 @@ nodes:
       - id: b
         text: "The glucose is mainly there to give the child energy and calories."
         correct: false
-        feedback: "Its main job here is to be cotransported with sodium through SGLT1, not to act as fuel."
+        feedback: "Its main job here is to be cotransported with sodium through SGLT1, so that water follows."
         goto: q-drinks
       - id: c
         text: "The salt is only added to improve the taste so she drinks more."
         correct: false
-        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism, not flavouring."
+        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism of rehydration."
         goto: q-drinks
 
   - id: q-drinks
@@ -159,5 +159,5 @@ nodes:
       objectivesMet: [1]
       keyPoints:
         - "SGLT1 keeps absorbing in diarrhoea, which is the basis of oral rehydration."
-        - "The glucose in ORS is cotransported with sodium through SGLT1; it is not mainly fuel."
+        - "The glucose in ORS is there to be cotransported with sodium through SGLT1."
         - "ORS + feeding first; a drip is for severe dehydration."

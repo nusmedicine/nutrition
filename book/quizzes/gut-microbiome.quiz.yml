@@ -36,7 +36,7 @@ questions:
         feedback: "They are different processes: digestion uses the host's enzymes, while fermentation is bacterial metabolism of what the host could not digest."
       - text: "Fermentation happens in the stomach using acid."
         correct: false
-        feedback: "Fermentation is anaerobic bacterial metabolism in the colon, not acid digestion in the stomach."
+        feedback: "Fermentation does not happen in the stomach. It is anaerobic bacterial metabolism in the colon."
   - id: q-butyrate
     stem: "Which short-chain fatty acid is the main fuel of the cells lining the colon?"
     options:
@@ -57,7 +57,7 @@ questions:
         feedback: "Colonic bacteria ferment the fermentable carbohydrate (or undigested lactose), producing gas (H₂, CO₂, CH₄), which is usually a sign that fermentation is proceeding normally. Undigested lactose reaching the colon (see the *Digestion and absorption* chapter) is a classic example."
       - text: "The stomach can't handle these foods, so acid escapes as gas."
         correct: false
-        feedback: "The gas comes from bacterial fermentation in the colon, not from the stomach."
+        feedback: "The stomach plays no part: the gas comes from bacterial fermentation in the colon."
       - text: "It always means something is wrong with the microbiome."
         correct: false
         feedback: "Normal fermentation makes gas. Wind after these foods is usually a sign that fermentation is working."
@@ -69,7 +69,7 @@ questions:
         feedback: "Microbes cross-feed: one species breaks fibre into products that another uses. Many butyrate producers cannot break fibre down themselves and live on what primary degraders release, so diverse fibres feed a diverse, resilient community."
       - text: "Different plants each contain a different vitamin the microbiome needs."
         correct: false
-        feedback: "The mechanism is cross-feeding among microbes, not plant vitamins. Diverse fibre substrates support a diverse microbial community."
+        feedback: "Vitamins are not the reason. Microbes cross-feed, so diverse fibre substrates support a diverse microbial community."
       - text: "It doesn't; total fibre is all that matters."
         correct: false
         feedback: "Variety matters: diverse fibres support diverse microbes through cross-feeding, which makes the community more resilient."
@@ -78,7 +78,7 @@ questions:
     options:
       - text: "No, microbial synthesis is downstream of where B12 is absorbed."
         correct: true
-        feedback: "Most microbial synthesis is in the colon, downstream of the terminal ileum where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the only usable source: 'made in the gut' does not mean 'available to the host'."
+        feedback: "Most microbial synthesis is in the colon, downstream of the terminal ileum where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the only usable source."
       - text: "Yes, gut bacteria make all the B12 you need."
         correct: false
         feedback: "Colonic synthesis occurs beyond the absorption site (terminal ileum), and microbes mostly consume B12. Diet is the only usable source."
@@ -117,7 +117,7 @@ questions:
         feedback: "Gut serotonin regulates gut motility and cannot reach the brain directly. A gut–brain axis exists, but 'gut serotonin = happiness' has no mechanism to support it."
       - text: "Yes, the gut serotonin travels to the brain and lifts your mood."
         correct: false
-        feedback: "Peripheral serotonin does not cross the blood–brain barrier. Gut serotonin drives gut motility, not mood."
+        feedback: "Peripheral serotonin does not cross the blood–brain barrier. Gut serotonin drives gut motility."
       - text: "Yes, which is why probiotics are proven antidepressants."
         correct: false
         feedback: "'Psychobiotic' mood benefits in humans are mostly unproven, and gut serotonin does not cross into the brain."

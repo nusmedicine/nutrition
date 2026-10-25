@@ -6,13 +6,13 @@ questions:
     options:
       - text: "Above Singapore's ≥23 intervention point, with central obesity by the Asian waist cut-off"
         correct: true
-        feedback: "On Singapore's cut-offs, a BMI of 23 or more already triggers intervention, and a waist of 94 cm is over the Asian cut-off for men (≥90 cm), so a BMI of 24 is not reassuring here. BMI and waist are read together, never BMI alone, because Asians carry more central fat at a given BMI."
+        feedback: "On Singapore's cut-offs, a BMI of 23 or more already triggers intervention, and a waist of 94 cm is over the Asian cut-off for men (≥90 cm), so a BMI of 24 is not reassuring here. BMI and waist are always read together because Asians carry more central fat at a given BMI."
       - text: "Normal weight, because the BMI is well under the 25 overweight threshold set globally"
         correct: false
         feedback: "That applies the WHO global cut-off (overweight ≥25). Singapore acts earlier, at ≥23, and the waist of 94 cm is already over the Asian cut-off, so this interpretation misses real risk."
       - text: "Normal weight, because the BMI is well under the 30 obese threshold"
         correct: false
-        feedback: "The 30 figure is the WHO obese threshold and the population surveillance number, not the clinical action point. Singapore intervenes at ≥23, and the waist here signals central obesity."
+        feedback: "The 30 figure is the WHO obese threshold, used for population surveillance. Singapore intervenes clinically at ≥23, and the waist here signals central obesity."
       - text: "Cannot be classified without a body-fat scan, since BMI is too unreliable to act on here"
         correct: false
         feedback: "BMI is a screening proxy, and paired with waist circumference it classifies risk well enough at the bedside. A DXA scan is not needed to act on a raised waist."
@@ -31,7 +31,7 @@ questions:
         feedback: "There is no obligatory component in the harmonised definition, and her waist of 86 cm is over the ≥80 cm cut-off for women. She meets three of five."
       - text: "Yes, and it is a single disease best treated with one targeted drug"
         correct: false
-        feedback: "She does meet criteria, but the syndrome is a risk marker for diabetes and cardiovascular disease, not one disease with one drug. The label prompts you to look at the whole cluster and its common underlying abnormalities."
+        feedback: "She does meet criteria, but the syndrome is a cluster of risk markers for diabetes and cardiovascular disease, and no single drug treats it. The label prompts you to look at the whole cluster and its common underlying abnormalities."
 
   - id: q3
     stem: "A newspaper reports that 12.7% of Singapore adults are obese, yet your clinic guideline flags patients from a lower BMI. Why the mismatch?"
@@ -44,7 +44,7 @@ questions:
         feedback: "It is not an error: the ≥30 cut-off is the correct surveillance and international-comparison threshold. The clinic simply acts earlier, at ≥27.5 and ≥23."
       - text: "The clinic flags patients from ≥25 because that is the WHO overweight cut-off used everywhere"
         correct: false
-        feedback: "Singapore's action points are ≥23 and ≥27.5, shifted down from the WHO ≥25/≥30 cut-offs, not set at 25. The rationale is higher body fat at a given BMI in Asians."
+        feedback: "Singapore's action points are ≥23 and ≥27.5, shifted down from the WHO ≥25/≥30 cut-offs. The rationale is higher body fat at a given BMI in Asians."
       - text: "The two numbers describe entirely different things, so neither one is really comparable"
         correct: false
         feedback: "The two numbers are comparable and consistent: one is for population reporting (≥30), the other for clinical action (≥27.5 and ≥23), and reading them together explains the mismatch."
@@ -54,10 +54,10 @@ questions:
     options:
       - text: "Poor sleep reliably raises intake; the hormone mechanism is contested"
         correct: true
-        feedback: "Increased intake with no matching rise in expenditure is the reproducible finding. The classic leptin-down, ghrelin-up account comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone mechanism is suggestive, not proven."
+        feedback: "Increased intake with no matching rise in expenditure is the reproducible finding. The classic leptin-down, ghrelin-up account comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone mechanism remains uncertain."
       - text: "Short sleep proves weight gain by lowering leptin and raising ghrelin"
         correct: false
-        feedback: "The hormone account is suggestive and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable finding is the increase in intake, not a change in hormones."
+        feedback: "The hormone account is suggestive and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable finding is the increase in intake."
       - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
         correct: false
         feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
@@ -70,16 +70,16 @@ questions:
     options:
       - text: "Reinforce lifestyle as first-line; drugs and surgery are specialist tiers"
         correct: true
-        feedback: "Lifestyle change is the cornerstone, aiming for a 5–10% loss. Anti-obesity medication and metabolic-bariatric surgery are real tiers above it, but the task here is to recognise that they exist and refer, not to prescribe or select them."
+        feedback: "Lifestyle change is the cornerstone, aiming for a 5–10% loss. Anti-obesity medication and metabolic-bariatric surgery are real tiers above it, and the task here is to recognise that they exist and refer. Prescribing and choosing between them are specialist decisions."
       - text: "Start a GLP-1 receptor agonist yourself, since lifestyle has failed"
         correct: false
         feedback: "Prescribing is beyond this stage: pharmacotherapy is a specialist tier, and lifestyle remains the cornerstone under any added treatment. The role here is to recognise and refer."
       - text: "Refer for metabolic-bariatric surgery at once as the most effective option"
         correct: false
-        feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision, not a first-line step. Recognise the tier exists and refer appropriately."
+        feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision. Recognise the tier exists and refer appropriately."
       - text: "Tell him drugs and surgery always fail, so only willpower works"
         correct: false
-        feedback: "The specialist tiers work for selected patients, so the claim is untrue, and willpower framing is stigmatising. Referral, not prescribing, is the correct route."
+        feedback: "The specialist tiers work for selected patients, so the claim is untrue, and willpower framing is stigmatising. Referral is the correct route."
 
   - id: q6
     stem: "A patient wants a kopitiam drink but is watching added sugar. Using Nutri-Grade as a decision aid, which choice is best?"
@@ -102,13 +102,13 @@ questions:
     options:
       - text: "Ask permission to discuss weight, use person-first language, set behaviour goals"
         correct: true
-        feedback: "Asking permission, saying 'a person with obesity' instead of 'an obese patient', and targeting behaviours and metabolic markers is the evidence-based approach. Stigma lowers the quality of care and leads patients to avoid healthcare, so the framing is part of the treatment."
+        feedback: "Asking permission, saying 'a person with obesity' (person-first language), and targeting behaviours and metabolic markers is the evidence-based approach. Stigma lowers the quality of care and leads patients to avoid healthcare, so the framing is part of the treatment."
       - text: "State plainly that he is obese and needs to lose weight before anything else"
         correct: false
-        feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma lowers the quality of care and leads patients to avoid healthcare. Ask permission and frame around behaviours instead."
+        feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma lowers the quality of care and leads patients to avoid healthcare. Ask permission and frame around behaviours."
       - text: "Comment that he looks heavier than last visit to motivate him to act"
         correct: false
         feedback: "Comments on appearance are stigmatising and backfire: shaming is thought to raise cortisol and comfort-eating and can promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is the standard."
       - text: "Avoid the topic of weight entirely so as not to offend him at this visit"
         correct: false
-        feedback: "Weight-inclusive care still raises the topic and holds the ~5–10% target, but does so with permission and person-first language instead of blame. Silence is not the goal."
+        feedback: "Weight-inclusive care still raises the topic and holds the ~5–10% target, with permission and in person-first language."

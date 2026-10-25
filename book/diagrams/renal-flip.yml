@@ -77,7 +77,7 @@ items:
         badge: "Absolute avoid"
         why: >-
           Beyond their potassium, they contain a neurotoxin the failing kidney can't clear, which
-          causes seizures and death. They must be avoided completely, not just limited in portion.
+          causes seizures and death. They must be avoided completely, even in small portions.
   - id: sodium
     advice: "Cut back on added salt / sodium"
     example: "less soup, sauce and processed food"
@@ -96,6 +96,6 @@ items:
 prompt: "Toggle the patient to see which advice reverses, and which holds."
 caption: >-
   For the public, eating more potassium, using a potassium salt substitute and following the DASH
-  pattern are all sound. In advanced CKD they can become hazardous, while cutting sodium stays good
-  throughout; a renal dietitian sets the quantities.
+  pattern are all sound. In advanced CKD they can become hazardous, and a renal dietitian sets the
+  quantities. Cutting sodium stays good advice throughout.
 credit: "After WHO 2012 (potassium), Neal 2021 (SSaSS), KDOQI 2020 and NKF Singapore."

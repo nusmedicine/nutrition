@@ -1,10 +1,10 @@
 id: rahmat-shift-runner
 title: "Rahmat, 34: the shift-working weekend runner"
 objectives:
-  - "Match exercise fuelling to a recreational adult's needs: ordinary food and water, not carb-loading or shakes."
+  - "Match exercise fuelling to a recreational adult's needs: ordinary food and water are enough."
   - "Give an accurate protein message (~1.2–1.6 g/kg from food; safe for healthy kidneys, the exception is kidney disease)."
   - "Give evidence-based shift-work advice: weight meals toward the daytime."
-  - "Address weight creep with small, sustainable habits, not crash dieting."
+  - "Address weight creep with small, sustainable habits."
   - "Deliver the current alcohol message and act on the ALDH2 flush (ask, advise, screen, refer); never advise drinking for the heart."
 difficulty: intro
 estimatedMinutes: 12
@@ -110,7 +110,7 @@ nodes:
       - id: a
         text: "\"Small changes you can keep, starting with fewer drinks, beat a crash diet.\""
         correct: true
-        feedback: "Weight creep is a small chronic surplus, best reversed by small, lasting changes and self-weighing, not cycles of restriction. Lower Asian BMI cut-offs mean a few kilograms matter, so it is worth addressing."
+        feedback: "Weight creep is a small chronic surplus, best reversed by small, lasting changes and self-weighing. Lower Asian BMI cut-offs mean a few kilograms matter, so it is worth addressing."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-alcohol
@@ -162,10 +162,9 @@ nodes:
     emotion: concerned
     title: "Match the advice to his needs, and catch the real red flag"
     body: |
-      Most of what Rahmat expects, he does not need. A weekend run needs ordinary food and water, not
-      carb-loading or shakes; about 1.2–1.6 g/kg of protein from food is plenty and safe for healthy
+      Most of what Rahmat expects, he does not need. A weekend run needs ordinary food and water; about 1.2–1.6 g/kg of protein from food is plenty and safe for healthy
       kidneys; shift eating is best weighted to the daytime; and weight creep responds to small,
-      steady habits, not a crash diet. The one real red flag is the alcohol: the "good for the heart" claim
+      steady habits. The one real red flag is the alcohol: the "good for the heart" claim
       no longer holds (never endorse it), and the flush signals a raised oesophageal-cancer risk, so ask,
       advise cutting down, screen briefly, and refer if drinking is hazardous. Replay the case.
     next: end-partial
@@ -184,7 +183,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3, 4, 5]
       keyPoints:
-        - "Everyday active adults need ordinary food and water; carb-loading, sports drinks and shakes are for high endurance volume, not weekend runs."
+        - "Everyday active adults need ordinary food and water; carb-loading, sports drinks and shakes are for high endurance volume."
         - "Protein ~1.2–1.6 g/kg from food is plenty (benefit plateaus); safe for healthy kidneys, the exception is kidney disease."
         - "Shift eating: weight the main meals toward the daytime; weight creep: small, steady habits over crash dieting."
         - "Current alcohol message: don't advise drinking for the heart; the ALDH2 flush is a red flag (oesophageal-cancer risk), so ask, advise, screen, refer."

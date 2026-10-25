@@ -15,7 +15,7 @@ drugs:
     label: "Insulin"
     example: "any insulin"
     risk: high
-    note: "The dose is set for the patient's usual carbohydrate intake, so after the carbohydrate is cut the same dose can drive glucose dangerously low. On a fixed dose, counsel carbohydrate consistency, not restriction."
+    note: "The dose is set for the patient's usual carbohydrate intake, so after the carbohydrate is cut the same dose can drive glucose dangerously low. On a fixed dose, counsel carbohydrate consistency."
   - id: sulfonylurea
     label: "Sulfonylurea"
     example: "gliclazide, glipizide"
@@ -40,7 +40,7 @@ drugs:
     label: "SGLT2 inhibitor"
     example: "empagliflozin, dapagliflozin"
     risk: low
-    note: "Does not cause hypoglycaemia used alone, but avoid a very-low-carbohydrate or ketogenic diet on it, because the combination can cause ketoacidosis."
+    note: "Does not cause hypoglycaemia used alone. Avoid a very-low-carbohydrate or ketogenic diet on it, because the combination can cause ketoacidosis."
   - id: glp1
     label: "GLP-1 receptor agonist"
     example: "semaglutide, liraglutide"
@@ -52,7 +52,7 @@ verdicts:
     label: "Refer to the diabetes team first"
     text: >-
       Cutting carbohydrate on this medication risks hypoglycaemia. Refer to the diabetes team to review
-      the medication before the diet changes, not after.
+      the medication before the diet changes.
   safe:
     label: "Reasonable to endorse a sensible change"
     text: >-

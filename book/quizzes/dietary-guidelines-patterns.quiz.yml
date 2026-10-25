@@ -9,7 +9,7 @@ questions:
         feedback: "½ fruit & vegetables, ¼ wholegrains, ¼ protein. The vegetable half is the largest section, and most adults here eat less fruit and vegetables than recommended."
       - text: "Wholegrains"
         correct: false
-        feedback: "Wholegrains are a quarter, not the half."
+        feedback: "Wholegrains fill a quarter of the plate."
       - text: "Protein"
         correct: false
         feedback: "Protein is a quarter; the half is fruit & vegetables."
@@ -22,17 +22,17 @@ questions:
         feedback: "The differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit and vegetables, wholegrains, legumes, and limits on sugar, salt and certain fats. That convergence is the reassuring answer."
       - text: "The US guidelines are the most scientific, so follow those"
         correct: false
-        feedback: "Picking one guideline as the authority misses the point: they agree far more than they differ, and the shared core is what matters."
+        feedback: "The guidelines agree far more than they differ, and the shared core is what matters."
       - text: "They contradict each other, so guidelines aren't useful"
         correct: false
         feedback: "Their striking feature is how little they disagree on the core messages."
 
   - id: q3
-    stem: "Why do modern guidelines increasingly emphasise dietary patterns instead of single nutrients?"
+    stem: "Why do modern guidelines increasingly emphasise whole dietary patterns?"
     options:
       - text: "Because foods act in combination (\"food synergy\")"
         correct: true
-        feedback: "People eat food, not nutrients, and foods act in combination, so a whole pattern can predict health better than any nutrient in isolation. Food synergy is a framework for interpreting evidence, though, not a precise effect size to quote."
+        feedback: "People eat foods, which act in combination, so a whole pattern can predict health better than any nutrient in isolation. Food synergy is a framework for interpreting evidence. It does not provide a precise effect size to quote."
       - text: "Because single nutrients have no effect on health"
         correct: false
         feedback: "Individual nutrients do matter, but their effects are best understood within the overall dietary pattern in which they are eaten."
@@ -45,10 +45,10 @@ questions:
     options:
       - text: "It was a relative effect on a composite endpoint"
         correct: true
-        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot predict any individual outcome: good evidence for the pattern, not a personal guarantee."
+        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite is good evidence for the pattern, but it cannot predict any individual outcome."
       - text: "PREDIMED found no benefit at all"
         correct: false
-        feedback: "A benefit was found on the composite endpoint; the task is to state it accurately, not to deny it."
+        feedback: "A benefit was found on the composite endpoint; the task is to state it accurately."
       - text: "Nothing: whoever follows the diet is guaranteed no heart attack"
         correct: false
         feedback: "This conflates relative with absolute risk, and a composite with a hard endpoint, which is the overclaim to avoid."
@@ -58,23 +58,23 @@ questions:
     options:
       - text: "Blood pressure is a surrogate, measured over only ~8 weeks"
         correct: true
-        feedback: "Weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. But blood pressure is a surrogate and the trial was short: it shows that a pattern changes a risk factor, not that it prevents cardiovascular events."
+        feedback: "Blood pressure is a surrogate and the trial was short, so DASH shows that a pattern changes a risk factor. Whether it prevents cardiovascular events was not tested. Weight and sodium were held constant, so the fall came from the pattern itself."
       - text: "DASH is simply a low-salt diet"
         correct: false
         feedback: "Sodium was held constant in the trial, so the effect came from the whole pattern. Cutting salt on top of DASH lowers blood pressure further."
       - text: "The blood-pressure fall was too small to matter"
         correct: false
-        feedback: "A 5.5/3.0 mmHg fall (and ~11.4/5.5 mmHg in participants with hypertension) is clinically meaningful; the caveat concerns the surrogate endpoint and the duration, not the size."
+        feedback: "A 5.5/3.0 mmHg fall (and ~11.4/5.5 mmHg in participants with hypertension) is clinically meaningful. The caveat concerns the surrogate endpoint and the duration."
 
   - id: q6
     stem: "A vegetarian Indian family is told their diet lacks protein because they eat no meat. Using My Healthy Plate, what is the right response?"
     options:
       - text: "Dhal and other legumes fill the protein quarter"
         correct: true
-        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the aim is to adapt the family's own food to quarter-quarter-half, not to prescribe a foreign diet."
+        feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the aim is to adapt the family's own food to quarter-quarter-half."
       - text: "Switch them to a Mediterranean diet for protein"
         correct: false
-        feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Dietary patterns are principles to adapt to a family's own food, not fixed menus to impose."
+        feedback: "Imposing an unfamiliar pattern is unnecessary: the family's own cuisine already supplies protein through legumes and dairy, and dietary patterns are principles to adapt to a family's own food."
       - text: "Meat is needed for enough protein"
         correct: false
         feedback: "Legumes, dairy and soy cover the protein quarter well within a vegetarian diet, so meat is unnecessary."
@@ -90,4 +90,4 @@ questions:
         feedback: "Neither is a main local gap; the survey points to the wholegrain shortfall and excess sodium."
       - text: "Too few supplements and superfoods"
         correct: false
-        feedback: "The gap is in everyday staples (wholegrains) and sodium, not in supplements or novelty foods."
+        feedback: "The gaps are in everyday staples (wholegrains) and sodium."

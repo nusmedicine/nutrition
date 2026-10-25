@@ -9,7 +9,7 @@ questions:
         feedback: "Malnutrition is a diagnosable disease state, a nutrient deficit that measurably changes body composition and worsens outcomes, and it is common among hospitalised and community-dwelling older Singaporeans. Weight loss and illness harm nutrition independently of body size, so a normal or even high BMI does not rule it out."
       - text: "It only affects people who look visibly starved"
         correct: false
-        feedback: "People with malnutrition often don't look 'starved', which is why it is so often missed. It is defined by a deficit plus its functional consequences, not by appearance."
+        feedback: "People with malnutrition often don't look 'starved', which is why it is so often missed. It is defined by a deficit plus its functional consequences."
       - text: "A normal-range BMI reliably rules it out"
         correct: false
         feedback: "Unplanned weight loss and acute illness flag risk regardless of BMI, and someone can be losing muscle at a normal or high weight."
@@ -38,7 +38,7 @@ questions:
     options:
       - text: "Risk is flagged: document, monitor and refer"
         correct: true
-        feedback: "Screening is a fast filter that flags risk and triggers referral; it is not the diagnosis or the care plan. Formal diagnosis then applies the GLIM criteria (at least one phenotypic and one aetiological criterion), carried out by the dietitian or team."
+        feedback: "Screening is a fast filter that flags risk and triggers referral. Formal diagnosis then applies the GLIM criteria (at least one phenotypic and one aetiological criterion), carried out by the dietitian or team."
       - text: "Malnutrition is now formally diagnosed and graded"
         correct: false
         feedback: "A positive screen is not a diagnosis. Diagnosis (GLIM) follows screening and is a dietitian- or team-led step."
@@ -63,23 +63,23 @@ questions:
         feedback: "MUST can be scored with a normal BMI; the other two components account for the score here, giving high risk."
       - text: "Medium risk at most, since BMI contributes nothing"
         correct: false
-        feedback: "The weight-loss (2) and acute-disease (2) scores alone exceed the high-risk threshold, so this is high, not medium, risk."
+        feedback: "The weight-loss (2) and acute-disease (2) scores alone exceed the high-risk threshold, so this is high risk."
 
   - id: q5
     stem: "An older patient is eating poorly. What is the best first-line response?"
     options:
       - text: "Food-first, then fortify their familiar meals"
         correct: true
-        feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the place to start, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
+        feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
       - text: "Start a supplement drink and change nothing else"
         correct: false
-        feedback: "ONS is an add-on, not the first step, and using it without addressing the cause is less effective. Food-first comes first, then fortification, then ONS."
+        feedback: "ONS is an add-on, and using it without addressing the cause is less effective. Food-first comes first, then fortification, then ONS."
       - text: "Move straight to tube feeding to guarantee intake"
         correct: false
-        feedback: "Enteral (tube) feeding is a specialist step, reserved for when oral routes are insufficient, and not a first-line response to poor appetite."
+        feedback: "Enteral (tube) feeding is a specialist step, reserved for when oral routes are insufficient."
       - text: "Reassure them that appetite always recovers on its own"
         correct: false
-        feedback: "That misses a modifiable problem. Poor intake in an older adult warrants food-first support and referral, not watchful reassurance."
+        feedback: "That misses a modifiable problem. Poor intake in an older adult warrants food-first support and referral."
 
   - id: q6
     stem: "A very underweight patient has eaten almost nothing for weeks. Why should they not be refed quickly?"
@@ -95,20 +95,20 @@ questions:
         feedback: "Large meals are what to avoid here. The at-risk patient needs recognition and referral for cautious, monitored refeeding."
       - text: "Quick weight gain carries no particular risk here"
         correct: false
-        feedback: "It carries a specific risk, refeeding syndrome, which is why these patients are identified and referred, not refed rapidly."
+        feedback: "It carries a specific risk, refeeding syndrome, which is why these patients are identified and referred for cautious refeeding."
 
   - id: q7
     stem: "A post-stroke patient coughs on drinks and has a wet voice after meals, but not on every sip. What is the safest interpretation?"
     options:
       - text: "Refer to speech therapy: aspiration can be silent"
         correct: true
-        feedback: "Coughing on fluids, a wet voice and slow meals are dysphagia red flags, and up to a third of aspiration is silent (no cough at all), so referral is based on the pattern, not on the presence of a cough. The speech therapist assesses the swallow and sets the safe IDDSI texture level."
+        feedback: "Coughing on fluids, a wet voice and slow meals are dysphagia red flags, and up to a third of aspiration is silent (no cough at all), so referral is based on the whole pattern of red flags. The speech therapist assesses the swallow and sets the safe IDDSI texture level."
       - text: "No cough on some sips means the swallow is safe"
         correct: false
         feedback: "Silent aspiration means a safe-looking sip can still be unsafe. The red-flag pattern warrants referral regardless of whether every sip provokes a cough."
       - text: "Thicken all fluids yourself and review in a month"
         correct: false
-        feedback: "Setting a texture level is the speech therapist's assessment, not something to do empirically, and a month's delay risks aspiration and weight loss."
+        feedback: "Setting a texture level is the speech therapist's decision after assessing the swallow, and a month's delay risks aspiration and weight loss."
       - text: "Weight is stable, so the swallow needs no assessment"
         correct: false
         feedback: "The red flags are sufficient on their own. A stable weight does not exclude an unsafe swallow, and the pattern here warrants a speech-therapy referral."

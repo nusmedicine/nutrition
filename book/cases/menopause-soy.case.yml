@@ -1,7 +1,7 @@
 id: menopause-soy
 title: "Mdm Tan: \"can soy replace my hormones?\""
 objectives:
-  - "Counsel accurately on soy for hot flushes: a modest, inconsistent effect, not a substitute for hormone therapy."
+  - "Counsel accurately on soy for hot flushes: a modest, inconsistent effect, much weaker than hormone therapy."
   - "Address the belief that soy causes breast cancer: dietary soy is safe and, at Asian intakes, linked to lower risk, including for survivors."
   - "Respond to midlife weight concern weight-inclusively: recognise disordered-eating red flags and never endorse harmful restriction."
   - "Match the nutrition intervention to the problem, and recognise when to refer (e.g. genitourinary symptoms)."
@@ -37,16 +37,16 @@ nodes:
     stem: "*\"Can soy replace hormones for these flushes, doctor?\"*"
     options:
       - id: a
-        text: "\"Soy is healthy to eat, but it helps flushes only a little, not like hormone therapy.\""
+        text: "\"Soy is healthy to eat, but it helps flushes only a little, much less than hormones.\""
         correct: true
-        feedback: "Isoflavone effects on flushes are modest, inconsistent, and slower and weaker than hormone therapy, and the North American Menopause Society does not recommend soy as a treatment. Offering soy as a safe, healthy food, not a flush treatment, keeps the answer accurate and leaves room to talk about options that do work."
+        feedback: "Isoflavone effects on flushes are modest, inconsistent, and slower and weaker than hormone therapy, and the North American Menopause Society does not recommend soy as a treatment. Offering soy as a safe, healthy food keeps the answer accurate and leaves room to discuss more effective options."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-safety
       - id: b
         text: "\"Yes, soy is a natural hormone replacement. Two servings a day should sort the flushes out.\""
         correct: false
-        feedback: "This over-promises: isoflavone supplements cut flushes only modestly and don't work in everyone (partly down to whether her gut bacteria make equol). Soy is a safe, healthy food, not an equal to hormone therapy."
+        feedback: "This over-promises: isoflavone supplements cut flushes only modestly and don't work in everyone (partly down to whether her gut bacteria make equol). Soy is a safe, healthy food with a much smaller effect than hormone therapy."
         reaction: skeptical
         goto: q-safety
       - id: c
@@ -77,7 +77,7 @@ nodes:
       - id: c
         text: "\"Swap the tofu and soy milk for a high-dose isoflavone supplement instead.\""
         correct: false
-        feedback: "This gets the food-vs-supplement distinction backwards. The safety and benefit evidence is for whole soy *foods*; high-dose isoflavone *supplements* are a different, less-tested product, not a safer swap."
+        feedback: "This gets the food-vs-supplement distinction backwards. The safety and benefit evidence is for whole soy *foods*; high-dose isoflavone *supplements* are a different, less-tested product."
         reaction: skeptical
         goto: q-weight
 
@@ -89,7 +89,7 @@ nodes:
       - id: a
         text: "Gently explore her eating, body image and safety, then steer her from restriction to protein and resistance exercise."
         correct: true
-        feedback: "Under-eating speeds the loss of muscle and bone at this stage. Restrictive dieting and disordered eating are real in midlife women, and the daily weigh-ins and guilt are warning signs. You respond weight-inclusively and with consent, protecting muscle and bone rather than pushing a deficit, and check she's safe before any talk of weight loss."
+        feedback: "Respond weight-inclusively and with consent: check she's safe before any talk of weight loss, and protect muscle and bone with protein and resistance exercise, because under-eating speeds their loss at this stage. Her daily weigh-ins and guilt are warning signs, and restrictive dieting and disordered eating are real in midlife women."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-lever
@@ -114,7 +114,7 @@ nodes:
       - id: a
         text: "\"No. Eating well protects bone and heart and eases flushes a little; the dryness needs referral.\""
         correct: true
-        feedback: "Diet clearly benefits bone and heart, helps flushes a little, and does nothing for genitourinary symptoms such as vaginal dryness, which need recognition and referral (moisturisers, topical oestrogen), not a supplement."
+        feedback: "Diet clearly benefits bone and heart, helps flushes a little, and does nothing for genitourinary symptoms such as vaginal dryness, which need recognition and referral (moisturisers, topical oestrogen)."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -143,13 +143,12 @@ nodes:
     emotion: concerned
     title: "Safe, accurate midlife counselling"
     body: |
-      Soy foods are safe and healthy but only a modest, unreliable help for flushes, not hormone
+      Soy foods are safe and healthy but only a modest, unreliable help for flushes, much weaker than hormone
       therapy. The "soy causes cancer" fear comes from animal studies; at local intakes soy is, if
       anything, protective, including for survivors. Never endorse **crash dieting** in a midlife
       woman: restriction speeds muscle and bone loss, and the warning signs of disordered eating are
       real, so counsel weight-inclusively and screen. Match the intervention to the problem: diet protects
-      bone and heart, does little for flushes, and nothing for vaginal dryness, which needs referral,
-      not a supplement. Replay and try the safe path.
+      bone and heart, does little for flushes, and nothing for vaginal dryness, which needs referral. Replay and try the safe path.
     next: end-partial
 
   - id: end-good
@@ -157,15 +156,15 @@ nodes:
     outcome: success
     title: "Truthful, safe, and useful"
     body: |
-      You gave Mdm Tan the accurate two-part message on soy (safe and healthy, but not a flush cure),
+      You gave Mdm Tan the accurate two-part message on soy (safe and healthy, with only a small effect on flushes),
       answered the breast-cancer fear without dismissing it, spotted the disordered-eating red flags
       and steered her away from harmful restriction, and matched each midlife problem to the right
-      intervention, including knowing when to refer instead of reaching for a diet.
+      intervention, including knowing when to refer.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
-        - "Soy foods are safe and healthy but only a modest, inconsistent help for hot flushes: not a substitute for hormone therapy, and not recommended as a treatment by the North American Menopause Society."
-        - "Dietary soy does not cause breast cancer; at Asian intakes it's linked to lower risk, and it's safe for survivors, including oestrogen-receptor-positive disease and women on tamoxifen. The reassurance is for soy foods, not high-dose isoflavone supplements."
+        - "Soy foods are safe and healthy but only a modest, inconsistent help for hot flushes; they are much weaker than hormone therapy, and the North American Menopause Society does not recommend them as a treatment."
+        - "Dietary soy does not cause breast cancer; at Asian intakes it's linked to lower risk, and it's safe for survivors, including oestrogen-receptor-positive disease and women on tamoxifen. The reassurance applies to soy foods; high-dose isoflavone supplements are less tested."
         - "Never endorse crash dieting at midlife: restriction speeds muscle and bone loss, and meal-skipping with daily weigh-ins and guilt are disordered-eating red flags; counsel weight-inclusively and with consent."
         - "Match the intervention to the problem: diet protects bone and heart, helps flushes a little, and does nothing for genitourinary symptoms, which need referral for effective treatment."
 
@@ -176,13 +175,13 @@ nodes:
     body: |
       You helped Mdm Tan but slipped on at least one point: over- or under-selling soy, the
       breast-cancer fear, the weight and eating red flags, or matching the intervention to the problem.
-      Replay and take the safe path: soy is a safe food but not a cure; the cancer fear has no support
-      in human data; protect muscle and bone instead of pushing restriction; and refer for what diet
+      Replay and take the safe path: soy is a safe food with a small effect on flushes; the cancer fear has no support
+      in human data; protect muscle and bone and avoid restriction; and refer for what diet
       can't fix.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Soy is safe and healthy, but only a modest and unreliable help for flushes, and not hormone therapy."
+        - "Soy is safe and healthy, but only a modest and unreliable help for flushes, much weaker than hormone therapy."
         - "The 'soy causes breast cancer' fear comes from animal studies; dietary soy is safe and, at Asian intakes, protective."
         - "Don't endorse crash dieting: recognise disordered-eating red flags and counsel weight-inclusively."
         - "Match the intervention to the problem, and refer for symptoms diet can't help (e.g. vaginal dryness)."

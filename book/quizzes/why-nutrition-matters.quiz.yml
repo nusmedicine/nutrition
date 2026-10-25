@@ -19,7 +19,7 @@ questions:
     options:
       - text: "Because diet is the only pillar that affects health"
         correct: false
-        feedback: "All six pillars affect health. Nutrition is central because it connects to the others, not because it replaces them."
+        feedback: "All six pillars affect health, and nutrition is central because it connects to the other five."
       - text: "Because it links to the other five pillars in both directions"
         correct: true
         feedback: "Nutrition acts on, and is acted on by, physical activity, sleep, stress, social connection and alcohol, so the pillars tend to move together: short sleep raises appetite, and stress is thought to drive comfort eating."
@@ -35,7 +35,7 @@ questions:
         feedback: "The overall dietary pattern, such as the Mediterranean or DASH pattern, predicts health better than any single nutrient or 'superfood'."
       - text: "One magic nutrient, maximised, will fix the diet"
         correct: false
-        feedback: "Searching for one magic nutrient or superfood is single-nutrient reductionism; the evidence points to the overall dietary pattern instead."
+        feedback: "Searching for one magic nutrient or superfood is single-nutrient reductionism; the evidence supports the overall dietary pattern."
       - text: "Diet has no measurable effect on disease risk"
         correct: false
         feedback: "Diet is among the largest modifiable contributors to early death: the Global Burden of Disease study attributes around 11 million deaths a year to dietary risks."
@@ -45,7 +45,7 @@ questions:
     options:
       - text: "Yes, it is a definitive trial with no important caveats"
         correct: false
-        feedback: "Even landmark trials have limitations. PREDIMED's result comes from a 2018 re-analysis, and its benefit on the combined outcome came mainly from fewer strokes rather than fewer heart attacks."
+        feedback: "Even landmark trials have limitations. PREDIMED's result comes from a 2018 re-analysis, and its benefit on the combined outcome came mainly from fewer strokes; the trial did not show a clear fall in heart attacks."
       - text: "It showed a benefit, but the claim needs important caveats"
         correct: true
         feedback: "The trial found a ~30% relative reduction in a combined measure of cardiovascular events, with the clearest reduction in strokes. That result comes from a 2018 re-analysis, published after the original was withdrawn over problems with how participants were assigned to groups."
@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Instead of drugs and surgery, replacing usual care"
         correct: false
-        feedback: "Behaviour change is sometimes presented as an alternative to medicine, but the six pillars are evidence-based and are used alongside drugs and surgery, never instead of them."
+        feedback: "The six pillars are evidence-based care used alongside drugs and surgery, and they do not replace usual care."
       - text: "Alongside drugs and surgery, as evidence-based care"
         correct: true
         feedback: "The six pillars (nutrition, physical activity, restorative sleep, stress management, positive social connection and avoidance of risky substances) are used to prevent, treat and sometimes reverse chronic disease, working with drugs and surgery."

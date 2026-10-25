@@ -12,7 +12,7 @@ questions:
         feedback: "Protein and most micronutrient needs do not fall with energy needs, so per kcal they rise, and \"eat less of everything\" reduces nutrients along with energy."
       - text: "She should switch to supplement drinks in place of meals."
         correct: false
-        feedback: "Fortifying the familiar meals she already eats comes before supplement drinks, and the problem to solve is nutrient density, not how much she eats."
+        feedback: "Fortifying the familiar meals she already eats comes before supplement drinks, and the problem to solve is nutrient density."
 
   - id: q2
     stem: "How do protein needs change in healthy older adults, and why?"
@@ -32,10 +32,10 @@ questions:
     options:
       - text: "One on long-term metformin and a PPI, which impair B12 absorption."
         correct: true
-        feedback: "In older adults, B12 deficiency is mainly a problem of absorption, not diet: low stomach acid stops B12 being freed from food protein, and long-term metformin and PPIs, both widely used in this population, add to the risk (as do atrophic gastritis, poor intake or a vegetarian diet). Testing targets this at-risk profile instead of screening everyone."
+        feedback: "In older adults, B12 deficiency is mainly a problem of absorption: low stomach acid stops B12 being freed from food protein, and long-term metformin and PPIs, both widely used in this population, add to the risk (as do atrophic gastritis, poor intake or a vegetarian diet). Testing targets this at-risk profile."
       - text: "Every older adult, so supplement B12 regardless of risk."
         correct: false
-        feedback: "B12 deficiency is uncommon in well older adults, so the target is the at-risk profile (atrophic gastritis, metformin, PPIs), not everyone."
+        feedback: "B12 deficiency is uncommon in well older adults, so testing targets the at-risk profile (atrophic gastritis, metformin, PPIs)."
       - text: "Only strict vegans, since B12 comes from meat."
         correct: false
         feedback: "Diet is one risk, but in older adults the main mechanism is malabsorption (atrophic gastritis, metformin, PPIs), so the at-risk group is broader than vegans."
@@ -45,10 +45,10 @@ questions:
     options:
       - text: "Older adults get little sun exposure, so deficiency is common."
         correct: true
-        feedback: "Older adults spend little time outdoors and cover up, so exposure, not latitude, is the problem; around half of healthy older adults living in the community have low levels. Ageing skin may also make vitamin D a little less efficiently, though how much is now debated."
+        feedback: "Older adults spend little time outdoors and cover up, so little of Singapore's sunshine reaches their skin; around half of healthy older adults living in the community have low levels. Ageing skin may also make vitamin D a little less efficiently, though how much is now debated."
       - text: "It must be a lab error, since deficiency can't occur in a sunny country."
         correct: false
-        feedback: "Deficiency is common in local older adults because they get little sun, not because the sun is lacking, so a low result is plausible."
+        feedback: "Deficiency is common in local older adults because they spend little time in the sun, so a low result is plausible."
       - text: "It happens only in people who don't eat oily fish."
         correct: false
         feedback: "Diet contributes a little, but the main cause in older adults is reduced sun exposure (indoor living, covering up)."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Offer fluids regularly, because thirst is blunted with age."
         correct: true
-        feedback: "Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so fluids are offered regularly instead of waiting for thirst or for clinical signs of dehydration."
+        feedback: "Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so fluids are offered regularly, before thirst or clinical signs of dehydration appear."
       - text: "Advise drinking when thirsty, since thirst is a reliable guide."
         correct: false
         feedback: "Thirst is blunted with age, so an older adult is often already dehydrated by the time thirst appears."

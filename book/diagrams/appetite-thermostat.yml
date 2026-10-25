@@ -61,12 +61,12 @@ states:
       This is the state that favours weight regain. Fat mass shrank, so leptin fell far: the hypothalamus
       responds as it would to starvation, ghrelin rises, and hunger is driven higher than in an ordinary
       fast. Energy expenditure also drops more than body size predicts (adaptive thermogenesis, or
-      metabolic adaptation). These changes favour regaining the weight.
+      metabolic adaptation).
     detail:
       accel: "AgRP/NPY activity is strongly increased by the low-leptin 'starvation' signal, more strongly than in an ordinary fast."
       brake: "POMC is suppressed, weakening satiety signalling."
       mc4r: "Output falls sharply, so hunger is high; this persists for a year or more after the weight loss."
-      hunger: "Very high, with a lowered metabolic rate as well. These changes favour weight regain; they do not reflect a lack of willpower."
+      hunger: "Very high, with a lowered metabolic rate as well. These changes favour weight regain. They do not reflect a lack of willpower."
 
   - id: glp1
     label: "On a GLP-1 drug"

@@ -1,7 +1,7 @@
 id: alcohol-fasting-hypoglycaemia
 title: "He skipped meals, drank, and collapsed"
 objectives:
-  - "Recognise that alcohol on an empty stomach can cause hypoglycaemia, not hyperglycaemia."
+  - "Recognise that alcohol on an empty stomach can cause hypoglycaemia."
   - "Explain the mechanism: alcohol blocks gluconeogenesis, and skipped meals leave glycogen already spent, so neither glycogenolysis nor gluconeogenesis can supply glucose."
   - "Give appropriate initial management: check and correct the glucose; sensible safety advice."
 difficulty: intro
@@ -63,7 +63,7 @@ nodes:
       - id: b
         text: "Alcohol destroys the liver's glycogen directly within a few hours."
         correct: false
-        feedback: "The glycogen was already low from skipping meals. Alcohol's role is different: it blocks the liver from *making* new glucose (gluconeogenesis)."
+        feedback: "The glycogen was already low from skipping meals. Alcohol acts by blocking the liver from *making* new glucose (gluconeogenesis)."
         goto: q-trap
       - id: c
         text: "The liver never makes glucose; only the kidney does."
@@ -78,7 +78,7 @@ nodes:
       - id: a
         text: "No, on an empty stomach alcohol pushes blood sugar down."
         correct: true
-        feedback: "Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis, so on an empty stomach it pushes blood glucose down: this is a low, not a high."
+        feedback: "Whatever sugar is in the drinks, alcohol's metabolic effect is to block gluconeogenesis, so on an empty stomach it pushes blood glucose down, as his low reading shows."
         effects: { quality: +1 }
         goto: q-manage
       - id: b
@@ -99,7 +99,7 @@ nodes:
       - id: a
         text: "Give glucose now, then advise eating when drinking."
         correct: true
-        feedback: "Glucose by mouth is right if he can swallow safely; if not, it is an emergency for the team to treat. Once the glucose is corrected, the lasting advice is to eat when drinking, not drink on an empty stomach. Recurrent or unexplained hypoglycaemia would be a reason to refer."
+        feedback: "Glucose by mouth is right if he can swallow safely; if not, it is an emergency for the team to treat. Once the glucose is corrected, the lasting advice is to eat whenever he drinks. Recurrent or unexplained hypoglycaemia would be a reason to refer."
         effects: { quality: +1 }
         goto: route
       - id: b
@@ -128,7 +128,7 @@ nodes:
       new glucose (gluconeogenesis), and skipping meals means its glycogen store is already
       spent, so neither glycogenolysis nor gluconeogenesis can supply glucose. The sweating and
       tremor are autonomic warning symptoms, and the confusion is the brain running short of fuel. The treatment is
-      glucose, not time or insulin.
+      glucose. Waiting is unsafe, and insulin would lower the glucose further.
     next: end-partial
 
   - id: end-good

@@ -6,16 +6,16 @@ questions:
     options:
       - text: "High-risk CKD, so his nutrition care is now dietitian-led"
         correct: true
-        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria falls in the high-risk category. The goal is recognition, not threshold recall: once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
+        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria falls in the high-risk category. The generalist's task is recognition: once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
       - text: "Mild change, so no action is needed until symptoms appear"
         correct: false
-        feedback: "Because CKD is largely silent and detected biochemically, not by symptoms, waiting for symptoms misses the chance to intervene early. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
+        feedback: "Because CKD is largely silent and detected biochemically, waiting for symptoms misses the chance to intervene early. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
       - text: "Low risk, because a low eGFR with albuminuria is reassuring"
         correct: false
         feedback: "Reading these results as reassuring misreads the heat map. Falling eGFR and heavy albuminuria are the two axes that push a patient toward the high-risk end."
       - text: "Not CKD, because staging always needs a kidney biopsy first"
         correct: false
-        feedback: "CKD is defined and staged from eGFR and albuminuria (with cause), not from a biopsy. These results already classify him as high-risk CKD."
+        feedback: "CKD is defined and staged from eGFR and albuminuria (with cause), without a biopsy. These results already classify him as high-risk CKD."
 
   - id: q2
     stem: "Which piece of standard healthy-eating advice can become dangerous in advanced CKD?"
@@ -38,10 +38,10 @@ questions:
     options:
       - text: "It is raised again, because dialysis is itself catabolic"
         correct: true
-        feedback: "Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once dialysis begins, itself a catabolic process that removes protein, the target is raised again. Opposite advice for the same patient at different stages is why the target is left to the renal dietitian, not applied from memory."
+        feedback: "Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once dialysis begins, itself a catabolic process that removes protein, the target is raised again. Opposite advice for the same patient at different stages is why the target is left to the renal dietitian."
       - text: "It is lowered further, since the kidneys have now failed"
         correct: false
-        feedback: "Dialysis is catabolic and removes protein, so needs go up, not down. Pushing protein lower at this point risks protein-energy wasting."
+        feedback: "Dialysis is catabolic and removes protein, so needs go up. Pushing protein lower at this point risks protein-energy wasting."
       - text: "It stays exactly the same at every stage of CKD"
         correct: false
         feedback: "Protein advice is stage-dependent: restricted before dialysis, liberalised on it. That reversal is why the target is dietitian-set."
@@ -52,9 +52,9 @@ questions:
   - id: q4
     stem: "A colleague says, \"The MDRD trial proved protein restriction slows CKD.\" What is the accurate response?"
     options:
-      - text: "Its primary result was equivocal, not decisive"
+      - text: "Its primary analysis gave only an equivocal result"
         correct: true
-        feedback: "MDRD's primary analysis found only a small, statistically fragile effect; the confident 'protein restriction slows CKD' reading came from a later secondary analysis. The fair conclusion is a benefit with a caveat, not a settled prescription, which is part of why protein targets are individualised and supervised."
+        feedback: "MDRD's primary analysis found only a small, statistically fragile effect; the confident 'protein restriction slows CKD' reading came from a later secondary analysis. The fair conclusion is a benefit with a caveat, which is part of why protein targets are individualised and supervised."
       - text: "It was a decisive positive trial with a hard endpoint"
         correct: false
         feedback: "Its primary endpoint was not clearly positive. Treating MDRD as decisive overstates it, because the supportive reading rests on a secondary analysis."
@@ -68,18 +68,18 @@ questions:
   - id: q5
     stem: "A dialysis patient following a strict self-imposed \"kidney diet\" has unintentional weight loss, low albumin and muscle wasting. What does this picture suggest?"
     options:
-      - text: "Protein-energy wasting, not good adherence"
+      - text: "Protein-energy wasting from an over-strict diet"
         correct: true
-        feedback: "Low body and muscle mass, poor intake and abnormal blood chemistry define protein-energy wasting, which affects roughly a third to a half of dialysis patients and is strongly linked to death. A too-strict, unsupervised 'kidney diet' is a cause, not a success: refer for individualised nutrition."
+        feedback: "Low body and muscle mass, poor intake and abnormal blood chemistry define protein-energy wasting, which affects roughly a third to a half of dialysis patients and is strongly linked to death. A too-strict, unsupervised 'kidney diet' is a cause, so refer for individualised nutrition."
       - text: "Excellent renal-diet adherence that should be encouraged"
         correct: false
-        feedback: "Weight loss, low albumin and muscle wasting signal protein-energy wasting: the diet is doing harm, not working."
+        feedback: "Weight loss, low albumin and muscle wasting signal protein-energy wasting, so the diet is doing harm."
       - text: "Simple dehydration that fluid will correct"
         correct: false
         feedback: "Dehydration does not explain muscle wasting or low albumin. This presentation indicates protein-energy wasting and needs dietetic assessment."
       - text: "A normal finding on dialysis needing no action"
         correct: false
-        feedback: "Wasting is linked to mortality, so it is a clear trigger to refer for nutrition support, not a normal finding."
+        feedback: "Wasting is linked to mortality, so it is a clear trigger to refer for nutrition support."
 
   - id: q6
     stem: "Why can the phosphorus number on a food label understate the real phosphate load in CKD?"
@@ -98,7 +98,7 @@ questions:
         feedback: "Cooking does not reliably remove phosphate, and it does nothing about hidden additives. The issue is the near-complete absorption of unlabelled inorganic phosphate."
 
   - id: q7
-    stem: "Which food must be avoided completely in CKD, rather than portion-controlled?"
+    stem: "Which food must be avoided completely in CKD?"
     options:
       - text: "Star fruit or belimbing, which are neurotoxic in CKD"
         correct: true
@@ -121,10 +121,10 @@ questions:
         feedback: "Sodium reduction helps in CKD for the same reasons it helps in hypertension, and it also reduces albuminuria and lets kidney-protective drugs work. Unlike the potassium message, it still applies. Potassium, phosphate, fluid and protein quantities are individualised by a renal dietitian, so the generalist reinforces sodium, avoids the potassium and star-fruit hazards, and refers."
       - text: "Prescribing a fixed daily fluid restriction in millilitres"
         correct: false
-        feedback: "Early CKD usually needs no fluid restriction, and any limit is individualised and specialist. Fluid limits are for referral, not for a generalist to reinforce."
+        feedback: "Early CKD usually needs no fluid restriction, and any limit is individualised and specialist. Fluid limits are for referral."
       - text: "Setting an exact potassium and phosphate gram target"
         correct: false
-        feedback: "Potassium and phosphate targets are individualised to blood levels by a dietitian, not set from memory by a generalist."
+        feedback: "Potassium and phosphate targets are individualised to blood levels by a dietitian."
       - text: "Starting a phosphate binder with every meal"
         correct: false
-        feedback: "Binders are a specialist prescribing decision, not a generalist's decision. The change to reinforce is sodium reduction."
+        feedback: "Binders are a specialist prescribing decision. The change to reinforce is sodium reduction."

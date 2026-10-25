@@ -6,10 +6,10 @@ questions:
     options:
       - text: "Total weight tracks age and lifestyle; fat redistributes to the abdomen"
         correct: true
-        feedback: "In cohort data weight rises steadily through the transition with no menopause-timed jump. The menopause-specific change is body *composition*: visceral fat up, lean mass down, so waist circumference, not weight, is the better indicator."
+        feedback: "In cohort data weight rises steadily through the transition with no menopause-timed jump. The menopause-specific change is body *composition*: visceral fat up, lean mass down, so waist circumference is a better indicator than weight."
       - text: "Menopause directly causes a sharp jump in total body weight at the final period"
         correct: false
-        feedback: "Total weight tracks ageing and energy balance, with no jump at the final period. The menopause-specific change is *where* fat sits, not how much she weighs."
+        feedback: "Total weight tracks ageing and energy balance, with no jump at the final period. The menopause-specific change is *where* fat sits."
       - text: "Nothing really changes; it's just how she perceives her body"
         correct: false
         feedback: "The opposite error: body composition genuinely shifts (visceral fat up, muscle down) even when the scale barely moves, and dismissing it misses a real, cardiometabolically important change."
@@ -35,10 +35,10 @@ questions:
         feedback: "Oestrogen normally inhibits resorption; when it falls, loss accelerates in the window around the final period (roughly 2% a year, steeper at the spine). Calcium and vitamin D are permissive, but routine low-dose supplements show no net fracture benefit; food first plus progressive resistance and impact loading does more than supplements."
       - text: "Calcium and vitamin D supplements will stop or reverse the menopausal bone loss"
         correct: false
-        feedback: "Calcium and vitamin D are permissive raw materials, not a cure: routine low-dose supplementation gives no net fracture-prevention benefit and slightly raises kidney-stone risk. Loading is the more effective measure."
+        feedback: "Calcium and vitamin D are permissive raw materials: routine low-dose supplementation gives no net fracture-prevention benefit and slightly raises kidney-stone risk. Loading is the more effective measure."
       - text: "Bone loss at menopause is slow and gradual, just like ordinary ageing"
         correct: false
-        feedback: "Loss accelerates sharply, to about 2% a year, in the roughly 3-year window around the final period, then slows; it is not the gradual loss of ordinary ageing."
+        feedback: "Loss accelerates sharply, to about 2% a year, in the roughly 3-year window around the final period, then slows."
 
   - id: q4
     stem: "A 48-year-old asks whether her newly borderline blood pressure is \"because of menopause.\" What's the precise answer?"
@@ -48,7 +48,7 @@ questions:
         feedback: "The menopause-linked change is the rise in lipids (LDL-cholesterol and apoB) around the final period; blood pressure and glucose follow the ageing pattern. Naming which is which avoids both over- and under-attribution: blaming everything, or nothing, on menopause."
       - text: "Yes, every cardiometabolic change at midlife is caused by menopause"
         correct: false
-        feedback: "Over-attribution. LDL-cholesterol is menopause-linked, but blood pressure and glucose track age, not the final period."
+        feedback: "Over-attribution. LDL-cholesterol is menopause-linked, but blood pressure and glucose track age."
       - text: "No, menopause changes nothing about cardiovascular risk"
         correct: false
         feedback: "Under-attribution. The rise in LDL-cholesterol and apoB and the visceral fat gain are real and menopause-linked; midlife is a genuine prevention window."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Reassure her that soy foods are safe but only a modest, inconsistent help for flushes"
         correct: true
-        feedback: "The message has two parts. At Asian intakes soy is linked to *lower* breast-cancer risk, including for survivors; the old 'soy causes breast cancer' fear came from rodent data that don't translate to humans. For flushes the effect is modest and inconsistent, so soy is a reasonable food choice, not a cure, and the North American Menopause Society does not recommend isoflavones as a treatment."
+        feedback: "At Asian intakes soy is linked to *lower* breast-cancer risk, including for survivors; the old 'soy causes breast cancer' fear came from rodent data that don't translate to humans. For flushes the effect is modest and inconsistent, so soy is a reasonable food choice, and the North American Menopause Society does not recommend isoflavones as a treatment."
       - text: "Tell her to avoid soy, as it acts like oestrogen and raises breast-cancer risk"
         correct: false
         feedback: "Avoiding soy rests on rodent studies that don't translate to humans. In humans, and especially at Asian intakes, soy foods are safe and associated with *lower* breast-cancer risk, including in survivors on tamoxifen."
@@ -71,13 +71,13 @@ questions:
     options:
       - text: "Explain that iron needs fall, and investigate any new deficiency"
         correct: true
-        feedback: "After menopause, iron requirements drop to about a man's, so routine iron isn't needed. Unexplained new iron deficiency is a red flag for gastrointestinal blood loss and should be investigated, not simply treated with a supplement."
+        feedback: "After menopause, iron requirements drop to about a man's, so routine iron isn't needed. Unexplained new iron deficiency is a red flag for gastrointestinal blood loss and should be investigated."
       - text: "Start iron tablets and recheck her bloods in three months"
         correct: false
-        feedback: "Reflexive supplementation misses the cause: new deficiency after menopause needs investigation for a source of blood loss, not empirical supplementation."
+        feedback: "Reflexive supplementation misses the cause: new deficiency after menopause needs investigation for a source of blood loss."
       - text: "Reassure her that all women her age are iron-deficient and it's harmless"
         correct: false
-        feedback: "Iron needs fall after menopause, so deficiency is not the norm at her age, and genuine new deficiency is a red flag, not harmless."
+        feedback: "Iron needs fall after menopause, so deficiency is not the norm at her age, and genuine new deficiency is a red flag."
 
   - id: q7
     stem: "A patient wants a \"menopause diet\" to fix hot flushes, vaginal dryness, bone and heart. Which framing is right?"

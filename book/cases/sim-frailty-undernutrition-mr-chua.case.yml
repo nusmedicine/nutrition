@@ -6,8 +6,8 @@ id: sim-frailty-undernutrition-mr-chua
 title: "Simulated patient: Mr Chua (unintentional weight loss)"
 objectives:
   - "Recognise the unintentional weight loss as a red flag and take a brief history, including who he eats with."
-  - "Reverse the restriction: food-first fortification and a palm-sized protein at each meal, using familiar foods, keeping flavour rather than stripping it."
-  - "Recognise he has crossed into undernutrition and arrange a dietitian referral plus social-eating support, rather than reinforcing 'eat less'."
+  - "Reverse the restriction: food-first fortification and a palm-sized protein at each meal, using familiar foods and keeping their flavour."
+  - "Recognise he has crossed into undernutrition, withdraw the 'eat less' advice, and arrange a dietitian referral plus social-eating support."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, ageing, undernutrition, frailty, counselling, simulated-patient]
@@ -89,7 +89,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "In a thin older adult who is losing weight, the rule is to raise nutrient density and avoid restriction: the usual low-fat, low-sugar, eat-less advice is actively harmful here."
-        - "Food-first fortification of familiar dishes (an egg, minced fish, silken tofu or ikan bilis in the porridge or mee sua; milk in the kopi; a palm-sized protein at each meal) raises energy and protein without more volume. Keep the flavour; don't strip it."
+        - "Food-first fortification of familiar dishes (an egg, minced fish, silken tofu or ikan bilis in the porridge or mee sua; milk in the kopi; a palm-sized protein at each meal) raises energy and protein without more volume. Keep the flavour."
         - "'Who do you eat with?' is one of the most useful questions: eating alone is a red flag. Link him to communal dining at an Active Ageing Centre and refer to a dietitian."
 
   - id: end-partial
@@ -103,5 +103,5 @@ nodes:
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Unintentional weight loss of about 5% or more over 6–12 months has crossed into undernutrition: recognise and refer, and don't reinforce 'eat less'."
+        - "Unintentional weight loss of about 5% or more over 6–12 months has crossed into undernutrition: recognise it, withdraw the 'eat less' advice, and refer."
         - "Reverse the advice toward food-first fortification with a palm-sized protein at each meal, using familiar local foods, and keep the flavour."

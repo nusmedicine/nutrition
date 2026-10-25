@@ -16,7 +16,7 @@ cuisines:
     options:
       veg:
         - { label: "A little garnish", quality: poor, start: true, note: "Barely any vegetable: most adults here eat less fruit and vegetables than recommended, so the half-plate is often the section that falls short." }
-        - { label: "Side of stir-fried greens", quality: ok, note: "A start, but the greens should fill half the plate, not sit at the edge." }
+        - { label: "Side of stir-fried greens", quality: ok, note: "A start; the greens should fill half the plate." }
         - { label: "Half a plate of kai lan / xiao bai cai", quality: good, note: "The vegetable half done properly: leafy greens make up the largest section." }
       grain:
         - { label: "Big bowl of white rice", quality: poor, start: true, note: "Refined, fast-digesting and too big a portion. Only ~4% of staples eaten in Singapore are wholegrain." }
@@ -43,8 +43,8 @@ cuisines:
         - { label: "Modest rice scoop, less gravy", quality: good, note: "A sensible portion with the coconut gravy kept light: the realistic wholegrain-quarter equivalent at nasi padang." }
       protein:
         - { label: "Fried chicken (ayam goreng)", quality: poor, start: true, note: "Deep-fried and often skin-on, this is a high-fat choice for the protein quarter." }
-        - { label: "Beef rendang, small portion", quality: ok, note: "Rich in coconut and fat, so keep it to a small serving, not the whole quarter." }
-        - { label: "Grilled fish (ikan bakar)", quality: good, note: "Grilled, not fried, so the protein stays lean with little added oil." }
+        - { label: "Beef rendang, small portion", quality: ok, note: "Rich in coconut and fat, so keep it to a small serving." }
+        - { label: "Grilled fish (ikan bakar)", quality: good, note: "Grilling keeps the protein lean, with little added oil." }
       drink:
         - { label: "Bandung (rose syrup + milk)", quality: poor, start: true, note: "A sweet syrup drink is free sugar in a glass, a Nutri-Grade C/D choice." }
         - { label: "Unsweetened barley", quality: ok, note: "No added sugar when ordered kosong; water is still the default." }

@@ -77,7 +77,7 @@ nodes:
       - id: c
         text: "~1,700 kcal/day"
         correct: false
-        feedback: "About 1,700 kcal/day is closer to her total needs once activity is added, not her BMR."
+        feedback: "That is too high for her BMR: about 1,700 kcal/day is closer to her total needs once activity is added."
         goto: q-tee
 
   - id: q-tee
@@ -98,7 +98,7 @@ nodes:
       - id: c
         text: "≈ 2.2"
         correct: false
-        feedback: "Factors of about 2.0 or more describe very active people, not a sedentary teacher."
+        feedback: "That factor is too high for her: factors of about 2.0 or more describe very active people."
         goto: q-advice
 
   - id: q-advice

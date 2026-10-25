@@ -12,7 +12,7 @@ questions:
         feedback: "The majority of peak bone mass is heritable; only about 20–40% is lifestyle-modifiable. Overselling it sets up false expectations."
       - text: "None of it; bone mass is entirely fixed at birth"
         correct: false
-        feedback: "It isn't fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the modifiable factors still matter across adulthood. Their effect is limited, not absent."
+        feedback: "Bone mass is not fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the modifiable factors still matter across adulthood. Their effect is real but limited."
       - text: "It only becomes modifiable after menopause"
         correct: false
         feedback: "The main window is youth, when peak bone mass is built; menopause is when women lose bone fastest. The modifiable factors matter across the whole life course."
@@ -38,10 +38,10 @@ questions:
     options:
       - text: "Indoor living, sun avoidance and skin pigmentation"
         correct: true
-        feedback: "Behaviour and biology, not the climate, explain it: indoor lifestyles, cosmetic sun avoidance, covering and darker skin pigmentation all cut skin synthesis (which also falls with age). About 1 in 3 mid-life Singaporean women are deficient, and the burden is unequal: Indian and Malay women more than Chinese."
+        feedback: "Behaviour and biology explain it: indoor lifestyles, cosmetic sun avoidance, covering and darker skin pigmentation all cut skin synthesis (which also falls with age). About 1 in 3 mid-life Singaporean women are deficient, and the burden is unequal: Indian and Malay women more than Chinese."
       - text: "The equatorial sun is actually too weak for the skin"
         correct: false
-        feedback: "The tropical sun is ample; the problem is that people avoid it (indoors, covered, sun-averse) and pigmentation reduces synthesis. The cause is behavioural, not a weak sun."
+        feedback: "The tropical sun is ample. Deficiency arises because people avoid it (indoors, covered, sun-averse) and pigmentation reduces synthesis."
       - text: "Diet here contains dangerously little calcium"
         correct: false
         feedback: "Dietary calcium is a separate issue (intake below the requirement). Vitamin D deficiency here is driven by low sun exposure and pigmentation."
@@ -54,10 +54,10 @@ questions:
     options:
       - text: "It enables calcium uptake; don't test everyone"
         correct: true
-        feedback: "Vitamin D doesn't build bone directly: its active form drives intestinal calcium absorption, so a shortfall means calcium passes through unabsorbed and parathyroid hormone rises and mobilises it from bone. The Endocrine Society guideline also suggests against routine testing, and against empiric vitamin D above the recommended intake (the DRI) in healthy adults under 75; find and correct genuine shortfall in higher-risk people instead."
+        feedback: "Vitamin D acts on bone indirectly: its active form drives intestinal calcium absorption, so a shortfall means calcium passes through unabsorbed and parathyroid hormone rises and mobilises it from bone. The Endocrine Society guideline also suggests against routine testing, and against empiric vitamin D above the recommended intake (the DRI) in healthy adults under 75; find and correct genuine shortfall in higher-risk people instead."
       - text: "It builds bone directly; test the whole population"
         correct: false
-        feedback: "Vitamin D regulates calcium absorption rather than building bone directly, and routine population testing is not advised; target higher-risk people."
+        feedback: "Vitamin D acts on bone indirectly, by regulating calcium absorption, and routine population testing is not advised; target higher-risk people."
       - text: "It replaces the need for dietary calcium entirely"
         correct: false
         feedback: "Vitamin D enables calcium absorption; it doesn't replace calcium. You need both the mineral (calcium) and the vitamin that drives its absorption (vitamin D)."
@@ -70,10 +70,10 @@ questions:
     options:
       - text: "With enough calcium, protein lowers fracture risk"
         correct: true
-        feedback: "With adequate calcium, higher protein is associated with about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. The acid-ash idea that protein leaches calcium is therefore contradicted by the evidence. Protein forms the collagen matrix and preserves fall-preventing muscle: a bone nutrient, not a threat."
+        feedback: "With adequate calcium, higher protein is associated with about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption. The acid-ash idea that protein leaches calcium from bone is therefore contradicted by the evidence. Protein forms the collagen matrix and preserves fall-preventing muscle, so it is a bone nutrient."
       - text: "They're right; cutting protein protects the skeleton"
         correct: false
-        feedback: "Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures, not more. The acid-ash belief has the evidence the wrong way round."
+        feedback: "Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures. The acid-ash belief has the evidence the wrong way round."
       - text: "Protein has no effect on bone either way"
         correct: false
         feedback: "Protein does matter: it forms the collagen matrix, raises IGF-1, and maintains fall-preventing muscle. With adequate calcium it is associated with lower fracture risk."
@@ -93,16 +93,16 @@ questions:
       - text: "Body weight has no relationship to fracture risk"
         correct: false
         feedback: "It has a strong relationship: a low BMI nearly doubles hip-fracture risk, and it's used in FRAX for exactly that reason."
-      - text: "It only matters in men, not in women"
+      - text: "It matters for fracture risk only in men"
         correct: false
-        feedback: "Low body weight raises fracture risk in both sexes; it's not a men-only factor."
+        feedback: "Low body weight raises fracture risk in both sexes."
 
   - id: q7
     stem: "Who benefits from calcium and vitamin D supplements for fractures?"
     options:
-      - text: "The genuinely deficient, not everyone"
+      - text: "Only those who are genuinely deficient"
         correct: true
-        feedback: "Supplements cut fractures in people who are genuinely deficient or institutionalised, but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. Correct real deficiency and go food-first rather than blanket-supplementing the population."
+        feedback: "Supplements cut fractures in people who are genuinely deficient or institutionalised, but in already-replete community-dwelling adults large trials find no fracture benefit and a small rise in kidney stones. Correct real deficiency and otherwise go food-first."
       - text: "Every adult over 50, as a routine preventive measure"
         correct: false
         feedback: "Blanket supplementation of replete community adults doesn't prevent fractures and slightly raises kidney-stone risk. Benefit is confined to genuine deficiency."
@@ -111,7 +111,7 @@ questions:
         feedback: "People who already meet their needs gain no fracture benefit from extra supplements. The benefit is for those who are genuinely deficient."
       - text: "No one; the supplements are never of any use"
         correct: false
-        feedback: "They do help the genuinely deficient or institutionalised; what they don't do is help already-replete community adults."
+        feedback: "They help the genuinely deficient or institutionalised. Already-replete community adults gain no fracture benefit."
 
   - id: q8
     stem: "An older woman's fragility fracture and low weight worry you. What is the generalist's role?"
@@ -124,10 +124,10 @@ questions:
         feedback: "Prescribing and titrating osteoporosis drugs is specialist territory. The generalist's job is food-first advice, correcting deficiency, and referral."
       - text: "Prescribe the hormone therapy she clearly needs now"
         correct: false
-        feedback: "Menopausal hormone therapy is a specialist decision (see the *Menopause & midlife health* chapter), not a generalist reflex."
+        feedback: "Menopausal hormone therapy is a specialist decision (see the *Menopause & midlife health* chapter)."
       - text: "Reassure her that fractures at her age are normal"
         correct: false
-        feedback: "A fragility fracture is a red flag, not a normal event: it defines osteoporosis and warrants referral, not reassurance."
+        feedback: "A fragility fracture is a red flag: it defines osteoporosis and warrants referral."
 
   - id: q9
     stem: "A patient with knee osteoarthritis asks about glucosamine. What's the evidence-based answer?"
@@ -159,23 +159,23 @@ questions:
         feedback: "Rest and de-conditioning worsen knee osteoarthritis. Appropriate activity and strengthening, alongside weight loss, are what help."
       - text: "Switching to a high-dose vitamin D pill"
         correct: false
-        feedback: "Vitamin D showed no benefit for osteoarthritis pain or cartilage in a 2-year trial. What helps is weight loss with exercise, not a supplement."
+        feedback: "Vitamin D showed no benefit for osteoarthritis pain or cartilage in a 2-year trial. Weight loss with exercise improves pain and function."
 
   - id: q11
     stem: "A patient with gout asks what to eat. Which advice is most accurate?"
     options:
       - text: "Cut beer and sugary drinks; medication is the main treatment"
         correct: true
-        feedback: "Diet affects urate only modestly: beer and fructose or sugary drinks raise it, low-fat dairy and coffee are associated with lower risk, and purine-rich vegetables and total protein aren't the problem. The main treatment is a urate-lowering drug (allopurinol) titrated to a target urate level; diet is a helpful adjunct, not the cure, and gout is not the patient's 'fault'."
+        feedback: "Diet affects urate only modestly: beer and fructose or sugary drinks raise it, low-fat dairy and coffee are associated with lower risk, and purine-rich vegetables and total protein aren't the problem. The main treatment is a urate-lowering drug (allopurinol) titrated to a target urate level, with diet as a helpful adjunct. Gout is not the patient's fault."
       - text: "Cut out all seafood, all protein and all vegetables to be cured"
         correct: false
         feedback: "That's over-restriction. Purine-rich vegetables and total protein aren't associated with gout, and diet alone rarely reaches target; the effective treatment is urate-lowering medication. Don't starve the patient of protein and vegetables."
       - text: "Diet alone is enough; you don't need any medication"
         correct: false
-        feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug; diet is an adjunct, not a substitute."
+        feedback: "Diet changes urate only modestly. For most gout patients, reaching target needs a urate-lowering drug, with diet as an adjunct."
       - text: "It's your own fault for eating too much; just eat less"
         correct: false
-        feedback: "Gout is a metabolic disease of urate handling, not a moral failing, and blaming diet leads clinicians to over-restrict patients and overlook the effective treatment: urate-lowering therapy to target."
+        feedback: "Gout is a metabolic disease of urate handling. Blaming diet leads clinicians to over-restrict patients and overlook the effective treatment: urate-lowering therapy to target."
 
   - id: q12
     stem: "Which pairing correctly matches each condition to its main dietary measure?"

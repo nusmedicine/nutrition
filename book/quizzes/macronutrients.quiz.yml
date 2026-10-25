@@ -6,10 +6,10 @@ questions:
     options:
       - text: "Carbohydrate ~4, protein ~4, fat ~9, fibre ~2"
         correct: true
-        feedback: "Fat is the most energy-dense; fibre yields little because it is largely fermented by gut microbes, not digested for fuel."
+        feedback: "Fat is the most energy-dense; fibre yields little because it escapes digestion and is largely fermented by gut microbes."
       - text: "Carbohydrate ~9, protein ~4, fat ~4, fibre ~7"
         correct: false
-        feedback: "This row swaps fat and carbohydrate: fat yields ~9 kcal/g and carbohydrate ~4, and ~7 kcal/g is alcohol, not fibre."
+        feedback: "This row swaps fat and carbohydrate: fat yields ~9 kcal/g and carbohydrate ~4, and ~7 kcal/g is the figure for alcohol."
       - text: "All macronutrients yield ~4 kcal/g"
         correct: false
         feedback: "Fat yields ~9 kcal/g, roughly double carbohydrate or protein."
@@ -35,7 +35,7 @@ questions:
         feedback: "*Trans* fat has the clearest evidence of harm (WHO cap: <1% of energy), and unsaturated fats are the ones to favour."
       - text: "Polyunsaturated → monounsaturated → saturated → trans"
         correct: false
-        feedback: "This order is reversed: polyunsaturated fats are the ones to favour, not avoid."
+        feedback: "This order is reversed: polyunsaturated fats are the ones to favour."
       - text: "Saturated → trans → polyunsaturated → monounsaturated"
         correct: false
         feedback: "Saturated fat raises LDL cholesterol, but *trans* fat has the clearest evidence of harm, so it ranks first."
@@ -45,13 +45,13 @@ questions:
     options:
       - text: "It proves fibre causes lower mortality"
         correct: false
-        feedback: "The data are largely observational, of moderate certainty at best, so they show association, not proof of cause."
+        feedback: "The data are largely observational, of moderate certainty at best, so they cannot prove that fibre causes lower mortality."
       - text: "It shows an association with lower mortality"
         correct: true
-        feedback: "Most of the data come from prospective cohorts, so the benefit is reported with its caveat: an association that strengthens up to ~25–29 g fibre/day, not proof of cause."
+        feedback: "Most of the data come from prospective cohorts, so the benefit is reported with its caveat: an association that strengthens up to ~25–29 g fibre/day."
       - text: "It found fibre makes no difference to health"
         correct: false
-        feedback: "The meta-analyses found a consistent protective association; the caveat is about causation, not direction."
+        feedback: "The meta-analyses found a consistent protective association; the uncertainty is only about whether fibre causes it."
 
   - id: q5
     stem: "A patient wants to know 'the one ideal macronutrient ratio'. What does current guidance say?"
@@ -64,7 +64,7 @@ questions:
         feedback: "A fixed split for everyone does not exist; food source and pattern matter more."
       - text: "As little carbohydrate as possible, always"
         correct: false
-        feedback: "This reflects the belief that carbohydrate is harmful; quality and food source, not blanket restriction, determine the effect."
+        feedback: "This reflects the belief that carbohydrate is harmful; the effect of carbohydrate depends on its quality and food source."
 
   - id: q6
     stem: "On My Healthy Plate ('quarter, quarter, half'), what fills the half?"
@@ -74,7 +74,7 @@ questions:
         feedback: "Half the plate is fruit and vegetables, a quarter wholegrains and a quarter protein."
       - text: "Wholegrains"
         correct: false
-        feedback: "Wholegrains are a quarter, not the half."
+        feedback: "Wholegrains fill a quarter; the half is fruit and vegetables."
       - text: "Protein"
         correct: false
         feedback: "Protein is a quarter; the half is fruit and vegetables."

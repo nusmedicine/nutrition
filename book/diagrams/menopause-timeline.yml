@@ -12,9 +12,8 @@ layers:
   - id: composition
     label: "Weight & shape"
     caption: >
-      Total weight rises steadily with age, with no jump at the FMP. What is menopause-specific is fat
-      redistributing to the abdomen and lean mass falling, so waist circumference, not body weight, is the
-      better indicator.
+      Around menopause, fat redistributes to the abdomen and lean mass falls, so waist circumference is a
+      better indicator than body weight. Total weight rises steadily with age, with no jump at the FMP.
     source: "SWAN body composition (Greendale 2019); visceral fat (Lovejoy 2008)"
     curves:
       - name: "Body weight"
@@ -61,5 +60,5 @@ layers:
         points: [[-5, 100], [-1, 100.5], [0, 104], [1, 108], [5, 109], [10, 110]]
       - name: "Blood pressure"
         color: "#5b6670"
-        note: "rises gradually with age, not timed to the FMP"
+        note: "rises gradually with age, with no step at the FMP"
         points: [[-5, 100], [0, 102], [5, 104], [10, 106]]

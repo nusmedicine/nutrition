@@ -10,8 +10,8 @@ patient:
     embarrassed. She will tell you what you ask about, and only what you ask about.
 
 # probes = the diet-history skeleton. `yield` is how much of the intake picture the probe
-# uncovers (intake probes sum to 100). `safety: true` marks the do-no-harm probe (not scored
-# for nutritional yield, but the check that must happen).
+# uncovers (intake probes sum to 100). `safety: true` marks the do-no-harm probe: it has no
+# nutritional yield and is the check that must happen.
 probes:
   - id: typical-day
     label: "Walk me through a typical day"
@@ -67,4 +67,4 @@ probes:
     safety: true
     reveal: "\"Sometimes I skip meals to 'make up' for a big day, and I feel guilty after eating. But it's not a big deal… right?\""
     picture: ["Skips meals to compensate", "Guilt after eating (a gentle flag)"]
-    note: "The do-no-harm check. A gentle open question surfaces possible disordered eating before you suggest any restriction. If it raises concern, switch from 'cut down' to a supportive screen (SCOFF) and consider referral. Never advise dietary restriction for someone who may have an eating disorder."
+    note: "This is the do-no-harm check: a gentle open question surfaces possible disordered eating before you suggest any restriction. If it raises concern, switch from 'cut down' to a supportive screen (SCOFF) and consider referral. Never advise dietary restriction for someone who may have an eating disorder."

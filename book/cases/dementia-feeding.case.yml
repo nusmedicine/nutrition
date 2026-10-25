@@ -1,9 +1,9 @@
 id: dementia-feeding
 title: "The feeding-tube request"
 objectives:
-  - "Recognise weight loss and difficulty eating as an expected feature of advanced dementia, not a reversible deficit."
+  - "Recognise weight loss and difficulty eating as an expected, irreversible feature of advanced dementia."
   - "State the evidence: in advanced dementia, tube feeding does not prolong survival, prevent aspiration, heal pressure ulcers or improve comfort, and can harm."
-  - "Do no harm: kindly hold the position on careful hand feeding under family pressure, and refer for a goals-of-care conversation instead of inserting a tube."
+  - "Do no harm: kindly hold the position on careful hand feeding under family pressure, and refer for a goals-of-care conversation."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, dementia, undernutrition, do-no-harm, palliative, singapore]
@@ -61,7 +61,7 @@ nodes:
     stem: "Mrs Koh asks why her mother is losing weight. How do you frame it?"
     options:
       - id: a
-        text: "It is an expected part of advanced dementia, not a sign of underfeeding."
+        text: "It is an expected part of the late course of advanced dementia."
         correct: true
         feedback: "Weight loss and difficulty eating are a late feature of the disease. Naming this plainly and kindly relieves guilt and steers away from futile tube feeding."
         effects: { quality: +1 }
@@ -86,14 +86,14 @@ nodes:
       - id: a
         text: "Explain gently that a tube would not help, keep hand feeding, and refer."
         correct: true
-        feedback: "You hold the evidence-based position with compassion, keep offering food for comfort, reframe 'doing everything' as comfort instead of a tube, and refer for a goals-of-care conversation. That is doing no harm under pressure."
+        feedback: "You hold the evidence-based position with compassion, keep offering food for comfort, reframe 'doing everything' as comfort and presence, and refer for a goals-of-care conversation. That is doing no harm under pressure."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
         text: "Agree to insert the PEG so she feels the team is doing everything possible."
         correct: false
-        feedback: "Appeasing with a harmful, non-beneficial procedure is a do-no-harm failure. The kind path is to hold the position and support her, not to insert a tube."
+        feedback: "Appeasing with a harmful, non-beneficial procedure is a do-no-harm failure. The kind path is to hold the position and support her."
         goto: remedial
       - id: c
         text: "Pass a nasogastric tube as a temporary compromise for now."
@@ -112,7 +112,7 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Comfort, not a tube, offered with compassion"
+    title: "Comfort care, offered with compassion"
     body: |
       In summary: recognise that weight loss is part of advanced dementia, explain plainly that a
       feeding tube does not prolong survival, prevent aspiration or improve comfort and can harm, keep
@@ -129,13 +129,13 @@ nodes:
       You recognised the weight loss as part of advanced dementia, explained gently that a feeding tube
       would not help and could harm, kept offering food for comfort, and referred for a goals-of-care
       conversation, even when Mrs Koh pushed hard for the tube. You reframed "doing everything" as
-      comfort and presence instead of a procedure.
+      comfort and presence.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Weight loss in advanced dementia is a disease feature, not a reversible shortfall in intake."
+        - "Weight loss in advanced dementia is a feature of the disease and does not reverse with extra intake."
         - "Tube feeding does not prolong survival, prevent aspiration, heal pressure ulcers or improve comfort, and can harm."
-        - "Do no harm under pressure: careful hand feeding plus a goals-of-care referral, not a tube inserted to appease the family."
+        - "Do no harm under pressure: careful hand feeding plus a goals-of-care referral, even when the family asks for a tube."
 
   - id: end-partial
     type: end

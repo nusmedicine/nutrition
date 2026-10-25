@@ -18,4 +18,4 @@ lossOptions:
   - { id: average, label: "Average", mult: 1.0 }
   - { id: fast, label: "Fast", mult: 1.12 }
 credit: >-
-  Illustrative life-course model after Hernandez 2003. A teaching aid, not a clinical calculator.
+  Illustrative life-course model after Hernandez 2003, for teaching only.

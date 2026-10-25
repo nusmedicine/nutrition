@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Expenditure is broadly steady from about 20 to 60; the creep is a small chronic surplus"
         correct: true
-        feedback: "Doubly labelled water data show stable expenditure through these decades; midlife weight creep comes from a small chronic surplus, usually from falling activity and muscle plus a little more intake. The aim is to stay active and preserve muscle, not to crash-diet against a metabolic decline that is not happening."
+        feedback: "Doubly labelled water data show stable expenditure through these decades; midlife weight creep comes from a small chronic surplus, usually from falling activity and muscle plus a little more intake. The aim is to stay active and preserve muscle."
       - text: "Yes, basal metabolic rate falls steadily from the thirties, so gain is inevitable"
         correct: false
         feedback: "This is the commonest explanation, but adjusted energy expenditure is stable from about 20 to 60 and falls only later in life; the creep comes from a small surplus, usually driven by declining activity and muscle."
@@ -19,10 +19,10 @@ questions:
     options:
       - text: "An ordinary healthy plate and water; no sports drink, gel or powder"
         correct: true
-        feedback: "At this common level of activity, normal food and water cover the need; the high-carbohydrate and during-exercise advice is designed for serious endurance athletes. Sports nutrition is needed only at true endurance training volumes, not for a few weekly sessions."
+        feedback: "At this common level of activity, normal food and water cover the need. High-carbohydrate and during-exercise advice is designed for athletes at true endurance training volumes."
       - text: "Carbohydrate-load the day before and drink a sports drink during each session"
         correct: false
-        feedback: "This is athlete guidance applied out of context: carb-loading and during-exercise sports drinks are for long endurance efforts, not a 45-minute gym session. Water is enough here."
+        feedback: "This is athlete guidance applied out of context: carb-loading and during-exercise sports drinks are for long endurance efforts. Water is enough for a 45-minute gym session."
       - text: "A protein shake within 30 minutes of every session, or the workout is wasted"
         correct: false
         feedback: "The 'anabolic window' is far wider than marketed: once daily protein is adequate, precise timing barely matters, and food is sufficient."
@@ -77,7 +77,7 @@ questions:
         feedback: "The flush marks acetaldehyde build-up and a raised oesophageal-cancer risk with continued drinking, so it is a reason to advise cutting down."
       - text: "It means he's allergic to alcohol and should carry an adrenaline pen"
         correct: false
-        feedback: "An enzyme (ALDH2) variant causes the acetaldehyde build-up, so this is not an allergy; the concern is long-term cancer risk, not anaphylaxis."
+        feedback: "An enzyme (ALDH2) variant causes the acetaldehyde build-up, so this is not an allergy. The concern is long-term cancer risk."
 
   - id: q7
     stem: "A rotating-shift nurse asks how to eat better on nights. Which single change has the best evidence?"

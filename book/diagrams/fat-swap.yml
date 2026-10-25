@@ -1,7 +1,7 @@
 # Data for the FatSwap island (Cardiovascular Disease & Hypertension chapter).
 # A "replaced with what?" decision widget for the "Dietary fat: quality and replacement" section.
 # The learner is cutting saturated fat and must choose the REPLACEMENT. The teaching point:
-# what protects the heart is the swap, not the cut: replace saturated fat with unsaturated fat
+# what protects the heart is the swap: replace saturated fat with unsaturated fat
 # (LDL down, events down); replace it with refined carbohydrate/sugar and the benefit vanishes.
 # Single-select. Pure content, no asset paths.
 # No `caption` key: the chapter paragraph beside the island already asks "replaced with what?"
@@ -27,7 +27,7 @@ options:
     effect: down
     note: >-
       Whole-food sources of unsaturated fat also lower LDL and events, and they are central to
-      the Mediterranean pattern. Recommend the oily fish itself, not a fish-oil capsule.
+      the Mediterranean pattern. Recommend the oily fish itself. A fish-oil capsule is not a substitute.
   - id: refined-carb
     label: "Refined carbohydrate & sugar"
     example: "white bread, sugary drinks, biscuits"
