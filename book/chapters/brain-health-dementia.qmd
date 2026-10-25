@@ -1,7 +1,7 @@
 # Brain health and dementia
 
 > *Patients with a family history of dementia often ask what to eat to avoid it, and the best-supported
-> answer is control of vascular risk rather than a particular food or supplement. We cover the
+> answer is control of vascular risk. We cover the
 > pathophysiology of neurodegeneration and small-vessel disease, how diet and vascular risk factors
 > affect dementia risk, eating difficulties in advanced dementia, and when to refer.*
 
@@ -29,7 +29,7 @@
   - [Can a diet prevent dementia?](#sec-dementia-diet): a cohort association, a null trial
   - [Do brain supplements prevent dementia?](#sec-dementia-supplements): none proven, some harmful
   - [Non-dietary modifiable risk factors](#sec-dementia-beyond): activity, hearing and vision, engagement
-- [Eating difficulties and weight loss in advanced dementia](#sec-dementia-advanced): careful hand feeding, not a tube
+- [Eating difficulties and weight loss in advanced dementia](#sec-dementia-advanced): careful hand feeding for comfort
 - [When to refer](#sec-dementia-refer): genetic worry, goals of care, swallowing
 :::
 
@@ -45,22 +45,19 @@ summarise the evidence:
   best-supported, most actionable advice. It is the same prevention as for heart disease and diabetes
   (see the [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) and
   [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
-- A brain-healthy eating pattern is a reasonable, low-risk choice, not a proven cure. Cohort studies
+- A brain-healthy eating pattern is a reasonable, low-risk choice. Cohort studies
   report large associations, but the one prevention trial built to test a brain diet was negative.
 - No brain supplement is proven to prevent dementia, and a few can do harm.
-- Late in the disease the concern shifts from prevention to eating difficulty. Weight loss and
-  difficulty eating are an expected part of advanced dementia, not a nutritional gap to fill with a
-  feeding tube.
+- Late in the disease the concern shifts from prevention to eating difficulty. Weight loss and difficulty eating are an expected part of advanced dementia, and a feeding tube does not help.
 
 The task here is to recognise the modifiable risk factors, counsel truthfully and refer; no drug names
 or doses are needed.
 
 ## Pathophysiology: neurodegeneration and small-vessel disease {#sec-dementia-pathways}
 
-Two kinds of brain damage usually occur together in dementia.
+Two kinds of brain damage, neurodegeneration and cerebral small-vessel disease, usually occur together in dementia.
 
-The first is **neurodegeneration**, the dominant process in Alzheimer's disease: two abnormal proteins accumulate (**amyloid-β** in plaques between neurons and **tau** in tangles inside them), with loss of synapses and neurons and brain atrophy. Its exact causal chain is still debated, so the amyloid-and-tau account is the leading model, not
-settled fact.
+The first is **neurodegeneration**, the dominant process in Alzheimer's disease: two abnormal proteins accumulate (**amyloid-β** in plaques between neurons and **tau** in tangles inside them), with loss of synapses and neurons and brain atrophy. Its exact causal chain is still debated, so the amyloid-and-tau account remains the leading model.
 
 The second is vascular: damage to the brain's small blood vessels, called **cerebral small-vessel
 disease**. Chronic hypertension damages blood vessels and drives stroke (see the
@@ -88,9 +85,7 @@ for Alzheimer's disease, those who also had small strokes were more likely to ha
 life, and fewer plaques and tangles seemed to be enough to produce it [@snowdon1997nunstudy].
 :::
 
-The additive model has a practical implication. We cannot yet clear plaques and tangles with food, but we
-*can* reduce the vascular load, and doing so lowers the total burden whichever model of
-neurodegeneration turns out to be right.
+Because the two kinds of damage add up, and no food yet clears plaques and tangles, reducing the vascular load is the practical way to lower the total burden, whichever model of neurodegeneration turns out to be right.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: food cannot yet clear amyloid plaques or tau tangles. Why can lowering vascular risk still delay dementia?
@@ -119,16 +114,13 @@ and could be eliminated from the whole population. The estimate is easy to overs
 mean that one person who controls their risk factors cuts their own risk by 45%, and it is not proof
 from a trial.
 
-Each risk factor raises risk only modestly, and reducing vascular damage is one of several ways the
-factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number comes from adding many common exposures across a life, not from one dominant cause. Three further points help in interpreting the estimate. First, the largest single contributors in the model are hearing loss and high LDL cholesterol (about 7% each), followed by less education and social isolation (about 5% each). Second, diet is not among the modelled factors, because the Commission judged its evidence not consistent enough to include. Third, midlife is a key period, so prevention is a long-term
-effort.
+Each risk factor raises risk only modestly, and reducing vascular damage is one of several ways the factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number comes from adding many common exposures across a life. The largest single contributors in the model are hearing loss and high LDL cholesterol (about 7% each), followed by less education and social isolation (about 5% each). Diet is not among the modelled factors, because the Commission judged its evidence not consistent enough to include. Midlife is a key period, so prevention is a long-term effort.
 
 The best trial evidence that treating a vascular risk factor protects the brain comes from SPRINT
 MIND. Intensively lowering blood pressure significantly reduced **mild cognitive impairment** (a
 decline in memory or thinking that falls short of dementia) and the combined measure of mild
 impairment or dementia [@sprintmind2019jama]. It did not, on its own, reduce dementia (the trial was
-stopped early for its heart benefit, leaving it underpowered for that harder endpoint). Even with that
-caveat, it is the best trial evidence available, and it points to vascular risk.
+stopped early for its heart benefit, leaving it underpowered for that harder endpoint).
 
 ### Can a diet prevent dementia? {#sec-dementia-diet}
 
@@ -140,7 +132,7 @@ repeated as fact.
 
 A three-year randomised trial of the MIND diet, built specifically to answer the prevention question,
 then found no cognitive benefit over a control diet with the same mild calorie restriction and counselling
-[@barnes2023mindrct]. The trial did not confirm the cohort association.
+[@barnes2023mindrct].
 
 Three explanations could account for the difference (see the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter):
 
@@ -164,20 +156,18 @@ vascular component.
 
 ### Do brain supplements prevent dementia? {#sec-dementia-supplements}
 
-Patients often ask about supplements. No supplement is proven to prevent dementia, and
-several carry a downside:
+No supplement is proven to prevent dementia, and several carry a downside:
 
 | Supplement | Claim / rationale | Verdict |
 |---|---|---|
 | B vitamins | Lower homocysteine (an amino acid in the blood); a small study showed slower brain atrophy on scans [@smith2010vitacog] | Large trials found no benefit to memory or thinking [@clarke2014bvitamin]; an imaging change is not a clinical benefit |
-| Fish-oil (omega-3) capsules | Omega-3 for the brain | Trials show no cognitive benefit [@sydenham2012cochraneomega3]; eat fish rather than taking capsules |
+| Fish-oil (omega-3) capsules | Omega-3 for the brain | Trials show no cognitive benefit [@sydenham2012cochraneomega3]; recommend eating fish |
 | Vitamin E | Antioxidant for prevention | Trials found it did not prevent dementia in older men [@kryscio2017preadvise] or stop mild impairment progressing to dementia [@farina2017vitaminecochrane]; at high doses it has been linked to a small increase in death [@miller2005vitamine], so this one can cause harm |
 | Ginkgo biloba | The classic "brain tonic" | A large trial found it did not reduce dementia at all [@dekosky2008gem]; may raise bleeding risk in people taking blood thinners such as warfarin [@nccih2025ginkgo] |
 | Coconut oil or "MCT" (medium-chain triglycerides) | Marketed for Alzheimer's | No credible trial evidence, and coconut oil is more than 80% saturated fat [@usdaFdcCoconutOil], so it works against the vascular risk control that actually matters |
 | "Medical foods" | Marketed for memory | A regulatory category with a lower bar than a medicine; the label is not evidence that the product works |
 
-A claim deserves scepticism when it rests on a blood or scan marker instead of memory itself, on a
-small pilot, or on an after-the-fact subgroup.
+A claim deserves scepticism when it rests on a blood or scan marker, a small pilot or an after-the-fact subgroup.
 
 ### Non-dietary modifiable risk factors {#sec-dementia-beyond}
 
@@ -197,18 +187,18 @@ to be part of why age-specific dementia incidence has fallen in some high-income
 [@livingston2024lancet].
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why does dementia-prevention advice lead with blood pressure and glucose, not with a brain diet?
+## Check yourself: why does dementia-prevention advice lead with blood pressure and glucose?
 Vascular risk control has the strongest trial evidence: in SPRINT MIND, intensive blood-pressure lowering
 reduced mild cognitive impairment, although the trial was underpowered to show fewer cases of dementia
 itself. Diabetes injures the same small vessels, so glucose control acts on the same vascular pathway.
 The MIND diet's halved risk came from cohorts, which confounding and reverse causation can inflate,
 and it was not confirmed in a three-year randomised trial. A Mediterranean-style pattern is still worth
-recommending as a low-risk, heart-healthy choice, but not as proven prevention.
+recommending as a low-risk, heart-healthy choice, although it has not been shown to prevent dementia.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: B vitamins slowed brain atrophy on scans in a small study. Why is that not a reason to recommend them?
-Brain atrophy on a scan is a marker, not memory itself. When B vitamins were tested in large trials,
+Brain atrophy on a scan is a marker, and a change in a marker does not show a benefit to memory. When B vitamins were tested in large trials,
 they brought no benefit to memory or thinking. A claim that rests on a blood or scan marker, a small
 pilot or an after-the-fact subgroup deserves scepticism.
 :::
@@ -220,11 +210,7 @@ most people with advanced dementia develop an eating problem, and it marks a lat
 [@mitchell2009cascade]. The instinct, and the family's plea, is to "do something so she doesn't
 starve", and a common ward response is to consider a feeding tube.
 
-There are no randomised trials, and the observational evidence is of low certainty, but it shows no
-sign of benefit. In advanced dementia, studies have found no evidence that tube feeding prolongs
-survival, prevents aspiration pneumonia, heals or prevents pressure ulcers, or improves comfort, and it
-is linked to harm, including *more* pressure ulcers [@davies2021cochranetubefeeding;
-@teno2012pressureulcers]. Geriatrics societies and the Choosing Wisely campaign converge on the same
+In advanced dementia, studies have found no evidence that tube feeding prolongs survival, prevents aspiration pneumonia, heals or prevents pressure ulcers, or improves comfort, and it is linked to harm, including *more* pressure ulcers [@davies2021cochranetubefeeding; @teno2012pressureulcers]. There are no randomised trials, and the observational evidence is of low certainty. Geriatrics societies and the Choosing Wisely campaign converge on the same
 position: **careful hand feeding**, offering food for comfort, is preferred [@ags2014feedingtubes; @agscw2013fivethings].
 
 Two things are separate from the tube question and still appropriate: correcting a genuine vitamin deficiency, and supporting oral intake with feeding help earlier in the disease.
@@ -242,16 +228,14 @@ conversation, is the evidence-based response.
 
 ## When to refer {#sec-dementia-refer}
 
-The generalist counsels on prevention and recognises the late-stage trajectory. Three situations call
-for a referral instead of further advice or a product:
+The generalist counsels on prevention, recognises the late-stage trajectory, and refers in three situations:
 
 - Persistent worry about genetic risk. A patient with a family history may ask about genetic
   testing for the *APOE* gene, whose variants are linked to Alzheimer's risk. The answer is that *APOE*
-  is not tested for or acted on in ordinary prevention. If the worry persists, that is a reason to
-  refer, not to start a supplement.
+  is not tested for or acted on in ordinary prevention. If the worry persists, that is a reason to refer.
 - Weight loss in advanced dementia. Once the trajectory is recognised and explained, refer for a
-  goals-of-care conversation instead of reaching for a tube.
-- Swallowing difficulty (dysphagia). Fluids are often thickened routinely for dysphagia on the ward, yet the evidence for routine thickening in dementia is weak: it can reduce aspiration in the moment, but its longer-term effects are uncertain [@flynn2018cochranethickening]. Refer to a speech therapist, who sets the texture level, instead of assuming thickening is needed.
+  goals-of-care conversation.
+- Swallowing difficulty (dysphagia). Refer to a speech therapist, who decides whether thickening is needed and sets the texture level. Fluids are often thickened routinely for dysphagia on the ward, but the evidence for routine thickening in dementia is weak: it can reduce aspiration in the moment, though its longer-term effects are uncertain [@flynn2018cochranethickening].
 
 The recognise-and-refer approach, and the malnutrition screening behind it, are set out in the
 [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
@@ -260,9 +244,7 @@ who does what across the multidisciplinary team, is in the
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with advanced dementia has trouble swallowing, and the ward plans routine thickened fluids. What should the generalist do instead?
-The evidence for routinely thickening fluids for dysphagia is weak. Recognise it as a common ward
-practice, not an established need, and refer to speech therapy instead of assuming thickening is
-required.
+The evidence for routinely thickening fluids for dysphagia is weak. Refer to a speech therapist, who decides whether thickening is needed and sets the texture level.
 :::
 
 ## What should a patient worried about dementia be told? {#sec-close}
@@ -277,7 +259,7 @@ Take the fear seriously, then cover four points:
    vision corrected.
 
 If the same family later returns with a relative who is losing weight in advanced dementia, the kind,
-evidence-based answer is careful hand feeding for comfort, not a tube, with a referral for a proper conversation about goals.
+evidence-based answer is careful hand feeding for comfort, with a referral for a proper conversation about goals.
 
 ## The Singapore context {#sec-singapore}
 
@@ -290,12 +272,11 @@ more stroke, and the authors suggest the heavier cardiovascular risk seen in Sou
 one explanation, although diagnosed diabetes and hypertension were not themselves linked to dementia
 in that survey [@subramaniam2025wisedecade]. Whatever the local explanation, the message "brain health is vascular health" rests on the wider evidence and fits national diabetes and hypertension efforts.
 
-Two local realities shape counselling. The first is a large local market in over-the-counter "brain
-tonics" (ginkgo, fish oil and traditional tonics), so patients need to hear that being sold in a pharmacy does not make a product proven or approved for dementia.
+Singapore has a large market in over-the-counter "brain tonics" (ginkgo, fish oil and traditional tonics), so patients need to hear that being sold in a pharmacy does not make a product proven or approved for dementia.
 
-The second is a set of local socio-cultural findings. In a multi-ethnic Singapore cohort, overall diet
+In a multi-ethnic Singapore cohort, overall diet
 quality is associated with better cognition [@huangx2023singaporemec], and regular curry (curcumin) intake has
-been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry], but the curry finding generates a hypothesis, not a prescription. Local programmes such as the SINGER study are also adapting the multidomain approach to Singaporean food and life [@chew2021singerpilot].
+been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry]. The curry finding is a hypothesis for further study and too preliminary to base dietary advice on. Local programmes such as the SINGER study are also adapting the multidomain approach to Singaporean food and life [@chew2021singerpilot].
 
 ## Check your understanding {#sec-quiz}
 

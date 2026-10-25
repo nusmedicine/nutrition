@@ -2,8 +2,7 @@
 
 > *Patients often ask what to eat and which supplements to take for their bones and joints, and the
 > answer differs by condition. We cover bone remodelling, the dietary factors that support bone, the
-> joints (osteoarthritis and gout, whose main treatments are weight loss and, for gout, a drug, not
-> supplements), and when to refer.*
+> joints (osteoarthritis and gout, whose main treatments are weight loss and, for gout, a drug, with little role for supplements), and when to refer.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -27,9 +26,9 @@
   - [Does protein leach calcium from bone?](#sec-bone-protein)
   - [Body weight and the whole pattern](#sec-bone-weight)
   - [Do salt, caffeine and cola harm bone?](#sec-bone-contested)
-  - [Supplements](#sec-bone-supplements): for deficiency, not for everyone
+  - [Supplements](#sec-bone-supplements): for deficiency or high risk
 - [The joints](#sec-bone-joints)
-  - [Osteoarthritis](#sec-bone-oa): weight loss, not supplements
+  - [Osteoarthritis](#sec-bone-oa): weight loss and activity
   - [Gout](#sec-bone-gout): diet and counselling
   - [Rheumatoid arthritis](#sec-bone-ra): nutrition as an adjunct
 - [When to refer](#sec-bone-refer)
@@ -40,37 +39,31 @@
 ## Bone & joint health at a glance {#sec-bone-overview}
 
 The two musculoskeletal questions a generalist hears most often, *"what should I take for my bones?"* and
-*"should I take glucosamine for my joints?"*, concern different systems. **Osteoporosis** (low bone density,
+*"should I take glucosamine for my joints?"*, concern different systems and have different answers: for bone, calcium, vitamin D and protein are strong, correctable factors, and for the joints the answer is usually to lose weight, avoid the supplement and refer. **Osteoporosis** (low bone density,
 silent until a bone breaks) is common and costly: Singapore's hip-fracture *rate* is falling, but the *count*
 keeps rising with ageing [@koh2001hipfracSG; @chandran2019burdenSG]. Knee **osteoarthritis** (worn, painful
 joint cartilage) and **gout** (a metabolic disease in which uric acid crystals inflame the joint) are common
-too [@leung2018sgkoa; @lee2023sggout], and supplements are heavily marketed for both. For bone, calcium, vitamin D and
-protein are strong, correctable factors; for the joints, the answer is usually to lose weight, avoid the
-supplement and refer.
+too [@leung2018sgkoa; @lee2023sggout], and supplements are heavily marketed for both.
 
 []{#sec-bone-conditions}
 
-Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three are different diseases that need different nutrition: calcium does nothing for arthritis, glucosamine does nothing for osteoporosis, and gout is neither cartilage wear nor bone loss.
+Osteoporosis, osteoarthritis and gout are different diseases that need different nutrition, and patients and busy clinics often mix them up. Calcium does nothing for arthritis, glucosamine does nothing for osteoporosis, and gout is a disorder of urate handling.
 
 ![Three conditions patients confuse, and their different dietary management. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet changes urate only modestly and the main treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
 
 Four principles apply throughout:
 
-- Peak bone mass is reached in young adulthood (from the late teens to the thirties, depending on the skeletal site), and only about 20–40% of it is modifiable by
-  lifestyle, a real but limited influence: peak bone mass is built in youth, and the rate of later bone loss matters for
-  the rest of life [@nof_weaver_2016_pbm_position].
-- What counts is how much calcium is absorbed (its bioavailability), not the number on the label, and a
+- Peak bone mass is reached in young adulthood (from the late teens to the thirties, depending on the skeletal site), and lifestyle can modify only about 20–40% of it; after the peak, the rate of bone loss matters for the rest of life [@nof_weaver_2016_pbm_position].
+- The calcium that counts is the amount absorbed (its bioavailability), and a
   multi-ethnic, partly lactose-intolerant population can meet its needs without milk
   [@weaverVegCalcium1999; @healthhubCalciumSG].
 - Calcium and vitamin D help people who are genuinely deficient, but blanket supplements for already-replete
   community-dwelling adults do not prevent fractures [@zhao2017cavitdNoBenefit].
-- For the joints, the most heavily marketed supplement (glucosamine) is the one the guidelines advise against; the
-  effective measures are weight loss for osteoarthritis and a urate-lowering drug for gout [@wandel2010nma;
-  @kolasinski2020acr].
+- For the joints, the effective measures are weight loss for osteoarthritis and a urate-lowering drug for gout, and the guidelines advise against the most heavily marketed supplement, glucosamine [@wandel2010nma; @kolasinski2020acr].
 
 ## Pathophysiology: bone remodelling {#sec-bone-bank}
 
-Bone is living tissue in constant turnover, not an inert structure, which is why diet affects
+Bone is living tissue in constant turnover, which is why diet affects
 the skeleton. Two cell types carry out this turnover:
 
 Osteoblasts
@@ -98,8 +91,7 @@ blunt it, are covered in the [*Childhood & adolescence*](childhood-adolescence.q
 
 A higher peak bone mass postpones the age at which bone density falls to the osteoporosis threshold. In a
 model, a 10% higher peak bone density delays the onset of osteoporosis by about 13 years, far more than a
-later menopause or slower loss [@hernandez2003peakBmdModel]. The gain is measured in years of delay, not as a
-percentage reduction in fractures.
+later menopause or slower loss [@hernandez2003peakBmdModel]. The model measures the gain in years of delay and gives no estimate of fractures prevented.
 
 In women, bone loss accelerates around the menopause. As oestrogen falls, the resorption signal RANKL rises and
 shifts remodelling toward osteoclastic resorption [@eghbali2003rankl], and women lose roughly 7% of spine and
@@ -126,12 +118,12 @@ unabsorbed, parathyroid hormone rises and mobilises calcium from bone, and bone 
 After the peak in young adulthood, resorption gradually outpaces formation, so everyone's bone mass falls for the
 rest of life. Starting from a higher peak means bone density takes longer to fall to the osteoporosis
 threshold: in a model, a 10% higher peak delays onset by about 13 years, more than a later menopause or
-slower loss. The gain is years of delay, not a percentage reduction in fractures.
+slower loss.
 :::
 
 ## Dietary management: modifiable factors in bone health {#sec-bone-levers}
 
-The dietary factors that support bone are calcium, vitamin D, protein, adequate body weight and the whole dietary pattern. The claims against salt, caffeine and cola rest on weak evidence, and supplements help people with a genuine shortfall or high risk, not everyone.
+The dietary factors that support bone are calcium, vitamin D, protein, adequate body weight and the whole dietary pattern. The claims against salt, caffeine and cola rest on weak evidence, and supplements help people with a genuine shortfall or high risk.
 
 ### Calcium: requirements and bioavailability {#sec-bone-calcium}
 
@@ -156,7 +148,7 @@ low-oxalate greens such as kai-lan and bok choy are absorbed better still [@weav
 and calcium-set tofu an excellent one (see the *Micronutrients, hydration and electrolytes* chapter for the
 oxalate contrast).
 
-![How much calcium a food delivers depends on how much is absorbed, not the amount it contains. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu are around a quarter to a third absorbed; low-oxalate greens like kai-lan and bok choy are absorbed better still.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
+![How much calcium a food delivers depends on how much of it is absorbed. Calcium in high-oxalate spinach is only about 5% absorbed; milk and calcium-set tofu are around a quarter to a third absorbed; low-oxalate greens like kai-lan and bok choy are absorbed better still.](/figures/mechanisms/calcium-bioavailability.svg){#fig-calcium-bio width="82%" fig-align="center"}
 
 ::: {.callout-tip}
 ## 🍜 Eating out (and eating in): the dairy-optional calcium plate
@@ -180,8 +172,7 @@ intestinal absorption of calcium [@laird2010vitDbone]. Two practical questions f
 ![Vitamin D from skin and diet is activated through the liver and kidney to its active form, which drives intestinal calcium absorption, keeping bone supplied. When vitamin D is low, calcium absorption falls, parathyroid hormone rises, and calcium is mobilised from bone, so the deficiency depletes bone mineral. Vitamin D does not build bone directly; it enables calcium to be absorbed.](/figures/mechanisms/vitamin-d-calcium-axis.svg){#fig-vitd-axis width="92%" fig-align="center"}
 
 Despite the sun, vitamin D deficiency is common in equatorial Singapore: roughly 1 in 3 mid-life women are
-deficient [@cheong2021vitDsg]. Behaviour and biology, not the climate, explain this. Each of the
-following cuts skin synthesis of vitamin D [@nimitphong_2013_vitd_sea; @maclaughlin1985skinVitD]:
+deficient [@cheong2021vitDsg]. Behaviour and biology explain this: each of the following cuts skin synthesis of vitamin D [@nimitphong_2013_vitd_sea; @maclaughlin1985skinVitD]:
 
 - indoor lifestyles;
 - cosmetic sun avoidance;
@@ -193,25 +184,13 @@ following cuts skin synthesis of vitamin D [@nimitphong_2013_vitd_sea; @maclaugh
 The burden is unequal: Indian and Malay women have several-fold higher odds of deficiency than Chinese women,
 which makes deficiency an equity issue [@cheong2021vitDsg].
 
-Common deficiency does not justify testing and supplementing everyone. Few foods contain vitamin D naturally (oily
-fish is the best) [@odsVitaminD], yet the Endocrine Society guideline now suggests against routine testing, and
-against empiric doses above the US Dietary Reference Intake in healthy adults under 75, while suggesting
-empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference
-intake is likewise a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda]. So although insufficiency by
-the laboratory cut-off is common, the response is to find and correct genuine shortfall in higher-risk
-people (those who cover up, stay indoors, are older or are pregnant) rather than to supplement the whole
-population.
+Common deficiency does not justify testing and supplementing everyone. The response is to find and correct genuine shortfall in higher-risk people (those who cover up, stay indoors, are older or are pregnant). Few foods contain vitamin D naturally; oily fish is the best source [@odsVitaminD]. The Endocrine Society guideline now suggests against routine testing and against empiric doses above the US Dietary Reference Intake in healthy adults under 75; it suggests empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference intake is likewise a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda].
 
 ### Does protein leach calcium from bone? {#sec-bone-protein}
 
-A widely held belief is that protein "leaches calcium from bone", an idea known as the **acid-ash
-hypothesis**. The belief draws on the extra calcium that appears in the urine after a protein meal. The
-evidence points the other way: that calcium comes from better intestinal absorption, not from dissolved
-bone, and higher protein intake with adequate calcium is associated with about 11% lower hip-fracture risk
-[@groenendijk2019protein].
+The evidence does not support the widely held belief that protein "leaches calcium from bone", an idea known as the **acid-ash hypothesis**. The belief draws on the extra calcium that appears in the urine after a protein meal. That calcium comes from better intestinal absorption, and higher protein intake with adequate calcium is associated with about 11% lower hip-fracture risk [@groenendijk2019protein].
 
-Protein's roles in bone explain the finding. It is the collagen matrix bone is built on, it drives the
-bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. When an older patient worries that "meat is bad for my bones", the advice is the opposite: eat enough protein, alongside enough calcium. (The muscle–bone overlap is approached from the sarcopenia side in the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy ageing*](healthy-ageing.qmd) chapters.)
+Protein supports bone in three ways: it is the collagen matrix bone is built on, it drives the bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. When an older patient worries that "meat is bad for my bones", the advice is the opposite: eat enough protein, alongside enough calcium. (The muscle–bone overlap is approached from the sarcopenia side in the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy ageing*](healthy-ageing.qmd) chapters.)
 
 ### Body weight and the whole pattern {#sec-bone-weight}
 
@@ -226,17 +205,15 @@ potassium, magnesium and vitamin K), a reliable calcium source, enough protein a
 
 ::: {.callout-note}
 ## Mechanical loading: a key modifiable factor
-Diet supports both building peak bone mass and slowing its later loss, and mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & midlife health* chapter, is another important modifiable influence on bone. Nutrition and loading work together: calcium is the substrate, and loading is the stimulus for bone formation. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact training improved bone density more than a low-intensity home programme in postmenopausal women with low bone mass, with only one minor adverse event [@watson2018liftmor]. When you advise a patient, name exercise as part
+Mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & midlife health* chapter, is an important modifiable influence on bone alongside diet, which supports both building peak bone mass and slowing its later loss. Nutrition and loading work together: calcium is the substrate, and loading is the stimulus for bone formation. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact training improved bone density more than a low-intensity home programme in postmenopausal women with low bone mass, with only one minor adverse event [@watson2018liftmor]. When you advise a patient, name exercise as part
 of the plan and leave the detailed prescription to physical-activity guidance; HPB's own public message pairs
 a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009].
 :::
 
 ### Do salt, caffeine and cola harm bone? {#sec-bone-contested}
 
-Some foods are blamed for weak bones on thin evidence. The established dietary risks are low calcium, vitamin D or
-protein, low body weight and heavy alcohol; smoking is a major non-dietary risk [@iofRiskFactors;
-@ke2023alcoholFracture; @law1997smokingHipFracture]. Three popular claims are weaker than often
-supposed:
+The established dietary risks for bone are low calcium, vitamin D or protein, low body weight and heavy alcohol; smoking is a major non-dietary risk [@iofRiskFactors;
+@ke2023alcoholFracture; @law1997smokingHipFracture]. Three popular claims, against salt, caffeine and cola, rest on weaker evidence than often supposed:
 
 - Heavy salt raises urinary calcium, but its link to fracture is weak; the reason to cut salt is blood
   pressure [@teucher2008sodiumBone].
@@ -244,19 +221,18 @@ supposed:
 - The cola–bone association is observational and confounded by milk displacement; acid damage is not proven
   [@tucker2006colaBMD].
 
-### Supplements: for deficiency, not for everyone {#sec-bone-supplements}
+### Supplements: for deficiency or high risk {#sec-bone-supplements}
 
-Calcium and vitamin D supplements together can cut fractures: one meta-analysis pooling trials in
+The approach to calcium and vitamin D is food first, with supplements reserved for genuine shortfall or high risk. Together the two supplements can cut fractures: one meta-analysis pooling trials in
 community-dwelling and institutionalised adults found roughly 15% fewer fractures overall and 30% fewer hip
 fractures, with the clearest effect in the two trials in institutional care [@weaver2016cavitd]. In
 already-replete, community-dwelling older adults, however, large trials and pooled analyses find no fracture
 benefit, and a small increase in kidney stones [@zhao2017cavitdNoBenefit; @leboff2022vitalFractures;
-@uspstfCalcium2018]. The message is therefore food first: correct genuine deficiency, and reserve supplements
-for real shortfall or high risk, rather than advising calcium and vitamin D for everyone over 50.
+@uspstfCalcium2018].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: spinach and calcium-set tofu both contain calcium. Why is the tofu the better source for bone?
-What reaches bone is the calcium that is absorbed, not the amount the food contains. Spinach's calcium is
+What reaches bone is the calcium that is absorbed. Spinach's calcium is
 bound to oxalate, so only about 5% is absorbed, whereas calcium-set tofu is absorbed about as well as milk,
 roughly a quarter to a third. The label's calcium content therefore overstates what spinach delivers.
 :::
@@ -271,7 +247,7 @@ benefit. Food first is the approach, with supplements reserved for genuine short
 
 ## The joints {#sec-bone-joints}
 
-For the joints, the most heavily marketed supplement, glucosamine, has no proven benefit, while weight loss for knee osteoarthritis and a urate-lowering drug for gout are effective. The spectrum below places the common treatments and claims for osteoarthritis, gout and rheumatoid arthritis by the strength of their evidence.
+For the joints, the effective treatments are weight loss for knee osteoarthritis and a urate-lowering drug for gout. Glucosamine, the most heavily marketed supplement, has no proven benefit. The spectrum below places the common treatments and claims for osteoarthritis, gout and rheumatoid arthritis by the strength of their evidence.
 
 ::: {.spectrum}
 [Evidence for joint treatments and claims]{.tree-title}
@@ -284,19 +260,18 @@ For the joints, the most heavily marketed supplement, glucosamine, has no proven
 [No proven benefit]{.spectrum-end} [Proven benefit]{.spectrum-end}
 :::
 
-### Osteoarthritis: weight loss, not supplements {#sec-bone-oa}
+### Osteoarthritis: weight loss and activity {#sec-bone-oa}
 
 Osteoarthritis, the commonest arthritis and a heavy burden locally, is the condition patients most often ask
-about supplements for, and the answer has two parts.
+about supplements for.
 
-The first is that the measure that works is weight loss (with activity). Obesity is the leading modifiable risk factor,
+The measure that works is weight loss, with activity. Obesity is the leading modifiable risk factor,
 acting through both the mechanical load on the joint and the low-grade inflammation of adipose tissue
 [@shumnalieva2023obesityoa]. In the IDEA trial, a diet-plus-exercise programme that lost about 10% of body
 weight improved pain and function while measurably lowering both knee load and inflammation, and more loss
 gave more benefit [@messier2013idea; @messier2018morebetter].
 
-The second is that the supplements do not work. Glucosamine and chondroitin, the best-selling joint
-supplements, are no better than placebo for pain or joint structure in the major independent trials
+Glucosamine and chondroitin, the best-selling joint supplements, are no better than placebo for pain or joint structure in the major independent trials
 [@clegg2006gait; @wandel2010nma]. The major guidelines all advise against them: those of the American
 College of Rheumatology (ACR), the Osteoarthritis Research Society International (OARSI), the National
 Institute for Health and Care Excellence (NICE) and Singapore's Agency for Care Effectiveness (ACE)
@@ -313,10 +288,7 @@ in osteoarthritis [@mcalindon2013vitd; @lin2023collagenoa].
 Glucosamine shows how consumer messaging can go beyond the evidence. Singapore's professional guidance (ACE)
 states that glucosamine and chondroitin "may add cost without established clinical benefit" for knee
 osteoarthritis, yet the government consumer portal (HealthHub) still frames glucosamine positively, as
-something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. The point about harm is
-subtle: these supplements are generally safe, so the harm is not toxicity but **cost, false
-reassurance, and spending on an ineffective pill instead of the intervention that works** (losing weight and
-staying active). When a patient asks "should I take glucosamine?", the money is better spent on the measures
+something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. These supplements are generally safe, and their harm is **cost and false reassurance**, which can lead a patient to spend on an ineffective pill and neglect the intervention that works (losing weight and staying active). When a patient asks "should I take glucosamine?", the money is better spent on the measures
 that work.
 :::
 
@@ -349,13 +321,11 @@ protein and vegetables, cut the beer and sugary drinks if you like, and take the
 
 **Rheumatoid arthritis**, an autoimmune joint disease managed with disease-modifying drugs, is different
 again: nutrition is only a modest adjunct. Omega-3 fish oil can ease symptoms and spare some
-anti-inflammatory medication, and a Mediterranean pattern may help a little, but neither substitutes for the
-drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
+anti-inflammatory medication, and a Mediterranean pattern may help a little. Neither replaces the disease-modifying drugs [@fraenkel2021raacr; @goldberg2007omega3jointpain; @proudman2015fishoilra; @papandreou2023madeira].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with knee osteoarthritis starts calcium tablets for his joints. Why won't they help?
-Osteoarthritis is worn joint cartilage, not low bone density, so calcium, which acts on bone, does not act
-on it. The one effective dietary measure for osteoarthritis is weight loss. Calcium is relevant to osteoporosis, a
+Osteoarthritis is a disease of worn joint cartilage, and calcium acts on bone, so calcium tablets do nothing for the joint. The one effective dietary measure for osteoarthritis is weight loss. Calcium is relevant to osteoporosis, a
 different condition with different dietary advice.
 :::
 
@@ -392,8 +362,7 @@ Fragility fracture
 
 A T-score of −2.5 or below, or any fragility fracture, defines osteoporosis [@aceOsteoporosis2018]. Drug
 treatment and menopausal hormone decisions are specialist, guided by the national ACE guidance and the 2025
-Singapore consensus; at this level they are signposted, not managed
-[@aceOsteoporosis2025; @gani2025osteoconsensusSG].
+Singapore consensus; at this level they are only signposted [@aceOsteoporosis2025; @gani2025osteoconsensusSG].
 
 ### Gout: urate-lowering treatment to target {#sec-bone-refer-gout}
 
@@ -421,7 +390,7 @@ treatment that works.
 
 ## Bones and joints: what actually helps? {#sec-bone-close}
 
-Bone and the joints call for almost opposite answers. For bone, the modifiable factors are real and correctable:
+For bone, the modifiable factors are real and correctable:
 
 - a high peak bone mass built in youth, then slower bone loss across adulthood;
 - a well-absorbed calcium source (dairy optional), with enough vitamin D, protein and energy;

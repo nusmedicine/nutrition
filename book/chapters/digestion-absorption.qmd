@@ -40,9 +40,7 @@
 
 ## Digestion and absorption at a glance {#sec-overview}
 
-The gut is one continuous tube from mouth to anus, so whatever is inside it is still, in a sense,
-outside the body. Food enters the body only when its nutrients cross the gut wall, and the digestive
-system therefore has two jobs:
+Food enters the body only when its nutrients cross the gut wall: the gut is one continuous tube from mouth to anus, so whatever is inside it is still, in a sense, outside the body. The digestive system therefore has two jobs:
 
 Digestion
 : Breaking food into pieces small enough to absorb.
@@ -86,9 +84,7 @@ bacteria onward roughly every 1–2 hours; the hormone motilin triggers it [@del
 
 ::: {.callout-note}
 ## How long does a meal take?
-Transit times are approximate ranges, not fixed numbers: hours in the stomach, hours in the small
-intestine, and up to a day or more in the colon, around 1–3 days end to end, varying with diet, fibre,
-fluid and activity. (Fibre's effect on bowel regularity is in the [*Macronutrients*](macronutrients.qmd)
+Transit times vary with diet, fibre, fluid and activity. Approximate ranges are hours in the stomach, hours in the small intestine, and up to a day or more in the colon, around 1–3 days end to end. (Fibre's effect on bowel regularity is in the [*Macronutrients*](macronutrients.qmd)
 chapter.)
 :::
 
@@ -118,14 +114,13 @@ protein.
 ::: {.callout-note}
 ## Why pancreatic proteases are secreted inactive
 The pancreas makes its protein-digesting enzymes as inactive precursors (zymogens), which are activated
-only once they reach the gut. Otherwise the enzymes would digest the pancreas itself. At this stage the concept matters,
-not the details of the activation cascade.
+only once they reach the gut. Otherwise the enzymes would digest the pancreas itself. The details of the activation cascade are beyond this stage.
 :::
 
 ### Lactase deficiency and lactose intolerance {#sec-lactose}
 
 The brush-border enzyme lactase splits lactose (milk sugar; see the [*Macronutrients*](macronutrients.qmd)
-chapter). Most of the world's adults make less lactase after childhood, and this is the norm, not a disease. Three conditions are easy to confuse:
+chapter). Most of the world's adults make less lactase after childhood, which is the normal human pattern. Three conditions are easy to confuse:
 
 Lactase deficiency
 : Making little lactase; very common in East Asian adults.
@@ -137,14 +132,13 @@ Lactose intolerance
 Milk allergy
 : An immune reaction to milk protein, unrelated to lactase.
 
-The gap between the first two is wide. In Singapore-born Chinese adults, about 95% are
+Lactase deficiency is far more common than lactose intolerance. In Singapore-born Chinese adults, about 95% are
 lactase-deficient, yet only around a third report symptoms on ordinary amounts of milk [@yap1989]. A
 more recent multi-ethnic Malaysian study finds the same high prevalence across Chinese, Malay and
 Indian adults [@goh2018lactase].
 
 Symptoms arise when undigested lactose reaches the colon, where resident bacteria ferment it and produce gas (see [*The gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Because symptoms depend on how much lactose arrives, the practical message is food-first and culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources (calcium-set
-tofu, fortified soy milk, leafy greens, small fish with bones) all work, while "just drink three
-glasses of milk" does not.
+tofu, fortified soy milk, leafy greens, small fish with bones) all supply calcium with little or no lactose.
 
 ### Gut hormones: timing secretion and motility {#sec-gut-hormones}
 
@@ -191,10 +185,7 @@ Absorption needs a large surface and a route matched to each nutrient: sugars an
 
 ### The absorptive surface {#sec-surface}
 
-The small intestine's absorptive surface is far larger than its outside suggests. Its lining is thrown
-into circular folds, the folds are carpeted with finger-like **villi**, and each lining cell carries a
-dense layer of **microvilli**, which form the brush border. Together they give a surface of roughly 30 m²,
-about half a badminton court.
+Three levels of structure give the small intestine an absorptive surface of roughly 30 m², about half a badminton court, far larger than its outside suggests. Its lining is thrown into circular folds, the folds are carpeted with finger-like **villi**, and each lining cell carries a dense layer of **microvilli**, which form the brush border.
 
 ![Circular folds, villi and microvilli amplify the absorptive surface. Micrograph: OpenStax College, CC BY 3.0.](/figures/anatomy/small-intestine-histology.jpg){#fig-villi fig-alt="Histology of the small intestine showing circular folds, villi and the brush border of microvilli." width="420" .lightbox}
 
@@ -238,8 +229,7 @@ Chylomicron
 Lacteal
 : A lymph vessel that takes up chylomicrons from the gut.
 
-Bile salts emulsify the fat, lipase digests it, and mixed micelles carry the products to the brush border. There the fat diffuses into the enterocyte and the
-micelle stays behind: it acts as a shuttle and is not itself absorbed. Inside the cell the fat is
+Bile salts emulsify the fat, lipase digests it, and mixed micelles carry the products to the brush border. There the fat diffuses into the enterocyte, and the micelle, which acts only as a shuttle, stays behind. Inside the cell the fat is
 re-esterified (reassembled into triglyceride; see the [*Macronutrients*](macronutrients.qmd)
 chapter) and packaged into chylomicrons. Because a chylomicron is too big for a blood capillary, it enters a lacteal and reaches
 the blood through the lymph, bypassing the liver's first pass. This is why blood drawn after a fatty
@@ -266,7 +256,7 @@ to be used again: the **enterohepatic circulation** [@chiang2013].
 
 ```{mermaid}
 %%| label: fig-enterohepatic
-%%| fig-cap: "The enterohepatic circulation: bile salts are recycled, not spent."
+%%| fig-cap: "The enterohepatic circulation: bile salts are recycled."
 flowchart LR
   L["Liver<br/>makes bile from cholesterol"] --> G["Gallbladder<br/>stores &amp; concentrates"]
   G -->|"CCK, after a fatty meal"| D["Duodenum<br/>bile emulsifies fat"]
@@ -307,9 +297,7 @@ The mechanisms of digestion and absorption have direct practical uses: they expl
 
 ### Food form, preparation and meal order {#sec-food-form}
 
-The same food, with the same energy content, can be digested at different speeds. Its physical form,
-how it is cooked, the order in which a meal's parts are eaten and what they are eaten with all change
-how quickly it is digested and absorbed. The speed in turn sets how fast blood glucose rises and how
+The same food, with the same energy content, can be digested and absorbed at different speeds, depending on its physical form, how it is cooked, the order in which a meal's parts are eaten and what they are eaten with. The speed in turn sets how fast blood glucose rises and how
 much satiety the meal generates, and for some nutrients these factors also change how much is absorbed
 at all. (The blood-glucose response itself, the glycaemic index, is in the
 [*Macronutrients*](macronutrients.qmd) chapter.)
@@ -348,13 +336,12 @@ carbohydrate measurably lowers the post-meal glucose and insulin rise. The veget
 Adding fat, protein, viscous fibre or acid to a carbohydrate meal has a similar effect through the same
 slowing of gastric emptying. Vinegar is the best-studied acid: in a meta-analysis it modestly lowered
 post-meal glucose and insulin [@shishehbor2017vinegar], probably by slowing gastric emptying and
-inhibiting brush-border disaccharidases. These are adjuncts, not treatments.
+inhibiting brush-border disaccharidases. These measures are adjuncts to treatment.
 
 **Processing.** Industrial processing does much of the breakdown that the gut would otherwise do
 (grinding, refining and gelatinising) before food is eaten. Ultra-processed foods (industrial
 formulations made largely from refined ingredients and additives) are therefore digested faster and
-more completely. Because of their soft texture, they are also eaten more quickly and are
-less satiating, whereas eating more slowly and chewing more increase satiety modestly [@miquel2015chew].
+more completely. Because of their soft texture, they are also eaten more quickly and are less satiating. Eating more slowly and chewing more increase satiety modestly [@miquel2015chew].
 
 ::: {.callout-warning}
 ## What a controlled trial showed, and its limits
@@ -366,27 +353,23 @@ metabolic-ward setting, and the mechanism is still debated (energy density, text
 all candidates). For digestion, the trial illustrates how processing changes the rate of eating and
 digestion (its weight consequences are in the [*Appetite and weight
 regulation*](appetite-weight-regulation.qmd) and [*Obesity & metabolic
-syndrome*](obesity-metabolic-syndrome.qmd) chapters). Cooking, fermentation and freezing are also
-processing, so not all processing is harmful; minimally processed foods keep the structure that slows
-digestion.
+syndrome*](obesity-metabolic-syndrome.qmd) chapters). Cooking, fermentation and freezing are also forms of processing, so the concern applies to ultra-processing in particular. Minimally processed foods keep the structure that slows digestion.
 :::
 
-Two of the additions to a carbohydrate meal, viscous fibre and fat, do more than slow digestion. Viscous fibres such as oat β-glucan and psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption, and they also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood, which is why adequate
-viscous fibre modestly lowers LDL cholesterol [@whitehead2014betaglucan]. In effect, the fibre interrupts the enterohepatic
+An adequate intake of viscous fibre, one of the additions that slow digestion, also modestly lowers LDL cholesterol [@whitehead2014betaglucan]. Viscous fibres such as oat β-glucan and psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption, and they also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood. In effect, the fibre interrupts the enterohepatic
 circulation (fibre fermentation is a separate process; see *The gut
 microbiome* chapter).
 
-Fat, for its part, aids the absorption of the fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
+Added fat aids the absorption of the fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
 pigments such as β-carotene) travel the same bile-and-micelle route as dietary fat, so a nearly
 fat-free meal leaves much of them unabsorbed. Carotenoid uptake from a salad was negligible with a
-fat-free dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, which is
-a reason to dress vegetables with some oil rather than eat them fat-free (the vitamins themselves are
+fat-free dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, so it helps to dress vegetables with some oil (the vitamins themselves are
 in the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter).
 
 ::: {.callout-warning}
 ## Food–drug interactions
 Food can alter how a drug is absorbed by two broad mechanisms; at this stage the task is to recognise
-and refer, not to manage.
+them and refer.
 
 The first is altered gut metabolism or transport. Grapefruit irreversibly inhibits intestinal
 **CYP3A4**, the gut-wall enzyme that normally breaks down part of each dose of many drugs as they are absorbed, before they reach the bloodstream, and so raises
@@ -400,8 +383,7 @@ Separating them in time avoids the problem.
 
 A related problem is alcohol, which injures the gastric lining and impairs absorption of several nutrients, notably by blocking the active transport of thiamine, part of the mechanism behind thiamine deficiency [@subramanya2010alcohol] (see the *Micronutrients, hydration and electrolytes* chapter).
 
-The habit matters more than memorising the list: with any new medicine, check the label and ask a
-pharmacist about food, grapefruit, dairy, iron and timing.
+With any new medicine, the useful habit is to check the label and ask a pharmacist about food, grapefruit, dairy, iron and timing.
 :::
 
 ### Oral rehydration and SGLT1 {#sec-ors}
@@ -425,9 +407,7 @@ of 75 mmol/L each of sodium and glucose [@whoORS2006]. The underlying discovery 
 
 ::: {.callout-warning}
 ## Does plain water rehydrate as well as ORS?
-Water is the obvious drink for replacing lost fluid, but plain water lacks the glucose and sodium that
-drive SGLT1. In ORS the glucose is there to be cotransported with sodium, not as a calorie source, and
-that coupling is why ORS rehydrates better than plain water alone.
+ORS rehydrates better than plain water because plain water lacks the glucose and sodium that drive SGLT1. The glucose in ORS is there to be cotransported with sodium, and water follows the sodium by osmosis.
 :::
 
 ### Common beliefs about digestion {#sec-digestion-beliefs}
@@ -442,10 +422,9 @@ Six common beliefs about digestion can be tested against the evidence:
   barrier is real, but "leaky gut syndrome" as a diagnosable disease that supplements can treat is not
   established, and there is no reliable test for it [@leakyGutMechanisms].
 - "Enzyme and probiotic supplements fix bloating for everyone." There is little evidence for them in
-  healthy people. Enzymes help only in narrow cases (lactase, or Beano for beans), and probiotics are
-  strain- and situation-specific, not a general tonic [@agaProbiotics2020].
+  healthy people. Enzymes help only in narrow cases (lactase, or Beano for beans), and the benefits of probiotics are specific to the strain and the situation [@agaProbiotics2020].
 - "Spicy food causes ulcers." Ulcers are caused by *Helicobacter pylori* and non-steroidal
-  anti-inflammatory painkillers (NSAIDs), not chilli [@lanas2017pud].
+  anti-inflammatory painkillers (NSAIDs) [@lanas2017pud]. Chilli does not cause them.
 - "Fruit juice or a smoothie is as good as whole fruit." Juicing removes the intact food matrix,
   speeding digestion and blunting satiety. Across large cohorts, whole fruit is associated with lower
   type 2 diabetes risk and fruit juice with higher [@muraki2013fruit].
@@ -463,8 +442,7 @@ roughly 45%; data on long-term control are weaker.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does viscous fibre such as oat β-glucan modestly lower LDL cholesterol?
-Viscous fibre binds bile salts in the gut, so more are lost in stool instead of being reclaimed at the
-terminal ileum. To replace them, the liver draws cholesterol from the blood to make new bile salts,
+Viscous fibre binds bile salts in the gut, so fewer are reclaimed at the terminal ileum and more are lost in stool. To replace them, the liver draws cholesterol from the blood to make new bile salts,
 which modestly lowers LDL cholesterol. The fibre works by interrupting the enterohepatic circulation.
 :::
 
@@ -487,7 +465,7 @@ A plate of mixed rice with vegetables and fish is first broken down and then abs
 
 Three digestive mechanisms apply directly to practice in Singapore:
 
-- Lactase deficiency is the local norm, not a disease. About 95% of Singapore-born Chinese adults are
+- Lactase deficiency is the local norm. About 95% of Singapore-born Chinese adults are
   lactase-deficient, yet only about a third report symptoms from the milk in their usual diet [@yap1989], so the
   food-first options (hard cheese, yoghurt, lactose-free milk, calcium-set tofu, fortified soy milk;
   see [lactose intolerance](#sec-lactose)) matter far more here than advice to "just drink more milk".

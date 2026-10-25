@@ -7,7 +7,7 @@
 
 ::: {.callout-note}
 ## Learning objectives
-- Explain why falling energy needs in later life call for a more nutrient-dense plate, not a smaller one.
+- Explain why falling energy needs in later life call for a more nutrient-dense plate.
 - Explain how anabolic resistance raises protein needs, and why protein is spread across meals and paired
   with exercise.
 - Describe why vitamin B12, vitamin D, calcium and fluids need specific attention in later life, and
@@ -51,40 +51,34 @@ The central problem is a mismatch: energy needs go down while most nutrient need
 Appetite and food intake fall with age, a change called the **anorexia of ageing**, so an older adult
 eats meaningfully less than they did as a young adult [@giezenaar2016appetite]. The recommendations for
 protein and most vitamins and minerals, however, do not fall in step, so the same nutrients now have to
-come from less energy [@espenGeriatrics2019]. The right response is a more nutrient-dense plate, not a
-smaller version of the same one; advice to "just eat less of everything" shrinks the nutrients along with
+come from less energy [@espenGeriatrics2019]. The right response is a more nutrient-dense plate. Advice to "just eat less of everything" shrinks the nutrients along with
 the energy.
 
 ### Protein: needs rise with age {#sec-ageing-protein}
 
-Protein is the clearest reversal: while energy needs fall, protein needs rise. Healthy older adults need
-more protein than younger ones, about 1.0–1.2 g/kg a day against the 0.8 g/kg adult reference intake
-(see the *Macronutrients* chapter) [@bauer2013protage; @deutz2014espen], a range that illustrates the upward
-shift, not a precise target. The reason for the shift is **anabolic resistance**: ageing muscle
+Protein needs rise with age: healthy older adults need about 1.0–1.2 g/kg a day, against the 0.8 g/kg adult reference intake (see the *Macronutrients* chapter) [@bauer2013protage; @deutz2014espen]. The figures are approximate. The reason for the shift is **anabolic resistance**: ageing muscle
 mounts a weaker anabolic (muscle-building) response to a given amount of protein, so it takes more protein
 to get the same effect [@breen2011anabolic]. As in adulthood, protein works best when paired with the stimulus of
 exercise, especially resistance work (see the *Adulthood* chapter) [@deutz2014espen].
 
 Because each meal needs a larger protein dose to stimulate muscle protein synthesis, a palm-sized portion
-of protein at each meal works better than eating most of it at dinner [@mamerow2014distribution]. This spread is a rule
-of thumb grounded in the anabolic-resistance mechanism, not a precise dose, because the outcome trials in
-older adults are mixed.
+of protein at each meal works better than eating most of it at dinner [@mamerow2014distribution]. The outcome trials in
+older adults are mixed, so this spread is an approximate rule of thumb grounded in the anabolic-resistance mechanism.
 
 Enough protein, with exercise, also protects against **sarcopenia**, the age-related loss of muscle
 strength and mass. Loss of muscle strength, together with the vitamin D deficiency common in older adults (below), raises the risk of falls and fractures [@roberts2021community; @neo2016vitDsg], so getting protein and activity right early is worthwhile. Sarcopenia can be screened for simply in the community: a weak hand grip is a common first clue, judged against cut-offs set lower for Asian builds, and suspected sarcopenia is then referred, since diagnosis and management belong to later clinical training [@cruzjentoft2019ewgsop2; @chen2020awgs2019; @limSarcopeniaCpg2022].
 
 ### Micronutrients and hydration {#sec-ageing-watchlist}
 
-Four nutrients need specific attention in later life (the underlying biology is in the
+Vitamin B12, vitamin D, calcium and fluid intake need specific attention in later life (the underlying biology is in the
 *Micronutrients, hydration and electrolytes* chapter).
 
-Vitamin B12 deficiency in older adults comes mainly from malabsorption, not a lack of B12 in the diet:
+Vitamin B12 deficiency in older adults comes mainly from malabsorption:
 in some older adults the stomach makes less acid because of **atrophic gastritis**, a long-standing inflammation that
 thins the stomach lining, and without that acid B12 cannot be split from food protein to be absorbed
 [@andres2005foodCobalamin]. Long-term metformin and **proton-pump inhibitors (PPIs)**, drugs that
 suppress stomach acid, add to the risk, and both are widely used in Singapore's older population, in which
-diabetes is common [@porter2021b12Gastritis; @metforminB12]. Testing therefore targets the at-risk
-instead of screening everyone: older adults with atrophic gastritis, those on these drugs, and those with
+diabetes is common [@porter2021b12Gastritis; @metforminB12]. Testing therefore targets the at-risk: older adults with atrophic gastritis, those on these drugs, and those with
 unexplained anaemia or nerve or memory changes are checked or referred [@mouchaileh2023b12Older].
 
 Vitamin D deficiency is common in older adults even in sunny Singapore, and what is firmly established
@@ -112,13 +106,13 @@ exercise.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: an older man on long-term metformin eats meat and eggs every day. Why can he still run short of vitamin B12?
-In older age, B12 deficiency is mainly a problem of absorption, not intake. In some older adults the stomach makes less acid, so B12 cannot be split from food protein, and long-term metformin adds to the risk. A
+In older age, B12 deficiency is mainly a problem of absorption. In some older adults the stomach makes less acid, so B12 cannot be split from food protein, and long-term metformin adds to the risk. A
 B12-rich diet may therefore not protect him, and he fits the at-risk profile to check or refer.
 :::
 
 ### Why older adults eat less {#sec-ageing-eat-less}
 
-The anorexia of ageing has several causes. The stomach empties more slowly and signals fullness sooner,
+In the anorexia of ageing, the stomach empties more slowly and signals fullness sooner,
 and taste and especially smell fade, which makes food less rewarding [@wysokinski2015anorexia]. Three
 practical, checkable problems add to these changes:
 
@@ -139,27 +133,24 @@ weight loss in older people [@morleySilver1995meals].
 ## 🍜 Food fortification: enriching familiar dishes
 For a frail older adult who eats little, the first step is to make the food they already eat more
 nourishing; supplement drinks come later. Stir an egg, minced fish, silken tofu, ikan bilis or milk
-powder into the morning porridge or *mee sua*; enrich soups; choose the *yong tau foo* pieces that are
-tofu and fish instead of the deep-fried ones; put a palm-sized protein at every meal. This food-first
+powder into the morning porridge or *mee sua*; enrich soups; choose the tofu and fish pieces of *yong tau foo* and leave the deep-fried ones; put a palm-sized protein at every meal. This food-first
 fortification reliably raises energy and protein without adding volume, which suits a small appetite that
 limits how much goes on the plate [@geny2023fortification; @mills2018fortified]. Because smell and taste
-have faded, amplify flavour with herbs, spice and umami instead of stripping it away; this is one reason
-not to put a thin, frail older adult on a bland "healthy" low-salt diet [@schiffman1993flavor].
+have faded, amplify flavour with herbs, spice and umami. For the same reason, a thin, frail older adult should not be put on a bland "healthy" low-salt diet [@schiffman1993flavor].
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does fortifying familiar food suit a frail older adult better than serving bigger portions?
 A small appetite limits how much goes on the plate: the stomach empties more slowly and signals fullness
 sooner, and faded taste and smell make food less rewarding. Stirring egg, fish, tofu or milk powder into
-porridge or soup raises energy and protein without adding volume. Keeping the flavour strong works with
-the faded senses, where a bland diet would work against them.
+porridge or soup raises energy and protein without adding volume. Keeping the flavour strong also compensates for the faded senses.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: an older man has been moved to texture-modified meals so that he swallows more safely. What follows for his intake?
 Texture-modified food and thickened fluids make swallowing safer but tend to lower intake, so his meals
 need enriching to keep energy and protein up. Safety and intake pull in opposite directions here, so the
-plate has to be made denser instead of larger, within the texture he has been prescribed. Coughing on
+plate has to be made denser, within the texture he has been prescribed. Coughing on
 food or drink, a wet voice or recurrent chest infections are red flags to refer.
 :::
 
@@ -176,7 +167,7 @@ Three practical points help in finding and supporting the older adult at risk:
 
 - Widowhood is a distinct high-risk period for weight loss and lost interest in food, worth checking
   proactively [@shahar2001widowhood].
-- **Food insecurity**, not having reliable access to enough food, depends in older age on physical access
+- **Food insecurity**, the lack of reliable access to enough food, depends in older age on physical access
   as much as on money: whether the person can get to the shops, carry the groceries and stand to cook
   [@tucher2021foodInsecurity].
 - Communal meal programmes work: they raise intake and reach the isolated people who need them
@@ -249,12 +240,12 @@ therefore to raise nutrient density and lift restriction: support intake, and re
 
 ## Is old age just eating less? {#sec-close}
 
-Intake falls with age, but eating less is almost never the advice an older patient needs, and treating old age as a time to eat less does harm. The older adult needs four things instead:
+Intake falls with age, but eating less is almost never the advice an older patient needs, and treating old age as a time to eat less does harm. The older adult needs four things:
 
 - A more nutrient-dense plate, because energy needs fall while protein and most micronutrient needs do
   not.
 - More protein than in younger adulthood, spread across meals and paired with exercise.
-- Familiar food, fortified and kept flavourful, in place of a restrictive "healthy" diet.
+- Familiar food, fortified and kept flavourful.
 - Company at meals, often one of the most effective changes, because people eat more, and more varied
   food, with others.
 
@@ -274,18 +265,16 @@ over-50s, about a palm-sized protein at each of three meals, provided by familia
 fish, tofu, pulses) [@healthhubSeniorsProtein]. Yet local survey data suggest that about one in two older
 adults fall short of their protein target [@mohNNS2022]. The practical response is to fortify familiar
 food (see [Why older adults eat less](#sec-ageing-eat-less)): build protein and energy into porridge,
-soup and *yong tau foo* instead of prescribing unfamiliar "diet foods".
+soup and *yong tau foo*.
 
 **Micronutrient shortfalls follow a local pattern.** Vitamin D deficiency is common despite the sun:
-around half of healthy older adults living in the community have low levels, driven by indoor, sun-avoidant living,
-not latitude [@cheong2020shield]. Calcium falls short in about half of older adults, a large fraction well
+around half of healthy older adults living in the community have low levels, driven by indoor, sun-avoidant living [@cheong2020shield]. Calcium falls short in about half of older adults, a large fraction well
 below target [@ye2023daha]. B12 deficiency, by contrast, is uncommon in well older adults locally (about 2% had low B12 in a
 community sample that excluded diabetes) [@cheong2020shield], so testing is reserved for the at-risk.
 
 **Living with family does not guarantee a shared meal.** In Singapore's multigenerational households,
 many older adults eat alone even though they live with family: in one local cohort more than nine in ten
-lived with family, yet about a quarter ate alone most of the time [@ye2023daha]. Locally it is loneliness (the felt lack of company), more
-than living arrangement, that is associated with frailty [@geSocialFrailtySg2022]. When a diet history reveals an
+lived with family, yet about a quarter ate alone most of the time [@ye2023daha]. Locally, loneliness (the felt lack of company) is more strongly associated with frailty than living arrangement is [@geSocialFrailtySg2022]. When a diet history reveals an
 older person eating alone, the local referral points are Active Ageing Centres, for communal dining and
 befriending, and the wider Age Well SG programme [@mohAgeWellSg2023].
 

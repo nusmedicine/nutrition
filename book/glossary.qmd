@@ -49,7 +49,7 @@ each term is listed once, under the chapter that teaches it.
 | AUDIT-C | The consumption questions of the Alcohol Use Disorders Identification Test: a short questionnaire used to screen adults for hazardous or harmful drinking | *Adulthood* |
 | Available carbohydrate | The digestible carbohydrate in a food, the quantity that drives the glucose response | *Macronutrients* |
 | Avoidant/restrictive food intake disorder (ARFID) | Restrictive eating driven by sensory aversion or fear, without concern about weight or shape | *Childhood & adolescence* |
-| Baby-led weaning | An approach to starting solids in which the infant feeds itself instead of being spoon-fed | *Infancy & early childhood* |
+| Baby-led weaning | An approach to starting solids in which the infant feeds itself | *Infancy & early childhood* |
 | Bacteriophage | A virus that infects bacteria; most viruses in the gut are bacteriophages | *The gut microbiome* |
 | Basal metabolic rate (BMR) | The energy needed to keep the body running at complete rest; the largest component of total energy expenditure (typically 60–70%), driven mainly by fat-free mass | *Energy balance* |
 | Beriberi | Thiamine (B1) deficiency, appearing where the staple is heavily refined; heart failure and oedema ("wet") or nerve damage ("dry") | *Micronutrients, hydration and electrolytes* |
@@ -94,7 +94,7 @@ each term is listed once, under the chapter that teaches it.
 | *Cis* and *trans* | The two geometries of a fatty-acid double bond: *cis* kinks the chain (liquid oils); *trans* leaves it nearly straight, so *trans* fat behaves like saturated fat | *Macronutrients* |
 | CKD–mineral and bone disease | The disorder of bone and blood vessels driven by retained phosphate and the failing kidney's loss of vitamin D activation | *Chronic kidney disease* |
 | *Clostridioides difficile* infection | Severe colitis caused by a toxin-producing bacterium that proliferates when the gut microbiome is depleted, usually by antibiotics | *The gut microbiome* |
-| Cluster-randomised trial | A trial in which groups, not individuals, are assigned to each arm | *Micronutrients, hydration and electrolytes* |
+| Cluster-randomised trial | A trial in which whole groups of people (clusters) are assigned to each arm | *Micronutrients, hydration and electrolytes* |
 | Coeliac disease | An immune reaction to gluten that damages the lining of the small intestine | *Digestion and absorption* |
 | Cofactor | A non-protein helper that an enzyme needs in order to work; many micronutrients act as cofactors | *Micronutrients, hydration and electrolytes* |
 | Cognitive reserve | The brain's capacity to absorb damage before dementia shows | *Brain health and dementia* |
@@ -121,7 +121,7 @@ each term is listed once, under the chapter that teaches it.
 | Dehydration | Too little body water, shown by thirst, dark concentrated urine, dizziness and reduced urine output | *Micronutrients, hydration and electrolytes* |
 | Dementia | A clinical syndrome of acquired, progressive loss of memory and thinking severe enough to affect daily life | *Brain health and dementia* |
 | Denaturation | The unfolding of a protein by heat or acid, which usually makes it easier to digest | *Macronutrients* |
-| Diabetic ketoacidosis (DKA) | A medical emergency of near-total insulin deficiency, in which unchecked ketone production makes the blood acidic; defined by the acidosis, not the ketone level | *Integrative metabolism* |
+| Diabetic ketoacidosis (DKA) | A medical emergency of near-total insulin deficiency, in which unchecked ketone production makes the blood acidic; defined by the acidosis | *Integrative metabolism* |
 | Dialysis | Treatment that partly takes over the kidney's clearance of wastes and water once the kidney fails | *Chronic kidney disease* |
 | Diet history | A structured conversation about what a patient usually eats and drinks, walking through a typical day and probing the most informative areas such as drinks, snacks and portions | *Assessing diet and talking to patients* |
 | Dietary fibre | Carbohydrate that the small intestine cannot digest; much of it is fermented by gut bacteria | *Macronutrients* |
@@ -140,7 +140,7 @@ each term is listed once, under the chapter that teaches it.
 | Dysbiosis | Disruption of the normal microbial community, for example by broad-spectrum antibiotics | *The gut microbiome* |
 | Dyslipidaemia | An abnormal pattern of blood lipids, the cholesterol and triglycerides carried in lipoproteins | *Cardiovascular disease & hypertension* |
 | Dysphagia | Difficulty swallowing | *Healthy ageing* |
-| Ectopic fat | Fat deposited inside organs such as the liver and muscle, instead of under the skin | *Obesity & metabolic syndrome* |
+| Ectopic fat | Fat deposited inside organs such as the liver and muscle | *Obesity & metabolic syndrome* |
 | Electrolytes | Charged minerals dissolved in body fluids, such as sodium and potassium | *Micronutrients, hydration and electrolytes* |
 | Endothelium | The inner lining of a blood vessel | *Cardiovascular disease & hypertension* |
 | Energy availability | The energy left for the body's basic functions after exercise: intake minus the energy burned in exercise | *Childhood & adolescence* |
@@ -253,7 +253,7 @@ each term is listed once, under the chapter that teaches it.
 | Ketone bodies (ketones) | β-hydroxybutyrate, acetoacetate and acetone: water-soluble fuels the fasting liver makes from surplus acetyl-CoA and exports to other organs, including the brain | *Integrative metabolism* |
 | Ketosis | A raised level of ketones in the blood, as in a prolonged fast or on a ketogenic diet; restrained by residual insulin, with a normal blood pH | *Integrative metabolism* |
 | Koilonychia | Spoon-shaped nails, a sign of iron deficiency | *Micronutrients, hydration and electrolytes* |
-| Lactase deficiency | Making little lactase after childhood; the norm in most of the world's adults, and not a disease | *Digestion and absorption* |
+| Lactase deficiency | Making little lactase after childhood; the norm in most of the world's adults | *Digestion and absorption* |
 | Lactate | The product of pyruvate when oxygen is scarce; making it regenerates what glycolysis needs to keep running | *Integrative metabolism* |
 | Lacteal | A lymph vessel that takes up chylomicrons from the gut | *Digestion and absorption* |
 | Lactose intolerance | Symptoms (bloating, wind) from a given amount of lactose; most people tolerate the lactose in about a cup of milk | *Digestion and absorption* |
@@ -302,7 +302,7 @@ each term is listed once, under the chapter that teaches it.
 | Mixed pathology | More than one disease process in the same brain, typically neurodegeneration with small-vessel disease; the rule in older people | *Brain health and dementia* |
 | Monosaccharide | A single sugar unit: glucose, fructose or galactose | *Macronutrients* |
 | Motilin | A small-intestinal hormone, released during fasting, that drives the migrating motor complex | *Digestion and absorption* |
-| Motivational interviewing (MI) | A collaborative way of talking that draws out the patient's own reasons to change instead of supplying the clinician's | *Behaviour-change counselling* |
+| Motivational interviewing (MI) | A collaborative way of talking that draws out the patient's own reasons to change | *Behaviour-change counselling* |
 | mTORC1 | Mechanistic target of rapamycin complex 1, a growth-sensing protein complex at the hub of a signalling pathway inside cells | *Evidence vs hype* |
 | Mucus barrier | The layer of mucus that keeps gut bacteria away from the epithelial surface | *The gut microbiome* |
 | Multidomain programme | A prevention programme that combines diet, exercise, cognitive activity and vascular monitoring | *Brain health and dementia* |
@@ -330,7 +330,7 @@ each term is listed once, under the chapter that teaches it.
 | Open-label trial | A trial in which participants know which treatment they are receiving | *Micronutrients, hydration and electrolytes* |
 | Oral nutritional supplements (ONS) | Supplement drinks, used as an evidence-based add-on when food-based measures fall short | *Undernutrition & malnutrition* |
 | Oral rehydration salts (ORS) | A low-strength mix of glucose and sodium (75 mmol/L each in the WHO formula) that rehydrates by mouth because SGLT1 keeps working in diarrhoea | *Digestion and absorption* |
-| Orthorexia | An obsessive fixation on "clean eating"; a recognised pattern, not yet a formal diagnosis | *Childhood & adolescence* |
+| Orthorexia | An obsessive fixation on "clean eating"; a recognised pattern that does not yet have formal diagnostic status | *Childhood & adolescence* |
 | OSTA | An Asian screen, based on age and weight, that flags who needs a bone scan | *Bone & joint health* |
 | Osteoarthritis | Worn, painful joint cartilage; the commonest arthritis | *Bone & joint health* |
 | Osteoblast | A bone-forming cell that lays down new bone | *Bone & joint health* |
@@ -345,7 +345,7 @@ each term is listed once, under the chapter that teaches it.
 | Peak bone mass | The most bone a person ever has | *Childhood & adolescence* |
 | Peak height velocity | The fastest growth of the pubertal growth spurt, the fastest since the first year of life | *Childhood & adolescence* |
 | Pellagra | Niacin (B3) deficiency, remembered as the "3 Ds": dermatitis, diarrhoea and dementia | *Micronutrients, hydration and electrolytes* |
-| Pentose phosphate pathway | The branch pathway from glucose-6-phosphate that yields NADPH and ribose, not ATP | *Integrative metabolism* |
+| Pentose phosphate pathway | The branch pathway from glucose-6-phosphate that yields NADPH and ribose | *Integrative metabolism* |
 | Pepsin | The stomach enzyme, made by chief cells, that cuts protein into peptides | *Digestion and absorption* |
 | Peptidases | Brush-border enzymes that finish the digestion of protein | *Digestion and absorption* |
 | Peptide bond | The bond, formed in a condensation reaction, that links amino acids into protein chains | *Macronutrients* |
@@ -366,7 +366,7 @@ each term is listed once, under the chapter that teaches it.
 | Polypharmacy | Taking five or more medicines | *Healthy ageing* |
 | Polysaccharide | A long chain of sugar units, such as starch, glycogen or cellulose | *Macronutrients* |
 | POMC/CART neurons | The brake neurons of the arcuate nucleus, which make pro-opiomelanocortin (POMC) and cocaine- and amphetamine-regulated transcript (CART) and suppress eating; POMC is cut into α-MSH, the "stop" signal that activates MC4R | *Appetite and weight regulation* |
-| Population-attributable estimate | The share of cases associated with a set of risk factors, assuming they are fully causal and could be eliminated from the whole population; a theoretical ceiling, not an individual's risk reduction | *Brain health and dementia* |
+| Population-attributable estimate | The share of cases associated with a set of risk factors, assuming they are fully causal and could be eliminated from the whole population; a theoretical ceiling for the population; it does not give an individual's risk reduction | *Brain health and dementia* |
 | Portal vein | The vein that carries absorbed sugars and amino acids from the gut to the liver | *Digestion and absorption* |
 | Postbiotic | A preparation of inanimate microbes and/or their components that confers a health benefit | *The gut microbiome* |
 | Postmenopause | The years after the final menstrual period | *Menopause & midlife health* |
@@ -395,7 +395,7 @@ each term is listed once, under the chapter that teaches it.
 | Recall bias | Error in reported intake that arises because the report depends on memory | *Assessing diet and talking to patients* |
 | Reciprocal regulation | The coordination of opposing pathways so that one is active while the opposing pathway is inhibited, avoiding a futile cycle | *Integrative metabolism* |
 | Recognise and refer | The approach of the life-stage chapters: anticipate the stage-defining need, recognise the red flag, advise what is simple and safe, and refer | *Reading the life stages* |
-| Recommended Dietary Allowance (RDA) | A population reference intake adequate for nearly all healthy adults; for protein about 0.8 g/kg/day, a floor rather than an optimum | *Adulthood* |
+| Recommended Dietary Allowance (RDA) | A population reference intake adequate for nearly all healthy adults; for protein about 0.8 g/kg/day, a minimum | *Adulthood* |
 | Refeeding syndrome | A dangerous fall in blood phosphate, potassium and magnesium when a starved or severely malnourished person is fed again and the insulin surge drives them into cells | *Integrative metabolism* |
 | Refined starch | Starch that is digested fast and stripped of fibre, as in white rice and white bread | *Macronutrients* |
 | Relative energy deficiency in sport | The broader form of the female-athlete triad, arising from low energy availability | *Childhood & adolescence* |
@@ -421,7 +421,7 @@ each term is listed once, under the chapter that teaches it.
 | Satiety peptides | Hormones released as food arrives, roughly in proportion to the calories eaten, that signal fullness: CCK, GLP-1, PYY and amylin | *Appetite and weight regulation* |
 | Saturated fatty acid | A fatty acid with no double bonds: a straight chain that packs tightly, so the fat stays solid | *Macronutrients* |
 | Scaling question | A question asking the patient to rate their confidence in a change from 0 to 10, and what makes it that number and not lower | *Behaviour-change counselling* |
-| SCOFF | A five-question screen for eating disorders (vomiting, loss of control, recent weight loss, feeling fat, food dominating life); a screen, not a diagnosis | *Assessing diet and talking to patients* |
+| SCOFF | A five-question screen for eating disorders (vomiting, loss of control, recent weight loss, feeling fat, food dominating life); a screening tool that does not make a diagnosis | *Assessing diet and talking to patients* |
 | Scope of practice | The care a clinician's role allows them to deliver and be accountable for; knowing the science does not extend it | *Interprofessional practice, referral and looking after yourself* |
 | Scurvy | Vitamin C deficiency: bleeding, spongy gums, easy bruising, poor wound healing and corkscrew hairs, because collagen is not built | *Micronutrients, hydration and electrolytes* |
 | Sebum | The oily secretion of the skin's sebaceous glands | *Evidence vs hype* |
@@ -473,7 +473,7 @@ each term is listed once, under the chapter that teaches it.
 | Under-reporting | The systematic omission or shrinking of less-flattering foods and portions in self-reported intake, greater at higher body weight | *Assessing diet and talking to patients* |
 | Undernutrition | The deficit form of malnutrition; what clinical screening and diagnosis mean by malnutrition | *Undernutrition & malnutrition* |
 | Universal advice | General nutrition guidance that is safe for almost anyone and that every clinician should give, such as My Healthy Plate | *Interprofessional practice, referral and looking after yourself* |
-| Universal screening | Testing every pregnancy instead of only women with risk factors; Singapore's approach to gestational diabetes | *Pregnancy & lactation* |
+| Universal screening | Testing every pregnancy, including those without risk factors; Singapore's approach to gestational diabetes | *Pregnancy & lactation* |
 | Unsaturated fatty acid | A fatty acid with one (monounsaturated) or more (polyunsaturated) double bonds | *Macronutrients* |
 | Uraemia | The build-up in the blood of the wastes the kidney normally clears, such as urea; it blunts appetite | *Chronic kidney disease* |
 | Urate | Uric acid; its crystals inflame the joint in gout | *Bone & joint health* |
@@ -486,7 +486,7 @@ each term is listed once, under the chapter that teaches it.
 | Water-soluble vitamins | The B-complex vitamins and vitamin C: largely not stored (except B12), so they need regular intake | *Micronutrients, hydration and electrolytes* |
 | Weight creep | The slow adult weight gain, of roughly 0.5–1 kg a year, that comes from a small, chronic energy surplus | *Adulthood* |
 | Weight cycling | Repeated weight loss and regain | *Adulthood* |
-| Weight-inclusive (care) | Care that bases counselling on health behaviours and metabolic markers instead of on the scale alone | *Obesity & metabolic syndrome* |
+| Weight-inclusive (care) | Care that bases counselling mainly on health behaviours and metabolic markers, with weight as one measure among them | *Obesity & metabolic syndrome* |
 | Weight-neutral language | Counselling language that centres on sustainable eating patterns and how the patient feels more than on body weight | *Behaviour-change counselling* |
 | Weight stigma | Negative attitudes towards, and treatment of, people because of their weight, such as blame, shaming or disrespect | *Obesity & metabolic syndrome* |
 | Wernicke's encephalopathy | A thiamine-deficiency emergency, classically in heavy drinkers, with confusion, unsteadiness and eye-movement problems; thiamine is given first | *Micronutrients, hydration and electrolytes* |

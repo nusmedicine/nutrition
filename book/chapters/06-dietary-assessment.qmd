@@ -14,7 +14,7 @@
 - Read a Nutrition Information Panel per 100 g or 100 ml, and grade a drink with Nutri-Grade.
 - Link a diet pattern to its likely surpluses and shortfalls, and interpret BMI and waist
   circumference against the Asian cut-offs.
-- Recognise malnutrition risk and eating-disorder red flags, and refer instead of advising
+- Recognise malnutrition risk and eating-disorder red flags, and refer without advising
   restriction.
 - Open a brief counselling conversation by assessing first and advising one change with permission,
   in plain language.
@@ -64,8 +64,7 @@ Finding out what a patient eats combines a choice of assessment method, a struct
 
 ### Dietary assessment methods and their biases {#sec-methods}
 
-No single method of dietary assessment is best, so the choice is the one that fits the purpose. Each
-of the three standard tools carries a characteristic bias [@measurementToolkitDiet]. The comparison
+The method of dietary assessment is chosen to fit the purpose, and each of the three standard tools carries a characteristic bias [@measurementToolkitDiet]. The comparison
 below depends on three terms:
 
 Habitual intake
@@ -80,15 +79,15 @@ Reactivity
 | Method | What it is | Strength | Characteristic bias |
 |---|---|---|---|
 | 24-hour recall | "Tell me everything you ate and drank yesterday." | Quick, low burden for the patient | One day is not necessarily a usual day: intake varies widely from day to day, and the method relies on memory (recall bias). Several non-consecutive recalls estimate habitual intake far better. |
-| Food-frequency questionnaire | A checklist: how often, over months, do you eat X? | Captures the habitual pattern; low burden | Best for ranking people (high vs low), not for measuring exact quantities; portion estimation is rough. |
+| Food-frequency questionnaire | A checklist: how often, over months, do you eat X? | Captures the habitual pattern; low burden | Ranks people from high to low intake well, but estimates quantities and portions only roughly. |
 | Food diary | The patient records everything as they eat it, for several days | The most detail; no memory error | High burden; reactivity; and people under-report the "bad" items. |
 
-One caveat applies to all three methods: self-reported intake shows systematic **under-reporting**. People leave out or understate the less-flattering foods and portions, and under-reporting is greater at higher body weight [@measurementToolkitDiet]. The remedy is the manner of asking, not suspicion: a question should not invite the "right" answer (see [Taking a diet history](#sec-diet-history)). In practice, the fit-for-purpose choice for a first clinic visit is
+With all three methods, self-reported intake shows systematic **under-reporting**. People leave out or understate the less-flattering foods and portions, and under-reporting is greater at higher body weight [@measurementToolkitDiet]. The remedy is the manner of asking: a question should not invite the "right" answer (see [Taking a diet history](#sec-diet-history)). In practice, the fit-for-purpose choice for a first clinic visit is
 usually a short structured history, which is a guided 24-hour recall widened with "is that typical?".
 
 ### Taking a diet history {#sec-diet-history}
 
-A diet history is a structured conversation, not an interrogation. Walk through a typical day from
+A diet history is a structured, non-judgemental conversation. Walk through a typical day from
 waking to sleeping, then probe the most informative areas: meal pattern and skipping, drinks, snacks, how
 often they eat out or *tapau* (buy takeaway), portion sizes, who shops and cooks, and supplements.
 
@@ -104,8 +103,7 @@ you miss if you never ask what she drinks.
 
 ::: {.callout-tip}
 ## The most useful question is often the one not asked
-People rarely volunteer their drinks, their snacks or their true portions, not to deceive but because
-they feel these "don't count". Ask specifically, with everyday comparisons ("how big, a *rice bowl*? two
+People rarely volunteer their drinks, their snacks or their true portions, because they feel these "don't count", and the omission is unintended. Ask specifically, with everyday comparisons ("how big, a *rice bowl*? two
 scoops?"), and you uncover far more than an open "so, how's your diet?" ever will.
 :::
 
@@ -127,16 +125,16 @@ reach an A. Grades C and D must display the mark, and grade D cannot be advertis
 
 <div data-island="nutri-grade" data-src="/diagrams/nutri-grade.yml"></div>
 
-Nutri-Grade works as a nudge on single choices, not as a judgement on the whole diet. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
+Nutri-Grade nudges individual drink choices. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
 
 ::: {.callout-tip}
 ## 🍜 Eating out: start with the drink
 In a Singapore diet history, the drink is usually the most useful thing to swap. Four swaps make it concrete:
 
-- *kopi-o kosong* or *teh-o kosong* (grade A) instead of the sweetened default;
-- *siu dai* (less sweet) or *kosong* (no sugar) when ordering;
-- water instead of the bundled soft drink;
-- whole fruit instead of a pressed juice.
+- swap the sweetened default for *kopi-o kosong* or *teh-o kosong* (grade A);
+- ask for *siu dai* (less sweet) or *kosong* (no sugar) when ordering;
+- swap the bundled soft drink for water;
+- swap a pressed juice for whole fruit.
 
 One realistic swap the patient agrees to is more useful than a lecture on all of them.
 :::
@@ -154,8 +152,7 @@ everyday comparisons, uncovers what people do not volunteer.
 ## Check yourself: a patient has switched all her drinks to grade A. Why might her diet still need work?
 Nutri-Grade grades only drinks, and only on sugar and saturated fat, so it gives no information about the solid
 food she eats. In a randomised trial the label moved drink purchases towards less sugar but did not
-improve the overall quality of shoppers' baskets. A grade influences one choice but not the whole diet,
-so the rest of the history still needs to be assessed.
+improve the overall quality of shoppers' baskets. A grade influences one choice, so the rest of the history still needs to be assessed.
 :::
 
 ## Interpreting the diet history {#sec-history-problems}
@@ -174,15 +171,13 @@ recur, each with familiar sources:
 - saturated fat, from coconut gravy, fried food and fatty or processed meat.
 
 The shortfalls follow the same pattern: wholegrains, fibre, fruit and vegetables, and in some groups
-calcium or iron. You are not calculating nutrient intakes; you are reading a pattern and naming, in
-plain terms, the two or three things worth changing.
+calcium or iron. You read the pattern and name, in plain terms, the two or three things worth changing, without calculating nutrient intakes.
 
 ### Anthropometry and malnutrition screening {#sec-both-tails}
 
 **Anthropometry** (body measurements such as weight, height and waist circumference) adds objective
 measurements to the history. BMI classifies weight-for-height (see the
-[*Energy balance*](energy-balance.qmd#sec-measuring) chapter), but its thresholds are not universal.
-Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
+[*Energy balance*](energy-balance.qmd#sec-measuring) chapter), and Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
 populations than the international thresholds imply [@sgObesityBMI]:
 
 | Category | Asian cut-off, used in Singapore | International cut-off |
@@ -190,19 +185,17 @@ populations than the international thresholds imply [@sgObesityBMI]:
 | Overweight | BMI ≥23 kg/m² | BMI ≥25 kg/m² |
 | Obese | BMI ≥27.5 kg/m² | BMI ≥30 kg/m² |
 
-BMI is a screening measure, not a diagnosis: it does not capture body composition (a muscular person, or an older person who has lost muscle), so it is read alongside the history, not instead of it. Waist circumference adds a measure of the central fat that BMI misses: ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI].
+BMI is a screening measure: it does not capture body composition (a muscular person, or an older person who has lost muscle), so it is read alongside the history. Waist circumference adds a measure of the central fat that BMI misses: ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI].
 
-The BMI and waist cut-offs flag excess, but malnutrition covers both extremes of nutritional status, excess (overnutrition) and deficit (undernutrition), and clinicians tend to look only for excess. Some patients are undernourished: an unwell older adult who has lost weight and appetite, or someone eating alone and skipping meals. A validated tool such as the **Malnutrition
+Malnutrition covers both extremes of nutritional status, excess (overnutrition) and deficit (undernutrition). The BMI and waist cut-offs flag excess, and clinicians tend to look only for that. Some patients are undernourished: an unwell older adult who has lost weight and appetite, or someone eating alone and skipping meals. A validated tool such as the **Malnutrition
 Universal Screening Tool (MUST)**, which combines BMI, recent unplanned weight loss and any acute
 illness stopping intake, flags this risk and triggers a referral pathway [@bapenMUST].
 
-Unplanned weight loss is included in MUST for a physiological reason. A sustained energy deficit,
-worsened by illness, drives catabolism of **lean body mass** (muscle and organ protein) as well as fat
+Unplanned weight loss is included in MUST because a sustained energy deficit, worsened by illness, drives catabolism of **lean body mass** (muscle and organ protein) as well as fat
 (see prolonged fasting in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation)
 chapter). The loss of that functional tissue impairs strength, immune function and recovery. A falling weight
 is therefore a red flag even when the BMI still reads "normal", which is why MUST scores recent loss
-independently of BMI. At this stage you recognise when MUST applies and refer; you do not need to
-score and manage it (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
+independently of BMI. At this stage you recognise when MUST applies and refer (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
 chapter for the recognition and management of the malnourished patient).
 
 ::: {.callout-important}
@@ -217,8 +210,7 @@ the problem is in fact that they are eating too little, and whether weight talk 
 National data show that most residents exceed the sodium recommendation and that very little of the
 staple eaten is wholegrain, and the local food pattern (sauces and soup bases, sugary drinks, coconut
 gravy and fried food) makes sodium, free sugars and saturated fat the predictable surpluses. The
-history then confirms which apply to this patient, so the task is reading a pattern and naming two or
-three things worth changing, not calculating nutrient intakes.
+history then confirms which apply to this patient, so the task is reading a pattern and naming two or three things worth changing.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -236,7 +228,6 @@ Brief counselling at first contact rests on two things: the opening steps of the
 
 ### The 5 A's: assess and advise {#sec-first-moves}
 
-Assessing the diet is only part of the task; the conversation is the other part, and it has its own structure.
 The widely recommended framework for brief counselling is the **5 A's**, five steps that run in
 sequence [@fiveAsNutrition]:
 
@@ -251,19 +242,16 @@ sequence [@fiveAsNutrition]:
 At first contact the focus is the opening steps, assess and advise; the full cycle, and the motivational-interviewing skills behind it, are in the [*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter. Assessing means finding out what the patient
 eats and what they are ready to change, without judgement; it is the diet history above. Advising
 means offering one concrete, realistic step, with permission: "Would it be alright if I shared one
-idea about your drinks?" makes the patient more willing to listen; an unasked-for lecture does not.
+idea about your drinks?" makes the patient more willing to listen.
 
-Two rules matter most. The first, shown in that example, is to ask before advising, because permission turns advice into a conversation; the second is to use plain language: "sugary drinks", not "free sugars exceeding ten percent of energy".
+Two rules matter most: ask before advising, as in that example, because permission turns advice into a conversation; and use plain language, saying "sugary drinks" where a guideline would say "free sugars exceeding ten percent of energy".
 Counselling in this respectful, motivational-interviewing style can produce small, mostly short-term
 improvements in some health behaviours, such as drinking and physical activity; for diet specifically
 the evidence is of low quality [@frost2018mi].
 
 ### Do no harm: eating-disorder red flags and screening {#sec-do-no-harm}
 
-Food, weight and "clean eating" talk can trigger or worsen disordered eating. The evidence from behavioural weight-management programmes puts that risk in proportion: they do not raise eating-disorder symptoms for most adults (on average they
-ease slightly), but a small minority develop new symptoms, so vigilance still matters
-[@jebeile2023edrisk]. Attention to possible harm therefore belongs at first contact, before any advice to
-restrict. The red flags to listen for are:
+Attention to possible harm belongs at first contact, before any advice to restrict, because food, weight and "clean eating" talk can trigger or worsen disordered eating. Behavioural weight-management programmes do not raise eating-disorder symptoms for most adults (on average the symptoms ease slightly), but a small minority develop new symptoms [@jebeile2023edrisk]. The red flags to listen for are:
 
 - skipping meals to "make up" for eating;
 - guilt or secrecy around food;
@@ -275,13 +263,12 @@ recent weight loss, feeling fat, and food dominating life) raises or lowers susp
 describe how well a screen performs: its **sensitivity**, the proportion of people with the condition
 whom it correctly flags, and its **specificity**, the proportion without it whom it correctly clears.
 SCOFF was first validated in young women with anorexia or bulimia [@scoffMorgan1999]; pooled across
-25 validation studies, its sensitivity is about 0.86 and its specificity about 0.83 [@kutzScoff2020]. SCOFF is a screen, not a diagnosis: a positive result means ask
-more and consider referral, and a negative result does not exclude an eating disorder. The safe
+25 validation studies, its sensitivity is about 0.86 and its specificity about 0.83 [@kutzScoff2020]. A positive SCOFF result means ask more and consider referral, and a negative result still leaves an eating disorder possible. The safe
 response at this stage is the same either way: do not advise dietary restriction when there may be an eating
 disorder; be supportive, and refer.
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why open with "Would it be alright if I shared one idea about your drinks?" instead of "You need to cut down on sugar"?
+## Check yourself: compare "Would it be alright if I shared one idea about your drinks?" with "You need to cut down on sugar". Why open with the first?
 Asking permission turns advice into a conversation and makes the patient more willing to listen to the idea that follows; an
 unasked-for lecture does not. The first version also narrows the advice to one target, the drinks,
 where the second is a broad instruction. Respectful, permission-first counselling can bring small, short-term
@@ -290,7 +277,7 @@ changes in some health behaviours, though the evidence that it changes diet is o
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient asking for a diet screens negative on SCOFF but mentions skipping meals to make up for eating. Why doesn't the negative screen settle it?
-SCOFF is a screen, not a diagnosis. With a sensitivity of about 0.86 it misses some people who have an
+With a sensitivity of about 0.86, SCOFF misses some people who have an
 eating disorder, so a negative result does not exclude one, and compensatory meal-skipping is itself a
 red flag. The safe response is the same either way: do not advise dietary restriction when there may be an
 eating disorder; be supportive, and refer.
@@ -298,7 +285,7 @@ eating disorder; be supportive, and refer.
 
 ## How should a first nutrition conversation start? {#sec-close}
 
-It starts with asking, not advising. First contact done well has five parts, in roughly this order:
+It starts with asking. First contact done well has five parts, in roughly this order:
 
 1. Take a quick, structured history, and make sure to ask about the drinks.
 2. Read the label with the patient: check per 100 ml, grade the drink, name one swap.
@@ -309,11 +296,11 @@ It starts with asking, not advising. First contact done well has five parts, in 
 
 ## The Singapore context {#sec-singapore}
 
-Two local resources support this first-contact approach. Nutri-Grade now reaches many of the freshly-prepared drinks people actually buy, such as bubble tea and coffee from the larger chains, so "grade your drink" is a real
+Two local resources, Nutri-Grade and the National Nutrition Survey, support this first-contact approach. Nutri-Grade now reaches many of the freshly-prepared drinks people actually buy, such as bubble tea and coffee from the larger chains, so "grade your drink" is a real
 exercise that applies beyond packaged supermarket drinks [@hpbNutriGrade]. The National Nutrition Survey shows what to expect before the patient
 says a word: high sodium, sweet drinks, refined staples and too little wholegrain [@mohNNS2022]. The
 whole approach also fits the national direction of preventive care: screening and a short
-conversation at first contact, then referral where needed, instead of waiting for disease.
+conversation at first contact, then referral where needed, before disease develops.
 
 ## Check your understanding {#sec-quiz}
 

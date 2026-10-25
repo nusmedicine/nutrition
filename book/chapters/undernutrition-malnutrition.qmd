@@ -14,7 +14,7 @@
   feeding alone.
 - Explain why a normal or high BMI excludes neither malnutrition nor sarcopenia.
 - Identify the patients to screen, and interpret a positive MUST screen as a risk flag that triggers
-  referral, not a diagnosis.
+  referral for formal diagnosis.
 - Describe the stepwise approach to oral nutrition support, from food-first through food fortification to
   oral nutritional supplements.
 - Recognise refeeding risk and the red flags of dysphagia, and refer.
@@ -37,13 +37,9 @@
 
 ## Undernutrition & malnutrition at a glance {#sec-overview}
 
-In its broad sense, malnutrition covers both overnutrition and **undernutrition**. Undernutrition is the
-deficit form, and it is what clinical screening and diagnosis mean by **malnutrition**. In that sense
-malnutrition is a disease state: a deficit of energy, protein or micronutrients that measurably changes body composition and
+In clinical screening and diagnosis, **malnutrition** means **undernutrition**, the deficit form (in its broad sense the word also covers overnutrition). It is a disease state: a deficit of energy, protein or micronutrients that measurably changes body composition and
 function and worsens outcomes. A frail, undernourished senior is therefore as much a nutritional patient as the
-person with metabolic syndrome (see the *Obesity & metabolic syndrome* chapter). Malnutrition is also distinct from ageing itself: healthy ageing is ageing
-*in health* (see the *Healthy ageing* chapter), whereas malnutrition is the pathological state that ageing, illness
-and isolation can lead to.
+person with metabolic syndrome (see the *Obesity & metabolic syndrome* chapter). Malnutrition is also distinct from ageing itself: it is a pathological state that ageing, illness and isolation can lead to (see the *Healthy ageing* chapter).
 
 Three principles shape the clinical approach to malnutrition:
 
@@ -53,16 +49,14 @@ Three principles shape the clinical approach to malnutrition:
 
 ## Pathophysiology: what malnutrition does to the body {#sec-mal-science}
 
-Malnutrition is defined by a causal chain, not by body size, and that chain is what makes a wasted, weak
+Malnutrition is defined by a causal chain, and that chain is what makes a wasted, weak
 patient a medical problem. A deficit of energy, protein or micronutrients produces a measurable change in
-body composition: a loss of fat and, above all, of muscle. Muscle is lost because a sustained deficit draws protein from it, although muscle is functional
-tissue, not a dedicated protein store. Its loss in turn causes functional and clinical
-harm: weakness, falls, poor wound healing, more infections, longer hospital stays and higher mortality
+body composition: a loss of fat and, above all, of muscle. Muscle is lost because a sustained deficit draws protein from it, and the body has no dedicated protein store to spare it. Because muscle is functional tissue, its loss causes functional and clinical harm: weakness, falls, poor wound healing, more infections, longer hospital stays and higher mortality
 [@cederholm2017espenTerminology]. (For the fasted and starved states, see the
 [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation) chapter; for body composition, the
 *Energy balance* chapter.)
 
-![Malnutrition is defined by a causal chain, not by body size. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories are ordered by degree of inflammation, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition is hard to reverse with feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
+![Malnutrition is defined by a causal chain. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories are ordered by degree of inflammation, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition is hard to reverse with feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
 
 Inflammation is the basis of the classification by cause, and it explains why some malnutrition responds
 poorly to feeding alone. Three types are distinguished by how much inflammation is present
@@ -90,8 +84,7 @@ mortality [@lv2021hfMalnutrition].
 Muscle loss in older people has causes beyond nutrition. Sarcopenia, the age-related loss of muscle strength and mass (see the *Healthy ageing* chapter), is a
 muscle disorder, diagnosed on low strength confirmed by low muscle quantity, and is related to but distinct
 from a nutritional deficit [@cruzjentoft2019ewgsop2]. The two overlap: reduced muscle mass is a feature of
-malnutrition, and a nutritional deficit accelerates muscle loss. Because sarcopenia is defined by muscle, not weight, a person can be sarcopenic at a
-normal or high BMI; with obesity, the combination is **sarcopenic obesity**. Muscle therefore has to be
+malnutrition, and a nutritional deficit accelerates muscle loss. Because sarcopenia is defined by muscle strength and quantity, a person can be sarcopenic at a normal or high BMI; with obesity, the combination is **sarcopenic obesity**. Muscle therefore has to be
 assessed as well as weight.
 
 In Singapore the Asian Working Group for Sarcopenia (AWGS 2019) cut-offs apply, because European values
@@ -108,8 +101,7 @@ inflammation-driven catabolism; the heart failure itself has to be treated as we
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: an older man has a high BMI. Why can loss of muscle still be the problem that matters?
-Sarcopenia is a muscle disorder, diagnosed on low strength and low muscle quantity, not on body weight, so
-it can occur at a normal or high BMI (sarcopenic obesity when obesity is present). Loss of muscle is the
+Sarcopenia is a muscle disorder, diagnosed on low strength and low muscle quantity, so it can occur at a normal or high BMI (sarcopenic obesity when obesity is present). Loss of muscle is the
 link in the malnutrition chain that causes weakness, falls and poor healing, so muscle has to be assessed
 as well as weight.
 :::
@@ -129,13 +121,12 @@ enough risk to warrant active screening [@bapenAtRisk; @fried2001frailty]:
 - hospital inpatients;
 - anyone in the post-discharge period.
 
-Membership of an at-risk group raises the pre-test probability (the chance, before any test, that the patient has the condition), so you screen the patient instead of waiting for malnutrition to look obvious, which makes malnutrition less likely to be missed. Among the first things to ask about is unintentional weight loss, or "shrinking", a core feature of frailty (a clinical syndrome of older age whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) [@fried2001frailty].
+Membership of an at-risk group raises the pre-test probability (the chance, before any test, that the patient has the condition), so you screen the patient before malnutrition looks obvious, which makes malnutrition less likely to be missed. Among the first things to ask about is unintentional weight loss, or "shrinking", a core feature of frailty (a clinical syndrome of older age whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) [@fried2001frailty].
 
 ### Nutrition screening: the generalist's role {#sec-mal-screening}
 
 **Nutrition screening** is a quick, simple check that any trained staff member can apply to flag risk and trigger
-referral, and it is the part of malnutrition care that falls to the generalist. It is deliberately not the
-assessment, which the dietitian does. MUST (the Malnutrition Universal Screening Tool, met in the
+referral, and it is the part of malnutrition care that falls to the generalist. The fuller assessment is the dietitian's. MUST (the Malnutrition Universal Screening Tool, met in the
 *Assessing diet and talking to patients* chapter) is a useful exemplar. It adds three components: a BMI
 score, an unplanned weight-loss score, and an acute-disease effect (acutely ill and little or no intake for
 more than about five days). The scores sum to an overall risk of low, medium or high, each tied to an
@@ -165,8 +156,7 @@ diagnosis applies the **GLIM criteria** (from the Global Leadership Initiative o
 positive screen. Malnutrition is diagnosed on at least one phenotypic criterion (weight loss, low BMI,
 reduced muscle mass) plus at least one aetiological criterion (reduced intake or absorption, or
 inflammation or disease burden): that is, a measurable loss plus a cause [@cederholm2019glim; @jensen2019glim].
-GLIM is applied after screening, by the dietitian or team; the generalist's job is the
-screen and the referral, not the diagnosis or the grading of its severity.
+After screening, the dietitian or team applies GLIM and grades the severity. The generalist's job is the screen and the referral.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -192,7 +182,7 @@ Nutrition support starts with ordinary food and adds supplements only when food-
 ### Oral nutrition support: a stepwise, food-first approach {#sec-mal-ons}
 
 When intake is poor, oral nutrition support follows a stepwise approach (often drawn as a ladder), and the
-first step is not a supplement:
+first step is ordinary food:
 
 1. Food-first, which fixes the cause of poor intake (isolation, poor dentition, low mood, dysphagia,
    finances or appetite-blunting drugs) and makes the most of ordinary meals.
@@ -200,7 +190,7 @@ first step is not a supplement:
    without more volume (adding egg, minced fish, tofu, milk powder, oil or full-fat dairy) and can increase
    intake substantially [@bapenFoodFirst; @hpbSeniors].
 3. **Oral nutritional supplements (ONS)**, the supplement drinks, which are an evidence-based add-on when
-   food-based measures fall short, not the first step [@espenGeriatrics2019;
+   food-based measures fall short [@espenGeriatrics2019;
    @espenGeriatricsPractical2022].
 
 **Enteral** (tube) and **parenteral** (intravenous) feeding are specialist steps beyond these, prescribed by
@@ -211,8 +201,7 @@ the team.
 ONS are often started too early, and their benefit is modest. In at-risk older people ONS produce a
 small, consistent weight gain and fewer complications, but no significant overall mortality benefit
 [@milne2009ons]. Singapore's own SHIELD trial found that a specialised supplement improved a
-composite of nutritional outcomes, but that result was driven by the weight component and came from an
-add-on *to* dietary counselling, not a replacement for it [@shieldChew2021]. ONS are therefore a useful
+composite of nutritional outcomes, but that result was driven by the weight component, and the supplement was given as an add-on *to* dietary counselling [@shieldChew2021]. ONS are therefore a useful
 tool, used after food-first and by a dietitian, but they do not fix malnutrition on their own.
 
 ::: {.callout-tip}
@@ -249,16 +238,13 @@ undernutrition, and it has recognisable red flags:
 - recurrent chest infections;
 - weight loss or dehydration.
 
-A common error is to assume that the absence of a cough means a safe swallow. Up to a third of **aspiration** (food or drink
-entering the airway) is silent, with no cough at all, so you refer on the pattern of red flags, not on the
-cough alone [@wirth2016dysphagiaOlder]. The speech therapist assesses the swallow and sets the safe texture
+Up to a third of **aspiration** (food or drink entering the airway) is silent, with no cough at all, so the absence of a cough does not mean a safe swallow: refer on the pattern of red flags [@wirth2016dysphagiaOlder]. The speech therapist assesses the swallow and sets the safe texture
 level. Those levels share a standardised language, the **IDDSI** (International Dysphagia Diet
 Standardisation Initiative) framework: a colour-coded scale from 0 to 7, so that "Level 4" means the same
 thing in every ward and home [@cichero2017iddsi; @cichero2020iddsi2]. Singapore has adopted IDDSI as its national standard through the MOH-led EatSafe SG programme, which spans hospitals, community hospitals, nursing homes and social service agencies [@mohEatSafeSg; @iddsiSingapore].
 
 Texture-modified food improves swallow safety but tends to lower intake, because pureed and soft food delivers
-less energy and calcium. It therefore needs fortifying and monitoring; a pureed diet does not solve the
-problem on its own [@wu2020tmd; @espenGeriatricsPractical2022].
+less energy and calcium. It therefore needs fortifying and monitoring [@wu2020tmd; @espenGeriatricsPractical2022].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: an older patient who is eating poorly is started on supplement drinks and nothing else. What should come first, and why?
@@ -289,9 +275,7 @@ Nutrition support is a team activity, and each member has a distinct role [@sgPo
 - the medical social worker addresses the social causes;
 - the pharmacist monitors drug–nutrient interactions and electrolyte safety.
 
-The doctor's distinctive contribution is the referral that brings in the team; the feeding plan is
-the dietitian's. Nutrition is therefore best handled as interprofessional teamwork, not prescribing by a single clinician
-[@aclm2022comp; @crowley2019] (see the *Interprofessional practice, referral and looking after yourself* chapter).
+The doctor's distinctive contribution is the referral that brings in the team, and the dietitian then draws up the feeding plan. Nutrition is therefore best handled as interprofessional teamwork [@aclm2022comp; @crowley2019] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
 ## You screen and refer; you do not prescribe the feeding plan
@@ -313,21 +297,18 @@ and IDDSI level-setting are all team- and specialist-led.
 
 ## What does treating malnutrition look like for a generalist? {#sec-close}
 
-It means recognising malnutrition early and referring the patient safely, without causing harm in the process: not
-feeding a starved patient up too fast, and referring a possibly unsafe swallow on the basis of its red flags instead of waiting
-for a cough.
+It means recognising malnutrition early and referring the patient safely, without causing harm in the process: avoiding feeding a starved patient up too fast, and referring a possibly unsafe swallow on the basis of its red flags, since aspiration can be silent.
 
 ## The Singapore context {#sec-singapore}
 
-**Undernutrition is common in the community, not only on the ward.** In the population-based Singapore Longitudinal
+**Undernutrition is common in the community as well as on the ward.** In the population-based Singapore Longitudinal
 Ageing Studies, more than 1 in 4 community-dwelling older adults (27.6%) were at malnutrition risk and nearly
 half were pre-frail [@wei2017slasFrailty]. Malnutrition and frailty are related but distinct, and they
 frequently co-occur, which is where the risk is greatest: in the local cohort, poor nutrition combined with
 pre-frailty or frailty carried the highest death rate and about 1.7 times the mortality risk after
 adjustment, whereas poor nutrition alone showed no clear excess [@wei2018slasOutcomes]. In practice, this means screening the frail senior for malnutrition specifically.
 Nationally, about 1 in 4 adults aged 50 to 69 fall below minimum energy needs and about half below protein needs,
-and standardised screening in polyclinics and Active Ageing Centres is under active discussion: a proposal,
-not yet settled policy [@mohMalnutritionTracking2025; @mohPolyclinicScreening2026].
+and standardised screening in polyclinics and Active Ageing Centres is under active discussion as a proposal [@mohMalnutritionTracking2025; @mohPolyclinicScreening2026].
 
 **Social eating is a practical target in Singapore.** In a local cohort, 24.1% of older adults ate alone most of the time
 although only 6.7% lived alone (living *with* family is not the same as sharing a meal), and eating alone

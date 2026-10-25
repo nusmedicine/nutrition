@@ -707,6 +707,18 @@ exists; compressed or slogan-like sentences that need a second reading; and vagu
 *does the work*) where the text should say what it means. The section heading is **The Singapore context** (renamed from "The Singapore picture", 2026-10-25)
 and the defined term **defended range**.
 
+**Plain statement (2026-10-26).** Three habits made the prose hard to read; avoid all three.
+(1) *Teaser openers*: a paragraph or bold entry must not open with a short abstract sentence that only makes sense
+after the next one (*The weight-loss target is modest.* *Sleep is a modifiable factor in weight.* *Two rules matter
+most.* *Timing matters too.*). The first sentence states the claim in full; under a bold run-in label, start with the
+content and do not restate the label. (2) *Point last*: order every paragraph general → specific (claim, then
+evidence or mechanism, then implication); no closing sentence that restates the paragraph as a summary.
+(3) *Contrastive parallelism*: state what is true, positively. No reflexive ", not Y" tails (*added to it, not
+substituted for it*; *food substitutions, not a branded diet*), "rather than Y", "instead of Y", "not X but Y" or
+balanced "X; Y" antitheses (*The effect is consistent; the explanation is unproven*). Keep a negation only for a
+safety point or to correct a misconception the passage is explicitly addressing, as its own plain clause, at most one
+per paragraph. `copy-audit` reports contrasts per 1,000 words (warn ≥ 1.5) and a `label-echo` flag.
+
 **Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
 Interestingly, Ultimately, Overall, In summary, In conclusion, It is important to note, It is worth noting*.
 

@@ -28,7 +28,7 @@
   - [Fibre](#sec-fibre): the carbohydrate we don't digest
 - [Fat](#sec-dietary-fat): type matters more than total
 - [Protein](#sec-protein): from amino acids to quality
-- [From nutrients to patterns](#sec-nutrient-patterns): foods and patterns, not ratios
+- [From nutrients to patterns](#sec-nutrient-patterns): foods and patterns
 :::
 
 ## Macronutrients at a glance {#sec-overview}
@@ -50,14 +50,12 @@ Fat is the most energy-dense macronutrient, so fat-rich foods raise total intake
 ::: {.callout-important}
 ## What determines a macronutrient's health effect
 The health effect of a macronutrient depends on its form and food source, so "Are carbs bad?" and
-"Is fat bad?" have no single answer. Clinically, the useful question is almost never "how many
-grams?" but "what kind, from what food?" (see [Are carbs bad?](#sec-close)).
+"Is fat bad?" have no single answer. The useful clinical question is "what kind, from what food?" (see [Are carbs bad?](#sec-close)).
 :::
 
 ## Carbohydrate {#sec-carbohydrate}
 
-**What it is.** Carbohydrates cover a wide spectrum, and a food's position on it matters far
-more than the word "carb":
+**What it is.** Carbohydrates cover a wide spectrum, and a food's position on it largely sets its effect on health:
 
 ::: {.spectrum}
 [The carbohydrate spectrum]{.tree-title}
@@ -72,7 +70,7 @@ Each region of the spectrum has its own place in the diet:
 
 - **Free sugars**, added sugars plus those in honey, syrups and fruit juices, are the carbohydrate to
   limit. The WHO caps them at <10% of energy, with further benefit below 5% [@who2020diet]. The
-  natural sugar inside whole fruit is not a free sugar and is not the target.
+  natural sugar inside whole fruit is not a free sugar.
 - **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
 - **Wholegrains**, grains that keep their bran and germ, sit with fibre at the protective end.
 
@@ -132,15 +130,12 @@ colorectal cancer. The association strengthened up to about 25–29 g of fibre a
 ::: {.callout-warning}
 ## How strong is the fibre evidence?
 The evidence comes mostly from prospective cohort studies (which record what people eat and follow
-them forward for years), plus some trials. Its certainty is therefore moderate at best for fibre,
-and lower for wholegrains and for glycaemic index and load (see
-[Glycaemic index and glycaemic load](#sec-gi-gl)). These are associations, not proof of cause: the
-benefit is real, but it carries that caveat.
+them forward for years), plus some trials, so most findings are associations and do not prove cause. Their certainty is moderate at best for fibre, and lower for wholegrains and for glycaemic index and load (see [Glycaemic index and glycaemic load](#sec-gi-gl)).
 :::
 
 ### Glycaemic index and glycaemic load {#sec-gi-gl}
 
-Not all carbohydrate raises blood glucose at the same speed. Foods are compared on a fixed amount of **available carbohydrate**: the digestible carbohydrate in a food, the part that drives the glucose response. The **glycaemic
+Carbohydrate foods raise blood glucose at different speeds and by different amounts. Foods are compared on a fixed amount of **available carbohydrate**: the digestible carbohydrate in a food, the part that drives the glucose response. The **glycaemic
 index (GI)** ranks a food by how much a portion containing 50 g of available carbohydrate raises
 blood glucose over about two hours, relative to pure glucose, set at 100
 [@atkinson2021gitables]. Lower-GI foods give a gentler, slower rise:
@@ -155,7 +150,7 @@ blood glucose over about two hours, relative to pure glucose, set at 100
 [Gentler rise]{.spectrum-end} [Faster, higher rise]{.spectrum-end}
 :::
 
-GI has a limitation: it fixes the carbohydrate at 50 g, which may be far from a real serving.
+GI fixes the carbohydrate at 50 g, which may be far from a real serving.
 **Glycaemic load (GL)** corrects for this by scaling GI to the actual serving:
 
 $$ \text{GL} = \frac{\text{GI} \times \text{available carbohydrate (g) per serving}}{100} $$
@@ -164,8 +159,7 @@ GL is graded low (≤10), medium (11–19) or high (≥20) per serving. Because 
 
 ::: {.callout-tip}
 ## Should high-GI foods be avoided?
-A high GI is often read as a reason to avoid a food, because a high GI means a bigger, faster
-glucose rise. The portion can change that assessment, however: watermelon has a high GI (~76), yet a normal slice holds only ~6 g of carbohydrate, so its GL is
+Portion size can change the assessment of a high-GI food. A high GI on its own signals a bigger, faster glucose rise. Watermelon has a high GI (~76), yet a normal slice holds only ~6 g of carbohydrate, so its GL is
 ~5 (low): a small portion of a high-GI food can be a low-load choice. The reverse also holds: a
 low-GI noodle such as *bee hoon* becomes a high-GL plate at hawker portions. Quality and portion
 both matter, so GI alone is a poor guide to what to avoid.
@@ -186,7 +180,7 @@ Three caveats limit how far GI should be relied on:
 - The evidence linking GI and GL to hard outcomes is the weakest strand of carbohydrate-quality
   research, of low to very low certainty, well below fibre and wholegrains [@reynolds2019carb].
 
-For most patients the practical message is therefore the familiar one, not a GI number: favour
+For most patients the practical message is therefore to favour
 whole, intact, fibre-rich carbohydrates in sensible portions, the wholegrain quarter of My Healthy
 Plate [@hpbHealthyPlate].
 
@@ -244,14 +238,14 @@ the reason wholegrains are preferred to refined starch.
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-Order whole fruit rather than bottled or freshly pressed juice, and add a vegetable or bean side, a
+Choose whole fruit over bottled or freshly pressed juice, and add a vegetable or bean side, a
 scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to raise the fibre content of an otherwise
 refined-starch plate.
 :::
 
 ::: {.callout-tip}
 ## 🍳 Healthy kitchen
-Keep edible skins on (potato, apple, cucumber); eat fruit whole instead of juicing it; and stir
+Keep edible skins on (potato, apple, cucumber); eat fruit whole; and stir
 beans, lentils or rolled oats into everyday dishes to add fibre easily.
 :::
 
@@ -292,7 +286,7 @@ Essential fatty acids
 : The two fatty acids the body cannot make: linoleic acid (an omega-6) and α-linolenic acid (an
   omega-3). The omega number is counted from the tail end of the chain.
 
-Fatty acids are rarely found on their own. Three of them esterified onto a glycerol backbone make a
+Fatty acids are rarely found on their own: three of them esterified onto a glycerol backbone make a
 **triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to). Replacing one fatty acid with a phosphate head gives a **phospholipid**, which is amphipathic (it has a water-attracting head and water-repelling tails), so phospholipids self-assemble into the lipid bilayer of every cell membrane: fat is a structural material as well as a fuel. The third feature, chain length, runs from short through medium to long; medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
@@ -315,8 +309,7 @@ metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-li
 
 In the blood, fats still do not dissolve, so they travel inside **lipoproteins**: chylomicrons, very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL) and high-density lipoprotein (HDL). **LDL** delivers cholesterol and drives atherosclerosis (plaque formation in the artery wall) when it builds up.
 
-**Quality: type matters more than total.** For decades the advice was to eat less fat; current advice
-is to eat better types of fat. Fats can be ranked by their relationship to cardiovascular risk:
+**Quality: type matters more than total.** Fats can be ranked by their relationship to cardiovascular risk:
 
 ::: {.spectrum}
 [Dietary fats by cardiovascular risk]{.tree-title}
@@ -329,12 +322,10 @@ is to eat better types of fat. Fats can be ranked by their relationship to cardi
 [Clearest harm]{.spectrum-end} [Most favourable]{.spectrum-end}
 :::
 
-The advice differs by type:
-
 - *Trans* fat is the clearest harm. WHO recommends <1% of energy and elimination of industrial
   sources [@who2020diet].
 - Saturated fat raises LDL cholesterol (the "bad" cholesterol); the practical advice is to replace
-  it with unsaturated fat, rather than with refined carbohydrate.
+  it with unsaturated fat.
 - Mono- and polyunsaturated fats (olive oil, nuts, fish) are the ones to favour, and they include the
   essential omega-3 and omega-6 fatty acids.
 
@@ -342,11 +333,7 @@ The advice differs by type:
 
 ::: {.callout-note}
 ## Is a low-fat diet healthier?
-Low-fat products look healthier because the long-standing advice was to eat less fat. Yet choosing
-"low fat" often means replacing fat with refined starch or sugar, which is frequently worse for health. The target
-is fat quality, and the replacement nutrient matters. Whether the effect of saturated fat depends on the whole food that contains it
-(dairy versus processed meat) is still debated [@astrup2020satfat], but either way the message stays simple:
-replace it with unsaturated fat and whole foods.
+Choosing "low fat" often means replacing fat with refined starch or sugar, which is frequently worse for health. The health effect depends on the quality of the fat and on the nutrient that replaces it. Low-fat products look healthier because the long-standing advice was to eat less fat. Whether the effect of saturated fat depends on the whole food that contains it (dairy versus processed meat) is still debated [@astrup2020satfat]. In either case the advice is to replace saturated fat with unsaturated fat and whole foods.
 :::
 
 ### Fatty-acid geometry: *cis*, *trans* and saturated {#sec-cis-trans}
@@ -394,16 +381,14 @@ which adds energy, and frequent intake is associated with a higher risk of type 
 The two differ only in the geometry of one double bond. Oleic acid's *cis* bond kinks the chain, so
 the molecules cannot pack tightly and olive oil stays liquid. Elaidic acid's *trans* bond leaves the
 chain almost straight, like saturated stearic acid, so it packs tightly and behaves like a solid fat.
-The shape of the chain, not its atoms, explains why *trans* fat behaves like saturated fat, in the
-body as well as on the plate.
+The shape of the chain explains why *trans* fat behaves like saturated fat, in the body as well as on the plate.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient cuts fat by switching to low-fat biscuits and more white bread. Why may his diet be no healthier?
 Cutting fat often means replacing it with refined starch or sugar, which is frequently worse for health.
 The health effect depends on the type of fat and on what replaces it: saturated fat raises LDL
-cholesterol, and the advice is to replace it with unsaturated fat, not with refined carbohydrate.
-The aim is to improve the type of fat rather than to reduce the amount.
+cholesterol, and the advice is to replace it with unsaturated fat.
 :::
 
 ## Protein {#sec-protein}
@@ -471,8 +456,8 @@ protein foods also supply fibre and unsaturated fat.
 ::: {.callout-note}
 ## 🔬 Food science: heat, browning and protein
 Heat **denatures** protein, unfolding it so enzymes can reach it, which usually makes it easier to
-digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%) [@evenepoel1998egg]. But
-the high-heat browning that adds flavour, the **Maillard reaction**, has a downside. In starchy
+digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%) [@evenepoel1998egg]. The
+high-heat browning that adds flavour, the **Maillard reaction**, also forms potentially harmful compounds. In starchy
 foods it forms **acrylamide**, a genotoxic carcinogen of concern [@efsa2015acrylamide]; in meat
 cooked at high heat, related reactions of amino acids, sugars and creatine form heterocyclic amines,
 and fat dripping onto a flame adds smoke-borne polycyclic aromatic hydrocarbons; both are mutagens in
@@ -487,7 +472,7 @@ or processed meats, and go easy on heavily charred satay or barbecue.
 
 ::: {.callout-tip}
 ## 🍳 Healthy kitchen
-Aim for golden, not brown, when frying or roasting, and don't blacken food [@fsaGoForGold]; gentle
+Fry or roast food only until golden, and don't brown or blacken it [@fsaGoForGold]; gentle
 methods (poaching, steaming, braising) cook protein well without the high-heat by-products.
 :::
 
@@ -509,12 +494,7 @@ that the day's mix supplies all of them: complementary plant proteins cover each
 
 ## From nutrients to patterns {#sec-nutrient-patterns}
 
-Modern guidelines have moved from "hit this macronutrient ratio" to "eat these foods,
-in this pattern" [@aha2021diet]. There is no single ideal macronutrient split: guidelines
-deliberately avoid prescribing one. Diabetes standards, for example, find no ideal percentage of
-energy from carbohydrate, protein or fat, and advise individualising the split and referring to a
-dietitian [@ada2026standards]. Across guidelines, the consistent themes are to favour wholegrains, plants and
-unsaturated fats, and to minimise added sugar, *trans* fat, sodium and ultra-processed foods.
+Modern guidelines advise which foods to eat and in what pattern [@aha2021diet]. Across guidelines, the consistent themes are to favour wholegrains, plants and unsaturated fats, and to minimise added sugar, *trans* fat, sodium and ultra-processed foods. Guidelines deliberately prescribe no single macronutrient split. Diabetes standards, for example, find no ideal percentage of energy from carbohydrate, protein or fat, and advise individualising the split and referring to a dietitian [@ada2026standards].
 (Dietary patterns in full: see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
 chapter.)
 
@@ -523,7 +503,7 @@ chapter.)
 A macronutrient split gives no information about form or food source: the carbohydrate could come from
 wholegrains and vegetables or from white rice and sugary drinks, and the fat from nuts and fish or
 from fried food. This is why guidelines advise eating patterns (wholegrains, plants and unsaturated
-fats; little added sugar, *trans* fat, sodium and ultra-processed food) instead of one ideal ratio.
+fats; little added sugar, *trans* fat, sodium and ultra-processed food).
 :::
 
 ## Are carbs bad? {#sec-close}

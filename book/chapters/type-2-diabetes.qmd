@@ -9,12 +9,12 @@
 ## Learning objectives
 - Explain how insulin resistance progresses to type 2 diabetes through β-cell compensation and failure,
   and how liver and pancreatic fat sustain it in the twin-cycle model.
-- Explain why carbohydrate quality and consistency, not a fixed carbohydrate target, guide the diet, and
+- Explain why carbohydrate quality and consistency guide the diet, and
   translate them into wholegrain and sugary-drink swaps at a hawker stall.
 - Recognise a realistic candidate for remission of early type 2 diabetes, explain why remission is not
   cure, and refer to a supervised programme.
-- Explain why a structured lifestyle programme prevents progression from prediabetes where one-off
-  advice does not, and refer to one.
+- Explain what makes a structured lifestyle programme effective at preventing progression from
+  prediabetes, and refer to one.
 - Identify the glucose-lowering drug classes that can cause hypoglycaemia, and refer for a medication review
   before endorsing a low-carbohydrate diet or a fast.
 - Recognise the risks of Ramadan fasting with diabetes, address the belief that a finger-prick test
@@ -40,9 +40,9 @@
 ## Type 2 diabetes at a glance {#sec-overview}
 
 Type 2 diabetes develops from insulin resistance, the reduced response of the body's cells to insulin
-(see the *Obesity & metabolic syndrome* chapter). Nutrition matters at every stage of the disease. In **prediabetes**, the phase in which blood glucose has started to rise but is not yet in the diabetes range, it prevents progression; in established diabetes it manages the disease; and in early disease it can bring about **remission**, with blood glucose held below the diabetes range off glucose-lowering drugs (see [Remission](#sec-t2d-remission)). All of this is part of Singapore's War on Diabetes: roughly one in three people will develop diabetes in their lifetime [@mohWarOnDiabetes].
+(see the *Obesity & metabolic syndrome* chapter). Nutrition acts at every stage of the disease: in **prediabetes**, the phase in which blood glucose has started to rise but is not yet in the diabetes range, it prevents progression; in established diabetes it manages the disease; and in early disease it can bring about **remission**, with blood glucose held below the diabetes range off glucose-lowering drugs (see [Remission](#sec-t2d-remission)). All of this is part of Singapore's War on Diabetes: roughly one in three people will develop diabetes in their lifetime [@mohWarOnDiabetes].
 
-![The diabetes continuum and where nutrition acts: from at-risk, through prediabetes, to early and then established type 2 diabetes. Structured lifestyle change can prevent progression; a supervised, weight-centred programme can put *early* disease into remission; dietary quality manages established disease; medication (a specialist decision) is layered on, not a substitute.](/figures/mechanisms/t2d-continuum.svg){#fig-t2d-continuum width="92%" fig-align="center"}
+![The diabetes continuum and where nutrition acts: from at-risk, through prediabetes, to early and then established type 2 diabetes. Structured lifestyle change can prevent progression; a supervised, weight-centred programme can put *early* disease into remission; dietary quality manages established disease; medication (a specialist decision) is added to lifestyle change.](/figures/mechanisms/t2d-continuum.svg){#fig-t2d-continuum width="92%" fig-align="center"}
 
 Whatever the stage, safety comes before any diet advice: before endorsing a low-carbohydrate diet or a fast, you need to know which glucose-lowering drugs the patient takes, because some cause dangerous hypoglycaemia (blood glucose falling too low; see the *Integrative metabolism* chapter) when carbohydrate is cut.
 
@@ -79,7 +79,7 @@ see the *Obesity & metabolic syndrome* chapter), and it is removable. Substantia
 it, which can restore β-cell function and reverse early disease. That reversal is the basis of
 remission (see [Remission](#sec-t2d-remission)).
 
-The level of body fat at which diabetes develops differs from person to person. That individual level is the **personal fat threshold**, and because Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter), an Asian patient can cross it at a BMI below the Western cut-offs [@taylor2023pft].
+The level of body fat at which diabetes develops, the **personal fat threshold**, differs from person to person, and because Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter), an Asian patient can cross it at a BMI below the Western cut-offs [@taylor2023pft].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has had insulin resistance for years, yet his blood glucose was normal until recently. Why?
@@ -125,7 +125,7 @@ to endorse or needs the diabetes team first.
 
 <div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
 
-For a patient on a fixed insulin dose, which does not change with what is eaten, the counselling message is **carbohydrate consistency** (steady timing and amount of carbohydrate from day to day), not aggressive restriction. If hypoglycaemia does occur in a conscious patient, it is treated with the **15-15 rule** (about 15 g of fast-acting glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat slows absorption [@diabetesukHypo].
+For a patient on a fixed insulin dose, which does not change with what is eaten, the counselling message is **carbohydrate consistency** (steady timing and amount of carbohydrate from day to day), because cutting carbohydrate against a fixed dose can cause hypoglycaemia. If hypoglycaemia does occur in a conscious patient, it is treated with the **15-15 rule** (about 15 g of fast-acting glucose, then a recheck in 15 minutes). Chocolate and nuts are too slow, because their fat delays absorption [@diabetesukHypo].
 
 #### Fasting for Ramadan with diabetes {#sec-t2d-ramadan}
 
@@ -138,20 +138,16 @@ high-risk classes in the table above.
 
 Many patients believe that a finger-prick glucose test breaks the fast, and some come to harm because
 of that belief [@zainudin2017knowledge]. The test does not break the fast, and Islam exempts the
-medically unfit, so monitoring and, where needed, not fasting are religiously permissible. The safeguard for those who do fast is a pre-Ramadan medication review (see [When to refer](#sec-t2d-refer)).
+medically unfit, so monitoring is religiously permissible, and so is forgoing the fast where needed. The safeguard for those who do fast is a pre-Ramadan medication review (see [When to refer](#sec-t2d-refer)).
 
 ### Carbohydrate: quality and consistency {#sec-t2d-carbohydrate}
 
-Carbohydrate is the dietary component that most directly raises blood glucose after a meal, so it is
-the natural focus. Yet there is no mandated carbohydrate target and no single ideal macronutrient
-ratio for diabetes [@ada2026standards; @dyson2018diabetesuk]. What matters is carbohydrate quality and
-day-to-day consistency, individualised by a dietitian, not a number set at the bedside.
+Carbohydrate is the dietary component that most directly raises blood glucose after a meal, and the advice centres on its quality and day-to-day consistency, individualised by a dietitian. There is no mandated carbohydrate target and no single ideal macronutrient ratio for diabetes [@ada2026standards; @dyson2018diabetesuk].
 
 Carbohydrate quality matters more than quantity. Choosing lower-glycaemic, wholegrain, higher-fibre
-carbohydrates gives a small but real improvement in blood glucose: about 0.3% off **HbA1c**, a blood
+carbohydrates gives a small improvement in blood glucose: about 0.3% off **HbA1c**, a blood
 marker of average blood glucose over about three months [@chiavaroli2021gigl]. That improvement is
-best achieved through specific food swaps, not by memorising glycaemic-index tables (see the *Macronutrients*
-chapter), which are measured for single foods and blunted in mixed meals [@dnsg2023easd].
+best achieved through specific food swaps. Glycaemic-index tables (see the *Macronutrients* chapter) help less, because they are measured for single foods and the differences are blunted in mixed meals [@dnsg2023easd].
 
 Fibre and wholegrains have the strongest, most consistent evidence. Higher intake lowers the risk of
 developing diabetes; across a range of outcomes in the general population, the risk reduction was
@@ -161,17 +157,13 @@ HbA1c, and raising intake by about 15 g a day, or to about 35 g, is a reasonable
 same advice: carbohydrate mainly from wholegrains, vegetables, fruit and legumes, with refined grains
 and sugary drinks kept to a minimum [@who2023carbohydrate].
 
-![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a key carbohydrate-quality change; locally it is a swap, not a ban on rice.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
+![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a key carbohydrate-quality change that keeps rice on the plate.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
 
 Sugar-sweetened drinks are a separate, important target: each daily serving is associated with roughly a 13–18% higher risk of type 2 diabetes, an effect only partly explained by weight [@imamura2015ssb]. The change is made at the point of purchase, where Singapore's Nutri-Grade label works as a decision aid [@shin2023nutrigrade] and ordering *kopi kosong* or *teh kosong* (no sugar), or *kopi* or *teh siu dai* (less sweet), is an intervention in its own right.
 
 ::: {.callout-important}
 ## Should a patient with diabetes give up rice?
-Rice is often blamed for diabetes, and pooled Asian data do link white rice to diabetes risk
-[@hu2012whiterice]. In the Singapore Chinese Health Study, however, rice intake itself was not
-associated with diabetes, while substituting wholemeal bread lowered risk [@seah2019scriphealthrice].
-The accurate, less stigmatising message is to shift toward wholegrains (and add vegetables and protein
-to the plate) instead of demonising a cultural staple. Wholegrain intake is still low locally: only about 4%
+A patient with diabetes does not need to give up rice. The accurate, less stigmatising message is to shift toward wholegrains and add vegetables and protein to the plate. Rice is often blamed for diabetes, and pooled Asian data do link white rice to diabetes risk [@hu2012whiterice]. In the Singapore Chinese Health Study, however, rice intake itself was not associated with diabetes, and substituting wholemeal bread lowered risk [@seah2019scriphealthrice]. Wholegrain intake is still low locally: only about 4%
 of the staples Singaporeans eat are wholegrain [@mohNNS2022].
 :::
 
@@ -181,7 +173,7 @@ Because quality matters more than the macronutrient ratio, several dietary patte
 and the right one is the one a person will actually follow [@evert2019nutrition]. The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter; in diabetes, the patterns matter for glucose and overall diet quality, and on that measure the evidence behind three common patterns (see the *What a healthy diet looks like* chapter) differs:
 
 - The Mediterranean pattern has the strongest diabetes-specific evidence. It lowers HbA1c in established
-  disease, reduces new cases, and works well translated into local food instead of adopted wholesale
+  disease, reduces new cases, and works well when translated into local food
   [@esposito2015medjourney; @koloverou2014medincidence].
 - A low-carbohydrate pattern is a legitimate option. Its benefit at six months tends to attenuate
   by twelve and depends heavily on adherence, and strict versions need dietitian supervision
@@ -203,9 +195,8 @@ plants and wholegrains, less refined carbohydrate and sugar) in hawker-centre te
 :::
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why is the advice to swap toward brown rice, instead of cutting rice out or setting a carbohydrate target?
-There is no mandated carbohydrate target; what matters is carbohydrate quality and consistency, and
-the strongest evidence is for fibre and wholegrains. In the Singapore Chinese Health Study, rice intake itself was not associated with diabetes, while substituting wholemeal bread lowered
+## Check yourself: why is the advice to swap toward brown rice?
+The diet is guided by carbohydrate quality and consistency, and the strongest evidence is for fibre and wholegrains. No carbohydrate target is mandated. In the Singapore Chinese Health Study, rice intake itself was not associated with diabetes, and substituting wholemeal bread lowered
 risk. A swap toward wholegrains is accurate, keeps a cultural staple on the plate and avoids stigma.
 :::
 
@@ -218,7 +209,7 @@ and a strict version needs dietitian supervision.
 
 ## Remission and prevention {#sec-t2d-remission-prevention}
 
-Beyond day-to-day management, weight loss and lifestyle change can achieve two further outcomes: remission of early type 2 diabetes, and prevention of diabetes in people with prediabetes. Both depend on a structured programme, not one-off advice.
+Beyond day-to-day management, weight loss and lifestyle change can achieve two further outcomes: remission of early type 2 diabetes, and prevention of diabetes in people with prediabetes. Both depend on a structured programme.
 
 ### Remission of early type 2 diabetes {#sec-t2d-remission}
 
@@ -227,29 +218,28 @@ DiRECT trial (Diabetes Remission Clinical Trial) achieved 46% remission at one y
 weight-management programme, versus 4% with usual care [@lean2018direct]. Three qualifiers must
 accompany that number:
 
-- It applies to eligible patients only. DiRECT enrolled people diagnosed within about 6 years,
-  not on insulin, within a defined BMI range. Long-standing or insulin-treated diabetes behaves
+- It applies to eligible patients only. DiRECT enrolled people diagnosed within about 6 years
+  who were not on insulin and were within a defined BMI range. Long-standing or insulin-treated diabetes behaves
   differently. Because Asians reach their personal fat threshold at a lower BMI, entry criteria
-  should be ethnicity-adjusted rather than the Western band applied unchanged [@taylor2023pft;
+  should be adjusted for ethnicity [@taylor2023pft;
   @standby2022southasian].
 - It fades over time. Remission fell to about 36% at two years and about 13% at five,
   in line with weight regain; the maintenance problem is not yet solved [@direct5yr2024].
-- It is remission, not cure. The agreed definition is an HbA1c below the diabetes range sustained off
+- It is not a cure. The agreed definition is an HbA1c below the diabetes range sustained off
   glucose-lowering drugs, and monitoring continues because it can relapse [@riddle2021remission;
   @diabetesUK2021remission].
 
-How a remission programme is delivered matters for safety. Programmes use a supervised **total diet
-replacement**: a low-calorie formula phase with structured food reintroduction. Because glucose and blood pressure fall fast on it, the programme's clinical team adjusts the medication on day one, so a total diet replacement is not a self-directed crash diet. The referring clinician's task is to recognise the candidate and refer to a structured programme. Singapore has an expert-consensus
+Remission programmes use a supervised **total diet replacement**: a low-calorie formula phase with structured food reintroduction. Glucose and blood pressure fall fast on it, so the programme's clinical team adjusts the medication on day one. A self-directed crash diet has no such supervision. The referring clinician's task is to recognise the candidate and refer to a structured programme. Singapore has an expert-consensus
 framework for this (with ethnicity-adjusted thresholds), though no national remission programme yet
 exists [@khoo2026sgDSF].
 
 ### Preventing diabetes: structured lifestyle programmes {#sec-t2d-prevention}
 
-Prevention acts before diagnosis, and how it is delivered determines whether it works. In the
+Structured lifestyle programmes reduce progression from prediabetes to diabetes. In the
 Diabetes Prevention Program, an intensive, structured lifestyle programme cut progression from
 prediabetes to diabetes by 58% relative to placebo (from about 11 to about 5 new cases per 100 people a
-year), outperforming metformin (31%, about 8 per 100) [@dpp2002]. The benefit persists for
-decades, even as it attenuates [@dppos2009; @dppos2025_21yr]. What made the programme effective was its
+year), outperforming metformin (31%, about 8 per 100) [@dpp2002]. The benefit attenuates but persists for
+decades [@dppos2009; @dppos2025_21yr]. What made the programme effective was its
 structure: a multi-session curriculum with follow-up, aiming at ≥7% weight loss and ≥150 minutes of
 activity a week. A one-off "you should lose weight" has none of that structure. Translated at scale it
 still works: the NHS programme and, locally, the Pre-DICTED trial reproduced the benefit in real-world
@@ -257,13 +247,13 @@ and multi-ethnic Asian settings [@mcmanus2022nhsDpp; @bee2025predicted].
 
 The guideline advice for prediabetes has three parts: aim for modest weight loss and activity, adopt a
 quality dietary pattern, and refer to a structured programme [@ada2026prevention]. When you discuss
-prediabetes, frame it to motivate, not to frighten, since not everyone with prediabetes progresses,
+prediabetes, frame it to motivate the patient: not everyone with prediabetes progresses,
 and some revert to normal [@hpbPreDictedInfo]. Sustaining any of these changes is a skill in itself
 (see the *Behaviour-change counselling* chapter for motivational interviewing and other
 behaviour-change techniques).
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: why should remission programmes in Singapore use ethnicity-adjusted entry criteria instead of DiRECT's Western BMI band?
+## Check yourself: why should remission programmes in Singapore use ethnicity-adjusted entry criteria?
 Asians carry more fat at a given BMI, so they can cross their personal fat threshold into diabetes at
 a BMI below the Western cut-offs. A BMI band set on Western populations therefore underestimates
 how much body fat an Asian patient carries at a given weight. Singapore's expert-consensus framework
@@ -279,7 +269,7 @@ conversation has none of that structure. The guideline response is to refer to a
 
 ## When to refer {#sec-t2d-refer}
 
-The clinician's task is to recognise and refer, not to prescribe. You identify the modifiable dietary
+The clinician's task is to recognise and refer. You identify the modifiable dietary
 factors: carbohydrate quality, dietary pattern, body weight (for remission) and sugary-drink intake. You
 then refer to a dietitian for the individualised plan (medical nutrition therapy; see the
 *Interprofessional practice, referral and looking after yourself* chapter) and to the diabetes team for medication decisions.
@@ -288,10 +278,10 @@ then refer to a dietitian for the individualised plan (medical nutrition therapy
 ## Review the medication before carbohydrate is cut
 It is unsafe to endorse a low-carbohydrate diet or a fast to a patient on insulin or a sulfonylurea
 without a medication review. The dose set for their old intake can now drive their blood glucose too
-low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
+low. Recognise the risk, and refer to the diabetes team **before** the diet changes.
 :::
 
-Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task, not one to manage single-handed. Local evidence supports that adjustment: the FAST algorithm, a fasting algorithm validated in Singapore (see the *Integrative metabolism* chapter), shows that fasting with
+Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task. Local evidence supports that adjustment: the FAST algorithm, a fasting algorithm validated in Singapore (see the *Integrative metabolism* chapter), shows that fasting with
 diabetes can be done safely when medication is adjusted by the algorithm [@lum2020fast].
 
 ::: {.callout-tip collapse="true"}
@@ -313,8 +303,8 @@ for a pre-Ramadan review to risk-stratify her and adjust medication.
 
 ## Can diabetes be "reversed"? {#sec-close}
 
-Early type 2 diabetes can sometimes be put into remission by a supervised, weight-centred programme that removes ectopic fat from the liver and pancreas. Remission is not cure: the benefit is real but limited to
-eligible patients, and it can fade as weight returns. For most people, the gains come from
+Early type 2 diabetes can sometimes be put into remission by a supervised, weight-centred programme that removes ectopic fat from the liver and pancreas. Remission is not cure: it is limited to
+eligible patients and can fade as weight returns. For most people, the gains come from
 prevention and day-to-day management: structured lifestyle change prevents progression from
 prediabetes, and a quality carbohydrate pattern with the plate method manages established disease. The
 individualised plan is made by referral, to the dietitian and the diabetes team.
@@ -325,7 +315,7 @@ Singapore declared a War on Diabetes in 2016. About one in three Singaporeans wi
 their lifetime [@mohWarOnDiabetes], and current prevalence is around 9% of adults [@mohNPHS2024].
 Prevalence has an ethnic gradient: Indian and Malay residents have roughly twice the prevalence of
 Chinese residents [@mohNPHS2024]. The gradient should guide screening priority, framed as
-population-level risk and never as blame; counselling is still tailored to the individual.
+population-level risk and without blame; counselling is still tailored to the individual.
 
 Two of the modifiable dietary factors, carbohydrate quality and sugary drinks, are prominent in the local food environment: only ~4% of
 staples are wholegrain, and sugary drinks supply about half of dietary sugar [@mohNNS2022]. The

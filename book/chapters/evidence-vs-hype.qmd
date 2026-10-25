@@ -36,12 +36,9 @@
 
 ## Evidence vs hype at a glance {#sec-overview}
 
-Advising the healthy means fielding a steady stream of claims, most of them overstated, a few
-supported by real evidence. Medical students and recent graduates, however, often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The skill that carries across all these claims is to stop reacting to a claim and start appraising it.
+Advising the healthy means fielding a steady stream of claims, most of them overstated and a few supported by real evidence. Medical students and recent graduates often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The skill that applies to all these claims is critical appraisal.
 
-The common error is to swing between two extremes: accepting whatever is trending, or turning
-reflexively cynical and dismissing everything new. Appraisal avoids both: it is a fixed routine that leads to a conclusion
-in proportion to the evidence.
+Appraisal is a fixed routine that leads to a conclusion in proportion to the evidence. It avoids the two common errors: accepting whatever is trending, and turning reflexively cynical and dismissing everything new.
 
 ## Critical appraisal {#sec-appraisal}
 
@@ -78,9 +75,7 @@ The four questions are:
 1. Find the study. What actual evidence lies behind the headline? (Often none, or only a mouse
    study.)
 2. Judge the design. Where does it rank: a case report, a survey, a cohort study, a randomised trial or
-   a review? A higher design is not automatically better (see
-   [The hierarchy of evidence in nutrition](#sec-hierarchy)), but the verdict depends on knowing where the
-   study ranks.
+   a review? The verdict depends on knowing where the study ranks. In nutrition, a higher design is not automatically better (see [The hierarchy of evidence in nutrition](#sec-hierarchy)).
 3. Read the outcome. Did it measure a hard endpoint (heart attacks) or a surrogate (a blood marker)?
    Is the change relative ("30% lower") or absolute? And did the result survive replication, or was
    the study retracted?
@@ -104,9 +99,7 @@ harmful. Run a few real claims through the four questions below to see how diffe
 [Weaker evidence]{.spectrum-end} [Stronger evidence]{.spectrum-end}
 :::
 
-In drug research the RCT sits at the top and **observational studies**, which record what people
-already do without assigning a treatment, are treated with suspicion. A prospective cohort study is
-one such observational design. Nutrition research departs from that ranking for three reasons:
+Nutrition research ranks study designs differently from drug research. In drug research the RCT sits at the top and **observational studies**, which record what people already do without assigning a treatment, are treated with suspicion; a prospective cohort study is one such observational design. Nutrition departs from that ranking for three reasons:
 
 - With a diet, **blinding** (keeping participants unaware of which treatment they receive) is often
   impossible, because people know what they are eating.
@@ -130,10 +123,10 @@ Most overstated nutrition claims fail at one of a few predictable points:
   what?"
 - A surrogate is not a hard endpoint. A diet that lowers a blood marker has not been shown to prevent
   heart attacks until it is tested against heart attacks.
-- A plausible mechanism is not clinical proof: however convincing the biology, it only raises a hypothesis.
+- A plausible mechanism is not clinical proof: it raises a hypothesis that still has to be tested.
   Time-restricted eating is the clearest example: its circadian rationale is real, yet randomised
   trials show its weight effect is no better than three regular meals a day [@lowe2020treat] or than
-  ordinary calorie restriction [@lin2023tre]. Being sceptical of the hype does not mean dismissing the mechanism.
+  ordinary calorie restriction [@lin2023tre].
 
 ::: {.callout-note}
 ## Re-appraising PREDIMED and DASH
@@ -245,8 +238,7 @@ insufficient evidence to recommend cutting any food, a strict elimination diet i
 Toxins are already cleared continuously: the liver converts drugs, hormones and metabolic waste
 into water-soluble forms, and the kidneys excrete them in urine. A cleanse adds nothing to that
 clearance; a critical review found no evidence that commercial detox diets remove any toxin, and their
-visible effect comes from loss of water and bowel contents. The advice is a sustainable eating pattern, not a
-product.
+visible effect comes from loss of water and bowel contents. The advice is a sustainable eating pattern.
 :::
 
 ## What separates evidence from hype? {#sec-close}
@@ -265,8 +257,7 @@ health supplements "cannot and should not replace a balanced diet" [@mohSuppleme
 says that detox claims lack evidence. Regulation gives a further reason for caution: health supplements need no approval from the Health Sciences Authority (HSA) before sale and are not
 evaluated for efficacy, and the HSA's post-market testing has removed products containing undeclared western
 drugs or toxic heavy metals [@hsaUnderstandingSupplements; @mohSupplements2018]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
-Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
-[@hpbHealthyPlate].
+Point patients back to My Healthy Plate and a sustainable eating pattern [@hpbHealthyPlate].
 
 ## Check your understanding {#sec-quiz}
 

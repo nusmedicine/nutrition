@@ -8,7 +8,7 @@
 ::: {.callout-note}
 ## Learning objectives
 - Explain why a slowing metabolism accounts for little of midlife weight gain, and what drives adult
-  weight creep instead.
+  weight creep.
 - Explain why protein maintains muscle mass only alongside resistance exercise, and state the protein range
   for an active adult.
 - Match exercise fuelling and hydration to the training load, recognising when ordinary food and
@@ -60,17 +60,11 @@ With growth over, the aim in these decades is maintenance, which turns on two qu
 
 ### Does metabolism slow down in midlife? {#sec-adult-metabolism}
 
-Midlife weight gain is commonly blamed on a slowing metabolism. Total energy expenditure (the sum of
-basal metabolic rate, the thermic effect of food and physical activity; see the
-[*Energy balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled
-water across the whole lifespan. Adjusted for body size, it is in fact steady from about 20 to 60: it does not start falling in the thirties, and declines only later in life [@pontzer2021energy]. The
-familiar explanation, "my metabolism is slowing down", therefore accounts for little of midlife weight
-gain.
+A slowing metabolism, the usual explanation for midlife weight gain, accounts for little of it. Total energy expenditure (the sum of basal metabolic rate, the thermic effect of food and physical activity; see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled water across the whole lifespan. Adjusted for body size, it is steady from about 20 to 60 and declines only later in life [@pontzer2021energy].
 
-**Weight creep**, the slow adult weight gain of roughly 0.5–1 kg a year, comes instead from a small,
+**Weight creep**, the slow adult weight gain of roughly 0.5–1 kg a year, comes from a small,
 chronic energy surplus, which usually arises from falling activity and muscle plus a little more
-intake, not from a falling resting metabolism [@hill2009energygap]. The remedies therefore lie in staying
-active, keeping muscle and managing the food environment; a crash diet aimed at a metabolic decline
+intake [@hill2009energygap]. The remedies therefore lie in staying active, keeping muscle and managing the food environment. A crash diet aimed at a metabolic decline
 targets a cause that is not there. Activity alone, however, has a fairly weak effect on weight
 once excess has accumulated, so preventing the surplus works better than trying to out-exercise it
 later (the clearest data are in women) [@lee2010pawomen].
@@ -94,9 +88,7 @@ stimulus, does little.
 
 The adult protein reference is the **Recommended Dietary Allowance (RDA)**, a population reference
 intake that is adequate for nearly all healthy adults: about 0.8 g/kg/day (see the
-[*Macronutrients*](macronutrients.qmd) chapter). The RDA is a floor, not an optimum: an adult training to build or hold muscle does better at around 1.2–1.6 g/kg/day, and the benefit plateaus near there, so
-more is not better [@morton2018proteinmeta]. The range is illustrative, not a precise target: an
-ordinary diet reaches it, and for most people it means some protein at each meal. Three common concerns
+[*Macronutrients*](macronutrients.qmd) chapter). The RDA is a minimum: an adult training to build or hold muscle does better at around 1.2–1.6 g/kg/day, and the benefit plateaus near there [@morton2018proteinmeta]. The range is approximate: an ordinary diet reaches it, and for most people it means some protein at each meal. Three common concerns
 about protein (timing, safety and source) matter less than is often claimed:
 
 - Timing around a workout barely matters once daily protein intake is adequate; the **anabolic window**
@@ -131,9 +123,7 @@ The external factors of working life are exercise, which for most adults needs n
 
 ### Fuelling everyday exercise {#sec-adult-fuelling}
 
-Most adults are not training hard, and they need no special sports nutrition: an ordinary healthy
-plate and water cover their activity. Sports drinks, gels and protein powders are marketed to everyone
-but needed by few, so the practical aim is to guard against over-fuelling.
+For most adults, an ordinary healthy plate and water cover their activity, and no special sports nutrition is needed. Sports drinks, gels and protein powders are needed by few of the people they are marketed to, so the practical aim is to guard against over-fuelling.
 
 For adults who do train, fuelling scales with the actual training load, which is usually modest.
 Carbohydrate needs rise with training volume (for the fuel physiology of exercise, see the
@@ -142,14 +132,12 @@ and during-exercise fuelling advice, however, is calibrated for serious enduranc
 hours at a time, and does not apply to recreational exercisers [@thomas2016nutritionathletic]. Below
 that volume, the advice is simpler:
 
-- A 30–60-minute gym or park session needs water, not a sports drink.
+- A 30–60-minute gym or park session needs only water.
 - Hard, once-daily training is met by eating enough overall and getting adequate protein across the
   day, without a special shake.
 - Recovery needs only a normal next meal, unless training twice in one day.
 
-Caffeine, which many working adults drink daily, is a separate question: a coffee before exercise is a mild,
-legitimate performance aid, and the concern with bubble tea, energy drinks and kopi is their sugar and
-energy content, not the caffeine itself.
+Caffeine itself, as in a coffee before exercise, is a mild, legitimate performance aid. With bubble tea, energy drinks and kopi, which many working adults drink daily, the concern is their sugar and energy content.
 
 ::: {.callout-tip}
 ## 🍜 Hydration in the Singapore heat
@@ -169,18 +157,16 @@ In the tropics, only the advice on fluid changes. For outdoor exercise or a swea
 
 ### The working-life food environment {#sec-adult-food-environment}
 
-For most adults, diet is shaped less by the home kitchen than by where and when work lets them eat.
-Three influences stand out.
+For most adults, diet is shaped mainly by where and when work lets them eat. Three influences stand out: eating out, shift work, and stress with short sleep.
 
 **Eating out is the default.** In Singapore the great majority of adults eat out regularly, and many
-have a hawker meal every day, chosen for convenience and price [@naidoo2017eatingout]. The hawker
-plate, not the home recipe, is therefore the main target for change, and counselling around it is a skill of
+have a hawker meal every day, chosen for convenience and price [@naidoo2017eatingout]. The hawker plate is therefore the main target for change, and counselling around it is a skill of
 its own (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) and
 [*Assessing diet and talking to patients*](06-dietary-assessment.qmd) chapters).
 
 **Shift work disrupts circadian rhythms.** Night-shift work is associated with higher rates of type 2
 diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
-abnormal blood lipids). These associations come from observational data and are not proof; the mechanism involves **circadian misalignment** (eating, sleeping and working out of step with the body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
+abnormal blood lipids). These associations come from observational data. The mechanism involves **circadian misalignment** (eating, sleeping and working out of step with the body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
 
 The most useful evidence-based change for shift workers concerns when to eat. In a controlled trial,
 keeping the main meals in the daytime and avoiding heavy eating in the small hours (roughly midnight to
@@ -188,15 +174,14 @@ dawn) prevented the glucose intolerance of simulated night work [@chellappa2021d
 generally, late-weighted eating is less favourable than an earlier-weighted pattern, though much of
 that evidence is observational [@stonge2017mealtiming].
 
-**Stress and short sleep change intake.** Stress nudges intake toward less healthy food
-[@hill2022stresseating], and short sleep, a chronic deficit for many working adults, raises energy intake [@alkhatib2017sleep].
-Extending sleep brings intake back down [@tasali2022sleepextension], so improving
-sleep is also a nutrition intervention.
+**Stress and short sleep change intake.** Under stress, people tend to choose less healthy food
+[@hill2022stresseating]. Short sleep, a chronic deficit for many working adults, raises energy intake
+[@alkhatib2017sleep], and extending sleep brings intake back down [@tasali2022sleepextension], so
+improving sleep is also a nutrition intervention.
 
 ### Alcohol: cancer and cardiovascular risk {#sec-adult-alcohol}
 
-Clinical advice on alcohol has reversed within a decade. There is no established safe level of
-drinking for health: alcohol is a **Group 1 carcinogen** (an agent classed as an established cause of
+Clinical advice on alcohol has reversed within a decade: there is now no established safe level of drinking for health. Alcohol is a **Group 1 carcinogen** (an agent classed as an established cause of
 cancer in humans) that causes at least seven cancers, including breast and oesophageal cancer, and a
 meaningful share of alcohol-related cancers arise at light-to-moderate drinking
 [@anderson2023nosafelevel; @who2023nosafelevel; @jun2023alcoholcancer].
@@ -251,7 +236,7 @@ kilograms of creep can cross a threshold. Established obesity and metabolic synd
 the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) and
 [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 
-Repeated crash dieting is the pattern to steer patients away from. **Weight cycling** (repeated weight loss and regain) has been linked to worse outcomes, but that signal is heavily confounded by illness causing unintentional weight loss [@zou2019fluctuation], so the link is not proof that dieting itself kills. The practical conclusion is still to aim for a steady weight, not repeated loss and regain; small, sustainable habits and regular self-weighing modestly help prevent weight gain [@graham2022smallchange; @zheng2015selfweighing].
+Repeated crash dieting is the pattern to steer patients away from. **Weight cycling** (repeated weight loss and regain) has been linked to worse outcomes, but that signal is heavily confounded by illness causing unintentional weight loss [@zou2019fluctuation], so the link is not proof that dieting itself kills. The practical conclusion is still to aim for a steady weight. Small, sustainable habits and regular self-weighing modestly help prevent weight gain [@graham2022smallchange; @zheng2015selfweighing].
 
 Each of the following patterns is a prompt to act at this stage:
 
@@ -273,10 +258,7 @@ small, sustainable habits and regular self-weighing, and to avoid repeated cycle
 
 ## Is adulthood just "slowing down"? {#sec-close}
 
-Believing that adulthood brings a slowing metabolism leads to the wrong remedies, because the metabolism holds steady through these decades; what
-changes is that maintenance replaces growth and the environment sets most of the diet. Midlife weight
-creep reflects a small, correctable surplus, not a metabolic decline. The modifiable factors are therefore activity, muscle and the food environment, addressed through a few lasting habits: resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty calories and has no established safe level. Two popular messages are also corrected: most active adults need only ordinary food and water, not sports
-nutrition, and no one should drink for their heart.
+The metabolism holds steady through these decades, so blaming midlife weight gain on a slowing metabolism leads to the wrong remedies. In adulthood, maintenance replaces growth and the environment sets most of the diet. Midlife weight creep reflects a small, correctable surplus. The modifiable factors are therefore activity, muscle and the food environment, addressed through a few lasting habits: resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty calories and has no established safe level. Two popular messages are also corrected: most active adults need only ordinary food and water, and no one should drink for their heart.
 
 ## The Singapore context {#sec-singapore}
 

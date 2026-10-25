@@ -9,7 +9,7 @@
 ## Learning objectives
 - Explain why the rise of non-communicable diseases makes prevention, and nutrition, central to
   clinical work.
-- Interpret a modelled estimate of diet-related deaths as an indicator of risk, not a precise count.
+- Interpret a modelled estimate of diet-related deaths as an approximate indicator of risk.
 - Describe the six pillars of health and explain why nutrition is central to them, with two-way links
   to each of the other five.
 - Explain why the overall dietary pattern predicts health better than single nutrients, and state the
@@ -33,12 +33,7 @@
 
 ## Why nutrition matters at a glance {#sec-overview}
 
-For most of medicine's history, the doctor's main concern was acute illness, injury and
-infection: pneumonia, sepsis, trauma. These have not gone away, but they are no longer the main causes of death. Today,
-**non-communicable diseases (NCDs)**, chronic diseases that are not passed from person to person,
-cause around three-quarters of deaths worldwide, setting aside deaths from the COVID-19 pandemic
-[@whoNCD2025]. The main ones are
-cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. These diseases develop slowly and are, in large part, driven by a handful of modifiable behaviours: what we eat, how much we move, whether we sleep, smoke or drink. Of these behaviours, diet ranks near the top.
+**Non-communicable diseases (NCDs)**, chronic diseases that are not passed from person to person, cause around three-quarters of deaths worldwide, setting aside deaths from the COVID-19 pandemic [@whoNCD2025]. The main ones are cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. As causes of death they have overtaken acute illness, injury and infection (pneumonia, sepsis, trauma), which were the doctor's main concern for most of medicine's history. NCDs develop slowly and are, in large part, driven by a handful of modifiable behaviours: what we eat, how much we move, whether we sleep, smoke or drink. Of these behaviours, diet ranks near the top.
 
 ## The burden of non-communicable disease {#sec-burden}
 
@@ -48,12 +43,10 @@ which puts diet among the largest modifiable contributors to early death [@gbd20
 
 ::: {.callout-note}
 ## How precise is the 11 million figure?
-The "11 million deaths" figure is a modelled estimate from observational data, and how heavily it
-weights sodium is debated. The figure indicates that diet is among the leading modifiable risks; it is
-not a precise count of deaths.
+The "11 million deaths" figure is an approximate, modelled estimate from observational data, and how heavily it weights sodium is debated. It indicates that diet is among the leading modifiable risks.
 :::
 
-Because chronic disease now causes most deaths, the clinician's job changes. A clinician who can only treat the acute crisis necessarily intervenes late in the disease. The larger opportunity, and the harder skill, is to prevent and slow chronic disease, and with diet among the largest modifiable risks, nutrition is central to that work.
+Because chronic disease now causes most deaths, the clinician's larger opportunity, and harder skill, is to prevent and slow it. A clinician who can only treat the acute crisis necessarily intervenes late in the disease. With diet among the largest modifiable risks, nutrition is central to this preventive work.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: NCDs now cause most deaths. Why does that change the clinician's main task?
@@ -69,10 +62,7 @@ Six behaviours, the pillars of health, help to prevent and treat chronic disease
 
 ### What the pillars are {#sec-six-pillars}
 
-Protecting health takes more than a general instruction to "live better". It rests on a small set of
-evidence-based behaviours that prevent, treat and sometimes reverse chronic disease, the **six pillars
-of health** [@aclm2022comp; @lianov2010]. The pillars are used alongside drugs and surgery, never
-instead of them. Each pillar names one behaviour:
+The **six pillars of health** are a small set of evidence-based behaviours that prevent, treat and sometimes reverse chronic disease [@aclm2022comp; @lianov2010]. They are used alongside drugs and surgery, never in place of them. Each pillar names one behaviour:
 
 Nutrition
 : A predominantly whole-food, plant-rich diet.
@@ -108,8 +98,7 @@ so a change in diet tends to affect the other pillars as well. The diagram below
 
 Each link works in its own way:
 
-- Diet and physical activity act together on weight and glucose; neither alone is as effective as
-  both.
+- Diet and physical activity act together on weight and glucose, and the two combined are more effective than either alone.
 - Short sleep lowers **insulin sensitivity** (how well the body clears glucose in response to insulin)
   [@buxton2010sleep] and raises hunger and appetite, especially for energy-dense food
   [@sleepRestriction], and overall energy intake [@alkhatib2017partialsleep]. Eating late at night is
@@ -133,10 +122,7 @@ practical rule is to start with nutrition but plan for all the pillars.
 
 ## Whole dietary patterns and their evidence {#sec-patterns}
 
-A common error among patients and doctors alike is **single-nutrient reductionism**, the search for
-one nutrient to blame (carbohydrate, fat, gluten) or one "superfood". The evidence points instead to the
-**dietary pattern**, the diet taken as a whole, which predicts health better than any isolated
-nutrient [@aha2021diet]. Two of the most-studied patterns illustrate the point:
+The **dietary pattern**, the diet taken as a whole, predicts health better than any isolated nutrient [@aha2021diet]. The search for one nutrient to blame (carbohydrate, fat, gluten) or one "superfood", called **single-nutrient reductionism**, is a common error among patients and doctors alike. Two of the most-studied patterns illustrate the pattern approach:
 
 - The **Mediterranean pattern** (olive oil, nuts, legumes, fish, vegetables) lowered the risk of a
   combined measure of cardiovascular events by about 30% in relative terms in the PREDIMED trial
@@ -147,34 +133,28 @@ nutrient [@aha2021diet]. Two of the most-studied patterns illustrate the point:
 
 ::: {.callout-warning}
 ## Landmark trials come with caveats
-Both results have limits (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
-chapter). PREDIMED's reported result comes from a 2018 re-analysis, published after the original had
+PREDIMED's reported result comes from a 2018 re-analysis, published after the original had
 problems with how participants were assigned to groups. Its main result combined several
-cardiovascular events; strokes were the largest share and showed the clearest reduction. DASH was a short controlled-feeding study that measured
-blood pressure, a marker, instead of heart attacks themselves. Both are real findings that hold within
-their limits, and any landmark trial is best read the same way.
+cardiovascular events; strokes were the largest share and showed the clearest reduction. DASH was a short controlled-feeding study, and its outcome was blood pressure, a marker. It did not measure heart attacks. Both are real findings that hold within their limits (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter), and any landmark trial is best read the same way.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient wants one "superfood" to fix his diet. What advice does the evidence support?
 The search for one superfood, or one nutrient to blame, is single-nutrient reductionism. The evidence
 points to the dietary pattern, the diet taken as a whole, which predicts health better than any
-isolated nutrient. The advice therefore targets his overall pattern instead of one food. The
+isolated nutrient. The advice therefore targets his overall pattern. The
 Mediterranean and DASH patterns illustrate the point, each within the limits of its trial.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: the DASH pattern lowered blood pressure in its trial. Why does that not yet show that it prevents heart attacks?
-DASH was a short controlled-feeding study that measured blood pressure, a marker, instead of heart
-attacks themselves. The result is real, but it shows only what was measured: a fall in blood pressure.
+DASH was a short controlled-feeding study that measured blood pressure, a marker. The result is real, but it shows only what was measured: a fall in blood pressure.
 Whether that fall prevents heart attacks was not tested in that trial.
 :::
 
 ## Nutrition counselling as a learnable skill {#sec-skill}
 
-Nutrition is often neglected in the clinic, largely because doctors are under-trained in it:
-graduates across many countries report feeling under-prepared to give dietary advice [@crowley2019].
-Yet nutrition counselling is a core competency that can be learned and examined. Diet is a behaviour that a clinician can assess and help change [@frost2018mi], because a patient's diet is a set of habits, shaped by environment and circumstance, that responds to skilled advice.
+Nutrition counselling is a core competency that can be learned and examined. Diet is a behaviour that a clinician can assess and help change [@frost2018mi], because a patient's diet is a set of habits, shaped by environment and circumstance, that responds to skilled advice. The skill is often neglected in the clinic, largely because doctors are under-trained in it: graduates across many countries report feeling under-prepared to give dietary advice [@crowley2019].
 
 ::: {.callout-important}
 ## The scope at this stage
@@ -184,7 +164,7 @@ The aim at this stage is nutritional literacy: the science, the Singapore contex
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is nutrition often neglected in the clinic, and why can that change?
 Doctors are under-trained in nutrition: graduates across many countries report feeling under-prepared
-to give dietary advice. The gap is not fixed, because nutrition counselling is a competency that can
+to give dietary advice. The gap can be closed, because nutrition counselling is a competency that can
 be learned, and a patient's diet is a set of habits, shaped by environment and circumstance,
 that responds to skilled advice.
 :::

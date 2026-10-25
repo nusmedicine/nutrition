@@ -2,8 +2,8 @@
 
 > *Menopause causes some specific changes in a woman's body and is blamed for others it does not cause.
 > We cover the changes in weight, bone and cardiovascular risk and which of them menopause drives, the
-> evidence on soy and supplements, and the midlife problems that need investigation or referral rather
-> than a diet.*
+> evidence on soy and supplements, and the midlife problems that need investigation or
+> referral.*
 
 ::: {.callout-note}
 ## Learning objectives
@@ -16,7 +16,7 @@
   glucose.
 - Evaluate claims about soy for hot flushes and breast-cancer risk, separating soy foods from isoflavone
   supplements.
-- Recognise when a midlife problem needs investigation or referral instead of diet, and counsel
+- Recognise when a midlife problem needs investigation or referral, and counsel
   weight-inclusively.
 :::
 
@@ -37,7 +37,7 @@
 
 ## Menopause & midlife health at a glance: internal and external factors {#sec-overview}
 
-**Menopause** is a reproductive transition rather than a disease: the ovaries wind down and oestrogen
+**Menopause** is a reproductive transition: the ovaries wind down and oestrogen
 falls. Three terms date the transition:
 
 Final menstrual period (FMP)
@@ -60,27 +60,21 @@ that frame every life stage (see the *Reading the life stages* chapter):
 | Internal factors (inside the body) | The fall in oestrogen, which changes bone, blood lipids and where fat is stored |
 | External factors (life and environment) | The factors a woman and her clinician can change: physical activity, the food pattern, alcohol, and the "menopause" marketing she now meets |
 
-In Western accounts hot flushes define menopause, but the local pattern differs. In Singaporean surveys
-the commonest complaints are aching joints and muscles and poor sleep, with hot flushes reported less often
-[@chim2002sgSymptoms; @logan2023iwhp]. A woman here may never mention a flush, so listen for the aches and
-the sleepless nights instead.
+In Singaporean surveys the commonest menopausal complaints are aching joints and muscles and poor sleep, and hot flushes, which define menopause in Western accounts, are reported less often [@chim2002sgSymptoms; @logan2023iwhp]. A woman here may never mention a flush, so listen for the aches and the sleepless nights.
 
 ## What changes inside: weight, bone and the heart {#sec-meno-changes}
 
-In each of the three areas below, the changes linked to menopause are distinguished from those of age: falling oestrogen speeds bone loss, and the transition moves fat to the abdomen and raises LDL-cholesterol, whereas total weight, blood pressure and glucose rise with age.
+Three changes are linked to menopause: falling oestrogen speeds bone loss, and the transition moves fat to the abdomen and raises LDL-cholesterol. Total weight, blood pressure and glucose rise with age.
 
 ### Does menopause cause weight gain or slow the metabolism? {#sec-meno-weight}
 
-Many women reach midlife having been told that menopause will make them gain weight and slow their
-metabolism, and much midlife advice is built on those two beliefs. The cohort and energy-expenditure data
-support neither in its usual form.
+The cohort and energy-expenditure data do not support two common beliefs in their usual form: that menopause makes women gain weight, and that it slows their metabolism. Much midlife advice is built on those beliefs.
 
-Total weight gain at midlife follows age and energy balance, not menopause. In women followed through the
+Total weight gain at midlife follows age and energy balance. In women followed through the
 transition, weight rises steadily with age, with no jump timed to the FMP [@greendale2019swanBodyComp].
 What menopause does change is where fat is stored. Around the FMP the rate of fat gain roughly doubles and
 lean (muscle) mass falls [@greendale2019swanBodyComp], and fat shifts towards the abdomen, the visceral,
-metabolically active depot (see the *Energy balance* chapter) [@lovejoy2008visceral]. The waistline, not the
-scale, therefore shows the menopause-linked change.
+metabolically active depot (see the *Energy balance* chapter) [@lovejoy2008visceral]. The waistline therefore shows the menopause-linked change better than the scale does.
 
 Nor does energy expenditure fall sharply at menopause (see the *Adulthood* chapter for the
 lifespan data). When total energy expenditure is measured properly and adjusted for fat-free mass, it is
@@ -129,8 +123,7 @@ about two years after, reaching roughly 2% a year and removing around 7% of spin
 transition [@greendale2012swanBone]. Chinese women, Singapore's majority, are among the groups that lose bone
 faster through this window [@greendale2012swanBone].
 
-Diet can supply bone's raw materials but cannot stop the oestrogen-driven loss. Calcium, vitamin D and
-protein are permissive: remodelling needs them in adequate amounts, but they cannot halt the resorption.
+Calcium, vitamin D and protein, the raw materials of bone, are permissive: remodelling needs them in adequate amounts, but they cannot stop the oestrogen-driven loss.
 Routine low-dose calcium-plus-vitamin-D supplements give no net fracture-prevention benefit in
 community-dwelling women after menopause, and they slightly raise the risk of kidney stones
 [@uspstfCalcium2018]. Supplements are therefore for a genuine shortfall or diagnosed osteoporosis (low bone
@@ -141,9 +134,7 @@ intake is instead associated with better bone and fewer hip fractures [@groenend
 
 **Mechanical loading**, exercise that stresses the skeleton through impact or resistance, is a key lifestyle
 measure for bone. In one small, supervised trial, progressive resistance
-and impact training held or even modestly raised bone density where a home-based, low-intensity exercise programme did not
-[@watson2018liftmor], a real but limited effect. The everyday version is brisk walking or jogging plus
-some strength work, not a prescription for heavy unsupervised loading.
+and impact training held or even modestly raised bone density, whereas a home-based, low-intensity exercise programme did not [@watson2018liftmor]. The everyday version is brisk walking or jogging plus some strength work; heavy loading needs supervision.
 
 At midlife the aim is to recognise the window and act early, protecting bone with food and loading before
 the window closes. (The diagnosis and drug management of osteoporosis, and the calcium and vitamin D
@@ -159,17 +150,16 @@ Calcium-rich local foods are easier to find than many people think:
 - Use calcium-fortified soy milk.
 
 Pair the food with some sun and activity. Despite the climate, about one in three midlife Singaporean
-women are deficient in vitamin D, because of indoor lives and sun avoidance, not a lack of sun; Indian and
+women are deficient in vitamin D, because of indoor lives and sun avoidance; Indian and
 Malay women are at higher risk [@cheong2021vitDsg]. Local calcium intakes are at or below target, so food
 first is a realistic strategy [@hpbNNS2010].
 :::
 
 ### The cardiometabolic shift: which changes are menopause-linked {#sec-meno-heart}
 
-Before menopause, women have a cardiovascular "advantage" over men, and the transition erodes it, but
-selectively. LDL-cholesterol and **apolipoprotein B** (apoB, the protein carried on each LDL
+Before menopause, women have a cardiovascular "advantage" over men, and the transition erodes it selectively. LDL-cholesterol and **apolipoprotein B** (apoB, the protein carried on each LDL
 particle) rise in a sharp step right around the FMP, so that change is menopause-linked, whereas blood pressure,
-glucose and triglycerides drift up with age, not with the FMP [@matthews2009swanLipids]. Visceral fat and
+glucose and triglycerides drift up with age [@matthews2009swanLipids]. Visceral fat and
 the incidence of the metabolic syndrome also climb through the transition [@janssen2008swanMetS]. An
 American Heart Association scientific statement treats midlife as a window for early prevention of
 cardiovascular disease in women [@elkhoudary2020ahaMenopause].
@@ -177,7 +167,7 @@ cardiovascular disease in women [@elkhoudary2020ahaMenopause].
 Separating the menopause-linked changes from the age-related ones guards against two opposite errors. One
 is over-attribution ("everything bad at midlife is menopause", when the blood pressure is probably
 ageing); the other is under-attribution ("nothing has changed", when the LDL-cholesterol step and the
-visceral fat are real). The dietary intervention is a whole dietary pattern, Mediterranean- or DASH-style, in place of single nutrients (see the *What a healthy diet looks like* chapter), and the midlife task is to start it early, before cardiovascular risk factors rise. (The management of lipids and blood pressure is in
+visceral fat are real). The dietary intervention is a whole dietary pattern, Mediterranean- or DASH-style (see the *What a healthy diet looks like* chapter), and the midlife task is to start it early, before cardiovascular risk factors rise. (The management of lipids and blood pressure is in
 the *Cardiovascular disease & hypertension* chapter.)
 
 ::: {.callout-tip collapse="true"}
@@ -212,7 +202,7 @@ longer make) [@taku2012isoflavones; @chen2015phyto]. The highest-quality synthes
 Cochrane review, finds no reliable benefit overall, with a signal only for extracts high in genistein, one
 of the soy isoflavones [@lethaby2013cochranePhyto].
 
-Part of the inconsistency is biological. Only some people (more in Asian populations) carry the gut
+Part of the inconsistency is biological: only some people (more in Asian populations) carry the gut
 bacteria that convert a soy isoflavone into **equol**, its more active form [@setchell2002equol]. Giving
 equol directly to non-producers helped in one small placebo-controlled trial, a preliminary finding [@aso2012sequol]. On the pooled evidence, the
 North American Menopause Society does not recommend soy foods, soy extracts or equol as a treatment for
@@ -227,8 +217,7 @@ to humans. In people, and especially at the habitual Asian intakes relevant here
 with lower breast-cancer risk [@wu2008soyMeta]. They are also safe for survivors, including women with
 **oestrogen-receptor-positive** (oestrogen-sensitive) disease and those taking **tamoxifen** (an
 anti-oestrogen drug used to treat it); if anything, survivors who eat moderate soy do better
-[@shu2009shanghai; @nechuta2012abcpp]. The reassurance is for whole soy foods, not for high-dose
-isoflavone pills, which are a different and less-tested product.
+[@shu2009shanghai; @nechuta2012abcpp]. The reassurance applies to whole soy foods. High-dose isoflavone pills are a different and less-tested product.
 
 (The appraisal methods for tracing claims such as "soy fixes menopause" or "soy causes cancer" back to
 the underlying evidence are in the *Evidence vs hype* chapter.)
@@ -260,28 +249,26 @@ Three problems mark the limits of diet:
 
 - After periods stop, iron needs fall, and a new deficiency is a red flag. Requirements drop to about the
   level of an adult man's, so routine iron supplements become unnecessary, and there is no regulated
-  pathway for excreting excess iron [@odsIron]. New iron-deficiency anaemia in a woman past menopause is
-  therefore not a life-stage need to top up: it points to blood loss, usually gastrointestinal, and should
-  be investigated, not self-treated.
+  pathway for excreting excess iron [@odsIron]. New iron-deficiency anaemia in a woman past menopause
+  therefore points to blood loss, usually gastrointestinal, and should be investigated; it should not be
+  self-treated with iron.
 - Vaginal and urinary symptoms have no dietary fix. The **genitourinary syndrome of menopause** (vaginal
   dryness and urinary symptoms) is common locally [@chim2002sgSymptoms], and no food or supplement treats
   it. Recognise it, and refer for effective therapy (moisturisers, topical oestrogen). Be alert to
   "natural remedy" marketing that targets exactly this symptom.
 - Poor sleep, one of the top local complaints [@logan2023iwhp], responds to low-cost lifestyle measures:
   limiting alcohol (it fragments sleep), keeping caffeine to earlier in the day, avoiding large late meals, and
-  managing weight. Sleep disrupted by night sweats or low mood, however, may need referral instead of a
-  dietary change.
+  managing weight. Sleep disrupted by night sweats or low mood, however, may need
+  referral.
 
 ### Unproven remedies and restrictive dieting {#sec-meno-harm}
 
-Some popular midlife remedies do harm, and others are unproven. A nightly glass of "wine for the flushes" is poor advice: alcohol raises breast-cancer risk with no safe threshold [@hamajima2002alcohol] and worsens both sleep and bone, so it is never a symptom remedy. Nor is there a menopause-specific diet pill, and most "menopause supplements" are unproven (medicines for obesity itself are in the *Obesity & metabolic syndrome* chapter).
+Some popular midlife remedies do harm, and others are unproven. A nightly glass of "wine for the flushes" is poor advice: alcohol raises breast-cancer risk with no safe threshold [@hamajima2002alcohol] and worsens both sleep and bone. Nor is there a menopause-specific diet pill, and most "menopause supplements" are unproven (medicines for obesity itself are in the *Obesity & metabolic syndrome* chapter).
 
 ::: {.callout-warning}
 ## Do no harm: restrictive dieting at midlife
 Restrictive dieting and disordered eating occur in women aged 40–60 [@mangweth2014ed], so doing no harm
-means counselling weight-inclusively and with consent. That counselling centres on protein, activity
-and a sound pattern, not on weight loss, because severe restriction speeds the loss of lean mass and bone
-(see [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight)). The *how* of the
+means counselling weight-inclusively and with consent. That counselling centres on protein, activity and a sound pattern. It does not centre on weight loss, because severe restriction speeds the loss of lean mass and bone (see [Does menopause cause weight gain or slow the metabolism?](#sec-meno-weight)). The *how* of the
 conversation is in the *Behaviour-change counselling* chapter.
 :::
 
@@ -289,7 +276,7 @@ conversation is in the *Behaviour-change counselling* chapter.
 ## Check yourself: why does new iron-deficiency anaemia in a woman past menopause call for investigation?
 Once periods stop, iron requirements fall to about an adult man's, and there is no regulated pathway for
 excreting excess iron, so a new deficiency is not a life-stage need. It points to blood loss, usually
-gastrointestinal, so the source needs investigating instead of a top-up.
+gastrointestinal, so the source needs investigating.
 :::
 
 ## Is there a "menopause diet"? {#sec-close}

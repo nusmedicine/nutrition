@@ -36,13 +36,11 @@
 
 ## The gut microbiome at a glance {#sec-overview}
 
-Food that escapes digestion in the small intestine is not wasted. The large intestine houses the
-**gut microbiome**, a dense community of microbes (mostly bacteria, with some archaea, fungi and
-viruses) that lives on what the small intestine could not digest and carries out chemistry that
+The large intestine houses the **gut microbiome**, a dense community of microbes (mostly bacteria, with some archaea, fungi and viruses) that lives on the food the small intestine could not digest and carries out chemistry that
 human cells cannot.
 
 The microbiome is best understood as an ecosystem: a community shaped by what it is fed, studied the
-way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most heavily marketed topics in consumer nutrition, so mechanism and marketing need to be kept apart: the mechanisms below are real and diet-modifiable, but many of the marketing claims lack a plausible mechanism.
+way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most heavily marketed topics in consumer nutrition. Its mechanisms are real and can be modified by diet, and many of the claims made in its marketing lack a plausible mechanism.
 
 ## Composition and development of the gut microbiome {#sec-gut-who}
 
@@ -78,18 +76,15 @@ to 30 trillion human cells, most of them (~84%) small red blood cells that the o
 "1–2 kg" conflates bacteria with the whole weight of the colonic contents.
 :::
 
-Counted by genes instead of cells, the microbiome far outnumbers its host: the collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000
+In genes, the microbiome far outnumbers its host: the collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000
 genes of the human genome [@qin2010catalogue]. This "second genome" lets gut microbes extract energy and
 make compounds that human cells cannot.
 
-Two healthy people can carry very different species and still perform the same functions. This is
-possible because each function, such as fibre fermentation, vitamin synthesis or short-chain fatty acid
+Two healthy people can carry very different species and still perform the same functions, because each function, such as fibre fermentation, vitamin synthesis or short-chain fatty acid
 production, is carried out by many different microbes, a property called **functional redundancy**
 [@moya2016functional]. People therefore share a functional core more than a taxonomic one. Functional
 redundancy also explains why **microbial diversity** (the number of species present and how evenly they
-are represented) is only a loose health marker: a richer community tends to be more resilient, but there
-are clear exceptions, so diversity is one context-dependent marker, not a number to maximise or to raise with
-supplements [@mcburney2019healthy].
+are represented) is only a loose, context-dependent health marker: a richer community tends to be more resilient, but there are clear exceptions [@mcburney2019healthy].
 
 ::: {.callout-note collapse="true"}
 ## Optional: what happened to "enterotypes"?
@@ -112,10 +107,7 @@ The microbiome assembles over the first years of life and keeps shifting afterwa
 
 ::: {.callout-note}
 ## Does caesarean birth permanently change the microbiome?
-Infants born by caesarean section start with a different early community from infants born
-vaginally, and this early difference is the source of the concern. The difference is largely
-transient: feeding mode is the stronger and more durable influence, and the communities converge over the
-first years. "Vaginal seeding" (swabbing a caesarean-born infant with vaginal fluid) is not an
+The difference in the microbiome after caesarean birth is largely transient. Infants born by caesarean section start with a different early community from infants born vaginally, but feeding mode is the stronger and more durable influence, and the communities converge over the first years. "Vaginal seeding" (swabbing a caesarean-born infant with vaginal fluid) is not an
 evidence-based intervention and is advised against outside research, partly because of infection
 risk [@acog2017vaginalseeding]. This evidence can relieve the guilt some parents feel after a
 caesarean birth.
@@ -150,7 +142,7 @@ Colonocytes
 
 Human enzymes cannot break down dietary fibre or resistant starch, so both reach the colon undigested
 (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment
-them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. Fermentation is therefore one of the microbiome's major functions for the host. Step through the pathway below, from what arrives in the
+them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. Step through the pathway below, from what arrives in the
 colon to where each product goes.
 
 <div data-island="scfa-flow" data-src="/diagrams/scfa-flow.yml"></div>
@@ -171,8 +163,7 @@ their chain lengths.
 
 ::: {.callout-important}
 ## Is butyrate the most abundant SCFA?
-Because butyrate is the most discussed of the three, it is easy to assume it is also the most
-abundant. It is the least abundant, yet it is the main fuel of the colonic epithelium. Oral butyrate
+Butyrate is the least abundant of the three SCFAs. It is also the most discussed, and it is the main fuel of the colonic epithelium. Oral butyrate
 supplements are mostly absorbed before they reach the colon, so claims that butyrate pills cure
 disease are not supported by the evidence.
 :::
@@ -229,20 +220,19 @@ Gut microbes synthesise vitamins, but little of this reaches the host, because n
 happens in the colon, downstream of where those vitamins are absorbed. The vitamins concerned are vitamin
 K2 (menaquinones) and several B vitamins (biotin, folate, riboflavin and B12).
 
-Vitamin B12 is the clearest example. Most gut microbes are net consumers of B12, and the little they
+Vitamin B12 shows this most clearly: most gut microbes are net consumers of B12, and the little they
 make is produced beyond the terminal ileum, the site where B12 (bound to intrinsic factor) is absorbed
 (see the *Digestion and absorption* chapter). Colonic microbial B12 is therefore essentially unavailable
 to the host, and dietary B12 from animal sources remains the functional supply [@degnan2014b12].
 Bacterial K2 is similarly poorly available, and diet remains the principal source of vitamin K
 [@lai2022vitk]. The vitamins themselves are covered in the
-[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter; the principle
-here is that "made in the gut" does not mean "available to the host".
+[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: butyrate is the least abundant SCFA. Why does losing it matter more to the colon than losing acetate?
 Butyrate is the colonocytes' main fuel and supports the mucus barrier, so the colon depends on it
 locally. Acetate, although more abundant, is poorly extracted in the gut and travels systemically to
-peripheral tissues. Abundance is not the same as local importance.
+peripheral tissues.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -261,8 +251,7 @@ Diet shapes the microbiome meal by meal. The products sold for the gut (probioti
 Diet is the dominant, fast-acting and reversible influence on the microbiome. When people switch
 between an animal-based and a plant-based diet, their microbial community shifts within a single day,
 but it reverts within days of a return to their usual diet, and each person's characteristic community
-largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal, and
-not a one-off, permanent change.
+largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal.
 
 The variety of plants eaten matters more than any single food: people who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science, "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
@@ -281,7 +270,7 @@ The main dietary change is greater fibre variety, and Singapore's food offers ea
 - Add legumes and dhal, thunder-tea rice (*lei cha*), tofu and more vegetables.
 - Keep the skins on fruit and potatoes.
 
-Aim for many different plants across the week, not one "gut superfood". Only about 4% of the staples
+Aim for many different plants across the week. Only about 4% of the staples
 eaten in Singapore are wholegrain, so most people have plenty of room to add wholegrains (see
 [The Singapore context](#sec-singapore)).
 :::
@@ -308,11 +297,7 @@ Scientific Association for Probiotics and Prebiotics (ISAPP):
 
 ::: {.callout-important}
 ## Is every fermented food a probiotic?
-Fermented foods are often assumed to deliver live, beneficial microbes. A **fermented food** is
-defined by its process, "made through desired microbial growth and enzymatic conversions", and not by
-the microbes present when it is eaten [@marco2021fermented]. Many fermented foods are cooked or
-pasteurised before eating (tempeh, bread, most miso once boiled), so they carry few or no live
-microbes. Only a defined, dosed, live product meets the definition of a probiotic. Fermented foods remain good foods, however, and a small, short Stanford trial found that a high-fermented-food diet raised microbial diversity and lowered inflammatory markers where a high-fibre diet did not; that result is a hypothesis to test, not a basis for prescribing [@wastyk2021diet].
+Only a defined, dosed, live product meets the definition of a probiotic. A **fermented food** is defined by its process, "made through desired microbial growth and enzymatic conversions" [@marco2021fermented], so the definition includes foods with no live microbes left: many fermented foods are cooked or pasteurised before eating (tempeh, bread, most miso once boiled), so they carry few or no live microbes. Fermented foods are still good foods. In a small, short Stanford trial, a high-fermented-food diet raised microbial diversity and lowered inflammatory markers, and a high-fibre diet did not; the result is a hypothesis still to be tested [@wastyk2021diet].
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -353,7 +338,7 @@ missing months later [@palleja2018recovery]. The most dangerous consequence is *
 difficile_ infection**, in which a depleted microbiome allows this toxin-producing bacterium to
 proliferate and cause severe colitis.
 
-Probiotics given with antibiotics have a limited role. They produce a modest, strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi; @suez2018probiotic]. When a patient on antibiotics asks whether to take a probiotic, you can explain that any benefit is modest and strain-specific; the prescribing decision belongs to the treating team. (The AGA guideline addresses probiotics for *C. difficile* prevention during antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question [@agaProbiotics2020].)
+Probiotics given with antibiotics produce a modest, strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi; @suez2018probiotic]. When a patient on antibiotics asks whether to take a probiotic, you can explain that any benefit is modest and strain-specific; the prescribing decision belongs to the treating team. (The AGA guideline addresses probiotics for *C. difficile* prevention during antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question [@agaProbiotics2020].)
 
 ::: {.callout-note}
 ## FMT: restoring a whole ecosystem
@@ -362,9 +347,7 @@ transplant (FMT)**, the transfer of stool from a healthy donor to restore a depl
 recurrent *C. difficile* infection it is highly effective. A landmark trial was stopped early because
 FMT cured about 81% of patients after one infusion (~94% with a repeat) against roughly 31% with the
 antibiotic alone [@vannood2013fmt]. Two microbiota products are now FDA-approved (Rebyota in 2022;
-Vowst, the first oral product, in 2023) [@fda2022rebyota; @fda2023vowst]. FMT is proven only for
-recurrent *C. difficile* infection, not for obesity, irritable bowel syndrome, autism or "wellness",
-and it carries a real risk of transmitting infection: a 2019 safety alert followed a fatal
+Vowst, the first oral product, in 2023) [@fda2022rebyota; @fda2023vowst]. FMT is proven only for recurrent *C. difficile* infection. It has no proven role in obesity, irritable bowel syndrome, autism or "wellness", and it carries a real risk of transmitting infection: a 2019 safety alert followed a fatal
 transmission [@fmt2019safety]. **Recognise it and refer: FMT is a medical therapy with one narrow
 indication.**
 :::
@@ -392,20 +375,19 @@ microbiome can signal to the brain through the vagus nerve, SCFAs, the immune sy
 neuroactive metabolites [@cryan2019microbiota]. The most striking results, in which transplanted
 microbes change behaviour, come largely from mouse studies, and the benefits of **psychobiotics**
 (microbes or microbial products claimed to improve mental health) for mood in humans are mostly small
-or preclinical. The axis is real; the claims about mood are unproven. Its role in appetite and behaviour
-is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
+or preclinical. The role of the gut–brain axis in appetite and behaviour is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a well patient asks for faecal microbiota transplant to help them lose weight. What do you tell them, and why?
 FMT is proven for one indication, recurrent *C. difficile* infection, where it restores a depleted
 community. It is not proven for obesity, and it carries a real risk of transmitting infection. Explain
-this, and refer any genuine indication to a specialist rather than offering FMT as a general wellness treatment.
+this, and refer any genuine indication to a specialist.
 :::
 
 ## How should a patient eat for a healthy microbiome? {#sec-close}
 
-The evidence points to a pattern of eating, not to a product:
+The evidence points to a pattern of eating:
 
 - A wide variety of plants across the week (wholegrains, legumes, vegetables, fruit, nuts and seeds),
   because diverse fibres feed a diverse, resilient microbiome that yields SCFAs.
@@ -413,8 +395,6 @@ The evidence points to a pattern of eating, not to a product:
 - A gradual increase in fibre, with fluids.
 - No test kits, cleanses or microbiome supplements, none of which has a proven benefit for a well
   person.
-
-The microbiome is maintained by habitual diet, what is eaten every day.
 
 ## The Singapore context {#sec-singapore}
 
@@ -440,7 +420,7 @@ Different organisms ferment each food:
 - Miso and *taucheo* use *koji* mould (*Aspergillus oryzae*).
 - Kimchi uses lactic-acid bacteria.
 
-Two further local foods need a note. *Tapai* (fermented rice or tapioca) contains a few per cent alcohol, which matters for Muslim patients. *Yong tau foo*, although often mistaken for a fermented food, is not one.
+*Tapai* (fermented rice or tapioca) contains a few per cent alcohol, which matters for Muslim patients. *Yong tau foo*, although often mistaken for a fermented food, is not one.
 
 ::: {.callout-tip}
 ## 🍳 Keep the cultures alive
@@ -453,11 +433,11 @@ and kimchi unheated, and treat cultured-milk drinks as the live option. A cooked
 many Singaporean families. The bacterium in Yakult (*Lactobacillus casei* Shirota) survives transit
 through the gut and has some supporting evidence from small trials, but the European Food Safety Authority (EFSA)
 rejected its broad health claims for lack of convincing evidence [@efsa2010lcs;
-@katokataoka2016lcs]. It is a reasonable drink (watch the sugar), but not a treatment.
+@katokataoka2016lcs]. It is a reasonable drink, and its added sugar counts towards the day's free sugars.
 
 **There is no single "Singaporean" microbiome.** A large local multi-ethnic study found no
 predominant microbiome type across the community, a local illustration that variation between
-individuals is the rule, and that diet and lifestyle, not nationality, shape the community
+individuals is the rule, and that diet and lifestyle shape the community
 [@khine2021multiethnic].
 
 **Vegetarian and vegan patients need a B12 source.** These diets are common in several local communities, and gut bacteria cannot supply B12, so when you take a diet history from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the

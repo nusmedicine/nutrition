@@ -49,9 +49,7 @@ deliver treatment [@aclm2022comp; @afn2021curriculum]. At this stage of training
 nutrition care is brief, general, evidence-aligned and patient-centred. That care draws on the skills
 of the *What a healthy diet looks like*, *Assessing diet and talking to patients* and *Behaviour-change counselling* chapters, and those skills stop short of individualised therapy for a medical condition.
 
-Graduates consistently report feeling under-prepared to counsel on nutrition [@crowley2019], and the
-professional response to that gap is to recognise it and refer, without overreaching to cover it.
-Referral is a competency and a safety behaviour, not an admission of failure.
+Referral is a competency and a safety behaviour. Graduates consistently report feeling under-prepared to counsel on nutrition [@crowley2019], and the professional response to that gap is to recognise it and refer.
 
 ### Universal advice versus medical nutrition therapy {#sec-advice-therapy}
 
@@ -69,10 +67,9 @@ Medical nutrition therapy (MNT; refer)
   and with outcomes monitored [@ada2026standards].
 
 MNT is a treatment with its own evidence base: for type 2 diabetes, dietitian-delivered MNT is associated with reductions in HbA1c (a marker of
-average blood-glucose control) of roughly 0.3–2.0%, a guideline-reported range across trials of
-differing intensity, not a guaranteed effect [@ada2026standards].
+average blood-glucose control) of roughly 0.3–2.0%, a guideline-reported range across trials of differing intensity [@ada2026standards].
 
-Confusing the two causes problems in both directions. Treat all advice as MNT and you freeze, too afraid to say
+Confusing the two causes problems in both directions: treat all advice as MNT and you freeze, too afraid to say
 anything safe; treat MNT as ordinary advice and you overstep into care you can't be accountable for.
 
 The answer to the same question ("should I advise, or refer?") differs with the patient's complexity; work through a few patients in the interactive below.
@@ -93,8 +90,7 @@ dietitian when there is:
 - a food allergy or intolerance, or any eating-disorder concern;
 - advice needs that exceed general guidance, or a patient who is not progressing.
 
-These triggers are for recognising when to refer, not for starting treatment: your job is to spot them and hand over, and the
-dietitian works up the plan.
+Your job is to spot these triggers and hand the patient over, and the dietitian then works up the plan.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a clinician knows the dietary science of diabetes and kidney disease well. Why should she still refer a patient with both to a dietitian?
@@ -108,8 +104,7 @@ trigger. Writing that plan herself would overstep into care she cannot be accoun
 ## Check yourself: why does treating every piece of diet advice as medical nutrition therapy also fail patients?
 Universal advice, such as My Healthy Plate or cutting sugary drinks, is safe for almost anyone, and
 every clinician should give it. A clinician who treats all advice as therapy freezes and says nothing
-safe, so the patient loses help that was within scope. Confusing advice and therapy causes problems in both
-directions: overstepping on one side, silence on the other.
+safe, so the patient loses help that was within scope.
 :::
 
 ## Referring, and working as a team {#sec-referral-team}
@@ -145,16 +140,11 @@ role:
 - allied-health and community partners extend care beyond the clinic.
 
 Team-based care is associated with better chronic-disease outcomes: in hypertension, for example,
-teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare]. The
-team achieves more than any one professional alone.
+teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare].
 
-It follows that a common error is to overstate the nutrition part of the
-team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation. Remission in the DiRECT trial (Diabetes Remission Clinical Trial) was achieved in selected patients, who had early type 2 diabetes and were not on insulin, with a structured total-diet-replacement programme, in which low-calorie formula meals replace ordinary food for a period [@lean2018direct]. The Diabetes Prevention Program achieved its preventive effect with a 16-session curriculum [@dpp2002].
+A common error is to overstate the nutrition part of the team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes. Remission in the DiRECT trial (Diabetes Remission Clinical Trial) was achieved in selected patients, who had early type 2 diabetes and were not on insulin, with a structured total-diet-replacement programme, in which low-calorie formula meals replace ordinary food for a period [@lean2018direct]. The Diabetes Prevention Program achieved its preventive effect with a 16-session curriculum [@dpp2002].
 
-Don't promise those outcomes from advice alone, for two reasons. The trial patients were selected, so check whether a
-result applies to the patient in front of you (see the *Evidence vs hype* chapter). The dose was also
-intensive, and a single clinic visit does not deliver it (see the *Behaviour-change counselling*
-chapter).
+Don't promise those outcomes from advice alone: the trial patients were selected, so check whether a result applies to the patient in front of you (see the *Evidence vs hype* chapter), and the dose was intensive, which a single clinic visit does not deliver (see the *Behaviour-change counselling* chapter).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a referral reads only "please advise on diet". Why does it waste a scarce resource?
@@ -175,18 +165,15 @@ outcomes.
 
 ## The clinician's own health {#sec-clinician-health}
 
-The last part of the role is one clinicians often neglect: their own health. Clinicians who look after their
-own diet and activity are observed to counsel more often, and arguably more credibly. The evidence is
-associational, not proof of cause, and mostly on physical activity, but it is consistent [@lobelo2015rolemodel].
+Clinicians often neglect their own health, and it bears on their work: clinicians who look after their own diet and activity are observed to counsel more often, and arguably more credibly. The evidence is consistent but associational, and mostly on physical activity [@lobelo2015rolemodel].
 
-A clinician's own habits matter for more than role-modelling. Short sleep shifts the appetite hormones
+A clinician's own habits also affect their metabolic health. Short sleep shifts the appetite hormones
 (see the *Appetite and weight regulation* chapter), raising ghrelin, blunting satiety and pushing intake
 up [@sleepRestriction; @alkhatib2017partialsleep]. On a packed roster, a diet of skipped meals, *kopi* and five hours' sleep therefore
-works against the clinician's own metabolic health. The remedy is a small, sustainable plan rather than
-an overhaul: one realistic food swap, a fixed bedtime or wake time and a short daily
+works against the clinician's own metabolic health. The remedy is a small, sustainable plan: one realistic food swap, a fixed bedtime or wake time and a short daily
 walk.
 
-Beyond the clinician's own metabolism, practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
+Practitioner wellbeing is also a professional and patient-safety issue: in healthcare
 staff, poor wellbeing and burnout are associated with poorer patient safety, such as more medical
 errors, although few studies are prospective [@hall2016wellbeing]. Lifestyle-medicine competencies
 also include the clinician's own effort to practise healthy behaviours [@lianov2010], and guarding
@@ -198,13 +185,12 @@ Short sleep shifts the appetite hormones: ghrelin rises, satiety is blunted and 
 skipped meals, *kopi* and short sleep work against her own metabolic health. Her habits also bear on
 her patients, because clinicians who look after their own diet and activity are observed to counsel
 more often, although that evidence is associational. The remedy is a small, sustainable plan (one food
-swap, a fixed bedtime or wake time, a short daily walk), not an overhaul.
+swap, a fixed bedtime or wake time, a short daily walk).
 :::
 
 ## Where does a clinician's role end? {#sec-close}
 
-A clinician's role ends at the edge of what they can safely be accountable for, not at the edge of what
-they know. In nutrition care that edge is the line between universal advice and medical nutrition
+A clinician's role ends at the edge of what they can safely be accountable for, however much they know. In nutrition care that edge is the line between universal advice and medical nutrition
 therapy, and where a patient falls depends on their complexity. A well adult asking how to eat more
 healthily, or whether to swap white rice for brown, falls well within the role, because universal advice
 is every clinician's job. A patient with newly diagnosed type 2 diabetes, early kidney impairment and
@@ -224,8 +210,7 @@ SportSG) [@mohHealthierSG], and a **tiered dietitian pathway** has clinicians gi
 complex cases to a registered dietitian [@mohEatWiseSG]. The line between advising and referring is
 therefore built into the health system itself.
 
-Funding follows the same logic. The **Healthier SG Chronic Tier** (from 2024) is the subsidy framework
-that keeps chronic-disease follow-up affordable: enrolled holders of Community Health Assist Scheme
+The **Healthier SG Chronic Tier** (from 2024) is the subsidy framework that keeps chronic-disease follow-up affordable. Enrolled holders of Community Health Assist Scheme
 (CHAS), Pioneer Generation and Merdeka Generation cards receive means-tested subsidies of up to about
 87.5% on selected chronic medications, with no dollar cap, plus up to about \$360 a year toward other
 care components such as consultations and tests [@mohChronicTier].

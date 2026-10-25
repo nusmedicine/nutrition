@@ -59,6 +59,7 @@ const RULES = [
   { id: 'unidiomatic', why: 'non-standard phrasing: would a standard medical textbook say it? (AUTHOR.md copy-audit checklist)', re: /\btracks? with\b|\bbedside read\b|\ba (quick |simple )?read of\b|\b(the|a|your) (first|opening|right|wrong|safe|do-no-harm|do-harm) move\b|\bthe opener\b|\ban absolute avoid\b|\bthe through-line\b|\blow-regret\b|\bnudges? urate\b|\bruns? relentlessly\b|\brun the safe path\b|\bfed up (quickly|fast)\b|\b(the|that) (?<!clinical )picture\b(?!\s*\{#sec-singapore)|\ba great deal\b|\bdoes (all )?the work\b|\bearns? (a hearing|its place)\b|\bbounded (effect|influence)\b|\bthe noise settles\b/gi },
   { id: 'superlative', why: 'unsourced superlative: state the real strength or cite the ranking', re: /(\bno single \w+ (matters|does) more\b|\bthe single (biggest|most important|strongest)\b|\bthe strongest modifiable\b|\bmore than any (other )?(lever|factor|nutrient|intervention|change)\b)(?![^\n]{0,160}\[@)/gi },
   { id: 'neg-parallel', why: 'negative parallelism ("not X but Y", "not just X")', re: /\bnot (just|only|merely|simply)\b|\bnot because\b[^.]{1,80}\bbut because\b|\b(it|this|that)('s| is| was) not [^.;]{1,60}[,;:—]\s*(it|this|that)('s| is| was)\b|\b(is|are|was|were) not [^.;]{1,50}, but\b/gi },
+  { id: 'label-echo', why: 'teaser: the sentence after a bold run-in label restates the label ("**Sleep.** Sleep is...")', re: /\*\*(?!(?:The|A|An|Two|Three|Four)\b)([A-Z][a-z]+)[^*]{0,40}\.\*\*\s+\1\b/g },
   { id: 'neg-parallel-2', why: 'negative parallelism across sentences ("…is not X. It is Y.")', re: /\b(is|are) not [^.]{1,70}\.\s+(It|They|This|That) (is|are)\b/g },
   { id: 'trailing-ing', why: 'trailing -ing "analysis" clause', re: /,\s+(highlighting|underscoring|emphasi[sz]ing|showcasing|reflecting|ensuring|fostering|enhancing|demonstrating|illustrating|signalling|signaling|cementing|solidifying|marking)\b/gi },
   { id: 'copula', why: 'avoided copula ("serves as", "stands as")', re: /\b(serves?|served|stands?|stood|functions?) as (a|an|the)\b/gi },
@@ -128,11 +129,12 @@ for (const f of files) {
   const prose = text.replace(/```[\s\S]*?```/g, '').replace(/<div[^>]*><\/div>/g, '');
   const words = (prose.match(/[A-Za-z][A-Za-z'-]*/g) || []).length;
   const bold = (prose.match(/\*\*[^*]+\*\*/g) || []).length;
-  const rather = (prose.match(/\brather than\b/gi) || []).length;
+  // Contrastive parallelism (2026-10-26): ", not Y" tails, "rather than", "instead of", "not X but Y".
+  const contrast = (prose.replace(/\s+/g, ' ').match(/,\s+not\s+(?!only|just|all|every|least|always|yet|necessarily|because|until|to\b)[a-z]|\brather than\b|\binstead of\b|\bnot\s+[^.;:]{1,40}?\bbut\b/gi) || []).length;
   const dashes = (prose.match(/—/g) || []).length;
   const curly = (prose.match(/[“”‘’]/g) || []).length;
   const flags = hits.filter((h) => h.rule !== 'you').length;
-  totals[rel] = { words, flags, dashes, boldPer1k: words ? +(bold * 1000 / words).toFixed(1) : 0, ratherThan: rather, you, curly };
+  totals[rel] = { words, flags, dashes, boldPer1k: words ? +(bold * 1000 / words).toFixed(1) : 0, contrastPer1k: words ? +(contrast * 1000 / words).toFixed(1) : 0, you, curly };
   grand += flags;
   if (!summaryOnly && hits.length) {
     console.log(`\n${rel}`);
@@ -140,10 +142,10 @@ for (const f of files) {
   }
 }
 
-console.log('\nSummary (flags · em dashes · bold per 1,000 words · "rather than" · "you" · curly quotes)');
+console.log('\nSummary (flags · em dashes · bold per 1,000 words · contrasts per 1,000 words · "you" · curly quotes)');
 for (const [f, t] of Object.entries(totals)) {
-  if (!t.flags && !t.dashes && t.boldPer1k < 20 && t.ratherThan < 3 && !t.you && !t.curly) continue;
-  const warn = [t.boldPer1k >= 20 ? 'bold-heavy' : '', t.dashes > 2 ? 'dash-heavy' : '', t.ratherThan >= 3 ? 'rather-than' : '', t.curly ? 'curly-quotes' : ''].filter(Boolean).join(', ');
-  console.log(`  ${f.padEnd(58)} ${String(t.flags).padStart(3)} · ${String(t.dashes).padStart(2)} · ${String(t.boldPer1k).padStart(5)} · ${t.ratherThan} · ${String(t.you).padStart(3)} · ${String(t.curly).padStart(3)}${warn ? '   ← ' + warn : ''}`);
+  if (!t.flags && !t.dashes && t.boldPer1k < 20 && t.contrastPer1k < 1.5 && !t.you && !t.curly) continue;
+  const warn = [t.boldPer1k >= 20 ? 'bold-heavy' : '', t.dashes > 2 ? 'dash-heavy' : '', t.contrastPer1k >= 1.5 ? 'contrast-heavy' : '', t.curly ? 'curly-quotes' : ''].filter(Boolean).join(', ');
+  console.log(`  ${f.padEnd(58)} ${String(t.flags).padStart(3)} · ${String(t.dashes).padStart(2)} · ${String(t.boldPer1k).padStart(5)} · ${String(t.contrastPer1k).padStart(4)} · ${String(t.you).padStart(3)} · ${String(t.curly).padStart(3)}${warn ? '   ← ' + warn : ''}`);
 }
 console.log(`\n${grand} flag(s) across ${Object.keys(totals).length} file(s)` + (listYou ? '.' : ' ("you" counted, not listed; add --you to list).'));

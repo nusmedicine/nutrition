@@ -1,7 +1,7 @@
 # What a healthy diet looks like
 
 > *Patients ask what they should eat, and the useful answer is a dietary pattern built from their own
-> food rather than a list of nutrients. We cover the dietary guidelines and plate models, the evidence
+> food. We cover the dietary guidelines and plate models, the evidence
 > for patterns over single nutrients, and how to apply both to real patients' meals.*
 
 ::: {.callout-note}
@@ -9,7 +9,7 @@
 - Explain what a dietary guideline is, and distinguish numeric thresholds from plate models such as
   My Healthy Plate.
 - Describe the shared core on which My Healthy Plate and the WHO, AHA and US guidelines converge.
-- Explain why guidelines lead with dietary patterns instead of single nutrients.
+- Explain why guidelines are framed around whole dietary patterns.
 - State the benefit of the Mediterranean (PREDIMED) and DASH trials together with their caveats.
 - Explain why popular diets succeed or fail on the energy deficit a person can sustain, and recognise
   when a plan needs a dietitian.
@@ -37,9 +37,7 @@
 ## A healthy diet at a glance {#sec-overview}
 
 In the foundation chapters we took food apart: carbohydrate, fat and protein, vitamins and minerals,
-and the gut and metabolism that handle them. Patients eat it whole. The person in front of you does not
-eat "45% carbohydrate"; they eat *chicken rice*, *nasi padang* or *thosai* and dhal, and they want to
-know whether it is any good.
+and the gut and metabolism that handle them. Patients eat it whole: the person in front of you eats *chicken rice*, *nasi padang* or *thosai* and dhal, and wants to know whether it is any good.
 
 The question becomes answerable once the focus shifts from grading single nutrients to reading the
 whole dietary pattern (see the *Why nutrition matters* chapter). Modern guidelines have moved in that
@@ -76,10 +74,8 @@ active [@hpbHealthyPlate].
 As first-line public messaging, the plate deliberately leaves out calorie counting, grams and forbidden foods: it is proportional and motivational, a picture to aim at, with no arithmetic. Although My Healthy Plate dates from 2014 [@hpb2014plate], it remains current national guidance (the HealthHub page was last reviewed in 2025).
 
 ::: {.callout-note}
-## The plate is a proportion, not a portion size
-"Quarter, quarter, half" sets the ratio of the plate, not its size. A rugby player and a sedentary retiree can both eat
-"quarter, quarter, half"; the amounts differ, the proportions do not. The plate therefore applies equally well
-across ages, jobs and cuisines: it fixes the proportions of a meal and leaves the amount to appetite and need.
+## The plate sets proportions
+"Quarter, quarter, half" sets the ratio of foods on the plate and leaves the amount to appetite and need. A rugby player and a sedentary retiree can both eat "quarter, quarter, half" in very different amounts. The plate therefore applies across ages, jobs and cuisines.
 :::
 
 ### Reading an international guideline {#sec-international}
@@ -94,14 +90,14 @@ hydration and electrolytes* chapters):
 - The American Heart Association's 2021 guidance (AHA 2021) reframes heart-healthy eating as a pattern
   with ten features: favour vegetables, fruit, wholegrains, legumes, healthy protein sources and liquid
   plant oils; minimise added sugar, salt, alcohol and ultra-processed foods. It explicitly urges
-  thinking in patterns, not single nutrients [@aha2021diet].
+  thinking in whole dietary patterns [@aha2021diet].
 - The Dietary Guidelines for Americans (US DGA) are federal policy across the whole life course, built
   around a core of vegetables, fruit, wholegrains, varied protein and unsaturated oils, with limits on
   added sugar, saturated fat and sodium [@dga2020].
 
 ::: {.callout-warning}
 ## Guidelines evolve and are debated
-Guidance is a moving, contested consensus, not fixed truth. A new 2025–2030 edition of the US
+A new 2025–2030 edition of the US
 guidelines was released in January 2026 [@dga2025] and drew immediate expert criticism over its handling of
 saturated fat and protein. For now, the stable 2020–2025 edition is the reference here. The debate is
 itself a live case study in how dietary evidence is argued (see the *Evidence vs hype* chapter).
@@ -125,31 +121,24 @@ slightly longer list, taken from each guideline's own text [@hpbHealthyPlate; @w
 | Prefer unsaturated over saturated/*trans* fat | ✓ | ✓ | ✓ | ✓ |
 | Limit ultra-processed foods | not stated | ✓ | ✓ | not stated |
 
-The wording and the pictures differ; the substance is the same short list. When a patient asks "which
-diet is right?", the answer is reassuring: the guidelines broadly agree, and the shared advice is
-simple: eat mostly plants and whole foods, and limit sugar, salt and highly processed
-products.
+When a patient asks "which diet is right?", the answer is reassuring: the guidelines broadly agree on a simple core, which is to eat mostly plants and whole foods and to limit sugar, salt and highly processed products.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: at the same family dinner, a construction worker eats far more than his office-based wife. Why can both plates be on target?
-My Healthy Plate fixes the proportions of a meal (half fruit and vegetables, a quarter wholegrains, a
-quarter protein), not its size. The amounts differ with appetite and need while the shape stays the
-same, so a large plate and a small one are both on target when each keeps those proportions.
+My Healthy Plate fixes the proportions of a meal (half fruit and vegetables, a quarter wholegrains, a quarter protein) and leaves the amount to appetite and need. A large plate and a small one are therefore both on target when each keeps those proportions.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has read that WHO, the AHA and the US guidelines all say different things. What follows for the advice you give?
-The guidelines differ in wording and pictures, but their substance is the same short list: a review of
+The guidelines share the same core advice: a review of
 90 national food-based guidelines found variety, fruit and vegetables, legumes and limits on sugar,
 fat and salt nearly universal, and the major guidelines add wholegrains and unsaturated fat in place
-of saturated and *trans* fat. Advice can therefore rest on that shared core, whichever guideline the
-patient has read.
+of saturated and *trans* fat. Their differences lie mainly in wording and pictures, so advice can rest on that shared core, whichever guideline the patient has read.
 :::
 
 ## Dietary patterns versus single nutrients {#sec-patterns}
 
-Guidelines increasingly lead with patterns because people eat foods, not nutrients, and foods act in
-combination. The idea of **food synergy** holds that a whole dietary pattern can predict health better
+Guidelines increasingly lead with patterns because people eat whole foods, which act in combination. The idea of **food synergy** holds that a whole dietary pattern can predict health better
 than any nutrient studied in isolation [@jacobs2003synergy]. Food synergy is part of why the AHA now
 frames its advice as a pattern and warns against chasing single nutrients [@aha2021diet].
 
@@ -157,15 +146,11 @@ frames its advice as a pattern and warns against chasing single nutrients [@aha2
 An orange behaves differently from a vitamin-C tablet plus fibre plus sugar.
 :::
 
-The pattern view also answers the recurring "is [food] good or bad now?" question. Butter, eggs,
-coffee, red meat: studied one at a time, each has produced a decade of contradictory results. When the question becomes "what pattern is this part of?", the findings are more consistent. Judging one food in isolation is the trap known as single-nutrient reductionism (see the *Why nutrition matters* chapter).
+The pattern view also answers the recurring "is [food] good or bad now?" question, because findings are more consistent when a food is judged as part of a whole pattern. Studied one at a time, butter, eggs, coffee and red meat have each produced a decade of contradictory results. Judging one food in isolation is the trap known as single-nutrient reductionism (see the *Why nutrition matters* chapter).
 
 ::: {.callout-note}
 ## How strong is the case for patterns over single nutrients?
-The food-synergy argument is a framework, not a measured effect size: a way of reading evidence, well
-supported in principle but not a number to quote. Pattern-level risk reductions often look larger than
-single-nutrient ones, but comparing them fairly is itself a subtle appraisal problem. The idea is
-sound, but its size is easily overstated.
+The food-synergy argument is a framework for reading evidence, well supported in principle. It does not supply a measured effect size to quote. Pattern-level risk reductions often look larger than single-nutrient ones, and comparing the two fairly is a subtle appraisal problem, so the size of the benefit is easily overstated.
 :::
 
 Two named patterns, Mediterranean and DASH, show the idea at work. Each has a landmark trial, and
@@ -173,11 +158,11 @@ each trial's limits should be quoted with its result.
 
 ### The Mediterranean pattern {#sec-mediterranean}
 
-**What it is.** The Mediterranean pattern is a way of eating, not a recipe: abundant vegetables, fruit, wholegrains and legumes;
+**What it is.** The Mediterranean pattern is characterised by abundant vegetables, fruit, wholegrains and legumes;
 extra-virgin olive oil as the main fat; nuts and fish regularly; modest dairy and poultry; little red
 and processed meat.
 
-**The evidence, with its caveats.** The landmark trial is PREDIMED. It randomised higher-risk Spanish
+**The evidence, with its caveats.** The landmark trial, PREDIMED, randomised higher-risk Spanish
 adults to a Mediterranean diet (supplemented with olive oil or nuts) or a control diet, and reported
 roughly a 30% relative reduction in a composite of major cardiovascular events (several outcomes counted together as one result) [@estruch2018predimed]. Two caveats belong with that main result whenever it is quoted:
 
@@ -187,7 +172,7 @@ roughly a 30% relative reduction in a composite of major cardiovascular events (
   came to light. The reanalysis upheld the main result, and the episode shows that even landmark trials
   get corrected.
 
-Weighing a "30% reduction" of this kind means asking two questions. Is it relative (a fall expressed as a share of the starting risk) or absolute (the actual difference in risk between the groups)? And does it count a composite or a hard endpoint (an outcome that matters to the patient directly, such as a heart attack or death)? Both questions belong to trial appraisal (see the *Evidence vs hype* chapter).
+Weighing a "30% reduction" of this kind means asking whether it is relative (a fall expressed as a share of the starting risk) or absolute (the actual difference in risk between the groups), and whether it counts a composite or a hard endpoint (an outcome that matters to the patient directly, such as a heart attack or death). Both questions belong to trial appraisal (see the *Evidence vs hype* chapter).
 
 Observational data broadly agree with PREDIMED: an umbrella review of many meta-analyses links higher Mediterranean
 adherence to lower cardiovascular mortality, fewer heart attacks and, most strongly, fewer strokes,
@@ -201,7 +186,7 @@ low-fat dairy, with wholegrains, nuts and legumes, and reduced saturated fat and
 
 **The evidence, with its caveats.** In the original controlled-feeding trial, the DASH diet lowered
 blood pressure by about 5.5/3.0 mmHg overall, and by roughly 11.4/5.5 mmHg in participants who were
-already hypertensive [@appel1997dash]. Four features of the design determine what that result shows. Two support attributing the fall to the diet: participants were fed all their food, and body weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. Two limit it: the endpoint was blood pressure, a surrogate endpoint (a measured marker that stands in for a hard endpoint), not heart attacks or strokes, and the trial ran for only about eight weeks. The trial therefore clearly shows that a dietary pattern can lower a risk factor; by itself, it is not proof of long-term event reduction.
+already hypertensive [@appel1997dash]. Two features of the design support attributing the fall to the diet: participants were fed all their food, and body weight and sodium were held constant, so the fall came from the pattern itself. Two features limit the result: the endpoint was blood pressure, a surrogate endpoint (a measured marker that stands in for a hard endpoint such as a heart attack or stroke), and the trial ran for only about eight weeks. The trial therefore shows that a dietary pattern can lower a risk factor. Evidence that the pattern reduces cardiovascular events over the long term has to come from other studies.
 
 Cutting sodium on top of DASH lowers blood pressure further. The therapeutic use of DASH, sodium reduction included, belongs to the *Cardiovascular disease & hypertension* chapter, and the sodium–blood pressure link itself is in the *Micronutrients, hydration and electrolytes* chapter.
 
@@ -218,16 +203,15 @@ hype* chapter).
 Asking what pattern the food is part of. Judged in isolation, each food has produced a decade of
 contradictory results. At the level of the pattern the findings are more consistent, because foods act in
 combination and a whole dietary pattern can predict health better than any nutrient studied alone
-(food synergy). Food synergy is a framework for reading evidence, though, not an effect size to quote.
+(food synergy). Food synergy, though, is a framework for reading evidence and gives no effect size to quote.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: in the DASH trial, body weight and sodium were held constant. Why does that matter, and what can the trial still not show?
 Because weight and salt intake did not change, the fall in blood pressure (about 5.5/3.0 mmHg) can be
-attributed to the dietary pattern itself, not to weight loss or salt reduction. The endpoint, however,
+attributed to the dietary pattern itself. The endpoint, however,
 was blood pressure, a surrogate, measured over about eight weeks in participants who were fed all their
-food. The trial therefore shows that a pattern can lower a risk factor, not that it prevents heart attacks
-or strokes over the long term.
+food. The trial therefore shows that a pattern can lower a risk factor. It does not show that the pattern prevents heart attacks or strokes over the long term.
 :::
 
 ## Advising real patients {#sec-advising}
@@ -236,9 +220,7 @@ Applying the shared pattern to a patient means responding to the popular diet th
 
 ### Popular diets: what to tell patients {#sec-popular-diets}
 
-Patients ask about keto, intermittent fasting, paleo or the diet a colleague swears by, not about
-"dietary patterns". "Not recommended" is not the same as "not worth knowing": a clinician who cannot
-discuss these diets credibly loses the patient's trust. Each can be judged by the same question: is this a
+Patients ask about keto, intermittent fasting, paleo or the diet a colleague swears by, and a clinician who cannot discuss these diets credibly loses the patient's trust, even when the diet is one to advise against. Each diet can be judged by the same question: is this a
 coherent, sustainable way of eating, or a restrictive fad?
 
 When diets are tested head-to-head, the macronutrient split barely matters. A healthy low-fat and a
@@ -252,15 +234,12 @@ the evidence behind it:
 
 | Diet | What the evidence shows | Verdict |
 |---|---|---|
-| Low-carb / ketogenic | Real, fast early weight loss that attenuates after a few months; adherence is hard, LDL cholesterol can rise, and most of the trial evidence is low-certainty [@keto2023umbrella] | A tool, not a cure |
+| Low-carb / ketogenic | Real, fast early weight loss that attenuates after a few months; adherence is hard, LDL cholesterol can rise, and most of the trial evidence is low-certainty [@keto2023umbrella] | An option for early weight loss that is hard to sustain |
 | Intermittent fasting / time-restricted eating | A genuine circadian rationale, but head-to-head trials show it is no better than ordinary calorie restriction [@liu2022tre; @lin2023tre]; it works only for people whom it helps to eat less | A reasonable structure for some, with no special metabolic benefit |
 | Paleo, "clean eating" and similar | They usually "work" to the extent that they cut ultra-processed food and added sugar, while excluding whole food groups such as dairy, grains and legumes | The cuts help; the exclusions are unnecessary and risk nutrient gaps |
 | Plant-based / vegetarian | The one popular pattern that aligns with the guidelines' plant-predominant message | Healthful when well planned; mind vitamin B12 |
 
-The best diet for a patient is the healthy pattern they will sustain, not the most elaborate one. When a
-patient raises a popular diet, dismissing it ends the conversation. Instead, ask what they are hoping
-for and find the part worth keeping: if low-carb got them off sugary drinks and refined rice, keep
-that. From there, steer toward whichever sustainable pattern fits their life, based on My
+The best diet for a patient is the healthy pattern they will sustain. When a patient raises a popular diet, ask what they are hoping for and find the part worth keeping, since dismissing the diet ends the conversation. If low-carb got them off sugary drinks and refined rice, keep that. From there, steer toward whichever sustainable pattern fits their life, based on My
 Healthy Plate. The main harm to watch for is disordered eating, which restrictive fad diets can
 trigger: keep the language weight-neutral, and refer if a red flag appears (see the *Assessing diet and
 talking to patients* chapter).
@@ -269,7 +248,7 @@ Several of these diets are taken further elsewhere: the physiology of fasting an
 
 ### The food environment: Singapore's national tools {#sec-food-environment}
 
-Knowing the healthy pattern is only half the problem. People choose food inside a **food environment**
+People choose food inside a **food environment**
 (what is sold, priced, labelled and placed within reach), and that environment shapes much of what
 they choose. Singapore therefore pairs advice with national tools that reshape the food
 environment:
@@ -281,8 +260,7 @@ environment:
 | Healthier Dining Programme | Hawker stalls and restaurants | Marks lower-calorie and wholegrain options where people eat out [@hpbHealthierDining] |
 
 In a randomised trial of the Nutri-Grade label, shoppers bought drinks with less sugar, but the label
-alone did not improve the overall quality of their basket: a nudge shifts one choice, not a whole diet
-[@nutriGradeRCT2023].
+alone did not improve the overall quality of their basket [@nutriGradeRCT2023].
 
 The clinical task at this stage is to recognise that policy and environment shape what people
 eat, and to point patients toward these tools. Reading a nutrition label or a Nutri-Grade grade with
@@ -291,9 +269,7 @@ chapter).
 
 ### From guideline to a real plate {#sec-real-plate}
 
-My Healthy Plate is one target, and Singaporeans reach it through three cuisines. The aim is to rebuild
-a family's own Chinese, Malay or Indian cooking to the quarter-quarter-half proportions, not to hand the
-family a "Mediterranean diet": that pattern is a set of principles to adapt, not a menu to impose.
+My Healthy Plate is one target, and Singaporeans reach it through three cuisines. The aim is to rebuild a family's own Chinese, Malay or Indian cooking to the quarter-quarter-half proportions. Patterns such as the Mediterranean diet supply principles that can be adapted to that cooking.
 
 Build a balanced dinner in each of the three cuisines below. Each household starts on its habitual
 plate; swap the slots until all four are on target, and compare how the same target is reached with
@@ -303,7 +279,7 @@ entirely different dishes.
 
 ::: {.callout-note}
 ## 🔬 Food science: why the whole pattern matters
-No single swap on that plate accounts for the benefit; the effects are mechanistic and cumulative. Brown rice
+The benefit of that plate is cumulative: each swap acts through its own mechanism, and the effects add up. Brown rice
 in place of white lowers the glycaemic response (the glycaemic-load idea from the *Macronutrients*
 chapter), so the post-meal glucose and insulin demand is gentler. The fibre in the wholegrains,
 vegetables and legumes then has three effects:
@@ -314,10 +290,7 @@ vegetables and legumes then has three effects:
 - What reaches the colon is fermented by gut bacteria into short-chain fatty acids (see *The gut
   microbiome* chapter).
 
-The oily fish adds omega-3 fatty acids, and the vegetable half brings potassium and polyphenols. The
-whole assembly (more plants and fibre, less refined starch, better fat, water in place of sugar) is
-what the evidence links to better health: food synergy on a plate, which shifts a pattern instead of dosing a
-single nutrient [@jacobs2003synergy].
+The oily fish adds omega-3 fatty acids, and the vegetable half brings potassium and polyphenols. The evidence links better health to the whole assembly (more plants and fibre, less refined starch, better fat, water in place of sugar), which is food synergy on a plate [@jacobs2003synergy].
 :::
 
 ::: {.callout-tip}
@@ -355,11 +328,10 @@ shows.
 :::
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: a Malay family eats *nasi padang* most nights. Why rebuild that meal to the plate instead of prescribing a Mediterranean diet?
-My Healthy Plate fixes the proportions of a meal, not its dishes, so the family's own food can reach
-the target. The swaps are more vegetables and *ulam*, a modest rice scoop with less gravy, grilled
+## Check yourself: a Malay family eats *nasi padang* most nights. Why rebuild that meal to the plate, and where does the Mediterranean diet fit?
+My Healthy Plate fixes the proportions of a meal and leaves the dishes to the family, so their own food can reach the target. The swaps are more vegetables and *ulam*, a modest rice scoop with less gravy, grilled
 *ikan bakar* in place of fried chicken, and water or *teh-o kosong*. The Mediterranean pattern is a
-set of principles to adapt, not a menu to impose.
+set of principles that can be adapted to local dishes.
 :::
 
 ## Is there one best diet? {#sec-close}
@@ -379,7 +351,7 @@ exceed the recommended sodium intake; sugar-sweetened drinks are the main source
 
 The plate's adaptability to each cuisine is also a cultural strength. Singapore's three major
 cuisines show one guideline met by three different menus: the plate works at the family table, the
-festival spread and the hawker centre because it adapts to each cuisine instead of replacing it. A diet a patient will keep is more useful than a "better" one they soon abandon.
+festival spread and the hawker centre because it adapts to each cuisine.
 
 ## Check your understanding {#sec-quiz}
 

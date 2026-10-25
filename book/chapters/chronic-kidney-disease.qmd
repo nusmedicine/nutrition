@@ -42,7 +42,7 @@ cardiovascular disease (together, the cardiovascular-kidney-metabolic (CKM) synd
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd),
 [*Type 2 diabetes*](type-2-diabetes.qmd) and
 [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). CKD is
-common, largely silent (detected by blood and urine tests, not symptoms) and progressive
+common, largely silent (detected by blood and urine tests) and progressive
 [@kdigo2024ckd]. In Singapore it is mostly a consequence of diabetes, which drives roughly 2 in 3 new
 cases of kidney failure [@nkfsKeyStats; @ho2024stemmingckd].
 
@@ -50,8 +50,7 @@ CKD is defined and staged by its cause and by two measurements. The
 **estimated glomerular filtration rate (eGFR)** is an estimate of how well the kidneys filter, in
 categories G1–G5; **albuminuria**, protein leaking into the urine, is graded in categories A1–A3.
 The two are read together on a colour-coded risk "heat map" that Singapore's national guidance follows
-[@kdigo2024ckd; @aceCKD2023]. The goal here is to recognise risk, not to recall thresholds: a low eGFR
-with heavy albuminuria means high-risk CKD, and from that point on the patient's diet is a specialist
+[@kdigo2024ckd; @aceCKD2023]. What matters at this level is recognising risk: a low eGFR with heavy albuminuria means high-risk CKD, and from that point on the patient's diet is a specialist
 matter.
 
 Three principles shape nutrition in CKD:
@@ -70,10 +69,7 @@ Three principles shape nutrition in CKD:
 
 ## Pathophysiology: what accumulates as kidney function declines {#sec-ckd-science}
 
-Kidney disease changes which foods a person may eat, whereas heart disease mostly changes how much
-of certain foods they should eat. The reason is that the kidney does more than filter: it is the main regulator of the
-body's water, electrolyte and acid–base balance. The healthy kidney clears sodium, potassium,
-phosphate, acid and water, and it activates vitamin D. (The everyday balance of sodium, potassium and water is in the
+The kidney is the main regulator of the body's water, electrolyte and acid–base balance: the healthy kidney clears sodium, potassium, phosphate, acid and water, and it activates vitamin D. Kidney disease therefore changes which foods a person may eat, as well as how much. (The everyday balance of sodium, potassium and water is in the
 [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 
 As functioning **nephrons** (the kidney's filtering units) are progressively lost, the substances they
@@ -90,13 +86,10 @@ used to clear accumulate in the blood, each with its own consequence [@kdigo2024
 
 ![In health (left) the kidney clears sodium, potassium, phosphate, acid and water and activates vitamin D, so the diet need not manage them. As nephrons are lost in CKD (right), these accumulate in the blood, raising blood pressure and fluid load, risking hyperkalaemia, and driving CKD–mineral and bone disease and acid build-up. Intake of five dietary components (sodium, potassium, phosphate, fluid and protein) must then be adjusted to the patient's stage of disease and dialysis status, through individualised, dietitian-led therapy.](/figures/mechanisms/ckd-diet-levers.svg){#fig-ckd-levers width="92%" fig-align="center"}
 
-The five dietary components in the figure are managed to limit these accumulations, but managing them by
-eating less has its own danger. The build-up in the blood of urea and the other wastes the kidney normally
+The renal diet has to balance two dangers, accumulation and wasting, which is why it is specialist work. The five dietary components in the figure are managed to limit accumulation, but eating less carries its own danger. The build-up in the blood of urea and the other wastes the kidney normally
 clears is **uraemia**, and it blunts appetite just as illness raises the body's demands. Patients
 therefore readily develop **protein-energy wasting**, undernutrition superimposed on kidney
 disease, and that risk makes automatic restriction hazardous [@fouque2008pew; @carrero2013pewetiology].
-The renal diet has to hold the two dangers, accumulation and wasting, in balance, which is why it is
-specialist work.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with advanced CKD eats no more potassium than before. Why can his blood potassium still rise to a dangerous level?
@@ -123,14 +116,12 @@ Protein is a commonly misunderstood part of the renal diet, because the advice r
 Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once a patient starts
 dialysis, which is itself catabolic and removes protein, the target is raised again
 [@kdoqi2020nutrition; @lambert2022kdoqicommentary]. Because the same patient needs opposite advice at
-different stages, the clinician recognises that protein needs change with stage and refers the patient instead of
-applying a number from memory.
+different stages, the clinician recognises that protein needs change with stage and refers the patient for the target to be set.
 
-The benefit of restriction is also debated. The large MDRD (Modification of Diet in Renal Disease)
+The evidence on whether protein restriction slows kidney disease supports at most a qualified benefit. The large MDRD (Modification of Diet in Renal Disease)
 study found only a small, statistically fragile effect on the decline in kidney function in its
 primary analysis; the confident conclusion that "protein restriction slows CKD" came from a later
-secondary analysis [@klahr1994mdrd; @levey1999mdrd]. A fair interpretation is a qualified benefit,
-not a settled prescription.
+secondary analysis [@klahr1994mdrd; @levey1999mdrd].
 
 ::: {.callout-warning}
 ## Is a low-protein diet always good for the kidneys?
@@ -162,18 +153,14 @@ the potassium salt substitute, needs particular caution (see
 
 ### Potassium: the risk of hyperkalaemia {#sec-ckd-potassium}
 
-For the general public potassium is protective, but in advanced CKD the advice reverses. The WHO
-recommends eating more potassium (fruit, vegetables, legumes) to lower blood pressure, and the same
-guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. The exclusion exists because, in advanced CKD, a potassium load the healthy kidney would clear can instead accumulate to hyperkalaemia and disturb the heart's rhythm [@hunter2019hyperkalemia]. Even so, the field is moving away from blanket fruit-and-vegetable bans toward individualised, blood-level-guided advice, because whole-food potassium is
-handled differently by the body than the number on a label suggests, and over-restriction worsens diet
-quality. Individualising the advice is a dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
+In advanced CKD the public advice to eat more potassium reverses. The WHO recommends eating more potassium (fruit, vegetables, legumes) to lower blood pressure, and the same guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. In these patients, a potassium load the healthy kidney would clear can accumulate to hyperkalaemia and disturb the heart's rhythm [@hunter2019hyperkalemia]. Even so, advice is moving toward individualised targets guided by blood levels, because whole-food potassium is handled differently by the body than the number on a label suggests, and blanket bans on fruit and vegetables worsen diet quality. Individualising the advice is a dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
 
 The panel below sets five pieces of standard advice against two patients, a healthy adult and someone
 with advanced CKD. Toggle the patient to see which advice reverses and which holds.
 
 <div data-island="renal-flip" data-src="/diagrams/renal-flip.yml"></div>
 
-Two hazards carry more risk than an ordinary high-potassium food and should be recognised on sight.
+Two hazards, the potassium salt substitute and star fruit, carry more risk than an ordinary high-potassium food and should be recognised on sight.
 
 ::: {.callout-warning}
 ## Two hazards: the potassium salt substitute and star fruit
@@ -184,10 +171,9 @@ diuretics or potassium supplements, so its safety data do not cover CKD, where t
 [@neal2021ssass; @xu2024saltsubstitutes; @doorenbos2003saltsubstitute]. (The same caveat appears in the
 *Cardiovascular disease & hypertension* chapter.)
 
-**Star fruit and belimbing (bilimbi).** Beyond their potassium, these fruits carry a neurotoxin that
-healthy kidneys clear but failing ones cannot. In CKD it causes hiccups (the commonest symptom), confusion, seizures and death, with
+**Star fruit and belimbing (bilimbi).** Beyond their potassium, these fruits carry a neurotoxin that failing kidneys cannot clear. In CKD it causes hiccups (the commonest symptom), confusion, seizures and death, with
 mortality reported in about a quarter to a third of intoxicated patients with impaired kidney function [@chua2017starfruit;
-@caetano2017bilimbi]. For a CKD patient they must be **avoided completely**, not eaten in controlled portions.
+@caetano2017bilimbi]. For a CKD patient they must be **avoided completely**, even in small portions.
 The warning matters locally, since both fruits are common in Singapore gardens and juices
 [@nkfsEatingRightCKD].
 :::
@@ -223,17 +209,14 @@ The renal-diet hazards in Singapore's food environment are specific and local, a
 | Additive phosphate | Luncheon and canned meat, sausages, meat patties, processed cheese, malt drinks, colas |
 
 Dietitians teach **leaching** (soaking cut vegetables, then boiling them and discarding the water) to
-lower their potassium, but the amounts are individualised, so flag these foods and refer rather than
-hand out quantities [@nkfsEatingRightCKD].
+lower their potassium. The amounts are individualised, so flag these foods and refer the patient to a dietitian, who sets the quantities [@nkfsEatingRightCKD].
 :::
 
 ### Fluid: when restriction is needed {#sec-ckd-fluid}
 
 Fluid restriction is an easy measure to over-apply: early CKD usually needs none [@aceCKD2023];
 limits matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain
-between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. Even then there is no universal fluid target: it is individualised and set by the renal team. The generalist's part is to
-recognise the signs of overload, link thirst to salt intake, and refer, not to prescribe a millilitre
-limit.
+between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. Even then the fluid target is individualised and set by the renal team. The generalist's part is to recognise the signs of overload, link thirst to salt intake, and refer.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why can a generalist reinforce cutting salt in CKD, but not the public advice to eat more potassium?
@@ -248,7 +231,7 @@ blood levels.
 ## Check yourself: a patient on a modest protein restriction starts dialysis. Why does his protein target go up?
 Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys. Dialysis is
 itself catabolic and removes protein, so the target is raised again. Because the same patient needs
-opposite advice at different stages, the target is set by the renal dietitian, not applied from memory.
+opposite advice at different stages, the target is set by the renal dietitian.
 :::
 
 ## When to refer {#sec-ckd-refer}
@@ -285,13 +268,13 @@ blood results.
 
 ## What does a "kidney diet" actually look like? {#sec-close}
 
-It looks like a dietitian's individual plan, not a printed list. A person with early CKD mostly needs
+It is an individual plan set by a dietitian. A person with early CKD mostly needs
 their diabetes and blood pressure controlled and their salt cut: the ordinary heart-healthy plate, done
 well. As the disease advances, the diet becomes an individualised balance, adjusted to the person and
 their stage:
 
 - enough protein and energy to avoid wasting, but not so much as to overload failing kidneys;
-- potassium and phosphate adjusted according to blood levels rather than banned;
+- potassium and phosphate adjusted according to blood levels;
 - fluid limited only when overload appears.
 
 ## The Singapore context {#sec-singapore}
@@ -306,7 +289,7 @@ the kidney therefore comes years earlier, from the control of diabetes and blood
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease accounts for most
 new dialysis starts, the national War on Diabetes is also a central CKD-prevention strategy
-[@mohWarOnDiabetes]. This fits the American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome**, which treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: not every patient needs a dietitian, but referral can help those with more complex dietary needs [@aceCKD2023].
+[@mohWarOnDiabetes]. This fits the American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome**, which treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: a dietitian is for those with more complex dietary needs [@aceCKD2023].
 
 **The renal diet clashes with typical hawker food, and the clash contributes to poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet conflicts with strongly flavoured hawker food based on soy,
@@ -323,7 +306,6 @@ wasting, and another reason the plan needs a dietitian who can adapt it to how p
 Uncle Lim, 62, has diabetic kidney disease and takes an ACE inhibitor. He brings a friend's printout
 recommending more banana and a low-sodium salt, and has started skipping meals to keep his protein low.
 Work through the visit: classify his risk, handle the potassium advice and the protein mistake safely,
-choose the one dietary change you can reinforce, and notice where prescribing a number instead of referring
-would be a mistake.
+choose the one dietary change you can reinforce, and notice where the numbers should be left to a dietitian.
 
 <div data-island="case" data-src="/cases/mr-lim-ckd.case.yml"></div>

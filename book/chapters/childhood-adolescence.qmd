@@ -7,7 +7,7 @@
 
 ::: {.callout-note}
 ## Learning objectives
-- Explain why nutritional demand in the growth spurt tracks pubertal stage, not age, and why energy and
+- Explain why nutritional demand in the growth spurt tracks pubertal stage, and why energy and
   protein needs fall per kilogram while total needs rise.
 - Explain why peak bone mass acquisition in adolescence matters for later life, which factors
   (weight-bearing activity, calcium, vitamin D, adequate energy) change bone accrual, and how strong the
@@ -54,15 +54,14 @@ The growth spurt drives the internal changes of this stage: it sets energy and p
 
 After infancy, growth is slow and steady for years; puberty then re-accelerates it to a **peak height
 velocity**, the fastest growth since the first year of life [@rogol_2000_growth_puberty]. Because the
-spurt is transient and timed by pubertal stage, not birthday, a child's height is best interpreted as a point on
+spurt is transient and timed by pubertal stage, a child's height is best interpreted as a point on
 a velocity curve.
 
 The spurt comes early in girls and late in boys. A girl's fastest growth comes in early puberty, before
 **menarche** (the first menstrual period), so she is at or near peak nutritional demand while still
 looking like a child. A boy's biggest spurt comes later, so a boy just entering puberty still has his
 ahead of him [@granados_2015_phv_tanner]. Sex hormones then make body composition diverge: testosterone
-builds lean mass in boys, and oestrogen adds body fat in girls. This divergence is normal, hormone-driven
-physiology, not over-eating, and needs no correction [@rogol_2000_growth_puberty].
+builds lean mass in boys, and oestrogen adds body fat in girls. This divergence is normal, hormone-driven physiology and needs no correction [@rogol_2000_growth_puberty].
 
 Energy and protein needs rise in total but fall per kilogram. Total daily energy needs climb steeply and
 diverge by sex: a late-teen boy may need close to double a young child's intake. Per kilogram, however,
@@ -80,12 +79,11 @@ does not fit the growth trajectory: restriction while the growth curve falters, 
 
 The capacity for **catch-up growth** (recovering growth lost after a nutritional setback) narrows with
 age. A young child can recover from a setback, but by later childhood that potential shrinks, so a child
-crossing down through the growth centiles (the reference curves on a growth chart) warrants referral, not
-watchful waiting [@leroy_2020_catchup_growth].
+crossing down through the growth centiles (the reference curves on a growth chart) warrants prompt referral [@leroy_2020_catchup_growth].
 
 ### Peak bone mass acquisition {#sec-child-bone}
 
-Bone is not laid down evenly across life. Roughly two-fifths of the bone mineral an adult carries is
+Roughly two-fifths of the bone mineral an adult carries is
 deposited in the few years around the growth spurt, a brief, hormone-dependent window that then closes as the
 growth plates fuse [@baxterjones_2011_pbm_estimation]. The bone mass accrued by the end of adolescence,
 close to a person's **peak bone mass** (the most bone a person ever has), is a major
@@ -93,7 +91,7 @@ determinant of how much bone loss a person can tolerate in later life (see the
 [*Bone & joint health*](bone-health-osteoporosis.qmd) and
 [*Menopause & midlife health*](menopause-midlife.qmd) chapters). The window is only partly
 modifiable: lifestyle sets about a fifth to two-fifths of peak bone mass, and the rest is inherited
-[@nof_weaver_2016_pbm_position]. Lifestyle is worth improving, but it does not override genetics.
+[@nof_weaver_2016_pbm_position].
 
 The interactive below pictures peak bone mass as a "bone bank" filled during this window. Move the age
 slider to watch accrual climb steeply and then plateau, toggle the lifestyle factors to see how far they move
@@ -101,20 +99,13 @@ the attainable peak within the shaded band, and switch on the under-fuelling thr
 
 <div data-island="bone-window" data-src="/diagrams/bone-window.yml"></div>
 
-What builds bone is more specific, and more complicated, than the advice to "drink milk". The strongest evidence for
-building peak bone mass is for weight-bearing, high-impact activity and adequate calcium; dairy and
-vitamin D help but the evidence for them is weaker [@nof_weaver_2016_pbm_position].
-Timing matters too: exercise is most **osteogenic** (bone-building) in early puberty, when the window is widest
+The strongest evidence for building peak bone mass is for weight-bearing, high-impact activity and adequate calcium; dairy and vitamin D also help, on weaker evidence [@nof_weaver_2016_pbm_position]. Exercise is most **osteogenic** (bone-building) in early puberty, when the window is widest
 [@hind_2007_exercise_bone_review].
 
-The evidence on supplements is easily misread. In a child who is already replete, calcium supplements add
-only a small, fading benefit and vitamin D supplements add essentially nothing; the gains show up only in
-children who were deficient to begin with [@winzenberg_2006_calcium_meta; @winzenberg_2011_vitd_meta].
-The message is therefore food-first calcium, outdoor weight-bearing activity, and finding and treating
-deficiency, not blanket supplementation.
+Calcium and vitamin D supplements bring gains only in children who were deficient to begin with. In a child who is already replete, calcium supplements add only a small, fading benefit and vitamin D supplements add essentially nothing [@winzenberg_2006_calcium_meta; @winzenberg_2011_vitd_meta]. The advice is therefore food-first calcium, outdoor weight-bearing activity, and finding and treating deficiency, with supplements kept for children who are deficient.
 
 ::: {.callout-warning}
-## When bone accrual is under threat: often energy, not calcium
+## When bone accrual is under threat: too little energy
 In adolescence, bone accrual is often impaired by too little energy. In a teenager who trains hard
 and eats too little, reproductive hormone (oestrogen) production falls, menstrual periods stop
 (**amenorrhoea**) and bone accrual stalls, sometimes with a lasting deficit
@@ -133,7 +124,7 @@ multiplies the odds of deficiency compared with either factor alone [@soderman_2
 recommendations reflect this: the iron recommendation for adolescent girls is roughly triple that for
 their pre-teen years, and far above boys' [@hpb_healthhub_rda].
 
-Iron deficiency matters beyond a low haemoglobin. It blunts attention, memory and learning, and correcting
+Iron deficiency blunts attention, memory and learning, and correcting
 it measurably improves them, though without a clear effect on exam results [@gutema_2023_iron_cognition].
 Deficiency also develops before anaemia: an iron-depleted teenager can be tired and under-performing with
 a normal haemoglobin. For that reason **ferritin**, a marker of iron status that falls before haemoglobin
@@ -145,7 +136,7 @@ the *Micronutrients, hydration and electrolytes* chapter.)
 
 ::: {.callout-tip}
 ## 🍜 Getting iron from everyday meals
-The practical gains come from combining foods, not from supplements. Haem iron (in meat, fish and poultry)
+Combining foods at the same meal is the practical way to absorb more iron. Haem iron (in meat, fish and poultry)
 is far better absorbed than the non-haem iron of plants, and a little meat or a food rich in vitamin C (a
 squeeze of lime, some vegetables, fruit after the meal) can multiply absorption from a plate of rice or
 noodles [@statpearls_dietary_iron; @nih_ods_iron_hp]. The common blockers are tea and coffee with meals,
@@ -179,37 +170,33 @@ The external influences on adolescent eating range from the food environment (su
 
 In adolescence, food choice moves from the parent to the teenager and their peers. Teenagers eat more
 meals out, skip more meals and meet more advertising, and the family meal weakens as an influence just as
-sugary drinks and marketing gain strength [@story2002adolescent]. Two environmental influences stand out.
+sugary drinks and marketing gain strength [@story2002adolescent].
 
 **Free sugars and sugary drinks.** The WHO ceiling of free sugars under 10% of energy, and better under
-5%, is based first on dental caries (tooth decay), not weight [@who2015sugars]. On weight, the
+5%, is based first on dental caries (tooth decay) [@who2015sugars]. On weight, the
 strongest evidence comes from trials that swapped sugary for sugar-free drinks. A double-blind trial in
 children found less weight gain over 18 months, and an open-label trial in adolescents saw a benefit that
-had faded by 2 years [@deruyter2012ssb; @ebbeling2012ssb]. The effect is real but modest, and it works
-mostly through the drinks' energy content, not through any unique toxicity of sugar
-[@temorenga2012sugars]. Sugary drinks are a risk to recognise at this life stage, not a toxin to
-fear.
+had faded by 2 years [@deruyter2012ssb; @ebbeling2012ssb]. The effect is modest, and it works mostly through the drinks' energy content [@temorenga2012sugars].
 
 **Marketing and screens.** Food advertising measurably shifts what children eat and ask for
 [@boyland2016adcue; @boyland2022marketing], enough that the WHO now calls for mandatory limits on
 marketing unhealthy food to under-18s [@who2023marketing]. Screen time is associated with heavier weight,
 but the link runs both ways: heavier children may also choose more sedentary screen time. Much of the
 effect also runs through other pathways (eating while watching, exposure to the adverts and lost sleep), so
-screen time is one of several interlinked influences, not a single cause [@zhang2016tvobesity;
+screen time is one of several interlinked influences [@zhang2016tvobesity;
 @robinson2017screenmedia].
 
 Family meals can offset some of these influences. Eating together several times a week is associated with better diets,
 healthier weight and less disordered eating. The association is largely observational and plausibly runs
-both ways, so family meals are encouraged as a low-risk, sensible habit, not prescribed as a treatment
-[@hammons2011familymeals; @berge2015familymeals].
+both ways, so it does not show that family meals cause the better diets. They are still encouraged as a low-risk, sensible habit [@hammons2011familymeals; @berge2015familymeals].
 
 ### Sport and energy availability {#sec-child-sport}
 
-The starting point for every adolescent is enough activity. The guideline is an average of at least
+The activity guideline for every adolescent is an average of at least
 60 minutes a day of moderate-to-vigorous activity, plus muscle- and bone-strengthening activity on 3 days
 a week, a target most Singaporean teenagers miss [@bull2020whopa; @sg24hrGuidelines2021].
 
-The danger at the other end is under-fuelling: an active adolescent needs enough energy, not weight loss.
+The danger at the other end is under-fuelling: an active adolescent needs enough energy to match the training load.
 Three terms describe the risk:
 
 Energy availability
@@ -237,7 +224,7 @@ develops, bone accrual stalls and performance falls. This cluster is the female-
 
 Sports medicine's rule of thumb is that adequate energy is the foundation, and that one part of the triad
 should prompt a look for the others [@thomas2016nutritionathletic]. An under-fuelled adolescent with
-amenorrhoea or a stress fracture therefore needs recognition and referral, not a stricter diet. (Sports
+amenorrhoea or a stress fracture therefore needs recognition and referral, and should not be put on a stricter diet. (Sports
 nutrition in more detail is in the [*Adulthood*](adulthood-working-life.qmd) chapter.)
 
 ::: {.callout-tip collapse="true"}
@@ -253,8 +240,7 @@ Energy availability is intake minus the energy burned in exercise, so ordinary m
 for the body's other physiological functions when the training load is heavy. When energy availability
 stays low, hormone production (including oestrogen) falls: amenorrhoea develops, bone accrual stalls and
 performance falls.
-One part of the triad should prompt a look for the others, and she needs recognition and referral, not
-a stricter diet.
+One part of the triad should prompt a look for the others, and she needs recognition and referral. A stricter diet would deepen the energy deficit.
 :::
 
 ## Recognising trouble, and when to refer {#sec-child-refer}
@@ -277,15 +263,11 @@ Binge-eating disorder
 : Recurrent binge eating (an unusually large amount of food in a short time, with a sense of loss of
   control) without regular compensation such as vomiting or fasting.
 
-Dieting is not a harmless habit in adolescence. In prospective studies, adolescents who diet are far more
-likely than non-dieters to develop a new eating disorder and, paradoxically, to gain more weight over the
-following years [@patton_1999_adolescent_ed_onset; @neumarksztainer_2007_dieting_weightgain_eat2]. That
-single finding links the two problems, disordered eating and obesity.
+Dieting in adolescence predicts both disordered eating and later weight gain. In prospective studies, adolescents who diet are far more likely than non-dieters to develop a new eating disorder and, paradoxically, to gain more weight over the following years [@patton_1999_adolescent_ed_onset; @neumarksztainer_2007_dieting_weightgain_eat2].
 
-Two points help with recognition. First, eating disorders occur across the whole weight spectrum: a
+Eating disorders occur across the whole weight spectrum: a
 formerly heavier teenager who loses weight fast can be seriously ill, so praising weight loss can mask an
-emerging disorder [@chew_2023_atypical_an_sg_adolescents]. Second, the red flags are concrete; they are
-worth checking at every routine visit, and any one of them warrants referral
+emerging disorder [@chew_2023_atypical_an_sg_adolescents]. The red flags are concrete and worth checking at every routine visit, and any one of them warrants referral
 [@hornberger_2021_aap_identify_ed]:
 
 - Faltering or crossing-down growth
@@ -294,7 +276,7 @@ worth checking at every routine visit, and any one of them warrants referral
 - A stress fracture
 - Purging or highly restrictive eating
 
-Two further patterns are worth recognising. **Avoidant/restrictive food intake disorder (ARFID)** is
+**Avoidant/restrictive food intake disorder (ARFID)** is
 restrictive eating driven by sensory aversion or fear, without concern about weight or shape. It is where
 "fussy eating" becomes clinical (see the *Infancy & early childhood* chapter)
 [@sanchez_arfid_2023_epi_review]. **Orthorexia**, an obsessive fixation on "clean eating", is a real
@@ -302,9 +284,9 @@ pattern, fuelled by social media, that is worth recognising even though it is no
 [@horovitz_orthorexia_2023_review].
 
 **Obesity and emerging type 2 diabetes.** Adolescence is a high-risk window for weight gain partly
-because the physiology of puberty, in which per-kilogram energy needs are falling, coincides with an obesogenic environment. Not every pubertal change is a warning sign, however: a transient insulin resistance (the body's cells responding less to insulin, so the pancreas makes more to keep blood glucose normal) is a normal part of puberty, so a healthy pubertal teenager carrying a little more fat is usually showing physiology, not disease, and should not be pathologised.
+because the physiology of puberty, in which per-kilogram energy needs are falling, coincides with an obesogenic environment. A transient insulin resistance (the body's cells responding less to insulin, so the pancreas makes more to keep blood glucose normal) is a normal part of puberty, so a healthy pubertal teenager carrying a little more fat is usually showing normal physiology and should not be pathologised.
 
-The concern is the trajectory. Childhood obesity tends to track into adulthood, and paediatric type 2
+Childhood obesity tends to track into adulthood, and paediatric type 2
 diabetes is now emerging as a consequence, including in Singapore [@singh_2008_tracking_overweight;
 @nuh_paediatric_t2dm_children]. Here too the task is to recognise the trajectory and its cardiometabolic
 risk, and refer (management is in the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd)
@@ -313,7 +295,7 @@ and [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 ::: {.callout-warning}
 ## Do no harm: healthy habits, never a diet
 Because dieting predicts both a new eating disorder and more weight gain, the same safe approach serves
-both problems. Paediatric guidance recommends the same: focus on healthy habits rather than weight, encourage family
+both problems. Paediatric guidance recommends the same: focus on healthy habits, encourage family
 meals, and avoid all weight-talk and teasing, which drive disordered eating
 [@golden_2016_aap_prevent_obesity_ed; @haines_2006_weight_teasing_eat]. **Whatever a teenager's weight,
 the answer is never "go on a diet".** How to raise the subject of weight safely is
@@ -340,15 +322,14 @@ approach (healthy habits, family meals, no weight-talk or teasing) serves both.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a healthy 13-year-old girl in puberty has gained a little fat. Why is this usually not disease, and what would change that?
 In puberty oestrogen adds body fat in girls, and a transient insulin resistance is normal. A little extra
-fat in a healthy pubertal girl is therefore usually physiology, not over-eating, and should not be
-pathologised. The concern is the trajectory: childhood obesity tends to track into
+fat in a healthy pubertal girl is therefore usually normal physiology and should not be pathologised. The concern is the trajectory: childhood obesity tends to track into
 adulthood, and paediatric type 2 diabetes is emerging as a consequence. A trajectory with cardiometabolic
 risk warrants recognition and referral, never a diet.
 :::
 
 ## Is adolescence just "feed them more"? {#sec-close}
 
-Feeding teenagers more is not enough: the internal factors of this stage set needs for quality and timing, not sheer quantity, and getting those needs wrong can cause harm. The spurt needs enough energy and iron (the menstruating girl is the one to watch),
+Feeding teenagers more is not enough: the internal factors of this stage set needs for quality and timing, and getting those needs wrong can cause harm. The spurt needs enough energy and iron (the menstruating girl is the one to watch),
 and bone accrual needs enough weight-bearing activity and calcium before its window largely closes by
 the early twenties. Because dieting and weight-talk can start real disease, the safe approach to any
 teenager's weight is healthy habits, never a diet, together with knowing the red flags that mean it is
@@ -365,7 +346,7 @@ childhood obesity. It is nonetheless Singapore's best-known example of how not t
 heavier children were singled out and teased (the acronym reads "FAT" backwards). It was retired in 2007
 for a whole-school Holistic Health Framework that does not stigmatise [@foo2013_sg_obesity]. A local
 follow-up of anorexia-nervosa patients found that about one in ten had been through TAF before their
-illness began, an association, not proof of cause [@kuek_2015_an_singapore]. The lesson is the
+illness began, although the study shows only an association [@kuek_2015_an_singapore]. The lesson is the
 do-no-harm rule, now national policy: weight is screened without shaming the child.
 
 **Sugary drinks and drink labelling.** Nutri-Grade, the mandatory A–D drink label with an advertising
@@ -384,7 +365,7 @@ iron and vitamin D status are sparse, so some of the evidence here is regional o
 **Activity and eating disorders locally.** Only about a quarter of older teens meet the daily activity
 target [@tay2023sgreportcard], and too little physical activity is one of the habits targeted by Grow Well SG, a whole-of-government strategy launched in 2025 that starts with children up to 12 [@moh_growwellsg].
 
-Eating disorders, the second local concern, are neither rare nor imported. Local surveys find a meaningful fraction of schoolgirls
+Eating disorders, the second local concern, are well documented among Singapore's own adolescents. Local surveys find a meaningful fraction of schoolgirls
 screen positive for risk (with Malay girls over-represented), presentations are rising and diagnosed younger, and a
 large share are atypical, non-underweight presentations [@ho2006_sg_eating_risk; @wong2022_paed_ed;
 @chew_2023_atypical_an_sg_adolescents]. These atypical presentations show that, in Singapore too, eating

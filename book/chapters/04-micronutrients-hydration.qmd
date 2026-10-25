@@ -36,9 +36,7 @@
 
 ## Micronutrients, hydration and electrolytes at a glance {#sec-overview}
 
-Unlike the macronutrients, **micronutrients** (the vitamins and minerals) supply almost no energy.
-They enable the reactions that keep us alive, acting as **cofactors** (non-protein helpers that an
-enzyme needs in order to work), antioxidants and structural components. We need them only in
+**Micronutrients** (the vitamins and minerals) enable the reactions that keep us alive, acting as **cofactors** (non-protein helpers that an enzyme needs in order to work), antioxidants and structural components. They supply almost no energy. We need them only in
 milligram or microgram amounts, and a **food-first** pattern (a varied, mostly whole-food diet)
 supplies most of them [@afn2021curriculum].
 
@@ -50,9 +48,9 @@ The vitamins fall into two classes that behave differently in the body:
 | Water-soluble | B-complex, C | Largely not stored → need regular intake; excess is mostly excreted |
 
 Vitamin B12 is one exception: it is water-soluble, but the liver holds years' worth, so B12
-deficiency develops slowly instead of appearing within weeks.
+deficiency develops slowly, over years.
 
-The behaviour can often be seen in the structure itself. Vitamin C is studded with hydroxyl (–OH)
+A vitamin's structure often shows whether it is excreted or stored. Vitamin C is studded with hydroxyl (–OH)
 groups, so it dissolves in water and is readily excreted. Vitamins A and D are mostly hydrocarbon, so they
 dissolve in fat and are stored, which is why they can build up to harmful levels if over-supplemented.
 Switch between the three vitamins below to compare them.
@@ -61,8 +59,7 @@ Switch between the three vitamins below to compare them.
 
 ::: {.callout-warning}
 ## Are more vitamins healthier?
-Because vitamins are essential, it is easy to assume that more must be better, but an excess can be harmful. Fat-soluble vitamins (notably A and D) can **accumulate to toxic levels**, and although water-soluble vitamins are mostly excreted, very high intakes can still cause harm: B6 can damage nerves, and vitamin C can cause kidney stones.
-Regular intake is what is needed, not megadoses, and for most people food is a better source than supplements.
+An excess of a vitamin can be harmful. Fat-soluble vitamins (notably A and D) can **accumulate to toxic levels**, and very high intakes of water-soluble vitamins, though mostly excreted, can still cause harm: B6 can damage nerves, and vitamin C can cause kidney stones. The body needs a regular intake in ordinary dietary amounts, and for most people food is a better source than supplements.
 :::
 
 Each mineral and trace element has a main role:
@@ -75,7 +72,7 @@ Each mineral and trace element has a main role:
 
 ## The vitamins {#sec-micro-vitamins}
 
-Each vitamin has its own deficiency syndrome and group at risk, but the vitamins fall into two classes by solubility, with different risks: the stored fat-soluble vitamins and the largely unstored water-soluble ones.
+The vitamins fall into two classes by solubility, with different risks: the stored fat-soluble vitamins and the largely unstored water-soluble ones. Each vitamin also has its own deficiency syndrome and group at risk.
 
 ### Fat-soluble vitamins: A, D, E, K {#sec-fat-soluble}
 
@@ -92,27 +89,24 @@ Vitamin A comes in two forms that differ in safety. **Preformed vitamin A** come
 **Vitamin D** behaves more like a hormone than a vitamin: the body makes it in skin from a
 cholesterol precursor using ultraviolet B (UVB) light, then activates it in the liver and kidney. Its job is to help absorb calcium for bone, so its deficiency causes bone disease: **rickets** in children (bowed legs, knock-knees) and **osteomalacia** in adults (soft, aching bones). Few foods carry vitamin D (oily
 fish, egg yolk, fortified milk), so skin synthesis and fortification matter. Toxicity comes from
-supplements, not sunlight: mis-dosed products can push blood calcium dangerously high.
+supplements: mis-dosed products can push blood calcium dangerously high.
 
 ![Oily fish such as salmon are one of the few natural food sources of vitamin D. Photo: DanaTentis, CC0.](/figures/food/grilled-salmon.jpg){#fig-salmon fig-alt="A grilled salmon fillet on a plate." width="320" .lightbox}
 
 ::: {.callout-note}
 ## Does a sunny climate prevent vitamin D deficiency?
-Because skin makes vitamin D in sunlight, many assume that in a country as sunny as Singapore nobody
-runs short. However, indoor work, sun avoidance, covering up and ageing all lower skin synthesis.
-Deficiency is common in Singapore despite the climate: one healthy-adult sample found about 42% at
-risk, higher in women, older adults and those who work indoors or cover up [@sgVitDeficiency].
+Deficiency is common in Singapore despite the climate: one healthy-adult sample found about 42% at risk, higher in women, older adults and those who work indoors or cover up [@sgVitDeficiency]. Indoor work, sun avoidance, covering up and ageing all lower skin synthesis.
 :::
 
 **Vitamin K** is needed for blood clotting. Adults get it from leafy greens and fermented foods, but newborns are born with low stores and get little from the gut or from breast milk, which is why its best-known deficiency is in newborns. A vitamin K injection at birth is therefore routine, and it prevents rare but catastrophic bleeding [@aapVitK].
 
 **Vitamin E** is an antioxidant in cell membranes, found in nuts, seeds and vegetable oils; dietary
 deficiency is rare and is seen mostly with fat malabsorption [@odsVitE]. Neither vitamin K nor
-vitamin E is a common toxicity concern, so the fat-soluble vitamins are not equally risky in excess.
+vitamin E is a common toxicity concern. Among the fat-soluble vitamins, the risk of excess lies mainly with A and D.
 
 ### Water-soluble vitamins: the B-complex and C {#sec-water-soluble}
 
-Because the water-soluble vitamins (except B12) are not stored, they need regular intake. Their classic deficiency diseases are well-recognised clinical syndromes. Investigating and treating them is beyond the scope at this stage; the task is to recognise the pattern and the group at risk, so the table gives each vitamin's broad role, its classic deficiency and the group in whom that deficiency is most likely:
+Because the water-soluble vitamins (except B12) are not stored, they need regular intake. At this stage the task is to recognise each classic deficiency syndrome and the group at risk; investigation and treatment come later. The table gives each vitamin's broad role, its classic deficiency and the group in whom that deficiency is most likely:
 
 | Vitamin | Broad role | Classic deficiency | Watch in… |
 |---|---|---|---|
@@ -168,13 +162,12 @@ squeeze of lime or a vitamin C-rich fruit with an iron-rich meal helps (see [iro
 
 ::: {.callout-note}
 ## Does vitamin C prevent colds?
-Many people take vitamin C to ward off colds. In the general population, routine vitamin C does not
-prevent colds; it only slightly shortens how long they last [@cochraneVitC].
+In the general population, routine vitamin C does not prevent colds. It only slightly shortens how long they last [@cochraneVitC].
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: high-dose vitamin A supplements can harm a pregnancy, but a diet rich in carrots and sweet potato does not. Why the difference?
-Preformed vitamin A is fat-soluble, so a high dose is stored rather than readily excreted, and can
+Preformed vitamin A is fat-soluble, so a high dose is stored and can
 accumulate to teratogenic levels. The β-carotene in orange produce is converted to vitamin A only as
 needed, and this self-limiting conversion is what makes β-carotene from food safe.
 :::
@@ -217,7 +210,7 @@ or reduce how much is absorbed:
 | Soaking, sprouting or fermenting (idli, dosa, sourdough) | Calcium (for example, a large glass of milk with the meal) |
 
 The food-first advice follows: pair iron-rich plant foods with a vitamin C-rich food, and drink tea or
-coffee between meals, not with them. Because non-haem iron is absorbed less well, vegetarians and
+coffee between meals. Because non-haem iron is absorbed less well, vegetarians and
 vegans need roughly 1.8 times as much iron [@odsIron], and their intake deserves a closer look.
 
 ![Red meat is the richest source of well-absorbed haem iron; non-haem iron from plants is less well absorbed. Photo: Hannahdownes, CC BY-SA 4.0.](/figures/food/red-meat.jpg){#fig-redmeat fig-alt="A cooked portion of red meat on a plate." width="300" .lightbox}
@@ -229,16 +222,16 @@ is laid down by about age 18–20, and bone mass peaks around age 30 [@nof_weave
 Adequate calcium, vitamin D (needed to absorb it) and weight-bearing activity in youth build the
 reserve that protects against fractures decades later. Hip fractures are a growing burden in Singapore:
 as the population ages, hip-fracture admissions nearly doubled between 2000 and 2017, even though
-age-adjusted rates fell [@yong2019hipfracSG]. Low intake adds to the concern: in one Singapore cohort, about half of older
+age-adjusted rates fell [@yong2019hipfracSG]. In one Singapore cohort, about half of older
 adults fell short of the calcium recommendation [@ye2023daha].
 
-Calcium does not have to come from dairy, but its bioavailability, like iron's, depends on the food it comes in. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption. Spinach is the clearest case: it is rich in calcium, but its oxalate binds it, so it is poorly absorbed [@weaverVegCalcium1999]. By contrast, the calcium in calcium-set tofu and low-oxalate greens (kai-lan, bok choy, broccoli) is absorbed as well as or better than the calcium in milk, and small fish eaten with their bones (ikan bilis, sardines) add more.
+The bioavailability of calcium, like that of iron, depends on the food it comes in, and non-dairy foods can be good sources. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption. Spinach is the clearest case: it is rich in calcium, but its oxalate binds it, so it is poorly absorbed [@weaverVegCalcium1999]. By contrast, the calcium in calcium-set tofu and low-oxalate greens (kai-lan, bok choy, broccoli) is absorbed as well as or better than the calcium in milk, and small fish eaten with their bones (ikan bilis, sardines) add more.
 
 ![Kai-lan and other low-oxalate leafy greens are good non-dairy sources of calcium, folate and non-haem iron. Photo: Nthaci, CC BY-SA 4.0.](/figures/food/kai-lan.jpg){#fig-kailan fig-alt="Fresh kai-lan (Chinese broccoli) on a plate." width="300" .lightbox}
 
 ::: {.callout-note}
 ## Does everyone need a calcium supplement?
-Calcium supplements are often taken as routine insurance for bone. For healthy adults, routine calcium
+For healthy adults, routine calcium
 supplements, with or without vitamin D, have limited fracture-prevention benefit. Combined calcium and
 vitamin D slightly raises the risk of kidney stones; trials have not shown a rise in cardiovascular
 disease, but calcium's cardiovascular safety is still being studied [@uspstfCalcium2018]. Food first still applies: bone mass is
@@ -253,7 +246,7 @@ development. Iodine deficiency causes **goitre** (a swollen thyroid) and, in pre
 intellectual disability in the child; it is a leading preventable cause of brain injury worldwide
 [@odsIodine].
 
-Salt iodisation has made iodine deficiency much less common worldwide, but two trends could allow it to return: non-iodised "gourmet" salts (sea salt, pink Himalayan) and rising plant-based eating, which reduces intake of the main sources (dairy, seafood and eggs). In Singapore, moreover, salt iodisation is voluntary, not mandatory [@codling2017iodine], and no national iodine-status survey has been published, so the food supply does not guarantee enough iodine. Keeping iodised salt as the kitchen default is therefore a sensible individual safeguard.
+Salt iodisation has made iodine deficiency much less common worldwide, but two trends could allow it to return: non-iodised "gourmet" salts (sea salt, pink Himalayan) and rising plant-based eating, which reduces intake of the main sources (dairy, seafood and eggs). In Singapore, moreover, salt iodisation is voluntary [@codling2017iodine], and no national iodine-status survey has been published, so the food supply does not guarantee enough iodine. Keeping iodised salt as the kitchen default is therefore a sensible individual safeguard.
 
 ![Iodised salt: a low-cost population-wide measure against iodine deficiency; most "gourmet" salts are not iodised. Photo: Drtony999, CC BY-SA 3.0.](/figures/food/iodised-salt.jpg){#fig-iodisedsalt fig-alt="A small pile of fine iodised salt on a dark dish." width="300" .lightbox}
 
@@ -301,8 +294,7 @@ Water is a nutrient in its own right, and the body holds its balance of water an
 regulators, so intake roughly matches losses through urine, skin, breath and stool. Singapore's hot,
 humid climate and exercise both raise needs [@afn2021curriculum].
 
-There is no fixed number of glasses to drink. Urine colour is a simple self-check, with pale straw the
-target, and problems lie at both ends of the range:
+Urine colour is a simple self-check of hydration, with pale straw the target. No fixed number of glasses suits everyone. Problems lie at both ends of the range:
 
 Dehydration
 : Too little body water, shown by thirst, dark concentrated urine, dizziness and reduced urine output.
@@ -311,7 +303,7 @@ Over-hydration
 : Rarer than dehydration, but real: drinking only plain water in large amounts during endurance
   exercise can cause dangerous **exercise-associated hyponatraemia** (low blood sodium).
 
-Hydration therefore means water and electrolytes, not water alone.
+Hydration therefore involves both water and electrolytes.
 
 ### Sodium and potassium: opposite effects on blood pressure {#sec-sodium-potassium}
 
@@ -350,9 +342,7 @@ justified for specific, identifiable needs:
 - Vitamin D where skin synthesis is low.
 - Iron for a diagnosed deficiency.
 
-They are not daily insurance against a diet that could be improved, and more is not safer: the
-fat-soluble vitamins and several minerals are harmful in excess. Food comes first; supplements are
-for an identified need.
+Doses beyond these needs add risk, because the fat-soluble vitamins and several minerals are harmful in excess.
 
 ## The Singapore context {#sec-singapore}
 
@@ -362,11 +352,11 @@ guarantee enough iodine [@codling2017iodine].
 
 The main micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
-limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium comes not from the salt shaker at the table but from sauces, broths and food eaten away from home [@mohNNS2022], which makes sodium a problem closely tied to hawker food: some common hawker dishes approach or exceed a whole day's sodium in a single
+limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium comes from sauces, broths and food eaten away from home [@mohNNS2022], which makes sodium a problem closely tied to hawker food: some common hawker dishes approach or exceed a whole day's sodium in a single
 bowl. (Per-dish figures from consumer-education sources are illustrative and vary by stall
 [@shfSaltiestDishes].)
 
-The population response relies on policy, not on individual willpower alone. The Health Promotion Board's "Less Salt, More
+The population response relies on policy: the Health Promotion Board's "Less Salt, More
 Taste" movement and its work to make lower-sodium salt, sauces and seasonings affordable aim to change
 the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade for sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: change the food supply as well as individual habits.
 
@@ -378,15 +368,14 @@ death (about 12%) over about 5 years. In absolute terms, that was about 4.5 fewe
 1,000 people followed for a year (29 versus 34) [@neal2021ssass]. Four caveats temper the result:
 
 - It was **open-label** (participants knew which salt they were using) and **cluster-randomised**
-  (groups, not individuals, were assigned to each salt).
+  (whole groups of participants were assigned to each salt).
 - It ran in rural China in a specific high-risk population: people with a prior stroke, or older
   adults with hypertension (persistently raised blood pressure).
-- A 2024 secondary analysis attributes most of the blood-pressure fall to the added potassium, not to
-  the sodium reduction [@ssassPotassiumBP2024].
+- A 2024 secondary analysis attributes most of the blood-pressure fall to the added potassium [@ssassPotassiumBP2024].
 - Potassium-based substitutes carry a risk of hyperkalaemia (raised blood potassium), which makes them
   unsafe in kidney disease or with certain blood-pressure medications.
 
-Salt substitutes are therefore **not blanket advice**, and SSaSS shows why any trial must be read
+Salt substitutes therefore need to be advised **case by case**, and SSaSS shows why any trial must be read
 together with its caveats.
 :::
 

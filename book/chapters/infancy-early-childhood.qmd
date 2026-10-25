@@ -70,23 +70,17 @@ Falling iron stores set when solids begin and which foods come first, and, on cu
 
 ### Starting solids: timing and iron-rich first foods {#sec-starting-solids}
 
-The question parents ask most, "when do we start?", has a physiological answer. Solids begin at
-about 6 months because the iron stores present at birth are running out, so the first foods must be
-iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short [@whoComplementaryFeeding2023]. What the first foods leave out matters too: they carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
+Solids begin at about 6 months because the iron stores present at birth are running out, so the first foods must be
+iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short [@whoComplementaryFeeding2023]. The first foods carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
 
-The infant's readiness, not the calendar, sets the start for each child. A ready infant shows four
-signs, usually near 6 months and not before 4 months:
+For each child, the start is set by readiness. A ready infant shows four signs, usually near 6 months and not before 4 months:
 
 - sits with support;
 - has steady head control;
 - has lost the **tongue-thrust reflex**, which pushes food out of the mouth;
 - reaches for food.
 
-The lower limit of 4 months reconciles two guideline positions. WHO holds to "about 6 months", whereas allergy
-and gastroenterology societies argue for starting solids, including allergens, between 4 and 6
-months [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. The two apply at different levels:
-"about 6 months" is the population default, and 4 months is the earliest age for an individual infant who
-is ready. Singapore's guidelines take the same position (see [The Singapore context](#sec-singapore)).
+"About 6 months" is the population default, and 4 months is the earliest age for an individual infant who is ready. This reconciles two guideline positions: WHO holds to "about 6 months", whereas allergy and gastroenterology societies argue for starting solids, including allergens, between 4 and 6 months [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. Singapore's guidelines take the same position (see [The Singapore context](#sec-singapore)).
 
 Cow's milk waits until about 12 months as the main drink, for the same iron reason. It is iron-poor
 and, in infancy, causes occult (hidden) blood loss from the gut, a direct route to iron deficiency
@@ -99,26 +93,22 @@ deficiency before it starts, because iron deficiency in the brain-growth window 
 months can leave neurocognitive effects that persist into adulthood despite later iron
 [@lukowski2010iron].
 
-Textures also have to progress. Introducing lumps later than about 9 to 10 months is linked to more
-feeding difficulty years later, so food moves from purée to mashed to soft finger foods on schedule,
-and parents learn to tell normal, protective gagging from true choking [@coulthard2009texture].
+Food moves from purée to mashed to soft finger foods on schedule, because introducing lumps later than about 9 to 10 months is linked to more feeding difficulty years later; parents also learn to tell normal, protective gagging from true choking [@coulthard2009texture].
 
 ### Early allergen introduction: peanut and egg {#sec-allergens}
 
-For years the advice was to delay peanut and egg "to be safe". Trials have since reversed that
-advice, and the mechanism explains why. Two immune outcomes are possible when an infant first meets
+Trials have reversed the earlier advice to delay peanut and egg "to be safe": early oral introduction protects against allergy, and the mechanism explains why. Two immune outcomes are possible when an infant first meets
 a food. **Sensitisation** primes the immune system to react to it; **tolerance** is acceptance, so
 eating the food causes no reaction. The **dual-allergen hypothesis** holds that the route of first
 exposure determines which occurs: inflamed, eczematous skin sensitises, whereas meeting the food by
-mouth first builds tolerance [@lack2008dual]. Early oral introduction therefore protects.
+mouth first builds tolerance [@lack2008dual].
 
-The trial evidence agrees. The LEAP trial gave high-risk infants (those with severe eczema or egg
+The LEAP trial gave high-risk infants (those with severe eczema or egg
 allergy) peanut early and cut peanut allergy by around 80% [@dutoit2015leap]. The EAT trial pointed
 the same way, although poor adherence limited its effect; a meta-analysis confirmed the effect for peanut
 and egg [@perkin2016eat; @ierodiakonou2016].
 
-In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
-applies: LEAP studied only high-risk infants, so its 80% figure does not transfer to every
+In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. LEAP, however, studied only high-risk infants, so its 80% figure does not transfer to every
 infant, and a high-risk infant is referred for specialist-guided introduction (see [Recognising
 trouble, and when to refer](#sec-hazards)).
 
@@ -127,7 +117,7 @@ trouble, and when to refer](#sec-hazards)).
 As the main drink, cow's milk is iron-poor and causes occult blood loss from the infant gut, a direct
 route to iron deficiency just as the iron stores present at birth run out. Iron deficiency between 6
 and 24 months can leave lasting neurocognitive effects. Small amounts of yoghurt or cheese are still
-fine as complementary foods, so the rule is about cow's milk as the main drink, not dairy as a food.
+fine as complementary foods, because the rule applies only to cow's milk as the main drink.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -151,22 +141,21 @@ sometimes called a "first vaccine", and its small volume is often mistaken for "
 yet". Within a single feed, the watery **foremilk** gives way to the fat-rich **hindmilk**
 [@ballard2013milk].
 
-Two components of breast milk have functions that no formula fully reproduces. **Secretory IgA**, an antibody,
+Secretory IgA and human milk oligosaccharides, two components of breast milk, have functions that no formula fully reproduces. **Secretory IgA**, an antibody,
 coats the infant's gut and blocks pathogens while the infant's own immunity matures. Human milk
 oligosaccharides (HMOs) are sugars the infant cannot digest. They selectively feed *Bifidobacterium*,
 and in doing so seed the infant microbiome and, through short-chain fatty acids, support the gut
 barrier [@ballard2013milk; @dinleyici2023hmo] (see [*The gut microbiome*](gut-microbiome.qmd#sec-development)
 chapter).
 
-The slogan "breast is best" needs to be checked against the evidence. The strongest data come from
-PROBIT, a large cluster-randomised trial of breastfeeding support, which found real reductions in
+The evidence behind the slogan "breast is best" shows specific benefits, some of them small. The strongest data come from PROBIT, a large cluster-randomised trial of breastfeeding support, which found real reductions in
 gastrointestinal infection and eczema but no reduction in respiratory infection
 [@kramer2001probit]. Its cognitive benefit at 6.5 years was modest and mostly verbal
 [@kramer2008cognition], and by 16 years only a much smaller verbal effect remained [@yang2018probit]. In observational studies the association with IQ is small, and
 it shrinks after adjustment for the mother's own IQ [@horta2015iq].
 
 Breastfeeding is also associated with modestly lower later obesity, about 15% lower odds in the
-least-biased studies, but this is an association, not proof of cause [@horta2023obesity].
+least-biased studies, and a causal link has not been shown [@horta2023obesity].
 Counselling therefore states the specific benefits without overselling them.
 
 Breast milk leaves three nutrient gaps, and each has a standard remedy (the nutrient science is in
@@ -181,7 +170,7 @@ the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.q
 Of the three remedies, only vitamin D is a routine daily supplement. Vitamin K is given once.
 Because breast milk is low in it, breastfed infants are the most prone to **vitamin K deficiency
 bleeding** (bleeding in newborns and young infants caused by too little vitamin K), and the single
-injection at birth prevents it [@hand2022vitk]. The iron gap is filled by food instead, and the
+injection at birth prevents it [@hand2022vitk]. The iron gap is filled by food, and the
 depletion of iron stores at about 6 months sets the timing of solids (see
 [Starting solids](#sec-starting-solids)).
 
@@ -193,13 +182,13 @@ applied with the iron and allergen caveats above [@kramer2012cochrane].
 
 ### Formula and mixed feeding {#sec-formula}
 
-Most infants receive some formula, and the counselling approach is supportive, not shaming. Modern infant
+Most infants receive some formula, and counselling about it is supportive. Modern infant
 formula is safe and nutritionally adequate, so the clinician's role is to advise on safe preparation.
 Powdered formula is not sterile: it is made up with water at 70 °C or above to kill *Cronobacter* (a
 bacterium that can contaminate the powder), then cooled, and any made-up feed is discarded after 2
 hours [@faoWhoPif2007].
 
-**Mixed feeding**, giving both breast milk and formula, is the norm, not a failure. In Singapore only
+**Mixed feeding**, giving both breast milk and formula, is the norm. In Singapore only
 about 3% of infants are exclusively breastfed at 6 months, while most still receive some breast
 milk, so breast milk plus formula is the usual pattern [@sgBreastfeeding2024]. When you see a mother
 who is mixed feeding, support the pattern practically; the vitamin D dose still applies to any
@@ -207,8 +196,7 @@ partially breastfed infant.
 
 ::: {.callout-tip}
 ## 🍜 Feeding well in Singapore: cost and shared caregiving
-Premium formulas and toddler milks add cost, not nutrition: every infant formula sold in Singapore
-meets the same standard, yet prices have more than doubled. After 12 months, plain full-fat cow's
+Premium formulas cost more for the same nutrition: every infant formula sold in Singapore meets the same standard, yet prices have more than doubled. After 12 months, plain full-fat cow's
 milk is adequate, so toddler (or "growing-up") milks are unnecessary and often sugar-sweetened
 [@cccsFormula2017; @fuchs2023toddlermilk]. Feeding here is also a family activity, often led by
 grandparents and confinement caregivers (carers who look after mother and baby during the
@@ -224,31 +212,25 @@ fullness cues. The organising idea for feeding a young child is the **division o
 responsibility**: the parent decides what, when and where, and the child decides whether and how
 much [@satterDoR].
 
-Two findings explain why the division works. First, toddlers pass through a phase of **food
-neophobia**, refusing new foods on sight. The phase is usually transient (most fussy eating resolves
+Two findings explain why the division works: toddlers' wariness of new foods fades with repeated offering, and pressure to eat backfires. Toddlers pass through a phase of **food neophobia**, refusing new foods on sight. The phase is usually transient (most fussy eating resolves
 within a couple of years) and responds to repeated, low-pressure offering, on the order of 8 to 15
-tries [@spill2019exposure; @mascola2010picky]. Second, pressure backfires: "finish your plate" is
-associated with more fussiness, not less. A fussy child also draws more pressure from parents, so
+tries [@spill2019exposure; @mascola2010picky]. Pressure backfires: "finish your plate" is associated with more fussiness. A fussy child also draws more pressure from parents, so
 the association runs both ways [@jansen2017pressure].
 
-Letting the infant lead can extend to the feeding method itself. **Baby-led weaning**, in which the
-infant feeds itself instead of being spoon-fed, is a reasonable
-parent choice when an iron-rich food is offered at each meal; it is no better and no worse than
-spoon-feeding on iron [@daniels2018bliss]. Choking depends on food form, not on the feeding method:
-about a third of infants choke at least once between 6 and 8 months, at a similar rate whichever
+**Baby-led weaning**, in which the infant feeds itself, is a reasonable parent choice when an iron-rich food is offered at each meal, and iron outcomes are similar to those of spoon-feeding [@daniels2018bliss]. Choking depends on food form, and its rate is similar with either feeding method: about a third of infants choke at least once between 6 and 8 months, at a similar rate whichever
 way they are fed [@fangupo2016choking].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a healthy term breastfed baby is given vitamin D drops from birth, but no iron drops. Why the difference?
 Breast milk is low in vitamin D from the start, so every breastfed or partially breastfed infant
 needs 400 IU/day from birth. Iron is different: a term infant's stores present at birth last about
-6 months, so the iron gap opens later and is filled by iron-rich first foods, not drops. The same
+6 months, so the iron gap opens later and is filled by iron-rich first foods. The same
 depletion of iron stores at about 6 months sets the timing of solids.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: only about 3% of Singapore infants are exclusively breastfed at 6 months. What follows for a mother who is mixed feeding?
-Mixed feeding is the usual pattern, not a failure, so she gets practical support without shame.
+Mixed feeding is the usual pattern, so she gets practical support without shame.
 Formula is safe and adequate, so the useful advice is safe preparation: water at 70 °C or above to
 kill *Cronobacter*, cooling, and discarding any made-up feed after 2 hours. Because her baby still
 receives some breast milk, the 400 IU/day vitamin D dose still applies.
@@ -271,7 +253,7 @@ A few infants need more than the default advice for the healthy term infant, and
 Preterm and low-birth-weight infants have iron stores that deplete earlier, and their solids are
 timed by **corrected age** (age counted from the due date), so their feeding is individualised. For
 the infant at high risk of allergy (severe eczema or egg allergy), peanut introduction is
-specialist-guided instead of improvised. Faltering growth is also a reason to refer, as it is in
+specialist-guided. Faltering growth is also a reason to refer, as it is in
 older children (see the [*Childhood & adolescence*](childhood-adolescence.qmd) chapter). The
 referral cues are summarised below:
 
@@ -283,9 +265,8 @@ referral cues are summarised below:
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: whole peanuts are kept from children until about 4 years, yet smooth peanut butter is encouraged from the start of solids. Why?
-Choking depends on food form, not on the food itself or the feeding method. A whole nut is a choking
-shape, so peanut is offered as smooth peanut butter instead, and early oral peanut builds tolerance.
-The same logic makes a grape quartered lengthwise safe where a whole grape is not.
+Choking risk depends on the form in which a food is offered. A whole nut is a choking
+shape, so peanut is offered as smooth peanut butter, and early oral peanut builds tolerance. The same logic makes a grape safe once it is quartered lengthwise.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -293,14 +274,12 @@ The same logic makes a grape quartered lengthwise safe where a whole grape is no
 The defaults are set for the healthy term infant. A preterm or low-birth-weight infant's iron stores
 deplete earlier, and solids are timed by corrected age (age counted from the due date), so feeding is
 individualised. An infant with severe eczema is at high risk of allergy (the group LEAP studied:
-severe eczema or egg allergy), and for this infant peanut introduction is specialist-guided instead
-of improvised.
+severe eczema or egg allergy), and for this infant peanut introduction is specialist-guided.
 :::
 
 ## Is "breast is best" the whole story? {#sec-close}
 
-Breast milk is a good start but is not nutritionally complete: it leaves three specific gaps (vitamin D,
-vitamin K and iron). Formula and mixed feeding are safe alternatives, and much of what protects an
+Breast milk is a good start that leaves three specific gaps (vitamin D, vitamin K and iron). Formula and mixed feeding are safe alternatives, and much of what protects an
 infant lies beyond the milk itself:
 
 - iron-rich first foods at about 6 months, because the iron stores present at birth run out;
@@ -331,7 +310,7 @@ support plus non-judgemental formula guidance [@sgBreastfeeding2024]. Formula ma
 under-ones is restricted by a local ethics code [@sifecsCode].
 
 **First foods are usually rice-based.** Congee is a fine first food if it is made iron-rich with
-minced meat, egg and soft greens, not served as plain rice-water [@tohFeeding2016].
+minced meat, egg and soft greens [@tohFeeding2016].
 
 **Caregiving is shared.** Counselling on the common feeding patterns, such as pushing a child to
 finish, feeding in front of screens and prolonged night bottles, has to reach grandparents and
