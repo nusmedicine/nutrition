@@ -108,7 +108,11 @@ it and can restore β-cell function, which is the basis of remission in early di
 
 ## Dietary management: medication safety, carbohydrate and dietary pattern {#sec-t2d-levers}
 
+Dietary advice in type 2 diabetes starts with medication safety, because cutting carbohydrate can be dangerous on some glucose-lowering drugs. It then turns to carbohydrate quality and consistency, and to choosing a dietary pattern the patient will follow.
+
 ### Safety before any diet change {#sec-t2d-safety}
+
+The safety check has two parts: knowing which glucose-lowering drug classes can cause hypoglycaemia, and applying that knowledge to patients who fast during Ramadan.
 
 #### Hypoglycaemia risk by drug class {#sec-t2d-hypoglycaemia}
 
@@ -132,12 +136,7 @@ to endorse or needs the diabetes team first.
 
 <div data-island="carb-safety-check" data-src="/diagrams/carb-safety-check.yml"></div>
 
-For someone on a fixed insulin dose, the counselling message is **carbohydrate consistency** (steady
-timing and amount of carbohydrate from day to day), not aggressive restriction.
-
-Hypoglycaemia in a conscious patient is treated with the **15-15 rule** (about 15 g of fast-acting
-glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat slows absorption
-[@diabetesukHypo].
+For a patient on a fixed insulin dose, which does not change with what is eaten, the counselling message is **carbohydrate consistency** (steady timing and amount of carbohydrate from day to day), not aggressive restriction. If hypoglycaemia does occur in a conscious patient, it is treated with the **15-15 rule** (about 15 g of fast-acting glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat slows absorption [@diabetesukHypo].
 
 #### Fasting for Ramadan with diabetes {#sec-t2d-ramadan}
 
@@ -206,14 +205,12 @@ three common patterns (see the *What a healthy diet looks like* chapter) differs
 - A DASH-style pattern also helps glucose [@fang2025dash4d], although there are still too few
   diabetes-specific DASH trials to rank it confidently [@jing2023networkma].
 
-The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's
-blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter. In
-diabetes, these patterns matter for glucose and overall diet quality.
-
 The **plate method**, a tool that sets the proportions of the plate without counting, lets any of these
 patterns be applied at a *cai png* (mixed-rice) stall. Singapore's version, My Healthy Plate, is a quarter
 wholegrains, a quarter protein and half fruit and vegetables, with water over sugary drinks
 [@hpbHealthyPlate].
+
+The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter; in diabetes, the patterns matter for glucose and overall diet quality.
 
 ::: {.callout-tip}
 ## 🍜 Eating out
@@ -238,6 +235,8 @@ and a strict version needs dietitian supervision.
 :::
 
 ## Remission and prevention {#sec-t2d-remission-prevention}
+
+Beyond day-to-day management, weight loss and lifestyle change can achieve two further outcomes: remission of early type 2 diabetes, and prevention of diabetes in people with prediabetes. Both depend on a structured programme, not one-off advice.
 
 ### Remission of early type 2 diabetes {#sec-t2d-remission}
 
@@ -313,11 +312,7 @@ without a medication review. The dose set for their old intake can now drive the
 low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
 :::
 
-Ramadan fasting needs the same medication review, made in advance.
-
-The safe approach is a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify
-the patient and adjust medication, following international guidance [@hassanein2022ramadan]. It is a
-recognise-and-refer task, not one to manage single-handed. Singapore's locally validated fasting
+Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task, not one to manage single-handed. Singapore's locally validated fasting
 algorithm (the FAST algorithm; see the *Integrative metabolism* chapter) shows that fasting with
 diabetes can be done safely when medication is adjusted by the algorithm [@lum2020fast].
 

@@ -62,12 +62,7 @@ Healthy Plate is its local form, which needs no counting of nutrients [@hpbHealt
 
 ## Pathophysiology: how diet affects the arteries and blood pressure {#sec-cvd-science}
 
-Diet raises blood pressure and promotes atherosclerosis mainly through two pathways, and both converge
-on the vessel wall. Both pathways build on how fats are carried as lipoproteins (see the
-[*Macronutrients*](macronutrients.qmd) and
-[*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapters) and how sodium
-and water balance is regulated (see the
-[*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter). Four terms recur
+Diet raises blood pressure and promotes atherosclerosis mainly through two pathways, one acting through dietary fat and LDL cholesterol and one through sodium, and both converge on the vessel wall. Four terms recur
 below:
 
 Atherosclerosis
@@ -89,12 +84,12 @@ Dyslipidaemia
 carried in low-density lipoproteins [@mensink2003]. LDL is deposited in the artery wall and inflames it,
 building the atherosclerotic plaque that narrows vessels and, when it ruptures, causes heart attacks and
 strokes. Improving fat quality ([below](#sec-cvd-fat)) therefore measurably cuts cardiovascular events
-[@hooper2020; @sacks2017].
+[@hooper2020; @sacks2017]. (For how fats are carried as lipoproteins, see the [*Macronutrients*](macronutrients.qmd) and [*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapters.)
 
 **Sodium, potassium and blood pressure.** Dietary sodium expands blood volume and raises vascular tone,
 pushing blood pressure up in a graded, dose-dependent way [@he2013saltbp; @huang2020sodiumdose]. Dietary
 potassium works the other way, helping the kidney excrete sodium and relaxing the vessels
-[@who2012potassium].
+[@who2012potassium]. (For how sodium and water balance is regulated, see the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 
 Blood pressure and plaque then act on the same endothelium, and the insulin resistance and dyslipidaemia
 of obesity and type 2 diabetes contribute to both pathways (see the *Obesity & metabolic syndrome* and *Type 2
@@ -110,6 +105,8 @@ vessel wall.
 :::
 
 ## Dietary management: lowering blood pressure {#sec-cvd-pressure}
+
+Two dietary changes lower blood pressure: adopting the DASH pattern, and eating less sodium and more potassium. DASH and salt reduction lower it most when combined.
 
 ### The DASH dietary pattern {#sec-cvd-dash}
 
@@ -138,12 +135,7 @@ out, not added from the salt shaker [@hpb2023sodium]. The blood-pressure benefit
 graded and reversible [@he2013saltbp], and the complementary change is eating more potassium (fruit,
 vegetables, legumes).
 
-The **sodium J-curve**, the suggestion that very low salt intake is harmful, is largely a measurement
-artefact, and it is irrelevant at Singapore's high average intake, where essentially everyone benefits
-from cutting down [@cappuccio2022sodiummyths].
-
-One option supported by hard-outcome evidence is a potassium-enriched salt substitute, which in a large trial cut
-strokes and deaths [@neal2021ssass]. It is not safe for everyone.
+A common objection to cutting salt, the **sodium J-curve** (the suggestion that very low salt intake is harmful), is largely a measurement artefact, and it is irrelevant at Singapore's high average intake, where essentially everyone benefits from cutting down [@cappuccio2022sodiummyths]. Salt can also be replaced rather than only reduced: one option supported by hard-outcome evidence is a potassium-enriched salt substitute, which in a large trial cut strokes and deaths [@neal2021ssass]. It is not safe for everyone, however, as the box below explains.
 
 ::: {.callout-warning}
 ## Check the kidneys before a potassium salt substitute
@@ -189,6 +181,8 @@ most of the soup, taking sauce on the side and asking for less salt.
 :::
 
 ## Dietary management: protecting the arteries {#sec-cvd-artery}
+
+Four dietary questions bear on the arteries: what replaces saturated fat, whether fish-oil capsules do what oily fish does, what the trial evidence for the Mediterranean pattern shows, and whether alcohol protects the heart.
 
 ### Dietary fat: quality and replacement {#sec-cvd-fat}
 

@@ -58,6 +58,8 @@ months rather than single meals.
 
 ## Energy expenditure: the "out" side {#sec-out}
 
+The three parts of expenditure differ in size and in how far a person can change them, and estimates of a person's energy needs start from the largest, BMR.
+
 ### The three parts of expenditure {#sec-expenditure}
 
 Most of the energy the body spends goes on keeping it alive at rest. **Basal metabolic rate (BMR)**
@@ -183,9 +185,7 @@ of the fat stores to the brain (see the
 
 When someone loses weight, "energy out" falls by more than their smaller body should require. This
 extra drop, **adaptive thermogenesis** (also called metabolic adaptation), makes lost weight easy to
-regain. Hunger also rises after weight loss and is still raised a year later [@sumithran2011hormonal]. Together with the leptin signal below, these compensatory responses actively oppose weight
-change, and they appear to oppose loss more strongly than gain [@schwartz2017obesity]. That
-compensation helps explain why "just eat less" so often fails in the long term [@leibel1995energy; @sumithran2011hormonal].
+regain. Appetite adds to the effect: hunger rises after weight loss and is still raised a year later [@sumithran2011hormonal].
 
 Adipose tissue also signals to the brain how much fat is stored. It releases a hormone, **leptin**,
 in rough proportion to the amount of fat carried [@considine1996leptin]. The brain uses leptin as a long-term signal of fat
@@ -194,6 +194,8 @@ If leptin signals a large store, extra leptin might be expected to cut appetite 
 giving it does not, however, reverse common obesity [@heymsfield1999recombinant]; the reason is
 taken up under leptin in the
 [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter.
+
+Together, adaptive thermogenesis, the rise in hunger and the leptin signal actively oppose weight change, and they appear to oppose loss more strongly than gain [@schwartz2017obesity]. That compensation helps explain why "just eat less" so often fails in the long term [@leibel1995energy; @sumithran2011hormonal].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: after losing weight, a patient eats to an energy estimate calculated for her new, lower weight. Why does the weight tend to return?

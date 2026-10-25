@@ -48,6 +48,8 @@ of the marketing claims lack a plausible mechanism.
 
 ## Composition and development of the gut microbiome {#sec-gut-who}
 
+The species in the gut differ widely from one healthy adult to the next, although their functions are largely shared. The community itself is assembled over the first years of life, from sparse colonisation at birth to an adult-like community by about age three.
+
 ### Composition and abundance {#sec-composition}
 
 The gut microbiome is a community of trillions of microbes, dominated by bacteria and concentrated in
@@ -137,6 +139,8 @@ only a loose marker of gut health.
 :::
 
 ## What gut microbes do for the host {#sec-gut-function}
+
+Colonic microbes make two kinds of product relevant to the host: short-chain fatty acids from fermentation, which fuel the colon and signal elsewhere in the body, and vitamins, little of which the host absorbs.
 
 ### Colonic fermentation and short-chain fatty acids {#sec-scfa}
 
@@ -261,6 +265,8 @@ circulation, and she needs a dietary or supplemental source.
 
 ## Feeding and shaping the microbiome {#sec-gut-diet}
 
+Diet shapes the microbiome meal by meal, and the variety of plants eaten matters more than any single food. The products sold for the gut (probiotics, prebiotics, synbiotics and postbiotics) each have a precise consensus definition.
+
 ### How diet shapes it: fibre diversity {#sec-feeding}
 
 Diet is the dominant, fast-acting and reversible influence on the microbiome. When people switch
@@ -343,6 +349,8 @@ no live microbes. It is still a good food.
 
 ## Clinical problems and unproven claims {#sec-gut-clinical}
 
+Microbiome interventions range from faecal microbiota transplant for recurrent *C. difficile* infection, of proven benefit, to test kits for well people, with no proven clinical use; the spectrum below places the common ones along that range.
+
 ::: {.spectrum}
 [Evidence for microbiome interventions]{.tree-title}
 
@@ -363,14 +371,7 @@ missing months later [@palleja2018recovery]. The most dangerous consequence is *
 difficile_ infection**, in which a depleted microbiome allows this toxin-producing bacterium to
 proliferate and cause severe colitis.
 
-Probiotics given with antibiotics help modestly, and only in specific settings. They produce a modest,
-strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does
-not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that
-probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi;
-@suez2018probiotic]. (The AGA guideline addresses probiotics for *C. difficile* prevention during
-antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question
-[@agaProbiotics2020].) When a patient on antibiotics asks whether to take a probiotic, you can explain
-that any benefit is modest and strain-specific; the prescribing decision belongs to the treating team.
+Probiotics given with antibiotics have a limited role. They produce a modest, strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi; @suez2018probiotic]. When a patient on antibiotics asks whether to take a probiotic, you can explain that any benefit is modest and strain-specific; the prescribing decision belongs to the treating team. (The AGA guideline addresses probiotics for *C. difficile* prevention during antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question [@agaProbiotics2020].)
 
 ::: {.callout-note}
 ## FMT: restoring a whole ecosystem

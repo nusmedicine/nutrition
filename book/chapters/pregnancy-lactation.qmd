@@ -59,6 +59,8 @@ The interactive figure below shows how the requirements change across the stages
 
 ## What changes inside: nutritional requirements, nausea and gestational diabetes {#sec-preg-demands}
 
+Nutrition for pregnancy starts before conception, and requirements rise unevenly: folic acid has to be in place early, energy needs rise only modestly, and iron, iodine and a few other nutrients need particular attention. Two common problems belong to this stage as well: nausea in the first trimester, and gestational diabetes, which appears when the pancreas cannot compensate for the normal insulin resistance of pregnancy.
+
 ### Preconception nutrition {#sec-preg-preconception}
 
 A key nutrition window opens before conception. The neural tube closes by about 28 days after conception,
@@ -176,6 +178,8 @@ Singapore, so the ferritin check guards against missing it as well as against ne
 
 ## What changes outside: activity, food safety and screening {#sec-preg-outside}
 
+Outside the body, three things shape nutrition in pregnancy and can be changed: how active a woman is, which foods she avoids, and how gestational diabetes is screened for and managed through diet.
+
 ### Physical activity and food safety {#sec-preg-lifestyle}
 
 Physical activity is an external factor with clear benefit. For a woman without obstetric
@@ -261,13 +265,11 @@ Milk nutrients largely independent of maternal status
 
 Milk nutrients dependent on maternal intake
 : Vitamin B12, iodine, vitamin D and DHA. Their levels in milk fall if the mother is deficient, and
-  the baby's intake falls with them.
+  the baby's intake falls with them. For vitamin D, milk is low even at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]; this is why the infant is supplemented directly, and the dose is in the *Infancy & early childhood* chapter.
 
 The mother whose baby is most at risk is the vegan or strict vegetarian mother. She can look perfectly well while
 producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]; what
-follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer). (Milk is
-low in vitamin D at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]; this is why the infant is supplemented directly, and the
-dose is in the *Infancy & early childhood* chapter.)
+follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer).
 
 Three practical points concern what reaches the milk, or what is taken to boost it:
 
@@ -332,7 +334,7 @@ referral, not reassurance.
 
 ## Does a pregnant woman eat for two? {#sec-close}
 
-No. Advising her to eat for two does harm, because excess weight gain carries its own risks. The
+A pregnant woman does not need to eat for two, and advising her to do so does harm, because excess weight gain carries its own risks. The
 energy cost of pregnancy is about one extra snack a day, and only from the second trimester, so what
 matters is the quality of her diet, not its quantity. Lactation needs only a little more energy: making milk
 costs about 675 kcal a day, but fat laid down in pregnancy covers about 170 kcal of it, leaving a net

@@ -61,6 +61,8 @@ biochemistry course is assumed, and the full enzyme machinery is left to biochem
 
 ## Reading the metabolic map {#sec-partA}
 
+Metabolism can be read as a single map: five hubs where pathways meet, four irreversible steps that give the map its direction, and the routes that carbohydrate, fat and protein take between them.
+
 ### Metabolic hubs and irreversible steps {#sec-map}
 
 Metabolism looks unmanageable as a list of fifty enzymes, but almost every pathway passes through one

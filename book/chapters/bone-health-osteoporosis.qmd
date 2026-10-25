@@ -121,11 +121,7 @@ Three nutrients act on bone, each in a different way (the nutrient biology is in
 
 Because vitamin D's active form drives calcium absorption, a shortfall means calcium passes through
 unabsorbed, parathyroid hormone rises and mobilises calcium from bone, and bone mineral is lost
-[@laird2010vitDbone].
-
-(When failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and
-bone disease, which is recognised and referred; see the [*Chronic kidney disease*](chronic-kidney-disease.qmd)
-chapter.)
+[@laird2010vitDbone]. When failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and bone disease, which is recognised and referred (see the [*Chronic kidney disease*](chronic-kidney-disease.qmd) chapter).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does building a higher peak in youth protect against osteoporosis decades later?
@@ -136,6 +132,8 @@ slower loss. The gain is years of delay, not a percentage reduction in fractures
 :::
 
 ## Dietary management: modifiable factors in bone health {#sec-bone-levers}
+
+The dietary factors that support bone are calcium, vitamin D, protein, adequate body weight and the whole dietary pattern. The claims against salt, caffeine and cola rest on weak evidence, and supplements help people with a genuine shortfall or high risk, not everyone.
 
 ### Calcium: requirements and bioavailability {#sec-bone-calcium}
 
@@ -215,11 +213,7 @@ bone, and higher protein intake with adequate calcium is associated with about 1
 [@groenendijk2019protein].
 
 Protein's roles in bone explain the finding. It is the collagen matrix bone is built on, it drives the
-bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. (The
-muscle–bone overlap is approached from the sarcopenia side in the
-[*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy ageing*](healthy-ageing.qmd)
-chapters.) When an older patient worries that "meat is bad for my bones", the advice is the
-opposite: eat enough protein, alongside enough calcium.
+bone-building growth factor IGF-1, and it maintains the muscle that keeps frail people from falling. When an older patient worries that "meat is bad for my bones", the advice is the opposite: eat enough protein, alongside enough calcium. (The muscle–bone overlap is approached from the sarcopenia side in the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) and [*Healthy ageing*](healthy-ageing.qmd) chapters.)
 
 ### Body weight and the whole pattern {#sec-bone-weight}
 
@@ -283,6 +277,8 @@ benefit. Food first is the approach, with supplements reserved for genuine short
 :::
 
 ## The joints {#sec-bone-joints}
+
+For the joints, the most heavily marketed supplement, glucosamine, has no proven benefit, while weight loss for knee osteoarthritis and a urate-lowering drug for gout are effective. The spectrum below places the common treatments and claims for osteoarthritis, gout and rheumatoid arthritis by the strength of their evidence.
 
 ::: {.spectrum}
 [Evidence for joint treatments and claims]{.tree-title}

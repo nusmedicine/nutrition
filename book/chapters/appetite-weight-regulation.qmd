@@ -58,6 +58,8 @@ is true but insufficient.
 
 ## How hunger and fullness are controlled {#sec-control}
 
+Hunger depends on the balance between two opposing sets of hypothalamic neurons, and two kinds of signal shift that balance: long-term signals of fat stores, chiefly leptin, and gut hormones, which signal each meal as it is eaten.
+
 ### Hypothalamic control of appetite {#sec-thermostat}
 
 A cluster of neurons in the hypothalamus sets hunger. Its sensing hub is the **arcuate nucleus**, which
@@ -99,12 +101,10 @@ cannot act and appetite remains persistently high. Hunger is, in this sense, set
 
 Physiologists long suspected that fat tissue sends the brain a signal of how much is stored. In 1994,
 cloning the gene mutated in a grossly obese mouse revealed it: leptin, a hormone made by fat in
-proportion to fat mass [@zhang1994leptin]. More fat means more leptin and, normally, less hunger (see
-the *Energy balance* and [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapters).
+proportion to fat mass [@zhang1994leptin]. More fat means more leptin and, normally, less hunger.
 Leptin acts directly on the arcuate nucleus: it activates the POMC/CART neurons and inhibits the
 AgRP/NPY neurons. Because its level tracks fat mass, leptin is the brain's long-term signal of fat
-stores. Insulin (its metabolic actions are in the *Integrative metabolism* chapter) is a second, weaker
-long-term signal to the same neurons.
+stores. Insulin is a second, weaker long-term signal to the same neurons. (Leptin also appears in the *Energy balance* chapter, and both leptin and the metabolic actions of insulin in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter.)
 
 Children with **congenital leptin deficiency**, who are born unable to make leptin, show that leptin is
 necessary for normal human appetite. They have extreme, early-onset obesity with relentless hunger
@@ -417,7 +417,7 @@ behaves as a chronic, regulated condition, and regain after stopping is not a fa
 
 ## Is it really just willpower? {#sec-close}
 
-No. Appetite is a biologically regulated drive. The person who regains weight after a diet, who cannot
+Willpower alone does not explain body weight, because appetite is a biologically regulated drive. The person who regains weight after a diet, who cannot
 stop snacking on night shift, or who feels hungrier the more they diet is not weak: they are experiencing the expected result of their physiology.
 Non-stigmatising medicine starts from that understanding. Energy balance (see the *Energy balance*
 chapter) still applies, but it is biologically regulated rather than freely chosen.

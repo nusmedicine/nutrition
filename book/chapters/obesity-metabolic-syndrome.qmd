@@ -56,7 +56,11 @@ hypothalamus set appetite) is in the [*Energy balance*](energy-balance.qmd) and
 
 ## Pathophysiology: why the risks cluster and the weight accumulates {#sec-science}
 
+After the definitions come two mechanisms: the risk factors cluster because excess visceral and ectopic fat drives insulin resistance, and the weight accumulates partly because what is eaten shapes how much is eaten.
+
 ### Defining obesity and the metabolic syndrome {#sec-recognising}
+
+Both definitions rest on simple measures: weight status on BMI and waist circumference (with lower action points in Singapore), and the metabolic syndrome on any three of five cardiometabolic components.
 
 #### Classifying weight status: BMI, waist and why Singapore acts earlier {#sec-phenotype}
 
@@ -93,15 +97,13 @@ A patient with a "reassuring" BMI of 24 kg/m² and a waist over the cut-off is s
 
 Central fat is rarely the only abnormality. The **metabolic syndrome** is the tendency for five cardiometabolic
 problems to appear together. Its harmonised international definition is any three of the following
-five, with no single obligatory component [@alberti2009harmonizingMetS]:
+five, with no single obligatory component; a component counts as present whether the reading is abnormal or the person is being treated for it [@alberti2009harmonizingMetS]:
 
 - central obesity: waist ≥90 cm (men) or ≥80 cm (women) in Asian populations;
 - raised triglycerides: ≥1.7 mmol/L;
 - low HDL cholesterol: <1.0 mmol/L (men) or <1.3 mmol/L (women);
 - raised blood pressure: ≥130/85 mmHg;
 - raised fasting glucose: ≥5.6 mmol/L.
-
-Treatment for a component counts the same as an abnormal reading.
 
 Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response
 of the body's cells to insulin. At first, the pancreas compensates by making more insulin to keep
@@ -261,6 +263,8 @@ sugar-sweetened one.
 :::
 
 ## Dietary management: lifestyle intervention and weight-inclusive care {#sec-managing}
+
+Management combines what is changed and how it is discussed: a modest weight-loss target reached through five areas of lifestyle change, and weight-inclusive care that avoids the stigma which itself harms health.
 
 ### Lifestyle intervention: the cornerstone of care {#sec-lifestyle}
 
