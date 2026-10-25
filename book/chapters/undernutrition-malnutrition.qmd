@@ -40,9 +40,9 @@
 In its broad sense, malnutrition covers both overnutrition and **undernutrition**. Undernutrition is the
 deficit form, and it is what clinical screening and diagnosis mean by **malnutrition**. In that sense
 malnutrition is a disease state: a deficit of energy, protein or micronutrients that measurably changes body composition and
-function and worsens outcomes. The frail, undernourished senior is as much a nutritional patient as the
-person with metabolic syndrome (see the *Obesity & metabolic syndrome* chapter). Healthy ageing is ageing
-*in health* (see the *Healthy ageing* chapter); malnutrition is the pathological state that ageing, illness
+function and worsens outcomes. A frail, undernourished senior is therefore as much a nutritional patient as the
+person with metabolic syndrome (see the *Obesity & metabolic syndrome* chapter). Malnutrition is also distinct from ageing itself: healthy ageing is ageing
+*in health* (see the *Healthy ageing* chapter), whereas malnutrition is the pathological state that ageing, illness
 and isolation can lead to.
 
 Three principles shape the clinical approach to malnutrition:
@@ -55,12 +55,12 @@ Three principles shape the clinical approach to malnutrition:
 
 Malnutrition is defined by a causal chain, not by body size, and that chain is what makes a wasted, weak
 patient a medical problem. A deficit of energy, protein or micronutrients produces a measurable change in
-body composition: a loss of fat and, above all, of muscle. That loss in turn causes functional and clinical
+body composition: a loss of fat and, above all, of muscle. Muscle is lost because a sustained deficit draws protein from it, although muscle is functional
+tissue, not a dedicated protein store. Its loss in turn causes functional and clinical
 harm: weakness, falls, poor wound healing, more infections, longer hospital stays and higher mortality
-[@cederholm2017espenTerminology]. A sustained deficit draws its protein from muscle, which is functional
-tissue, not a dedicated protein store (see the fasted and starved states in the
-[*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation) chapter, and body composition in the
-*Energy balance* chapter).
+[@cederholm2017espenTerminology]. (For the fasted and starved states, see the
+[*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation) chapter; for body composition, the
+*Energy balance* chapter.)
 
 ![Malnutrition is defined by a causal chain, not by body size. A deficit of energy and protein, worsened by disease-driven inflammation and reduced intake, produces loss of fat and especially of muscle, which causes weakness, poor healing, infection, longer stays and higher mortality. The three aetiological categories are ordered by degree of inflammation, from starvation-related (no inflammation) through chronic disease-related (mild to moderate) to acute disease- or injury-related (severe). Inflammation is why disease-related malnutrition is hard to reverse with feeding alone.](/figures/mechanisms/malnutrition-mechanism.svg){#fig-malnutrition width="92%" fig-align="center"}
 
@@ -87,10 +87,10 @@ Roughly 46% of patients with heart failure are malnourished, and malnutrition ab
 mortality [@lv2021hfMalnutrition].
 :::
 
-Sarcopenia, the age-related loss of muscle strength and mass (see the *Healthy ageing* chapter), is a
+Muscle loss in older people has causes beyond nutrition. Sarcopenia, the age-related loss of muscle strength and mass (see the *Healthy ageing* chapter), is a
 muscle disorder, diagnosed on low strength confirmed by low muscle quantity, and is related to but distinct
 from a nutritional deficit [@cruzjentoft2019ewgsop2]. The two overlap: reduced muscle mass is a feature of
-malnutrition, and a nutritional deficit accelerates muscle loss. However, a person can be sarcopenic at a
+malnutrition, and a nutritional deficit accelerates muscle loss. Because sarcopenia is defined by muscle, not weight, a person can be sarcopenic at a
 normal or high BMI; with obesity, the combination is **sarcopenic obesity**. Muscle therefore has to be
 assessed as well as weight.
 
@@ -129,12 +129,7 @@ enough risk to warrant active screening [@bapenAtRisk; @fried2001frailty]:
 - hospital inpatients;
 - anyone in the post-discharge period.
 
-Unintentional weight loss, or "shrinking", is a core feature of frailty (a clinical syndrome of older age
-whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) and
-one of the first things to ask about [@fried2001frailty]. Membership of an at-risk group raises the
-pre-test probability (the chance, before any test, that the patient has the condition). You therefore
-screen the patient instead of waiting for malnutrition to look obvious. Knowing the at-risk groups makes
-malnutrition less likely to be missed.
+Membership of an at-risk group raises the pre-test probability (the chance, before any test, that the patient has the condition), so you screen the patient instead of waiting for malnutrition to look obvious, which makes malnutrition less likely to be missed. Among the first things to ask about is unintentional weight loss, or "shrinking", a core feature of frailty (a clinical syndrome of older age whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) [@fried2001frailty].
 
 ### Nutrition screening: the generalist's role {#sec-mal-screening}
 
@@ -151,7 +146,9 @@ Set each component in the screen below and watch the risk band and its action ch
 <div data-island="must-screen" data-src="/diagrams/must-screen.yml"></div>
 
 Weight loss and acute illness score independently of BMI, so a patient with a normal or even high BMI can
-screen as high risk, and "she looks fine, her BMI isn't low" is a common reason malnutrition is missed. Other tools suit other
+screen as high risk, and "she looks fine, her BMI isn't low" is a common reason malnutrition is missed.
+
+MUST is one of several screening tools. Others suit other
 settings, and all do the same job of flagging risk for referral:
 
 - NRS-2002 (Nutritional Risk Screening 2002), for hospital inpatients [@kondrup2003nrs2002];
@@ -257,13 +254,11 @@ entering the airway) is silent, with no cough at all, so you refer on the patter
 cough alone [@wirth2016dysphagiaOlder]. The speech therapist assesses the swallow and sets the safe texture
 level. Those levels share a standardised language, the **IDDSI** (International Dysphagia Diet
 Standardisation Initiative) framework: a colour-coded scale from 0 to 7, so that "Level 4" means the same
-thing in every ward and home [@cichero2017iddsi; @cichero2020iddsi2].
+thing in every ward and home [@cichero2017iddsi; @cichero2020iddsi2]. Singapore has adopted IDDSI as its national standard through the MOH-led EatSafe SG programme, which spans hospitals, community hospitals, nursing homes and social service agencies [@mohEatSafeSg; @iddsiSingapore].
 
 Texture-modified food improves swallow safety but tends to lower intake, because pureed and soft food delivers
 less energy and calcium. It therefore needs fortifying and monitoring; a pureed diet does not solve the
-problem on its own [@wu2020tmd; @espenGeriatricsPractical2022]. Singapore has adopted IDDSI as its
-national standard through the MOH-led EatSafe SG programme, which spans hospitals, community hospitals,
-nursing homes and social service agencies [@mohEatSafeSg; @iddsiSingapore].
+problem on its own [@wu2020tmd; @espenGeriatricsPractical2022].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: an older patient who is eating poorly is started on supplement drinks and nothing else. What should come first, and why?
@@ -327,7 +322,7 @@ for a cough.
 **Undernutrition is common in the community, not only on the ward.** In the population-based Singapore Longitudinal
 Ageing Studies, more than 1 in 4 community-dwelling older adults (27.6%) were at malnutrition risk and nearly
 half were pre-frail [@wei2017slasFrailty]. Malnutrition and frailty are related but distinct, and they
-frequently co-occur. The risk is greatest where they co-occur: in the local cohort, poor nutrition combined with
+frequently co-occur, which is where the risk is greatest: in the local cohort, poor nutrition combined with
 pre-frailty or frailty carried the highest death rate and about 1.7 times the mortality risk after
 adjustment, whereas poor nutrition alone showed no clear excess [@wei2018slasOutcomes]. In practice, this means screening the frail senior for malnutrition specifically.
 Nationally, about 1 in 4 adults aged 50 to 69 fall below minimum energy needs and about half below protein needs,
@@ -347,7 +342,7 @@ dietetic one: communal dining and befriending through Age Well SG and the Active
 are malnourished at admission and about half by discharge, and malnutrition persists for weeks afterwards
 [@sgPostDischarge2023]. The recommended model is to screen every patient early and let any clinician refer
 directly to a dietitian, though local dietetic capacity is limited, which is another reason to start
-a food-first approach and social support early. Singapore's own screening tool, 3-MinNS, was developed and validated
+a food-first approach and social support early. For that early screen, Singapore has its own tool, 3-MinNS, which was developed and validated
 at the National University Hospital and can be administered by nurses [@lim2009minns;
 @lim2013nurseScreening].
 

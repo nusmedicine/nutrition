@@ -115,11 +115,7 @@ balance accumulation against wasting, which is why a specialist sets it.
 
 ## Dietary management: medical nutrition therapy in CKD {#sec-ckd-levers}
 
-Renal nutrition is individualised medical nutrition therapy. It depends
-on the stage of disease, on whether the patient is on dialysis and which kind, on their potassium and
-phosphate blood levels, and on their nutritional state. The KDOQI nutrition guideline recommends that it
-be delivered by a registered dietitian working closely with the doctor [@kdoqi2020nutrition]. The same food can be
-encouraged in one patient and limited in another.
+Renal nutrition is individualised medical nutrition therapy, so the same food can be encouraged in one patient and limited in another. The plan depends on the stage of disease, on whether the patient is on dialysis and which kind, on their potassium and phosphate blood levels, and on their nutritional state. The KDOQI nutrition guideline recommends that it be delivered by a registered dietitian working closely with the doctor [@kdoqi2020nutrition]. The five dietary components are taken in turn below: protein, sodium, potassium, phosphate and fluid.
 
 ### Protein: targets before and on dialysis {#sec-ckd-protein}
 
@@ -130,7 +126,7 @@ dialysis, which is itself catabolic and removes protein, the target is raised ag
 different stages, the clinician recognises that protein needs change with stage and refers the patient instead of
 applying a number from memory.
 
-The benefit of restriction is also debated. The landmark MDRD (Modification of Diet in Renal Disease)
+The benefit of restriction is also debated. The large MDRD (Modification of Diet in Renal Disease)
 study found only a small, statistically fragile effect on the decline in kidney function in its
 primary analysis; the confident conclusion that "protein restriction slows CKD" came from a later
 secondary analysis [@klahr1994mdrd; @levey1999mdrd]. A fair interpretation is a qualified benefit,
@@ -168,10 +164,7 @@ the potassium salt substitute, needs particular caution (see
 
 For the general public potassium is protective, but in advanced CKD the advice reverses. The WHO
 recommends eating more potassium (fruit, vegetables, legumes) to lower blood pressure, and the same
-guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. In
-advanced CKD, a potassium load the healthy kidney would clear can instead accumulate to hyperkalaemia
-and disturb the heart's rhythm [@hunter2019hyperkalemia]. The field is moving away from blanket
-fruit-and-vegetable bans toward individualised, blood-level-guided advice: whole-food potassium is
+guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. The exclusion exists because, in advanced CKD, a potassium load the healthy kidney would clear can instead accumulate to hyperkalaemia and disturb the heart's rhythm [@hunter2019hyperkalemia]. Even so, the field is moving away from blanket fruit-and-vegetable bans toward individualised, blood-level-guided advice, because whole-food potassium is
 handled differently by the body than the number on a label suggests, and over-restriction worsens diet
 quality. Individualising the advice is a dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
 
@@ -204,7 +197,7 @@ The warning matters locally, since both fruits are common in Singapore gardens a
 Retained phosphate silently contributes to CKD–mineral and bone disease, and its form matters more than
 the amount [@kdigo2017ckdmbd; @gonzalezparra2012phosphorus]. Phosphate that occurs naturally in
 whole foods (meat, dairy, legumes) is only partly absorbed, roughly 40–60%, and less from plant
-sources. **Phosphate additives**, the inorganic phosphates used to preserve and improve processed
+sources. By contrast, **phosphate additives**, the inorganic phosphates used to preserve and improve processed
 foods, are absorbed almost completely, up to about 90–100% [@noori2010phosphorus;
 @gonzalezparra2012phosphorus].
 
@@ -236,10 +229,9 @@ hand out quantities [@nkfsEatingRightCKD].
 
 ### Fluid: when restriction is needed {#sec-ckd-fluid}
 
-Fluid restriction is an easy measure to over-apply. Early CKD usually needs no fluid restriction [@aceCKD2023];
+Fluid restriction is an easy measure to over-apply: early CKD usually needs none [@aceCKD2023];
 limits matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain
-between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. There is no
-universal fluid target: it is individualised and set by the renal team. The generalist's part is to
+between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. Even then there is no universal fluid target: it is individualised and set by the renal team. The generalist's part is to
 recognise the signs of overload, link thirst to salt intake, and refer, not to prescribe a millilitre
 limit.
 
@@ -314,10 +306,7 @@ the kidney therefore comes years earlier, from the control of diabetes and blood
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease accounts for most
 new dialysis starts, the national War on Diabetes is also a central CKD-prevention strategy
-[@mohWarOnDiabetes]. The American Heart Association's concept of **cardiovascular-kidney-metabolic
-(CKM) syndrome** treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder
-[@ahaCKM2023]. The CKD guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same
-heat-map staging and is pragmatic about referral: not every patient needs a dietitian, but referral can help those with more complex dietary needs [@aceCKD2023].
+[@mohWarOnDiabetes]. This fits the American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome**, which treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: not every patient needs a dietitian, but referral can help those with more complex dietary needs [@aceCKD2023].
 
 **The renal diet clashes with typical hawker food, and the clash contributes to poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet conflicts with strongly flavoured hawker food based on soy,

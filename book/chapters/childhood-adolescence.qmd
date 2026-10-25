@@ -72,10 +72,9 @@ toward the adult figure, while total grams rise because the teenager is bigger
 [@faowhounu_protein_children]. An ordinary diet that meets energy needs therefore almost always meets
 protein needs too, so a teenager who eats normally rarely needs protein powder. (Reference intakes and the underlying nutrient biology are in the [*Macronutrients*](macronutrients.qmd) and [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapters.)
 
-A teenager's large appetite mostly reflects the bigger body and more movement. The direct energy cost of
-laying down new tissue is small, about 1–2% of the day's energy by mid-adolescence
+A teenager's large appetite mostly reflects the bigger body and more movement; laying down the new tissue itself costs little, about 1–2% of the day's energy by mid-adolescence
 [@faowhounu_2004_energy_children]. The appetite surge is a normal, hormonally coordinated signal that
-tracks growth velocity [@cheng_2018_ghrelin_puberty], so appetite is best judged against growth. A
+tracks growth velocity [@cheng_2018_ghrelin_puberty], so appetite is best judged against growth: a
 mid-pubertal teenager eating far more is usually meeting the needs of a growth spurt. The warning sign is intake that
 does not fit the growth trajectory: restriction while the growth curve falters, or rapid fat gain.
 
@@ -105,7 +104,7 @@ the attainable peak within the shaded band, and switch on the under-fuelling thr
 What builds bone is more specific, and more complicated, than the advice to "drink milk". The strongest evidence for
 building peak bone mass is for weight-bearing, high-impact activity and adequate calcium; dairy and
 vitamin D help but the evidence for them is weaker [@nof_weaver_2016_pbm_position].
-Exercise is most **osteogenic** (bone-building) in early puberty, when the window is widest
+Timing matters too: exercise is most **osteogenic** (bone-building) in early puberty, when the window is widest
 [@hind_2007_exercise_bone_review].
 
 The evidence on supplements is easily misread. In a child who is already replete, calcium supplements add
@@ -225,8 +224,7 @@ Relative energy deficiency in sport (REDs)
 
 When energy availability stays too low for too long, from dieting, disordered eating or simply not
 matching a heavy training load, hormone production (including oestrogen) is suppressed: amenorrhoea
-develops, bone accrual stalls and performance falls. The female-athlete triad and its broader form,
-relative energy deficiency in sport, name this cluster [@mountjoy2023reds; @weisskelly2016triad].
+develops, bone accrual stalls and performance falls. This cluster is the female-athlete triad or, in its broader form, REDs [@mountjoy2023reds; @weisskelly2016triad].
 
 ::: {.flow}
 [Under-fuelling in sport]{.tree-title}
@@ -282,7 +280,7 @@ Binge-eating disorder
 Dieting is not a harmless habit in adolescence. In prospective studies, adolescents who diet are far more
 likely than non-dieters to develop a new eating disorder and, paradoxically, to gain more weight over the
 following years [@patton_1999_adolescent_ed_onset; @neumarksztainer_2007_dieting_weightgain_eat2]. That
-single finding links both problems.
+single finding links the two problems, disordered eating and obesity.
 
 Two points help with recognition. First, eating disorders occur across the whole weight spectrum: a
 formerly heavier teenager who loses weight fast can be seriously ill, so praising weight loss can mask an
@@ -304,10 +302,7 @@ pattern, fuelled by social media, that is worth recognising even though it is no
 [@horovitz_orthorexia_2023_review].
 
 **Obesity and emerging type 2 diabetes.** Adolescence is a high-risk window for weight gain partly
-because the physiology of puberty coincides with an obesogenic environment. Per-kilogram energy needs are falling, and a
-transient insulin resistance (the body's cells responding less to insulin, so the pancreas makes more to
-keep blood glucose normal) is a normal part of puberty. A healthy pubertal teenager carrying a little more
-fat is therefore usually showing physiology, not disease, and should not be pathologised.
+because the physiology of puberty, in which per-kilogram energy needs are falling, coincides with an obesogenic environment. Not every pubertal change is a warning sign, however: a transient insulin resistance (the body's cells responding less to insulin, so the pancreas makes more to keep blood glucose normal) is a normal part of puberty, so a healthy pubertal teenager carrying a little more fat is usually showing physiology, not disease, and should not be pathologised.
 
 The concern is the trajectory. Childhood obesity tends to track into adulthood, and paediatric type 2
 diabetes is now emerging as a consequence, including in Singapore [@singh_2008_tracking_overweight;
@@ -376,9 +371,7 @@ do-no-harm rule, now national policy: weight is screened without shaming the chi
 **Sugary drinks and drink labelling.** Nutri-Grade, the mandatory A–D drink label with an advertising
 ban on the worst grade, was designed for exactly the drinks teenagers buy. Since December 2023 it has
 also covered freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023].
-Its effect is modest: a small cut in sugar per serving [@shin2023_nutrigrade_rct]. Local data also show
-that most children already exceed added-sugar guidance [@brownlee2019sgchildren], so the label is one
-measure among many, best combined with changes at home and at school.
+Its effect is modest, a small cut in sugar per serving [@shin2023_nutrigrade_rct], set against a large local problem: most children already exceed added-sugar guidance [@brownlee2019sgchildren]. The label is therefore one measure among many, best combined with changes at home and at school.
 
 **A vitamin D tension, and a data gap.** Singapore's recommendations track these physiological changes well: iron rises
 steeply for adolescent girls (see [Iron and the menstruating adolescent](#sec-child-iron)) and calcium
@@ -389,9 +382,9 @@ lifestyles [@nimitphong_2013_vitd_sea]. Direct Singapore data on adolescent
 iron and vitamin D status are sparse, so some of the evidence here is regional or international.
 
 **Activity and eating disorders locally.** Only about a quarter of older teens meet the daily activity
-target [@tay2023sgreportcard]. Too little physical activity is one of the habits targeted by Grow Well SG,
-a whole-of-government strategy launched in 2025 that starts with children up to 12 [@moh_growwellsg].
-Eating disorders are neither rare nor imported. Local surveys find a meaningful fraction of schoolgirls
+target [@tay2023sgreportcard], and too little physical activity is one of the habits targeted by Grow Well SG, a whole-of-government strategy launched in 2025 that starts with children up to 12 [@moh_growwellsg].
+
+Eating disorders, the second local concern, are neither rare nor imported. Local surveys find a meaningful fraction of schoolgirls
 screen positive for risk (with Malay girls over-represented), presentations are rising and diagnosed younger, and a
 large share are atypical, non-underweight presentations [@ho2006_sg_eating_risk; @wong2022_paed_ed;
 @chew_2023_atypical_an_sg_adolescents]. These atypical presentations show that, in Singapore too, eating

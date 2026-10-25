@@ -37,11 +37,10 @@
 ## Evidence vs hype at a glance {#sec-overview}
 
 Advising the healthy means fielding a steady stream of claims, most of them overstated, a few
-supported by real evidence. Medical students and recent graduates often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The
-transferable skill is to stop reacting to a claim and start appraising it.
+supported by real evidence. Medical students and recent graduates, however, often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The skill that carries across all these claims is to stop reacting to a claim and start appraising it.
 
 The common error is to swing between two extremes: accepting whatever is trending, or turning
-reflexively cynical and dismissing everything new. Appraisal is a fixed routine that reaches a conclusion
+reflexively cynical and dismissing everything new. Appraisal avoids both: it is a fixed routine that leads to a conclusion
 in proportion to the evidence.
 
 ## Critical appraisal {#sec-appraisal}
@@ -51,9 +50,8 @@ Appraising a nutrition claim takes three things: a fixed set of questions, a ran
 ### Four questions of critical appraisal {#sec-funnel}
 
 In critical appraisal you ask the same four questions of every claim (the "appraisal funnel" of the
-interactive below). The second question places the
-study by its design, and the third turns on what was measured and how the change is expressed. Six
-terms name these ideas:
+interactive below). Two of them, judging the study's design and reading its outcome, rest on six
+terms:
 
 Prospective cohort study
 : A study that records what people eat (or another exposure) and follows them forward for years to
@@ -106,9 +104,9 @@ harmful. Run a few real claims through the four questions below to see how diffe
 [Weaker evidence]{.spectrum-end} [Stronger evidence]{.spectrum-end}
 :::
 
-In drug research the RCT sits at the top. **Observational studies** (which record what people
-already do, without assigning a treatment; a prospective cohort study is one) are, by contrast,
-treated with suspicion. Nutrition research departs from that ranking for three reasons:
+In drug research the RCT sits at the top and **observational studies**, which record what people
+already do without assigning a treatment, are treated with suspicion. A prospective cohort study is
+one such observational design. Nutrition research departs from that ranking for three reasons:
 
 - With a diet, **blinding** (keeping participants unaware of which treatment they receive) is often
   impossible, because people know what they are eating.
@@ -125,14 +123,14 @@ Most overstated nutrition claims fail at one of a few predictable points:
 
 - An association is not proof of cause. Coffee drinkers live longer in the data, but the comparison
   is open to **healthy-user bias**: people who choose one habit tend to differ in many other
-  health-related ways. The comparison can also reflect **reverse causation**, the outcome changing the
-  exposure: people who become ill cut back on coffee. An association suggests a hypothesis; it does not establish cause.
+  health-related ways. The same finding can also reflect **reverse causation**, the outcome changing the
+  exposure: people who become ill cut back on coffee. Such an association suggests a hypothesis.
 - A relative risk reduction can make a small absolute one look large. "30% lower risk" sounds large, but if the
   baseline risk was small, the absolute risk reduction can be tiny. The question is always "30% of
   what?"
 - A surrogate is not a hard endpoint. A diet that lowers a blood marker has not been shown to prevent
   heart attacks until it is tested against heart attacks.
-- A plausible mechanism is not clinical proof. A convincing biological explanation only raises a hypothesis.
+- A plausible mechanism is not clinical proof: however convincing the biology, it only raises a hypothesis.
   Time-restricted eating is the clearest example: its circadian rationale is real, yet randomised
   trials show its weight effect is no better than three regular meals a day [@lowe2020treat] or than
   ordinary calorie restriction [@lin2023tre]. Being sceptical of the hype does not mean dismissing the mechanism.
@@ -264,8 +262,8 @@ possible eating disorder, the conversation becomes one about doing no harm (see 
 
 Singapore's health authorities counter supplement and detox claims directly. The Ministry of Health states plainly that
 health supplements "cannot and should not replace a balanced diet" [@mohSupplements2018], and HealthHub
-says that detox claims lack evidence; health supplements need no approval from the Health Sciences Authority before sale and are not
-evaluated for efficacy, and its post-market testing has removed products containing undeclared western
+says that detox claims lack evidence. Regulation gives a further reason for caution: health supplements need no approval from the Health Sciences Authority (HSA) before sale and are not
+evaluated for efficacy, and the HSA's post-market testing has removed products containing undeclared western
 drugs or toxic heavy metals [@hsaUnderstandingSupplements; @mohSupplements2018]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
 Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
 [@hpbHealthyPlate].

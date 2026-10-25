@@ -105,15 +105,7 @@ five, with no single obligatory component; a component counts as present whether
 - raised blood pressure: ≥130/85 mmHg;
 - raised fasting glucose: ≥5.6 mmol/L.
 
-Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response
-of the body's cells to insulin. At first, the pancreas compensates by making more insulin to keep
-blood glucose normal. These common underlying abnormalities are why the five components appear
-together. The syndrome is therefore best regarded as a risk marker, not a single disease treated with a
-single drug: it flags a markedly raised risk of type 2 diabetes and cardiovascular disease
-[@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011]. The label is a prompt to look at
-the whole cluster and its common underlying abnormalities. Local data add a further nuance: the
-components do not always cluster in the same way across Singapore's ethnic groups
-[@angMetsSingaporeNHS2005].
+Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response of the body's cells to insulin, for which the pancreas at first compensates by making more insulin to keep blood glucose normal. Because the five components share these underlying abnormalities, they appear together, and the syndrome is best regarded as a risk marker, not a single disease treated with a single drug. It flags a markedly raised risk of type 2 diabetes and cardiovascular disease [@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011], so the label is a prompt to look at the whole cluster and its common underlying abnormalities. The clustering is not uniform, however: local data show that the components do not always cluster in the same way across Singapore's ethnic groups [@angMetsSingaporeNHS2005].
 
 In the interactive below, toggle a patient's findings to see when the three-of-five threshold is met,
 and how sleep loss and stress contribute to the same underlying abnormalities (drawn as the hub of the wheel).
@@ -140,10 +132,7 @@ with central fat), not a single drug for "the syndrome".
 ### How obesity produces the metabolic syndrome {#sec-mechanism}
 
 The five problems occur together because body fat is an active endocrine organ: its location and
-metabolic activity link central obesity to raised blood glucose. (The normal mechanics of fat storage and
-insulin action are in the [*Energy balance*](energy-balance.qmd) and
-[*Integrative metabolism*](integrative-metabolism.qmd#sec-switch) chapters; here we follow how they go
-wrong.) Four terms describe the process:
+metabolic activity link central obesity to raised blood glucose. The normal mechanics of fat storage and insulin action are in the [*Energy balance*](energy-balance.qmd) and [*Integrative metabolism*](integrative-metabolism.qmd#sec-switch) chapters; here we follow how they go wrong, along a chain that runs from where the fat is stored, through inflammation of the enlarged tissue and a shift in the signals it releases, to insulin resistance. Four terms recur along the chain:
 
 Ectopic fat
 : Fat deposited inside organs such as the liver and muscle, instead of under the skin.
@@ -169,8 +158,7 @@ from subcutaneous fat: it is an independent marker of cardiometabolic risk, over
 [@neeland2019visceral]. Waist circumference, a simple bedside measure of central fat, therefore adds
 information that BMI does not give.
 
-Enlarged fat tissue then becomes inflamed. As fat cells enlarge and outgrow their blood supply, the
-tissue becomes stressed and recruits macrophages, and develops chronic low-grade inflammation.
+Enlarged fat tissue then becomes inflamed: as fat cells outgrow their blood supply, the stressed tissue recruits macrophages and develops chronic low-grade inflammation.
 This adipose inflammation is now understood to cause insulin resistance rather than merely accompany
 it [@hotamisligil2006inflammation]. The adipokine profile shifts at the same time: adiponectin falls,
 while pro-inflammatory signals such as tumour necrosis factor-α (TNF-α), interleukin-6 (IL-6) and
@@ -210,11 +198,11 @@ gain [@nguyen2023ssb]. Swapping to a "diet" drink is not a reliable solution. Th
 against relying on **non-sugar sweeteners**, the sugar substitutes in "diet" drinks, for weight
 control, so the better swap is water or an unsweetened drink, plus habit change [@who2023nss].
 
-The targets are simple to state: free sugars under 10% of energy (ideally under 5%), saturated fat
+For the diet as a whole, the population targets are simple to state: free sugars under 10% of energy (ideally under 5%), saturated fat
 under 10%, *trans* fat under 1% and salt under 5 g a day [@who2020diet; @who2015sugars]. Singapore
 translates them into tools that need no arithmetic: My Healthy Plate (a quarter wholegrains, a
 quarter protein, half fruit and vegetables) and the Nutri-Grade A–D grades on drinks
-[@hpbHealthyPlate; @hpbNutriGrade]. The emphasis is on dietary patterns rather than single nutrients, and on
+[@hpbHealthyPlate; @hpbNutriGrade]. Current guidance puts the emphasis on dietary patterns rather than single nutrients, and on
 minimally processed rather than ultra-processed food [@aha2021diet].
 
 ::: {.callout-note}
@@ -312,22 +300,19 @@ chapter.)
 
 ### Weight-inclusive care: the framing is part of the treatment {#sec-weight-inclusive}
 
-How a weight conversation is framed changes its outcome, so framing is a clinical skill.
-**Weight stigma** is negative attitudes towards, and treatment of, people because of their weight,
-such as blame, shaming or disrespect. Weight stigma is a health hazard [@tomiyama2014cobwebs;
-@phelan2015impact; @puhl2023barriers]:
+How a weight conversation is framed changes its outcome, so framing is a clinical skill. The framing to avoid is one that conveys **weight stigma**: negative attitudes towards, and treatment of, people because of their weight, such as blame, shaming or disrespect. Weight stigma is a health hazard [@tomiyama2014cobwebs; @phelan2015impact; @puhl2023barriers]:
 
 - it degrades the quality of care;
 - it drives patients to avoid appointments;
 - by raising cortisol and comfort-eating, it is thought to promote weight gain paradoxically, the cycle proposed
   by the Cyclic Obesity/Weight-Based Stigma (COBWEBS) model.
 
+Weight stigma is also common in Singapore: in a local survey most respondents had felt weight-stigmatised, and a fifth felt disrespected or discouraged by a healthcare worker [@chue2022stigmasg; @goff2023sgweightbias].
+
 An international consensus of experts now condemns weight stigma outright and asks clinicians to switch focus from
 the scale to health and behaviour [@rubino2020consensus; @tylka2014weightinclusive;
 @batterham2020switchingfocus]. Care built on that shift is **weight-inclusive**: it bases counselling on
-health behaviours and metabolic markers instead of on the scale alone. Weight stigma is also common
-in Singapore: in a local survey most respondents had felt weight-stigmatised, and a fifth felt
-disrespected or discouraged by a healthcare worker [@chue2022stigmasg; @goff2023sgweightbias].
+health behaviours and metabolic markers instead of on the scale alone.
 
 ::: {.callout-important}
 ## Person-first, permission-based framing
@@ -397,9 +382,8 @@ can itself promote weight gain, weight-inclusive, person-first care is part of t
 
 **Singapore reports obesity at one threshold and acts at another.** Population obesity is reported at
 the WHO ≥30 threshold for international comparability, and on that measure it rose from 10.5% to
-12.7% between 2019–20 and 2023–24; clinical action starts at a much lower BMI, and the ≥27.5 high-risk band
-has stayed broadly stable at just over 1 in 5 adults (20.7% to 22.8%) [@mohNPHS2024]. The 12.7% figure is used for international comparison; the
-≥27.5 and ≥23 cut-offs are the ones used in clinical practice. Over the same period, national physical activity recovered to 84.7%
+12.7% between 2019–20 and 2023–24; clinical action starts at a much lower BMI (≥23), and the ≥27.5 high-risk band
+has stayed broadly stable at just over 1 in 5 adults (20.7% to 22.8%) [@mohNPHS2024]. Over the same period, national physical activity recovered to 84.7%
 and obesity still rose, local evidence for putting diet quality ahead of "just
 exercise more" [@mohNPHS2024].
 
@@ -417,9 +401,7 @@ counselling and the national War on Diabetes [@mohWarOnDiabetes]. (The diabetes 
 Plate, Nutri-Grade (whose national roll-out measurably cut the sugar in drinks bought)
 [@moh2023nutrigradeimpact; @shin2023nutrigrade] and the Healthier Choice Symbol on packaged foods
 [@hpbHealthierChoiceSymbol]. Healthier SG, the enrolled-family-doctor scheme, builds "recognise and
-refer" into a longitudinal health plan [@mohHealthierSG].
-
-The 2016 obesity guideline's Asian BMI cut-offs remain current, but its treatment sections predate
+refer" into a longitudinal health plan [@mohHealthierSG]. The 2016 obesity guideline's Asian BMI cut-offs remain current, but its treatment sections predate
 the GLP-1 era, so its management content is dated [@hpbmoh2016obesityCPG; @lee2023obesitylandscape].
 
 ## Check your understanding {#sec-quiz}

@@ -79,11 +79,9 @@ Sphincters
 : Rings of muscle (the lower oesophageal, pyloric, ileocaecal and anal sphincters) that stop contents
   moving backwards.
 
-**Gastric emptying**, the passage of food from the stomach into the duodenum, is actively regulated. A
-meal leaves the stomach over a few hours. Counter-intuitively, a fatty or large meal empties more
-slowly, because signals from the duodenum slow gastric emptying; this is partly why a greasy meal "sits
-heavy".
-Between meals, a cyclical "housekeeper" wave, the **migrating motor complex**, sweeps undigested residue and
+**Gastric emptying**, the passage of food from the stomach into the duodenum, takes a few hours and is actively regulated. Counter-intuitively, a fatty or large meal empties more slowly, because signals from the duodenum slow gastric emptying. This is partly why a greasy meal "sits heavy".
+
+Between meals the gut keeps moving: a cyclical "housekeeper" wave, the **migrating motor complex**, sweeps undigested residue and
 bacteria onward roughly every 1–2 hours; the hormone motilin triggers it [@deloose2012mmc].
 
 ::: {.callout-note}
@@ -110,16 +108,9 @@ Chemical digestion takes place at four sites, each with its own enzymes and targ
 | Duodenum | pancreas | amylase, lipase (+ colipase), proteases; bicarbonate | starch, fat, protein → smaller units |
 | Brush border | cells lining the small intestine | disaccharidases (lactase, sucrase, maltase); peptidases | sugars and peptides → absorbable units |
 
-In the stomach, **parietal cells** make hydrochloric acid, which denatures protein and kills microbes.
-They also make **intrinsic factor**, which is needed much further along the small intestine to absorb
-vitamin B12. **Chief cells** make **pepsin**, the enzyme that cuts protein into peptides
-[@statpearlsStomach].
+Salivary **amylase** starts the digestion of starch in the mouth but stops working once it meets the stomach's acid. In the stomach, **parietal cells** make the hydrochloric acid, which denatures protein and kills microbes. They also make **intrinsic factor**, which is needed much further along the small intestine to absorb vitamin B12. **Chief cells** make **pepsin**, the enzyme that cuts protein into peptides [@statpearlsStomach].
 
-Salivary **amylase**, which starts the digestion of starch, stops working once it meets the stomach's
-acid. In the duodenum, the pancreas adds bicarbonate, which neutralises that acid. Neutralisation gives
-the pancreatic enzymes the near-neutral pH they need.
-
-The pancreatic enzymes then take over: amylase continues on starch, proteases cut protein, and
+In the duodenum, the pancreas adds bicarbonate, which neutralises the acid arriving from the stomach and so gives the pancreatic enzymes the near-neutral pH they need. These enzymes then take over: amylase continues on starch, proteases cut protein, and
 **lipase**, working with colipase, digests fat. At the brush border, **disaccharidases** (lactase,
 sucrase, maltase) split disaccharides into single sugars, and **peptidases** finish the digestion of
 protein.
@@ -134,8 +125,7 @@ not the details of the activation cascade.
 ### Lactase deficiency and lactose intolerance {#sec-lactose}
 
 The brush-border enzyme lactase splits lactose (milk sugar; see the [*Macronutrients*](macronutrients.qmd)
-chapter). Most of the world's adults make less lactase after childhood, and this is the norm, not a
-disease. Three conditions are easy to confuse:
+chapter). Most of the world's adults make less lactase after childhood, and this is the norm, not a disease. Three conditions are easy to confuse:
 
 Lactase deficiency
 : Making little lactase; very common in East Asian adults.
@@ -152,9 +142,7 @@ lactase-deficient, yet only around a third report symptoms on ordinary amounts o
 more recent multi-ethnic Malaysian study finds the same high prevalence across Chinese, Malay and
 Indian adults [@goh2018lactase].
 
-When undigested lactose reaches the colon, resident bacteria ferment it and produce gas (see [*The
-gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). The practical message is food-first and
-culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources (calcium-set
+Symptoms arise when undigested lactose reaches the colon, where resident bacteria ferment it and produce gas (see [*The gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Because symptoms depend on how much lactose arrives, the practical message is food-first and culturally aware: hard cheese, yoghurt, lactose-free milk and non-dairy calcium sources (calcium-set
 tofu, fortified soy milk, leafy greens, small fish with bones) all work, while "just drink three
 glasses of milk" does not.
 
@@ -229,8 +217,7 @@ far side faces blood and lymph. Nutrients enter the enterocyte by one of four ro
 Glucose enters by secondary active transport, the route that oral rehydration depends on (see [Oral
 rehydration](#sec-ors)). A sodium pump keeps sodium low inside the enterocyte, and the resulting sodium
 gradient acts like a battery: **sodium–glucose cotransporter 1 (SGLT1)** uses it to carry glucose into
-the cell alongside sodium [@roder2014]. Absorbed sugars and amino acids (and small peptides) drain
-into the **portal vein**, which carries them to the liver first.
+the cell alongside sodium [@roder2014]. From the far side of the enterocyte, absorbed sugars and amino acids (and small peptides) then drain into the **portal vein**, which carries them to the liver first.
 
 ### Fat absorption: bile, micelles and the lymphatic route {#sec-fat-absorption}
 
@@ -246,14 +233,12 @@ Mixed micelles
   border.
 
 Chylomicron
-: A particle of reassembled fat packaged with cholesterol and protein inside the enterocyte, too big to
-  enter a blood capillary.
+: A particle of reassembled fat packaged with cholesterol and protein inside the enterocyte.
 
 Lacteal
 : A lymph vessel that takes up chylomicrons from the gut.
 
-Bile salts emulsify the fat, lipase digests it, and the products cluster with bile salts into mixed
-micelles that carry them to the brush border. There the fat diffuses into the enterocyte and the
+Bile salts emulsify the fat, lipase digests it, and mixed micelles carry the products to the brush border. There the fat diffuses into the enterocyte and the
 micelle stays behind: it acts as a shuttle and is not itself absorbed. Inside the cell the fat is
 re-esterified (reassembled into triglyceride; see the [*Macronutrients*](macronutrients.qmd)
 chapter) and packaged into chylomicrons. Because a chylomicron is too big for a blood capillary, it enters a lacteal and reaches
@@ -265,7 +250,7 @@ meal can look faintly milky.
 Most dietary fat is long-chain and takes this lymphatic route. Short- and medium-chain fatty acids are
 small enough to enter the blood directly, like sugars.
 
-Bile salts can emulsify fat because of their shape. A bile salt has a water-attracting face and a
+Emulsification, the first step in fat absorption, depends on the shape of the bile salt. A bile salt has a water-attracting face and a
 water-repelling face (it is amphipathic, like the membrane phospholipids in the *Macronutrients* chapter),
 so it can sit at the oil–water boundary and break fat apart. The model of cholic acid below shows
 the two faces.
@@ -358,14 +343,7 @@ modestly, and the resistant starch survives reheating [@sonia2015rice]. The effe
 variable, and is not a licence for larger portions.
 
 **Meal order and accompanying foods.** With meal composition fixed, eating vegetables and protein before the
-carbohydrate measurably lowers the post-meal glucose and insulin rise. In people with prediabetes
-(blood glucose that has started to rise but is not yet in the diabetes range), a
-vegetable-and-protein-first order reduced the glucose peak by roughly 45% relative to carbohydrate
-first. The same order also reduced the incremental area under the curve, the post-meal rise above the
-fasting level summed over time, by nearly 40%. These figures come from a single small, short-term study (15 adults with prediabetes, one meal in each
-order), in line with earlier findings in type 2 diabetes, and data on long-term control are weaker [@shukla2019order]. The
-vegetables and protein act as a pre-load: they slow gastric emptying of the carbohydrate and stimulate
-the CCK and incretin responses described [above](#sec-gut-hormones).
+carbohydrate measurably lowers the post-meal glucose and insulin rise. The vegetables and protein act as a pre-load: they slow gastric emptying of the carbohydrate and stimulate the CCK and incretin responses described [above](#sec-gut-hormones). In people with prediabetes (blood glucose that has started to rise but is not yet in the diabetes range), a vegetable-and-protein-first order reduced the glucose peak by roughly 45% relative to carbohydrate first. The same order also reduced the incremental area under the curve, the post-meal rise above the fasting level summed over time, by nearly 40%. These figures come from a single small, short-term study (15 adults with prediabetes, one meal in each order), in line with earlier findings in type 2 diabetes, and data on long-term control are weaker [@shukla2019order].
 
 Adding fat, protein, viscous fibre or acid to a carbohydrate meal has a similar effect through the same
 slowing of gastric emptying. Vinegar is the best-studied acid: in a meta-analysis it modestly lowered
@@ -393,14 +371,12 @@ processing, so not all processing is harmful; minimally processed foods keep the
 digestion.
 :::
 
-Viscous fibre has two effects: it slows digestion and it binds bile salts. Viscous fibres such as oat β-glucan and
-psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption. They
-also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood, which is why adequate
+Two of the additions to a carbohydrate meal, viscous fibre and fat, do more than slow digestion. Viscous fibres such as oat β-glucan and psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption, and they also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood, which is why adequate
 viscous fibre modestly lowers LDL cholesterol [@whitehead2014betaglucan]. In effect, the fibre interrupts the enterohepatic
 circulation (fibre fermentation is a separate process; see *The gut
 microbiome* chapter).
 
-Fat also aids the absorption of fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
+Fat, for its part, aids the absorption of the fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
 pigments such as β-carotene) travel the same bile-and-micelle route as dietary fat, so a nearly
 fat-free meal leaves much of them unabsorbed. Carotenoid uptake from a salad was negligible with a
 fat-free dressing and rose with added fat [@brown2004carotenoid]. Only a little fat is needed, which is
@@ -422,20 +398,16 @@ certain drugs into a complex that cannot be absorbed. Calcium, for example, redu
 absorption [@singh2000levothyroxine], with similar effects for some antibiotics and bisphosphonates.
 Separating them in time avoids the problem.
 
-Alcohol is relevant here too. It injures the gastric lining and impairs absorption of several
-nutrients, notably by blocking the active transport of thiamine, part of the mechanism behind thiamine
-deficiency [@subramanya2010alcohol] (see the *Micronutrients, hydration and electrolytes* chapter). The
-habit matters more than memorising the list: with any new medicine, check the label and ask a
+A related problem is alcohol, which injures the gastric lining and impairs absorption of several nutrients, notably by blocking the active transport of thiamine, part of the mechanism behind thiamine deficiency [@subramanya2010alcohol] (see the *Micronutrients, hydration and electrolytes* chapter).
+
+The habit matters more than memorising the list: with any new medicine, check the label and ask a
 pharmacist about food, grapefruit, dairy, iron and timing.
 :::
 
 ### Oral rehydration and SGLT1 {#sec-ors}
 
 SGLT1 explains how a drink of glucose and sodium can treat dehydration. In severe diarrhoea (cholera,
-rotavirus), the gut secretes large volumes of fluid, but SGLT1 transport continues. SGLT1 cotransports sodium with glucose,
-and water follows the sodium by osmosis, so a drink containing both glucose and sodium still allows fluid
-to be absorbed. As a result, a dehydrated child can be rehydrated by mouth, with no drip
-needed.
+rotavirus), the gut secretes large volumes of fluid, but SGLT1 goes on cotransporting sodium with glucose, and water follows the sodium by osmosis. A drink containing both glucose and sodium therefore still allows fluid to be absorbed, so a dehydrated child can be rehydrated by mouth, with no drip needed.
 
 ::: {.flow}
 [Why oral rehydration works]{.tree-title}

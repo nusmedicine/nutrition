@@ -54,7 +54,7 @@ operating in a food environment engineered to exploit both, not a weak will [@be
 
 Information does not override the reward system, so behaviour change rests on two other approaches. One is eliciting the
 patient's own motivation, because the reason to change has to come from the patient. The other is
-re-shaping habits one small, repeated step at a time. Habits form slowly. A routine repeated in a
+re-shaping habits one small, repeated step at a time, because habits form slowly: a routine repeated in a
 consistent context takes weeks to months to become automatic, so small, sustained changes work better
 than large, short-lived ones [@lally2010habits].
 
@@ -74,7 +74,7 @@ Each consult needs a structure, a way of talking and something concrete for the 
 ### The 5 A's: a framework for brief counselling {#sec-five-as}
 
 The 5 A's, the five-step framework for brief counselling (see the *Assessing diet and talking to
-patients* chapter), structure the consult [@fiveAsNutrition]:
+patients* chapter), structure the consult [@fiveAsNutrition]. The same structure works for any behaviour, whether activity, sleep, alcohol or smoking; here it is applied to food:
 
 1. Assess: find out what the patient eats and what they are ready to change (the diet history).
 2. Advise: offer clear, personalised advice, with permission ("would it be OK if…?"); the content is
@@ -84,25 +84,19 @@ patients* chapter), structure the consult [@fiveAsNutrition]:
 5. Arrange: set up follow-up, or a referral.
 
 One caveat about the 5 A's concerns the amount of contact. The evidence that diet and activity counselling works comes from intensive, multi-contact programmes (a median of 12 contacts over 6 to 18 months), not a single clinic visit [@usptfBehavioural]. A one-off consult is therefore more likely to start a change than to complete
-it, which is why the Arrange step matters. The more intensive, multi-session programmes that do improve
-outcomes belong to diabetes prevention (see the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter).
-
-The same framework works for any behaviour, whether activity, sleep, alcohol or smoking, so it is one
-transferable structure, applied here to food.
+it, which is why the Arrange step matters. Programmes of that intensity, which do improve outcomes, are described under diabetes prevention in the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter.
 
 ### Motivational interviewing: drawing out the patient's reasons {#sec-mi}
 
-**Motivational interviewing (MI)** is a collaborative way of talking that draws out the patient's own
-reasons to change instead of supplying the clinician's. It is the communication style used within the 5 A's. Its
+Within the 5 A's, the communication style is **motivational interviewing (MI)**: a collaborative way of talking that draws out the patient's own
+reasons to change instead of supplying the clinician's. Its
 benefits are real but modest: reviews find mostly small, short-term effects on health behaviours, and
 the evidence base is still developing [@frost2018mi]. MI is therefore a better default way to talk,
 not a guarantee of change.
 
 MI rests on four micro-skills, known by the acronym **OARS**: open questions, affirmations, reflective
 listening and summaries. The clinician uses them to listen for **change talk** (the patient voicing
-their own motivation to change) and to strengthen it gently.
-
-A central skill in MI is resisting the **righting reflex**, the strong urge to jump in
+their own motivation to change) and to strengthen it gently. A central skill in MI is resisting the **righting reflex**, the strong urge to jump in
 and fix, warn or lecture. The reflex feels helpful, but it usually provokes resistance.
 
 ::: {.example}
@@ -110,9 +104,7 @@ When a patient says "it's my only pleasure", a clinician acting on the reflex re
 digs in.
 :::
 
-In MI the clinician does the opposite: reflects, affirms and asks, so the patient argues themselves toward change.
-
-The **scaling question** asks the patient to rate their confidence: "On a scale of 0 to 10, how
+In MI the clinician does the opposite: reflects, affirms and asks, so the patient argues themselves toward change. One such question is the **scaling question**, which asks the patient to rate their confidence: "On a scale of 0 to 10, how
 confident are you that you could do it, and what makes it that number and not lower?" The answer
 shows what the patient feels able to do and what is harder, and lets you build the goal on the confidence
 they already have.
@@ -175,8 +167,7 @@ Contemplation
 Preparation
 : The patient is ready to plan a change.
 
-The model is a useful way to tailor how you talk: raise awareness for the person who isn't thinking
-about it; build confidence and co-set a goal for the person who is ready. Use it that way, to choose
+The model is a useful way to tailor how you talk: raise awareness in pre-contemplation; build confidence and co-set a goal in preparation. Use it that way, to choose
 your style, not to label people.
 
 ::: {.callout-warning}
@@ -190,9 +181,9 @@ succeed, and don't present it as fact.
 
 ### Fitting the goal to daily life {#sec-fit}
 
-A goal that conflicts with the patient's daily routine is unlikely to last. Good counselling works within the patient's food
-environment, which in Singapore means the hawker centre and the *kopitiam*. The goal is therefore a
-small, culturally familiar shift, not a prescription to stop eating out. The shifts that last also
+A goal that conflicts with the patient's daily routine is unlikely to last, so good counselling works within the patient's food
+environment, which in Singapore means the hawker centre and the *kopitiam*. The goal is a
+small, culturally familiar shift within that environment, not a prescription to stop eating out. For the same reason, the shifts that last also
 involve the people the patient eats with.
 
 ::: {.callout-tip}
@@ -267,12 +258,11 @@ Local clinical practice guidelines already point the same way. The HPB–MOH obe
 weight-loss interventions that combine behavioural strategies such as self-monitoring and
 goal-setting [@sgObesityBMI], and the tobacco guidelines name motivational interviewing as a
 behavioural intervention that may be used to help people quit [@hpbMohCPG]. The approach therefore
-fits endorsed local practice.
-Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
+fits endorsed local practice. Beyond the guidelines, Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
 specific, measurable and locally meaningful.
 
-The War on Diabetes campaign draws attention to a higher risk among some ethnic groups, a reason to
-tailor: to meet a Malay, Indian or Chinese patient inside their own food culture instead of handing
+The War on Diabetes campaign draws attention to a higher risk among some ethnic groups, a local reason to
+meet a Malay, Indian or Chinese patient inside their own food culture instead of handing
 everyone the same script [@mohWarOnDiabetes].
 
 ## Check your understanding {#sec-quiz}

@@ -79,12 +79,6 @@ in fact modest and concentrated in the second and third trimesters: roughly noth
 the second and +450 kcal/day in the third, and measured expenditure often rises even less than that
 [@savard2020energy]. That is about one extra snack a day, not an extra meal.
 
-Lactation needs only a little more energy. Making milk costs about 675 kcal a day;
-about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra
-requirement of roughly 500 kcal/day, little more than in the third trimester, with more fluid too
-[@faoEnergy2004]. Pregnancy fat gain is
-therefore an energy reserve laid down for breastfeeding.
-
 Weight gain in pregnancy has a target range set by pre-pregnancy BMI: about 12.5–18 kg for women who
 are underweight, 11.5–16 kg for normal weight, 7–11.5 kg for overweight and 5–9 kg for obesity
 [@iom2009gwg]. The risk is U-shaped: too little gain raises the chance of a small or preterm baby and
@@ -92,6 +86,8 @@ too much the chance of a large baby and a caesarean. Yet only about a third of w
 range [@goldstein2017gwg]. The ranges rest on Western BMI cut-offs and may fit local women
 imperfectly, as Singapore data bear out [@ee2014gwgSG; @he2019gwgSG], so they work as a framework,
 not a fixed target.
+
+The weight gained in pregnancy includes fat, which carries over into lactation. Making milk costs about 675 kcal a day; about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra requirement of roughly 500 kcal/day, little more than in the third trimester, with more fluid too [@faoEnergy2004]. Lactation therefore needs only a little more energy, and pregnancy fat gain is an energy reserve laid down for breastfeeding.
 
 ### Haemodilution and iron deficiency {#sec-preg-blood}
 
@@ -102,12 +98,7 @@ usually not anaemia. The response is to use pregnancy-specific cut-offs and to c
 iron-store marker that falls before haemoglobin does; see the *Childhood & adolescence* chapter)
 before treating, instead of giving iron for every low number.
 
-Haemodilution does not rule out true iron deficiency, which is common even in Singapore: about
-three-quarters of Singaporean women are iron-deficient by the early third trimester
-[@loy2019ironSG]. Requirements rise for the expanding red-cell mass and the foetus's own stores (the
-nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter). Daily oral iron
-(WHO: 30–60 mg elemental iron with folic acid [@whoAntenatal2016]) reduces maternal anaemia and iron
-deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
+Haemodilution does not rule out true iron deficiency. Requirements rise for the expanding red-cell mass and the foetus's own stores (the nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter), and deficiency is common even in Singapore: about three-quarters of Singaporean women are iron-deficient by the early third trimester [@loy2019ironSG]. WHO recommends 30–60 mg of elemental iron daily, with folic acid [@whoAntenatal2016], and daily oral iron reduces maternal anaemia and iron deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
 The practical problem is adherence, because iron's gut side-effects are a common reason supplementation fails.
 Three measures help:
 
@@ -134,8 +125,9 @@ Beyond folate and iron, a short list of nutrients needs particular attention:
   modest; deficiency is common in Singapore despite the sun [@palacios2024vitD; @sgVitDeficiency].
 - **Choline** may support foetal brain development, though the human evidence so far comes from small
   trials [@caudill2018choline], and most pregnant women in US surveys fall short of it
-  [@wallace2017choline]; **docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces
-  preterm birth [@middleton2018omega3].
+  [@wallace2017choline].
+- **Docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces preterm birth
+  [@middleton2018omega3].
 
 Vitamin A is the one nutrient here for which the pregnancy advice is an upper limit, not a minimum
 intake, because excess harms. High-dose preformed retinol (supplements, liver) is teratogenic, while
@@ -147,19 +139,20 @@ multivitamin is not over-dosed in retinol and advises skipping liver.
 ### Nausea and vomiting of pregnancy {#sec-preg-nausea}
 
 Nausea and vomiting affect most pregnancies in the first trimester, when energy needs have not yet
-risen. Small, frequent, bland meals help, and ginger and vitamin B6 (pyridoxine) are reasonable
-first-line measures [@acog2018nvp]. Most cases are distressing but benign. Severe, persistent vomiting is
-the exception: its warning signs, and the safety rule that goes with them, are in [Recognising
+risen. Most cases are distressing but benign. For these, small, frequent, bland meals help, and
+ginger and vitamin B6 (pyridoxine) are reasonable first-line measures [@acog2018nvp]. Severe,
+persistent vomiting is the exception: its warning signs, and the safety rule that goes with them, are in [Recognising
 trouble, and when to refer](#sec-preg-refer).
 
 ### Gestational diabetes: pathophysiology {#sec-preg-gdm}
 
 Gestational diabetes is a major antenatal nutrition issue in Singapore, and both internal and external factors shape it. The
 internal factor is the normal insulin resistance of pregnancy. By the third trimester of every
-pregnancy, insulin sensitivity is 50–60% lower (cells respond less to insulin), a fall driven by a
-mix of placental and maternal hormones, with no single hormone responsible, that diverts glucose to
-the growing foetus [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
-that resistance [@plows2018gdm], which is why it marks a raised risk of diabetes later in a woman's life.
+pregnancy, insulin sensitivity is 50–60% lower (cells respond less to insulin). The fall diverts
+glucose to the growing foetus and is driven by a mix of placental and maternal hormones, with no
+single hormone responsible [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
+that resistance [@plows2018gdm], and that pancreatic shortfall is why GDM marks a raised risk of
+diabetes later in a woman's life.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a woman planning a pregnancy means to start folic acid once her test is positive. Why is that too late?
@@ -313,7 +306,7 @@ encephalopathy (see the *Micronutrients, hydration and electrolytes* chapter). *
 any glucose** [@rcogHyperemesis69].
 :::
 
-The findings that change the plan, and the action each one calls for:
+Each finding that changes the plan calls for a specific action:
 
 | Finding | Action |
 |---|---|
@@ -343,12 +336,12 @@ extra of about 500 kcal, close to the third-trimester figure.
 ## The Singapore context {#sec-singapore}
 
 The **confinement month**, the first postpartum month and its prescribed diet, is near-universal in
-Singapore. It is patterned by community (Chinese *zuo yue zi*, Malay *berpantang* and Indian
-practices) and rests on a shared model that classes foods as "heaty" or "cooling". The confinement
-diet is a structured dietary pattern with links to maternal mood [@fok2016confinement;
+Singapore. Although it is patterned by community (Chinese *zuo yue zi*, Malay *berpantang* and Indian
+practices), it rests on a shared model that classes foods as "heaty" or "cooling", and the diet it
+prescribes is a structured dietary pattern with links to maternal mood [@fok2016confinement;
 @teo2018confinement].
 
-The clinician's task is respectful negotiation: supporting the large harmless majority of the
+With a practice this widespread, the clinician's task is respectful negotiation: supporting the large harmless majority of the
 practice, and modifying only its risky parts. These are alcohol cooked into rice-wine dishes (it
 reaches the milk), a heavy sodium and fat load, and the wholesale avoidance of "cooling" fruit and
 vegetables (the very foods that supply vitamin C, fibre and folate). The same respectful approach applies to

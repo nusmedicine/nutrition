@@ -33,7 +33,7 @@
 
 Good dietary care calls for competence and an awareness of its limits: a clinician knows where their own role ends and
 someone else's begins. Brief, general, evidence-aligned advice is every clinician's work, and
-individualised therapy for a condition is a dietitian's. The care around a chronic condition is shared
+individualised therapy for a condition is a dietitian's. The two roles work together: care for a chronic condition is shared
 by a team, which Singapore's health system is built to support. The clinician's own diet, sleep and
 activity matter too, as a wellbeing issue and, plausibly, a credibility one.
 
@@ -68,15 +68,14 @@ Medical nutrition therapy (MNT; refer)
   dietitian: a structured cycle of assessment, diagnosis, intervention and monitoring, evidence-based
   and with outcomes monitored [@ada2026standards].
 
-For type 2 diabetes, dietitian-delivered MNT is associated with reductions in HbA1c (a marker of
+MNT is a treatment with its own evidence base: for type 2 diabetes, dietitian-delivered MNT is associated with reductions in HbA1c (a marker of
 average blood-glucose control) of roughly 0.3–2.0%, a guideline-reported range across trials of
 differing intensity, not a guaranteed effect [@ada2026standards].
 
 Confusing the two causes problems in both directions. Treat all advice as MNT and you freeze, too afraid to say
 anything safe; treat MNT as ordinary advice and you overstep into care you can't be accountable for.
 
-Work through a few patients in the interactive below. The answer to the same question ("should I advise, or
-refer?") differs depending on complexity.
+The answer to the same question ("should I advise, or refer?") differs with the patient's complexity; work through a few patients in the interactive below.
 
 <div data-island="advise-refer" data-src="/diagrams/advise-refer.yml"></div>
 
@@ -119,8 +118,8 @@ Once the decision to refer is made, the referral has to carry what the dietitian
 
 ### Writing a referral that helps {#sec-referral-letter}
 
-A referral is only as useful as its contents, and a vague one wastes a scarce resource. A referral that reads only "Please advise
-on diet" gives the dietitian nothing to act on. A referral that helps contains:
+A referral is only as useful as its contents, and a vague one wastes a scarce resource: a note that reads only "Please advise
+on diet" gives the dietitian nothing to act on. The dietitian needs the following:
 
 ::: {.callout-note}
 ## What a good dietitian referral contains
@@ -149,11 +148,11 @@ Team-based care is associated with better chronic-disease outcomes: in hypertens
 teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare]. The
 team achieves more than any one professional alone.
 
-The reverse also applies: a common error is to overstate the nutrition part of the
-team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation: remission in the DiRECT trial (Diabetes Remission Clinical Trial) was achieved with a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program achieved its preventive effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
+It follows that a common error is to overstate the nutrition part of the
+team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation. Remission in the DiRECT trial (Diabetes Remission Clinical Trial) was achieved in selected patients, who had early type 2 diabetes and were not on insulin, with a structured total-diet-replacement programme, in which low-calorie formula meals replace ordinary food for a period [@lean2018direct]. The Diabetes Prevention Program achieved its preventive effect with a 16-session curriculum [@dpp2002].
 
-Don't promise those outcomes from advice alone. The trial patients were selected, so check whether a
-result applies to the patient in front of you (see the *Evidence vs hype* chapter). The dose was
+Don't promise those outcomes from advice alone, for two reasons. The trial patients were selected, so check whether a
+result applies to the patient in front of you (see the *Evidence vs hype* chapter). The dose was also
 intensive, and a single clinic visit does not deliver it (see the *Behaviour-change counselling*
 chapter).
 
@@ -185,7 +184,9 @@ A clinician's own habits matter for more than role-modelling. Short sleep shifts
 up [@sleepRestriction; @alkhatib2017partialsleep]. On a packed roster, a diet of skipped meals, *kopi* and five hours' sleep therefore
 works against the clinician's own metabolic health. The remedy is a small, sustainable plan rather than
 an overhaul: one realistic food swap, a fixed bedtime or wake time and a short daily
-walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
+walk.
+
+Beyond the clinician's own metabolism, practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
 staff, poor wellbeing and burnout are associated with poorer patient safety, such as more medical
 errors, although few studies are prospective [@hall2016wellbeing]. Lifestyle-medicine competencies
 also include the clinician's own effort to practise healthy behaviours [@lianov2010], and guarding
@@ -213,7 +214,7 @@ the patient waits.
 
 ## The Singapore context {#sec-singapore}
 
-Singapore has built the primary-care infrastructure that makes referral and follow-up happen. Healthier SG is the national shift toward proactive, relationship-based prevention in primary care (see the *Why nutrition matters* chapter). Since its national roll-out in 2023, Healthier SG has given each enrolled resident one family doctor, who
+Singapore has built the primary-care infrastructure that makes referral and follow-up happen. Central to it is Healthier SG, the national shift toward proactive, relationship-based prevention in primary care (see the *Why nutrition matters* chapter). Since its national roll-out in 2023, the programme has given each enrolled resident one family doctor, who
 co-develops with them a personalised **Health Plan**, the natural place to raise a nutrition concern
 and make a referral [@mohHealthierSG].
 

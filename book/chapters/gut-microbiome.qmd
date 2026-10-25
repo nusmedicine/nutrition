@@ -42,9 +42,7 @@ viruses) that lives on what the small intestine could not digest and carries out
 human cells cannot.
 
 The microbiome is best understood as an ecosystem: a community shaped by what it is fed, studied the
-way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most
-heavily marketed topics in consumer nutrition. The mechanisms below are real and diet-modifiable; many
-of the marketing claims lack a plausible mechanism.
+way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most heavily marketed topics in consumer nutrition, so mechanism and marketing need to be kept apart: the mechanisms below are real and diet-modifiable, but many of the marketing claims lack a plausible mechanism.
 
 ## Composition and development of the gut microbiome {#sec-gut-who}
 
@@ -70,25 +68,17 @@ the colon [@matijasic2020beyond].
 
 The phylum names were formally updated in 2021, so older papers use the former ones [@oren2021valid].
 
-Microbial density climbs steeply along the gastrointestinal tract, and each region's conditions explain
-its place on that gradient [@donaldson2016gutbiogeography]:
-
-- In the stomach, acid keeps numbers low.
-- In the small intestine, fast transit keeps numbers low.
-- In the colon, slow transit, near-neutral pH and little absorption allow the highest density, by
-  orders of magnitude, so the colon is the main site of microbial fermentation (see the
-  [*Digestion and absorption*](digestion-absorption.qmd) chapter).
+Microbial density climbs steeply along the gastrointestinal tract, and each region's conditions explain its place on that gradient [@donaldson2016gutbiogeography]. Acid keeps numbers low in the stomach, and fast transit keeps them low in the small intestine. In the colon, by contrast, slow transit, near-neutral pH and little absorption allow the highest density, by orders of magnitude, so the colon is the main site of microbial fermentation (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
 
 ::: {.callout-warning}
 ## Do microbes outnumber human cells ten to one?
-The figure of ten bacteria for every human cell is still widely quoted. It comes from a rough
-estimate made in the 1970s. A 2016 recount put the ratio at roughly 1:1: about 38 trillion bacteria
+The figure of ten bacteria for every human cell, still widely quoted, comes from a rough estimate made in the 1970s. A 2016 recount put the ratio at roughly 1:1: about 38 trillion bacteria
 to 30 trillion human cells, most of them (~84%) small red blood cells that the old estimate left out
 [@sender2016revised]. The same recount puts total bacterial mass at about 0.2 kg; the often-quoted
 "1–2 kg" conflates bacteria with the whole weight of the colonic contents.
 :::
 
-The collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000
+Counted by genes instead of cells, the microbiome far outnumbers its host: the collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000
 genes of the human genome [@qin2010catalogue]. This "second genome" lets gut microbes extract energy and
 make compounds that human cells cannot.
 
@@ -160,8 +150,7 @@ Colonocytes
 
 Human enzymes cannot break down dietary fibre or resistant starch, so both reach the colon undigested
 (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter). There, anaerobic bacteria ferment
-them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. For the host, this
-is a major function of the microbiome. Step through the pathway below, from what arrives in the
+them into SCFAs, which fuel the colonocytes and act as signals elsewhere in the body. Fermentation is therefore one of the microbiome's major functions for the host. Step through the pathway below, from what arrives in the
 colon to where each product goes.
 
 <div data-island="scfa-flow" data-src="/diagrams/scfa-flow.yml"></div>
@@ -265,7 +254,7 @@ circulation, and she needs a dietary or supplemental source.
 
 ## Feeding and shaping the microbiome {#sec-gut-diet}
 
-Diet shapes the microbiome meal by meal, and the variety of plants eaten matters more than any single food. The products sold for the gut (probiotics, prebiotics, synbiotics and postbiotics) each have a precise consensus definition.
+Diet shapes the microbiome meal by meal. The products sold for the gut (probiotics, prebiotics, synbiotics and postbiotics) each have a precise consensus definition.
 
 ### How diet shapes it: fibre diversity {#sec-feeding}
 
@@ -275,15 +264,11 @@ but it reverts within days of a return to their usual diet, and each person's ch
 largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal, and
 not a one-off, permanent change.
 
-The variety of plants eaten matters more than any single food. People who eat the widest variety of plants
-tend to have the most diverse microbiomes. A memorable but unproven heuristic from citizen science is
-"about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
+The variety of plants eaten matters more than any single food: people who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science, "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
 
 The opposite pattern, a chronically low-fibre "Western" diet, deprives fibre-fermenting bacteria of
-substrate and lowers diversity. The most extreme version of this, a loss of diversity that becomes irreversible over
-generations, comes from mice, so the evidence for that extreme is limited, though the direction of the
-effect is well supported [@sonnenburg2016diet]. Whole dietary patterns such as the Mediterranean diet are
+substrate and lowers diversity. The direction of this effect is well supported, but the evidence for its most extreme form, a loss of diversity that becomes irreversible over generations, comes from mice and is therefore limited [@sonnenburg2016diet]. At the other end of the range, whole dietary patterns such as the Mediterranean diet are
 associated with more SCFA producers and with less frailty and inflammation [@ghosh2020mediterranean]
 (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter).
 
@@ -327,10 +312,7 @@ Fermented foods are often assumed to deliver live, beneficial microbes. A **ferm
 defined by its process, "made through desired microbial growth and enzymatic conversions", and not by
 the microbes present when it is eaten [@marco2021fermented]. Many fermented foods are cooked or
 pasteurised before eating (tempeh, bread, most miso once boiled), so they carry few or no live
-microbes. They remain good foods. A small, short Stanford trial found that a high-fermented-food diet
-raised microbial diversity and lowered inflammatory markers where a high-fibre diet did not; that
-result is a hypothesis to test, not a basis for prescribing [@wastyk2021diet]. Only a defined, dosed,
-live product meets the definition of a probiotic.
+microbes. Only a defined, dosed, live product meets the definition of a probiotic. Fermented foods remain good foods, however, and a small, short Stanford trial found that a high-fermented-food diet raised microbial diversity and lowered inflammatory markers where a high-fibre diet did not; that result is a hypothesis to test, not a basis for prescribing [@wastyk2021diet].
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -458,8 +440,7 @@ Different organisms ferment each food:
 - Miso and *taucheo* use *koji* mould (*Aspergillus oryzae*).
 - Kimchi uses lactic-acid bacteria.
 
-*Tapai* (fermented rice or tapioca) contains a few per cent alcohol, which matters for Muslim patients.
-*Yong tau foo* is often mistaken for a fermented food, but it is not one.
+Two further local foods need a note. *Tapai* (fermented rice or tapioca) contains a few per cent alcohol, which matters for Muslim patients. *Yong tau foo*, although often mistaken for a fermented food, is not one.
 
 ::: {.callout-tip}
 ## 🍳 Keep the cultures alive
@@ -472,15 +453,14 @@ and kimchi unheated, and treat cultured-milk drinks as the live option. A cooked
 many Singaporean families. The bacterium in Yakult (*Lactobacillus casei* Shirota) survives transit
 through the gut and has some supporting evidence from small trials, but the European Food Safety Authority (EFSA)
 rejected its broad health claims for lack of convincing evidence [@efsa2010lcs;
-@katokataoka2016lcs]. It is a reasonable drink (watch the sugar); it is not a treatment. A marketed
-benefit is not the same as a proven benefit.
+@katokataoka2016lcs]. It is a reasonable drink (watch the sugar), but not a treatment.
 
 **There is no single "Singaporean" microbiome.** A large local multi-ethnic study found no
 predominant microbiome type across the community, a local illustration that variation between
 individuals is the rule, and that diet and lifestyle, not nationality, shape the community
-[@khine2021multiethnic]. Vegetarian and vegan eating is common in several local communities, so the
-fact that gut bacteria cannot supply B12 has practical consequences here: when you take a diet history
-from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
+[@khine2021multiethnic].
+
+**Vegetarian and vegan patients need a B12 source.** These diets are common in several local communities, and gut bacteria cannot supply B12, so when you take a diet history from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
 *Micronutrients, hydration and electrolytes* chapter).
 
 ## Check your understanding {#sec-quiz}

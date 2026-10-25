@@ -1,5 +1,7 @@
 # Prose flow check (2026-10-25)
 
+> **Status (2026-10-25, later the same day):** all flags below have been acted on. The structural pass (`728dc8d`) added orienting sentences under bare `##` headings, rewrote the closing answers, merged orphan safety paragraphs and moved cross-reference asides; the cohesion pass then rewrote or skipped (with reasons) every remaining flag, including the logic slips, and six adversarial verifiers checked every hunk. Definition lists and the Macronutrients five-beat labels were kept as house style. Line numbers below refer to the text before those passes.
+
 This check was read-only: no chapter was edited. It covers the 29 prose chapters in `book/chapters/`. Two passes were made:
 
 1. **A script.** It scored every prose paragraph for sentence length, runs of short sentences and linking openers.

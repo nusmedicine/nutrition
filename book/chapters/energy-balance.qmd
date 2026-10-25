@@ -51,9 +51,7 @@ the "out" side falls to meet it, so body weight does not behave like a simple ba
 ::: {.callout-note}
 ## Small surpluses add up over time
 A daily surplus of about 100 kcal, roughly one sweetened drink, is enough to cause appreciable weight gain
-over a year if nothing else changes [@hill2003energygap]. Equally, small, sustainable
-changes are the practical approach in counselling, because energy balance plays out over
-months rather than single meals.
+over a year if nothing else changes [@hill2003energygap]. The same arithmetic works in reverse, so small, sustainable changes are the practical approach in counselling: energy balance plays out over months rather than single meals.
 :::
 
 ## Energy expenditure: the "out" side {#sec-out}
@@ -62,9 +60,7 @@ The three parts of expenditure differ in size and in how far a person can change
 
 ### The three parts of expenditure {#sec-expenditure}
 
-Most of the energy the body spends goes on keeping it alive at rest. **Basal metabolic rate (BMR)**
-is the energy needed to keep the body running at complete rest: heartbeat, breathing, kidneys and the
-constant turnover of cells. It is the largest component, typically 60–70% of TEE. BMR is driven
+Most of the energy the body spends goes on keeping it alive at rest. **Basal metabolic rate (BMR)** is the energy needed to keep the body running at complete rest (heartbeat, breathing, kidneys and the constant turnover of cells), and at typically 60–70% of TEE it is the largest component. BMR is driven
 mainly by **fat-free (lean) mass**, the body mass other than fat, because its muscle and organs are
 metabolically active while stored fat is much less so. BMR falls with age, partly as lean mass is
 lost; it is lower when thyroid hormone is low; and it differs between the sexes largely because
@@ -112,8 +108,7 @@ $\text{BMR} = 10(68) + 6.25(157) - 5(52) - 161 \approx 1{,}240$ kcal/day, and he
 $\approx 1{,}240 \times 1.4 \approx 1{,}740$ kcal/day.
 :::
 
-The equations are population estimates. They set a sensible starting point for one person but do
-not measure that person's needs. For weight loss, Singapore's obesity guideline starts from a deficit of at least 500 kcal/day below these estimated needs, with loss preferably no faster than 0.5–1 kg a week [@hpbmoh2016obesityCPG].
+The equations are population estimates, so they set a sensible starting point for one person but do not measure that person's needs. For weight loss, that estimate is the baseline from which the deficit is set: Singapore's obesity guideline starts from a deficit of at least 500 kcal/day below these estimated needs, with loss preferably no faster than 0.5–1 kg a week [@hpbmoh2016obesityCPG].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: two women weigh the same, but one carries far more muscle. Why is her BMR likely to be higher?
@@ -144,9 +139,9 @@ compared below, from cheap, rough screening to the accurate reference standard:
 | DXA (dual-energy X-ray absorptiometry), a low-dose X-ray scan | Fat versus lean | The accurate clinical and research reference |
 
 BMI cannot tell muscle from fat, so it misclassifies the very muscular and can miss excess fat in
-people who are slim by weight. BMI is therefore a screening tool, not a diagnosis. Asian cut-offs for overweight are set lower than the international ones, because the risk of diabetes and cardiovascular disease rises at a lower BMI in Asian populations [@whoExpert2004AsianBMI] (see the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter). Waist circumference captures
-**central (visceral) fat**, the fat stored around the abdomen. That fat carries more metabolic risk
-than fat on the hips and thighs, so the waist measurement adds information that BMI does not give [@whoWaist2011].
+people who are slim by weight. BMI is therefore a screening tool, not a diagnosis, and its cut-offs depend on the population: Asian cut-offs for overweight are set lower than the international ones, because the risk of diabetes and cardiovascular disease rises at a lower BMI in Asian populations [@whoExpert2004AsianBMI] (see the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter).
+
+Waist circumference fills one of the gaps that BMI leaves. It captures **central (visceral) fat**, the fat stored around the abdomen, which carries more metabolic risk than fat on the hips and thighs, so the waist measurement adds information that BMI does not give [@whoWaist2011].
 
 Energy expenditure itself is measured with research tools. BMR is measured by **calorimetry**,
 directly from the heat the body produces or indirectly from the oxygen it consumes and the carbon
@@ -187,8 +182,7 @@ When someone loses weight, "energy out" falls by more than their smaller body sh
 extra drop, **adaptive thermogenesis** (also called metabolic adaptation), makes lost weight easy to
 regain. Appetite adds to the effect: hunger rises after weight loss and is still raised a year later [@sumithran2011hormonal].
 
-Adipose tissue also signals to the brain how much fat is stored. It releases a hormone, **leptin**,
-in rough proportion to the amount of fat carried [@considine1996leptin]. The brain uses leptin as a long-term signal of fat
+Adipose tissue also signals to the brain how much fat is stored, by releasing a hormone, **leptin**, in rough proportion to the amount of fat carried [@considine1996leptin]. The brain uses leptin as a long-term signal of fat
 stores, often likened to a fuel gauge, to regulate appetite and body weight over months and years.
 If leptin signals a large store, extra leptin might be expected to cut appetite and weight. Simply
 giving it does not, however, reverse common obesity [@heymsfield1999recombinant]; the reason is
@@ -209,22 +203,14 @@ gain.
 
 ## Is body weight just calories in minus out? {#sec-close}
 
-Partly. The equation holds: energy that was never eaten cannot be stored, and a sustained deficit
-does lower weight. The two sides are linked, however. When intake falls, energy expenditure falls
-too, and body fat releases leptin in rough proportion to its size, a signal
-the brain uses to regulate body weight. The rule "calories in minus calories out" is therefore the
+Body weight does follow calories in minus calories out, but that is only part of the answer. The equation holds, because energy that was never eaten cannot be stored, and a sustained deficit does lower weight. The two sides are linked, however. When intake falls, energy expenditure falls too, and because body fat releases leptin in rough proportion to its size, a shrinking store sends a weaker signal to the brain, which uses leptin to regulate body weight. The rule "calories in minus calories out" is therefore the
 correct accounting but a poor basis for weight management, because the "out" column itself shifts in response to
 intake (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-defended)
 chapter).
 
 ## The Singapore context {#sec-singapore}
 
-Singapore's food environment tends to favour a high energy intake. Eating
-out is the norm: about three in four adults usually eat at least one of their daily meals out [@naidoo2017eatingout]. Hawker and food-court favourites are energy-dense
-(high in kcal for their weight). A plate of *char kway teow* with a sweet drink can carry a large
-share of a day's energy in one sitting, and the drink alone can add a couple of hundred easily missed
-kcal. A largely sedentary lifestyle, spent in air-conditioned buildings and travelling by car or MRT, keeps the
-activity side low, with little of the NEAT that a more walking-dependent city would provide.
+Singapore's food environment tends to favour a high energy intake. Eating out is the norm: about three in four adults usually eat at least one of their daily meals out [@naidoo2017eatingout], and hawker and food-court favourites are energy-dense (high in kcal for their weight). A plate of *char kway teow* with a sweet drink, for example, can carry a large share of a day's energy in one sitting, and the drink alone can add a couple of hundred easily missed kcal. On the expenditure side, a largely sedentary lifestyle, spent in air-conditioned buildings and travelling by car or MRT, keeps activity low, with little of the NEAT that a more walking-dependent city would provide.
 
 The festive calendar adds to the surplus. Chinese New Year, Hari Raya, Deepavali and Christmas each
 bring days of feasting. The modest weight gained across a year of such occasions is not fully lost
@@ -232,7 +218,7 @@ afterwards, so it accumulates over the years [@yanovski2000holiday]. None of thi
 it reflects an environment that makes a high energy intake easy and keeps activity low.
 
 The National Nutrition Survey shows a gap between the guidelines and what people actually eat [@mohNNS2022]. Three
-practical measures aim to close that gap without calorie counting:
+practical measures aim to close that gap, and to reduce the surplus, without calorie counting:
 
 - My Healthy Plate (¼ wholegrains, ¼ protein, ½ fruit and vegetables; see the
   [*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter) lowers a meal's energy density

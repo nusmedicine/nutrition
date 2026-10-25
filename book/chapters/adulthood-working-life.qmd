@@ -50,8 +50,7 @@ As at every life stage, two sets of factors shape nutrition:
 | Internal factors (inside the body) | Growth is over, so the task is maintenance: maintaining muscle mass against a slow decline, through decades in which the metabolism holds steady |
 | External factors (life and environment) | The working-life food environment (the hawker meal, shift work, stress, time scarcity and alcohol) and physical activity, which for the everyday active adult needs far less special fuelling than online advice suggests |
 
-Set a realistic training week in the dial below and see how rarely it calls for more than ordinary
-food and water.
+Fuelling is taken up under [Fuelling everyday exercise](#sec-adult-fuelling); as a preview, set a realistic training week in the dial below and see how rarely it calls for more than ordinary food and water.
 
 <div data-island="fuel-dial" data-src="/diagrams/fuel-dial.yml"></div>
 
@@ -64,8 +63,7 @@ With growth over, the aim in these decades is maintenance, which turns on two qu
 Midlife weight gain is commonly blamed on a slowing metabolism. Total energy expenditure (the sum of
 basal metabolic rate, the thermic effect of food and physical activity; see the
 [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled
-water across the whole lifespan. Adjusted for body size, it is in fact steady from about 20 to 60. It
-does not start falling in the thirties, and declines only later in life [@pontzer2021energy]. The
+water across the whole lifespan. Adjusted for body size, it is in fact steady from about 20 to 60: it does not start falling in the thirties, and declines only later in life [@pontzer2021energy]. The
 familiar explanation, "my metabolism is slowing down", therefore accounts for little of midlife weight
 gain.
 
@@ -83,23 +81,23 @@ In adulthood the aim is to keep the muscle built during growth. Muscle mass is f
 teens to about 60, drifting down only slowly, and strength fades faster than size
 [@mitchell2012sarcopenia]. The popular "you lose 1% a year from thirty" overstates the mid-adult loss,
 but the direction is real. These decades are therefore the window to build a reserve before the
-steeper losses of older age (see the *Healthy ageing* chapter). Muscle is also the main site of glucose
+steeper losses of older age (see the *Healthy ageing* chapter). Muscle matters for metabolism as well as strength: it is the main site of glucose
 disposal after a meal [@merz2020muscleinsulin], so keeping muscle helps protect metabolic health
 (for the mechanism, see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
 
-Two factors maintain muscle mass, and the second depends on the first. **Resistance exercise**
+Two factors maintain muscle mass, resistance exercise and protein, and the second depends on the first. **Resistance exercise**
 (muscle-strengthening exercise against a load) is the necessary stimulus: guidelines recommend it on two
 or more days a week [@bull2020whopa], muscle gain rises with weekly training volume
 [@schoenfeld2017rtvolume], and regular muscle-strengthening is linked to lower risk of death and major
-chronic disease [@momma2022strengthmortality]. Protein is the second
-factor, but without that stimulus it does little.
+chronic disease [@momma2022strengthmortality]. Protein, without that
+stimulus, does little.
 
 The adult protein reference is the **Recommended Dietary Allowance (RDA)**, a population reference
 intake that is adequate for nearly all healthy adults: about 0.8 g/kg/day (see the
 [*Macronutrients*](macronutrients.qmd) chapter). The RDA is a floor, not an optimum: an adult training to build or hold muscle does better at around 1.2–1.6 g/kg/day, and the benefit plateaus near there, so
 more is not better [@morton2018proteinmeta]. The range is illustrative, not a precise target: an
-ordinary diet reaches it, and for most people it means some protein at each meal. The evidence on
-three common concerns about protein is summarised below:
+ordinary diet reaches it, and for most people it means some protein at each meal. Three common concerns
+about protein (timing, safety and source) matter less than is often claimed:
 
 - Timing around a workout barely matters once daily protein intake is adequate; the **anabolic window**
   (the period after exercise in which protein is claimed to be best used) is far wider than the
@@ -182,9 +180,7 @@ its own (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.
 
 **Shift work disrupts circadian rhythms.** Night-shift work is associated with higher rates of type 2
 diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
-abnormal blood lipids). These associations come from observational data and are not proof; the
-mechanism involves **circadian misalignment** (eating, sleeping and working out of step with the
-body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
+abnormal blood lipids). These associations come from observational data and are not proof; the mechanism involves **circadian misalignment** (eating, sleeping and working out of step with the body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
 
 The most useful evidence-based change for shift workers concerns when to eat. In a controlled trial,
 keeping the main meals in the daytime and avoiding heavy eating in the small hours (roughly midnight to
@@ -193,8 +189,8 @@ generally, late-weighted eating is less favourable than an earlier-weighted patt
 that evidence is observational [@stonge2017mealtiming].
 
 **Stress and short sleep change intake.** Stress nudges intake toward less healthy food
-[@hill2022stresseating]. Short sleep, a chronic deficit for many working adults, raises energy intake,
-and extending sleep brings it back down [@alkhatib2017sleep; @tasali2022sleepextension], so improving
+[@hill2022stresseating], and short sleep, a chronic deficit for many working adults, raises energy intake [@alkhatib2017sleep].
+Extending sleep brings intake back down [@tasali2022sleepextension], so improving
 sleep is also a nutrition intervention.
 
 ### Alcohol: cancer and cardiovascular risk {#sec-adult-alcohol}
@@ -210,12 +206,14 @@ came largely from comparing drinkers with a group of "abstainers" that included 
 drinking because they were ill; **Mendelian randomisation** studies, which use genetic variants to
 remove that bias, find no cardiovascular protection, and harm that rises even at low intake
 [@piano2025ahaalcohol; @biddinger2022mralcohol]. In practice, never advise anyone to drink for their
-heart. Alcohol also supplies empty calories (about 7 kcal/g, with no nutrients), and drinkers eat little less to make up for it,
+heart.
+
+Alcohol also matters for weight: it supplies empty calories (about 7 kcal/g, with no nutrients), and drinkers eat little less to make up for it,
 so its energy adds to that of an eating-out diet [@traversy2015alcoholobesity].
 
 ::: {.callout-warning}
 ## Is the alcohol flush harmless?
-Reddening after a drink, the **alcohol flush**, is often taken as a harmless quirk. The flush marks a build-up of **acetaldehyde**, the carcinogenic breakdown product of alcohol, and people who flush and keep drinking carry a substantially raised risk of oesophageal cancer [@brooks2009aldh2]. About a third of East Asians carry a variant of ALDH2 (aldehyde dehydrogenase 2, the enzyme that clears acetaldehyde) that makes them flush. The flush is therefore a clinical cue: **ask about it, and
+Reddening after a drink, the **alcohol flush**, is often taken as a harmless quirk. The flush marks a build-up of **acetaldehyde**, the carcinogenic breakdown product of alcohol, and about a third of East Asians are prone to flushing because they carry a variant of ALDH2 (aldehyde dehydrogenase 2, the enzyme that clears acetaldehyde). People who flush and keep drinking therefore carry a substantially raised risk of oesophageal cancer [@brooks2009aldh2], so the flush is a clinical cue: **ask about it, and
 advise cutting down.**
 :::
 
@@ -253,12 +251,7 @@ kilograms of creep can cross a threshold. Established obesity and metabolic synd
 the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) and
 [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 
-Repeated crash dieting is the pattern to steer patients away from. Small, sustainable habits and
-regular self-weighing modestly help prevent weight gain [@graham2022smallchange;
-@zheng2015selfweighing]. **Weight cycling** (repeated weight loss and regain) has been linked to worse
-outcomes, but that signal is heavily confounded by illness causing unintentional weight loss
-[@zou2019fluctuation]. The link is therefore not proof that dieting itself kills; the practical
-conclusion is to aim for a steady weight, not repeated loss and regain.
+Repeated crash dieting is the pattern to steer patients away from. **Weight cycling** (repeated weight loss and regain) has been linked to worse outcomes, but that signal is heavily confounded by illness causing unintentional weight loss [@zou2019fluctuation], so the link is not proof that dieting itself kills. The practical conclusion is still to aim for a steady weight, not repeated loss and regain; small, sustainable habits and regular self-weighing modestly help prevent weight gain [@graham2022smallchange; @zheng2015selfweighing].
 
 Each of the following patterns is a prompt to act at this stage:
 
@@ -282,7 +275,7 @@ small, sustainable habits and regular self-weighing, and to avoid repeated cycle
 
 Believing that adulthood brings a slowing metabolism leads to the wrong remedies, because the metabolism holds steady through these decades; what
 changes is that maintenance replaces growth and the environment sets most of the diet. Midlife weight
-creep reflects a small, correctable surplus, not a metabolic decline. The modifiable factors are therefore activity, muscle and the food environment, addressed through a few lasting habits. These include resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty calories and has no established safe level. Two messages have changed: most active adults need only ordinary food and water, not sports
+creep reflects a small, correctable surplus, not a metabolic decline. The modifiable factors are therefore activity, muscle and the food environment, addressed through a few lasting habits: resistance exercise with enough protein to keep muscle, better choices at the daily hawker meal, daytime-weighted meals on shifts, enough sleep, and less alcohol, which adds empty calories and has no established safe level. Two popular messages are also corrected: most active adults need only ordinary food and water, not sports
 nutrition, and no one should drink for their heart.
 
 ## The Singapore context {#sec-singapore}
@@ -299,12 +292,9 @@ international target of 150–300 minutes of moderate-intensity aerobic activity
 [@spag2022; @bull2020whopa]. A large share of the population's activity comes from walking to and from
 transport, and the gamified National Steps Challenge nudges it up [@nphs2023; @yao2022stepschallenge].
 
-**Shift work and long hours are common in several sectors.** These include healthcare, transport and
-food and beverage, and the long-hours culture normalises convenient, less healthy eating [@leu2023longhours].
+**Shift work and long hours affect eating.** Both are common in sectors such as healthcare, transport, and food and beverage, and the long-hours culture normalises convenient, less healthy eating [@leu2023longhours].
 
-**Local guidance caps alcohol intake.** The cap is about two **standard drinks** (about 10 g of alcohol
-each) a day for men and one for women, and health messaging now cites the "no safe level" position;
-the ALDH2 flush, common in the Chinese-majority population, makes the "ask about flushing" cue
+**Local guidance caps alcohol intake.** For men the limit is about two **standard drinks** (about 10 g of alcohol each) a day, and for women one. Health messaging now cites the "no safe level" position, and the ALDH2 flush, common in the Chinese-majority population, makes the "ask about flushing" cue
 especially useful here [@mohAlcoholLimits2018; @healthhubAlcoholHazards].
 
 ## Check your understanding {#sec-quiz}

@@ -40,24 +40,15 @@
 ## Type 2 diabetes at a glance {#sec-overview}
 
 Type 2 diabetes develops from insulin resistance, the reduced response of the body's cells to insulin
-(see the *Obesity & metabolic syndrome* chapter). Nutrition matters throughout the course of the
-disease. It prevents progression in people with **prediabetes**, the phase in which blood glucose has
-started to rise but is not yet in the diabetes range. It manages established diabetes, and it can put
-early disease into **remission**, with blood glucose held below the diabetes range off
-glucose-lowering drugs (see [Remission](#sec-t2d-remission)).
+(see the *Obesity & metabolic syndrome* chapter). Nutrition matters at every stage of the disease. In **prediabetes**, the phase in which blood glucose has started to rise but is not yet in the diabetes range, it prevents progression; in established diabetes it manages the disease; and in early disease it can bring about **remission**, with blood glucose held below the diabetes range off glucose-lowering drugs (see [Remission](#sec-t2d-remission)). All of this is part of Singapore's War on Diabetes: roughly one in three people will develop diabetes in their lifetime [@mohWarOnDiabetes].
 
 ![The diabetes continuum and where nutrition acts: from at-risk, through prediabetes, to early and then established type 2 diabetes. Structured lifestyle change can prevent progression; a supervised, weight-centred programme can put *early* disease into remission; dietary quality manages established disease; medication (a specialist decision) is layered on, not a substitute.](/figures/mechanisms/t2d-continuum.svg){#fig-t2d-continuum width="92%" fig-align="center"}
+
+Whatever the stage, safety comes before any diet advice: before endorsing a low-carbohydrate diet or a fast, you need to know which glucose-lowering drugs the patient takes, because some cause dangerous hypoglycaemia (blood glucose falling too low; see the *Integrative metabolism* chapter) when carbohydrate is cut.
 
 The complications of type 2 diabetes in the heart, blood vessels and kidneys are taught in the
 *Cardiovascular disease & hypertension* and *Chronic kidney disease* chapters. Gestational diabetes,
 and why Singapore screens every pregnancy, is in the *Pregnancy & lactation* chapter.
-
-Safety comes before any diet advice. Before endorsing a low-carbohydrate diet or a fast, you need to
-know which glucose-lowering drugs the patient takes. Some cause dangerous hypoglycaemia (blood glucose
-falling too low; see the *Integrative metabolism* chapter) when carbohydrate is cut.
-
-All of this is part of Singapore's War on Diabetes: roughly one in three people will develop
-diabetes in their lifetime [@mohWarOnDiabetes].
 
 ## Pathophysiology: how insulin resistance becomes diabetes {#sec-t2d-mechanism}
 
@@ -88,9 +79,7 @@ see the *Obesity & metabolic syndrome* chapter), and it is removable. Substantia
 it, which can restore β-cell function and reverse early disease. That reversal is the basis of
 remission (see [Remission](#sec-t2d-remission)).
 
-Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter). Each person has
-a **personal fat threshold**, the individual level of body fat beyond which diabetes develops. An Asian
-patient can therefore cross it at a BMI below the Western cut-offs [@taylor2023pft].
+The level of body fat at which diabetes develops differs from person to person. That individual level is the **personal fat threshold**, and because Asians carry more fat at a given BMI (see the *Obesity & metabolic syndrome* chapter), an Asian patient can cross it at a BMI below the Western cut-offs [@taylor2023pft].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient has had insulin resistance for years, yet his blood glucose was normal until recently. Why?
@@ -149,7 +138,7 @@ high-risk classes in the table above.
 
 Many patients believe that a finger-prick glucose test breaks the fast, and some come to harm because
 of that belief [@zainudin2017knowledge]. The test does not break the fast, and Islam exempts the
-medically unfit, so monitoring and, where needed, not fasting are religiously permissible.
+medically unfit, so monitoring and, where needed, not fasting are religiously permissible. The safeguard for those who do fast is a pre-Ramadan medication review (see [When to refer](#sec-t2d-refer)).
 
 ### Carbohydrate: quality and consistency {#sec-t2d-carbohydrate}
 
@@ -174,11 +163,7 @@ and sugary drinks kept to a minimum [@who2023carbohydrate].
 
 ![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a key carbohydrate-quality change; locally it is a swap, not a ban on rice.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
 
-Sugar-sweetened drinks are a separate, important target. Each daily serving is associated with
-roughly a 13–18% higher risk of type 2 diabetes, an effect only partly explained by weight
-[@imamura2015ssb]. Singapore's Nutri-Grade label works as a decision aid here [@shin2023nutrigrade].
-Ordering *kopi kosong* or *teh kosong* (no sugar), or *kopi* or *teh siu dai* (less sweet), is an
-intervention in its own right.
+Sugar-sweetened drinks are a separate, important target: each daily serving is associated with roughly a 13–18% higher risk of type 2 diabetes, an effect only partly explained by weight [@imamura2015ssb]. The change is made at the point of purchase, where Singapore's Nutri-Grade label works as a decision aid [@shin2023nutrigrade] and ordering *kopi kosong* or *teh kosong* (no sugar), or *kopi* or *teh siu dai* (less sweet), is an intervention in its own right.
 
 ::: {.callout-important}
 ## Should a patient with diabetes give up rice?
@@ -193,8 +178,7 @@ of the staples Singaporeans eat are wholegrain [@mohNNS2022].
 ### Choosing a dietary pattern {#sec-t2d-patterns}
 
 Because quality matters more than the macronutrient ratio, several dietary patterns are acceptable,
-and the right one is the one a person will actually follow [@evert2019nutrition]. The evidence behind
-three common patterns (see the *What a healthy diet looks like* chapter) differs:
+and the right one is the one a person will actually follow [@evert2019nutrition]. The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter; in diabetes, the patterns matter for glucose and overall diet quality, and on that measure the evidence behind three common patterns (see the *What a healthy diet looks like* chapter) differs:
 
 - The Mediterranean pattern has the strongest diabetes-specific evidence. It lowers HbA1c in established
   disease, reduces new cases, and works well translated into local food instead of adopted wholesale
@@ -209,8 +193,6 @@ The **plate method**, a tool that sets the proportions of the plate without coun
 patterns be applied at a *cai png* (mixed-rice) stall. Singapore's version, My Healthy Plate, is a quarter
 wholegrains, a quarter protein and half fruit and vegetables, with water over sugary drinks
 [@hpbHealthyPlate].
-
-The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, and DASH's blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter; in diabetes, the patterns matter for glucose and overall diet quality.
 
 ::: {.callout-tip}
 ## 🍜 Eating out
@@ -257,10 +239,7 @@ accompany that number:
   @diabetesUK2021remission].
 
 How a remission programme is delivered matters for safety. Programmes use a supervised **total diet
-replacement**: a low-calorie formula phase with structured food reintroduction. The programme's
-clinical team adjusts the medication on day one, because glucose and blood pressure fall fast. A total
-diet replacement is therefore not a self-directed crash diet: the referring clinician's task is to
-recognise the candidate and refer to a structured programme. Singapore has an expert-consensus
+replacement**: a low-calorie formula phase with structured food reintroduction. Because glucose and blood pressure fall fast on it, the programme's clinical team adjusts the medication on day one, so a total diet replacement is not a self-directed crash diet. The referring clinician's task is to recognise the candidate and refer to a structured programme. Singapore has an expert-consensus
 framework for this (with ethnicity-adjusted thresholds), though no national remission programme yet
 exists [@khoo2026sgDSF].
 
@@ -312,8 +291,7 @@ without a medication review. The dose set for their old intake can now drive the
 low. Recognise the risk, and refer to the diabetes team **before** the diet changes, not after.
 :::
 
-Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task, not one to manage single-handed. Singapore's locally validated fasting
-algorithm (the FAST algorithm; see the *Integrative metabolism* chapter) shows that fasting with
+Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task, not one to manage single-handed. Local evidence supports that adjustment: the FAST algorithm, a fasting algorithm validated in Singapore (see the *Integrative metabolism* chapter), shows that fasting with
 diabetes can be done safely when medication is adjusted by the algorithm [@lum2020fast].
 
 ::: {.callout-tip collapse="true"}
@@ -335,8 +313,7 @@ for a pre-Ramadan review to risk-stratify her and adjust medication.
 
 ## Can diabetes be "reversed"? {#sec-close}
 
-Sometimes. A supervised, weight-centred programme that removes ectopic fat from the liver and pancreas
-can put early type 2 diabetes into remission. Remission is not cure: the benefit is real but limited to
+Early type 2 diabetes can sometimes be put into remission by a supervised, weight-centred programme that removes ectopic fat from the liver and pancreas. Remission is not cure: the benefit is real but limited to
 eligible patients, and it can fade as weight returns. For most people, the gains come from
 prevention and day-to-day management: structured lifestyle change prevents progression from
 prediabetes, and a quality carbohydrate pattern with the plate method manages established disease. The
@@ -350,7 +327,7 @@ Prevalence has an ethnic gradient: Indian and Malay residents have roughly twice
 Chinese residents [@mohNPHS2024]. The gradient should guide screening priority, framed as
 population-level risk and never as blame; counselling is still tailored to the individual.
 
-These modifiable dietary factors are prominent in the local food environment: only ~4% of
+Two of the modifiable dietary factors, carbohydrate quality and sugary drinks, are prominent in the local food environment: only ~4% of
 staples are wholegrain, and sugary drinks supply about half of dietary sugar [@mohNNS2022]. The
 national tools target these same factors: My Healthy Plate, Nutri-Grade on beverages
 [@mohNutriGradeFresh2023], and Healthier SG, with its subsidised screening, as the main route to

@@ -61,9 +61,7 @@ Switch between the three vitamins below to compare them.
 
 ::: {.callout-warning}
 ## Are more vitamins healthier?
-Because vitamins are essential, it is easy to assume that more must be better. Fat-soluble vitamins
-(notably A and D) can **accumulate to toxic levels**. Water-soluble vitamins are mostly excreted, but
-very high intakes can still cause harm: B6 can damage nerves, and vitamin C can cause kidney stones.
+Because vitamins are essential, it is easy to assume that more must be better, but an excess can be harmful. Fat-soluble vitamins (notably A and D) can **accumulate to toxic levels**, and although water-soluble vitamins are mostly excreted, very high intakes can still cause harm: B6 can damage nerves, and vitamin C can cause kidney stones.
 Regular intake is what is needed, not megadoses, and for most people food is a better source than supplements.
 :::
 
@@ -89,18 +87,10 @@ is the world's leading preventable cause of childhood blindness: the earliest si
 blindness, which progresses through **xerophthalmia** (dryness of the eyes) to corneal damage
 [@whoVitADef].
 
-Vitamin A comes in two forms. **Preformed vitamin A** comes ready-made in liver, egg yolk and dairy.
-**β-carotene**, a precursor in orange and dark-green produce (carrot, sweet potato, pumpkin, spinach,
-kangkong), is converted to vitamin A by the body as needed. The two forms differ in safety. High-dose
-preformed vitamin A is **teratogenic** (it can cause birth defects). Isotretinoin, an acne drug, is
-itself a retinoid (a vitamin A derivative) and carries the same risk, which is why it is prescribed only with strict
-pregnancy prevention. β-carotene from food is safe, because its conversion
-is self-limiting.
+Vitamin A comes in two forms that differ in safety. **Preformed vitamin A** comes ready-made in liver, egg yolk and dairy, and at high doses it is **teratogenic** (it can cause birth defects). **β-carotene**, a precursor in orange and dark-green produce (carrot, sweet potato, pumpkin, spinach, kangkong), is converted to vitamin A by the body as needed. Because that conversion is self-limiting, β-carotene from food is safe. Isotretinoin, an acne drug, is itself a retinoid (a vitamin A derivative) and carries the same risk as high-dose preformed vitamin A, which is why it is prescribed only with strict pregnancy prevention.
 
 **Vitamin D** behaves more like a hormone than a vitamin: the body makes it in skin from a
-cholesterol precursor using ultraviolet B (UVB) light, then activates it in the liver and kidney. Its
-job is to help absorb calcium for bone. Deficiency causes **rickets** in children (bowed legs,
-knock-knees) and **osteomalacia** in adults (soft, aching bones). Few foods carry vitamin D (oily
+cholesterol precursor using ultraviolet B (UVB) light, then activates it in the liver and kidney. Its job is to help absorb calcium for bone, so its deficiency causes bone disease: **rickets** in children (bowed legs, knock-knees) and **osteomalacia** in adults (soft, aching bones). Few foods carry vitamin D (oily
 fish, egg yolk, fortified milk), so skin synthesis and fortification matter. Toxicity comes from
 supplements, not sunlight: mis-dosed products can push blood calcium dangerously high.
 
@@ -114,10 +104,7 @@ Deficiency is common in Singapore despite the climate: one healthy-adult sample 
 risk, higher in women, older adults and those who work indoors or cover up [@sgVitDeficiency].
 :::
 
-**Vitamin K** is needed for blood clotting. Its best-known deficiency is in newborns, who are born
-with low stores and get little from the gut or from breast milk. A vitamin K injection at birth is
-therefore routine, and it prevents rare but catastrophic bleeding [@aapVitK]. Adults get vitamin K
-from leafy greens and fermented foods.
+**Vitamin K** is needed for blood clotting. Adults get it from leafy greens and fermented foods, but newborns are born with low stores and get little from the gut or from breast milk, which is why its best-known deficiency is in newborns. A vitamin K injection at birth is therefore routine, and it prevents rare but catastrophic bleeding [@aapVitK].
 
 **Vitamin E** is an antioxidant in cell membranes, found in nuts, seeds and vegetable oils; dietary
 deficiency is rare and is seen mostly with fat malabsorption [@odsVitE]. Neither vitamin K nor
@@ -125,11 +112,7 @@ vitamin E is a common toxicity concern, so the fat-soluble vitamins are not equa
 
 ### Water-soluble vitamins: the B-complex and C {#sec-water-soluble}
 
-Because the water-soluble vitamins (except B12) are not stored, they need regular intake, and their
-classic deficiency diseases are well-recognised clinical syndromes. Investigating and
-treating them is beyond the scope at this stage; the task is to recognise the pattern and the group at
-risk. Each vitamin has a broad role, a classic deficiency and a group in whom that deficiency is most
-likely:
+Because the water-soluble vitamins (except B12) are not stored, they need regular intake. Their classic deficiency diseases are well-recognised clinical syndromes. Investigating and treating them is beyond the scope at this stage; the task is to recognise the pattern and the group at risk, so the table gives each vitamin's broad role, its classic deficiency and the group in whom that deficiency is most likely:
 
 | Vitamin | Broad role | Classic deficiency | Watch in… |
 |---|---|---|---|
@@ -145,8 +128,7 @@ likely:
 ## Beriberi and pellagra: diseases of food processing
 **Beriberi**, thiamine (B1) deficiency, appears where the staple is heavily refined. Milling strips
 the thiamine-rich bran from rice, so the historical switch to polished white rice triggered epidemics
-across Asia. Beriberi shows as heart failure and oedema ("wet") or as nerve damage ("dry"). In heavy
-drinkers, thiamine deficiency causes **Wernicke's encephalopathy** (confusion, unsteadiness and
+across Asia. Beriberi shows as heart failure and oedema ("wet") or as nerve damage ("dry"). Thiamine deficiency also occurs without any change to the staple: in heavy drinkers it causes **Wernicke's encephalopathy** (confusion, unsteadiness and
 eye-movement problems), an emergency in which thiamine is given first [@statpearlsThiamine].
 
 **Pellagra**, niacin (B3) deficiency, appears in maize-dependent diets and is remembered as the "3 Ds":
@@ -162,10 +144,7 @@ and spinal cord, such as spina bifida), so folate has to be adequate before conc
 could become pregnant are therefore advised to take **folic acid** (the form of folate used in
 supplements and fortification) from before conception into early pregnancy [@whoFolate].
 
-Many countries now fortify flour with folic acid and have seen neural-tube defects fall; salt reduction
-uses the same approach of changing the food supply. Singapore does not mandate this fortification
-[@ffiFortification], so the advice to take folic acid before conception is all the more important
-here. As the name suggests (Latin *folium*, leaf), food sources include dark leafy greens, beans and legumes.
+As the name suggests (Latin *folium*, leaf), food sources of folate include dark leafy greens, beans and legumes. Many countries now also fortify flour with folic acid and have seen neural-tube defects fall; salt reduction uses the same approach of changing the food supply. Singapore does not mandate this fortification [@ffiFortification], so the advice to take folic acid before conception is all the more important here.
 :::
 
 ::: {.callout-warning}
@@ -215,7 +194,7 @@ For iron and calcium, how much the body absorbs depends on the food they come in
 ### Iron: why the source matters {#sec-iron}
 
 Iron is the oxygen-carrying core of haemoglobin, so iron deficiency shows as fatigue, pallor and
-breathlessness (the pattern in [the case](#sec-case) below). How much dietary iron reaches the body
+breathlessness (the pattern in [the case](#sec-case) below); two further signs are worth recognising: **koilonychia** (spoon-shaped nails) and **pica** (craving non-foods, classically ice). How much dietary iron reaches the body
 depends on its **bioavailability**, the proportion of a nutrient in food that is absorbed (for where in the gut iron is absorbed, see the *Digestion and absorption* chapter). Two forms of dietary iron
 differ in bioavailability:
 
@@ -239,16 +218,13 @@ or reduce how much is absorbed:
 
 The food-first advice follows: pair iron-rich plant foods with a vitamin C-rich food, and drink tea or
 coffee between meals, not with them. Because non-haem iron is absorbed less well, vegetarians and
-vegans need roughly 1.8 times as much iron [@odsIron], and their intake deserves a closer look. Beyond fatigue,
-two signs of iron deficiency are worth recognising: **koilonychia** (spoon-shaped nails) and **pica**
-(craving non-foods, classically ice).
+vegans need roughly 1.8 times as much iron [@odsIron], and their intake deserves a closer look.
 
 ![Red meat is the richest source of well-absorbed haem iron; non-haem iron from plants is less well absorbed. Photo: Hannahdownes, CC BY-SA 4.0.](/figures/food/red-meat.jpg){#fig-redmeat fig-alt="A cooked portion of red meat on a plate." width="300" .lightbox}
 
 ### Calcium and bone {#sec-calcium}
 
-Over 99% of the body's calcium is in bone. Bone mass is built early in life and drawn on later, which
-is why bone is often likened to a bank. About 90% of peak bone mass (the most bone a person ever has)
+Over 99% of the body's calcium is in bone, and bone acts as a store: its mass is built early in life and drawn on later, which is why it is often likened to a bank. About 90% of peak bone mass (the most bone a person ever has)
 is laid down by about age 18–20, and bone mass peaks around age 30 [@nof_weaver_2016_pbm_position].
 Adequate calcium, vitamin D (needed to absorb it) and weight-bearing activity in youth build the
 reserve that protects against fractures decades later. Hip fractures are a growing burden in Singapore:
@@ -256,12 +232,7 @@ as the population ages, hip-fracture admissions nearly doubled between 2000 and 
 age-adjusted rates fell [@yong2019hipfracSG]. Low intake adds to the concern: in one Singapore cohort, about half of older
 adults fell short of the calcium recommendation [@ye2023daha].
 
-Calcium does not have to come from dairy. Its bioavailability, like iron's, depends on the food it
-comes in. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption.
-The calcium in calcium-set tofu and low-oxalate greens (kai-lan, bok choy, broccoli) is absorbed as
-well as or better than the calcium in milk, and small fish eaten with their bones (ikan bilis,
-sardines) add more. Spinach is the main exception: it is rich in calcium, but its oxalate binds
-it, so it is poorly absorbed [@weaverVegCalcium1999].
+Calcium does not have to come from dairy, but its bioavailability, like iron's, depends on the food it comes in. Some greens contain **oxalate**, a compound that binds calcium and reduces its absorption. Spinach is the clearest case: it is rich in calcium, but its oxalate binds it, so it is poorly absorbed [@weaverVegCalcium1999]. By contrast, the calcium in calcium-set tofu and low-oxalate greens (kai-lan, bok choy, broccoli) is absorbed as well as or better than the calcium in milk, and small fish eaten with their bones (ikan bilis, sardines) add more.
 
 ![Kai-lan and other low-oxalate leafy greens are good non-dairy sources of calcium, folate and non-haem iron. Photo: Nthaci, CC BY-SA 4.0.](/figures/food/kai-lan.jpg){#fig-kailan fig-alt="Fresh kai-lan (Chinese broccoli) on a plate." width="300" .lightbox}
 
@@ -282,14 +253,7 @@ development. Iodine deficiency causes **goitre** (a swollen thyroid) and, in pre
 intellectual disability in the child; it is a leading preventable cause of brain injury worldwide
 [@odsIodine].
 
-Salt iodisation has made iodine deficiency much less common worldwide. Two trends could allow it to
-return: non-iodised "gourmet" salts (sea salt, pink Himalayan) and rising plant-based eating, which
-reduces intake of the main sources (dairy, seafood and eggs). Keeping iodised salt as the kitchen
-default guards against both.
-
-In Singapore, salt iodisation is voluntary, not mandatory [@codling2017iodine], and no national
-iodine-status survey has been published. The food supply therefore does not guarantee enough iodine,
-and choosing iodised salt is a sensible individual safeguard.
+Salt iodisation has made iodine deficiency much less common worldwide, but two trends could allow it to return: non-iodised "gourmet" salts (sea salt, pink Himalayan) and rising plant-based eating, which reduces intake of the main sources (dairy, seafood and eggs). In Singapore, moreover, salt iodisation is voluntary, not mandatory [@codling2017iodine], and no national iodine-status survey has been published, so the food supply does not guarantee enough iodine. Keeping iodised salt as the kitchen default is therefore a sensible individual safeguard.
 
 ![Iodised salt: a low-cost population-wide measure against iodine deficiency; most "gourmet" salts are not iodised. Photo: Drtony999, CC BY-SA 3.0.](/figures/food/iodised-salt.jpg){#fig-iodisedsalt fig-alt="A small pile of fine iodised salt on a dark dish." width="300" .lightbox}
 
@@ -398,17 +362,13 @@ guarantee enough iodine [@codling2017iodine].
 
 The main micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
-limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium does not come from
-the salt shaker at the table. It is in sauces, broths and food eaten away from home [@mohNNS2022], which makes sodium a
-problem closely tied to hawker food. Some common hawker dishes approach or exceed a whole day's sodium in a single
+limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium comes not from the salt shaker at the table but from sauces, broths and food eaten away from home [@mohNNS2022], which makes sodium a problem closely tied to hawker food: some common hawker dishes approach or exceed a whole day's sodium in a single
 bowl. (Per-dish figures from consumer-education sources are illustrative and vary by stall
 [@shfSaltiestDishes].)
 
 The population response relies on policy, not on individual willpower alone. The Health Promotion Board's "Less Salt, More
 Taste" movement and its work to make lower-sodium salt, sauces and seasonings affordable aim to change
-the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade
-for sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: change the food supply as well
-as individual habits.
+the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade for sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: change the food supply as well as individual habits.
 
 ::: {.callout-warning}
 ## Salt substitutes and the SSaSS trial

@@ -120,8 +120,7 @@ Bone remodelling
   (formation).
 
 RANKL
-: A signalling molecule that promotes bone resorption by osteoclasts (bone-resorbing cells); it rises when
-  oestrogen falls.
+: A signalling molecule that promotes bone resorption by osteoclasts (bone-resorbing cells).
 
 Oestrogen normally inhibits bone resorption. When it falls, RANKL rises, osteoclasts become more
 numerous and longer-lived, and resorption outpaces formation [@eghbali2003rankl]. Bone loss, gradual for
@@ -167,9 +166,9 @@ first is a realistic strategy [@hpbNNS2010].
 
 ### The cardiometabolic shift: which changes are menopause-linked {#sec-meno-heart}
 
-Before menopause, women have a cardiovascular "advantage" over men, and the transition erodes it. The
-change is selective. LDL-cholesterol and **apolipoprotein B** (apoB, the protein carried on each LDL
-particle) rise in a sharp step right around the FMP, so that change is menopause-linked; blood pressure,
+Before menopause, women have a cardiovascular "advantage" over men, and the transition erodes it, but
+selectively. LDL-cholesterol and **apolipoprotein B** (apoB, the protein carried on each LDL
+particle) rise in a sharp step right around the FMP, so that change is menopause-linked, whereas blood pressure,
 glucose and triglycerides drift up with age, not with the FMP [@matthews2009swanLipids]. Visceral fat and
 the incidence of the metabolic syndrome also climb through the transition [@janssen2008swanMetS]. An
 American Heart Association scientific statement treats midlife as a window for early prevention of
@@ -178,9 +177,7 @@ cardiovascular disease in women [@elkhoudary2020ahaMenopause].
 Separating the menopause-linked changes from the age-related ones guards against two opposite errors. One
 is over-attribution ("everything bad at midlife is menopause", when the blood pressure is probably
 ageing); the other is under-attribution ("nothing has changed", when the LDL-cholesterol step and the
-visceral fat are real). The dietary intervention is a whole dietary pattern, Mediterranean- or DASH-style,
-in place of single nutrients (see the *What a healthy diet looks like* chapter). The midlife task is to
-start the pattern early, before cardiovascular risk factors rise. (The management of lipids and blood pressure is in
+visceral fat are real). The dietary intervention is a whole dietary pattern, Mediterranean- or DASH-style, in place of single nutrients (see the *What a healthy diet looks like* chapter), and the midlife task is to start it early, before cardiovascular risk factors rise. (The management of lipids and blood pressure is in
 the *Cardiovascular disease & hypertension* chapter.)
 
 ::: {.callout-tip collapse="true"}
@@ -219,7 +216,7 @@ Part of the inconsistency is biological. Only some people (more in Asian populat
 bacteria that convert a soy isoflavone into **equol**, its more active form [@setchell2002equol]. Giving
 equol directly to non-producers helped in one small placebo-controlled trial, a preliminary finding [@aso2012sequol]. On the pooled evidence, the
 North American Menopause Society does not recommend soy foods, soy extracts or equol as a treatment for
-flushes [@namsNonhormone2023]. A suitable explanation for a patient: *soy foods are a fine, healthy part of your diet,
+flushes [@namsNonhormone2023]. When a patient asks, you might put it this way: *soy foods are a fine, healthy part of your diet,
 but they are not hormone therapy and I would not count on them to fix the flushes.*
 
 ### Safety: soy and breast-cancer risk {#sec-meno-soy-safety}
@@ -264,7 +261,7 @@ Three problems mark the limits of diet:
 - After periods stop, iron needs fall, and a new deficiency is a red flag. Requirements drop to about the
   level of an adult man's, so routine iron supplements become unnecessary, and there is no regulated
   pathway for excreting excess iron [@odsIron]. New iron-deficiency anaemia in a woman past menopause is
-  therefore not a life-stage need to top up. It points to blood loss, usually gastrointestinal, and should
+  therefore not a life-stage need to top up: it points to blood loss, usually gastrointestinal, and should
   be investigated, not self-treated.
 - Vaginal and urinary symptoms have no dietary fix. The **genitourinary syndrome of menopause** (vaginal
   dryness and urinary symptoms) is common locally [@chim2002sgSymptoms], and no food or supplement treats
@@ -272,15 +269,12 @@ Three problems mark the limits of diet:
   "natural remedy" marketing that targets exactly this symptom.
 - Poor sleep, one of the top local complaints [@logan2023iwhp], responds to low-cost lifestyle measures:
   limiting alcohol (it fragments sleep), keeping caffeine to earlier in the day, avoiding large late meals, and
-  managing weight. Sleep disrupted by night sweats or low mood may need referral instead of a dietary
-  change.
+  managing weight. Sleep disrupted by night sweats or low mood, however, may need referral instead of a
+  dietary change.
 
 ### Unproven remedies and restrictive dieting {#sec-meno-harm}
 
-A nightly glass of "wine for the flushes" is poor advice. Alcohol raises breast-cancer risk with no safe
-threshold [@hamajima2002alcohol] and worsens both sleep and bone, so it is never a symptom remedy. There
-is also no menopause-specific diet pill, and most "menopause supplements" are unproven (obesity medicines
-are in the *Obesity & metabolic syndrome* chapter).
+Some popular midlife remedies do harm, and others are unproven. A nightly glass of "wine for the flushes" is poor advice: alcohol raises breast-cancer risk with no safe threshold [@hamajima2002alcohol] and worsens both sleep and bone, so it is never a symptom remedy. Nor is there a menopause-specific diet pill, and most "menopause supplements" are unproven (medicines for obesity itself are in the *Obesity & metabolic syndrome* chapter).
 
 ::: {.callout-warning}
 ## Do no harm: restrictive dieting at midlife

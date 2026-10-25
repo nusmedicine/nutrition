@@ -79,7 +79,7 @@ Each region of the spectrum has its own place in the diet:
 ![Whatever their source, digestible carbohydrates are broken down to simple sugars, chiefly glucose, shown here in its ring form.](/figures/structures/beta-d-glucose.svg){#fig-glucose fig-alt="Skeletal ring structure of beta-D-glucose." width="230"}
 
 Every digestible carbohydrate is built from simple sugars, and the length and shape of the chain
-determine how fast it becomes blood glucose. Four terms describe the chains:
+determine how fast it becomes blood glucose. Four terms describe the units and chains:
 
 Monosaccharides
 : Single sugar units: glucose (the body's fuel), fructose (fruit sugar, handled mainly by the liver)
@@ -110,13 +110,12 @@ glycaemic index, ~70+; see [Glycaemic index and glycaemic load](#sec-gi-gl)), so
 advantage is real but limited [@atkinson2021gitables; @cai2021starchstructure].
 :::
 
-**What it does.** Carbohydrate is the body's main everyday fuel. Glucose powers the brain
+**What it does.** Once broken down to glucose, carbohydrate is the body's main everyday fuel. Glucose powers the brain
 (which normally depends on it almost exclusively) and fuels working muscle; the surplus is
 stored as glycogen in liver and muscle, and adequate carbohydrate "spares" protein from
 being burned for energy.
 
-**From plate to cell.** Starch digestion begins in the mouth (salivary amylase) and resumes
-in the small intestine (pancreatic amylase). There, brush-border enzymes (maltase, sucrase and
+**From plate to cell.** The breakdown of starch begins in the mouth (salivary amylase) and resumes in the small intestine (pancreatic amylase). There, brush-border enzymes (maltase, sucrase and
 lactase, which sit on the surface of the intestinal lining cells) finish the breakdown to single
 sugars. Glucose and galactose cross the gut lining on SGLT1 (sodium–glucose cotransporter 1), and
 fructose on its own transporter, GLUT5. Glucose and galactose then travel to the liver in the
@@ -124,7 +123,7 @@ portal blood, where insulin drives their storage. (Digestion in detail: see the
 [*Digestion and absorption*](digestion-absorption.qmd) chapter; the fed and fasted handling of glucose:
 see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-partB) chapter.)
 
-**Quality: not all carbohydrate is equal.** In a major series of meta-analyses, higher fibre
+**Quality: not all carbohydrate is equal.** The evidence favours the protective end of the spectrum: in a major series of meta-analyses, higher fibre
 and wholegrain intake was associated with roughly 15–30% lower all-cause and
 cardiovascular mortality, and with lower rates of coronary disease, stroke, type 2 diabetes and
 colorectal cancer. The association strengthened up to about 25–29 g of fibre a day
@@ -141,8 +140,7 @@ benefit is real, but it carries that caveat.
 
 ### Glycaemic index and glycaemic load {#sec-gi-gl}
 
-Not all carbohydrate raises blood glucose at the same speed. **Available carbohydrate** is the
-digestible carbohydrate in a food, the part that drives the glucose response. The **glycaemic
+Not all carbohydrate raises blood glucose at the same speed. Foods are compared on a fixed amount of **available carbohydrate**: the digestible carbohydrate in a food, the part that drives the glucose response. The **glycaemic
 index (GI)** ranks a food by how much a portion containing 50 g of available carbohydrate raises
 blood glucose over about two hours, relative to pure glucose, set at 100
 [@atkinson2021gitables]. Lower-GI foods give a gentler, slower rise:
@@ -162,14 +160,12 @@ GI has a limitation: it fixes the carbohydrate at 50 g, which may be far from a 
 
 $$ \text{GL} = \frac{\text{GI} \times \text{available carbohydrate (g) per serving}}{100} $$
 
-graded low ≤10, medium 11–19, high ≥20 per serving. GL therefore captures both the quality of
-the carbohydrate (its GI) and the quantity actually eaten.
+GL is graded low (≤10), medium (11–19) or high (≥20) per serving. Because the formula multiplies GI by the carbohydrate in the serving, GL captures both the quality of the carbohydrate (its GI) and the quantity actually eaten.
 
 ::: {.callout-tip}
 ## Should high-GI foods be avoided?
 A high GI is often read as a reason to avoid a food, because a high GI means a bigger, faster
-glucose rise.
-Watermelon has a high GI (~76), yet a normal slice holds only ~6 g of carbohydrate, so its GL is
+glucose rise. The portion can change that assessment, however: watermelon has a high GI (~76), yet a normal slice holds only ~6 g of carbohydrate, so its GL is
 ~5 (low): a small portion of a high-GI food can be a low-load choice. The reverse also holds: a
 low-GI noodle such as *bee hoon* becomes a high-GL plate at hawker portions. Quality and portion
 both matter, so GI alone is a poor guide to what to avoid.
@@ -277,8 +273,7 @@ is a high-GL plate. Quality and portion both set the response.
 
 ## Fat {#sec-dietary-fat}
 
-**What it is.** Dietary fats differ in three features: chain length, saturation and the
-geometry of any double bonds. Five terms describe the molecules:
+**What it is.** Dietary fats differ in three features: saturation, the geometry of any double bonds and chain length. Five terms describe the molecules:
 
 Fatty acid
 : A hydrocarbon chain (a water-repelling tail) capped by a carboxyl group, –COOH (a water-attracting head).
@@ -298,24 +293,13 @@ Essential fatty acids
   omega-3). The omega number is counted from the tail end of the chain.
 
 Fatty acids are rarely found on their own. Three of them esterified onto a glycerol backbone make a
-**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to).
-Chain length runs from short through medium to long; medium-chain fats are absorbed more directly,
-which is the rationale for "MCT" (medium-chain triglyceride) oils. Replacing one fatty acid with a
-phosphate head gives a **phospholipid**. Phospholipids are amphipathic (they have a water-attracting
-head and water-repelling tails), so they self-assemble into the lipid bilayer of every cell membrane:
-fat is a structural material as well as a fuel.
+**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to). Replacing one fatty acid with a phosphate head gives a **phospholipid**, which is amphipathic (it has a water-attracting head and water-repelling tails), so phospholipids self-assemble into the lipid bilayer of every cell membrane: fat is a structural material as well as a fuel. The third feature, chain length, runs from short through medium to long; medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
 steroid hormones, bile acids and vitamin D. The cholesterol in food raises blood cholesterol
 less than saturated and *trans* fat do [@carson2020cholesterol].
 
 ![The major dietary lipids, as conventionally drawn. Three are fatty acids or built from them: a fatty acid is a hydrocarbon chain with a carboxyl head (the kink here is a *cis* double bond); three of them esterified onto a glycerol backbone make a triglyceride (the storage and dietary fat); and swapping one for a phosphate–choline head gives an amphipathic phospholipid (the main structural lipid of membranes). Cholesterol, by contrast, is a rigid four-ring sterol.](/figures/structures/lipid-classes.svg){#fig-lipid-classes fig-alt="Skeletal structures of four lipids, each labelled: cholesterol (four fused rings), a free fatty acid (a chain with a cis kink and a carboxyl group), a triglyceride (three fatty-acid chains on a glycerol backbone), and a phospholipid (two chains plus a phosphate–choline head)." width="430"}
-
-Because fats do not dissolve in blood, they travel inside **lipoproteins**: chylomicrons,
-very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL) and high-density lipoprotein
-(HDL). **LDL** delivers cholesterol and drives atherosclerosis (plaque formation in the artery wall)
-when it builds up (lipoprotein handling: see the
-[*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter).
 
 **What it does.** Fat is the body's most concentrated energy store, a structural component of
 every cell membrane, the carrier for the fat-soluble vitamins (A, D, E, K), and the source of the
@@ -328,6 +312,8 @@ these products are re-assembled into triglycerides and packaged into chylomicron
 lymphatics (not the portal vein) before reaching the blood. (Bile and micelles: see the
 [*Digestion and absorption*](digestion-absorption.qmd) chapter; lipoprotein transport and fat
 metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter.)
+
+In the blood, fats still do not dissolve, so they travel inside **lipoproteins**: chylomicrons, very-low-density lipoprotein (VLDL), low-density lipoprotein (LDL) and high-density lipoprotein (HDL). **LDL** delivers cholesterol and drives atherosclerosis (plaque formation in the artery wall) when it builds up.
 
 **Quality: type matters more than total.** For decades the advice was to eat less fat; current advice
 is to eat better types of fat. Fats can be ranked by their relationship to cardiovascular risk:
@@ -359,7 +345,7 @@ The advice differs by type:
 Low-fat products look healthier because the long-standing advice was to eat less fat. Yet choosing
 "low fat" often means replacing fat with refined starch or sugar, which is frequently worse for health. The target
 is fat quality, and the replacement nutrient matters. Whether the effect of saturated fat depends on the whole food that contains it
-(dairy versus processed meat) is still debated [@astrup2020satfat]; the message stays simple:
+(dairy versus processed meat) is still debated [@astrup2020satfat], but either way the message stays simple:
 replace it with unsaturated fat and whole foods.
 :::
 
@@ -379,8 +365,7 @@ kinked.
 ::: {.callout-note}
 ## 🔬 Food science: geometry and oxidation
 The *cis* kink in the model above is why olive oil is liquid while *trans* and saturated fats are
-more solid. Heat matters too.
-Overheating oil past its smoke point, or reusing frying oil repeatedly, oxidises and breaks it down into harmful compounds such as aldehydes; polyunsaturated oils are unstable under intense heat [@sfaReusingOils].
+more solid. Heat also changes oils: overheating oil past its smoke point, or reusing frying oil repeatedly, oxidises and breaks it down into harmful compounds such as aldehydes; polyunsaturated oils are unstable under intense heat [@sfaReusingOils].
 :::
 
 ::: {.callout-tip}
@@ -458,7 +443,7 @@ skin, and it makes up enzymes, antibodies, and transport and signalling molecule
 acids are also the precursors of other nitrogen-containing molecules, including several
 neurotransmitters (such as serotonin and dopamine) and hormones (adrenaline, thyroid hormone).
 Unlike carbohydrate and fat, protein is not primarily an energy store: the body keeps only a small
-circulating amino-acid pool and turns its proteins over continuously.
+circulating amino-acid pool and turns its proteins over continuously. Protein also has the highest thermic effect of the macronutrients (see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy expenditure and satiety.
 
 **From plate to cell.** Protein digestion starts in the stomach, where acid unfolds it and
 pepsin begins cleaving it. Pancreatic proteases (trypsin, chymotrypsin) and brush-border
@@ -472,9 +457,6 @@ metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-am
 **Quality: adequacy and completeness.** A useful population reference is about 0.8 g/kg/day,
 adequate for most healthy adults [@who2007protein], though needs rise in older age, illness
 [@bauer2013protage] and athletic training.
-Protein also has the highest thermic effect of the macronutrients (see the
-[*Energy balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy
-expenditure and satiety.
 
 **Protein quality** reflects how well a protein's amino acids match human needs and how digestible
 it is. It is scored by the Protein Digestibility-Corrected Amino Acid Score (PDCAAS) and its
@@ -531,7 +513,7 @@ Modern guidelines have moved from "hit this macronutrient ratio" to "eat these f
 in this pattern" [@aha2021diet]. There is no single ideal macronutrient split: guidelines
 deliberately avoid prescribing one. Diabetes standards, for example, find no ideal percentage of
 energy from carbohydrate, protein or fat, and advise individualising the split and referring to a
-dietitian [@ada2026standards]. Their consistent themes are to favour wholegrains, plants and
+dietitian [@ada2026standards]. Across guidelines, the consistent themes are to favour wholegrains, plants and
 unsaturated fats, and to minimise added sugar, *trans* fat, sodium and ultra-processed foods.
 (Dietary patterns in full: see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
 chapter.)

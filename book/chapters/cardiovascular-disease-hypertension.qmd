@@ -91,8 +91,7 @@ pushing blood pressure up in a graded, dose-dependent way [@he2013saltbp; @huang
 potassium works the other way, helping the kidney excrete sodium and relaxing the vessels
 [@who2012potassium]. (For how sodium and water balance is regulated, see the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 
-Blood pressure and plaque then act on the same endothelium, and the insulin resistance and dyslipidaemia
-of obesity and type 2 diabetes contribute to both pathways (see the *Obesity & metabolic syndrome* and *Type 2
+Blood pressure and plaque then act on the same endothelium, so both pathways damage the vessel wall and drive heart attack and stroke. The insulin resistance and dyslipidaemia of obesity and type 2 diabetes contribute to both (see the *Obesity & metabolic syndrome* and *Type 2
 diabetes* chapters).
 
 ::: {.callout-tip collapse="true"}
@@ -112,19 +111,16 @@ Two dietary changes lower blood pressure: adopting the DASH pattern, and eating 
 
 The DASH pattern (rich in fruit, vegetables, wholegrains and low-fat dairy; see the
 [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter) was designed to lower blood
-pressure, and it does so in its own right. In the landmark feeding trial, with sodium and weight held
+pressure, and it does so in its own right. In the original feeding trial, with sodium and weight held
 constant, it lowered blood pressure by about 5.5/3.0 mmHg overall and 11.4/5.5 mmHg in people with
-hypertension, so the effect came from the pattern itself [@appel1997dash]. Two caveats apply. The trial
+hypertension, so the effect came from the pattern itself [@appel1997dash]. The evidence has two limits, however: the trial
 was a short controlled-feeding study with a surrogate endpoint (blood pressure), and people following the
 pattern on their own achieve less, with pooled trials showing falls nearer 3–7/2–4 mmHg [@filippou2020dashmeta;
 @appel2003premier]. Even so, a fall of a few mmHg across a population meaningfully lowers rates of stroke and heart disease.
 
 DASH works through the whole-food matrix (potassium, magnesium and fibre together), which is more effective
 than the matched supplements, so the advice is to eat potassium-rich produce, not to take pills [@alsolaiman2010dashmechanism].
-DASH also adds to salt reduction: in DASH-Sodium, each change lowered blood pressure on its own, and the
-two together lowered it most [@sacks2001dashsodium]. In Singapore, My Healthy Plate applies the core of
-DASH to everyday meals: half the plate fruit and vegetables, a quarter wholegrains, a quarter lean
-protein [@hpbHealthyPlate].
+In Singapore, My Healthy Plate applies the core of DASH to everyday meals: half the plate fruit and vegetables, a quarter wholegrains, a quarter lean protein [@hpbHealthyPlate]. DASH also adds to the effect of salt reduction: in DASH-Sodium, each change lowered blood pressure on its own, and the two together lowered it most [@sacks2001dashsodium].
 
 ### Sodium reduction and potassium intake {#sec-cvd-sodium}
 
@@ -135,7 +131,9 @@ out, not added from the salt shaker [@hpb2023sodium]. The blood-pressure benefit
 graded and reversible [@he2013saltbp], and the complementary change is eating more potassium (fruit,
 vegetables, legumes).
 
-A common objection to cutting salt, the **sodium J-curve** (the suggestion that very low salt intake is harmful), is largely a measurement artefact, and it is irrelevant at Singapore's high average intake, where essentially everyone benefits from cutting down [@cappuccio2022sodiummyths]. Salt can also be replaced rather than only reduced: one option supported by hard-outcome evidence is a potassium-enriched salt substitute, which in a large trial cut strokes and deaths [@neal2021ssass]. It is not safe for everyone, however, as the box below explains.
+A common objection to cutting salt, the **sodium J-curve** (the suggestion that very low salt intake is harmful), is largely a measurement artefact, and it is irrelevant at Singapore's high average intake, where essentially everyone benefits from cutting down [@cappuccio2022sodiummyths].
+
+Salt can also be replaced rather than only reduced: one option supported by hard-outcome evidence is a potassium-enriched salt substitute, which in a large trial cut strokes and deaths [@neal2021ssass]. It is not safe for everyone, however, as the box below explains.
 
 ::: {.callout-warning}
 ## Check the kidneys before a potassium salt substitute
@@ -192,7 +190,7 @@ LDL cholesterol and cuts cardiovascular events: reducing saturated fat cuts even
 replacing it specifically with polyunsaturated fat cuts them by roughly 30%, about the effect of a
 **statin**, a cholesterol-lowering drug [@mensink2003; @hooper2020; @sacks2017].
 
-The widely reported "saturated fat has been exonerated" headlines came from studies that did not report what
+Claims that saturated fat is harmless came from studies that did not report what
 the fat was replaced with [@siritarino2010], and when the replacement is refined carbohydrate and sugar,
 there is no benefit [@sacks2017]. The question to ask of every swap is therefore "replaced with what?": butter or palm oil
 for olive or canola oil, yes; butter for white bread, no. Try each replacement below.
@@ -202,14 +200,7 @@ for olive or canola oil, yes; butter for white bread, no. Try each replacement b
 ### Oily fish, omega-3 supplements and icosapent ethyl {#sec-cvd-fish}
 
 A common patient question is whether to buy fish-oil capsules "for the heart". The answer distinguishes three
-different things:
-
-- Oily fish is a food to recommend, as part of the pattern.
-- Routine omega-3 supplements failed to prevent cardiovascular events in large trials
-  [@manson2019vital; @ascend2018omega3], so the advice is to eat the fish, not take the capsule.
-- Prescription **icosapent ethyl**, tested in the "fish-oil trial" people cite, is a high-dose drug used in
-  selected patients [@bhatt2019reduceit]; prescribing it is a specialist decision, and its result does not
-  extend to over-the-counter fish oil.
+different things. Oily fish is a food to recommend, as part of the pattern. Routine omega-3 supplements, by contrast, failed to prevent cardiovascular events in large trials [@manson2019vital; @ascend2018omega3], so the advice is to eat the fish, not take the capsule. The "fish-oil trial" people cite tested a third thing: prescription **icosapent ethyl**, a high-dose drug used in selected patients [@bhatt2019reduceit]. Prescribing it is a specialist decision, and its result does not extend to over-the-counter fish oil.
 
 ![Oily fish such as salmon is a food to recommend for heart health, though that is not the same as an over-the-counter fish-oil capsule.](/figures/food/grilled-salmon.jpg){#fig-oily-fish width="55%" fig-align="center"}
 
@@ -222,12 +213,10 @@ reduction driven mainly by stroke [@estruch2018predimed].
 
 Two caveats apply to the evidence. First, the effect is a relative reduction on a composite endpoint in a
 high-risk group, so it does not mean a 30% cut for everyone. Second, the original 2013 paper was
-retracted and republished in 2018 after randomisation irregularities, and its conclusion was
+retracted and republished in 2018 after randomisation irregularities, although its conclusion was
 upheld.
 
-Guidelines endorse the pattern itself rather than a specific percentage reduction [@esc2021prevention;
-@medUmbrella]. The everyday translation is, again, My Healthy Plate: plants, wholegrains, fish and plant
-oils.
+Guidelines endorse the pattern itself rather than a specific percentage reduction [@esc2021prevention; @medUmbrella], and its everyday translation is, again, My Healthy Plate: plants, wholegrains, fish and plant oils.
 
 ### Alcohol and cardiovascular risk {#sec-cvd-alcohol}
 
@@ -271,8 +260,7 @@ already drink, but that is never a reason to start, so advise the non-drinker no
 At this stage the task is to recognise the dietary changes that lower risk, then refer or share care
 in making the plan: a dietitian delivers the structured change, and drug decisions belong to the clinician.
 
-The national clinical guidances on hypertension and lipids, from the Agency for Care Effectiveness
-(ACE), are risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023]. Structured dietary change is
+National guidance supports this approach: the Agency for Care Effectiveness (ACE) clinical guidance on hypertension and on lipids is risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023], and structured dietary change is
 referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
@@ -311,7 +299,7 @@ vegetables and a *teh-o kosong*.
 **The burden is large, and much of it is silent.** Cardiovascular disease is Singapore's leading cause of
 death, about 30% of deaths [@shfHeartStats2024]. Measured hypertension, a silent risk factor behind that burden,
 affects about 34% of adults, but just over half of them are undiagnosed and most known cases are not well
-controlled [@nphs2024]. The gap between self-reported and measured hypertension shows the need to screen for
+controlled [@nphs2024]. The number of undiagnosed cases shows the need to screen for
 a disease that has no symptoms.
 
 **National measures support each dietary change.** Sodium is the priority ([above](#sec-cvd-sodium)),

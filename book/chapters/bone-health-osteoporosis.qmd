@@ -50,13 +50,9 @@ supplement and refer.
 
 []{#sec-bone-conditions}
 
-Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three need different
-nutrition, and confusing them is a common error.
+Patients, and busy clinics, often mix up osteoporosis, osteoarthritis and gout, yet the three are different diseases that need different nutrition: calcium does nothing for arthritis, glucosamine does nothing for osteoporosis, and gout is neither cartilage wear nor bone loss.
 
 ![Three conditions patients confuse, and their different dietary management. Osteoporosis is a bone-density problem, silent until a bone breaks in a minor fall (a fragility fracture), where nutrition genuinely helps (calcium, vitamin D, protein). Osteoarthritis is worn joint cartilage, painful, whose one effective dietary measure is weight loss; supplements don't rebuild cartilage. Gout is a urate-crystal metabolic disease where diet changes urate only modestly and the main treatment is a urate-lowering drug.](/figures/mechanisms/bone-joint-disambiguation.svg){#fig-disambiguation width="94%" fig-align="center"}
-
-Treating them alike does not work: calcium does nothing for arthritis, glucosamine does nothing for
-osteoporosis, and gout is neither cartilage wear nor bone loss.
 
 Four principles apply throughout:
 
@@ -83,10 +79,12 @@ Osteoblasts
 Osteoclasts
 : Cells that resorb (break down) old bone.
 
-Formation and resorption continue throughout life, a process called bone turnover; the coupled
+Formation by osteoblasts and resorption by osteoclasts continue throughout life, a process called bone turnover; the coupled
 resorption-then-formation cycle is called bone remodelling, and it dominates in the adult skeleton. The balance
 between the two sets whether bone mass rises or falls, often pictured as deposits into and withdrawals from a
-bank account. Through childhood and puberty, formation
+bank account.
+
+Through childhood and puberty, formation
 outpaces resorption, so bone mass rises to its peak. Peak bone mass is mostly inherited; about 90% of it is
 laid down by the end of adolescence, and the peak itself is reached in young adulthood, from the late teens
 at the hip to the thirties at the spine. After the peak, resorption gradually exceeds formation, and bone
@@ -121,7 +119,7 @@ Three nutrients act on bone, each in a different way (the nutrient biology is in
 
 Because vitamin D's active form drives calcium absorption, a shortfall means calcium passes through
 unabsorbed, parathyroid hormone rises and mobilises calcium from bone, and bone mineral is lost
-[@laird2010vitDbone]. When failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and bone disease, which is recognised and referred (see the [*Chronic kidney disease*](chronic-kidney-disease.qmd) chapter).
+[@laird2010vitDbone]. The same axis is disrupted in kidney disease: when failing kidneys can no longer balance calcium, phosphate and vitamin D, the result is CKD–mineral and bone disease, which is recognised and referred (see the [*Chronic kidney disease*](chronic-kidney-disease.qmd) chapter).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does building a higher peak in youth protect against osteoporosis decades later?
@@ -177,7 +175,7 @@ is best in doses under ~500 mg at a sitting, so spread calcium across the day [@
 ### Vitamin D: calcium absorption, and deficiency despite the sun {#sec-bone-vitd}
 
 Vitamin D's active form, made in the skin from sunlight and finished in the liver and kidney, is required for
-intestinal absorption of calcium [@laird2010vitDbone].
+intestinal absorption of calcium [@laird2010vitDbone]. Two practical questions follow: why deficiency is common in a sunny country, and whether that justifies testing and supplementing everyone.
 
 ![Vitamin D from skin and diet is activated through the liver and kidney to its active form, which drives intestinal calcium absorption, keeping bone supplied. When vitamin D is low, calcium absorption falls, parathyroid hormone rises, and calcium is mobilised from bone, so the deficiency depletes bone mineral. Vitamin D does not build bone directly; it enables calcium to be absorbed.](/figures/mechanisms/vitamin-d-calcium-axis.svg){#fig-vitd-axis width="92%" fig-align="center"}
 
@@ -196,11 +194,11 @@ The burden is unequal: Indian and Malay women have several-fold higher odds of d
 which makes deficiency an equity issue [@cheong2021vitDsg].
 
 Common deficiency does not justify testing and supplementing everyone. Few foods contain vitamin D naturally (oily
-fish is the best) [@odsVitaminD], and the Endocrine Society guideline now suggests against routine testing, and
+fish is the best) [@odsVitaminD], yet the Endocrine Society guideline now suggests against routine testing, and
 against empiric doses above the US Dietary Reference Intake in healthy adults under 75, while suggesting
 empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference
-intake is a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda]. Insufficiency by
-the laboratory cut-off is common, but the response is to find and correct genuine shortfall in higher-risk
+intake is likewise a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda]. So although insufficiency by
+the laboratory cut-off is common, the response is to find and correct genuine shortfall in higher-risk
 people (those who cover up, stay indoors, are older or are pregnant) rather than to supplement the whole
 population.
 
@@ -221,19 +219,14 @@ Adequate body weight is itself protective. A low BMI (20 versus 25) nearly doubl
 because low weight is associated with lower bone density [@delaet2005bmiFracture]. Being underweight or having a low energy
 intake is therefore a bone red flag, and the frailty of late life makes it common.
 
-The whole dietary pattern matters more than any single nutrient: plenty of fruit and vegetables (supplying
+Beyond body weight, the whole dietary pattern matters more than any single nutrient: plenty of fruit and vegetables (supplying
 potassium, magnesium and vitamin K), a reliable calcium source, enough protein and enough energy
 [@iofNutritionProf]. (The overall pattern is set out in the
 [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ::: {.callout-note}
 ## Mechanical loading: a key modifiable factor
-Diet supports both building peak bone mass and slowing its later loss, and mechanical loading is another important
-modifiable influence on bone, the weight-bearing and resistance exercise met in the *Menopause & midlife health*
-chapter. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact
-training improved bone density more than a low-intensity home programme in postmenopausal women with low
-bone mass, with only one minor adverse event [@watson2018liftmor]. Nutrition and loading work together
-(calcium is the substrate, and loading is the stimulus for bone formation). When you advise a patient, name exercise as part
+Diet supports both building peak bone mass and slowing its later loss, and mechanical loading, the weight-bearing and resistance exercise met in the *Menopause & midlife health* chapter, is another important modifiable influence on bone. Nutrition and loading work together: calcium is the substrate, and loading is the stimulus for bone formation. In one small trial (101 women over 8 months), supervised high-intensity resistance and impact training improved bone density more than a low-intensity home programme in postmenopausal women with low bone mass, with only one minor adverse event [@watson2018liftmor]. When you advise a patient, name exercise as part
 of the plan and leave the detailed prescription to physical-activity guidance; HPB's own public message pairs
 a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009].
 :::
@@ -242,8 +235,8 @@ a high-calcium diet with weight-bearing exercise [@hpbOsteoporosisAwareness2009]
 
 Some foods are blamed for weak bones on thin evidence. The established dietary risks are low calcium, vitamin D or
 protein, low body weight and heavy alcohol; smoking is a major non-dietary risk [@iofRiskFactors;
-@ke2023alcoholFracture; @law1997smokingHipFracture]. Three popular claims are weaker than the headlines
-suggest:
+@ke2023alcoholFracture; @law1997smokingHipFracture]. Three popular claims are weaker than often
+supposed:
 
 - Heavy salt raises urinary calcium, but its link to fracture is weak; the reason to cut salt is blood
   pressure [@teucher2008sodiumBone].
@@ -347,11 +340,10 @@ The ACR gout guideline grades these dietary limits as only conditional, on low-q
 popular remedies fare no better: cherries are linked to fewer flares only in observational data, and vitamin C
 does not meaningfully lower urate [@fitzgerald2020goutacr; @zhang2012cherry; @stamp2013vitc].
 
+Obesity is linked to a higher risk of gout, and the ACR guideline also conditionally recommends weight loss for patients with gout who are overweight [@fitzgerald2020goutacr]; obesity itself is covered in the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.
+
 When you counsel a patient with gout, the message is: "It is not your fault. Don't starve yourself of
 protein and vegetables, cut the beer and sugary drinks if you like, and take the medication to target."
-(Obesity is linked to a higher risk of gout, and the ACR guideline conditionally recommends weight loss for
-patients with gout who are overweight [@fitzgerald2020goutacr]; obesity itself is covered in the
-[*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
 
 ### Rheumatoid arthritis: nutrition as an adjunct {#sec-bone-ra}
 
@@ -383,9 +375,7 @@ assessment or drug treatment, and refer.
 
 ### Osteoporosis: case-finding, diagnosis and drug treatment {#sec-bone-refer-osteoporosis}
 
-National guidance covers case-finding and treatment. HPB's public message pairs two measures, a
-high-calcium diet and weight-bearing exercise [@hpbOsteoporosisAwareness2009]. Four terms describe
-case-finding and diagnosis:
+National guidance covers case-finding, diagnosis and drug treatment. Four terms describe case-finding and diagnosis:
 
 OSTA
 : An Asian screen, based on age and weight, that flags who needs a bone scan [@koh2001osta].
@@ -447,17 +437,12 @@ For the joints, the answer usually does not involve a supplement:
 
 ## The Singapore context {#sec-bone-singapore}
 
-**Two local findings contradict common assumptions.** Vitamin D deficiency is common in a sunny country, driven
-by behaviour and pigmentation and unequal across ethnic groups (see [vitamin D](#sec-bone-vitd) above)
-[@cheong2021vitDsg]. Average calcium intake (~794 mg/day) falls short, with about half of older adults below
-the requirement (see [calcium](#sec-bone-calcium) above) [@ye2023daha]. The common assumptions (that a
-sunny country has little vitamin D deficiency, and that calcium means dairy) therefore fail here, which is why
-a dairy-optional, food-first calcium list matters.
+**Two local findings contradict common assumptions.** The first assumption is that a sunny country has little vitamin D deficiency, yet deficiency is common here, driven by behaviour and pigmentation and unequal across ethnic groups (see [vitamin D](#sec-bone-vitd) above) [@cheong2021vitDsg]. The second is that calcium means dairy. Average calcium intake (~794 mg/day) falls short, with about half of older adults below the requirement (see [calcium](#sec-bone-calcium) above) [@ye2023daha], which is why a dairy-optional, food-first calcium list matters.
 
 **Hip-fracture rates are falling, but the count is rising.** Singapore's hip-fracture *rates* have fallen
 since 2000 (and continued to fall to 2022), yet absolute *cases* keep rising with the ageing population, and
 osteoporotic fractures are projected to climb further by 2035 [@yong2019hipfracSG; @aceOsteoporosis2025;
-@chandran2019burdenSG]. Fractures are about twice as common in women as in men, and Chinese Singaporeans
+@chandran2019burdenSG]. The burden is uneven: fractures are about twice as common in women as in men, and Chinese Singaporeans
 have the highest risk of any ethnic group [@yong2019hipfracSG]. A hip fracture also carries high mortality: about double
 the background rate in women, and higher in men [@yong2020mortalitySG].
 

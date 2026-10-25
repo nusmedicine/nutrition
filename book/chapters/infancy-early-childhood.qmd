@@ -72,7 +72,7 @@ Falling iron stores set when solids begin and which foods come first, and, on cu
 
 The question parents ask most, "when do we start?", has a physiological answer. Solids begin at
 about 6 months because the iron stores present at birth are running out, so the first foods must be
-iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short, and the first foods carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
+iron-rich: fortified cereal, minced meat or fish, egg, legumes and tofu [@baker2010iron]. Zinc is the other nutrient most likely to fall short [@whoComplementaryFeeding2023]. What the first foods leave out matters too: they carry no added salt or sugar, because the infant kidney is immature and taste preferences are being set [@whoComplementaryFeeding2023].
 
 The infant's readiness, not the calendar, sets the start for each child. A ready infant shows four
 signs, usually near 6 months and not before 4 months:
@@ -94,9 +94,10 @@ and, in infancy, causes occult (hidden) blood loss from the gut, a direct route 
 **complementary foods** (solids given alongside milk) from 6 months, so the distinction is between cow's milk as the main drink and dairy
 as a food.
 
-The aim is to prevent iron deficiency before it starts. Iron deficiency in the brain-growth
-window between 6 and 24 months can leave neurocognitive effects that persist into adulthood despite
-later iron, which is a main reason for getting the first foods right [@lukowski2010iron].
+Both iron rules, iron-rich first foods and no cow's milk as the main drink, aim to prevent iron
+deficiency before it starts, because iron deficiency in the brain-growth window between 6 and 24
+months can leave neurocognitive effects that persist into adulthood despite later iron
+[@lukowski2010iron].
 
 Textures also have to progress. Introducing lumps later than about 9 to 10 months is linked to more
 feeding difficulty years later, so food moves from purée to mashed to soft finger foods on schedule,
@@ -117,9 +118,9 @@ the same way, although poor adherence limited its effect; a meta-analysis confir
 and egg [@perkin2016eat; @ierodiakonou2016].
 
 In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
-applies: LEAP studied only these high-risk infants, so its 80% figure does not transfer to every
-infant (the high-risk infant is referred; see [Recognising trouble, and when to
-refer](#sec-hazards)).
+applies: LEAP studied only high-risk infants, so its 80% figure does not transfer to every
+infant, and a high-risk infant is referred for specialist-guided introduction (see [Recognising
+trouble, and when to refer](#sec-hazards)).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: iron stores run low at about 6 months. Why does that keep cow's milk from being the main drink until about 12 months?
@@ -152,10 +153,10 @@ yet". Within a single feed, the watery **foremilk** gives way to the fat-rich **
 
 Two components of breast milk have functions that no formula fully reproduces. **Secretory IgA**, an antibody,
 coats the infant's gut and blocks pathogens while the infant's own immunity matures. Human milk
-oligosaccharides (HMOs), sugars the infant cannot digest (see [*The
-gut microbiome*](gut-microbiome.qmd#sec-development) chapter), selectively feed *Bifidobacterium*.
-Feeding *Bifidobacterium* seeds the infant microbiome and, through short-chain fatty acids, supports
-the gut barrier [@ballard2013milk; @dinleyici2023hmo].
+oligosaccharides (HMOs) are sugars the infant cannot digest. They selectively feed *Bifidobacterium*,
+and in doing so seed the infant microbiome and, through short-chain fatty acids, support the gut
+barrier [@ballard2013milk; @dinleyici2023hmo] (see [*The gut microbiome*](gut-microbiome.qmd#sec-development)
+chapter).
 
 The slogan "breast is best" needs to be checked against the evidence. The strongest data come from
 PROBIT, a large cluster-randomised trial of breastfeeding support, which found real reductions in
@@ -177,18 +178,18 @@ the [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.q
 | Vitamin K | Breast milk is low in vitamin K | A single injection at birth |
 | Iron | The stores present at birth last about 6 months, then deplete | Iron-rich first foods from about 6 months |
 
-Vitamin D is the one routine daily infant supplement. **Vitamin K deficiency bleeding** is bleeding
-in newborns and young infants caused by too little vitamin K. Because breast milk is low in
-vitamin K, breastfed infants are the most prone to it, and the single injection at birth prevents
-it [@hand2022vitk]. The depletion of iron stores at about 6 months sets the timing of solids (see
+Of the three remedies, only vitamin D is a routine daily supplement. Vitamin K is given once.
+Because breast milk is low in it, breastfed infants are the most prone to **vitamin K deficiency
+bleeding** (bleeding in newborns and young infants caused by too little vitamin K), and the single
+injection at birth prevents it [@hand2022vitk]. The iron gap is filled by food instead, and the
+depletion of iron stores at about 6 months sets the timing of solids (see
 [Starting solids](#sec-starting-solids)).
 
 The recommendation built on the evidence above and these gaps is **exclusive breastfeeding**
 (breast milk only, with no other food or drink apart from vitamin drops or medicines) for about 6
-months. After that come complementary foods, with continued
-breastfeeding into the second year, supported by the Baby-Friendly Hospital Initiative
-[@whoBreastfeeding]. The recommendation is applied with the iron and allergen caveats above
-[@kramer2012cochrane].
+months, followed by complementary foods with continued breastfeeding into the second year; the
+Baby-Friendly Hospital Initiative supports this pattern [@whoBreastfeeding]. The recommendation is
+applied with the iron and allergen caveats above [@kramer2012cochrane].
 
 ### Formula and mixed feeding {#sec-formula}
 
@@ -230,7 +231,8 @@ tries [@spill2019exposure; @mascola2010picky]. Second, pressure backfires: "fini
 associated with more fussiness, not less. A fussy child also draws more pressure from parents, so
 the association runs both ways [@jansen2017pressure].
 
-**Baby-led weaning**, in which the infant feeds itself instead of being spoon-fed, is a reasonable
+Letting the infant lead can extend to the feeding method itself. **Baby-led weaning**, in which the
+infant feeds itself instead of being spoon-fed, is a reasonable
 parent choice when an iron-rich food is offered at each meal; it is no better and no worse than
 spoon-feeding on iron [@daniels2018bliss]. Choking depends on food form, not on the feeding method:
 about a third of infants choke at least once between 6 and 8 months, at a similar rate whichever
@@ -266,15 +268,12 @@ Three rules prevent avoidable harm in the first years:
   @whoComplementaryFeeding2023].
 
 A few infants need more than the default advice for the healthy term infant, and are referred.
-Preterm and low-birth-weight infants are the first case. Their iron stores deplete earlier and
-their solids are timed by **corrected age** (age counted from the due date), so their feeding is
-individualised.
-
-The infant at high risk of allergy (severe eczema or egg allergy) is the second; for this infant,
-peanut introduction is specialist-guided instead of improvised. The third is the infant with
-faltering growth (faltering growth is among the refer triggers in the
-[*Childhood & adolescence*](childhood-adolescence.qmd) chapter). The referral cues are summarised
-below:
+Preterm and low-birth-weight infants have iron stores that deplete earlier, and their solids are
+timed by **corrected age** (age counted from the due date), so their feeding is individualised. For
+the infant at high risk of allergy (severe eczema or egg allergy), peanut introduction is
+specialist-guided instead of improvised. Faltering growth is also a reason to refer, as it is in
+older children (see the [*Childhood & adolescence*](childhood-adolescence.qmd) chapter). The
+referral cues are summarised below:
 
 | Sign | Action |
 |---|---|
@@ -300,8 +299,8 @@ of improvised.
 
 ## Is "breast is best" the whole story? {#sec-close}
 
-Breast milk is a good start but is not nutritionally complete. It leaves three specific gaps (vitamin D,
-vitamin K and iron), and formula and mixed feeding are safe alternatives. Much of what protects an
+Breast milk is a good start but is not nutritionally complete: it leaves three specific gaps (vitamin D,
+vitamin K and iron). Formula and mixed feeding are safe alternatives, and much of what protects an
 infant lies beyond the milk itself:
 
 - iron-rich first foods at about 6 months, because the iron stores present at birth run out;

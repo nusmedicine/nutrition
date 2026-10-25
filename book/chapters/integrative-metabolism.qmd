@@ -125,14 +125,7 @@ glucose-6-phosphate, which cannot leak back out. G6P can then take one of four r
   This route is how blood glucose is maintained in a fast (see
   [The fasted state](#sec-fasted)).
 
-Glycolysis runs in the cytosol (the fluid that fills the cell around its organelles) and does not need
-oxygen. It has a single committed, regulated step (the enzyme phosphofructokinase-1) and yields a
-little ATP directly. Pyruvate is converted to **lactate** when oxygen is scarce, as in a sprinting
-muscle, or in a cell with no mitochondria (the organelles that burn fuel with oxygen), such as a red
-blood cell. Making lactate regenerates the molecule glycolysis needs to keep
-running, so the cell can make ATP without oxygen. Oxygen is used later, in the mitochondrion
-(see [The TCA cycle and oxidative phosphorylation](#sec-furnace)), and not in glycolysis itself. Even
-so, the belief that glycolysis consumes oxygen is a common misconception about glucose breakdown.
+Glycolysis runs in the cytosol (the fluid that fills the cell around its organelles) and does not need oxygen. It has a single committed, regulated step (the enzyme phosphofructokinase-1) and yields a little ATP directly. Oxygen is used only later, in the mitochondrion (see [The TCA cycle and oxidative phosphorylation](#sec-furnace)), so the common belief that glycolysis consumes oxygen is a misconception. When oxygen is scarce, as in a sprinting muscle, or in a cell with no mitochondria (the organelles that burn fuel with oxygen), such as a red blood cell, pyruvate is converted to **lactate**. Making lactate regenerates the molecule glycolysis needs to keep running, so the cell can make ATP without oxygen.
 
 ::: {.callout-note}
 ## 🔬 Food science: why anaerobic exercise burns glucose, not fat
@@ -151,9 +144,7 @@ Pyruvate, the end product of glycolysis, is a branch point from which its carbon
 - back toward glucose via oxaloacetate, the first step of making new glucose;
 - forward into acetyl-CoA.
 
-The last step, from pyruvate to acetyl-CoA, is irreversible. It is catalysed by pyruvate
-dehydrogenase (PDH), and it is the first of the map's four irreversible
-steps, and it has an important consequence for fasting.
+The last of these routes, from pyruvate to acetyl-CoA, is irreversible. Catalysed by pyruvate dehydrogenase (PDH), it is the first of the map's four irreversible steps, and its one-way direction has an important consequence for fasting.
 
 ::: {.callout-important}
 ## Why fatty acids cannot become glucose
@@ -165,12 +156,10 @@ glucose must be maintained, and new glucose made, when food runs short.
 
 ### Glycogen metabolism and gluconeogenesis {#sec-glucose-store}
 
-When the diet stops supplying glucose, two sources supply it in turn.
+When the diet stops supplying glucose, two sources take over in turn.
 
 **Glycogen, the short-term store.** Glucose is stored as glycogen, a branched chain of glucose units, in
-liver and muscle. Building it (**glycogenesis**) and breaking it down (**glycogenolysis**) are
-reciprocally controlled, so the store is either filling or emptying, not both. Glycogen is a
-short-term store, enough for hours, not days.
+liver and muscle, a store that lasts hours, not days. Building it (**glycogenesis**) and breaking it down (**glycogenolysis**) are reciprocally controlled, so the store is either filling or emptying, not both.
 
 **Gluconeogenesis, making glucose from non-carbohydrate sources.** When glycogen runs low, the liver (and, later, the
 kidney) builds new glucose from three raw materials: lactate, glycerol and **glucogenic** amino acids,
@@ -204,9 +193,7 @@ CPT1. One reciprocal switch therefore keeps burning and building from running at
 
 **Ketone bodies.** Acetyl-CoA has a third fate, which matters in a long fast. When fat breakdown floods
 the fasting liver with more acetyl-CoA than it can burn, the liver converts the surplus into ketone
-bodies (ketones for short) and exports them for other organs to use. The liver lacks the one enzyme
-needed to use ketones, so it cannot burn its own product and exports its entire output. Exported in
-this way, ketones come to fuel the brain in a long fast (see [Prolonged fasting](#sec-starvation)).
+bodies (ketones for short). The liver lacks the one enzyme needed to use ketones, so it cannot burn its own product and exports its entire output to other organs; in a long fast, ketones come to fuel the brain (see [Prolonged fasting](#sec-starvation)).
 
 ### The TCA cycle and oxidative phosphorylation {#sec-furnace}
 
@@ -230,9 +217,9 @@ numbers are approximate: what matters is the roughly 15-fold gap between aerobic
 ATP is easily mistaken for the body's energy store, but it is an energy currency. The body holds only
 seconds' to minutes' worth at any moment, yet turns over close to its own weight in ATP each day [@tornroth2008gate],
 making and spending it continuously. The body's energy stores are glycogen and fat, which are converted
-into ATP on demand. Not every carrier serves ATP production: NADPH, from the pentose phosphate pathway,
-supplies reducing power for synthesis and antioxidant defence and is kept separate from the carriers
-that generate ATP. Confusing the two is a common error.
+into ATP on demand.
+
+A second distinction concerns the electron carriers. Not all of them serve ATP production: NADPH, from the pentose phosphate pathway, supplies reducing power for synthesis and antioxidant defence and is kept separate from the carriers that generate ATP. Confusing NADPH with those carriers is a common error.
 
 ### The amino-acid pool: no storage protein {#sec-amino}
 
@@ -305,9 +292,8 @@ of the map to store the meal:
 - Adipose tissue, the fat depot, takes up glucose and stores fat. **Lipoprotein lipase**, the enzyme on
   its capillaries, strips triglyceride out of circulating lipoproteins to stock the fat cell
   [@wang2009lpl], and insulin is strongly anti-lipolytic: it inhibits the release of fat from the store.
-  (Adipose tissue also releases leptin in proportion to its fat stores, a long-term signal that the
-  brain uses to regulate appetite and body weight; see the
-  [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.)
+
+Adipose tissue does more than store fuel: it also releases leptin in proportion to its fat stores, a long-term signal that the brain uses to regulate appetite and body weight (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter).
 
 ::: {.callout-note}
 ## GLUT4 versus GLUT2
@@ -336,10 +322,7 @@ Clinically, the acute counter-regulatory response to a low blood glucose is gluc
 not cortisol and growth hormone [@cryer1993counterreg; @rizza1979].
 
 In a fast, almost every tissue that can burn fat switches to it, leaving the scarce glucose for the two
-consumers that depend on it, the brain and the red blood cell. This is **glucose sparing**. The red
-blood cell has no mitochondria, so it can run only glycolysis and must have glucose. The brain also
-depends on glucose. A widely taught explanation for this dependence is that fatty acids cannot cross
-into the brain, but that is not the reason: fatty acids are a poor brain fuel, because they travel
+consumers that depend on it, the brain and the red blood cell; this is **glucose sparing**. The red blood cell has no mitochondria, so it can run only glycolysis and must have glucose. The brain depends on glucose for a different reason. A widely taught explanation is that fatty acids cannot cross into the brain, but that is not the reason: fatty acids are a poor brain fuel, because they travel
 bound to albumin and neurons oxidise them poorly [@schonfeld2013].
 
 Glucose supply in a fast follows an order: glycogenolysis first, gluconeogenesis second. Liver
@@ -374,9 +357,9 @@ flowchart LR
 
 After about a day without food, blood glucose is being maintained partly by breaking down protein for
 gluconeogenesis, and protein is working tissue; left unchecked, a long fast would consume the body's
-own muscle. Ketone production limits this loss.
+own muscle. Ketone production limits this loss, because ketones made from fat replace much of the glucose the brain would otherwise need.
 
-The body's fuel reserves are of three very different kinds:
+The body holds three very different kinds of fuel reserve, and protein is the one it can least afford to spend:
 
 | Store | Rough size | Character |
 |---|---|---|
@@ -388,7 +371,7 @@ The exact figures vary by source and by method of counting, so they are best rea
 show the proportions: fat far exceeds the other reserves, glycogen is small by comparison, and protein is
 not a true reserve [@cahill2006fuel; @bergStryerFuel].
 
-Fasting proceeds in stages, often described as the **Cahill phases**. The fed state gives way to the
+The reserves are drawn on in turn as a fast proceeds, in stages often described as the **Cahill phases**. The fed state gives way to the
 post-absorptive state, which runs on glycogen, and then to early fasting, which runs on
 gluconeogenesis. Over days to weeks metabolism moves into protein-sparing **ketosis**, a raised level
 of ketones in the blood. The metabolic switch interactive above steps through the same four states.
@@ -422,7 +405,7 @@ or in the emergency described next. Rotate them below.
 
 Because the two words sound alike, the ketosis of a fast or a ketogenic diet is easily confused with
 **diabetic ketoacidosis (DKA)**, a medical emergency, and a patient starting a ketogenic diet may fear
-it. The two states differ in their setting, their insulin, their ketone level and their blood pH:
+it. The two states differ in their setting, their insulin, their ketone level and their blood pH (a person in DKA usually also has a very high blood glucose, or hyperglycaemia):
 
 |  | Physiological (nutritional) ketosis | Diabetic ketoacidosis (DKA) |
 |---|---|---|
@@ -430,8 +413,6 @@ it. The two states differ in their setting, their insulin, their ketone level an
 | Insulin | The residual insulin the person still makes restrains fat breakdown and ketone production | Almost absent, so fat breakdown and ketone production are unrestrained |
 | Ketones | A modest rise: roughly 0.5–3 mmol/L on a ketogenic diet, higher in prolonged starvation | High; the ranges can overlap with deep nutritional ketosis |
 | Blood pH | Normal | Acidic |
-
-A person in DKA usually has a very high blood glucose (hyperglycaemia) as well.
 
 ::: {.callout-important}
 ## The discriminator is the acidosis, not the ketone number
@@ -559,6 +540,8 @@ falls toward 0.7.
 
 ## Failures of metabolic regulation: diabetes, alcohol and hypoglycaemia {#sec-broken}
 
+Fed–fasted regulation fails clinically in two settings, diabetes and alcohol on an empty stomach; the second can end in hypoglycaemia, whose symptoms follow a typical order.
+
 **Diabetes.** When insulin is missing or ineffective, the regulation of fed and fasted metabolism
 fails: muscle and fat cannot take up and store glucose, so glucose accumulates in the blood while the
 cells behave as if starving. In type 1 diabetes, the total loss of insulin's inhibition of lipolysis
@@ -574,10 +557,7 @@ state called **hypoglycaemia** [@krebs1969alcohol]. Heavy drinking without eatin
 a hypoglycaemic collapse that looks like ordinary drunkenness.
 
 **Recognising hypoglycaemia.** As blood glucose falls, the counter-regulatory response produces
-symptoms in a typical order. Autonomic (neurogenic) warning symptoms come first: tremor, sweating,
-palpitations and hunger. They come from the autonomic nervous system, partly through adrenaline and
-noradrenaline (tremor, palpitations) and partly through acetylcholine-releasing (cholinergic) nerves
-(sweating, hunger), and appear at a higher glucose level, as an early alarm [@towler1993awareness]. **Neuroglycopenic** symptoms, those of the brain itself running short of glucose, follow:
+symptoms in a typical order. Autonomic (neurogenic) warning symptoms come first: tremor, sweating, palpitations and hunger. They appear at a higher glucose level, as an early alarm, and arise from the autonomic nervous system: partly through adrenaline and noradrenaline (tremor, palpitations), partly through acetylcholine-releasing (cholinergic) nerves (sweating, hunger) [@towler1993awareness]. **Neuroglycopenic** symptoms, those of the brain itself running short of glucose, follow:
 confusion, slurred speech and eventually loss of consciousness [@mitrakou1991;
 @diabetologia2022thresholds]. The reliable point is that the autonomic warning comes before the brain
 fails; the order of one symptom against another is less consistent than older teaching implied, and

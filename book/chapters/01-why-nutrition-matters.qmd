@@ -38,9 +38,7 @@ infection: pneumonia, sepsis, trauma. These have not gone away, but they are no 
 **non-communicable diseases (NCDs)**, chronic diseases that are not passed from person to person,
 cause around three-quarters of deaths worldwide, setting aside deaths from the COVID-19 pandemic
 [@whoNCD2025]. The main ones are
-cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. NCDs develop slowly and are, in
-large part, driven by a handful of modifiable behaviours: what we
-eat, how much we move, whether we sleep, smoke or drink. Diet is near the top of that list.
+cardiovascular disease, type 2 diabetes, cancers and chronic respiratory disease. These diseases develop slowly and are, in large part, driven by a handful of modifiable behaviours: what we eat, how much we move, whether we sleep, smoke or drink. Of these behaviours, diet ranks near the top.
 
 ## The burden of non-communicable disease {#sec-burden}
 
@@ -55,9 +53,7 @@ weights sodium is debated. The figure indicates that diet is among the leading m
 not a precise count of deaths.
 :::
 
-The rise of chronic disease changes the clinician's job. A clinician who can only treat the acute
-crisis necessarily intervenes late in the disease. The larger opportunity, and the harder skill, is to prevent and
-slow chronic disease, and nutrition is central to that work.
+Because chronic disease now causes most deaths, the clinician's job changes. A clinician who can only treat the acute crisis necessarily intervenes late in the disease. The larger opportunity, and the harder skill, is to prevent and slow chronic disease, and with diet among the largest modifiable risks, nutrition is central to that work.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: NCDs now cause most deaths. Why does that change the clinician's main task?
@@ -106,12 +102,11 @@ toward proactive, relationship-based prevention [@mohHealthierSG].
 ### Links between nutrition and the other pillars {#sec-hub}
 
 Of the six pillars, nutrition is central: it connects to each of the other five, in both directions,
-so a change in diet tends to affect the other pillars as well. The diagram below places nutrition at
-the centre, with a two-way link to each of the other pillars.
+so a change in diet tends to affect the other pillars as well. The diagram below shows these links, with nutrition at the centre.
 
 <div data-island="pillars-hub" data-src="/diagrams/pillars-hub.yml"></div>
 
-Nutrition links to each of the other five pillars in its own way:
+Each link works in its own way:
 
 - Diet and physical activity act together on weight and glucose; neither alone is as effective as
   both.
@@ -179,20 +174,11 @@ Whether that fall prevents heart attacks was not tested in that trial.
 
 Nutrition is often neglected in the clinic, largely because doctors are under-trained in it:
 graduates across many countries report feeling under-prepared to give dietary advice [@crowley2019].
-Yet nutrition counselling is a core competency that can be learned and examined, and diet is a
-behaviour that a clinician can assess and help change [@frost2018mi]. A patient's diet is a set of
-habits, shaped by environment and circumstance, that responds to skilled advice.
+Yet nutrition counselling is a core competency that can be learned and examined. Diet is a behaviour that a clinician can assess and help change [@frost2018mi], because a patient's diet is a set of habits, shaped by environment and circumstance, that responds to skilled advice.
 
 ::: {.callout-important}
 ## The scope at this stage
-The aim is nutritional literacy: the science, the Singapore context and the skill of advising
-patients well. Training as a dietitian and prescribing protocols lie outside it at this stage.
-Detailed medical nutrition therapy (a dietitian's individualised nutrition plan for a medical
-condition), drug choices and disease management come later in training. Deciding when to refer is
-taught later in this book, in the [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd)
-chapter and the disease chapters. At this
-stage, nutrition is about motivation, concepts and the clinical conversation, taught with humility
-about what the evidence does and does not show.
+The aim at this stage is nutritional literacy: the science, the Singapore context and the skill of advising patients well. The emphasis is on motivation, concepts and the clinical conversation, taught with humility about what the evidence does and does not show. Training as a dietitian and prescribing protocols lie outside that aim, and detailed medical nutrition therapy (a dietitian's individualised nutrition plan for a medical condition), drug choices and disease management come later in training. Deciding when to refer, however, is taught in this book, in the [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter and the disease chapters.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -206,10 +192,7 @@ that responds to skilled advice.
 ## Why should a doctor care about food? {#sec-close}
 
 NCDs now cause most deaths, and diet is among their leading modifiable risks. Unlike much of
-medicine, diet is something the patient can change, so advising on it is part of the doctor's job.
-Diet is linked in both directions to activity, sleep, stress, social life and alcohol, so improving
-it can benefit the other pillars too, and advising on it is a clinical skill that can be learned and
-examined.
+medicine, diet is something the patient can change, so advising on it is part of the doctor's job. Because diet is linked in both directions to activity, sleep, stress, social life and alcohol, improving it can benefit the other pillars too. Advising on diet is a clinical skill that can be learned and examined.
 
 ## The Singapore context {#sec-singapore}
 
@@ -225,7 +208,7 @@ The National Nutrition Survey 2022 shows how far the population diet departs fro
 | Only ~4% of staples eaten are wholegrain | A quality gap (refined rice and noodles dominate) |
 | ~9 in 10 residents exceed the WHO sodium limit | Most sodium comes from sauces, broths and food eaten out |
 
-Singapore translates the guidelines into two tools that clinicians use in counselling:
+To help close that gap, Singapore translates the guidelines into two tools that clinicians use in counselling:
 
 My Healthy Plate
 : The "quarter, quarter, half" plate: ¼ wholegrains, ¼ protein, ½ fruit and vegetables

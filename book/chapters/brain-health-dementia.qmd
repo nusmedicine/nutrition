@@ -45,8 +45,8 @@ summarise the evidence:
   best-supported, most actionable advice. It is the same prevention as for heart disease and diabetes
   (see the [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) and
   [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
-- A brain-healthy eating pattern is a reasonable, low-risk choice, not a proven cure. The cohort
-  studies look impressive, but the one prevention trial built to test a brain diet was negative.
+- A brain-healthy eating pattern is a reasonable, low-risk choice, not a proven cure. Cohort studies
+  report large associations, but the one prevention trial built to test a brain diet was negative.
 - No brain supplement is proven to prevent dementia, and a few can do harm.
 - Late in the disease the concern shifts from prevention to eating difficulty. Weight loss and
   difficulty eating are an expected part of advanced dementia, not a nutritional gap to fill with a
@@ -59,10 +59,7 @@ or doses are needed.
 
 Two kinds of brain damage usually occur together in dementia.
 
-The first is **neurodegeneration**: the accumulation of abnormal proteins, with loss of synapses and
-neurons and brain atrophy. Two proteins accumulate: **amyloid-β**, in plaques between neurons, and
-**tau**, in tangles inside them. Neurodegeneration is the dominant process in Alzheimer's disease.
-Its exact causal chain is still debated, so the amyloid-and-tau account is the leading model, not
+The first is **neurodegeneration**, the dominant process in Alzheimer's disease: two abnormal proteins accumulate (**amyloid-β** in plaques between neurons and **tau** in tangles inside them), with loss of synapses and neurons and brain atrophy. Its exact causal chain is still debated, so the amyloid-and-tau account is the leading model, not
 settled fact.
 
 The second is vascular: damage to the brain's small blood vessels, called **cerebral small-vessel
@@ -118,16 +115,12 @@ factors.
 The Lancet Commission estimates that up to about 45% of dementia is associated with a set of
 modifiable factors across a lifetime [@livingston2024lancet]. The figure is a
 **population-attributable estimate**: a theoretical ceiling that assumes these factors are fully causal
-and could be eliminated from the whole population. The estimate is easy to oversell. It does not
+and could be eliminated from the whole population. The estimate is easy to oversell: it does not
 mean that one person who controls their risk factors cuts their own risk by 45%, and it is not proof
 from a trial.
 
 Each risk factor raises risk only modestly, and reducing vascular damage is one of several ways the
-factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number
-comes from adding many common exposures across a life, not from one dominant cause. Two further
-points help in interpreting the estimate. The largest single contributors in the model are hearing loss and high LDL cholesterol (about 7%
-each), followed by less education and social isolation (about 5% each). Diet is not among the modelled
-factors, because the Commission judged its evidence not consistent enough to include. Midlife is also a key period, so prevention is a long-term
+factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number comes from adding many common exposures across a life, not from one dominant cause. Three further points help in interpreting the estimate. First, the largest single contributors in the model are hearing loss and high LDL cholesterol (about 7% each), followed by less education and social isolation (about 5% each). Second, diet is not among the modelled factors, because the Commission judged its evidence not consistent enough to include. Third, midlife is a key period, so prevention is a long-term
 effort.
 
 The best trial evidence that treating a vascular risk factor protects the brain comes from SPRINT
@@ -142,7 +135,7 @@ caveat, it is the best trial evidence available, and it points to vascular risk.
 The belief that a diet can prevent dementia comes from cohort studies. The **MIND diet** is a blend of
 Mediterranean and DASH eating that emphasises leafy greens, berries, nuts, wholegrains, fish and olive
 oil. In observational cohorts it was linked to a large reduction in Alzheimer's disease: roughly half
-the risk in the highest-adherence group [@morris2015mindad]. The result is impressive, and widely
+the risk in the highest-adherence group [@morris2015mindad]. The association is large, and widely
 repeated as fact.
 
 A three-year randomised trial of the MIND diet, built specifically to answer the prevention question,
@@ -155,9 +148,9 @@ Three explanations could account for the difference (see the [*Evidence vs hype*
   That is **confounding**: distortion of an association by a third factor linked to both the
   exposure and the outcome.
 - Early, undiagnosed disease can dull appetite and worsen diet (reverse causation).
-- Three years may be too short.
+- The trial's three years may have been too short.
 
-It is rarely possible to predict which promising observational findings a randomised trial will confirm.
+Because any of these can be at work, it is rarely possible to predict which promising observational findings a randomised trial will confirm.
 
 <div data-island="trial-check" data-src="/diagrams/trial-check.yml"></div>
 
@@ -195,10 +188,10 @@ not dietary:
   vessels (see the [*Healthy ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
 - correcting hearing and vision, which matters more than most people expect: uncorrected hearing loss
   is one of the largest single modifiable contributors to dementia risk, so "get your hearing and eyes
-  checked" is concrete, useful advice.
+  checked" is concrete, useful advice;
+- staying socially and mentally engaged, and treating depression and sleep problems.
 
-Staying socially and mentally engaged, and treating depression and sleep problems, complete the
-list. Building **cognitive reserve** (the brain's capacity to absorb damage before dementia shows)
+Building **cognitive reserve** (the brain's capacity to absorb damage before dementia shows)
 and social reserve early also helps: greater reserve, together with less vascular damage, is thought
 to be part of why age-specific dementia incidence has fallen in some high-income countries
 [@livingston2024lancet].
@@ -234,12 +227,9 @@ is linked to harm, including *more* pressure ulcers [@davies2021cochranetubefeed
 @teno2012pressureulcers]. Geriatrics societies and the Choosing Wisely campaign converge on the same
 position: **careful hand feeding**, offering food for comfort, is preferred [@ags2014feedingtubes; @agscw2013fivethings].
 
-The generalist's task is to recognise the trajectory and explain gently that the weight loss is part
-of the illness and not neglect; the referral that follows is set out in
-[When to refer](#sec-dementia-refer).
+Two things are separate from the tube question and still appropriate: correcting a genuine vitamin deficiency, and supporting oral intake with feeding help earlier in the disease.
 
-Two things are separate from the tube question and still appropriate: correcting a genuine vitamin
-deficiency, and supporting oral intake with feeding help earlier in the disease.
+The generalist's task is to recognise the trajectory and explain gently that the weight loss is part of the illness and not neglect; the referral that follows is set out in [When to refer](#sec-dementia-refer).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is the weight loss of advanced dementia not a gap that a feeding tube can close?
@@ -261,10 +251,7 @@ for a referral instead of further advice or a product:
   refer, not to start a supplement.
 - Weight loss in advanced dementia. Once the trajectory is recognised and explained, refer for a
   goals-of-care conversation instead of reaching for a tube.
-- Swallowing difficulty (dysphagia). A common ward practice to watch is routinely thickening fluids
-  for dysphagia. The evidence for routine thickening in dementia is weak: it can reduce aspiration
-  in the moment, but its longer-term effects are uncertain [@flynn2018cochranethickening]. Recognise
-  the practice and refer to a speech therapist, who sets the texture level, instead of assuming it is needed.
+- Swallowing difficulty (dysphagia). Fluids are often thickened routinely for dysphagia on the ward, yet the evidence for routine thickening in dementia is weak: it can reduce aspiration in the moment, but its longer-term effects are uncertain [@flynn2018cochranethickening]. Refer to a speech therapist, who sets the texture level, instead of assuming thickening is needed.
 
 The recognise-and-refer approach, and the malnutrition screening behind it, are set out in the
 [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
@@ -296,22 +283,19 @@ evidence-based answer is careful hand feeding for comfort, not a tube, with a re
 
 Singapore is ageing quickly, and dementia is common: about 1 in 11 residents aged 60 and over live with
 it, and about half of community dementia is still undiagnosed [@subramaniam2025wisedecade]. That
-undiagnosed half is the argument for the generalist's recognise-and-refer role. Locally,
-dementia is commoner in Indian than Chinese residents. Indian residents in the survey also reported
+undiagnosed half is the argument for the generalist's recognise-and-refer role.
+
+The same survey found dementia commoner in Indian than Chinese residents. Indian residents also reported
 more stroke, and the authors suggest the heavier cardiovascular risk seen in South Asian populations as
 one explanation, although diagnosed diabetes and hypertension were not themselves linked to dementia
-in that survey [@subramaniam2025wisedecade]. "Brain health is vascular health", which rests on the
-wider evidence, is a message that fits national diabetes and hypertension efforts.
+in that survey [@subramaniam2025wisedecade]. Whatever the local explanation, the message "brain health is vascular health" rests on the wider evidence and fits national diabetes and hypertension efforts.
 
 Two local realities shape counselling. The first is a large local market in over-the-counter "brain
-tonics" (ginkgo, fish oil and traditional tonics). Being sold in a pharmacy does not make a product
-proven or approved for dementia.
+tonics" (ginkgo, fish oil and traditional tonics), so patients need to hear that being sold in a pharmacy does not make a product proven or approved for dementia.
 
 The second is a set of local socio-cultural findings. In a multi-ethnic Singapore cohort, overall diet
 quality is associated with better cognition [@huangx2023singaporemec], and regular curry (curcumin) intake has
-been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry]. The
-curry finding generates a hypothesis; it is not a prescription. Local programmes such as the
-SINGER study are adapting the multidomain approach to Singaporean food and life [@chew2021singerpilot].
+been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry], but the curry finding generates a hypothesis, not a prescription. Local programmes such as the SINGER study are also adapting the multidomain approach to Singaporean food and life [@chew2021singerpilot].
 
 ## Check your understanding {#sec-quiz}
 

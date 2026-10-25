@@ -40,21 +40,19 @@
 Energy balance can be written as arithmetic, calories in minus calories out (see the
 [*Energy balance*](energy-balance.qmd#sec-overview) chapter). That arithmetic holds, but its terms are not freely
 chosen. Appetite is a **controlled variable**: an integrated system of hormones and brain circuits
-regulates it, as other homeostatic systems regulate blood glucose and body temperature. Appetite is not
+regulates it, as other homeostatic systems regulate blood glucose and body temperature, and it is not
 simply a matter of conscious choice.
 
 The system uses two kinds of signal. The long-term signal is leptin, released by fat in proportion to
 fat mass, which signals to the brain how large the fat stores are over days and weeks. The short-term
 signals are gut hormones that rise and fall across a single meal and govern when a meal starts and
-when it ends. Both act on circuits in the hypothalamus that set hunger. The brain's **reward system**,
+when it ends. Both act on circuits in the hypothalamus that set hunger. Alongside this homeostatic control, the brain's **reward system**,
 which drives eating because food is pleasurable and available, can override fullness when such food
-is abundant. Body weight itself is regulated, and the responses that oppose weight loss
+is abundant. Beyond hunger and fullness, body weight itself is regulated, and the responses that oppose weight loss
 are far stronger than those that oppose weight gain.
 
 Appetite is therefore a regulated biological drive, not a matter of willpower. The same physiology
-explains cravings, regain after a diet and why weight is so hard to lose. A few modifiable factors
-(protein and fibre, portion sizes and drink choices, sleep and stress) are more useful than simply advising patients to eat less. This physiology is the basis for managing weight without blame, and the reason "eat less, move more"
-is true but insufficient.
+explains cravings, regain after a diet and why weight is so hard to lose, and it is the basis for managing weight without blame. It also explains why "eat less, move more" is true but insufficient. A few modifiable factors (protein and fibre, portion sizes and drink choices, sleep and stress) are more useful than simply advising patients to eat less.
 
 ## How hunger and fullness are controlled {#sec-control}
 
@@ -140,7 +138,7 @@ hormones signal to the brain.
 and falls after eating, which is why it is called the hunger hormone [@kojima1999ghrelin;
 @cummings2001preprandial]. Part of the pre-meal rise appears to be learned: in rats fed on a fixed
 schedule, ghrelin climbs in anticipation of the usual meal time [@drazen2006fixedmeal], so hunger may
-partly follow the clock (and the smell of the hawker centre) as well as an empty stomach. In a small
+partly follow the clock (and the smell of the hawker centre) as well as an empty stomach. The type of food eaten also affects ghrelin: in a small
 human study, protein suppressed ghrelin the most overall, while after carbohydrate it rebounded above
 its pre-meal level [@fosterschubert2008ghrelin], which may be part of why protein is so filling.
 
@@ -187,8 +185,7 @@ obesity.
 
 ## What makes a meal filling {#sec-satiety}
 
-Three everyday words describe different parts of the fullness cycle [@benelam2009satiation], and they
-are easily confused:
+Two meals with the same calories can differ in how filling they are. Three everyday words, easily confused, describe different parts of the fullness cycle [@benelam2009satiation]:
 
 Hunger
 : The drive that starts a meal.
@@ -211,7 +208,7 @@ The signals behind satiation and satiety unfold over time in a **satiety cascade
 4. Absorbed nutrients
 :::
 
-What and how people eat changes fullness for the same calories, through five factors:
+What is eaten, and how, acts on these signals through five factors:
 
 | Factor | Why it works | Practical version |
 |---|---|---|
@@ -285,20 +282,17 @@ Two everyday phenomena follow. **Hedonic hunger** is wanting food for pleasure w
 the experience of being full but still eating [@lowe2007hedonic]. **Sensory-specific satiety**
 explains "always room for dessert": the pleasantness of a food falls as it is eaten, but a different
 food (something sweet after a savoury meal) stays appealing [@rolls1981sensory]. The same effect is
-why buffets and variety make people eat more.
+why buffets and variety make people eat more. The surroundings add triggers of their own: **food cues**, the sight, smell and advertising of food, engage the reward system and can spark food-seeking even after a full meal [@volkow2017dopamine].
 
-**Food cues**, the sight, smell and advertising of food, also trigger the reward system, and they
-can spark food-seeking even after a full meal [@volkow2017dopamine].
-
-The foods themselves can also be built to trigger the reward system. **Ultra-processed foods** are
-industrial formulations made largely from refined ingredients and additives, with little intact whole food. One measure of such foods is **hyper-palatability**: pairing fat with sugar or salt, or carbohydrate with salt, above set thresholds. By one such definition, 62% of foods in a US food database qualified [@fazzino2019hyperpalatable].
+The foods themselves can be built to trigger the reward system as well. **Ultra-processed foods** are
+industrial formulations made largely from refined ingredients and additives, with little intact whole food. One measure of such foods is **hyper-palatability**: pairing fat with sugar or salt, or carbohydrate with salt, above set thresholds. By one published definition, 62% of foods in a US food database qualified [@fazzino2019hyperpalatable].
 
 The strongest controlled evidence that ultra-processed foods drive overeating comes from a small
 inpatient trial (see the *Digestion and absorption* chapter). Twenty adults on a metabolic ward ate an
 ultra-processed diet and an unprocessed one for two weeks each. The diets were matched for the calories
 presented, energy density, macronutrients, sugar, salt and fibre, yet people still ate about
 500 kcal/day more on the ultra-processed diet [@hall2019upf]. The trial was small and short, and why
-people ate more on the ultra-processed diet is still unclear. Overeating in this setting is a
+people ate more on the ultra-processed diet is still unclear. Whatever the mechanism, overeating in this setting is a
 normal reward system responding to an abnormal environment, not a character flaw
 [@berthoud2017blaming].
 
@@ -342,8 +336,8 @@ After substantial weight loss, three systems shift together, and all three favou
 The claim that "dieting permanently wrecks your metabolism" comes largely from one study. Contestants
 on *The Biggest Loser* who lost about 58 kg had, six years later, resting metabolic rates about
 500 kcal/day below what their body size predicted [@fothergill2016biggestloser]. The study's own
-senior author later revisited the data. The contestants who kept the weight off were also those who
-sustained large increases in physical activity, and under an energy-compensation model that ongoing effort, not permanent damage, lowers
+senior author later revisited the data and found that the contestants who kept the weight off were also those who
+sustained large increases in physical activity. Under an energy-compensation model, that ongoing effort, not permanent damage, lowers
 resting metabolism [@hall2022biggestloser]. In ordinary dieters, metabolic adaptation is real
 but modest and largely reversible, and the *Biggest Loser* cohort is an extreme outlier. Adaptation makes
 weight maintenance hard; it does not make weight loss impossible or leave the metabolism "broken".
@@ -360,8 +354,8 @@ especially for
 calorie-dense foods [@sleepRestriction]. Pooled across trials, partial sleep loss adds on average
 about 385 kcal/day of intake with no rise in energy expenditure, a clear shift toward positive energy
 balance [@alkhatib2017partialsleep]. Sleep loss also weakens cortical control over eating (a
-"cortical brake") and amplifies reward responses to food [@greer2013sleepdeprivation]. Meal timing
-matters too: eating late, against the circadian (body) clock, raises hunger and lowers energy
+"cortical brake") and amplifies reward responses to food [@greer2013sleepdeprivation]. The timing of meals, as well as of sleep,
+matters: eating late, against the circadian (body) clock, raises hunger and lowers energy
 expenditure even at identical calories [@vujovic2022lateeating], one reason shift work and late
 suppers are metabolically taxing.
 
@@ -377,7 +371,7 @@ In obesity, the same regulatory system maintains an elevated weight, so the prob
 of discipline. A person with obesity is working against homeostatic signals that maintain the higher
 weight: high but ineffective leptin, a hunger drive that rises as soon as weight is lost, and energy
 expenditure that adapts. Obesity is increasingly understood as a condition of a dysregulated system,
-not a lifestyle choice. A 2025 commission distinguishes two forms: *clinical* obesity, in which excess fat
+not a lifestyle choice, and a recent definition reflects this. A 2025 commission distinguishes two forms: *clinical* obesity, in which excess fat
 already impairs how organs or the whole person function, is a chronic disease, whereas *preclinical*
 obesity, with function preserved, is a state of raised risk [@rubino2025clinicalobesity].
 
@@ -419,8 +413,7 @@ behaves as a chronic, regulated condition, and regain after stopping is not a fa
 
 Willpower alone does not explain body weight, because appetite is a biologically regulated drive. The person who regains weight after a diet, who cannot
 stop snacking on night shift, or who feels hungrier the more they diet is not weak: they are experiencing the expected result of their physiology.
-Non-stigmatising medicine starts from that understanding. Energy balance (see the *Energy balance*
-chapter) still applies, but it is biologically regulated rather than freely chosen.
+Energy balance (see the *Energy balance* chapter) still applies, but it is biologically regulated rather than freely chosen, and non-stigmatising medicine starts from that understanding.
 
 ## The Singapore context {#sec-singapore}
 

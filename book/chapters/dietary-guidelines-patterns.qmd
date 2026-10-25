@@ -41,18 +41,14 @@ and the gut and metabolism that handle them. Patients eat it whole. The person i
 eat "45% carbohydrate"; they eat *chicken rice*, *nasi padang* or *thosai* and dhal, and they want to
 know whether it is any good.
 
-Needs shift across the life course: folate in pregnancy, calcium and iron in the teens, more protein in
-older age (see the *Pregnancy & lactation*, *Childhood & adolescence* and *Healthy ageing* chapters).
-Each stage adjusts a shared baseline, the healthy pattern for a general, healthy adult. That
-baseline is an archetype: the plate's proportions hold across life stages while the portion and a few
-emphases shift, so the pattern is learned once and then adjusted to each patient.
-
 The question becomes answerable once the focus shifts from grading single nutrients to reading the
 whole dietary pattern (see the *Why nutrition matters* chapter). Modern guidelines have moved in that
 direction, and that shift is why they agree with each other far more than they differ. Reading that
 shared pattern and adapting it to a patient's cuisine is the clinician's task. Writing therapeutic meal
 plans or prescribing gram targets is a dietitian's work, and knowing where that boundary lies is part
 of the clinical skill [@afn2021curriculum].
+
+The healthy pattern for a general, healthy adult is a shared baseline that each life stage adjusts: folate in pregnancy, calcium and iron in the teens, more protein in older age (see the *Pregnancy & lactation*, *Childhood & adolescence* and *Healthy ageing* chapters). That baseline is an archetype: the plate's proportions hold across life stages while the portion and a few emphases shift, so the pattern is learned once and then adjusted to each patient.
 
 ## Dietary guidelines and plate models {#sec-guidelines}
 
@@ -77,10 +73,7 @@ half the plate fruit and vegetables, a quarter wholegrains and a quarter meat an
 protein, with three companion messages: choose water over sugary drinks, use healthier oils, and stay
 active [@hpbHealthyPlate].
 
-The plate leaves out calorie counting, grams and forbidden foods. It is proportional and motivational:
-a picture to aim at, with no arithmetic. That is a deliberate design choice for first-line public
-messaging. My Healthy Plate dates from 2014 [@hpb2014plate] (the HealthHub page was last reviewed in 2025); it remains current
-national guidance.
+As first-line public messaging, the plate deliberately leaves out calorie counting, grams and forbidden foods: it is proportional and motivational, a picture to aim at, with no arithmetic. Although My Healthy Plate dates from 2014 [@hpb2014plate], it remains current national guidance (the HealthHub page was last reviewed in 2025).
 
 ::: {.callout-note}
 ## The plate is a proportion, not a portion size
@@ -134,7 +127,7 @@ slightly longer list, taken from each guideline's own text [@hpbHealthyPlate; @w
 
 The wording and the pictures differ; the substance is the same short list. When a patient asks "which
 diet is right?", the answer is reassuring: the guidelines broadly agree, and the shared advice is
-simple. Eat mostly plants and whole foods, and limit sugar, salt and highly processed
+simple: eat mostly plants and whole foods, and limit sugar, salt and highly processed
 products.
 
 ::: {.callout-tip collapse="true"}
@@ -165,9 +158,7 @@ An orange behaves differently from a vitamin-C tablet plus fibre plus sugar.
 :::
 
 The pattern view also answers the recurring "is [food] good or bad now?" question. Butter, eggs,
-coffee, red meat: asked in isolation, each generates a decade of contradictory headlines. Asked as
-"what pattern is this part of?", the findings become more consistent. Asking about one food in isolation is the wrong
-question, a trap known as single-nutrient reductionism (see the *Why nutrition matters* chapter).
+coffee, red meat: studied one at a time, each has produced a decade of contradictory results. When the question becomes "what pattern is this part of?", the findings are more consistent. Judging one food in isolation is the trap known as single-nutrient reductionism (see the *Why nutrition matters* chapter).
 
 ::: {.callout-note}
 ## How strong is the case for patterns over single nutrients?
@@ -182,15 +173,13 @@ each trial's limits should be quoted with its result.
 
 ### The Mediterranean pattern {#sec-mediterranean}
 
-**What it is.** A pattern, not a recipe: abundant vegetables, fruit, wholegrains and legumes;
+**What it is.** The Mediterranean pattern is a way of eating, not a recipe: abundant vegetables, fruit, wholegrains and legumes;
 extra-virgin olive oil as the main fat; nuts and fish regularly; modest dairy and poultry; little red
 and processed meat.
 
 **The evidence, with its caveats.** The landmark trial is PREDIMED. It randomised higher-risk Spanish
 adults to a Mediterranean diet (supplemented with olive oil or nuts) or a control diet, and reported
-roughly a 30% relative reduction in a composite of major cardiovascular events [@estruch2018predimed].
-A relative reduction is a fall expressed as a share of the starting risk; a composite counts several
-outcomes together as one result. Two caveats belong with that main result whenever it is quoted:
+roughly a 30% relative reduction in a composite of major cardiovascular events (several outcomes counted together as one result) [@estruch2018predimed]. Two caveats belong with that main result whenever it is quoted:
 
 - The benefit was stroke-dominated: the composite was driven by fewer strokes, while heart attack and
   cardiovascular death were not individually significantly reduced.
@@ -198,15 +187,12 @@ outcomes together as one result. Two caveats belong with that main result whenev
   came to light. The reanalysis upheld the main result, and the episode shows that even landmark trials
   get corrected.
 
-Observational data broadly agree: an umbrella review of many meta-analyses links higher Mediterranean
+Weighing a "30% reduction" of this kind means asking two questions. Is it relative (a fall expressed as a share of the starting risk) or absolute (the actual difference in risk between the groups)? And does it count a composite or a hard endpoint (an outcome that matters to the patient directly, such as a heart attack or death)? Both questions belong to trial appraisal (see the *Evidence vs hype* chapter).
+
+Observational data broadly agree with PREDIMED: an umbrella review of many meta-analyses links higher Mediterranean
 adherence to lower cardiovascular mortality, fewer heart attacks and, most strongly, fewer strokes,
 plus less type 2 diabetes [@medUmbrella]. That is a strong evidence base, although much of it is
 observational.
-
-Weighing a "30% reduction" of this kind means asking two questions. Is it relative or absolute (the
-actual difference in risk between the groups)? And does it count a composite or a hard endpoint (an
-outcome that matters to the patient directly, such as a heart attack or death)? Both questions belong to
-trial appraisal (see the *Evidence vs hype* chapter).
 
 ### The DASH pattern {#sec-dash}
 
@@ -215,20 +201,9 @@ low-fat dairy, with wholegrains, nuts and legumes, and reduced saturated fat and
 
 **The evidence, with its caveats.** In the original controlled-feeding trial, the DASH diet lowered
 blood pressure by about 5.5/3.0 mmHg overall, and by roughly 11.4/5.5 mmHg in participants who were
-already hypertensive [@appel1997dash]. Four features of the design determine what that result shows:
+already hypertensive [@appel1997dash]. Four features of the design determine what that result shows. Two support attributing the fall to the diet: participants were fed all their food, and body weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. Two limit it: the endpoint was blood pressure, a surrogate endpoint (a measured marker that stands in for a hard endpoint), not heart attacks or strokes, and the trial ran for only about eight weeks. The trial therefore clearly shows that a dietary pattern can lower a risk factor; by itself, it is not proof of long-term event reduction.
 
-- Participants were fed all their food.
-- Body weight and sodium were held constant, so the fall came from the pattern itself, not from weight
-  loss or salt reduction.
-- The endpoint was blood pressure, a surrogate endpoint (a measured marker that stands in for a hard
-  endpoint), not heart attacks or strokes.
-- The trial ran for only about eight weeks.
-
-The trial clearly shows that a dietary pattern can lower a risk factor; by itself, it is not
-proof of long-term event reduction. Cutting sodium on top of DASH lowers blood pressure further. The
-therapeutic use of DASH, sodium reduction included, belongs to the *Cardiovascular disease &
-hypertension* chapter; the sodium–blood pressure link itself is in the *Micronutrients, hydration and
-electrolytes* chapter.
+Cutting sodium on top of DASH lowers blood pressure further. The therapeutic use of DASH, sodium reduction included, belongs to the *Cardiovascular disease & hypertension* chapter, and the sodium–blood pressure link itself is in the *Micronutrients, hydration and electrolytes* chapter.
 
 ::: {.callout-important}
 ## The rule for citing any landmark trial
@@ -240,8 +215,8 @@ hype* chapter).
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient asks whether eggs or coffee are "good or bad" now. What question works better, and why?
-Asking what pattern the food is part of. Judged in isolation, each food generates a decade of
-contradictory headlines. At the level of the pattern the findings are more consistent, because foods act in
+Asking what pattern the food is part of. Judged in isolation, each food has produced a decade of
+contradictory results. At the level of the pattern the findings are more consistent, because foods act in
 combination and a whole dietary pattern can predict health better than any nutrient studied alone
 (food synergy). Food synergy is a framework for reading evidence, though, not an effect size to quote.
 :::
@@ -400,8 +375,7 @@ When a plan has to become therapeutic or restrictive, it passes to a dietitian [
 The emphasis on wholegrains, sugary drinks and salt follows from where Singapore's diet falls short.
 The National Nutrition Survey 2022 found that only about 4% of the staples Singaporeans eat are
 wholegrain, against the quarter-plate the guideline recommends, and that roughly nine in ten residents
-exceed the recommended sodium intake; sugar-sweetened drinks are the single biggest source of dietary sugar, supplying about half of it [@mohNNS2022]. The two main changes are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap and the water-over-sugary-drink swap
-address these two gaps directly.
+exceed the recommended sodium intake; sugar-sweetened drinks are the main source of dietary sugar, supplying about half of it [@mohNNS2022]. The two main changes are therefore to shift refined rice and noodles toward wholegrains, and to cut the free sugar and salt. The brown-rice swap addresses the first directly, and the water-over-sugary-drink swap removes the main source of that sugar.
 
 The plate's adaptability to each cuisine is also a cultural strength. Singapore's three major
 cuisines show one guideline met by three different menus: the plate works at the family table, the
