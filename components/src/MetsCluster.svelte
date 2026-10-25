@@ -16,30 +16,30 @@
     id: 'mets-cluster',
     title: 'Metabolic syndrome — a cluster, not a single disease',
     intro:
-      'Metabolic syndrome is a CLUSTER of risk markers that tend to travel together because they share a common root. Toggle each component on or off — any three of the five meet the harmonised criteria. There is no single obligatory component.',
+      'Metabolic syndrome is a CLUSTER of risk markers that tend to occur together because they share a common underlying cause. Toggle each component on or off — any three of the five meet the harmonised criteria. There is no single obligatory component.',
     hub: {
       label: 'Insulin resistance',
       sub: '+ central adiposity',
-      note: 'Insulin resistance together with central (visceral) adiposity is the shared root that pulls the whole cluster together — which is why the components tend to appear as a group rather than one at a time.',
+      note: 'Insulin resistance together with central (visceral) adiposity is the shared underlying abnormality that links the components — which is why the components tend to appear as a group rather than one at a time.',
     },
     components: [
       { id: 'waist', label: 'Central obesity', threshold: 'Waist ≥90 cm (men) / ≥80 cm (women)', note: 'Asian cut-points — visceral fat, not overall weight, carries the risk.' },
       { id: 'triglycerides', label: 'Raised triglycerides', threshold: '≥1.7 mmol/L', note: 'A marker of the fat the liver is over-producing under insulin resistance (or on treatment).' },
       { id: 'hdl', label: 'Low HDL cholesterol', threshold: '<1.0 mmol/L (men) / <1.3 mmol/L (women)', note: "The 'protective' cholesterol falls as the cluster forms (or on treatment)." },
       { id: 'bp', label: 'Raised blood pressure', threshold: '≥130/85 mmHg', note: 'Below the threshold for hypertension on its own, but it still counts here (or on treatment).' },
-      { id: 'glucose', label: 'Raised fasting glucose', threshold: '≥5.6 mmol/L', note: "Impaired fasting glucose — an early signal, well before the Type 2 diabetes chapter's diagnostic cut-off." },
+      { id: 'glucose', label: 'Raised fasting glucose', threshold: '≥5.6 mmol/L', note: "Impaired fasting glucose — an early marker, well before the Type 2 diabetes chapter's diagnostic cut-off." },
     ],
     threshold_count: 3,
     verdicts: { meets: 'Metabolic syndrome — meets criteria (≥3 of 5)', notyet: '{n} of 5 — not yet' },
     levers: {
-      caption: 'Modifiable factors that feed central fat and insulin resistance',
+      caption: 'Modifiable factors that contribute to central fat and insulin resistance',
       items: [
         { id: 'sleep', label: 'Sleep loss', note: 'Short or poor sleep worsens insulin resistance and appetite.' },
         { id: 'stress', label: 'Stress / cortisol', note: 'Chronic stress raises cortisol, which promotes central fat and insulin resistance.' },
       ],
     },
     caption:
-      'Metabolic syndrome is a RISK MARKER, not a disease — it flags a shared root (insulin resistance and central adiposity) that raises the risk of type 2 diabetes and cardiovascular disease.',
+      'Metabolic syndrome is a RISK MARKER, not a disease — it indicates a shared underlying abnormality (insulin resistance and central adiposity) that raises the risk of type 2 diabetes and cardiovascular disease.',
     credit: 'Harmonised criteria after IDF / AHA / NHLBI (Alberti 2009); Asian waist cut-points per IDF.',
   };
 
@@ -161,7 +161,7 @@
           <circle cx={CX} cy={CY} r={HUB_R} />
           <text class="hlab" x={CX} y={CY - 8} text-anchor="middle">{(data.hub && data.hub.label) || 'Insulin resistance'}</text>
           <text class="hsub" x={CX} y={CY + 11} text-anchor="middle">{(data.hub && data.hub.sub) || '+ central adiposity'}</text>
-          <text class="hroot" x={CX} y={CY + 30} text-anchor="middle">shared root</text>
+          <text class="hroot" x={CX} y={CY + 30} text-anchor="middle">shared cause</text>
         </g>
       </svg>
     </div>
@@ -191,7 +191,7 @@
 
     <!-- modifiable levers -->
     <div class="levers">
-      <span class="lev-cap">🡇 {(data.levers && data.levers.caption) || 'Modifiable factors that feed central fat and insulin resistance'}</span>
+      <span class="lev-cap">🡇 {(data.levers && data.levers.caption) || 'Modifiable factors that contribute to central fat and insulin resistance'}</span>
       <ul>
         {#each levers as lv}
           <li><b>{lv.label}</b>{lv.note ? ' — ' + lv.note : ''}</li>

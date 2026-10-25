@@ -19,7 +19,7 @@ questions:
     options:
       - text: "The benefits are real but specific, not across every outcome"
         correct: true
-        feedback: "The cleanest trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is a modest association, not proof. State the benefits with their caveats."
+        feedback: "The most rigorous trial, PROBIT, showed less gut infection and eczema but no reduction in respiratory infection; the IQ association is small and shrinks after adjustment for the mother's own IQ; and the obesity link is a modest association, not proof. State the benefits with their caveats."
       - text: "Breastfeeding dramatically raises IQ and prevents obesity and most infections"
         correct: false
         feedback: "Each claim goes beyond the evidence: the IQ effect is small and mostly faded by adolescence, the obesity link is an association, not proof, and the protection is specific (gut infection and eczema, not respiratory infection)."
@@ -38,14 +38,14 @@ questions:
         feedback: "Delay was the advice for years, and the trials reversed it: early introduction in the 4–6-month window prevents allergy, so withholding peanut and egg gives up that protection."
       - text: "Give whole peanuts and boiled egg white daily from now"
         correct: false
-        feedback: "The timing is right but the form is not: whole peanuts are a choking hazard, so peanut goes in as smooth peanut butter, alongside well-cooked egg."
+        feedback: "The timing is right but the form is not: whole peanuts are a choking hazard, so peanut is given as smooth peanut butter, alongside well-cooked egg."
 
   - id: q4
     stem: "Why do complementary foods begin at about 6 months, and what should the first foods be?"
     options:
       - text: "Because iron stores run low, so first foods should be iron-rich"
         correct: true
-        feedback: "A term baby's iron stores run low at about 6 months, so first foods should be rich in iron (and zinc): fortified cereal, minced meat, egg and legumes, with no added salt or sugar. Readiness signs (sitting with support, head control, loss of the tongue-thrust reflex, reaching for food) set the individual start, with a 4-month floor."
+        feedback: "A term baby's iron stores run low at about 6 months, so first foods should be rich in iron (and zinc): fortified cereal, minced meat, egg and legumes, with no added salt or sugar. Readiness signs (sitting with support, head control, loss of the tongue-thrust reflex, reaching for food) set the individual start, but not before 4 months."
       - text: "Because milk stops being nutritious at 6 months, so any solids will do"
         correct: false
         feedback: "Milk stays valuable well into the second year; the reason is iron-store depletion, so the first foods specifically need to be iron-rich."
@@ -58,10 +58,10 @@ questions:
     options:
       - text: "Around 12 months"
         correct: true
-        feedback: "Before about 12 months, cow's milk is iron-poor and causes occult gut blood loss, risking iron deficiency, so it waits as the main drink; small amounts of yoghurt or cheese as foods are fine from about 6 months. After 12 months plain full-fat cow's milk suffices, and toddler ('growing-up') milks are unnecessary."
+        feedback: "Before about 12 months, cow's milk is iron-poor and causes occult gut blood loss, risking iron deficiency, so it should not yet be the main drink; small amounts of yoghurt or cheese as foods are fine from about 6 months. After 12 months plain full-fat cow's milk suffices, and toddler ('growing-up') milks are unnecessary."
       - text: "From 6 months, once solids start"
         correct: false
-        feedback: "As a *main drink* it is too early: cow's milk is iron-poor and causes occult gut blood loss in infancy. Small amounts of yoghurt or cheese are fine as foods, but cow's milk waits as the drink."
+        feedback: "As a *main drink* it is too early: cow's milk is iron-poor and causes occult gut blood loss in infancy. Small amounts of yoghurt or cheese are fine as foods, but cow's milk should not yet be the main drink."
       - text: "Never before 2 years"
         correct: false
         feedback: "Cow's milk is fine as the main drink from about 12 months; the concern is specifically the first year."
@@ -74,7 +74,7 @@ questions:
         feedback: "Spores of *Clostridium botulinum* in honey can colonise the immature infant gut, whose still-developing microbiome is thought to offer little protection against them, and produce toxin (infant botulism). Explaining the mechanism kindly helps; after 12 months honey is fine."
       - text: "A small amount is fine for energy and taste"
         correct: false
-        feedback: "Even small amounts of honey risk infant botulism under 12 months, so this is a firm do-no-harm rule."
+        feedback: "Even small amounts of honey risk infant botulism under 12 months, so this is a firm safety rule."
       - text: "Only manuka honey is unsafe; ordinary honey is fine"
         correct: false
         feedback: "All honey can carry the spores, so the rule covers honey of any kind before 12 months."

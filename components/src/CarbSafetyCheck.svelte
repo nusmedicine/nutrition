@@ -17,15 +17,15 @@
     id: 'carb-safety-check',
     title: 'Is it safe to endorse a lower-carbohydrate diet?',
     intro:
-      "Cutting or skipping carbohydrate is only safe once you know the patient's medication. Select the glucose-lowering drugs this patient is on. The reflex is drug-class-first: some classes can cause dangerous hypoglycaemia when carbohydrate suddenly drops.",
+      "Cutting or skipping carbohydrate is only safe once you know the patient's medication. Select the glucose-lowering drugs this patient is on. Always check the drug class first: some classes can cause dangerous hypoglycaemia when carbohydrate suddenly drops.",
     drugs: [
       { id: 'insulin', label: 'Insulin', example: 'any insulin', risk: 'high', note: "The dose is set for the patient's usual carbohydrate intake — cut the carbohydrate and the same dose can drive glucose dangerously low. On a fixed dose, counsel carbohydrate consistency, not restriction." },
       { id: 'sulfonylurea', label: 'Sulfonylurea', example: 'gliclazide, glipizide', risk: 'high', note: 'Drives insulin release regardless of glucose, so it can cause hypoglycaemia — especially in older people — when carbohydrate is cut.' },
       { id: 'meglitinide', label: 'Meglitinide', example: 'repaglinide', risk: 'high', note: 'A short-acting insulin secretagogue taken with meals — skipping the carbohydrate but taking the dose risks a hypo.' },
       { id: 'metformin', label: 'Metformin', example: 'first-line', risk: 'low', note: 'Does not cause hypoglycaemia on its own — safe alongside a sensible carbohydrate change.' },
-      { id: 'dpp4', label: 'DPP-4 inhibitor', example: 'sitagliptin, linagliptin', risk: 'low', note: 'Glucose-dependent action — no hypoglycaemia used alone.' },
-      { id: 'sglt2', label: 'SGLT2 inhibitor', example: 'empagliflozin, dapagliflozin', risk: 'low', note: 'Does not cause hypoglycaemia used alone (mind fluid/ketone advice separately).' },
-      { id: 'glp1', label: 'GLP-1 receptor agonist', example: 'semaglutide, liraglutide', risk: 'low', note: 'Glucose-dependent — no hypoglycaemia used alone.' },
+      { id: 'dpp4', label: 'DPP-4 inhibitor', example: 'sitagliptin, linagliptin', risk: 'low', note: 'Acts in a glucose-dependent way, so it does not cause hypoglycaemia when used alone.' },
+      { id: 'sglt2', label: 'SGLT2 inhibitor', example: 'empagliflozin, dapagliflozin', risk: 'low', note: 'Does not cause hypoglycaemia used alone (give separate advice on fluids and ketone risk).' },
+      { id: 'glp1', label: 'GLP-1 receptor agonist', example: 'semaglutide, liraglutide', risk: 'low', note: 'Acts in a glucose-dependent way, so it does not cause hypoglycaemia when used alone.' },
     ],
     verdicts: {
       refer: {
@@ -39,7 +39,7 @@
     },
     prompt: 'Select the patient’s glucose-lowering medications to see the verdict.',
     caption:
-      'Drug class first, every time. Insulin, sulfonylureas and meglitinides can cause hypoglycaemia when carbohydrate is cut — those patients need a medication review by the diabetes team before any low-carb plan or fast. The rest are reasonable used alone, but still refer to a dietitian for the individualised plan.',
+      'Always check the drug class first. Insulin, sulfonylureas and meglitinides can cause hypoglycaemia when carbohydrate is cut — those patients need a medication review by the diabetes team before any low-carb plan or fast. The rest are reasonable used alone, but still refer to a dietitian for the individualised plan.',
     credit: 'Drug-class hypoglycaemia risk after ADA Standards of Care 2026 and ACE/AACE guidance.',
   };
 

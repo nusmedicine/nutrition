@@ -33,7 +33,7 @@ levers:
     label: "Adequate calcium"
     weight: 0.35
     grade: "A"
-    why: "Grade A for accrual; food first. A supplement helps a teenager who is short of calcium, and adds little for one who already has enough."
+    why: "Grade A for accrual; food sources are preferred. A supplement helps a teenager who is short of calcium, and adds little for one who already has enough."
   - key: vitd
     label: "Vitamin D sufficient"
     weight: 0.25

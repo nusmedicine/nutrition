@@ -30,7 +30,7 @@ questions:
     options:
       - text: "It is anabolic for all three macronutrients."
         correct: true
-        feedback: "Insulin stores glucose and fat and builds protein, so it is anabolic across all three macronutrients; 'the sugar hormone' undersells it."
+        feedback: "Insulin stores glucose and fat and builds protein, so it is anabolic across all three macronutrients; calling it 'the sugar hormone' is incomplete."
       - text: "Its only job is to lower blood glucose."
         correct: false
         feedback: "Lowering glucose is one effect; insulin also stores fat (and blocks its breakdown) and builds protein."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "The liver lacks the enzyme needed to use ketones."
         correct: true
-        feedback: "Lacking the enzyme needed to use ketones, the liver ships its whole ketone output to the brain, muscle and heart and burns none itself."
+        feedback: "Lacking the enzyme needed to use ketones, the liver exports all the ketones it makes to the brain, muscle and heart and burns none itself."
       - text: "The liver has no use for energy during a fast."
         correct: false
         feedback: "During a fast the liver is very active, making glucose and ketones. It exports ketones because it lacks the enzyme to burn them."
@@ -70,9 +70,9 @@ questions:
       - text: "The ketone level alone, which is always far higher in DKA."
         correct: false
         feedback: "The ketone ranges overlap, so the number alone cannot separate the two; DKA is defined by the acidosis driven by uncontrolled insulin deficiency."
-      - text: "Nothing; they are the same process at different sizes."
+      - text: "Nothing; they are the same process to different degrees."
         correct: false
-        feedback: "Same molecules, different regulatory context: nutritional ketosis is restrained by residual insulin at normal pH, whereas DKA is unrestrained insulin deficiency with acidosis. A healthy person on a ketogenic diet does not get DKA."
+        feedback: "The molecules are the same, but the regulation differs: nutritional ketosis is restrained by residual insulin at normal pH, whereas DKA is unrestrained insulin deficiency with acidosis. A healthy person on a ketogenic diet does not get DKA."
   - id: q-rq
     stem: "A person's respiratory quotient (RQ = CO₂ produced ÷ O₂ consumed) is measured at about 0.7. Which fuel are they mainly burning?"
     options:
@@ -84,7 +84,7 @@ questions:
         feedback: "Carbohydrate gives an RQ near 1.0; an RQ of 0.7 points to fat oxidation."
       - text: "Mostly protein."
         correct: false
-        feedback: "Protein sits around 0.8. An RQ of 0.7 indicates mostly fat."
+        feedback: "Protein gives an RQ of about 0.8. An RQ of 0.7 indicates mostly fat."
   - id: q-alcohol
     stem: "Someone drinks heavily on an empty stomach after skipping meals and becomes confused and sweaty. What's the most likely metabolic problem?"
     options:

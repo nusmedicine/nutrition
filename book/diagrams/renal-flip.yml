@@ -8,7 +8,7 @@
 # paragraph beside the island already makes the point, and the sentence before it tells the reader
 # how to use the panel.
 id: renal-flip
-title: "The advice that flips in CKD"
+title: "Advice that reverses in CKD"
 # The two toggle states. `short` is used in the aria-live "Advice for …" line.
 contexts:
   - id: healthy
@@ -42,14 +42,14 @@ items:
       healthy:
         kind: good
         badge: "Reasonable"
-        why: "A real way to cut sodium; in a large trial it cut strokes and deaths."
+        why: "A real way to cut sodium; in a large trial it reduced strokes and deaths."
       ckd:
         kind: avoid
         badge: "Dangerous"
         why: >-
           That trial excluded serious kidney disease and people taking potassium-sparing diuretics or potassium supplements; the
           potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first, and
-          if unsure, don't.
+          if unsure, do not recommend it.
   - id: dash
     advice: "Follow the DASH pattern"
     example: "lots of fruit, veg, low-fat dairy"
@@ -62,7 +62,7 @@ items:
         kind: caution
         badge: "Adapt"
         why: >-
-          DASH is deliberately loaded with potassium, which can be unsafe in advanced CKD. A renal
+          DASH is deliberately rich in potassium, which can be unsafe in advanced CKD. A renal
           dietitian tailors it.
   - id: star-fruit
     advice: "Enjoy star fruit or belimbing (bilimbi)"
@@ -76,8 +76,8 @@ items:
         kind: avoid
         badge: "Absolute avoid"
         why: >-
-          Beyond their potassium, they carry a neurotoxin the failing kidney can't clear, which
-          causes seizures and death. An absolute avoid, not a portion-controlled food.
+          Beyond their potassium, they contain a neurotoxin the failing kidney can't clear, which
+          causes seizures and death. They must be avoided completely, not just limited in portion.
   - id: sodium
     advice: "Cut back on added salt / sodium"
     example: "less soup, sauce and processed food"
@@ -97,5 +97,5 @@ prompt: "Toggle the patient to see which advice reverses, and which holds."
 caption: >-
   For the public, eating more potassium, using a potassium salt substitute and following the DASH
   pattern are all sound. In advanced CKD they can become hazardous, while cutting sodium stays good
-  throughout; the quantities are a renal dietitian's to set.
+  throughout; a renal dietitian sets the quantities.
 credit: "After WHO 2012 (potassium), Neal 2021 (SSaSS), KDOQI 2020 and NKF Singapore."

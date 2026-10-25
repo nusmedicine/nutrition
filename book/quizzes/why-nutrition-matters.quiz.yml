@@ -25,7 +25,7 @@ questions:
         feedback: "Nutrition acts on, and is acted on by, physical activity, sleep, stress, social connection and alcohol, so the pillars tend to move together: short sleep raises appetite, and stress is thought to drive comfort eating."
       - text: "Because it can be treated in isolation from the others"
         correct: false
-        feedback: "Its links to the other pillars are what make it central, so treating it in isolation tends to fall short: fixing the diet often means addressing sleep and stress too."
+        feedback: "Its links to the other pillars are what make it central, so treating it in isolation tends to fall short: improving the diet often means addressing sleep and stress too."
 
   - id: q3
     stem: "A patient asks whether they should take up a 'superfood' to fix their diet. What does the evidence best support?"
@@ -45,13 +45,13 @@ questions:
     options:
       - text: "Yes, it is a definitive trial with no important caveats"
         correct: false
-        feedback: "Every landmark trial carries limits. PREDIMED's result comes from a 2018 re-analysis, and its benefit on the combined outcome came mainly from fewer strokes rather than fewer heart attacks."
+        feedback: "Even landmark trials have limitations. PREDIMED's result comes from a 2018 re-analysis, and its benefit on the combined outcome came mainly from fewer strokes rather than fewer heart attacks."
       - text: "It showed a benefit, but the claim needs important caveats"
         correct: true
         feedback: "The trial found a ~30% relative reduction in a combined measure of cardiovascular events, with the clearest reduction in strokes. That result comes from a 2018 re-analysis, published after the original was withdrawn over problems with how participants were assigned to groups."
       - text: "No, PREDIMED found no effect on any outcome"
         correct: false
-        feedback: "PREDIMED did find a benefit, about 30% lower relative risk on a combined measure of cardiovascular events; the claim needs stating precisely, with its limits."
+        feedback: "PREDIMED did find a benefit, about 30% lower relative risk on a combined measure of cardiovascular events; the claim needs to be stated precisely, with its limitations."
 
   - id: q5
     stem: "According to the National Nutrition Survey 2022, roughly what proportion of Singapore residents exceed the recommended sodium limit?"

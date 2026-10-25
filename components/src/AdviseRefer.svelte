@@ -18,12 +18,12 @@
 
   const FALLBACK = {
     id: 'advise-refer',
-    title: 'The line: advise or refer?',
+    title: 'Advise or refer?',
     scenarios: [
-      { patient: 'A well 34-year-old asks how to eat more healthily in general.', verdict: 'advise', why: 'Universal guidance — My Healthy Plate, more vegetables, fewer sugary drinks — is safe for almost anyone and is your job.' },
+      { patient: 'A well 34-year-old asks how to eat more healthily in general.', verdict: 'advise', why: 'Universal guidance — My Healthy Plate, more vegetables, fewer sugary drinks — is safe for almost anyone and is part of your role.' },
       { patient: 'Newly diagnosed type 2 diabetes with early kidney impairment, on three medicines, HbA1c 9%.', verdict: 'refer', why: 'Complexity (diabetes + early CKD + polypharmacy) needs an individualised carbohydrate/renal plan — that is medical nutrition therapy, a dietitian’s work.' },
       { patient: 'Someone asks whether they should cut down on sugary drinks.', verdict: 'advise', why: 'A universal message you can and should give; point them to Nutri-Grade A/B choices.' },
-      { patient: 'A patient losing weight without trying and eating very little.', verdict: 'refer', why: 'Unintended weight loss / malnutrition risk is a referral trigger — screen, then hand to the dietitian.' },
+      { patient: 'A patient losing weight without trying and eating very little.', verdict: 'refer', why: 'Unintended weight loss / malnutrition risk is a referral trigger — screen, then refer to the dietitian.' },
     ],
   };
 
@@ -75,8 +75,8 @@
 {:else}
   <figure class="ar card">
     <figcaption class="head">
-      <strong>{data.title || 'The line: advise or refer?'}</strong>
-      <span class="hint">Decide for each patient, then check your call</span>
+      <strong>{data.title || 'Advise or refer?'}</strong>
+      <span class="hint">Decide for each patient, then check your answer</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

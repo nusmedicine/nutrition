@@ -32,19 +32,19 @@ nodes:
   - id: q-line
     type: mcq
     emotion: concerned
-    stem: "With diabetes, early kidney impairment, three medicines and hawker meals, what is your first move?"
+    stem: "With diabetes, early kidney impairment, three medicines and hawker meals, what do you do first?"
     options:
       - id: a
         text: "Refer her to a dietitian, and give safe general advice meanwhile."
         correct: true
-        feedback: "The complexity (diabetes, early kidney impairment and three medicines) crosses into medical nutrition therapy, which is the dietitian's role. You refer, but stay engaged with safe universal advice."
+        feedback: "The complexity (diabetes, early kidney impairment and three medicines) requires medical nutrition therapy, which is the dietitian's role. You refer, but stay engaged with safe universal advice."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-referral
       - id: b
         text: "Give her a My Healthy Plate leaflet and review her in three months."
         correct: false
-        feedback: "A leaflet is appropriate universal advice, but insufficient here: diabetes, early kidney impairment and three medicines together call for medical nutrition therapy. She needs a dietitian; don't advise-and-stop."
+        feedback: "A leaflet is appropriate universal advice, but insufficient here: diabetes, early kidney impairment and three medicines together call for medical nutrition therapy. She needs a dietitian; don't give advice and stop there."
         goto: q-referral
       - id: c
         text: "Write her an individualised low-carbohydrate, kidney-protective meal plan yourself."
@@ -60,7 +60,7 @@ nodes:
       - id: a
         text: "Her diagnoses, key results, medicines, weight trend and goals."
         correct: true
-        feedback: "Reason and urgency, diagnoses, medications, key results, the weight trend and the patient's goals and social context turn a hand-off into a head start."
+        feedback: "Reason and urgency, diagnoses, medications, key results, the weight trend and the patient's goals and social context give the dietitian what they need to start work."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-interim
@@ -110,7 +110,7 @@ nodes:
     emotion: concerned
     title: "Refer well, and stay in scope"
     body: |
-      Her complexity crosses into medical nutrition therapy, so recognise it and refer; write a complete
+      Her complexity requires medical nutrition therapy, so recognise it and refer; write a complete
       referral (diagnoses, HbA1c, eGFR, medicines, weight trend, goals, urgency) so the dietitian has a
       head start; and in the meantime stay in scope, with safe general advice plus the Healthier SG
       pathway, without inventing therapeutic targets or leaving her with nothing. Replay and take the path
@@ -122,7 +122,7 @@ nodes:
     outcome: success
     title: "Referred well, stayed in scope"
     body: |
-      You recognised that diabetes with early kidney impairment and three medicines crosses into medical
+      You recognised that diabetes with early kidney impairment and three medicines requires medical
       nutrition therapy, referred her to the dietitian, and wrote a referral complete enough for the
       dietitian to act on. While she waits, you stayed in scope with safe general advice and kept her
       under Healthier SG follow-up, without improvising therapeutic targets or leaving her
@@ -130,8 +130,8 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Complexity (diabetes plus early kidney impairment plus three medicines) crosses into MNT: refer, don't improvise."
-        - "A useful referral carries diagnoses, key results, medications, weight trend, goals, social context and urgency."
+        - "Complexity (diabetes plus early kidney impairment plus three medicines) requires MNT: refer, don't improvise."
+        - "A useful referral includes diagnoses, key results, medications, weight trend, goals, social context and urgency."
         - "Do no harm: give safe general advice and use the Healthier SG pathway; don't set therapeutic targets yourself or leave her with nothing."
 
   - id: end-partial
@@ -139,13 +139,13 @@ nodes:
     outcome: partial
     title: "Most of the way"
     body: |
-      You handled part of this well but slipped on at least one turn: advising-and-stopping for a complex
+      You handled part of this well but slipped on at least one turn: giving advice without referring a complex
       patient, writing a vague referral, or either overstepping into therapy or leaving her unsupported
-      while she waits. Replay and run the safe path: recognise that her needs call for medical nutrition therapy and refer, write a
+      while she waits. Replay and take the safe path: recognise that her needs call for medical nutrition therapy and refer, write a
       complete referral, and give safe general advice via the Healthier SG pathway in the meantime.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Recognise when complexity crosses into MNT and refer, rather than advising-and-stopping or overstepping."
+        - "Recognise when complexity requires MNT and refer, rather than advising without referring, or overstepping."
         - "Write a complete referral, not \"please advise on diet\"."
         - "Stay in scope while the patient waits: safe general advice, not improvised therapeutic targets or nothing at all."

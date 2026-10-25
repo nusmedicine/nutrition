@@ -18,7 +18,7 @@ questions:
     options:
       - text: "It gives no diagnoses, medications, results, weight trend or goals to act on"
         correct: true
-        feedback: "A vague referral wastes a scarce resource. A useful one carries the reason and urgency, diagnoses, medications, key results, the weight trend, and the patient's goals and social context."
+        feedback: "A vague referral wastes a scarce resource. A useful one includes the reason and urgency, diagnoses, medications, key results, the weight trend, and the patient's goals and social context."
       - text: "Referrals should never be written until the patient has failed advice first"
         correct: false
         feedback: "Referral is a competency and a safety behaviour, not a last resort. The problem here is that the note is uninformative, not that it was made."
@@ -36,13 +36,13 @@ questions:
         feedback: "That conflates the two: general healthy-eating guidance is not MNT. Treating all advice as MNT would leave a clinician too afraid to give safe basic advice."
       - text: "A fixed diet sheet handed out to everyone with the same diagnosis"
         correct: false
-        feedback: "A one-size printout is universal advice, not therapy; MNT is individualised and monitored."
+        feedback: "A one-size-fits-all handout is universal advice, not therapy; MNT is individualised and monitored."
   - id: q4
     stem: "In a team caring for a patient with a chronic condition, whose core role is reviewing medications?"
     options:
       - text: "The pharmacist, working alongside the doctor"
         correct: true
-        feedback: "The pharmacist reviews and reconciles medications, while the family doctor coordinates, the dietitian delivers MNT, and the nurse monitors and educates. Nutrition care is rarely a solo act."
+        feedback: "The pharmacist reviews and reconciles medications, while the family doctor coordinates, the dietitian delivers MNT, and the nurse monitors and educates. Nutrition care is usually shared across a team."
       - text: "The dietitian, as part of the nutrition plan"
         correct: false
         feedback: "Dietitians deliver medical nutrition therapy; medication review is the pharmacist's core role."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "One enrolled family doctor and a personalised Health Plan"
         correct: true
-        feedback: "Healthier SG gives each enrolled resident one family doctor and a personalised Health Plan, with hand-offs to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that makes referral and follow-up happen."
+        feedback: "Healthier SG gives each enrolled resident one family doctor and a personalised Health Plan, with referrals to the dietitian, nurse and pharmacist and social prescribing to community partners. It is the primary-care infrastructure that supports referral and follow-up."
       - text: "A guaranteed fully-funded course of dietitian visits for any concern"
         correct: false
         feedback: "The published funding centres on medications and care components and does not spell out a dedicated dietitian subsidy line. Explain the pathway, and check current figures, instead of promising a guaranteed benefit."
@@ -84,4 +84,4 @@ questions:
         feedback: "The role-model evidence is observational. Present it as plausible and consistent, not as proven cause and effect."
       - text: "They are a private matter with no bearing on practice"
         correct: false
-        feedback: "Evidence suggests a clinician's own habits track with counselling behaviour and credibility, and short sleep affects their own metabolic health too."
+        feedback: "Evidence suggests a clinician's own habits are associated with counselling behaviour and credibility, and short sleep affects their own metabolic health too."

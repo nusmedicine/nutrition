@@ -38,14 +38,14 @@ nodes:
       - id: a
         text: "The unintentional weight loss since she was widowed, which needs evaluation."
         correct: true
-        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam is the signal that ageing in health has tipped into something to act on."
+        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam is the sign that this is no longer healthy ageing but a problem that needs action."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-advice
       - id: b
         text: "Nothing: weight loss is normal in ageing, so reassure and review in a year."
         correct: false
-        feedback: "Weight loss without trying flags malignancy, depression, dental, swallowing or medication problems, so it warrants evaluation now, not a year's wait."
+        feedback: "Weight loss without trying can indicate malignancy, depression, dental, swallowing or medication problems, so it warrants evaluation now, not a year's wait."
         goto: q-advice
       - id: c
         text: "Only her grief, which will pass without further action."
@@ -68,7 +68,7 @@ nodes:
       - id: b
         text: "\"Yes, a low-fat, low-salt diet is the healthy thing to do.\""
         correct: false
-        feedback: "Restricting the diet of a thin older woman who is losing weight strips intake and flavour and can tip her into malnutrition. This is the do-no-harm trap: she needs density and flavour, not restriction."
+        feedback: "Restricting the diet of a thin older woman who is losing weight reduces intake and flavour and can tip her into malnutrition. This is the do-no-harm trap: she needs density and flavour, not restriction."
         reaction: concerned
         goto: remedial
       - id: c
@@ -85,7 +85,7 @@ nodes:
       - id: a
         text: "Consider checking her B12 or referring for it, given her risk profile."
         correct: true
-        feedback: "Low stomach acid, made lower by the PPI, and long-term metformin both impair B12 absorption, so she fits the profile to test. Targeting the at-risk nutrient beats blanket supplementation."
+        feedback: "Low stomach acid, made lower by the PPI, and long-term metformin both impair B12 absorption, so she fits the profile to test. Targeting the at-risk nutrient is better than blanket supplementation."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-refer
@@ -120,7 +120,7 @@ nodes:
       - id: c
         text: "Send her home with advice to \"eat more\" and no follow-up."
         correct: false
-        feedback: "A one-line instruction will not shift an isolated, grieving older woman with a poor appetite; she needs referral and a concrete social connection such as a communal meal."
+        feedback: "A one-line instruction will not help an isolated, grieving older woman with a poor appetite; she needs referral and a concrete social connection such as a communal meal."
         goto: route
 
   - id: route
@@ -140,7 +140,7 @@ nodes:
       weight needs her food made richer and more flavourful (fortify her usual porridge with egg, fish or
       tofu), not stricter. Her metformin and PPI put her at risk of B12 deficiency, which is worth checking.
       A key modifiable factor is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
-      dietitian) instead of managing malnutrition here. Replay and run it through.
+      dietitian) instead of managing malnutrition here. Replay the case.
     next: end-partial
 
   - id: end-good
@@ -151,8 +151,8 @@ nodes:
       You saw the weight loss for what it was, resisted the reflex to restrict a frail older woman's diet,
       chose food-first fortification and a shared meal over a "healthy diet", flagged her B12 risk and
       referred appropriately. At this stage the job is to anticipate the shifting needs of ageing, recognise
-      when a normal shift has tipped into a problem, and refer, while making the small food-first and social
-      moves that help straight away. (The malnutrition assessment and management belong to the
+      when a normal change has become a problem, and refer, while making the small food-first and social
+      changes that help straight away. (The malnutrition assessment and management belong to the
       *Undernutrition & malnutrition* chapter.)
     debrief:
       objectivesMet: [1, 2, 3, 4]
@@ -168,7 +168,7 @@ nodes:
     title: "Most of the way there"
     body: |
       You helped Mdm Lim but slipped on at least one point: recognising the weight loss, the do-no-harm decision
-      (no restrictive diet), the B12 risk, or the refer-and-reconnect plan. Replay and run the safe path:
+      (no restrictive diet), the B12 risk, or the refer-and-reconnect plan. Replay and take the safe path:
       recognise the unintentional weight loss, fortify familiar foods to raise nutrient density without restriction, check B12
       given her metformin and PPI, reconnect her to a shared meal, and refer.
     debrief:

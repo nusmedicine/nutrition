@@ -17,7 +17,7 @@
 
   const FALLBACK = {
     id: 'fuel-dial',
-    title: 'Fuel to fit your training — usually less than you think',
+    title: 'Matching food to your training — usually less is needed than you think',
     intro:
       'Set a realistic training week. Watch how rarely the answer is anything more than ordinary food and water.',
     proteinPerKg: { active: [1.2, 1.6] },
@@ -39,8 +39,8 @@
         drink: 'Water for most sessions; on your longest sessions, carbohydrate + a planned fluid strategy begin to matter.', protein: 'range' },
     ],
     athleteNote: 'Athlete guidance (probably not you): high day-to-day carbohydrate scaled to hours of training, carbohydrate during long sessions, and a planned hydration/electrolyte strategy. It is calibrated for serious endurance training — applying it to a few weekly sessions is the classic over-fuelling mistake.',
-    tropicalNote: "In Singapore's heat you sweat more — drink to thirst and aim to lose under ~2% of body weight over a long session. Salt only matters for long or very sweaty efforts.",
-    credit: 'Schematic — teaches direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling framing from Thomas 2016; hydration from Sawka 2007.',
+    tropicalNote: "In Singapore's heat you sweat more — drink to thirst and aim to lose under ~2% of body weight over a long session. Salt only matters for long sessions or heavy sweating.",
+    credit: 'Schematic — teaches direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling guidance from Thomas 2016; hydration from Sawka 2007.',
   };
 
   let data = $state(null);
@@ -100,7 +100,7 @@
   <figure class="fd card">
     <figcaption class="head">
       <strong>{data.title}</strong>
-      <span class="hint">Dial your week · read what you actually need</span>
+      <span class="hint">Set your training week · see what you need</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

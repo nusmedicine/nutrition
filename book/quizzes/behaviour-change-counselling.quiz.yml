@@ -19,20 +19,20 @@ questions:
     options:
       - text: "\"My father lost his foot to diabetes. I don't want that.\""
         correct: true
-        feedback: "The statement voices his own reason to change, which is change talk. A reflection or affirmation reinforces it; a lecture buries it."
+        feedback: "The statement voices his own reason to change, which is change talk. A reflection or affirmation reinforces it; a lecture tends to suppress it."
       - text: "\"The food is just too good, I can't help it.\""
         correct: false
         feedback: "This is sustain talk (arguments for staying the same). Acknowledge it without amplifying it, and draw out the change talk instead."
       - text: "\"Everyone tells me to eat better, it's annoying.\""
         correct: false
-        feedback: "Resistance or sustain talk like this is often a sign someone has been pushed too hard. Reflect it and ease off the righting reflex."
+        feedback: "Resistance or sustain talk like this is often a sign someone has been pushed too hard. Reflect it and resist the righting reflex."
 
   - id: q3
     stem: "Within the Advise step of the 5 A's, what should come before the advice itself?"
     options:
       - text: "Ask permission before sharing an idea"
         correct: true
-        feedback: "Asking permission (\"would it be OK if I shared one idea?\") keeps clinician and patient partners rather than adversaries. Unasked-for advice, however good, tends to bounce off."
+        feedback: "Asking permission (\"would it be OK if I shared one idea?\") keeps clinician and patient partners rather than adversaries. Unasked-for advice, however good, tends to be ignored."
       - text: "Nothing; good advice should be given at once, and firmly"
         correct: false
         feedback: "Advice without permission or listening undermines partnership and provokes resistance. Assess and ask first."
@@ -51,14 +51,14 @@ questions:
         feedback: "This is too vague to check: it is not specific, measurable or time-bound, so it is a wish, not a goal."
       - text: "\"Never drink kopi again, starting today\""
         correct: false
-        feedback: "A total ban is not achievable, and an over-big goal the patient did not choose is soon abandoned. Aim for one small, sustainable change."
+        feedback: "A total ban is not achievable, and an overly ambitious goal the patient did not choose is soon abandoned. Aim for one small, sustainable change."
 
   - id: q5
-    stem: "You've agreed a small goal. What add-on improves the odds it happens?"
+    stem: "You've agreed a small goal. What addition makes the goal more likely to be achieved?"
     options:
       - text: "An if-then plan deciding the when and where in advance"
         correct: true
-        feedback: "An if-then plan (\"if the stall auntie forgets, then I'll remind her siu dai\") is an implementation intention, which has a medium-to-large effect on goal attainment. Planning for the obstacle in advance makes the goal more likely to happen."
+        feedback: "An if-then plan (\"if the stall auntie forgets, then I'll remind her siu dai\") is an implementation intention, which has a medium-to-large effect on goal attainment. Planning for the obstacle in advance makes the goal more likely to be achieved."
       - text: "Setting five more goals at the same time"
         correct: false
         feedback: "Too many goals dilute the effort; one small, well-planned change works better than five ambitious ones."
@@ -74,10 +74,10 @@ questions:
         feedback: "The model helps in choosing how to talk, but the evidence that it produces sustained weight loss is low-certainty. Use it to meet a patient where they are, not to label them or forecast success. Present it as a tool, not a proven fact."
       - text: "It reliably predicts success, so focus only on the 'ready' ones"
         correct: false
-        feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It tailors the style of the conversation, nothing more."
+        feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It helps tailor the style of the conversation, nothing more."
       - text: "It is proven superior to every other counselling approach"
         correct: false
-        feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it is far from a proven-best method."
+        feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it is far from proven to be the best method."
 
   - id: q7
     stem: "Mid-consult, a patient reveals she skips meals to \"make up\" for eating and feels guilty afterwards. What now?"
@@ -87,7 +87,7 @@ questions:
         feedback: "Compensatory meal-skipping and guilt are eating-disorder red flags. On average, structured behavioural weight management does not increase eating-disorder symptoms, but for this patient more restriction could do harm, so pause the weight and portion goals and offer support and referral."
       - text: "Praise her discipline and encourage her to keep cutting things out"
         correct: false
-        feedback: "Praise reinforces restriction in someone showing red flags, which is the harm to avoid. Recognise the signal and switch to support and referral."
+        feedback: "Praise reinforces restriction in someone showing red flags, which is the harm to avoid. Recognise the warning signs and switch to support and referral."
       - text: "Ignore it and press on with the diet plan"
         correct: false
-        feedback: "Missing this is a do-no-harm failure. The red flags outrank the diet goal; screen gently and refer."
+        feedback: "Missing this could cause harm. The red flags take priority over the diet goal; screen gently and refer."

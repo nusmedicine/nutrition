@@ -1,10 +1,10 @@
 id: pregnancy-gdm
 title: "Mrs Devi, 26 weeks: the test she'd rather skip"
 objectives:
-  - "Justify Singapore's universal GDM screening, and recognise that withholding the test from a well-feeling woman is the error."
+  - "Justify Singapore's universal GDM screening, and recognise that withholding the test from a woman who feels well is the error."
   - "Distinguish physiological haemodilution from true iron-deficiency anaemia."
-  - "Respond to a GDM diagnosis with dietary first-line plus team referral, without over-reaching into insulin."
-  - "Explain the foetal-hyperinsulinaemia chain and arrange postpartum follow-up for future type 2 diabetes risk."
+  - "Respond to a GDM diagnosis with dietary first-line plus team referral, without starting insulin yourself."
+  - "Explain foetal hyperinsulinaemia and its consequences, and arrange postpartum follow-up for future type 2 diabetes risk."
 difficulty: intro
 estimatedMinutes: 12
 tags: [nutrition, pregnancy, gdm, singapore, do-no-harm]
@@ -45,7 +45,7 @@ nodes:
       - id: b
         text: "\"You feel well and you're young, so let's not bother with the fasting test; we'll only test you if symptoms appear.\""
         correct: false
-        feedback: "Waiting for symptoms means missing GDM, which is usually symptomless and common (about 1 in 5 locally). Withholding universal screening from a well-feeling woman is the harmful choice here."
+        feedback: "Waiting for symptoms means missing GDM, which is usually symptomless and common (about 1 in 5 locally). Withholding universal screening from a woman who feels well is the harmful choice here."
         reaction: concerned
         goto: remedial
       - id: c
@@ -58,7 +58,7 @@ nodes:
   - id: q-haemo
     type: mcq
     emotion: concerned
-    stem: "Her blood count shows haemoglobin has fallen from 12.5 to 10.8 g/dL since her first antenatal visit. She has no symptoms. What's the right first read?"
+    stem: "Her blood count shows haemoglobin has fallen from 12.5 to 10.8 g/dL since her first antenatal visit. She has no symptoms. What is the most likely explanation, and what should you do?"
     options:
       - id: a
         text: "Probably physiological dilution; check ferritin before deciding on iron."
@@ -81,7 +81,7 @@ nodes:
   - id: q-result
     type: mcq
     emotion: concerned
-    stem: "Her glucose test comes back positive for gestational diabetes, and she's anxious. What's the right first move?"
+    stem: "Her glucose test comes back positive for gestational diabetes, and she's anxious. What should you do first?"
     options:
       - id: a
         text: "Reassure her, start dietary changes within her usual meals, and bring in the antenatal team."
@@ -109,7 +109,7 @@ nodes:
       - id: a
         text: "\"Your sugar raises the baby's insulin, which stays high after birth and lowers the baby's sugar.\""
         correct: true
-        feedback: "Maternal glucose crosses to the baby and stimulates the baby's pancreas to make extra insulin; after birth the glucose supply stops but the insulin lingers, so the baby's glucose dips. Macrosomia and neonatal hypoglycaemia are two ends of this one chain, and the answer puts it in plain words, without jargon."
+        feedback: "Maternal glucose crosses to the baby and stimulates the baby's pancreas to make extra insulin; after birth the glucose supply stops but the insulin lingers, so the baby's glucose dips. Macrosomia and neonatal hypoglycaemia are two consequences of this one mechanism, and the answer puts it in plain words, without jargon."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-postpartum
@@ -157,7 +157,7 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Screen everyone, read the blood right, refer, follow up"
+    title: "Screen everyone, interpret the blood count, refer, follow up"
     body: |
       The safe path has five steps. Offer the test to every pregnancy, because feeling well doesn't rule
       GDM out and risk-based screening misses about half of local cases. Read a mid-pregnancy
@@ -166,7 +166,7 @@ nodes:
       low sugar as foetal insulin, not inherited diabetes. Arrange postpartum follow-up for the future
       type 2 diabetes risk.
 
-      Replay and run the safe path.
+      Replay and take the safe path.
     next: end-partial
 
   - id: end-good
@@ -178,15 +178,15 @@ nodes:
       correctly, met the diagnosis with dietary first-line plus the team rather than reaching for insulin,
       explained the baby's low sugar in plain language, and flagged the postpartum follow-up that links
       gestational diabetes to future type 2 diabetes. That is the role at this stage: anticipate, screen,
-      recognise and refer. *(Insulin, glucose targets and detailed management sit with the obstetric and
+      recognise and refer. *(Insulin, glucose targets and detailed management are decided by the obstetric and
       diabetes team.)*
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
         - "Singapore screens every pregnancy for GDM at 24–28 weeks: risk-based screening would miss about half of local cases, and feeling well doesn't rule it out."
         - "A mid-pregnancy haemoglobin fall is usually dilutional; confirm true iron deficiency with ferritin before treating, and counsel iron for tolerability (vitamin C, away from tea/calcium, alternate-day)."
-        - "A GDM diagnosis: reassure, dietary first-line within familiar food, refer to the team, and don't over-reach into insulin."
-        - "Explain the foetal-hyperinsulinaemia chain (macrosomia, then neonatal hypoglycaemia), and arrange postpartum glucose testing for the roughly seven-fold future type 2 diabetes risk."
+        - "A GDM diagnosis: reassure, dietary first-line within familiar food, refer to the team, and don't start insulin yourself."
+        - "Explain the consequences of foetal hyperinsulinaemia (macrosomia, then neonatal hypoglycaemia), and arrange postpartum glucose testing for the roughly seven-fold future type 2 diabetes risk."
 
   - id: end-partial
     type: end
@@ -194,8 +194,8 @@ nodes:
     title: "Most of the way there"
     body: |
       You helped Mrs Devi but slipped on at least one point: offering universal screening, reading the
-      haemoglobin, the first move after diagnosis, the baby's low sugar, or the postpartum follow-up.
-      Replay and run the safe path: screen everyone, confirm anaemia before treating, dietary first-line
+      haemoglobin, the first step after diagnosis, the baby's low sugar, or the postpartum follow-up.
+      Replay and take the safe path: screen everyone, confirm anaemia before treating, dietary first-line
       plus refer, and postpartum testing.
     debrief:
       objectivesMet: [1]

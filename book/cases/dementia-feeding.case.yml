@@ -112,9 +112,9 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Comfort, not a tube, held with compassion"
+    title: "Comfort, not a tube, offered with compassion"
     body: |
-      The through-line: recognise that weight loss is part of advanced dementia, explain plainly that a
+      In summary: recognise that weight loss is part of advanced dementia, explain plainly that a
       feeding tube does not prolong survival, prevent aspiration or improve comfort and can harm, keep
       offering food for comfort, and **refer for a goals-of-care conversation**, even when a loving
       family pushes hard for the tube. Replay and take the path that supports the family without causing
@@ -124,7 +124,7 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Careful hand feeding, held with compassion"
+    title: "Careful hand feeding, offered with compassion"
     body: |
       You recognised the weight loss as part of advanced dementia, explained gently that a feeding tube
       would not help and could harm, kept offering food for comfort, and referred for a goals-of-care
@@ -133,9 +133,9 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Weight loss in advanced dementia is a disease feature, not a reversible feeding gap."
+        - "Weight loss in advanced dementia is a disease feature, not a reversible shortfall in intake."
         - "Tube feeding does not prolong survival, prevent aspiration, heal pressure ulcers or improve comfort, and can harm."
-        - "Do no harm under pressure: careful hand feeding plus a goals-of-care referral, not a tube to appease."
+        - "Do no harm under pressure: careful hand feeding plus a goals-of-care referral, not a tube inserted to appease the family."
 
   - id: end-partial
     type: end
@@ -143,7 +143,7 @@ nodes:
     title: "Most of the way"
     body: |
       You handled part of this well but slipped on at least one turn: reaching for a tube, framing the
-      weight loss as neglect, or agreeing to the tube under pressure. Replay and run the safe path:
+      weight loss as neglect, or agreeing to the tube under pressure. Replay and take the safe path:
       recognise the stage, explain the evidence kindly, offer careful hand feeding, and refer for goals
       of care.
     debrief:

@@ -4,12 +4,12 @@ questions:
   - id: q1
     stem: "A daughter says her 80-year-old mother \"eats like a bird now\" and asks if she should \"just let her eat less since old people need less\". What's the best framing?"
     options:
-      - text: "Energy needs fall, but nutrient needs don't, so the plate should be denser."
+      - text: "Energy needs fall, nutrient needs don't, so meals should be nutrient-dense."
         correct: true
         feedback: "Energy needs fall with appetite, but protein and most micronutrient needs do not, so a smaller version of the same plate leaves her short of nutrients. The response is a more nutrient-dense plate."
       - text: "Older people need less of everything, so a smaller plate is right."
         correct: false
-        feedback: "Protein and most micronutrient needs do not fall with energy needs, so per kcal they rise, and \"eat less of everything\" shrinks the nutrients along with the energy."
+        feedback: "Protein and most micronutrient needs do not fall with energy needs, so per kcal they rise, and \"eat less of everything\" reduces nutrients along with energy."
       - text: "She should switch to supplement drinks in place of meals."
         correct: false
         feedback: "Fortifying the familiar meals she already eats comes before supplement drinks, and the problem to solve is nutrient density, not how much she eats."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Offer fluids regularly, because thirst is blunted with age."
         correct: true
-        feedback: "Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so fluids are offered regularly instead of waiting for thirst or for someone to look dry."
+        feedback: "Older adults dehydrate before they feel thirsty, and the usual bedside signs are unreliable, so fluids are offered regularly instead of waiting for thirst or for clinical signs of dehydration."
       - text: "Advise drinking when thirsty, since thirst is a reliable guide."
         correct: false
         feedback: "Thirst is blunted with age, so an older adult is often already dehydrated by the time thirst appears."
@@ -71,23 +71,23 @@ questions:
     options:
       - text: "Eating alone is a red flag, even in a full household."
         correct: true
-        feedback: "People eat less, and less varied food, when they eat alone, and in Singapore many older adults eat alone despite living with family because their children are out at work. Solitary eating tracks with poorer diets and low mood, so \"Who do you eat with?\" is one of the most useful questions to ask, and reconnecting her to a shared meal is a real intervention."
+        feedback: "People eat less, and less varied food, when they eat alone, and in Singapore many older adults eat alone despite living with family because their children are out at work. Eating alone is associated with poorer diets and low mood, so \"Who do you eat with?\" is one of the most useful questions to ask, and reconnecting her to a shared meal is a real intervention."
       - text: "It doesn't matter, because her family will make sure she eats."
         correct: false
         feedback: "Living with family does not guarantee a shared meal: many local older adults eat alone while relatives are at work, so eating alone remains a red flag."
       - text: "It matters for her mood, but not for her nutrition."
         correct: false
-        feedback: "Eating alone affects both: it lowers food intake and variety, and it tracks with low mood."
+        feedback: "Eating alone affects both: it lowers food intake and variety, and it is associated with low mood."
 
   - id: q7
     stem: "A thin 79-year-old man has lost about 6% of his body weight over the past 8 months without trying. His clothes are looser. What's the right response?"
     options:
       - text: "Treat it as a red flag: evaluate the reversible causes and refer."
         correct: true
-        feedback: "Unintentional weight loss of about 5% or more over 6–12 months is the red flag, and this is the point where ageing in health has tipped into undernutrition. Do not dismiss it as normal ageing or put him on a restrictive \"healthy\" diet; support his intake with food-first density and refer. The management of malnutrition belongs to the *Undernutrition & malnutrition* chapter."
+        feedback: "Unintentional weight loss of about 5% or more over 6–12 months is the red flag, and this degree of loss suggests that undernutrition has developed. Do not dismiss it as normal ageing or put him on a restrictive \"healthy\" diet; support his intake with nutrient-dense food first and refer. The management of malnutrition belongs to the *Undernutrition & malnutrition* chapter."
       - text: "Reassure him that some weight loss is normal at his age and review in a year."
         correct: false
-        feedback: "Weight loss of this degree is never \"just ageing\": it flags malignancy, depression, dental, swallowing or medication problems, and it warrants evaluation and referral now."
+        feedback: "Weight loss of this degree is never \"just ageing\": it may indicate malignancy, depression, or dental, swallowing or medication problems, and it warrants evaluation and referral now."
       - text: "Start him on a low-fat, low-salt diet to keep him healthy."
         correct: false
-        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition: the do-no-harm trap. The rule is to raise nutrient density, avoid restriction, and refer."
+        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition, which is the harm to avoid. The rule is to raise nutrient density, avoid restriction, and refer."

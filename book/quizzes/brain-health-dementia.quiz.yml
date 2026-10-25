@@ -9,7 +9,7 @@ questions:
         feedback: "Controlling cardiometabolic risk (blood pressure, glucose, weight, smoking and activity) is the best-supported, most actionable message, and vascular risk is the main modifiable pathway, since the same risk factors harm both heart and brain."
       - text: "Start the MIND diet, which is proven to prevent Alzheimer's disease"
         correct: false
-        feedback: "The MIND pattern is a reasonable low-regret choice, but its prevention trial was negative, so it is not a proven preventive."
+        feedback: "The MIND pattern is a reasonable choice with little downside, but its prevention trial was negative, so it is not a proven preventive."
       - text: "Take a daily ginkgo and fish-oil supplement for the brain"
         correct: false
         feedback: "Ginkgo did not reduce dementia in a large trial, and no supplement is proven to prevent it, so this spends money for no benefit."
@@ -24,13 +24,13 @@ questions:
         feedback: "Each risk factor raises an individual's risk only modestly; the big number comes from summing many common exposures across a population."
       - text: "A figure proven in randomised trials of risk-factor treatment"
         correct: false
-        feedback: "Modelled from observational data, the figure is not a trial result. The best trial signal, from blood-pressure control, is real but narrower."
+        feedback: "Modelled from observational data, the figure is not a trial result. The best trial evidence, from blood-pressure control, is real but narrower."
   - id: q3
     stem: "Cohort studies linked the MIND diet to about half the Alzheimer's risk, yet you should not tell patients it prevents dementia. Why?"
     options:
       - text: "The randomised trial built to test it found no cognitive benefit"
         correct: true
-        feedback: "The cohort signal did not survive the trial. People who eat well differ in many other ways (confounding), and early disease can worsen diet (reverse causation). Recommend the pattern as low-regret, not as proven prevention."
+        feedback: "The trial did not confirm the cohort association. People who eat well differ in many other ways (confounding), and early disease can worsen diet (reverse causation). Recommend the pattern as having little downside, not as proven prevention."
       - text: "The cohort studies were fabricated and later retracted"
         correct: false
         feedback: "These cohorts are real, but observational associations often overstate a benefit compared with a trial."
@@ -42,25 +42,25 @@ questions:
     options:
       - text: "Keep none of them, since none is proven and some can harm"
         correct: true
-        feedback: "Ginkgo was null, omega-3 capsules are null (eat fish as food), and high-dose vitamin E carries a small mortality signal. Redirect the spending to vascular control and diet quality."
+        feedback: "Trials of ginkgo and omega-3 capsules found no benefit (eat fish as food), and high-dose vitamin E carries a small mortality signal. Redirect the spending to vascular control and diet quality."
       - text: "Keep the ginkgo, since it is a proven memory protector"
         correct: false
         feedback: "A large trial found ginkgo did not reduce dementia, so it is not protective, and it can raise bleeding risk."
       - text: "Add high-dose vitamin E, which reliably prevents decline"
         correct: false
-        feedback: "Vitamin E does not prevent dementia and, at high doses, has been linked to a small increase in death, so adding it is a do-no-harm error."
+        feedback: "Vitamin E does not prevent dementia and, at high doses, has been linked to a small increase in death, so adding it risks harm."
   - id: q5
     stem: "Which of these is one of the largest individual modifiable contributors to dementia risk?"
     options:
       - text: "Uncorrected hearing loss"
         correct: true
-        feedback: "Uncorrected hearing loss is, with high LDL cholesterol, the largest single modifiable contributor in the population estimate (about 7% each), so 'get your hearing and eyes checked' is concrete, high-value advice."
+        feedback: "Uncorrected hearing loss is, with high LDL cholesterol, the largest single modifiable contributor in the population estimate (about 7% each), so 'get your hearing and eyes checked' is concrete, useful advice."
       - text: "Taking a daily multivitamin"
         correct: false
         feedback: "Multivitamins are not an established preventive measure. Hearing and vision correction carry far more weight."
       - text: "Switching to decaffeinated coffee"
         correct: false
-        feedback: "Decaffeinated coffee is not a meaningful modifiable factor for dementia; the high-value non-food actions are activity, hearing and vision correction, and social and cognitive engagement."
+        feedback: "Decaffeinated coffee is not a meaningful modifiable factor for dementia; the most useful non-food actions are activity, hearing and vision correction, and social and cognitive engagement."
   - id: q6
     stem: "An 84-year-old with advanced dementia is eating less and losing weight, and the family asks for a feeding tube. What does the evidence support?"
     options:
@@ -69,7 +69,7 @@ questions:
         feedback: "In advanced dementia, tube feeding does not prolong survival, prevent aspiration, heal pressure ulcers or improve comfort, and it can cause harm. Careful hand feeding is preferred; recognise the trajectory and refer."
       - text: "Insert a feeding tube to prolong survival and prevent pneumonia"
         correct: false
-        feedback: "The evidence shows tube feeding does neither in advanced dementia, and it is associated with more pressure ulcers: a do-no-harm error."
+        feedback: "The evidence shows tube feeding does neither in advanced dementia, and it is associated with more pressure ulcers, so it can cause harm."
       - text: "Insert a tube to heal her sacral pressure ulcer"
         correct: false
         feedback: "Pressure ulcers are not healed or prevented by tube feeding, which is associated with more of them."
@@ -81,7 +81,7 @@ questions:
         feedback: "Weight loss and difficulty eating are a late feature of the disease itself. Naming this plainly and kindly, and offering careful hand feeding, is the humane and evidence-based approach."
       - text: "A sign the patient is being neglected and underfed"
         correct: false
-        feedback: "The weight loss is disease-driven, not a care failure; framing it as neglect adds guilt and pushes toward futile tube feeding."
+        feedback: "The weight loss is disease-driven, not a failure of care; framing it as neglect adds guilt and pushes toward futile tube feeding."
       - text: "A problem that high-calorie supplements will reliably reverse"
         correct: false
         feedback: "Late-stage weight loss is not a simple deficit to top up; supplements do not reverse the trajectory. Comfort and a goals-of-care conversation come first."

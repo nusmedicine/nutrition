@@ -22,7 +22,7 @@
     title: 'Is it safe yet? A weaning-food sorter',
     foods: [
       { name: 'Smooth peanut butter', verdict: 'safe', why: 'Introduce early once solids start — it protects against peanut allergy.' },
-      { name: 'Whole peanuts', verdict: 'modify', why: 'A choking hazard whole — the SAME food is safe as smooth butter. Hazard is about form.' },
+      { name: 'Whole peanuts', verdict: 'modify', why: 'A choking hazard when whole — the same food is safe as smooth peanut butter. The risk depends on the form.' },
       { name: 'Honey', verdict: 'wait12', why: 'Infant botulism: the immature gut lets spores colonise. No honey before 12 months.' },
     ],
   };

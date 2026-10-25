@@ -63,7 +63,7 @@ nodes:
     x: 660
     y: 95
     kind: fate
-    detail: "Acetate, the most far-travelling SCFA, reaches muscle, brain and other tissues, and other gut bacteria."
+    detail: "Acetate, the SCFA that travels furthest, reaches muscle, brain and other tissues, and other gut bacteria."
   - id: liver
     label: "Liver"
     sub: "gluconeogenesis"

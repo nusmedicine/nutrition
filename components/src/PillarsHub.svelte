@@ -21,7 +21,7 @@
       { id: 'sleep', label: 'Sleep', full: 'Restorative sleep', link: 'Short sleep raises appetite; late meals worsen sleep.' },
       { id: 'stress', label: 'Stress', full: 'Stress management', link: 'Stress (cortisol) drives comfort-eating.' },
       { id: 'social', label: 'Social', full: 'Social connection', link: 'Eating is social — meals, hawker culture, festivals.' },
-      { id: 'substances', label: 'Substances', full: 'Avoiding risky substances', link: 'Alcohol is empty energy and disinhibits food choice.' },
+      { id: 'substances', label: 'Substances', full: 'Avoiding risky substances', link: 'Alcohol supplies empty calories and weakens restraint over food choices.' },
     ],
   };
 
@@ -67,7 +67,7 @@
   <figure class="ph card">
     <figcaption class="head">
       <strong>{data.title || 'The six pillars — nutrition as the hub'}</strong>
-      <span class="hint">Click a pillar to see how it and nutrition pull on each other</span>
+      <span class="hint">Click a pillar to see how it and nutrition affect each other</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

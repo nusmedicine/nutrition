@@ -110,20 +110,20 @@ questions:
     options:
       - text: "Most gourmet salts aren't iodised, risking iodine deficiency"
         correct: true
-        feedback: "Iodised salt is an important iodine source, so switching to non-iodised salt risks deficiency. Iodine builds thyroid hormone, which drives foetal brain development, so the risk is greatest in pregnancy."
+        feedback: "Iodised salt is an important iodine source, so switching to non-iodised salt risks deficiency. Iodine is needed to make thyroid hormone, which is essential for foetal brain development, so the risk is greatest in pregnancy."
       - text: "Sea salt contains dangerously high levels of iodine"
         correct: false
         feedback: "Most sea and gourmet salts contain little or no iodine, so the risk is too little iodine, not too much."
       - text: "Gourmet salts have far more sodium, raising blood pressure"
         correct: false
-        feedback: "All these salts carry essentially the same sodium; the difference that matters is the missing iodine."
+        feedback: "All these salts contain essentially the same amount of sodium; the difference that matters is the missing iodine."
 
   - id: q10
     stem: "For blood pressure, how do sodium and potassium act?"
     options:
       - text: "High sodium raises it; adequate potassium helps lower it"
         correct: true
-        feedback: "Sodium and potassium pull in opposite directions, which is why the WHO sets a ceiling for sodium (less than 2,000 mg a day) and a floor for potassium (at least 3,510 mg a day)."
+        feedback: "Sodium and potassium have opposite effects on blood pressure, which is why the WHO sets a ceiling for sodium (less than 2,000 mg a day) and a floor for potassium (at least 3,510 mg a day)."
       - text: "Both raise blood pressure equally"
         correct: false
         feedback: "Potassium tends to lower blood pressure, the opposite of sodium, so the two do not act equally."

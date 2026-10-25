@@ -9,7 +9,7 @@ questions:
         feedback: "The small intestine is the main site of both. The stomach mainly stores and mixes food and starts protein digestion."
       - text: "The stomach"
         correct: false
-        feedback: "Protein digestion starts in the stomach, but the small intestine does most of the work."
+        feedback: "Protein digestion starts in the stomach, but most of it takes place in the small intestine."
       - text: "The large intestine"
         correct: false
         feedback: "The large intestine mainly reabsorbs water and forms stool; little nutrient digestion happens there."
@@ -25,7 +25,7 @@ questions:
         feedback: "The stomach continues digestion, but it begins in the mouth with salivary amylase."
       - text: "In the duodenum, with pancreatic enzymes"
         correct: false
-        feedback: "Pancreatic enzymes do much of the work, but the first step is salivary amylase in the mouth."
+        feedback: "Pancreatic enzymes carry out much of the digestion, but the first step is salivary amylase in the mouth."
 
   - id: q3
     stem: "Which pair correctly describes the two main gut movements?"
@@ -38,7 +38,7 @@ questions:
         feedback: "This reverses the two: peristalsis pushes, segmentation mixes."
       - text: "Both push food along at the same speed"
         correct: false
-        feedback: "They do different jobs: one propels, the other mixes."
+        feedback: "They have different functions: one propels, the other mixes."
 
   - id: q4
     stem: "The pancreas secretes its protein-digesting enzymes in an inactive form. Why?"
@@ -51,7 +51,7 @@ questions:
         feedback: "The reason is safety, not economy: active proteases in the pancreas would damage it."
       - text: "Because they only work in the acidic stomach"
         correct: false
-        feedback: "Pancreatic enzymes need the near-neutral pH of the bicarbonate-treated duodenum, not acid."
+        feedback: "Pancreatic enzymes need the near-neutral pH that bicarbonate produces in the duodenum, not acid."
 
   - id: q5
     stem: "Which hormone triggers the pancreas to release bicarbonate to neutralise stomach acid?"
@@ -74,7 +74,7 @@ questions:
         feedback: "CCK contracts the gallbladder (releasing bile) and stimulates pancreatic enzymes; it also slows gastric emptying."
       - text: "Secretin"
         correct: false
-        feedback: "Secretin handles bicarbonate; CCK handles bile release and enzymes."
+        feedback: "Secretin stimulates bicarbonate secretion; CCK stimulates bile release and enzyme secretion."
       - text: "Insulin"
         correct: false
         feedback: "Insulin acts on blood glucose after absorption; it is not the gallbladder signal."
@@ -110,7 +110,7 @@ questions:
     options:
       - text: "By secondary active transport, via SGLT1"
         correct: true
-        feedback: "A sodium gradient, kept up by a pump, powers SGLT1, which carries glucose in alongside sodium. Fructose, by contrast, crosses by facilitated diffusion (GLUT5)."
+        feedback: "A sodium gradient, maintained by the sodium pump, powers SGLT1, which carries glucose in alongside sodium. Fructose, by contrast, crosses by facilitated diffusion (GLUT5)."
       - text: "By simple passive diffusion, like water"
         correct: false
         feedback: "Glucose is moved by SGLT1, coupled to sodium, not by passive diffusion; oral rehydration relies on that coupling."
@@ -155,4 +155,4 @@ questions:
         feedback: "Here the glucose is cotransported with sodium through SGLT1; it is not primarily a fuel."
       - text: "The salt is only there to make it taste better"
         correct: false
-        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is the mechanism, not flavouring."
+        feedback: "Sodium is co-absorbed with glucose through SGLT1; it is essential to the mechanism, not a flavouring."

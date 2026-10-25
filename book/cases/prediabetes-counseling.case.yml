@@ -63,7 +63,7 @@ nodes:
       - id: b
         text: "Switch to a strict low-carb diet this week."
         correct: false
-        feedback: "Large, abrupt change — low adherence, risks rapport."
+        feedback: "A large, abrupt change: adherence is likely to be low, and it risks rapport."
         goto: route
 
   - id: route
@@ -97,7 +97,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Assess intake before prescribing."
-        - "One specific, achievable change beats a forbidden-foods list."
+        - "One specific, achievable change works better than a list of forbidden foods."
 
   - id: end-partial
     type: end

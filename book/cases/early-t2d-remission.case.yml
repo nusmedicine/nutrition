@@ -41,7 +41,7 @@ nodes:
       - id: a
         text: "\"For you, remission is a realistic goal through a supervised weight-management programme. Let me refer you.\""
         correct: true
-        feedback: "He fits the profile the remission trials studied: diagnosed within the last few years (well under about six), not on insulin, and in a weight range where substantial loss can remove fat from the liver and pancreas and bring blood glucose down. The safe move is to name remission as a realistic goal and refer him to a supervised weight-management programme, without promising an outcome or brushing it off. (Long-standing or insulin-treated diabetes behaves differently, so the eligibility check matters.)"
+        feedback: "He fits the profile the remission trials studied: diagnosed within the last few years (well under about six), not on insulin, and in a weight range where substantial loss can remove fat from the liver and pancreas and bring blood glucose down. The safe approach is to name remission as a realistic goal and refer him to a supervised weight-management programme, without promising an outcome or brushing it off. (Long-standing or insulin-treated diabetes behaves differently, so the eligibility check matters.)"
         effects: { quality: +1 }
         goto: reveal-eligibility
       - id: b
@@ -100,16 +100,16 @@ nodes:
       - id: b
         text: "\"Sure, the shakes are just food, and stopping metformin is fine since the goal is to be off it. Start today.\""
         correct: false
-        feedback: "Self-starting is unsafe: a low-calorie shake diet like this is a supervised total diet replacement, not something to begin from an online order, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Being off medication is the goal of remission, not the starting move, and a good performance elsewhere in this visit cannot make up for endorsing this."
+        feedback: "Self-starting is unsafe: a low-calorie shake diet like this is a supervised total diet replacement, not something to begin from an online order, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Being off medication is the goal of remission, not the first step, and a good performance elsewhere in this visit cannot make up for endorsing this."
         goto: remedial-do-no-harm
 
   - id: remedial-do-no-harm
     type: info
-    title: "One thing to reset before we plan"
+    title: "One thing to correct before we plan"
     body: |
       Pause before Mr Raj walks out and orders shakes.
 
-      Total diet replacement is a supervised programme, not a solo project. The low-calorie shake phase works,
+      Total diet replacement is a supervised programme, not something to do alone. The low-calorie shake phase works,
       but it is delivered with clinical oversight, and the **glucose-lowering medication is adjusted on the very
       first day**, because blood glucose and blood pressure fall fast when intake drops.
       Someone who crash-diets while self-managing (or abruptly stopping) their tablets can be harmed. Coming off
@@ -129,7 +129,7 @@ nodes:
       - id: a
         text: "Refer to a supervised programme and a dietitian; offer interim swaps and the plate method; keep monitoring."
         correct: true
-        feedback: "A structured, supervised programme manages any total diet replacement and his medication safely, and a dietitian builds the individualised plan. In the meantime, give him something concrete and hawker-realistic: My Healthy Plate (a quarter wholegrains, a quarter protein, half fruit and vegetables), brown rice or a smaller scoop with more vegetables, and kopi-o kosong, teh-o kosong or water over sweet drinks. Keep monitoring, and let Healthier SG carry the follow-up."
+        feedback: "A structured, supervised programme manages any total diet replacement and his medication safely, and a dietitian builds the individualised plan. In the meantime, give him something concrete that works at the hawker centre: My Healthy Plate (a quarter wholegrains, a quarter protein, half fruit and vegetables), brown rice or a smaller scoop with more vegetables, and kopi-o kosong, teh-o kosong or water over sweet drinks. Keep monitoring, and arrange follow-up through Healthier SG."
         effects: { quality: +1 }
         goto: route
       - id: b

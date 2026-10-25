@@ -695,6 +695,18 @@ advises*, receptor and signalling verbs (*binds, signals, senses* for a sensor c
 = "water-attracting", hydrophobic = "water-repelling" (not "water-loving/-hating"); butyrate is the
 colonocytes' "main fuel".
 
+**Unidiomatic phrasing (2026-10-25 sweep, ~1,430 fixes).** The test for every sentence: would a standard medical
+textbook (Kumar & Clark, Davidson's, a WHO or NICE document) phrase it this way? Not *a bedside read of central fat*
+(→ "a simple bedside measure"), *the value sits at* (→ "is"), *tracks with* (→ "is associated with"), *runs high*
+(→ "remains high"), *the first move / the opener* (→ "the first step"), *an absolute avoid* (→ "must be avoided
+completely"), *the picture* for a situation or the evidence (→ "the findings", "the context"; *clinical picture*
+is fine), *signal* for evidence outside physiology or statistics (→ "association", "evidence"), *low-regret*
+(→ "low-risk"), *nudges* a value (→ "has a modest effect on"), *the through-line* (→ "in summary"), *fed up* for
+refeeding (→ "refed"). Also: coined labels where a standard term exists; a figure of speech where a literal term
+exists; compressed or slogan-like sentences that need a second reading; and vague intensifiers (*a great deal*,
+*does the work*) where the text should say what it means. Kept by decision: the heading **The Singapore picture**
+and the defined term **defended range**.
+
 **Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
 Interestingly, Ultimately, Overall, In summary, In conclusion, It is important to note, It is worth noting*.
 

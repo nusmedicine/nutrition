@@ -102,7 +102,7 @@ nodes:
       - id: c
         text: "Tell her to stop worrying about weight entirely; it doesn't matter at her age."
         correct: false
-        feedback: "Too dismissive: it leaves the red flags in *how* she's dieting unaddressed. The concern needs redirecting safely: screen, reassure, and shift to protein, activity and pattern."
+        feedback: "Too dismissive: it leaves the red flags in *how* she's dieting unaddressed. The concern needs redirecting safely: screen, reassure, and shift to protein, activity and eating pattern."
         reaction: skeptical
         goto: q-lever
 
@@ -114,20 +114,20 @@ nodes:
       - id: a
         text: "\"No. Eating well protects bone and heart and eases flushes a little; the dryness needs referral.\""
         correct: true
-        feedback: "Diet does a lot for bone and heart, a little for flushes, and nothing for genitourinary symptoms such as vaginal dryness, which need recognition and referral (moisturisers, topical oestrogen), not a supplement."
+        feedback: "Diet clearly benefits bone and heart, helps flushes a little, and does nothing for genitourinary symptoms such as vaginal dryness, which need recognition and referral (moisturisers, topical oestrogen), not a supplement."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
       - id: b
         text: "\"Yes, this menopause diet will fix all four if you stick to it.\""
         correct: false
-        feedback: "Overpromising a diet that doesn't exist sets her up to fail and implies a dietary fix for dryness, a symptom diet can't touch and one that invites 'natural remedy' marketing."
+        feedback: "Overpromising a diet that doesn't exist sets her up to fail and implies a dietary fix for dryness, a symptom that diet cannot treat and one that invites 'natural remedy' marketing."
         reaction: skeptical
         goto: route
       - id: c
         text: "\"Since food can't cure the flushes, diet won't really help you at all here.\""
         correct: false
-        feedback: "Too nihilistic: a good pattern strongly protects bone and heart, which is much of the midlife benefit. The skill is matching the intervention to each problem."
+        feedback: "Too nihilistic: a good pattern strongly protects bone and heart, which is a major part of the midlife benefit. The skill is matching the intervention to each problem."
         reaction: concerned
         goto: route
 
@@ -176,7 +176,7 @@ nodes:
     body: |
       You helped Mdm Tan but slipped on at least one point: over- or under-selling soy, the
       breast-cancer fear, the weight and eating red flags, or matching the intervention to the problem.
-      Replay and run the safe path: soy is a safe food but not a cure; the cancer fear has no support
+      Replay and take the safe path: soy is a safe food but not a cure; the cancer fear has no support
       in human data; protect muscle and bone instead of pushing restriction; and refer for what diet
       can't fix.
     debrief:

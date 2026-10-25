@@ -18,7 +18,7 @@ molecules:
     note: >
       Same atoms as oleic acid, but the trans double bond leaves the chain almost straight,
       so it packs tightly and behaves like a saturated fat. Elaidic acid is the classic
-      industrial trans fat, and industrial trans fat carries the clearest dietary harm signal.
+      industrial trans fat, and industrial trans fat has the clearest evidence of harm of any dietary fat.
   - id: stearic
     name: "Stearic acid (saturated)"
     sdf: /structures/stearic-acid.sdf

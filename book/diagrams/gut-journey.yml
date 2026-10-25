@@ -15,7 +15,7 @@ organs:
     hy: 495
     hr: 100
     what: "Teeth grind food and the tongue mixes it with saliva into a soft bolus ready to swallow."
-    secretes: "Salivary amylase begins digesting starch; a little lingual lipase starts on fat."
+    secretes: "Salivary amylase begins digesting starch; a little lingual lipase begins fat digestion."
     note: "Chewing is mechanical digestion: more chewing means more surface area for enzymes to work on."
   - id: salivary-glands
     name: "Salivary glands"
@@ -32,7 +32,7 @@ organs:
     hy: 850
     hr: 75
     what: "A muscular conduit that does no digesting. Peristalsis (travelling waves of muscle) pushes the bolus down to the stomach."
-    note: "The lower oesophageal sphincter guards the entrance to the stomach; when it leaks, stomach acid rises and causes heartburn (reflux)."
+    note: "The lower oesophageal sphincter guards the entrance to the stomach; when it does not close properly, stomach acid flows back into the oesophagus and causes heartburn (reflux)."
   - id: stomach
     name: "Stomach"
     kind: tube
@@ -66,7 +66,7 @@ organs:
     hx: 215
     hy: 1635
     hr: 60
-    what: "The main source of digestive enzymes: it pours about 1.5 L a day of enzyme- and bicarbonate-rich juice into the duodenum."
+    what: "The main source of digestive enzymes: it secretes about 1.5 L a day of enzyme- and bicarbonate-rich juice into the duodenum."
     secretes: "Amylase, lipase (+colipase), and protein-cutting enzymes made in an inactive form; bicarbonate neutralises the acid arriving from the stomach."
     hormone: "Secretin triggers bicarbonate secretion; CCK triggers enzyme secretion."
     note: "The protein enzymes are made as inactive precursors (zymogens) and activated only once they reach the gut, so the pancreas does not digest itself."

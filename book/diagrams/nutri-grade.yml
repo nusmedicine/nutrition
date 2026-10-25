@@ -20,7 +20,7 @@ drinks:
   - { id: kopic,    label: "Kopi-c siu dai",          sugar: 4.5,  satfat: true, swap: "Order it kosong (no sugar) and the sugar drops toward grade A." }
   - { id: isotonic, label: "Isotonic sports drink",   sugar: 6,    swap: "Plain water does the same job unless you've done prolonged, hard exercise." }
   - { id: milo,     label: "Milo (with sugar)",       sugar: 7.5,  satfat: true, swap: "Ask for less sugar, or Milo kosong, to move it to a better grade." }
-  - { id: packettea,label: "Packet chrysanthemum tea",sugar: 8,    swap: "Choose an unsweetened tea; most of the grade is the added sugar." }
-  - { id: oj,       label: "Fresh-pressed orange juice", sugar: 9, swap: "Eat a whole orange instead, for the fibre and less of a sugar hit." }
+  - { id: packettea,label: "Packet chrysanthemum tea",sugar: 8,    swap: "Choose an unsweetened tea; the poor grade comes mostly from the added sugar." }
+  - { id: oj,       label: "Fresh-pressed orange juice", sugar: 9, swap: "Eat a whole orange instead, for the fibre and a smaller sugar load." }
   - { id: cola,     label: "Full-sugar soft drink",   sugar: 10.6, swap: "Swap for water or a grade A/B drink; this is essentially a cup of free sugars." }
   - { id: bbt,      label: "Bubble milk tea",         sugar: 11,   satfat: true, swap: "Ask for 25–50% sugar and skip the creamer and pearls, or go for teh-o kosong (grade A)." }

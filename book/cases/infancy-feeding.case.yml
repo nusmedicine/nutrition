@@ -39,7 +39,7 @@ nodes:
       - id: a
         text: "\"You can start in a few weeks once he's ready, beginning with iron-rich foods, and keep breastfeeding.\""
         correct: true
-        feedback: "'About 6 months' has a 4-month floor for the ready baby (readiness cues: sitting with support, good head control, reaching for food). First foods should be iron-rich (iron-fortified cereal, minced meat, egg) because his iron stores are running low. Watch the baby, not the calendar."
+        feedback: "'About 6 months' allows a start from 4 months for a baby who is ready (readiness cues: sitting with support, good head control, reaching for food). First foods should be iron-rich (iron-fortified cereal, minced meat, egg) because his iron stores are running low. Readiness matters more than the exact date."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-allergen
@@ -51,7 +51,7 @@ nodes:
       - id: c
         text: "\"Start with fruit purée, since babies like sweet tastes and it's gentle.\""
         correct: false
-        feedback: "His iron stores are depleting, so first foods should be iron-rich; fruit purée supplies little iron and also nudges a sweet preference."
+        feedback: "His iron stores are depleting, so first foods should be iron-rich; fruit purée supplies little iron and may encourage a preference for sweet tastes."
         goto: q-allergen
 
   - id: q-allergen
@@ -85,7 +85,7 @@ nodes:
       - id: a
         text: "\"Please hold off on honey until he's 12 months; after his first birthday it's fine.\""
         correct: true
-        feedback: "Honey can carry spores that cause infant botulism: the immature gut, with its still-developing microbiome, is thought to offer little protection against them colonising and making toxin. Explaining the 'why' kindly helps the grandmother come along."
+        feedback: "Honey can carry spores that cause infant botulism: the immature gut, with its still-developing microbiome, is thought to offer little protection against them colonising and making toxin. Explaining the 'why' kindly helps the grandmother accept the advice."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-milk
@@ -110,7 +110,7 @@ nodes:
       - id: a
         text: "\"Keep breast milk or ordinary formula as his main drink until about 12 months, and skip the premium one.\""
         correct: true
-        feedback: "Cow's milk before ~12 months is iron-poor and can cause gut blood loss, so it waits as the *main drink* (yoghurt and cheese as foods are fine now). Every formula sold here meets the same standard, so premium and toddler milks are marketing, not nutrition, and a cheaper standard formula is equivalent."
+        feedback: "Cow's milk before ~12 months is iron-poor and can cause gut blood loss, so it should not be the *main drink* until then (yoghurt and cheese as foods are fine now). Every formula sold here meets the same standard, so premium and toddler milks are marketing, not nutrition, and a cheaper standard formula is equivalent."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-supplement
@@ -166,7 +166,7 @@ nodes:
       offer. Breast milk or formula stays the main drink until ~12 months; reassure her that premium
       and toddler milks are unnecessary. Vitamin D 400 IU/day is the one routine supplement.
 
-      And always recognise a baby whose growth is faltering, and refer. Replay and run the safe path.
+      And always recognise a baby whose growth is faltering, and refer. Replay and take the safe path.
     next: end-partial
 
   - id: end-good
@@ -174,16 +174,16 @@ nodes:
     outcome: success
     title: "Evidence sorted from tradition"
     body: |
-      You started Aidan on solids at the right time with the right (iron-rich) foods, turned the
-      allergen worry around, held the line on honey without alienating the grandmother, kept cow's milk
+      You started Aidan on solids at the right time with the right (iron-rich) foods, addressed the
+      allergen worry, held the line on honey without alienating the grandmother, kept cow's milk
       and premium formula in their place, and named the one supplement that matters. The work at this
       stage is to anticipate the real needs, correct tempting traditions kindly and know when to refer.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:
-        - "Start solids ~6 months (readiness cues; 4-month floor) with iron-rich first foods: iron-store depletion at ~6 months sets the default, and readiness, not the calendar, sets each baby's start."
+        - "Start solids ~6 months (readiness cues; 4-month floor) with iron-rich first foods: iron stores run low at ~6 months, which sets the usual start, and readiness, not the calendar, decides when each baby begins."
         - "Introduce allergens (smooth peanut, well-cooked egg) early once solids begin; delaying increases risk. Refer high-risk infants for guided peanut introduction."
-        - "Do-no-harm rules: no honey before 12 months (botulism); cow's milk as a main drink only from ~12 months; no added salt or sugar; mind food form for choking."
+        - "Do-no-harm rules: no honey before 12 months (botulism); cow's milk as a main drink only from ~12 months; no added salt or sugar; prepare food in a safe size, shape and texture to prevent choking."
         - "Formula is safe, and premium and toddler milks are unnecessary; the one routine supplement is vitamin D 400 IU/day. Recognise faltering growth and refer."
 
   - id: end-partial
@@ -193,7 +193,7 @@ nodes:
     body: |
       You helped Wei Ling but slipped on at least one point: when and what to start, the allergen
       reversal, the honey rule, the cow's-milk and formula question, or the vitamin D supplement. Replay
-      and run the safe path: iron-rich solids ~6 months, allergens early, no honey under 1, breast milk
+      and take the safe path: iron-rich solids ~6 months, allergens early, no honey under 1, breast milk
       or formula as the main drink to ~12 months, and vitamin D 400 IU/day.
     debrief:
       objectivesMet: [1]

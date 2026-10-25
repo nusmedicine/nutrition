@@ -53,7 +53,7 @@ Vitamin B12 is one exception: it is water-soluble, but the liver holds years' wo
 deficiency develops slowly instead of appearing within weeks.
 
 The behaviour can often be seen in the structure itself. Vitamin C is studded with hydroxyl (–OH)
-groups, so it dissolves in water and is washed out. Vitamins A and D are mostly hydrocarbon, so they
+groups, so it dissolves in water and is readily excreted. Vitamins A and D are mostly hydrocarbon, so they
 dissolve in fat and are stored, which is why they can build up to harmful levels if over-supplemented.
 Switch between the three vitamins below to compare them.
 
@@ -124,7 +124,7 @@ vitamin E is a common toxicity concern, so the fat-soluble vitamins are not equa
 ### Water-soluble vitamins: the B-complex and C {#sec-water-soluble}
 
 Because the water-soluble vitamins (except B12) are not stored, they need regular intake, and their
-classic deficiency diseases are among the most recognisable syndromes in medicine. Investigating and
+classic deficiency diseases are well-recognised clinical syndromes. Investigating and
 treating them is beyond the scope at this stage; the task is to recognise the pattern and the group at
 risk. Each vitamin has a broad role, a classic deficiency and a group in whom that deficiency is most
 likely:
@@ -160,10 +160,10 @@ and spinal cord, such as spina bifida), so folate has to be adequate before conc
 could become pregnant are therefore advised to take **folic acid** (the form of folate used in
 supplements and fortification) from before conception into early pregnancy [@whoFolate].
 
-Many countries now fortify flour with folic acid and have seen neural-tube defects fall, the same
-logic of changing the food supply as salt reduction. Singapore does not mandate this fortification
-[@ffiFortification], so the advice to take folic acid before conception carries more of the weight
-here. Food sources live up to the name (Latin *folium*, leaf): dark leafy greens, beans and legumes.
+Many countries now fortify flour with folic acid and have seen neural-tube defects fall; salt reduction
+uses the same approach of changing the food supply. Singapore does not mandate this fortification
+[@ffiFortification], so the advice to take folic acid before conception is all the more important
+here. As the name suggests (Latin *folium*, leaf), food sources include dark leafy greens, beans and legumes.
 :::
 
 ::: {.callout-warning}
@@ -175,7 +175,7 @@ nerve damage (numbness, pins and needles, an unsteady gait), and the nerve damag
 unnoticed, so the two vitamins must be considered together. The groups to watch are vegans and strict
 vegetarians (B12 is essentially absent from plant foods), older adults and people on long-term
 metformin, a common diabetes medicine [@metforminB12]. A reliable plant-based intake needs fortified
-foods or a supplement; spirulina and algae do not count, because they contain an inactive look-alike.
+foods or a supplement; spirulina and algae do not count, because they contain an inactive B12 analogue.
 :::
 
 **Vitamin C** is needed to make collagen, so its deficiency, **scurvy**, weakens
@@ -222,7 +222,7 @@ Haem iron
 
 Non-haem iron
 : Iron not bound in haem, which comes from plants, eggs and fortified foods and is the only source
-  for vegetarians. It is poorly and variably absorbed, and its absorption swings with what else is on
+  for vegetarians. It is poorly and variably absorbed, and its absorption depends on what else is on
   the plate [@odsIron].
 
 Because non-haem iron absorption depends on the rest of the meal, the foods eaten with it can increase
@@ -240,7 +240,7 @@ vegans need roughly 1.8 times as much iron [@odsIron], and their intake deserves
 two signs of iron deficiency are worth recognising: **koilonychia** (spoon-shaped nails) and **pica**
 (craving non-foods, classically ice).
 
-![Red meat is the richest source of well-absorbed haem iron; non-haem iron from plants needs more help to be absorbed. Photo: Hannahdownes, CC BY-SA 4.0.](/figures/food/red-meat.jpg){#fig-redmeat fig-alt="A cooked portion of red meat on a plate." width="300" .lightbox}
+![Red meat is the richest source of well-absorbed haem iron; non-haem iron from plants is less well absorbed. Photo: Hannahdownes, CC BY-SA 4.0.](/figures/food/red-meat.jpg){#fig-redmeat fig-alt="A cooked portion of red meat on a plate." width="300" .lightbox}
 
 ### Calcium and bone {#sec-calcium}
 
@@ -274,7 +274,7 @@ osteoporosis (thinned, fragile bone), under guidance (see the *Bone & joint heal
 
 ### Iodine and iodised salt {#sec-iodine}
 
-Iodine's single job is to build thyroid hormone, which sets metabolic rate and drives foetal brain
+Iodine's only known role is in making thyroid hormone, which regulates metabolic rate and is essential for foetal brain
 development. Iodine deficiency causes **goitre** (a swollen thyroid) and, in pregnancy, irreversible
 intellectual disability in the child; it is a leading preventable cause of brain injury worldwide
 [@odsIodine].
@@ -373,8 +373,8 @@ half-plate of My Healthy Plate, are its natural source.
 For most people eating a varied, mostly whole-food diet, a supplement is not needed. Micronutrients
 come packaged in food with the cofactors, fibre and other nutrients that make them work, and
 in adults without a known deficiency, vitamin and mineral pills have not been shown to prevent heart
-disease or cancer, and β-carotene pills do more harm than good [@uspstf2022vitamins]. Supplements earn
-their place for specific, identifiable needs:
+disease or cancer, and β-carotene pills do more harm than good [@uspstf2022vitamins]. Supplements are
+justified for specific, identifiable needs:
 
 - Folic acid before and in early pregnancy.
 - B12 for vegans and many older adults.
@@ -394,14 +394,14 @@ guarantee enough iodine [@codling2017iodine].
 The main micronutrient problem in Singapore, however, is an excess: too much sodium. The
 National Nutrition Survey 2022 found average sodium intake around 3,620 mg a day, close to double the
 limit, with about 9 in 10 residents exceeding it [@mohNNS2022]. Most of that sodium does not come from
-the salt shaker at the table. It is in sauces, broths and food eaten out of home [@mohNNS2022], which makes sodium a
-hawker-culture issue. Some common hawker dishes approach or exceed a whole day's sodium in a single
+the salt shaker at the table. It is in sauces, broths and food eaten away from home [@mohNNS2022], which makes sodium a
+problem closely tied to hawker food. Some common hawker dishes approach or exceed a whole day's sodium in a single
 bowl. (Per-dish figures from consumer-education sources are illustrative and vary by stall
 [@shfSaltiestDishes].)
 
-The population response is policy, not willpower alone. The Health Promotion Board's "Less Salt, More
+The population response relies on policy, not on individual willpower alone. The Health Promotion Board's "Less Salt, More
 Taste" movement and its work to make lower-sodium salt, sauces and seasonings affordable aim to change
-the food supply itself [@hpb2023sodium]. The approach follows the same label-led logic as Nutri-Grade
+the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade
 for sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: change the food supply as well
 as individual habits.
 

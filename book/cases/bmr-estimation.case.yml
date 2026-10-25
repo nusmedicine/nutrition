@@ -114,7 +114,7 @@ nodes:
       - id: b
         text: "A large deficit of ~1,000+ kcal/day for faster results"
         correct: false
-        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a fall in expenditure: energy balance is actively regulated, not free."
+        feedback: "Aggressive deficits are hard to sustain and trigger stronger compensatory hunger and a fall in expenditure: energy balance is actively regulated."
         goto: route
       - id: c
         text: "No change to intake: just tell her to exercise it off"
@@ -143,7 +143,7 @@ nodes:
     emotion: concerned
     title: "Revisiting the estimate"
     body: |
-      A shaky energy estimate makes for shaky advice. Recall the four steps: identify
+      An inaccurate energy estimate leads to inaccurate advice. Recall the four steps: identify
       the inputs, apply Mifflin–St Jeor, scale by activity, then set a modest deficit.
     next: end-partial
 

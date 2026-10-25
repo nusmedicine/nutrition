@@ -40,7 +40,7 @@ sets of factors shape nutrition, and in later life they change needs in an unexp
 | Internal factors (inside the body) | Appetite and energy needs fall, but the need for protein and micronutrients per kcal rises; ageing muscle responds less to protein; B12, vitamin D and thirst all decline |
 | External factors (life and environment) | Who the older person eats with: widowhood, living alone and the practical struggle to shop and cook often harm an older diet more than a single nutrient shortfall does, and a shared meal is an effective remedy |
 
-The through-line is a mismatch: energy needs go down while most nutrient needs do not.
+The central problem is a mismatch: energy needs go down while most nutrient needs do not.
 **Nutrient density**, the amount of nutrients a food supplies for its energy, therefore has to go up
 (energy down, density up). The porridge builder below shows the principle on a familiar dish.
 
@@ -60,7 +60,7 @@ the energy.
 Protein is the clearest reversal: while energy needs fall, protein needs rise. Healthy older adults need
 more protein than younger ones, about 1.0–1.2 g/kg a day against the 0.8 g/kg adult reference intake
 (see the *Macronutrients* chapter) [@bauer2013protage; @deutz2014espen]. The range illustrates the upward
-shift; it is not a dose to titrate. The reason for the shift is **anabolic resistance**: ageing muscle
+shift; it is not a precise target. The reason for the shift is **anabolic resistance**: ageing muscle
 mounts a weaker anabolic (muscle-building) response to a given amount of protein, so it takes more protein
 to get the same effect [@breen2011anabolic]. As in adulthood, protein works best when paired with the stimulus of
 exercise, especially resistance work (see the *Adulthood* chapter) [@deutz2014espen].
@@ -71,7 +71,7 @@ of thumb grounded in the anabolic-resistance mechanism, not a precise dose, beca
 older adults are mixed.
 
 Enough protein, with exercise, also protects against **sarcopenia**, the age-related loss of muscle
-strength and mass. Sarcopenia is screened simply in the community, where a weak hand grip is a common
+strength and mass. Sarcopenia can be screened for simply in the community, where a weak hand grip is a common
 first clue, using cut-offs set lower for Asian builds; suspected sarcopenia is then referred, since
 diagnosis and management belong to later clinical training [@cruzjentoft2019ewgsop2; @chen2020awgs2019;
 @limSarcopeniaCpg2022]. Loss of muscle strength, together with the vitamin D deficiency common in older
@@ -124,7 +124,7 @@ B12-rich diet may therefore not protect him, and he fits the at-risk profile to 
 ### Why older adults eat less {#sec-ageing-eat-less}
 
 The anorexia of ageing has several causes. The stomach empties more slowly and signals fullness sooner,
-and taste and especially smell fade, which drains food of its reward [@wysokinski2015anorexia]. Three
+and taste and especially smell fade, which makes food less rewarding [@wysokinski2015anorexia]. Three
 practical, checkable problems add to these changes:
 
 - Poor dentition pushes people towards soft, carbohydrate-heavy food and away from meat, fruit and
@@ -142,7 +142,7 @@ weight loss in older people [@morleySilver1995meals].
 
 ::: {.callout-tip}
 ## 🍜 Food fortification: enriching familiar dishes
-For a frail older adult who eats little, the first move is to make the food they already eat more
+For a frail older adult who eats little, the first step is to make the food they already eat more
 nourishing; supplement drinks come later. Stir an egg, minced fish, silken tofu, ikan bilis or milk
 powder into the morning porridge or *mee sua*; enrich soups; choose the *yong tau foo* pieces that are
 tofu and fish instead of the deep-fried ones; put a palm-sized protein at every meal. This food-first
@@ -155,7 +155,7 @@ not to put a thin, frail older adult on a bland "healthy" low-salt diet [@schiff
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does fortifying familiar food suit a frail older adult better than serving bigger portions?
 A small appetite limits how much goes on the plate: the stomach empties more slowly and signals fullness
-sooner, and faded taste and smell drain food of its reward. Stirring egg, fish, tofu or milk powder into
+sooner, and faded taste and smell make food less rewarding. Stirring egg, fish, tofu or milk powder into
 porridge or soup raises energy and protein without adding volume. Keeping the flavour strong works with
 the faded senses, where a bland diet would work against them.
 :::
@@ -173,7 +173,7 @@ food or drink, a wet voice or recurrent chest infections are red flags to refer.
 For older adults, company at meals often matters more for nutrition than any single nutrient. People eat more, and a
 wider variety of foods, in the company of familiar others than alone [@ruddock2019facilitation]. Eating
 alone is therefore a practical red flag. Solo eaters have poorer, less varied diets, and more frequent
-solitary eating tracks with lower fruit, vegetable and protein intake and with more low mood
+solitary eating is associated with lower fruit, vegetable and protein intake and with more low mood
 [@bjornwall2024eatingAlone; @kwon2023eatingAlone]. **Social isolation** in particular, the objective lack
 of contact with other people, predicts inadequate micronutrient intake [@steptoe2024isolation].
 
@@ -193,7 +193,7 @@ questions.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does "Who do you eat with?" belong in an older adult's diet history?
 People eat more, and more varied food, with familiar others than alone, so eating alone is a red flag for
-a poorer diet. Solitary eating tracks with lower fruit, vegetable and protein intake, and social isolation
+a poorer diet. Solitary eating is associated with lower fruit, vegetable and protein intake, and social isolation
 predicts inadequate micronutrient intake. The answer also points to a remedy, because communal meal
 programmes raise intake in the isolated people who need them.
 :::
@@ -211,7 +211,7 @@ programmes raise intake in the isolated people who need them.
 [Ageing in health]{.spectrum-end} [Clinical problem]{.spectrum-end}
 :::
 
-The clearest signal that ageing in health has become a clinical problem is unintentional weight loss of
+The clearest sign that ageing in health has become a clinical problem is unintentional weight loss of
 about 5% or more over 6–12 months, corroborated by looser clothes or a relative's account; it must not
 be dismissed as "just getting old", and it warrants evaluation and referral [@gaddey2021weightLoss].
 Unintentional weight loss is also the first listed feature of **frailty**, a clinical picture in older
@@ -224,7 +224,7 @@ multidisciplinary team, oral supplement drinks and tube feeding are covered in t
 ::: {.callout-warning}
 ## Do no harm: restrictive diets in a frail older adult
 The reflex to prescribe a low-fat, low-salt, low-sugar or weight-loss diet, sensible for a younger adult,
-is actively harmful in a frail, underweight older person: it strips intake and flavour and can tip them
+is actively harmful in a frail, underweight older person: it reduces intake and flavour and can tip them
 into malnutrition. Dietary restriction should generally be avoided in older age; weight-loss diets are
 reserved for the older adult with obesity and weight-related problems, and are always paired with
 exercise [@espenGeriatrics2019]. In a thin older adult who is losing weight, the rule is to **raise
@@ -245,8 +245,8 @@ Each of the following is a prompt to recognise and refer:
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a thin 80-year-old has lost weight without trying over the past year. Why does a low-fat, low-salt "healthy" diet do harm here?
 Weight lost without trying is the clearest sign that ageing in health has become a clinical problem; at
-about 5% or more over 6–12 months it warrants evaluation and referral. Restriction strips intake and
-flavour from someone who is already eating too little, and it can tip them into malnutrition. The rule is
+about 5% or more over 6–12 months it warrants evaluation and referral. Restriction reduces intake and
+flavour in someone who is already eating too little, and it can tip them into malnutrition. The rule is
 therefore to raise nutrient density and lift restriction: support intake, and refer.
 :::
 
@@ -273,8 +273,8 @@ in four, which makes the care of older patients an increasingly everyday skill [
 
 **National guidance applies the nutrient-density principle locally.** The HPB Dietary Guidelines for Older
 Adults set out nutrient density over quantity, more protein, calcium-rich foods, softer textures and more
-fluids [@hpbSeniors]. Local guidance puts numbers to the protein point: roughly 1.2 g/kg a day for
-over-50s, about a palm-sized protein at each of three meals, carried by familiar foods (eggs, a palm of
+fluids [@hpbSeniors]. Local guidance gives figures for protein: roughly 1.2 g/kg a day for
+over-50s, about a palm-sized protein at each of three meals, provided by familiar foods (eggs, a palm of
 fish, tofu, pulses) [@healthhubSeniorsProtein]. Yet local survey data suggest that about one in two older
 adults fall short of their protein target [@mohNNS2022]. The practical response is to fortify familiar
 food (see [Why older adults eat less](#sec-ageing-eat-less)): build protein and energy into porridge,
@@ -289,7 +289,7 @@ community sample that excluded diabetes) [@cheong2020shield], so testing is rese
 **Living with family does not guarantee a shared meal.** In Singapore's multigenerational households,
 many older adults eat alone even though they live with family: in one local cohort more than nine in ten
 lived with family, yet about a quarter ate alone most of the time [@ye2023daha]. Locally it is loneliness (the felt lack of company), more
-than living arrangement, that tracks with frailty [@geSocialFrailtySg2022]. When a diet history reveals an
+than living arrangement, that is associated with frailty [@geSocialFrailtySg2022]. When a diet history reveals an
 older person eating alone, the local referral points are Active Ageing Centres, for communal dining and
 befriending, and the wider Age Well SG programme [@mohAgeWellSg2023].
 
@@ -302,8 +302,8 @@ befriending, and the wider Age Well SG programme [@mohAgeWellSg2023].
 Mdm Lim is 78, widowed four months ago, and lives alone in an HDB flat. Her daughter, who works
 full-time, has noticed that her *cheongsam* hangs loose, that she "can't be bothered to cook for one" and
 that she often skips lunch. She takes long-term metformin and a stomach-acid tablet. Work through the
-visit, from what her daughter has noticed to what to advise and when to refer; your choices branch the
-case.
+visit, from what her daughter has noticed to what to advise and when to refer; the case branches
+according to your choices.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

@@ -12,7 +12,7 @@ questions:
         feedback: "This reverses the two. PREDIMED tested the Mediterranean pattern on events, while DASH is the pattern designed to lower blood pressure, proven in a feeding trial."
       - text: "Both patterns rest mainly on hard-outcome trials showing fewer heart attacks"
         correct: false
-        feedback: "DASH's landmark evidence is a short feeding trial with a blood-pressure (surrogate) endpoint, not hard outcomes. Only the Mediterranean pattern has the event-level PREDIMED signal, and even that was stroke-driven."
+        feedback: "DASH's landmark evidence is a short feeding trial with a blood-pressure (surrogate) endpoint, not hard outcomes. Only the Mediterranean pattern has event-level evidence, from PREDIMED, and even that was stroke-driven."
       - text: "Both patterns rest mainly on feeding trials using blood pressure as the endpoint"
         correct: false
         feedback: "The Mediterranean evidence from PREDIMED measured cardiovascular events, not blood pressure. Only DASH used a blood-pressure endpoint."
@@ -38,7 +38,7 @@ questions:
     options:
       - text: "It was retracted then republished in 2018, with the conclusion upheld"
         correct: true
-        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding standing: science self-correcting, not a diet debunked. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
+        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding unchanged: an example of science correcting itself, not of a diet being disproved. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
       - text: "It was retracted for good, so the Mediterranean pattern has no trial evidence at all"
         correct: false
         feedback: "After re-analysis the paper was republished and its conclusion held, so the Mediterranean pattern still has event-level trial evidence."
@@ -54,16 +54,16 @@ questions:
     options:
       - text: "Mostly in soups, gravies and sauces, so leave most of the soup"
         correct: true
-        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, not in the salt shaker, and a bowl of fishball noodle soup can carry most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the main source."
+        feedback: "Locally, most sodium is hidden in soup bases, gravies, sauces and food eaten out, not in the salt shaker, and a bowl of fishball noodle soup can contain most of a day's sodium. Leaving most of the soup (and taking sauce on the side) targets the main source."
       - text: "Mostly in the salt shaker, so just stop adding table salt at the table"
         correct: false
         feedback: "The shaker is a small part of the problem. Most sodium is already in the soups, gravies and sauces before the food reaches the table, so skipping the shaker alone changes little."
       - text: "Mostly in fresh vegetables and fruit, so eat fewer of those with meals"
         correct: false
-        feedback: "Vegetables and fruit are low in sodium and are the potassium counterpart you want more of. Cutting them would be counter-productive."
+        feedback: "Vegetables and fruit are low in sodium and are good sources of potassium, which most people should eat more of. Cutting them would be counter-productive."
       - text: "Mostly in plain rice and noodles, so remove all starch from the plate"
         correct: false
-        feedback: "Plain rice and noodles are not the main sodium source; the salt is in the accompanying soup, gravy and sauces. Removing starch does not address where the sodium actually sits."
+        feedback: "Plain rice and noodles are not the main sodium source; the salt is in the accompanying soup, gravy and sauces. Removing starch does not address where the sodium actually comes from."
 
   - id: q5
     stem: "A patient asks whether to buy fish-oil capsules \"for the heart\". What is the best answer?"
@@ -92,7 +92,7 @@ questions:
         feedback: "No single LDL number applies to every adult. Targets are individualised by cardiovascular risk and looked up in the guidance, so a memorised threshold would be misapplied."
       - text: "Start a cholesterol-lowering drug immediately at a fixed standard dose"
         correct: false
-        feedback: "Starting a drug is a clinician's risk-tiered decision, not a reflex from one number. The step here is lifestyle advice and referral, with drug thresholds signposted rather than applied from memory."
+        feedback: "Starting a drug is a clinician's risk-tiered decision, not an automatic response to one number. The step here is lifestyle advice and referral, with drug thresholds signposted rather than applied from memory."
       - text: "Reassure the patient that a raised number rarely needs any follow-up"
         correct: false
         feedback: "A raised LDL is exactly what should prompt risk estimation and referral. The right response is to look up the risk-tiered guidance and refer, not to dismiss it."
@@ -118,7 +118,7 @@ questions:
     options:
       - text: "Someone with kidney disease or on a potassium-raising blood-pressure drug"
         correct: true
-        feedback: "The trial that proved these substitutes work excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements, and ACE inhibitors and ARBs also raise potassium. In all of these people, extra potassium can cause dangerous hyperkalaemia. Check for these first, and if in doubt, don't (see the *Chronic kidney disease* chapter)."
+        feedback: "The trial that proved these substitutes work excluded people with serious kidney disease and those taking potassium-sparing diuretics or potassium supplements, and ACE inhibitors and ARBs also raise potassium. In all of these people, extra potassium can cause dangerous hyperkalaemia. Check for these first, and if in doubt, do not recommend it (see the *Chronic kidney disease* chapter)."
       - text: "An otherwise healthy adult with hypertension and no kidney problems"
         correct: false
         feedback: "This is exactly the person for whom a potassium salt substitute is a reasonable way to cut sodium, with hard-outcome support. The caution applies to kidney disease and potassium-raising drugs, which this patient does not have."

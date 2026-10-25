@@ -15,8 +15,8 @@
     id: 'claim-analyzer',
     title: 'Run the appraisal funnel',
     steps: [
-      { id: 'study', label: 'Find the study', q: 'What evidence sits behind the headline?' },
-      { id: 'design', label: 'Judge the design', q: 'Where on the hierarchy?' },
+      { id: 'study', label: 'Find the study', q: 'What evidence supports the headline?' },
+      { id: 'design', label: 'Judge the design', q: 'Where does it rank in the hierarchy of evidence?' },
       { id: 'outcome', label: 'Read the outcome', q: 'What did it measure?' },
       { id: 'apply', label: 'Check it applies', q: 'Who was studied?' },
     ],
@@ -75,7 +75,7 @@
   <figure class="ca card">
     <figcaption class="head">
       <strong>{data.title || 'Run the appraisal funnel'}</strong>
-      <span class="hint">Pick a claim, then step it down the funnel</span>
+      <span class="hint">Pick a claim, then work through the four questions</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

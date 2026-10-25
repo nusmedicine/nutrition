@@ -6,7 +6,7 @@ questions:
     options:
       - text: "The girl, because her growth spurt comes earlier than a boy's"
         correct: true
-        feedback: "Demand tracks pubertal stage, not birthday. Peak height velocity comes early in girls (before menarche) and later in boys, so at the same age she is often further into her spurt, and can be at peak demand while still looking like a child."
+        feedback: "Nutritional demand follows pubertal stage, not chronological age. Peak height velocity comes early in girls (before menarche) and later in boys, so at the same age she is often further into her spurt, and can be at peak demand while still looking like a child."
       - text: "The boy, because boys grow faster and need more at every age"
         correct: false
         feedback: "Boys do reach a higher *total* energy need eventually, but their spurt comes *later*. At 12, a girl is typically further into her spurt than a same-age boy."
@@ -22,7 +22,7 @@ questions:
         feedback: "Protein needs *per kilogram* fall through adolescence toward the adult level; total grams rise only because he is bigger. Energy needs per kilogram fall too, even as total daily amounts rise. An ordinary diet that meets his energy needs therefore almost always meets his protein needs, so a normally eating adolescent does not need supplements."
       - text: "Yes; the spurt roughly doubles protein needs, which food alone can't meet"
         correct: false
-        feedback: "Per-kilogram protein needs drift *down*, not up, and total intake from ordinary food is almost always sufficient, so supplements aren't needed for normal growth."
+        feedback: "Per-kilogram protein needs *fall*, not rise, and total intake from ordinary food is almost always sufficient, so supplements aren't needed for normal growth."
       - text: "Yes; his huge appetite is a sign that his body is short of protein"
         correct: false
         feedback: "A big appetite is a normal signal that tracks growth velocity, and mostly reflects a bigger body and more movement, not a protein shortfall. An ordinary diet that meets his energy needs almost always meets his protein needs."
@@ -32,7 +32,7 @@ questions:
     options:
       - text: "A menstruating girl on a meat-light diet; test iron before anaemia"
         correct: true
-        feedback: "Menstruating adolescent girls are the classic at-risk group: iron need jumps at menarche as monthly loss stacks on growth. Deficiency develops before haemoglobin falls, so ferritin and iron studies (not haemoglobin alone) catch it earlier; suspect it in a tired, poorly concentrating or heavily menstruating girl."
+        feedback: "Menstruating adolescent girls are the classic at-risk group: iron need rises sharply at menarche as menstrual loss adds to the demands of growth. Deficiency develops before haemoglobin falls, so ferritin and iron studies (not haemoglobin alone) catch it earlier; suspect it in a tired, poorly concentrating or heavily menstruating girl."
       - text: "A boy in his growth spurt; boys have the highest iron needs"
         correct: false
         feedback: "Boys' iron need does rise transiently with the spurt, but girls' need jumps *higher* at menarche because of monthly menstrual loss; girls are the classic at-risk group."
@@ -45,7 +45,7 @@ questions:
     options:
       - text: "It's based first on dental caries; the weight effect is real but modest"
         correct: true
-        feedback: "Dental caries is the primary rationale. On weight, drink-swap trials show a genuine but modest effect that works mainly through the drinks' energy content, not a special toxicity of sugar, so sugary drinks are a red flag to recognise, not a poison to fear."
+        feedback: "Dental caries is the primary rationale. On weight, drink-swap trials show a genuine but modest effect that works mainly through the drinks' energy content, not a special toxicity of sugar, so sugary drinks are a risk to recognise and reduce, not a toxin."
       - text: "It's based on obesity; trials prove sugary drinks are its sole cause"
         correct: false
         feedback: "The threshold is based on *caries*, and the weight evidence, while real, is modest and multi-factorial: sugary drinks are one factor among many, not the sole cause."
@@ -61,7 +61,7 @@ questions:
         feedback: "In prospective studies, adolescents who diet are more likely to develop an eating disorder and to gain more weight, so a prescribed diet risks both. The safe approach is healthy habits, family meals and no weight-talk."
       - text: "Because 14-year-olds never have weight problems, so the concern is misplaced"
         correct: false
-        feedback: "Weight problems are real at this age, but the answer is never a diet: dieting predicts both eating disorders and *more* weight gain, and healthy-habit framing is what's safe."
+        feedback: "Weight problems are real at this age, but the answer is never a diet: dieting predicts both eating disorders and *more* weight gain, and framing advice around healthy habits is the safe approach."
       - text: "Because you should put her on a stricter, supervised diet instead"
         correct: false
         feedback: "Any dieting framing carries the same risks. The safe approach avoids weight-talk altogether and builds healthy habits and family meals."
@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Low energy availability driving the female-athlete triad; refer"
         correct: true
-        feedback: "Amenorrhoea, a stress fracture, restriction and heavy training together are the pattern to recognise. Energy availability is intake minus the energy burned in training; when it is too low for her training load, reproductive hormone production (oestrogen) is suppressed, periods stop and bone suffers. The message is to fuel, not restrict (never a stricter diet), and the action is referral."
+        feedback: "Amenorrhoea, a stress fracture, restriction and heavy training together are the pattern to recognise. Energy availability is intake minus the energy burned in training; when it is too low for her training load, reproductive hormone production (oestrogen) is suppressed, periods stop and bone suffers. The advice is to eat enough for her training, not to restrict (never a stricter diet), and the action is referral."
       - text: "Overtraining; tell her to push through and take a calcium tablet"
         correct: false
         feedback: "A calcium tablet won't fix the underlying problem (too little energy lowering her hormone levels), and 'pushing through' is harmful. This needs recognition and referral, and more fuel, not more restriction."
@@ -97,7 +97,7 @@ questions:
     options:
       - text: "Food-first calcium, weight-bearing activity, and treating deficiency"
         correct: true
-        feedback: "Weight-bearing activity and adequate calcium build the most bone; supplements help mainly the child who is genuinely deficient, not the already replete. The window is brief and largely closes by the early twenties, and genetics still sets most of the ceiling."
+        feedback: "Weight-bearing activity and adequate calcium build the most bone; supplements help mainly the child who is genuinely deficient, not the already replete. The window is brief and largely closes by the early twenties, and genetics still determines most of the achievable peak."
       - text: "Supplement every child with calcium and vitamin D; more is better"
         correct: false
         feedback: "In a replete child, calcium supplements add only a small, fading benefit and vitamin D supplements add essentially nothing. The benefit is confined to children who were deficient, so the approach is food first and treating deficiency."

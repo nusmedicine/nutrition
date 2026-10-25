@@ -92,7 +92,7 @@ nodes:
     home: "Whole body (no storage form)"
     inputs: "Dietary and tissue protein (nitrogen removed first → urea)"
     outputs: "Glucogenic skeletons → pyruvate/TCA (can make glucose); ketogenic → acetyl-CoA (cannot). A few amino acids, such as leucine and lysine, are purely ketogenic."
-    control: "No storage protein: using protein for fuel dismantles working tissue"
+    control: "No storage protein: using protein for fuel breaks down functional tissue"
     note: "The fifth hub. There is no storage protein, which is why protein is spared in fasting."
 
 # Each edge belongs to a step; kind sets its colour. valve:true = an irreversible step.
@@ -134,7 +134,7 @@ steps:
   - title: "Fatty acids enter at acetyl-CoA"
     caption: >
       β-oxidation breaks fatty acids into many acetyl-CoA, on the same hub as glucose. Because
-      acetyl-CoA sits past the irreversible PDH step, fatty acids can be burned but cannot be turned back
+      acetyl-CoA is formed after the irreversible PDH step, fatty acids can be burned but cannot be turned back
       into glucose. In the fasting liver, surplus acetyl-CoA becomes ketone bodies for export.
   - title: "Protein joins the map"
     caption: >
@@ -145,7 +145,7 @@ steps:
     caption: >
       The storing and building pathways (blue) join: glycogen, the pentose phosphate pathway, fat
       synthesis, glucose export and gluconeogenesis. Each opposes a breaking-down pathway, and the
-      two are never both fully on. The three one-way-street arrows stand for all four irreversible
+      two are never both fully on. The three arrows marking irreversible steps stand for all four irreversible
       steps: one is PDH, and the other two are the routes that bypass glycolysis's three irreversible
       steps (glucose export bypasses the first; the gluconeogenesis arrow stands for the other two). The
-      whole map is five hubs, four irreversible steps and reciprocally regulated flux.
+      whole map consists of five hubs and four irreversible steps, with reciprocal regulation of flux.

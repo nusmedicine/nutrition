@@ -190,8 +190,8 @@
       </div>
       {#if allGood}
         <p class="win"><b>A My Healthy Plate meal — built entirely from {cuisine.label} food.</b>
-          The target never changed; you reached it with this household's own dishes. That is the whole
-          idea: adapt the plate to the cuisine, not the family to a foreign diet.</p>
+          The target never changed; you reached it with this household's own dishes. The aim is to adapt the plate to the family's cuisine, not to impose
+          an unfamiliar diet.</p>
       {:else}
         <ul class="notes">
           {#each plate as p}

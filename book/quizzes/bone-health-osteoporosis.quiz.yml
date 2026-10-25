@@ -6,13 +6,13 @@ questions:
     options:
       - text: "About 20–40% of peak bone mass is lifestyle-modifiable"
         correct: true
-        feedback: "Peak bone mass is mostly inherited: only around 20–40% is modifiable by lifestyle (calcium and physical activity carry the strongest evidence). That is a real but bounded effect: build a high peak bone mass in youth, then slow its loss. A higher peak delays the onset of osteoporosis by years, which is not the same as a percentage cut in fractures."
+        feedback: "Peak bone mass is mostly inherited: only around 20–40% is modifiable by lifestyle (calcium and physical activity have the strongest evidence). That is a real but limited effect: build a high peak bone mass in youth, then slow its loss. A higher peak delays the onset of osteoporosis by years, which is not the same as a percentage cut in fractures."
       - text: "Essentially all of it; bone is purely a lifestyle matter"
         correct: false
         feedback: "The majority of peak bone mass is heritable; only about 20–40% is lifestyle-modifiable. Overselling it sets up false expectations."
       - text: "None of it; bone mass is entirely fixed at birth"
         correct: false
-        feedback: "It isn't fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the modifiable factors still matter across adulthood. Their effect is bounded, not absent."
+        feedback: "It isn't fixed: about 20–40% is modifiable through the accrual years (calcium, activity), and the modifiable factors still matter across adulthood. Their effect is limited, not absent."
       - text: "It only becomes modifiable after menopause"
         correct: false
         feedback: "The main window is youth, when peak bone mass is built; menopause is when women lose bone fastest. The modifiable factors matter across the whole life course."
@@ -22,10 +22,10 @@ questions:
     options:
       - text: "Its calcium is oxalate-bound and barely absorbed (~5%)"
         correct: true
-        feedback: "Content is not availability: spinach's calcium is locked up by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Choose the well-absorbed sources."
+        feedback: "Calcium content is not the same as bioavailability: spinach's calcium is bound by oxalate and only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Choose the well-absorbed sources."
       - text: "Yes, spinach is an excellent calcium source for bone"
         correct: false
-        feedback: "This confuses content with availability. Spinach contains calcium, but oxalate binds it, so only ~5% is absorbed; it is a poor bone source despite the label."
+        feedback: "This confuses content with availability. Spinach contains calcium, but oxalate binds it, so only ~5% is absorbed; it is a poor source of calcium for bone despite its calcium content."
       - text: "Only if cooked, which frees up the calcium"
         correct: false
         feedback: "Boiling leaches some oxalate into the water, but nothing shows it turns spinach into a well-absorbed calcium source; pick low-oxalate greens or calcium-set tofu instead."
@@ -70,26 +70,26 @@ questions:
     options:
       - text: "With enough calcium, protein lowers fracture risk"
         correct: true
-        feedback: "With adequate calcium, higher protein tracks about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. The acid-ash idea that protein leaches calcium therefore runs against the evidence. Protein is the collagen matrix and preserves fall-preventing muscle: a bone nutrient, not a threat."
+        feedback: "With adequate calcium, higher protein is associated with about 11% lower hip-fracture risk, and the extra urinary calcium after a protein meal comes from better absorption, not dissolved bone. The acid-ash idea that protein leaches calcium is therefore contradicted by the evidence. Protein forms the collagen matrix and preserves fall-preventing muscle: a bone nutrient, not a threat."
       - text: "They're right; cutting protein protects the skeleton"
         correct: false
         feedback: "Cutting protein risks muscle loss and falls, and higher protein with adequate calcium is associated with fewer fractures, not more. The acid-ash belief has the evidence the wrong way round."
       - text: "Protein has no effect on bone either way"
         correct: false
-        feedback: "Protein does matter: it is the collagen matrix, drives IGF-1, and maintains fall-preventing muscle. With adequate calcium it tracks lower fracture risk."
+        feedback: "Protein does matter: it forms the collagen matrix, raises IGF-1, and maintains fall-preventing muscle. With adequate calcium it is associated with lower fracture risk."
       - text: "Only plant protein is safe; animal protein harms bone"
         correct: false
         feedback: "The evidence doesn't single out animal protein as harmful. Adequate protein of either kind, with enough calcium, supports bone."
 
   - id: q6
-    stem: "Why is a low body weight a bone red flag?"
+    stem: "Why is a low body weight a red flag for bone health?"
     options:
       - text: "A low BMI roughly doubles hip-fracture risk"
         correct: true
-        feedback: "A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely because it tracks lower bone density, which is why low weight is built into fracture-risk tools like FRAX. Underweight patients and those with low energy intake, common in frail old age, carry a bone red flag."
+        feedback: "A low BMI (20 versus 25) nearly doubles hip-fracture risk, largely because it is associated with lower bone density, which is why low weight is built into fracture-risk tools like FRAX. Underweight patients and those with low energy intake, common in frail old age, have a red flag for bone health."
       - text: "Thin people always have unusually dense bones"
         correct: false
-        feedback: "The reverse: low body weight tracks lower bone density and nearly doubles hip-fracture risk."
+        feedback: "The reverse: low body weight is associated with lower bone density and nearly doubles hip-fracture risk."
       - text: "Body weight has no relationship to fracture risk"
         correct: false
         feedback: "It has a strong relationship: a low BMI nearly doubles hip-fracture risk, and it's used in FRAX for exactly that reason."
@@ -108,7 +108,7 @@ questions:
         feedback: "Blanket supplementation of replete community adults doesn't prevent fractures and slightly raises kidney-stone risk. Benefit is confined to genuine deficiency."
       - text: "Only people who already eat plenty of dairy"
         correct: false
-        feedback: "People who already meet their needs gain no fracture benefit from extra supplements. The benefit is for those who are genuinely short."
+        feedback: "People who already meet their needs gain no fracture benefit from extra supplements. The benefit is for those who are genuinely deficient."
       - text: "No one; the supplements are never of any use"
         correct: false
         feedback: "They do help the genuinely deficient or institutionalised; what they don't do is help already-replete community adults."
@@ -150,7 +150,7 @@ questions:
     options:
       - text: "Losing ~10% of body weight, with exercise"
         correct: true
-        feedback: "In the IDEA trial, a diet-plus-exercise programme losing about 10% of body weight improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight loss and activity help more than supplements."
+        feedback: "In the IDEA trial, a diet-plus-exercise programme that produced about 10% weight loss improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight loss and activity help more than supplements."
       - text: "Taking a daily cartilage supplement"
         correct: false
         feedback: "Supplements don't rebuild cartilage or meaningfully relieve osteoarthritis. The effective intervention is weight loss with exercise."
@@ -166,7 +166,7 @@ questions:
     options:
       - text: "Cut beer and sugary drinks; medication is the main treatment"
         correct: true
-        feedback: "Diet nudges urate only modestly: beer and fructose or sugary drinks raise it, low-fat dairy and coffee are associated with lower risk, and purine-rich vegetables and total protein aren't the problem. The main treatment is a urate-lowering drug (allopurinol) to target; diet is a helpful adjunct, not the cure, and gout is not the patient's 'fault'."
+        feedback: "Diet affects urate only modestly: beer and fructose or sugary drinks raise it, low-fat dairy and coffee are associated with lower risk, and purine-rich vegetables and total protein aren't the problem. The main treatment is a urate-lowering drug (allopurinol) titrated to a target urate level; diet is a helpful adjunct, not the cure, and gout is not the patient's 'fault'."
       - text: "Cut out all seafood, all protein and all vegetables to be cured"
         correct: false
         feedback: "That's over-restriction. Purine-rich vegetables and total protein aren't associated with gout, and diet alone rarely reaches target; the effective treatment is urate-lowering medication. Don't starve the patient of protein and vegetables."
@@ -188,7 +188,7 @@ questions:
         feedback: "This swaps them. Calcium is for bone (osteoporosis), and glucosamine is for neither; for osteoarthritis, the main measure is weight loss."
       - text: "Gout → glucosamine; osteoarthritis → urate drugs"
         correct: false
-        feedback: "Both are wrong: glucosamine helps nothing, urate-lowering drugs are for gout (not osteoarthritis), and for osteoarthritis, the main measure is weight loss."
+        feedback: "Both are wrong: glucosamine helps neither condition, urate-lowering drugs are for gout (not osteoarthritis), and for osteoarthritis, the main measure is weight loss."
       - text: "Osteoporosis → weight loss; gout → high-dose vitamin D"
         correct: false
         feedback: "Weight loss is the main measure for osteoarthritis (not osteoporosis, which needs calcium, vitamin D and protein), and vitamin D doesn't treat gout; a urate-lowering drug does."

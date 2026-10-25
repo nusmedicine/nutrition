@@ -43,7 +43,7 @@ nodes:
       - id: a
         text: "High-risk CKD: from here his diet is dietitian-led work, so recognise and refer."
         correct: true
-        feedback: "CKD is staged by cause, eGFR and albuminuria on a colour-coded heat map, and a low eGFR with heavy albuminuria sits firmly in the high-risk zone, the downstream kidney damage of his long-standing diabetes. The task is to recognise that once CKD is confirmed, individualised nutrition is the treatment and it is **dietitian-led**, not to memorise every threshold."
+        feedback: "CKD is staged by cause, eGFR and albuminuria on a colour-coded heat map, and a low eGFR with heavy albuminuria falls in the high-risk zone, the downstream kidney damage of his long-standing diabetes. The task is to recognise that once CKD is confirmed, individualised nutrition is the treatment and it is **dietitian-led**, not to memorise every threshold."
         effects: { quality: +1 }
         goto: reveal-classify
       - id: b
@@ -60,7 +60,7 @@ nodes:
   - id: reveal-classify
     type: info
     body: |
-      Uncle Lim has high-risk diabetic kidney disease, the renal end of the cascade that runs through
+      Uncle Lim has high-risk diabetic kidney disease, the kidney component of the continuum that links
       obesity, diabetes and cardiovascular disease (the cardiovascular-kidney-metabolic, or CKM, syndrome). That reframes his friend's tips: advice that is sound for the *general public* may not be safe
       for *him*. He's still holding his phone, waiting. Start with the banana-and-salt question.
     next: q-potassium
@@ -159,7 +159,7 @@ nodes:
       - id: b
         text: "Start a fixed 1,000 mL-a-day fluid limit and a phosphate binder with every meal."
         correct: false
-        feedback: "Both are specialist calls, not a generalist's opening move. Fluid limits matter mainly in advanced disease and on dialysis, where any restriction is individualised and set by the renal team; binders are a nephrologist's decision. The change you *can* reinforce today is cutting sodium; the rest is referred."
+        feedback: "Both are specialist decisions, not a generalist's first step. Fluid limits matter mainly in advanced disease and on dialysis, where any restriction is individualised and set by the renal team; binders are a nephrologist's decision. The change you *can* reinforce today is cutting sodium; the rest is referred."
         goto: route
       - id: c
         text: "Give him exact daily gram targets for potassium and phosphate to follow."
@@ -192,7 +192,7 @@ nodes:
         - "The potassium message reverses in CKD: 'eat more potassium' and a potassium salt substitute can cause dangerous hyperkalaemia, worse on an ACE inhibitor. The population advice and the salt-substitute trial both excluded CKD, so hold off and refer."
         - "Don't over-restrict protein or skip meals, which risks protein-energy wasting; targets are modest, stage-specific and dietitian-set (and raised on dialysis)."
         - "Cutting sodium is the one dietary change a generalist can safely reinforce; fluid limits, binders and potassium and phosphate targets are specialist, so refer."
-        - "His occasional star-fruit juice is not a portion question: star fruit and belimbing carry a neurotoxin his kidneys can no longer clear, so in CKD they are an absolute avoid."
+        - "His occasional star-fruit juice is not a portion question: star fruit and belimbing carry a neurotoxin his kidneys can no longer clear, so in CKD they must be avoided completely."
       references: ["@who2012potassium", "@neal2021ssass", "@kdoqi2020nutrition", "@nkfsEatingRightCKD", "@chua2017starfruit"]
 
   - id: end-partial

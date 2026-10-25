@@ -32,20 +32,20 @@ questions:
     options:
       - text: "Because foods act in combination (\"food synergy\")"
         correct: true
-        feedback: "People eat food, not nutrients, and foods act in combination, so a whole pattern can predict health better than any nutrient in isolation. Food synergy is a framework for reading evidence, though, not a precise effect size to quote."
+        feedback: "People eat food, not nutrients, and foods act in combination, so a whole pattern can predict health better than any nutrient in isolation. Food synergy is a framework for interpreting evidence, though, not a precise effect size to quote."
       - text: "Because single nutrients have no effect on health"
         correct: false
-        feedback: "Individual nutrients do matter, but their effects are best understood within the whole pattern of food they arrive in."
+        feedback: "Individual nutrients do matter, but their effects are best understood within the overall dietary pattern in which they are eaten."
       - text: "Because patterns are easier to sell to the public"
         correct: false
-        feedback: "The reason is scientific (food synergy), although patterns do also communicate well."
+        feedback: "The reason is scientific (food synergy), although patterns are also easier to communicate."
 
   - id: q4
     stem: "A relative says: *\"PREDIMED proves the Mediterranean diet prevents heart attacks, guaranteed.\"* What is the most important caveat?"
     options:
       - text: "It was a relative effect on a composite endpoint"
         correct: true
-        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot predict any individual outcome: a strong pattern, not a personal guarantee."
+        feedback: "PREDIMED's ~30% reduction was a relative effect on a stroke-dominated composite (heart attack and cardiovascular death were not individually significant), and the trial was retracted and re-published. A relative effect on a composite cannot predict any individual outcome: good evidence for the pattern, not a personal guarantee."
       - text: "PREDIMED found no benefit at all"
         correct: false
         feedback: "A benefit was found on the composite endpoint; the task is to state it accurately, not to deny it."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Blood pressure is a surrogate, measured over only ~8 weeks"
         correct: true
-        feedback: "Weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. But blood pressure is a surrogate and the trial was short: it shows that a pattern moves a risk factor, not that it prevents events."
+        feedback: "Weight and sodium were held constant, so the fall came from the pattern itself, not from weight loss or salt reduction. But blood pressure is a surrogate and the trial was short: it shows that a pattern changes a risk factor, not that it prevents cardiovascular events."
       - text: "DASH is simply a low-salt diet"
         correct: false
         feedback: "Sodium was held constant in the trial, so the effect came from the whole pattern. Cutting salt on top of DASH lowers blood pressure further."
@@ -74,7 +74,7 @@ questions:
         feedback: "Vegetarian does not mean protein-free. The plate is built around legumes, with a wholemeal chapati and a generous vegetable half: the aim is to adapt the family's own food to quarter-quarter-half, not to prescribe a foreign diet."
       - text: "Switch them to a Mediterranean diet for protein"
         correct: false
-        feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Patterns are principles to adapt, not menus to impose."
+        feedback: "Imposing an unfamiliar pattern misses the point, and the family's own cuisine already supplies protein through legumes and dairy. Dietary patterns are principles to adapt to a family's own food, not fixed menus to impose."
       - text: "Meat is needed for enough protein"
         correct: false
         feedback: "Legumes, dairy and soy cover the protein quarter well within a vegetarian diet, so meat is unnecessary."

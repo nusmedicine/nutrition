@@ -246,9 +246,9 @@
         {#if !llm}
           <h3 class="nt" tabindex="-1" bind:this={titleEl}>Optional: talk to the patient</h3>
           <div class="note">
-            <strong>AI patient roleplay</strong> — here you would converse with a guardrailed AI
+            <strong>AI patient roleplay</strong> — here you would converse with a safety-constrained AI
             playing {def.persona.name}. Objective: <em>{n.objective}</em>.
-            <br>Not enabled in this build, so the case continues seamlessly (graceful <code>fallbackGoto</code>).
+            <br>Not available in this version, so the case continues without it.
           </div>
           <div class="actions"><button type="button" class="btn" onclick={contChat}>Continue →</button></div>
         {:else if chat}

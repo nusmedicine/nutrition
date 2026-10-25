@@ -61,22 +61,22 @@ nodes:
     outcome: success
     title: Quality and portion, and knowing when to refer
     body: |
-      You answered Mr Lim on quality-not-bans terms, addressed each misconception clearly, and recognised that a strict low-carb plan on top of his results is a job for a dietitian.
+      You answered Mr Lim on quality-not-bans terms, addressed each misconception clearly, and recognised that a strict low-carb plan on top of his results needs a dietitian.
     debrief:
       objectivesMet:
         - 1
         - 2
         - 3
       keyPoints:
-        - Reframed 'cut all carbs / all rice' as quality and portion, not a total ban. Met the keto keenness with a kinder, more sustainable message instead of validating it or issuing a flat 'no carbs'.
+        - Reframed 'cut all carbs / all rice' as quality and portion, not a total ban. Responded to his keenness on keto with a kinder, more sustainable message instead of endorsing it or issuing a flat 'no carbs'.
         - 'Addressed each misconception accurately and in plain language: the cholesterol in eggs is not the main influence on blood cholesterol for most people; coconut oil and butter are high in saturated fat and ''natural'' does not mean heart-healthy; protein powder is not an energy supplement and is unnecessary on his ordinary diet.'
-        - Took at least a brief diet history before advising and used non-judgemental language. Recognised that a strict or therapeutic low-carb plan layered on borderline glucose and raised cholesterol is beyond simple advice, and offered to involve a dietitian.
+        - Took at least a brief diet history before advising and used non-judgemental language. Recognised that a strict or therapeutic low-carb plan in someone with borderline glucose and raised cholesterol is beyond simple advice, and offered to involve a dietitian.
   - id: end-partial
     type: end
     outcome: partial
     title: Most of the way
     body: |
-      You engaged his questions but leaned on bans or left a misconception standing. Replay and reframe each answer around one realistic, local swap, and remember the referral boundary.
+      You engaged his questions but leaned on bans or left a misconception uncorrected. Replay and reframe each answer around one realistic, local swap, and remember when to refer.
     debrief:
       objectivesMet:
         - 1

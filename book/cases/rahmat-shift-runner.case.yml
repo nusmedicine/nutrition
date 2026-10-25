@@ -1,8 +1,8 @@
 id: rahmat-shift-runner
 title: "Rahmat, 34: the shift-working weekend runner"
 objectives:
-  - "Right-size exercise fuelling for a recreational adult: ordinary food and water, not carb-loading or shakes."
-  - "Give a calibrated protein message (~1.2–1.6 g/kg from food; safe for healthy kidneys, the exception is kidney disease)."
+  - "Match exercise fuelling to a recreational adult's needs: ordinary food and water, not carb-loading or shakes."
+  - "Give an accurate protein message (~1.2–1.6 g/kg from food; safe for healthy kidneys, the exception is kidney disease)."
   - "Give evidence-based shift-work advice: weight meals toward the daytime."
   - "Address weight creep with small, sustainable habits, not crash dieting."
   - "Deliver the current alcohol message and act on the ALDH2 flush (ask, advise, screen, refer); never advise drinking for the heart."
@@ -53,7 +53,7 @@ nodes:
       - id: c
         text: "\"Definitely use gels and a recovery shake after every run, or the training is wasted.\""
         correct: false
-        feedback: "Gels and recovery shakes are for high endurance volume or twice-daily training; for a weekend runner, ordinary meals do the job."
+        feedback: "Gels and recovery shakes are for high endurance volume or twice-daily training; for a weekend runner, ordinary meals are enough."
         goto: q-protein
 
   - id: q-protein
@@ -64,7 +64,7 @@ nodes:
       - id: a
         text: "\"About 1.2–1.6 g per kilo a day from food is plenty, and safe for normal kidneys.\""
         correct: true
-        feedback: "Benefit plateaus near 1.6 g/kg, so 3 g/kg builds no extra muscle, and the range comes easily from ordinary food. Higher protein is safe for healthy kidneys; the worry belongs to established kidney disease."
+        feedback: "Benefit plateaus near 1.6 g/kg, so 3 g/kg builds no extra muscle, and the range comes easily from ordinary food. Higher protein is safe for healthy kidneys; the concern applies only to established kidney disease."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-shift
@@ -87,14 +87,14 @@ nodes:
       - id: a
         text: "\"Move your main meals to the daytime and eat lightly at night.\""
         correct: true
-        feedback: "Food eaten overnight is handled less well metabolically (poorer glucose tolerance), so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the most evidence-aligned practical change."
+        feedback: "Food eaten overnight is handled less well metabolically (poorer glucose tolerance), so daytime-weighted eating is the better pattern for shift workers. Shift work is linked to higher diabetes risk through circadian misalignment, and weighting meals toward the day is the practical change best supported by evidence."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-weight
       - id: b
         text: "\"A big 3 a.m. meal is fine; energy is energy, whatever the hour.\""
         correct: false
-        feedback: "Timing matters here: heavy eating in the small hours worsens the metabolic picture for shift workers. Weight the main meals toward the daytime instead."
+        feedback: "Timing matters here: heavy eating in the small hours is metabolically harmful for shift workers. Weight the main meals toward the daytime instead."
         goto: q-weight
       - id: c
         text: "\"Just skip food entirely on night shifts.\""
@@ -110,14 +110,14 @@ nodes:
       - id: a
         text: "\"Small changes you can keep, starting with fewer drinks, beat a crash diet.\""
         correct: true
-        feedback: "Weight creep is a small chronic surplus, best undone by durable small changes and self-weighing, not cycles of restriction. Lower Asian BMI cut-offs mean a few kilograms matter, so it is worth addressing."
+        feedback: "Weight creep is a small chronic surplus, best reversed by small, lasting changes and self-weighing, not cycles of restriction. Lower Asian BMI cut-offs mean a few kilograms matter, so it is worth addressing."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-alcohol
       - id: b
         text: "\"Yes, a strict crash diet now, then back to normal once the weight's off.\""
         correct: false
-        feedback: "Crash-and-rebound rarely holds and sets up weight cycling. The evidence favours small, sustainable habits, starting with the most obvious surplus: the drinks."
+        feedback: "Crash dieting followed by rebound rarely works and sets up weight cycling. The evidence favours small, sustainable habits, starting with the most obvious surplus: the drinks."
         goto: q-alcohol
       - id: c
         text: "\"Don't worry about 4 kg; just train harder, since you can out-run any diet.\""
@@ -146,7 +146,7 @@ nodes:
       - id: c
         text: "\"The heart benefit is real, so don't stop, but maybe drink a little less.\""
         correct: false
-        feedback: "The 'heart benefit' claim has been overturned, so do not reinforce it. This answer also misses the flush, the important cue here (raised oesophageal-cancer risk). Drop the cardioprotection line and act on the flushing."
+        feedback: "The 'heart benefit' claim has been overturned, so do not reinforce it. This answer also misses the flush, the important cue here (raised oesophageal-cancer risk). Drop the cardioprotection claim and act on the flushing."
         reaction: concerned
         goto: remedial
 
@@ -160,26 +160,26 @@ nodes:
   - id: remedial
     type: info
     emotion: concerned
-    title: "Right-size the advice, and catch the real red flag"
+    title: "Match the advice to his needs, and catch the real red flag"
     body: |
       Most of what Rahmat expects, he does not need. A weekend run needs ordinary food and water, not
       carb-loading or shakes; about 1.2–1.6 g/kg of protein from food is plenty and safe for healthy
       kidneys; shift eating is best weighted to the daytime; and weight creep responds to small,
       steady habits, not a crash diet. The one real red flag is the alcohol: the "good for the heart" claim
       no longer holds (never endorse it), and the flush signals a raised oesophageal-cancer risk, so ask,
-      advise cutting down, screen briefly, and refer if drinking is hazardous. Replay and run it through.
+      advise cutting down, screen briefly, and refer if drinking is hazardous. Replay the case.
     next: end-partial
 
   - id: end-good
     type: end
     outcome: success
-    title: "Right-sized, and the red flag caught"
+    title: "Advice matched to need, and the red flag caught"
     body: |
       You talked Rahmat out of unnecessary sports nutrition, gave him a sensible protein and shift-eating
-      plan, and steered him to small, sustainable changes for the creep. On the point that mattered most,
+      plan, and steered him to small, sustainable changes for the weight creep. On the point that mattered most,
       you did not endorse "drinking for the heart", and you acted on the flush, screening him and advising
-      him to cut down. The task at this stage is to right-size the popular advice and recognise the one
-      thing that matters. *(He does not need detailed sports programming at this level; hazardous
+      him to cut down. The task at this stage is to tailor the popular advice to his needs and recognise the one
+      real red flag. *(He does not need detailed sports programming at this level; hazardous
       drinking, if screening flags it, is referred to addiction services.)*
     debrief:
       objectivesMet: [1, 2, 3, 4, 5]
@@ -196,12 +196,12 @@ nodes:
     body: |
       You helped Rahmat but slipped on at least one point: over-fuelling a recreational runner, the protein
       or kidney message, shift-meal timing, the crash-diet trap, or, most important, the alcohol question.
-      Replay and run the safe path: ordinary food and water for his runs, about 1.2–1.6 g/kg protein from
-      food, daytime-weighted shift eating, small steady habits for the creep, and never endorse "drinking
+      Replay and take the safe path: ordinary food and water for his runs, about 1.2–1.6 g/kg protein from
+      food, daytime-weighted shift eating, small steady habits for the weight creep, and never endorse "drinking
       for the heart", while acting on the flush.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Right-size fuelling: ordinary food and water for recreational training."
+        - "Match fuelling to need: ordinary food and water for recreational training."
         - "Protein ~1.2–1.6 g/kg from food; safe for healthy kidneys (not in kidney disease)."
         - "Never advise drinking for the heart; the alcohol flush is a red flag, so ask, advise, screen, refer."

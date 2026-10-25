@@ -81,12 +81,12 @@ Sphincters
 meal leaves the stomach over a few hours. Counter-intuitively, a fatty or large meal empties more
 slowly, because signals from the duodenum slow gastric emptying; this is partly why a greasy meal "sits
 heavy".
-Between meals, a cyclical "housekeeper" wave, the **migrating motor complex**, sweeps leftovers and
+Between meals, a cyclical "housekeeper" wave, the **migrating motor complex**, sweeps undigested residue and
 bacteria onward roughly every 1–2 hours; the hormone motilin triggers it [@deloose2012mmc].
 
 ::: {.callout-note}
 ## How long does a meal take?
-Transit times are coarse ranges, not fixed numbers: hours in the stomach, hours in the small
+Transit times are approximate ranges, not fixed numbers: hours in the stomach, hours in the small
 intestine, and up to a day or more in the colon, around 1–3 days end to end, varying with diet, fibre,
 fluid and activity. (Fibre's effect on bowel regularity is in the [*Macronutrients*](macronutrients.qmd)
 chapter.)
@@ -99,11 +99,11 @@ material, and each works at a particular place along the gut [@statpearlsDigesti
 in the mouth and ends at the **brush border**, the surface of the cells lining the small intestine,
 where the last enzymes sit (see [the absorptive surface](#sec-surface)).
 
-Four sites do the chemical work, each with its own enzymes and targets:
+Chemical digestion takes place at four sites, each with its own enzymes and targets:
 
 | Site | Made by | Enzyme or secretion | Breaks down |
 |---|---|---|---|
-| Mouth | salivary glands | salivary amylase; a little lingual lipase | starch → smaller sugars; a token start on fat |
+| Mouth | salivary glands | salivary amylase; a little lingual lipase | starch → smaller sugars; a small amount of fat |
 | Stomach | chief cells / parietal cells | pepsin; hydrochloric acid + intrinsic factor | protein → peptides |
 | Duodenum | pancreas | amylase, lipase (+ colipase), proteases; bicarbonate | starch, fat, protein → smaller units |
 | Brush border | cells lining the small intestine | disaccharidases (lactase, sucrase, maltase); peptidases | sugars and peptides → absorbable units |
@@ -125,8 +125,8 @@ protein.
 ::: {.callout-note}
 ## Why pancreatic proteases are secreted inactive
 The pancreas makes its protein-digesting enzymes as inactive precursors (zymogens), which are activated
-only once they reach the gut. Otherwise the enzymes would digest the pancreas itself. The concept matters here,
-not the named activation cascade.
+only once they reach the gut. Otherwise the enzymes would digest the pancreas itself. At this stage the concept matters,
+not the details of the activation cascade.
 :::
 
 ### Lactase deficiency and lactose intolerance {#sec-lactose}
@@ -159,7 +159,7 @@ glasses of milk" does not.
 ### Gut hormones: timing secretion and motility {#sec-gut-hormones}
 
 The gut is often called the body's largest endocrine organ: hormone-making cells are scattered singly
-through its lining. The gut hormones share one logic: food arriving in one segment releases a hormone
+through its lining. The gut hormones follow a common principle: food arriving in one segment releases a hormone
 that prepares the next stage or inhibits the one before [@statpearlsGIhormones]. Five gut hormones each
 have one main job in secretion or motility (their role in appetite is in the [*Appetite and weight
 regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
@@ -173,7 +173,7 @@ regulation*](appetite-weight-regulation.qmd#sec-gut-peptides) chapter):
 | Motilin | small intestine (M cells) | fasting between meals | drives the migrating motor complex |
 
 Glucose eaten raises insulin more than the same glucose given intravenously, because hormones released
-by the gut in response to food amplify insulin secretion. This amplification is the **incretin effect**, carried by GIP and a
+by the gut in response to food amplify insulin secretion. This amplification is the **incretin effect**, mediated by GIP and a
 partner hormone, glucagon-like peptide-1 (GLP-1) [@nauck2016incretin]. The same signal is the basis of
 major modern diabetes and weight medicines (see the [*Appetite and weight
 regulation*](appetite-weight-regulation.qmd#sec-obesity) and [*Type 2 diabetes*](type-2-diabetes.qmd)
@@ -183,7 +183,7 @@ chapters).
 ## Check yourself: a fatty meal "sits heavy". Why does it leave the stomach more slowly than a small, low-fat meal?
 Gastric emptying is regulated by signals from the duodenum. Fat and protein arriving there release
 CCK, which stimulates gallbladder contraction and pancreatic enzyme secretion and also slows gastric
-emptying. This is the general logic of the gut hormones: food arriving in one segment inhibits the
+emptying. This is the general principle of the gut hormones: food arriving in one segment inhibits the
 segment before it.
 :::
 
@@ -201,7 +201,7 @@ and food choice (hard cheese, yoghurt, lactose-free milk, non-dairy calcium sour
 
 The small intestine's absorptive surface is far larger than its outside suggests. Its lining is thrown
 into circular folds, the folds are carpeted with finger-like **villi**, and each lining cell carries a
-fuzz of **microvilli**, which form the brush border. Together they give a surface of roughly 30 m²,
+dense layer of **microvilli**, which form the brush border. Together they give a surface of roughly 30 m²,
 about half a badminton court.
 
 ![Circular folds, villi and microvilli amplify the absorptive surface. Micrograph: OpenStax College, CC BY 3.0.](/figures/anatomy/small-intestine-histology.jpg){#fig-villi fig-alt="Histology of the small intestine showing circular folds, villi and the brush border of microvilli." width="420" .lightbox}
@@ -366,11 +366,11 @@ slowing of gastric emptying. Vinegar is the best-studied acid: in a meta-analysi
 post-meal glucose and insulin [@shishehbor2017vinegar], probably by slowing gastric emptying and
 inhibiting brush-border disaccharidases. These are adjuncts, not treatments.
 
-**Processing.** Industrial processing performs much of the gut's mechanical work
+**Processing.** Industrial processing does much of the breakdown that the gut would otherwise do
 (grinding, refining and gelatinising) before food is eaten. Ultra-processed foods (industrial
 formulations made largely from refined ingredients and additives) are therefore digested faster and
-more completely. Their soft textures are also eaten more quickly and signal satiety less
-effectively, whereas eating more slowly and chewing more increase satiety modestly [@miquel2015chew].
+more completely. Because of their soft texture, they are also eaten more quickly and are
+less satiating, whereas eating more slowly and chewing more increase satiety modestly [@miquel2015chew].
 
 ::: {.callout-warning}
 ## What a controlled trial showed, and its limits
@@ -387,11 +387,11 @@ processing, so not all processing is harmful; minimally processed foods keep the
 digestion.
 :::
 
-Viscous fibre acts twice, once on speed and once on bile. Viscous fibres such as oat β-glucan and
+Viscous fibre has two effects: it slows digestion and it binds bile salts. Viscous fibres such as oat β-glucan and
 psyllium thicken the intestinal contents, slowing both gastric emptying and glucose absorption. They
 also bind bile salts, so that more are lost in stool. To replace them, the liver draws cholesterol from the blood, which is why adequate
-viscous fibre modestly lowers LDL cholesterol [@whitehead2014betaglucan]. This is the enterohepatic
-circulation deliberately interrupted (fibre fermentation is a separate process; see *The gut
+viscous fibre modestly lowers LDL cholesterol [@whitehead2014betaglucan]. In effect, the fibre interrupts the enterohepatic
+circulation (fibre fermentation is a separate process; see *The gut
 microbiome* chapter).
 
 Fat also aids the absorption of fat-soluble vitamins. Vitamins A, D, E and K and the carotenoids (plant
@@ -419,7 +419,7 @@ Separating them in time avoids the problem.
 Alcohol is relevant here too. It injures the gastric lining and impairs absorption of several
 nutrients, notably by blocking the active transport of thiamine, part of the mechanism behind thiamine
 deficiency [@subramanya2010alcohol] (see the *Micronutrients, hydration and electrolytes* chapter). The
-priority is the habit rather than the list: with any new medicine, check the label and ask a
+habit matters more than memorising the list: with any new medicine, check the label and ask a
 pharmacist about food, grapefruit, dairy, iron and timing.
 :::
 
@@ -427,8 +427,8 @@ pharmacist about food, grapefruit, dairy, iron and timing.
 
 SGLT1 explains how a drink of glucose and sodium can treat dehydration. In severe diarrhoea (cholera,
 rotavirus), the gut secretes large volumes of fluid, but SGLT1 transport continues. SGLT1 cotransports sodium with glucose,
-and water follows the sodium by osmosis, so a drink containing both glucose and sodium still gets fluid
-in. As a result, a dehydrated child can be rehydrated by mouth, with no drip
+and water follows the sodium by osmosis, so a drink containing both glucose and sodium still allows fluid
+to be absorbed. As a result, a dehydrated child can be rehydrated by mouth, with no drip
 needed.
 
 ::: {.flow}
@@ -440,7 +440,7 @@ needed.
 4. Rehydration by mouth
 :::
 
-That drink is **oral rehydration salts (ORS)**: the modern WHO formula is a precise, low-strength mix
+That drink is **oral rehydration salts (ORS)**: the modern WHO formula is a reduced-osmolarity solution
 of 75 mmol/L each of sodium and glucose [@whoORS2006]. The underlying discovery was called, in a 1978
 *Lancet* editorial, "potentially the most important medical advance this century"
 [@lancet1978water], and oral rehydration has since saved tens of millions of lives [@ourworldindataORT].
@@ -458,10 +458,10 @@ Six common beliefs about digestion can be tested against the evidence:
 
 - "Gluten-free is healthier for everyone." It is healthier only for people with **coeliac disease**
   (an immune reaction to gluten that damages the lining of the small intestine) or wheat allergy.
-  Going gluten-free can cost fibre and micronutrients, and if coeliac disease is suspected, test for
+  Going gluten-free can reduce the intake of fibre and micronutrients, and if coeliac disease is suspected, test for
   it before gluten is removed, or the test can give a false-negative result [@glutenFreeNonCeliac].
 - "I need to detox / my 'leaky gut' is the problem." The liver and kidneys already detoxify. The gut
-  barrier is real, but "leaky gut syndrome" as a diagnosable, supplement-fixable disease is not
+  barrier is real, but "leaky gut syndrome" as a diagnosable disease that supplements can treat is not
   established, and there is no reliable test for it [@leakyGutMechanisms].
 - "Enzyme and probiotic supplements fix bloating for everyone." There is little evidence for them in
   healthy people. Enzymes help only in narrow cases (lactase, or Beano for beans), and probiotics are
@@ -499,7 +499,7 @@ A plate of mixed rice with vegetables and fish is first broken down and then abs
    empties into the duodenum over a few hours.
 3. In the duodenum, secretin and CCK stimulate the release of bicarbonate, pancreatic enzymes and
    bile, and the pancreatic enzymes break starch, fat and protein into smaller units.
-4. At the brush border, the last enzymes finish the sugars and peptides. Glucose enters with sodium
+4. At the brush border, the last enzymes complete the digestion of sugars and peptides. Glucose enters with sodium
    through SGLT1, and sugars and amino acids travel to the liver by the portal vein.
 5. The fat, emulsified by bile and carried by micelles, leaves the enterocytes as chylomicrons in the
    lymph. Most of the bile salts are reclaimed at the terminal ileum, and the undigested remainder of
@@ -517,13 +517,13 @@ Three digestive mechanisms apply directly to practice in Singapore:
   the vegetables and the fish or tofu first and the rice last flattens the glucose rise
   [@shukla2019order].
 - Oral rehydration salts, a pharmacy staple, use SGLT1 cotransport to rehydrate by mouth, without an
-  intravenous drip, in the gastroenteritis every family meets.
+  intravenous drip, in the gastroenteritis that most families encounter.
 
 ## Check your understanding {#sec-quiz}
 
 <div data-island="quiz" data-src="/quizzes/digestion-absorption.quiz.yml"></div>
 
-## Practise: "The drip-free rescue" {#sec-case}
+## Practise: "Rehydration without a drip" {#sec-case}
 
 A worried parent brings in a toddler with two days of diarrhoea. Work through why this child can be
 treated by mouth, and what makes oral rehydration work.

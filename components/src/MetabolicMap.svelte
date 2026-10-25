@@ -116,7 +116,7 @@
   <figure class="mm card">
     <figcaption class="head">
       <strong>{data.title || 'Build the metabolic map'}</strong>
-      <span class="hint">Step through it, then click a crossroad (★)</span>
+      <span class="hint">Step through it, then click a hub (★)</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 
@@ -128,7 +128,7 @@
         <button type="button" onclick={() => setStep(step + 1)} disabled={step >= stepCount} aria-label="Next step">›</button>
       </div>
       <div class="toggles">
-        <button type="button" class:on={showValves} aria-pressed={showValves} onclick={() => (showValves = !showValves)}>One-way streets</button>
+        <button type="button" class:on={showValves} aria-pressed={showValves} onclick={() => (showValves = !showValves)}>Irreversible steps</button>
         <span class="seg" role="group" aria-label="Filter traffic">
           <button type="button" class:on={view === 'all'} onclick={() => (view = 'all')}>All</button>
           <button type="button" class:on={view === 'catabolic'} onclick={() => (view = 'catabolic')}>Breaking down</button>
@@ -193,7 +193,7 @@
             {/each}
           </dl>
         {:else}
-          <p class="thin">A molecule that links the crossroads on the map.</p>
+          <p class="thin">A molecule that links the hubs on the map.</p>
         {/if}
       </div>
     {/if}
@@ -201,7 +201,7 @@
     <p class="legend">
       <span class="key cat">■ breaking down (catabolic)</span>
       <span class="key ana">■ building up (anabolic)</span>
-      <span class="key val">✗ one-way street</span>
+      <span class="key val">✗ irreversible step</span>
     </p>
     {#if data.credit}<p class="credit">{data.credit}</p>{/if}
   </figure>

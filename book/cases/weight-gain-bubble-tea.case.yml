@@ -3,7 +3,7 @@ title: "Weight gain and bubble tea: a diet-history station"
 objectives:
   - "Choose a fit-for-purpose assessment method and take a structured diet history, naming its bias."
   - "Ask the most informative question (drinks) and open the conversation with permission, in plain language."
-  - "Recognise a disordered-eating red flag and respond safely: screen and refer, and never prescribe restriction into possible harm."
+  - "Recognise a disordered-eating red flag and respond safely: screen and refer, and never prescribe restriction where it could cause harm."
 difficulty: intro
 estimatedMinutes: 10
 tags: [nutrition, assessment, counselling, singapore, safety]
@@ -37,7 +37,7 @@ nodes:
       - id: a
         text: "\"Walk me through a typical day from waking up, and tell me if that's usual for you.\""
         correct: true
-        feedback: "A structured history widened to habitual intake is the fit-for-purpose method here, and asking 'is that typical?' guards against the single-day trap."
+        feedback: "A structured history widened to habitual intake is the fit-for-purpose method here, and asking 'is that typical?' guards against relying on one unrepresentative day."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-drinks
@@ -83,7 +83,7 @@ nodes:
       - id: a
         text: "\"Would it be alright if I shared one idea about your drinks?\""
         correct: true
-        feedback: "Assess, then advise with permission: asking first turns advice into a conversation, and one concrete swap (less sugar, or teh-o kosong) beats a list she'll ignore."
+        feedback: "Assess, then advise with permission: asking first turns advice into a conversation, and one concrete swap (less sugar, or teh-o kosong) works better than a list she'll ignore."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-safety
@@ -113,7 +113,7 @@ nodes:
       - id: b
         text: "\"Good, skipping meals and eating less will help you lose faster. I'll give you a strict low-calorie plan.\""
         correct: false
-        feedback: "Prescribing restriction into a possible eating disorder is the harm to avoid. The guilt and compensatory skipping are warning signs, not habits to reinforce. Missing the safety fork means this can't be 'first contact done safely', however well the rest went."
+        feedback: "Prescribing restriction to someone who may have an eating disorder is the harm to avoid. The guilt and compensatory skipping are warning signs, not habits to reinforce. Missing this safety point means the station can't be 'first contact done safely', however well the rest went."
         goto: remedial
       - id: c
         text: "\"That's completely normal, don't worry about it.\" Then carry on with diet advice."
@@ -136,7 +136,7 @@ nodes:
       The station rewards the same three habits: **assess before advising** (a structured history,
       and always ask about drinks), **advise with permission** in plain language, and **do no harm**:
       recognise a disordered-eating red flag and switch from 'cut down' to screen-and-refer. Replay
-      and try the safe path through each fork.
+      and take the safe path at each decision point.
     next: end-partial
 
   - id: end-good
@@ -153,19 +153,19 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Assess before you advise: take a structured history and widen a single day to 'is that typical?'."
+        - "Assess before you advise: take a structured history and check whether a single day is typical."
         - "Ask about drinks: the most informative, most-often-skipped question in a local diet history."
         - "Advise with permission, in plain language, one realistic swap at a time."
-        - "Do no harm: skipping to compensate and guilt after eating are red flags. Screen (SCOFF), be supportive and refer; never prescribe restriction into possible harm."
+        - "Do no harm: skipping to compensate and guilt after eating are red flags. Screen (SCOFF), be supportive and refer; never prescribe restriction where it could cause harm."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Most of the way"
     body: |
-      You worked through the station but slipped on at least one fork: advising before assessing,
+      You worked through the station but slipped on at least one point: advising before assessing,
       missing the drinks, lecturing without permission, or not catching the safety flag. Replay and
-      run the safe path: assess, ask about drinks, advise with permission, and screen-and-refer when
+      take the safe path: assess, ask about drinks, advise with permission, and screen-and-refer when
       a red flag shows.
     debrief:
       objectivesMet: [1]

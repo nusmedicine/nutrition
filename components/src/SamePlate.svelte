@@ -16,7 +16,7 @@
 
   const FALLBACK = {
     id: 'same-plate',
-    title: 'Fortify the familiar: energy down, density up',
+    title: 'Fortifying familiar foods: lower energy needs, higher nutrient density',
     intro:
       'Start with a frail senior’s thin bowl of porridge, then add familiar foods. Watch a small, inadequate meal become nutrient-dense — without much more volume.',
     proteinTargetMeal: 25,
@@ -33,7 +33,7 @@
     ],
     restrict: {
       label: 'Make it "low-fat & low-salt"',
-      why: 'She is losing weight — stripping fat, salt and flavour cuts intake and can tip a frail elder into malnutrition. The rule here is density UP, restriction OFF.',
+      why: 'She is losing weight — stripping fat, salt and flavour cuts intake and can tip a frail elder into malnutrition. The aim is to raise nutrient density, not to restrict the diet.',
     },
     credit: 'Schematic — teaches the shape (energy down, density up), not exact nutrition. Grounded in HPB Dietary Guidelines for Older Adults; PROT-AGE; ESPEN geriatrics.',
   };

@@ -68,7 +68,7 @@ nodes:
       - id: b
         text: "\"Exactly, so you must cut it out now, before it's too late.\""
         correct: false
-        feedback: "He just handed you real motivation and the righting reflex buries it. Rushing to instruct flips him from 'I want to' back to 'don't push me'."
+        feedback: "He has just voiced his own motivation, and the righting reflex would override it. Rushing to instruct flips him from 'I want to' back to 'don't push me'."
         goto: q-goal
       - id: c
         text: "\"Do you know your latest HbA1c number?\""
@@ -114,12 +114,12 @@ nodes:
       - id: b
         text: "\"That's good discipline. Skipping meals will help you cut down even faster.\""
         correct: false
-        feedback: "Praising meal-skipping reinforces restriction in someone showing disordered-eating red flags, which is the harm to avoid. Recognise the signal and switch to support and referral."
+        feedback: "Praising meal-skipping reinforces restriction in someone showing disordered-eating red flags, which is the harm to avoid. Recognise the red flag and switch to support and referral."
         goto: remedial
       - id: c
         text: "Brush past it and confirm the kopi goal: one thing at a time."
         correct: false
-        feedback: "Letting this pass is a do-no-harm failure. Compensatory meal-skipping and guilt outrank the kopi goal, so pause it and address them."
+        feedback: "Letting this pass is a do-no-harm failure. Compensatory meal-skipping and guilt take priority over the kopi goal, so pause it and address them."
         goto: remedial
 
   - id: route
@@ -164,7 +164,7 @@ nodes:
     title: "Most of the way"
     body: |
       You worked with Mr Tan but slipped on at least one turn: lecturing instead of listening,
-      imposing a goal instead of evoking one, or missing the red flag. Replay and run the safe path:
+      imposing a goal instead of evoking one, or missing the red flag. Replay and take the safe path:
       reflect and ask, affirm his change talk, co-set one small owned goal, and step back to refer when
       restriction and guilt appear.
     debrief:

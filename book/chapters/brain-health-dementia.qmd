@@ -12,9 +12,9 @@
 - Explain why vascular risk control is the best-supported preventive approach, and interpret the Lancet
   Commission's "up to about 45%" estimate without overselling it.
 - Distinguish the MIND diet's cohort association from its null prevention trial, and recommend a
-  Mediterranean-style pattern as a low-regret choice.
+  Mediterranean-style pattern as a low-risk choice.
 - Evaluate brain supplements against the trial evidence, including those that can cause harm.
-- Identify the non-dietary measures with real weight: physical activity, hearing and vision
+- Identify the non-dietary measures with good supporting evidence: physical activity, hearing and vision
   correction, and social and mental engagement.
 - Recognise weight loss in advanced dementia as part of the illness, explain why tube feeding does not
   help, and refer for a goals-of-care conversation.
@@ -26,7 +26,7 @@
 - [Pathophysiology: neurodegeneration and small-vessel disease](#sec-dementia-pathways): the two kinds of damage add up
 - [Dietary management: reducing dementia risk](#sec-dementia-levers)
   - [Vascular risk factors](#sec-dementia-vascular): the best-supported target
-  - [Can a diet prevent dementia?](#sec-dementia-diet): a cohort signal, a null trial
+  - [Can a diet prevent dementia?](#sec-dementia-diet): a cohort association, a null trial
   - [Do brain supplements prevent dementia?](#sec-dementia-supplements): none proven, some harmful
   - [Non-dietary modifiable risk factors](#sec-dementia-beyond): activity, hearing and vision, engagement
 - [Eating difficulties and weight loss in advanced dementia](#sec-dementia-advanced): careful hand feeding, not a tube
@@ -37,7 +37,7 @@
 
 **Dementia** is a clinical syndrome of acquired, progressive loss of memory and thinking severe enough
 to affect daily life. Patients often hope for a dietary way to prevent it, and careful counselling
-matters because the evidence is encouraging in one place and thin in the others. Four messages
+matters because the evidence is encouraging in one area and weak in the others. Four messages
 summarise the evidence:
 
 - The largest dietary benefit for the brain comes through vascular risk: what protects the heart
@@ -45,7 +45,7 @@ summarise the evidence:
   best-supported, most actionable advice. It is the same prevention as for heart disease and diabetes
   (see the [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) and
   [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
-- A brain-healthy eating pattern is a reasonable, low-regret choice, not a proven cure. The cohort
+- A brain-healthy eating pattern is a reasonable, low-risk choice, not a proven cure. The cohort
   studies look impressive, but the one prevention trial built to test a brain diet was negative.
 - No brain supplement is proven to prevent dementia, and a few can do harm.
 - Late in the disease the concern shifts from prevention to eating difficulty. Weight loss and
@@ -57,11 +57,11 @@ or doses are needed.
 
 ## Pathophysiology: neurodegeneration and small-vessel disease {#sec-dementia-pathways}
 
-Two kinds of brain damage usually run together in dementia.
+Two kinds of brain damage usually occur together in dementia.
 
 The first is **neurodegeneration**: the accumulation of abnormal proteins, with loss of synapses and
 neurons and brain atrophy. Two proteins accumulate: **amyloid-β**, in plaques between neurons, and
-**tau**, in tangles inside them. Neurodegeneration is the dominant picture in Alzheimer's disease.
+**tau**, in tangles inside them. Neurodegeneration is the dominant process in Alzheimer's disease.
 Its exact causal chain is still debated, so the amyloid-and-tau account is the leading model, not
 settled fact.
 
@@ -91,7 +91,7 @@ for Alzheimer's disease, those who also had small strokes were more likely to ha
 life, and fewer plaques and tangles seemed to be enough to produce it [@snowdon1997nunstudy].
 :::
 
-The additive model has a hopeful corollary. We cannot yet clear plaques and tangles with food, but we
+The additive model has a practical implication. We cannot yet clear plaques and tangles with food, but we
 *can* reduce the vascular load, and doing so lowers the total burden whichever model of
 neurodegeneration turns out to be right.
 
@@ -123,7 +123,7 @@ from a trial.
 Each risk factor raises risk only modestly, and reducing vascular damage is one of several ways the
 factors are thought to act [@livingston2024lancet]. Because each effect is modest, the large number
 comes from adding many common exposures across a life, not from one dominant cause. Two further
-points make the estimate usable. The largest single contributors in the model are hearing loss and high LDL cholesterol (about 7%
+points help in interpreting the estimate. The largest single contributors in the model are hearing loss and high LDL cholesterol (about 7%
 each), followed by less education and social isolation (about 5% each). Diet is not among the modelled
 factors, because the Commission judged its evidence not consistent enough to include. Midlife is also a key period, so prevention is a long-term
 effort.
@@ -145,38 +145,38 @@ repeated as fact.
 
 A three-year randomised trial of the MIND diet, built specifically to answer the prevention question,
 then found no cognitive benefit over a control diet with the same mild calorie restriction and counselling
-[@barnes2023mindrct]. The cohort signal did not survive the trial.
+[@barnes2023mindrct]. The trial did not confirm the cohort association.
 
-Three explanations fit the gap (see the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter):
+Three explanations could account for the difference (see the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter):
 
-- People who eat well differ in a hundred other ways, some of which could produce the association.
+- People who eat well differ in many other ways, some of which could produce the association.
   That is **confounding**: distortion of an association by a third factor linked to both the
   exposure and the outcome.
 - Early, undiagnosed disease can dull appetite and worsen diet (reverse causation).
 - Three years may be too short.
 
-Which impressive claims survive a randomised trial is rarely obvious in advance.
+It is rarely possible to predict which promising observational findings a randomised trial will confirm.
 
 <div data-island="trial-check" data-src="/diagrams/trial-check.yml"></div>
 
 For a patient, a Mediterranean-style or MIND-style pattern is safe, affordable and good for the heart.
-It is reasonable to recommend as a low-regret choice, though not as proven prevention of dementia.
+It is reasonable to recommend as a low-risk choice, though not as proven prevention of dementia.
 
 **Multidomain programmes**, which combine diet, exercise, cognitive activity and vascular monitoring,
 have improved cognitive test scores in trials such as FINGER [@ngandu2015finger]. Even the best of them
-has not shown a reduction in dementia itself, and the benefit probably runs largely through the
+has not shown a reduction in dementia itself, and the benefit probably comes largely from the
 vascular component.
 
 ### Do brain supplements prevent dementia? {#sec-dementia-supplements}
 
-Sooner or later the patient asks about a pill. No supplement is proven to prevent dementia, and
+Patients often ask about supplements. No supplement is proven to prevent dementia, and
 several carry a downside:
 
 | Supplement | Claim / rationale | Verdict |
 |---|---|---|
 | B vitamins | Lower homocysteine (an amino acid in the blood); a small study showed slower brain atrophy on scans [@smith2010vitacog] | Large trials found no benefit to memory or thinking [@clarke2014bvitamin]; an imaging change is not a clinical benefit |
-| Fish-oil (omega-3) capsules | Omega-3 for the brain | Trials show no cognitive benefit [@sydenham2012cochraneomega3]; eat fish as food: the capsule is not the food |
-| Vitamin E | Antioxidant for prevention | Trials found it did not prevent dementia in older men [@kryscio2017preadvise] or stop mild impairment progressing to dementia [@farina2017vitaminecochrane]; at high doses it has been linked to a small increase in death [@miller2005vitamine], so this one can harm |
+| Fish-oil (omega-3) capsules | Omega-3 for the brain | Trials show no cognitive benefit [@sydenham2012cochraneomega3]; eat fish rather than taking capsules |
+| Vitamin E | Antioxidant for prevention | Trials found it did not prevent dementia in older men [@kryscio2017preadvise] or stop mild impairment progressing to dementia [@farina2017vitaminecochrane]; at high doses it has been linked to a small increase in death [@miller2005vitamine], so this one can cause harm |
 | Ginkgo biloba | The classic "brain tonic" | A large trial found it did not reduce dementia at all [@dekosky2008gem]; may raise bleeding risk in people taking blood thinners such as warfarin [@nccih2025ginkgo] |
 | Coconut oil or "MCT" (medium-chain triglycerides) | Marketed for Alzheimer's | No credible trial evidence, and coconut oil is more than 80% saturated fat [@usdaFdcCoconutOil], so it works against the vascular risk control that actually matters |
 | "Medical foods" | Marketed for memory | A regulatory category with a lower bar than a medicine; the label is not evidence that the product works |
@@ -186,29 +186,29 @@ small pilot, or on an after-the-fact subgroup.
 
 ### Non-dietary modifiable risk factors {#sec-dementia-beyond}
 
-The worried-well patient deserves the whole picture, and some of the strongest preventive measures are
+The worried-well patient should hear about all the options, and some of the strongest preventive measures are
 not dietary:
 
 - physical activity, a core recommendation for brain health that works partly through the same
   vessels (see the [*Healthy ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
 - correcting hearing and vision, which matters more than most people expect: uncorrected hearing loss
   is one of the largest single modifiable contributors to dementia risk, so "get your hearing and eyes
-  checked" is concrete, high-value advice.
+  checked" is concrete, useful advice.
 
-Staying socially and mentally engaged, and treating depression and sleep problems, round out the
-picture. Building **cognitive reserve** (the brain's capacity to absorb damage before dementia shows)
+Staying socially and mentally engaged, and treating depression and sleep problems, complete the
+list. Building **cognitive reserve** (the brain's capacity to absorb damage before dementia shows)
 and social reserve early also helps: greater reserve, together with less vascular damage, is thought
 to be part of why age-specific dementia incidence has fallen in some high-income countries
 [@livingston2024lancet].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does dementia-prevention advice lead with blood pressure and glucose, not with a brain diet?
-Vascular risk control has the strongest trial signal: in SPRINT MIND, intensive blood-pressure lowering
+Vascular risk control has the strongest trial evidence: in SPRINT MIND, intensive blood-pressure lowering
 reduced mild cognitive impairment, although the trial was underpowered to show fewer cases of dementia
 itself. Diabetes injures the same small vessels, so glucose control acts on the same vascular pathway.
 The MIND diet's halved risk came from cohorts, which confounding and reverse causation can inflate,
-and it did not survive a three-year randomised trial. A Mediterranean-style pattern is still worth
-recommending as a low-regret, heart-healthy choice, but not as proven prevention.
+and it was not confirmed in a three-year randomised trial. A Mediterranean-style pattern is still worth
+recommending as a low-risk, heart-healthy choice, but not as proven prevention.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -264,7 +264,7 @@ for a referral instead of further advice or a product:
   in the moment, but its longer-term effects are uncertain [@flynn2018cochranethickening]. Recognise
   the practice and refer to a speech therapist, who sets the texture level, instead of assuming it is needed.
 
-The recognise-and-refer posture, and the malnutrition screening behind it, are set out in the
+The recognise-and-refer approach, and the malnutrition screening behind it, are set out in the
 [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter. (The wider referral map,
 who does what across the multidisciplinary team, is in the
 [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter.)
@@ -281,14 +281,14 @@ required.
 Take the fear seriously, then cover four points:
 
 1. Lead with vascular risk, because what is good for the heart is good for the brain.
-2. Offer a Mediterranean-style pattern as a sensible, low-regret choice, while being clear that it is
+2. Offer a Mediterranean-style pattern as a sensible, low-risk choice, while being clear that it is
    not a proven cure.
-3. Steer away from brain supplements, which cost money and can occasionally harm.
-4. Add the non-dietary measures that carry real weight, especially activity and getting hearing and
+3. Steer away from brain supplements, which cost money and can occasionally cause harm.
+4. Add the non-dietary measures with good supporting evidence, especially activity and getting hearing and
    vision corrected.
 
 If the same family later returns with a relative who is losing weight in advanced dementia, the kind,
-evidence-based answer is comfort, not a tube, with a referral for a proper conversation about goals.
+evidence-based answer is careful hand feeding for comfort, not a tube, with a referral for a proper conversation about goals.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -305,8 +305,8 @@ Two local realities shape counselling. The first is a large local market in over
 tonics" (ginkgo, fish oil and traditional tonics). Being sold in a pharmacy does not make a product
 proven or approved for dementia.
 
-The second is a set of local socio-cultural signals. In a multi-ethnic Singapore cohort, overall diet
-quality tracks with better cognition [@huangx2023singaporemec], and regular curry (curcumin) intake has
+The second is a set of local socio-cultural findings. In a multi-ethnic Singapore cohort, overall diet
+quality is associated with better cognition [@huangx2023singaporemec], and regular curry (curcumin) intake has
 been associated with lower rates of new cognitive impairment in older Singaporeans [@lu2025curry]. The
 curry finding generates a hypothesis; it is not a prescription. Local programmes such as the
 SINGER study are adapting the multidomain approach to Singaporean food and life [@chew2021singerpilot].
@@ -319,8 +319,8 @@ SINGER study are adapting the multidomain approach to Singaporean food and life 
 
 A 52-year-old whose mother has dementia asks you what diet will prevent it. Her blood pressure is
 raised and her fasting glucose is in the prediabetes range. She has read that the MIND diet halves
-Alzheimer's risk, and she wants a supplement recommendation. Counsel her truthfully, without selling
-false hope. Your choices branch the case.
+Alzheimer's risk, and she wants a supplement recommendation. Counsel her truthfully, without offering
+false hope. The case branches according to your choices.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

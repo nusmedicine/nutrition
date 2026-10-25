@@ -9,7 +9,7 @@ questions:
         feedback: "A careful 2016 recount put it near 1:1 (about 38 trillion bacteria to 30 trillion human cells, most of which are red blood cells). Total bacterial mass is only about 0.2 kg."
       - text: "About 10:1, ten bacteria for every human cell."
         correct: false
-        feedback: "This is the widely quoted figure, but it came from a 1970s back-of-envelope estimate. The recount puts the ratio at roughly 1:1."
+        feedback: "This is the widely quoted figure, but it came from a rough 1970s estimate. The recount puts the ratio at roughly 1:1."
       - text: "About 100:1, so bacteria vastly outnumber us."
         correct: false
         feedback: "The ratio is roughly 1:1. Even the old, superseded figure was only 10:1."
@@ -78,10 +78,10 @@ questions:
     options:
       - text: "No, microbial synthesis is downstream of where B12 is absorbed."
         correct: true
-        feedback: "Most microbial synthesis is in the colon, downstream of the terminal ileum where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the functional supply: 'made in the gut' does not mean 'available to the host'."
+        feedback: "Most microbial synthesis is in the colon, downstream of the terminal ileum where B12 is absorbed, and gut microbes are net consumers of B12. Dietary (animal-source) B12 is the only usable source: 'made in the gut' does not mean 'available to the host'."
       - text: "Yes, gut bacteria make all the B12 you need."
         correct: false
-        feedback: "Colonic synthesis sits past the absorption site (terminal ileum), and microbes mostly consume B12. Diet is the functional source."
+        feedback: "Colonic synthesis occurs beyond the absorption site (terminal ileum), and microbes mostly consume B12. Diet is the only usable source."
       - text: "Yes, but only if you take a probiotic."
         correct: false
         feedback: "The problem is anatomical (synthesis downstream of absorption), which a probiotic does not fix. Dietary B12 is the answer."
@@ -90,7 +90,7 @@ questions:
     options:
       - text: "No, a probiotic must be live, defined, dosed microbes."
         correct: true
-        feedback: "A fermented food is defined by its process, and many are cooked or pasteurised; a probiotic must be live, defined, dosed microbes shown to benefit health. Tempeh and boiled miso are fermented but carry few or no live microbes; they are still good foods."
+        feedback: "A fermented food is defined by its process, and many are cooked or pasteurised; a probiotic must be live, defined, dosed microbes shown to benefit health. Tempeh and boiled miso are fermented but contain few or no live microbes; they are still good foods."
       - text: "Yes, all fermented foods are probiotics."
         correct: false
         feedback: "Many fermented foods (tempeh, bread, cooked miso) have few or no live microbes. Only defined, dosed, live products meet the probiotic definition."
@@ -114,7 +114,7 @@ questions:
     options:
       - text: "No, peripheral serotonin does not cross the blood–brain barrier."
         correct: true
-        feedback: "Gut serotonin regulates gut motility and cannot reach the brain directly. A gut–brain axis exists, but 'gut serotonin = happiness' is a metaphor without a mechanism."
+        feedback: "Gut serotonin regulates gut motility and cannot reach the brain directly. A gut–brain axis exists, but 'gut serotonin = happiness' has no mechanism to support it."
       - text: "Yes, the gut serotonin travels to the brain and lifts your mood."
         correct: false
         feedback: "Peripheral serotonin does not cross the blood–brain barrier. Gut serotonin drives gut motility, not mood."

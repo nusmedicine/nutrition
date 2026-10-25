@@ -9,7 +9,7 @@
 - Distinguish universal nutrition advice, which any clinician gives, from medical nutrition therapy,
   which a registered dietitian delivers.
 - Recognise the triggers for referral to a dietitian, and refer.
-- Write a dietitian referral that carries what the dietitian needs to act on.
+- Write a dietitian referral that contains the information the dietitian needs to act on.
 - Describe the roles in a nutrition care team, and explain why intensive trial results cannot be
   promised from brief advice.
 - Explain why a clinician's own sleep, diet and activity matter for their health and their counselling.
@@ -31,7 +31,7 @@
 
 ## Interprofessional practice, referral and looking after yourself at a glance {#sec-overview}
 
-Good dietary care calls for humility with competence: a clinician knows where their own role ends and
+Good dietary care calls for competence and an awareness of its limits: a clinician knows where their own role ends and
 someone else's begins. Brief, general, evidence-aligned advice is every clinician's work, and
 individualised therapy for a condition is a dietitian's. The care around a chronic condition is shared
 by a team, which Singapore's health system is built to support. The clinician's own diet, sleep and
@@ -53,7 +53,7 @@ Referral is a competency and a safety behaviour, not an admission of failure.
 
 ### Universal advice versus medical nutrition therapy {#sec-advice-therapy}
 
-Two kinds of "diet advice" sit on either side of a clean line, and holding that line is the core skill
+Two kinds of "diet advice" lie on either side of a clear line, and recognising that line is the core skill
 here:
 
 Universal advice (in scope)
@@ -64,16 +64,16 @@ Universal advice (in scope)
 Medical nutrition therapy (MNT; refer)
 : An individualised, therapeutic nutrition plan for a medical condition, delivered by a registered
   dietitian: a structured cycle of assessment, diagnosis, intervention and monitoring, evidence-based
-  and outcome-tracked [@ada2026standards].
+  and with outcomes monitored [@ada2026standards].
 
 For type 2 diabetes, dietitian-delivered MNT is associated with reductions in HbA1c (a marker of
 average blood-glucose control) of roughly 0.3–2.0%, a guideline-reported range across trials of
 differing intensity, not a guaranteed effect [@ada2026standards].
 
-Conflating the two fails in both directions. Treat all advice as MNT and you freeze, too afraid to say
+Confusing the two causes problems in both directions. Treat all advice as MNT and you freeze, too afraid to say
 anything safe; treat MNT as ordinary advice and you overstep into care you can't be accountable for.
 
-Run a few patients through the line below. The answer to the same question ("should I advise, or
+Work through a few patients in the interactive below. The answer to the same question ("should I advise, or
 refer?") differs depending on complexity.
 
 <div data-island="advise-refer" data-src="/diagrams/advise-refer.yml"></div>
@@ -92,7 +92,7 @@ dietitian when there is:
 - a food allergy or intolerance, or any eating-disorder concern;
 - advice needs that exceed general guidance, or a patient who is not progressing.
 
-These are recognition triggers, not treatment cues: your job is to spot them and hand over, and the
+These triggers are for recognising when to refer, not for starting treatment: your job is to spot them and hand over, and the
 dietitian works up the plan.
 
 ::: {.callout-tip collapse="true"}
@@ -107,7 +107,7 @@ trigger. Writing that plan herself would overstep into care she cannot be accoun
 ## Check yourself: why does treating every piece of diet advice as medical nutrition therapy also fail patients?
 Universal advice, such as My Healthy Plate or cutting sugary drinks, is safe for almost anyone, and
 every clinician should give it. A clinician who treats all advice as therapy freezes and says nothing
-safe, so the patient loses help that was within scope. Conflating advice and therapy fails in both
+safe, so the patient loses help that was within scope. Confusing advice and therapy causes problems in both
 directions: overstepping on one side, silence on the other.
 :::
 
@@ -116,7 +116,7 @@ directions: overstepping on one side, silence on the other.
 ### Writing a referral that helps {#sec-referral-letter}
 
 A referral is only as useful as its contents, and a vague one wastes a scarce resource. A referral that reads only "Please advise
-on diet" gives the dietitian nothing to act on. A referral that helps carries:
+on diet" gives the dietitian nothing to act on. A referral that helps contains:
 
 ::: {.callout-note}
 ## What a good dietitian referral contains
@@ -133,7 +133,7 @@ Writing a complete referral is itself a clinical skill: it lets the dietitian st
 ### The nutrition care team {#sec-care-team}
 
 Nutrition care for a patient with a chronic condition is shared by a team, each member with a distinct
-hand-off:
+role:
 
 - the family doctor coordinates;
 - the registered dietitian delivers MNT;
@@ -145,8 +145,8 @@ Team-based care is associated with better chronic-disease outcomes: in hypertens
 teams that include nurses and pharmacists improve blood-pressure control [@proia2014teamcare]. The
 team achieves more than any one professional alone.
 
-This cuts both ways: it is a common trap to over-claim the nutrition part of the
-team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation: remission in the DiRECT trial (Diabetes Remission Clinical Trial) ran on a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program reached its prevention effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
+The reverse also applies: a common error is to overstate the nutrition part of the
+team's results. The best-known lifestyle results (see the *Type 2 diabetes* chapter) came from team-delivered, intensive programmes, not a single clinic conversation: remission in the DiRECT trial (Diabetes Remission Clinical Trial) was achieved with a structured total-diet-replacement programme in selected patients, who had early type 2 diabetes and were not on insulin [@lean2018direct], and the Diabetes Prevention Program achieved its preventive effect with a 16-session curriculum [@dpp2002]. In total diet replacement, low-calorie formula meals replace ordinary food for a period.
 
 Don't promise those outcomes from advice alone. The trial patients were selected, so check whether a
 result applies to the patient in front of you (see the *Evidence vs hype* chapter). The dose was
@@ -158,7 +158,7 @@ chapter).
 A referral is only as useful as its contents. Medical nutrition therapy is individualised, so the
 dietitian needs the reason and urgency, the diagnoses, medications, key results, the weight trend, and
 the patient's goals and social context; a vague note supplies none of them. A complete referral spends
-the dietitian's time well and turns the hand-off into a head start.
+the dietitian's time well and lets them start work without repeating the basics.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -178,7 +178,7 @@ associational, not proof of cause, and mostly on physical activity, but it is co
 
 A clinician's own habits matter for more than role-modelling. Short sleep shifts the appetite hormones
 (see the *Appetite and weight regulation* chapter), raising ghrelin, blunting satiety and pushing intake
-up [@sleepRestriction; @alkhatib2017partialsleep]. The packed-roster diet of skipped meals, *kopi* and five hours' sleep therefore
+up [@sleepRestriction; @alkhatib2017partialsleep]. On a packed roster, a diet of skipped meals, *kopi* and five hours' sleep therefore
 works against the clinician's own metabolic health. The remedy is a small, sustainable plan rather than
 an overhaul: one realistic food swap, a fixed bedtime or wake time and a short daily
 walk. Practitioner wellbeing is a professional and patient-safety issue, not an indulgence: in healthcare
@@ -201,9 +201,9 @@ swap, a fixed bedtime or wake time, a short daily walk), not an overhaul.
 A clinician's role ends at the edge of what they can safely be accountable for, not at the edge of what
 they know. In nutrition care that edge is the line between universal advice and medical nutrition
 therapy, and where a patient falls depends on their complexity. A well adult asking how to eat more
-healthily, or whether to swap white rice for brown, sits well inside the role, because universal advice
+healthily, or whether to swap white rice for brown, falls well within the role, because universal advice
 is every clinician's job. A patient with newly diagnosed type 2 diabetes, early kidney impairment and
-three medicines sits beyond it, because her plan has to be individualised medical nutrition therapy.
+three medicines falls outside it, because her plan has to be individualised medical nutrition therapy.
 Beyond the edge, the clinician still has a part: a complete referral, and safe universal advice while
 the patient waits.
 
@@ -211,7 +211,7 @@ the patient waits.
 
 Singapore has built the primary-care infrastructure that makes referral and follow-up happen. Healthier SG is the national shift toward proactive, relationship-based prevention in primary care (see the *Why nutrition matters* chapter). Since its national roll-out in 2023, Healthier SG has given each enrolled resident one family doctor, who
 co-develops with them a personalised **Health Plan**, the natural place to raise a nutrition concern
-and refer it [@mohHealthierSG].
+and make a referral [@mohHealthierSG].
 
 The model is team-based and community-linked. Family doctors can make **social prescriptions**
 (referrals to community programmes such as Health Promotion Board activities, Active Ageing Centres and

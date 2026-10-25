@@ -16,9 +16,9 @@
 
   const FALLBACK = {
     id: 'renal-flip',
-    title: 'The advice that flips in CKD',
+    title: 'Advice that reverses in CKD',
     intro:
-      "Standard healthy-eating advice can reverse once the kidney can no longer clear a potassium load. Switch the patient and watch each verdict flip — except the one piece of advice that doesn't.",
+      "Standard healthy-eating advice can reverse once the kidney can no longer clear a potassium load. Switch the patient and watch each verdict change — except the one piece of advice that doesn't.",
     contexts: [
       { id: 'healthy', label: 'A healthy adult', short: 'a healthy adult' },
       { id: 'ckd', label: 'Advanced CKD / on dialysis', short: 'someone with advanced CKD' },
@@ -38,8 +38,8 @@
         advice: "Switch to a low-sodium 'potassium salt' substitute",
         example: 'potassium-chloride salt swaps',
         verdicts: {
-          healthy: { kind: 'good', badge: 'Reasonable', why: 'A genuine way to cut sodium — in a large trial it cut strokes and deaths.' },
-          ckd: { kind: 'avoid', badge: 'Dangerous', why: 'That trial excluded serious kidney disease and potassium-raising drugs; the potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first — if unsure, don’t.' },
+          healthy: { kind: 'good', badge: 'Reasonable', why: 'A genuine way to cut sodium — in a large trial it reduced strokes and deaths.' },
+          ckd: { kind: 'avoid', badge: 'Dangerous', why: 'That trial excluded serious kidney disease and potassium-raising drugs; the potassium-chloride swap can precipitate life-threatening hyperkalaemia. Check first; if unsure, do not recommend it.' },
         },
       },
       {
@@ -48,7 +48,7 @@
         example: 'lots of fruit, veg, low-fat dairy',
         verdicts: {
           healthy: { kind: 'good', badge: 'First-line', why: 'A pattern designed to lower blood pressure — endorsed for the general public.' },
-          ckd: { kind: 'caution', badge: 'Adapt', why: 'DASH is deliberately loaded with potassium, which can be unsafe in advanced CKD. A renal dietitian tailors it.' },
+          ckd: { kind: 'caution', badge: 'Adapt', why: 'DASH is deliberately rich in potassium, which can be unsafe in advanced CKD. A renal dietitian tailors it.' },
         },
       },
       {
@@ -57,7 +57,7 @@
         example: 'as fruit or a cooling juice',
         verdicts: {
           healthy: { kind: 'good', badge: 'Fine', why: 'Just another fruit for most people.' },
-          ckd: { kind: 'avoid', badge: 'Absolute avoid', why: 'They carry a neurotoxin the failing kidney can’t clear — causing seizures and death, not merely a high potassium load. An absolute avoid, not a portion-controlled food.' },
+          ckd: { kind: 'avoid', badge: 'Absolute avoid', why: 'They contain a neurotoxin the failing kidney can’t clear — causing seizures and death, not merely a high potassium load. They must be avoided completely, not just limited in portion.' },
         },
       },
       {
@@ -66,13 +66,13 @@
         example: 'less soup, sauce and processed food',
         verdicts: {
           healthy: { kind: 'good', badge: 'Good advice', why: 'Lowers blood pressure — good for everyone.' },
-          ckd: { kind: 'good', badge: "Still good — doesn't flip", why: 'Cutting sodium is the one piece of advice that does NOT reverse in CKD: it lowers blood pressure, reduces protein leak and helps kidney-protective drugs work. It is the change a generalist can safely reinforce.' },
+          ckd: { kind: 'good', badge: "Still good — doesn't reverse", why: 'Cutting sodium is the one piece of advice that does NOT reverse in CKD: it lowers blood pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a generalist can safely reinforce.' },
         },
       },
     ],
-    prompt: 'Toggle the patient to see which advice flips — and which one holds.',
+    prompt: 'Toggle the patient to see which advice reverses — and which does not.',
     caption:
-      'For the public, "eat more potassium," a potassium salt substitute and DASH are all sound. In advanced CKD they can turn hazardous — while cutting sodium stays good throughout. Recognising the flip is the skill; the quantities are a renal dietitian’s.',
+      'For the public, "eat more potassium," a potassium salt substitute and DASH are all sound. In advanced CKD they can turn hazardous — while cutting sodium stays good throughout. The skill is recognising which advice reverses; a renal dietitian sets the quantities.',
     credit: 'After WHO 2012 (potassium), Neal 2021 (SSaSS), KDOQI 2020 and NKF Singapore.',
   };
 
@@ -125,8 +125,8 @@
 {:else}
   <figure class="rf card">
     <figcaption class="head">
-      <strong>{data.title || 'The advice that flips in CKD'}</strong>
-      <span class="hint">Toggle the patient · watch each verdict flip</span>
+      <strong>{data.title || 'Advice that reverses in CKD'}</strong>
+      <span class="hint">Toggle the patient · see which verdicts change</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

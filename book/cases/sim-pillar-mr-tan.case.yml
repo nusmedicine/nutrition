@@ -70,7 +70,7 @@ nodes:
     outcome: success
     title: You saw the whole patient
     body: |
-      You built rapport with a sceptical patient, looked past the plate to sleep, stress and the rest, and got him to commit to one realistic change.
+      You built rapport with a sceptical patient, looked beyond diet to sleep, stress and other factors, and got him to commit to one realistic change.
     debrief:
       objectivesMet:
         - 1
@@ -85,10 +85,10 @@ nodes:
     outcome: partial
     title: On the right track
     body: |
-      You made progress, but left important pillars unexplored or landed on something too vague. Replay: stay curious, look beyond diet, and co-create one specific swap that fits his routine.
+      You made progress, but left important pillars unexplored or agreed a change that was too vague. Replay: stay curious, look beyond diet, and co-create one specific swap that fits his routine.
     debrief:
       objectivesMet:
         - 1
       keyPoints:
-        - Reframed 'asymptomatic' as the prevention window rather than the all-clear, but left important pillars (sleep, stress, alcohol, social context) unexplored.
+        - Reframed 'asymptomatic' as the time for prevention rather than an all-clear, but left important pillars (sleep, stress, alcohol, social context) unexplored.
         - Reached a change, but it was too vague ('eat healthier') or too much at once; a single concrete, environment-specific swap is more likely to be adopted and kept up.

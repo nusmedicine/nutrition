@@ -85,7 +85,7 @@
           </ul>
         {/if}
         {#if stage.watch}<p class="watch"><b>Watch for:</b> {stage.watch}</p>{/if}
-        {#if stage.guideline}<p class="guideline">Anchored to: <span class="gtag">{stage.guideline}</span></p>{/if}
+        {#if stage.guideline}<p class="guideline">Based on: <span class="gtag">{stage.guideline}</span></p>{/if}
       </div>
     {/if}
     {#if data.credit}<p class="credit">{data.credit}</p>{/if}

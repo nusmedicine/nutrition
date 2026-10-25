@@ -19,19 +19,19 @@
     intro:
       "You're cutting back on saturated fat (butter, palm oil, fatty meat, coconut milk). What you replace it with determines whether the heart benefits. Pick a replacement and see what happens.",
     options: [
-      { id: 'unsaturated-oils', label: 'Unsaturated plant oils', example: 'olive, canola, sunflower oil', effect: 'down', best: true, note: 'Swapping saturated for polyunsaturated fat lowers LDL cholesterol and cuts cardiovascular events — a change roughly the size of a statin. This is the swap the trials support.' },
-      { id: 'nuts-seeds-fish', label: 'Nuts, seeds and oily fish', example: 'walnuts, flaxseed, salmon, mackerel', effect: 'down', note: 'Whole-food sources of unsaturated fat lower LDL and events too — and they are the backbone of the Mediterranean pattern. Recommend the oily fish itself, not a fish-oil capsule.' },
-      { id: 'refined-carb', label: 'Refined carbohydrate & sugar', example: 'white bread, sugary drinks, biscuits', effect: 'neutral', note: 'Trade saturated fat for refined starch and sugar and the benefit disappears — LDL is roughly unchanged and it can worsen triglycerides. This is why "saturated fat has been exonerated" headlines mislead: they did not report what the fat was replaced with.' },
+      { id: 'unsaturated-oils', label: 'Unsaturated plant oils', example: 'olive, canola, sunflower oil', effect: 'down', best: true, note: 'Swapping saturated for polyunsaturated fat lowers LDL cholesterol and cuts cardiovascular events by roughly as much as a statin does. This is the swap the trials support.' },
+      { id: 'nuts-seeds-fish', label: 'Nuts, seeds and oily fish', example: 'walnuts, flaxseed, salmon, mackerel', effect: 'down', note: 'Whole-food sources of unsaturated fat lower LDL and events too — and they are central to the Mediterranean pattern. Recommend the oily fish itself, not a fish-oil capsule.' },
+      { id: 'refined-carb', label: 'Refined carbohydrate & sugar', example: 'white bread, sugary drinks, biscuits', effect: 'neutral', note: 'If saturated fat is replaced with refined starch and sugar, the benefit disappears — LDL is roughly unchanged and it can worsen triglycerides. This is why "saturated fat has been exonerated" headlines mislead: they did not report what the fat was replaced with.' },
       { id: 'nothing', label: 'Nothing — just "eat less fat"', example: 'smaller portions, same foods', effect: 'neutral', note: 'Cutting fat without a better replacement does little on its own. LDL and events depend on what replaces the fat, not on how much is cut.' },
     ],
     verdicts: {
-      down: { label: 'LDL down, events down', text: 'Good swap. Replacing saturated fat with unsaturated fat lowers LDL cholesterol and cuts cardiovascular events — the swap, not the cut, is what protects the heart.' },
-      neutral: { label: 'No real benefit', text: 'Little or no benefit. Because the replacement is not unsaturated fat, LDL and events barely move — the swap, not the cut, is what protects the heart.' },
-      up: { label: 'Can worsen risk', text: 'This replacement can push risk the wrong way — the swap, not the cut, is what protects the heart.' },
+      down: { label: 'LDL down, events down', text: 'Good swap. Replacing saturated fat with unsaturated fat lowers LDL cholesterol and cuts cardiovascular events; what matters is what replaces the fat, not the cut itself.' },
+      neutral: { label: 'No real benefit', text: 'Little or no benefit. Because the replacement is not unsaturated fat, LDL and events barely change; what matters is what replaces the fat, not the cut itself.' },
+      up: { label: 'Can worsen risk', text: 'This replacement can increase cardiovascular risk; what matters is what replaces the fat, not the cut itself.' },
     },
     prompt: 'Choose a replacement to see whether the heart benefits.',
     caption:
-      'Ask "replaced with what?" of every swap. Butter or palm oil for olive or canola oil, yes; butter for white bread, no. The swap, not the cut, is what protects the heart.',
+      'Ask "replaced with what?" of every swap. Replacing butter or palm oil with olive or canola oil helps; replacing butter with white bread does not. What matters is what replaces the fat, not the cut itself.',
     credit: 'Replacement effects after Mensink 2003, Hooper 2020 and Sacks 2017 (AHA).',
   };
 

@@ -4,12 +4,12 @@ questions:
   - id: q1
     stem: "A Chinese man has a BMI of 24 kg/m² and a waist of 94 cm. His BMI looks reassuring. How should you classify him?"
     options:
-      - text: "Past Singapore's ≥23 intervention point, with central obesity by the Asian waist cut-off"
+      - text: "Above Singapore's ≥23 intervention point, with central obesity by the Asian waist cut-off"
         correct: true
         feedback: "On Singapore's cut-offs, a BMI of 23 or more already triggers intervention, and a waist of 94 cm is over the Asian cut-off for men (≥90 cm), so a BMI of 24 is not reassuring here. BMI and waist are read together, never BMI alone, because Asians carry more central fat at a given BMI."
       - text: "Normal weight, because the BMI is well under the 25 overweight threshold set globally"
         correct: false
-        feedback: "That applies the WHO global cut-off (overweight ≥25). Singapore acts earlier, at ≥23, and the waist of 94 cm is already over the Asian cut-off, so this reading misses real risk."
+        feedback: "That applies the WHO global cut-off (overweight ≥25). Singapore acts earlier, at ≥23, and the waist of 94 cm is already over the Asian cut-off, so this interpretation misses real risk."
       - text: "Normal weight, because the BMI is well under the 30 obese threshold"
         correct: false
         feedback: "The 30 figure is the WHO obese threshold and the population surveillance number, not the clinical action point. Singapore intervenes at ≥23, and the waist here signals central obesity."
@@ -50,14 +50,14 @@ questions:
         feedback: "The two numbers are comparable and consistent: one is for population reporting (≥30), the other for clinical action (≥27.5 and ≥23), and reading them together explains the mismatch."
 
   - id: q4
-    stem: "A rotating-shift nurse sleeps poorly and stress-snacks on nights. Which statement about the sleep, stress and weight link is most defensible?"
+    stem: "A rotating-shift nurse sleeps poorly and snacks when stressed on night shifts. Which statement about the link between sleep, stress and weight is best supported?"
     options:
       - text: "Poor sleep reliably raises intake; the hormone mechanism is contested"
         correct: true
-        feedback: "Increased intake with no matching rise in expenditure is the reproducible signal. The classic leptin-down, ghrelin-up account comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone mechanism is suggestive, not proven."
+        feedback: "Increased intake with no matching rise in expenditure is the reproducible finding. The classic leptin-down, ghrelin-up account comes from a small early sleep-restriction experiment, but a 2025 meta-analysis of trials found no reliable hormone shift, so the hormone mechanism is suggestive, not proven."
       - text: "Short sleep proves weight gain by lowering leptin and raising ghrelin"
         correct: false
-        feedback: "The hormone account is directional and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable signal is the increase in intake, not the hormone mediator."
+        feedback: "The hormone account is suggestive and contested: a 2025 meta-analysis of trials found no reliable shift. The reliable finding is the increase in intake, not a change in hormones."
       - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
         correct: false
         feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
@@ -73,7 +73,7 @@ questions:
         feedback: "Lifestyle change is the cornerstone, aiming for a 5–10% loss. Anti-obesity medication and metabolic-bariatric surgery are real tiers above it, but the task here is to recognise that they exist and refer, not to prescribe or select them."
       - text: "Start a GLP-1 receptor agonist yourself, since lifestyle has failed"
         correct: false
-        feedback: "Prescribing sits outside this stage: pharmacotherapy is a specialist tier, and lifestyle remains the cornerstone under any added treatment. The role here is to recognise and refer."
+        feedback: "Prescribing is beyond this stage: pharmacotherapy is a specialist tier, and lifestyle remains the cornerstone under any added treatment. The role here is to recognise and refer."
       - text: "Refer for metabolic-bariatric surgery at once as the most effective option"
         correct: false
         feedback: "Surgery can achieve greater loss for selected patients, but choosing it is a specialist decision, not a first-line step. Recognise the tier exists and refer appropriately."
@@ -86,10 +86,10 @@ questions:
     options:
       - text: "Kopi-o kosong or plain water, both around the grade A end of the scale"
         correct: true
-        feedback: "Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water sit at the low-sugar A end. Reading the grade turns 'watch your sugar' into a concrete choice."
+        feedback: "Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water are at the low-sugar A end. Reading the grade turns 'watch your sugar' into a concrete choice."
       - text: "A diet soft drink, since swapping to a non-sugar sweetener solves the habit"
         correct: false
-        feedback: "The WHO advises against relying on non-sugar sweeteners for weight control, so a diet version is not the fix the label implies. Water or an unsweetened drink, plus habit change, is the better swap."
+        feedback: "The WHO advises against relying on non-sugar sweeteners for weight control, so a diet version is not the solution the label implies. Water or an unsweetened drink, plus habit change, is the better swap."
       - text: "Kopi with condensed milk, since milk makes it more nutritious overall"
         correct: false
         feedback: "Condensed-milk drinks are high in sugar and saturated fat and grade toward the C/D end. The added milk does not offset the sugar load here."
@@ -102,10 +102,10 @@ questions:
     options:
       - text: "Ask permission to discuss weight, use person-first language, set behaviour goals"
         correct: true
-        feedback: "Asking permission, saying 'a person with obesity' instead of 'an obese patient', and targeting behaviours and metabolic markers is the evidence-based frame. Stigma degrades care and drives avoidance, so the framing is part of the treatment."
+        feedback: "Asking permission, saying 'a person with obesity' instead of 'an obese patient', and targeting behaviours and metabolic markers is the evidence-based approach. Stigma lowers the quality of care and leads patients to avoid healthcare, so the framing is part of the treatment."
       - text: "State plainly that he is obese and needs to lose weight before anything else"
         correct: false
-        feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma degrades care and drives avoidance. Ask permission and frame around behaviours instead."
+        feedback: "Leading with a label and a demand is the approach patients experience as stigma, and stigma lowers the quality of care and leads patients to avoid healthcare. Ask permission and frame around behaviours instead."
       - text: "Comment that he looks heavier than last visit to motivate him to act"
         correct: false
         feedback: "Comments on appearance are stigmatising and backfire: shaming is thought to raise cortisol and comfort-eating and can promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is the standard."

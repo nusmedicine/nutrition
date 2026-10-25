@@ -15,7 +15,7 @@
 
   const FALLBACK = {
     id: 'bone-bank',
-    title: 'Build the bank, defend the balance',
+    title: 'Build peak bone mass, slow the loss',
     intro:
       "Bone is a bank: you build it to a peak by about 30, then draw it down for life — faster around menopause. Move the controls and watch WHEN the account crosses the osteoporosis line. Peak bone mass built when young has the largest effect.",
     lossOptions: [
@@ -122,7 +122,7 @@
 {:else}
   <figure class="bb card">
     <figcaption class="head">
-      <strong>{data.title || 'Build the bank, defend the balance'}</strong>
+      <strong>{data.title || 'Build peak bone mass, slow the loss'}</strong>
       <span class="hint">Move the controls · watch when bone density reaches the osteoporosis line</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
@@ -134,7 +134,7 @@
           <input type="range" min="-10" max="10" step="2" value={peakDelta}
                  oninput={(e) => setPeak(e.currentTarget.value)}
                  aria-label="Peak bone mass, percent above or below average" />
-          <span class="cnote">the modifiable band over a mostly-inherited floor</span>
+          <span class="cnote">the range lifestyle can change, above a largely inherited minimum</span>
         </label>
 
         <div class="ctl">

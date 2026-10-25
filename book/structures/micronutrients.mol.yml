@@ -19,7 +19,7 @@ molecules:
     svg: /structures/retinol.svg
     note: >
       A long carbon chain with a single –OH at one end. It is mostly hydrocarbon, so it
-      dissolves in fat and is stored in the liver. Storage cuts both ways: deficiency
+      dissolves in fat and is stored in the liver. Storage has two consequences: deficiency
       develops slowly, but high-dose supplements can accumulate to harmful levels, which in
       early pregnancy can cause birth defects.
   - id: cholecalciferol

@@ -1,7 +1,7 @@
 # Type 2 diabetes
 
 > *When insulin resistance outpaces what the pancreas can compensate for, blood glucose rises, and type 2
-> diabetes is the point at which it stays high. We cover that progression, dietary management (starting
+> diabetes is diagnosed once it stays high. We cover that progression, dietary management (starting
 > with safety alongside glucose-lowering drugs, then carbohydrate quality and dietary patterns),
 > remission and prevention, and when to refer.*
 
@@ -39,8 +39,8 @@
 
 ## Type 2 diabetes at a glance {#sec-overview}
 
-Type 2 diabetes grows out of insulin resistance, the reduced response of the body's cells to insulin
-(see the *Obesity & metabolic syndrome* chapter). Nutrition acts along the whole course of the
+Type 2 diabetes develops from insulin resistance, the reduced response of the body's cells to insulin
+(see the *Obesity & metabolic syndrome* chapter). Nutrition matters throughout the course of the
 disease. It prevents progression in people with **prediabetes**, the phase in which blood glucose has
 started to rise but is not yet in the diabetes range. It manages established diabetes, and it can put
 early disease into **remission**, with blood glucose held below the diabetes range off
@@ -56,14 +56,14 @@ Safety comes before any diet advice. Before endorsing a low-carbohydrate diet or
 know which glucose-lowering drugs the patient takes. Some cause dangerous hypoglycaemia (blood glucose
 falling too low; see the *Integrative metabolism* chapter) when carbohydrate is cut.
 
-All of this sits within Singapore's War on Diabetes: roughly one in three people will develop
+All of this is part of Singapore's War on Diabetes: roughly one in three people will develop
 diabetes in their lifetime [@mohWarOnDiabetes].
 
 ## Pathophysiology: how insulin resistance becomes diabetes {#sec-t2d-mechanism}
 
-Type 2 diabetes is the end of a long compensation for insulin resistance by the pancreatic **β-cells**
+Type 2 diabetes is the end result of a long period of compensation for insulin resistance by the pancreatic **β-cells**
 (the insulin-producing cells; insulin action and glucose handling are in the *Integrative metabolism*
-chapter). The progression runs in four steps:
+chapter). The progression has four steps:
 
 ::: {.flow}
 [From insulin resistance to raised glucose]{.tree-title}
@@ -82,7 +82,7 @@ that phase is the window for early detection.
 
 The **twin-cycle model** offers one explanation of why the β-cells fail. Excess fat in the liver
 drives up fasting glucose (the liver cycle), while fat in the pancreas impairs the β-cells' ability to
-respond (the pancreas cycle), and each cycle feeds the other [@taylor2021remission;
+respond (the pancreas cycle), and each cycle reinforces the other [@taylor2021remission;
 @taylor2025twincycle]. This organ fat is ectopic fat (fat stored in organs where it does not belong;
 see the *Obesity & metabolic syndrome* chapter), and it is removable. Substantial weight loss removes
 it, which can restore β-cell function and reverse early disease. That reversal is the basis of
@@ -102,7 +102,7 @@ is why type 2 diabetes is usually preceded by a long, silent prediabetes phase.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why can substantial weight loss reverse early type 2 diabetes?
 In the twin-cycle model, fat in the liver raises fasting glucose and fat in the pancreas impairs the
-β-cells, and each cycle feeds the other. This ectopic fat is removable: substantial weight loss removes
+β-cells, and each cycle reinforces the other. This ectopic fat is removable: substantial weight loss removes
 it and can restore β-cell function, which is the basis of remission in early disease.
 :::
 
@@ -119,11 +119,11 @@ time, is therefore to identify the drug class and the action that follows from i
 
 | Hypoglycaemia risk | Drug classes | Action before cutting carbohydrate |
 |---|---|---|
-| High | insulin, sulfonylureas, meglitinides | Patient can go dangerously low: refer to the diabetes team to review medication first |
+| High | insulin, sulfonylureas, meglitinides | Risk of dangerous hypoglycaemia: refer to the diabetes team to review medication first |
 | Low when used alone | metformin, DPP-4 inhibitors, SGLT2 inhibitors, GLP-1 receptor agonists | A sensible carbohydrate-quality change is reasonable; still refer to a dietitian |
 
 Older people on sulfonylureas or insulin are especially vulnerable to hypoglycaemia
-[@ling2021elderlyhypo]. One caveat sits outside hypoglycaemia: on an SGLT2 inhibitor, a very-low-carbohydrate
+[@ling2021elderlyhypo]. One further caution is unrelated to hypoglycaemia: on an SGLT2 inhibitor, a very-low-carbohydrate
 or ketogenic diet should be avoided, because the combination can trigger diabetic ketoacidosis
 [@ada2026standards].
 
@@ -142,7 +142,7 @@ glucose, then a recheck in 15 minutes), not with chocolate or nuts, whose fat sl
 #### Fasting for Ramadan with diabetes {#sec-t2d-ramadan}
 
 For Singapore's Malay-Muslim community, which also carries a high diabetes burden, Ramadan fasting is
-an important, faith-aware counselling task (the fed–fasted physiology of Ramadan is in the
+an important, faith-sensitive counselling topic (the fed–fasted physiology of Ramadan is in the
 *Integrative metabolism* chapter). Most Muslim patients with diabetes fast, and in a 13-country survey
 severe hypoglycaemia was several times more frequent during Ramadan than in other months
 [@salti2004epidiar]. The danger is greatest for patients on insulin or a sulfonylurea, two of the
@@ -162,15 +162,15 @@ day-to-day consistency, individualised by a dietitian, not a number set at the b
 Carbohydrate quality matters more than quantity. Choosing lower-glycaemic, wholegrain, higher-fibre
 carbohydrates gives a small but real improvement in blood glucose: about 0.3% off **HbA1c**, a blood
 marker of average blood glucose over about three months [@chiavaroli2021gigl]. That improvement is
-best delivered as concrete swaps, not by memorising glycaemic-index tables (see the *Macronutrients*
+best achieved through specific food swaps, not by memorising glycaemic-index tables (see the *Macronutrients*
 chapter), which are measured for single foods and blunted in mixed meals [@dnsg2023easd].
 
-Fibre and wholegrains carry the strongest, most consistent evidence. Higher intake lowers the risk of
+Fibre and wholegrains have the strongest, most consistent evidence. Higher intake lowers the risk of
 developing diabetes; across a range of outcomes in the general population, the risk reduction was
 greatest at around 25–29 g of fibre a day [@reynolds2019carbquality]. In established disease it lowers
 HbA1c, and raising intake by about 15 g a day, or to about 35 g, is a reasonable target
-[@reynolds2020fibrediabetes]. International guidelines converge on the
-same plate: carbohydrate mainly from wholegrains, vegetables, fruit and legumes, with refined grains
+[@reynolds2020fibrediabetes]. International guidelines give the
+same advice: carbohydrate mainly from wholegrains, vegetables, fruit and legumes, with refined grains
 and sugary drinks kept to a minimum [@who2023carbohydrate].
 
 ![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a key carbohydrate-quality change; locally it is a swap, not a ban on rice.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
@@ -187,17 +187,17 @@ Rice is often blamed for diabetes, and pooled Asian data do link white rice to d
 [@hu2012whiterice]. In the Singapore Chinese Health Study, however, rice intake itself was not
 associated with diabetes, while substituting wholemeal bread lowered risk [@seah2019scriphealthrice].
 The accurate, less stigmatising message is to shift toward wholegrains (and add vegetables and protein
-to the plate) instead of demonising a cultural staple. The shift has far to go locally: only about 4%
+to the plate) instead of demonising a cultural staple. Wholegrain intake is still low locally: only about 4%
 of the staples Singaporeans eat are wholegrain [@mohNNS2022].
 :::
 
 ### Choosing a dietary pattern {#sec-t2d-patterns}
 
 Because quality matters more than the macronutrient ratio, several dietary patterns are acceptable,
-and the right one is the one a person will actually keep [@evert2019nutrition]. The evidence behind
+and the right one is the one a person will actually follow [@evert2019nutrition]. The evidence behind
 three common patterns (see the *What a healthy diet looks like* chapter) differs:
 
-- The Mediterranean pattern has the deepest diabetes-specific evidence. It lowers HbA1c in established
+- The Mediterranean pattern has the strongest diabetes-specific evidence. It lowers HbA1c in established
   disease, reduces new cases, and works well translated into local food instead of adopted wholesale
   [@esposito2015medjourney; @koloverou2014medincidence].
 - A low-carbohydrate pattern is a legitimate option. Its benefit at six months tends to attenuate
@@ -210,8 +210,8 @@ The cardiovascular evidence for the Mediterranean and DASH patterns (PREDIMED, a
 blood-pressure and lipid rationale) is in the *Cardiovascular disease & hypertension* chapter. In
 diabetes, these patterns matter for glucose and overall diet quality.
 
-The **plate method**, a low-numeracy tool that sets the proportions of the plate, makes any of these
-patterns work at a *cai png* (mixed-rice) stall. Singapore's version, My Healthy Plate, is a quarter
+The **plate method**, a tool that sets the proportions of the plate without counting, lets any of these
+patterns be applied at a *cai png* (mixed-rice) stall. Singapore's version, My Healthy Plate, is a quarter
 wholegrains, a quarter protein and half fruit and vegetables, with water over sugary drinks
 [@hpbHealthyPlate].
 
@@ -227,13 +227,13 @@ plants and wholegrains, less refined carbohydrate and sugar) in hawker-centre te
 ## Check yourself: why is the advice to swap toward brown rice, instead of cutting rice out or setting a carbohydrate target?
 There is no mandated carbohydrate target; what matters is carbohydrate quality and consistency, and
 the strongest evidence is for fibre and wholegrains. In the Singapore Chinese Health Study, rice intake itself was not associated with diabetes, while substituting wholemeal bread lowered
-risk. A swap toward wholegrains is accurate and keeps a cultural staple without stigma.
+risk. A swap toward wholegrains is accurate, keeps a cultural staple on the plate and avoids stigma.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a low-carbohydrate diet improved a patient's glucose at six months. Does that make it his best long-term pattern?
 Not necessarily. The low-carbohydrate benefit tends to attenuate by twelve months and depends heavily
-on adherence, and several quality patterns are acceptable. The right pattern is the one he will keep,
+on adherence, and several quality patterns are acceptable. The right pattern is the one he will follow,
 and a strict version needs dietitian supervision.
 :::
 
@@ -252,7 +252,7 @@ accompany that number:
   should be ethnicity-adjusted rather than the Western band applied unchanged [@taylor2023pft;
   @standby2022southasian].
 - It fades over time. Remission fell to about 36% at two years and about 13% at five,
-  tracking with weight regained; the maintenance problem is not yet solved [@direct5yr2024].
+  in line with weight regain; the maintenance problem is not yet solved [@direct5yr2024].
 - It is remission, not cure. The agreed definition is an HbA1c below the diabetes range sustained off
   glucose-lowering drugs, and monitoring continues because it can relapse [@riddle2021remission;
   @diabetesUK2021remission].
@@ -351,14 +351,14 @@ individualised plan is made by referral, to the dietitian and the diabetes team.
 
 Singapore declared a War on Diabetes in 2016. About one in three Singaporeans will develop diabetes in
 their lifetime [@mohWarOnDiabetes], and current prevalence is around 9% of adults [@mohNPHS2024].
-Prevalence has an ethnic gradient: Indian and Malay residents carry roughly twice the prevalence of
+Prevalence has an ethnic gradient: Indian and Malay residents have roughly twice the prevalence of
 Chinese residents [@mohNPHS2024]. The gradient should guide screening priority, framed as
-population-level risk and never as blame; individual counselling stays individualised.
+population-level risk and never as blame; counselling is still tailored to the individual.
 
-The local food environment is where these modifiable dietary factors are found: only ~4% of
+These modifiable dietary factors are prominent in the local food environment: only ~4% of
 staples are wholegrain, and sugary drinks supply about half of dietary sugar [@mohNNS2022]. The
 national tools target these same factors: My Healthy Plate, Nutri-Grade on beverages
-[@mohNutriGradeFresh2023], and Healthier SG, with its subsidised screening, as the delivery vehicle for
+[@mohNutriGradeFresh2023], and Healthier SG, with its subsidised screening, as the main route to
 early detection and lifestyle advice [@mohHealthierSG; @mohHealthierSGScreening].
 
 On medication, local guidance from the Agency for Care Effectiveness (ACE) names the classes: metformin

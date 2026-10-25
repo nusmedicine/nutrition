@@ -2,9 +2,9 @@ id: madam-lim-bone
 title: "Madam Lim, 58: dairy-free bones and \"do I need a drug?\""
 objectives:
   - "Identify her most effective dietary change: a reliable, well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), ahead of blanket supplements or a poorly absorbed food."
-  - "Apply bioavailability: spinach's calcium is oxalate-bound and barely absorbed (~5%), so content is not availability; choose low-oxalate greens and calcium-set tofu."
+  - "Apply bioavailability: spinach's calcium is oxalate-bound and barely absorbed (~5%), so high content does not mean high bioavailability; choose low-oxalate greens and calcium-set tofu."
   - "Recognise her red flags (a low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk from a covered, indoor life despite the sun) and correct genuine shortfall, since she is at risk, not a replete community adult."
-  - "Do no harm and stay within the generalist's role: don't reach for an osteoporosis drug; screen (OSTA), refer for a DXA scan, deliver food-first and loading advice, and correct real deficiency. The drug and hormone decisions are specialist."
+  - "Do no harm and stay within the generalist's role: don't reach for an osteoporosis drug; screen (OSTA), refer for a DXA scan, advise food-first eating plus weight-bearing and resistance exercise, and correct real deficiency. The drug and hormone decisions are specialist."
 difficulty: core
 estimatedMinutes: 12
 tags: [nutrition, bone-health, osteoporosis, calcium, vitamin-d, bioavailability, do-no-harm, singapore, recognise-and-refer]
@@ -55,7 +55,7 @@ nodes:
       - id: c
         text: "More spinach and leafy greens, since spinach is rich in calcium."
         correct: false
-        feedback: "Spinach looks calcium-rich, but its calcium is oxalate-bound and only ~5% absorbed: content isn't availability. What she needs is a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
+        feedback: "Spinach looks calcium-rich, but its calcium is oxalate-bound and only ~5% absorbed: high content does not mean high absorption. What she needs is a well-absorbed source: calcium-set tofu, ikan bilis, low-oxalate greens (kai-lan, bok choy) or fortified soy milk."
         goto: reveal-lever
 
   - id: reveal-lever
@@ -75,13 +75,13 @@ nodes:
       - id: a
         text: "Its calcium is oxalate-bound and barely absorbed."
         correct: true
-        feedback: "Oxalate locks spinach's calcium away, so only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Content is not availability: point her to the well-absorbed sources."
+        feedback: "Oxalate binds spinach's calcium, so only about 5% is absorbed, versus roughly a quarter to a third from milk or calcium-set tofu, and about half from low-oxalate greens such as bok choy. Bioavailability matters more than content: point her to the well-absorbed sources."
         effects: { quality: +1 }
         goto: reveal-spinach
       - id: b
         text: "Yes, spinach is one of the best calcium sources for bone."
         correct: false
-        feedback: "This confuses content with availability. Spinach's calcium is oxalate-bound and only ~5% absorbed, so it's a poor bone source despite the label. Kai-lan, bok choy and calcium-set tofu are far better absorbed."
+        feedback: "This confuses content with bioavailability. Spinach's calcium is oxalate-bound and only ~5% absorbed, so it's a poor bone source despite the label. Kai-lan, bok choy and calcium-set tofu are far better absorbed."
         goto: reveal-spinach
       - id: c
         text: "Only if she boils it first, which releases all the calcium."
@@ -143,7 +143,7 @@ nodes:
       - id: b
         text: "Yes: start an osteoporosis drug today to be safe, since she's at risk."
         correct: false
-        feedback: "This is the over-reach, and it can do harm. Osteoporosis drugs are started after a diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture), by a specialist, not on worry or by reflex. She has red flags but no diagnosis yet. The right move is to screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine deficiency, and let the specialist decide on any medicine; a strong diet plan doesn't license prescribing a drug you shouldn't start."
+        feedback: "This is the over-reach, and it can do harm. Osteoporosis drugs are started after a diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture), by a specialist, not on worry or by reflex. She has red flags but no diagnosis yet. The right step is to screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine deficiency, and let the specialist decide on any medicine; a strong diet plan doesn't license prescribing a drug you shouldn't start."
         goto: remedial-drug
 
   - id: remedial-drug
@@ -186,7 +186,7 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Food-first, screened and referred, not drugged"
+    title: "Food-first, screened and referred, not medicated"
     body: |
       You handled Madam Lim well. You found her most effective dietary change, a reliable, well-absorbed, dairy-optional calcium
       source rather than a blanket supplement, and handled the spinach question (oxalate-bound, ~5% absorbed).
@@ -201,7 +201,7 @@ nodes:
         - "Lead with a well-absorbed, dairy-optional calcium source (calcium-set tofu, ikan bilis, low-oxalate greens, fortified soy milk), not a blanket supplement, which doesn't help replete adults and raises stone risk."
         - "Bioavailability matters more than content: spinach's calcium is oxalate-bound and only ~5% absorbed; choose kai-lan, bok choy or calcium-set tofu."
         - "Recognise the red flags (low BMI, which nearly doubles hip-fracture risk, and real vitamin D deficiency risk despite the sun) and correct a genuine shortfall: she's at risk, not a replete community adult."
-        - "Don't start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, deliver food-first and loading advice, correct deficiency; the drug and hormone decisions are specialist."
+        - "Don't start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, advise food-first eating plus weight-bearing and resistance exercise, correct deficiency; the drug and hormone decisions are specialist."
       references: ["@healthhubCalciumSG", "@odsCalcium", "@delaet2005bmiFracture", "@aceOsteoporosis2018"]
 
   - id: end-partial
@@ -214,13 +214,13 @@ nodes:
       weight and sun exposure as the red flags they are. The one that matters most is the last question.
       Starting an **osteoporosis drug on worry** is a do-no-harm and scope-of-practice error: these medicines follow a
       diagnosis (a DXA T-score of −2.5 or below, or a fragility fracture) and a specialist decision, not a
-      reflex. Replay the safe path: food-first, dairy-optional calcium; content isn't availability; recognise the
+      reflex. Replay the safe path: food-first, dairy-optional calcium; bioavailability matters more than content; recognise the
       low-weight and vitamin D flags and correct genuine deficiency; and screen, refer and let the specialist
       decide on any medicine instead of prescribing one now.
     debrief:
       objectivesMet: [1]
       keyPoints:
         - "Lead with a well-absorbed, dairy-optional calcium source, not a blanket supplement."
-        - "Content isn't availability: spinach's calcium is oxalate-bound and barely absorbed."
+        - "Bioavailability matters more than content: spinach's calcium is oxalate-bound and barely absorbed."
         - "Low body weight and a covered, indoor lifestyle are real red flags; correct genuine deficiency."
         - "Never start an osteoporosis drug on worry: screen (OSTA), refer for a DXA, and leave the drug decision to the specialist."

@@ -3,7 +3,7 @@ title: "\"Cutting out milk cleared her skin\": a TikTok claim"
 objectives:
   - "Trace a viral diet claim to its actual evidence and state it plainly (weak, observational, no RCTs)."
   - "Advise proportionately: a lower-sugar trial and proven treatment, not a strict elimination diet in a teenager."
-  - "Recognise when appraisal becomes a do-no-harm conversation: spot disordered-eating red flags, avoid reinforcing restriction, and refer."
+  - "Recognise when appraising a claim becomes a safety issue: spot disordered-eating red flags, avoid reinforcing restriction, and refer."
 difficulty: intro
 estimatedMinutes: 8
 tags: [nutrition, evidence, acne, adolescent, safety]
@@ -84,7 +84,7 @@ nodes:
       - id: a
         text: "Gently shift focus to the restriction and guilt, add no new food rules, and arrange follow-up and referral."
         correct: true
-        feedback: "This stopped being about acne. Cutting out multiple food groups, tracking, guilt and weight loss are eating-disorder red flags in a teenager. Another restriction would do harm; the safe move is a supportive screen and referral, not a diet plan."
+        feedback: "Acne is no longer the main concern. Cutting out multiple food groups, tracking, guilt and weight loss are eating-disorder red flags in a teenager. Another restriction would do harm; the safe response is a supportive screen and referral, not a diet plan."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -96,7 +96,7 @@ nodes:
       - id: c
         text: "Ignore the comment and go back to discussing her skin."
         correct: false
-        feedback: "The restriction, guilt and weight loss are red flags that outrank the acne question; they should not pass unaddressed."
+        feedback: "The restriction, guilt and weight loss are red flags that take priority over the acne question; they should not pass unaddressed."
         goto: remedial
 
   - id: route
@@ -111,7 +111,7 @@ nodes:
     emotion: concerned
     title: "Appraise plainly, then do no harm"
     body: |
-      Two habits carry this case: appraise the claim proportionately (a weak, observational-only
+      This case tests two habits: appraise the claim proportionately (a weak, observational-only
       link is not a reason to eliminate a food group), and stay alert for the moment it stops being
       about acne. Cutting out several foods, tracking, guilt and weight loss in a teenager are
       eating-disorder red flags; the safe response is support and referral, never another restriction.
@@ -121,19 +121,19 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Signal from hype, and a red flag caught"
+    title: "Evidence weighed, and a red flag caught"
     body: |
-      You traced the viral claim to its real evidence (a weak, observational-only association, no
+      You traced the viral claim to its actual evidence (a weak, observational-only association, no
       trials, guidelines against dietary elimination) and advised proportionately (a lower-sugar trial
-      and proper skin treatment, not a strict dairy cut in a growing teenager). When Chloe revealed
+      and proper skin treatment, not strict dairy elimination in a growing teenager). When Chloe revealed
       multiple cut-out foods, tracking, guilt and weight loss, you recognised that the conversation had
-      become a do-no-harm one and moved to support and referral instead of another restriction.
+      become a safety issue and moved to support and referral instead of another restriction.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "A viral claim isn't evidence: the dairy–acne link is weak and observational-only, and guidelines don't recommend cutting any food for acne."
         - "Advise proportionately: a lower-sugar trial (better evidence, low risk) and proven skin treatment, not eliminating a food group in a growing teenager."
-        - "Watch for the pivot: multiple cut-out foods, tracking, guilt and weight loss are eating-disorder red flags; support and refer, never reinforce restriction."
+        - "Watch for warning signs: multiple cut-out foods, tracking, guilt and weight loss are eating-disorder red flags; support and refer, never reinforce restriction."
 
   - id: end-partial
     type: end

@@ -8,7 +8,7 @@ title: "Simulated patient: Mdm Devi (after a fragility fracture)"
 objectives:
   - "Reframe 'more calcium is better': food-first, well-absorbed calcium spread across the day, and correct the belief in megadoses (extra supplements give no benefit when intake is adequate and slightly raise kidney-stone risk)."
   - "Name the modifiable factors that matter: weight-bearing and resistance exercise, vitamin D, and protein as a bone nutrient rather than a threat."
-  - "Recognise that a fragility fracture is the gateway to an osteoporosis assessment (DXA, specialist) and refer; supplements are not a substitute."
+  - "Recognise that a fragility fracture should prompt an osteoporosis assessment (DXA, specialist) and refer; supplements are not a substitute."
 difficulty: core
 estimatedMinutes: 10
 tags: [nutrition, bone, osteoporosis, menopause, supplements, counselling, simulated-patient]
@@ -77,28 +77,28 @@ nodes:
   - id: end-good
     type: end
     outcome: success
-    title: "Food first, load the bone, and refer"
+    title: "Food first, exercise, and refer"
     body: |
-      You reframed her away from megadosing calcium toward food-first sources and the
+      You moved her away from megadosing calcium toward food-first sources and the
       modifiable factors that actually protect bone, and you recognised that a fracture from a
-      small fall is the gateway to a proper osteoporosis assessment.
+      small fall should prompt a proper osteoporosis assessment.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "More calcium pills do not make more bone. Take calcium food-first, from well-absorbed local foods (calcium-set tofu and tau kwa, ikan bilis and sardines with the bones, kai-lan, fortified soy milk), spread across the day in amounts under about 500 mg at a sitting. Extra supplements give no fracture benefit when intake is adequate and slightly raise kidney-stone risk."
         - "A key modifiable factor is not a food: weight-bearing and resistance exercise. Vitamin D (from some sun and oily fish; deficiency is common even in sunny Singapore, more so in Indian and Malay women) and adequate protein both support bone; protein is a bone nutrient, not a threat."
-        - "A fragility fracture (a break from a standing-height fall) is the gateway to an osteoporosis assessment: she needs a DXA and specialist review, not a bigger calcium dose."
+        - "A fragility fracture (a break from a standing-height fall) should prompt an osteoporosis assessment: she needs a DXA and specialist review, not a bigger calcium dose."
 
   - id: end-partial
     type: end
     outcome: partial
     title: "Most of the way"
     body: |
-      You engaged her but leaned on supplements or left the fracture unactioned.
+      You engaged her but leaned on supplements or did not act on the fracture.
       Replay: reframe calcium to food-first, name loading exercise and vitamin D, and
       recognise that a fragility fracture needs an osteoporosis assessment and referral.
     debrief:
       objectivesMet: [1]
       keyPoints:
-        - "Reframe 'more calcium' to food-first plus the modifiable factors that matter (loading exercise, vitamin D, protein); megadosing calcium adds risk, not bone."
+        - "Reframe 'more calcium' to food-first plus the modifiable factors that matter (loading exercise, vitamin D, protein); megadosing calcium adds risk without strengthening bone."
         - "A fragility fracture warrants an osteoporosis assessment (DXA and specialist review) and referral; supplements alone are not the answer."

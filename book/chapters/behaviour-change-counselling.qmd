@@ -55,14 +55,14 @@ operating in a food environment engineered to exploit both, not a weak will [@be
 Information does not override the reward system, so behaviour change rests on two other approaches. One is eliciting the
 patient's own motivation, because the reason to change has to come from the patient. The other is
 re-shaping habits one small, repeated step at a time. Habits form slowly. A routine repeated in a
-consistent context takes weeks to months to turn automatic, so small, sustained changes work better
+consistent context takes weeks to months to become automatic, so small, sustained changes work better
 than large, short-lived ones [@lally2010habits].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient knows he should cut down his sweet kopi and still drinks three a day. Why is more information unlikely to change this, and what can?
 Eating is only partly a deliberate choice: food cues trigger the reward system's dopamine-driven
 wanting, which can override a considered intention, and much of what people eat runs as habit with
-little conscious thought. More information reaches only the deliberate part. What does work is
+little conscious thought. More information affects only the deliberate part of eating. What does work is
 the patient's own motivation and small changes repeated in a consistent context, which take weeks to
 months to become automatic.
 :::
@@ -81,8 +81,8 @@ patients* chapter), structure the consult [@fiveAsNutrition]:
 4. Assist: help the patient problem-solve and co-write the goal.
 5. Arrange: set up follow-up, or a referral.
 
-The 5 A's carry one caveat, about dose. The evidence that diet and activity counselling works comes from intensive, multi-contact programmes (a median of 12 contacts over 6 to 18 months), not a single clinic visit [@usptfBehavioural]. A one-off consult therefore realistically initiates change rather than delivering
-it, which is why the Arrange step matters. The more intensive, multi-session programmes that do shift
+One caveat about the 5 A's concerns the amount of contact. The evidence that diet and activity counselling works comes from intensive, multi-contact programmes (a median of 12 contacts over 6 to 18 months), not a single clinic visit [@usptfBehavioural]. A one-off consult is therefore more likely to start a change than to complete
+it, which is why the Arrange step matters. The more intensive, multi-session programmes that do improve
 outcomes belong to diabetes prevention (see the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter).
 
 The same framework works for any behaviour, whether activity, sleep, alcohol or smoking, so it is one
@@ -101,7 +101,7 @@ listening and summaries. The clinician uses them to listen for **change talk** (
 their own motivation to change) and to strengthen it gently.
 
 A central skill in MI is resisting the **righting reflex**, the strong urge to jump in
-and fix, warn or lecture. The reflex feels helpful, but it reliably provokes resistance.
+and fix, warn or lecture. The reflex feels helpful, but it usually provokes resistance.
 
 ::: {.example}
 When a patient says "it's my only pleasure", a clinician acting on the reflex replies "but it's dangerous", and the patient
@@ -112,17 +112,17 @@ In MI the clinician does the opposite: reflects, affirms and asks, so the patien
 
 The **scaling question** asks the patient to rate their confidence: "On a scale of 0 to 10, how
 confident are you that you could do it, and what makes it that number and not lower?" The answer
-surfaces what the patient can do and what is harder, and lets you build the goal on the confidence
+shows what the patient feels able to do and what is harder, and lets you build the goal on the confidence
 they already have.
 
-Practise the moves below with Mr Tan, who isn't asking to change: at each turn, pick what you'd say,
+Practise these skills below with Mr Tan, who isn't asking to change: at each turn, pick what you'd say,
 see how he responds, and try more than one option to compare fixing with listening.
 
 <div data-island="response-chooser" data-src="/diagrams/response-chooser.yml"></div>
 
 ### Goal setting: one SMART goal and an if-then plan {#sec-smart}
 
-Once a patient voices a change, the next step is to make it checkable. A **SMART goal** is Specific,
+Once a patient voices a wish to change, the next step is to make it checkable. A **SMART goal** is Specific,
 Measurable, Achievable, Relevant and Time-bound.
 
 ::: {.example}
@@ -132,17 +132,17 @@ Measurable, Achievable, Relevant and Time-bound.
 
 Specific goals show some promise over vague advice for dietary change, though the evidence has
 methodological limits and the acronym is only a guide [@shilts2004goalsetting]. Two rules matter
-more than the letters. The goal must be the patient's, because an over-engineered goal they did not
+more than the acronym. The goal must be the patient's, because an elaborate goal they did not
 choose won't stick. It should also be small: one achievable change is more useful than several ambitious ones.
 
-One add-on helps: pairing the goal with an **if-then plan** (an implementation intention), which
+One addition helps: pairing the goal with an **if-then plan** (an implementation intention), which
 sets out in advance when and where to act. For the kopi goal, the plan might be "if the stall auntie
 forgets, then I'll remind her *siu dai*". This advance planning has a medium-to-large effect on
 whether a goal is achieved [@gollwitzer2006implementation].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: the evidence that diet and activity counselling works comes from intensive, multi-contact programmes, with a median of 12 contacts. What follows for a single brief consult?
-A single consult realistically starts a change but does not deliver it. It should therefore end with
+A single consult realistically starts a change but does not complete it. It should therefore end with
 one small goal the patient chose, made SMART and paired with an if-then plan. It should also complete
 the Arrange step, a follow-up or a referral, so that the change continues after the visit.
 :::
@@ -193,7 +193,7 @@ involve the people the patient eats with.
 
 ::: {.callout-tip}
 ## 🍜 Eating out: goals that work at a hawker centre
-The best SMART goals build on existing rituals:
+The best SMART goals build on existing routines:
 
 - kopi or teh *siu dai* or *kosong* instead of the sweet default;
 - one shared plate of *char kway teow* instead of one each;
@@ -201,7 +201,7 @@ The best SMART goals build on existing rituals:
 - a clear-soup option some days;
 - a Nutri-Grade A or B drink over a C or D one [@hpbNutriGrade].
 
-Enlist the people around the food too: whoever cooks, orders the shared dish or joins the kopi run. A
+Involve the people the patient eats with too: whoever cooks, orders the shared dish or joins the kopi run. A
 change that fits the family meal is more likely to last than one that conflicts with it.
 :::
 
@@ -216,9 +216,9 @@ patient who is ready to plan.
 ## Check yourself: why does "stop eating at hawker centres" usually fail as a goal in Singapore, and what works better?
 The hawker centre and the *kopitiam* are the patient's food environment. A goal to stop going there
 conflicts with the patient's daily routine, so it is unlikely to last. A small swap inside an existing
-ritual keeps the setting and the routine and changes only the order, such as kopi *siu dai* or "less
+habit keeps the setting and the routine and changes only the order, such as kopi *siu dai* or "less
 rice, more veg" at *cai png*. Because the swap is repeated in the same context, it can become
-automatic. A change that also fits the family meal survives.
+automatic. A change that also fits the family meal is more likely to last.
 :::
 
 ## Do no harm {#sec-harm}
@@ -236,7 +236,7 @@ number on the scale.
 
 **Watch for red flags, and refer.** On average, structured behavioural weight management does not
 increase eating-disorder symptoms, and most people improve slightly, but a small minority develop new
-symptoms [@jebeile2023edrisk]. The stance is therefore reassurance plus vigilance. Red flags include
+symptoms [@jebeile2023edrisk]. The approach is therefore to reassure while staying vigilant. Red flags include
 skipping meals to "make up" for eating, guilt or secrecy around food, and a driven pursuit of
 thinness. If a patient reveals one, pause the weight and portion goals and refer instead of pressing
 on. Recognising that moment, and not reinforcing restriction, is the counselling form of "first, do no
@@ -251,8 +251,8 @@ goals could reinforce restriction. The safe response is to pause those goals and
 
 ## How do you start a change? {#sec-close}
 
-Not by knowing more, and not by trying harder to convince. A change starts when the patient hears
-their own reason for it and leaves with one small step they chose, planned around the obstacle and
+Not by the patient knowing more, and not by the clinician trying harder to persuade. A change starts when the patient hears
+their own reason for it and leaves with one small step they chose, planned around the likely obstacle and
 followed up. It stays safe while the language stays kind and weight-neutral and the clinician keeps
 watching for red flags, ready to pause the goal and refer. One change the patient chose is more likely to last than several
 you prescribed.
@@ -267,7 +267,7 @@ fits endorsed local practice.
 Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
 specific, measurable and locally meaningful.
 
-The War on Diabetes framing draws attention to a higher risk among some ethnic groups, a cue to
+The War on Diabetes campaign draws attention to a higher risk among some ethnic groups, a reason to
 tailor: to meet a Malay, Indian or Chinese patient inside their own food culture instead of handing
 everyone the same script [@mohWarOnDiabetes].
 
@@ -280,7 +280,7 @@ everyone the same script [@mohWarOnDiabetes].
 Mr Tan, a 52-year-old taxi driver with a borderline HbA1c (a blood marker of average blood-glucose
 control), drinks two or three sweet *kopi gao* a day and isn't asking to change. Open the
 conversation, resist the righting reflex, help him arrive at one small goal he owns, and stay alert
-for the moment counselling would do more harm than good. Your choices branch the case.
+for the moment counselling would do more harm than good. The case branches according to your choices.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

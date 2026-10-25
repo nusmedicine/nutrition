@@ -42,9 +42,9 @@ viruses) that lives on what the small intestine could not digest and carries out
 human cells cannot.
 
 The microbiome is best understood as an ecosystem: a community shaped by what it is fed, studied the
-way an ecologist studies a habitat, with no single part to fix with a pill. It is also one of the most
+way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most
 heavily marketed topics in consumer nutrition. The mechanisms below are real and diet-modifiable; many
-of the marketing claims do not survive the question "by what mechanism?"
+of the marketing claims lack a plausible mechanism.
 
 ## Composition and development of the gut microbiome {#sec-gut-who}
 
@@ -96,13 +96,13 @@ production, is carried out by many different microbes, a property called **funct
 [@moya2016functional]. People therefore share a functional core more than a taxonomic one. Functional
 redundancy also explains why **microbial diversity** (the number of species present and how evenly they
 are represented) is only a loose health marker: a richer community tends to be more resilient, but there
-are clear exceptions, so diversity is one context-dependent signal, not a number to maximise or to raise with
+are clear exceptions, so diversity is one context-dependent marker, not a number to maximise or to raise with
 supplements [@mcburney2019healthy].
 
 ::: {.callout-note collapse="true"}
 ## Optional: what happened to "enterotypes"?
 An older idea held that everyone belongs to one of three **enterotypes** (discrete community types). It
-is now read as a continuous gradient [@knights2014rethinking].
+is now regarded as a continuous gradient [@knights2014rethinking].
 :::
 
 ### How the microbiome develops {#sec-development}
@@ -181,7 +181,7 @@ their chain lengths.
 Because butyrate is the most discussed of the three, it is easy to assume it is also the most
 abundant. It is the least abundant, yet it is the main fuel of the colonic epithelium. Oral butyrate
 supplements are mostly absorbed before they reach the colon, so claims that butyrate pills cure
-disease run ahead of the evidence.
+disease are not supported by the evidence.
 :::
 
 Fermentation also produces gas, the source of the bloating described in the *Digestion and absorption*
@@ -267,7 +267,7 @@ Diet is the dominant, fast-acting and reversible influence on the microbiome. Wh
 between an animal-based and a plant-based diet, their microbial community shifts within a single day,
 but it reverts within days of a return to their usual diet, and each person's characteristic community
 largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal, and
-not a one-time reprogramming.
+not a one-off, permanent change.
 
 The variety of plants eaten matters more than any single food. People who eat the widest variety of plants
 tend to have the most diverse microbiomes. A memorable but unproven heuristic from citizen science is
@@ -275,7 +275,7 @@ tend to have the most diverse microbiomes. A memorable but unproven heuristic fr
 seeds, fruit and vegetables [@mcdonald2018american].
 
 The opposite pattern, a chronically low-fibre "Western" diet, deprives fibre-fermenting bacteria of
-substrate and lowers diversity. The most dramatic version of this, a loss of diversity that becomes irreversible over
+substrate and lowers diversity. The most extreme version of this, a loss of diversity that becomes irreversible over
 generations, comes from mice, so the evidence for that extreme is limited, though the direction of the
 effect is well supported [@sonnenburg2016diet]. Whole dietary patterns such as the Mediterranean diet are
 associated with more SCFA producers and with less frailty and inflammation [@ghosh2020mediterranean]
@@ -296,7 +296,7 @@ eaten in Singapore are wholegrain, so most people have plenty of room to add who
 :::
 
 ::: {.callout-tip}
-## 🍳 Healthy kitchen: go gradual, and keep the fluids
+## 🍳 Healthy kitchen: increase fibre gradually, with fluids
 A sudden increase in fibre means a sudden increase in fermentation, and the result is gas and
 bloating (harmless, but unpleasant). Increase fibre gradually over a couple of weeks and drink enough
 water. Cooking and then cooling starchy foods (rice, potatoes, pasta) forms resistant starch, a slowly
@@ -310,7 +310,7 @@ Scientific Association for Probiotics and Prebiotics (ISAPP):
 
 | Term | Definition (ISAPP) | In plain terms |
 |---|---|---|
-| Probiotic | "Live microorganisms that, when administered in adequate amounts, confer a health benefit" [@hill2014probiotic] | Live, defined, dosed microbes shown to do something |
+| Probiotic | "Live microorganisms that, when administered in adequate amounts, confer a health benefit" [@hill2014probiotic] | Live, defined, dosed microbes with a proven benefit |
 | Prebiotic | "A substrate selectively used by host microorganisms conferring a health benefit" [@gibson2017prebiotic] | Food for beneficial gut microbes (mostly fibres) |
 | Synbiotic | A probiotic + prebiotic combination [@swanson2020synbiotic] | The microbes and their food together |
 | Postbiotic | A preparation of inanimate microbes and/or their components [@salminen2021postbiotic] | The beneficial products, with no live microbes |
@@ -365,7 +365,7 @@ proliferate and cause severe colitis.
 
 Probiotics given with antibiotics help modestly, and only in specific settings. They produce a modest,
 strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does
-not support a blanket rule of "probiotics with every antibiotic", and there is a counter-signal that
+not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that
 probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi;
 @suez2018probiotic]. (The AGA guideline addresses probiotics for *C. difficile* prevention during
 antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question
@@ -397,19 +397,19 @@ Three claims about the microbiome are common in consumer marketing:
   spent on more plants [@porcari2024microbiometest].
 - "A detox or cleanse resets your microbiome." There is no accumulated toxin to flush out, and a
   low-fibre juice cleanse provides little substrate for gut microbes. The only intervention in medicine
-  that resets the community is FMT, for its one narrow indication.
+  that restores the community is FMT, for its one narrow indication.
 - "The gut is your second brain: gut serotonin controls your mood." The gut does make about 90–95% of
   the body's serotonin, but that serotonin regulates gut motility, and peripheral serotonin does not
-  cross the blood–brain barrier [@serotoninGutReview]. The metaphor has no mechanism behind it.
+  cross the blood–brain barrier [@serotoninGutReview]. The claim that gut serotonin controls mood has no mechanism behind it.
 
 ::: {.callout-warning}
-## The gut–brain axis: real channel, cautious claims
+## The gut–brain axis: a real pathway, unproven claims
 There is a genuine **gut–brain axis**, the two-way signalling between the gut and the brain: the
 microbiome can signal to the brain through the vagus nerve, SCFAs, the immune system and microbial
 neuroactive metabolites [@cryan2019microbiota]. The most striking results, in which transplanted
 microbes change behaviour, come largely from mouse studies, and the benefits of **psychobiotics**
 (microbes or microbial products claimed to improve mental health) for mood in humans are mostly small
-or preclinical. The channel is real; the mood claims are unproven. Its role in appetite and behaviour
+or preclinical. The axis is real; the claims about mood are unproven. Its role in appetite and behaviour
 is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
 :::
 
@@ -417,7 +417,7 @@ is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation
 ## Check yourself: a well patient asks for faecal microbiota transplant to help them lose weight. What do you tell them, and why?
 FMT is proven for one indication, recurrent *C. difficile* infection, where it restores a depleted
 community. It is not proven for obesity, and it carries a real risk of transmitting infection. Explain
-this, and refer any genuine indication to a specialist rather than treating FMT as a wellness reset.
+this, and refer any genuine indication to a specialist rather than offering FMT as a general wellness treatment.
 :::
 
 ## How should a patient eat for a healthy microbiome? {#sec-close}
@@ -441,8 +441,8 @@ recommendation (around 20 g/day for women and 26 g/day for men) [@mohNNS2022]. M
 eats too little fibre to supply its fibre-fermenting bacteria, which is why the food-first swaps in
 [How diet shapes it: fibre diversity](#sec-feeding) are a worthwhile change for most people.
 
-**Local fermented foods illustrate the live-versus-cooked distinction.** Fermented foods run through
-Singapore's food cultures, and they divide along the line that matters for the probiotic definition:
+**Local fermented foods illustrate the live-versus-cooked distinction.** Fermented foods are common across
+Singapore's food cultures, and they fall into the two groups that matter for the probiotic definition:
 those eaten with live cultures and those cooked first.
 
 | Still has live cultures (eaten raw/unheated) | Cooked → few or no live microbes (still good foods) |
@@ -458,7 +458,7 @@ Different organisms ferment each food:
 - Kimchi uses lactic-acid bacteria.
 
 *Tapai* (fermented rice or tapioca) contains a few per cent alcohol, which matters for Muslim patients.
-*Yong tau foo*, a common confusion, is not a fermented food.
+*Yong tau foo* is often mistaken for a fermented food, but it is not one.
 
 ::: {.callout-tip}
 ## 🍳 Keep the cultures alive
@@ -469,13 +469,13 @@ and kimchi unheated, and treat cultured-milk drinks as the live option. A cooked
 
 **Yakult has some evidence, but no proven broad benefit.** Cultured-milk drinks are a daily habit in
 many Singaporean families. The bacterium in Yakult (*Lactobacillus casei* Shirota) survives transit
-through the gut and has some signals from small trials, but the European Food Safety Authority (EFSA)
+through the gut and has some supporting evidence from small trials, but the European Food Safety Authority (EFSA)
 rejected its broad health claims for lack of convincing evidence [@efsa2010lcs;
 @katokataoka2016lcs]. It is a reasonable drink (watch the sugar); it is not a treatment. A marketed
 benefit is not the same as a proven benefit.
 
 **There is no single "Singaporean" microbiome.** A large local multi-ethnic study found no
-predominant microbiome type across the community, a close-to-home illustration that variation between
+predominant microbiome type across the community, a local illustration that variation between
 individuals is the rule, and that diet and lifestyle, not nationality, shape the community
 [@khine2021multiethnic]. Vegetarian and vegan eating is common in several local communities, so the
 fact that gut bacteria cannot supply B12 has practical consequences here: when you take a diet history

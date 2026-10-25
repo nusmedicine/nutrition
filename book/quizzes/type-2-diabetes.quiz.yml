@@ -25,13 +25,13 @@ questions:
         feedback: "DiRECT enrolled people diagnosed within about 6 years, not on insulin, within a defined BMI range. Early, non-insulin-treated disease is where a supervised weight-centred programme has the best chance, so this patient is the one to refer."
       - text: "Diagnosed 12 years ago, still on metformin, with a normal body weight"
         correct: false
-        feedback: "Long-standing disease (well beyond ~6 years) falls outside the studied window, and remission tracks with substantial weight loss from a weight-centred programme. This patient is a poorer candidate."
+        feedback: "Long-standing disease (well beyond ~6 years) falls outside the studied range, and remission is associated with substantial weight loss from a weight-centred programme. This patient is a poorer candidate."
       - text: "Diagnosed last year but already on insulin for glucose control"
         correct: false
-        feedback: "Insulin-treated diabetes was an exclusion in DiRECT and behaves differently. Being recently diagnosed is not enough on its own: insulin use moves this patient outside the eligibility band."
+        feedback: "Insulin-treated diabetes was an exclusion criterion in DiRECT and behaves differently. Being recently diagnosed is not enough on its own: insulin use places this patient outside the eligibility criteria."
       - text: "Diagnosed 8 years ago, on a sulfonylurea, with prior severe hypoglycaemia"
         correct: false
-        feedback: "This patient is both beyond the diagnosis window and on a drug that can cause hypoglycaemia, so the priority is a safe medication review, not a remission attempt."
+        feedback: "This patient is both beyond the time-since-diagnosis limit and on a drug that can cause hypoglycaemia, so the priority is a safe medication review, not a remission attempt."
 
   - id: q3
     stem: "True or false: achieving diabetes remission means the patient is permanently cured."
@@ -44,7 +44,7 @@ questions:
         feedback: "An HbA1c below the diabetes range off drugs defines remission, not a cure. It fades over time (~13% still in remission at five years) and can relapse, so the patient stays under review."
       - text: "True: remission and cure are the same thing in different words"
         correct: false
-        feedback: "The words are chosen precisely to differ. Cure implies permanence; remission is a durable-but-reversible state that tracks with keeping weight off and requires ongoing monitoring."
+        feedback: "The words are chosen precisely to differ. Cure implies permanence; remission is a lasting but reversible state that depends on keeping weight off and requires ongoing monitoring."
       - text: "False: remission is impossible in type 2 diabetes under any circumstances"
         correct: false
         feedback: "Remission of early disease is real and well documented (DiRECT). The distinction is that it is remission, not cure: achievable, but not permanent."
@@ -86,13 +86,13 @@ questions:
     options:
       - text: "Brown rice, two vegetables, one lean protein, less gravy"
         correct: true
-        feedback: "Brown rice, vegetables and a lean protein shift the plate toward wholegrains and plants: the My Healthy Plate 'quarter, quarter, half' in hawker terms. It substitutes toward quality instead of banning rice; locally, rice intake itself was not linked to diabetes, while swapping toward wholegrain lowered risk."
+        feedback: "Brown rice, vegetables and a lean protein shift the plate toward wholegrains and plants: the My Healthy Plate 'quarter, quarter, half' in hawker terms. This approach swaps toward better-quality foods instead of banning rice; locally, rice intake itself was not linked to diabetes, while swapping toward wholegrain lowered risk."
       - text: "White rice with extra gravy and two fried meat dishes for flavour"
         correct: false
         feedback: "White rice with extra gravy and fried meat is the higher refined-carbohydrate, higher-fat option. The better choice is to shift toward wholegrains and vegetables with a lean protein and less gravy."
       - text: "No rice at all, since rice is the main cause of diabetes locally"
         correct: false
-        feedback: "Cutting rice entirely is not supported by the evidence: the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The gain comes from substitution toward wholegrain and more vegetables, not from banning a staple."
+        feedback: "Cutting rice entirely is not supported by the evidence: the Singapore Chinese Health Study found rice intake itself was not associated with diabetes. The benefit comes from substituting wholegrain and more vegetables, not from banning a staple."
       - text: "A larger scoop of white rice to feel full and eat less later"
         correct: false
         feedback: "More refined carbohydrate is the wrong direction for glucose. Choose brown rice, add vegetables and a lean protein, and go easy on the gravy instead."
@@ -102,7 +102,7 @@ questions:
     options:
       - text: "Kopi-o kosong or plain water, both toward the grade A end of the scale"
         correct: true
-        feedback: "Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water sit at the low-sugar A end. Sugary drinks supply about half of dietary sugar locally, so reading the grade turns 'watch your sugar' into a concrete swap."
+        feedback: "Nutri-Grade runs A–D by sugar and saturated fat; unsweetened kopi-o kosong and water are at the low-sugar A end. Sugary drinks supply about half of dietary sugar locally, so reading the grade turns 'watch your sugar' into a concrete swap."
       - text: "A sweet bubble tea, as long as it carries a Nutri-Grade label somewhere"
         correct: false
         feedback: "A label is not an endorsement: bubble tea typically grades C/D for high sugar. The grade is there to steer the choice toward the A/B end."
@@ -121,7 +121,7 @@ questions:
         feedback: "Finger-prick glucose testing does not break the fast, and Islam exempts the medically unfit. Many patients believe otherwise and some come to harm, so address the belief and arrange a pre-Ramadan review to risk-stratify and adjust medication."
       - text: "Fasting on insulin is fine and needs no special preparation beforehand"
         correct: false
-        feedback: "Severe hypoglycaemia is several times more frequent during Ramadan, and insulin and sulfonylureas are among the drugs that can cause it, so fasting on insulin is not preparation-free. The safe approach is a pre-Ramadan review, weeks ahead, to risk-stratify and adjust medication."
+        feedback: "Severe hypoglycaemia is several times more frequent during Ramadan, and insulin and sulfonylureas are among the drugs that can cause it, so fasting on insulin needs preparation. The safe approach is a pre-Ramadan review, weeks ahead, to risk-stratify and adjust medication."
       - text: "Testing does break the fast, so the patient should avoid checking glucose"
         correct: false
         feedback: "A finger-prick test does not break the fast: monitoring is religiously permissible and, on medications that can cause hypoglycaemia, important for safety."

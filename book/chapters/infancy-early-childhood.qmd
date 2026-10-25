@@ -80,16 +80,16 @@ signs, usually near 6 months and not before 4 months:
 - has lost the **tongue-thrust reflex**, which pushes food out of the mouth;
 - reaches for food.
 
-The 4-month floor reconciles two guideline positions. WHO holds to "about 6 months", whereas allergy
+The lower limit of 4 months reconciles two guideline positions. WHO holds to "about 6 months", whereas allergy
 and gastroenterology societies argue for starting solids, including allergens, between 4 and 6
 months [@whoComplementaryFeeding2023; @fewtrell2024multisociety]. The two apply at different levels:
-"about 6 months" is the population default, and 4 months is the floor for an individual infant who
+"about 6 months" is the population default, and 4 months is the earliest age for an individual infant who
 is ready. Singapore's guidelines take the same position (see [The Singapore picture](#sec-singapore)).
 
 Cow's milk waits until about 12 months as the main drink, for the same iron reason. It is iron-poor
 and, in infancy, causes occult (hidden) blood loss from the gut, a direct route to iron deficiency
 [@ziegler1990cowmilk; @ziegler2011review]. Small amounts of yoghurt or cheese are fine as
-**complementary foods** (solids given alongside milk) from 6 months, so the line falls between cow's milk as the main drink and dairy
+**complementary foods** (solids given alongside milk) from 6 months, so the distinction is between cow's milk as the main drink and dairy
 as a food.
 
 The aim is to prevent iron deficiency before it starts. Iron deficiency in the brain-growth
@@ -111,7 +111,7 @@ mouth first builds tolerance [@lack2008dual]. Early oral introduction therefore 
 
 The trial evidence agrees. The LEAP trial gave high-risk infants (those with severe eczema or egg
 allergy) peanut early and cut peanut allergy by around 80% [@dutoit2015leap]. The EAT trial pointed
-the same way, with adherence the practical limit, and a meta-analysis confirmed the effect for peanut
+the same way, although poor adherence limited its effect; a meta-analysis confirmed the effect for peanut
 and egg [@perkin2016eat; @ierodiakonou2016].
 
 In practice, smooth peanut butter and well-cooked egg are introduced once solids begin. One caution
@@ -146,14 +146,14 @@ sometimes called a "first vaccine", and its small volume is often mistaken for "
 yet". Within a single feed, the watery **foremilk** gives way to the fat-rich **hindmilk**
 [@ballard2013milk].
 
-Two components of breast milk do work that no formula fully copies. **Secretory IgA**, an antibody,
+Two components of breast milk have functions that no formula fully reproduces. **Secretory IgA**, an antibody,
 coats the infant's gut and blocks pathogens while the infant's own immunity matures. Human milk
 oligosaccharides (HMOs), sugars the infant cannot digest (see [*The
 gut microbiome*](gut-microbiome.qmd#sec-development) chapter), selectively feed *Bifidobacterium*.
 Feeding *Bifidobacterium* seeds the infant microbiome and, through short-chain fatty acids, supports
 the gut barrier [@ballard2013milk; @dinleyici2023hmo].
 
-The slogan "breast is best" needs reading against the evidence. The cleanest data come from
+The slogan "breast is best" needs to be checked against the evidence. The strongest data come from
 PROBIT, a large cluster-randomised trial of breastfeeding support, which found real reductions in
 gastrointestinal infection and eczema but no reduction in respiratory infection
 [@kramer2001probit]. Its cognitive benefit at 6.5 years was modest and mostly verbal
@@ -188,8 +188,8 @@ breastfeeding into the second year, supported by the Baby-Friendly Hospital Init
 
 ### Formula and mixed feeding {#sec-formula}
 
-Most infants receive some formula, and the counselling posture is support, not shame. Modern infant
-formula is safe and nutritionally adequate, so the clinician's contribution is safe preparation.
+Most infants receive some formula, and the counselling approach is supportive, not shaming. Modern infant
+formula is safe and nutritionally adequate, so the clinician's role is to advise on safe preparation.
 Powdered formula is not sterile: it is made up with water at 70 °C or above to kill *Cronobacter* (a
 bacterium that can contaminate the powder), then cooled, and any made-up feed is discarded after 2
 hours [@faoWhoPif2007].
@@ -204,24 +204,24 @@ partially breastfed infant.
 ## 🍜 Feeding well in Singapore: cost and shared caregiving
 Premium formulas and toddler milks add cost, not nutrition: every infant formula sold in Singapore
 meets the same standard, yet prices have more than doubled. After 12 months, plain full-fat cow's
-milk does the job, so toddler (or "growing-up") milks are unnecessary and often sugar-sweetened
+milk is adequate, so toddler (or "growing-up") milks are unnecessary and often sugar-sweetened
 [@cccsFormula2017; @fuchs2023toddlermilk]. Feeding here is also a family activity, often led by
 grandparents and confinement caregivers (carers who look after mother and baby during the
-traditional period of rest after birth). They carry beliefs worth gently addressing, such as that
+traditional period of rest after birth). They hold beliefs worth gently addressing, such as that
 fruit can stand in for vegetables or that a child should always finish the plate, so counsel the
 whole household that feeds the child [@tanGrandparents2019].
 :::
 
 ### Responsive feeding and fussy eating {#sec-responsive-feeding}
 
-How a child is fed matters as much as what. **Responsive feeding** follows the child's hunger and
+How a child is fed matters as much as what the child eats. **Responsive feeding** follows the child's hunger and
 fullness cues. The organising idea for feeding a young child is the **division of
 responsibility**: the parent decides what, when and where, and the child decides whether and how
 much [@satterDoR].
 
 Two findings explain why the division works. First, toddlers pass through a phase of **food
 neophobia**, refusing new foods on sight. The phase is usually transient (most fussy eating resolves
-within a couple of years) and yields to repeated, low-pressure offering, on the order of 8 to 15
+within a couple of years) and responds to repeated, low-pressure offering, on the order of 8 to 15
 tries [@spill2019exposure; @mascola2010picky]. Second, pressure backfires: "finish your plate" is
 associated with more fussiness, not less. A fussy child also draws more pressure from parents, so
 the association runs both ways [@jansen2017pressure].
@@ -296,7 +296,7 @@ of improvised.
 
 ## Is "breast is best" the whole story? {#sec-close}
 
-Breast milk is a strong start, not a complete one. It leaves three specific gaps (vitamin D,
+Breast milk is a good start but is not nutritionally complete. It leaves three specific gaps (vitamin D,
 vitamin K and iron), and formula and mixed feeding are safe alternatives. Much of what protects an
 infant lies beyond the milk itself:
 
@@ -306,7 +306,7 @@ infant lies beyond the milk itself:
 - responsive feeding, because pressure to eat backfires.
 
 A large part of the clinician's work, in Singapore especially (see
-[The Singapore picture](#sec-singapore)), is gently retiring a well-meant tradition. Another part is
+[The Singapore picture](#sec-singapore)), is gently correcting well-meant traditional advice. Another part is
 recognising the few infants (preterm, high allergy risk, faltering growth) who need more than the
 default advice, and referring them.
 
@@ -323,7 +323,7 @@ Their practical advice includes five points [@smjFeeding2023]:
 - cow's milk as a drink only after 12 months.
 
 **Breastfeeding starts well but rarely stays exclusive.** Nearly every mother starts breastfeeding,
-but exclusive breastfeeding falls to about 3% by 6 months, so the sensible posture is realistic
+but exclusive breastfeeding falls to about 3% by 6 months, so the sensible approach is realistic
 support plus non-judgemental formula guidance [@sgBreastfeeding2024]. Formula marketing to the
 under-ones is restricted by a local ethics code [@sifecsCode].
 
@@ -346,6 +346,6 @@ infant sun exposure is, rightly, kept low.
 Baby Aidan, a thriving breastfed 5-month-old, comes to a routine visit with his mother. She brings
 worries about solids, allergens, honey, cow's milk and formula from the internet, the family and a
 neighbour. Work through the visit: sort the evidence from the
-tradition, correct it kindly, and know when to refer. Your choices branch the case.
+tradition, correct it kindly, and know when to refer. The case branches according to your choices.
 
 <div data-island="case" data-src="/cases/infancy-feeding.case.yml"></div>

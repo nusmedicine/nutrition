@@ -2,7 +2,7 @@
 # Schematic/qualitative: teaches that everyday active adults need ordinary food + water, not sports
 # nutrition; you have to reach genuine endurance-athlete volume before special fuelling is earned.
 id: fuel-dial
-title: "Fuel to fit the training: usually less than expected"
+title: "Matching food to training: usually less is needed than expected"
 proteinPerKg:
   active: [1.2, 1.6]   # g/kg/day illustrative range (Morton 2018 plateau ~1.6)
 intensities:
@@ -35,5 +35,5 @@ athleteNote: >-
   training; applying it to a few weekly sessions is the classic over-fuelling mistake.
 tropicalNote: >-
   In Singapore's heat, sweat losses are higher for the same effort: drink to thirst and aim to lose
-  under ~2% of body weight over a long session. Salt matters only for long or very sweaty efforts.
-credit: "Schematic: shows direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling framing from Thomas 2016; hydration from Sawka 2007."
+  under ~2% of body weight over a long session. Salt matters only for long sessions or heavy sweating.
+credit: "Schematic: shows direction, not a prescription. Protein range 1.2–1.6 g/kg from Morton 2018; fuelling guidance from Thomas 2016; hydration from Sawka 2007."

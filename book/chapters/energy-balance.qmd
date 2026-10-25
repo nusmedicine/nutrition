@@ -33,7 +33,7 @@
 **Energy balance** is the relationship between the energy taken in as food and drink and the energy
 the body spends. When intake exceeds expenditure, the surplus is stored, mostly as fat; when
 expenditure exceeds intake, the body draws on its stores. Sustained in either direction, the
-imbalance shifts body weight and metabolic health.
+imbalance changes body weight and affects metabolic health.
 
 As an equation, energy balance looks simple:
 
@@ -49,11 +49,11 @@ the "out" side falls to meet it, so body weight does not behave like a simple ba
 [Metabolic adaptation after weight loss](#sec-defended)).
 
 ::: {.callout-note}
-## Small numbers, long time
-A daily surplus of about 100 kcal, roughly one sweetened drink, is enough to add meaningful weight
+## Small surpluses add up over time
+A daily surplus of about 100 kcal, roughly one sweetened drink, is enough to cause appreciable weight gain
 over a year if nothing else changes [@hill2003energygap]. Equally, small, sustainable
 changes are the practical approach in counselling, because energy balance plays out over
-months, not meals.
+months rather than single meals.
 :::
 
 ## Energy expenditure: the "out" side {#sec-out}
@@ -81,8 +81,8 @@ Exercise activity
 
 Non-exercise activity thermogenesis (NEAT)
 : The energy spent on all other movement, such as walking to the hawker centre, fidgeting, taking
-  the stairs and standing. NEAT varies enormously between people and, over a day, can outweigh
-  formal exercise entirely [@levine2002neat].
+  the stairs and standing. NEAT varies widely between people and, over a day, can exceed the energy spent in
+  formal exercise [@levine2002neat].
 
 ### Estimating BMR: the Mifflin–St Jeor equation {#sec-bmr}
 
@@ -123,14 +123,14 @@ tissue, so she spends more energy at rest.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why is the estimate of 1,740 kcal/day for the sedentary woman in the example only a starting point?
 The Mifflin–St Jeor equation is a population estimate: it predicts BMR from weight, height, age and
-sex, so it cannot see how much of her weight is lean mass, the main determinant of BMR. Physical activity,
+sex, so it does not account for how much of her weight is lean mass, the main determinant of BMR. Physical activity,
 the most variable component, enters only as a rough PAL band.
 :::
 
 ## Measuring body composition and energy expenditure {#sec-measuring}
 
 Energy needs track **body composition**, what the weight is made of. Two people of the same weight
-can differ completely in how much of it is muscle and how much is fat, and that difference changes
+can differ greatly in how much of it is muscle and how much is fat, and that difference changes
 both their BMR and their health risk. Four tools for screening or measuring body composition are
 compared below, from cheap, rough screening to the accurate reference standard:
 
@@ -138,20 +138,20 @@ compared below, from cheap, rough screening to the accurate reference standard:
 |---|---|---|
 | Body mass index (BMI) | Weight ÷ height² | Cheap population screening, not a body-fat measurement; cannot tell muscle from fat |
 | Waist circumference | Central (visceral) fat, stored around the abdomen | Adds the central-fat risk that BMI misses |
-| Bioelectrical impedance (BIA) | Fat versus lean, estimated from a tiny electrical current | Convenient (the "body-fat" bathroom scales) but easily thrown off by hydration |
+| Bioelectrical impedance (BIA) | Fat versus lean, estimated from a tiny electrical current | Convenient (the "body-fat" bathroom scales) but readily affected by hydration status |
 | DXA (dual-energy X-ray absorptiometry), a low-dose X-ray scan | Fat versus lean | The accurate clinical and research reference |
 
 BMI cannot tell muscle from fat, so it misclassifies the very muscular and can miss excess fat in
 people who are slim by weight. BMI is therefore a screening tool, not a diagnosis. Asian cut-offs for overweight are set lower than the international ones, because the risk of diabetes and cardiovascular disease rises at a lower BMI in Asian populations [@whoExpert2004AsianBMI] (see the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter). Waist circumference captures
 **central (visceral) fat**, the fat stored around the abdomen. That fat carries more metabolic risk
-than fat on the hips and thighs, so the waist measurement adds what BMI misses [@whoWaist2011].
+than fat on the hips and thighs, so the waist measurement adds information that BMI does not give [@whoWaist2011].
 
 Energy expenditure itself is measured with research tools. BMR is measured by **calorimetry**,
 directly from the heat the body produces or indirectly from the oxygen it consumes and the carbon
 dioxide it produces. Total expenditure in free-living people (those going about their normal lives)
 is measured with **doubly labelled water**, a harmless isotope tracer followed over one to two weeks;
 it is the gold standard behind the expenditure shares given earlier [@westerterp2017dlw]. In the
-clinic, the estimating equations do the everyday work.
+clinic, the estimating equations are used instead.
 
 The gases measured in indirect calorimetry also show which fuel the body is burning. The
 **respiratory quotient (RQ)** is the ratio of carbon dioxide produced to oxygen consumed: about 1.0
@@ -160,7 +160,7 @@ the body moves between the fed and fasted states (see the
 [*Integrative metabolism*](integrative-metabolism.qmd#sec-rq) chapter).
 
 ::: {.callout-tip collapse="true"}
-## Check yourself: a patient's BMI is in the healthy range, but her waist circumference is large. Why does the waist measurement change the picture?
+## Check yourself: a patient's BMI is in the healthy range, but her waist circumference is large. Why does the waist measurement change the assessment?
 BMI uses only weight and height, so it cannot tell muscle from fat and can miss excess fat in people
 who are slim by weight. Waist circumference captures central (visceral) fat, which carries more
 metabolic risk than fat on the hips and thighs. Her large waist flags a risk that her BMI misses.
@@ -201,17 +201,17 @@ After weight loss, expenditure falls by more than the smaller body should requir
 thermogenesis), so an estimate based on her new weight is likely to overstate what she now spends and
 can leave her in surplus. Her smaller fat stores also release less leptin, the long-term signal of
 their size, so the brain registers a smaller store, and appetite rises, favouring regain.
-Energy balance is actively regulated, not free, and the compensation opposes loss more strongly than
+Energy balance is actively regulated, not free to drift, and the compensation opposes loss more strongly than
 gain.
 :::
 
 ## Is body weight just calories in minus out? {#sec-close}
 
-Partly. The equation is real: energy that was never eaten cannot be stored, and a sustained deficit
+Partly. The equation holds: energy that was never eaten cannot be stored, and a sustained deficit
 does lower weight. The two sides are linked, however. When intake falls, energy expenditure falls
 too, and body fat releases leptin in rough proportion to its size, a signal
 the brain uses to regulate body weight. The rule "calories in minus calories out" is therefore the
-right *bookkeeping* and a poor *strategy*, because the "out" column itself shifts in response to
+correct accounting but a poor basis for weight management, because the "out" column itself shifts in response to
 intake (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-defended)
 chapter).
 
@@ -221,21 +221,21 @@ Singapore's food environment tends to favour a high energy intake. Eating
 out is the norm: about three in four adults usually eat at least one of their daily meals out [@naidoo2017eatingout]. Hawker and food-court favourites are energy-dense
 (high in kcal for their weight). A plate of *char kway teow* with a sweet drink can carry a large
 share of a day's energy in one sitting, and the drink alone can add a couple of hundred easily missed
-kcal. A largely sedentary, air-conditioned, car-and-MRT lifestyle keeps the
+kcal. A largely sedentary lifestyle, spent in air-conditioned buildings and travelling by car or MRT, keeps the
 activity side low, with little of the NEAT that a more walking-dependent city would provide.
 
 The festive calendar adds to the surplus. Chinese New Year, Hari Raya, Deepavali and Christmas each
 bring days of feasting. The modest weight gained across a year of such occasions is not fully lost
 afterwards, so it accumulates over the years [@yanovski2000holiday]. None of this is a moral failing;
-it is an environment that keeps "energy in" easy and "energy out" low.
+it reflects an environment that makes a high energy intake easy and keeps activity low.
 
-The National Nutrition Survey shows a gap between the guidelines and the plate [@mohNNS2022]. Three
+The National Nutrition Survey shows a gap between the guidelines and what people actually eat [@mohNNS2022]. Three
 practical measures aim to close that gap without calorie counting:
 
 - My Healthy Plate (¼ wholegrains, ¼ protein, ½ fruit and vegetables; see the
   [*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter) lowers a meal's energy density
   [@hpbHealthyPlate].
-- Nutri-Grade flags the sugary drinks that are the easiest surplus to cut.
+- Nutri-Grade identifies sugary drinks, the easiest source of surplus energy to cut.
 - Everyday movement (stairs over the escalator, a walk after dinner, alighting a stop early)
   adds back the NEAT that city life removes.
 

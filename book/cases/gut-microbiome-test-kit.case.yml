@@ -88,7 +88,7 @@ nodes:
       - id: c
         text: "Repeat the test monthly to track her progress."
         correct: false
-        feedback: "The test isn't reproducible or actionable, so tracking it spends money to chase noise. Eating diverse plants is what helps."
+        feedback: "The test isn't reproducible or actionable, so tracking it spends money on random variation. Eating diverse plants is what helps."
         goto: q-symptoms
 
   - id: q-symptoms
@@ -123,7 +123,7 @@ nodes:
     type: info
     title: "The two-part message"
     body: |
-      Two things to hold together. For a **well** person, a direct-to-consumer microbiome kit is
+      Keep two points in mind. For a **well** person, a direct-to-consumer microbiome kit is
       not clinically actionable (no agreed healthy reference, poor reproducibility, no proven
       action), and its supplement recommendations are an upsell; what helps is fibre diversity
       (many different plants). Real symptoms (persistent change in bowel habit, bleeding, weight

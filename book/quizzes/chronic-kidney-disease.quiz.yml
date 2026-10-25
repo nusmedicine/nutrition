@@ -4,15 +4,15 @@ questions:
   - id: q1
     stem: "A man's results show a low eGFR (category G3b) with heavy albuminuria (A3). On the CKD heat map, how should you classify and act?"
     options:
-      - text: "High-risk CKD, so his diet is now dietitian-led work"
+      - text: "High-risk CKD, so his nutrition care is now dietitian-led"
         correct: true
-        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria sits firmly in the high-risk zone. The goal is recognition, not threshold recall: once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
+        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria falls in the high-risk category. The goal is recognition, not threshold recall: once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
       - text: "Mild change, so no action is needed until symptoms appear"
         correct: false
-        feedback: "Because CKD is largely silent and detected biochemically, not by symptoms, waiting for symptoms misses the window. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
+        feedback: "Because CKD is largely silent and detected biochemically, not by symptoms, waiting for symptoms misses the chance to intervene early. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
       - text: "Low risk, because a low eGFR with albuminuria is reassuring"
         correct: false
-        feedback: "Reading these results as reassuring reverses the heat map. Falling eGFR and heavy albuminuria are the two axes that push a patient toward the high-risk end."
+        feedback: "Reading these results as reassuring misreads the heat map. Falling eGFR and heavy albuminuria are the two axes that push a patient toward the high-risk end."
       - text: "Not CKD, because staging always needs a kidney biopsy first"
         correct: false
         feedback: "CKD is defined and staged from eGFR and albuminuria (with cause), not from a biopsy. These results already classify him as high-risk CKD."
@@ -25,10 +25,10 @@ questions:
         feedback: "For the general public, more potassium and a potassium salt substitute are sound, but the failing kidney cannot clear a potassium load, so both can precipitate life-threatening hyperkalaemia. The WHO potassium advice explicitly excludes CKD, and the salt-substitute trial deliberately excluded serious kidney disease."
       - text: "Cutting back on added salt and processed-food sodium"
         correct: false
-        feedback: "Sodium reduction is the one piece of advice that does not reverse in CKD: cutting sodium still lowers blood pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a generalist can safely reinforce."
+        feedback: "Sodium reduction still applies in CKD: cutting sodium still lowers blood pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a generalist can safely reinforce."
       - text: "Choosing fresh foods over ultra-processed ones"
         correct: false
-        feedback: "Choosing fresh foods stays good in CKD, and it also cuts hidden additive phosphate. It is not the advice that reverses."
+        feedback: "Choosing fresh foods stays good in CKD, and it also cuts hidden additive phosphate. It is not the advice that changes in CKD."
       - text: "Keeping to a healthy body weight over time"
         correct: false
         feedback: "Weight management remains sensible in CKD. The advice that turns dangerous is the potassium message."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "Its primary result was equivocal, not decisive"
         correct: true
-        feedback: "MDRD's primary analysis found only a small, statistically fragile effect; the confident 'protein restriction slows CKD' reading came from a later secondary analysis. The fair position is benefit with a caveat, not a settled prescription, which is part of why protein targets are individualised and supervised."
+        feedback: "MDRD's primary analysis found only a small, statistically fragile effect; the confident 'protein restriction slows CKD' reading came from a later secondary analysis. The fair conclusion is a benefit with a caveat, not a settled prescription, which is part of why protein targets are individualised and supervised."
       - text: "It was a decisive positive trial with a hard endpoint"
         correct: false
         feedback: "Its primary endpoint was not clearly positive. Treating MDRD as decisive overstates it, because the supportive reading rests on a secondary analysis."
@@ -76,7 +76,7 @@ questions:
         feedback: "Weight loss, low albumin and muscle wasting signal protein-energy wasting: the diet is doing harm, not working."
       - text: "Simple dehydration that fluid will correct"
         correct: false
-        feedback: "Dehydration does not explain muscle wasting or low albumin. This picture is protein-energy wasting and needs dietetic assessment."
+        feedback: "Dehydration does not explain muscle wasting or low albumin. This presentation indicates protein-energy wasting and needs dietetic assessment."
       - text: "A normal finding on dialysis needing no action"
         correct: false
         feedback: "Wasting is linked to mortality, so it is a clear trigger to refer for nutrition support, not a normal finding."
@@ -98,27 +98,27 @@ questions:
         feedback: "Cooking does not reliably remove phosphate, and it does nothing about hidden additives. The issue is the near-complete absorption of unlabelled inorganic phosphate."
 
   - id: q7
-    stem: "Which food is an absolute avoid in CKD, rather than a portion-controlled one?"
+    stem: "Which food must be avoided completely in CKD, rather than portion-controlled?"
     options:
       - text: "Star fruit or belimbing, which are neurotoxic in CKD"
         correct: true
-        feedback: "Star fruit and belimbing (bilimbi) carry a neurotoxin that healthy kidneys clear but failing ones cannot, causing hiccups, confusion, seizures and death, with high mortality in kidney failure. That makes them an absolute avoid, distinct from ordinary high-potassium foods, and a locally important warning in Singapore."
+        feedback: "Star fruit and belimbing (bilimbi) contain a neurotoxin that healthy kidneys clear but failing ones cannot, causing hiccups, confusion, seizures and death, with high mortality in kidney failure. They must therefore be avoided completely, unlike ordinary high-potassium foods, and this is a locally important warning in Singapore."
       - text: "White rice, whose potassium load is dangerous in CKD"
         correct: false
-        feedback: "White rice is low in potassium and not an absolute avoid. The neurotoxic hazard is star fruit and belimbing."
+        feedback: "White rice is low in potassium and need not be avoided. The neurotoxic hazard is star fruit and belimbing."
       - text: "Banana, the most toxic fruit in kidney disease"
         correct: false
-        feedback: "Bananas are high in potassium, so their portions are managed to blood levels, but they are not an absolute avoid. Star fruit and belimbing are the neurotoxic exception."
+        feedback: "Bananas are high in potassium, so their portions are adjusted to blood potassium levels, but they need not be avoided completely. Star fruit and belimbing are the neurotoxic exception."
       - text: "Oily fish, whose phosphate makes it unsafe to eat"
         correct: false
-        feedback: "Oily fish is not an absolute avoid; its phosphate is natural and only partly absorbed. The absolute avoid is star fruit and belimbing."
+        feedback: "Oily fish need not be avoided; its phosphate is natural and only partly absorbed. The foods to avoid completely are star fruit and belimbing."
 
   - id: q8
     stem: "In early CKD, which dietary change can a generalist reinforce, with the rest referred?"
     options:
-      - text: "Cutting sodium, the advice that does not reverse in CKD"
+      - text: "Cutting sodium, the advice that still applies in CKD"
         correct: true
-        feedback: "Sodium reduction helps in CKD for the same reasons it helps in hypertension, and it also reduces albuminuria and lets kidney-protective drugs work. Unlike the potassium message, it does not reverse. Potassium, phosphate, fluid and protein quantities are individualised by a renal dietitian, so the generalist reinforces sodium, avoids the do-no-harm hazards, and refers."
+        feedback: "Sodium reduction helps in CKD for the same reasons it helps in hypertension, and it also reduces albuminuria and lets kidney-protective drugs work. Unlike the potassium message, it still applies. Potassium, phosphate, fluid and protein quantities are individualised by a renal dietitian, so the generalist reinforces sodium, avoids the potassium and star-fruit hazards, and refers."
       - text: "Prescribing a fixed daily fluid restriction in millilitres"
         correct: false
         feedback: "Early CKD usually needs no fluid restriction, and any limit is individualised and specialist. Fluid limits are for referral, not for a generalist to reinforce."

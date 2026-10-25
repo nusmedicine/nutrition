@@ -1,5 +1,5 @@
 id: ort-drip-free-rescue
-title: "The drip-free rescue"
+title: "Rehydration without a drip"
 objectives:
   - "Explain why oral rehydration can work even when the gut is losing fluid (SGLT1 keeps absorbing)."
   - "Explain why oral rehydration salts need both glucose and sodium (cotransport; water follows)."
@@ -37,7 +37,7 @@ nodes:
       - id: a
         text: "SGLT1 keeps absorbing, so a glucose-and-salt drink still gets fluid in."
         correct: true
-        feedback: "In secretory diarrhoea, where the gut pours out fluid, SGLT1 keeps working, and oral rehydration exploits exactly that. A drip is kept for severe dehydration or a child who can't drink."
+        feedback: "In secretory diarrhoea, where the gut pours out fluid, SGLT1 keeps working, and oral rehydration exploits exactly that. A drip is reserved for severe dehydration or a child who can't drink."
         effects: { quality: +1 }
         goto: q-both
       - id: b
@@ -79,7 +79,7 @@ nodes:
       - id: a
         text: "No, they carry too much sugar and too little sodium; use proper ORS."
         correct: true
-        feedback: "The wrong glucose-to-salt balance can pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; over-sugary drinks are osmotically the wrong tool."
+        feedback: "The wrong glucose-to-salt balance can pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; drinks with too much sugar are osmotically unsuitable."
         effects: { quality: +1 }
         goto: q-advice
       - id: b

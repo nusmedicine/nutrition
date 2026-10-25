@@ -12,7 +12,7 @@ questions:
         feedback: "BMR is the largest component of TEE for most people, typically 60–70%."
       - text: "Over 90%"
         correct: false
-        feedback: "Physical activity and TEF together take a meaningful share of TEE, which leaves BMR at about 60–70%."
+        feedback: "Physical activity and TEF together account for a substantial share of TEE, which leaves BMR at about 60–70%."
 
   - id: q2
     stem: "Which component of total energy expenditure varies *most* between individuals?"
@@ -22,7 +22,7 @@ questions:
         feedback: "BMR varies, but it is relatively stable for a given body composition."
       - text: "Physical activity"
         correct: true
-        feedback: "Physical activity differs most between otherwise similar people, and NEAT alone varies enormously from person to person."
+        feedback: "Physical activity differs most between otherwise similar people, and NEAT alone varies widely from person to person."
       - text: "Thermic effect of food"
         correct: false
         feedback: "TEF is fairly constant at about 10% of TEE."
@@ -58,10 +58,10 @@ questions:
     options:
       - text: "Non-exercise activity thermogenesis (NEAT)"
         correct: true
-        feedback: "Everyday, non-exercise movement (NEAT) varies enormously between people and, over a day, can outweigh a single formal workout."
+        feedback: "Everyday, non-exercise movement (NEAT) varies widely between people and, over a day, can outweigh a single formal workout."
       - text: "A higher thermic effect of food"
         correct: false
-        feedback: "TEF tracks what you eat, not incidental movement; it's roughly 10% of TEE and fairly fixed."
+        feedback: "TEF depends on food intake, not incidental movement; it is roughly 10% of TEE and fairly constant."
       - text: "A higher BMR caused by the gym class"
         correct: false
         feedback: "One class doesn't meaningfully raise *resting* metabolism; the difference here is incidental daily movement (NEAT)."
@@ -71,7 +71,7 @@ questions:
     options:
       - text: "Expenditure falls and appetite rises after weight loss"
         correct: true
-        feedback: "The 'out' side falls by more than the smaller body needs (adaptive thermogenesis) while hunger rises, so these compensatory responses favour regain. Energy balance is actively regulated, not free (see the *Appetite and weight regulation* chapter)."
+        feedback: "Energy expenditure falls by more than the smaller body size predicts (adaptive thermogenesis) while hunger rises, so these compensatory responses favour regain. Energy balance is actively regulated (see the *Appetite and weight regulation* chapter)."
       - text: "Fat cannot be lost once it has been stored"
         correct: false
         feedback: "Fat is readily mobilised; the problem is compensation that makes it hard for weight to *stay* lower, not irreversibility."
@@ -80,7 +80,7 @@ questions:
         feedback: "Estimation error is not the point: after weight loss, expenditure falls (metabolic adaptation) and appetite rises."
 
   - id: q7
-    stem: "Why is BMI treated as a screening flag and not a measure of body fat?"
+    stem: "Why is BMI treated as a screening tool and not a measure of body fat?"
     options:
       - text: "It uses only weight and height, not body composition"
         correct: true

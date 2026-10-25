@@ -8,8 +8,8 @@
 ::: {.callout-note}
 ## Learning objectives
 - Explain how the length and branching of carbohydrate chains set how fast a food raises blood glucose.
-- Distinguish glycaemic index from glycaemic load, and explain why portion size can change the verdict
-  on a high-GI food.
+- Distinguish glycaemic index from glycaemic load, and explain why portion size can change the assessment
+  of a high-GI food.
 - Explain how saturation and *cis*/*trans* geometry shape a fatty acid, and rank dietary fats by
   cardiovascular risk.
 - Describe how amino-acid sequence sets protein structure and function, and how complementary plant
@@ -50,13 +50,13 @@ Fat is the most energy-dense macronutrient, so fat-rich foods raise total intake
 ::: {.callout-important}
 ## What determines a macronutrient's health effect
 The health effect of a macronutrient depends on its form and food source, so "Are carbs bad?" and
-"Is fat bad?" have no single answer. The question that matters clinically is almost never "how many
+"Is fat bad?" have no single answer. Clinically, the useful question is almost never "how many
 grams?" but "what kind, from what food?" (see [Are carbs bad?](#sec-close)).
 :::
 
 ## Carbohydrate {#sec-carbohydrate}
 
-**What it is.** Carbohydrates run a wide spectrum, and where a food sits on it matters far
+**What it is.** Carbohydrates cover a wide spectrum, and a food's position on it matters far
 more than the word "carb":
 
 ::: {.spectrum}
@@ -105,9 +105,9 @@ differ:
 
 ::: {.example}
 Glutinous ("sticky") rice is almost pure amylopectin and raises blood glucose sharply, while
-high-amylose basmati sits lower. Even ordinary white rice raises blood glucose quickly (a high
+high-amylose basmati raises it less. Even ordinary white rice raises blood glucose quickly (a high
 glycaemic index, ~70+; see [Glycaemic index and glycaemic load](#sec-gi-gl)), so the amylose
-advantage is real but relative [@atkinson2021gitables; @cai2021starchstructure].
+advantage is real but limited [@atkinson2021gitables; @cai2021starchstructure].
 :::
 
 **What it does.** Carbohydrate is the body's main everyday fuel. Glucose powers the brain
@@ -176,13 +176,13 @@ both matter, so GI alone is a poor guide to what to avoid.
 :::
 
 Explore the relationship below. Pick a food, and its GI sets the height of the glucose
-curve; then drag the portion, which grows the shaded area (the glycaemic load). Switch
+curve; then drag the portion, which enlarges the shaded area (the glycaemic load). Switch
 on *Compare* to see the watermelon-versus-potato paradox: near-identical peaks, very
 different areas.
 
 <div data-island="gi" data-src="/diagrams/glycemic-index-load.yml"></div>
 
-Three caveats keep GI in proportion:
+Three caveats limit how far GI should be relied on:
 
 - GI is not a measure of healthiness: chocolate is low-GI.
 - A food has no single fixed GI, because ripeness, processing, cooking and the rest of the meal all
@@ -203,8 +203,8 @@ Plate [@hpbHealthyPlate].
 Cooking **gelatinises** starch: the granules swell and become easier to digest, so more thoroughly
 cooked, finely milled starch raises glucose faster [@cai2021starchstructure]. When a cooked
 starchy food is chilled, some starch **retrogrades** into **resistant starch**, which escapes
-digestion and behaves partly like fibre. The effect is real but modest: a refinement of "quality
-over quantity", not a way to make white rice "low-carb".
+digestion and behaves partly like fibre. The effect is real but modest, and it does not make white rice
+"low-carb".
 :::
 
 ::: {.callout-tip}
@@ -240,7 +240,7 @@ among the best-supported dietary associations with lower disease risk (see the e
 ## 🔬 Food science: the food matrix, why whole fruit differs from juice
 Fibre is part of a food's physical structure, its **food matrix**. Juicing or finely blending fruit
 tears open the plant cell walls that enclosed the sugars. In a classic study, apple juice was drunk far
-faster than the same carbohydrate as whole apples, satisfied less, and drew a larger insulin response
+faster than the same carbohydrate as whole apples, was less satiating, and produced a larger insulin response
 followed by a rebound fall in glucose [@haber1977apple]. A glass of juice also carries several fruits' worth of sugar with little of
 the fibre. Intact cell walls slow sugar release; milling grain into fine flour destroys them, part of
 the reason wholegrains are preferred to refined starch.
@@ -249,14 +249,14 @@ the reason wholegrains are preferred to refined starch.
 ::: {.callout-tip}
 ## 🍜 Eating out
 Order whole fruit rather than bottled or freshly pressed juice, and add a vegetable or bean side, a
-scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to lift the fibre of an otherwise
+scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to raise the fibre content of an otherwise
 refined-starch plate.
 :::
 
 ::: {.callout-tip}
 ## 🍳 Healthy kitchen
 Keep edible skins on (potato, apple, cucumber); eat fruit whole instead of juicing it; and stir
-beans, lentils or rolled oats into everyday dishes for an easy fibre lift.
+beans, lentils or rolled oats into everyday dishes to add fibre easily.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -277,7 +277,7 @@ is a high-GL plate. Quality and portion both set the response.
 
 ## Fat {#sec-dietary-fat}
 
-**What it is.** Three variables generate every dietary fat: chain length, saturation and the
+**What it is.** Dietary fats differ in three features: chain length, saturation and the
 geometry of any double bonds. Five terms describe the molecules:
 
 Fatty acid
@@ -295,12 +295,12 @@ Unsaturated fatty acid
 
 Essential fatty acids
 : The two fatty acids the body cannot make: linoleic acid (an omega-6) and α-linolenic acid (an
-  omega-3). The omega count runs from the tail end of the chain.
+  omega-3). The omega number is counted from the tail end of the chain.
 
-Fatty acids rarely travel alone. Three of them esterified onto a glycerol backbone make a
+Fatty acids are rarely found on their own. Three of them esterified onto a glycerol backbone make a
 **triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to).
 Chain length runs from short through medium to long; medium-chain fats are absorbed more directly,
-which is the point of "MCT" (medium-chain triglyceride) oils. Replacing one fatty acid with a
+which is the rationale for "MCT" (medium-chain triglyceride) oils. Replacing one fatty acid with a
 phosphate head gives a **phospholipid**. Phospholipids are amphipathic (they have a water-attracting
 head and water-repelling tails), so they self-assemble into the lipid bilayer of every cell membrane:
 fat is a structural material as well as a fuel.
@@ -329,8 +329,8 @@ lymphatics (not the portal vein) before reaching the blood. (Bile and micelles: 
 [*Digestion and absorption*](digestion-absorption.qmd) chapter; lipoprotein transport and fat
 metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapter.)
 
-**Quality: type matters more than total.** For decades the advice was "eat less fat"; the better
-message is "eat better fat". Fats can be ranked by their relationship to cardiovascular risk:
+**Quality: type matters more than total.** For decades the advice was to eat less fat; current advice
+is to eat better types of fat. Fats can be ranked by their relationship to cardiovascular risk:
 
 ::: {.spectrum}
 [Dietary fats by cardiovascular risk]{.tree-title}
@@ -356,9 +356,9 @@ The advice differs by type:
 
 ::: {.callout-note}
 ## Is a low-fat diet healthier?
-Low-fat products look healthier because the long-standing advice was to eat less fat. Yet chasing
-"low fat" often means swapping fat for refined starch or sugar, frequently a worse trade. The target
-is fat quality, and the replacement nutrient matters. Where saturated fat sits within a whole food
+Low-fat products look healthier because the long-standing advice was to eat less fat. Yet choosing
+"low fat" often means replacing fat with refined starch or sugar, which is frequently worse for health. The target
+is fat quality, and the replacement nutrient matters. Whether the effect of saturated fat depends on the whole food that contains it
 (dairy versus processed meat) is still debated [@astrup2020satfat]; the message stays simple:
 replace it with unsaturated fat and whole foods.
 :::
@@ -399,8 +399,8 @@ Some stalls reuse frying oil, which the Singapore Food Agency flags as a quality
 ::: {.callout-tip}
 ## 🍳 Healthy kitchen
 Cook with unsaturated oils and don't heat them until they smoke; don't reuse frying oil again and
-again; and reach for steaming, boiling or a light stir-fry over deep-frying. Fried foods draw in oil
-and energy, and frequent intake tracks with higher type 2 diabetes and heart-failure risk
+again; and reach for steaming, boiling or a light stir-fry over deep-frying. Fried foods absorb oil,
+which adds energy, and frequent intake is associated with a higher risk of type 2 diabetes and heart failure
 [@gadiraju2015fried].
 :::
 
@@ -415,15 +415,15 @@ body as well as on the plate.
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient cuts fat by switching to low-fat biscuits and more white bread. Why may his diet be no healthier?
-Cutting fat often means replacing it with refined starch or sugar, which is frequently a worse trade.
+Cutting fat often means replacing it with refined starch or sugar, which is frequently worse for health.
 The health effect depends on the type of fat and on what replaces it: saturated fat raises LDL
 cholesterol, and the advice is to replace it with unsaturated fat, not with refined carbohydrate.
-The goal is better fat, not less fat.
+The aim is to improve the type of fat rather than to reduce the amount.
 :::
 
 ## Protein {#sec-protein}
 
-**What it is.** Protein is a polymer of **amino acids**. Every amino acid is built on one plan: a
+**What it is.** Protein is a polymer of **amino acids**. Every amino acid has the same basic structure: a
 central carbon carrying an amino group (–NH₂), a carboxyl group (–COOH), a hydrogen and a variable
 side chain. Only the side chain differs between the ~20 amino acids. About nine are **essential
 amino acids**: the body cannot make them, so they must come from the diet.
@@ -527,7 +527,7 @@ that the day's mix supplies all of them: complementary plant proteins cover each
 
 ## From nutrients to patterns {#sec-nutrient-patterns}
 
-Modern guidelines have moved decisively from "hit this macronutrient ratio" to "eat these foods,
+Modern guidelines have moved from "hit this macronutrient ratio" to "eat these foods,
 in this pattern" [@aha2021diet]. There is no single ideal macronutrient split: guidelines
 deliberately avoid prescribing one. Diabetes standards, for example, find no ideal percentage of
 energy from carbohydrate, protein or fat, and advise individualising the split and referring to a
@@ -548,10 +548,10 @@ fats; little added sugar, *trans* fat, sodium and ultra-processed food) instead 
 
 The question has no single answer until it becomes *which carbohydrate, from what food?* A sugary
 drink with a plate of white rice, and a bowl of brown rice with vegetables and fish, are both
-"carbs", and they are not remotely the same for health. In clinic, the task is to give quality
+"carbs", but their effects on health are very different. In clinic, the task is to give quality
 guidance ("more wholegrains, fewer free sugars, better fat"), base it on My Healthy Plate, and
 refer to a dietitian when a patient wants a restrictive or therapeutic diet [@ada2026standards].
-Prescribing grams is not the task at this stage.
+Prescribing gram targets is not expected at this stage.
 
 ## The Singapore picture {#sec-singapore}
 
@@ -562,8 +562,8 @@ tools for the advice above (both introduced in the
 2022 shows the gap they address: only about 4% of the staples eaten are wholegrain, against a
 recommendation of about 30%; saturated fat makes up a large share of fat intake; and most residents
 exceed the sodium target [@mohNNS2022]. The gap between what the science recommends and what the
-population actually eats is where a brown-rice swap, a less oily order and a plainer drink make a
-difference.
+population actually eats can be narrowed by small changes such as a brown-rice swap, a less oily
+order and a less sugary drink.
 
 ## Check your understanding {#sec-quiz}
 
@@ -572,8 +572,8 @@ difference.
 ## Practise: common questions in one clinic {#sec-case}
 
 Mr Lim arrives with a handful of everyday questions about rice, eggs, cooking oils and his son's
-protein powder. Answer each on quality-and-portion terms, respond to what he has heard with the
-evidence, and know when to refer. Your choices branch the case.
+protein powder. Answer each in terms of quality and portion, respond to what he has heard with the
+evidence, and know when to refer. The case branches according to your choices.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

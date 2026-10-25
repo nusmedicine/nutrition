@@ -35,7 +35,7 @@ drugs:
     label: "DPP-4 inhibitor"
     example: "sitagliptin, linagliptin"
     risk: low
-    note: "Glucose-dependent action, so no hypoglycaemia used alone."
+    note: "Acts in a glucose-dependent way, so it does not cause hypoglycaemia when used alone."
   - id: sglt2
     label: "SGLT2 inhibitor"
     example: "empagliflozin, dapagliflozin"
@@ -45,7 +45,7 @@ drugs:
     label: "GLP-1 receptor agonist"
     example: "semaglutide, liraglutide"
     risk: low
-    note: "Glucose-dependent action, so no hypoglycaemia used alone."
+    note: "Acts in a glucose-dependent way, so it does not cause hypoglycaemia when used alone."
 # The two verdict strings. `refer` fires when ANY high-risk drug is selected; `safe` otherwise.
 verdicts:
   refer:

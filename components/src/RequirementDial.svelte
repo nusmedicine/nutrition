@@ -17,10 +17,10 @@
     title: 'The requirement dial',
     stages: ['Not pregnant', '1st trimester', '2nd trimester', '3rd trimester', 'Lactation'],
     nutrients: [
-      { name: 'Energy', kind: 'rising', values: [0, 0, 340, 452, 500], unit: 'extra kcal/day', why: 'Back-loaded and modest in pregnancy — then it jumps for milk. "Eating for two" only nearly fits lactation.' },
+      { name: 'Energy', kind: 'rising', values: [0, 0, 340, 452, 500], unit: 'extra kcal/day', why: 'Modest in pregnancy and concentrated in the later trimesters, then highest in lactation for milk production. "Eating for two" is closest to accurate only in lactation.' },
       { name: 'Iron', kind: 'rising', values: [100, 105, 130, 150, 95], unit: '% of baseline need', why: 'Expanding blood volume and fetal stores push the need up, peaking late; it falls again in lactation.' },
-      { name: 'Calcium', kind: 'flat', values: [100, 100, 100, 100, 100], unit: '% of baseline need', why: 'The surprise: the requirement barely rises because the gut roughly doubles calcium absorption.' },
-      { name: 'Vitamin A', kind: 'ceiling', values: [100, 100, 100, 100, 100], unit: 'floor flat — with an upper limit', why: 'The floor barely moves — but high-dose preformed retinol is teratogenic. A ceiling to respect, not a target.' },
+      { name: 'Calcium', kind: 'flat', values: [100, 100, 100, 100, 100], unit: '% of baseline need', why: 'The requirement barely rises because the gut roughly doubles calcium absorption.' },
+      { name: 'Vitamin A', kind: 'ceiling', values: [100, 100, 100, 100, 100], unit: 'requirement flat, with an upper limit', why: 'The requirement barely moves, but high-dose preformed retinol is teratogenic, so the advice is an upper limit to respect, not a target.' },
     ],
   };
 

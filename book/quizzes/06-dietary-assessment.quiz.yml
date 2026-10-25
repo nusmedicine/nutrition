@@ -6,13 +6,13 @@ questions:
     options:
       - text: "One day may not reflect habitual intake"
         correct: true
-        feedback: "Day-to-day intake varies a lot, so a single recall estimates that day well but habitual intake poorly. Several non-consecutive recalls estimate habitual intake far better, and the method also relies on memory (recall bias)."
+        feedback: "Day-to-day intake varies considerably, so a single recall estimates that day well but habitual intake poorly. Several non-consecutive recalls estimate habitual intake far better, and the method also relies on memory (recall bias)."
       - text: "It burdens the patient more than any other method"
         correct: false
         feedback: "A 24-hour recall is quick and low-burden for the patient; the food diary is the high-burden method."
       - text: "It changes what the patient eats while they record it"
         correct: false
-        feedback: "Changing what one eats while recording it is reactivity, the signature bias of a prospective food diary, not of a retrospective recall."
+        feedback: "Changing what one eats while recording it is reactivity, the characteristic bias of a prospective food diary, not of a retrospective recall."
 
   - id: q2
     stem: "A packaged drink lists 8 g of sugar per 100 ml. Under Nutri-Grade, what grade is that (on sugar)?"
@@ -32,20 +32,20 @@ questions:
     options:
       - text: "The per-100 ml figure and the whole-bottle amount"
         correct: true
-        feedback: "This is the serving-size trap. Most people drink the whole bottle, so the real intake is about 2.5 times the per-serving figure. The per-100 ml (or per-100 g) column compares products fairly and shows what a realistic portion delivers."
+        feedback: "Serving sizes on labels can be misleading. Most people drink the whole bottle, so the real intake is about 2.5 times the per-serving figure. The per-100 ml (or per-100 g) column compares products fairly and shows how much a realistic portion contains."
       - text: "Nothing; the per-serving sugar is the number that matters"
         correct: false
         feedback: "Per-serving figures can understate the real intake when the 'serving' is unrealistically small. Check per-100 ml and the whole-pack amount."
       - text: "Only the Nutri-Grade letter, ignoring the panel"
         correct: false
-        feedback: "The grade is a useful glance, but it won't reveal the per-serving trap; reading the panel per 100 ml is the skill."
+        feedback: "The grade is a useful quick guide, but it does not reveal the per-serving problem; reading the panel per 100 ml is the skill."
 
   - id: q4
     stem: "You've spotted that a patient drinks two bubble teas a day. What is the best way to start?"
     options:
       - text: "Ask permission, then suggest one concrete swap in plain language"
         correct: true
-        feedback: "This is the opening of the 5 A's: assess, then advise with permission, e.g. \"Would it be alright if I shared one idea about your drinks?\" Permission turns advice into a conversation."
+        feedback: "This is the opening of the 5 A's: assess, then advise with permission, e.g. \"Would it be alright if I shared one idea about your drinks?\" Asking permission makes the advice part of a two-way conversation."
       - text: "\"You need to stop bubble tea; it's full of free sugars over the limit.\""
         correct: false
         feedback: "Unasked-for, jargon-laden advice puts people on the defensive. Ask permission and use plain language ('sugary drinks')."
@@ -61,10 +61,10 @@ questions:
         feedback: "Compensatory meal-skipping and guilt after eating are red flags. A brief screen (e.g. SCOFF) is appropriate, and weight- or restriction-focused advice could worsen an eating disorder: screen, be supportive, refer."
       - text: "Give a strict low-calorie plan to speed weight loss"
         correct: false
-        feedback: "A restrictive plan prescribes restriction into a possible eating disorder, the harm to avoid. Recognise the red flags first."
+        feedback: "A restrictive plan could worsen a possible eating disorder, which is the harm to avoid. Recognise the red flags first."
       - text: "Reassure them it's normal and move on"
         correct: false
-        feedback: "Dismissing the flag misses a chance to help safely. A brief screen and consideration of referral is the safe next step."
+        feedback: "Dismissing these warning signs misses a chance to help safely. A brief screen and consideration of referral is the safe next step."
 
   - id: q6
     stem: "An 80-year-old has had unplanned weight loss and poor appetite over three months. Which way should your assessment go?"
@@ -84,7 +84,7 @@ questions:
     options:
       - text: "A food-frequency questionnaire, though poor at exact quantities"
         correct: true
-        feedback: "The food-frequency questionnaire captures the long-run pattern with low burden and ranks people from high to low intake, but it is poor at pinning down absolute amounts."
+        feedback: "The food-frequency questionnaire captures the long-term pattern with low burden and ranks people from high to low intake, but it is poor at pinning down absolute amounts."
       - text: "A single 24-hour recall, which measures habitual intake precisely"
         correct: false
         feedback: "A single recall captures one day, not the habitual pattern, and doesn't rank long-term intake well."

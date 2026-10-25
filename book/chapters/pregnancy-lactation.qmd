@@ -1,6 +1,6 @@
 # Pregnancy & lactation
 
-> *Pregnancy changes a woman's physiology automatically, expanding her blood volume, lowering her insulin
+> *Pregnancy itself changes a woman's physiology, expanding her blood volume, lowering her insulin
 > sensitivity and roughly doubling the calcium her gut absorbs. We cover the nutritional requirements and
 > the common problems these changes bring (nausea and gestational diabetes), the external factors
 > (activity, food safety and screening), nutrition during breastfeeding, and when to refer.*
@@ -43,7 +43,7 @@ As at every life stage, two sets of factors shape a woman's nutrition in pregnan
 
 | Factor | What changes at this stage |
 |---|---|
-| Internal factors (inside the body) | The automatic physiology of placental hormones, an expanding blood volume, a normal slide into insulin resistance, and intestinal calcium absorption that roughly doubles |
+| Internal factors (inside the body) | Placental hormones, an expanding blood volume, a normal rise in insulin resistance, and intestinal calcium absorption that roughly doubles |
 | External factors (life and environment) | The factors the woman and her clinician can change: what she eats, how she moves, the screening she is offered, and the foods she avoids |
 
 The internal factors explain three facts that would otherwise seem counter-intuitive:
@@ -62,20 +62,20 @@ The interactive figure below shows how the requirements change across the stages
 ### Preconception nutrition {#sec-preg-preconception}
 
 A key nutrition window opens before conception. The neural tube closes by about 28 days after conception,
-often before a woman knows she is pregnant, so folic acid has to be running already (the folate
+often before a woman knows she is pregnant, so folic acid has to be started beforehand (the folate
 science is in the *Micronutrients, hydration and electrolytes* chapter). The usual dose is about
 400 µg/day of folic acid; higher-risk women need 4–5 mg/day (those with a previous
 neural-tube-defect pregnancy, diabetes, obesity or certain anticonvulsants) [@mrc1991folate;
 @czeizel1992folate]. The same window is where weight and blood glucose are best brought into range and
 where teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception]. Much
-of good antenatal nutrition is really *pre*-natal.
+of good antenatal nutrition therefore begins before conception.
 
 ### Energy and gestational weight gain {#sec-preg-energy}
 
 The phrase "eating for two" suggests that pregnancy doubles a woman's food needs. The energy cost is
 in fact modest and concentrated in the second and third trimesters: roughly nothing extra in the first trimester, about +340 kcal/day in
 the second and +450 kcal/day in the third, and measured expenditure often rises even less than that
-[@savard2020energy]. It is one extra snack, not a second dinner.
+[@savard2020energy]. That is about one extra snack a day, not an extra meal.
 
 Lactation needs only a little more energy. Making milk costs about 675 kcal a day;
 about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra
@@ -89,7 +89,7 @@ are underweight, 11.5–16 kg for normal weight, 7–11.5 kg for overweight and 
 too much the chance of a large baby and a caesarean. Yet only about a third of women gain within
 range [@goldstein2017gwg]. The ranges rest on Western BMI cut-offs and may fit local women
 imperfectly, as Singapore data bear out [@ee2014gwgSG; @he2019gwgSG], so they work as a framework,
-not a verdict.
+not a fixed target.
 
 ### Haemodilution and iron deficiency {#sec-preg-blood}
 
@@ -106,7 +106,7 @@ three-quarters of Singaporean women are iron-deficient by the early third trimes
 nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter). Daily oral iron
 (WHO: 30–60 mg elemental iron with folic acid [@whoAntenatal2016]) reduces maternal anaemia and iron
 deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
-The practical problem is adherence, because iron's gut side-effects are where supplementation fails.
+The practical problem is adherence, because iron's gut side-effects are a common reason supplementation fails.
 Three measures help:
 
 - taking iron with a vitamin-C source, and away from tea, coffee and calcium;
@@ -117,7 +117,7 @@ Three measures help:
 
 ### Other key nutrients, and the upper limit for vitamin A {#sec-preg-micronutrients}
 
-Beyond folate and iron, a short list of nutrients carries most of the weight:
+Beyond folate and iron, a short list of nutrients needs particular attention:
 
 - Iodine needs rise to about 250 µg/day, for the foetal thyroid hormone that builds the brain; the
   early foetus depends entirely on the mother [@bath2013iodine]. Singapore's salt iodisation is
@@ -146,7 +146,7 @@ multivitamin is not over-dosed in retinol and advises skipping liver.
 
 Nausea and vomiting affect most pregnancies in the first trimester, when energy needs have not yet
 risen. Small, frequent, bland meals help, and ginger and vitamin B6 (pyridoxine) are reasonable
-first-line measures [@acog2018nvp]. Most of it is miserable but benign. Severe, persistent vomiting is
+first-line measures [@acog2018nvp]. Most cases are distressing but benign. Severe, persistent vomiting is
 the exception: its warning signs, and the safety rule that goes with them, are in [Recognising
 trouble, and when to refer](#sec-preg-refer).
 
@@ -162,7 +162,7 @@ that resistance [@plows2018gdm], which is why it marks a raised risk of diabetes
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a woman planning a pregnancy means to start folic acid once her test is positive. Why is that too late?
 The neural tube closes by about 28 days after conception, often before a woman knows she is pregnant, so folic acid
-started after a positive test can miss the window it protects. It has to be running before
+started after a positive test can come too late. It has to be started before
 conception: about 400 µg/day for most women, and 4–5 mg/day for those at higher risk.
 :::
 
@@ -185,13 +185,13 @@ active woman can generally carry on [@acog2020exercise].
 
 ::: {.callout-tip}
 ## 🍜 Eating out & 🍳 healthy kitchen: food safety and fish intake
-Pregnancy adds a food-safety layer. Skip raw and undercooked items (sashimi, raw oysters, half-boiled
+Pregnancy adds food-safety precautions. Skip raw and undercooked items (sashimi, raw oysters, half-boiled
 or raw egg, including raw egg stirred into porridge), cold deli meats and unpasteurised dairy (because
 of *Listeria*), and limit the big predatory fish (shark, swordfish, marlin, and tuna sashimi) for
-mercury. Avoiding fish altogether over-corrects, though: low seafood intake tracks with worse child
+mercury. Avoiding fish altogether over-corrects, though: low seafood intake is associated with worse child
 neurodevelopment [@hibbeln2007seafood], so eat 2–3 servings a week of low-mercury fish instead. Keep
-the everyday drinks in view for caffeine: kopi, teh, Milo and bubble tea all count toward a daily
-cap of about 200 mg [@efsa2015caffeine], a pragmatic line, since pregnancy-loss risk appears to rise
+the everyday drinks in mind when counting caffeine: kopi, teh, Milo and bubble tea all count toward a daily
+cap of about 200 mg [@efsa2015caffeine], a pragmatic limit, since pregnancy-loss risk appears to rise
 steadily with intake [@chen2016caffeine]. Alcohol is best avoided altogether, because no safe amount
 in pregnancy is known [@cdcAlcoholPregnancy].
 :::
@@ -203,8 +203,8 @@ five pregnancies, and showed that screening only "high-risk" women would have mi
 cases, because risk factors predict GDM poorly in Asian women [@gusto_gdm]. Singapore therefore uses
 **universal screening**, testing every pregnancy instead of only women with risk factors, with a
 75 g **glucose tolerance test** at 24–28 weeks (blood glucose measured fasting and 1 and 2 hours
-after a 75 g glucose drink) [@aceGDM2018]. The diagnostic thresholds are a chosen line, not a
-biological cliff: the HAPO study showed that glucose and outcomes rise together on a smooth
+after a 75 g glucose drink) [@aceGDM2018]. The diagnostic thresholds are an agreed convention, not a
+biological boundary: the HAPO study showed that glucose and outcomes rise together on a smooth
 continuum, with no natural cut-point [@hapo2008].
 
 :::: {.callout-note}
@@ -224,13 +224,13 @@ Maternal glucose crosses to the foetus and stimulates the foetal pancreas to sec
 That insulin drives **macrosomia** (foetal overgrowth) before birth and, once the maternal glucose
 supply is cut at delivery, leaves the baby briefly hypoglycaemic. The mother, in turn, carries a
 roughly seven-fold future risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose
-test at 6–12 weeks**, then a diabetes check every 1–3 years for life [@aceGDM2018]. That link is why GDM sits inside Singapore's
+test at 6–12 weeks**, then a diabetes check every 1–3 years for life [@aceGDM2018]. That link is why GDM is part of Singapore's
 *War on Diabetes* [@mohWarOnDiabetes].
 ::::
 
 First-line management of GDM is lifestyle, with diet at its centre, and medication is added only when
 that does not control glucose; managed this way, GDM carries fewer complications such as
-pre-eclampsia, macrosomia and shoulder dystocia (the baby's shoulder lodging during birth) [@aceGDM2018]. Diet works best within a woman's usual
+pre-eclampsia, macrosomia and shoulder dystocia (the baby's shoulder lodging during birth) [@aceGDM2018]. Diet works best when based on a woman's usual
 food: in the local GUSTO cohort, women eating a "seafood-and-noodle" pattern were less likely to have
 GDM [@gustoDietGDM], a sign that a healthy pattern can be built from familiar dishes. That supports
 familiar swaps over an unfamiliar regimen: brown rice or wholegrain *bee hoon* for white rice, and water or a Nutri-Grade A/B
@@ -298,7 +298,7 @@ be supported warmly as part of her practice, without a promise that it raises su
 
 ## Recognising trouble, and when to refer {#sec-preg-refer}
 
-Most nutrition care in pregnancy and lactation is counselling within a woman's usual food. A few
+Most nutrition care in pregnancy and lactation is counselling based on a woman's usual diet. A few
 findings change that plan, either by moving care to the obstetric team, the diabetes team or a
 dietitian, or by adding a test; one of them, severe vomiting, carries a safety rule of its own.
 
@@ -347,9 +347,9 @@ diet is a structured dietary pattern with links to maternal mood [@fok2016confin
 @teo2018confinement].
 
 The clinician's task is respectful negotiation: supporting the large harmless majority of the
-practice, and guiding only its risky edges. Those edges are alcohol cooked into rice-wine dishes (it
+practice, and modifying only its risky parts. These are alcohol cooked into rice-wine dishes (it
 reaches the milk), a heavy sodium and fat load, and the wholesale avoidance of "cooling" fruit and
-vegetables (the very foods that supply vitamin C, fibre and folate). The same respectful lens covers
+vegetables (the very foods that supply vitamin C, fibre and folate). The same respectful approach applies to
 the vegetarian mother (whose B12 and iron need planning) and the halal family (a supplement-sourcing
 question, not a deficiency).
 
@@ -361,6 +361,6 @@ question, not a deficiency).
 
 Mrs Devi feels well and wonders whether she really needs "that glucose test". Work through her care:
 the screening no one should skip, the blood count, the diagnosis and its follow-up, and where your
-role ends and the team's begins. Your choices branch the case.
+role ends and the team's begins. The case branches according to your choices.
 
 <div data-island="case" data-src="/cases/pregnancy-gdm.case.yml"></div>

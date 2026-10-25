@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Leptin signals fullness; ghrelin signals hunger."
         correct: true
-        feedback: "Leptin, made by fat, is the long-term signal of fat stores that suppresses appetite; ghrelin, made by the stomach, is the short-term hunger hormone that rises before meals and falls after eating. The two are easily swapped."
+        feedback: "Leptin, made by fat, is the long-term signal of fat stores that suppresses appetite; ghrelin, made by the stomach, is the short-term hunger hormone that rises before meals and falls after eating. The two are easily confused."
       - text: "Leptin signals hunger; ghrelin signals fullness."
         correct: false
         feedback: "This reverses them. Leptin (from fat) suppresses appetite over the long term; ghrelin (from the stomach) drives hunger before meals."
@@ -18,10 +18,10 @@ questions:
     options:
       - text: "That appetite is a drive set by biology."
         correct: true
-        feedback: "When the satiety signal cannot act at MC4R, people become relentlessly hungry, so appetite is a real drive set by a brain circuit. This is the biological basis for treating weight without blame."
+        feedback: "When the satiety signal cannot act at MC4R, people become relentlessly hungry, so appetite is a real drive set by a brain circuit. This is the biological basis for managing weight without blaming the patient."
       - text: "That obesity is always genetic in origin."
         correct: false
-        feedback: "MC4R mutations explain only a small fraction (about 6%) of severe childhood-onset obesity. Their importance is what they show: appetite is a signalled biological drive."
+        feedback: "MC4R mutations explain only a small fraction (about 6%) of severe childhood-onset obesity. Their importance lies in what they show: appetite is a signalled biological drive."
       - text: "That people with obesity lack willpower."
         correct: false
         feedback: "A broken appetite circuit causes hunger regardless of willpower, so the finding points away from blame."
@@ -36,7 +36,7 @@ questions:
         feedback: "Leptin deficiency is the rare congenital case. In common obesity leptin is high, and the problem is resistance, not deficiency."
       - text: "Leptin works only when combined with a diet."
         correct: false
-        feedback: "Diet is not the missing ingredient: the brain responds poorly to the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
+        feedback: "Diet is not the missing factor: the brain responds poorly to the high leptin already present (leptin resistance), so leptin therapy does not work for common obesity."
   - id: q-satiation-satiety
     stem: "You put your fork down, full, at the end of a meal. Which term describes what just ended the meal?"
     options:
@@ -66,7 +66,7 @@ questions:
     options:
       - text: "'Wanting', driven by dopamine."
         correct: true
-        feedback: "Dopamine drives the pursuit (wanting), which is separate from liking, the actual pleasure; the two can come apart. The popular idea that dopamine is the pleasure chemical does not fit this evidence."
+        feedback: "Dopamine drives the pursuit (wanting), which is separate from liking, the actual pleasure; the two can dissociate. The popular idea that dopamine is the pleasure chemical does not fit this evidence."
       - text: "'Liking', driven by dopamine."
         correct: false
         feedback: "Liking, the pleasure itself, depends on opioid hotspots; dopamine drives wanting. A person can want what they no longer like."
@@ -78,7 +78,7 @@ questions:
     options:
       - text: "Hormonal and metabolic changes after weight loss favour regain."
         correct: true
-        feedback: "Weight regain is the predicted output of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
+        feedback: "Weight regain is the expected result of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
         feedback: "Discipline is not what failed: persistent hunger-hormone shifts plus adaptive thermogenesis make weight maintenance harder."
@@ -114,7 +114,7 @@ questions:
     options:
       - text: "It raises ghrelin and lowers leptin, raising hunger."
         correct: true
-        feedback: "Sleep loss tilts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable factor that the advice 'eat less, move more' leaves out."
+        feedback: "Sleep loss shifts the same hormones toward hunger, especially hunger for calorie-dense foods, and on average adds about 385 kcal/day of intake with no matching rise in energy expenditure. It is a modifiable factor that the advice 'eat less, move more' leaves out."
       - text: "It suppresses appetite by raising leptin levels."
         correct: false
         feedback: "Short sleep lowers leptin and raises ghrelin, which increases hunger."

@@ -38,10 +38,10 @@ questions:
     options:
       - text: "Risk is flagged: document, monitor and refer"
         correct: true
-        feedback: "Screening is a fast filter that flags risk and triggers referral; it is not the diagnosis or the care plan. Formal diagnosis applies the GLIM criteria downstream (a phenotype of loss plus a cause), done by the dietitian or team."
+        feedback: "Screening is a fast filter that flags risk and triggers referral; it is not the diagnosis or the care plan. Formal diagnosis then applies the GLIM criteria (at least one phenotypic and one aetiological criterion), carried out by the dietitian or team."
       - text: "Malnutrition is now formally diagnosed and graded"
         correct: false
-        feedback: "A positive screen is not a diagnosis. Diagnosis (GLIM) sits downstream of screening and is a dietitian- or team-led step."
+        feedback: "A positive screen is not a diagnosis. Diagnosis (GLIM) follows screening and is a dietitian- or team-led step."
       - text: "A feeding plan can be written from the screen"
         correct: false
         feedback: "The screen flags risk; it does not generate a plan. The next step is to document, monitor and refer, and the plan is dietitian-led."
@@ -52,15 +52,15 @@ questions:
   - id: q4
     stem: "A patient has a normal BMI but has lost 12% of their weight and is acutely unwell, having eaten almost nothing for more than five days. On MUST, they are…"
     options:
-      - text: "High risk: the other two score regardless of BMI"
+      - text: "High risk: two components score regardless of BMI"
         correct: true
-        feedback: "MUST adds three components, and the unplanned weight-loss score (12% is over 10%, so 2) and the acute-disease effect (2) count independently of BMI. Despite the normal BMI, this patient is therefore at high risk; scoring all three components is what avoids the classic 'she looks fine' miss."
+        feedback: "MUST adds three components, and the unplanned weight-loss score (12% is over 10%, so 2) and the acute-disease effect (2) count independently of BMI. Despite the normal BMI, this patient is therefore at high risk; scoring all three components avoids the classic error of missing malnutrition because 'she looks fine'."
       - text: "Low risk, because the BMI is in the normal range"
         correct: false
         feedback: "BMI is only one of three components. A large weight loss and an acute-disease effect push the total to high risk on their own."
       - text: "Impossible to score without a below-normal BMI"
         correct: false
-        feedback: "MUST scores fine with a normal BMI; the other two components carry the score here, giving high risk."
+        feedback: "MUST can be scored with a normal BMI; the other two components account for the score here, giving high risk."
       - text: "Medium risk at most, since BMI contributes nothing"
         correct: false
         feedback: "The weight-loss (2) and acute-disease (2) scores alone exceed the high-risk threshold, so this is high, not medium, risk."
@@ -73,7 +73,7 @@ questions:
         feedback: "Food-first is the first step (fix the cause of poor intake: isolation, dentition, mood, dysphagia, drugs), and fortifying familiar dishes for more energy and protein per mouthful is the second. Oral supplement drinks are an evidence-based add-on after both, not the place to start, and their evidence is modest (some weight and complication benefit, no clear mortality benefit)."
       - text: "Start a supplement drink and change nothing else"
         correct: false
-        feedback: "ONS is an add-on, not the first step, and using it without fixing the cause underperforms. Food-first comes first, then fortification, then ONS."
+        feedback: "ONS is an add-on, not the first step, and using it without addressing the cause is less effective. Food-first comes first, then fortification, then ONS."
       - text: "Move straight to tube feeding to guarantee intake"
         correct: false
         feedback: "Enteral (tube) feeding is a specialist step, reserved for when oral routes are insufficient, and not a first-line response to poor appetite."
@@ -82,27 +82,27 @@ questions:
         feedback: "That misses a modifiable problem. Poor intake in an older adult warrants food-first support and referral, not watchful reassurance."
 
   - id: q6
-    stem: "A very underweight patient has eaten almost nothing for weeks. Why should they not be fed up quickly?"
+    stem: "A very underweight patient has eaten almost nothing for weeks. Why should they not be refed quickly?"
     options:
       - text: "It risks refeeding syndrome: recognise and refer"
         correct: true
-        feedback: "Reintroducing feeding (especially carbohydrate) after prolonged starvation drives phosphate, potassium and magnesium into cells and can cause refeeding syndrome, with cardiac and neurological harm. The job here is to recognise the at-risk patient and refer for cautious, monitored refeeding; the management itself is specialist."
+        feedback: "Reintroducing feeding (especially carbohydrate) after prolonged starvation drives phosphate, potassium and magnesium into cells and can cause refeeding syndrome, with cardiac and neurological harm. The generalist's role here is to recognise the at-risk patient and refer for cautious, monitored refeeding; the management itself is specialist."
       - text: "Rapid feeding is the fastest safe way to recover"
         correct: false
         feedback: "Rapid feeding of a long-starved patient is the danger, because it can precipitate refeeding syndrome. Cautious, monitored refeeding is needed."
       - text: "Their appetite must be tested with large meals first"
         correct: false
-        feedback: "Large meals are what to avoid here. The at-risk patient needs recognition and referral for a cautious, monitored restart."
+        feedback: "Large meals are what to avoid here. The at-risk patient needs recognition and referral for cautious, monitored refeeding."
       - text: "Quick weight gain carries no particular risk here"
         correct: false
-        feedback: "It carries a specific risk, refeeding syndrome, which is why these patients are identified and referred, not fed up fast."
+        feedback: "It carries a specific risk, refeeding syndrome, which is why these patients are identified and referred, not refed rapidly."
 
   - id: q7
     stem: "A post-stroke patient coughs on drinks and has a wet voice after meals, but not on every sip. What is the safest interpretation?"
     options:
       - text: "Refer to speech therapy: aspiration can be silent"
         correct: true
-        feedback: "Coughing on fluids, a wet voice and slow meals are dysphagia red flags, and up to a third of aspiration is silent (no cough at all), so you refer on the pattern, not the presence of a cough. The speech therapist assesses the swallow and sets the safe IDDSI texture level."
+        feedback: "Coughing on fluids, a wet voice and slow meals are dysphagia red flags, and up to a third of aspiration is silent (no cough at all), so referral is based on the pattern, not on the presence of a cough. The speech therapist assesses the swallow and sets the safe IDDSI texture level."
       - text: "No cough on some sips means the swallow is safe"
         correct: false
         feedback: "Silent aspiration means a safe-looking sip can still be unsafe. The red-flag pattern warrants referral regardless of whether every sip provokes a cough."
@@ -111,7 +111,7 @@ questions:
         feedback: "Setting a texture level is the speech therapist's assessment, not something to do empirically, and a month's delay risks aspiration and weight loss."
       - text: "Weight is stable, so the swallow needs no assessment"
         correct: false
-        feedback: "The red flags stand on their own. A stable weight does not exclude an unsafe swallow, and the pattern here warrants a speech-therapy referral."
+        feedback: "The red flags are sufficient on their own. A stable weight does not exclude an unsafe swallow, and the pattern here warrants a speech-therapy referral."
 
   - id: q8
     stem: "In malnutrition care, which task is the generalist's, with the rest referred?"
@@ -121,10 +121,10 @@ questions:
         feedback: "Screening, recognising the at-risk patient and the red flags, starting food-first and social support, and referring are the generalist's part. The dietetic assessment and GLIM diagnosis, the ONS and enteral prescriptions, refeeding management and IDDSI level-setting are all team- and specialist-led."
       - text: "Grading the malnutrition and setting the ONS dose"
         correct: false
-        feedback: "Diagnosis, grading and supplement prescription are dietitian- and team-led, downstream of the screen. The generalist's part is screen, recognise and refer."
+        feedback: "Diagnosis, grading and supplement prescription are dietitian- and team-led, downstream of the screen. The generalist's part is to screen, recognise and refer."
       - text: "Prescribing the refeeding electrolyte replacement"
         correct: false
-        feedback: "Refeeding management is specialist, later learning. The generalist recognises the at-risk patient and refers."
+        feedback: "Refeeding management is a specialist task, learned later in training. The generalist recognises the at-risk patient and refers."
       - text: "Choosing the safe IDDSI texture level to serve"
         correct: false
         feedback: "Setting the IDDSI level is the speech therapist's job after a swallow assessment. The generalist spots the red flags and refers."

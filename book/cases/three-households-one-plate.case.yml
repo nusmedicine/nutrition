@@ -33,12 +33,12 @@ nodes:
   - id: q-chinese
     type: mcq
     emotion: concerned
-    stem: "**Chen household (Chinese).** Dinner is a big bowl of white rice, sweet-and-sour pork, a little garnish of vegetables, and a canned soft drink. What's your first move with My Healthy Plate?"
+    stem: "**Chen household (Chinese).** Dinner is a big bowl of white rice, sweet-and-sour pork, a little garnish of vegetables, and a canned soft drink. What do you suggest first, using My Healthy Plate?"
     options:
       - id: a
         text: "\"Some brown rice, greens filling half the plate, steamed fish and plain water.\""
         correct: true
-        feedback: "Brown rice, greens, steamed fish and water keep the dinner Chinese and hit all four slots: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two most useful local changes."
+        feedback: "Brown rice, greens, steamed fish and water keep the dinner Chinese and cover all four parts of the plate: wholegrain quarter, vegetable half, lean protein, water. The brown-rice swap and dropping the canned drink are the two most useful local changes."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-malay
@@ -61,7 +61,7 @@ nodes:
       - id: a
         text: "\"More vegetables, less rice and gravy, grilled *ikan bakar* and teh-o kosong.\""
         correct: true
-        feedback: "Every swap stays within nasi padang: grilled over fried, vegetables (sayur, ulam) to half, a modest rice scoop with less gravy and no sweet drink. Wholegrain rice is rarely offered here, so portion and the vegetable half do the work."
+        feedback: "Every swap stays within nasi padang: grilled over fried, vegetables (sayur, ulam) to half, a modest rice scoop with less gravy and no sweet drink. Wholegrain rice is rarely offered here, so the changes come from portion size and the vegetable half."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-indian
@@ -96,7 +96,7 @@ nodes:
       - id: c
         text: "\"Protein doesn't matter much: just eat more naan and rice to stay full.\""
         correct: false
-        feedback: "This skips the protein quarter and leans on refined starch. The fix is to add legumes as protein and move the staple toward wholemeal, not to fill up on more white rice and naan."
+        feedback: "This skips the protein quarter and leans on refined starch. The better approach is to add legumes as protein and move the staple toward wholemeal, not to fill up on more white rice and naan."
         goto: q-predimed
 
   - id: q-predimed
@@ -114,7 +114,7 @@ nodes:
       - id: b
         text: "\"Yes, PREDIMED proves it, so the Mediterranean diet will prevent your heart attack.\""
         correct: false
-        feedback: "This overclaims on every axis: it treats a relative reduction as an absolute guarantee, a stroke-dominated composite as 'heart attacks prevented', and leaves out that the trial was retracted and re-published. Never quote a benefit without its caveat."
+        feedback: "This overclaims in three ways: it treats a relative reduction as an absolute guarantee, a stroke-dominated composite as 'heart attacks prevented', and leaves out that the trial was retracted and re-published. Never quote a benefit without its caveat."
         goto: route
       - id: c
         text: "\"PREDIMED was retracted, so ignore it: the Mediterranean diet is useless.\""
@@ -134,9 +134,9 @@ nodes:
     emotion: concerned
     title: "One target, adapted three ways"
     body: |
-      The thread runs through all three kitchens: adapt the plate to the food, don't impose
+      The same principle applies in all three kitchens: adapt the plate to the food, don't impose
       a foreign diet or ban a cuisine. Rebuild each dinner to quarter-quarter-half with the
-      family's own dishes, target the two real gaps (wholegrains and sugary drinks/salt), and
+      family's own dishes, target the two main gaps (wholegrains and sugary drinks/salt), and
       when you cite a trial like PREDIMED, state the benefit with its caveats.
     next: end-partial
 
@@ -158,7 +158,7 @@ nodes:
       keyPoints:
         - "One target (quarter-quarter-half), three cuisines: adapt the plate to the food, never impose a foreign diet or ban a cuisine."
         - "The two most useful local swaps recur in every kitchen: shift refined staples toward wholegrains, and replace sugary drinks with water."
-        - "Legumes are a full protein quarter; vegetarian does not mean protein-deficient."
+        - "Legumes can fill the protein quarter; vegetarian does not mean protein-deficient."
         - "Cite a landmark trial with its caveats (relative vs absolute risk, composite vs hard endpoint, retraction); leave deep appraisal to the *Evidence vs hype* chapter."
 
   - id: end-partial

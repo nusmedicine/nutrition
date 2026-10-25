@@ -1,7 +1,7 @@
 id: appetite-defended-weight
 title: "Why did it come back?"
 objectives:
-  - "Recognise weight regain as the predicted output of body-weight regulation, not a willpower failure."
+  - "Recognise weight regain as the predicted outcome of body-weight regulation, not a willpower failure."
   - "Name the three arms of the regain response: falling leptin, rising hunger hormones, adaptive thermogenesis."
   - "Explain it to a patient without blame, and answer the 'is my metabolism damaged?' question accurately."
 difficulty: intro
@@ -36,7 +36,7 @@ nodes:
       - id: a
         text: "Hormonal and metabolic changes after weight loss drove regain."
         correct: true
-        feedback: "Body weight is actively regulated, and the responses that oppose weight loss are strong. Regain is the predicted output of a regulated system: biology reasserting itself, not a moral failing."
+        feedback: "Body weight is actively regulated, and the responses that oppose weight loss are strong. Regain is the predicted outcome of a regulated system, not a moral failing."
         effects: { quality: +1 }
         goto: q-arms
       - id: b
@@ -78,7 +78,7 @@ nodes:
       - id: a
         text: "No, it slows only a little, and mostly recovers."
         correct: true
-        feedback: "Metabolic adaptation is real but modest and largely reversible. It makes maintenance harder, but it does not make weight loss impossible or his metabolism 'broken'. The 'permanent damage' story comes from an extreme outlier study and is better explained by sustained activity than by damage."
+        feedback: "Metabolic adaptation is real but modest and largely reversible. It makes maintenance harder, but it does not make weight loss impossible or his metabolism 'broken'. The 'permanent damage' claim comes from an extreme outlier study and is better explained by sustained activity than by damage."
         effects: { quality: +1 }
         goto: q-say
       - id: b
@@ -127,9 +127,9 @@ nodes:
       The core idea: body weight is **biologically regulated**, and the responses that oppose weight
       loss are strong. After Mr Chua lost fat, leptin fell (signalling starvation), hunger hormones rose
       and stayed raised for a year, and energy expenditure dropped more than his smaller body
-      predicted. Regain is the predicted output of that system, not a willpower failure. His
+      predicted. Regain is the predicted outcome of that system, not a willpower failure. His
       metabolism is not "permanently wrecked" either: adaptation is real but modest and largely
-      reversible. The useful move is to change the environment and habits, without blame.
+      reversible. The useful step is to change the environment and habits, without blame.
     next: end-partial
 
   - id: end-good
@@ -145,7 +145,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "Weight regain is the predicted output of body-weight regulation, not a willpower failure."
+        - "Weight regain is the predicted outcome of body-weight regulation, not a willpower failure."
         - "Three arms drive it: leptin falls, hunger hormones rise (for a year or more), and energy expenditure drops (adaptive thermogenesis)."
         - "Metabolic adaptation is real but modest and largely reversible: reframe from blame to environment, habits and, where needed, medical support."
 
@@ -156,7 +156,7 @@ nodes:
     body: |
       You worked through it, but the framing slipped. The take-home: Mr Chua's regain is biology,
       not weakness: body-weight regulation (leptin down, hunger hormones up, expenditure down)
-      favouring regain of lost fat. His metabolism isn't permanently damaged. Replay and focus on explaining
+      favours regain of lost fat. His metabolism isn't permanently damaged. Replay and focus on explaining
       it without blame.
     debrief:
       objectivesMet: [1]

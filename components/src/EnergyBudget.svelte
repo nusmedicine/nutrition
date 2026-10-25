@@ -186,8 +186,8 @@
     </div>
 
     <p class="legend">
-      <span class="key" style="color:{COL.bmr}">■ BMR — just staying alive at rest (the biggest slice)</span>
-      <span class="key" style="color:{COL.tef}">■ TEF — digesting the food (~{Math.round(tefFraction * 100)}%)</span>
+      <span class="key" style="color:{COL.bmr}">■ BMR — energy used at rest for basic body functions (the largest component)</span>
+      <span class="key" style="color:{COL.tef}">■ TEF — energy used to digest and process food (~{Math.round(tefFraction * 100)}%)</span>
       <span class="key" style="color:{COL.pa}">■ Activity — the one you can change</span>
     </p>
 

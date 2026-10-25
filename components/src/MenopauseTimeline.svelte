@@ -21,7 +21,7 @@
       {
         id: 'composition',
         label: 'Weight & shape',
-        caption: 'The scale rises with age — no jump at the FMP. What is menopause-specific is fat moving inward and muscle falling.',
+        caption: 'Body weight rises with age — no jump at the FMP. What is menopause-specific is fat shifting to the abdomen and lean mass falling.',
         source: 'Schematic — SWAN body composition',
         curves: [
           { name: 'Body weight', color: '#5b6670', points: [[-5, 100], [0, 103], [5, 106], [10, 108]] },
@@ -42,7 +42,7 @@
       {
         id: 'lipids',
         label: 'Cholesterol & blood pressure',
-        caption: 'LDL-cholesterol steps up around the FMP (menopause-linked); blood pressure just drifts up with age.',
+        caption: 'LDL-cholesterol rises abruptly around the FMP (menopause-linked); blood pressure rises gradually with age.',
         source: 'Schematic — SWAN lipids',
         curves: [
           { name: 'LDL-cholesterol', color: '#b0471d', points: [[-5, 100], [-1, 100.5], [0, 104], [1, 108], [5, 109], [10, 110]] },
@@ -133,7 +133,7 @@
   <figure class="mt card">
     <figcaption class="head">
       <strong>{data.title || 'Menopause on one timeline'}</strong>
-      <span class="hint">Switch the layer to see what really changes</span>
+      <span class="hint">Switch the layer to see what changes at menopause</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

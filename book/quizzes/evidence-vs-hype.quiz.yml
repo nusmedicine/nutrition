@@ -9,7 +9,7 @@ questions:
         feedback: "A claim is not evidence, and a claim cannot be appraised until it has been traced to its source. Trace it from headline to study, design, outcome and applicability, then reach a verdict."
       - text: "Dismiss it, since turmeric is a fad"
         correct: false
-        feedback: "Reflex cynicism skips the evidence just as credulity does. Traced to its source, the verdict might be 'weak' or 'modest but real' instead of 'nonsense'."
+        feedback: "Reflex cynicism ignores the evidence just as credulity does. Traced to its source, the conclusion might be 'weak' or 'modest but real' instead of 'nonsense'."
       - text: "Accept it, since it was a study"
         correct: false
         feedback: "\"A study\" could be a mouse experiment or an uncontrolled case series, so it has to be found and judged before it is believed."
@@ -19,7 +19,7 @@ questions:
     options:
       - text: "A diet often can't be blinded or trialled for decades"
         correct: true
-        feedback: "Nutrition is a special case in the hierarchy of evidence: a diet often can't be blinded, there's no true 'no-food' placebo, and effects come from whole patterns over decades, so RCTs can't answer many dietary questions. 'No RCT, so it's worthless' is usually the wrong reflex here."
+        feedback: "Nutrition is a special case in the hierarchy of evidence: a diet often can't be blinded, there's no true 'no-food' placebo, and effects come from whole patterns over decades, so RCTs can't answer many dietary questions. Dismissing a finding because it has no RCT is usually a mistake here."
       - text: "Cohort studies are always more reliable than trials"
         correct: false
         feedback: "For a drug question the randomised trial is the stronger design. Nutrition is the special case, because diets are hard to blind and their effects build over decades."
@@ -45,7 +45,7 @@ questions:
     options:
       - text: "A modest effect, no better than ordinary calorie restriction"
         correct: true
-        feedback: "The mechanism is plausible, but the trials found no metabolic 'reset': a plausible mechanism is not clinical proof. Time-restricted eating can be a useful eating structure for some people, judged by adherence, not by the clock."
+        feedback: "The mechanism is plausible, but the trials found no metabolic 'reset': a plausible mechanism is not clinical proof. Time-restricted eating can be a useful eating structure for some people, judged by adherence rather than by meal timing."
       - text: "It resets the metabolism and beats every other diet"
         correct: false
         feedback: "Trials don't support that claim: its benefit comes largely from eating less, and it is no better than calorie restriction."
@@ -69,9 +69,9 @@ questions:
   - id: q6
     stem: "A widely shared 2024 trial reported that apple cider vinegar causes weight loss. What's the most important thing to check?"
     options:
-      - text: "Whether the study survived, or has been retracted"
+      - text: "Whether the study has since been retracted"
         correct: true
-        feedback: "'Did the study survive?' is part of appraisal. That trial was retracted in 2025 when its analyses couldn't be reproduced, so it supports nothing, however viral the headline was."
+        feedback: "Checking whether a study has been retracted is part of appraisal. That trial was retracted in 2025 when its analyses couldn't be reproduced, so it supports nothing, however viral the headline was."
       - text: "Nothing, since a randomised trial is reliable"
         correct: false
         feedback: "Design alone isn't enough: a randomised trial retracted for irreproducible analyses provides no support."
@@ -84,7 +84,7 @@ questions:
     options:
       - text: "There's a weak association, not enough to cut dairy"
         correct: true
-        feedback: "The signal is real but weak: the association is observational only (there are no randomised trials on dairy), and dermatology guidelines find insufficient evidence to recommend cutting any food. The stronger dietary link is high glycaemic load, and proven treatment is medication; a strict elimination diet isn't worth its cost, especially in a teenager."
+        feedback: "The evidence is real but weak: the association is observational only (there are no randomised trials on dairy), and dermatology guidelines find insufficient evidence to recommend cutting any food. The stronger dietary link is high glycaemic load, and proven treatment is medication; a strict elimination diet is not justified, especially in a teenager."
       - text: "Yes, dairy definitely causes acne, so cut out all of it"
         correct: false
         feedback: "That overstates it: the evidence is a weak association from observational studies only; no trial shows dairy causes acne, and guidelines don't recommend cutting it."

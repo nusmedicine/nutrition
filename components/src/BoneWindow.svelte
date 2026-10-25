@@ -20,7 +20,7 @@
     id: 'bone-window',
     title: 'The bone bank: a window that closes',
     intro:
-      'Roughly two-fifths of adult bone mineral is laid down in the few years around the pubertal growth spurt. Scrub the age, then toggle the factors: watch the bank fill, then plateau.',
+      'Roughly two-fifths of adult bone mineral is laid down in the few years around the pubertal growth spurt. Move the age slider, then toggle the factors: watch the bank fill, then plateau.',
     ageMin: 8,
     ageMax: 25,
     windowFrom: 11,
@@ -35,12 +35,12 @@
       { key: 'activity', label: 'Weight-bearing activity', weight: 0.4, grade: 'A',
         why: 'A major modifiable factor, and most effective in early puberty — high-impact loading builds bone directly.' },
       { key: 'calcium', label: 'Adequate calcium', weight: 0.35, grade: 'A',
-        why: 'Grade-A for accrual — but food-first. A supplement helps a teen who is short of calcium, little if they already have enough.' },
+        why: 'Grade A for accrual, with food sources preferred. A supplement helps a teenager who is short of calcium, and adds little for one who already has enough.' },
       { key: 'vitd', label: 'Vitamin D sufficient', weight: 0.25, grade: 'B',
         why: 'Supports accrual, but supplements build bone only in the deficient — not in the already-replete.' },
     ],
     threat: { key: 'lowEA', label: 'Low energy availability / periods stopped', cap: 0.82,
-      why: 'Under-fuelling (dieting or over-training) drops oestrogen and stalls accrual — it shaves the ceiling for life, whatever else you do. Recognise and refer.' },
+      why: 'Under-fuelling (dieting or over-training) lowers oestrogen and stalls accrual — the loss can be permanent, regardless of the other factors. Recognise and refer.' },
     note: "Genetics sets most of the bank's height (the ceiling); lifestyle moves the balance within the shaded band, and the toggles show the benefit of moving from too little to enough — a child already getting enough gains little from more. The window largely closes by the early twenties.",
     credit: 'Schematic — teaches the shape of accrual, not exact values. Grounded in Baxter-Jones 2011; Weaver/NOF 2016; Winzenberg 2006/2011; Ackerman & Misra 2011.',
   };
@@ -146,7 +146,7 @@
   <figure class="bw card">
     <figcaption class="head">
       <strong>{data.title}</strong>
-      <span class="hint">Scrub age · toggle the factors</span>
+      <span class="hint">Move the age slider · toggle the factors</span>
     </figcaption>
     {#if data.intro}<p class="intro">{data.intro}</p>{/if}
 

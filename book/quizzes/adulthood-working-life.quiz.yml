@@ -19,20 +19,20 @@ questions:
     options:
       - text: "An ordinary healthy plate and water; no sports drink, gel or powder"
         correct: true
-        feedback: "At this common level of activity, normal food and water cover the need; the high-carbohydrate and during-exercise advice is calibrated for serious endurance athletes. Sports nutrition is needed only at true endurance volume, not for a few weekly sessions."
+        feedback: "At this common level of activity, normal food and water cover the need; the high-carbohydrate and during-exercise advice is designed for serious endurance athletes. Sports nutrition is needed only at true endurance training volumes, not for a few weekly sessions."
       - text: "Carbohydrate-load the day before and drink a sports drink during each session"
         correct: false
         feedback: "This is athlete guidance applied out of context: carb-loading and during-exercise sports drinks are for long endurance efforts, not a 45-minute gym session. Water is enough here."
       - text: "A protein shake within 30 minutes of every session, or the workout is wasted"
         correct: false
-        feedback: "The 'anabolic window' is far wider than marketed: once daily protein is adequate, precise timing barely matters, and food does the job."
+        feedback: "The 'anabolic window' is far wider than marketed: once daily protein is adequate, precise timing barely matters, and food is sufficient."
 
   - id: q3
-    stem: "An active adult wants to build a bit of muscle and asks about protein. Which is the calibrated advice?"
+    stem: "An active adult wants to build a bit of muscle and asks about protein. Which is the evidence-based advice?"
     options:
       - text: "Around 1.2–1.6 g/kg/day, paired with resistance exercise"
         correct: true
-        feedback: "About 1.2–1.6 g/kg/day, spread across meals and easily reached from food, is enough for muscle, and the benefit plateaus near there; the RDA (about 0.8 g/kg/day) is a floor. Protein without a stimulus does little, so resistance exercise two or more times a week is the necessary partner."
+        feedback: "About 1.2–1.6 g/kg/day, spread across meals and easily reached from food, is enough for muscle, and the benefit plateaus near there; the RDA (about 0.8 g/kg/day) is a minimum. Protein without a stimulus does little, so resistance exercise two or more times a week is also needed."
       - text: "3 g/kg/day or more, since extra protein always builds more muscle"
         correct: false
         feedback: "Benefit plateaus around 1.6 g/kg/day, so a very high intake adds nothing for muscle. A moderate range from food is enough."
@@ -51,7 +51,7 @@ questions:
         feedback: "Healthy kidneys tolerate higher protein; the concern applies to people who already have kidney disease."
       - text: "Only animal protein harms kidneys; plant protein is unlimited"
         correct: false
-        feedback: "The healthy-kidney reassurance isn't source-specific, and for muscle, plant and animal protein are roughly equivalent when the total is adequate."
+        feedback: "The reassurance about healthy kidneys applies to plant and animal protein alike, and for muscle, plant and animal protein are roughly equivalent when the total is adequate."
 
   - id: q5
     stem: "A patient mentions he drinks \"a glass of red wine most nights, for my heart.\" What's the current, evidence-based message?"
@@ -71,7 +71,7 @@ questions:
     options:
       - text: "The flush marks acetaldehyde build-up and raised oesophageal-cancer risk"
         correct: true
-        feedback: "Acetaldehyde is a carcinogen, and the ALDH2 variant behind the flush is common in East Asians. People who flush and keep drinking are the high-risk combination, so ask about flushing and advise cutting down."
+        feedback: "Acetaldehyde is a carcinogen, and the ALDH2 variant behind the flush is common in East Asians. Flushing combined with continued drinking carries the highest risk, so ask about flushing and advise cutting down."
       - text: "It means he can't hold his drink, so reassure him it's harmless"
         correct: false
         feedback: "The flush marks acetaldehyde build-up and a raised oesophageal-cancer risk with continued drinking, so it is a reason to advise cutting down."
@@ -84,10 +84,10 @@ questions:
     options:
       - text: "Eat main meals by day; avoid heavy eating in the small hours"
         correct: true
-        feedback: "In a controlled trial, daytime-weighted eating prevented the glucose intolerance of simulated night work. Shift work is associated with higher diabetes risk through circadian misalignment, and moving intake toward the day is the most evidence-aligned practical change."
+        feedback: "In a controlled trial, daytime-weighted eating prevented the glucose intolerance of simulated night work. Shift work is associated with higher diabetes risk through circadian misalignment, and moving intake toward the day is the best-supported practical change."
       - text: "Eat the largest meal at 3 a.m. to keep energy up through the shift"
         correct: false
-        feedback: "Heavy eating in the small hours worsens the metabolic picture, so weight meals toward the daytime."
+        feedback: "Heavy eating in the small hours worsens metabolic health, so move meals toward the daytime."
       - text: "Skip eating entirely on night shifts"
         correct: false
         feedback: "Fasting through every shift is not needed or advisable; the useful change is meal *timing*, weighted toward the daytime."

@@ -37,10 +37,10 @@
 ## Evidence vs hype at a glance {#sec-overview}
 
 Advising the healthy means fielding a steady stream of claims, most of them overstated, a few
-containing a real signal. Medical students and recent graduates often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The
+supported by real evidence. Medical students and recent graduates often lack the knowledge, skills and confidence to give nutrition care [@crowley2019]. The
 transferable skill is to stop reacting to a claim and start appraising it.
 
-The common trap is to swing between two failures: swallowing whatever is trending, or turning
+The common error is to swing between two extremes: accepting whatever is trending, or turning
 reflexively cynical and dismissing everything new. Appraisal is a fixed routine that reaches a conclusion
 in proportion to the evidence.
 
@@ -75,12 +75,12 @@ Absolute risk reduction
 
 The four questions are:
 
-1. Find the study. What actual evidence sits behind the headline? (Often none, or only a mouse
+1. Find the study. What actual evidence lies behind the headline? (Often none, or only a mouse
    study.)
-2. Judge the design. Where does it sit: a case report, a survey, a cohort study, a randomised trial or
+2. Judge the design. Where does it rank: a case report, a survey, a cohort study, a randomised trial or
    a review? A higher design is not automatically better (see
    [The hierarchy of evidence in nutrition](#sec-hierarchy)), but the verdict depends on knowing where the
-   study sits.
+   study ranks.
 3. Read the outcome. Did it measure a hard endpoint (heart attacks) or a surrogate (a blood marker)?
    Is the change relative ("30% lower") or absolute? And did the result survive replication, or was
    the study retracted?
@@ -115,16 +115,16 @@ treated with suspicion. Nutrition research departs from that ranking for three r
 
 Well-conducted prospective cohort studies therefore legitimately carry more weight here than they
 would for a pill [@johnston2019ebnutrition]. Over-applying drug-trial standards throws away good dietary evidence,
-which is why "there's no RCT, so it's worthless" is usually the wrong reflex in nutrition.
+which is why "there's no RCT, so it's worthless" is usually a mistake in nutrition.
 
 ### Common errors in interpreting evidence {#sec-traps}
 
 Most overstated nutrition claims fail at one of a few predictable points:
 
 - An association is not proof of cause. Coffee drinkers live longer in the data, but the comparison
-  carries a **healthy-user bias**: people who choose one habit tend to differ in many other
-  health-related ways. The comparison can also carry **reverse causation**, the outcome changing the
-  exposure: people who become ill cut back on coffee. An association is a question, not an answer.
+  is open to **healthy-user bias**: people who choose one habit tend to differ in many other
+  health-related ways. The comparison can also reflect **reverse causation**, the outcome changing the
+  exposure: people who become ill cut back on coffee. An association suggests a hypothesis; it does not establish cause.
 - A relative risk reduction can make a small absolute one look large. "30% lower risk" sounds large, but if the
   baseline risk was small, the absolute risk reduction can be tiny. The question is always "30% of
   what?"
@@ -143,7 +143,7 @@ they yield exactly those caveats. PREDIMED's "~30%" is a relative risk reduction
 stroke-dominated **composite endpoint** (several outcomes counted together as one result), from a
 trial retracted and republished in 2018 [@estruch2018predimed]. DASH's ~5.5/3.0 mmHg came from a
 controlled-feeding study measuring a surrogate (blood pressure), with weight and salt held constant
-[@appel1997dash]. Both are real results, correctly bounded.
+[@appel1997dash]. Both are real results, provided they are quoted with these limits.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -172,7 +172,7 @@ very different verdicts once traced to their evidence:
 
 | Everyday claim | What the evidence shows | Verdict and takeaway |
 |---|---|---|
-| "Cutting out dairy clears acne." | Observational only (there are no randomised trials on dairy and acne): a weak association, strongest for skimmed milk, with a plausible hormonal mechanism (see the box below) [@juhl2018dairyacne]. The stronger acne signal, and the only one tested in trials, is high glycaemic load [@meixiong2022dietacne] | Real but weak. A lower-sugar trial is reasonable; a strict elimination diet is not, because both editions of the American Academy of Dermatology guidelines find insufficient evidence to recommend cutting any food to treat acne [@aad2016acne; @aad2024acne] |
+| "Cutting out dairy clears acne." | Observational only (there are no randomised trials on dairy and acne): a weak association, strongest for skimmed milk, with a plausible hormonal mechanism (see the box below) [@juhl2018dairyacne]. The stronger association with acne, and the only one tested in trials, is with high glycaemic load [@meixiong2022dietacne] | Real but weak. A lower-sugar trial is reasonable; a strict elimination diet is not, because both editions of the American Academy of Dermatology guidelines find insufficient evidence to recommend cutting any food to treat acne [@aad2016acne; @aad2024acne] |
 | "Coffee protects your heart." | A large umbrella review (a review of many earlier reviews) links 3–4 cups a day with the lowest mortality [@poole2017coffee], but the evidence is observational | Reassuring for drinkers; not a reason to start |
 | "Sugar makes kids hyperactive." | Directly tested in blinded trials, and disproven [@wolraich1994sugar]: the "sugar high" is largely parental expectancy [@hoover1994sugar] | Excess sugar is still unhealthy, just not a cause of hyperactivity |
 | "Go gluten-free to feel better." | Without coeliac disease, there is no convincing evidence of benefit, and it can worsen diet quality and raise cost [@glutenFreeNonCeliac] | Separate the real indication from the fad |
@@ -224,17 +224,17 @@ help to be cleared, a claim at odds with normal physiology. Detoxification is al
 [*Digestion and absorption*](digestion-absorption.qmd#sec-digestion-beliefs) chapter). The liver
 carries out **biotransformation**, chemically converting drugs, hormones and metabolic waste into
 water-soluble forms in two stages (Phase I and Phase II). The kidneys then filter those products from
-the blood and excrete them in urine, every hour of every day.
+the blood and excrete them in urine.
 
 A juice cleanse or detox tea adds nothing to that hepatic and renal clearance: a critical review found no clinical
 trials and no evidence that commercial detox diets remove any toxin, and what visible effect they have
-comes from water and bowel loss [@klein2015detox].
+comes from loss of water and bowel contents [@klein2015detox].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: dairy and a high glycaemic load are both linked to acne. Why is cutting back on sugary, refined foods better advice than cutting out milk?
 Both act through the same pathway: insulin and IGF-1 raise androgen activity and switch on mTORC1 in
 the skin, which increases sebum and leads to blocked pores. The dairy evidence is observational only,
-whereas high glycaemic load is the stronger signal and the only one tested in trials. Because the
+whereas high glycaemic load has the stronger association and is the only one tested in trials. Because the
 trial evidence favours glycaemic load, a lower-sugar trial is reasonable; because guidelines find
 insufficient evidence to recommend cutting any food, a strict elimination diet is not.
 :::
@@ -244,15 +244,15 @@ insufficient evidence to recommend cutting any food, a strict elimination diet i
 Toxins are already cleared continuously: the liver converts drugs, hormones and metabolic waste
 into water-soluble forms, and the kidneys excrete them in urine. A cleanse adds nothing to that
 clearance; a critical review found no evidence that commercial detox diets remove any toxin, and their
-visible effect comes from water and bowel loss. The advice is a sustainable eating pattern, not a
+visible effect comes from loss of water and bowel contents. The advice is a sustainable eating pattern, not a
 product.
 :::
 
-## What separates signal from hype? {#sec-close}
+## What separates evidence from hype? {#sec-close}
 
-A habit separates them: the same four questions asked of every claim, and a verdict stated in
+A consistent method separates them: the same four questions asked of every claim, and a verdict stated in
 proportion to the evidence, including "modest but real" when that is the right answer. The
-clinician's task is to tell which claims carry a signal, and to keep a patient from swapping a
+clinician's task is to tell which claims have real evidence behind them, and to keep a patient from swapping a
 balanced diet for a product or a restriction. Where a claim shades into a restrictive diet or a
 possible eating disorder, the conversation becomes one about doing no harm (see the
 [*Assessing diet and talking to patients*](06-dietary-assessment.qmd#sec-do-no-harm) chapter).
@@ -261,7 +261,7 @@ possible eating disorder, the conversation becomes one about doing no harm (see 
 
 Singapore's health authorities counter supplement and detox claims directly. The Ministry of Health states plainly that
 health supplements "cannot and should not replace a balanced diet" [@mohSupplements2018], and HealthHub
-calls detox claims unevidenced; health supplements need no approval from the Health Sciences Authority before sale and are not
+says that detox claims lack evidence; health supplements need no approval from the Health Sciences Authority before sale and are not
 evaluated for efficacy, and its post-market testing has removed products containing undeclared western
 drugs or toxic heavy metals [@hsaUnderstandingSupplements; @mohSupplements2018]. "Sold in a pharmacy" and "natural" therefore mean neither proven nor safe.
 Point patients back to My Healthy Plate and a sustainable eating pattern, not a product
@@ -275,8 +275,8 @@ Point patients back to My Healthy Plate and a sustainable eating pattern, not a 
 
 A 16-year-old and her mother have seen a TikTok claiming dairy causes acne, and a friend's skin
 "cleared up" after the friend quit milk. They want to cut out all dairy. Trace the claim, weigh what
-the evidence supports, advise safely, and notice the moment this stops being about acne. Your choices
-branch the case.
+the evidence supports, advise safely, and notice the moment this stops being about acne. The case branches
+according to your choices.
 
 ::: {.callout-tip}
 Progress is saved locally; replay to explore the other paths.

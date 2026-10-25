@@ -67,14 +67,14 @@ nodes:
     outcome: success
     title: Recognise and refer
     body: |
-      You drew out the picture she was playing down, recognised the likely cause, and paired food-first advice with getting the heavy menstrual bleeding checked.
+      You drew out the history she was playing down, recognised the likely cause, and paired food-first advice with getting the heavy menstrual bleeding checked.
     debrief:
       objectivesMet:
         - 1
         - 2
         - 3
       keyPoints:
-        - "Elicited the full picture (fatigue, exertional breathlessness, pallor, heavy menstrual bleeding, and a low-iron diet of noodles and bread with little red meat) through gentle, targeted questioning, despite the patient minimising. Asked specifically and sensitively about periods, which she won't raise unprompted."
+        - "Elicited the full history (fatigue, exertional breathlessness, pallor, heavy menstrual bleeding, and a low-iron diet of noodles and bread with little red meat) through gentle, targeted questioning, despite the patient minimising. Asked specifically and sensitively about periods, which she won't raise unprompted."
         - Recognised the iron-deficiency-anaemia pattern in a classic at-risk group and explained the concern in plain, reassuring language without jargon or numbers.
         - 'Stayed within scope (recognise, then food-first, then refer): agreed a food-first step (iron-rich foods with vitamin C, avoiding tea or coffee with meals) and arranged testing or referral for the menstrual cause, instead of investigating or treating it directly.'
   - id: end-partial

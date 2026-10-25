@@ -37,7 +37,7 @@ states:
       brain:   { role: "runs on glucose", tone: burn,  detail: "Runs on glucose, as always, with plenty to spare." }
       liver:   { role: "storing", tone: store, detail: "Takes up glucose through GLUT2 (no insulin needed), refills glycogen, and packages the excess as fat shipped out in VLDL." }
       muscle:  { role: "storing", tone: store, detail: "Insulin brings GLUT4 to the surface: glucose uptake rises to rebuild glycogen, and amino acids are taken up to build protein." }
-      adipose: { role: "storing", tone: store, detail: "GLUT4 uptake; lipoprotein lipase strips triglyceride from circulating lipoproteins to stock the fat cell. Insulin blocks fat release." }
+      adipose: { role: "storing", tone: store, detail: "GLUT4 uptake; lipoprotein lipase strips triglyceride from circulating lipoproteins for storage in the fat cell. Insulin blocks fat release." }
       rbc:     { role: "runs on glucose", tone: burn, detail: "Always glucose → lactate; it has no mitochondria." }
       kidney:  { role: "quiet", tone: quiet, detail: "Little glucose-making needed while the meal is being absorbed." }
     fluxes:
@@ -58,7 +58,7 @@ states:
     organs:
       brain:   { role: "runs on glucose", tone: burn, detail: "Still almost entirely on glucose, which the liver's glucose output maintains." }
       liver:   { role: "releasing glucose", tone: release, detail: "Glycogenolysis: breaks down its glycogen store and releases free glucose to the blood (it has the glucose-6-phosphatase to do so)." }
-      muscle:  { role: "burning fat", tone: burn, detail: "Switches toward burning fatty acids to spare glucose. Its own glycogen stays locked up for local use only." }
+      muscle:  { role: "burning fat", tone: burn, detail: "Switches toward burning fatty acids to spare glucose. Its own glycogen is reserved for use within the muscle." }
       adipose: { role: "releasing fat", tone: release, detail: "Lipolysis begins: releases fatty acids (fuel for other tissues) and glycerol." }
       rbc:     { role: "runs on glucose", tone: burn, detail: "Still glucose → lactate: one of the two reasons the liver must keep glucose up." }
       kidney:  { role: "quiet", tone: quiet, detail: "Not yet a major glucose producer." }
@@ -80,7 +80,7 @@ states:
       brain:   { role: "mostly glucose", tone: burn, detail: "Still mostly glucose; ketones are only just beginning to rise." }
       liver:   { role: "making glucose", tone: make, detail: "Gluconeogenesis: builds glucose from lactate (Cori cycle), glycerol, and amino acids arriving as alanine." }
       muscle:  { role: "supplying carbon", tone: release, detail: "Burns fatty acids, and exports lactate and alanine to the liver as raw material for new glucose; it cannot release glucose to the blood itself (no glucose-6-phosphatase)." }
-      adipose: { role: "releasing fat", tone: release, detail: "Lipolysis in full flow: fatty acids fuel most tissues; glycerol feeds the liver's gluconeogenesis." }
+      adipose: { role: "releasing fat", tone: release, detail: "Lipolysis is well under way: fatty acids fuel most tissues; glycerol feeds the liver's gluconeogenesis." }
       rbc:     { role: "runs on glucose", tone: burn, detail: "Glucose → lactate, which returns to the liver (the Cori cycle)." }
       kidney:  { role: "starting gluconeogenesis", tone: make, detail: "Beginning to contribute a little glucose of its own." }
     fluxes:
@@ -96,14 +96,14 @@ states:
     glucagon: 80
     rq: 0.72
     summary: >
-      The liver floods with fat-derived acetyl-CoA and exports ketone bodies. The brain switches
+      Fat-derived acetyl-CoA accumulates in the liver, which exports ketone bodies. The brain switches
       mostly to ketones and needs far less glucose, so the body breaks down far less muscle
-      protein. This adaptation stretches survival from weeks toward months.
+      protein. This adaptation extends survival from weeks toward months.
     organs:
       brain:   { role: "on ketones", tone: ketone, detail: "Now draws the majority of its energy from ketone bodies; its glucose demand falls sharply, which spares protein." }
       liver:   { role: "making ketones", tone: ketone, detail: "Converts the surplus acetyl-CoA from fat into ketone bodies and exports them (it lacks the enzyme to burn its own). Still makes some glucose." }
-      muscle:  { role: "spared", tone: burn, detail: "Burns fatty acids and ketones; protein breakdown eases now that the brain needs less glucose." }
-      adipose: { role: "the main fuel", tone: release, detail: "The dominant fuel source: fatty acids for tissues and the feedstock for the liver's ketones." }
+      muscle:  { role: "spared", tone: burn, detail: "Burns fatty acids and ketones; protein breakdown falls now that the brain needs less glucose." }
+      adipose: { role: "the main fuel", tone: release, detail: "The dominant fuel source: fatty acids for tissues and the substrate for the liver's ketone production." }
       rbc:     { role: "runs on glucose", tone: burn, detail: "Still glucose-only: a minimum glucose requirement that never fully disappears, so a little gluconeogenesis always continues." }
       kidney:  { role: "making glucose", tone: make, detail: "Now a second gluconeogenic organ: in a classic study after five to six weeks of fasting, it supplied about half of the body's glucose production." }
     fluxes:

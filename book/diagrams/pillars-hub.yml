@@ -16,7 +16,7 @@ pillars:
   - id: sleep
     label: Sleep
     full: Restorative sleep
-    link: "Short sleep lowers insulin sensitivity and raises appetite, especially for energy-dense food, and energy intake; late eating is in turn linked to poorer sleep, so the two can reinforce each other."
+    link: "Short sleep lowers insulin sensitivity and raises appetite (especially for energy-dense food) and energy intake; late eating is in turn linked to poorer sleep, so the two can reinforce each other."
   - id: stress
     label: Stress
     full: Stress management
@@ -24,9 +24,9 @@ pillars:
   - id: social
     label: Social
     full: Positive social connection
-    link: "Eating is social, through family meals, communal hawker eating and festive food, so social context can entrench or transform a diet."
+    link: "Eating is social, through family meals, communal hawker eating and festive food, so social context can reinforce or change eating habits."
   - id: substances
     label: Substances
     full: Avoidance of risky substances
-    link: "Alcohol is itself part of the diet: it supplies empty calories and also disinhibits food choice."
+    link: "Alcohol is itself part of the diet: it supplies empty calories and also weakens restraint over food choices."
 credit: "The six pillars of health, after the American College of Lifestyle Medicine (ACLM) and other lifestyle-medicine frameworks."

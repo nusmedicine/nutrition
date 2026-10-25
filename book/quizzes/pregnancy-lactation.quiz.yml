@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is a snack, not a second dinner. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack, not an extra meal. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
         feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
@@ -15,7 +15,7 @@ questions:
         feedback: "Under-eating isn't the goal either: too little gain raises the risk of a small or preterm baby. The aim is adequate, good-quality intake and a weight-gain target set by pre-pregnancy BMI."
 
   - id: q2
-    stem: "At 28 weeks Mrs Devi's haemoglobin has fallen from 12.5 to 10.8 g/dL. She feels well. What's the right first read?"
+    stem: "At 28 weeks Mrs Devi's haemoglobin has fallen from 12.5 to 10.8 g/dL. She feels well. What is the best initial interpretation?"
     options:
       - text: "Likely haemodilution; check ferritin before deciding on iron"
         correct: true
@@ -32,10 +32,10 @@ questions:
     options:
       - text: "Give thiamine before any glucose or dextrose"
         correct: true
-        feedback: "Prolonged vomiting depletes thiamine, and glucose given first to a depleted woman can precipitate Wernicke's encephalopathy, so thiamine goes in before glucose. Her severe, persistent vomiting, weight loss and ketosis mark hyperemesis gravidarum, which needs referral; small frequent meals, ginger and vitamin B6 are for ordinary nausea."
+        feedback: "Prolonged vomiting depletes thiamine, and glucose given first to a depleted woman can precipitate Wernicke's encephalopathy, so thiamine is given before glucose. Her severe, persistent vomiting, weight loss and ketosis mark hyperemesis gravidarum, which needs referral; small frequent meals, ginger and vitamin B6 are for ordinary nausea."
       - text: "Start IV dextrose first, and add vitamins later"
         correct: false
-        feedback: "Correcting the energy deficit feels urgent, but this order is dangerous: glucose given first to a thiamine-depleted woman can trigger Wernicke's encephalopathy. Thiamine goes in before glucose."
+        feedback: "Correcting the energy deficit feels urgent, but this order is dangerous: glucose given first to a thiamine-depleted woman can trigger Wernicke's encephalopathy. Thiamine is given before glucose."
       - text: "Reassure her that vomiting is normal and send her home"
         correct: false
         feedback: "Weight loss, dehydration and ketosis mark hyperemesis gravidarum, not ordinary morning sickness; it needs referral and admission, not reassurance."
@@ -58,7 +58,7 @@ questions:
     options:
       - text: "Vitamin A, because high-dose preformed retinol is teratogenic"
         correct: true
-        feedback: "Preformed retinol (supplements, liver) is teratogenic in excess, while plant β-carotene is safe, so check that a multivitamin is not over-dosed in retinol and skip liver."
+        feedback: "Preformed retinol (supplements, liver) is teratogenic in excess, while plant β-carotene is safe, so check that a multivitamin does not contain high-dose retinol, and avoid liver."
       - text: "Folate, because more is better throughout pregnancy"
         correct: false
         feedback: "Folate is a minimum to reach (about 400 µg/day, or 4–5 mg/day if high-risk), not an upper limit; the nutrient that is teratogenic in excess is preformed vitamin A."
@@ -84,7 +84,7 @@ questions:
     options:
       - text: "Foetal insulin, raised in the womb, stays high after birth"
         correct: true
-        feedback: "In the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and lowers the baby's glucose. Macrosomia and neonatal hypoglycaemia are two ends of one chain: maternal glucose in, foetal insulin out, overgrowth, then hypoglycaemia once the supply stops."
+        feedback: "In the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and lowers the baby's glucose. Macrosomia and neonatal hypoglycaemia share one cause: high maternal glucose raises foetal insulin, which drives overgrowth and then hypoglycaemia once the supply stops."
       - text: "The baby has inherited diabetes from the mother"
         correct: false
         feedback: "The hypoglycaemia is transient: the baby's own insulin, raised in response to maternal glucose, stays high briefly after delivery, so it is not inherited diabetes."

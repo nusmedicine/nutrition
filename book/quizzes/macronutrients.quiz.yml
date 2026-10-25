@@ -25,20 +25,20 @@ questions:
         feedback: "Free sugars are added sugars plus those in honey, syrups and fruit juices; WHO caps them at <10% of energy."
       - text: "The starch in brown rice"
         correct: false
-        feedback: "Starch is not a sugar; wholegrain starch sits at the protective end of the carbohydrate spectrum."
+        feedback: "Starch is not a sugar; wholegrain starch is at the protective end of the carbohydrate spectrum."
 
   - id: q3
     stem: "Rank these fats from *most* to *least* harmful for cardiovascular risk."
     options:
       - text: "Trans → saturated → monounsaturated → polyunsaturated"
         correct: true
-        feedback: "*Trans* fat is the clearest harm (WHO cap: <1% of energy), and unsaturated fats are the ones to favour."
+        feedback: "*Trans* fat has the clearest evidence of harm (WHO cap: <1% of energy), and unsaturated fats are the ones to favour."
       - text: "Polyunsaturated → monounsaturated → saturated → trans"
         correct: false
         feedback: "This order is reversed: polyunsaturated fats are the ones to favour, not avoid."
       - text: "Saturated → trans → polyunsaturated → monounsaturated"
         correct: false
-        feedback: "Saturated fat raises LDL cholesterol, but *trans* fat carries the clearest harm signal, so it ranks first."
+        feedback: "Saturated fat raises LDL cholesterol, but *trans* fat has the clearest evidence of harm, so it ranks first."
 
   - id: q4
     stem: "The Reynolds 2019 meta-analyses found higher fibre and wholegrain intake is associated with better outcomes. What is the correct way to state this?"
@@ -64,7 +64,7 @@ questions:
         feedback: "A fixed split for everyone does not exist; food source and pattern matter more."
       - text: "As little carbohydrate as possible, always"
         correct: false
-        feedback: "This reflects the belief that carbs are bad; quality and food source, not blanket restriction, determine the effect."
+        feedback: "This reflects the belief that carbohydrate is harmful; quality and food source, not blanket restriction, determine the effect."
 
   - id: q6
     stem: "On My Healthy Plate ('quarter, quarter, half'), what fills the half?"

@@ -80,16 +80,16 @@
     if (!showSummary) return null;
     if (!drinksAsked) {
       return { tone: 'warn', head: 'You missed the most informative question',
-        body: "You built a picture — but you never asked about drinks, the single biggest hidden contributor here (about two bubble teas a day). The most informative question is often the one not asked." };
+        body: "You gathered useful information — but you never asked about drinks, the single biggest hidden contributor here (about two bubble teas a day). The most informative question is often the one not asked." };
     }
     if (coverage >= 70) {
       return { tone: 'good', head: 'A solid diet history',
-        body: "You caught the drinks — her largest source — and enough of the main eating pattern to advise well. " +
+        body: "You asked about drinks — her largest source of sugar — and enough of the main eating pattern to advise well. " +
           (safetyAsked ? "You also asked the gentle do-no-harm question before advising any change." : "Before you advise cutting anything, ask the gentle 'how do you feel about your eating and weight?' question too — do no harm comes first.") };
     }
     return { tone: 'ok', head: 'A reasonable start — keep probing',
-      body: "You've asked the drinks question; now cover the other informative areas (eating-out and portions carry a lot). " +
-        (safetyAsked ? "Good — you ran the do-no-harm check." : "And ask the do-no-harm question before suggesting any restriction.") };
+      body: "You've asked the drinks question; now cover the other informative areas (eating out and portion size also matter a great deal). " +
+        (safetyAsked ? "Good — you completed the do-no-harm check." : "And ask the do-no-harm question before suggesting any restriction.") };
   });
 </script>
 
@@ -112,7 +112,7 @@
 
     <div class="meter">
       <div class="mrow">
-        <span class="mlab">Intake picture uncovered</span>
+        <span class="mlab">Intake information gathered</span>
         <span class="mval">{coverage}%</span>
       </div>
       <div class="bar"><div class="fill" style="width:{coverage}%"></div></div>
@@ -142,7 +142,7 @@
 
     {#if pictureItems.length}
       <div class="picture">
-        <span class="plabel">Picture so far:</span>
+        <span class="plabel">Findings so far:</span>
         {#each pictureItems as item}<span class="chip">{item}</span>{/each}
       </div>
     {/if}

@@ -49,7 +49,7 @@ nodes:
       - id: c
         text: "She needs an urgent blood transfusion now."
         correct: false
-        feedback: "Transfusion would be over-escalation, and it is not the call to make here. Recognise the pattern and take the appropriate next step."
+        feedback: "Transfusion would be excessive and is not indicated here. Recognise the pattern and take the appropriate next step."
         goto: reveal-group
 
   - id: reveal-group
@@ -57,7 +57,7 @@ nodes:
     emotion: concerned
     title: "The at-risk group"
     body: |
-      Aisha sits squarely in the **classic at-risk group**: menstruating women. Globally,
+      Aisha belongs to the **classic at-risk group**: menstruating women. Globally,
       nearly **one in three** women aged 15–49 are anaemic, with iron
       deficiency the most common nutritional cause, and heavy menstrual bleeding is a major contributor. The cause matters
       as much as the iron itself.

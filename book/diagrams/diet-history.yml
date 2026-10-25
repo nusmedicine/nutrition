@@ -24,14 +24,14 @@ probes:
     yield: 8
     reveal: "\"Usually two: a late lunch and a late dinner. I'm often too rushed in the morning to eat.\""
     picture: ["2 main meals, both late"]
-    note: "Meal timing and skipping shape appetite and later over-eating, so they are worth a brief line."
+    note: "Meal timing and skipping shape appetite and later over-eating, so they are worth a brief question."
   - id: drinks
     label: "What do you drink through the day?"
     yield: 30
     hinge: true
     reveal: "\"Oh… I have bubble tea most days, sometimes twice, and kopi with condensed milk in the morning. I didn't think of drinks as food.\""
     picture: ["~2 bubble teas/day (high sugar)", "Sweet kopi"]
-    note: "Often the most informative question locally, and the one most often skipped. In the 2022 national nutrition survey, sugary drinks were the single biggest source of sugar, about half of all sugar eaten. The drinks probe folds in a routine alcohol question too."
+    note: "Often the most informative question locally, and the one most often skipped. In the 2022 national nutrition survey, sugary drinks were the single biggest source of sugar, about half of all sugar eaten. The question about drinks should also include a routine question about alcohol."
   - id: snacks
     label: "Anything between meals?"
     yield: 12
@@ -43,7 +43,7 @@ probes:
     yield: 15
     reveal: "\"Lunch is always bought: hawker or food court. Dinner maybe half the time.\""
     picture: ["Eats out ~10+ meals/week"]
-    note: "Eating out shifts portions, oil, salt and sugar upward and control downward, which makes it an informative question locally."
+    note: "Eating out tends to increase portion size, oil, salt and sugar and to reduce control over what is eaten, which makes it an informative question locally."
   - id: portions
     label: "Roughly how big are your portions?"
     yield: 12
@@ -67,4 +67,4 @@ probes:
     safety: true
     reveal: "\"Sometimes I skip meals to 'make up' for a big day, and I feel guilty after eating. But it's not a big deal… right?\""
     picture: ["Skips meals to compensate", "Guilt after eating (a gentle flag)"]
-    note: "The do-no-harm check. A gentle open question surfaces possible disordered eating before you suggest any restriction. If it flags, switch from 'cut down' to a supportive screen (SCOFF) and consider referral. Never prescribe restriction into a possible eating disorder."
+    note: "The do-no-harm check. A gentle open question surfaces possible disordered eating before you suggest any restriction. If it raises concern, switch from 'cut down' to a supportive screen (SCOFF) and consider referral. Never advise dietary restriction for someone who may have an eating disorder."

@@ -9,43 +9,43 @@ credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 foods:
   - name: "Iron-fortified cereal"
     verdict: safe
-    why: "Iron stores run low at ~6 months, so first foods should be iron-rich. A classic first food."
+    why: "Iron stores run low at about 6 months, so first foods should be iron-rich. A classic first food."
   - name: "Minced meat / fish / egg yolk"
     verdict: safe
-    why: "Iron- and zinc-rich first foods, which is what infants need as iron stores run low at ~6 months."
+    why: "Iron- and zinc-rich first foods, which is what infants need as iron stores run low at about 6 months."
   - name: "Smooth peanut butter"
     verdict: safe
-    why: "Introduce allergens early once solids start: early peanut protects against peanut allergy (LEAP)."
+    why: "Introduce allergens early once solids start: early introduction of peanut reduces the risk of peanut allergy (LEAP)."
   - name: "Whole peanuts"
     verdict: modify
-    why: "Peanut is a choking hazard whole but protective as smooth peanut butter."
+    why: "Whole peanuts are a choking hazard; as smooth peanut butter, peanut is safe and protects against allergy."
   - name: "Well-cooked egg"
     verdict: safe
-    why: "Another early allergen to introduce, not delay: early egg lowers egg-allergy risk."
+    why: "Another early allergen to introduce, not delay: early introduction of egg lowers egg-allergy risk."
   - name: "Whole grapes"
     verdict: modify
-    why: "A leading choking shape. Quartered lengthwise, grapes are fine."
+    why: "A common choking hazard because of their shape. Quartered lengthwise, grapes are fine."
   - name: "Grapes, quartered lengthwise"
     verdict: safe
-    why: "The same grape, made safe by changing its shape: the hazard is the form, not the food."
+    why: "The same grape, made safe by changing its shape: the choking risk comes from the shape, not the food itself."
   - name: "Hot dog (round chunks)"
     verdict: modify
-    why: "A classic choking shape when sliced into rounds. Cut it lengthwise and small instead."
+    why: "A common choking hazard when sliced into rounds. Cut it lengthwise and small instead."
   - name: "Yoghurt / cheese"
     verdict: safe
     why: "Dairy foods in small amounts are fine from ~6 months, unlike cow's milk as the main drink."
   - name: "Cow's milk (as the main drink)"
     verdict: wait12
-    why: "Iron-poor, and in infancy it causes occult (hidden) gut blood loss, a route to iron deficiency. Keep breast milk or formula as the main drink until ~12 months."
+    why: "Iron-poor, and in infancy it causes occult (hidden) gut blood loss, a cause of iron deficiency. Keep breast milk or formula as the main drink until ~12 months."
   - name: "Honey"
     verdict: wait12
     why: "Infant botulism: the immature gut lets Clostridium botulinum spores colonise and make toxin. No honey before 12 months."
   - name: "Fruit juice / sweet drinks"
     verdict: wait12
-    why: "No juice before 12 months and little after; no added sugar. Early sweetness sets a lasting preference."
+    why: "No juice before 12 months and little after; no added sugar. Early exposure to sweet tastes sets a lasting preference for sweetness."
   - name: "Plain rice-water porridge"
     verdict: modify
     why: "Not a choking risk; the issue is nutrition, since on its own it supplies energy but few nutrients, including little iron. Make the congee iron-rich with minced meat, egg and soft greens."
   - name: "Added salt"
     verdict: wait12
-    why: "The infant kidney is immature and tastes are being set, so no added salt (or sugar) in the first year."
+    why: "The infant kidney is immature and taste preferences are still developing, so no added salt (or sugar) in the first year."

@@ -4,9 +4,9 @@ credit: "Diagram: Health in Medicine, CC BY-SA 4.0."
 
 # the four fixed questions of critical appraisal (same for every claim)
 steps:
-  - { id: study,  label: "Find the study",   q: "What actual evidence sits behind the headline?" }
-  - { id: design, label: "Judge the design", q: "Where does it sit on the evidence hierarchy?" }
-  - { id: outcome,label: "Read the outcome",  q: "What did it really measure, and did it hold up?" }
+  - { id: study,  label: "Find the study",   q: "What evidence supports the headline?" }
+  - { id: design, label: "Judge the design", q: "Where does it rank in the hierarchy of evidence?" }
+  - { id: outcome,label: "Read the outcome",  q: "What did it measure, and was the result reliable?" }
   - { id: apply,  label: "Check it applies",  q: "Who was studied, and does it fit your patient?" }
 
 # verdict tiers (colour + label)
@@ -21,7 +21,7 @@ verdicts:
 claims:
   - id: acv
     label: "\"Apple cider vinegar melts fat\""
-    study: "The claim leans on a 2024 randomised trial that reported weight loss from a daily dose of apple cider vinegar."
+    study: "The claim rests on a 2024 randomised trial that reported weight loss from a daily dose of apple cider vinegar."
     design: "A randomised trial, normally high on the hierarchy, but small, short and not registered in advance."
     outcome: "The reported effect was modest, and the study was retracted in 2025 when its analyses could not be reproduced."
     apply: "With the main study withdrawn, what's left is a few small, short trials: a possible fall in fasting glucose in type 2 diabetes, of limited certainty, and weight data that still include the retracted trial. Neither replaces ordinary diet and activity."
@@ -31,26 +31,26 @@ claims:
     label: "\"Coffee protects your heart\""
     study: "Backed by a large 2017 umbrella review that pooled many observational studies of coffee and health."
     design: "Cohort (observational) evidence: broad and consistent, but not randomised."
-    outcome: "Around 3–4 cups a day tracked with the lowest all-cause and cardiovascular mortality. This is an association, not a demonstrated cause."
-    apply: "Coffee drinkers differ from non-drinkers (healthy-user bias), and unwell people cut back (reverse causation). 'Protective in the data' isn't 'start drinking it to protect your heart'."
+    outcome: "Around 3–4 cups a day was associated with the lowest all-cause and cardiovascular mortality. This is an association, not a demonstrated cause."
+    apply: "Coffee drinkers differ from non-drinkers (healthy-user bias), and unwell people cut back (reverse causation). An association in observational data does not justify advising people to start drinking coffee to protect the heart."
     verdict: weak
-    verdictText: "Reassuring for people who already drink it; not a reason a non-drinker should start. Moderate coffee is fine, but it is not medicine."
+    verdictText: "Reassuring for people who already drink it; not a reason a non-drinker should start. Moderate coffee intake is safe, but it is not a treatment."
   - id: acne
     label: "\"Cutting out dairy clears acne\""
-    study: "Rests on observational studies linking milk to acne, plus a plausible mechanism (milk nudges IGF-1 and insulin up)."
+    study: "Rests on observational studies linking milk to acne, plus a plausible mechanism (milk modestly raises IGF-1 and insulin)."
     design: "Observational only: there are no randomised trials on dairy and acne (the trials are on high-glycaemic-load diets)."
     outcome: "A weak but reproducible association (strongest for skimmed milk), and an association from observational studies cannot prove that milk causes acne."
     apply: "The American Academy of Dermatology guidelines (2016 and 2024) both conclude there is insufficient evidence to recommend cutting any food to treat acne; proven treatment is medication."
     verdict: weak
-    verdictText: "A real but weak signal. Trialling a lower-sugar diet is reasonable; a strict dairy-elimination diet isn't worth the nutritional cost, least of all in a teenager."
+    verdictText: "A real but weak association. Trialling a lower-sugar diet is reasonable; a strict dairy-elimination diet isn't worth the nutritional cost, least of all in a teenager."
   - id: tre
     label: "\"16:8 fasting resets your metabolism\""
     study: "Built on genuine circadian biology, then tested directly in randomised trials of time-restricted eating."
-    design: "Randomised trials testing the claim head-on: the strong part of the evidence."
+    design: "Randomised trials testing the claim directly: the strongest part of the evidence."
     outcome: "Weight loss was modest and not significantly better than ordinary calorie restriction; the benefit comes from eating less, not a metabolic 'reset'."
-    apply: "It can be a useful eating structure for someone whom it helps to eat less and who can sustain it."
+    apply: "It can be a useful eating structure for someone who finds that it helps them eat less and who can sustain it."
     verdict: plausible
-    verdictText: "The mechanism is real and the hype overstated. It is a reasonable optional tool; success depends on adherence and the overall pattern, not the clock."
+    verdictText: "The mechanism is real and the hype overstated. It is a reasonable optional tool; success depends on adherence and the overall diet, not on meal timing."
   - id: sugar
     label: "\"Sugar makes children hyperactive\""
     study: "A near-universal belief, and one tested directly in blinded randomised trials decades ago."
@@ -66,4 +66,4 @@ claims:
     outcome: "Beta-carotene supplements increased lung cancer in smokers; other big supplement trials (vitamin D, fish oil) found no benefit on their main endpoints either."
     apply: "Studied in smokers, where beta-carotene caused harm; elsewhere the benefit is simply absent. 'Natural' and 'sold in a pharmacy' don't mean safe or proven."
     verdict: harmful
-    verdictText: "Harmful in the wrong group, which is worse than unproven. Supplements are for documented needs, not blanket prevention."
+    verdictText: "Harmful in one group (smokers), which is worse than merely unproven. Supplements are for documented needs, not blanket prevention."

@@ -74,7 +74,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Assess intake before prescribing."
-        - "One specific, achievable change beats a forbidden-foods list."
+        - "One specific, achievable change works better than a list of forbidden foods."
         - "Check confidence: her answer shows what she feels able to do, and you build the goal on that."
 
   - id: end-partial

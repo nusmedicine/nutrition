@@ -28,7 +28,7 @@ nodes:
       Mr Lim's fasting glucose is borderline and his cholesterol is mildly up. He feels well
       and is motivated, but he has absorbed a lot of coffee-shop nutrition wisdom, and he
       rattles off his worries one after another: rice, eggs, cooking oils and his son's
-      protein powder. Answer each on quality, not bans, and watch the same thread run
+      protein powder. Answer each on quality, not bans, and notice the principle that runs
       through all four.
     next: q-carb
 
@@ -40,7 +40,7 @@ nodes:
       - id: a
         text: "\"Yes, cut all rice and carbs; keto is best.\""
         correct: false
-        feedback: "This throws out protective wholegrains, legumes and fibre along with the refined starch. Keto/low-carb can help weight and glucose *short-term* but isn't a proven long-term win, can push cholesterol up, and a strict plan needs a dietitian."
+        feedback: "This throws out protective wholegrains, legumes and fibre along with the refined starch. Keto/low-carb can help weight and glucose *short-term* but has no proven long-term benefit, can push cholesterol up, and a strict plan needs a dietitian."
         goto: q-eggs
       - id: b
         text: "\"It's the type: swap some white rice for brown or red rice.\""
@@ -52,7 +52,7 @@ nodes:
       - id: c
         text: "\"Rice is fine; eat as much white rice as you like.\""
         correct: false
-        feedback: "A flood of refined starch is what nudges glucose up, so portion and type still matter; this isn't a free pass."
+        feedback: "Large amounts of refined starch raise glucose, so portion and type still matter; this isn't a free pass."
         goto: q-eggs
 
   - id: q-eggs
@@ -63,12 +63,12 @@ nodes:
       - id: a
         text: "\"Yes, stop eating eggs; they'll raise your cholesterol.\""
         correct: false
-        feedback: "The cholesterol in food moves blood cholesterol far less than saturated and trans fat do. For most people eggs are fine in moderation; the fatty, fried sides they come with matter more."
+        feedback: "The cholesterol in food raises blood cholesterol far less than saturated and trans fat do. For most people eggs are fine in moderation; the fatty, fried sides they come with matter more."
         goto: q-fat
       - id: b
         text: "\"Eggs in moderation are fine for most people; we'll watch your results.\""
         correct: true
-        feedback: "Saturated and trans fat move blood cholesterol more than the cholesterol in the egg itself, so for most people eggs need no ban. Individualising, with his borderline results in view, is the sound approach."
+        feedback: "Saturated and trans fat raise blood cholesterol more than the cholesterol in the egg itself, so for most people eggs need no ban. Individualising, with his borderline results in view, is the sound approach."
         effects: { quality: +1 }
         reaction: surprised
         goto: q-fat
@@ -91,12 +91,12 @@ nodes:
       - id: b
         text: "\"Avoid all fat; go fat-free.\""
         correct: false
-        feedback: "The body needs some fat for the essential fatty acids and fat-soluble vitamins; the move is to swap saturated for unsaturated fat, not to cut all fat."
+        feedback: "The body needs some fat for the essential fatty acids and fat-soluble vitamins; the aim is to swap saturated for unsaturated fat, not to cut all fat."
         goto: q-protein
       - id: c
         text: "\"Keep some fat, but cook with unsaturated oils.\""
         correct: true
-        feedback: "Type matters more than total. Unsaturated oils (peanut, canola, olive) make the everyday default, and small amounts of coconut for flavour are fine. The default cooking fat is what matters, so the hype can be corrected without a ban."
+        feedback: "Type matters more than total. Unsaturated oils (peanut, canola, olive) should be the everyday default, and small amounts of coconut for flavour are fine. The default cooking fat is what matters, so the hype can be corrected without a ban."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-protein
@@ -136,7 +136,7 @@ nodes:
     emotion: concerned
     title: "Re-centre on quality"
     body: |
-      The thread across all four questions is the same: type and food source, not
+      The principle across all four questions is the same: type and food source, not
       blanket bans or hype. Base advice on My Healthy Plate, correct mistaken beliefs
       plainly, and, when a plan turns restrictive or therapeutic or the patient is
       higher-risk, bring in a dietitian rather than prescribing it yourself.
@@ -158,7 +158,7 @@ nodes:
       objectivesMet: [1, 2, 3]
       keyPoints:
         - "Carbs, fat, cholesterol and protein all reduce to quality and food source, not blanket bans."
-        - "Correct mistaken beliefs clearly: coconut oil raises cholesterol; the cholesterol in food matters less than saturated/trans fat; processed meat is the stronger signal; protein builds muscle only with training, up to a point."
+        - "Correct mistaken beliefs clearly: coconut oil raises cholesterol; the cholesterol in food matters less than saturated/trans fat; processed meat has the stronger evidence of harm; protein builds muscle only with training, up to a point."
         - "Give quality guidance and local tools; don't prescribe grams or restrictive plans; refer restrictive/therapeutic diets or higher-risk patients."
 
   - id: end-partial
@@ -168,7 +168,7 @@ nodes:
     body: |
       You engaged all four questions but drifted toward all-or-nothing or hype on at least
       one. Replay and reframe each around quality and one realistic local swap, and
-      remember the referral boundary when a plan turns restrictive.
+      remember to refer when a plan turns restrictive.
     debrief:
       objectivesMet: [1]
       keyPoints:

@@ -20,7 +20,7 @@ turns:
         tier: poor
         text: "\"You need to stop the sugar. It's what's pushing your blood sugar up.\""
         reaction: "(folds his arms) \"I know, I know. Everyone says that. But I can't just stop, my job is stressful.\""
-        feedback: "The warning is accurate, but jumping straight to fixing provokes resistance and he digs in. Resisting the urge to fix (the righting reflex) is a core principle of motivational interviewing."
+        feedback: "The warning is accurate, but moving straight to fixing the problem provokes resistance. Resisting the urge to fix (the righting reflex) is a core principle of motivational interviewing."
       - type: reflect
         tier: good
         text: "\"The kopi keeps you going through the long shifts, and it sounds like the sugar worries you a little too.\""
@@ -35,7 +35,7 @@ turns:
         tier: ok
         text: "\"How many sugars do you take in each cup?\""
         reaction: "\"Two, sometimes three. And condensed milk.\""
-        feedback: "Gathering a fact is fine, but a closed question doesn't open up his motivation. It is useful later, but it is not the move that gets the conversation going."
+        feedback: "Gathering a fact is fine, but a closed question doesn't open up his motivation. It is useful later, but it is not the best way to open the conversation."
   - id: t2
     patient: "\"My father had diabetes. I don't want to end up like him, but the kopi is such a habit.\""
     options:
@@ -43,7 +43,7 @@ turns:
         tier: poor
         text: "\"Right, so you must cut it out now, before it's too late. Let me list the complications.\""
         reaction: "(sighs) \"Here we go… I came for my back, not a lecture.\""
-        feedback: "He just gave you real motivation, and the lecture buries it. Rushing to warn and instruct flips him from 'I want to' back to 'don't push me'."
+        feedback: "He has just expressed real motivation, and the lecture overrides it. Rushing to warn and instruct turns his willingness to change back into resistance."
       - type: affirm
         tier: good
         text: "\"It took something to say that, and it shows how much you want to stay well for your family.\""
@@ -71,7 +71,7 @@ turns:
         tier: good
         text: "\"What's one small change you think you could actually stick to?\""
         reaction: "\"Maybe… order it siu dai, less sweet, for my morning cup? I could try that.\""
-        feedback: "Letting him choose the change gives a small, owned goal (kopi siu dai on workday mornings), the right base for a SMART goal."
+        feedback: "Letting him choose the change gives a small goal that is his own (kopi siu dai on workday mornings), a good basis for a SMART goal."
       - type: open
         tier: good
         text: "\"On a scale of 0 to 10, how confident are you that you could cut down? And what makes it that number and not lower?\""
@@ -81,4 +81,4 @@ turns:
         tier: poor
         text: "\"Don't worry about it. Just try your best, okay?\""
         reaction: "\"…okay.\" (you can tell nothing will change)"
-        feedback: "Vague reassurance capped with a yes/no 'okay?' lets the moment slip. He was ready to plan something concrete, so this is the point to help him co-write one small, specific goal, then arrange to follow it up."
+        feedback: "Vague reassurance ending in a yes/no 'okay?' misses the opportunity. He was ready to plan something concrete, so this is the point to help him agree on one small, specific goal, then arrange to follow it up."
