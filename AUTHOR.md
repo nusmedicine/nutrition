@@ -416,7 +416,7 @@ content** — often just a single 🍜 *Eating out* callout (e.g. the "one swap 
                    each movement ends with a collapsed "Check yourself" (§11j)
 ##   …            — ### only where a movement splits into 2+ real sub-topics, never a lone child
 ## <Chapter-question close>      — e.g. "Is body weight just calories in minus out?"
-## The Singapore picture        — population + policy lens (don't repeat the per-topic "Eating out");
+## The Singapore context        — population + policy lens (don't repeat the per-topic "Eating out");
                                   always the LAST content section (author decision 2026-10-22)
 ## Check your understanding      — <div data-island="quiz" …>
 ## Practise: <case title>        — <div data-island="case" …>
@@ -575,7 +575,7 @@ will be fine where they stand. It always exits 0.
 #### Voice and level — the hybrid voice
 
 - **Exposition is in academic voice.** The science, mechanisms, evidence, guideline numbers and the
-  Singapore picture state facts in the third person. Use the first-person plural *we* for a shared line of
+  Singapore context state facts in the third person. Use the first-person plural *we* for a shared line of
   reasoning, as in a review article ("we can predict…", "we return to insulin resistance in…"), sparingly,
   where it carries reasoning, not to open every paragraph.
 - **"You" is for the clinician in practice.** Keep *you* only where the reader is addressed as the doctor
@@ -704,7 +704,7 @@ is fine), *signal* for evidence outside physiology or statistics (→ "associati
 (→ "low-risk"), *nudges* a value (→ "has a modest effect on"), *the through-line* (→ "in summary"), *fed up* for
 refeeding (→ "refed"). Also: coined labels where a standard term exists; a figure of speech where a literal term
 exists; compressed or slogan-like sentences that need a second reading; and vague intensifiers (*a great deal*,
-*does the work*) where the text should say what it means. Kept by decision: the heading **The Singapore picture**
+*does the work*) where the text should say what it means. The section heading is **The Singapore context** (renamed from "The Singapore picture", 2026-10-25)
 and the defined term **defended range**.
 
 **Sentence openers to avoid:** *Additionally, Furthermore, Moreover, Notably, Importantly, Crucially,
@@ -802,7 +802,7 @@ stage the same recipe and put **normal physiology before clinical problems**:
 ## [one stage-specific movement, optional]  — only where the content needs it (e.g. Lactation)
 ## Recognising trouble, and when to refer    — red flags + the do-no-harm callout + a refer table (inline)
 ## <close question>
-## The Singapore picture  ·  quiz  ·  case
+## The Singapore context  ·  quiz  ·  case
 ```
 The two middle movement names are fixed (author decision 2026-10-22) so every life stage shows the same
 internal/external frame as its factor table; the subtitle carries the stage's own content.
@@ -823,9 +823,9 @@ Recognising trouble, and when to refer → close → Singapore.
                                                when the logic requires)
 ## When to refer                              — every Part IV chapter: referral triggers, who to refer to
 ## <close question>
-## The Singapore picture  ·  quiz  ·  case
+## The Singapore context  ·  quiz  ·  case
 ```
-The Singapore picture never takes a subtitle in any chapter; its opening sentence carries the local hook. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
+The Singapore context never takes a subtitle in any chapter; its opening sentence carries the local hook. The book's existing furniture already matches the textbooks: **at-a-glance = chapter
 outline, quiz = self-test, case = case study.**
 
 **Verification — the preservation gate (REQUIRED after any restructure/rewrite).** A reorganisation must not
@@ -920,7 +920,7 @@ Short-chain fatty acids (SCFAs)
 
 Retrieval practice with explanatory feedback is the best-evidenced intervention in the review (in medical
 trainees, 39% vs 26% retained at six months) and also corrects the overconfidence of screen reading. End
-each `##` movement (not the Singapore picture or the close) with one, at most two, collapsed questions:
+each `##` movement (not the Singapore context or the close) with one, at most two, collapsed questions:
 
 ```markdown
 ::: {.callout-tip collapse="true"}
