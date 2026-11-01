@@ -246,7 +246,7 @@ amino acids, which is why protein is drawn on.
 ## Check yourself: why does a red blood cell depend entirely on glucose, when muscle can burn fat?
 A red blood cell has no mitochondria, so it can run only glycolysis, which takes place in the cytosol
 without oxygen and ends in lactate. Fat is burned by β-oxidation inside the mitochondrion, and the TCA
-cycle and oxidative phosphorylation are mitochondrial too, so none of them is open to the red cell.
+cycle and oxidative phosphorylation are mitochondrial too, so none of them is open to the red cell. Glucose is its only fuel.
 :::
 
 ## Hormonal control of fuel use: fed, fasted and starved states {#sec-partB}
@@ -606,7 +606,7 @@ therefore worth giving, and a friend found confused after a night out needs a gl
 
 ::: {.callout-tip}
 ## 🍜 How do intermittent fasting and the ketogenic diet work?
-Both are popular here, and both work mainly through appetite and energy intake.
+Both are popular here, and both work mainly through appetite and energy intake, a more ordinary mechanism than their promoters claim.
 **Time-restricted eating** (limiting eating to a daily window, as in "16:8") produces weight loss mostly
 by reducing total energy intake, and in a careful 12-month trial, adding an eating window to calorie
 restriction gave no significantly greater weight loss than the same calorie restriction alone
@@ -618,7 +618,8 @@ of the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter.)
 
 **Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]; in
 the 2021–2022 National Population Health Survey, roughly one resident in twelve aged 18 to 74 had
-diabetes [@mohNNS2022].
+diabetes [@mohNNS2022]. A food culture that keeps many people in the fed, storing state, together with
+the ways metabolic regulation fails, is the physiology beneath that public-health effort.
 
 ## Check your understanding {#sec-quiz}
 

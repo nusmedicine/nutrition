@@ -37,7 +37,7 @@ nodes:
       - id: a
         text: "SGLT1 keeps absorbing, so a glucose-and-salt drink still gets fluid in."
         correct: true
-        feedback: "In secretory diarrhoea the gut secretes large volumes of fluid, but SGLT1 still cotransports sodium with glucose, and oral rehydration depends on that. A drip is reserved for severe dehydration or a child who can't drink."
+        feedback: "In secretory diarrhoea SGLT1 still cotransports sodium with glucose, and oral rehydration depends on that. A drip is reserved for severe dehydration or a child who can't drink."
         effects: { quality: +1 }
         goto: q-both
       - id: b

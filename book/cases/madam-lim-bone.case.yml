@@ -160,7 +160,7 @@ nodes:
       The generalist's job is to screen (OSTA uses age and weight to flag who needs a scan), refer for a DXA if
       indicated, deliver the food-first calcium, vitamin D and protein message and weight-bearing exercise, and
       correct a genuine deficiency. Reaching for the drug now skips the diagnosis and takes on a specialist
-      decision, a do-no-harm and scope-of-practice error.
+      decision, a do-no-harm and scope-of-practice error that good diet advice does not undo.
     next: q-drug-after
 
   - id: reveal-drug

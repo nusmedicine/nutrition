@@ -75,7 +75,7 @@ nodes:
       - id: a
         text: "\"It's remission, not cure. Off tablets your sugar can fall below the diabetes range, but it can fade if weight returns, so we keep monitoring.\""
         correct: true
-        feedback: "The agreed term is remission: blood glucose back below the diabetes range off glucose-lowering tablets. It is real, but it can fade (in the landmark programme about half were in remission at one year, and only around one in eight by five years), and it depends closely on whether the weight stays off. Monitoring therefore continues even if he does well, and this framing protects him from feeling like a failure if his glucose creeps back up."
+        feedback: "The agreed term is remission: blood glucose back below the diabetes range off glucose-lowering tablets. It is real, but it can fade (in the landmark programme about half were in remission at one year, and only around one in eight by five years), and it is closely associated with whether the weight stays off. Monitoring therefore continues even if he does well, and this framing protects him from feeling like a failure if his glucose creeps back up."
         effects: { quality: +1 }
         goto: q-do-no-harm
       - id: b

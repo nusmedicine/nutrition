@@ -25,7 +25,7 @@ nodes:
     x: 265
     y: 215
     kind: ferment
-    detail: "Colonic bacteria ferment the fibre without oxygen. Fermentation is bacterial metabolism, distinct from the host's digestion, and it takes place in the colon."
+    detail: "Colonic bacteria ferment the fibre without oxygen. Fermentation is bacterial metabolism, distinct from the host's digestion, which is why it happens in the colon."
   - id: acetate
     label: "Acetate"
     sub: "~60%"

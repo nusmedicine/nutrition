@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
       - text: "She should roughly double her intake to support the baby"
         correct: false
         feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
