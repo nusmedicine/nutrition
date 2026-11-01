@@ -38,10 +38,12 @@
 
 **Chronic kidney disease (CKD)** is long-term damage to the kidneys, usually with a gradual loss of
 their function. It is the kidney complication of the disease process that links obesity, type 2 diabetes and
-cardiovascular disease (together, the cardiovascular-kidney-metabolic (CKM) syndrome), and it shares their risk factors (see the
+cardiovascular disease, and it shares their risk factors (see the
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd),
 [*Type 2 diabetes*](type-2-diabetes.qmd) and
-[*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). CKD is
+[*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). The
+American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome** treats
+obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. CKD is
 common, largely silent (detected by blood and urine tests) and progressive
 [@kdigo2024ckd]. In Singapore it is mostly a consequence of diabetes, which drives roughly 2 in 3 new
 cases of kidney failure [@nkfsKeyStats; @ho2024stemmingckd].
@@ -288,7 +290,7 @@ residents as those conditions climb [@ho2024stemmingckd; @wong2018ckdprojection]
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease accounts for most
 new dialysis starts, the national War on Diabetes is also a central CKD-prevention strategy
-[@mohWarOnDiabetes]. This fits the American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome**, which treats obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: a dietitian is for those with more complex dietary needs [@aceCKD2023].
+[@mohWarOnDiabetes]. This fits the CKM syndrome concept [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: a dietitian is for those with more complex dietary needs [@aceCKD2023].
 
 **The renal diet clashes with typical hawker food, and the clash contributes to poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet conflicts with strongly flavoured hawker food based on soy,
