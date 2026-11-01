@@ -35,10 +35,10 @@
 
 ## Cardiovascular disease & hypertension at a glance {#sec-overview}
 
-Cardiovascular disease causes about 30% of all deaths in Singapore, and
-roughly one in three adults has **hypertension** (persistently raised blood pressure), just over half of them
-undiagnosed [@shfHeartStats2024; @nphs2024]. The response is population-scale **primary prevention**
-(preventing disease before it develops), delivered lifestyle-first.
+Cardiovascular disease causes about 30% of all deaths in Singapore, and roughly one in three adults
+has persistently raised blood pressure, known as **hypertension**, with just over half of them
+undiagnosed [@shfHeartStats2024; @nphs2024]. The response, delivered lifestyle-first, is
+population-scale **primary prevention**: preventing disease before it develops.
 
 Two principles guide the advice and the referral:
 
@@ -56,13 +56,14 @@ The American Heart Association organises heart-healthy eating around these featu
 
 The WHO adds population targets: salt under 5 g a day, saturated fat under 10% of energy, *trans* fat under
 1%, free sugars under 10%, and at least 400 g of fruit and vegetables a day [@who2020diet]. DASH, sodium
-reduction, fat quality and the Mediterranean pattern are all consistent with this approach, and Singapore's My
-Healthy Plate is its local form, which needs no counting of nutrients [@hpbHealthyPlate].
+reduction, fat quality and the Mediterranean pattern are all consistent with this approach. Singapore's My
+Healthy Plate is its local form and needs no counting of nutrients [@hpbHealthyPlate].
 
 ## Pathophysiology: how diet affects the arteries and blood pressure {#sec-cvd-science}
 
-Diet raises blood pressure and promotes atherosclerosis mainly through two pathways, one acting through dietary fat and LDL cholesterol and one through sodium, and both converge on the vessel wall. Four terms recur
-below:
+Diet raises blood pressure and promotes atherosclerosis mainly through two pathways. One acts through
+dietary fat and LDL cholesterol and the other through sodium, and both converge on the vessel wall.
+Four terms recur below:
 
 Atherosclerosis
 : The build-up of plaque in the artery wall, where LDL cholesterol is deposited and inflames the wall;
@@ -80,9 +81,9 @@ Dyslipidaemia
 ![Two dietary pathways converge on the artery: saturated and trans fat raise LDL cholesterol, which builds atherosclerotic plaque in the artery wall; dietary sodium raises blood volume and vascular tone, raising blood pressure (dietary potassium counter-regulates). Both damage the vessel and drive heart attack and stroke.](/figures/mechanisms/cvd-diet-pathways.svg){#fig-cvd-pathways width="90%" fig-align="center"}
 
 **Dietary fat and LDL.** Saturated and *trans* fat in the diet raise LDL cholesterol, the "bad" cholesterol
-carried in low-density lipoproteins [@mensink2003]. LDL is deposited in the artery wall and inflames it,
-building the atherosclerotic plaque that narrows vessels and, when it ruptures, causes heart attacks and
-strokes. Improving fat quality ([below](#sec-cvd-fat)) therefore measurably cuts cardiovascular events
+carried in low-density lipoproteins [@mensink2003]. LDL is deposited in the artery wall and inflames it.
+This builds the atherosclerotic plaque that narrows vessels and causes heart attacks and strokes when
+it ruptures. Improving fat quality ([below](#sec-cvd-fat)) therefore measurably cuts cardiovascular events
 [@hooper2020; @sacks2017]. (For how fats are carried as lipoproteins, see the [*Macronutrients*](macronutrients.qmd) and [*Integrative metabolism*](integrative-metabolism.qmd#sec-lipoproteins) chapters.)
 
 **Sodium, potassium and blood pressure.** Dietary sodium expands blood volume and raises vascular tone,
@@ -96,7 +97,7 @@ diabetes* chapters).
 ::: {.callout-tip collapse="true"}
 ## Check yourself: salt and saturated fat act on different things. Why can cutting either one lower the risk of heart attack and stroke?
 Saturated and *trans* fat raise LDL cholesterol, which is deposited in the artery wall and builds
-atherosclerotic plaque; sodium raises blood pressure by expanding blood volume and raising vascular
+atherosclerotic plaque. Sodium raises blood pressure by expanding blood volume and raising vascular
 tone. The pressure and the plaque act on the same endothelium, and plaque that narrows a vessel can
 rupture, causing heart attacks and strokes. Acting on either pathway therefore reduces the damage to the
 vessel wall.
@@ -108,17 +109,18 @@ Two dietary changes lower blood pressure: adopting the DASH pattern, and eating 
 
 ### The DASH dietary pattern {#sec-cvd-dash}
 
-The DASH pattern (rich in fruit, vegetables, wholegrains and low-fat dairy; see the
-[*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter) was designed to lower blood
-pressure, and it does so in its own right. In the original feeding trial, with sodium and weight held
-constant, it lowered blood pressure by about 5.5/3.0 mmHg overall and 11.4/5.5 mmHg in people with
-hypertension, so the effect came from the pattern itself [@appel1997dash]. The evidence has two limits, however: the trial
-was a short controlled-feeding study with a surrogate endpoint (blood pressure), and people following the
-pattern on their own achieve less, with pooled trials showing falls nearer 3–7/2–4 mmHg [@filippou2020dashmeta;
-@appel2003premier]. Even so, a fall of a few mmHg across a population meaningfully lowers rates of stroke and heart disease.
+The DASH pattern is rich in fruit, vegetables, wholegrains and low-fat dairy (see the
+[*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter). It was designed to lower
+blood pressure, and it does so in its own right. In the original feeding trial, with sodium and weight
+held constant, it lowered blood pressure by about 5.5/3.0 mmHg overall and 11.4/5.5 mmHg in people with
+hypertension, so the effect came from the pattern itself [@appel1997dash]. The evidence has two limits,
+however. The trial was a short controlled-feeding study with blood pressure as a surrogate endpoint, and
+people following the pattern on their own achieve less: pooled trials show falls nearer 3–7/2–4 mmHg
+[@filippou2020dashmeta; @appel2003premier]. Even so, a fall of a few mmHg across a population meaningfully lowers rates of stroke and heart disease.
 
-DASH works through the whole-food matrix (potassium, magnesium and fibre together), which is more effective
-than the matched supplements, so the advice is to eat potassium-rich produce [@alsolaiman2010dashmechanism].
+DASH works through its whole-food matrix, in which potassium, magnesium and fibre act together. This
+matrix is more effective than the matched supplements, so the advice is to eat potassium-rich produce
+[@alsolaiman2010dashmechanism].
 In Singapore, My Healthy Plate applies the core of DASH to everyday meals: half the plate fruit and vegetables, a quarter wholegrains, a quarter lean protein [@hpbHealthyPlate]. DASH also adds to the effect of salt reduction: in DASH-Sodium, each change lowered blood pressure on its own, and the two together lowered it most [@sacks2001dashsodium].
 
 ### Sodium reduction and potassium intake {#sec-cvd-sodium}
@@ -127,12 +129,14 @@ Excess sodium is a major dietary problem in Singapore (see the *Micronutrients, 
 chapter). About 9 in 10 residents exceed the recommended sodium limit, averaging about 3,600 mg a day
 (roughly twice the WHO ceiling), and most of it is hidden in soup bases, sauces, seasonings and food eaten
 out [@hpb2023sodium]. The blood-pressure benefit of cutting back is
-graded and reversible [@he2013saltbp], and the complementary change is eating more potassium (fruit,
-vegetables, legumes).
+graded and reversible [@he2013saltbp]. The complementary change is to eat more potassium, from fruit,
+vegetables and legumes.
 
-A common objection to cutting salt, the **sodium J-curve** (the suggestion that very low salt intake is harmful), is largely a measurement artefact, and it is irrelevant at Singapore's high average intake, where essentially everyone benefits from cutting down [@cappuccio2022sodiummyths].
+A common objection to cutting salt is the suggestion that very low salt intake is harmful, known as the
+**sodium J-curve**. The J-curve is largely a measurement artefact, and it is irrelevant at Singapore's
+high average intake, where essentially everyone benefits from cutting down [@cappuccio2022sodiummyths].
 
-A potassium-enriched salt substitute is supported by hard-outcome evidence: in a large trial it cut strokes and deaths [@neal2021ssass]. It is not safe for everyone.
+A potassium-enriched salt substitute is supported by hard-outcome evidence: in a large trial it cut strokes and deaths [@neal2021ssass]. It is not, however, safe for everyone.
 
 ::: {.callout-warning}
 ## Check the kidneys before a potassium salt substitute
@@ -157,7 +161,7 @@ Most of the salt is in the soup, the gravy and the sauces: a bowl of fishball no
 - Choose steamed over deep-fried.
 - Add vegetables and fruit for potassium.
 
-Nationally, look for the "Lower in Sodium" Healthier Choice Symbol; Nutri-Grade is also being extended
+Nationally, look for the "Lower in Sodium" Healthier Choice Symbol. Nutri-Grade is also being extended
 beyond drinks to sauces, seasonings and instant noodles [@hpb2023sodium; @moh2025nutrigrade].
 :::
 
@@ -190,7 +194,7 @@ replacing it specifically with polyunsaturated fat cuts them by roughly 30%, abo
 **statin**, a cholesterol-lowering drug [@mensink2003; @hooper2020; @sacks2017].
 
 Claims that saturated fat is harmless came from studies that did not report what
-the fat was replaced with [@siritarino2010], and when the replacement is refined carbohydrate and sugar,
+the fat was replaced with [@siritarino2010]. When the replacement is refined carbohydrate and sugar,
 there is no benefit [@sacks2017]. The question to ask of every swap is therefore "replaced with what?": butter or palm oil
 for olive or canola oil, yes; butter for white bread, no. Try each replacement below.
 
@@ -198,33 +202,33 @@ for olive or canola oil, yes; butter for white bread, no. Try each replacement b
 
 ### Oily fish, omega-3 supplements and icosapent ethyl {#sec-cvd-fish}
 
-A common patient question is whether to buy fish-oil capsules "for the heart", and the answer separates three things: oily fish, routine omega-3 supplements and prescription icosapent ethyl. Oily fish is a food to recommend, as part of the pattern. Routine omega-3 supplements failed to prevent cardiovascular events in large trials [@manson2019vital; @ascend2018omega3], so the advice is to eat the fish. The "fish-oil trial" people cite tested prescription **icosapent ethyl**, a high-dose drug used in selected patients [@bhatt2019reduceit]. Prescribing it is a specialist decision, and its result does not extend to over-the-counter fish oil.
+A common patient question is whether to buy fish-oil capsules "for the heart". Answering it means separating three things: oily fish, routine omega-3 supplements and prescription icosapent ethyl. Oily fish is a food to recommend, as part of the pattern. Routine omega-3 supplements failed to prevent cardiovascular events in large trials [@manson2019vital; @ascend2018omega3], so the advice is to eat the fish. The "fish-oil trial" people cite tested prescription **icosapent ethyl**, a high-dose drug used in selected patients [@bhatt2019reduceit]. Prescribing it is a specialist decision, and its result does not extend to over-the-counter fish oil.
 
 ![Oily fish such as salmon is a food to recommend for heart health.](/figures/food/grilled-salmon.jpg){#fig-oily-fish width="55%" fig-align="center"}
 
 ### The Mediterranean dietary pattern {#sec-cvd-mediterranean}
 
-The Mediterranean pattern (olive oil, nuts, fish, vegetables, legumes, wholegrains; see the *What a
-healthy diet looks like* chapter) is the one with event-level trial evidence. In PREDIMED it lowered a
-composite of cardiovascular events by about 30% in relative terms in a high-risk Spanish population, a
-reduction driven mainly by stroke [@estruch2018predimed].
+The Mediterranean pattern is built on olive oil, nuts, fish, vegetables, legumes and wholegrains (see
+the *What a healthy diet looks like* chapter). It is the pattern with event-level trial evidence. In
+a high-risk Spanish population, PREDIMED found that it lowered a composite of cardiovascular events by
+about 30% in relative terms, mainly through fewer strokes [@estruch2018predimed].
 
 The 30% figure is a relative reduction on a composite endpoint in a high-risk group, so it does not mean a 30% cut for everyone. The original 2013 paper was also
 retracted and republished in 2018 after randomisation irregularities, although its conclusion was
 upheld.
 
-Guidelines endorse the pattern [@esc2021prevention; @medUmbrella], and its everyday translation is, again, My Healthy Plate: plants, wholegrains, fish and plant oils.
+Guidelines endorse the pattern [@esc2021prevention; @medUmbrella]. Its everyday translation is again My Healthy Plate: plants, wholegrains, fish and plant oils.
 
 ### Alcohol and cardiovascular risk {#sec-cvd-alcohol}
 
 The old reassurance that "a daily glass protects your heart" has not held up. The apparent benefit came
 from comparing drinkers with an "abstainer" group that included people who had stopped drinking because
-they were ill (see the [*Adulthood*](adulthood-working-life.qmd) chapter); Mendelian
-randomisation studies, which use genetic variants to remove that bias, find risk rising with intake and
-no protective threshold [@biddinger2022mralcohol], and health bodies now state that there is no safe
+they were ill (see the [*Adulthood*](adulthood-working-life.qmd) chapter). Mendelian
+randomisation studies, which use genetic variants to remove that bias, find risk rising with intake
+and no protective threshold [@biddinger2022mralcohol]. Health bodies now state that there is no safe
 level [@who2023nosafelevel].
 
-For people who drink, cutting down is a cardiovascular measure. It lowers blood pressure, dose-dependently and most in heavy drinkers [@roerecke2017bp], and because heavy drinking raises triglycerides, cutting down or stopping is the standard advice when they are high [@klop2013alcoholtg]. The evidence gives no one a reason to start drinking. Singapore's low-risk guidance caps intake at about two standard drinks a day for men and one for women (a standard drink is about 10 g of alcohol), as a harm-reduction ceiling [@mohAlcoholLimits2018].
+For people who drink, cutting down is a cardiovascular measure. It lowers blood pressure in a dose-dependent way, most of all in heavy drinkers [@roerecke2017bp]. Heavy drinking also raises triglycerides, so cutting down or stopping is the standard advice when they are high [@klop2013alcoholtg]. The evidence gives no one a reason to start drinking. As a harm-reduction ceiling, Singapore's low-risk guidance caps intake at about two standard drinks a day for men and one for women. A standard drink is about 10 g of alcohol [@mohAlcoholLimits2018].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient gives up butter and eats more white bread instead. Why is his cardiovascular risk unlikely to fall?
@@ -234,7 +238,7 @@ The benefit of cutting saturated fat depends on what replaces it, and replacing 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: one patient wants omega-3 capsules because of the "fish-oil trial"; a non-drinker asks whether daily wine protects the heart. Why does the evidence support neither?
 The "fish-oil trial" tested icosapent ethyl, a high-dose prescription drug, so its result does not extend
-to over-the-counter fish oil, and prescribing it is a specialist decision. Routine omega-3 supplements
+to over-the-counter fish oil. Prescribing it is a specialist decision. Routine omega-3 supplements
 failed to prevent cardiovascular events in large trials, so the advice is to eat oily fish as part of
 the pattern.
 
@@ -249,7 +253,7 @@ already drink. A non-drinker should be advised not to start.
 At this stage the task is to recognise the dietary changes that lower risk, then refer or share care
 in making the plan: a dietitian delivers the structured change, and drug decisions belong to the clinician.
 
-National guidance supports this approach: the Agency for Care Effectiveness (ACE) clinical guidance on hypertension and on lipids is risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023], and structured dietary change is
+National guidance supports this approach. The Agency for Care Effectiveness (ACE) clinical guidance on hypertension and on lipids is risk-tiered and lifestyle-first [@aceHtn2023; @aceLipid2023], and structured dietary change is
 referred through EatWise SG [@mohEatWiseSG] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
@@ -265,7 +269,7 @@ Then deliver the lifestyle advice and refer [@aceHtn2023; @aceLipid2023].
 Targets are risk-tiered: a clinician estimates his cardiovascular risk (in Singapore, with SG-FRS-2023),
 and the ACE guidance gives his individual target, so no single number applies to every patient. The task
 at this stage is to deliver the lifestyle advice and refer: a dietitian delivers the structured dietary
-change, through EatWise SG, and the drug decision belongs to the clinician.
+change through EatWise SG, and the drug decision belongs to the clinician.
 :::
 
 ## What does a heart-healthy plate look like? {#sec-close}
@@ -285,9 +289,9 @@ vegetables and a *teh-o kosong*.
 ## The Singapore context {#sec-singapore}
 
 **The burden is large, and much of it is silent.** Cardiovascular disease is Singapore's leading cause of
-death, about 30% of deaths [@shfHeartStats2024]. Measured hypertension, a silent risk factor behind that burden,
-affects about 34% of adults, but just over half of them are undiagnosed and most known cases are not well
-controlled [@nphs2024]. The number of undiagnosed cases shows the need to screen for
+death, about 30% of deaths [@shfHeartStats2024]. Measured hypertension is a silent risk factor behind
+that burden. It affects about 34% of adults, but just over half of them are undiagnosed and most known
+cases are not well controlled [@nphs2024]. The number of undiagnosed cases shows the need to screen for
 a disease that has no symptoms.
 
 **National measures support each dietary change.** Sodium is the priority ([above](#sec-cvd-sodium)),
@@ -298,7 +302,7 @@ change to make at home is the type of oil and less deep-frying [@moh2025nutrigra
 the ready-made local form of the DASH and Mediterranean patterns [@hpbHealthyPlate].
 
 **Risk scores must be calibrated to the local population.** Singapore estimates risk with SG-FRS-2023, a
-risk score recalibrated on local multi-ethnic data because imported US equations mis-estimate risk across
+risk score that was recalibrated on local multi-ethnic data because imported US equations mis-estimate risk across
 Chinese, Malay and Indian groups. It estimates only 10-year coronary risk, and excludes stroke and total
 cardiovascular risk [@sgfrs2023].
 
@@ -312,7 +316,7 @@ Mr Chua is 52, eats most meals at the hawker centre, and has a raised blood pres
 He wants to know whether he needs medication, whether to buy a potassium salt substitute he saw online,
 and whether a daily beer is good for his heart. Work through the visit: start with the right first step,
 translate the pattern to his hawker plate, handle the salt-substitute safety check, and notice where
-memorising a target, or reaching for a drug first, would be a mistake. The case branches according
+memorising a target or reaching for a drug first would be a mistake. The case branches according
 to your choices.
 
 <div data-island="case" data-src="/cases/mr-chua-cvd.case.yml"></div>

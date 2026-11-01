@@ -33,9 +33,9 @@
 
 ## Macronutrients at a glance {#sec-overview}
 
-**Macronutrients** are the nutrients the body needs in gram quantities, and the ones that supply
-energy. There are three (carbohydrate, fat and protein), plus **dietary fibre**, the carbohydrate
-that the small intestine cannot digest. They differ in how much energy each yields:
+**Macronutrients** are the nutrients that the body needs in gram quantities and that supply energy.
+The three macronutrients are carbohydrate, fat and protein. **Dietary fibre**, the carbohydrate that
+the small intestine cannot digest, is considered with them, and all four differ in how much energy each yields:
 
 | Macronutrient | Energy (kcal/g) | Main role |
 |---|---|---|
@@ -68,8 +68,8 @@ The health effect of a macronutrient depends on its form and food source, so "Ar
 
 Each region of the spectrum has its own place in the diet:
 
-- **Free sugars**, added sugars plus those in honey, syrups and fruit juices, are the carbohydrate to
-  limit. The WHO caps them at <10% of energy, with further benefit below 5% [@who2020diet]. The
+- **Free sugars** are added sugars plus those in honey, syrups and fruit juices, and they are the
+  carbohydrate to limit. The WHO caps them at <10% of energy, with further benefit below 5% [@who2020diet]. The
   natural sugar inside whole fruit is not a free sugar.
 - **Refined starches** (white rice, white bread) are digested fast and stripped of fibre.
 - **Wholegrains**, grains that keep their bran and germ, sit with fibre at the protective end.
@@ -84,11 +84,11 @@ Monosaccharides
   and galactose (from milk).
 
 Disaccharides
-: Two units joined: sucrose, lactose and maltose. Most adults make less lactase, the enzyme that splits lactose, after childhood; this is the norm, and only some get symptoms (lactose intolerance; see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
+: Two units joined: sucrose, lactose and maltose. After childhood, most adults make less lactase, the enzyme that splits lactose. This decline is the norm, and only some get symptoms (lactose intolerance; see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
 
 Polysaccharides
 : Long chains of units. Rice, bread and potato are mostly **starch**, a mix of amylose and
-  amylopectin; **glycogen** is the animal store; and **cellulose**, dietary fibre, is held together by
+  amylopectin. **Glycogen** is the animal store, and **cellulose** is a dietary fibre held together by
   β-links that no human enzyme can cut, so it passes through.
 
 Amylose and amylopectin
@@ -108,14 +108,14 @@ glycaemic index, ~70+; see [Glycaemic index and glycaemic load](#sec-gi-gl)), so
 advantage is real but limited [@atkinson2021gitables; @cai2021starchstructure].
 :::
 
-**What it does.** Once broken down to glucose, carbohydrate is the body's main everyday fuel. Glucose powers the brain
-(which normally depends on it almost exclusively) and fuels working muscle; the surplus is
+**What it does.** Once broken down to glucose, carbohydrate is the body's main everyday fuel. Glucose powers the brain,
+which normally depends on it almost exclusively, and fuels working muscle. The surplus is
 stored as glycogen in liver and muscle, and adequate carbohydrate "spares" protein from
 being burned for energy.
 
-**From plate to cell.** The breakdown of starch begins in the mouth (salivary amylase) and resumes in the small intestine (pancreatic amylase). There, brush-border enzymes (maltase, sucrase and
-lactase, which sit on the surface of the intestinal lining cells) finish the breakdown to single
-sugars. Glucose and galactose cross the gut lining on SGLT1 (sodium–glucose cotransporter 1), and
+**From plate to cell.** The breakdown of starch begins in the mouth with salivary amylase and resumes in the small intestine with pancreatic amylase. There, the breakdown to single sugars is finished by brush-border
+enzymes (maltase, sucrase and lactase), which sit on the surface of the intestinal lining
+cells. Glucose and galactose cross the gut lining on SGLT1 (sodium–glucose cotransporter 1), and
 fructose on its own transporter, GLUT5. Glucose and galactose then travel to the liver in the
 portal blood, where insulin drives their storage. (Digestion in detail: see the
 [*Digestion and absorption*](digestion-absorption.qmd) chapter; the fed and fasted handling of glucose:
@@ -129,15 +129,16 @@ colorectal cancer. The association strengthened up to about 25–29 g of fibre a
 
 ::: {.callout-warning}
 ## How strong is the fibre evidence?
-The evidence comes mostly from prospective cohort studies (which record what people eat and follow
-them forward for years), plus some trials, so most findings are associations and do not prove cause. Their certainty is moderate at best for fibre, and lower for wholegrains and for glycaemic index and load (see [Glycaemic index and glycaemic load](#sec-gi-gl)).
+The evidence comes mostly from prospective cohort studies, which record what people eat and follow
+them forward for years, together with some trials. Most findings are therefore associations and do not
+prove cause. Their certainty is moderate at best for fibre, and lower for wholegrains and for glycaemic index and load (see [Glycaemic index and glycaemic load](#sec-gi-gl)).
 :::
 
 ### Glycaemic index and glycaemic load {#sec-gi-gl}
 
-Carbohydrate foods raise blood glucose at different speeds and by different amounts. Foods are compared on a fixed amount of **available carbohydrate**: the digestible carbohydrate in a food, the part that drives the glucose response. The **glycaemic
+Carbohydrate foods raise blood glucose at different speeds and by different amounts. Foods are compared on a fixed amount of **available carbohydrate**, which is the digestible carbohydrate in a food and the part that drives the glucose response. The **glycaemic
 index (GI)** ranks a food by how much a portion containing 50 g of available carbohydrate raises
-blood glucose over about two hours, relative to pure glucose, set at 100
+blood glucose over about two hours, relative to pure glucose, which is set at 100
 [@atkinson2021gitables]. Lower-GI foods give a gentler, slower rise:
 
 ::: {.spectrum}
@@ -216,31 +217,31 @@ over products made from finely milled flour.
 
 ### Fibre: the carbohydrate we don't digest {#sec-fibre}
 
-**What it is.** Dietary fibre is carbohydrate that the small intestine cannot digest. It comes as
-**soluble fibre** (viscous; in oats, legumes and some fruit) and **insoluble fibre** (bulking; in
-wholegrain bran and vegetable skins), and much of it can be fermented by gut bacteria.
+**What it is.** Dietary fibre is carbohydrate that the small intestine cannot digest. It comes in two
+forms: viscous **soluble fibre**, found in oats, legumes and some fruit, and bulking
+**insoluble fibre**, found in wholegrain bran and vegetable skins. Much of it can be fermented by gut bacteria.
 
-**What it does.** Soluble fibre slows digestion and blunts the rise in blood glucose; insoluble fibre adds
-bulk and aids regularity; and the fermentable part feeds gut microbes that make short-chain fatty
+**What it does.** Soluble fibre slows digestion and blunts the rise in blood glucose, and insoluble fibre adds
+bulk and aids regularity. The fermentable part feeds gut microbes that make short-chain fatty
 acids (see [*The gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter). Higher fibre intake is
 among the best-supported dietary associations with lower disease risk (see the evidence above)
 [@reynolds2019carb].
 
 ::: {.callout-note}
 ## 🔬 Food science: the food matrix, why whole fruit differs from juice
-Fibre is part of a food's physical structure, its **food matrix**. Juicing or finely blending fruit
+A food's physical structure is its **food matrix**, and fibre is part of it. Juicing or finely blending fruit
 tears open the plant cell walls that enclosed the sugars. In a classic study, apple juice was drunk far
 faster than the same carbohydrate as whole apples, was less satiating, and produced a larger insulin response
 followed by a rebound fall in glucose [@haber1977apple]. A glass of juice also carries several fruits' worth of sugar with little of
-the fibre. Intact cell walls slow sugar release; milling grain into fine flour destroys them, part of
-the reason wholegrains are preferred to refined starch.
+the fibre. Intact cell walls slow sugar release. Milling grain into fine flour destroys them, which is
+part of the reason wholegrains are preferred to refined starch.
 :::
 
 ::: {.callout-tip}
 ## 🍜 Eating out
-Choose whole fruit over bottled or freshly pressed juice, and add a vegetable or bean side, a
-scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to raise the fibre content of an otherwise
-refined-starch plate.
+Choose whole fruit over bottled or freshly pressed juice. Add a vegetable or bean side, such as a
+scoop of *dhal*, some *tau kwa*, chickpeas or extra *sayur*, to raise the fibre content of an
+otherwise refined-starch plate.
 :::
 
 ::: {.callout-tip}
@@ -286,8 +287,8 @@ Essential fatty acids
 : The two fatty acids the body cannot make: linoleic acid (an omega-6) and α-linolenic acid (an
   omega-3). The omega number is counted from the tail end of the chain.
 
-Fatty acids are rarely found on their own: three of them esterified onto a glycerol backbone make a
-**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to). Replacing one fatty acid with a phosphate head gives a **phospholipid**, which is amphipathic (it has a water-attracting head and water-repelling tails), so phospholipids self-assemble into the lipid bilayer of every cell membrane. The third feature, chain length, runs from short through medium to long; medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
+Fatty acids are rarely found on their own. Three of them esterified onto a glycerol backbone make a
+**triglyceride**, the main form of dietary and stored fat and the form to which the ~9 kcal/g refers. Replacing one fatty acid with a phosphate head gives a **phospholipid**. Phospholipids are amphipathic, with a water-attracting head and water-repelling tails, so they self-assemble into the lipid bilayer of every cell membrane. The third feature is chain length, which runs from short through medium to long. Medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
 steroid hormones, bile acids and vitamin D. The cholesterol in food raises blood cholesterol
@@ -300,7 +301,7 @@ every cell membrane, the carrier for the fat-soluble vitamins (A, D, E, K), and 
 essential fatty acids.
 
 **From plate to cell.** Fat does not mix with water, so it is emulsified first: bile salts from
-the liver break it into tiny droplets, and pancreatic lipase frees fatty acids and
+the liver break it into tiny droplets. Pancreatic lipase then frees fatty acids and
 monoglycerides, which micelles carry to the gut lining for absorption. Inside the intestinal cells
 these products are re-assembled into triglycerides and packaged into chylomicrons, which enter the
 lymphatics (not the portal vein) before reaching the blood. (Bile and micelles: see the
@@ -324,8 +325,8 @@ In the blood, fats still do not dissolve, so they travel inside **lipoproteins**
 
 - *Trans* fat is the clearest harm. WHO recommends <1% of energy and elimination of industrial
   sources [@who2020diet].
-- Saturated fat raises LDL cholesterol (the "bad" cholesterol); the practical advice is to replace
-  it with unsaturated fat.
+- Saturated fat raises LDL cholesterol (the "bad" cholesterol), and the practical advice is to
+  replace it with unsaturated fat.
 - Mono- and polyunsaturated fats (olive oil, nuts, fish) are the ones to favour, and they include the
   essential omega-3 and omega-6 fatty acids.
 
@@ -341,9 +342,9 @@ Choosing "low fat" often means replacing fat with refined starch or sugar, which
 Oleic acid (olive oil) and elaidic acid (the classic industrial *trans* fat) contain the same atoms
 and differ only in the geometry of one double bond. Start with the 2D formula, then rotate the 3D
 model, and add stearic acid (a saturated fat) for comparison. The *trans* chain is almost as
-straight as the saturated one, so, like stearic acid, it packs tightly and behaves like a solid fat.
-The bend from one *cis* bond is modest; polyunsaturated fats, with several *cis* bonds, are far more
-kinked.
+straight as the saturated one, so it packs tightly like stearic acid and behaves like a solid fat.
+The bend from one *cis* bond is modest, and polyunsaturated fats, which have several *cis* bonds, are
+far more kinked.
 
 <div data-island="molecule" data-src="/structures/dietary-fats.mol.yml"></div>
 
@@ -352,7 +353,7 @@ kinked.
 ::: {.callout-note}
 ## 🔬 Food science: geometry and oxidation
 The *cis* kink in the model above is why olive oil is liquid while *trans* and saturated fats are
-more solid. Heat also changes oils: overheating oil past its smoke point, or reusing frying oil repeatedly, oxidises and breaks it down into harmful compounds such as aldehydes; polyunsaturated oils are unstable under intense heat [@sfaReusingOils].
+more solid. Heat also changes oils. Overheating oil past its smoke point or reusing frying oil repeatedly oxidises it and breaks it down into harmful compounds such as aldehydes, and polyunsaturated oils are unstable under intense heat [@sfaReusingOils].
 :::
 
 ::: {.callout-tip}
@@ -427,19 +428,19 @@ skin, and it makes up enzymes, antibodies, and transport and signalling molecule
 acids are also the precursors of other nitrogen-containing molecules, including several
 neurotransmitters (such as serotonin and dopamine) and hormones (adrenaline, thyroid hormone).
 Unlike carbohydrate and fat, protein is not primarily an energy store: the body keeps only a small
-circulating amino-acid pool and turns its proteins over continuously. Protein also has the highest thermic effect of the macronutrients (see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter), contributing modestly to energy expenditure and satiety.
+circulating amino-acid pool and turns its proteins over continuously. Protein also has the highest thermic effect of the macronutrients (see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter), and it contributes modestly to energy expenditure and satiety.
 
 **From plate to cell.** Protein digestion starts in the stomach, where acid unfolds it and
 pepsin begins cleaving it. Pancreatic proteases (trypsin, chymotrypsin) and brush-border
 peptidases then break it down to amino acids and short peptides, which are absorbed into the
 portal blood.
-Cells use these to build their own proteins; surplus amino acids are deaminated (the nitrogen
-leaving as urea) and their carbon skeletons burned for energy or turned into glucose. (Digestion
+Cells use these to build their own proteins. Surplus amino acids are deaminated, with the nitrogen
+leaving as urea, and their carbon skeletons are burned for energy or turned into glucose. (Digestion
 in detail: see the [*Digestion and absorption*](digestion-absorption.qmd) chapter; amino-acid
 metabolism: see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-amino) chapter.)
 
 **Quality: adequacy and completeness.** A useful population reference is about 0.8 g/kg/day,
-adequate for most healthy adults [@who2007protein], though needs rise in older age, illness
+which is adequate for most healthy adults [@who2007protein]. Needs rise in older age, illness
 [@bauer2013protage] and athletic training.
 
 **Protein quality** reflects how well a protein's amino acids match human needs and how digestible
@@ -454,11 +455,11 @@ protein foods also supply fibre and unsaturated fat.
 
 ::: {.callout-note}
 ## 🔬 Food science: heat, browning and protein
-Heat **denatures** protein, unfolding it so enzymes can reach it, which usually makes it easier to
-digest: cooked egg protein is absorbed far better than raw (~91% vs ~51%) [@evenepoel1998egg]. The
-high-heat browning that adds flavour, the **Maillard reaction**, also forms potentially harmful compounds. In starchy
-foods it forms **acrylamide**, a genotoxic carcinogen of concern [@efsa2015acrylamide]; in meat
-cooked at high heat, related reactions of amino acids, sugars and creatine form heterocyclic amines,
+Heat **denatures** protein: it unfolds the chain so that enzymes can reach it, which usually makes
+the protein easier to digest. Cooked egg protein is absorbed far better than raw (~91% vs ~51%)
+[@evenepoel1998egg]. The **Maillard reaction**, the high-heat browning that adds flavour,
+also forms potentially harmful compounds. In starchy foods it forms **acrylamide**, a
+genotoxic carcinogen of concern [@efsa2015acrylamide]. In meat cooked at high heat, related reactions of amino acids, sugars and creatine form heterocyclic amines,
 and fat dripping onto a flame adds smoke-borne polycyclic aromatic hydrocarbons; both are mutagens in
 the laboratory, though the human cancer evidence is inconclusive [@nciCookedMeats].
 :::
@@ -516,9 +517,9 @@ Prescribing gram targets is not expected at this stage.
 
 ## The Singapore context {#sec-singapore}
 
-My Healthy Plate ("quarter, quarter, half": ¼ wholegrains, ¼ protein, ½ fruit and vegetables)
-[@hpbHealthyPlate] and the Nutri-Grade A–D drink labels [@hpbNutriGrade] are Singapore's everyday
-tools for the advice above (both introduced in the
+Singapore's everyday tools for the advice above are My Healthy Plate ("quarter, quarter, half": ¼
+wholegrains, ¼ protein, ½ fruit and vegetables) [@hpbHealthyPlate] and the Nutri-Grade A–D drink
+labels [@hpbNutriGrade] (both introduced in the
 [*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter). The National Nutrition Survey
 2022 shows the gap they address: only about 4% of the staples eaten are wholegrain, against a
 recommendation of about 30%; saturated fat makes up a large share of fat intake; and most residents

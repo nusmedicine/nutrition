@@ -39,15 +39,15 @@
 ## Assessing diet and talking to patients at a glance {#sec-overview}
 
 Knowing what people should eat (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
-chapter) is useful only once the clinician knows what a patient eats now. The tool is the **diet history**, a structured conversation about what a
-patient usually eats and drinks. The same short conversation that covers food also covers
+chapter) is useful only once the clinician knows what a patient eats now. The tool is a structured conversation about what a patient usually eats
+and drinks, called the **diet history**. The same short conversation that covers food also covers
 drinking, activity, sleep and stress. A diet history is therefore one branch of a whole lifestyle
 history, and the skill transfers to the rest of it.
 
 Medical students and recent graduates report gaps in the knowledge, skills and confidence to give
 nutrition care, including talking to patients about food [@crowley2019]. Given those gaps, the goal at this stage is competent first contact:
 take a basic history, read a label, flag the likely problems and open the conversation. Specialist
-assessment and a therapeutic plan lie beyond first contact; where a plan turns detailed or
+assessment and a therapeutic plan lie beyond first contact. Where a plan turns detailed or
 restrictive, you recognise it and refer.
 
 ::: {.callout-note}
@@ -90,9 +90,9 @@ A diet history is a structured, non-judgemental conversation. Walk through a typ
 waking to sleeping, then probe the most informative areas: meal pattern and skipping, drinks, snacks, how
 often they eat out or *tapau* (buy takeaway), portion sizes, who shops and cooks, and supplements.
 
-Locally, the most useful single probe is drinks. Sugary drinks (*kopi* and *teh* with condensed
-milk, *bandung*, bubble tea, canned soft drinks) were the single biggest source of sugar in the 2022
-National Nutrition Survey, about half of all sugar eaten [@mohNNS2022], and they are the topic most often left out. The drinks probe also
+Locally, the most useful single probe is drinks. Sugary drinks such as *kopi* and *teh* with condensed
+milk, *bandung*, bubble tea and canned soft drinks were the single biggest source of sugar in the 2022
+National Nutrition Survey, supplying about half of all sugar eaten [@mohNNS2022]. They are the topic most often left out. The drinks probe also
 includes a routine, non-judgemental question about alcohol.
 
 Try the history below: click the questions you would ask and watch the history build up, and notice what
@@ -108,23 +108,23 @@ scoops?"), and you uncover far more than an open "so, how's your diet?" ever wil
 
 ### Reading a food label {#sec-food-label}
 
-A packaged food or drink carries a **Nutrition Information Panel**, the nutrient table quoted per
-serving and per 100 g or 100 ml. The common pitfall is the serving size, which may be small or unrealistic: on a bottle labelled "2.5 servings", the per-serving figure understates how much sugar a person drinks when they finish it in one go. The per-100 g or per-100 ml column is therefore the one to check, because it
+The nutrient table on a packaged food or drink, quoted per serving and per 100 g or 100 ml, is the
+**Nutrition Information Panel**. The common pitfall is the serving size, which may be small or unrealistic: on a bottle labelled "2.5 servings", the per-serving figure understates how much sugar a person drinks when they finish it in one go. The per-100 g or per-100 ml column is therefore the one to check, because it
 compares products fairly. The ingredient list gives one more clue: it is ordered by weight, so sugar
-near the top, under any of its many names, is a warning. (The policy behind labels and the wider food
+listed near the top under any of its many names is a warning. (The policy behind labels and the wider food
 environment is in the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter.)
 
 ### Nutri-Grade: front-of-pack grading of drinks {#sec-nutri-grade}
 
-Nutri-Grade, Singapore's front-of-pack mark for drinks (see the
-[*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter), condenses the label into a single
-judgement. It grades a beverage A to D by sugar per 100 ml (A ≤1 g, B >1–5 g, C >5–10 g, D >10 g).
+Nutri-Grade is Singapore's front-of-pack mark for drinks (see the
+[*Why nutrition matters*](01-why-nutrition-matters.qmd) chapter), and it condenses the label into a
+single judgement. It grades a beverage A to D by sugar per 100 ml (A ≤1 g, B >1–5 g, C >5–10 g, D >10 g).
 A high saturated-fat content then downgrades it, so a low-sugar but creamy drink still cannot
-reach an A. Grades C and D must display the mark, and grade D cannot be advertised. Pre-packaged drinks have carried the mark since 30 December 2022, and since 30 December 2023 it has also covered freshly-prepared drinks such as *kopi*, *teh* and bubble tea, although small sellers (revenue of S$1 million or less and fewer than 10 outlets) are exempt [@hpbNutriGrade]. Because the mark now reaches freshly-prepared drinks as well, "grade your usual drink, then pick one swap" is an authentic local exercise:
+reach an A. Grades C and D must display the mark, and grade D cannot be advertised. Pre-packaged drinks have carried the mark since 30 December 2022. Since 30 December 2023 it has also covered freshly-prepared drinks such as *kopi*, *teh* and bubble tea, although small sellers with revenue of S$1 million or less and fewer than 10 outlets are exempt [@hpbNutriGrade]. Because the mark now reaches freshly-prepared drinks as well, "grade your usual drink, then pick one swap" is an authentic local exercise:
 
 <div data-island="nutri-grade" data-src="/diagrams/nutri-grade.yml"></div>
 
-Nutri-Grade has a modest effect on individual drink choices. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
+Nutri-Grade has a modest effect on individual drink choices. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, and only on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
 
 ::: {.callout-tip}
 ## 🍜 Eating out: start with the drink
@@ -170,12 +170,12 @@ recur, each with familiar sources:
 - saturated fat, from coconut gravy, fried food and fatty or processed meat.
 
 The shortfalls follow the same pattern: wholegrains, fibre, fruit and vegetables, and in some groups
-calcium or iron. You read the pattern and name, in plain terms, the two or three things worth changing, without calculating nutrient intakes.
+calcium or iron. You read the pattern and use plain terms to name the two or three things worth changing, without calculating nutrient intakes.
 
 ### Anthropometry and malnutrition screening {#sec-both-tails}
 
-**Anthropometry** (body measurements such as weight, height and waist circumference) adds objective
-measurements to the history. BMI classifies weight-for-height (see the
+**Anthropometry** means body measurements such as weight, height and waist circumference, and it adds
+objective measurements to the history. BMI classifies weight-for-height (see the
 [*Energy balance*](energy-balance.qmd#sec-measuring) chapter), and Singapore uses lower Asian cut-offs, because cardiometabolic risk rises at a lower BMI in Asian
 populations than the international thresholds imply [@sgObesityBMI]:
 
@@ -184,14 +184,14 @@ populations than the international thresholds imply [@sgObesityBMI]:
 | Overweight | BMI ≥23 kg/m² | BMI ≥25 kg/m² |
 | Obese | BMI ≥27.5 kg/m² | BMI ≥30 kg/m² |
 
-BMI is a screening measure: it does not capture body composition (a muscular person, or an older person who has lost muscle), so it is read alongside the history. Waist circumference adds a measure of the central fat that BMI misses: ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI].
+BMI is a screening measure. Because it does not capture body composition, for example in a muscular person or an older person who has lost muscle, it is read alongside the history. Waist circumference adds a measure of the central fat that BMI misses: ≥90 cm in men or ≥80 cm in women flags excess central (visceral) fat [@sgObesityBMI].
 
 Malnutrition covers both extremes of nutritional status, excess (overnutrition) and deficit (undernutrition). The BMI and waist cut-offs flag excess, and clinicians tend to look only for that. Some patients are undernourished: an unwell older adult who has lost weight and appetite, or someone eating alone and skipping meals. A validated tool such as the **Malnutrition
-Universal Screening Tool (MUST)**, which combines BMI, recent unplanned weight loss and any acute
-illness stopping intake, flags this risk and triggers a referral pathway [@bapenMUST].
+Universal Screening Tool (MUST)** flags this risk and triggers a referral pathway. MUST combines BMI,
+recent unplanned weight loss and any acute illness stopping intake [@bapenMUST].
 
-Unplanned weight loss is included in MUST because a sustained energy deficit, worsened by illness, drives catabolism of **lean body mass** (muscle and organ protein) as well as fat
-(see prolonged fasting in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation)
+Unplanned weight loss is included in MUST because a sustained energy deficit, worsened by illness, drives catabolism of the muscle and organ protein that makes up
+**lean body mass**, as well as of fat (see prolonged fasting in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation)
 chapter). The loss of that functional tissue impairs strength, immune function and recovery. A falling weight
 is therefore a red flag even when the BMI still reads "normal". At this stage you recognise when MUST applies and refer (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
 chapter for the recognition and management of the malnourished patient).
@@ -236,15 +236,15 @@ sequence [@fiveAsNutrition]:
 5. Arrange
 :::
 
-At first contact the focus is the opening steps, assess and advise; the full cycle, and the motivational-interviewing skills behind it, are in the [*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter. Assessing means finding out what the patient
-eats and what they are ready to change, without judgement; it is the diet history above. Advising
+At first contact the focus is on the opening steps, assess and advise (the full cycle and the motivational-interviewing skills behind it are in the [*Behaviour-change counselling*](behaviour-change-counselling.qmd) chapter). Assessing, which is the diet history above, means finding out what the patient
+eats and what they are ready to change, without judgement. Advising
 means offering one concrete, realistic step, with permission: "Would it be alright if I shared one
 idea about your drinks?" makes the patient more willing to listen.
 
 Two rules matter most: ask before advising, as in that example, because permission turns advice into a conversation; and use plain language, saying "sugary drinks" where a guideline would say "free sugars exceeding ten percent of energy".
 Counselling in this respectful, motivational-interviewing style can produce small, mostly short-term
-improvements in some health behaviours, such as drinking and physical activity; for diet specifically
-the evidence is of low quality [@frost2018mi].
+improvements in some health behaviours, such as drinking and physical activity, although for diet
+specifically the evidence is of low quality [@frost2018mi].
 
 ### Do no harm: eating-disorder red flags and screening {#sec-do-no-harm}
 
@@ -255,12 +255,12 @@ Attention to possible harm belongs at first contact, before any advice to restri
 - a driven pursuit of thinness;
 - emotionally charged talk about weight.
 
-When a red flag appears, a brief screen such as **SCOFF** (five questions on vomiting, loss of control,
-recent weight loss, feeling fat, and food dominating life) raises or lowers suspicion. Two measures
-describe how well a screen performs: its **sensitivity**, the proportion of people with the condition
-whom it correctly flags, and its **specificity**, the proportion without it whom it correctly clears.
-SCOFF was first validated in young women with anorexia or bulimia [@scoffMorgan1999]; pooled across
-25 validation studies, its sensitivity is about 0.86 and its specificity about 0.83 [@kutzScoff2020]. A positive SCOFF result means ask more and consider referral, and a negative result still leaves an eating disorder possible. The safe
+When a red flag appears, a brief screen raises or lowers suspicion. One such screen is **SCOFF**, which
+asks five questions on vomiting, loss of control, recent weight loss, feeling fat, and food dominating
+life. Two measures describe how well a screen performs: its **sensitivity** is the proportion of people
+with the condition whom it correctly flags, and its **specificity** is the proportion without it whom it
+correctly clears. SCOFF was first validated in young women with anorexia or bulimia [@scoffMorgan1999].
+Pooled across 25 validation studies, its sensitivity is about 0.86 and its specificity about 0.83 [@kutzScoff2020]. A positive SCOFF result means ask more and consider referral, and a negative result still leaves an eating disorder possible. The safe
 response at this stage is the same either way: do not advise dietary restriction when there may be an eating
 disorder; be supportive, and refer.
 

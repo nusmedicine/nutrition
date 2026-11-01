@@ -36,11 +36,12 @@
 
 ## The gut microbiome at a glance {#sec-overview}
 
-The large intestine houses the **gut microbiome**, a dense community of microbes (mostly bacteria, with some archaea, fungi and viruses) that lives on the food the small intestine could not digest and carries out chemistry that
-human cells cannot.
+The large intestine houses a dense community of microbes known as the **gut microbiome**. It is made up
+mostly of bacteria, with some archaea, fungi and viruses. It lives on the food the small intestine
+could not digest and carries out chemistry that human cells cannot.
 
-The microbiome is best understood as an ecosystem: a community shaped by what it is fed, studied the
-way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most heavily marketed topics in consumer nutrition. Its mechanisms are real and can be modified by diet, and many of the claims made in its marketing lack a plausible mechanism.
+The microbiome is best understood as an ecosystem. What it is fed shapes the community, which is
+studied the way an ecologist studies a habitat, with no single component that a pill can correct. It is also one of the most heavily marketed topics in consumer nutrition. Its mechanisms are real and can be modified by diet, and many of the claims made in its marketing lack a plausible mechanism.
 
 ## Composition and development of the gut microbiome {#sec-gut-who}
 
@@ -66,25 +67,27 @@ the colon [@matijasic2020beyond].
 
 The phylum names were formally updated in 2021, so older papers use the former ones [@oren2021valid].
 
-Microbial density climbs steeply along the gastrointestinal tract, and each region's conditions explain its place on that gradient [@donaldson2016gutbiogeography]. Acid keeps numbers low in the stomach, and fast transit keeps them low in the small intestine. In the colon, by contrast, slow transit, near-neutral pH and little absorption allow the highest density, by orders of magnitude, so the colon is the main site of microbial fermentation (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
+Microbial density climbs steeply along the gastrointestinal tract, and each region's conditions explain its place on that gradient [@donaldson2016gutbiogeography]. Acid keeps numbers low in the stomach, and fast transit keeps them low in the small intestine. In the colon, slow transit, near-neutral pH and little absorption allow the highest density in the gut, by orders of magnitude, so the colon is the main site of microbial fermentation (see the [*Digestion and absorption*](digestion-absorption.qmd) chapter).
 
 ::: {.callout-warning}
 ## Do microbes outnumber human cells ten to one?
-The figure of ten bacteria for every human cell, still widely quoted, comes from a rough estimate made in the 1970s. A 2016 recount put the ratio at roughly 1:1: about 38 trillion bacteria
-to 30 trillion human cells, most of them (~84%) small red blood cells that the old estimate left out
-[@sender2016revised]. The same recount puts total bacterial mass at about 0.2 kg; the often-quoted
-"1–2 kg" conflates bacteria with the whole weight of the colonic contents.
+The figure of ten bacteria for every human cell, still widely quoted, comes from a rough estimate made in the 1970s. A 2016 recount put the ratio at roughly 1:1, about 38 trillion bacteria
+to 30 trillion human cells. Most of the human cells (~84%) are small red blood cells that the old estimate
+left out [@sender2016revised]. The same recount puts total bacterial mass at about 0.2 kg. The
+often-quoted "1–2 kg" conflates bacteria with the whole weight of the colonic contents.
 :::
 
-In genes, the microbiome far outnumbers its host: the collective microbial gene catalogue, the **metagenome**, is on the order of 150 times the ~20,000
-genes of the human genome [@qin2010catalogue]. This "second genome" lets gut microbes extract energy and
+In genes, the microbiome far outnumbers its host. The **metagenome**, which is the collective microbial gene
+catalogue, is on the order of 150 times the ~20,000 genes of the human genome
+[@qin2010catalogue]. This "second genome" lets gut microbes extract energy and
 make compounds that human cells cannot.
 
-Two healthy people can carry very different species and still perform the same functions, because each function, such as fibre fermentation, vitamin synthesis or short-chain fatty acid
-production, is carried out by many different microbes, a property called **functional redundancy**
-[@moya2016functional]. Functional
-redundancy also explains why **microbial diversity** (the number of species present and how evenly they
-are represented) is only a loose, context-dependent health marker: a richer community tends to be more resilient, but there are clear exceptions [@mcburney2019healthy].
+Two healthy people can carry very different species and still perform the same functions because of
+**functional redundancy**: each function, such as fibre fermentation, vitamin synthesis or short-chain
+fatty acid production, is carried out by many different microbes [@moya2016functional]. **Microbial
+diversity** describes the number of species present and how evenly they are represented. Functional
+redundancy also explains why diversity is only a loose, context-dependent health marker: a richer
+community tends to be more resilient, but there are clear exceptions [@mcburney2019healthy].
 
 ::: {.callout-note collapse="true"}
 ## Optional: what happened to "enterotypes"?
@@ -122,7 +125,7 @@ only a loose marker of gut health.
 
 ## What gut microbes do for the host {#sec-gut-function}
 
-Colonic microbes make two kinds of product relevant to the host: short-chain fatty acids from fermentation, which fuel the colon and signal elsewhere in the body, and vitamins, little of which the host absorbs.
+Colonic microbes make two kinds of product relevant to the host. Fermentation yields short-chain fatty acids, which fuel the colon and signal elsewhere in the body, and the microbes also make vitamins, though the host absorbs little of them.
 
 ### Colonic fermentation and short-chain fatty acids {#sec-scfa}
 
@@ -177,9 +180,9 @@ Alongside the SCFAs, fermentation releases three gases, the source of the bloati
   *Methanobrevibacter smithii*, which consume H₂ and so let fermentation continue
   [@chaudhary2018methanogens].
 
-More gas is produced when a large load of fermentable substrate arrives at once (undigested lactose,
-beans, onions or certain **FODMAPs**, the fermentable oligosaccharides, disaccharides, monosaccharides
-and polyols), and the distension is felt as bloating and flatulence. Gas is usually a sign that
+More gas is produced when a large load of fermentable substrate arrives at once, and the distension is
+felt as bloating and flatulence. Typical sources are undigested lactose, beans, onions or certain
+**FODMAPs**, the fermentable oligosaccharides, disaccharides, monosaccharides and polyols. Gas is usually a sign that
 fermentation is proceeding normally.
 
 A diverse microbiome is resilient partly because microbes **cross-feed**: one species lives on the
@@ -198,20 +201,20 @@ flowchart LR
   BP --> BUT["Butyrate<br/>→ fuels the colon lining"]
 ```
 
-SCFAs also protect the gut wall in two ways: they lower colonic pH, which discourages acid-sensitive
-pathogens, and butyrate fuels the epithelium and supports the **mucus barrier**, the layer of mucus that
-keeps bacteria away from the epithelial surface. When fibre runs short, however, gut microbes can degrade
-that mucus layer for nutrients instead, thinning the barrier; this has been shown in gnotobiotic mice
-(germ-free mice colonised with a defined set of bacteria) [@desai2016fibre].
+SCFAs also protect the gut wall in two ways. They lower colonic pH, which discourages acid-sensitive
+pathogens, and butyrate fuels the epithelium and supports the **mucus barrier**, which is the layer of mucus
+that keeps bacteria away from the epithelial surface. When fibre runs short, however, gut microbes
+can degrade that mucus layer for nutrients instead and thin the barrier. This has been shown in
+gnotobiotic mice, which are germ-free mice colonised with a defined set of bacteria [@desai2016fibre].
 
 ::: {.callout-note}
 ## 🔬 Food science: not all fibre ferments the same way
-Fibre is the substrate here (its chemistry is in the [*Macronutrients*](macronutrients.qmd)
-chapter); for the microbiome, what matters is how fermentable it is. Rapidly fermented soluble fibres
-(inulin in onion and garlic, pectin in fruit, β-glucan in oats) give a prompt burst of SCFAs and gas.
-Resistant starch, in cooked-and-cooled rice or pasta, slightly green bananas and legumes, ferments more
-slowly and further along the colon, and is relatively **butyrogenic** (it yields a higher proportion of
-butyrate) [@topping2001rs].
+Fibre is the substrate here (its chemistry is in the [*Macronutrients*](macronutrients.qmd) chapter),
+and for the microbiome what matters is how fermentable it is. Rapidly fermented soluble fibres (inulin in
+onion and garlic, pectin in fruit, β-glucan in oats) give a prompt burst of SCFAs and gas. Resistant
+starch is found in cooked-and-cooled rice or pasta, slightly green bananas and legumes. It ferments more
+slowly and further along the colon, and it is relatively **butyrogenic**, meaning it yields a higher
+proportion of butyrate [@topping2001rs].
 :::
 
 ### Vitamins made in the gut, and why the host gains little {#sec-vitamins}
@@ -220,9 +223,9 @@ Gut microbes synthesise vitamins, but little of this reaches the host, because n
 happens in the colon, downstream of where those vitamins are absorbed. The vitamins concerned are vitamin
 K2 (menaquinones) and several B vitamins (biotin, folate, riboflavin and B12).
 
-Vitamin B12 shows this most clearly: most gut microbes are net consumers of B12, and the little they
-make is produced beyond the terminal ileum, the site where B12 (bound to intrinsic factor) is absorbed
-(see the *Digestion and absorption* chapter). Colonic microbial B12 is therefore essentially unavailable
+Vitamin B12 shows this most clearly. Most gut microbes are net consumers of B12, and the little they
+make is produced beyond the terminal ileum, where B12 is absorbed bound to intrinsic factor (see the
+*Digestion and absorption* chapter). Colonic microbial B12 is therefore essentially unavailable
 to the host, and dietary B12 from animal sources remains the functional supply [@degnan2014b12].
 Bacterial K2 is similarly poorly available, and diet remains the principal source of vitamin K
 [@lai2022vitk]. The vitamins themselves are covered in the
@@ -249,15 +252,15 @@ Diet shapes the microbiome meal by meal. The products sold for the gut (probioti
 ### How diet shapes it: fibre diversity {#sec-feeding}
 
 Diet is the dominant, fast-acting and reversible influence on the microbiome. When people switch
-between an animal-based and a plant-based diet, their microbial community shifts within a single day,
-but it reverts within days of a return to their usual diet, and each person's characteristic community
+between an animal-based and a plant-based diet, their microbial community shifts within a single day.
+It reverts within days of a return to their usual diet, and each person's characteristic community
 largely persists [@david2014diet].
 
-People who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science, "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
+People who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science: "about 30 different plant types a week". This target for variety counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
 
-The opposite pattern, a chronically low-fibre "Western" diet, deprives fibre-fermenting bacteria of
-substrate and lowers diversity. The direction of this effect is well supported, but the evidence for its most extreme form, a loss of diversity that becomes irreversible over generations, comes from mice and is therefore limited [@sonnenburg2016diet]. At the other end of the range, whole dietary patterns such as the Mediterranean diet are
+The opposite pattern is a chronically low-fibre "Western" diet, which deprives fibre-fermenting bacteria
+of substrate and lowers diversity. The direction of this effect is well supported, but the evidence for its most extreme form, in which the loss of diversity becomes irreversible over generations, comes from mice and is therefore limited [@sonnenburg2016diet]. At the other end of the range, whole dietary patterns such as the Mediterranean diet are
 associated with more SCFA producers and with less frailty and inflammation [@ghosh2020mediterranean]
 (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd) chapter).
 
@@ -279,8 +282,8 @@ eaten in Singapore are wholegrain, so most people have plenty of room to add who
 ## 🍳 Healthy kitchen: increase fibre gradually, with fluids
 A sudden increase in fibre means a sudden increase in fermentation, and the result is gas and
 bloating (harmless, but unpleasant). Increase fibre gradually over a couple of weeks and drink enough
-water. Cooking and then cooling starchy foods (rice, potatoes, pasta) forms resistant starch, a slowly
-fermented, butyrogenic fibre, in foods such as cold rice or potato salad.
+water. Resistant starch is a slowly fermented, butyrogenic fibre that forms when starchy foods (rice,
+potatoes, pasta) are cooked and then cooled, as in cold rice or potato salad.
 :::
 
 ### Probiotics, prebiotics, synbiotics and postbiotics: consensus definitions {#sec-biotics}
@@ -297,7 +300,7 @@ Scientific Association for Probiotics and Prebiotics (ISAPP):
 
 ::: {.callout-important}
 ## Is every fermented food a probiotic?
-Only a defined, dosed, live product meets the definition of a probiotic. A **fermented food** is defined by its process, "made through desired microbial growth and enzymatic conversions" [@marco2021fermented], so the definition includes foods with few or no live microbes left: many fermented foods are cooked or pasteurised before eating (tempeh, bread, most miso once boiled). Fermented foods are still good foods. In a small, short Stanford trial, a high-fermented-food diet raised microbial diversity and lowered inflammatory markers, and a high-fibre diet did not; the result is a hypothesis still to be tested [@wastyk2021diet].
+Only a defined, dosed, live product meets the definition of a probiotic. A **fermented food** is defined by its process: it is "made through desired microbial growth and enzymatic conversions" [@marco2021fermented]. The definition therefore includes foods with few or no live microbes left. Many fermented foods are cooked or pasteurised before eating (tempeh, bread, most miso once boiled). Fermented foods are still good foods. In a small, short Stanford trial, a high-fermented-food diet raised microbial diversity and lowered inflammatory markers, and a high-fibre diet did not [@wastyk2021diet]. The result is a hypothesis still to be tested.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -316,7 +319,7 @@ no live microbes. It is still a good food.
 
 ## Clinical problems and unproven claims {#sec-gut-clinical}
 
-Microbiome interventions range from faecal microbiota transplant for recurrent *C. difficile* infection, of proven benefit, to test kits for well people, with no proven clinical use; the spectrum below places the common ones along that range.
+Microbiome interventions range from faecal microbiota transplant, of proven benefit for recurrent *C. difficile* infection, to test kits for well people, which have no proven clinical use. The spectrum below places the common ones along that range.
 
 ::: {.spectrum}
 [Evidence for microbiome interventions]{.tree-title}
@@ -332,22 +335,22 @@ Microbiome interventions range from faecal microbiota transplant for recurrent *
 ### Antibiotics, *C. difficile* and faecal microbiota transplant {#sec-clinical}
 
 Broad-spectrum antibiotics disturb the whole ecosystem, because they act on the wider community as well
-as on the pathogen. The result is **dysbiosis** (disruption of the normal microbial community) and
-often **antibiotic-associated diarrhoea (AAD)**. Recovery can be incomplete, with some species still
+as on the pathogen. The result is a disruption of the normal microbial community, called **dysbiosis**,
+and often **antibiotic-associated diarrhoea (AAD)**. Recovery can be incomplete, with some species still
 missing months later [@palleja2018recovery]. The most dangerous consequence is **_Clostridioides
 difficile_ infection**, in which a depleted microbiome allows this toxin-producing bacterium to
 proliferate and cause severe colitis.
 
-Probiotics given with antibiotics produce a modest, strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings, but the evidence does not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that probiotics can delay recovery of the native microbiome afterwards [@goldenberg2017cdi; @suez2018probiotic]. When a patient on antibiotics asks whether to take a probiotic, you can explain that any benefit is modest and strain-specific; the prescribing decision belongs to the treating team. (The AGA guideline addresses probiotics for *C. difficile* prevention during antibiotic treatment; the AAD benefit comes from a Cochrane review, a related but distinct question [@agaProbiotics2020].)
+Probiotics given with antibiotics produce a modest, strain-dependent reduction in AAD and *C. difficile* risk in higher-risk settings [@goldenberg2017cdi]. The evidence does not support a blanket rule of "probiotics with every antibiotic", and there is some evidence that probiotics can delay recovery of the native microbiome afterwards [@suez2018probiotic]. When a patient on antibiotics asks whether to take a probiotic, you can explain that any benefit is modest and strain-specific. The prescribing decision belongs to the treating team. (The AGA guideline addresses probiotics for *C. difficile* prevention during antibiotic treatment [@agaProbiotics2020]. The AAD benefit comes from a Cochrane review, which addresses a related but distinct question.)
 
 ::: {.callout-note}
 ## FMT: restoring a whole ecosystem
 The clearest evidence that the microbiome behaves as an ecosystem comes from **faecal microbiota
-transplant (FMT)**, the transfer of stool from a healthy donor to restore a depleted community. For
+transplant (FMT)**, which transfers stool from a healthy donor to restore a depleted community. For
 recurrent *C. difficile* infection it is highly effective. A landmark trial was stopped early because
 FMT cured about 81% of patients after one infusion (~94% with a repeat) against roughly 31% with the
 antibiotic alone [@vannood2013fmt]. Two microbiota products are now FDA-approved (Rebyota in 2022;
-Vowst, the first oral product, in 2023) [@fda2022rebyota; @fda2023vowst]. FMT is proven only for recurrent *C. difficile* infection. It has no proven role in obesity, irritable bowel syndrome, autism or "wellness", and it carries a real risk of transmitting infection: a 2019 safety alert followed a fatal
+Vowst, the first oral product, in 2023) [@fda2022rebyota; @fda2023vowst]. FMT is proven only for recurrent *C. difficile* infection. It has no proven role in obesity, irritable bowel syndrome, autism or "wellness", and it carries a real risk of transmitting infection. A 2019 safety alert followed a fatal
 transmission [@fmt2019safety]. **Recognise the indication and refer.**
 :::
 
@@ -369,12 +372,11 @@ Three claims about the microbiome are common in consumer marketing:
 
 ::: {.callout-warning}
 ## The gut–brain axis: a real pathway, unproven claims
-There is a genuine **gut–brain axis**, the two-way signalling between the gut and the brain: the
-microbiome can signal to the brain through the vagus nerve, SCFAs, the immune system and microbial
+The **gut–brain axis** is a genuine pathway of two-way signalling between the gut and the brain.
+The microbiome can signal to the brain through the vagus nerve, SCFAs, the immune system and microbial
 neuroactive metabolites [@cryan2019microbiota]. The most striking results, in which transplanted
-microbes change behaviour, come largely from mouse studies, and the benefits of **psychobiotics**
-(microbes or microbial products claimed to improve mental health) for mood in humans are mostly small
-or preclinical. The role of the gut–brain axis in appetite and behaviour is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
+microbes change behaviour, come largely from mouse studies. **Psychobiotics** are microbes or microbial products claimed to
+improve mental health. Their benefits for mood in humans are mostly small or preclinical. The role of the gut–brain axis in appetite and behaviour is taken up in the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -430,16 +432,16 @@ and kimchi unheated, and treat cultured-milk drinks as the live option. A cooked
 
 **Yakult has some evidence, but no proven broad benefit.** Cultured-milk drinks are a daily habit in
 many Singaporean families. The bacterium in Yakult (*Lactobacillus casei* Shirota) survives transit
-through the gut and has some supporting evidence from small trials, but the European Food Safety Authority (EFSA)
-rejected its broad health claims for lack of convincing evidence [@efsa2010lcs;
-@katokataoka2016lcs]. It is a reasonable drink, and its added sugar counts towards the day's free sugars.
+through the gut and has some supporting evidence from small trials [@katokataoka2016lcs]. The European
+Food Safety Authority (EFSA), however, rejected its broad health claims for lack of convincing evidence
+[@efsa2010lcs]. It is a reasonable drink, and its added sugar counts towards the day's free sugars.
 
 **There is no single "Singaporean" microbiome.** A large local multi-ethnic study found no
-predominant microbiome type across the community, a local illustration that variation between
-individuals is the rule, and that diet and lifestyle shape the community
+predominant microbiome type across the community. The finding is a local illustration that variation
+between individuals is the rule and that diet and lifestyle shape the community
 [@khine2021multiethnic].
 
-**Vegetarian and vegan patients need a B12 source.** These diets are common in several local communities, and gut bacteria cannot supply B12, so when you take a diet history from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
+**Vegetarian and vegan patients need a B12 source.** These diets are common in several local communities, and gut bacteria cannot supply B12. When you take a diet history from a vegetarian or vegan patient, ask about a dietary or supplemental B12 source (see the
 *Micronutrients, hydration and electrolytes* chapter).
 
 ## Check your understanding {#sec-quiz}

@@ -65,7 +65,7 @@ Metabolism can be read as a single map: five hubs where pathways meet, four irre
 
 ### Metabolic hubs and irreversible steps {#sec-map}
 
-Almost every metabolic pathway passes through one of five metabolic hubs, molecules or pools where pathways meet and carbon can take several routes:
+Almost every metabolic pathway passes through one of five molecules or pools where pathways meet and carbon can take several routes. These are the metabolic hubs:
 
 Glucose-6-phosphate (G6P)
 : Glucose phosphorylated as it enters a cell; a branch point of carbohydrate metabolism.
@@ -117,14 +117,14 @@ glucose-6-phosphate, which cannot leak back out. G6P can then take one of four r
 
 - It can be burned for energy: **glycolysis** splits it into two molecules of pyruvate.
 - It can be stored as glycogen, the body's fast-access glucose store.
-- It can be used for building, in the **pentose phosphate pathway**, which yields
-  **NADPH** (the reducing agent used to build fats and to protect against oxidative damage) and the
-  ribose sugar of DNA and RNA.
+- It can be used for building in the **pentose phosphate pathway**, which yields **NADPH** and the
+  ribose sugar of DNA and RNA. NADPH is the reducing agent used to build fats and to protect against
+  oxidative damage.
 - It can be exported to the blood as free glucose, a route that only the liver and kidney can take.
   This route is how blood glucose is maintained in a fast (see
   [The fasted state](#sec-fasted)).
 
-Glycolysis runs in the cytosol (the fluid that fills the cell around its organelles) and does not need oxygen. It has a single committed, regulated step (the enzyme phosphofructokinase-1) and yields a little ATP directly. Oxygen is used only later, in the mitochondrion (see [The TCA cycle and oxidative phosphorylation](#sec-furnace)), so the common belief that glycolysis consumes oxygen is a misconception. When oxygen is scarce, as in a sprinting muscle, or in a cell with no mitochondria (the organelles that burn fuel with oxygen), such as a red blood cell, pyruvate is converted to **lactate**. Making lactate regenerates the molecule glycolysis needs to keep running, so the cell can make ATP without oxygen.
+Glycolysis runs in the cytosol, the fluid that fills the cell around its organelles. It does not need oxygen, yields a little ATP directly and has a single committed, regulated step, catalysed by the enzyme phosphofructokinase-1. Oxygen is used only later, in the mitochondrion (see [The TCA cycle and oxidative phosphorylation](#sec-furnace)), so the common belief that glycolysis consumes oxygen is a misconception. When oxygen is scarce, as in a sprinting muscle, pyruvate is converted to **lactate**. The same happens in a cell with no mitochondria (the organelles that burn fuel with oxygen), such as a red blood cell. Making lactate regenerates the molecule glycolysis needs to keep running, so the cell can make ATP without oxygen.
 
 ::: {.callout-note}
 ## 🔬 Food science: why anaerobic exercise runs on glucose
@@ -143,7 +143,7 @@ Pyruvate, the end product of glycolysis, is a branch point from which its carbon
 - back toward glucose via oxaloacetate, the first step of making new glucose;
 - forward into acetyl-CoA.
 
-The last of these routes, from pyruvate to acetyl-CoA, is irreversible. Catalysed by pyruvate dehydrogenase (PDH), it is the first of the map's four irreversible steps, and its one-way direction limits what the body can turn into glucose in a fast.
+The last of these routes, from pyruvate to acetyl-CoA, is catalysed by pyruvate dehydrogenase (PDH) and is the first of the map's four irreversible steps. Its one-way direction limits what the body can turn into glucose in a fast.
 
 ::: {.callout-important}
 ## Why fatty acids cannot become glucose
@@ -157,16 +157,16 @@ glucose must be maintained, and new glucose made, when food runs short.
 
 When the diet stops supplying glucose, glycogen breakdown and then gluconeogenesis take over.
 
-**Glycogen, the short-term store.** Glucose is stored as glycogen, a branched chain of glucose units, in
-liver and muscle, a store that lasts only hours. Building it (**glycogenesis**) and breaking it down (**glycogenolysis**) are reciprocally controlled, so at any time the store is either filling or emptying.
+**Glycogen, the short-term store.** Glucose is stored in liver and muscle as glycogen, a branched chain
+of glucose units, and the store lasts only hours. Building it (**glycogenesis**) and breaking it down (**glycogenolysis**) are reciprocally controlled, so at any time the store is either filling or emptying.
 
 **Gluconeogenesis, making glucose from non-carbohydrate sources.** When glycogen runs low, the liver (and, later, the
 kidney) builds new glucose from three raw materials: lactate, glycerol and **glucogenic** amino acids,
-those whose carbon can become glucose (see [The amino-acid pool](#sec-amino)). Gluconeogenesis is often
-pictured as glycolysis run backwards, but it cannot be: three of glycolysis's steps are irreversible
-(three more of the map's irreversible steps), so gluconeogenesis bypasses them with four different
-enzymes. Those bypass enzymes are its control points, and because glycolysis and gluconeogenesis are
-reciprocally regulated, the cell does not run both at once.
+whose carbon can become glucose (see [The amino-acid pool](#sec-amino)).
+Gluconeogenesis is often pictured as glycolysis run backwards, but it cannot be, because three of
+glycolysis's steps are irreversible. These three are among the map's irreversible steps, and
+gluconeogenesis bypasses them with four different enzymes, and those bypass enzymes are its
+control points. Glycolysis and gluconeogenesis are reciprocally regulated, so the cell does not run both at once.
 
 ### Fatty-acid oxidation, synthesis and ketogenesis {#sec-fat}
 
@@ -174,8 +174,9 @@ Fat is the body's most energy-dense fuel, about 9 kcal/g against roughly 4 for c
 protein, which is why long-term energy is stored as fat.
 
 **Burning fat.** A fatty acid is carried into the mitochondrion through a single committed transport
-step; inside, **β-oxidation** breaks it down into many molecules of acetyl-CoA (plus the electron carriers
-that feed energy production). Many acetyl-CoA per fatty acid is why fat yields so much energy.
+step. Inside, **β-oxidation** breaks it down into many molecules of acetyl-CoA, along with the electron
+carriers that feed energy production. This large number of acetyl-CoA per fatty acid is why fat yields
+so much energy.
 
 **Storing fat.** In the other direction, a committed enzyme step sends acetyl-CoA into building fatty
 acids, a process that consumes the NADPH made in the pentose phosphate pathway. The switch between the
@@ -189,7 +190,7 @@ the committed enzyme for building fat is acetyl-CoA carboxylase (ACC), whose imm
 CPT1.
 :::
 
-**Ketone bodies.** In a long fast, acetyl-CoA has a third fate: when fat breakdown floods the fasting liver with more acetyl-CoA than it can burn, the liver converts the surplus into ketone bodies (ketones for short). The liver lacks the one enzyme needed to use ketones, so it cannot burn its own product and exports its entire output to other organs, where they come to fuel the brain (see [Prolonged fasting](#sec-starvation)).
+**Ketone bodies.** In a long fast, acetyl-CoA has a third fate: when fat breakdown floods the fasting liver with more acetyl-CoA than it can burn, the liver converts the surplus into ketone bodies, or ketones for short. The liver lacks the one enzyme needed to use ketones, so it cannot burn its own product and exports its entire output to other organs, where the ketones come to fuel the brain (see [Prolonged fasting](#sec-starvation)).
 
 ### The TCA cycle and oxidative phosphorylation {#sec-furnace}
 
@@ -203,26 +204,27 @@ The electron carriers then deliver their electrons to **oxidative phosphorylatio
 mitochondrial membrane. Oxidative phosphorylation makes most of the cell's ATP, and it is the step at
 which oxygen is finally used, as the last acceptor of the spent electrons (which is why we breathe).
 
-Burned all the way with oxygen, one glucose yields about 30–32 ATP; glycolysis alone, without oxygen,
-yields about 2. Older textbooks give 36–38, a figure now considered an overestimate. All of these
+Burned all the way with oxygen, one glucose yields about 30–32 ATP, whereas glycolysis alone, without
+oxygen, yields about 2. Older textbooks give 36–38, a figure now considered an overestimate. All of these
 numbers are approximate: what matters is the roughly 15-fold gap between aerobic and anaerobic yield.
 
 ### ATP turnover: made and spent continuously {#sec-atp}
 
 ATP is easily mistaken for the body's energy store, but it is an energy currency. The body holds only
-seconds' to minutes' worth at any moment, yet turns over close to its own weight in ATP each day [@tornroth2008gate],
-making and spending it continuously. The body's energy stores are glycogen and fat, which are converted
+seconds' to minutes' worth at any moment, yet it makes and spends ATP continuously and turns over close
+to its own weight in ATP each day [@tornroth2008gate]. The body's energy stores are glycogen and fat, which are converted
 into ATP on demand.
 
-NADPH, from the pentose phosphate pathway, supplies reducing power for synthesis and antioxidant defence and is kept separate from the electron carriers that generate ATP. Confusing NADPH with those carriers is a common error.
+NADPH comes from the pentose phosphate pathway and supplies reducing power for synthesis and antioxidant defence. It is kept separate from the electron carriers that generate ATP, and confusing NADPH with those carriers is a common error.
 
 ### The amino-acid pool: no storage protein {#sec-amino}
 
 The fifth hub is the amino-acid pool. The body stores glycogen and fat but has no storage protein: every protein in the body is doing a job, as muscle, as an enzyme, as an immune cell. Using protein for fuel therefore dismantles working tissue,
 which is why protein is broken down for fuel late and at a cost.
 
-Before an amino acid can enter the map, its nitrogen must be removed, by transamination (the reaction
-of the liver enzymes ALT and AST, which appear in clinical liver tests) and deamination. The liver
+Before an amino acid can enter the map, its nitrogen must be removed by transamination and
+deamination. Transamination is the reaction of the liver enzymes ALT and AST, which appear in clinical
+liver tests. The liver
 packages that nitrogen as urea for the kidneys to excrete. The leftover carbon skeleton then joins the
 map as one of two types, and its entry point sets its fate:
 
@@ -251,8 +253,8 @@ cycle and oxidative phosphorylation are mitochondrial too, so none of them is op
 
 ## Hormonal control of fuel use: fed, fasted and starved states {#sec-partB}
 
-From hour to hour, two pancreatic hormones, insulin and **glucagon** (the hormone that drives
-the liver to release glucose), set almost entirely which pathways of the map are switched on. Step through the states below, from just after a meal to a
+From hour to hour, two pancreatic hormones, insulin and **glucagon**, set almost entirely which
+pathways of the map are switched on. Glucagon is the hormone that drives the liver to release glucose. Step through the states below, from just after a meal to a
 prolonged fast, and watch which organs store, burn and export fuel, and how the fuel fluxes between
 them change.
 
@@ -264,7 +266,7 @@ Fuel use is set by the balance between the two hormones, the **insulin-to-glucag
 low, and fuel is mobilised. The classic description is that this ratio "varies inversely
 with the need to make your own glucose, and is lowest in starvation" [@unger1971ratio].
 
-Insulin is the body's principal anabolic hormone, acting on all three macronutrients at once. It stores glucose as glycogen, stores fat and blocks its breakdown, and builds protein, while shutting down the opposing pathways that mobilise fuel [@merheb2026insulin]. It is often called the sugar hormone, but lowering blood glucose is only one of its effects.
+Insulin is the body's principal anabolic hormone and acts on all three macronutrients at once. It stores glucose as glycogen, stores fat and blocks its breakdown, builds protein and shuts down the opposing pathways that mobilise fuel [@merheb2026insulin]. It is often called the sugar hormone, but lowering blood glucose is only one of its effects.
 
 ### The fed (absorptive) state {#sec-fed}
 
@@ -275,11 +277,11 @@ of the map to store the meal:
   excess to fat that it ships out as VLDL, and receives the meal's amino acids by the portal vein.
 - Skeletal muscle, the largest site of insulin-stimulated glucose uptake, takes up glucose to rebuild
   its own glycogen and takes up amino acids to build protein.
-- Adipose tissue, the fat depot, takes up glucose and stores fat. **Lipoprotein lipase**, the enzyme on
-  its capillaries, strips triglyceride out of circulating lipoproteins to stock the fat cell
-  [@wang2009lpl], and insulin is strongly anti-lipolytic: it inhibits the release of fat from the store.
+- Adipose tissue, the fat depot, takes up glucose and stores fat. The enzyme on its capillaries,
+  **lipoprotein lipase**, strips triglyceride out of circulating lipoproteins to stock the fat cell
+  [@wang2009lpl]. Insulin is strongly anti-lipolytic: it inhibits the release of fat from the store.
 
-Adipose tissue also releases leptin in proportion to its fat stores, a long-term signal that the brain uses to regulate appetite and body weight (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter).
+Adipose tissue also releases leptin in proportion to its fat stores, and the brain uses leptin as a long-term signal to regulate appetite and body weight (see the [*Appetite and weight regulation*](appetite-weight-regulation.qmd) chapter).
 
 ::: {.callout-note}
 ## GLUT4 versus GLUT2
@@ -293,8 +295,8 @@ insulin required. In the liver, insulin acts on enzymes, so that the liver store
 ### The fasted state: maintaining blood glucose {#sec-fasted}
 
 As blood glucose falls between meals, insulin drops and glucagon rises, and the ratio falls so that
-fuel is mobilised. Glucagon leads the **counter-regulatory hormones**, the hormones that raise a
-falling blood glucose, which act at different speeds:
+fuel is mobilised. Glucagon leads the **counter-regulatory hormones**, which raise a falling blood
+glucose and act at different speeds:
 
 | Hormone | Speed | Role |
 |---|---|---|
@@ -304,13 +306,13 @@ falling blood glucose, which act at different speeds:
 
 Clinically, the acute counter-regulatory response to a low blood glucose is glucagon and adrenaline [@cryer1993counterreg; @rizza1979].
 
-In a fast, almost every tissue that can burn fat switches to it, leaving the scarce glucose for the two
-consumers that depend on it, the brain and the red blood cell; this is **glucose sparing**. The red blood cell has no mitochondria, so it can run only glycolysis and must have glucose. The brain depends on glucose because fatty acids are a poor brain fuel: they travel bound to albumin, and neurons oxidise them poorly [@schonfeld2013]. The widely taught explanation, that fatty acids cannot cross into the brain, is not the reason.
+In a fast, almost every tissue that can burn fat switches to it and leaves the scarce glucose for the
+two consumers that depend on it, the brain and the red blood cell. This is called **glucose sparing**. The red blood cell has no mitochondria, so it can run only glycolysis and must have glucose. The brain depends on glucose because fatty acids are a poor brain fuel: they travel bound to albumin, and neurons oxidise them poorly [@schonfeld2013]. The widely taught explanation, that fatty acids cannot cross into the brain, is not the reason.
 
 Glucose supply in a fast follows an order: glycogenolysis first, gluconeogenesis second. Liver
-glycogen covers roughly the first 12–24 hours; as it runs down, gluconeogenesis takes over, building
+glycogen covers roughly the first 12–24 hours. As it runs down, gluconeogenesis takes over and builds
 glucose from lactate, glycerol and glucogenic amino acids [@statpearlsGlycogenolysis;
-@statpearlsGngPhys]. Meanwhile **lipolysis**, the breakdown of stored fat, becomes the main fuel supply
+@statpearlsGngPhys]. Meanwhile the breakdown of stored fat, **lipolysis**, becomes the main fuel supply
 for the other tissues. Adipose tissue releases two products: fatty acids, which fuel muscle, heart and
 liver; and glycerol, the one glucogenic part of fat, which feeds gluconeogenesis [@statpearlsLipolysis].
 
@@ -319,9 +321,9 @@ liver; and glycerol, the one glucogenic part of fat, which feeds gluconeogenesis
 Muscle holds most of the body's glycogen, yet it cannot release any glucose into the blood.
 Muscle lacks **glucose-6-phosphatase**, the enzyme that frees glucose
 for export, so muscle glycogen is trapped for muscle's own use. Only the liver and kidney can release
-free glucose to the blood [@statpearlsGlycogenolysis]. Muscle helps indirectly, by exporting lactate, which the liver rebuilds into
-glucose (the **Cori cycle**), or alanine, which carries both carbon and nitrogen to the liver (the
-**glucose–alanine cycle**).
+free glucose to the blood [@statpearlsGlycogenolysis]. Muscle helps indirectly by exporting lactate or alanine. The liver rebuilds
+lactate into glucose (the **Cori cycle**), and alanine carries both carbon and nitrogen to the liver
+(the **glucose–alanine cycle**).
 :::
 
 ```{mermaid}
@@ -336,7 +338,7 @@ flowchart LR
 
 ### Prolonged fasting: ketosis and protein sparing {#sec-starvation}
 
-Ketones made from fat limit the loss of protein in a long fast, because they replace much of the glucose the brain would otherwise need. After about a day without food, blood glucose is being maintained partly by breaking down protein for gluconeogenesis, and protein is working tissue; left unchecked, a long fast would consume the body's own muscle.
+Ketones made from fat limit the loss of protein in a long fast, because they replace much of the glucose the brain would otherwise need. After about a day without food, blood glucose is being maintained partly by breaking down protein for gluconeogenesis. Protein is working tissue, and left unchecked, a long fast would consume the body's own muscle.
 
 The body holds three very different kinds of fuel reserve, and protein is the one it can least afford to spend:
 
@@ -351,7 +353,7 @@ The exact figures vary by source and by method of counting, so they are best rea
 
 The reserves are drawn on in turn as a fast proceeds, in stages often described as the **Cahill phases**. The fed state gives way to the
 post-absorptive state, which runs on glycogen, and then to early fasting, which runs on
-gluconeogenesis. Over days to weeks metabolism moves into protein-sparing **ketosis**, a raised level
+gluconeogenesis. Over days to weeks metabolism moves into protein-sparing **ketosis**, with a raised level
 of ketones in the blood. The metabolic switch interactive above steps through the same four states.
 
 As the fasting liver floods with acetyl-CoA from fat breakdown, it makes ketones (β-hydroxybutyrate,
@@ -365,8 +367,8 @@ can use only glucose.
 
 ::: {.callout-warning}
 ## How solid are the starvation numbers?
-The classic figures (the brain drawing well over half its energy from ketones, and brain glucose use
-falling roughly threefold) trace to a small, careful study of **three fasting volunteers with obesity**
+The classic figures are that the brain draws well over half its energy from ketones and that brain
+glucose use falls roughly threefold. They trace to a small, careful study of **three fasting volunteers with obesity**
 (Owen and colleagues, 1967) and the body of work around it [@owen1967brain; @cahill2006fuel]. They are foundational and qualitatively correct, but they are approximate trends from small studies. The brain's shift to ketones is real and large, and the percentages rise gradually over days to weeks.
 :::
 
@@ -378,9 +380,8 @@ or in the emergency described next. Rotate them below.
 
 ### Physiological ketosis and diabetic ketoacidosis {#sec-dka}
 
-Because the two words sound alike, the ketosis of a fast or a ketogenic diet is easily confused with
-**diabetic ketoacidosis (DKA)**, a medical emergency, and a patient starting a ketogenic diet may fear
-it. The two states differ in their setting, their insulin, their ketone level and their blood pH (a person in DKA usually also has a very high blood glucose, or hyperglycaemia):
+Because the two words sound alike, the ketosis of a fast or a ketogenic diet is easily confused with the
+medical emergency **diabetic ketoacidosis (DKA)**, and a patient starting a ketogenic diet may fear it. The two states differ in their setting, their insulin, their ketone level and their blood pH (a person in DKA usually also has a very high blood glucose, or hyperglycaemia):
 
 |  | Physiological (nutritional) ketosis | Diabetic ketoacidosis (DKA) |
 |---|---|---|
@@ -391,7 +392,7 @@ it. The two states differ in their setting, their insulin, their ketone level an
 
 ::: {.callout-important}
 ## Acidosis defines DKA
-DKA is defined by acidosis, an acidic blood pH with a high anion gap (a sign of extra acids in the blood), driven by uncontrolled insulin deficiency [@kolb2021ketones; @sheikhali2008bhb]. DKA is easily assumed to be simply very high ketones, but the ketone ranges of deep nutritional ketosis and mild DKA overlap, and the ketone molecules are the same in both states. **A healthy person on a ketogenic diet does not develop
+DKA is defined by acidosis, meaning an acidic blood pH with a high anion gap (a sign of extra acids in the blood), and the acidosis is driven by uncontrolled insulin deficiency [@kolb2021ketones; @sheikhali2008bhb]. DKA is easily assumed to be simply very high ketones, but the ketone ranges of deep nutritional ketosis and mild DKA overlap, and the ketone molecules are the same in both states. **A healthy person on a ketogenic diet does not develop
 DKA, because they still make insulin.** Recognising DKA is the task at this stage; managing it belongs
 to clinical training.
 :::
@@ -400,8 +401,8 @@ to clinical training.
 
 **Refeeding syndrome** is a dangerous fall in blood minerals when a severely malnourished or starved
 person is fed again. The sudden insulin surge drives phosphate, potassium and magnesium rapidly into
-cells, and blood levels can fall sharply; the fall in phosphate (**hypophosphataemia**) is the most dangerous
-and can be fatal. The task at this stage is to recognise the patient at risk: the long-starved, the
+cells, and blood levels can fall sharply. **Hypophosphataemia**, which means a low blood
+phosphate, is the most dangerous of these falls and can be fatal. The task at this stage is to recognise the patient at risk: the long-starved, the
 very underweight, the person who has eaten little for many days (see the
 [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter). Such a patient must be
 refed slowly and with monitoring; management comes in the clinical years [@statpearlsRefeeding;
@@ -431,11 +432,11 @@ of fat in the blood as lipoproteins.
 
 ### The respiratory quotient {#sec-rq}
 
-The respiratory quotient (RQ), the ratio of CO₂ produced to O₂ consumed (see the
-[*Energy balance*](energy-balance.qmd) chapter), shows which fuel is being oxidised. It is about 1.0
-when burning pure carbohydrate and about 0.7 when burning pure fat; protein and a mixed diet lie in
-between, around 0.8–0.85. After a carbohydrate meal, RQ climbs toward 1.0; deep into a fast it drifts
-toward 0.7 as metabolism shifts to fat [@rqValuesStd]. The metabolic switch interactive above shows
+The respiratory quotient (RQ) is the ratio of CO₂ produced to O₂ consumed (see the
+[*Energy balance*](energy-balance.qmd) chapter) and shows which fuel is being oxidised. It is about
+1.0 when burning pure carbohydrate and about 0.7 when burning pure fat, with protein and a mixed diet in
+between, around 0.8–0.85. RQ climbs toward 1.0 after a carbohydrate meal and drifts toward 0.7 deep
+into a fast, as metabolism shifts to fat [@rqValuesStd]. The metabolic switch interactive above shows
 this drift from fed to fasted.
 
 ### Fuel use during exercise {#sec-exercise}
@@ -454,9 +455,9 @@ The fuel used in exercise varies along a continuum set by intensity and duration
 
 The **crossover concept** summarises this relationship: as intensity rises, the fuel mix shifts from fat toward
 carbohydrate [@brooks1994crossover]. Because glycogen is the limited store, running it down
-(**glycogen depletion**) produces the sudden fatigue that athletes call "hitting the wall", felt by a
-marathoner most often around 33–34 km, when the glycogen is spent and only slower fat oxidation is
-left [@rapoport2010marathon].
+(**glycogen depletion**) produces the sudden fatigue that athletes call "hitting the wall". A
+marathoner feels it most often around 33–34 km, when the glycogen is spent and only slower fat
+oxidation is left [@rapoport2010marathon].
 
 ::: {.callout-warning}
 ## Is there a fat-burning zone?
@@ -471,24 +472,23 @@ of fat is not the same as burning more fat.
 ::: {.callout-tip}
 ## 🍳 From physiology to the plate: fuelling everyday exercise
 Muscle glycogen is a limited store, so what and when to eat around exercise depends on whether the exercise runs it low. For everyday activity (a run, a
-gym session, a social game), existing glycogen is ample and water is usually all that is needed;
-sports drinks and gels are unnecessary (see the
-[*Adulthood*](adulthood-working-life.qmd) chapter). Carbohydrate loading before, and
-fuelling during, help only for prolonged, hard efforts lasting well beyond an hour, where they delay
-glycogen depletion: the reason a marathoner carbo-loads and takes gels while a Sunday 5 km runner does
-not.
+gym session, a social game), existing glycogen is ample and water is usually all that is needed.
+Sports drinks and gels are unnecessary (see the
+[*Adulthood*](adulthood-working-life.qmd) chapter). Carbohydrate loading beforehand and fuelling during
+exercise help only for prolonged, hard efforts lasting well beyond an hour, where they delay glycogen
+depletion. This is why a marathoner carbo-loads and takes gels while a Sunday 5 km runner does not.
 :::
 
 ### Lipoprotein metabolism {#sec-lipoproteins}
 
 Fat travels in the blood inside lipoproteins, whose classes are named in the
 [*Macronutrients*](macronutrients.qmd) chapter, and the classes are stages of one interconverting
-pathway. Dietary fat leaves the gut as chylomicrons (assembled in the gut lining; see the
-[*Digestion and absorption*](digestion-absorption.qmd) chapter); lipoprotein lipase strips their
-triglyceride, leaving remnants that the liver clears. The liver exports its own fat as VLDL, which
+pathway. Dietary fat leaves the gut as chylomicrons, which are assembled in the gut lining (see the
+[*Digestion and absorption*](digestion-absorption.qmd) chapter). Lipoprotein lipase strips their
+triglyceride and leaves remnants that the liver clears. The liver exports its own fat as VLDL, which
 sheds triglyceride to become IDL (intermediate-density lipoprotein) and then LDL, the main
-cholesterol-delivery particle. HDL works in the opposite direction, carrying cholesterol back from the
-tissues to the liver: **reverse cholesterol transport** [@feingoldLipoproteins].
+cholesterol-delivery particle. HDL works in the opposite direction: it carries cholesterol back from
+the tissues to the liver in **reverse cholesterol transport** [@feingoldLipoproteins].
 
 ```{mermaid}
 %%| label: fig-lipoproteins
@@ -501,14 +501,14 @@ flowchart LR
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does the respiratory quotient drift from about 1.0 after a carbohydrate meal toward 0.7 deep into a fast?
-RQ is the ratio of CO₂ produced to O₂ consumed; pure carbohydrate oxidation gives about 1.0 and pure
-fat about 0.7. After a meal metabolism burns mainly carbohydrate; in a fast it shifts to fat, so RQ
+RQ is the ratio of CO₂ produced to O₂ consumed. Pure carbohydrate oxidation gives about 1.0 and pure
+fat about 0.7. After a meal metabolism burns mainly carbohydrate, and in a fast it shifts to fat, so RQ
 falls toward 0.7.
 :::
 
 ## Failures of metabolic regulation: diabetes, alcohol and hypoglycaemia {#sec-broken}
 
-Fed–fasted regulation fails clinically in two settings, diabetes and alcohol on an empty stomach; the second can end in hypoglycaemia, whose symptoms follow a typical order.
+Fed–fasted regulation fails clinically in two settings, diabetes and alcohol on an empty stomach. The second can end in hypoglycaemia, whose symptoms follow a typical order.
 
 **Diabetes.** When insulin is missing or ineffective, the regulation of fed and fasted metabolism
 fails: muscle and fat cannot take up and store glucose, so glucose accumulates in the blood while the
@@ -520,15 +520,15 @@ failure of regulation; the dietary management of type 2 diabetes comes later (se
 
 **Alcohol on an empty stomach.** Metabolising ethanol floods the liver with the electron carrier NADH,
 and that blocks gluconeogenesis. If glycogen is also low, as after skipped meals and a night of
-drinking, the liver can make glucose by neither route, and blood glucose can fall dangerously low, a
-state called **hypoglycaemia** [@krebs1969alcohol]. Heavy drinking without eating can therefore end in
+drinking, the liver can make glucose by neither route. Blood glucose can then fall dangerously low,
+a state called **hypoglycaemia** [@krebs1969alcohol]. Heavy drinking without eating can therefore end in
 a hypoglycaemic collapse that looks like ordinary drunkenness.
 
 **Recognising hypoglycaemia.** As blood glucose falls, the counter-regulatory response produces
-symptoms in a typical order. Autonomic (neurogenic) warning symptoms come first: tremor, sweating, palpitations and hunger. They appear at a higher glucose level, as an early alarm, and arise from the autonomic nervous system: partly through adrenaline and noradrenaline (tremor, palpitations), partly through acetylcholine-releasing (cholinergic) nerves (sweating, hunger) [@towler1993awareness]. **Neuroglycopenic** symptoms, those of the brain itself running short of glucose, follow:
+symptoms in a typical order. Autonomic (neurogenic) warning symptoms come first: tremor, sweating, palpitations and hunger. They appear at a higher glucose level, as an early alarm, and arise from the autonomic nervous system, partly through adrenaline and noradrenaline (tremor, palpitations) and partly through acetylcholine-releasing (cholinergic) nerves (sweating, hunger) [@towler1993awareness]. **Neuroglycopenic** symptoms, which come from the brain itself running short of glucose, follow:
 confusion, slurred speech and eventually loss of consciousness [@mitrakou1991;
 @diabetologia2022thresholds]. The reliable point is that the autonomic warning comes before the brain
-fails; the order of one symptom against another is less consistent than older teaching implied, and
+fails. The order of one symptom against another is less consistent than older teaching implied, and
 the glucose thresholds shift with context.
 
 ::: {.callout-tip collapse="true"}
@@ -550,8 +550,8 @@ the blood turns acidic: diabetic ketoacidosis.
 ## Is fasting good or bad for health? {#sec-close}
 
 Fasting is part of normal daily metabolism: everyone fasts overnight. After dinner the body stores glucose as
-glycogen, overnight it spends the liver's glycogen, and towards morning it makes a little new glucose;
-throughout, the brain stays supplied, which is why fasting blood glucose is normal after 12 hours
+glycogen, overnight it spends the liver's glycogen, and towards morning it makes a little new glucose.
+Throughout, the brain stays supplied, which is why fasting blood glucose is normal after 12 hours
 without food. A longer fast progresses to ketosis, which spares muscle protein for weeks. A missed meal
 is not a metabolic emergency, and a fasting schedule has no special metabolic effect. The main dangers
 are clinical: a person with diabetes on insulin or a sulfonylurea (a glucose-lowering drug that can
@@ -584,13 +584,13 @@ Physiologically, each day glycogenolysis gives way to gluconeogenesis, with a sh
 across the month [@lessan2019ramadan; @madkour2023metabolomics].
 
 A *suhoor* built on slower-digesting foods (wholegrains,
-protein, some fat) sustains the fast better than a sugary one, and the commonest pitfall is the
+protein, some fat) sustains the fast better than a sugary one. The commonest pitfall is the
 rebound: breaking a day's fast with a huge, sweet, fast-digesting spread. A normal-sized meal at *buka puasa* and
 rehydrating overnight keep the change from fasting to feeding gradual.
 
 For someone with diabetes on insulin or a sulfonylurea, this cultural practice becomes a clinical
 issue to recognise and refer. A long daily fast on glucose-lowering medication markedly raises the risk of hypoglycaemia. A
-13-country survey put the rise in severe hypoglycaemia at several-fold [@salti2004epidiar], and a
+13-country survey put the rise in severe hypoglycaemia at several-fold [@salti2004epidiar]. A
 Singapore hospital survey found that nearly half of Muslim patients with diabetes had a hypoglycaemic
 episode during the previous Ramadan, over a third had not monitored their glucose, and some fasted on
 through the episode [@zainudin2017knowledge]. The
@@ -607,7 +607,7 @@ therefore worth giving, and a friend found confused after a night out needs a gl
 ::: {.callout-tip}
 ## 🍜 How do intermittent fasting and the ketogenic diet work?
 Both are popular here, and both work mainly through appetite and energy intake, a more ordinary mechanism than their promoters claim.
-**Time-restricted eating** (limiting eating to a daily window, as in "16:8") produces weight loss mostly
+**Time-restricted eating** limits eating to a daily window, as in "16:8". It produces weight loss mostly
 by reducing total energy intake, and in a careful 12-month trial, adding an eating window to calorie
 restriction gave no significantly greater weight loss than the same calorie restriction alone
 [@liu2022tre; @decabo2019fasting]. The ketogenic diet likewise works largely through
@@ -616,7 +616,7 @@ patient may fear. (Weighing claims like these is the subject
 of the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter.)
 :::
 
-**Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]; in
+**Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]. In
 the 2021–2022 National Population Health Survey, roughly one resident in twelve aged 18 to 74 had
 diabetes [@mohNNS2022]. A food culture that keeps many people in the fed, storing state, together with
 the ways metabolic regulation fails, is the physiology beneath that public-health effort.

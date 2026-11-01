@@ -43,15 +43,15 @@ not close that gap on their own. In a brief consult, your aim is to start a chan
 ## Why knowledge is not enough: reward and habit {#sec-knowledge}
 
 Knowledge alone does little to change behaviour, for a physiological reason: eating is only partly a deliberate choice (see
-the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-hedonic) chapter). The brain's
-reward system generates wanting, a dopamine-driven pull toward palatable food; food cues, such as the
-sight, smell or advertisement of a snack, trigger that pull, and it can override both a fullness
+the [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-hedonic) chapter). Wanting is
+the dopamine-driven pull toward palatable food that the brain's reward system generates. Food cues such
+as the sight, smell or advertisement of a snack trigger that pull, and it can override both a fullness
 signal and a considered intention [@berridge2009dissecting; @volkow2017dopamine]. Much of what people
 eat is also **habit**: automatic, context-cued behaviour that runs with little conscious thought. A
 patient who "knows better" but eats otherwise therefore has a normal reward system and a set of habits
 operating in a food environment engineered to exploit both [@berthoud2017blaming].
 
-Information does not override the reward system, so behaviour change rests on two other approaches: eliciting the patient's own motivation, because the reason to change has to come from the patient, and re-shaping habits one small, repeated step at a time. Habits form slowly: a routine repeated in a
+Information does not override the reward system, so behaviour change rests on two other approaches. One elicits the patient's own motivation, because the reason to change has to come from the patient, and the other re-shapes habits one small, repeated step at a time. Habits form slowly: a routine repeated in a
 consistent context takes weeks to months to become automatic, so small, sustained changes work better
 than large, short-lived ones [@lally2010habits].
 
@@ -66,12 +66,12 @@ months to become automatic.
 
 ## The conversation {#sec-conversation}
 
-Each consult needs a structure, a way of talking and something concrete for the patient to take away: the 5 A's give the structure, motivational interviewing the style, and a SMART goal with an if-then plan the outcome.
+Each consult needs a structure, a way of talking and something concrete for the patient to take away. The 5 A's provide the structure, motivational interviewing provides the style, and a SMART goal with an if-then plan is the outcome.
 
 ### The 5 A's: a framework for brief counselling {#sec-five-as}
 
-The 5 A's, the five-step framework for brief counselling (see the *Assessing diet and talking to
-patients* chapter), structure the consult [@fiveAsNutrition]. The same structure works for any behaviour, whether activity, sleep, alcohol or smoking; here it is applied to food:
+The 5 A's are a five-step framework for brief counselling (see the *Assessing diet and talking to
+patients* chapter), and they give the consult its structure [@fiveAsNutrition]. The same structure works for any behaviour, whether activity, sleep, alcohol or smoking, and here it is applied to food:
 
 1. Assess: find out what the patient eats and what they are ready to change (the diet history).
 2. Advise: offer clear, personalised advice, with permission ("would it be OK if…?"); the content is
@@ -81,23 +81,23 @@ patients* chapter), structure the consult [@fiveAsNutrition]. The same structure
 5. Arrange: set up follow-up, or a referral.
 
 The evidence that diet and activity counselling works comes from intensive, multi-contact programmes, with a median of 12 contacts over 6 to 18 months [@usptfBehavioural]. A one-off consult is therefore more likely to start a change than to complete
-it, which is why the Arrange step matters. Programmes of that intensity, which do improve outcomes, are described under diabetes prevention in the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter.
+it, which is why the Arrange step matters. Programmes of that intensity do improve outcomes (see diabetes prevention in the [*Type 2 diabetes*](type-2-diabetes.qmd) chapter).
 
 ### Motivational interviewing: drawing out the patient's reasons {#sec-mi}
 
 Within the 5 A's, the communication style is **motivational interviewing (MI)**: a collaborative way of talking that draws out the patient's own reasons to change. Its benefits are real but modest: reviews find mostly small, short-term effects on health behaviours, and the evidence base is still developing [@frost2018mi].
 
 MI rests on four micro-skills, known by the acronym **OARS**: open questions, affirmations, reflective
-listening and summaries. The clinician uses them to listen for **change talk** (the patient voicing
-their own motivation to change) and to strengthen it gently. A central skill in MI is resisting the **righting reflex**, the strong urge to jump in
-and fix, warn or lecture. The reflex feels helpful, but it usually provokes resistance.
+listening and summaries. The clinician uses them to listen for **change talk**, in which the patient voices their own
+motivation to change, and to strengthen it gently. The **righting reflex** is the strong urge to jump in
+and fix, warn or lecture, and resisting it is a central skill in MI. The reflex feels helpful, but it usually provokes resistance.
 
 ::: {.example}
 When a patient says "it's my only pleasure", a clinician acting on the reflex replies "but it's dangerous", and the patient
 digs in.
 :::
 
-In MI the clinician does the opposite: reflects, affirms and asks, so the patient argues themselves toward change. One such question is the **scaling question**, which asks the patient to rate their confidence: "On a scale of 0 to 10, how
+In MI the clinician does the opposite: they reflect, affirm and ask, so that the patient argues themselves toward change. One such question is the **scaling question**, which asks the patient to rate their confidence: "On a scale of 0 to 10, how
 confident are you that you could do it, and what makes it that number and not lower?" The answer
 shows what the patient feels able to do and what is harder, and lets you build the goal on the confidence
 they already have.
@@ -120,7 +120,7 @@ Measurable, Achievable, Relevant and Time-bound.
 Specific goals show some promise over vague advice for dietary change, though the evidence has
 methodological limits and the acronym is only a guide [@shilts2004goalsetting]. Two rules matter more than the acronym: the goal must be the patient's, and it should be small. An elaborate goal the patient did not choose won't stick, and one achievable change is more useful than several ambitious ones.
 
-Pairing the goal with an **if-then plan** (an implementation intention), which sets out in advance when and where to act, has a medium-to-large effect on whether a goal is achieved [@gollwitzer2006implementation]. For the kopi goal, the plan might be "if the stall auntie forgets, then I'll remind her *siu dai*".
+An **if-then plan**, or implementation intention, sets out in advance when and where to act. Pairing the goal with one has a medium-to-large effect on whether a goal is achieved [@gollwitzer2006implementation]. For the kopi goal, the plan might be "if the stall auntie forgets, then I'll remind her *siu dai*".
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: the evidence that diet and activity counselling works comes from intensive, multi-contact programmes, with a median of 12 contacts. What follows for a single brief consult?
@@ -155,11 +155,11 @@ Contemplation
 Preparation
 : The patient is ready to plan a change.
 
-The model is a useful way to tailor how you talk: raise awareness in pre-contemplation; build confidence and co-set a goal in preparation.
+The model is a useful way to tailor how you talk: raise awareness in pre-contemplation, and build confidence and co-set a goal in preparation.
 
 ::: {.callout-warning}
 ## Is stages-of-change a proven tool?
-Stages-of-change is a **heuristic**, a rule of thumb with weak evidence behind it: a Cochrane review of programmes
+Stages-of-change is a **heuristic**: a rule of thumb with weak evidence behind it. A Cochrane review of programmes
 built on it found only inconclusive, low-certainty evidence that they produce sustained weight loss
 [@mastellos2014ttm]. Use it to meet a patient where they are, and don't present it as fact or as a forecast of whether they'll succeed.
 :::
@@ -188,7 +188,7 @@ change that fits the family meal is more likely to last than one that conflicts 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient in pre-contemplation has not yet thought about changing. Why does co-setting a SMART goal not fit yet, and what fits instead?
 The patient has voiced no change yet, so there is nothing to turn into a goal. The stages-of-change
-heuristic points instead to raising awareness; building confidence and co-setting a goal suit a
+heuristic points instead to raising awareness. Building confidence and co-setting a goal suit a
 patient who is ready to plan.
 :::
 
@@ -239,8 +239,9 @@ goal-setting [@sgObesityBMI], and the tobacco guidelines name motivational inter
 behavioural intervention that may be used to help people quit [@hpbMohCPG]. Beyond the guidelines, Nutri-Grade gives a ready-made basis for a SMART goal: "move my usual drink from a D to an A or B" is
 specific, measurable and locally meaningful.
 
-The War on Diabetes campaign draws attention to a higher risk among some ethnic groups, a local reason to
-meet a Malay, Indian or Chinese patient inside their own food culture [@mohWarOnDiabetes].
+The War on Diabetes campaign draws attention to a higher risk among some ethnic groups
+[@mohWarOnDiabetes]. That risk is a local reason to meet a Malay, Indian or Chinese patient inside their
+own food culture.
 
 ## Check your understanding {#sec-quiz}
 
@@ -248,8 +249,8 @@ meet a Malay, Indian or Chinese patient inside their own food culture [@mohWarOn
 
 ## Practise: the two kopi gao a day {#sec-case}
 
-Mr Tan, a 52-year-old taxi driver with a borderline HbA1c (a blood marker of average blood-glucose
-control), drinks two or three sweet *kopi gao* a day and isn't asking to change. Open the
+Mr Tan is a 52-year-old taxi driver with a borderline HbA1c (a blood marker of average blood-glucose
+control). He drinks two or three sweet *kopi gao* a day and isn't asking to change. Open the
 conversation, resist the righting reflex, help him arrive at one small goal he owns, and stay alert
 for the moment counselling would do more harm than good. The case branches according to your choices.
 

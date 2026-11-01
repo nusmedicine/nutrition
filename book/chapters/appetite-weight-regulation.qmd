@@ -39,12 +39,11 @@
 
 Appetite is a **controlled variable**: an integrated system of hormones and brain circuits regulates it, as other homeostatic systems regulate blood glucose and body temperature. Energy balance can be written as arithmetic, calories in minus calories out (see the [*Energy balance*](energy-balance.qmd#sec-overview) chapter). Both terms of that arithmetic are biologically regulated.
 
-The system uses two kinds of signal, both acting on circuits in the hypothalamus that set hunger. The long-term signal is leptin, released by fat in proportion to
-fat mass, which signals to the brain how large the fat stores are over days and weeks. The short-term
+The system uses two kinds of signal, both acting on circuits in the hypothalamus that set hunger. The long-term signal is leptin, which fat releases in proportion to
+fat mass. It signals to the brain how large the fat stores are over days and weeks. The short-term
 signals are gut hormones that rise and fall across a single meal and govern when a meal starts and
-when it ends. Alongside this homeostatic control, the brain's **reward system**,
-which drives eating because food is pleasurable and available, can override fullness when such food
-is abundant. Beyond hunger and fullness, body weight itself is regulated, and the responses that oppose weight loss
+when it ends. Alongside this homeostatic control, the brain's **reward system** drives eating because
+food is pleasurable and available, and it can override fullness when such food is abundant. Beyond hunger and fullness, body weight itself is regulated, and the responses that oppose weight loss
 are far stronger than those that oppose weight gain.
 
 This physiology
@@ -52,7 +51,7 @@ explains cravings, regain after a diet and why weight is so hard to lose, and it
 
 ## How hunger and fullness are controlled {#sec-control}
 
-Hunger depends on the balance between two opposing sets of hypothalamic neurons, and two kinds of signal shift that balance: long-term signals of fat stores, chiefly leptin, and gut hormones, which signal each meal as it is eaten.
+Hunger depends on the balance between two opposing sets of hypothalamic neurons. Two kinds of signal shift that balance: long-term signals of fat stores, chiefly leptin, and gut hormones, which signal each meal as it is eaten.
 
 ### Hypothalamic control of appetite {#sec-thermostat}
 
@@ -76,7 +75,7 @@ reduce eating, while AgRP blocks the same receptor to increase eating. MC4R is t
 opposing drives are summed [@andermann2017wiring]. The peripheral hormones (leptin, insulin, ghrelin
 and PYY) all act by shifting this balance one way or the other.
 
-The interactive below, the appetite thermostat, draws the AgRP/NPY neurons as an accelerator and the
+The interactive appetite thermostat below draws the AgRP/NPY neurons as an accelerator and the
 POMC/CART neurons as a brake. Step it through its four states (fasted, just ate, after weight loss and
 on a GLP-1 drug) and watch the balance between them shift. (The last two states are explained in
 [Body-weight regulation and weight regain](#sec-defended).)
@@ -85,17 +84,17 @@ on a GLP-1 drug) and watch the balance between them shift. (The last two states 
 
 ::: {.callout-important}
 ## MC4R deficiency: the same circuit in humans
-MC4R mutations are the commonest single-gene cause of severe obesity, found in about 6% of people
-with severe childhood-onset obesity, and the more a mutation damages the receptor, the hungrier and
+MC4R mutations are the commonest single-gene cause of severe obesity and are found in about 6% of
+people with severe childhood-onset obesity. The more a mutation damages the receptor, the hungrier and
 heavier the person [@farooqi2003mc4r]. When the receptor cannot respond to α-MSH, the satiety signal
 cannot act and appetite remains persistently high.
 :::
 
 ### Leptin: long-term signalling of fat stores {#sec-leptin}
 
-Leptin, a hormone made by fat in proportion to fat mass, is the brain's long-term signal of fat stores. It was identified in 1994, when cloning the gene mutated in a grossly obese mouse confirmed a long-held suspicion that fat tissue signals the size of its stores to the brain [@zhang1994leptin]. More fat means more leptin and, normally, less hunger. Leptin acts directly on the arcuate nucleus: it activates the POMC/CART neurons and inhibits the AgRP/NPY neurons. Insulin is a second, weaker long-term signal to the same neurons. (Leptin also appears in the *Energy balance* chapter, and both leptin and the metabolic actions of insulin in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter.)
+Made by fat in proportion to fat mass, the hormone leptin is the brain's long-term signal of fat stores. It was identified in 1994, when cloning the gene mutated in a grossly obese mouse confirmed a long-held suspicion that fat tissue signals the size of its stores to the brain [@zhang1994leptin]. More fat means more leptin and, normally, less hunger. Leptin acts directly on the arcuate nucleus: it activates the POMC/CART neurons and inhibits the AgRP/NPY neurons. Insulin is a second, weaker long-term signal to the same neurons. (Leptin also appears in the *Energy balance* chapter, and both leptin and the metabolic actions of insulin in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter.)
 
-Children with **congenital leptin deficiency**, who are born unable to make leptin, show that leptin is
+Children born unable to make leptin have **congenital leptin deficiency**, which shows that leptin is
 necessary for normal human appetite. They have extreme, early-onset obesity with relentless hunger
 [@montague1997congenital]. In the first children treated, daily leptin injections reversed this:
 appetite fell sharply and they lost weight that was almost entirely fat, with the benefit sustained for
@@ -103,9 +102,9 @@ years [@farooqi1999leptintherapy; @farooqi2002leptin].
 
 ::: {.callout-important}
 ## Why doesn't leptin treat common obesity?
-Leptin treats only the rare deficiency, because people with common obesity already have high leptin (more fat makes more of it) and the brain has stopped responding to it: **leptin resistance**. When recombinant leptin was tried as a general obesity treatment, it produced only modest, highly variable weight loss, far less than in the leptin-deficient children [@heymsfield1999recombinant].
+Leptin treats only the rare deficiency, because people with common obesity already have high leptin (more fat makes more of it) and the brain has stopped responding to it. This loss of response is called **leptin resistance**. When recombinant leptin was tried as a general obesity treatment, it produced only modest, highly variable weight loss, far less than in the leptin-deficient children [@heymsfield1999recombinant].
 
-On the current view, leptin acts mainly as a starvation signal: a fall in leptin drives hunger and refeeding, and a rise has comparatively little effect, an asymmetry that
+On the current view, leptin acts mainly as a starvation signal: a fall in leptin drives hunger and refeeding, and a rise has comparatively little effect. This asymmetry
 underlies weight regain [@flier2024leptin30] (see
 [Body-weight regulation and weight regain](#sec-defended)).
 :::
@@ -116,14 +115,16 @@ Gut hormones signal to the brain about each meal as it is eaten. Two of them als
 
 **Ghrelin**, made by the stomach, is the only gut hormone that drives hunger. It rises before meals
 and falls after eating, which is why it is called the hunger hormone [@kojima1999ghrelin;
-@cummings2001preprandial]. Part of the pre-meal rise appears to be learned: in rats fed on a fixed
+@cummings2001preprandial]. Part of the pre-meal rise appears to be learned. In rats fed on a fixed
 schedule, ghrelin climbs in anticipation of the usual meal time [@drazen2006fixedmeal], so hunger may
-partly follow the clock (and the smell of the hawker centre) as well as an empty stomach. The type of food eaten also affects ghrelin: in a small
+partly follow the clock (and the smell of the hawker centre) as well as an empty stomach. The type of food eaten also affects ghrelin. In a small
 human study, protein suppressed ghrelin the most overall, while after carbohydrate it rebounded above
-its pre-meal level [@fosterschubert2008ghrelin], which may be part of why protein is so filling.
+its pre-meal level [@fosterschubert2008ghrelin]. This stronger suppression may be part of why protein is
+so filling.
 
-The **satiety peptides**, hormones that signal fullness, are released as food arrives, roughly in
-proportion to the calories eaten. They differ in where they are made and in how they curb eating:
+**Satiety peptides** are the hormones that signal fullness, released as food arrives, roughly in
+proportion to the calories eaten. They differ in where they are made and in how they curb
+eating:
 
 | Satiety peptide | Where it is made | Effect on eating |
 |---|---|---|
@@ -131,17 +132,18 @@ proportion to the calories eaten. They differ in where they are made and in how 
 | GLP-1 and PYY (peptide YY) | Cells lower down the small intestine | PYY at normal post-meal levels cuts food intake by about a third [@batterham2002pyy]; GLP-1 is the hormone the newer weight-loss drugs mimic (see [Obesity and GLP-1 receptor agonists](#sec-obesity)) |
 | Amylin | Pancreas, released with insulin at each meal | Reduces meal size and slows the stomach [@lutz2010amylin; @mietlickibaase2016amylin] |
 
-These signals reach the brain mostly along the vagus nerve, through a relay in the brainstem (the
-nucleus of the solitary tract, NTS) and up to the hypothalamus, a direct neural pathway for fullness.
+These signals travel mostly along the vagus nerve to a relay in the brainstem, the nucleus of the
+solitary tract (NTS), and from there up to the hypothalamus. This route is a direct neural pathway for
+fullness.
 A second signal is purely mechanical: stretch of the stomach wall produces fullness in proportion to volume. That is why a big bowl of soup or salad feels filling for very few calories.
 
 ::: {.callout-note}
 ## The ileal brake and the microbiome
 When food reaches the far end of the small intestine, the GLP-1/PYY cells there both slow the
-stomach and signal fullness, a feedback loop called the **ileal brake** that paces digestion and
-appetite together. Short-chain fatty acids, which gut bacteria make from fibre (see [*The
-gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter), stimulate these same GLP-1/PYY cells, so
-fibre fermented in the colon also promotes satiety.
+stomach and signal fullness. This feedback loop is the **ileal brake**, which paces digestion
+and appetite together. Gut bacteria make short-chain fatty acids from fibre (see [*The
+gut microbiome*](gut-microbiome.qmd#sec-scfa) chapter), and these stimulate the same GLP-1/PYY cells,
+so fibre fermented in the colon also promotes satiety.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -198,14 +200,14 @@ What is eaten, and how, acts on these signals through five factors:
 
 Controlled studies have measured how protein and liquid calories change intake. When 19 volunteers' protein intake was raised from
 15% to 30% of energy (carbohydrate held constant), they spontaneously ate about 440 kcal/day less and lost about 4.9 kg over
-12 weeks, with no instruction to eat less [@weigle2005highprotein]. Liquid calories are poorly compensated for: when 450 kcal/day was eaten as jelly beans, it was fully compensated for (no
-weight gain), but the same 450 kcal drunk as soft drink was not, and caused weight gain
-[@dimeglio2000liquidsolid].
+12 weeks, with no instruction to eat less [@weigle2005highprotein]. Liquid calories are poorly compensated for. When 450 kcal/day was eaten as jelly beans, it was fully
+compensated for and caused no weight gain, but the same 450 kcal drunk as soft drink was not, and it
+caused weight gain [@dimeglio2000liquidsolid].
 
 ::: {.callout-tip}
 ## 🍜 Eating for fullness in Singapore
 A hawker plate of *char kway teow* or chicken rice is energy-dense and low in fibre, and it is often
-washed down with a sweet drink, a combination that empties the stomach fast and brings hunger back
+washed down with a sweet drink. The combination empties the stomach fast and brings hunger back
 soon. Swaps that keep people full for longer use the factors above:
 
 - Add a protein (fish, tofu, egg, *tau kwa*).
@@ -246,14 +248,14 @@ entirely. Its central distinction is between wanting a food and liking it.
 
 ::: {.callout-important}
 ## Is dopamine the pleasure chemical?
-The brain separates **wanting** a food (the motivational pull, driven by dopamine) from **liking** it (the actual pleasure, driven by separate opioid "hotspots") [@berridge2009dissecting], so dopamine is not the pleasure chemical it is often taken to be. The two can come apart: a person can intensely crave a food they no longer much enjoy. Craving is therefore a normal feature of a motivation system.
+The brain separates **wanting** a food from **liking** it. Wanting is the motivational pull, driven by dopamine, and liking is the actual pleasure, driven by separate opioid "hotspots" [@berridge2009dissecting]. It follows that dopamine is not the pleasure chemical it is often taken to be. The two can come apart: a person can intensely crave a food they no longer much enjoy. Craving is therefore a normal feature of a motivation system.
 :::
 
-**Hedonic hunger** is wanting food for pleasure with no energy need,
+**Hedonic hunger** is wanting food for pleasure with no energy need. It is
 the experience of being full but still eating [@lowe2007hedonic]. **Sensory-specific satiety**
 explains "always room for dessert": the pleasantness of a food falls as it is eaten, but a different
 food (something sweet after a savoury meal) stays appealing [@rolls1981sensory]. The same effect is
-why buffets and variety make people eat more. The surroundings add triggers of their own: **food cues**, the sight, smell and advertising of food, engage the reward system and can spark food-seeking even after a full meal [@volkow2017dopamine].
+why buffets and variety make people eat more. The surroundings add triggers of their own. **Food cues**, which are the sight, smell and advertising of food, engage the reward system and can spark food-seeking even after a full meal [@volkow2017dopamine].
 
 The foods themselves can be built to trigger the reward system as well. **Ultra-processed foods** are
 industrial formulations made largely from refined ingredients and additives, with little intact whole food. One measure of such foods is **hyper-palatability**: pairing fat with sugar or salt, or carbohydrate with salt, above set thresholds. By one published definition, 62% of foods in a US food database qualified [@fazzino2019hyperpalatable].
@@ -284,7 +286,7 @@ normal reward system responding to an abnormal environment.
 ## Body-weight regulation and weight regain {#sec-defended}
 
 Body weight is actively regulated, and the regulation is asymmetric: the responses that oppose weight
-loss are strong, and those that oppose weight gain are weak. No single set point for body weight has ever been located, and the current view is a **defended range**, with a strong lower limit against starvation and a weak upper one [@speakman2018lipostatic]. The response to weight loss is well established.
+loss are strong, and those that oppose weight gain are weak. No single set point for body weight has ever been located. The current view is a **defended range**, with a strong lower limit against starvation and a weak upper one [@speakman2018lipostatic]. The response to weight loss is well established.
 
 After substantial weight loss, three systems shift together, and all three favour regain:
 
@@ -299,7 +301,7 @@ After substantial weight loss, three systems shift together, and all three favou
 
 ::: {.callout-warning}
 ## Does dieting permanently damage the metabolism?
-In ordinary dieters, metabolic adaptation is real but modest and largely reversible. It makes weight maintenance hard. It does not make weight loss impossible or leave the metabolism "broken". The claim that "dieting permanently wrecks your metabolism" comes largely from one study, of an extreme outlier cohort. Contestants on *The Biggest Loser* who lost about 58 kg had, six years later, resting metabolic rates about
+In ordinary dieters, metabolic adaptation is real but modest and largely reversible. It makes weight maintenance hard, but it does not make weight loss impossible or leave the metabolism "broken". The claim that "dieting permanently wrecks your metabolism" comes largely from one study, of an extreme outlier cohort. Six years after losing about 58 kg, contestants on *The Biggest Loser* had resting metabolic rates about
 500 kcal/day below what their body size predicted [@fothergill2016biggestloser]. The study's own
 senior author later revisited the data and found that the contestants who kept the weight off were also those who
 sustained large increases in physical activity. Under an energy-compensation model, that ongoing effort lowers resting metabolism [@hall2022biggestloser].
@@ -317,34 +319,34 @@ calorie-dense foods [@sleepRestriction]. Pooled across trials, partial sleep los
 about 385 kcal/day of intake with no rise in energy expenditure, a clear shift toward positive energy
 balance [@alkhatib2017partialsleep]. Sleep loss also weakens cortical control over eating (a
 "cortical brake") and amplifies reward responses to food [@greer2013sleepdeprivation]. Eating late, against the circadian (body) clock, raises hunger and lowers energy
-expenditure even at identical calories [@vujovic2022lateeating], one reason shift work and late
+expenditure even at identical calories [@vujovic2022lateeating]. This is one reason shift work and late
 suppers are metabolically taxing.
 
 **Chronic stress may shift eating toward "comfort food".** Sustained cortisol is thought to drive a
 preference for energy-dense, sugary-fatty food and to favour visceral (belly) fat [@dallman2003].
-The evidence is largely animal models and human associations: people with higher long-term cortisol
-do tend to carry more central fat [@jackson2017haircortisol], so the link is plausible but not
+The evidence comes largely from animal models and human associations. People with higher long-term
+cortisol do tend to carry more central fat [@jackson2017haircortisol], so the link is plausible but not
 proven.
 
 ### Obesity and GLP-1 receptor agonists {#sec-obesity}
 
 In obesity, the same regulatory system maintains an elevated weight through
 high but ineffective leptin, a hunger drive that rises as soon as weight is lost, and energy
-expenditure that adapts. Obesity is increasingly understood as a condition of a dysregulated system. A 2025 commission reflects this view and distinguishes two forms: *clinical* obesity, in which excess fat
-already impairs how organs or the whole person function, is a chronic disease, whereas *preclinical*
+expenditure that adapts. Obesity is increasingly understood as a condition of a dysregulated system. A 2025 commission reflects this view and distinguishes two forms. *Clinical* obesity, in which excess
+fat already impairs how organs or the whole person function, is a chronic disease. *Preclinical*
 obesity, with function preserved, is a state of raised risk [@rubino2025clinicalobesity].
 
-The newer weight-loss medicines act on this circuit. **GLP-1 receptor agonists** (semaglutide, and
-tirzepatide, a dual GIP/GLP-1 receptor agonist) are engineered, long-acting drugs that activate the
-receptor for GLP-1, the gut satiety hormone (see [Gut hormones: short-term hunger and satiety signals](#sec-gut-peptides)). They
-amplify endogenous satiety signalling: they shift the arcuate nucleus toward POMC/CART (satiety)
-activity and slow gastric emptying, so hunger falls and meals end sooner (the fourth state of the
+The newer weight-loss medicines act on this circuit. **GLP-1 receptor agonists** are engineered,
+long-acting drugs that activate the receptor for GLP-1, the gut satiety hormone (see [Gut hormones: short-term hunger and satiety signals](#sec-gut-peptides)).
+They include semaglutide and tirzepatide, which is a dual GIP/GLP-1 receptor agonist. They amplify
+endogenous satiety signalling by shifting the arcuate nucleus toward POMC/CART (satiety) activity and
+slowing gastric emptying, so hunger falls and meals end sooner (the fourth state of the
 [interactive](#sec-thermostat)).
 
 The medicines produce large weight losses. In the main trials, alongside lifestyle support, mean weight loss was
 around 15% with semaglutide over 68 weeks and about 21% with tirzepatide at the top dose over 72 weeks,
-against 2 to 3% with placebo, counting everyone randomised whether or not they stayed on the drug
-[@wilding2021step1; @jastreboff2022surmount1]. When the drug stops, the
+against 2 to 3% with placebo. These figures count everyone randomised, whether or not they stayed on
+the drug [@wilding2021step1; @jastreboff2022surmount1]. When the drug stops, the
 weight comes back, because the drug opposes the defended range without removing it [@wilding2022step1extension]. Regain on stopping shows that obesity is a chronic, regulated condition. (The classification
 and management of obesity, including where these medicines and surgery fit, are in the
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) chapter.)
@@ -372,19 +374,19 @@ stop snacking on night shift, or who feels hungrier the more they diet is experi
 Singapore is a clear illustration of an **obesogenic food environment**: one in which palatable,
 energy-dense food is cheap, abundant and always in view. That environment works together with the biology of
 weight regulation, which is why the national "eat less, move more" message is insufficient on its own. Adult obesity has risen in recent years, from 10.5% in 2019–2020 to 12.7% in 2023–2024
-[@mohNPHS2024], despite sustained public-health effort, as would be expected of a regulated, environment-driven
-system.
+[@mohNPHS2024]. The rise came despite sustained public-health effort, as would be expected of a
+regulated, environment-driven system.
 
 **The food environment encourages reward-driven eating.** Hawker centres, food courts and 24-hour options put
-such food within reach day and night, and eating out is routine: in the 2010 National Nutrition Survey,
+such food within reach day and night. Eating out is routine: in the 2010 National Nutrition Survey,
 about 60% of Singaporeans ate out at least four times a week [@tan2020whereweeat].
 Large refined-carbohydrate portions and sweet drinks are the easy default, and they engage the reward and cue responses (see
 [Eating for pleasure](#sec-hedonic)).
 
 **Nutri-Grade changes the food environment.** Sugary drinks are Singapore's
 biggest source of dietary sugar. The Nutri-Grade scheme (A–D grades, plus an advertising ban on the
-worst) is a concrete environmental measure targeting them, and industry responded even before it took effect: as
-manufacturers reformulated ahead of the rules, the median sugar content of pre-packed graded drinks fell
+worst) is a concrete environmental measure targeting them. Industry responded even before it took
+effect: as manufacturers reformulated ahead of the rules, the median sugar content of pre-packed graded drinks fell
 from 7.1% in 2017 to 4.6% in 2021 [@mohNutriGradeRollout2022].
 
 **Short sleep, exam stress and shift-work stress are common.** In a large multi-ethnic local cohort,
@@ -397,7 +399,7 @@ environmentally cued system is therefore the basis for treating patients without
 
 ::: {.callout-tip}
 ## Is "eat less, move more" enough?
-On its own the message is insufficient. It rests on a real fact, that a sustained energy deficit is still how weight is lost. Its weakness is that it treats appetite and expenditure as freely chosen, when both are biologically regulated and environmentally cued. When you discuss weight with a patient, focus on changing the environment and habits: the food kept at home, portion sizes, sleep, protein and fibre, and eating more slowly. For some patients the regulatory responses are strong enough that medication or specialist help is appropriate. Needing it is not a moral failing.
+On its own the message is insufficient. It rests on the real fact that a sustained energy deficit is still how weight is lost. Its weakness is that it treats appetite and expenditure as freely chosen, when both are biologically regulated and environmentally cued. When you discuss weight with a patient, focus on changing the environment and habits: the food kept at home, portion sizes, sleep, protein and fibre, and eating more slowly. For some patients the regulatory responses are strong enough that medication or specialist help is appropriate. Needing it is not a moral failing.
 :::
 
 ## Check your understanding {#sec-quiz}

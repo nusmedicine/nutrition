@@ -52,8 +52,8 @@ The growth spurt drives the internal changes of this stage: it sets energy and p
 
 ### The growth spurt: timing, energy and protein {#sec-child-growth}
 
-After infancy, growth is slow and steady for years; puberty then re-accelerates it to a **peak height
-velocity**, the fastest growth since the first year of life [@rogol_2000_growth_puberty]. Because the
+After infancy, growth is slow and steady for years until puberty re-accelerates it to a peak. This
+**peak height velocity** is the fastest growth since the first year of life [@rogol_2000_growth_puberty]. Because the
 spurt is transient and timed by pubertal stage, a child's height is best interpreted as a point on
 a velocity curve.
 
@@ -71,23 +71,25 @@ toward the adult figure, while total grams rise because the teenager is bigger
 [@faowhounu_protein_children]. An ordinary diet that meets energy needs therefore almost always meets
 protein needs too, so a teenager who eats normally rarely needs protein powder. (Reference intakes and the underlying nutrient biology are in the [*Macronutrients*](macronutrients.qmd) and [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapters.)
 
-A teenager's large appetite mostly reflects the bigger body and more movement; laying down the new tissue itself costs little, about 1–2% of the day's energy by mid-adolescence
+A teenager's large appetite mostly reflects the bigger body and more movement. Laying down the new
+tissue itself costs little, about 1–2% of the day's energy by mid-adolescence
 [@faowhounu_2004_energy_children]. The appetite surge is a normal, hormonally coordinated signal that
-tracks growth velocity [@cheng_2018_ghrelin_puberty], so appetite is best judged against growth: a
-mid-pubertal teenager eating far more is usually meeting the needs of a growth spurt. The warning sign is intake that
+tracks growth velocity [@cheng_2018_ghrelin_puberty]. Appetite is therefore best judged against growth,
+and a mid-pubertal teenager eating far more is usually meeting the needs of a growth spurt. The warning sign is intake that
 does not fit the growth trajectory: restriction while the growth curve falters, or rapid fat gain.
 
-The capacity for **catch-up growth** (recovering growth lost after a nutritional setback) narrows with
-age. A young child can recover from a setback, but by later childhood that potential shrinks, so a child
-crossing down through the growth centiles (the reference curves on a growth chart) warrants prompt referral [@leroy_2020_catchup_growth].
+**Catch-up growth** is the recovery of growth lost after a nutritional setback. The capacity for it
+narrows with age: a young child can recover from a setback, but by later childhood that potential
+shrinks. A child crossing down through the growth centiles (the reference curves on a growth chart)
+therefore warrants prompt referral [@leroy_2020_catchup_growth].
 
 ### Peak bone mass acquisition {#sec-child-bone}
 
 Roughly two-fifths of the bone mineral an adult carries is
 deposited in the few years around the growth spurt, a brief, hormone-dependent window that then closes as the
-growth plates fuse [@baxterjones_2011_pbm_estimation]. The bone mass accrued by the end of adolescence,
-close to a person's **peak bone mass** (the most bone a person ever has), is a major
-determinant of how much bone loss a person can tolerate in later life (see the
+growth plates fuse [@baxterjones_2011_pbm_estimation]. **Peak bone mass** is the most bone a person
+ever has, and the bone mass accrued by the end of adolescence comes close to it. The bone accrued by then is a
+major determinant of how much bone loss a person can tolerate in later life (see the
 [*Bone & joint health*](bone-health-osteoporosis.qmd) and
 [*Menopause & midlife health*](menopause-midlife.qmd) chapters). The window is only partly
 modifiable: lifestyle sets about a fifth to two-fifths of peak bone mass, and the rest is inherited
@@ -107,7 +109,7 @@ Calcium and vitamin D supplements bring gains only in children who were deficien
 ::: {.callout-warning}
 ## When bone accrual is under threat: too little energy
 In adolescence, bone accrual is often impaired by too little energy. In a teenager who trains hard
-and eats too little, reproductive hormone (oestrogen) production falls, menstrual periods stop
+and eats too little, production of the reproductive hormone oestrogen falls. Menstrual periods stop
 (**amenorrhoea**) and bone accrual stalls, sometimes with a lasting deficit
 [@ackerman_2011_athlete_bone_triad]. **A young athlete with irregular periods, amenorrhoea or a stress
 fracture is at risk of lasting bone loss: recognise it and refer, and do not reach for a calcium
@@ -116,10 +118,10 @@ tablet.** We return to this pattern under [Sport and energy availability](#sec-c
 
 ### Iron and the menstruating adolescent {#sec-child-iron}
 
-Iron demand rises through childhood, in both sexes during the spurt, to build an expanding blood volume
-and growing muscle. In girls it jumps again at menarche, as monthly menstrual loss adds to the demand of
+Through childhood, and in both sexes during the spurt, iron demand rises to build an expanding blood
+volume and growing muscle. In girls it jumps again at menarche, as monthly menstrual loss adds to the demand of
 growth [@beard_2000_iron_adolescent_females]. The menstruating adolescent girl is therefore the classic
-at-risk group, and the risk rises further when heavy periods occur with a diet low in meat, a combination that
+at-risk group. Her risk rises further when heavy periods occur with a diet low in meat, a combination that
 multiplies the odds of deficiency compared with either factor alone [@soderman_2025_menstrual_iron]. Singapore's
 recommendations reflect this: the iron recommendation for adolescent girls is roughly triple that for
 their pre-teen years, and far above boys' [@hpb_healthhub_rda].
@@ -127,8 +129,8 @@ their pre-teen years, and far above boys' [@hpb_healthhub_rda].
 Iron deficiency blunts attention, memory and learning, and correcting
 it measurably improves them, though without a clear effect on exam results [@gutema_2023_iron_cognition].
 Deficiency also develops before anaemia: an iron-depleted teenager can be tired and under-performing with
-a normal haemoglobin. For that reason **ferritin**, a marker of iron status that falls before haemoglobin
-does, matters more than haemoglobin alone. When you see a tired, poorly concentrating or heavily
+a normal haemoglobin. **Ferritin** is a marker of iron status that falls before haemoglobin does, and
+for that reason it matters more than haemoglobin alone. When you see a tired, poorly concentrating or heavily
 menstruating adolescent, especially one on a meat-restricted diet, suspect iron deficiency and check iron
 studies (blood tests of iron status, including ferritin) or refer, without waiting for anaemia. (Exact
 thresholds and screening schedules belong to clinical practice; iron deficiency and anaemia are covered in
@@ -140,15 +142,15 @@ Combining foods at the same meal is the practical way to absorb more iron. Haem 
 is far better absorbed than the non-haem iron of plants, and a little meat or a food rich in vitamin C (a
 squeeze of lime, some vegetables, fruit after the meal) can multiply absorption from a plate of rice or
 noodles [@statpearls_dietary_iron; @nih_ods_iron_hp]. The common blockers are tea and coffee with meals,
-the after-school *teh* or *kopi*, and calcium taken at the same time, so move those between meals, away
-from the iron-rich one. A vegetarian teenager needs noticeably more dietary iron and is worth asking about
+such as the after-school *teh* or *kopi*, and calcium taken at the same time. Move these between meals,
+away from the iron-rich one. A vegetarian teenager needs noticeably more dietary iron and is worth asking about
 directly [@nih_ods_iron_hp].
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a 13-year-old boy suddenly eats far more than he used to. Why is this usually normal, and what would make it a concern?
 The appetite surge of puberty is a normal, hormonally coordinated signal that tracks growth velocity. The
-extra intake mostly reflects his bigger body and more movement; laying down new tissue itself costs only
+extra intake mostly reflects his bigger body and more movement. Laying down new tissue itself costs only
 about 1–2% of the day's energy. Because appetite tracks growth, intake that fits his growth
 trajectory usually reflects a growth spurt. Restriction while his growth curve falters, or rapid fat gain,
 would be the warning sign.
@@ -172,18 +174,18 @@ In adolescence, food choice moves from the parent to the teenager and their peer
 meals out, skip more meals and meet more advertising, and the family meal weakens as an influence just as
 sugary drinks and marketing gain strength [@story2002adolescent].
 
-**Free sugars and sugary drinks.** The WHO ceiling of free sugars under 10% of energy, and better under
-5%, is based first on dental caries (tooth decay) [@who2015sugars]. On weight, the
+**Free sugars and sugary drinks.** The WHO sets a ceiling of free sugars under 10% of energy, and better
+under 5%, based first on dental caries (tooth decay) [@who2015sugars]. On weight, the
 strongest evidence comes from trials that swapped sugary for sugar-free drinks. A double-blind trial in
 children found less weight gain over 18 months, and an open-label trial in adolescents saw a benefit that
 had faded by 2 years [@deruyter2012ssb; @ebbeling2012ssb]. The effect is modest, and it works mostly through the drinks' energy content [@temorenga2012sugars].
 
 **Marketing and screens.** Food advertising measurably shifts what children eat and ask for
-[@boyland2016adcue; @boyland2022marketing], enough that the WHO now calls for mandatory limits on
-marketing unhealthy food to under-18s [@who2023marketing]. Screen time is associated with heavier weight,
-but the link runs both ways: heavier children may also choose more sedentary screen time. Much of the
-effect also runs through other pathways (eating while watching, exposure to the adverts and lost sleep), so
-screen time is one of several interlinked influences [@zhang2016tvobesity;
+[@boyland2016adcue; @boyland2022marketing], and the shift is enough for the WHO now to call for
+mandatory limits on marketing unhealthy food to under-18s [@who2023marketing]. Screen time is associated
+with heavier weight, but the link runs both ways: heavier children may also choose more sedentary screen
+time. Much of the effect also runs through other pathways: eating while watching, exposure to the
+adverts and lost sleep. Screen time is therefore one of several interlinked influences [@zhang2016tvobesity;
 @robinson2017screenmedia].
 
 Family meals can offset some of these influences. Eating together several times a week is associated with better diets,
@@ -209,9 +211,9 @@ Female-athlete triad
 Relative energy deficiency in sport (REDs)
 : The broader form of the female-athlete triad, arising from low energy availability.
 
-When energy availability stays too low for too long, from dieting, disordered eating or simply not
-matching a heavy training load, hormone production (including oestrogen) is suppressed: amenorrhoea
-develops, bone accrual stalls and performance falls. This cluster is the female-athlete triad or, in its broader form, REDs [@mountjoy2023reds; @weisskelly2016triad].
+Energy availability can stay too low for too long through dieting, disordered eating or simply not
+matching a heavy training load. When it does, hormone production (including oestrogen) is suppressed:
+amenorrhoea develops, bone accrual stalls and performance falls. This cluster is the female-athlete triad or, in its broader form, REDs [@mountjoy2023reds; @weisskelly2016triad].
 
 ::: {.flow}
 [Under-fuelling in sport]{.tree-title}
@@ -279,12 +281,12 @@ emerging disorder [@chew_2023_atypical_an_sg_adolescents]. The red flags are con
 **Avoidant/restrictive food intake disorder (ARFID)** is
 restrictive eating driven by sensory aversion or fear, without concern about weight or shape. It is where
 "fussy eating" becomes clinical (see the *Infancy & early childhood* chapter)
-[@sanchez_arfid_2023_epi_review]. **Orthorexia**, an obsessive fixation on "clean eating", is a real
-pattern, fuelled by social media, that is worth recognising even though it is not yet a formal diagnosis
+[@sanchez_arfid_2023_epi_review]. **Orthorexia** is an obsessive fixation on "clean eating". It is a
+real pattern, fuelled by social media, and worth recognising even though it is not yet a formal diagnosis
 [@horovitz_orthorexia_2023_review].
 
 **Obesity and emerging type 2 diabetes.** Adolescence is a high-risk window for weight gain partly
-because the physiology of puberty, in which per-kilogram energy needs are falling, coincides with an obesogenic environment. A transient insulin resistance (the body's cells responding less to insulin, so the pancreas makes more to keep blood glucose normal) is a normal part of puberty, so a healthy pubertal teenager carrying a little more fat is usually showing normal physiology and should not be pathologised.
+because puberty, when per-kilogram energy needs are falling, coincides with an obesogenic environment. A transient insulin resistance is a normal part of puberty: the body's cells respond less to insulin, so the pancreas makes more to keep blood glucose normal. A healthy pubertal teenager carrying a little more fat is therefore usually showing normal physiology and should not be pathologised.
 
 Childhood obesity tends to track into adulthood, and paediatric type 2
 diabetes is now emerging as a consequence, including in Singapore [@singh_2008_tracking_overweight;
@@ -340,35 +342,35 @@ time to refer.
 Singaporean student meets daily. Participating canteens must cut fat, sugar and salt, serve wholegrains
 and vegetables, keep plain water the default, and discourage sugary drinks [@hpb_hmsp_page].
 
-Singapore's earlier school anti-obesity scheme, TAF ("Trim And Fit", ~1992–2007), did reduce measured
-childhood obesity. It is nonetheless Singapore's best-known example of how not to run such a scheme:
+Singapore's earlier school anti-obesity scheme, "Trim And Fit" (TAF), ran from about 1992 to 2007 and did
+reduce measured childhood obesity. It is nonetheless Singapore's best-known example of how not to run such a scheme:
 heavier children were singled out and teased (the acronym reads "FAT" backwards). It was retired in 2007
 for a whole-school Holistic Health Framework that does not stigmatise [@foo2013_sg_obesity]. A local
 follow-up of anorexia-nervosa patients found that about one in ten had been through TAF before their
 illness began, although the study shows only an association [@kuek_2015_an_singapore]. The lesson is the
 do-no-harm rule, now national policy: weight is screened without shaming the child.
 
-**Sugary drinks and drink labelling.** Nutri-Grade, the mandatory A–D drink label with an advertising
-ban on the worst grade, was designed for exactly the drinks teenagers buy. Since December 2023 it has
-also covered freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023].
-Its effect is modest, a small cut in sugar per serving [@shin2023_nutrigrade_rct], set against a large local problem: most children already exceed added-sugar guidance [@brownlee2019sgchildren]. The label is therefore one measure among many, best combined with changes at home and at school.
+**Sugary drinks and drink labelling.** Nutri-Grade is the mandatory A–D drink label, with an
+advertising ban on the worst grade. It was designed for exactly the drinks teenagers buy, and since
+December 2023 it has also covered freshly prepared beverages, bubble tea included [@hpbNutriGrade; @mohNutriGradeFresh2023].
+Its effect is modest, a small cut in sugar per serving [@shin2023_nutrigrade_rct], while the local problem is large: most children already exceed added-sugar guidance [@brownlee2019sgchildren]. The label is therefore one measure among many, best combined with changes at home and at school.
 
 **A vitamin D tension, and a data gap.** Singapore's recommendations track these physiological changes well: iron rises
 steeply for adolescent girls (see [Iron and the menstruating adolescent](#sec-child-iron)) and calcium
-stays high through the bone-building years, but vitamin D is set unusually low, on the assumption of
-abundant tropical sun [@hpb_healthhub_rda]. That assumption sits awkwardly with regional evidence that
+stays high through the bone-building years. Vitamin D, however, is set unusually low, on the assumption
+of abundant tropical sun [@hpb_healthhub_rda]. That assumption sits awkwardly with regional evidence that
 vitamin D insufficiency is common despite the sun, because of indoor, sun-avoidant, screen-heavy
 lifestyles [@nimitphong_2013_vitd_sea]. Direct Singapore data on adolescent
 iron and vitamin D status are sparse, so some of the evidence here is regional or international.
 
 **Activity and eating disorders locally.** Only about a quarter of older teens meet the daily activity
-target [@tay2023sgreportcard], and too little physical activity is one of the habits targeted by Grow Well SG, a whole-of-government strategy launched in 2025 that starts with children up to 12 [@moh_growwellsg].
+target [@tay2023sgreportcard]. Too little physical activity is one of the habits targeted by Grow Well SG, a whole-of-government strategy launched in 2025 that starts with children up to 12 [@moh_growwellsg].
 
-Eating disorders, the second local concern, are well documented among Singapore's own adolescents. Local surveys find a meaningful fraction of schoolgirls
-screen positive for risk (with Malay girls over-represented), presentations are rising and diagnosed younger, and a
-large share are atypical, non-underweight presentations [@ho2006_sg_eating_risk; @wong2022_paed_ed;
-@chew_2023_atypical_an_sg_adolescents]. These atypical presentations show that, in Singapore too, eating
-disorders occur across the weight spectrum.
+The second local concern is eating disorders, which are well documented among Singapore's own adolescents. Local surveys find that a meaningful fraction of schoolgirls
+screen positive for risk, with Malay girls over-represented [@ho2006_sg_eating_risk]. Presentations are
+rising and diagnosed younger, and a large share are atypical, non-underweight presentations [@wong2022_paed_ed;
+@chew_2023_atypical_an_sg_adolescents]. These atypical presentations show that eating disorders occur
+across the weight spectrum in Singapore too.
 
 ## Check your understanding {#sec-quiz}
 

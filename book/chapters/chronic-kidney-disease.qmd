@@ -44,13 +44,13 @@ cardiovascular disease, and it shares their risk factors (see the
 [*Cardiovascular disease & hypertension*](cardiovascular-disease-hypertension.qmd) chapters). The
 American Heart Association's concept of **cardiovascular-kidney-metabolic (CKM) syndrome** treats
 obesity, diabetes, cardiovascular disease and CKD as one connected disorder [@ahaCKM2023]. CKD is
-common, largely silent (detected by blood and urine tests) and progressive
+common, progressive and largely silent, and is detected by blood and urine tests
 [@kdigo2024ckd]. In Singapore it is mostly a consequence of diabetes, which drives roughly 2 in 3 new
 cases of kidney failure [@nkfsKeyStats; @ho2024stemmingckd].
 
 CKD is defined and staged by its cause and by two measurements. The
-**estimated glomerular filtration rate (eGFR)** is an estimate of how well the kidneys filter, in
-categories G1–G5; **albuminuria**, protein leaking into the urine, is graded in categories A1–A3.
+**estimated glomerular filtration rate (eGFR)** is an estimate of how well the kidneys filter, staged
+in categories G1–G5. **Albuminuria** is protein leaking into the urine, graded in categories A1–A3.
 The two are read together on a colour-coded risk "heat map" that Singapore's national guidance follows
 [@kdigo2024ckd; @aceCKD2023]. What matters at this level is recognising risk: a low eGFR with heavy albuminuria means high-risk CKD, and from that point on the patient's diet is a specialist
 matter.
@@ -62,8 +62,8 @@ Three principles shape nutrition in CKD:
   diabetes* and *Cardiovascular disease & hypertension* chapters) [@ahaCKM2023; @ho2024stemmingckd].
 - There is no single "renal diet". Nutrition in CKD is individualised, dietitian-led medical nutrition
   therapy (see the [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter).
-  It changes with the stage of disease and with **dialysis** (treatment that partly takes over the
-  kidney's clearance of wastes and water), including the type of dialysis. A generic diet sheet does not
+  It changes with the stage of disease and with **dialysis**, including the type of dialysis. Dialysis
+  is the treatment that partly takes over the kidney's clearance of wastes and water. A generic diet sheet does not
   replace individual advice [@kdoqi2020nutrition; @aceCKD2023].
 - Advice that is healthy for the public can reverse in CKD. Eating more potassium, using a potassium
   salt substitute and following the DASH pattern are each good general advice, and each can become
@@ -74,23 +74,23 @@ Three principles shape nutrition in CKD:
 The kidney is the main regulator of the body's water, electrolyte and acid–base balance: the healthy kidney clears sodium, potassium, phosphate, acid and water, and it activates vitamin D. Kidney disease therefore changes which foods a person may eat, as well as how much. (The everyday balance of sodium, potassium and water is in the
 [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) chapter.)
 
-As functioning **nephrons** (the kidney's filtering units) are progressively lost, the substances they
-used to clear accumulate in the blood, each with its own consequence [@kdigo2024ckd]:
+The kidney's filtering units are its **nephrons**. As functioning nephrons are progressively lost, the
+substances they used to clear accumulate in the blood, each with its own consequence [@kdigo2024ckd]:
 
 - Retained sodium and water raise blood volume and blood pressure, and cause **oedema** (swelling
   from fluid collecting in the tissues).
 - Potassium can no longer be excreted freely, so a dietary load that a healthy kidney would clear can
   push blood potassium to a dangerous level: **hyperkalaemia**, which disturbs the heart's rhythm
   [@hunter2019hyperkalemia].
-- Phosphate is retained and the failing kidney stops activating vitamin D; together these drive
-  **CKD–mineral and bone disease**, a disorder of bone and blood vessels [@kdigo2017ckdmbd].
+- Phosphate is retained and the failing kidney stops activating vitamin D. Together these drive a
+  disorder of bone and blood vessels, **CKD–mineral and bone disease** [@kdigo2017ckdmbd].
 - The waste products of protein metabolism, acid and urea, build up.
 
 ![In health (left) the kidney clears sodium, potassium, phosphate, acid and water and activates vitamin D, so the diet need not manage them. As nephrons are lost in CKD (right), these accumulate in the blood, raising blood pressure and fluid load, risking hyperkalaemia, and driving CKD–mineral and bone disease and acid build-up. Intake of five dietary components (sodium, potassium, phosphate, fluid and protein) must then be adjusted to the patient's stage of disease and dialysis status, through individualised, dietitian-led therapy.](/figures/mechanisms/ckd-diet-levers.svg){#fig-ckd-levers width="92%" fig-align="center"}
 
 The renal diet has to balance two dangers, accumulation and wasting, which is why it is specialist work. The five dietary components in the figure are managed to limit accumulation, but eating less carries its own danger. The build-up in the blood of urea and the other wastes the kidney normally
 clears is **uraemia**, and it blunts appetite just as illness raises the body's demands. Patients
-therefore readily develop **protein-energy wasting**, undernutrition superimposed on kidney
+therefore readily develop **protein-energy wasting**, which is undernutrition superimposed on kidney
 disease, and that risk makes automatic restriction hazardous [@fouque2008pew; @carrero2013pewetiology].
 
 ::: {.callout-tip collapse="true"}
@@ -115,15 +115,15 @@ Renal nutrition is individualised medical nutrition therapy, so the same food ca
 ### Protein: targets before and on dialysis {#sec-ckd-protein}
 
 Protein is a commonly misunderstood part of the renal diet, because the advice reverses at dialysis.
-Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once a patient starts
-dialysis, which is itself catabolic and removes protein, the target is raised again
+Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; dialysis is
+itself catabolic and removes protein, so once a patient starts it, the target is raised again
 [@kdoqi2020nutrition; @lambert2022kdoqicommentary]. Because the same patient needs opposite advice at
 different stages, the clinician refers the patient for the target to be set.
 
-The evidence on whether protein restriction slows kidney disease supports at most a qualified benefit. The large MDRD (Modification of Diet in Renal Disease)
-study found only a small, statistically fragile effect on the decline in kidney function in its
-primary analysis; the confident conclusion that "protein restriction slows CKD" came from a later
-secondary analysis [@klahr1994mdrd; @levey1999mdrd].
+The evidence on whether protein restriction slows kidney disease supports at most a qualified benefit. In its primary analysis, the large
+Modification of Diet in Renal Disease (MDRD) study found only a small, statistically fragile effect on
+the decline in kidney function. The confident conclusion that "protein restriction slows CKD" came
+from a later secondary analysis [@klahr1994mdrd; @levey1999mdrd].
 
 ::: {.callout-warning}
 ## Is a low-protein diet always good for the kidneys?
@@ -131,9 +131,9 @@ The belief follows from the waste-load reasoning above: if failing kidneys clear
 of protein, less protein seems better. Applied reflexively, the reasoning can cause harm. If protein is cut without
 safeguarding energy intake and without monitoring, patients, especially older ones, can develop
 protein-energy wasting. This defined syndrome of low body and muscle mass, poor intake and abnormal
-blood chemistry is common on dialysis (roughly a third to a half of patients) and strongly linked to
+blood chemistry affects roughly a third to a half of patients on dialysis and is strongly linked to
 death [@fouque2008pew; @carrero2018pewprev; @bonanni2011pewmortality]. Adequate energy is what makes
-any protein target safe; without enough energy, muscle protein is broken down for fuel
+any protein target safe: without enough energy, muscle protein is broken down for fuel
 [@kdoqi2020nutrition]. Protein targets are therefore modest, stage-specific and dietitian-set, and
 **unsupervised low-protein advice is unsafe** [@piccoli2023lowprotein] (see the
 [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd) chapter).
@@ -143,26 +143,26 @@ any protein target safe; without enough energy, muscle protein is broken down fo
 
 Sodium reduction is the one dietary change a generalist can legitimately reinforce, because the advice
 does not reverse in CKD. Cutting salt helps here for the same reasons it helps in hypertension, and it also reduces
-albuminuria and lets blood-pressure drugs work better [@kdigo2024ckd; @kdoqi2020nutrition]. The KDIGO
-(Kidney Disease: Improving Global Outcomes) guideline suggests keeping sodium under about 2 g a day
-(roughly 5 g of salt), though the evidence is of low certainty and rests on surrogate measures such as
-blood pressure [@kdigo2024ckd]. (The population evidence on sodium and blood pressure is in the *Cardiovascular disease & hypertension* chapter.)
+albuminuria and lets blood-pressure drugs work better [@kdigo2024ckd; @kdoqi2020nutrition]. The Kidney
+Disease: Improving Global Outcomes (KDIGO) guideline suggests keeping sodium under about 2 g a day,
+roughly 5 g of salt, though the evidence for this limit is of low certainty and rests on surrogate
+measures such as blood pressure [@kdigo2024ckd]. (The population evidence on sodium and blood pressure is in the *Cardiovascular disease & hypertension* chapter.)
 
-Singaporeans start from a high intake: about 9 in 10 exceed the limit, averaging about 3,600 mg a day, most of
-it hidden in soups, sauces and food eaten out [@hpb2023sodium]. In CKD, however, one common way of cutting salt,
-the potassium salt substitute, needs particular caution (see
+Singaporeans start from a high intake: about 9 in 10 exceed the limit, with an average of about 3,600 mg
+a day, and most of it is hidden in soups, sauces and food eaten out [@hpb2023sodium]. In CKD, however, a
+common way of cutting salt needs particular caution: the potassium salt substitute (see
 [Potassium: the risk of hyperkalaemia](#sec-ckd-potassium)).
 
 ### Potassium: the risk of hyperkalaemia {#sec-ckd-potassium}
 
-In advanced CKD the public advice to eat more potassium reverses. The WHO recommends eating more potassium (fruit, vegetables, legumes) to lower blood pressure, and the same guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. In these patients, a potassium load the healthy kidney would clear can accumulate to hyperkalaemia and disturb the heart's rhythm [@hunter2019hyperkalemia]. Even so, advice is moving toward individualised targets guided by blood levels, because whole-food potassium is handled differently by the body than the number on a label suggests, and blanket bans on fruit and vegetables worsen diet quality. Individualising the advice is a dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
+In advanced CKD the public advice to eat more potassium reverses. The WHO recommends eating more potassium from fruit, vegetables and legumes to lower blood pressure, but the same guideline explicitly excludes people whose kidneys cannot excrete potassium [@who2012potassium]. In these patients, a potassium load the healthy kidney would clear can accumulate to hyperkalaemia and disturb the heart's rhythm [@hunter2019hyperkalemia]. Even so, advice is moving toward individualised targets guided by blood levels, for two reasons: the body handles whole-food potassium differently from what the number on a label suggests, and blanket bans on fruit and vegetables worsen diet quality. Individualising the advice is a dietitian's job [@kdoqi2020nutrition; @clegg2020potassiumplant].
 
 The panel below sets five pieces of standard advice against two patients, a healthy adult and someone
 with advanced CKD. Toggle the patient to see which advice reverses and which holds.
 
 <div data-island="renal-flip" data-src="/diagrams/renal-flip.yml"></div>
 
-Two hazards, the potassium salt substitute and star fruit, carry more risk than an ordinary high-potassium food and should be recognised on sight.
+The potassium salt substitute and star fruit carry more risk than an ordinary high-potassium food and should be recognised on sight.
 
 ::: {.callout-warning}
 ## Two hazards: the potassium salt substitute and star fruit
@@ -184,10 +184,10 @@ The warning matters locally, since both fruits are common in Singapore gardens a
 
 Retained phosphate silently contributes to CKD–mineral and bone disease, and its form matters more than
 the amount [@kdigo2017ckdmbd; @gonzalezparra2012phosphorus]. Phosphate that occurs naturally in
-whole foods (meat, dairy, legumes) is only partly absorbed, roughly 40–60%, and less from plant
-sources. By contrast, **phosphate additives**, the inorganic phosphates used to preserve and improve processed
-foods, are absorbed almost completely, up to about 90–100% [@noori2010phosphorus;
-@gonzalezparra2012phosphorus].
+whole foods such as meat, dairy and legumes is only partly absorbed, roughly 40–60%, and less is
+absorbed from plant sources. The **phosphate additives** in processed foods are inorganic phosphates
+used to preserve and improve them. By contrast with naturally occurring phosphate, they are absorbed
+almost completely, up to about 90–100% [@noori2010phosphorus; @gonzalezparra2012phosphorus].
 
 ![Not all dietary phosphate is absorbed equally. Phosphate bound in plant foods (phytate) is the least available; the phosphate naturally in animal foods is partly absorbed; but the inorganic phosphate *additives* in processed foods are almost completely absorbed, and are often invisible on the label. Preferring fresh over processed, and scanning ingredient lists for "-PHOS" additives, is the practical approach.](/figures/mechanisms/phosphate-absorption.svg){#fig-phosphate width="80%" fig-align="center"}
 
@@ -210,14 +210,14 @@ The renal-diet hazards in Singapore's food environment are specific and local, a
 | High potassium | Coconut milk and kaya, durian, bananas, kangkong, dhal, essence of chicken, stock cubes, Milo- or Horlicks-type malt drinks, strong kopi or teh |
 | Additive phosphate | Luncheon and canned meat, sausages, meat patties, processed cheese, malt drinks, colas |
 
-Dietitians teach **leaching** (soaking cut vegetables, then boiling them and discarding the water) to
-lower their potassium. The amounts are individualised, so flag these foods and refer the patient to a dietitian, who sets the quantities [@nkfsEatingRightCKD].
+To lower the potassium in vegetables, dietitians teach **leaching**: soaking the cut vegetables, then
+boiling them and discarding the water. The amounts are individualised, so flag these foods and refer the patient to a dietitian, who sets the quantities [@nkfsEatingRightCKD].
 :::
 
 ### Fluid: when restriction is needed {#sec-ckd-fluid}
 
-Fluid restriction is an easy measure to over-apply: early CKD usually needs none [@aceCKD2023];
-limits matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain
+Fluid restriction is an easy measure to over-apply: early CKD usually needs none [@aceCKD2023].
+Limits matter mainly in advanced disease and on dialysis, where retained water shows up as weight gain
 between sessions, ankle and lung oedema, and breathlessness [@kdoqi2020nutrition]. Even then the fluid target is individualised and set by the renal team. The generalist's part is to recognise the signs of overload, link thirst to salt intake, and refer.
 
 ::: {.callout-tip collapse="true"}
@@ -239,7 +239,7 @@ opposite advice at different stages, the target is set by the renal dietitian.
 ## When to refer {#sec-ckd-refer}
 
 Once CKD is confirmed, individualised nutrition is the treatment, and it is dietitian-led. Refer
-whenever the advice needed exceeds general healthy eating; in practice, five findings are useful triggers for a referral, several of which Singapore's ACE guidance also lists as reasons for shared specialist care [@kdoqi2020nutrition; @aceCKD2023]:
+whenever the advice needed exceeds general healthy eating. In practice, five findings are useful triggers for a referral, and Singapore's ACE guidance also lists several of them as reasons for shared specialist care [@kdoqi2020nutrition; @aceCKD2023]:
 
 - eGFR is falling, or is roughly in category G3b or worse.
 - CKD coexists with diabetes.
@@ -249,7 +249,7 @@ whenever the advice needed exceeds general healthy eating; in practice, five fin
 
 In Singapore the National Kidney Foundation provides most subsidised dialysis and runs the renal
 education programmes to which patients are referred [@mohNkfDialysis2026; @nkfsEatingRightCKD]. (The wider
-referral map, who does what across the multidisciplinary team, is in the
+referral map of who does what across the multidisciplinary team is in the
 [*Interprofessional practice, referral and looking after yourself*](interprofessional-referral.qmd) chapter.)
 
 ::: {.callout-important}
@@ -290,7 +290,7 @@ residents as those conditions climb [@ho2024stemmingckd; @wong2018ckdprojection]
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease accounts for most
 new dialysis starts, the national War on Diabetes is also a central CKD-prevention strategy
-[@mohWarOnDiabetes]. This fits the CKM syndrome concept [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging and, like the triggers in [When to refer](#sec-ckd-refer), is pragmatic about referral: a dietitian is for those with more complex dietary needs [@aceCKD2023].
+[@mohWarOnDiabetes]. This fits the CKM syndrome concept [@ahaCKM2023]. Once CKD is established, the guidance from Singapore's Agency for Care Effectiveness (ACE) follows the same heat-map staging. Like the triggers in [When to refer](#sec-ckd-refer), it is pragmatic about referral: a dietitian is for those with more complex dietary needs [@aceCKD2023].
 
 **The renal diet clashes with typical hawker food, and the clash contributes to poor intake.** A low-salt,
 potassium-aware, low-additive-phosphate diet conflicts with strongly flavoured hawker food based on soy,

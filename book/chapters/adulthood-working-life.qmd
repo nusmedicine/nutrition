@@ -37,7 +37,7 @@
 ## Adulthood at a glance: internal and external factors {#sec-overview}
 
 The healthy working-age adult, from roughly the twenties to the fifties, has moved from building the
-body to maintaining it, and comes between adolescence and the midlife and older years (see the
+body to maintaining it. This stage comes between adolescence and the midlife and older years (see the
 [*Childhood & adolescence*](childhood-adolescence.qmd),
 [*Menopause & midlife health*](menopause-midlife.qmd) and [*Healthy ageing*](healthy-ageing.qmd)
 chapters). Two topics set this stage apart: fuelling an active body, and eating well during a working
@@ -60,10 +60,10 @@ With growth over, the aim in these decades is maintenance, which turns on two qu
 
 ### Does metabolism slow down in midlife? {#sec-adult-metabolism}
 
-A slowing metabolism, the usual explanation for midlife weight gain, accounts for little of it. Total energy expenditure (the sum of basal metabolic rate, the thermic effect of food and physical activity; see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter) has been measured with doubly labelled water across the whole lifespan. Adjusted for body size, it is steady from about 20 to 60 and declines only later in life [@pontzer2021energy].
+A slowing metabolism is the usual explanation for midlife weight gain, yet it accounts for little of it. Total energy expenditure is the sum of basal metabolic rate, the thermic effect of food and physical activity (see the [*Energy balance*](energy-balance.qmd#sec-expenditure) chapter). Measured with doubly labelled water across the whole lifespan and adjusted for body size, it is steady from about 20 to 60 and declines only later in life [@pontzer2021energy].
 
-**Weight creep**, the slow adult weight gain of roughly 0.5–1 kg a year, comes from a small,
-chronic energy surplus, which usually arises from falling activity and muscle plus a little more
+The slow adult weight gain of roughly 0.5–1 kg a year is known as **weight creep**. It comes from a
+small, chronic energy surplus, which usually arises from falling activity and muscle plus a little more
 intake [@hill2009energygap]. The remedies therefore lie in staying active, keeping muscle and managing the food environment. A crash diet aimed at a metabolic decline
 targets a cause that is not there. Activity alone, however, has a fairly weak effect on weight
 once excess has accumulated, so preventing the surplus works better than trying to out-exercise it
@@ -79,27 +79,27 @@ steeper losses of older age (see the *Healthy ageing* chapter). Muscle matters f
 disposal after a meal [@merz2020muscleinsulin], so keeping muscle helps protect metabolic health
 (for the mechanism, see the [*Integrative metabolism*](integrative-metabolism.qmd#sec-fed) chapter).
 
-Two factors maintain muscle mass, resistance exercise and protein, and the second depends on the first. **Resistance exercise**
-(muscle-strengthening exercise against a load) is the necessary stimulus: guidelines recommend it on two
-or more days a week [@bull2020whopa], muscle gain rises with weekly training volume
-[@schoenfeld2017rtvolume], and regular muscle-strengthening is linked to lower risk of death and major
-chronic disease [@momma2022strengthmortality]. Protein, without that
-stimulus, does little.
+Two factors maintain muscle mass, resistance exercise and protein, and the second depends on the first.
+**Resistance exercise**, which strengthens muscle by working it against a load, is the necessary
+stimulus. Guidelines recommend it on two or more days a week [@bull2020whopa], muscle gain rises with
+weekly training volume [@schoenfeld2017rtvolume], and regular muscle-strengthening is linked to lower
+risk of death and major chronic disease [@momma2022strengthmortality]. Without that stimulus, protein
+does little.
 
 The adult protein reference is the **Recommended Dietary Allowance (RDA)**, a population reference
-intake that is adequate for nearly all healthy adults: about 0.8 g/kg/day (see the
+intake that is adequate for nearly all healthy adults, and for protein it is about 0.8 g/kg/day (see the
 [*Macronutrients*](macronutrients.qmd) chapter). The RDA is a minimum: an adult training to build or hold muscle does better at around 1.2–1.6 g/kg/day, and the benefit plateaus near there [@morton2018proteinmeta]. The range is approximate: an ordinary diet reaches it, and for most people it means some protein at each meal. Three common concerns
 about protein (timing, safety and source) matter less than is often claimed:
 
-- Timing around a workout barely matters once daily protein intake is adequate; the **anabolic window**
-  (the period after exercise in which protein is claimed to be best used) is far wider than the
+- Timing around a workout barely matters once daily protein intake is adequate. The period after
+  exercise in which protein is claimed to be best used, the **anabolic window**, is far wider than the
   supplement industry implies [@schoenfeld2013timing], so ordinary food is enough, without a powder or a
   30-minute shake.
 - Higher intakes are safe for people with normal kidney function; the exception is established kidney
   disease (see the [*Chronic kidney disease*](chronic-kidney-disease.qmd) chapter)
   [@devries2018kidney].
-- Plant and animal protein differ little for muscle once the total is adequate; a review found only a
-  small edge for animal protein [@lim2021animalplant].
+- Plant and animal protein differ little for muscle once the total is adequate, and a review found only
+  a small edge for animal protein [@lim2021animalplant].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a 40-year-old blames her weight gain on a slowing metabolism and plans a crash diet. Why does the plan miss the cause?
@@ -119,7 +119,7 @@ food is enough, and because the benefit plateaus near there, more protein is not
 
 ## What changes outside: activity, the food environment and alcohol {#sec-adult-outside}
 
-The external factors of working life are exercise, which for most adults needs no special fuel, the places and hours in which work allows meals, and alcohol, for which there is no established safe level.
+The external factors of working life are exercise, the places and hours in which work allows meals, and alcohol. For most adults exercise needs no special fuel, and for alcohol there is no established safe level.
 
 ### Fuelling everyday exercise {#sec-adult-fuelling}
 
@@ -137,13 +137,13 @@ that volume, the advice is simpler:
   day, without a special shake.
 - Recovery needs only a normal next meal, unless training twice in one day.
 
-Caffeine itself, as in a coffee before exercise, is a mild, legitimate performance aid. With bubble tea, energy drinks and kopi, which many working adults drink daily, the concern is their sugar and energy content.
+Caffeine itself, as in a coffee before exercise, is a mild, legitimate performance aid. Many working adults drink bubble tea, energy drinks and kopi daily, and with these the concern is their sugar and energy content.
 
 ::: {.callout-tip}
 ## 🍜 Hydration in the Singapore heat
 In the tropics, only the advice on fluid changes. For outdoor exercise or a sweaty commute:
 
-- Drink to thirst, and aim to lose less than about 2% of body weight over a long session, because Singapore's heat and humidity raise sweat losses for the same effort; weighing
+- Drink to thirst, and aim to lose less than about 2% of body weight over a long session, because Singapore's heat and humidity raise sweat losses for the same effort. Weighing
   before and after a long run shows the real losses [@sawka2007fluid].
 - Add salt only for long or very sweaty sessions (beyond a couple of hours); for a typical workout,
   plain water is enough.
@@ -165,8 +165,9 @@ its own (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.
 [*Assessing diet and talking to patients*](06-dietary-assessment.qmd) chapters).
 
 **Shift work disrupts circadian rhythms.** Night-shift work is associated with higher rates of type 2
-diabetes and metabolic syndrome (a cluster of central fat, hypertension, raised blood glucose and
-abnormal blood lipids). These associations come from observational data. The mechanism involves **circadian misalignment** (eating, sleeping and working out of step with the body's internal clock) [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
+diabetes and of metabolic syndrome, a cluster of central fat, hypertension, raised blood glucose and
+abnormal blood lipids, although these associations come from observational data. The mechanism involves
+**circadian misalignment**: eating, sleeping and working out of step with the body's internal clock [@xie2024nightshiftt2dm; @sooriya2022shiftmets].
 
 The most useful evidence-based change for shift workers concerns when to eat. In a controlled trial,
 keeping the main meals in the daytime and avoiding heavy eating in the small hours (roughly midnight to
@@ -175,41 +176,41 @@ generally, late-weighted eating is less favourable than an earlier-weighted patt
 that evidence is observational [@stonge2017mealtiming].
 
 **Stress and short sleep change intake.** Under stress, people tend to choose less healthy food
-[@hill2022stresseating]. Short sleep, a chronic deficit for many working adults, raises energy intake
-[@alkhatib2017sleep], and extending sleep brings intake back down [@tasali2022sleepextension], so
+[@hill2022stresseating]. Many working adults run a chronic sleep deficit, and short sleep raises energy
+intake [@alkhatib2017sleep]. Extending sleep brings intake back down [@tasali2022sleepextension], so
 improving sleep is also a nutrition intervention.
 
 ### Alcohol: cancer and cardiovascular risk {#sec-adult-alcohol}
 
-Clinical advice on alcohol has reversed within a decade: there is now no established safe level of drinking for health. Alcohol is a **Group 1 carcinogen** (an agent classed as an established cause of
-cancer in humans) that causes at least seven cancers, including breast and oesophageal cancer, and a
-meaningful share of alcohol-related cancers arise at light-to-moderate drinking
+Clinical advice on alcohol has reversed within a decade: there is now no established safe level of drinking for health. Alcohol is a **Group 1 carcinogen**, meaning an agent classed as an established
+cause of cancer in humans. It causes at least seven cancers, including breast and oesophageal cancer,
+and a meaningful share of alcohol-related cancers arise at light-to-moderate drinking
 [@anderson2023nosafelevel; @who2023nosafelevel; @jun2023alcoholcancer].
 
 The belief that "a daily glass of red wine protects your heart" does not hold up. The apparent benefit
 came largely from comparing drinkers with a group of "abstainers" that included people who had stopped
-drinking because they were ill; **Mendelian randomisation** studies, which use genetic variants to
-remove that bias, find no cardiovascular protection, and harm that rises even at low intake
+drinking because they were ill. **Mendelian randomisation** studies use genetic variants to remove that
+bias. They find no cardiovascular protection, and they find harm that rises even at low intake
 [@piano2025ahaalcohol; @biddinger2022mralcohol]. In practice, never advise anyone to drink for their
 heart.
 
-Alcohol also matters for weight: it supplies empty calories (about 7 kcal/g, with no nutrients), and drinkers eat little less to make up for it,
-so its energy adds to that of an eating-out diet [@traversy2015alcoholobesity].
+Alcohol also matters for weight. It supplies empty calories, about 7 kcal/g with no nutrients, and
+drinkers eat little less to make up for it, so its energy adds to that of an eating-out diet [@traversy2015alcoholobesity].
 
 ::: {.callout-warning}
 ## Is the alcohol flush harmless?
-Reddening after a drink, the **alcohol flush**, is often taken as a harmless quirk. The flush marks a build-up of **acetaldehyde**, the carcinogenic breakdown product of alcohol, and about a third of East Asians are prone to flushing because they carry a variant of ALDH2 (aldehyde dehydrogenase 2, the enzyme that clears acetaldehyde). People who flush and keep drinking therefore carry a substantially raised risk of oesophageal cancer [@brooks2009aldh2], so the flush is a clinical cue: **ask about it, and
+Reddening after a drink is called the **alcohol flush** and is often taken as a harmless quirk. The flush marks a build-up of **acetaldehyde**, the carcinogenic breakdown product of alcohol. About a third of East Asians are prone to flushing because they carry a variant of ALDH2 (aldehyde dehydrogenase 2), the enzyme that clears acetaldehyde. People who flush and keep drinking therefore carry a substantially raised risk of oesophageal cancer [@brooks2009aldh2], so the flush is a clinical cue: **ask about it, and
 advise cutting down.**
 :::
 
 For any adult, the clinician's role at this stage is to screen briefly, advise, and refer anyone with
-hazardous or harmful use; further management is the role of addiction services [@uspstf2018alcohol]. The
+hazardous or harmful use. Further management is the role of addiction services [@uspstf2018alcohol]. The
 usual screen is a short questionnaire such as the **AUDIT-C**, the consumption questions of the Alcohol
 Use Disorders Identification Test [@bush1998auditc].
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does a 40-minute park run need only water, when athlete guidance recommends carbohydrate during exercise?
-Muscle glycogen, the limited carbohydrate store, runs out only in long efforts such as a marathon (glycogen
+Muscle glycogen is the limited carbohydrate store and runs out only in long efforts such as a marathon (glycogen
 depletion, described in the *Integrative metabolism* chapter). A 40-minute run therefore ends long before
 carbohydrate during exercise could help. The high-carbohydrate and during-exercise advice is
 calibrated for serious endurance athletes training for hours at a time, whereas a 30–60-minute session
@@ -229,14 +230,13 @@ Alcohol is also a Group 1 carcinogen, so no one should be advised to drink for t
 
 Most of the advice above is preventive, but a few patterns call for recognition and, often, referral.
 
-Weight creep matters sooner in Asian adults, who carry cardiometabolic risk at a lower BMI (hence
-Singapore's lower BMI cut-offs; see the
+Weight creep matters sooner in Asian adults, who carry cardiometabolic risk at a lower BMI. Singapore's BMI cut-offs are lower for that reason (see the
 [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd#sec-phenotype) chapter), so even a few
 kilograms of creep can cross a threshold. Established obesity and metabolic syndrome are managed as conditions in their own right (see
 the [*Obesity & metabolic syndrome*](obesity-metabolic-syndrome.qmd) and
 [*Type 2 diabetes*](type-2-diabetes.qmd) chapters).
 
-Repeated crash dieting is the pattern to steer patients away from. **Weight cycling** (repeated weight loss and regain) has been linked to worse outcomes, but that signal is heavily confounded by illness causing unintentional weight loss [@zou2019fluctuation], so the link is not proof that dieting itself kills. The practical conclusion is still to aim for a steady weight. Small, sustainable habits and regular self-weighing modestly help prevent weight gain [@graham2022smallchange; @zheng2015selfweighing].
+Repeated crash dieting is the pattern to steer patients away from. **Weight cycling** is repeated weight loss and regain. It has been linked to worse outcomes, but that association is heavily confounded by illness causing unintentional weight loss [@zou2019fluctuation], so the link is not proof that dieting itself kills. The practical conclusion is still to aim for a steady weight. Small, sustainable habits and regular self-weighing modestly help prevent weight gain [@graham2022smallchange; @zheng2015selfweighing].
 
 Each of the following patterns is a prompt to act at this stage:
 
@@ -262,11 +262,11 @@ The metabolism holds steady through these decades, so blaming midlife weight gai
 ## The Singapore context {#sec-singapore}
 
 **Hawker food dominates the food environment.** With most adults eating out regularly, the
-population-level gaps the National Nutrition Survey flags, notably that about 9 in 10 adults exceed the
-recommended limit of 2,000 mg of sodium a day, are built into everyday meals more than into home cooking [@mohNNS2022; @naidoo2017eatingout].
-The national tools target this: the Healthier Dining Programme labels lower-calorie hawker options, and
-Nutri-Grade grades the drinks, both practical tools to point patients toward [@hdpHawker2017;
-@hpbNutriGrade].
+population-level gaps that the National Nutrition Survey flags are built into everyday meals more than
+into home cooking [@naidoo2017eatingout]. Sodium is one: about 9 in 10 adults exceed the recommended limit
+of 2,000 mg a day [@mohNNS2022]. The national tools target these everyday meals: the Healthier Dining
+Programme labels lower-calorie hawker options and Nutri-Grade grades the drinks, and both are practical
+tools to point patients toward [@hdpHawker2017; @hpbNutriGrade].
 
 **Activity is often built into the commute.** Singapore's physical-activity guidance mirrors the
 international target of 150–300 minutes of moderate-intensity aerobic activity a week plus muscle-strengthening on two or more days
@@ -275,7 +275,7 @@ transport, and the gamified National Steps Challenge raises it modestly [@nphs20
 
 **Shift work and long hours affect eating.** Both are common in sectors such as healthcare, transport, and food and beverage, and the long-hours culture normalises convenient, less healthy eating [@leu2023longhours].
 
-**Local guidance caps alcohol intake.** For men the limit is about two **standard drinks** (about 10 g of alcohol each) a day, and for women one. Health messaging now cites the "no safe level" position, and the ALDH2 flush, common in the Chinese-majority population, makes the "ask about flushing" cue
+**Local guidance caps alcohol intake.** For men the limit is about two **standard drinks** (about 10 g of alcohol each) a day, and for women one. Health messaging now cites the "no safe level" position. The ALDH2 flush is common in the Chinese-majority population, so the "ask about flushing" cue is
 especially useful here [@mohAlcoholLimits2018; @healthhubAlcoholHazards].
 
 ## Check your understanding {#sec-quiz}

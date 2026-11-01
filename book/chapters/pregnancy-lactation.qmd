@@ -66,10 +66,10 @@ Nutrition for pregnancy starts before conception, and requirements rise unevenly
 The neural tube closes by about 28 days after conception,
 often before a woman knows she is pregnant, so folic acid has to be started beforehand (the folate
 science is in the *Micronutrients, hydration and electrolytes* chapter). The usual dose is about
-400 µg/day of folic acid; higher-risk women need 4–5 mg/day (those with a previous
-neural-tube-defect pregnancy, diabetes, obesity or certain anticonvulsants) [@mrc1991folate;
-@czeizel1992folate]. The same window is where weight and blood glucose are best brought into range and
-where teratogenic supplements (high-dose vitamin A) are stopped [@johnson2006preconception].
+400 µg/day of folic acid. Women with a previous neural-tube-defect pregnancy, diabetes, obesity or
+certain anticonvulsants are at higher risk and need 4–5 mg/day [@mrc1991folate;
+@czeizel1992folate]. The same window is the best time to bring weight and blood glucose into range, and
+teratogenic supplements (high-dose vitamin A) are stopped then [@johnson2006preconception].
 
 ### Energy and gestational weight gain {#sec-preg-energy}
 
@@ -84,18 +84,18 @@ too much the chance of a large baby and a caesarean. Yet only about a third of w
 range [@goldstein2017gwg]. The ranges rest on Western BMI cut-offs and may fit local women
 imperfectly, as Singapore data bear out [@ee2014gwgSG; @he2019gwgSG], so they are best used as a flexible framework.
 
-Lactation needs only a little more energy than the third trimester of pregnancy, because fat gained in pregnancy provides an energy reserve for breastfeeding. Making milk costs about 675 kcal a day; about 170 kcal of that comes from the fat a woman laid down in pregnancy, leaving a *net* extra requirement of roughly 500 kcal/day, with more fluid too [@faoEnergy2004].
+Lactation needs only a little more energy than the third trimester of pregnancy, because fat gained in pregnancy provides an energy reserve for breastfeeding. Making milk costs about 675 kcal a day. About 170 kcal of that comes from the fat a woman laid down in pregnancy, which leaves a *net* extra requirement of roughly 500 kcal/day, together with more fluid [@faoEnergy2004].
 
 ### Haemodilution and iron deficiency {#sec-preg-blood}
 
 A mid-pregnancy haemoglobin almost always falls, usually by **haemodilution**: a lower haemoglobin
 concentration caused by plasma volume expanding faster than red-cell mass. Plasma volume expands by
 nearly half, outpacing the roughly 25% rise in red-cell mass [@aguree2019plasma], so the fall is
-usually not anaemia. The response is to use pregnancy-specific cut-offs and to check ferritin (the
-iron-store marker that falls before haemoglobin does; see the *Childhood & adolescence* chapter)
-before treating.
+usually not anaemia. The response is to use pregnancy-specific cut-offs and, before treating, to check
+ferritin, the iron-store marker that falls before haemoglobin does (see the *Childhood & adolescence*
+chapter).
 
-Haemodilution does not rule out true iron deficiency. Requirements rise for the expanding red-cell mass and the foetus's own stores (the nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter), and deficiency is common even in Singapore: about three-quarters of Singaporean women are iron-deficient by the early third trimester [@loy2019ironSG]. WHO recommends 30–60 mg of elemental iron daily, with folic acid [@whoAntenatal2016], and daily oral iron reduces maternal anaemia and iron deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
+Haemodilution does not rule out true iron deficiency. Requirements rise for the expanding red-cell mass and the foetus's own stores (the nutrient basics are in the *Micronutrients, hydration and electrolytes* chapter). Deficiency is common even in Singapore: about three-quarters of Singaporean women are iron-deficient by the early third trimester [@loy2019ironSG]. WHO recommends 30–60 mg of elemental iron daily, with folic acid [@whoAntenatal2016]. Daily oral iron reduces maternal anaemia and iron deficiency, though its effect on low birth weight is less certain [@penarosas2015iron].
 The practical problem is adherence, because iron's gut side-effects are a common reason supplementation fails.
 Three measures help:
 
@@ -109,7 +109,7 @@ Three measures help:
 
 Beyond folate and iron, a short list of nutrients needs particular attention:
 
-- Iodine needs rise to about 250 µg/day, for the foetal thyroid hormone that builds the brain; the
+- Iodine needs rise to about 250 µg/day, for the foetal thyroid hormone that builds the brain, and the
   early foetus depends entirely on the mother [@bath2013iodine]. Singapore's salt iodisation is
   voluntary, so iodine status cannot be assumed, and iodised salt is a sensible default
   [@codling2017iodine].
@@ -119,9 +119,9 @@ Beyond folate and iron, a short list of nutrients needs particular attention:
   pregnant or breastfeeding [@hpbRDACalcium], so the target is simply an adequate intake.
 - Vitamin D supplementation probably lowers the risk of **pre-eclampsia** (a hypertensive disorder of
   pregnancy) and gestational diabetes, but the evidence was recently downgraded, so the advice is
-  modest; deficiency is common in Singapore despite the sun [@palacios2024vitD; @sgVitDeficiency].
+  modest [@palacios2024vitD]. Deficiency is common in Singapore despite the sun [@sgVitDeficiency].
 - **Choline** may support foetal brain development, though the human evidence so far comes from small
-  trials [@caudill2018choline], and most pregnant women in US surveys fall short of it
+  trials [@caudill2018choline]. Most pregnant women in US surveys fall short of it
   [@wallace2017choline].
 - **Docosahexaenoic acid (DHA)**, a marine omega-3 fatty acid, modestly reduces preterm birth
   [@middleton2018omega3].
@@ -143,8 +143,8 @@ trouble, and when to refer](#sec-preg-refer).
 ### Gestational diabetes: pathophysiology {#sec-preg-gdm}
 
 Gestational diabetes is a major antenatal nutrition issue in Singapore, and both internal and external factors shape it. The
-internal factor is the normal insulin resistance of pregnancy. By the third trimester of every
-pregnancy, insulin sensitivity is 50–60% lower (cells respond less to insulin). The fall diverts
+internal factor is the normal insulin resistance of pregnancy, in which cells respond less to insulin:
+by the third trimester of every pregnancy, insulin sensitivity is 50–60% lower. The fall diverts
 glucose to the growing foetus and is driven by a mix of placental and maternal hormones, with no
 single hormone responsible [@kampmann2019ir]. GDM appears when the pancreas cannot compensate for
 that resistance [@plows2018gdm], and that pancreatic shortfall is why GDM marks a raised risk of
@@ -178,19 +178,20 @@ active woman can generally carry on [@acog2020exercise].
 ::: {.callout-tip}
 ## 🍜 Eating out & 🍳 healthy kitchen: food safety and fish intake
 In pregnancy, skip raw and undercooked items (sashimi, raw oysters, half-boiled
-or raw egg, including raw egg stirred into porridge), cold deli meats and unpasteurised dairy (because
-of *Listeria*), and limit the big predatory fish (shark, swordfish, marlin, and tuna sashimi) for
-mercury. Fish itself should stay in the diet, because low seafood intake is associated with worse child neurodevelopment [@hibbeln2007seafood]: eat 2–3 servings a week of low-mercury fish. Keep
+or raw egg, including raw egg stirred into porridge). Skip cold deli meats and unpasteurised dairy too,
+because of *Listeria*, and limit the big predatory fish (shark, swordfish, marlin, and tuna sashimi) for
+mercury. Fish itself should stay in the diet, at 2–3 servings a week of low-mercury fish, because low
+seafood intake is associated with worse child neurodevelopment [@hibbeln2007seafood]. Keep
 the everyday drinks in mind when counting caffeine: kopi, teh, Milo and bubble tea all count toward a daily
-cap of about 200 mg [@efsa2015caffeine], a pragmatic limit, since pregnancy-loss risk appears to rise
-steadily with intake [@chen2016caffeine]. Alcohol is best avoided altogether, because no safe amount
+cap of about 200 mg [@efsa2015caffeine]. This cap is a pragmatic limit, since pregnancy-loss risk
+appears to rise steadily with intake [@chen2016caffeine]. Alcohol is best avoided altogether, because no safe amount
 in pregnancy is known [@cdcAlcoholPregnancy].
 :::
 
 ### Gestational diabetes: universal screening and dietary management {#sec-preg-gdm-care}
 
-Singapore screens every pregnancy for GDM, because risk factors predict it poorly in Asian women: the local GUSTO cohort found GDM in roughly one in five pregnancies, and showed that screening only "high-risk" women would have missed about half of cases [@gusto_gdm]. This **universal screening** uses a 75 g **glucose tolerance test** at 24–28 weeks (blood glucose measured fasting and 1 and 2 hours
-after a 75 g glucose drink) [@aceGDM2018]. The diagnostic thresholds are an agreed convention: the HAPO study showed that glucose and outcomes rise together on a smooth
+Singapore screens every pregnancy for GDM, because risk factors predict it poorly in Asian women: the local GUSTO cohort found GDM in roughly one in five pregnancies, and showed that screening only "high-risk" women would have missed about half of cases [@gusto_gdm]. This **universal screening** uses a 75 g **glucose tolerance test** at 24–28 weeks, in which blood glucose is measured fasting and 1 and 2 hours
+after a 75 g glucose drink [@aceGDM2018]. The diagnostic thresholds are an agreed convention: the HAPO study showed that glucose and outcomes rise together on a smooth
 continuum, with no natural cut-point [@hapo2008].
 
 :::: {.callout-note}
@@ -207,15 +208,15 @@ The thresholds (fasting ≥5.1, 1-hour ≥10.0, 2-hour ≥8.5 mmol/L) matter les
 :::
 
 Maternal glucose crosses to the foetus and stimulates the foetal pancreas to secrete more insulin.
-That insulin drives **macrosomia** (foetal overgrowth) before birth and, once the maternal glucose
-supply is cut at delivery, leaves the baby briefly hypoglycaemic. The mother, in turn, carries a
+Before birth, that insulin drives foetal overgrowth, known as **macrosomia**. Once the maternal glucose
+supply is cut at delivery, the same insulin leaves the baby briefly hypoglycaemic. The mother, in turn, carries a
 roughly seven-fold future risk of type 2 diabetes [@bellamy2009], so she needs a **postpartum glucose
 test at 6–12 weeks**, then a diabetes check every 1–3 years for life [@aceGDM2018]. That link is why GDM is part of Singapore's
 *War on Diabetes* [@mohWarOnDiabetes].
 ::::
 
 First-line management of GDM is lifestyle, with diet at its centre, and medication is added only when
-that does not control glucose; managed this way, GDM carries fewer complications such as
+that does not control glucose. Managed this way, GDM carries fewer complications, such as
 pre-eclampsia, macrosomia and shoulder dystocia (the baby's shoulder lodging during birth) [@aceGDM2018]. Diet works best when based on a woman's usual
 food: in the local GUSTO cohort, women eating a "seafood-and-noodle" pattern were less likely to have
 GDM [@gustoDietGDM]. That supports
@@ -233,7 +234,7 @@ diabetes, so she needs a postpartum glucose test and lifelong vigilance.
 
 ## Lactation: maternal nutrition {#sec-preg-lactation}
 
-After birth, maternal nutrition covers the mother's own extra energy and fluid ([set out above](#sec-preg-energy) with the energy cost of pregnancy) and what her diet does to her milk. Infant feeding itself (latch, weaning, complementary foods, the infant's own vitamin D) belongs with the infant (see the *Infancy & early childhood* chapter).
+After birth, maternal nutrition covers the mother's own extra energy and fluid and what her diet does to her milk. Her energy and fluid needs are [set out above](#sec-preg-energy) with the energy cost of pregnancy. Infant feeding itself, including latch, weaning, complementary foods and the infant's own vitamin D, belongs with the infant (see the *Infancy & early childhood* chapter).
 
 The milk concentrations of some nutrients are maintained at the mother's own expense,
 while those of others fall with her intake [@dgac2020lactation]:
@@ -244,21 +245,21 @@ Milk nutrients largely independent of maternal status
 
 Milk nutrients dependent on maternal intake
 : Vitamin B12, iodine, vitamin D and DHA. Their levels in milk fall if the mother is deficient, and
-  the baby's intake falls with them. For vitamin D, milk is low even at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]; this is why the infant is supplemented directly, and the dose is in the *Infancy & early childhood* chapter.
+  the baby's intake falls with them. For vitamin D, milk is low even at usual maternal intakes, since only a very high maternal dose, around 6,400 IU a day, raises it enough [@hollis2015vitD]. For this reason the infant is supplemented directly (the dose is in the *Infancy & early childhood* chapter).
 
 The mother whose baby is most at risk is the vegan or strict vegetarian mother. She can look perfectly well while
-producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]; what
+producing milk critically low in B12, which harms the infant's developing brain [@kuhne1991b12]. What
 follows for her care is in [Recognising trouble, and when to refer](#sec-preg-refer).
 
 Three practical points concern what reaches the milk, or what is taken to boost it:
 
 - Alcohol passes into milk, and only time clears it, so "pump and dump" relieves fullness but does not
-  remove alcohol; the advice is to feed before a drink, or to wait 2 to 2.5 hours per drink
+  remove alcohol. The advice is to feed before a drink, or to wait 2 to 2.5 hours per drink
   [@lactmedAlcohol].
 - Caffeine up to about 200–300 mg a day is compatible with breastfeeding, with less for a preterm or
   newborn baby, who clears it slowly [@lactmedCaffeine].
-- The "milk-boosting" soups and herbs are **galactagogues** (substances, often foods or herbs, taken
-  to raise milk supply), and the evidence that any galactagogue raises supply is weak; frequent,
+- The "milk-boosting" soups and herbs are **galactagogues**, substances (often foods or herbs) taken
+  to raise milk supply. The evidence that any galactagogue raises supply is weak. Frequent,
   effective milk removal is what drives production [@foong2020galactagogue]. The practice can be
   supported warmly without overselling it.
 
@@ -281,7 +282,7 @@ be supported warmly as part of her practice, without a promise that it raises su
 
 Most nutrition care in pregnancy and lactation is counselling based on a woman's usual diet. A few
 findings change that plan, either by moving care to the obstetric team, the diabetes team or a
-dietitian, or by adding a test; one of them, severe vomiting, carries a safety rule of its own.
+dietitian, or by adding a test. One of these findings, severe vomiting, carries a safety rule of its own.
 
 ::: {.callout-warning}
 ## Do no harm: hyperemesis gravidarum and thiamine before glucose
@@ -321,17 +322,17 @@ extra of about 500 kcal, close to the third-trimester figure.
 
 ## The Singapore context {#sec-singapore}
 
-The **confinement month**, the first postpartum month and its prescribed diet, is near-universal in
-Singapore. Although it is patterned by community (Chinese *zuo yue zi*, Malay *berpantang* and Indian
-practices), it rests on a shared model that classes foods as "heaty" or "cooling", and the diet it
-prescribes is a structured dietary pattern with links to maternal mood [@fok2016confinement;
-@teo2018confinement].
+The **confinement month** is the first postpartum month and its prescribed diet. The practice is
+near-universal in Singapore and patterned by community (Chinese *zuo yue zi*, Malay
+*berpantang* and Indian practices), yet it rests on a shared model that classes foods as "heaty" or
+"cooling". The diet it prescribes is a structured dietary pattern with links to maternal mood
+[@fok2016confinement; @teo2018confinement].
 
 With a practice this widespread, the clinician's task is respectful negotiation: supporting the large harmless majority of the
 practice, and modifying only its risky parts. These are alcohol cooked into rice-wine dishes (it
 reaches the milk), a heavy sodium and fat load, and the wholesale avoidance of "cooling" fruit and
 vegetables (the very foods that supply vitamin C, fibre and folate). The same respectful approach applies to
-the vegetarian mother (whose B12 and iron need planning) and the halal family (for whom the issue is how supplements are sourced).
+the vegetarian mother, whose B12 and iron need planning, and to the halal family, for whom the issue is how supplements are sourced.
 
 ## Check your understanding {#sec-quiz}
 
