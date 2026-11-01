@@ -155,4 +155,4 @@ questions:
         feedback: "The trial result does not generalise to everyone: the hyperkalaemia risk makes potassium-based substitutes inappropriate in kidney disease and with some medications."
       - text: "The trial proves salt has no effect on health"
         correct: false
-        feedback: "SSaSS showed real benefit: the substitute cut stroke, cardiovascular events and death. The caveats concern who the result applies to and which electrolyte drove it."
+        feedback: "SSaSS showed a benefit: the substitute cut stroke, cardiovascular events and death. The caveats concern who the result applies to and which electrolyte drove it."

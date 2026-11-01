@@ -47,7 +47,7 @@ nodes:
       - id: a
         text: "High-risk: past the Singapore ≥27.5 point, with central obesity."
         correct: true
-        feedback: "There are two sets of BMI cut-offs. Singapore acts earlier than the WHO figures because Asians carry more body fat, and more of it central, at a given BMI. His BMI of 28 is past the ≥27.5 high-risk action point, and a waist of 98 cm is over the Asian cut-off (≥90 cm in men), so he has central obesity too. BMI and waist are read together, never BMI alone."
+        feedback: "There are two sets of BMI cut-offs. Singapore acts earlier than the WHO figures because Asians carry more body fat, and more of it central, at a given BMI. His BMI of 28 is past the ≥27.5 high-risk action point, and a waist of 98 cm is over the Asian cut-off (≥90 cm in men), so he has central obesity too. BMI and waist are always read together."
         effects: { quality: +1 }
         reaction: relieved
         goto: reveal-numberlines

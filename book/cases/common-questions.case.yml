@@ -52,7 +52,7 @@ nodes:
       - id: c
         text: "\"Rice is fine; eat as much white rice as you like.\""
         correct: false
-        feedback: "Large amounts of refined starch raise glucose, so portion and type still matter; this isn't a free pass."
+        feedback: "Large amounts of refined starch raise glucose, so portion and type still matter."
         goto: q-eggs
 
   - id: q-eggs
@@ -75,7 +75,7 @@ nodes:
       - id: c
         text: "\"Cholesterol in food doesn't matter at all, so eat as many as you like.\""
         correct: false
-        feedback: "Dietary cholesterol matters less than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras. Moderation, and watch what they are eaten with."
+        feedback: "Dietary cholesterol matters less than people fear, but 'doesn't matter at all' overshoots, and eggs are often eaten with fatty, fried extras."
         goto: q-fat
 
   - id: q-fat
@@ -96,7 +96,7 @@ nodes:
       - id: c
         text: "\"Keep some fat, but cook with unsaturated oils.\""
         correct: true
-        feedback: "Type matters more than total. Unsaturated oils (peanut, canola, olive) should be the everyday default, and small amounts of coconut for flavour are fine. The default cooking fat is what matters, so the hype can be corrected without a ban."
+        feedback: "Type matters more than total. Unsaturated oils (peanut, canola, olive) should be the everyday default, and small amounts of coconut for flavour are fine. The hype can therefore be corrected without a ban."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-protein

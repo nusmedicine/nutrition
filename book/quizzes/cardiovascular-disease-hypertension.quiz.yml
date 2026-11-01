@@ -38,7 +38,7 @@ questions:
     options:
       - text: "It was retracted then republished in 2018, with the conclusion upheld"
         correct: true
-        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding unchanged, an example of science correcting itself. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
+        feedback: "PREDIMED's 2013 paper was retracted over randomisation irregularities, re-analysed, and republished in 2018 with its finding unchanged. The benefit was a relative reduction on a composite endpoint, driven mainly by stroke, in a high-risk Spanish group."
       - text: "It was retracted for good, so the Mediterranean pattern has no trial evidence at all"
         correct: false
         feedback: "After re-analysis the paper was republished and its conclusion held, so the Mediterranean pattern still has event-level trial evidence."
@@ -63,7 +63,7 @@ questions:
         feedback: "Vegetables and fruit are low in sodium and are good sources of potassium, which most people should eat more of. Cutting them would be counter-productive."
       - text: "Mostly in plain rice and noodles, so remove all starch from the plate"
         correct: false
-        feedback: "Plain rice and noodles are not the main sodium source; the salt is in the accompanying soup, gravy and sauces. Removing starch does not address where the sodium actually comes from."
+        feedback: "Plain rice and noodles are not the main sodium source; the salt is in the accompanying soup, gravy and sauces."
 
   - id: q5
     stem: "A patient asks whether to buy fish-oil capsules \"for the heart\". What is the best answer?"
@@ -95,7 +95,7 @@ questions:
         feedback: "Starting a drug is a clinician's risk-tiered decision. The step here is lifestyle advice and referral, with drug thresholds signposted."
       - text: "Reassure the patient that a raised number rarely needs any follow-up"
         correct: false
-        feedback: "A raised LDL is exactly what should prompt risk estimation and referral. The right response is to look up the risk-tiered guidance and refer."
+        feedback: "A raised LDL is exactly what should prompt risk estimation and referral."
 
   - id: q7
     stem: "Singapore uses SG-FRS-2023 rather than an imported US risk score. Why, and what does it actually estimate?"

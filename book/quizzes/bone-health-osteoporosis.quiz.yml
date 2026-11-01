@@ -150,7 +150,7 @@ questions:
     options:
       - text: "Losing ~10% of body weight, with exercise"
         correct: true
-        feedback: "In the IDEA trial, a diet-plus-exercise programme that produced about 10% weight loss improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit. Weight loss and activity help more than supplements."
+        feedback: "In the IDEA trial, a diet-plus-exercise programme that produced about 10% weight loss improved pain and function, working through both reduced mechanical load on the joint and lower inflammation, with more loss giving more benefit."
       - text: "Taking a daily cartilage supplement"
         correct: false
         feedback: "Supplements don't rebuild cartilage or meaningfully relieve osteoarthritis. The effective intervention is weight loss with exercise."

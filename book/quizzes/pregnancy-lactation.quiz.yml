@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Almost nothing extra yet; needs rise modestly and mainly later"
         correct: true
-        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk. In pregnancy, quality matters more than quantity."
+        feedback: "Energy needs rise only modestly and late: roughly nothing extra in the first trimester, about +340 kcal/day in the second and about +450 in the third, so the extra is about one snack. Breastfeeding needs a little more, about 500 kcal/day net extra, because fat laid down in pregnancy covers part of the cost of making milk."
       - text: "She should roughly double her intake to support the baby"
         correct: false
         feedback: "'Eating for two' suggests doubling, but the energy cost of pregnancy is modest and concentrated in the second and third trimesters, and doubling intake mostly adds excess weight and GDM risk."
@@ -84,7 +84,7 @@ questions:
     options:
       - text: "Foetal insulin, raised in the womb, stays high after birth"
         correct: true
-        feedback: "In the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and lowers the baby's glucose. Macrosomia and neonatal hypoglycaemia share one cause: high maternal glucose raises foetal insulin, which drives overgrowth and then hypoglycaemia once the supply stops."
+        feedback: "In the womb, high maternal glucose drove high foetal insulin; when the maternal supply is cut at birth, that insulin is still high and lowers the baby's glucose. The same raised insulin drives macrosomia before birth, so the two problems share one cause."
       - text: "The baby has inherited diabetes from the mother"
         correct: false
         feedback: "The hypoglycaemia is transient: the baby's own insulin, raised in response to maternal glucose, stays high briefly after delivery, so it is not inherited diabetes."

@@ -57,7 +57,7 @@ nodes:
       - id: a
         text: "Skipped meals spent his glycogen, and alcohol blocks gluconeogenesis."
         correct: true
-        feedback: "Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis, and with glycogen already gone from skipped meals there is no glucose left to release. Both sources of glucose (glycogenolysis and gluconeogenesis) are unavailable at once, which is why alcohol with fasting is so dangerous."
+        feedback: "Metabolising alcohol floods the liver with NADH, which blocks gluconeogenesis, and skipped meals have already spent the glycogen, so glycogenolysis and gluconeogenesis are both unavailable at once. That combination is why alcohol with fasting is so dangerous."
         effects: { quality: +1 }
         goto: q-trap
       - id: b
@@ -124,7 +124,7 @@ nodes:
     type: info
     title: "Back to the mechanism"
     body: |
-      Alcohol on an empty stomach lowers blood glucose. Alcohol blocks the liver from making
+      Alcohol on an empty stomach lowers blood glucose. It blocks the liver from making
       new glucose (gluconeogenesis), and skipping meals means its glycogen store is already
       spent, so neither glycogenolysis nor gluconeogenesis can supply glucose. The sweating and
       tremor are autonomic warning symptoms, and the confusion is the brain running short of fuel. The treatment is
@@ -139,8 +139,7 @@ nodes:
       You looked past "he's just drunk", checked the glucose and recognised
       **alcohol-induced hypoglycaemia**: skipped meals had spent his glycogen, and alcohol
       had blocked his liver from making new glucose, so neither source of glucose was available.
-      You corrected the glucose and gave the advice that matters: eat when you drink, and
-      never drink on an empty stomach.
+      You corrected the glucose and gave the advice that matters: eat when you drink.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:

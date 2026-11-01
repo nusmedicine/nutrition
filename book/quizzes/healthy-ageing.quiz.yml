@@ -90,4 +90,4 @@ questions:
         feedback: "Weight loss of this degree is never \"just ageing\": it may indicate malignancy, depression, or dental, swallowing or medication problems, and it warrants evaluation and referral now."
       - text: "Start him on a low-fat, low-salt diet to keep him healthy."
         correct: false
-        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition, which is the harm to avoid. The rule is to raise nutrient density, avoid restriction, and refer."
+        feedback: "Restricting the diet of a thin older man who is losing weight cuts his intake and worsens malnutrition. The rule is to raise nutrient density, avoid restriction, and refer."

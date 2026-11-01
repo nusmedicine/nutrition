@@ -75,7 +75,7 @@ nodes:
       - id: a
         text: "\"It's remission, not cure. Off tablets your sugar can fall below the diabetes range, but it can fade if weight returns, so we keep monitoring.\""
         correct: true
-        feedback: "The agreed term is remission: blood glucose back below the diabetes range off glucose-lowering tablets. It is real, but it can fade (in the landmark programme about half were in remission at one year, but only around one in eight by five years), and it tracks closely with whether the weight stays off. Monitoring therefore continues even if he does well, and this framing protects him from feeling like a failure if his glucose creeps back up."
+        feedback: "The agreed term is remission: blood glucose back below the diabetes range off glucose-lowering tablets. It is real, but it can fade (in the landmark programme about half were in remission at one year, and only around one in eight by five years), and it depends closely on whether the weight stays off. Monitoring therefore continues even if he does well, and this framing protects him from feeling like a failure if his glucose creeps back up."
         effects: { quality: +1 }
         goto: q-do-no-harm
       - id: b
@@ -100,7 +100,7 @@ nodes:
       - id: b
         text: "\"Sure, the shakes are just food, and stopping metformin is fine since the goal is to be off it. Start today.\""
         correct: false
-        feedback: "Self-starting is unsafe: a low-calorie shake diet like this is a supervised total diet replacement, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Coming off medication is the goal of remission, reached under supervision, and a good performance elsewhere in this visit cannot make up for endorsing this."
+        feedback: "Self-starting is unsafe: a low-calorie shake diet like this is a supervised total diet replacement, and glucose-lowering medication is adjusted by the clinician on day one because glucose and blood pressure drop fast once intake falls. Stopping tablets and crash-dieting unsupervised can cause harm. Coming off medication is the goal of remission, reached under supervision."
         goto: remedial-do-no-harm
 
   - id: remedial-do-no-harm
@@ -135,7 +135,7 @@ nodes:
       - id: b
         text: "Tell him to \"eat less and lose weight fast\" alone and return in three months once his sugar is normal."
         correct: false
-        feedback: "\"Eat less, lose weight fast\" recreates the unsupervised risk: it gives him no real plan, no safety net for his medication and no support, and sending him away until he has \"fixed it\" invites failure. The evidence-based route is a structured, supervised programme plus a dietitian, with realistic interim swaps and continued monitoring."
+        feedback: "\"Eat less, lose weight fast\" recreates the unsupervised risk: it gives him no plan, no safety net for his medication and no support, and sending him away until he has \"fixed it\" invites failure. The evidence-based route is a structured, supervised programme plus a dietitian, with realistic interim swaps and continued monitoring."
         goto: route
       - id: c
         text: "Skip the programme and add a second diabetes medication now; that's simpler than all this diet effort."
@@ -179,7 +179,7 @@ nodes:
       candidate, the remission-not-cure framing, or (the one that matters most for safety) letting him
       self-start a very-low-calorie shake diet and stop his metformin himself. That last one is a do-no-harm
       error: a total diet replacement is supervised, and medication is adjusted on day one because glucose and
-      blood pressure fall fast, so a strong performance elsewhere can't make it safe. Replay the safe path:
+      blood pressure fall fast. Replay the safe path:
       recognise the early-disease candidate and refer; call it remission and keep monitoring;
       **never endorse an unsupervised crash diet or self-stopped tablets**; and hand him a plan with a
       dietitian and interim quality swaps.

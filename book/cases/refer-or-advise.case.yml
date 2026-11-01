@@ -95,7 +95,7 @@ nodes:
       - id: c
         text: "Tell her to change nothing at all until the dietitian sees her."
         correct: false
-        feedback: "That leaves her unsupported for weeks. Safe general advice (less rice, more vegetables, water) is in scope and helps now. Doing nothing is not the safe option."
+        feedback: "That leaves her unsupported for weeks. Safe general advice (less rice, more vegetables, water) is in scope and helps now."
         goto: remedial
 
   - id: route

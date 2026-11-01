@@ -27,7 +27,7 @@ foods:
     why: "A common choking hazard because of their shape. Quartered lengthwise, grapes are fine."
   - name: "Grapes, quartered lengthwise"
     verdict: safe
-    why: "The same grape, made safe by changing its shape: the choking risk lies in the shape."
+    why: "The same grape, made safe by changing its shape."
   - name: "Hot dog (round chunks)"
     verdict: modify
     why: "A common choking hazard when sliced into rounds. Cut it lengthwise and small instead."
@@ -45,7 +45,7 @@ foods:
     why: "No juice before 12 months and little after; no added sugar. Early exposure to sweet tastes sets a lasting preference for sweetness."
   - name: "Plain rice-water porridge"
     verdict: modify
-    why: "Its problem is nutrition: on its own it supplies energy but few nutrients, including little iron. Make the congee iron-rich with minced meat, egg and soft greens."
+    why: "On its own it supplies energy but few nutrients, including little iron. Make the congee iron-rich with minced meat, egg and soft greens."
   - name: "Added salt"
     verdict: wait12
     why: "The infant kidney is immature and taste preferences are still developing, so no added salt (or sugar) in the first year."

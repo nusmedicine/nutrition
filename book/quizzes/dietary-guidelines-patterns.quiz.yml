@@ -19,7 +19,7 @@ questions:
     options:
       - text: "They broadly converge on the same core messages"
         correct: true
-        feedback: "The differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit and vegetables, wholegrains, legumes, and limits on sugar, salt and certain fats. That convergence is the reassuring answer."
+        feedback: "The differences are mostly wording and emphasis. A review of 90 national guidelines found near-universal agreement: variety, plenty of fruit and vegetables, wholegrains, legumes, and limits on sugar, salt and certain fats."
       - text: "The US guidelines are the most scientific, so follow those"
         correct: false
         feedback: "The guidelines agree far more than they differ, and the shared core is what matters."

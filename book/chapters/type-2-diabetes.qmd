@@ -105,9 +105,9 @@ The safety check has two parts: knowing which glucose-lowering drug classes can 
 
 #### Hypoglycaemia risk by drug class {#sec-t2d-hypoglycaemia}
 
-Cutting or skipping carbohydrate, or fasting, is only safe once you know the patient's medication,
-because a few glucose-lowering drug classes can cause dangerous hypoglycaemia. The first step, every
-time, is therefore to identify the drug class and the action that follows from it [@ada2026glycemic;
+A few glucose-lowering drug classes can cause dangerous hypoglycaemia when carbohydrate is cut or
+skipped, or during a fast. The first step, every time, is therefore to identify the drug class and
+the action that follows from it [@ada2026glycemic;
 @aceT2DM2023]:
 
 | Hypoglycaemia risk | Drug classes | Action before cutting carbohydrate |
@@ -157,7 +157,7 @@ HbA1c, and raising intake by about 15 g a day, or to about 35 g, is a reasonable
 same advice: carbohydrate mainly from wholegrains, vegetables, fruit and legumes, with refined grains
 and sugary drinks kept to a minimum [@who2023carbohydrate].
 
-![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a key carbohydrate-quality change that keeps rice on the plate.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
+![Swapping toward wholegrains (brown rice for white, wholemeal for white bread) is a carbohydrate-quality change that keeps rice on the plate.](/figures/food/brown-rice.jpg){#fig-brown-rice width="55%" fig-align="center"}
 
 Sugar-sweetened drinks are a separate, important target: each daily serving is associated with roughly a 13–18% higher risk of type 2 diabetes, an effect only partly explained by weight [@imamura2015ssb]. The change is made at the point of purchase, where Singapore's Nutri-Grade label works as a decision aid [@shin2023nutrigrade] and ordering *kopi kosong* or *teh kosong* (no sugar), or *kopi* or *teh siu dai* (less sweet), is an intervention in its own right.
 
@@ -281,7 +281,7 @@ without a medication review. The dose set for their old intake can now drive the
 low. Recognise the risk, and refer to the diabetes team **before** the diet changes.
 :::
 
-Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Like the review before carbohydrate is cut, it is a recognise-and-refer task. Local evidence supports that adjustment: the FAST algorithm, a fasting algorithm validated in Singapore (see the *Integrative metabolism* chapter), shows that fasting with
+Ramadan fasting needs the same medication review, made in advance as a **pre-Ramadan review**: a consultation, ideally weeks ahead, to risk-stratify the patient and adjust medication, following international guidance [@hassanein2022ramadan]. Local evidence supports that adjustment: the FAST algorithm, a fasting algorithm validated in Singapore (see the *Integrative metabolism* chapter), shows that fasting with
 diabetes can be done safely when medication is adjusted by the algorithm [@lum2020fast].
 
 ::: {.callout-tip collapse="true"}

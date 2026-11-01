@@ -108,8 +108,8 @@ nodes:
       You sketch two plans for Mr Tan:
 
       - Plan 1 (single-pillar): the food-court swaps only.
-      - Plan 2 (multi-pillar): the same swaps, plus a wind-down to nudge sleep
-        toward 7 h, a short daily break to manage stress, less weekend alcohol and one
+      - Plan 2 (multi-pillar): the same swaps, plus a wind-down routine to lengthen
+        sleep toward 7 h, a short daily break to manage stress, less weekend alcohol and one
         shared meal a week.
     next: q-plan
 
@@ -165,8 +165,7 @@ nodes:
       analysis cannot fully adjust for) and reverse causation (early illness can itself change behaviour) both remain
       possible. The accurate phrasing is therefore that combined behaviours are
       *associated with* larger benefit and plausibly reinforce each other; synergy is
-      not proven (see the *Evidence vs hype* chapter). Start with nutrition, plan
-      across the pillars, and say what the evidence can and cannot support.
+      not proven (see the *Evidence vs hype* chapter).
     next: end-route
 
   - id: end-route

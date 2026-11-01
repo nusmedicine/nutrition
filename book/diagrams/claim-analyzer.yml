@@ -26,7 +26,7 @@ claims:
     outcome: "The reported effect was modest, and the study was retracted in 2025 when its analyses could not be reproduced."
     apply: "With the main study withdrawn, what's left is a few small, short trials: a possible fall in fasting glucose in type 2 diabetes, of limited certainty, and weight data that still include the retracted trial. Neither replaces ordinary diet and activity."
     verdict: retracted
-    verdictText: "The main study was retracted, so the claim has no reliable support. A cheap condiment is not a weight-loss treatment."
+    verdictText: "The main study was retracted, so the claim has no reliable support."
   - id: coffee
     label: "\"Coffee protects your heart\""
     study: "Backed by a large 2017 umbrella review that pooled many observational studies of coffee and health."

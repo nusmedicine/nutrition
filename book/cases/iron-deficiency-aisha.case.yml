@@ -59,8 +59,8 @@ nodes:
     body: |
       Aisha belongs to the **classic at-risk group**: menstruating women. Globally,
       nearly **one in three** women aged 15–49 are anaemic, with iron
-      deficiency the most common nutritional cause, and heavy menstrual bleeding is a major contributor. The cause matters
-      as much as the iron itself.
+      deficiency the most common nutritional cause, and heavy menstrual bleeding is a major contributor. Finding the cause of
+      the iron loss matters as much as replacing the iron.
     next: q-diet
 
   - id: q-diet

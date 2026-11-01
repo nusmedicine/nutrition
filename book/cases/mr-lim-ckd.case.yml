@@ -81,7 +81,7 @@ nodes:
       - id: b
         text: "Yes to both: potassium is heart-healthy and low-sodium salt lowers his blood pressure, so more is better."
         correct: false
-        feedback: "This answer can cause real harm. Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer."
+        feedback: "This answer can cause harm. Uncle Lim's kidneys can't clear a potassium load, so loading potassium (bananas *and* a potassium-chloride 'low-sodium salt') can cause dangerous hyperkalaemia, and his ACE inhibitor pushes potassium up too. The population advice explicitly excludes CKD, and the salt-substitute trial excluded exactly these patients. The safe answer is to hold off and refer."
         goto: remedial-potassium
 
   - id: remedial-potassium
@@ -121,7 +121,7 @@ nodes:
       - id: a
         text: "Don't skip meals: over-restriction risks wasting, and the target is dietitian-set."
         correct: true
-        feedback: "The reflex 'low protein is always good for kidneys' can do real harm: pushing protein down without enough energy tips patients, especially older ones, into **protein-energy wasting**, a mortality-linked loss of muscle and weight. Protein targets in CKD are modest, stage-specific and dietitian-set (and are raised if he ever starts dialysis). Skipping meals could do more harm than good; reassure him and let the dietitian set the amount."
+        feedback: "The reflex 'low protein is always good for kidneys' can do harm: pushing protein down without enough energy tips patients, especially older ones, into **protein-energy wasting**, a mortality-linked loss of muscle and weight. Protein targets in CKD are modest, stage-specific and dietitian-set (and are raised if he ever starts dialysis). Skipping meals could do more harm than good; reassure him and let the dietitian set the amount."
         effects: { quality: +1 }
         goto: reveal-protein
       - id: b

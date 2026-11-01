@@ -39,7 +39,7 @@ nodes:
       - id: a
         text: "\"You can start in a few weeks once he's ready, beginning with iron-rich foods, and keep breastfeeding.\""
         correct: true
-        feedback: "'About 6 months' allows a start from 4 months for a baby who is ready (readiness cues: sitting with support, good head control, reaching for food). First foods should be iron-rich (iron-fortified cereal, minced meat, egg) because his iron stores are running low. Readiness matters more than the exact date."
+        feedback: "'About 6 months' allows a start from 4 months for a baby who is ready (readiness cues: sitting with support, good head control, reaching for food). First foods should be iron-rich (iron-fortified cereal, minced meat, egg) because his iron stores are running low."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-allergen
@@ -176,8 +176,7 @@ nodes:
     body: |
       You started Aidan on solids at the right time with the right (iron-rich) foods, addressed the
       allergen worry, held the line on honey without alienating the grandmother, kept cow's milk
-      and premium formula in their place, and named the one supplement that matters. The work at this
-      stage is to anticipate the real needs, correct tempting traditions kindly and know when to refer.
+      and premium formula in their place, and named the one supplement that matters.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:

@@ -108,7 +108,7 @@ nodes:
       - id: a
         text: "A modest deficit of about 500 kcal/day"
         correct: true
-        feedback: "About 500 kcal/day below her needs, the Singapore guideline's starting point, supports gradual loss through swaps she can keep up, and is far easier to sustain. Drastic cuts provoke stronger hunger and a fall in expenditure (metabolic adaptation)."
+        feedback: "About 500 kcal/day below her needs, the Singapore guideline's starting point, supports gradual loss through swaps she can keep up. Drastic cuts provoke stronger hunger and a fall in expenditure (metabolic adaptation)."
         effects: { quality: 1 }
         goto: route
       - id: b

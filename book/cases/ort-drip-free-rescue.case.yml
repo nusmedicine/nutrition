@@ -37,7 +37,7 @@ nodes:
       - id: a
         text: "SGLT1 keeps absorbing, so a glucose-and-salt drink still gets fluid in."
         correct: true
-        feedback: "In secretory diarrhoea, where the gut pours out fluid, SGLT1 keeps working, and oral rehydration exploits exactly that. A drip is reserved for severe dehydration or a child who can't drink."
+        feedback: "In secretory diarrhoea the gut secretes large volumes of fluid, but SGLT1 still cotransports sodium with glucose, and oral rehydration depends on that. A drip is reserved for severe dehydration or a child who can't drink."
         effects: { quality: +1 }
         goto: q-both
       - id: b
@@ -48,7 +48,7 @@ nodes:
       - id: c
         text: "Diarrhoea is harmless in toddlers, so no rehydration is needed."
         correct: false
-        feedback: "Dehydration is the real danger, and ORS prevents it safely and early."
+        feedback: "The danger is dehydration, which ORS prevents safely and early."
         goto: q-both
 
   - id: q-both
@@ -79,7 +79,7 @@ nodes:
       - id: a
         text: "No, they carry too much sugar and too little sodium; use proper ORS."
         correct: true
-        feedback: "The wrong glucose-to-salt balance can pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio SGLT1 needs; drinks with too much sugar are osmotically unsuitable."
+        feedback: "The wrong glucose-to-salt balance can pull water into the gut and worsen diarrhoea. ORS is formulated to the low-strength glucose-to-sodium ratio that SGLT1 cotransport requires."
         effects: { quality: +1 }
         goto: q-advice
       - id: b
@@ -143,7 +143,7 @@ nodes:
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:
-        - "In secretory diarrhoea the gut pours out fluid, but SGLT1 keeps absorbing sodium when glucose is present."
+        - "In secretory diarrhoea the gut secretes large volumes of fluid, but SGLT1 keeps absorbing sodium when glucose is present."
         - "ORS needs glucose AND sodium: SGLT1 cotransports them, and water follows the salt."
         - "First-line is ORS + continued feeding, with a safety-net (refer / IV) for severe dehydration."
 

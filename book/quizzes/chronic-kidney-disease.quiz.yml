@@ -6,7 +6,7 @@ questions:
     options:
       - text: "High-risk CKD, so his nutrition care is now dietitian-led"
         correct: true
-        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria falls in the high-risk category. The generalist's task is recognition: once CKD is confirmed, individualised nutrition is dietitian-led. Recognise and refer."
+        feedback: "CKD is staged by cause, eGFR (G1–G5) and albuminuria (A1–A3) on a colour-coded heat map, and a low eGFR combined with heavy albuminuria falls in the high-risk category. The generalist's task is recognition: once CKD is confirmed, individualised nutrition is dietitian-led."
       - text: "Mild change, so no action is needed until symptoms appear"
         correct: false
         feedback: "Because CKD is largely silent and detected biochemically, waiting for symptoms misses the chance to intervene early. A low eGFR with heavy albuminuria is high-risk CKD that warrants recognition and referral now."
@@ -25,10 +25,10 @@ questions:
         feedback: "For the general public, more potassium and a potassium salt substitute are sound, but the failing kidney cannot clear a potassium load, so both can precipitate life-threatening hyperkalaemia. The WHO potassium advice explicitly excludes CKD, and the salt-substitute trial deliberately excluded serious kidney disease."
       - text: "Cutting back on added salt and processed-food sodium"
         correct: false
-        feedback: "Sodium reduction still applies in CKD: cutting sodium still lowers blood pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a generalist can safely reinforce."
+        feedback: "Sodium reduction still applies in CKD: cutting sodium lowers blood pressure, reduces albuminuria and helps kidney-protective drugs work. It is the change a generalist can safely reinforce."
       - text: "Choosing fresh foods over ultra-processed ones"
         correct: false
-        feedback: "Choosing fresh foods stays good in CKD, and it also cuts hidden additive phosphate. It is not the advice that changes in CKD."
+        feedback: "Choosing fresh foods stays good in CKD, and it also cuts hidden additive phosphate."
       - text: "Keeping to a healthy body weight over time"
         correct: false
         feedback: "Weight management remains sensible in CKD. The advice that turns dangerous is the potassium message."
@@ -66,7 +66,7 @@ questions:
         feedback: "The trial was not retracted. Protein remains central to CKD nutrition, restricted before dialysis and raised on it, just not on the strength of a decisive primary result."
 
   - id: q5
-    stem: "A dialysis patient following a strict self-imposed \"kidney diet\" has unintentional weight loss, low albumin and muscle wasting. What does this picture suggest?"
+    stem: "A dialysis patient following a strict self-imposed \"kidney diet\" has unintentional weight loss, low albumin and muscle wasting. What does this presentation suggest?"
     options:
       - text: "Protein-energy wasting from an over-strict diet"
         correct: true

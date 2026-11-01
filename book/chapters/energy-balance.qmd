@@ -83,8 +83,7 @@ Non-exercise activity thermogenesis (NEAT)
 
 ### Estimating BMR: the Mifflin–St Jeor equation {#sec-bmr}
 
-Because BMR is the largest component, estimating a person's needs starts with estimating it. The
-widely used **Mifflin–St Jeor equation** estimates BMR from weight ($W$, kg), height ($H$, cm), age
+The widely used **Mifflin–St Jeor equation** estimates BMR from weight ($W$, kg), height ($H$, cm), age
 ($A$, years) and sex [@mifflin1990]:
 
 $$ \text{BMR}_{\text{women}} = 10W + 6.25H - 5A - 161 $$
@@ -195,7 +194,6 @@ After weight loss, expenditure falls by more than the smaller body should requir
 thermogenesis), so an estimate based on her new weight is likely to overstate what she now spends and
 can leave her in surplus. Her smaller fat stores also release less leptin, the long-term signal of
 their size, so the brain registers a smaller store, and appetite rises, favouring regain.
-Energy balance is actively regulated, and the compensation opposes loss more strongly than gain.
 :::
 
 ## Is body weight just calories in minus out? {#sec-close}

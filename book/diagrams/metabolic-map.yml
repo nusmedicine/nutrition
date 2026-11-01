@@ -146,5 +146,4 @@ steps:
       synthesis, glucose export and gluconeogenesis. Each opposes a breaking-down pathway, and the
       two are never both fully on. The three arrows marking irreversible steps stand for all four irreversible
       steps: one is PDH, and the other two are the routes that bypass glycolysis's three irreversible
-      steps (glucose export bypasses the first; the gluconeogenesis arrow stands for the other two). The
-      whole map consists of five hubs and four irreversible steps, with reciprocal regulation of flux.
+      steps (glucose export bypasses the first; the gluconeogenesis arrow stands for the other two).

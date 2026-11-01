@@ -82,7 +82,7 @@ make compounds that human cells cannot.
 
 Two healthy people can carry very different species and still perform the same functions, because each function, such as fibre fermentation, vitamin synthesis or short-chain fatty acid
 production, is carried out by many different microbes, a property called **functional redundancy**
-[@moya2016functional]. People therefore share a functional core more than a taxonomic one. Functional
+[@moya2016functional]. Functional
 redundancy also explains why **microbial diversity** (the number of species present and how evenly they
 are represented) is only a loose, context-dependent health marker: a richer community tends to be more resilient, but there are clear exceptions [@mcburney2019healthy].
 
@@ -168,8 +168,8 @@ supplements are mostly absorbed before they reach the colon, so claims that buty
 disease are not supported by the evidence.
 :::
 
-Fermentation also produces gas, the source of the bloating described in the *Digestion and absorption*
-chapter. Alongside the SCFAs, it releases three gases:
+Alongside the SCFAs, fermentation releases three gases, the source of the bloating described in the
+*Digestion and absorption* chapter:
 
 - hydrogen (H₂);
 - carbon dioxide (CO₂);
@@ -211,7 +211,7 @@ chapter); for the microbiome, what matters is how fermentable it is. Rapidly fer
 (inulin in onion and garlic, pectin in fruit, β-glucan in oats) give a prompt burst of SCFAs and gas.
 Resistant starch, in cooked-and-cooled rice or pasta, slightly green bananas and legumes, ferments more
 slowly and further along the colon, and is relatively **butyrogenic** (it yields a higher proportion of
-butyrate) [@topping2001rs]. The variety of fibre matters as well as the quantity.
+butyrate) [@topping2001rs].
 :::
 
 ### Vitamins made in the gut, and why the host gains little {#sec-vitamins}
@@ -251,9 +251,9 @@ Diet shapes the microbiome meal by meal. The products sold for the gut (probioti
 Diet is the dominant, fast-acting and reversible influence on the microbiome. When people switch
 between an animal-based and a plant-based diet, their microbial community shifts within a single day,
 but it reverts within days of a return to their usual diet, and each person's characteristic community
-largely persists [@david2014diet]. Diet is therefore an ongoing influence, renewed at every meal.
+largely persists [@david2014diet].
 
-The variety of plants eaten matters more than any single food: people who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science, "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
+People who eat the widest variety of plants tend to have the most diverse microbiomes. That observation underlies a memorable but unproven heuristic from citizen science, "about 30 different plant types a week", a target for variety that counts wholegrains, legumes, nuts,
 seeds, fruit and vegetables [@mcdonald2018american].
 
 The opposite pattern, a chronically low-fibre "Western" diet, deprives fibre-fermenting bacteria of
@@ -297,14 +297,14 @@ Scientific Association for Probiotics and Prebiotics (ISAPP):
 
 ::: {.callout-important}
 ## Is every fermented food a probiotic?
-Only a defined, dosed, live product meets the definition of a probiotic. A **fermented food** is defined by its process, "made through desired microbial growth and enzymatic conversions" [@marco2021fermented], so the definition includes foods with no live microbes left: many fermented foods are cooked or pasteurised before eating (tempeh, bread, most miso once boiled), so they carry few or no live microbes. Fermented foods are still good foods. In a small, short Stanford trial, a high-fermented-food diet raised microbial diversity and lowered inflammatory markers, and a high-fibre diet did not; the result is a hypothesis still to be tested [@wastyk2021diet].
+Only a defined, dosed, live product meets the definition of a probiotic. A **fermented food** is defined by its process, "made through desired microbial growth and enzymatic conversions" [@marco2021fermented], so the definition includes foods with few or no live microbes left: many fermented foods are cooked or pasteurised before eating (tempeh, bread, most miso once boiled). Fermented foods are still good foods. In a small, short Stanford trial, a high-fermented-food diet raised microbial diversity and lowered inflammatory markers, and a high-fibre diet did not; the result is a hypothesis still to be tested [@wastyk2021diet].
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: after a plant-based week, a patient finds her microbiome has drifted back. Was the week wasted?
 No. Diet shifts the community within a day, but the community reverts within days of a return to the
-usual diet, so the effect lasts only as long as the eating pattern does. Diet is an ongoing influence,
-renewed at every meal, which is why the advice is a sustained variety of plants.
+usual diet, so the effect lasts only as long as the eating pattern does, which is why the advice is a
+sustained variety of plants.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -348,8 +348,7 @@ recurrent *C. difficile* infection it is highly effective. A landmark trial was 
 FMT cured about 81% of patients after one infusion (~94% with a repeat) against roughly 31% with the
 antibiotic alone [@vannood2013fmt]. Two microbiota products are now FDA-approved (Rebyota in 2022;
 Vowst, the first oral product, in 2023) [@fda2022rebyota; @fda2023vowst]. FMT is proven only for recurrent *C. difficile* infection. It has no proven role in obesity, irritable bowel syndrome, autism or "wellness", and it carries a real risk of transmitting infection: a 2019 safety alert followed a fatal
-transmission [@fmt2019safety]. **Recognise it and refer: FMT is a medical therapy with one narrow
-indication.**
+transmission [@fmt2019safety]. **Recognise the indication and refer.**
 :::
 
 ### Microbiome claims and the evidence {#sec-hype}
@@ -366,7 +365,7 @@ Three claims about the microbiome are common in consumer marketing:
   that restores the community is FMT, for its one narrow indication.
 - "The gut is your second brain: gut serotonin controls your mood." The gut does make about 90–95% of
   the body's serotonin, but that serotonin regulates gut motility, and peripheral serotonin does not
-  cross the blood–brain barrier [@serotoninGutReview]. The claim that gut serotonin controls mood has no mechanism behind it.
+  cross the blood–brain barrier [@serotoninGutReview].
 
 ::: {.callout-warning}
 ## The gut–brain axis: a real pathway, unproven claims

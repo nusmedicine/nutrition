@@ -127,4 +127,4 @@ questions:
         feedback: "A finger-prick test does not break the fast: monitoring is religiously permissible and, on medications that can cause hypoglycaemia, important for safety."
       - text: "The patient must not fast at all, because diabetes always forbids fasting"
         correct: false
-        feedback: "Diabetes does not automatically forbid fasting. The medically unfit are exempt, but many can fast safely after a pre-Ramadan review to risk-stratify and adjust medication. This is a recognise-and-refer task."
+        feedback: "Diabetes does not automatically forbid fasting. The medically unfit are exempt, but many can fast safely after a pre-Ramadan review to risk-stratify and adjust medication."

@@ -47,7 +47,7 @@ which drives eating because food is pleasurable and available, can override full
 is abundant. Beyond hunger and fullness, body weight itself is regulated, and the responses that oppose weight loss
 are far stronger than those that oppose weight gain.
 
-Appetite is therefore a regulated biological drive. The same physiology
+This physiology
 explains cravings, regain after a diet and why weight is so hard to lose, and it is the basis for managing weight without blame. It also explains why "eat less, move more" is true but insufficient. A few modifiable factors (protein and fibre, portion sizes and drink choices, sleep and stress) are more useful than simply advising patients to eat less.
 
 ## How hunger and fullness are controlled {#sec-control}
@@ -88,7 +88,7 @@ on a GLP-1 drug) and watch the balance between them shift. (The last two states 
 MC4R mutations are the commonest single-gene cause of severe obesity, found in about 6% of people
 with severe childhood-onset obesity, and the more a mutation damages the receptor, the hungrier and
 heavier the person [@farooqi2003mc4r]. When the receptor cannot respond to α-MSH, the satiety signal
-cannot act and appetite remains persistently high. Hunger is, in this sense, set by biology.
+cannot act and appetite remains persistently high.
 :::
 
 ### Leptin: long-term signalling of fat stores {#sec-leptin}
@@ -227,8 +227,7 @@ few free, evidence-backed ways to eat less without feeling deprived [@robinson20
 ## Check yourself: raising protein from 15% to 30% of energy made volunteers eat less without being told to. Why?
 Protein is the most satiating macronutrient, so higher-protein meals leave people fuller for the same
 calories. The volunteers were never told to eat less, so the fall of about 440 kcal/day (and about
-4.9 kg over 12 weeks) came from their own fullness. Changing what
-was eaten changed how much was eaten.
+4.9 kg over 12 weeks) came from their own fullness.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -296,8 +295,7 @@ After substantial weight loss, three systems shift together, and all three favou
 - Energy expenditure falls more than would be predicted for the smaller body. This extra fall is adaptive
   thermogenesis, also called metabolic adaptation (see the *Energy balance* chapter), and it lowers
   the expenditure side of the energy-balance equation. A weight-reduced person spends less energy
-  than someone of the same weight who was never heavier, which favours
-  regain.
+  than someone of the same weight who was never heavier.
 
 ::: {.callout-warning}
 ## Does dieting permanently damage the metabolism?
@@ -322,7 +320,7 @@ balance [@alkhatib2017partialsleep]. Sleep loss also weakens cortical control ov
 expenditure even at identical calories [@vujovic2022lateeating], one reason shift work and late
 suppers are metabolically taxing.
 
-**Chronic stress nudges eating toward "comfort food".** Sustained cortisol is thought to drive a
+**Chronic stress may shift eating toward "comfort food".** Sustained cortisol is thought to drive a
 preference for energy-dense, sugary-fatty food and to favour visceral (belly) fat [@dallman2003].
 The evidence is largely animal models and human associations: people with higher long-term cortisol
 do tend to carry more central fat [@jackson2017haircortisol], so the link is plausible but not
@@ -330,8 +328,8 @@ proven.
 
 ### Obesity and GLP-1 receptor agonists {#sec-obesity}
 
-In obesity, the same regulatory system maintains an elevated weight. A person with obesity is working against homeostatic signals that maintain the higher
-weight: high but ineffective leptin, a hunger drive that rises as soon as weight is lost, and energy
+In obesity, the same regulatory system maintains an elevated weight through
+high but ineffective leptin, a hunger drive that rises as soon as weight is lost, and energy
 expenditure that adapts. Obesity is increasingly understood as a condition of a dysregulated system. A 2025 commission reflects this view and distinguishes two forms: *clinical* obesity, in which excess fat
 already impairs how organs or the whole person function, is a chronic disease, whereas *preclinical*
 obesity, with function preserved, is a state of raised risk [@rubino2025clinicalobesity].
@@ -356,8 +354,7 @@ and management of obesity, including where these medicines and surgery fit, are 
 After weight loss, three systems shift together toward regain. Leptin falls disproportionately, so
 the hypothalamus responds as it would to starvation; ghrelin rises and the satiety peptides fall,
 changes that persist a year later; and energy expenditure falls more than predicted for the smaller body
-(adaptive thermogenesis, or metabolic adaptation). Her regain is the predicted result of body-weight
-regulation.
+(adaptive thermogenesis, or metabolic adaptation).
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -394,8 +391,8 @@ from 7.1% in 2017 to 4.6% in 2021 [@mohNutriGradeRollout2022].
 shorter and poorer sleep was associated with greater adiposity [@helios2024sleepadiposity], consistent with
 the sleep experiments in [Sleep and stress](#sec-sleep-stress).
 
-**The framing matters clinically.** Weight bias is common among Singapore's own healthcare
-professionals [@goff2023weightbiassg], so understanding weight as a biologically regulated,
+**Weight bias is common among Singapore's own healthcare
+professionals** [@goff2023weightbiassg], so understanding weight as a biologically regulated,
 environmentally cued system is the basis for treating patients without blame.
 
 ::: {.callout-tip}

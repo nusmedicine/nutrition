@@ -39,8 +39,7 @@
 ## Assessing diet and talking to patients at a glance {#sec-overview}
 
 Knowing what people should eat (see the [*What a healthy diet looks like*](dietary-guidelines-patterns.qmd)
-chapter) is useful only once the clinician knows what a patient eats now: a patient cannot be counselled about their diet
-before it has been assessed. The tool is the **diet history**, a structured conversation about what a
+chapter) is useful only once the clinician knows what a patient eats now. The tool is the **diet history**, a structured conversation about what a
 patient usually eats and drinks. The same short conversation that covers food also covers
 drinking, activity, sleep and stress. A diet history is therefore one branch of a whole lifestyle
 history, and the skill transfers to the rest of it.
@@ -125,7 +124,7 @@ reach an A. Grades C and D must display the mark, and grade D cannot be advertis
 
 <div data-island="nutri-grade" data-src="/diagrams/nutri-grade.yml"></div>
 
-Nutri-Grade nudges individual drink choices. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
+Nutri-Grade has a modest effect on individual drink choices. In a randomised trial of the label, shoppers bought drinks with less sugar (about 1.5 g less per serving), but the label alone did not improve the overall quality of their basket [@nutriGradeRCT2023]. Its scope is also narrow: it grades only drinks, on two nutrients, so an "A" grade does not offset the rest of the diet and gives no information about solid food.
 
 ::: {.callout-tip}
 ## 🍜 Eating out: start with the drink
@@ -194,8 +193,7 @@ illness stopping intake, flags this risk and triggers a referral pathway [@bapen
 Unplanned weight loss is included in MUST because a sustained energy deficit, worsened by illness, drives catabolism of **lean body mass** (muscle and organ protein) as well as fat
 (see prolonged fasting in the [*Integrative metabolism*](integrative-metabolism.qmd#sec-starvation)
 chapter). The loss of that functional tissue impairs strength, immune function and recovery. A falling weight
-is therefore a red flag even when the BMI still reads "normal", which is why MUST scores recent loss
-independently of BMI. At this stage you recognise when MUST applies and refer (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
+is therefore a red flag even when the BMI still reads "normal". At this stage you recognise when MUST applies and refer (see the [*Undernutrition & malnutrition*](undernutrition-malnutrition.qmd)
 chapter for the recognition and management of the malnourished patient).
 
 ::: {.callout-important}
@@ -217,9 +215,8 @@ history then confirms which apply to this patient, so the task is reading a patt
 ## Check yourself: an older patient has had unplanned weight loss over three months, but her BMI still reads "normal". Why does the loss still matter?
 MUST scores recent unplanned weight loss independently of BMI, because the loss itself is harmful.
 A sustained energy deficit, worsened by illness, breaks down lean body mass (muscle and organ protein)
-as well as fat, and losing that functional tissue impairs strength, immune function and recovery. A falling
-weight is therefore a red flag while the BMI still reads normal; the response at this stage is to
-recognise the risk and refer.
+as well as fat, and losing that functional tissue impairs strength, immune function and recovery. The response at this stage is to recognise the risk
+and refer.
 :::
 
 ## Brief counselling {#sec-conversation}
@@ -244,7 +241,7 @@ eats and what they are ready to change, without judgement; it is the diet histor
 means offering one concrete, realistic step, with permission: "Would it be alright if I shared one
 idea about your drinks?" makes the patient more willing to listen.
 
-Two rules matter most: ask before advising, as in that example, because permission turns advice into a conversation; and use plain language, saying "sugary drinks" where a guideline would say "free sugars exceeding ten percent of energy".
+Two rules apply throughout: ask before advising, as in that example, because permission turns advice into a conversation; and use plain language, saying "sugary drinks" where a guideline would say "free sugars exceeding ten percent of energy".
 Counselling in this respectful, motivational-interviewing style can produce small, mostly short-term
 improvements in some health behaviours, such as drinking and physical activity; for diet specifically
 the evidence is of low quality [@frost2018mi].

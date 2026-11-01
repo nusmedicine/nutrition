@@ -75,7 +75,7 @@ The four questions are:
 1. Find the study. What actual evidence lies behind the headline? (Often none, or only a mouse
    study.)
 2. Judge the design. Where does it rank: a case report, a survey, a cohort study, a randomised trial or
-   a review? The verdict depends on knowing where the study ranks. In nutrition, a higher design is not automatically better (see [The hierarchy of evidence in nutrition](#sec-hierarchy)).
+   a review? In nutrition, a higher design is not automatically better (see [The hierarchy of evidence in nutrition](#sec-hierarchy)).
 3. Read the outcome. Did it measure a hard endpoint (heart attacks) or a surrogate (a blood marker)?
    Is the change relative ("30% lower") or absolute? And did the result survive replication, or was
    the study retracted?
@@ -144,8 +144,7 @@ controlled-feeding study measuring a surrogate (blood pressure), with weight and
 A diet often cannot be blinded, there is no true placebo because everyone eats something, and the
 effects of a whole pattern build over decades, longer than any trial can run. For many dietary
 questions a well-conducted prospective cohort study is therefore the best feasible design, and it
-carries more weight than it would for a drug. Rejecting dietary evidence because "there's no RCT"
-throws good evidence away.
+carries more weight than it would for a drug.
 :::
 
 ::: {.callout-tip collapse="true"}

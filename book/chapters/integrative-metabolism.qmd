@@ -143,7 +143,7 @@ Pyruvate, the end product of glycolysis, is a branch point from which its carbon
 - back toward glucose via oxaloacetate, the first step of making new glucose;
 - forward into acetyl-CoA.
 
-The last of these routes, from pyruvate to acetyl-CoA, is irreversible. Catalysed by pyruvate dehydrogenase (PDH), it is the first of the map's four irreversible steps, and its one-way direction has an important consequence for fasting.
+The last of these routes, from pyruvate to acetyl-CoA, is irreversible. Catalysed by pyruvate dehydrogenase (PDH), it is the first of the map's four irreversible steps, and its one-way direction limits what the body can turn into glucose in a fast.
 
 ::: {.callout-important}
 ## Why fatty acids cannot become glucose
@@ -166,8 +166,7 @@ those whose carbon can become glucose (see [The amino-acid pool](#sec-amino)). G
 pictured as glycolysis run backwards, but it cannot be: three of glycolysis's steps are irreversible
 (three more of the map's irreversible steps), so gluconeogenesis bypasses them with four different
 enzymes. Those bypass enzymes are its control points, and because glycolysis and gluconeogenesis are
-reciprocally regulated, the cell does not run both at once. Knowing the raw materials is enough at the level
-of the map; the enzyme steps belong to biochemistry proper.
+reciprocally regulated, the cell does not run both at once.
 
 ### Fatty-acid oxidation, synthesis and ketogenesis {#sec-fat}
 
@@ -187,7 +186,7 @@ blocks the transport step for burning it. A cell therefore never builds and burn
 ## Optional: the two enzymes that regulate fatty-acid oxidation and synthesis
 The transport step into the mitochondrion is catalysed by CPT1 (carnitine palmitoyltransferase 1), and
 the committed enzyme for building fat is acetyl-CoA carboxylase (ACC), whose immediate product blocks
-CPT1. One reciprocal switch therefore keeps burning and building from running at once.
+CPT1.
 :::
 
 **Ketone bodies.** In a long fast, acetyl-CoA has a third fate: when fat breakdown floods the fasting liver with more acetyl-CoA than it can burn, the liver converts the surplus into ketone bodies (ketones for short). The liver lacks the one enzyme needed to use ketones, so it cannot burn its own product and exports its entire output to other organs, where they come to fuel the brain (see [Prolonged fasting](#sec-starvation)).
@@ -248,7 +247,6 @@ amino acids, which is why protein is drawn on.
 A red blood cell has no mitochondria, so it can run only glycolysis, which takes place in the cytosol
 without oxygen and ends in lactate. Fat is burned by β-oxidation inside the mitochondrion, and the TCA
 cycle and oxidative phosphorylation are mitochondrial too, so none of them is open to the red cell.
-Glucose is its only fuel.
 :::
 
 ## Hormonal control of fuel use: fed, fasted and starved states {#sec-partB}
@@ -264,7 +262,7 @@ them change.
 
 Fuel use is set by the balance between the two hormones, the **insulin-to-glucagon ratio**. After a meal the ratio is high, and fuel is stored; between meals it is
 low, and fuel is mobilised. The classic description is that this ratio "varies inversely
-with the need to make your own glucose, and is lowest in starvation" [@unger1971ratio]. The ratio's direction, high or low, sets the state.
+with the need to make your own glucose, and is lowest in starvation" [@unger1971ratio].
 
 Insulin is the body's principal anabolic hormone, acting on all three macronutrients at once. It stores glucose as glycogen, stores fat and blocks its breakdown, and builds protein, while shutting down the opposing pathways that mobilise fuel [@merheb2026insulin]. It is often called the sugar hormone, but lowering blood glucose is only one of its effects.
 
@@ -289,7 +287,7 @@ Glucose uptake by muscle and fat surges after a meal while the liver's does not,
 fat use a different glucose transporter from the liver. Muscle and fat use **GLUT4**, which comes to
 the cell surface only when insulin signals, so the meal switches their uptake on. The liver uses
 **GLUT2**, which is always present and admits glucose in proportion to its concentration, with no
-insulin required. In the liver, insulin acts on enzymes, signalling the liver to store glucose and stop releasing it [@chadt2020glucose]. This difference in transporters explains most of how the tissues behave in the fed state.
+insulin required. In the liver, insulin acts on enzymes, so that the liver stores glucose and stops releasing it [@chadt2020glucose].
 :::
 
 ### The fasted state: maintaining blood glucose {#sec-fasted}
@@ -321,9 +319,9 @@ liver; and glycerol, the one glucogenic part of fat, which feeds gluconeogenesis
 Muscle holds most of the body's glycogen, yet it cannot release any glucose into the blood.
 Muscle lacks **glucose-6-phosphatase**, the enzyme that frees glucose
 for export, so muscle glycogen is trapped for muscle's own use. Only the liver and kidney can release
-free glucose to the blood. Muscle helps indirectly, by exporting lactate, which the liver rebuilds into
+free glucose to the blood [@statpearlsGlycogenolysis]. Muscle helps indirectly, by exporting lactate, which the liver rebuilds into
 glucose (the **Cori cycle**), or alanine, which carries both carbon and nitrogen to the liver (the
-**glucose–alanine cycle**). The liver is the main source of glucose released into the blood, and muscle supplies only raw material for gluconeogenesis [@statpearlsGlycogenolysis].
+**glucose–alanine cycle**).
 :::
 
 ```{mermaid}
@@ -348,9 +346,8 @@ The body holds three very different kinds of fuel reserve, and protein is the on
 | Fat | ~weeks to months | The vast bulk of stored energy |
 | Protein | not a true store | Functional tissue; spending it dismantles working tissue |
 
-The exact figures vary by source and by method of counting, so they are best read as ranges that
-show the proportions: fat far exceeds the other reserves, glycogen is small by comparison, and protein is
-not a true reserve [@cahill2006fuel; @bergStryerFuel].
+The exact figures vary by source and by method of counting, so they are best read as rough proportions
+[@cahill2006fuel; @bergStryerFuel].
 
 The reserves are drawn on in turn as a fast proceeds, in stages often described as the **Cahill phases**. The fed state gives way to the
 post-absorptive state, which runs on glycogen, and then to early fasting, which runs on
@@ -439,8 +436,7 @@ The respiratory quotient (RQ), the ratio of CO₂ produced to O₂ consumed (see
 when burning pure carbohydrate and about 0.7 when burning pure fat; protein and a mixed diet lie in
 between, around 0.8–0.85. After a carbohydrate meal, RQ climbs toward 1.0; deep into a fast it drifts
 toward 0.7 as metabolism shifts to fat [@rqValuesStd]. The metabolic switch interactive above shows
-this drift from fed to fasted: RQ gives, in one number, the overall direction of fuel metabolism on
-the map.
+this drift from fed to fasted.
 
 ### Fuel use during exercise {#sec-exercise}
 
@@ -610,7 +606,7 @@ therefore worth giving, and a friend found confused after a night out needs a gl
 
 ::: {.callout-tip}
 ## 🍜 How do intermittent fasting and the ketogenic diet work?
-Both are popular here, and both work mainly through appetite and energy intake, a more ordinary mechanism than their promoters claim.
+Both are popular here, and both work mainly through appetite and energy intake.
 **Time-restricted eating** (limiting eating to a daily window, as in "16:8") produces weight loss mostly
 by reducing total energy intake, and in a careful 12-month trial, adding an eating window to calorie
 restriction gave no significantly greater weight loss than the same calorie restriction alone
@@ -622,9 +618,7 @@ of the [*Evidence vs hype*](evidence-vs-hype.qmd) chapter.)
 
 **Diabetes as a national priority.** Singapore declared its War on Diabetes in 2016 [@mohWarOnDiabetes]; in
 the 2021–2022 National Population Health Survey, roughly one resident in twelve aged 18 to 74 had
-diabetes [@mohNNS2022]. A food
-culture that keeps many people in the fed, storing state, together with the ways metabolic regulation
-fails, is the physiology beneath that public-health effort.
+diabetes [@mohNNS2022].
 
 ## Check your understanding {#sec-quiz}
 

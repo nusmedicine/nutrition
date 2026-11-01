@@ -42,7 +42,7 @@ items:
       healthy:
         kind: good
         badge: "Reasonable"
-        why: "A real way to cut sodium; in a large trial it reduced strokes and deaths."
+        why: "A reasonable way to cut sodium; in a large trial it reduced strokes and deaths."
       ckd:
         kind: avoid
         badge: "Dangerous"

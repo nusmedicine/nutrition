@@ -96,8 +96,7 @@ later menopause or slower loss [@hernandez2003peakBmdModel]. The model measures 
 In women, bone loss accelerates around the menopause. As oestrogen falls, the resorption signal RANKL rises and
 shifts remodelling toward osteoclastic resorption [@eghbali2003rankl], and women lose roughly 7% of spine and
 6% of femoral-neck bone mineral across the transition [@greendale2012swanBone]. The hormonal context, including
-menopausal hormone therapy, is covered in the [*Menopause & midlife health*](menopause-midlife.qmd) chapter;
-this chapter focuses on diet.
+menopausal hormone therapy, is covered in the [*Menopause & midlife health*](menopause-midlife.qmd) chapter.
 
 Three nutrients act on bone, each in a different way (the nutrient biology is in the
 [*Micronutrients, hydration and electrolytes*](04-micronutrients-hydration.qmd) and
@@ -184,7 +183,7 @@ deficient [@cheong2021vitDsg]. Behaviour and biology explain this: each of the f
 The burden is unequal: Indian and Malay women have several-fold higher odds of deficiency than Chinese women,
 which makes deficiency an equity issue [@cheong2021vitDsg].
 
-Common deficiency does not justify testing and supplementing everyone. The response is to find and correct genuine shortfall in higher-risk people (those who cover up, stay indoors, are older or are pregnant). Few foods contain vitamin D naturally; oily fish is the best source [@odsVitaminD]. The Endocrine Society guideline now suggests against routine testing and against empiric doses above the US Dietary Reference Intake in healthy adults under 75; it suggests empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference intake is likewise a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda].
+The response to common deficiency is to find and correct genuine shortfall in higher-risk people (those who cover up, stay indoors, are older or are pregnant). Few foods contain vitamin D naturally; oily fish is the best source [@odsVitaminD]. The Endocrine Society guideline now suggests against routine testing and against empiric doses above the US Dietary Reference Intake in healthy adults under 75; it suggests empiric vitamin D for some groups, such as people aged 75 and over and pregnant women [@demay2024endoSocVitD]. HPB's own vitamin D reference intake is likewise a modest 2.5 µg (100 IU) because it allows for some sun exposure [@hpb_healthhub_rda].
 
 ### Does protein leach calcium from bone? {#sec-bone-protein}
 
@@ -242,12 +241,12 @@ roughly a quarter to a third. The label's calcium content therefore overstates w
 Supplements cut fractures in people who are genuinely deficient or institutionalised, but in
 already-replete, community-dwelling older adults large trials find no fracture benefit and a small increase
 in kidney stones. She belongs to the second group, so the tablets would add a small risk without a fracture
-benefit. Food first is the approach, with supplements reserved for genuine shortfall or high risk.
+benefit.
 :::
 
 ## The joints {#sec-bone-joints}
 
-For the joints, the effective treatments are weight loss for knee osteoarthritis and a urate-lowering drug for gout. Glucosamine, the most heavily marketed supplement, has no proven benefit. The spectrum below places the common treatments and claims for osteoarthritis, gout and rheumatoid arthritis by the strength of their evidence.
+For the joints, the effective treatments are weight loss for knee osteoarthritis and a urate-lowering drug for gout. Glucosamine, the most heavily marketed supplement, has no proven benefit.
 
 ::: {.spectrum}
 [Evidence for joint treatments and claims]{.tree-title}
@@ -288,8 +287,7 @@ in osteoarthritis [@mcalindon2013vitd; @lin2023collagenoa].
 Glucosamine shows how consumer messaging can go beyond the evidence. Singapore's professional guidance (ACE)
 states that glucosamine and chondroitin "may add cost without established clinical benefit" for knee
 osteoarthritis, yet the government consumer portal (HealthHub) still frames glucosamine positively, as
-something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. These supplements are generally safe, and their harm is **cost and false reassurance**, which can lead a patient to spend on an ineffective pill and neglect the intervention that works (losing weight and staying active). When a patient asks "should I take glucosamine?", the money is better spent on the measures
-that work.
+something that "may help provide relief" [@aceKneeOA2026; @healthhubGlucosamine]. These supplements are generally safe, and their harm is **cost and false reassurance**, which can lead a patient to spend on an ineffective pill and neglect the intervention that works (losing weight and staying active).
 :::
 
 ### Gout: diet and counselling {#sec-bone-gout}
@@ -345,7 +343,7 @@ assessment or drug treatment, and refer.
 
 ### Osteoporosis: case-finding, diagnosis and drug treatment {#sec-bone-refer-osteoporosis}
 
-National guidance covers case-finding, diagnosis and drug treatment. Four terms describe case-finding and diagnosis:
+Four terms from the national guidance describe case-finding and diagnosis:
 
 OSTA
 : An Asian screen, based on age and weight, that flags who needs a bone scan [@koh2001osta].

@@ -38,7 +38,7 @@ questions:
     options:
       - text: "The 12.7% is population surveillance at BMI ≥30; clinical action starts at ≥27.5 and ≥23"
         correct: true
-        feedback: "Singapore reports population obesity at the WHO ≥30 threshold for international comparability, but clinical action begins far earlier: high risk at ≥27.5, intervention at ≥23. The surveillance threshold and the clinical action point are deliberately different numbers."
+        feedback: "Singapore reports population obesity at the WHO ≥30 threshold for international comparability, but clinical action begins far earlier: high risk at ≥27.5, intervention at ≥23."
       - text: "The newspaper figure is simply an error; ≥30 is not used in Singapore"
         correct: false
         feedback: "It is not an error: the ≥30 cut-off is the correct surveillance and international-comparison threshold. The clinic simply acts earlier, at ≥27.5 and ≥23."
@@ -61,7 +61,7 @@ questions:
       - text: "Sleep and stress are lifestyle noise with no measurable effect on intake"
         correct: false
         feedback: "Poor sleep measurably raises energy intake, and chronic stress is thought to bias eating toward energy-dense comfort food and favour abdominal fat. Both are modifiable factors."
-      - text: "The fix is more willpower, since the cause is a failure of discipline"
+      - text: "The answer is more willpower, since the cause is a failure of discipline"
         correct: false
         feedback: "Calling this a failure of discipline misframes an underlying cause as a character flaw. Stabilising sleep and planning shift meals address the cause; willpower messaging leaves out the mechanism and can be stigmatising."
 

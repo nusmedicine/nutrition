@@ -45,13 +45,13 @@ questions:
     options:
       - text: "A modest effect, no better than ordinary calorie restriction"
         correct: true
-        feedback: "The mechanism is plausible, but the trials found no metabolic 'reset': a plausible mechanism is not clinical proof. Time-restricted eating can be a useful eating structure for some people, judged by adherence."
+        feedback: "The mechanism is plausible, but the trials found no metabolic 'reset'. Time-restricted eating can be a useful eating structure for some people, judged by adherence."
       - text: "It resets the metabolism and beats every other diet"
         correct: false
         feedback: "Trials don't support that claim: its benefit comes largely from eating less, and it is no better than calorie restriction."
       - text: "It has no rationale and should be dismissed outright"
         correct: false
-        feedback: "The circadian mechanism is real, so dismissing it over-corrects. Scepticism about the hype is different from dismissing the mechanism."
+        feedback: "The circadian mechanism is real, so dismissing it over-corrects."
 
   - id: q5
     stem: "For which person is a supplement genuinely indicated?"

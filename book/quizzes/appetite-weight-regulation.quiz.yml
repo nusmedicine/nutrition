@@ -78,7 +78,7 @@ questions:
     options:
       - text: "Hormonal and metabolic changes after weight loss favour regain."
         correct: true
-        feedback: "Weight regain is the expected result of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation). All three favour regaining the lost fat."
+        feedback: "Weight regain is the expected result of body-weight regulation: leptin fell, hunger hormones rose (and stay raised for a year), and energy expenditure dropped more than body size predicts (metabolic adaptation)."
       - text: "The patient simply lacks the discipline to maintain the diet."
         correct: false
         feedback: "Persistent hunger-hormone shifts plus adaptive thermogenesis make weight maintenance harder, whatever the patient's discipline."

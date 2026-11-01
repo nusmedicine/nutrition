@@ -121,7 +121,7 @@ enough risk to warrant active screening [@bapenAtRisk; @fried2001frailty]:
 - hospital inpatients;
 - anyone in the post-discharge period.
 
-Membership of an at-risk group raises the pre-test probability (the chance, before any test, that the patient has the condition), so you screen the patient before malnutrition looks obvious, which makes malnutrition less likely to be missed. Among the first things to ask about is unintentional weight loss, or "shrinking", a core feature of frailty (a clinical syndrome of older age whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) [@fried2001frailty].
+Membership of an at-risk group raises the pre-test probability (the chance, before any test, that the patient has the condition), so screening these patients finds malnutrition that would otherwise be missed. Among the first things to ask about is unintentional weight loss, or "shrinking", a core feature of frailty (a clinical syndrome of older age whose other features include weakness, slow walking and exhaustion; see the *Healthy ageing* chapter) [@fried2001frailty].
 
 ### Nutrition screening: the generalist's role {#sec-mal-screening}
 
@@ -156,7 +156,7 @@ diagnosis applies the **GLIM criteria** (from the Global Leadership Initiative o
 positive screen. Malnutrition is diagnosed on at least one phenotypic criterion (weight loss, low BMI,
 reduced muscle mass) plus at least one aetiological criterion (reduced intake or absorption, or
 inflammation or disease burden): that is, a measurable loss plus a cause [@cederholm2019glim; @jensen2019glim].
-After screening, the dietitian or team applies GLIM and grades the severity. The generalist's job is the screen and the referral.
+The dietitian or team makes the GLIM diagnosis and grades its severity.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -201,8 +201,7 @@ the team.
 ONS are often started too early, and their benefit is modest. In at-risk older people ONS produce a
 small, consistent weight gain and fewer complications, but no significant overall mortality benefit
 [@milne2009ons]. Singapore's own SHIELD trial found that a specialised supplement improved a
-composite of nutritional outcomes, but that result was driven by the weight component, and the supplement was given as an add-on *to* dietary counselling [@shieldChew2021]. ONS are therefore a useful
-tool, used after food-first and by a dietitian, but they do not fix malnutrition on their own.
+composite of nutritional outcomes, but that result was driven by the weight component, and the supplement was given as an add-on *to* dietary counselling [@shieldChew2021].
 
 ::: {.callout-tip}
 ## 🍜 Eating out (and eating in)
@@ -275,7 +274,7 @@ Nutrition support is a team activity, and each member has a distinct role [@sgPo
 - the medical social worker addresses the social causes;
 - the pharmacist monitors drug–nutrient interactions and electrolyte safety.
 
-The doctor's distinctive contribution is the referral that brings in the team, and the dietitian then draws up the feeding plan. Nutrition is therefore best handled as interprofessional teamwork [@aclm2022comp; @crowley2019] (see the *Interprofessional practice, referral and looking after yourself* chapter).
+The doctor's distinctive contribution is the referral that brings in the team [@aclm2022comp; @crowley2019] (see the *Interprofessional practice, referral and looking after yourself* chapter).
 
 ::: {.callout-important}
 ## You screen and refer; you do not prescribe the feeding plan

@@ -94,7 +94,7 @@ nodes:
       - id: b
         text: "\"A big 3 a.m. meal is fine; energy is energy, whatever the hour.\""
         correct: false
-        feedback: "Timing matters here: heavy eating in the small hours is metabolically harmful for shift workers. Weight the main meals toward the daytime instead."
+        feedback: "Timing matters here: heavy eating in the small hours is metabolically harmful for shift workers. Weight the main meals toward the daytime."
         goto: q-weight
       - id: c
         text: "\"Just skip food entirely on night shifts.\""
@@ -133,7 +133,7 @@ nodes:
       - id: a
         text: "\"Two things: the heart claim no longer holds, and the flushing matters. Can I ask about your drinking?\""
         correct: true
-        feedback: "This combines the current alcohol message with action on the ALDH2 flush. The flush means a raised oesophageal-cancer risk if he keeps drinking, so advise cutting down, screen briefly, and refer if drinking is hazardous. It is the one real red flag in the visit."
+        feedback: "This combines the current alcohol message with action on the ALDH2 flush. The flush means a raised oesophageal-cancer risk if he keeps drinking, so advise cutting down, screen briefly, and refer if drinking is hazardous."
         effects: { quality: +1 }
         reaction: relieved
         goto: route
@@ -146,7 +146,7 @@ nodes:
       - id: c
         text: "\"The heart benefit is real, so don't stop, but maybe drink a little less.\""
         correct: false
-        feedback: "The 'heart benefit' claim has been overturned, so do not reinforce it. This answer also misses the flush, the important cue here (raised oesophageal-cancer risk). Drop the cardioprotection claim and act on the flushing."
+        feedback: "The 'heart benefit' claim has been overturned, so do not reinforce it. This answer also misses the flush, the important cue here (raised oesophageal-cancer risk)."
         reaction: concerned
         goto: remedial
 
@@ -177,8 +177,7 @@ nodes:
       You talked Rahmat out of unnecessary sports nutrition, gave him a sensible protein and shift-eating
       plan, and steered him to small, sustainable changes for the weight creep. On the point that mattered most,
       you did not endorse "drinking for the heart", and you acted on the flush, screening him and advising
-      him to cut down. The task at this stage is to tailor the popular advice to his needs and recognise the one
-      real red flag. *(He does not need detailed sports programming at this level; hazardous
+      him to cut down. *(He does not need detailed sports programming at this level; hazardous
       drinking, if screening flags it, is referred to addiction services.)*
     debrief:
       objectivesMet: [1, 2, 3, 4, 5]

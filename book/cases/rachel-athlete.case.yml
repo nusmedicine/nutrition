@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "Take a focused history (training, eating, the stopped periods) before discussing weight."
         correct: true
-        feedback: "The presenting request (\"put her on a diet\") is a trap: dieting in adolescence predicts both eating disorders *and* weight gain. Understand the whole picture, especially the absent periods, before advising anything."
+        feedback: "The presenting request (\"put her on a diet\") is a trap: dieting in adolescence predicts both eating disorders *and* weight gain. Understand the whole situation, especially the absent periods, before advising anything."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-pattern
@@ -150,8 +150,7 @@ nodes:
     body: |
       You resisted the request to prescribe a diet, took a history that surfaced the underlying problem, recognised
       under-fuelling threatening Rachel's bones and periods, referred appropriately, and reframed the whole
-      conversation from weight to *fuelling for health*. That is the job at this stage: recognise the
-      pattern, protect the teenager from harmful diet-talk, and hand the detailed work to the team.
+      conversation from weight to *fuelling for health*.
       (Assessment and management of the female-athlete triad and of eating disorders belong to the
       specialist team; the do-no-harm conversation about weight is in the *Assessing diet and talking
       to patients* chapter.)

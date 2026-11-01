@@ -160,7 +160,7 @@ nodes:
       The generalist's job is to screen (OSTA uses age and weight to flag who needs a scan), refer for a DXA if
       indicated, deliver the food-first calcium, vitamin D and protein message and weight-bearing exercise, and
       correct a genuine deficiency. Reaching for the drug now skips the diagnosis and takes on a specialist
-      decision: a do-no-harm and scope-of-practice error that good diet advice does not undo.
+      decision, a do-no-harm and scope-of-practice error.
     next: q-drug-after
 
   - id: reveal-drug
@@ -193,8 +193,7 @@ nodes:
       You read her red flags correctly: a low BMI that nearly doubles hip-fracture risk, and genuine vitamin D
       deficiency risk despite the sun, because she's covered and indoors. And you applied do-no-harm: no
       osteoporosis drug on worry. You screen (OSTA), refer for a DXA if indicated, go food-first, correct genuine
-      deficiency, and leave the drug and hormone decisions to the specialist. That is the generalist's role: recognise the
-      modifiable factors, correct real deficiency, and refer.
+      deficiency, and leave the drug and hormone decisions to the specialist.
     debrief:
       objectivesMet: [1, 2, 3, 4]
       keyPoints:

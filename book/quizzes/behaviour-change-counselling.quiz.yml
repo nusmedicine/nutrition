@@ -58,7 +58,7 @@ questions:
     options:
       - text: "An if-then plan deciding the when and where in advance"
         correct: true
-        feedback: "An if-then plan (\"if the stall auntie forgets, then I'll remind her siu dai\") is an implementation intention, which has a medium-to-large effect on goal attainment. Planning for the obstacle in advance makes the goal more likely to be achieved."
+        feedback: "An if-then plan (\"if the stall auntie forgets, then I'll remind her siu dai\") is an implementation intention, which has a medium-to-large effect on goal attainment."
       - text: "Setting five more goals at the same time"
         correct: false
         feedback: "Too many goals dilute the effort; one small, well-planned change works better than five ambitious ones."
@@ -74,7 +74,7 @@ questions:
         feedback: "The model helps in choosing how to talk, but the evidence that it produces sustained weight loss is low-certainty. Present it as a tool for meeting a patient where they are. It should not be used to label patients or forecast success."
       - text: "It reliably predicts success, so focus only on the 'ready' ones"
         correct: false
-        feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It helps tailor the style of the conversation, nothing more."
+        feedback: "This overstates it: the Cochrane review found only low-certainty evidence that stage-based programmes produce sustained weight loss, and it did not test a patient's stage as a forecast of who will succeed. It helps tailor the style of the conversation."
       - text: "It is proven superior to every other counselling approach"
         correct: false
         feedback: "It is an organising heuristic: even the evidence that it produces sustained weight loss is low-certainty, so it has not been shown to be the best method."

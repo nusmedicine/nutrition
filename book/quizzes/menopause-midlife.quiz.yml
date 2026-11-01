@@ -84,10 +84,10 @@ questions:
     options:
       - text: "Diet helps bone and heart, does little for flushes, nothing for vaginal dryness"
         correct: true
-        feedback: "No single 'menopause diet' cures symptoms, so the intervention is matched to the problem. Vaginal dryness (part of the genitourinary syndrome of menopause) has no dietary treatment and needs recognition and referral for effective treatment; knowing when to refer matters more than recommending a supplement."
+        feedback: "No single 'menopause diet' cures symptoms, so the intervention is matched to the problem. Vaginal dryness (part of the genitourinary syndrome of menopause) has no dietary treatment and needs recognition and referral for effective treatment."
       - text: "A special anti-menopause diet can fix all four if she's disciplined enough"
         correct: false
         feedback: "Overpromising a diet that doesn't exist sets her up to fail and invites 'natural remedy' marketing, especially for symptoms that diet does not affect."
       - text: "Since diet can't cure the flushes, diet has no role at midlife"
         correct: false
-        feedback: "Dismissing diet ignores what it does well: diet and activity strongly protect bone and heart. The skill is matching the intervention to the problem."
+        feedback: "Diet and activity strongly protect bone and heart, so diet keeps a large role at midlife. The skill is matching the intervention to the problem."

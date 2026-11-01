@@ -83,8 +83,7 @@ nodes:
     body: |
       You recognised the weight loss for what it was, turned Mr Chua away from eating
       less and plainer toward richer, tastier, higher-protein familiar food, took his
-      eating alone seriously, and suggested a dietitian referral: the generalist's job of
-      screening, starting food-first and referring.
+      eating alone seriously, and suggested a dietitian referral.
     debrief:
       objectivesMet: [1, 2, 3]
       keyPoints:

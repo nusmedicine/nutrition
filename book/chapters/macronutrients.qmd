@@ -262,7 +262,7 @@ white rice is still high-GI.
 GI is measured on a fixed 50 g of available carbohydrate, so it rates the quality of the carbohydrate
 but does not account for how much is eaten. Glycaemic load scales GI to the real serving: a slice of watermelon
 holds only about 6 g of carbohydrate (GL about 5, low), whereas a hawker portion of low-GI *bee hoon*
-is a high-GL plate. Quality and portion both set the response.
+is a high-GL plate.
 :::
 
 ## Fat {#sec-dietary-fat}
@@ -287,7 +287,7 @@ Essential fatty acids
   omega-3). The omega number is counted from the tail end of the chain.
 
 Fatty acids are rarely found on their own: three of them esterified onto a glycerol backbone make a
-**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to). Replacing one fatty acid with a phosphate head gives a **phospholipid**, which is amphipathic (it has a water-attracting head and water-repelling tails), so phospholipids self-assemble into the lipid bilayer of every cell membrane: fat is a structural material as well as a fuel. The third feature, chain length, runs from short through medium to long; medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
+**triglyceride**, the main form of dietary and stored fat (and what the ~9 kcal/g refers to). Replacing one fatty acid with a phosphate head gives a **phospholipid**, which is amphipathic (it has a water-attracting head and water-repelling tails), so phospholipids self-assemble into the lipid bilayer of every cell membrane. The third feature, chain length, runs from short through medium to long; medium-chain fats are absorbed more directly, which is the rationale for "MCT" (medium-chain triglyceride) oils.
 
 **Cholesterol** is a different, ring-shaped sterol that stabilises membranes and is the precursor of
 steroid hormones, bile acids and vitamin D. The cholesterol in food raises blood cholesterol
@@ -381,7 +381,6 @@ which adds energy, and frequent intake is associated with a higher risk of type 
 The two differ only in the geometry of one double bond. Oleic acid's *cis* bond kinks the chain, so
 the molecules cannot pack tightly and olive oil stays liquid. Elaidic acid's *trans* bond leaves the
 chain almost straight, like saturated stearic acid, so it packs tightly and behaves like a solid fat.
-The shape of the chain explains why *trans* fat behaves like saturated fat, in the body as well as on the plate.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -482,14 +481,14 @@ The amino-acid sequence (the primary structure) determines how the chain folds (
 tertiary structure) and how chains assemble (quaternary structure), and that shape determines what
 the protein does. Changing one
 amino acid in haemoglobin's sequence can therefore change the protein's shape, and with it its
-function, enough to cause disease: sequence sets shape, and shape sets function.
+function, enough to cause disease.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: rice and *dhal* are each low in one essential amino acid. Why does eating them across the day still supply every essential amino acid?
 Cereals such as rice are low in lysine and legumes such as *dhal* are low in methionine, so each
 supplies what the other lacks. Because the body cannot make essential amino acids, what matters is
-that the day's mix supplies all of them: complementary plant proteins cover each other's gaps.
+that the day's mix supplies all of them.
 :::
 
 ## From nutrients to patterns {#sec-nutrient-patterns}

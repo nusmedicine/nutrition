@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "The unintentional weight loss since she was widowed, which needs evaluation."
         correct: true
-        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam shows that the loss is a problem that needs action."
+        feedback: "Unintentional weight loss of around 5% or more is never \"just ageing\", and widowhood is a classic trigger. The loose cheongsam confirms the loss."
         effects: { quality: +1 }
         reaction: neutral
         goto: q-advice
@@ -139,7 +139,7 @@ nodes:
       tempting low-fat, low-salt "healthy diet" is the do-no-harm trap: a thin older woman who is losing
       weight needs her food made richer and more flavourful (fortify her usual porridge with egg, fish or
       tofu). Her metformin and PPI put her at risk of B12 deficiency, which is worth checking.
-      A key modifiable factor is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
+      The main modifiable factor is that she eats alone, so reconnect her to a shared meal. Then refer (GP,
       dietitian) for the malnutrition assessment and management. Replay the case.
     next: end-partial
 
@@ -150,9 +150,7 @@ nodes:
     body: |
       You saw the weight loss for what it was, resisted the reflex to restrict a frail older woman's diet,
       chose food-first fortification and a shared meal, flagged her B12 risk and
-      referred appropriately. At this stage the job is to anticipate the shifting needs of ageing, recognise
-      when a normal change has become a problem, and refer, while making the small food-first and social
-      changes that help straight away. (The malnutrition assessment and management belong to the
+      referred appropriately. (The malnutrition assessment and management belong to the
       *Undernutrition & malnutrition* chapter.)
     debrief:
       objectivesMet: [1, 2, 3, 4]

@@ -135,13 +135,13 @@ nodes:
       - id: a
         text: "Build up gradually and let the dietitian set a safe pace."
         correct: true
-        feedback: "In someone who has eaten little for a long time, ramping intake up too fast, especially with rich, carbohydrate-heavy food, can trigger refeeding syndrome, in which blood phosphate, potassium and magnesium shift dangerously and can affect the heart. Building up gradually, with the dietitian setting a safe pace and monitoring, reduces that risk, because the hazard is the speed of the build-up. Recognise the risk and refer; managing it is specialist."
+        feedback: "In someone who has eaten little for a long time, ramping intake up too fast, especially with rich, carbohydrate-heavy food, can trigger refeeding syndrome, in which blood phosphate, potassium and magnesium shift dangerously and can affect the heart. Building up gradually, with the dietitian setting a safe pace and monitoring, reduces that risk. Recognise the risk and refer; managing it is specialist."
         effects: { quality: +1 }
         goto: reveal-refeeding
       - id: b
         text: "Yes, pile on rich food and supplements to build her up fast."
         correct: false
-        feedback: "Feeding up too fast is the trap, and it can cause real harm. In a patient who has eaten little for a long time, it can precipitate refeeding syndrome: dangerous shifts in phosphate, potassium and magnesium that can affect the heart. The safe message is to build up gradually and let the dietitian set the pace and monitor. The hazard is the speed of feeding, so recognise the risk and refer."
+        feedback: "Feeding up too fast is the trap, and it can cause real harm. In a patient who has eaten little for a long time, it can precipitate refeeding syndrome: dangerous shifts in phosphate, potassium and magnesium that can affect the heart. The safe message is to build up gradually and let the dietitian set the pace and monitor. Recognise the risk and refer."
         goto: remedial-refeeding
 
   - id: remedial-refeeding

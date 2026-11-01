@@ -38,7 +38,7 @@ nodes:
       - id: a
         text: "\"Yes. We offer it in every pregnancy, because diabetes in pregnancy is common and feeling well doesn't rule it out.\""
         correct: true
-        feedback: "Singapore screens universally: GDM is common here and usually causes no symptoms, so feeling well doesn't rule it out. In the local GUSTO cohort, testing only 'high-risk' women would have missed about half of cases, because risk factors predict GDM poorly in Asian women. Every pregnancy is offered the test at 24 to 28 weeks."
+        feedback: "Singapore screens every pregnancy at 24 to 28 weeks: GDM is common here and usually causes no symptoms, so feeling well doesn't rule it out. In the local GUSTO cohort, testing only 'high-risk' women would have missed about half of cases, because risk factors predict GDM poorly in Asian women."
         effects: { quality: +1 }
         reaction: relieved
         goto: q-haemo
@@ -177,8 +177,7 @@ nodes:
       You offered the test even though she felt well and would rather have skipped it, read the falling haemoglobin
       correctly, met the diagnosis with dietary first-line plus the team,
       explained the baby's low sugar in plain language, and flagged the postpartum follow-up that links
-      gestational diabetes to future type 2 diabetes. That is the role at this stage: anticipate, screen,
-      recognise and refer. *(Insulin, glucose targets and detailed management are decided by the obstetric and
+      gestational diabetes to future type 2 diabetes. *(Insulin, glucose targets and detailed management are decided by the obstetric and
       diabetes team.)*
     debrief:
       objectivesMet: [1, 2, 3, 4]

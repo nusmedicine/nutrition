@@ -6,7 +6,7 @@ questions:
     options:
       - text: "Only the glycerol backbone of a triglyceride."
         correct: true
-        feedback: "Only the glycerol backbone of a triglyceride can make glucose; the fatty-acid carbons cannot. Fatty acids become acetyl-CoA, and the step from pyruvate to acetyl-CoA (PDH) is irreversible, so fatty-acid carbon cannot go back to glucose."
+        feedback: "Fatty acids become acetyl-CoA, and the step from pyruvate to acetyl-CoA (PDH) is irreversible, so fatty-acid carbon cannot go back to glucose. The glycerol backbone is the one glucogenic part of a triglyceride."
       - text: "Yes, fat is readily converted to glucose whenever blood glucose is low."
         correct: false
         feedback: "The one-way PDH step means fatty-acid carbon cannot become glucose, which is why blood glucose must be maintained, and new glucose made, in a fast."
@@ -30,7 +30,7 @@ questions:
     options:
       - text: "It is anabolic for all three macronutrients."
         correct: true
-        feedback: "Insulin stores glucose and fat and builds protein, so it is anabolic across all three macronutrients; calling it 'the sugar hormone' is incomplete."
+        feedback: "Insulin stores glucose and fat and builds protein, so 'the sugar hormone' describes only one of its effects."
       - text: "Its only job is to lower blood glucose."
         correct: false
         feedback: "Lowering glucose is one effect; insulin also stores fat (and blocks its breakdown) and builds protein."
@@ -54,7 +54,7 @@ questions:
     options:
       - text: "The liver lacks the enzyme needed to use ketones."
         correct: true
-        feedback: "Lacking the enzyme needed to use ketones, the liver exports all the ketones it makes to the brain, muscle and heart and burns none itself."
+        feedback: "Lacking the enzyme needed to use ketones, the liver exports all the ketones it makes, to the brain, muscle and heart."
       - text: "The liver has no use for energy during a fast."
         correct: false
         feedback: "During a fast the liver is very active, making glucose and ketones. It exports ketones because it lacks the enzyme to burn them."

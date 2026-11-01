@@ -67,7 +67,7 @@ nodes:
       - id: c
         text: "Yes, probiotics are harmless, so she may as well."
         correct: false
-        feedback: "Even setting aside cost, routine probiotics aren't recommended for well people, and can even delay microbiome recovery in some settings. Not a good default."
+        feedback: "Even setting aside cost, routine probiotics aren't recommended for well people, and can even delay microbiome recovery in some settings."
         goto: q-help
 
   - id: q-help

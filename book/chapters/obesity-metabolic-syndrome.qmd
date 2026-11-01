@@ -102,7 +102,7 @@ five, with no single obligatory component; a component counts as present whether
 - raised blood pressure: ≥130/85 mmHg;
 - raised fasting glucose: ≥5.6 mmol/L.
 
-Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response of the body's cells to insulin, for which the pancreas at first compensates by making more insulin to keep blood glucose normal. Because the five components share these underlying abnormalities, they appear together. The syndrome is therefore best regarded as a risk marker: it flags a markedly raised risk of type 2 diabetes and cardiovascular disease [@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011], and the label is a prompt to look at the whole cluster and its common underlying abnormalities. The syndrome is not a single disease with a single drug treatment. Local data show that the components do not always cluster in the same way across Singapore's ethnic groups [@angMetsSingaporeNHS2005].
+Two linked problems underlie the cluster: central fat and **insulin resistance**, a reduced response of the body's cells to insulin, for which the pancreas at first compensates by making more insulin to keep blood glucose normal. The syndrome is therefore best regarded as a risk marker: it flags a markedly raised risk of type 2 diabetes and cardiovascular disease [@kaurMetsDefinitionsReview2014; @metsDefinitionsControversies2011], and the label is a prompt to look at the whole cluster and its common underlying abnormalities. The syndrome is not a single disease with a single drug treatment. Local data show that the components do not always cluster in the same way across Singapore's ethnic groups [@angMetsSingaporeNHS2005].
 
 In the interactive below, toggle a patient's findings to see when the three-of-five threshold is met,
 and how sleep loss and stress contribute to the same underlying abnormalities (drawn as the hub of the wheel).
@@ -162,8 +162,8 @@ mechanism.
 In obesity, fat's signalling to the brain is impaired: leptin, the satiety signal from fat, is raised, but central leptin signalling is blunted. This leptin resistance (see the
 [*Appetite and weight regulation*](appetite-weight-regulation.qmd#sec-leptin) chapter) weakens satiety
 and makes the surplus harder to reverse [@myers2010leptin]. The same biology that produces the
-cluster also makes the extra weight harder to lose, which is why lifestyle change is a physiological
-intervention. Difficulty losing weight is not a failure of willpower.
+cluster also makes the extra weight harder to lose, so difficulty losing weight is not a failure of
+willpower.
 
 ### Why weight accumulates: energy balance and diet quality {#sec-accumulation}
 
@@ -316,8 +316,7 @@ The target is metabolic health, and a sustained loss of 5–10% improves glucose
 ## Check yourself: why can shaming a patient about weight make the weight harder to lose?
 Weight stigma degrades the quality of care and drives patients to avoid appointments, so they receive
 less of the care that helps. Stigma is also thought to raise cortisol and comfort-eating, which can
-promote weight gain (the cycle proposed by the COBWEBS model). Person-first, permission-based framing is therefore
-part of the treatment.
+promote weight gain (the cycle proposed by the COBWEBS model).
 :::
 
 ## When to refer {#sec-obesity-refer}
@@ -335,7 +334,7 @@ is to **recognise that these tiers exist and refer**. Prescribing and selecting 
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: a patient with obesity asks you to start her on a GLP-1 drug. What is your role at this stage?
-Your role is to recognise that specialist treatment tiers exist and refer her. Anti-obesity medication, including the GLP-1 receptor agonists, and metabolic-bariatric surgery are specialist tiers that sit above lifestyle change, and prescribing or selecting them is a specialist decision. Lifestyle change stays the basis of care, and the other treatments are added to it.
+Your role is to recognise that specialist treatment tiers exist and refer her. Anti-obesity medication, including the GLP-1 receptor agonists, and metabolic-bariatric surgery are specialist tiers that sit above lifestyle change, and prescribing or selecting them is a specialist decision.
 :::
 
 ## Is obesity just "eating too much"? {#sec-close}
@@ -349,7 +348,7 @@ and ectopic fat drive the insulin resistance behind the metabolic-syndrome clust
 adults carry more visceral fat at a given BMI, which is why Singapore interprets BMI at lower cut-offs and
 always alongside waist circumference.
 
-Care therefore addresses those causes. Because weight stigma can itself promote weight gain, weight-inclusive, person-first care is also part of the treatment.
+Because weight stigma can itself promote weight gain, weight-inclusive, person-first care is part of the treatment.
 
 ## The Singapore context {#sec-singapore}
 

@@ -102,11 +102,11 @@ Deficiency is common in Singapore despite the climate: one healthy-adult sample 
 
 **Vitamin E** is an antioxidant in cell membranes, found in nuts, seeds and vegetable oils; dietary
 deficiency is rare and is seen mostly with fat malabsorption [@odsVitE]. Neither vitamin K nor
-vitamin E is a common toxicity concern. Among the fat-soluble vitamins, the risk of excess lies mainly with A and D.
+vitamin E is a common toxicity concern.
 
 ### Water-soluble vitamins: the B-complex and C {#sec-water-soluble}
 
-Because the water-soluble vitamins (except B12) are not stored, they need regular intake. At this stage the task is to recognise each classic deficiency syndrome and the group at risk; investigation and treatment come later. The table gives each vitamin's broad role, its classic deficiency and the group in whom that deficiency is most likely:
+Because the water-soluble vitamins (except B12) are not stored, they need regular intake. At this stage the task is to recognise each vitamin's classic deficiency syndrome and the group in whom it is most likely; investigation and treatment come later:
 
 | Vitamin | Broad role | Classic deficiency | Watch in… |
 |---|---|---|---|
@@ -169,7 +169,7 @@ In the general population, routine vitamin C does not prevent colds. It only sli
 ## Check yourself: high-dose vitamin A supplements can harm a pregnancy, but a diet rich in carrots and sweet potato does not. Why the difference?
 Preformed vitamin A is fat-soluble, so a high dose is stored and can
 accumulate to teratogenic levels. The β-carotene in orange produce is converted to vitamin A only as
-needed, and this self-limiting conversion is what makes β-carotene from food safe.
+needed, so the conversion is self-limiting and β-carotene from food is safe.
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -200,8 +200,7 @@ Non-haem iron
   for vegetarians. It is poorly and variably absorbed, and its absorption depends on what else is on
   the plate [@odsIron].
 
-Because non-haem iron absorption depends on the rest of the meal, the foods eaten with it can increase
-or reduce how much is absorbed:
+Foods eaten in the same meal can increase or reduce how much non-haem iron is absorbed:
 
 | Increases non-haem iron absorption | Reduces non-haem iron absorption |
 |---|---|
@@ -278,8 +277,8 @@ absorption.
 ::: {.callout-tip collapse="true"}
 ## Check yourself: why does calcium intake in adolescence matter for a hip fracture at 80?
 About 90% of peak bone mass is laid down by around age 18–20, and bone mass peaks around age 30.
-Calcium, vitamin D and weight-bearing activity in youth build the reserve that later life draws on and
-that protects against fractures decades later.
+Calcium, vitamin D and weight-bearing activity in youth build the reserve that protects against
+fractures decades later.
 :::
 
 ## Water and electrolytes {#sec-micro-water}
@@ -303,8 +302,6 @@ Over-hydration
 : Rarer than dehydration, but real: drinking only plain water in large amounts during endurance
   exercise can cause dangerous **exercise-associated hyponatraemia** (low blood sodium).
 
-Hydration therefore involves both water and electrolytes.
-
 ### Sodium and potassium: opposite effects on blood pressure {#sec-sodium-potassium}
 
 Sodium and potassium push blood pressure in opposite directions: too much sodium and too little
@@ -317,8 +314,7 @@ Healthy Plate, are the natural potassium source [@hpbHealthyPlate].
 ## Check yourself: a marathon runner plans to drink as much plain water as possible during the race. Why is that not the safest plan?
 The body regulates water and electrolytes together, with thirst and ADH matching intake to losses.
 Drinking only plain water in large amounts during endurance exercise can cause dangerous
-exercise-associated hyponatraemia (low blood sodium). Hydration means water and electrolytes, and
-there is no fixed volume that suits everyone.
+exercise-associated hyponatraemia (low blood sodium).
 :::
 
 ::: {.callout-tip collapse="true"}
@@ -358,7 +354,7 @@ bowl. (Per-dish figures from consumer-education sources are illustrative and var
 
 The population response relies on policy: the Health Promotion Board's "Less Salt, More
 Taste" movement and its work to make lower-sodium salt, sauces and seasonings affordable aim to change
-the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade for sugary drinks [@hpbNutriGrade], and the same idea as iodising salt: change the food supply as well as individual habits.
+the food supply itself [@hpb2023sodium]. The approach follows the same labelling principle as Nutri-Grade for sugary drinks [@hpbNutriGrade], and the same approach as iodising salt, which also changes the food supply.
 
 ::: {.callout-warning}
 ## Salt substitutes and the SSaSS trial
@@ -375,8 +371,7 @@ death (about 12%) over about 5 years. In absolute terms, that was about 4.5 fewe
 - Potassium-based substitutes carry a risk of hyperkalaemia (raised blood potassium), which makes them
   unsafe in kidney disease or with certain blood-pressure medications.
 
-Salt substitutes therefore need to be advised **case by case**, and SSaSS shows why any trial must be read
-together with its caveats.
+Salt substitutes therefore need to be advised **case by case**.
 :::
 
 ## Check your understanding {#sec-quiz}

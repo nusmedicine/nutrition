@@ -18,7 +18,7 @@ questions:
     options:
       - text: "The colon, with slow transit and near-neutral pH."
         correct: true
-        feedback: "Slow transit, near-neutral pH and little absorption make the colon the main site of microbial fermentation. Density climbs along the tract and peaks there, which is why fibre fermentation happens in the colon."
+        feedback: "Density climbs along the tract and peaks in the colon, where slow transit, near-neutral pH and little absorption make it the main site of microbial fermentation."
       - text: "The stomach, because the acid helps bacteria grow."
         correct: false
         feedback: "Stomach acid keeps microbial numbers low. The colon is the dense site."
@@ -42,7 +42,7 @@ questions:
     options:
       - text: "Butyrate, because it fuels the colonocytes."
         correct: true
-        feedback: "Butyrate is the least abundant of the three SCFAs but the most important locally, which makes this an easy question to get wrong by reasoning from abundance."
+        feedback: "Butyrate is the least abundant of the three SCFAs, but most of it is used locally as the colonocytes' main fuel."
       - text: "Acetate, because it's the most abundant."
         correct: false
         feedback: "Acetate is the most abundant, but it travels systemically. The colonocyte's fuel is butyrate."

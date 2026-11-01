@@ -37,9 +37,8 @@ and continues.
 ## The authoring process
 
 The manuscript was drafted with Anthropic's Claude models, run through Claude Code, an agentic
-command-line assistant, under close human direction. Rather than one-shot generation, the work used a
-deliberately adversarial, multi-agent process built to catch the failure modes these models are known
-for. The process had four stages:
+command-line assistant, under close human direction. The work used a deliberately adversarial,
+multi-agent process built to catch the failure modes these models are known for. The process had four stages:
 
 1. For each topic, a fan-out of research agents first assembled a source-backed dossier. A separate
    "refuter" agent then re-checked every citation independently, because language models are prone to

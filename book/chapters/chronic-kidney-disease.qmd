@@ -108,7 +108,7 @@ balance accumulation against wasting, which is why a specialist sets it.
 
 ## Dietary management: medical nutrition therapy in CKD {#sec-ckd-levers}
 
-Renal nutrition is individualised medical nutrition therapy, so the same food can be encouraged in one patient and limited in another. The plan depends on the stage of disease, on whether the patient is on dialysis and which kind, on their potassium and phosphate blood levels, and on their nutritional state. The KDOQI nutrition guideline recommends that it be delivered by a registered dietitian working closely with the doctor [@kdoqi2020nutrition]. The five dietary components are taken in turn below: protein, sodium, potassium, phosphate and fluid.
+Renal nutrition is individualised medical nutrition therapy, so the same food can be encouraged in one patient and limited in another. The plan depends on the stage of disease, on whether the patient is on dialysis and which kind, on their potassium and phosphate blood levels, and on their nutritional state. The KDOQI nutrition guideline recommends that it be delivered by a registered dietitian working closely with the doctor [@kdoqi2020nutrition].
 
 ### Protein: targets before and on dialysis {#sec-ckd-protein}
 
@@ -116,7 +116,7 @@ Protein is a commonly misunderstood part of the renal diet, because the advice r
 Before dialysis, protein is modestly restricted to reduce the waste load on failing kidneys; once a patient starts
 dialysis, which is itself catabolic and removes protein, the target is raised again
 [@kdoqi2020nutrition; @lambert2022kdoqicommentary]. Because the same patient needs opposite advice at
-different stages, the clinician recognises that protein needs change with stage and refers the patient for the target to be set.
+different stages, the clinician refers the patient for the target to be set.
 
 The evidence on whether protein restriction slows kidney disease supports at most a qualified benefit. The large MDRD (Modification of Diet in Renal Disease)
 study found only a small, statistically fragile effect on the decline in kidney function in its
@@ -126,7 +126,7 @@ secondary analysis [@klahr1994mdrd; @levey1999mdrd].
 ::: {.callout-warning}
 ## Is a low-protein diet always good for the kidneys?
 The belief follows from the waste-load reasoning above: if failing kidneys clear less of the waste
-of protein, less protein seems better. Applied reflexively, it can do real harm. If protein is cut without
+of protein, less protein seems better. Applied reflexively, the reasoning can cause harm. If protein is cut without
 safeguarding energy intake and without monitoring, patients, especially older ones, can develop
 protein-energy wasting. This defined syndrome of low body and muscle mass, poor intake and abnormal
 blood chemistry is common on dialysis (roughly a third to a half of patients) and strongly linked to
@@ -284,8 +284,7 @@ rates of diabetes-driven kidney failure in the world: about 6 people a day start
 failure, over 9,000 are on dialysis, and roughly 2 in 3 new cases are due to diabetes [@nkfsKeyStats;
 @leo2020dialysissg]. Local CKD prevalence is closely linked to the cardiometabolic risk factors: it is far higher
 in people with diabetes or hypertension than in those without, and is projected to rise toward 1 in 4
-residents as those conditions climb [@ho2024stemmingckd; @wong2018ckdprojection]. The largest benefit for
-the kidney therefore comes years earlier, from the control of diabetes and blood pressure.
+residents as those conditions climb [@ho2024stemmingckd; @wong2018ckdprojection].
 
 **Diabetes prevention is also CKD prevention.** Because diabetic kidney disease accounts for most
 new dialysis starts, the national War on Diabetes is also a central CKD-prevention strategy

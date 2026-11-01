@@ -76,7 +76,7 @@ organs:
     hx: 300
     hy: 2080
     hr: 150
-    what: "The main site of digestion and absorption (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice finish digestion, brush-border enzymes complete it, and nutrients are absorbed across a huge folded surface."
+    what: "The main site of digestion and absorption (~3 m: duodenum → jejunum → ileum). Bile and pancreatic juice carry out much of digestion, brush-border enzymes complete it, and nutrients are absorbed across a huge folded surface."
     secretes: "Brush-border enzymes on the villi: lactase, sucrase and maltase (sugars) and peptidases (peptides), the final step of digestion before absorption."
     absorbs: "Sugars and amino acids into portal blood; fats via micelles → chylomicrons → lymph. Iron is taken up in the duodenum; vitamin B12 (with intrinsic factor) and recycled bile salts at the terminal ileum."
     note: "Folds, villi and microvilli give roughly 30 m² of surface, about half a badminton court; textbooks long claimed a tennis court."

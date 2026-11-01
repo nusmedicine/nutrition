@@ -57,7 +57,7 @@ or doses are needed.
 
 Two kinds of brain damage, neurodegeneration and cerebral small-vessel disease, usually occur together in dementia.
 
-The first is **neurodegeneration**, the dominant process in Alzheimer's disease: two abnormal proteins accumulate (**amyloid-β** in plaques between neurons and **tau** in tangles inside them), with loss of synapses and neurons and brain atrophy. Its exact causal chain is still debated, so the amyloid-and-tau account remains the leading model.
+The first is **neurodegeneration**, the dominant process in Alzheimer's disease: two abnormal proteins accumulate (**amyloid-β** in plaques between neurons and **tau** in tangles inside them), with loss of synapses and neurons and brain atrophy. The amyloid-and-tau account is the leading model, although its exact causal chain is still debated.
 
 The second is vascular: damage to the brain's small blood vessels, called **cerebral small-vessel
 disease**. Chronic hypertension damages blood vessels and drives stroke (see the
@@ -73,7 +73,7 @@ brain atrophy [@biessels2014diabetesmri]. There is no separate "diabetic dementi
 
 ![Two kinds of damage usually combine to produce dementia. Neurodegeneration (amyloid plaques and tau tangles) and cerebral small-vessel disease (from hypertension and diabetes) each push the brain toward a clinical threshold; because their injury adds together, reducing the vascular load lowers the total burden and can keep a person below that threshold for longer.](/figures/mechanisms/dementia-two-pathways.svg){#fig-two-pathways}
 
-The two processes rarely occur alone. In older people with dementia, **mixed pathology**, more than one disease
+In older people with dementia, **mixed pathology**, more than one disease
 process in the same brain, is the rule: in a community autopsy study, more than half of those who had
 dementia had more than one pathology, most often Alzheimer changes plus infarcts
 [@schneider2007mixed]. The safest reading is that the two kinds of damage add up: vascular injury
@@ -171,12 +171,11 @@ A claim deserves scepticism when it rests on a blood or scan marker, a small pil
 
 ### Non-dietary modifiable risk factors {#sec-dementia-beyond}
 
-The worried-well patient should hear about all the options, and some of the strongest preventive measures are
-not dietary:
+The worried-well patient should also hear about the measures beyond diet:
 
 - physical activity, a core recommendation for brain health that works partly through the same
   vessels (see the [*Healthy ageing*](healthy-ageing.qmd) chapter on exercise in older adults);
-- correcting hearing and vision, which matters more than most people expect: uncorrected hearing loss
+- correcting hearing and vision: uncorrected hearing loss
   is one of the largest single modifiable contributors to dementia risk, so "get your hearing and eyes
   checked" is concrete, useful advice;
 - staying socially and mentally engaged, and treating depression and sleep problems.
@@ -192,15 +191,13 @@ Vascular risk control has the strongest trial evidence: in SPRINT MIND, intensiv
 reduced mild cognitive impairment, although the trial was underpowered to show fewer cases of dementia
 itself. Diabetes injures the same small vessels, so glucose control acts on the same vascular pathway.
 The MIND diet's halved risk came from cohorts, which confounding and reverse causation can inflate,
-and it was not confirmed in a three-year randomised trial. A Mediterranean-style pattern is still worth
-recommending as a low-risk, heart-healthy choice, although it has not been shown to prevent dementia.
+and it was not confirmed in a three-year randomised trial.
 :::
 
 ::: {.callout-tip collapse="true"}
 ## Check yourself: B vitamins slowed brain atrophy on scans in a small study. Why is that not a reason to recommend them?
 Brain atrophy on a scan is a marker, and a change in a marker does not show a benefit to memory. When B vitamins were tested in large trials,
-they brought no benefit to memory or thinking. A claim that rests on a blood or scan marker, a small
-pilot or an after-the-fact subgroup deserves scepticism.
+they brought no benefit to memory or thinking.
 :::
 
 ## Eating difficulties and weight loss in advanced dementia {#sec-dementia-advanced}
